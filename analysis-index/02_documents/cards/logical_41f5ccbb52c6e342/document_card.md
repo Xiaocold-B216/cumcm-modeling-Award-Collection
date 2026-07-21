@@ -1,7 +1,7 @@
 # 2004B：电力市场输电阻塞管理模型-武汉大学
 
 - 年份：2004
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：B
 - 模型候选：待核验
