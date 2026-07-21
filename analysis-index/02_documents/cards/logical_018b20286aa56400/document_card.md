@@ -1,8 +1,8 @@
 # 2005A：长江水质的评价和预测
 
 - 年份：2005
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：A
 - 模型候选：regression
 - 算法候选：待核验
