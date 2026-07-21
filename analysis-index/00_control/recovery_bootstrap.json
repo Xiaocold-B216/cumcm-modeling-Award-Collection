@@ -1,0 +1,12 @@
+{
+  "recovery_mode": true,
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "lost_workspace": "/workspace/scratch/45de378af686/repo",
+  "previous_local_checkpoints_unavailable": [
+    "cba3e66a813deb5f34687d0e5864b52be05a4cf7",
+    "1b1d7bdd4d8e06792dad05391dc3a94538d5c2d7"
+  ],
+  "analysis_branch": "analysis/corpus-index",
+  "status": "rebuild_started",
+  "remote_persistence_verified": false
+}
