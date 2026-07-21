@@ -1,0 +1,215 @@
+{
+  "logical_document_id": "logical_0f27e0199c24dcdd",
+  "page_number_basis": "carrier-local, 1-based",
+  "pages": [
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 1,
+      "rotation": 0,
+      "text_chars": 717,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 2,
+      "rotation": 0,
+      "text_chars": 4678,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 3,
+      "rotation": 0,
+      "text_chars": 1300,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 4,
+      "rotation": 0,
+      "text_chars": 827,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 5,
+      "rotation": 0,
+      "text_chars": 1117,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 2,
+      "page": 6,
+      "rotation": 0,
+      "text_chars": 675,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 2,
+      "page": 7,
+      "rotation": 0,
+      "text_chars": 999,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 8,
+      "rotation": 0,
+      "text_chars": 888,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 9,
+      "rotation": 0,
+      "text_chars": 689,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 10,
+      "rotation": 0,
+      "text_chars": 1592,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 11,
+      "rotation": 0,
+      "text_chars": 965,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 12,
+      "rotation": 0,
+      "text_chars": 2993,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 2,
+      "page": 13,
+      "rotation": 0,
+      "text_chars": 989,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 14,
+      "rotation": 0,
+      "text_chars": 2366,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 15,
+      "rotation": 0,
+      "text_chars": 2039,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 16,
+      "rotation": 0,
+      "text_chars": 710,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 17,
+      "rotation": 0,
+      "text_chars": 1238,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 2,
+      "page": 18,
+      "rotation": 0,
+      "text_chars": 1055,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 2,
+      "page": 19,
+      "rotation": 0,
+      "text_chars": 1004,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 20,
+      "rotation": 0,
+      "text_chars": 929,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 21,
+      "rotation": 0,
+      "text_chars": 1189,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 2,
+      "page": 22,
+      "rotation": 0,
+      "text_chars": 1392,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 3,
+      "page": 23,
+      "rotation": 0,
+      "text_chars": 734,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 24,
+      "rotation": 0,
+      "text_chars": 1231,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 25,
+      "rotation": 0,
+      "text_chars": 1052,
+      "width": 595.0
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 26,
+      "rotation": 0,
+      "text_chars": 433,
+      "width": 595.0
+    }
+  ],
+  "representation_id": "representation_bdd5f7db1193c036"
+}

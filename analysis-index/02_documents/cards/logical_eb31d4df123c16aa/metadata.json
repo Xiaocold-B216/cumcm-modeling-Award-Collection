@@ -1,0 +1,208 @@
+{
+  "algorithms": [],
+  "analysis_eligibility": [
+    "metadata_statistics",
+    "result_pattern_statistics",
+    "structure_statistics",
+    "visualization_statistics"
+  ],
+  "article_order": 10,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_ec516b759d15dada"
+  ],
+  "completeness_status": "complete",
+  "corpus_eligibility": {
+    "award_paper_patterns": "excluded",
+    "problem_analysis": "included",
+    "reviewer_feedback": "excluded",
+    "validation_patterns": "excluded",
+    "visualization_patterns": "excluded"
+  },
+  "corpus_status": "candidate",
+  "document_role": "problem_statement",
+  "document_subtype": "none",
+  "entity_type": "logical_document",
+  "evidence_status": "content_verified_partial",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    }
+  ],
+  "logical_document_id": "logical_eb31d4df123c16aa",
+  "manual_overrides": false,
+  "models": [],
+  "page_count": 8,
+  "parse_status": "partially_parsed",
+  "parser_version": "0.5.1",
+  "problem_code": "A",
+  "problem_id": "problem_cumcm_2007_a",
+  "representation_quality": "candidate",
+  "role_classification": {
+    "classification_basis": [
+      "problem path/title"
+    ],
+    "confidence": 0.91,
+    "conflicting_signals": [],
+    "manually_verified": false,
+    "predicted_role": "problem_statement"
+  },
+  "schema_version": "1.4.1",
+  "segment_ids": [
+    "segment_4cba3a2017001600",
+    "segment_30147d11e0936f18",
+    "segment_7aeb9a60503f95bf",
+    "segment_f68d0ee93cf6703a",
+    "segment_e295181bd40b2533",
+    "segment_c84c0379bc0d370a",
+    "segment_29dedbfebdbac4e9",
+    "segment_156b3ace84efd720"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": null,
+  "source_path": "2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《人口增长预测模型》.pdf",
+  "text_layer_status": "native_text",
+  "title": "2007A：《人口增长预测模型》",
+  "updated_at": "2026-07-21T19:51:03Z",
+  "year": 2007
+}
