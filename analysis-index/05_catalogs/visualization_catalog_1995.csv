@@ -1,0 +1,8 @@
+﻿logical_document_id,figure_or_table_id,page,bbox,chart_type,purpose,supports_question,supports_claim,effective,reusable_pattern,evidence_status,representation_id
+logical_938f1e65b2cc2025,visual_2bb32286318b96a3,5,"[0,0,595.22,842.0]",result_table,compare direction adjustments,A,compare direction adjustments,yes,result_table,verified,representation_20de6d85b458c1fa
+logical_e280519b4d5ded48,visual_2ab1436af19db8c8,1,"[0,0,595.22,842.0]",formula_diagram,derive geometric separation,A,derive geometric separation,yes,formula_diagram,verified,representation_026874b3f5eab765
+logical_bed219a0068a819c,visual_9f271d14decd07dd,10,"[0,0,595.22,842.0]",schedule_chart,compare two schedules,B,compare two schedules,yes,schedule_chart,verified,representation_31ebaa7f2c8c63fa
+logical_0c83d8db5852ff4d,visual_72d65368651e7f3b,3,"[0,0,595.22,842.0]",petri_net,show places and transitions,B,show places and transitions,yes,petri_net,verified,representation_c6a79b6b5a0a1152
+logical_21f45ab1c72175a2,visual_edff12a98c2500c7,3,"[0,0,595.22,842.0]",activity_network,show timed activity schedule,B,show timed activity schedule,yes,activity_network,verified,representation_940b1f7b095e74a4
+logical_99578d348349fa0f,visual_8d0083459eb2e6f5,1,"[0,0,595.22,842.0]",ahp_hierarchy,rank scheduling schemes,B,rank scheduling schemes,yes,ahp_hierarchy,verified,representation_5f1c8a8ac3c3c1cc
+logical_83110abb013d1aee,visual_067c37e7716b5a9d,2,"[0,0,595.22,842.0]",probability_formula,propagate timing uncertainty,B,propagate timing uncertainty,yes,probability_formula,verified,representation_97408806fecd721b

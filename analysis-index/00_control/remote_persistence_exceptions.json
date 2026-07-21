@@ -1,5 +1,5 @@
 {
-  "checkpoint_scope": "through_1994_rebuilt",
+  "checkpoint_scope": "through_1995_rebuilt",
   "connector_decision": "year_scoped_remote_views",
   "deferred_global_aggregation_paths": [
     "analysis-index/02_documents/logical_documents.jsonl",
@@ -7,7 +7,12 @@
     "analysis-index/04_relations/solution_lineages.jsonl",
     "scripts/build_index.py",
     "scripts/apply_manual_review_1994.py",
-    "analysis-index/02_documents/page_segments_1994.jsonl"
+    "analysis-index/02_documents/page_segments_1994.jsonl",
+    "scripts/apply_manual_review_1995.py",
+    "analysis-index/02_documents/page_segments_1995.jsonl",
+    "analysis-index/02_documents/logical_documents_1995.jsonl",
+    "analysis-index/02_documents/1995_logical_document_manifest.csv",
+    "analysis-index/02_documents/missing_1995_b_pages_candidates.csv"
   ],
   "authoritative_remote_alternatives": [
     "analysis-index/02_documents/logical_documents_1993.jsonl",
@@ -18,9 +23,19 @@
     "analysis-index/02_documents/article_boundaries_1994.jsonl",
     "analysis-index/02_documents/cards/*/page_map.json",
     "analysis-index/04_relations/document_relations_1994.jsonl",
-    "analysis-index/04_relations/solution_lineages_1994.jsonl"
+    "analysis-index/04_relations/solution_lineages_1994.jsonl",
+    "analysis-index/02_documents/1995_logical_document_compact.csv",
+    "analysis-index/02_documents/cards/*/metadata.json",
+    "analysis-index/02_documents/cards/*/evidence.jsonl",
+    "analysis-index/02_documents/representations_1995.jsonl",
+    "analysis-index/02_documents/article_boundaries_1995.jsonl",
+    "analysis-index/02_documents/carrier_absorptions_1995.jsonl",
+    "analysis-index/02_documents/orphan_segments_1995.jsonl",
+    "analysis-index/02_documents/cards/*/page_map.json",
+    "analysis-index/04_relations/document_relations_1995.jsonl",
+    "analysis-index/04_relations/solution_lineages_1995.jsonl"
   ],
-  "reason": "GitHub connector rejected large global aggregations, the unified parser, the 1994 manual-review script, and the 59 KB 1994 page-segment aggregation because their displayed content was truncated and could not be fully audited. Remote checkpoints therefore use smaller year-scoped records, per-document page maps, article boundaries and representations. The stale automatic 1994 page-segment path was removed remotely. Complete aggregations and scripts remain in the verified downloadable recovery package.",
+  "reason": "GitHub connector rejects large/truncated blobs. Remote checkpoints therefore use smaller year-scoped records, per-document page maps, article boundaries, representations, orphan and absorption views. Large global aggregations, unified parser, manual-review scripts and page-segment aggregations remain in the verified downloadable recovery package. No stale automatic year record is treated as authoritative.",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "status": "documented_nonblocking_remote_size_gate"
 }

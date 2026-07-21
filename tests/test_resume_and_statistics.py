@@ -105,6 +105,49 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         self.assertEqual("5", rows["model_assumptions:present"]["denominator"])
         self.assertEqual("5", rows["model_assumptions:absent"]["denominator"])
 
+    def test_1995_logical_roles_representations_and_missing_segment(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        docs = bi.read_jsonl(root / "02_documents/logical_documents_1995.jsonl")
+        self.assertEqual(18, len(docs))
+        self.assertEqual(Counter({"award_paper": 13, "expert_commentary": 2,
+                                  "problem_statement": 2, "solution_summary": 1}),
+                         Counter(d["document_role"] for d in docs))
+        reps = bi.read_jsonl(root / "02_documents/representations_1995.jsonl")
+        self.assertEqual(30, len(reps))
+        self.assertEqual(18, sum(bool(r["preferred_representation"]) for r in reps))
+        missing = next(d for d in docs if d["title"] == "天车与冶炼炉的作业调度")
+        self.assertEqual("missing_segment", missing["completeness_status"])
+        self.assertEqual("content_verified_partial", missing["evidence_status"])
+        requests = bi.read_jsonl(root / "02_documents/missing_segment_requests.jsonl")
+        self.assertIn("missing_1995_b_scheduling_pages_41_50", {r["request_id"] for r in requests})
+
+    def test_1995_unknown_not_absent_and_field_denominators(self):
+        path = Path(__file__).resolve().parents[1] / "analysis-index/06_statistics/yearly/1995_statistics.csv"
+        with path.open(encoding="utf-8-sig", newline="") as fh:
+            rows = {r["metric"]: r for r in csv.DictReader(fh)}
+        self.assertEqual("1", rows["final_solution:unknown"]["numerator"])
+        self.assertEqual("12", rows["final_solution:eligible_denominator"]["numerator"])
+        self.assertEqual("8", rows["visualization:present"]["numerator"])
+        self.assertEqual("12", rows["visualization:eligible_denominator"]["numerator"])
+        self.assertEqual("7", rows["model_validation:present"]["numerator"])
+
+    def test_1995_same_page_boundaries_and_orphan_are_preserved(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        boundaries = bi.read_jsonl(root / "02_documents/article_boundaries_1995.jsonl")
+        self.assertEqual(15, len(boundaries))
+        self.assertEqual(8, sum(bool(b["same_page_boundary"]) for b in boundaries))
+        self.assertTrue(all(b["manually_verified"] for b in boundaries))
+        orphans = [o for o in bi.read_jsonl(root / "02_documents/orphan_segments.jsonl") if int(o.get("year", 0)) == 1995]
+        self.assertEqual(1, len(orphans))
+        self.assertEqual("preserved", orphans[0]["preservation_status"])
+
+    def test_1995_validation_summary_uses_subtype_not_new_role(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        docs = bi.read_jsonl(root / "02_documents/logical_documents_1995.jsonl")
+        summary = next(d for d in docs if d["document_role"] == "solution_summary")
+        self.assertEqual("validation_summary", summary["document_subtype"])
+        self.assertEqual("included", summary["corpus_eligibility"]["validation_patterns"])
+
 
 if __name__ == "__main__":
     unittest.main()

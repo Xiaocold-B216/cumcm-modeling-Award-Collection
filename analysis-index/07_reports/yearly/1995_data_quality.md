@@ -1,20 +1,14 @@
 # 1995数据质量
 
-| logical_document_id | role | parse | evidence | segmentation | completeness |
-|---|---|---|---|---|---|
-| `logical_05a5062a50139e92` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_b6acae25749257ab` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_9f945f98f745580b` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_37ad5278cf83ae25` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_5becaefa80a409cf` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_97505189fac79071` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_bba509cf17487fde` | expert_commentary | pending_manual_review | unverified | not_required | complete |
-| `logical_416c76eade99cf8c` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_9d670a58cec2133e` | solution_summary | pending_manual_review | unverified | not_required | complete |
-| `logical_67bd94bf2b4c9e51` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_c9a848a47c2cf7bb` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_f126fdeaaa603d1d` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_c40853eb30720da2` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_bd15714df48bb6c3` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_f5e1b365af110fb1` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_26766a705aa62347` | problem_statement | partially_parsed | unverified | not_required | complete |
+| 项目 | 结果 |
+|---|---|
+| carrier coverage | 16/16 |
+| logical documents | 18/18人工确认角色和边界 |
+| representations | 30；首选18，非首选局部重复12 |
+| scanned articles | 16篇论文/评注/摘要均未执行全篇中文OCR |
+| native problem statements | 2篇parsed + verified |
+| missing segment | 1篇：刊物第41—50页 |
+| orphan segment | 1个：随机性分析末页下部的1994锁具文章 |
+| unknown policy | 缺页及未核验字段保持unknown，不计为absent |
+
+关键页、公式、表格、图和边界来自逐页渲染及人工视觉核验；扫描论文保持partially_parsed。
