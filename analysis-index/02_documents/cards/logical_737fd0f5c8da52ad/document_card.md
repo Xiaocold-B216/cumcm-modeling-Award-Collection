@@ -1,7 +1,7 @@
 # 1996B：洗衣机的节水优化模型
 
 - 年份：1996
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：B
 - 模型候选：待核验
