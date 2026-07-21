@@ -1,0 +1,55 @@
+{
+  "logical_document_id": "logical_46090ef9f7cc9ddf",
+  "page_number_basis": "carrier-local, 1-based",
+  "pages": [
+    {
+      "height": 705.0,
+      "image_count": 2,
+      "page": 1,
+      "rotation": 0,
+      "text_chars": 2024,
+      "width": 475.0
+    },
+    {
+      "height": 705.0,
+      "image_count": 2,
+      "page": 2,
+      "rotation": 0,
+      "text_chars": 1809,
+      "width": 475.0
+    },
+    {
+      "height": 705.0,
+      "image_count": 6,
+      "page": 3,
+      "rotation": 0,
+      "text_chars": 802,
+      "width": 475.0
+    },
+    {
+      "height": 705.0,
+      "image_count": 3,
+      "page": 4,
+      "rotation": 0,
+      "text_chars": 1642,
+      "width": 475.0
+    },
+    {
+      "height": 705.0,
+      "image_count": 4,
+      "page": 5,
+      "rotation": 0,
+      "text_chars": 1514,
+      "width": 475.0
+    },
+    {
+      "height": 705.0,
+      "image_count": 2,
+      "page": 6,
+      "rotation": 0,
+      "text_chars": 2053,
+      "width": 475.0
+    }
+  ],
+  "representation_id": "representation_30797e3cdef274a7"
+}
