@@ -1,5 +1,5 @@
 {
-  "completed_years": [
+  "candidate_layer_years": [
     1992,
     1993,
     1994,
@@ -20,6 +20,7 @@
     2009,
     2010
   ],
+  "completed_years": [],
   "conclusion_level": "descriptive_observation",
   "scope": "1992-2010",
   "unresolved_items": 326,

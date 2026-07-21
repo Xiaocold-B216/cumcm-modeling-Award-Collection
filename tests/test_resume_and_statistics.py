@@ -1,4 +1,6 @@
 import unittest
+import json
+from pathlib import Path
 
 from scripts import build_index as bi
 
@@ -18,6 +20,14 @@ class ResumeAndStatisticsTests(unittest.TestCase):
     def test_analysis_eligibility_dimensions(self):
         self.assertIn("algorithm_statistics", bi.ELIGIBILITY_KEYS)
         self.assertIn("reviewer_feedback_statistics", bi.ELIGIBILITY_KEYS)
+
+    def test_candidate_layers_are_not_completed_years(self):
+        root = Path(__file__).resolve().parents[1]
+        checkpoint = json.loads(
+            (root / "analysis-index/09_checkpoints/summary_checkpoint.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual([], checkpoint["completed_years"])
+        self.assertEqual(list(range(1992, 2011)), checkpoint["candidate_layer_years"])
 
 
 if __name__ == "__main__":

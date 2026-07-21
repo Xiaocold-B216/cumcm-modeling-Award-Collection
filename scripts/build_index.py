@@ -981,7 +981,8 @@ def update_progress(year: int, status: str) -> None:
         "schema_version": SCHEMA_VERSION, "parser_version": PARSER_VERSION, "completed_years": completed,
         "candidate_layer_years": candidate_layers,
         "year_status": {**progress.get("year_status", {}), str(year): status},
-        "next_recommended_year": next((y for y in YEARS if y not in candidate_layers), None), "target_end_year": 2010,
+        "next_recommended_year": next((y for y in YEARS if y not in completed), None),
+        "next_candidate_year": next((y for y in YEARS if y not in candidate_layers), None), "target_end_year": 2010,
         "remote_publish_status": "pending_phase_commit", "updated_at": now()})
     write_json(CONTROL / "progress.json", progress)
 
@@ -995,13 +996,17 @@ def build_summary() -> dict[str, Any]:
             with path.open(encoding="utf-8-sig") as fh: rows.extend(csv.DictReader(fh))
         unresolved.extend(read_jsonl(QUALITY / "unresolved" / f"{year}_manual_review_queue.jsonl"))
     write_csv(STATISTICS / "cross_year" / "1992_2010_statistics.csv", rows)
-    completed = [y for y in YEARS if (CHECKPOINTS / f"{y}_checkpoint.json").exists()]
-    summary = {"scope": "1992-2010", "completed_years": completed, "unresolved_items": len(unresolved),
+    progress = read_json(CONTROL / "progress.json", {})
+    completed = progress.get("completed_years", [])
+    candidates = progress.get("candidate_layer_years", [])
+    summary = {"scope": "1992-2010", "completed_years": completed,
+               "candidate_layer_years": candidates, "unresolved_items": len(unresolved),
                "conclusion_level": "descriptive_observation", "updated_at": now()}
     write_json(CHECKPOINTS / "summary_checkpoint.json", summary)
     (REPORTS / "cross_year" / "1992_2010_rebuild_and_analysis_summary.md").write_text(
         "# 1992—2010重建与分析汇总\n\n"
-        f"已生成年度候选层：{completed}。跨年结论仅标记为 `descriptive_observation`；"
+        f"已生成年度候选层：{candidates}。人工核验完成年份：{completed}。"
+        "跨年结论仅标记为 `descriptive_observation`；"
         "不得把收录规模、扫描质量或OCR可用性差异解释为方法趋势。\n", encoding="utf-8")
     (REPORTS / "cross_year" / "1992_2010_data_quality.md").write_text(
         f"# 1992—2010数据质量\n\n待人工复核记录：{len(unresolved)}。\n", encoding="utf-8")
