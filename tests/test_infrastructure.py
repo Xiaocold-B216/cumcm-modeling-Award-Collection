@@ -21,6 +21,11 @@ class InfrastructureTests(unittest.TestCase):
         self.assertEqual(bi.classify_role("冶炼车间最优调度模型的检验.pdf")[:2],
                          ("solution_summary", "validation_summary"))
 
+    def test_candidate_pdf_excludes_administrative_and_attachment_pdfs(self):
+        self.assertTrue(bi.candidate_pdf("2010年/2010年优秀论文/A001.pdf"))
+        self.assertFalse(bi.candidate_pdf("2015年/赛题/D题附件2.pdf"))
+        self.assertFalse(bi.candidate_pdf("2017年/全国大学生数学建模竞赛论文格式规范.pdf"))
+
     def test_unknown_is_never_absent_or_eligible(self):
         rows = bi.feature_records("短文本", ["短文本"], "scanned_or_no_text", "award_paper")
         self.assertTrue(rows)
@@ -37,6 +42,12 @@ class InfrastructureTests(unittest.TestCase):
         check = bi.verify_source()
         self.assertEqual(check["original_source_modifications"], 0)
         self.assertEqual(len(bi.baseline_entries()), 3614)
+
+    def test_unicode_baseline_paths_are_real_checkout_paths(self):
+        entries = bi.baseline_entries()
+        chinese = next(row for row in entries if "1992年" in row["relative_path"])
+        self.assertFalse(chinese["relative_path"].startswith('"'))
+        self.assertTrue((ROOT / chinese["relative_path"]).exists())
 
     def test_schema_files_are_readable(self):
         bi.ensure_dirs()

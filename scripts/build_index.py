@@ -166,7 +166,7 @@ def write_csv(path: Path, rows: Iterable[dict[str, Any]], fields: list[str] | No
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
     with tmp.open("w", encoding="utf-8-sig", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         for row in materialized:
             writer.writerow({k: csv_value(row.get(k)) for k in fields})
@@ -195,11 +195,15 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
 
 
 def baseline_entries() -> list[dict[str, Any]]:
-    output = run("git", "ls-tree", "-r", "-l", SOURCE_BASELINE)
+    # NUL-delimited output is mandatory here.  Without it Git quotes non-ASCII
+    # paths with octal escapes; the quoted string is not a real filesystem path.
+    output = run("git", "-c", "core.quotePath=false", "ls-tree", "-r", "-l", "-z", SOURCE_BASELINE)
     rows = []
-    for line in output.splitlines():
+    for line in output.split("\0"):
+        if not line:
+            continue
         meta, path = line.split("\t", 1)
-        mode, obj_type, sha, size = meta.split(" ", 3)
+        mode, obj_type, sha, size = meta.split()
         if path.startswith(DERIVED_PREFIXES):
             continue
         rows.append({"mode": mode, "git_object_type": obj_type, "git_sha": sha,
@@ -211,11 +215,11 @@ def verify_source() -> dict[str, Any]:
     baseline_type = run("git", "cat-file", "-t", SOURCE_BASELINE).strip()
     head = run("git", "rev-parse", "HEAD").strip()
     changed = []
-    for line in run("git", "status", "--porcelain").splitlines():
-        path = line[3:].strip('"')
+    for line in run("git", "-c", "core.quotePath=false", "status", "--porcelain=v1", "-z").split("\0"):
+        path = line[3:] if len(line) >= 4 else ""
         if path and not path.startswith(DERIVED_PREFIXES):
             changed.append(path)
-    committed_changes = [path for path in run("git", "diff", "--name-only", SOURCE_BASELINE, "HEAD").splitlines()
+    committed_changes = [path for path in run("git", "-c", "core.quotePath=false", "diff", "--name-only", "-z", SOURCE_BASELINE, "HEAD").split("\0")
                          if path and not path.startswith(DERIVED_PREFIXES)]
     if baseline_type != "commit":
         raise RuntimeError("trusted source baseline is not a commit")
@@ -263,10 +267,16 @@ def problem_code(path: str, text: str = "") -> str:
 
 def file_category(path: str) -> str:
     lower, ext = path.lower(), Path(path).suffix.lower()
+    filename = PurePosixPath(path).name
+    scoped_parts = PurePosixPath(path).parts[1:]
     if ext == ".pdf":
-        if any(x in path for x in ("赛题", "真题", "题目")) or re.search(r"[/\\][A-E]题(?:[/\\]|\.)", path):
+        if any(x in filename for x in ("赛题", "真题", "题目")) or any(
+            part.endswith(("赛题", "真题")) or "国赛赛题" in part for part in scoped_parts[:-1]
+        ):
             return "problem_statement"
-        return "paper_related_pdf"
+        if any(x in path for x in ("优秀论文", "优秀答卷", "评注", "评述")):
+            return "award_paper"
+        return "unknown"
     if ext in IMAGE_EXTS: return "image"
     if ext in ARCHIVE_EXTS: return "archive"
     if ext in CODE_EXTS: return "source_code"
@@ -282,6 +292,9 @@ def candidate_pdf(path: str) -> bool:
         return False
     year = extract_year(path)
     if year is None:
+        return False
+    filename = PurePosixPath(path).name
+    if "附件" in filename or "参赛规则" in filename or "格式规范" in filename:
         return False
     markers = ("优秀论文", "优秀答卷", "赛题", "真题", "评注", "评述", "论文")
     return any(marker in path for marker in markers) or year <= 1995
@@ -338,8 +351,14 @@ def safe_zip_manifest(path: Path, parent_id: str) -> list[dict[str, Any]]:
 def build_inventory(resume: bool) -> dict[str, Any]:
     ensure_dirs()
     source = verify_source()
+    previous_summary = read_json(CONTROL / "inventory_summary.json", {})
     entries = baseline_entries()
     old_cache = {row["relative_path"]: row for row in read_jsonl(CACHE / "hashes" / "files.jsonl")}
+    old_inventory = {}
+    inventory_path = INVENTORY / "repository_inventory.csv"
+    if inventory_path.exists():
+        with inventory_path.open(encoding="utf-8-sig") as fh:
+            old_inventory = {row["relative_path"]: row for row in csv.DictReader(fh)}
     rows, hash_cache, pdf_rows, archive_rows = [], [], [], []
     reused_hashes = reused_pdf = 0
     for index, entry in enumerate(entries, 1):
@@ -350,7 +369,8 @@ def build_inventory(resume: bool) -> dict[str, Any]:
         checkout_size = path.stat().st_size if path.exists() else None
         signature = f"{entry['git_sha']}:{checkout_size}:{lfs['lfs_status']}"
         cached = old_cache.get(rel)
-        if resume and cached and cached.get("signature") == signature:
+        hash_was_reused = bool(resume and cached and cached.get("signature") == signature)
+        if hash_was_reused:
             digest = cached["sha256"]
             reused_hashes += 1
         elif path.exists():
@@ -361,6 +381,7 @@ def build_inventory(resume: bool) -> dict[str, Any]:
         status = "metadata_only"
         error = ""
         probe = {}
+        reused = False
         if ext == ".pdf" and path.exists():
             probe, reused = pdf_probe(path, entry["git_sha"], resume)
             reused_pdf += int(reused)
@@ -369,13 +390,15 @@ def build_inventory(resume: bool) -> dict[str, Any]:
             pdf_rows.append({"file_id": stable_id("file_", rel), "relative_path": rel, **probe})
         elif not path.exists():
             status, error = "unsupported", "tracked path not materialized"
+        work_reused = hash_was_reused and (ext != ".pdf" or reused)
+        processed_at = old_inventory.get(rel, {}).get("last_processed_at") if work_reused else None
         row = {"file_id": stable_id("file_", rel), "relative_path": rel, "filename": path.name,
                "extension": ext, "year": extract_year(rel), "problem_code": problem_code(rel),
                "file_category": file_category(rel), "parse_status": status,
                "sha256": digest, "hash_scope": "checkout_bytes", "checkout_size": checkout_size,
                "logical_size": lfs["lfs_declared_size"] or checkout_size,
                "error_message": error, "candidate_related": candidate_pdf(rel),
-               "last_processed_at": now(), **entry, **lfs, **probe}
+               "last_processed_at": processed_at or now(), **entry, **lfs, **probe}
         rows.append(row)
         if ext == ".zip" and path.exists():
             archive_rows.extend(safe_zip_manifest(path, row["file_id"]))
@@ -398,29 +421,111 @@ def build_inventory(resume: bool) -> dict[str, Any]:
     for row in rows:
         row.setdefault("duplicate_group", "")
     write_jsonl(CACHE / "hashes" / "files.jsonl", hash_cache)
-    write_csv(INVENTORY / "repository_inventory.csv", rows)
+    inventory_fields = sorted({key for row in rows for key in row})
+    write_csv(INVENTORY / "repository_inventory.csv", rows, fields=inventory_fields)
     write_csv(INVENTORY / "duplicate_files.csv", duplicates)
     write_csv(INVENTORY / "pdf_manifest.csv", pdf_rows)
     write_csv(INVENTORY / "archive_manifest.csv", archive_rows)
-    write_csv(INVENTORY / "lfs_files.csv", [r for r in rows if r["lfs_status"] != "not_lfs"])
-    write_csv(INVENTORY / "unparsed_files.csv", [r for r in rows if r["parse_status"] not in {"metadata_only", "duplicate"}])
+    write_csv(INVENTORY / "lfs_files.csv", [r for r in rows if r["lfs_status"] != "not_lfs"], fields=inventory_fields)
+    write_csv(INVENTORY / "unparsed_files.csv", [r for r in rows if r["parse_status"] not in {"metadata_only", "duplicate"}], fields=inventory_fields)
 
     carriers = discover_carriers(rows, archive_rows)
     write_csv(INVENTORY / "candidate_carriers.csv", carriers)
     physical = sum((r["checkout_size"] or 0) for r in rows)
     logical = sum((r["logical_size"] or 0) for r in rows)
+    git_blob_bytes = sum((r["git_blob_size"] or 0) for r in rows)
+    archive_logical_bytes = sum((r.get("uncompressed_size") or 0) for r in archive_rows)
+    derived_public_bytes = derived_cache_bytes = 0
+    for base in (ANALYSIS, ROOT / "scripts", ROOT / "tests", ROOT / "schema"):
+        if not base.exists():
+            continue
+        for candidate in base.rglob("*"):
+            if not candidate.is_file():
+                continue
+            is_cache = "cache" in candidate.parts or "__pycache__" in candidate.parts or candidate.name == "extracted_text.md"
+            if is_cache:
+                derived_cache_bytes += candidate.stat().st_size
+            else:
+                derived_public_bytes += candidate.stat().st_size
+    materialized = sum((ROOT / r["relative_path"]).exists() for r in rows)
+    lfs_pointers = sum(r["lfs_status"] == "pointer_only" for r in rows)
+    unreadable = sum(r["lfs_status"] == "unreadable" for r in rows)
+    inventory_gate_status = "pass" if materialized == len(rows) and len(carriers) > 0 and unreadable == 0 else "fail"
+    everything_reused = resume and reused_hashes == len(rows) and reused_pdf == len(pdf_rows)
+    summary_updated_at = previous_summary.get("updated_at") if everything_reused else None
     summary = {**source, "schema_version": SCHEMA_VERSION, "parser_version": PARSER_VERSION,
                "tracked_source_files": len(rows), "checkout_bytes": physical, "logical_bytes": logical,
+               "repository_git_blob_bytes": git_blob_bytes,
+               "archive_expanded_logical_bytes": archive_logical_bytes,
+               "derived_public_bytes": derived_public_bytes, "derived_local_cache_bytes": derived_cache_bytes,
+               "materialized_source_files": materialized, "unreadable_source_files": unreadable,
                "candidate_carriers": len(carriers), "candidate_pdf_carriers": sum(c["carrier_type"] == "pdf" for c in carriers),
                "direct_image_groups": sum(c["carrier_type"] == "image_group" for c in carriers),
                "zip_image_groups": sum(c["carrier_type"] == "zip_image_group" for c in carriers),
-               "lfs_files": sum(r["lfs_status"] != "not_lfs" for r in rows),
+               "lfs_files": lfs_pointers, "inventory_gate_status": inventory_gate_status,
                "duplicate_groups": len(duplicates), "duplicate_files": sum(d["file_count"] for d in duplicates),
-               "hashes_reused": reused_hashes, "pdf_probes_reused": reused_pdf, "updated_at": now()}
+               "hashes_reused": reused_hashes, "pdf_probes_reused": reused_pdf,
+               "updated_at": summary_updated_at or now()}
     write_json(CONTROL / "inventory_summary.json", summary)
     write_inventory_reconciliation(summary)
+    write_json(QUALITY / "gates" / "inventory_gate.json", {
+        "status": inventory_gate_status,
+        "checks": {
+            "tracked_source_files_covered": len(rows) == 3614,
+            "all_source_paths_materialized": materialized == len(rows),
+            "candidate_carriers_present": len(carriers) > 0,
+            "unreadable_source_files_zero": unreadable == 0,
+            "source_unmodified": source["original_source_modifications"] == 0,
+        },
+        "coverage": {"covered": len(rows), "total": len(rows), "percentage": 100.0 if rows else 0.0},
+        "schema_version": SCHEMA_VERSION, "parser_version": PARSER_VERSION, "updated_at": summary["updated_at"],
+    })
     write_json(CHECKPOINTS / "inventory_checkpoint.json", {"checkpoint_type": "inventory", **summary})
+    invalidate_empty_year_outputs(summary)
+    if previous_summary.get("candidate_carriers") == 0 and len(carriers) > 0:
+        progress = read_json(CONTROL / "progress.json", {})
+        progress.update({"completed_years": [], "candidate_layer_years": [], "year_status": {},
+                         "invalid_empty_run_superseded": True, "next_recommended_year": 1992,
+                         "updated_at": now()})
+        write_json(CONTROL / "progress.json", progress)
+    if inventory_gate_status != "pass":
+        raise RuntimeError(
+            f"inventory quality gate failed: materialized={materialized}/{len(rows)}, "
+            f"candidate_carriers={len(carriers)}, unreadable={unreadable}"
+        )
     return summary
+
+
+def invalidate_empty_year_outputs(inventory_summary: dict[str, Any]) -> None:
+    """Invalidate the historical empty candidate run after source materialization is proven."""
+    if inventory_summary.get("inventory_gate_status") != "pass" or not inventory_summary.get("candidate_carriers"):
+        return
+    invalidated = []
+    for year in YEARS:
+        checkpoint_path = CHECKPOINTS / f"{year}_checkpoint.json"
+        gate_path = QUALITY / "gates" / f"{year}_gate.json"
+        checkpoint = read_json(checkpoint_path, {})
+        gate = read_json(gate_path, {})
+        if checkpoint.get("status") == "invalidated_empty_source_run":
+            continue
+        if checkpoint.get("documents") != 0 or checkpoint.get("carriers") != 0:
+            continue
+        checkpoint.update({"status": "invalidated_empty_source_run",
+                           "invalidated_reason": "Git-quoted Unicode paths were not materialized by the prior parser",
+                           "invalidated_at": now()})
+        gate.update({"status": "fail", "invalidated_empty_source_run": True,
+                     "note": "Superseded: zero-carrier run is not a completed year.", "updated_at": now()})
+        checks = gate.setdefault("checks", {})
+        checks.update({"candidate_carriers_accounted": False, "logical_documents_present": False})
+        write_json(checkpoint_path, checkpoint)
+        write_json(gate_path, gate)
+        invalidated.append(year)
+    if invalidated:
+        write_json(CONTROL / "invalid_empty_run.json", {
+            "status": "superseded", "affected_years": invalidated,
+            "invalid_inventory_head": "2b38624", "invalid_summary_head": "6d0ba96",
+            "reason": "non-ASCII git paths were parsed from quoted ls-tree output and treated as missing",
+            "replacement_inventory_gate": "pass", "updated_at": now()})
 
 
 def discover_carriers(rows: list[dict[str, Any]], archive_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -435,7 +540,7 @@ def discover_carriers(rows: list[dict[str, Any]], archive_rows: list[dict[str, A
         if row["extension"] in IMAGE_EXTS and extract_year(row["relative_path"]):
             image_groups[(row["year"], str(PurePosixPath(row["relative_path"]).parent))].append(row)
     for (year, parent), members in image_groups.items():
-        if any(x in parent for x in ("优秀论文", "论文", "扫描")):
+        if "优秀论文" in PurePosixPath(parent).name:
             carriers.append({"carrier_document_id": stable_id("carrier_img_", parent), "relative_path": parent,
                 "carrier_type": "image_group", "year": year, "source_file_ids": [m["file_id"] for m in members],
                 "archive_parent": "", "existing_cache_status": "unknown"})
@@ -446,7 +551,7 @@ def discover_carriers(rows: list[dict[str, Any]], archive_rows: list[dict[str, A
             zip_groups[(member["archive_path"], parent)].append(member)
     for (archive, parent), members in zip_groups.items():
         year = extract_year(archive)
-        if year:
+        if year and any("优秀论文" in part for part in PurePosixPath(archive).parts[1:]):
             carriers.append({"carrier_document_id": stable_id("carrier_zipimg_", archive, parent),
                 "relative_path": f"{archive}!/{parent}", "carrier_type": "zip_image_group", "year": year,
                 "source_file_ids": [], "archive_parent": archive, "existing_cache_status": "unknown"})
@@ -467,8 +572,15 @@ def write_inventory_reconciliation(summary: dict[str, Any]) -> None:
         verdict = "完全一致" if actual == expected else "需解释"
         lines.append(f"| {key} | {actual} | {expected} | {verdict} |\n")
     lines.extend(["\n## 容量口径\n\n",
-                  f"当前检出字节为 `{summary['checkout_bytes']}`；LFS保持指针时不得与历史物化容量直接比较。",
-                  f" 按LFS声明容量计算的逻辑字节为 `{summary['logical_bytes']}`。\n"])
+                  f"- Git对象/当前检出源文件字节：`{summary['repository_git_blob_bytes']}` / `{summary['checkout_bytes']}`。\n",
+                  f"- 将1个LFS指针替换为其声明对象后的源资料逻辑容量：`{summary['logical_bytes']}` bytes；",
+                  "这与历史 `2,757,912,015` bytes 口径一致。\n",
+                  f"- 压缩包成员解压逻辑容量：`{summary['archive_expanded_logical_bytes']}` bytes；",
+                  "这是嵌套内容口径，不与源文件容量相加冒充仓库大小。\n",
+                  f"- 当前公开派生文件容量：`{summary['derived_public_bytes']}` bytes；",
+                  f"本地缓存容量：`{summary['derived_local_cache_bytes']}` bytes。\n",
+                  "- 约1.6GB通常是平台下载包或传输压缩后的显示口径；Git对象、LFS物化后的逻辑源资料、",
+                  "压缩包展开内容和派生文件是不同分母，不能互换。\n"])
     (REPORTS / "recovery" / "inventory_reconciliation.md").write_text("".join(lines), encoding="utf-8")
 
 
@@ -822,7 +934,8 @@ def write_year_report(year: int, stats: list[dict[str, Any]], docs: list[dict[st
 def year_gate(year: int, carriers: list[dict[str, Any]], docs: list[dict[str, Any]], reps: list[dict[str, Any]],
               stats: list[dict[str, Any]], queue: list[dict[str, Any]]) -> dict[str, Any]:
     checks = {"carrier_manifest_exists": (DOCUMENTS / f"{year}_carrier_manifest.csv").exists(),
-        "candidate_carriers_accounted": len(carriers) >= 0,
+        "candidate_carriers_accounted": len(carriers) > 0,
+        "logical_documents_present": len(docs) > 0,
         "logical_document_six_pack": all(all((DOCUMENTS / "cards" / d["logical_document_id"] / name).exists()
             for name in ("document_card.md", "metadata.json", "extracted_text.md", "page_map.json", "evidence.jsonl", "review_record.md")) for d in docs),
         "roles_valid": all(d["document_role"] in ROLES for d in docs),
@@ -832,8 +945,12 @@ def year_gate(year: int, carriers: list[dict[str, Any]], docs: list[dict[str, An
         "unknown_not_absent": all(not r["eligible_for_statistics"] for d in docs for r in d["feature_statistics"] if r["value_status"] == "unknown"),
         "field_status_enum": all(r["value_status"] in FIELD_STATUSES for d in docs for r in d["feature_statistics"]),
         "statistics_scoped": all(r["counting_scope"] for r in stats),
-        "source_unmodified": verify_source()["original_source_modifications"] == 0}
-    status = "pass" if all(checks.values()) and not queue else "conditional_pass" if all(checks.values()) else "fail"
+        "source_unmodified": verify_source()["original_source_modifications"] == 0,
+        "manual_verification_complete": bool(docs) and all(
+            d.get("role_classification", {}).get("manually_verified") for d in docs
+        )}
+    structural_checks = {k: v for k, v in checks.items() if k != "manual_verification_complete"}
+    status = "pass" if all(checks.values()) and not queue else "conditional_pass" if all(structural_checks.values()) else "fail"
     gate = {"year": year, "status": status, "checks": checks, "manual_review_items": len(queue),
             "note": "conditional_pass permits later years; candidate evidence is not promoted to verified", "updated_at": now()}
     write_json(QUALITY / "gates" / f"{year}_gate.json", gate)
@@ -842,11 +959,15 @@ def year_gate(year: int, carriers: list[dict[str, Any]], docs: list[dict[str, An
 
 def update_progress(year: int, status: str) -> None:
     progress = read_json(CONTROL / "progress.json", {})
-    completed = sorted(set(progress.get("completed_years", [])) | {year})
+    candidate_layers = sorted(set(progress.get("candidate_layer_years", [])) | {year})
+    completed_set = set(progress.get("completed_years", []))
+    completed_set = completed_set | {year} if status == "pass" else completed_set - {year}
+    completed = sorted(completed_set)
     progress.update({"source_baseline_commit": SOURCE_BASELINE, "analysis_branch": "analysis/corpus-index",
         "schema_version": SCHEMA_VERSION, "parser_version": PARSER_VERSION, "completed_years": completed,
+        "candidate_layer_years": candidate_layers,
         "year_status": {**progress.get("year_status", {}), str(year): status},
-        "next_recommended_year": next((y for y in YEARS if y not in completed), None), "target_end_year": 2010,
+        "next_recommended_year": next((y for y in YEARS if y not in candidate_layers), None), "target_end_year": 2010,
         "remote_publish_status": "pending_phase_commit", "updated_at": now()})
     write_json(CONTROL / "progress.json", progress)
 

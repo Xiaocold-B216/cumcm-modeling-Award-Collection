@@ -21,6 +21,7 @@ permissions:
   contents: write
 
 env:
+  # Recovery parser revision 3: Unicode-safe inventory and non-empty quality gates.
   SOURCE_BASELINE: a042ecf898feaba6fc81d543a10e0188db8b2b12
   ANALYSIS_BRANCH: analysis/corpus-index
 
@@ -74,6 +75,7 @@ jobs:
         run: |
           mkdir -p analysis-index/00_control/run_logs
           python scripts/build_index.py --year inventory --resume | tee analysis-index/00_control/run_logs/inventory-run.json
+          git diff --check
           git add analysis-index scripts/build_index.py schema README_PIPELINE.md .gitignore
           if ! git diff --cached --quiet; then
             git commit -m "rebuild corpus inventory from trusted baseline"
