@@ -174,6 +174,47 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         self.assertEqual("pass", gate["status"])
         self.assertEqual(0, gate["manual_review_items"])
 
+    def test_1997_carrier_logical_boundary_and_role_denominators(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        docs = bi.read_jsonl(root / "02_documents/logical_documents_1997.jsonl")
+        self.assertEqual(19, len(docs))
+        self.assertEqual(Counter({"award_paper": 15, "problem_statement": 2,
+                                  "expert_commentary": 1, "other_related": 1}),
+                         Counter(d["document_role"] for d in docs))
+        self.assertEqual(17, len({c for d in docs for c in d["carrier_document_ids"]}))
+        problems = [d for d in docs if d["document_role"] == "problem_statement"]
+        self.assertEqual(2, len({d["problem_id"] for d in problems}))
+        self.assertEqual(15, len(bi.read_jsonl(root / "04_relations/solution_lineages_1997.jsonl")))
+
+    def test_1997_editorial_note_is_segmented_out_of_award_paper(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        docs = bi.read_jsonl(root / "02_documents/logical_documents_1997.jsonl")
+        errata = next(d for d in docs if d["document_subtype"] == "editorial_note")
+        paper = next(d for d in docs if d["title"] == "零件的参数设计（3）")
+        self.assertEqual(errata["carrier_document_ids"], paper["carrier_document_ids"])
+        boundary = bi.read_jsonl(root / "02_documents/article_boundaries_1997.jsonl")
+        self.assertEqual(1, len(boundary))
+        self.assertTrue(boundary[0]["same_page_boundary"])
+        self.assertEqual(548, boundary[0]["boundary_y"])
+        relations = bi.read_jsonl(root / "04_relations/document_relations_1997.jsonl")
+        self.assertTrue(any(r["relation_type"] == "adjacent_to" and
+                            r["source_document_id"] == errata["logical_document_id"]
+                            for r in relations))
+
+    def test_1997_statistics_and_resume_gate(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        with (root / "06_statistics/yearly/1997_statistics.csv").open(encoding="utf-8-sig", newline="") as fh:
+            rows = {r["metric"]: r for r in csv.DictReader(fh)}
+        self.assertEqual("17", rows["carrier_count"]["numerator"])
+        self.assertEqual("19", rows["logical_document_count"]["numerator"])
+        self.assertEqual("15", rows["award_paper_count"]["numerator"])
+        self.assertEqual("14", rows["abstract:present"]["numerator"])
+        self.assertEqual("1", rows["flowchart:present"]["numerator"])
+        self.assertEqual("15", rows["flowchart:eligible_denominator"]["numerator"])
+        gate = json.loads((root / "08_quality/gates/1997_gate.json").read_text(encoding="utf-8"))
+        self.assertEqual("pass", gate["status"])
+        self.assertEqual(0, gate["manual_review_items"])
+
 
 if __name__ == "__main__":
     unittest.main()

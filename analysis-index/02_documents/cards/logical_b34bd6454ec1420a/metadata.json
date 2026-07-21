@@ -1,0 +1,274 @@
+{
+  "algorithms": [
+    "lagrange_multiplier",
+    "numerical_search"
+  ],
+  "analysis_eligibility": [
+    "algorithm_statistics",
+    "metadata_statistics",
+    "model_statistics",
+    "result_pattern_statistics",
+    "structure_statistics",
+    "visualization_statistics"
+  ],
+  "article_order": 4,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_efc2b618e1be8c22"
+  ],
+  "completeness_status": "complete",
+  "content_analysis": {
+    "mathematical_essence": "用一阶误差传播和分段质量损失构造目标函数，优化各零件均值与标准差。"
+  },
+  "corpus_eligibility": {
+    "award_paper_patterns": "included",
+    "problem_analysis": "excluded",
+    "reviewer_feedback": "excluded",
+    "validation_patterns": "excluded",
+    "visualization_patterns": "included"
+  },
+  "corpus_status": "included",
+  "document_role": "award_paper",
+  "document_subtype": "none",
+  "entity_type": "logical_document",
+  "evidence_status": "key_content_verified",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "insufficient evidence",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "value": false,
+      "value_status": "absent"
+    }
+  ],
+  "logical_document_id": "logical_b34bd6454ec1420a",
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T01:20:00Z",
+  "models": [
+    "probabilistic_tolerance_model",
+    "nonlinear_optimization"
+  ],
+  "page_count": 4,
+  "parse_status": "partially_parsed",
+  "problem_code": "A",
+  "problem_id": "problem_cumcm_1997_a",
+  "representation_quality": "manually_reviewed",
+  "role_classification": {
+    "classification_basis": [
+      "title",
+      "document_structure",
+      "visual_review",
+      "article_boundaries"
+    ],
+    "confidence": 1.0,
+    "conflicting_signals": [],
+    "manually_verified": true,
+    "predicted_role": "award_paper"
+  },
+  "segment_ids": [
+    "segment_17d329d5df6422c9",
+    "segment_be1a5696499dc7a5",
+    "segment_eaa9a4c60c27fc72",
+    "segment_1b1d2fe5e365934c"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": "lineage_cumcm_1997_41ffb0c56f4562a6",
+  "title": "零件参数设计的数学模型",
+  "year": 1997
+}

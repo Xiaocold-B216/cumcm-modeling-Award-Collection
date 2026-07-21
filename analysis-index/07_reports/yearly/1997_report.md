@@ -1,23 +1,8 @@
-# 1997年优秀论文语料候选报告
+# 1997年人工核验报告
 
-> 本报告由相同可信基线重新构建。自动结果是保守候选，不等同于人工全文核验。
+- 物理PDF载体17；逻辑文档19；参赛论文15（A题8、B题7）；专家评述1；题面逻辑文档2；其他相关短文1；unique problem 2；方案谱系15。
+- 题面A、B各占独立物理页；《零件的参数设计（3）》第8页在参考文献后的星号分隔线下另含“勘误”，已拆成 `other_related/editorial_note`，不进入论文统计。
+- 18个正文或题面逻辑文档及1个勘误逻辑文档均有首选表示；未发现重复表示、缺页或未保全的orphan。
+- 扫描文章保持 `partially_parsed + key_content_verified`；原生题面为 `parsed + verified`。
 
-## 对象构成
-
-- logical documents：17
-- award papers候选：15
-- expert commentaries候选：1
-- problem statements候选：1
-- solution summaries候选：0
-- unknown/other：0
-
-## 状态边界
-
-- 待人工复核：17
-- 扫描或无完整文本层的文档保持 `pending_manual_review` 或 `partially_parsed`。
-- 自动未命中的字段记为 `unknown`；仅完整原生文本的字段允许进入present/absent分母。
-- 合集和分卷尚未人工确认边界时，不将载体数解释为论文数。
-
-## 模型与算法候选
-
-模型标签与算法标签仅来自原生文本关键词，用于复核排序，不作为最终方法结论。
+A题以概率质量损失、误差传播、随机/混合优化、动态规划、Monte Carlo和模拟退火为主。B题以排列优化、动态规划、状态空间、交换判据、整数规划和工程费用比较为主。以上仅为1997年已核验样本的描述性观察。
