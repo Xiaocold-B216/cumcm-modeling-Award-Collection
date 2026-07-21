@@ -1,7 +1,7 @@
 # 1995B：天车冶炼炉作业调度的活动网络模型
 
 - 年份：1995
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：B
 - 模型候选：待核验
