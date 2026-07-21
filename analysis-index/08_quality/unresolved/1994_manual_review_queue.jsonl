@@ -1,0 +1,3 @@
+{"carrier_document_id": "carrier_af55bec0aac81b01", "logical_document_id": "logical_50f1e25c25b8014d", "priority": "normal", "reason": "role/text requires visual review", "status": "pending_manual_review", "year": 1994}
+{"carrier_document_id": "carrier_5b627cf7a198cd3f", "logical_document_id": "logical_beb022d895b406f9", "priority": "normal", "reason": "role/text requires visual review", "status": "pending_manual_review", "year": 1994}
+{"carrier_document_id": "carrier_a25c1958bc4f1673", "logical_document_id": "logical_fef0cc13302282c7", "priority": "high", "reason": "multi-article carrier", "status": "pending_manual_review", "year": 1994}
