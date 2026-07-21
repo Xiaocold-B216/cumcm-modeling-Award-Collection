@@ -4,10 +4,10 @@
 
 ## 对象构成
 
-- logical documents：0
+- logical documents：11
 - award papers候选：0
 - expert commentaries候选：0
-- problem statements候选：0
+- problem statements候选：11
 - solution summaries候选：0
 - unknown/other：0
 
