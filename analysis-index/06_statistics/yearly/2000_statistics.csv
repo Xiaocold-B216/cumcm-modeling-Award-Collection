@@ -1,80 +1,80 @@
 ﻿counting_scope,denominator,metric,note,numerator,percentage,year
 carrier_document,22,carrier_count,,22,100.0,2000
 logical_document,22,logical_document_count,,22,100.0,2000
-logical_document,22,role:award_paper,,0,0.0,2000
+logical_document,22,role:award_paper,,19,86.4,2000
 logical_document,22,role:expert_commentary,,2,9.1,2000
 logical_document,22,role:other_related,,0,0.0,2000
-logical_document,22,role:problem_statement,,20,90.9,2000
+logical_document,22,role:problem_statement,,1,4.5,2000
 logical_document,22,role:solution_summary,,0,0.0,2000
 logical_document,22,role:unknown,,0,0.0,2000
-unique_award_paper,0,award_paper_count,,0,,2000
-unique_problem,4,problem_count,,4,100.0,2000
-solution_lineage,0,lineage_count,candidate lineages pending manual deduplication,0,,2000
+unique_award_paper,19,award_paper_count,,19,100.0,2000
+unique_problem,1,problem_count,,1,100.0,2000
+solution_lineage,19,lineage_count,candidate lineages pending manual deduplication,19,100.0,2000
 representation,22,representation_count,"count, not a paper percentage",22,100.0,2000
 orphan_segment,128,orphan_count,automatic layer cannot assert absence; manual review pending,0,0.0,2000
-logical_document,22,manual_review_queue,,0,0.0,2000
+logical_document,22,manual_review_queue,,22,100.0,2000
 unique_award_paper,0,abstract:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,abstract:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,abstract:unknown,reported separately,0,,2000
-unique_award_paper,0,abstract:not_applicable,reported separately,0,,2000
-unique_award_paper,0,abstract:eligible_denominator,,0,,2000
+unique_award_paper,19,abstract:unknown,reported separately,0,0.0,2000
+unique_award_paper,19,abstract:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,abstract:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,model_assumptions:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,model_assumptions:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,model_assumptions:unknown,reported separately,0,,2000
-unique_award_paper,0,model_assumptions:not_applicable,reported separately,0,,2000
-unique_award_paper,0,model_assumptions:eligible_denominator,,0,,2000
+unique_award_paper,19,model_assumptions:unknown,reported separately,1,5.3,2000
+unique_award_paper,19,model_assumptions:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,model_assumptions:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,symbol_definitions:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,symbol_definitions:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,symbol_definitions:unknown,reported separately,0,,2000
-unique_award_paper,0,symbol_definitions:not_applicable,reported separately,0,,2000
-unique_award_paper,0,symbol_definitions:eligible_denominator,,0,,2000
+unique_award_paper,19,symbol_definitions:unknown,reported separately,13,68.4,2000
+unique_award_paper,19,symbol_definitions:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,symbol_definitions:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,model_validation:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,model_validation:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,model_validation:unknown,reported separately,0,,2000
-unique_award_paper,0,model_validation:not_applicable,reported separately,0,,2000
-unique_award_paper,0,model_validation:eligible_denominator,,0,,2000
+unique_award_paper,19,model_validation:unknown,reported separately,14,73.7,2000
+unique_award_paper,19,model_validation:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,model_validation:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,sensitivity_analysis:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,sensitivity_analysis:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,sensitivity_analysis:unknown,reported separately,0,,2000
-unique_award_paper,0,sensitivity_analysis:not_applicable,reported separately,0,,2000
-unique_award_paper,0,sensitivity_analysis:eligible_denominator,,0,,2000
+unique_award_paper,19,sensitivity_analysis:unknown,reported separately,16,84.2,2000
+unique_award_paper,19,sensitivity_analysis:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,sensitivity_analysis:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,error_analysis:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,error_analysis:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,error_analysis:unknown,reported separately,0,,2000
-unique_award_paper,0,error_analysis:not_applicable,reported separately,0,,2000
-unique_award_paper,0,error_analysis:eligible_denominator,,0,,2000
+unique_award_paper,19,error_analysis:unknown,reported separately,19,100.0,2000
+unique_award_paper,19,error_analysis:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,error_analysis:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,final_solution:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,final_solution:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,final_solution:unknown,reported separately,0,,2000
-unique_award_paper,0,final_solution:not_applicable,reported separately,0,,2000
-unique_award_paper,0,final_solution:eligible_denominator,,0,,2000
+unique_award_paper,19,final_solution:unknown,reported separately,1,5.3,2000
+unique_award_paper,19,final_solution:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,final_solution:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,final_answer_summary_table:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,final_answer_summary_table:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,final_answer_summary_table:unknown,reported separately,0,,2000
-unique_award_paper,0,final_answer_summary_table:not_applicable,reported separately,0,,2000
-unique_award_paper,0,final_answer_summary_table:eligible_denominator,,0,,2000
+unique_award_paper,19,final_answer_summary_table:unknown,reported separately,16,84.2,2000
+unique_award_paper,19,final_answer_summary_table:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,final_answer_summary_table:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,flowchart:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,flowchart:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,flowchart:unknown,reported separately,0,,2000
-unique_award_paper,0,flowchart:not_applicable,reported separately,0,,2000
-unique_award_paper,0,flowchart:eligible_denominator,,0,,2000
+unique_award_paper,19,flowchart:unknown,reported separately,18,94.7,2000
+unique_award_paper,19,flowchart:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,flowchart:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,visualization:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,visualization:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,visualization:unknown,reported separately,0,,2000
-unique_award_paper,0,visualization:not_applicable,reported separately,0,,2000
-unique_award_paper,0,visualization:eligible_denominator,,0,,2000
+unique_award_paper,19,visualization:unknown,reported separately,8,42.1,2000
+unique_award_paper,19,visualization:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,visualization:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,references:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,references:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,references:unknown,reported separately,0,,2000
-unique_award_paper,0,references:not_applicable,reported separately,0,,2000
-unique_award_paper,0,references:eligible_denominator,,0,,2000
+unique_award_paper,19,references:unknown,reported separately,1,5.3,2000
+unique_award_paper,19,references:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,references:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,appendix:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,appendix:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,appendix:unknown,reported separately,0,,2000
-unique_award_paper,0,appendix:not_applicable,reported separately,0,,2000
-unique_award_paper,0,appendix:eligible_denominator,,0,,2000
+unique_award_paper,19,appendix:unknown,reported separately,17,89.5,2000
+unique_award_paper,19,appendix:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,appendix:eligible_denominator,,0,0.0,2000
 unique_award_paper,0,code_description:present,field-specific eligible denominator,0,,2000
 unique_award_paper,0,code_description:absent,field-specific eligible denominator,0,,2000
-unique_award_paper,0,code_description:unknown,reported separately,0,,2000
-unique_award_paper,0,code_description:not_applicable,reported separately,0,,2000
-unique_award_paper,0,code_description:eligible_denominator,,0,,2000
+unique_award_paper,19,code_description:unknown,reported separately,13,68.4,2000
+unique_award_paper,19,code_description:not_applicable,reported separately,0,0.0,2000
+unique_award_paper,19,code_description:eligible_denominator,,0,0.0,2000

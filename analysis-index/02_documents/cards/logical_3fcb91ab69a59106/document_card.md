@@ -1,8 +1,8 @@
 # 2000B：一类运输问题的建模1
 
 - 年份：2000
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：B
 - 模型候选：linear_programming, integer_programming, nonlinear_programming, graph_model, queueing
 - 算法候选：genetic_algorithm, simplex, branch_and_bound
