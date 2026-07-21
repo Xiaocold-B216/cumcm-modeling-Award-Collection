@@ -1,10 +1,30 @@
-# 1993年B题优秀论文① 关于球队排名次问题的几点评注
+# 关于“球队排名次问题”的几点评注——B题
 
 - 年份：1993
 - 角色：expert_commentary
-- 状态：pending_manual_review / unverified / complete
+- 状态：partially_parsed / key_content_verified / complete
 - 题号：B
-- 模型候选：待核验
-- 算法候选：待核验
+- 模型：ranking_models、ahp
+- 方案谱系：lineage_cumcm_1993_b_football_ranking
 
-> 本卡片为自动保守候选；未标记 manually_verified 前不得作为人工结论。
+## 人工核验摘要
+
+{
+  "document_purpose": "解释开放排名题背景并归纳评审标准和典型方法。",
+  "review_findings": [
+    "先审假设是否合理",
+    "再审模型是否反映实际且有一般性",
+    "最后审叙述是否清楚",
+    "肯定AHP完整分析",
+    "反对猜测标准答案或只对一组数据有效的算法"
+  ],
+  "strengths": [
+    "评审标准明确且可迁移"
+  ],
+  "limitations": [
+    "评论多类答卷，不只对应一篇论文"
+  ],
+  "reproducibility_level": "not_applicable"
+}
+
+> 完整正文只保存在忽略缓存。

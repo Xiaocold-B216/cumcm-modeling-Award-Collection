@@ -1,10 +1,14 @@
 # 1993数据质量
 
-| logical_document_id | role | parse | evidence | segmentation | completeness |
-|---|---|---|---|---|---|
-| `logical_16bea3dd6cef91b8` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_e6bf45e93a065728` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_ddecdd2fd9deb09f` | expert_commentary | pending_manual_review | unverified | not_required | complete |
-| `logical_a9bca702479e4ac0` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_c8ba8962d24258a2` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_300e7c6d8d5a51a3` | problem_statement | partially_parsed | unverified | not_required | complete |
+| 项目 | 结果 |
+|---|---|
+| carriers | 6/6有状态 |
+| logical documents | 5/5人工核验 |
+| representations | 7，两个canonical题面各2个表示 |
+| same-page boundaries | 1，B题论文首页y=360 |
+| role corrections | 2个“优秀论文”文件纠正为题面；合卷拆成2个题面表示 |
+| parsed / verified | A题论文及两个题面 |
+| partially_parsed / key_content_verified | B题扫描论文、B题扫描评注 |
+| unresolved cross-year lineage | 0，非线性交调谱系已解析 |
+
+扫描件没有完整中文文本层，故即使关键页均视觉核验，也不提升为全文parsed。

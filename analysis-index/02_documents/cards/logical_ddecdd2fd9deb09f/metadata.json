@@ -1,14 +1,34 @@
 {
   "algorithms": [],
   "analysis_eligibility": [
-    "metadata_statistics"
+    "metadata_statistics",
+    "reviewer_feedback_statistics"
   ],
   "article_order": 3,
-  "authors": [],
+  "authors": [
+    "蔡大用"
+  ],
   "carrier_document_ids": [
     "carrier_f12da4b3c66a6879"
   ],
   "completeness_status": "complete",
+  "content_analysis": {
+    "document_purpose": "解释开放排名题背景并归纳评审标准和典型方法。",
+    "limitations": [
+      "评论多类答卷，不只对应一篇论文"
+    ],
+    "reproducibility_level": "not_applicable",
+    "review_findings": [
+      "先审假设是否合理",
+      "再审模型是否反映实际且有一般性",
+      "最后审叙述是否清楚",
+      "肯定AHP完整分析",
+      "反对猜测标准答案或只对一组数据有效的算法"
+    ],
+    "strengths": [
+      "评审标准明确且可迁移"
+    ]
+  },
   "corpus_eligibility": {
     "award_paper_patterns": "excluded",
     "problem_analysis": "excluded",
@@ -16,184 +36,191 @@
     "validation_patterns": "excluded",
     "visualization_patterns": "excluded"
   },
-  "corpus_status": "candidate",
+  "corpus_status": "included",
   "document_role": "expert_commentary",
   "document_subtype": "none",
   "entity_type": "logical_document",
-  "evidence_status": "unverified",
+  "evidence_status": "key_content_verified",
   "feature_statistics": [
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "abstract",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "model_assumptions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "symbol_definitions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "model_validation",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "sensitivity_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "error_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "result_pattern_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "final_solution",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "result_pattern_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "final_answer_summary_table",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "visualization_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "flowchart",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "visualization_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "visualization",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "references",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "appendix",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "code_description",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     }
   ],
   "logical_document_id": "logical_ddecdd2fd9deb09f",
-  "manual_overrides": false,
-  "models": [],
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T00:00:00Z",
+  "models": [
+    "ranking_models",
+    "ahp"
+  ],
   "page_count": 2,
-  "parse_status": "pending_manual_review",
+  "parse_status": "partially_parsed",
   "parser_version": "0.5.1",
   "problem_code": "B",
   "problem_id": "problem_cumcm_1993_b",
-  "representation_quality": "candidate",
+  "representation_quality": "manually_reviewed",
   "role_classification": {
     "classification_basis": [
-      "commentary language/title"
+      "title",
+      "document_structure",
+      "first_page_text",
+      "visual_review"
     ],
-    "confidence": 0.94,
+    "confidence": 1.0,
     "conflicting_signals": [],
-    "manually_verified": false,
+    "manually_verified": true,
     "predicted_role": "expert_commentary"
   },
   "schema_version": "1.4.1",
   "segment_ids": [
-    "segment_e5402f794b17643d",
-    "segment_4057367c2d775a81"
+    "segment_d89495672115b16c",
+    "segment_26ee8adae97b8efa"
   ],
   "segmentation_status": "not_required",
-  "solution_lineage_id": null,
+  "solution_lineage_id": "lineage_cumcm_1993_b_football_ranking",
   "source_path": "1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年B题优秀论文① 关于球队排名次问题的几点评注.pdf",
   "text_layer_status": "scanned_or_no_text",
-  "title": "1993年B题优秀论文① 关于球队排名次问题的几点评注",
-  "updated_at": "2026-07-21T19:58:08Z",
+  "title": "关于“球队排名次问题”的几点评注——B题",
+  "updated_at": "2026-07-21T20:43:26Z",
   "year": 1993
 }

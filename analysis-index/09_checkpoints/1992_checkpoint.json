@@ -1,12 +1,8 @@
 {
   "carriers": 7,
   "checkpoint_type": "year",
-  "created_at": "2026-07-21T20:21:43Z",
+  "created_at": "2026-07-21T20:43:26Z",
   "documents": 7,
-  "remote_commit": "a6e57cea76980b06444114abc75e707860fb8c56",
-  "remote_readback_verified": true,
-  "recovery_archive": "analysis-index-checkpoint-through-1992-rebuilt-a6e57cea.tar.gz",
-  "recovery_archive_sha256": "89124c7ac8b81196afc5242221d28e6fbee5fbc7f5d8a15552015c06a521a3fb",
   "known_issues": [
     "cross-year intermodulation lineage awaits 1993 comparison"
   ],

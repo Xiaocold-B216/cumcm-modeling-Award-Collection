@@ -1,10 +1,33 @@
-# 1993年A题优秀论文① 非线性交调的频率设计
+# 1993年A题：非线性交调的频率设计
 
 - 年份：1993
-- 角色：award_paper
-- 状态：partially_parsed / unverified / complete
+- 角色：problem_statement
+- 状态：parsed / verified / complete
 - 题号：A
-- 模型候选：待核验
-- 算法候选：待核验
+- 模型：不适用
+- 方案谱系：不适用
 
-> 本卡片为自动保守候选；未标记 manually_verified 前不得作为人工结论。
+## 人工核验摘要
+
+{
+  "subproblems": [
+    "拟合非线性输入输出函数",
+    "设计满足接收带和SNR约束的三个整数频率",
+    "讨论稳定性"
+  ],
+  "inputs": [
+    "9组u-y数据",
+    "A1=25、A2=10、A3=45"
+  ],
+  "outputs": [
+    "频率组f1/f2/f3"
+  ],
+  "constraints": [
+    "三个频率区间",
+    "接收带±5",
+    "fi±6处SNR>10dB",
+    "频率互不落入接收带"
+  ]
+}
+
+> 完整正文只保存在忽略缓存。

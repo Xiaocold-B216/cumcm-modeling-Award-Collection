@@ -1,80 +1,80 @@
 ﻿counting_scope,denominator,metric,note,numerator,percentage,year
 carrier_document,6,carrier_count,,6,100.0,1993
-logical_document,6,logical_document_count,,6,100.0,1993
-logical_document,6,role:award_paper,,4,66.7,1993
-logical_document,6,role:expert_commentary,,1,16.7,1993
-logical_document,6,role:other_related,,0,0.0,1993
-logical_document,6,role:problem_statement,,1,16.7,1993
-logical_document,6,role:solution_summary,,0,0.0,1993
-logical_document,6,role:unknown,,0,0.0,1993
-unique_award_paper,4,award_paper_count,,4,100.0,1993
-unique_problem,1,problem_count,,1,100.0,1993
-solution_lineage,4,lineage_count,candidate lineages pending manual deduplication,4,100.0,1993
-representation,6,representation_count,"count, not a paper percentage",6,100.0,1993
-orphan_segment,25,orphan_count,automatic layer cannot assert absence; manual review pending,0,0.0,1993
-logical_document,6,manual_review_queue,,6,100.0,1993
-unique_award_paper,0,abstract:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,abstract:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,abstract:unknown,reported separately,3,75.0,1993
-unique_award_paper,4,abstract:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,abstract:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,model_assumptions:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,model_assumptions:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,model_assumptions:unknown,reported separately,3,75.0,1993
-unique_award_paper,4,model_assumptions:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,model_assumptions:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,symbol_definitions:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,symbol_definitions:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,symbol_definitions:unknown,reported separately,4,100.0,1993
-unique_award_paper,4,symbol_definitions:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,symbol_definitions:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,model_validation:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,model_validation:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,model_validation:unknown,reported separately,3,75.0,1993
-unique_award_paper,4,model_validation:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,model_validation:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,sensitivity_analysis:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,sensitivity_analysis:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,sensitivity_analysis:unknown,reported separately,4,100.0,1993
-unique_award_paper,4,sensitivity_analysis:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,sensitivity_analysis:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,error_analysis:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,error_analysis:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,error_analysis:unknown,reported separately,4,100.0,1993
-unique_award_paper,4,error_analysis:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,error_analysis:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,final_solution:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,final_solution:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,final_solution:unknown,reported separately,2,50.0,1993
-unique_award_paper,4,final_solution:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,final_solution:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,final_answer_summary_table:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,final_answer_summary_table:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,final_answer_summary_table:unknown,reported separately,4,100.0,1993
-unique_award_paper,4,final_answer_summary_table:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,final_answer_summary_table:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,flowchart:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,flowchart:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,flowchart:unknown,reported separately,4,100.0,1993
-unique_award_paper,4,flowchart:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,flowchart:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,visualization:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,visualization:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,visualization:unknown,reported separately,4,100.0,1993
-unique_award_paper,4,visualization:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,visualization:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,references:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,references:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,references:unknown,reported separately,4,100.0,1993
-unique_award_paper,4,references:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,references:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,appendix:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,appendix:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,appendix:unknown,reported separately,4,100.0,1993
-unique_award_paper,4,appendix:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,appendix:eligible_denominator,,0,0.0,1993
-unique_award_paper,0,code_description:present,field-specific eligible denominator,0,,1993
-unique_award_paper,0,code_description:absent,field-specific eligible denominator,0,,1993
-unique_award_paper,4,code_description:unknown,reported separately,4,100.0,1993
-unique_award_paper,4,code_description:not_applicable,reported separately,0,0.0,1993
-unique_award_paper,4,code_description:eligible_denominator,,0,0.0,1993
+logical_document,5,logical_document_count,,5,100.0,1993
+logical_document,5,role:award_paper,,2,40.0,1993
+logical_document,5,role:expert_commentary,,1,20.0,1993
+logical_document,5,role:other_related,,0,0.0,1993
+logical_document,5,role:problem_statement,,2,40.0,1993
+logical_document,5,role:solution_summary,,0,0.0,1993
+logical_document,5,role:unknown,,0,0.0,1993
+unique_award_paper,2,award_paper_count,,2,100.0,1993
+unique_problem,2,problem_count,,2,100.0,1993
+solution_lineage,2,lineage_count,manually verified unique solution lineages,2,100.0,1993
+representation,5,representation_count,"count, not a paper percentage",7,140.0,1993
+orphan_segment,25,orphan_count,preserved excluded regions; denominator is valid primary segments,1,4.0,1993
+logical_document,5,manual_review_queue,,0,0.0,1993
+unique_award_paper,2,abstract:present,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,abstract:absent,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,abstract:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,abstract:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,abstract:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,model_assumptions:present,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,model_assumptions:absent,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,model_assumptions:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,model_assumptions:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,model_assumptions:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,symbol_definitions:present,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,symbol_definitions:absent,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,symbol_definitions:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,symbol_definitions:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,symbol_definitions:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,model_validation:present,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,model_validation:absent,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,model_validation:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,model_validation:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,model_validation:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,sensitivity_analysis:present,field-specific eligible denominator,1,50.0,1993
+unique_award_paper,2,sensitivity_analysis:absent,field-specific eligible denominator,1,50.0,1993
+unique_award_paper,2,sensitivity_analysis:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,sensitivity_analysis:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,sensitivity_analysis:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,error_analysis:present,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,error_analysis:absent,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,error_analysis:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,error_analysis:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,error_analysis:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,final_solution:present,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,final_solution:absent,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,final_solution:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,final_solution:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,final_solution:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,final_answer_summary_table:present,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,final_answer_summary_table:absent,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,final_answer_summary_table:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,final_answer_summary_table:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,final_answer_summary_table:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,flowchart:present,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,flowchart:absent,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,flowchart:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,flowchart:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,flowchart:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,visualization:present,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,visualization:absent,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,visualization:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,visualization:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,visualization:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,references:present,field-specific eligible denominator,1,50.0,1993
+unique_award_paper,2,references:absent,field-specific eligible denominator,1,50.0,1993
+unique_award_paper,2,references:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,references:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,references:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,appendix:present,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,appendix:absent,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,appendix:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,appendix:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,appendix:eligible_denominator,,2,100.0,1993
+unique_award_paper,2,code_description:present,field-specific eligible denominator,2,100.0,1993
+unique_award_paper,2,code_description:absent,field-specific eligible denominator,0,0.0,1993
+unique_award_paper,2,code_description:unknown,reported separately,0,0.0,1993
+unique_award_paper,2,code_description:not_applicable,reported separately,0,0.0,1993
+unique_award_paper,2,code_description:eligible_denominator,,2,100.0,1993

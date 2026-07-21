@@ -10,3 +10,6 @@ logical_33abe6eb835f81d8,table_4b,6,,table,"compare solution counts, runtime, or
 logical_33abe6eb835f81d8,table_4c,6,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237
 logical_33abe6eb835f81d8,table_5,7,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237
 logical_33abe6eb835f81d8,appendix_c_table,9,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237
+logical_e6bf45e93a065728,input_output_table,1,,table,show nonlinear system data,A,least-squares input,yes,model-input table,verified,representation_4afe50c8aa2de718
+logical_e6bf45e93a065728,frequency_candidates_table,4,,table,show six constraint-feasible triples,A,screening result,yes,candidate solution table,verified,representation_4afe50c8aa2de718
+logical_c8ba8962d24258a2,counterexample_matrices,9,,matrix_diagram,show ranking instability under small structural changes,B,model limitation,yes,counterexample matrix pair,verified,representation_c44e8279a5aaf441

@@ -1,10 +1,31 @@
-# 1993年B题优秀论文② 足球排名次问题
+# 1993年B题：足球队排名次
 
 - 年份：1993
-- 角色：award_paper
-- 状态：partially_parsed / unverified / complete
+- 角色：problem_statement
+- 状态：parsed / verified / complete
 - 题号：B
-- 模型候选：待核验
-- 算法候选：待核验
+- 模型：不适用
+- 方案谱系：不适用
 
-> 本卡片为自动保守候选；未标记 manually_verified 前不得作为人工结论。
+## 人工核验摘要
+
+{
+  "subproblems": [
+    "为12队排名并给出结果",
+    "推广到N队",
+    "讨论可排名的数据条件"
+  ],
+  "inputs": [
+    "1988—1989甲级联赛赛果矩阵"
+  ],
+  "outputs": [
+    "名次",
+    "一般算法",
+    "数据条件"
+  ],
+  "constraints": [
+    "含多场比赛、平局、缺赛和不一致数据"
+  ]
+}
+
+> 完整正文只保存在忽略缓存。

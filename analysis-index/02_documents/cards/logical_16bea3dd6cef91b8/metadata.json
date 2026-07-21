@@ -1,200 +1,228 @@
 {
   "algorithms": [],
   "analysis_eligibility": [
-    "metadata_statistics"
+    "metadata_statistics",
+    "problem_analysis"
   ],
   "article_order": 1,
   "authors": [],
   "carrier_document_ids": [
-    "carrier_6d0b067c824a5a9d"
+    "carrier_6d0b067c824a5a9d",
+    "carrier_a85e1e7c64a67ae2"
   ],
   "completeness_status": "complete",
+  "content_analysis": {
+    "constraints": [
+      "三个频率区间",
+      "接收带±5",
+      "fi±6处SNR>10dB",
+      "频率互不落入接收带"
+    ],
+    "inputs": [
+      "9组u-y数据",
+      "A1=25、A2=10、A3=45"
+    ],
+    "outputs": [
+      "频率组f1/f2/f3"
+    ],
+    "subproblems": [
+      "拟合非线性输入输出函数",
+      "设计满足接收带和SNR约束的三个整数频率",
+      "讨论稳定性"
+    ]
+  },
   "corpus_eligibility": {
-    "award_paper_patterns": "included",
-    "problem_analysis": "excluded",
+    "award_paper_patterns": "excluded",
+    "problem_analysis": "included",
     "reviewer_feedback": "excluded",
     "validation_patterns": "excluded",
-    "visualization_patterns": "included"
+    "visualization_patterns": "excluded"
   },
-  "corpus_status": "candidate",
-  "document_role": "award_paper",
+  "corpus_status": "included",
+  "document_role": "problem_statement",
   "document_subtype": "none",
   "entity_type": "logical_document",
-  "evidence_status": "unverified",
+  "evidence_status": "verified",
   "feature_statistics": [
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "abstract",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "model_assumptions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "symbol_definitions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "model_validation",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "sensitivity_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "error_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "result_pattern_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "final_solution",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "result_pattern_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "final_answer_summary_table",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "visualization_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "flowchart",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "visualization_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "visualization",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "references",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "appendix",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "code_description",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     }
   ],
   "logical_document_id": "logical_16bea3dd6cef91b8",
-  "manual_overrides": false,
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T00:00:00Z",
   "models": [],
-  "page_count": 2,
-  "parse_status": "partially_parsed",
+  "page_count": 1,
+  "parse_status": "parsed",
   "parser_version": "0.5.1",
   "problem_code": "A",
   "problem_id": "problem_cumcm_1993_a",
-  "representation_quality": "candidate",
+  "representation_quality": "manually_reviewed",
   "role_classification": {
     "classification_basis": [
-      "award-paper directory",
-      "requires content confirmation"
+      "title",
+      "document_structure",
+      "first_page_text",
+      "visual_review"
     ],
-    "confidence": 0.78,
-    "conflicting_signals": [],
-    "manually_verified": false,
-    "predicted_role": "award_paper"
+    "confidence": 1.0,
+    "conflicting_signals": [
+      "filename says 优秀论文 but content is a problem statement"
+    ],
+    "manually_verified": true,
+    "predicted_role": "problem_statement"
   },
   "schema_version": "1.4.1",
   "segment_ids": [
-    "segment_0a100e4267ec0f22",
-    "segment_64f2d410b8d69b83"
+    "segment_af993a4355c2e0e2",
+    "segment_2e7b0fcc05fa50d3",
+    "segment_f5144b04a2a48bf2"
   ],
-  "segmentation_status": "not_required",
-  "solution_lineage_id": "lineage_2444d941e8128597",
+  "segmentation_status": "segmented",
+  "solution_lineage_id": null,
   "source_path": "1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年A题优秀论文① 非线性交调的频率设计.pdf",
   "text_layer_status": "native_text",
-  "title": "1993年A题优秀论文① 非线性交调的频率设计",
-  "updated_at": "2026-07-21T19:58:08Z",
+  "title": "1993年A题：非线性交调的频率设计",
+  "updated_at": "2026-07-21T20:43:26Z",
   "year": 1993
 }

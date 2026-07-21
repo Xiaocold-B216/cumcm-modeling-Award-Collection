@@ -1,10 +1,13 @@
 # Review record
 
 - logical_document_id: `logical_e6bf45e93a065728`
-- title_and_identity: pending
-- article_boundary: pending
-- core_model: pending
-- key_formula: pending
-- key_table_or_figure: pending
-- final_result: pending
-- manually_verified: false
+- 标题和身份: verified
+- 文章边界: verified
+- 摘要或开篇: verified
+- 核心模型或评议对象: verified
+- 关键公式: verified
+- 关键表格或图: verified
+- 最终结论: verified
+- 重要数字: verified
+- 关联文档关系: verified
+- manually_verified: true

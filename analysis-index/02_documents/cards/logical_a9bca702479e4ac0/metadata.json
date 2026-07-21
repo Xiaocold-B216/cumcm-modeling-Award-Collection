@@ -1,202 +1,226 @@
 {
   "algorithms": [],
   "analysis_eligibility": [
-    "metadata_statistics"
+    "metadata_statistics",
+    "problem_analysis"
   ],
   "article_order": 4,
   "authors": [],
   "carrier_document_ids": [
-    "carrier_f3de3d47dbb032e2"
+    "carrier_f3de3d47dbb032e2",
+    "carrier_a85e1e7c64a67ae2"
   ],
   "completeness_status": "complete",
+  "content_analysis": {
+    "constraints": [
+      "含多场比赛、平局、缺赛和不一致数据"
+    ],
+    "inputs": [
+      "1988—1989甲级联赛赛果矩阵"
+    ],
+    "outputs": [
+      "名次",
+      "一般算法",
+      "数据条件"
+    ],
+    "subproblems": [
+      "为12队排名并给出结果",
+      "推广到N队",
+      "讨论可排名的数据条件"
+    ]
+  },
   "corpus_eligibility": {
-    "award_paper_patterns": "included",
-    "problem_analysis": "excluded",
+    "award_paper_patterns": "excluded",
+    "problem_analysis": "included",
     "reviewer_feedback": "excluded",
     "validation_patterns": "excluded",
-    "visualization_patterns": "included"
+    "visualization_patterns": "excluded"
   },
-  "corpus_status": "candidate",
-  "document_role": "award_paper",
+  "corpus_status": "included",
+  "document_role": "problem_statement",
   "document_subtype": "none",
   "entity_type": "logical_document",
-  "evidence_status": "unverified",
+  "evidence_status": "verified",
   "feature_statistics": [
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "abstract",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "model_assumptions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "symbol_definitions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "model_validation",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "sensitivity_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "error_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "result_pattern_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic keyword evidence pending manual verification",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "final_solution",
       "source_bbox": [],
-      "source_pages": [
-        1
-      ],
-      "value": true,
-      "value_status": "present"
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "result_pattern_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "final_answer_summary_table",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "visualization_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "flowchart",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "visualization_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "visualization",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "references",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "appendix",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "code_description",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     }
   ],
   "logical_document_id": "logical_a9bca702479e4ac0",
-  "manual_overrides": false,
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T00:00:00Z",
   "models": [],
-  "page_count": 2,
-  "parse_status": "partially_parsed",
+  "page_count": 1,
+  "parse_status": "parsed",
   "parser_version": "0.5.1",
   "problem_code": "B",
   "problem_id": "problem_cumcm_1993_b",
-  "representation_quality": "candidate",
+  "representation_quality": "manually_reviewed",
   "role_classification": {
     "classification_basis": [
-      "award-paper directory",
-      "requires content confirmation"
+      "title",
+      "document_structure",
+      "first_page_text",
+      "visual_review"
     ],
-    "confidence": 0.78,
-    "conflicting_signals": [],
-    "manually_verified": false,
-    "predicted_role": "award_paper"
+    "confidence": 1.0,
+    "conflicting_signals": [
+      "filename says 优秀论文 but content is a problem statement"
+    ],
+    "manually_verified": true,
+    "predicted_role": "problem_statement"
   },
   "schema_version": "1.4.1",
   "segment_ids": [
-    "segment_6f6bced8c5f56b95",
-    "segment_e4567d3645992134"
+    "segment_cac51e8631a5c6bb",
+    "segment_562644b11f1ebc12",
+    "segment_32df7ef87b82e953"
   ],
-  "segmentation_status": "not_required",
-  "solution_lineage_id": "lineage_462e2262b1567de9",
+  "segmentation_status": "segmented",
+  "solution_lineage_id": null,
   "source_path": "1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年B题优秀论文② 足球排名次问题.pdf",
   "text_layer_status": "native_text",
-  "title": "1993年B题优秀论文② 足球排名次问题",
-  "updated_at": "2026-07-21T19:58:08Z",
+  "title": "1993年B题：足球队排名次",
+  "updated_at": "2026-07-21T20:43:26Z",
   "year": 1993
 }

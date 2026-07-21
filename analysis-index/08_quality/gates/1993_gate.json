@@ -1,4 +1,5 @@
 {
+  "blocking_manual_review_items": 0,
   "checks": {
     "candidate_carriers_accounted": true,
     "carrier_manifest_exists": true,
@@ -6,7 +7,7 @@
     "field_status_enum": true,
     "logical_document_six_pack": true,
     "logical_documents_present": true,
-    "manual_verification_complete": false,
+    "manual_verification_complete": true,
     "object_layers_separate": true,
     "one_preferred_representation": true,
     "roles_valid": true,
@@ -14,9 +15,9 @@
     "statistics_scoped": true,
     "unknown_not_absent": true
   },
-  "manual_review_items": 6,
+  "manual_review_items": 0,
   "note": "conditional_pass permits later years; candidate evidence is not promoted to verified",
-  "status": "conditional_pass",
-  "updated_at": "2026-07-21T19:58:08Z",
+  "status": "pass",
+  "updated_at": "2026-07-21T20:45:16Z",
   "year": 1993
 }
