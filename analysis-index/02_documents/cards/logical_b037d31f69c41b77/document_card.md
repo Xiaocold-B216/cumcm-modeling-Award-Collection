@@ -1,7 +1,7 @@
 # 1997B：最优切割次序模型
 
 - 年份：1997
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：B
 - 模型候选：待核验
