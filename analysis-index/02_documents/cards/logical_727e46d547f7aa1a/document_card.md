@@ -1,0 +1,10 @@
+# 2001A：利用切片的二维空间相关操作实现血管的三维重建
+
+- 年份：2001
+- 角色：problem_statement
+- 状态：partially_parsed / content_verified_partial / complete
+- 题号：A
+- 模型候选：待核验
+- 算法候选：待核验
+
+> 本卡片为自动保守候选；未标记 manually_verified 前不得作为人工结论。

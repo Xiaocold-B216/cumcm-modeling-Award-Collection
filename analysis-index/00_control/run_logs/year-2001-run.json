@@ -1,1 +1,1 @@
-{"carriers": 0, "logical_documents": 0, "manual_review": 0, "quality_gate": "pass", "status": "reused", "text_caches_reused": 0, "year": 2001}
+{"carriers": 23, "logical_documents": 23, "manual_review": 0, "quality_gate": "conditional_pass", "status": "processed", "text_caches_reused": 0, "year": 2001}
