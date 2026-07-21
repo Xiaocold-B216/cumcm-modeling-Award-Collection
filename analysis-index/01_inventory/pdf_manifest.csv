@@ -1,1 +1,514 @@
-﻿
+﻿encrypted,file_id,image_count_sample,page_count,pdf_status,relative_path,sample_text_chars,text_layer_status
+False,file_e33a15a0d18aa59d,9,3,readable,1992年数学建模国赛优秀论文/1992年A题优秀论文① 关于施肥效果分析问题的评注.pdf,33,scanned_or_no_text
+False,file_4dd833a983204ec7,9,6,readable,1992年数学建模国赛优秀论文/1992年A题优秀论文② 施肥方案对作物蔬菜的影响.pdf,3056,native_text
+False,file_a3f3e31eac2a0bae,9,5,readable,1992年数学建模国赛优秀论文/1992年A题优秀论文③ 关于非线性交调的频率设计的评注.pdf,2780,native_text
+False,file_bf05c021a75807aa,14,1,readable,1992年数学建模国赛优秀论文/1992年A题优秀论文③ 施肥效果分析.pdf,976,native_text
+False,file_c85f42d0553d31c9,8,1,readable,1992年数学建模国赛优秀论文/1992年B题优秀论文① 实验数据分解.pdf,363,native_text
+False,file_40bf78bb864d6246,9,9,readable,1992年数学建模国赛优秀论文/1992年B题优秀论文② 蛋白质氨基酸的组合问题.pdf,2269,native_text
+False,file_b4771e2bf6fdc12f,6,2,readable,1992年数学建模国赛优秀论文/1992年B题优秀论文③ 关于蛋白质氨基酸的组合问题的评注.pdf,1889,native_text
+False,file_6d0b067c824a5a9d,2,2,readable,1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年A题优秀论文① 非线性交调的频率设计.pdf,1133,native_text
+False,file_dd5510116a8cecd6,9,8,readable,1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年A题优秀论文② 非线性交调的频率设计.pdf,2165,native_text
+False,file_f12da4b3c66a6879,6,2,readable,1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年B题优秀论文① 关于球队排名次问题的几点评注.pdf,22,scanned_or_no_text
+False,file_f3de3d47dbb032e2,2,2,readable,1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年B题优秀论文② 足球排名次问题.pdf,2459,native_text
+False,file_0b41aa604c488f1f,9,9,readable,1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年B题优秀论文③ 一个给足球队排名次的方法.pdf,33,scanned_or_no_text
+False,file_a85e1e7c64a67ae2,2,2,readable,1993年数学建模国赛真题+优秀论文/1993年国赛真题/1993年国赛赛题.pdf,2580,native_text
+False,file_af55bec0aac81b01,6,28,readable,1994年数学建模国赛真题+优秀论文/1994年国赛优秀论文/1994A数学建模优秀论文.pdf,33,scanned_or_no_text
+False,file_5b627cf7a198cd3f,6,26,readable,1994年数学建模国赛真题+优秀论文/1994年国赛优秀论文/1994B数学建模优秀论文.pdf,33,scanned_or_no_text
+False,file_a25c1958bc4f1673,6,56,readable,1994年数学建模国赛真题+优秀论文/1994年国赛优秀论文/1994年全国大学生数学建模竞赛优秀论文全集.pdf,33,scanned_or_no_text
+False,file_17d450ff8092f5f3,2,2,readable,1994年数学建模国赛真题+优秀论文/1994年国赛赛题/1994年国赛赛题.pdf,2470,native_text
+False,file_31a66152970884c1,6,2,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：空中防撞系统的设计.pdf,22,scanned_or_no_text
+False,file_f79109fd86a72341,9,4,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：飞行管理模型的线性化处理方法.pdf,33,scanned_or_no_text
+False,file_2bcd8ef6c89b9f6d,9,5,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：飞行管理模型的能量梯度求解法.pdf,33,scanned_or_no_text
+False,file_21fdfbff0d98087a,9,9,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：飞行管理问题的实时算法.pdf,33,scanned_or_no_text
+False,file_a204cb51d47806b0,9,6,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：飞行管理问题的线性规划模型.pdf,33,scanned_or_no_text
+False,file_61e2da1e42f7d92b,6,2,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：飞行管理问题的逐步逼近搜索方法.pdf,22,scanned_or_no_text
+False,file_d90a338e10740908,6,2,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：飞行管理问题答卷评述.pdf,22,scanned_or_no_text
+False,file_898df420c7776af7,9,3,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：飞行管理问题约束条件的线性化.pdf,33,scanned_or_no_text
+False,file_e04009714818e863,6,2,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：冶炼车间的最优调度模型的检验.pdf,238,native_text
+False,file_1f4c61e041a1939d,9,5,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车与冶炼炉作业调度的Petri网模型.pdf,33,scanned_or_no_text
+False,file_429f47b3c87e389a,9,4,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车与冶炼炉的作业调度.pdf,33,scanned_or_no_text
+False,file_e851d368e3f03eaa,9,3,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车与冶炼炉的作业调度模型.pdf,33,scanned_or_no_text
+False,file_d504464ededf4ded,9,10,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车与冶炼炉的操作模型.pdf,357,native_text
+False,file_5134292d22609876,9,3,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车作业调度的随机性分析.pdf,357,native_text
+False,file_777d593994e91857,9,3,readable,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车冶炼炉作业调度的活动网络模型.pdf,33,scanned_or_no_text
+False,file_1aeacf08456ed8cd,2,2,readable,1995年数学建模国赛真题+优秀论文/1995年国赛赛题/1995年国赛赛题.pdf,2081,native_text
+False,file_5b52a641d99d7491,9,8,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996A：持续高产捕鱼策略.pdf,357,native_text
+False,file_0b39f6d92524cf04,9,4,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996A：最优捕鱼模型.pdf,33,scanned_or_no_text
+False,file_0d36b8860b728b62,9,4,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996A：最优捕鱼策略.pdf,357,native_text
+False,file_1913f7c900616854,9,8,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996A：最优捕鱼策略模型.pdf,33,scanned_or_no_text
+False,file_eff53efa267110ed,9,7,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996A：最优捕鱼策略的设计.pdf,33,scanned_or_no_text
+False,file_0015ebc21dcf330c,9,6,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996A：最优捕鱼策略问题.pdf,33,scanned_or_no_text
+False,file_191626d57d89ccae,9,3,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996A：最优捕鱼策略问题答卷评述.pdf,33,scanned_or_no_text
+False,file_d8e93cf32bd57e17,9,4,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996A：最佳捕鱼策略的数学模型.pdf,357,native_text
+False,file_fc3e647affa8c659,9,5,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996B：关于洗衣机节水的数学模型.pdf,357,native_text
+False,file_cef5eeea8a2e8966,9,5,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996B：洗衣机的节水优化模型.pdf,33,scanned_or_no_text
+False,file_17ef77a894a42798,9,11,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996B：洗衣机的节水程序设计.pdf,2147,native_text
+False,file_8a6ebc2c5325c27f,9,4,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996B：节水洗衣机的设计.pdf,2498,native_text
+False,file_6e1e0aac01f4a252,9,5,readable,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996B：节水洗衣机问题数学建模及若干评注.pdf,2353,native_text
+False,file_6dfbd1eb2121d140,1,1,readable,1996年数学建模国赛真题+优秀论文/1996年国赛赛题/1996年国赛赛题.pdf,1175,native_text
+False,file_61cc85c72eaa734f,9,5,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：关于零件参数问题的建模.pdf,2385,native_text
+False,file_e6362fed52ed7ce1,9,5,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件参数的优化设计.pdf,33,scanned_or_no_text
+False,file_b0b48a0c7a6b9f2b,9,5,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件参数设计的动态规划模型.pdf,33,scanned_or_no_text
+False,file_efc2b618e1be8c22,9,4,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件参数设计的数学模型.pdf,33,scanned_or_no_text
+False,file_f16a8b5256e40784,9,5,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件的参数设计(1).pdf,3250,native_text
+False,file_6af9745ac4a5aec7,9,4,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件的参数设计(2).pdf,33,scanned_or_no_text
+False,file_112806181d9bf008,9,8,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件的参数设计(3).pdf,33,scanned_or_no_text
+False,file_f515d0968cd8f50a,9,4,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件的参数设计模型和评述.pdf,33,scanned_or_no_text
+False,file_5a93ced7f455b154,9,6,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件的参数设计（4）.pdf,357,native_text
+False,file_0047ac9da189a2c8,9,5,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：切割次序的优化.pdf,33,scanned_or_no_text
+False,file_3afa43decd5d2d5c,9,3,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：截断切割中的最优排列问题.pdf,357,native_text
+False,file_5d00f1980d34a61e,9,6,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：截断切割优化模型.pdf,2788,native_text
+False,file_4afabc37dabe7a33,9,6,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：截断切割的最优方案.pdf,33,scanned_or_no_text
+False,file_b02b13d63dcc9145,9,7,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：最优切割次序模型.pdf,33,scanned_or_no_text
+False,file_67e9d9b6e4a3d162,9,6,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：最小费用切割策略.pdf,33,scanned_or_no_text
+False,file_a2c0e8c4d7eb1d1b,9,6,readable,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：长方体材料截断切割的优化设计.pdf,4127,native_text
+False,file_423fdd24b0795d72,2,2,readable,1997年数学建模国赛真题+优秀论文/1997年国赛赛题/1997年国赛赛题.pdf,2006,native_text
+False,file_58e74a64e40df698,9,5,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：一类投资组合问题的建模与分析.pdf,3405,native_text
+False,file_66dba7e3d9b4b10e,6,2,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：投资收益与风险的优化模型.pdf,1840,native_text
+False,file_216f237c2ec3cdc3,9,5,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：投资组合与模糊规划模型.pdf,2486,native_text
+False,file_67e296d2342b1dc6,9,4,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：投资组合模型.pdf,357,native_text
+False,file_b56149418aa52d81,9,6,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：资产投资收益与风险模型.pdf,357,native_text
+False,file_e50200116e0b40c3,9,8,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：资本市场的最佳投资组合.pdf,357,native_text
+False,file_a7baab20f1c50898,9,6,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：风险投资分析.pdf,357,native_text
+False,file_0e27f6ee755b2cba,9,4,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：风险投资组合的线性规划模型.pdf,2395,native_text
+False,file_7b2754fee06c72f0,9,8,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998B：多旅行商路线的几个问题.pdf,33,scanned_or_no_text
+False,file_8c0e4c4de72bce97,9,10,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998B：最佳灾情巡视路线的数学模型.pdf,2752,native_text
+False,file_a6bc1f3623cb60c4,9,5,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998B：灾情巡视的最佳路线.pdf,3611,native_text
+False,file_5338b11fdf996312,3,1,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998B：灾情巡视的最佳路线_节选_.pdf,709,native_text
+False,file_061246ff351d37d5,9,6,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998B：灾情巡视路线寻优模型.pdf,3317,native_text
+False,file_07c5e23c5ce524fd,9,4,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998B：灾情巡视路线最优解的证明.pdf,3821,native_text
+False,file_7e33c4b3f114df91,9,7,readable,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998B：灾情巡视路线的设计.pdf,3027,native_text
+False,file_00dcadc9245b8b16,2,2,readable,1998年数学建模国赛真题+优秀论文/1998年国赛赛题/1998年国赛赛题.pdf,1596,native_text
+False,file_e8beb55cc3e76c34,7,6,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999A：刀具问题的仿真及灵敏度分析.pdf,3626,native_text
+False,file_954e22a1ac7aa18b,6,5,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999A：最优刀具更换周期上界_检查间隔下界的证明.pdf,4228,native_text
+False,file_293e54fc54bb6306,6,10,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999A：自动化车床最优刀具检测更换模型.pdf,3641,native_text
+False,file_d9268b675266cf23,6,5,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999A：自动化车床管理建模分析.pdf,3438,native_text
+False,file_fce40ea9b8f0c058,6,4,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999A：自动化车床管理的数学模型.pdf,3714,native_text
+False,file_3a6c56ba72d822cc,6,6,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999A：自动化车床管理（1）.pdf,4356,native_text
+False,file_3170544a65deecf7,7,6,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999A：自动化车床管理（2）.pdf,4236,native_text
+False,file_7cfbe9661ee7bae7,6,6,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999A：车床管理优化模型.pdf,4649,native_text
+False,file_eb5be7030db32919,7,6,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999B：钻井布局.pdf,4879,native_text
+False,file_224c5420a88675cc,6,10,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999B：钻井布局模型.pdf,4521,native_text
+False,file_7e1263c626013217,6,7,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999B：钻井布局的数学模型.pdf,5396,native_text
+False,file_ab34b42b3ddc915c,6,7,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999B：钻井布局的设计.pdf,4020,native_text
+False,file_a61eb89fb32de964,6,7,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999B：钻井布局问题评述.pdf,3898,native_text
+False,file_a862be437f4064af,6,7,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999C：煤矸石堆积模型.pdf,4777,native_text
+False,file_91239f270e6f6ec2,7,6,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999C：煤矸石堆积经费问题的几点讨论.pdf,3998,native_text
+False,file_643bf82ea4f8c020,6,6,readable,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999C：煤矸石堆积问题的解答及引出的思考.pdf,4222,native_text
+False,file_44b48065a74ff5bd,3,3,readable,1999年数学建模国赛真题+优秀论文/1999年国赛赛题/1999年国赛赛题.pdf,4121,native_text
+False,file_d3fee63f713084f6,7,9,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA分类模型.pdf,3873,native_text
+False,file_6b87a5ab24bb1393,6,5,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA序列中的结构与简化模型.pdf,5411,native_text
+False,file_5263cff7773f234d,7,8,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA序列分类的数学模型.pdf,4479,native_text
+False,file_d33714f3324a4771,6,8,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA序列的分类.pdf,5191,native_text
+False,file_a98a01f2141bbd61,6,9,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA序列的分类模型.pdf,4518,native_text
+False,file_563500442801ad0a,6,7,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：关于DNA序列分类问题的模型.pdf,4388,native_text
+False,file_45f8fb2ca74032a6,6,6,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000B：一类运输问题的建模.pdf,4352,native_text
+False,file_bc700212a7fdee0f,6,6,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000B：一类运输问题的建模1.pdf,4352,native_text
+False,file_cffc924b98e56126,6,4,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000B：管道订购与运输问题.pdf,3964,native_text
+False,file_f0e220afba586ae7,6,4,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000B：管道订购和运输.pdf,3620,native_text
+False,file_4dd053217a5b876b,6,5,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000B：订购和运输钢管的最优方案.pdf,4525,native_text
+False,file_f1087b62901fb1d8,6,6,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000B：钢管的订购和运输.pdf,4763,native_text
+False,file_a298623f3a31d2b0,8,8,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000B：钢管的订购和运输解答模型.pdf,2608,native_text
+False,file_08eff80444707c42,6,4,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000B：钢管订购和运输策略.pdf,4640,native_text
+False,file_f2d9f278d1eae792,7,3,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000C：航程计算的数学模型.pdf,4240,native_text
+False,file_c78b61b029be5802,6,5,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000C：飞越北极.pdf,4865,native_text
+False,file_27c69a0589b5ce3e,7,8,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000C：飞越北极的数学模型 (2).pdf,4047,native_text
+False,file_8f614e93ca0d3518,6,6,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000C：飞越北极的数学模型.pdf,4553,native_text
+False,file_6e9ae11ee3e6a8f4,8,5,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000D：空洞探测.pdf,3660,native_text
+False,file_16e2d46eef60cae9,7,3,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000D：空洞探测的最优解法.pdf,3400,native_text
+False,file_8e58f8777ccd43e5,6,3,readable,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000D：空洞探测问题及有关情况.pdf,3593,native_text
+False,file_69f6cdb8e827e504,3,6,readable,2000年数学建模国赛真题+优秀论文/2000年国赛赛题/2000年国赛赛题.pdf,4646,native_text
+False,file_7ccca01109cf0a18,6,6,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：利用切片的二维空间相关操作实现血管的三维重建.pdf,3775,native_text
+False,file_9c7135f98d2ef016,6,5,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：旋转抛物面聚光效果的研究.pdf,4145,native_text
+False,file_0b1c5e62da9a6058,11,7,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：管道切片的三维重建 (2).pdf,4391,native_text
+False,file_3e9690736e6617e6,6,7,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：管道切片的三维重建.pdf,4272,native_text
+False,file_4633fe8c510c52ad,6,5,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管三维重建的问题.pdf,4870,native_text
+False,file_51b2b38ddfa4a352,9,5,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管三维重建的问题A.pdf,5316,native_text
+False,file_09d80a6bc9c7eae0,10,6,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管切片的三维重建 (2).pdf,4918,native_text
+False,file_ba204a330593578a,6,6,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管切片的三维重建.pdf,4302,native_text
+False,file_31f7d992b82249db,11,6,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管的三维重建 (2).pdf,3607,native_text
+False,file_9661d82a1b1a13f0,6,6,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管的三维重建.pdf,3452,native_text
+False,file_3c3a50bc42ece679,12,8,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管管道的三维重建 (2).pdf,4918,native_text
+False,file_b44232963c5a85e4,6,8,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管管道的三维重建.pdf,4592,native_text
+False,file_0f92c54af77ba718,9,6,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：公交车调度.pdf,4354,native_text
+False,file_97ed03fac25de2f4,9,6,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：公交车调度优化模型.pdf,4545,native_text
+False,file_93b93fa8bc02432b,9,8,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：公交车调度的规划数学模型.pdf,5506,native_text
+False,file_989fc91ed8f7c64a,9,6,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：公交车调度问题的数学模型.pdf,4172,native_text
+False,file_c3db2051c8487c08,9,8,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：公交车调度问题的研究.pdf,3136,native_text
+False,file_a39a69253216fe00,9,7,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：关于公交车调度的优化问题 (2).pdf,4754,native_text
+False,file_4d35cd0ac4308d09,6,7,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：关于公交车调度的优化问题.pdf,4484,native_text
+False,file_8d0652dc429b1465,6,8,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：对于公交汽车调度问题的求解.pdf,3676,native_text
+False,file_0e43c2cc978a9a62,6,7,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001C：“基金使用计划”模型和评述.pdf,3442,native_text
+False,file_5452a036bf6db08a,6,7,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001C：基金存储方案.pdf,3826,native_text
+False,file_c0138cb150efa95a,6,8,readable,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001C：基金最佳使用计划.pdf,4795,native_text
+False,file_5db98322bc282094,12,3,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：关于_车灯线光源的优化设计_问题的光学思路.pdf,33,scanned_or_no_text
+False,file_aad7d648a3d9b4fc,6,3,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：关于“车灯线光源的优化设计”问题的光学思路.pdf,4956,native_text
+False,file_afad3ca350327cfc,12,7,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯光源优化问题的探讨 (2).pdf,357,native_text
+False,file_00e7e2a3f0fdf7fd,6,7,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯光源优化问题的探讨.pdf,5138,native_text
+False,file_c5d3133f2c5cd02d,12,6,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯灯丝长度优化设计的数学模型和数值模拟 (2).pdf,33,scanned_or_no_text
+False,file_31d5bbf44cb9436e,6,6,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯灯丝长度优化设计的数学模型和数值模拟.pdf,3092,native_text
+False,file_4340e73d995e00cc,12,12,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计 (2).pdf,33,scanned_or_no_text
+False,file_60cd95f35af863b3,6,5,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计(1).pdf,3544,native_text
+False,file_99adf616e353ee61,6,12,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计.pdf,2791,native_text
+False,file_4b157aa151e0e5ad,12,10,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计方案 (2).pdf,33,scanned_or_no_text
+False,file_68271fa9e25113c2,6,10,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计方案.pdf,3682,native_text
+False,file_000eae52723990b0,12,9,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计模型 (2).pdf,357,native_text
+False,file_9d4f7835599cc1d7,6,8,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计模型.pdf,2512,native_text
+False,file_12ad598d2c3143ba,12,9,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计问题 (2).pdf,33,scanned_or_no_text
+False,file_c5d2a54437387407,6,9,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计问题.pdf,3551,native_text
+False,file_3a662d36967a1d0b,6,10,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002B：“彩票中的数学”问题的优化模型与评述.pdf,4078,native_text
+False,file_51c9f561c7842673,6,7,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002B：彩票中的数学.pdf,4589,native_text
+False,file_842e04d095fd213d,6,7,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002B：彩票方案的优选模型.pdf,3465,native_text
+False,file_6b617a580de4ac3a,6,6,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002B：彩票方案的合理性优化.pdf,4647,native_text
+False,file_699dbcb1def71a06,6,6,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002B：彩票方案的合理性优化1.pdf,4647,native_text
+False,file_4217634025de8415,6,7,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002B：彩票方案的评价.pdf,4198,native_text
+False,file_2c865e66864e7e47,6,6,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002B：彩票运行方案的合理性研究.pdf,3753,native_text
+False,file_9995ae59deed8736,6,6,readable,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002B：彩票运行方案的合理性研究1.pdf,3753,native_text
+False,file_80bc56e85ec075a1,12,6,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：SARS传播的数学原理及预测与控制 (2).pdf,357,native_text
+False,file_ba4122eb6fb6b37c,6,6,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：SARS传播的数学原理及预测与控制.pdf,5437,native_text
+False,file_96964ff825126fbb,12,10,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：SARS传播的研究 (2).pdf,33,scanned_or_no_text
+False,file_9b76e4cadd6e8cbe,6,10,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：SARS传播的研究.pdf,4710,native_text
+False,file_ffeacf03416e1d47,12,10,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：SARS传播预测的数学模型 (2).pdf,33,scanned_or_no_text
+False,file_0f17e3df60b432d2,6,10,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：SARS传播预测的数学模型.pdf,4621,native_text
+False,file_2a3eee13518f3e8d,12,10,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：考虑自愈的SARS的传播模型 (2).pdf,33,scanned_or_no_text
+False,file_2feca222c21a5ec1,6,10,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：考虑自愈的SARS的传播模型.pdf,5175,native_text
+False,file_1404eb0801dc21c3,6,9,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：非典数学模型的建立与分析.pdf,3596,native_text
+False,file_d2a8a7733514b06b,6,10,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：“露天矿生产的车辆安排”的模型和评述.pdf,3912,native_text
+False,file_486fac7db39a0ae9,12,7,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排 (2).pdf,33,scanned_or_no_text
+False,file_2518c4f90a044b72,6,7,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排(1).pdf,3020,native_text
+False,file_c922ae81d42abb8a,6,8,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排(2).pdf,3360,native_text
+False,file_ff7a14e613172237,6,7,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排.pdf,5410,native_text
+False,file_09ea90c789ab47e8,12,7,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排A.pdf,33,scanned_or_no_text
+False,file_c7de7fbc3a88afe8,12,8,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排B.pdf,33,scanned_or_no_text
+False,file_563ca384f90041ca,12,10,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排_的模型和评述.pdf,33,scanned_or_no_text
+False,file_7c91885cb897a68d,12,8,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产车辆安排计划优化设计 (2).pdf,33,scanned_or_no_text
+False,file_5ecda2ab2d7eda85,6,8,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产车辆安排计划优化设计.pdf,5026,native_text
+False,file_79753804587edbf3,6,8,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003D：“抢渡长江”问题的数学建模和求解.pdf,4054,native_text
+False,file_93809f012da9ebc0,6,8,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003D：抢渡长江的数学模型（1）.pdf,4387,native_text
+False,file_87f85cd603e1c51b,6,7,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003D：抢渡长江的数学模型（2）.pdf,5069,native_text
+False,file_6980eff72833224b,6,7,readable,2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003D：江河竞渡的优化模型.pdf,4199,native_text
+False,file_175a4d857e778f71,12,7,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004A：MS网点的合理布局.pdf,33,scanned_or_no_text
+False,file_1dd5454714513fd2,12,7,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004A：临时超市网点的规划模型研究.pdf,357,native_text
+False,file_c2fb85f12d0999da,12,8,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004A：基于利润最大化的奥运商业网点分布微观经济模型.pdf,33,scanned_or_no_text
+False,file_9c576988f8947c27,12,8,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004A：奥运会网点的优化设计.pdf,357,native_text
+False,file_4d948d47726823ed,12,5,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004A：奥运场馆中临时商业网点设计中的数学模型化方法.pdf,33,scanned_or_no_text
+False,file_27b4213344ef5ffd,13,7,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004A：数据挖掘技术在小型商业网点布局问题的应用.pdf,33,scanned_or_no_text
+False,file_0f49f4ded6294ab4,12,8,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004B：电力市场的输电阻塞优化管理.pdf,33,scanned_or_no_text
+False,file_7c646652d9662cb3,12,8,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004B：电力市场的输电阻塞管理(2).pdf,33,scanned_or_no_text
+False,file_663193465d28a7f0,12,7,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004B：电力市场的输电阻塞管理.pdf,33,scanned_or_no_text
+False,file_c09c719be46f6c37,6,14,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004B：电力市场输电阻塞管理模型(特等奖).pdf,5901,native_text
+False,file_1bb53673e23615e7,12,14,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004B：电力市场输电阻塞管理模型-武汉大学.pdf,33,scanned_or_no_text
+False,file_8d414a6867ca5c11,12,8,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004B：电力市场输电阻塞管理模型.pdf,33,scanned_or_no_text
+False,file_7f5643c3a2902338,13,6,readable,2004年数学建模国赛真题+优秀论文/2004优秀论文/2004B：电路模拟方法在数学建模中的应用.pdf,357,native_text
+False,file_f185d60fa31d07bc,6,6,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：基于回归分析的长江水质预测与控制.pdf,4071,native_text
+False,file_d81d4a55fd86bf6a,6,6,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：水质的评价和预测模型.pdf,5574,native_text
+False,file_648fd47b042a391e,6,9,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：长江水质的评价和预测.pdf,4526,native_text
+False,file_e68b3e4c70e037a5,6,6,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：长江水质的评价预测模型.pdf,3920,native_text
+False,file_6e184775b5298589,6,6,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：长江水质的评价预测模型及其实用性研究.pdf,4098,native_text
+False,file_f572fb5e865e4288,6,11,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：长江水质综合评价与预测的数学模型.pdf,4419,native_text
+False,file_c9f92af3ea637b05,6,6,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：长江水质评价和预测研究.pdf,5124,native_text
+False,file_997fb7d4335f35b5,6,5,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005B：DVD在线租赁.pdf,2908,native_text
+False,file_156fc0164b767423,6,4,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005B：DVD在线租赁业务中的数学模型.pdf,4586,native_text
+False,file_1aaffe586053cead,6,7,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005B：DVD在线租赁系统的优化设计.pdf,4313,native_text
+False,file_9eb82050784c5476,6,7,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005B：DVD在线租赁问题.pdf,4613,native_text
+False,file_55de07fa0d1e36f9,6,9,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005B：DVD租赁优化方案.pdf,4441,native_text
+False,file_75d67b6b8bf1f108,6,9,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005B：DVD租赁问题的模型设计及求解.pdf,4561,native_text
+False,file_e92ac17c8d9c70aa,6,4,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005C：基于插值的雨量预报评价模型.pdf,3429,native_text
+False,file_20ec25dc6fe333df,6,5,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005C：雨量预报方法优劣的评价模型.pdf,4300,native_text
+False,file_ead6438f6949d3e7,4,2,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005C：雨量预报方法的评价(1).pdf,1963,native_text
+False,file_3d1a554701b13fe7,6,4,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005C：雨量预报方法的评价.pdf,4283,native_text
+False,file_99696003088cd323,6,6,readable,2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005C：雨量预报方法的评价模型.pdf,3607,native_text
+False,file_068a123c841754d2,3,30,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006A：出版社书号的优化配置.pdf,2345,native_text
+False,file_9c2f214f7e1e12b8,3,22,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006A：出版社的资源优化配置.pdf,1655,native_text
+False,file_45ab19239e17af2f,3,17,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006A：出版社的资源配置方案.pdf,2272,native_text
+False,file_5f72db1a2f2dd0fc,3,16,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006A：出版社资源的优化配置.pdf,2133,native_text
+False,file_c24a947655cfd690,8,19,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006A：出版社资源配置的问题研究.pdf,2340,native_text
+False,file_497c9efa56800e49,3,25,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006A：层次分析思想在出版社资源配置中的应用.pdf,2156,native_text
+False,file_82d6ed1445f46c48,3,10,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006B：艾滋病疗法的评价以及疗效的预测.pdf,3450,native_text
+False,file_db7257e436fdf8ed,4,11,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006B：艾滋病疗法的评价及疗效的预.pdf,1960,native_text
+False,file_a820e2130898e921,4,24,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006B：艾滋病疗法的评价及疗效的预测.pdf,1800,native_text
+False,file_177d41e870474c5d,4,29,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006B：艾滋病疗法的评价及疗效的预测（2）.pdf,1338,native_text
+False,file_cdede718ec8cbeff,3,17,readable,2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006B：艾滋病药物治疗的研究.pdf,2127,native_text
+False,file_d19bb916ed1a5768,0,131,readable,2006年数学建模国赛真题+优秀论文/2006年赛题/2006年国赛D题附件(2).pdf,1562,native_text
+False,file_4de28c0969147ca2,9,7,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《丁克现象与中国人口增长》.pdf,150,native_text
+False,file_bb47a3ad057e6c5f,9,7,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《中国人口区域结构向量模型》.pdf,150,native_text
+False,file_39c6189e166d3b77,3,18,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《中国人口发展趋势的分析与预测》.pdf,2855,native_text
+False,file_34e2d85e42f2b056,3,15,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《中国人口增长预测》.pdf,3486,native_text
+False,file_eec8e1bf92ca9b8f,3,26,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《中国人口增长预测模型》 (2).pdf,2644,native_text
+False,file_fbb0e82c055bc65d,3,24,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《中国人口增长预测模型》 (3).pdf,1849,native_text
+False,file_19ac15f6ebb58a2a,5,20,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《中国人口增长预测模型》 (4).pdf,4149,native_text
+False,file_7159286489c4391f,9,10,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《中国人口增长预测模型》.pdf,150,native_text
+False,file_63f278f49ad4d81d,6,19,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《中国人口增长预测模型的建立与分析》.pdf,1062,native_text
+False,file_ec516b759d15dada,9,8,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《人口增长预测模型》.pdf,150,native_text
+False,file_d82f91b9b17a20af,9,8,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《基于Leslie模型的中国人口预测及模特卡罗仿真》.pdf,150,native_text
+False,file_e23ab3281f162261,3,15,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007A：《基于差分方程的人口预测模型》.pdf,3143,native_text
+False,file_9c085980f1083de5,3,59,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《乘公交，看奥运》.pdf,2242,native_text
+False,file_d4e7736b77359ddd,3,41,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《公交查询系统的最佳乘车方案研究与设计》.pdf,2572,native_text
+False,file_b0ec92092f92ae4e,3,18,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《公交线路的综合选择》.pdf,3598,native_text
+False,file_c57a7d4ee16fa9d5,9,4,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《公交线路选择模型》.pdf,150,native_text
+False,file_dc3e5570afdbad69,3,19,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《公交路线的最优化选择》.pdf,1799,native_text
+False,file_1136a33e5427935e,3,16,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《关于多目标道路寻优问题的研究》.pdf,3058,native_text
+False,file_da78614ad65c742d,3,25,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《基于多种评价方案的公交线路选择优化模型》.pdf,1998,native_text
+False,file_21528453d4a77b8d,3,26,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《基于最小换乘次数的公交路线选择研究》.pdf,2346,native_text
+False,file_d205a32777d45401,3,18,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《基于生成树算法的公交地铁线路选择模型》.pdf,2562,native_text
+False,file_dd2b8c4a33ae03d9,9,7,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《最优公交线路选择》.pdf,150,native_text
+False,file_e45af0fa6c47801d,9,9,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《最佳公交路线选择模型》.pdf,150,native_text
+False,file_12d93ee743cf6665,9,11,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007C：《手机“套餐”优惠几何》.pdf,150,native_text
+False,file_a0f7c7d6ecfd9ea5,9,7,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007C：《手机套餐评价模型》.pdf,150,native_text
+False,file_a96ff8c012bc6c13,12,7,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007C：《手机套餐资费问题的评价与优化设计模型》.pdf,99,scanned_or_no_text
+False,file_e2cc835a7d712589,9,9,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007D：《体能测试时间安排》 (2).pdf,150,native_text
+False,file_78a4e0b91d583c1f,9,6,readable,2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007D：《体能测试时间安排》.pdf,150,native_text
+False,file_31422d937124cfbb,5,29,readable,2008年数学建模国赛真题+优秀论文/2008A：《数码相机定位》/论文/数码相机定位.pdf,2750,native_text
+False,file_5f09109ce2508bc9,6,14,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008A：《具有仿射不变性的几何结构在相机定位中的应用》.pdf,93,scanned_or_no_text
+False,file_d85347e4ca9400a8,6,34,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008A：《数码相机定位》.pdf,93,scanned_or_no_text
+False,file_ed55e15a0d75912d,4,39,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008A：《数码相机定位算法研究》.pdf,1367,native_text
+False,file_c1afe7cef73f16cb,4,18,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008A：《数码相机相对位置定位方法》.pdf,1910,native_text
+False,file_f003ad3a0a22e544,16,11,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008A：《透视投影中圆心投影定位和双目立体系统标定》.pdf,95,scanned_or_no_text
+False,file_8817241608387246,3,27,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008A：数码相机定位 (2).pdf,5030,native_text
+False,file_12e78a2e79373769,3,17,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008A：数码相机定位.pdf,2476,native_text
+False,file_47821bb920ca3f51,4,28,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《关于高等教育学费标准的评价及建议》.PDF,2361,native_text
+False,file_f2944dcc2020b380,3,30,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《基于BP神经网络的我国高等教育学费模型研究》.pdf,4322,native_text
+False,file_9a94b75867e5e3b7,3,20,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《多因子影响下的高等教育学费模型》.pdf,2713,native_text
+False,file_a190ab9b8e0fbeac,3,13,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《我国高等教育收费问题的探究》.pdf,2006,native_text
+False,file_1e1ff5020cd034a7,4,26,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高校学费合理性研究》.PDF,2378,native_text
+False,file_c332c42642a2e84b,3,35,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准探讨》 (2).pdf,2381,native_text
+False,file_306d1df3a24ac23d,3,19,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准探讨》 (3).pdf,2559,native_text
+False,file_bef1d3e3df80c856,3,24,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准探讨》 (4).pdf,3081,native_text
+False,file_5eb78668691ba29f,3,43,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准探讨》.pdf,2150,native_text
+False,file_0cac125b4d96439b,3,16,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准探讨的最优化模型》.PDF,2705,native_text
+False,file_9ee2d0196c53fc43,3,41,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准的探讨》.pdf,2415,native_text
+False,file_d2859bf5dc068bbd,3,24,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准问题的研究》.pdf,2991,native_text
+False,file_552913051d77910d,3,24,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费的优化模型》.pdf,1404,native_text
+False,file_2fdbe547135f37b2,3,8,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008C：《地面搜索最短耗时的计算》.pdf,2266,native_text
+False,file_493aca41f82bf88c,4,14,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008C：《地面搜索的优化模型》.pdf,1344,native_text
+False,file_2b91c572d23e7a5e,4,9,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008C：《地面搜索的安排计划》.pdf,2169,native_text
+False,file_8bc400c9714c6db6,3,12,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008D：《NBA赛程的分析与评价》 (2).pdf,1702,native_text
+False,file_f88adfa56c3a9271,3,18,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008D：《NBA赛程的分析与评价》 (3).pdf,1218,native_text
+False,file_c736404ba7a0313a,6,31,readable,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008D：《NBA赛程的分析与评价》.pdf,2320,native_text
+False,file_5a5448b2fdbb90ef,5,18,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009A：制动器试验台混合电模拟控制方法分析.pdf,2645,native_text
+False,file_4ba90d606c17800a,3,17,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009A：制动器试验台的控制方法分析 (2).pdf,2476,native_text
+False,file_eadc1538dad00e4d,4,20,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009A：制动器试验台的控制方法分析.pdf,1634,native_text
+False,file_20c25cc758428676,7,18,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009A：制动器试验台的计算机控制方法分析与设计.pdf,2558,native_text
+False,file_8a11873fd56df8c5,3,14,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009A：制动机控制方法分析.pdf,2250,native_text
+False,file_c648c4ab41fcd76d,3,15,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009A：联合制动器试验台电流控制方法的实现及改进.pdf,1714,native_text
+False,file_78e1ce738a25bfa2,62,17,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：制动器试验台的控制方法分析.pdf,1413,native_text
+False,file_015d8ab14bcdf05d,3,28,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：医院病床合理安排模型探讨.pdf,2027,native_text
+False,file_06f451dd65ee8d63,4,2,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：基于排队论的病床安排模型的研究.pdf,4750,native_text
+False,file_b759cb4959119f04,5,20,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：基于蒙特卡洛模拟的眼科病床安排排队模型.pdf,1980,native_text
+False,file_3cb125c67761335f,3,38,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：眼科病床合理安排问题的模型探讨.pdf,4099,native_text
+False,file_905abd81f5ca84b7,4,23,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：眼科病床的合理安排.pdf,2281,native_text
+False,file_ef8b7214aa599f5f,3,17,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：眼科病床的合理安排模型.pdf,2411,native_text
+False,file_9192f72d4ef86399,6,15,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009C：关于对卫星和飞船跟踪的测控站分布.pdf,93,scanned_or_no_text
+False,file_76bad06ad4bb5e7a,6,17,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009C：卫星和飞船的跟踪测控 (2).pdf,93,scanned_or_no_text
+False,file_fcb5a20f718e2ae3,6,18,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009C：卫星和飞船的跟踪测控.pdf,93,scanned_or_no_text
+False,file_ff260162a0721905,6,11,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009C：卫星和飞船的跟踪测控模型.pdf,93,scanned_or_no_text
+False,file_4be908ecdf001428,6,15,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009C：飞船的跟踪测控模型.pdf,93,scanned_or_no_text
+False,file_c7176ba43c1c3ee6,6,15,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009D：会议筹备优化方案.pdf,93,scanned_or_no_text
+False,file_b9f11383a9b65381,6,18,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009D：会议筹备优化模型.pdf,93,scanned_or_no_text
+False,file_c29d8e7a14014348,6,21,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009D：会议筹备方案的优化设计模型.pdf,93,scanned_or_no_text
+False,file_13b044a2a492f38e,6,16,readable,2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009D：会议筹备的优化方案.pdf,93,scanned_or_no_text
+False,file_3a092c929ae8959d,5,21,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010A：倾斜卧式储油罐油量标定的实用方法.pdf,1613,native_text
+False,file_e47f8e38a8e96f85,6,37,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010A：储油罐的变位识别与罐容表标定 (2).pdf,33,scanned_or_no_text
+False,file_4a20ebcb1f4e2ef4,5,32,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010A：储油罐的变位识别与罐容表标定 (3).pdf,1856,native_text
+False,file_aa0730e131a6fa76,5,20,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010A：储油罐的变位识别与罐容表标定 (4).pdf,1504,native_text
+False,file_ff6415cbb84b48f6,6,25,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010A：储油罐的变位识别与罐容表标定.pdf,33,scanned_or_no_text
+False,file_79cdd6d601183bb7,6,100,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010A：基于数学建模的储油罐变形监测研究.pdf,33,scanned_or_no_text
+False,file_0bf4db96bdbc11a9,3,31,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010B：上海世博会于文化方面影响力评估.pdf,2009,native_text
+False,file_212aa5cd88be1c60,6,29,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010B：上海世博会影响力的定量评估.pdf,33,scanned_or_no_text
+False,file_a0492a04da89e0a4,3,11,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010B：世博会参观线路设计.pdf,2613,native_text
+False,file_991eb23d9dbdb8ef,5,28,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010B：世博会对上海旅游业的影响研究.pdf,2056,native_text
+False,file_95368684409695b8,4,25,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010B：对上海世博会文化影响力的定量评估.pdf,2630,native_text
+False,file_42dc25404ef5ece6,4,14,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010C：输油管布置问题的优化模型.pdf,1976,native_text
+False,file_ec430a1ee28cb431,3,14,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010C：输油管的布置.pdf,1820,native_text
+False,file_0368b78517865b36,6,20,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010C：输油管的布置模型.pdf,33,scanned_or_no_text
+False,file_cafe1337279f51be,7,20,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010C：输油管的布置（2）.pdf,621,native_text
+False,file_c3746301b80b63ff,5,32,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010D：学生宿舍设计方案的评价.pdf,755,native_text
+False,file_89a55e76aae1aeb2,3,13,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010D：对学生宿舍设计方案的评价 (2).pdf,2272,native_text
+False,file_9671a587f6ac9b72,3,20,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010D：对学生宿舍设计方案的评价.pdf,1659,native_text
+False,file_044328efd47aaf3f,6,10,readable,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010D：对学生宿舍设计方案的评价（1）.pdf,33,scanned_or_no_text
+False,file_d563ef67d70d35bb,5,24,readable,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（1）.pdf,2273,native_text
+False,file_46b5c727a0a4cf85,4,25,readable,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（2）.pdf,2050,native_text
+False,file_c5fc4de1155018f1,3,29,readable,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（3）.pdf,2215,native_text
+False,file_5f04c50872b80c38,4,25,readable,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（4）.pdf,744,native_text
+False,file_eadce4c0ba38fdf0,3,21,readable,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（5）.pdf,2040,native_text
+False,file_845facab4adb3a24,7,19,readable,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（7）.pdf,2765,native_text
+False,file_39749da2e432eabd,3,21,readable,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（8）.pdf,1993,native_text
+False,file_12933b3f22ca2ac8,3,19,readable,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011B：交巡警服务平台的设置与调度（1）.pdf,2323,native_text
+False,file_0a071a5b9696f618,4,29,readable,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011B：交巡警服务平台的设置与调度（2）.pdf,1912,native_text
+False,file_5a91f39f3d760e99,3,31,readable,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011B：交巡警服务平台的设置与调度（3）/交巡警服务平台的设置与调度.pdf,3724,native_text
+False,file_f11df4c84208d125,5,20,readable,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (1).pdf,1327,native_text
+False,file_1f0eec24d7779d3e,12,36,readable,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (2).pdf,2809,native_text
+False,file_8571d0ef105fac69,3,27,readable,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (3).pdf,1943,native_text
+False,file_170b9c7da6dcf3f2,3,41,readable,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/A285.pdf,1968,native_text
+False,file_c16ef902e263be1d,3,34,readable,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/B077.pdf,1495,native_text
+False,file_62641140a6e81bde,14,18,readable,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/20121784.pdf,1601,native_text
+False,file_5babecc11190336c,5,30,readable,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/B149答卷.pdf,3141,native_text
+False,file_ed1ce003416789d8,4,44,readable,2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (2)/周晨阳周登岳孔垂烨A.pdf,1132,native_text
+False,file_25bb58bc10c49990,4,40,readable,2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (3)/A-13241002-黄小敏，黄程，王露.pdf,2529,native_text
+False,file_987555c9cd424c74,4,35,readable,2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (4)/5486.pdf,2119,native_text
+False,file_850f9fd63970b6f1,3,46,readable,2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (5)/基于差分方程和元胞自动机的交通阻塞模型.pdf,2042,native_text
+False,file_900775decf5799e4,3,32,readable,2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响/A0114.pdf,2146,native_text
+False,file_25060f4e9feae5ac,5,31,readable,2013年数学建模国赛真题+优秀论文/2013B：碎纸复原模型与算法.pdf,2024,native_text
+False,file_c1b233185b9d290c,136,32,readable,2013年数学建模国赛真题+优秀论文/2013B：碎纸片的拼接复原 (2)/唐隽玉，孙雪清，胡文伟.pdf,2887,native_text
+False,file_b6d621ed5fe4befc,5,32,readable,2013年数学建模国赛真题+优秀论文/2013B：碎纸片的拼接复原 (3)/B-20001040-向航，王帆，郭树璇.pdf,2250,native_text
+False,file_a3b44dc6e746769c,3,39,readable,2013年数学建模国赛真题+优秀论文/2013C：古塔的变形/成都工业学院 专5 C 肖瑜琳 刘新燕 黄龙.pdf,1560,native_text
+False,file_452b223a9b135cdd,1,2,readable,2013年数学建模国赛真题+优秀论文/全国大学生数学建模竞赛参赛规则2013.pdf,1393,native_text
+False,file_941bb9db65813684,3,28,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (2)/A11141001_陈超_唐梦珏_杨克宇.pdf,3104,native_text
+False,file_faff29738cea4bb5,3,39,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (3)/A11168020_郑建国_陶禹诺_严洒洒.pdf,2040,native_text
+False,file_ce0898049ec5ca71,5,36,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (4)/A10009072_吉张鹤轩_杨升_陈同广.pdf,2048,native_text
+False,file_399d70ed8775a597,5,32,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (5)/A15010142_王子硕_吴鹏飞_陶立.pdf,2119,native_text
+False,file_5dc83748f3455831,10,29,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略/A23022014_杜磊_江启文_汪鑫 .pdf,2969,native_text
+False,file_60b324b7317ac15d,3,22,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌 (2)/01025004_刘桥_牟宇超_解中斌.pdf,1996,native_text
+False,file_4a01c09eae594c01,3,25,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌 (3)/B16046004_程双泽_李君昌_陈凌勤.pdf,4668,native_text
+False,file_37c535eb75255854,0,25,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌 (3)/B16046004_程双泽_李君昌_陈凌勤/B16046004_程双泽_李君昌_陈凌勤.pdf,4668,native_text
+False,file_98c28220e49bb695,4,26,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌 (4)/B18013004_邓敏娜_宁凯_董婷婷.pdf,1139,native_text
+False,file_9e9c94f25d0822c5,24,25,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌/B27042017_吴俊锋_谭翔飞_庄重.pdf,1425,native_text
+False,file_388a81b28020d41b,3,17,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014C：生猪养殖场经营管理的研究 (2)/C19510015_杨金洪_洪嘉远_谢思霞.pdf,1822,native_text
+False,file_adc1e2bfb56844a7,5,27,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014C：生猪养殖场经营管理的研究/论文正文.pdf,1181,native_text
+False,file_9e933313d356f722,4,23,readable,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014D：储药槽的设计 (3)/D22022011_阎发静_周靖_杨峰.pdf,1996,native_text
+False,file_efbba87d403a5dfe,1,2,readable,2014年数学建模国赛真题+优秀论文/2014年赛题/全国大学生数学建模竞赛参赛规则.pdf,1393,native_text
+False,file_4dea9811e93ba716,14,32,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (1).pdf,2240,native_text
+False,file_d3bae229129af3b4,3,30,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (2).pdf,2800,native_text
+False,file_8f3d3865f913cfd7,4,27,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (3).pdf,3034,native_text
+False,file_808b810814b21519,5,47,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (4).pdf,2789,native_text
+False,file_1b2fcfc48c87000f,3,26,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (5).pdf,1695,native_text
+False,file_45a96d5d147b6bd8,3,26,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (6).pdf,1695,native_text
+False,file_0d1ed6d78e83107f,7,40,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (7).pdf,2586,native_text
+False,file_d15a36cbea9b2603,3,32,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (1).pdf,2391,native_text
+False,file_df18b76ac97bd23a,9,42,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (2).pdf,1813,native_text
+False,file_a8ed523a0aff43b1,3,26,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (3).pdf,1950,native_text
+False,file_f6e9a8155b08de78,4,31,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (4).pdf,2459,native_text
+False,file_dbb5381285a9aead,3,19,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (5).pdf,2699,native_text
+False,file_bd81dc4221ac70a4,3,50,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015C：月上柳梢头，人约黄昏后 (3).pdf,2962,native_text
+False,file_5f8c0448445aea4d,4,25,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015C：月上柳梢头，人约黄昏后 (4).pdf,2638,native_text
+False,file_1b647f3c67dcc642,3,21,readable,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015D：众筹筑屋规划方案设计 (3).pdf,3031,native_text
+False,file_b36d402b87fe4421,0,5,readable,2015年数学建模国赛真题+优秀论文/2015年赛题/2015年国赛D题附件2 中华人民共和国土地增值税暂行条例.pdf,2364,native_text
+False,file_1defcee96df76748,0,1,readable,2015年数学建模国赛真题+优秀论文/2015年赛题/2015年国赛D题附件3 其他相关说明.pdf,683,native_text
+False,file_fd3108b318a5aa2d,3,36,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016A：基于极值系泊系统设计 (1).pdf,3076,native_text
+False,file_f39b9b798e8c954b,3,37,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016A：基于极值系泊系统设计 (2).pdf,3187,native_text
+False,file_42078145d1a3e4f5,3,39,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016A：基于极值系泊系统设计 (3).pdf,4263,native_text
+False,file_90519e73e3f1b80e,8,46,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016A：基于极值系泊系统设计 (4).pdf,3424,native_text
+False,file_c517bfafc90f5eff,5,44,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016A：基于极值系泊系统设计 (5).pdf,3215,native_text
+False,file_71441c80ed134358,3,30,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016B：小区开放道路通行影响 (1).pdf,3125,native_text
+False,file_8e2665d46aada8e5,5,36,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016B：小区开放道路通行影响 (2).pdf,2260,native_text
+False,file_ce1f7850bb0ee648,3,40,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016B：小区开放道路通行影响 (3).pdf,2571,native_text
+False,file_e7846ea6094f3ec2,3,30,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016B：小区开放道路通行影响 (4).pdf,3125,native_text
+False,file_c849d9940858f3ab,6,26,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016B：小区开放道路通行影响 (5).pdf,2872,native_text
+False,file_a5b825cb05b749e9,4,20,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016C：电池剩余放电时间预测 (1).pdf,2262,native_text
+False,file_f446ddb8ce7afd0a,3,22,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016C：电池剩余放电时间预测 (2).pdf,2660,native_text
+False,file_71b603510e6a96b2,3,81,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (1).pdf,2961,native_text
+False,file_233a7b880d61600e,3,48,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (2).pdf,3617,native_text
+False,file_9980bdd8f5457715,5,24,readable,2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (3).pdf,1821,native_text
+False,file_0daffa4d141d2621,4,47,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017A：CT系统参数标定及成像  (1).pdf,1808,native_text
+False,file_fb36db87c673ac59,5,24,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017A：CT系统参数标定及成像  (2).pdf,1853,native_text
+False,file_9e1f97ac00901ab4,5,31,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017A：CT系统参数标定及成像  (3).pdf,2084,native_text
+False,file_1aa1054553379847,6,31,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017A：CT系统参数标定及成像  (4).pdf,2029,native_text
+False,file_90d651ef1944e756,6,29,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017A：CT系统参数标定及成像  (5).pdf,2591,native_text
+False,file_ca53ddc057e94bc2,4,28,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (1).pdf,2623,native_text
+False,file_1992fce05928310e,3,47,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (2).pdf,3154,native_text
+False,file_e9eece7e3ad4b207,3,51,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (3).pdf,2277,native_text
+False,file_6b55ebc7bb299471,6,35,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (4).pdf,2607,native_text
+False,file_8002a5e435648349,3,45,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (5).pdf,4318,native_text
+False,file_7192c69d04c2f4eb,5,25,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (6).pdf,1485,native_text
+False,file_0a637bb8b6d9359f,3,25,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (7).pdf,2226,native_text
+False,file_e8867b4d1a7db302,4,31,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017C：颜色与物质浓度辨识 (1).pdf,1677,native_text
+False,file_e331f3e8656ced59,4,16,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017C：颜色与物质浓度辨识 (2).pdf,3608,native_text
+False,file_e8fe063e8d4796a1,7,25,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017C：颜色与物质浓度辨识 (3).pdf,2469,native_text
+False,file_60f64e77d7085081,8,26,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (1).pdf,2326,native_text
+False,file_ad1a7fb4cd71dae3,3,48,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (2).pdf,3036,native_text
+False,file_b5fde84b7f4d3157,6,30,readable,2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (3).pdf,1494,native_text
+False,file_19ccf9aa70f653f9,0,4,readable,2017年数学建模国赛真题+优秀论文/2017年赛题/全国大学生数学建模竞赛论文格式规范.pdf,2190,native_text
+False,file_91c46d176be0d318,3,45,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018A：基于多原则比较和蒙特卡洛模拟的 RGV 动态调度模型.pdf,2654,native_text
+False,file_3b871dc8cb73f608,4,28,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018A：基于非稳态导热的高温作业专用服装设计.pdf,2767,native_text
+False,file_ac09342d21cc20cb,3,43,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018A：高温作业专用服装设计.pdf,2313,native_text
+False,file_c25332e52d328c82,3,31,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018A：高温作业服设计.pdf,2144,native_text
+False,file_42eac5c4648d2836,3,29,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018B：RGV 的动态调度优化问题.pdf,2148,native_text
+False,file_fd7f653191a61164,3,56,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018B：基于 0-1 规划的单 RGV 动态调度模型.pdf,3497,native_text
+False,file_ff65680a8bcfddec,3,99,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018B：智能 RGV 的动态调度策略.pdf,4038,native_text
+False,file_3da7a7a4d5a0b619,3,42,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018C：基于 RFMS 指标的大型百货商场会员画像数据挖掘.pdf,2682,native_text
+False,file_4204c08ed769dad4,3,27,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018C：基于 RFMT 模型的百货商场会员画像描绘.pdf,3327,native_text
+False,file_30611813614196ea,3,15,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018C：大型百货商场会员画像描述.pdf,2346,native_text
+False,file_74856691c857fbd0,7,28,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018D：汽车总装线配置方案.pdf,2585,native_text
+False,file_02ac75f8fd262d8a,3,40,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018D：汽车总装线配置的优化模型研究.pdf,3582,native_text
+False,file_9f1f180a9823d8d4,3,61,readable,2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018D：确定汽车装配顺序问题的算法.pdf,2769,native_text
+False,file_8e6b949292ae7a84,6,42,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019A：基于数值模拟的高压油管压力控制模型.pdf,147,native_text
+False,file_ec33f31875f1f18d,6,24,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019A：高压油管压力波动的稳定控制.pdf,147,native_text
+False,file_6cd730c9c870dce4,6,40,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019A：高压油管的压强控制.pdf,147,native_text
+False,file_9d7e25f5bba29d97,6,27,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019B：同心鼓“同心协力”策略探究.pdf,147,native_text
+False,file_bb7d7efa82976365,6,35,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019B：同心鼓最佳协作策略的研究.pdf,147,native_text
+False,file_8b551e591fdb53fb,6,32,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019B：同心鼓运动模型的理论分析与策略研究.pdf,147,native_text
+False,file_4b7ffeb8d7ec9858,6,39,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019C：基于系统模拟的机场出租车决策与安排模型.pdf,147,native_text
+False,file_97cf4fd5b58307cb,6,30,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019C：机场出租车司机综合决策及机场出租车管理模型.pdf,147,native_text
+False,file_434cf08dd92d963a,6,39,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019C：机场的出租车问题.pdf,147,native_text
+False,file_f6fcc023cf6428f0,6,24,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019D：空气质量数据的校准.pdf,147,native_text
+False,file_74be49c5719c576c,6,39,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019D：空气质量数据的校准（2）.pdf,147,native_text
+False,file_4d5dcaa55e404073,6,31,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019D：空气质量数据的校准（3）.pdf,147,native_text
+False,file_cfc753a8436f54d2,6,36,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019D：空气质量监测数据校准模型研究.pdf,147,native_text
+False,file_1f10fad797f2eb77,6,20,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019E：“薄利多销”分析.pdf,147,native_text
+False,file_92375236b105ccbe,6,23,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019E：基于打折力度概念的“薄利多销”模型.pdf,147,native_text
+False,file_093741dda557af5e,6,36,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019E：基于数据挖掘对“薄利多销”进行分析.pdf,147,native_text
+False,file_9ca227879f6fb7dd,6,37,readable,2019年数学建模国赛真题+优秀论文/2019年优秀论文/2019E：薄利多销销售策略的模型研究分析.pdf,147,native_text
+False,file_53e8d54022f20599,8,3,readable,2019年数学建模国赛真题+优秀论文/2019年赛题/2019年国赛A题.pdf,1494,native_text
+False,file_5a357dd32e5e856c,3,2,readable,2019年数学建模国赛真题+优秀论文/2019年赛题/2019年国赛B题.pdf,1754,native_text
+False,file_4e50240479995bd2,1,1,readable,2019年数学建模国赛真题+优秀论文/2019年赛题/2019年国赛C题.pdf,931,native_text
+False,file_a7844ae64135d2ae,2,1,readable,2019年数学建模国赛真题+优秀论文/2019年赛题/2019年国赛D题 .pdf,673,native_text
+False,file_0b00e35096668996,1,1,readable,2019年数学建模国赛真题+优秀论文/2019年赛题/2019年国赛E题.pdf,646,native_text
+False,file_2927d1fdee13b352,6,26,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020A：回焊炉温曲线优化控制.pdf,33,scanned_or_no_text
+False,file_46d17e9c614857fe,6,42,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020A：基于一维热传导方程的回焊炉炉温模型.pdf,33,scanned_or_no_text
+False,file_4ac370e6546b790c,6,89,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020A：基于维热传导方程的炉温曲线机理模型研究.pdf,33,scanned_or_no_text
+False,file_e06939de39e21bde,6,104,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020B：基于动态规划、统计分析、静态博弈的穿越沙漠游戏策咯设计.pdf,33,scanned_or_no_text
+False,file_13ee3e800526bfb8,6,34,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020B：穿越沙漠游戏下玩家的最优策略模型.pdf,33,scanned_or_no_text
+False,file_92ca58e290180d3b,6,39,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020B：穿越沙漠游戏中的玩家行为决策问题.pdf,33,scanned_or_no_text
+False,file_4cadb97cd60b4a9c,6,50,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020B：穿越沙漠游戏最佳策略模型的研究与构建.pdf,33,scanned_or_no_text
+False,file_0e784dbe00bf0440,6,40,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020C：针对中小微企业最优信贷决策研究.pdf,33,scanned_or_no_text
+False,file_6c090baadf4fb0c8,6,53,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020C：银行基于大数据挖掘对中小微企业的信贷决策问题.pdf,33,scanned_or_no_text
+False,file_d702f61a49d92061,6,35,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020C：银行对中小微企业的信贷决策分析.pdf,33,scanned_or_no_text
+False,file_6cec2f09eed9a79f,6,45,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020C：银行对中小微企业的信贷策略.pdf,33,scanned_or_no_text
+False,file_e5ce99ed24ae9e80,6,26,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020D：基于接触式轮廓仪测量数据的工件形状自动标注方法.pdf,33,scanned_or_no_text
+False,file_7c8c2cc30d9fe3cb,6,77,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020D：基于梯度下降的决策树算法与非线性规划的信贷风险评估与信贷策略模型.pdf,33,scanned_or_no_text
+False,file_cc578a4bd3224569,6,46,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020D：接触式轮廓仪校准问题.pdf,33,scanned_or_no_text
+False,file_bcfb7a86f3359977,6,135,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020D：接触式轮廓仪的自动标注数学模型研究.pdf,33,scanned_or_no_text
+False,file_dd6c4050e67f235c,6,22,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020Ｅ：校园供水系统智能管理（１）.pdf,33,scanned_or_no_text
+False,file_e8fdc7922affa7ab,6,37,readable,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020Ｅ：校园供水系统智能管理（２）.pdf,33,scanned_or_no_text
+False,file_6f536041771178cf,9,3,readable,2021年数学建模国赛真题+优秀论文/2021年国赛赛题/2021年国赛A题.pdf,2151,native_text
+False,file_08a7602716242fe3,2,2,readable,2021年数学建模国赛真题+优秀论文/2021年国赛赛题/2021年国赛B题.pdf,1115,native_text
+False,file_0c11a03fb8f7c651,2,2,readable,2021年数学建模国赛真题+优秀论文/2021年国赛赛题/2021年国赛C题.pdf,1525,native_text
+False,file_6e5c52f3d6c06b7c,4,2,readable,2021年数学建模国赛真题+优秀论文/2021年国赛赛题/2021年国赛D题.pdf,1867,native_text
+False,file_5bae286241aa7473,6,3,readable,2021年数学建模国赛真题+优秀论文/2021年国赛赛题/2021年国赛E题.pdf,1375,native_text
+False,file_0622fdffac34b6f0,0,53,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/A092.pdf,2114,native_text
+False,file_aeb2fed3389cd84f,0,58,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/A127.pdf,7130,native_text
+False,file_bff5a8c61ede5bce,6,45,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/A165.pdf,2452,native_text
+False,file_17fd63cd3b36cd5a,1,39,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/A175.pdf,2810,native_text
+False,file_6a6416e93c6f9822,0,51,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/B226.pdf,2966,native_text
+False,file_c3c77cd3f90ba1a0,0,34,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/B311.pdf,1978,native_text
+False,file_5fa1cefa2e58a23b,0,50,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/B477.pdf,3239,native_text
+False,file_1a1adfac67ff590c,0,44,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/C050.pdf,2754,native_text
+False,file_b9ed4028b62a3dd2,0,74,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/C126.pdf,2729,native_text
+False,file_dcbde354518461f3,3,70,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/C228.pdf,2276,native_text
+False,file_622957b48bde6d4f,1,73,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/C235.pdf,1248,native_text
+False,file_e70f595f2c7af639,5,31,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/D039.pdf,2645,native_text
+False,file_8e123c17fd4187e8,1,53,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/E032.pdf,1688,native_text
+False,file_f0f7f51e14c14e7a,0,56,readable,2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/E176.pdf,2939,native_text
+False,file_526b92cd68672d56,1,4,readable,2023年数学建模国赛真题+优秀论文/2023赛题/A题/A题.pdf,3011,native_text
+False,file_6ccbd2e14ef05dd2,8,3,readable,2023年数学建模国赛真题+优秀论文/2023赛题/B题/B题.pdf,2213,native_text
+False,file_9dc917448bc3e6ac,0,1,readable,2023年数学建模国赛真题+优秀论文/2023赛题/C题/C题.pdf,1083,native_text
+False,file_b961b3a749d3af5a,0,2,readable,2023年数学建模国赛真题+优秀论文/2023赛题/D题.pdf,2371,native_text
+False,file_b3b7296313e9e526,0,1,readable,2023年数学建模国赛真题+优秀论文/2023赛题/E题/E题.pdf,747,native_text
+False,file_0d8515561b583852,18,3,readable,2024年数学建模国赛真题+优秀论文/2024真题/A题/A题.pdf,2362,native_text
+False,file_397080a458f2bc40,1,2,readable,2024年数学建模国赛真题+优秀论文/2024真题/B题/B题.pdf,1914,native_text
+False,file_e509b92237111fb9,0,1,readable,2024年数学建模国赛真题+优秀论文/2024真题/C题/C题.pdf,1468,native_text
+False,file_e39bcd94a10affef,2,2,readable,2024年数学建模国赛真题+优秀论文/2024真题/D题/D题.pdf,1524,native_text
+False,file_914d8f63bd4dd46f,1,1,readable,2024年数学建模国赛真题+优秀论文/2024真题/E题/E题.pdf,1038,native_text
+False,file_11f3daff1ab7489b,1,1,readable,2024年数学建模国赛真题+优秀论文/2024真题/E题/附件3.pdf,205,native_text
+False,file_068ca79729bc8e10,0,1,readable,2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/A题/A题.pdf,1550,native_text
+False,file_cef7a00a6e934253,2,2,readable,2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/B题/B题.pdf,1027,native_text
+False,file_e6a3bcab446f53d5,0,2,readable,2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/C题/C题.pdf,2343,native_text
+False,file_a5578c5ffcefc730,4,2,readable,2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/D题.pdf,2263,native_text
+False,file_d999c9b6b50a891b,0,1,readable,2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/E题.pdf,920,native_text
+False,file_1f5b35dd72a3ec97,3,86,readable,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A066.pdf,21,scanned_or_no_text
+False,file_f835b6b6c313e25e,3,98,readable,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A196.pdf,4,scanned_or_no_text
+False,file_228b530f870e4dd2,3,72,readable,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/B060.pdf,2,scanned_or_no_text
+False,file_9149dbdbe6607d18,3,122,readable,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C023.pdf,21,scanned_or_no_text
+False,file_0f9193ae03877cab,3,65,readable,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C132.pdf,2,scanned_or_no_text
+False,file_8862f738ddd89bf3,3,37,readable,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/D037.pdf,2,scanned_or_no_text
+False,file_77c7426ce20fea79,3,36,readable,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/E030.pdf,2,scanned_or_no_text

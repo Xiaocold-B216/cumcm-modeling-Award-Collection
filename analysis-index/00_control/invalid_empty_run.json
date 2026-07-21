@@ -1,0 +1,29 @@
+{
+  "affected_years": [
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "invalid_inventory_head": "2b38624",
+  "invalid_summary_head": "6d0ba96",
+  "reason": "non-ASCII git paths were parsed from quoted ls-tree output and treated as missing",
+  "replacement_inventory_gate": "pass",
+  "status": "superseded",
+  "updated_at": "2026-07-21T19:50:08Z"
+}

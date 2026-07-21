@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "all_source_paths_materialized": true,
+    "candidate_carriers_present": true,
+    "source_unmodified": true,
+    "tracked_source_files_covered": true,
+    "unreadable_source_files_zero": true
+  },
+  "coverage": {
+    "covered": 3614,
+    "percentage": 100.0,
+    "total": 3614
+  },
+  "parser_version": "0.5.1",
+  "schema_version": "1.4.1",
+  "status": "pass",
+  "updated_at": "2026-07-21T19:50:08Z"
+}

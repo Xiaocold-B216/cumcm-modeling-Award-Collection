@@ -5,14 +5,18 @@
 | 指标 | 新扫描 | 历史锚点 | 判定 |
 |---|---:|---:|---|
 | tracked_source_files | 3614 | 3614 | 完全一致 |
-| candidate_carriers | 0 | 546 | 需解释 |
-| candidate_pdf_carriers | 0 | 506 | 需解释 |
-| direct_image_groups | 0 | 24 | 需解释 |
-| zip_image_groups | 0 | 16 | 需解释 |
-| lfs_files | 3612 | 1 | 需解释 |
-| duplicate_groups | 0 | 75 | 需解释 |
-| duplicate_files | 0 | 166 | 需解释 |
+| candidate_carriers | 546 | 546 | 完全一致 |
+| candidate_pdf_carriers | 506 | 506 | 完全一致 |
+| direct_image_groups | 24 | 24 | 完全一致 |
+| zip_image_groups | 16 | 16 | 完全一致 |
+| lfs_files | 1 | 1 | 完全一致 |
+| duplicate_groups | 75 | 75 | 完全一致 |
+| duplicate_files | 166 | 166 | 完全一致 |
 
 ## 容量口径
 
-当前检出字节为 `525`；LFS保持指针时不得与历史物化容量直接比较。 按LFS声明容量计算的逻辑字节为 `525`。
+- Git对象/当前检出源文件字节：`2267321523` / `2267321523`。
+- 将1个LFS指针替换为其声明对象后的源资料逻辑容量：`2757912015` bytes；这与历史 `2,757,912,015` bytes 口径一致。
+- 压缩包成员解压逻辑容量：`93162114` bytes；这是嵌套内容口径，不与源文件容量相加冒充仓库大小。
+- 当前公开派生文件容量：`2144344` bytes；本地缓存容量：`1176081` bytes。
+- 约1.6GB通常是平台下载包或传输压缩后的显示口径；Git对象、LFS物化后的逻辑源资料、压缩包展开内容和派生文件是不同分母，不能互换。
