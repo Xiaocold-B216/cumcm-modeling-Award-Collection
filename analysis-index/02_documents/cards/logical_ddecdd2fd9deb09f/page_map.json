@@ -1,0 +1,23 @@
+{
+  "logical_document_id": "logical_ddecdd2fd9deb09f",
+  "page_number_basis": "carrier-local, 1-based",
+  "pages": [
+    {
+      "height": 798.0,
+      "image_count": 3,
+      "page": 1,
+      "rotation": 0,
+      "text_chars": 10,
+      "width": 607.0
+    },
+    {
+      "height": 798.0,
+      "image_count": 3,
+      "page": 2,
+      "rotation": 0,
+      "text_chars": 10,
+      "width": 607.0
+    }
+  ],
+  "representation_id": "representation_0bfca45d4859dd9b"
+}

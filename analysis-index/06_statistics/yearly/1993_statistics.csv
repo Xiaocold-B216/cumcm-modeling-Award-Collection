@@ -1,18 +1,18 @@
 ﻿counting_scope,denominator,metric,note,numerator,percentage,year
-carrier_document,0,carrier_count,,0,,1993
-logical_document,0,logical_document_count,,0,,1993
-logical_document,0,role:award_paper,,0,,1993
-logical_document,0,role:expert_commentary,,0,,1993
-logical_document,0,role:other_related,,0,,1993
-logical_document,0,role:problem_statement,,0,,1993
-logical_document,0,role:solution_summary,,0,,1993
-logical_document,0,role:unknown,,0,,1993
+carrier_document,6,carrier_count,,6,100.0,1993
+logical_document,6,logical_document_count,,6,100.0,1993
+logical_document,6,role:award_paper,,0,0.0,1993
+logical_document,6,role:expert_commentary,,1,16.7,1993
+logical_document,6,role:other_related,,0,0.0,1993
+logical_document,6,role:problem_statement,,5,83.3,1993
+logical_document,6,role:solution_summary,,0,0.0,1993
+logical_document,6,role:unknown,,0,0.0,1993
 unique_award_paper,0,award_paper_count,,0,,1993
-unique_problem,0,problem_count,,0,,1993
+unique_problem,2,problem_count,,2,100.0,1993
 solution_lineage,0,lineage_count,candidate lineages pending manual deduplication,0,,1993
-representation,0,representation_count,"count, not a paper percentage",0,,1993
-orphan_segment,0,orphan_count,automatic layer cannot assert absence; manual review pending,0,,1993
-logical_document,0,manual_review_queue,,0,,1993
+representation,6,representation_count,"count, not a paper percentage",6,100.0,1993
+orphan_segment,25,orphan_count,automatic layer cannot assert absence; manual review pending,0,0.0,1993
+logical_document,6,manual_review_queue,,2,33.3,1993
 unique_award_paper,0,abstract:present,field-specific eligible denominator,0,,1993
 unique_award_paper,0,abstract:absent,field-specific eligible denominator,0,,1993
 unique_award_paper,0,abstract:unknown,reported separately,0,,1993
