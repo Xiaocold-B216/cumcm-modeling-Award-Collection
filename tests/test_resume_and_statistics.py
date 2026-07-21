@@ -1,5 +1,7 @@
 import unittest
 import json
+import csv
+from collections import Counter
 from pathlib import Path
 
 from scripts import build_index as bi
@@ -42,6 +44,8 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         self.assertIn("blocking_queue =", source)
         self.assertIn('DOCUMENTS / "carrier_absorptions.jsonl"', source)
         self.assertIn("represented_carriers =", source)
+        self.assertIn("manual_year_docs =", source)
+        self.assertIn("logical_id in manual_year_docs", source)
 
     def test_1993_combined_problem_carrier_is_absorbed_not_counted_as_document(self):
         root = Path(__file__).resolve().parents[1] / "analysis-index/02_documents"
@@ -68,6 +72,38 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         self.assertTrue(aliases[0]["evidence"])
         self.assertTrue(bi.read_jsonl(root / "04_relations/document_relations_1993.jsonl"))
         self.assertEqual(3, len(bi.read_jsonl(root / "04_relations/solution_lineages_1993.jsonl")))
+
+    def test_1994_carrier_logical_representation_and_lineage_denominators(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        documents = bi.read_jsonl(root / "02_documents/logical_documents_1994.jsonl")
+        representations = bi.read_jsonl(root / "02_documents/representations_1994.jsonl")
+        self.assertEqual(13, len(documents))
+        self.assertEqual(Counter({"award_paper": 9, "expert_commentary": 2, "problem_statement": 2}),
+                         Counter(d["document_role"] for d in documents))
+        self.assertEqual(26, len(representations))
+        self.assertEqual(13, sum(bool(r["preferred_representation"]) for r in representations))
+        self.assertEqual(4, len({r["carrier_document_id"] for r in representations}))
+        self.assertEqual(9, len(bi.read_jsonl(root / "04_relations/solution_lineages_1994.jsonl")))
+
+    def test_1994_mountain_route_boundary_is_complete_and_orphans_preserved(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        documents = bi.read_jsonl(root / "02_documents/logical_documents_1994.jsonl")
+        mountain = next(d for d in documents if d["title"] == "山区公路线路选优方法")
+        self.assertEqual("complete", mountain["completeness_status"])
+        self.assertIn("1300", json.dumps(mountain["content_analysis"], ensure_ascii=False))
+        boundaries = [b for b in bi.read_jsonl(root / "02_documents/article_boundaries_1994.jsonl") if b["same_page_boundary"]]
+        self.assertEqual({212, 232}, {b["boundary_y"] for b in boundaries})
+        orphans = [o for o in bi.read_jsonl(root / "02_documents/orphan_segments.jsonl") if o.get("year") == 1994]
+        self.assertEqual(2, len(orphans))
+        self.assertTrue(all("下转第57页" in o["reason_excluded_from_primary_document"] for o in orphans))
+
+    def test_1994_unknown_is_outside_field_specific_denominator(self):
+        path = Path(__file__).resolve().parents[1] / "analysis-index/06_statistics/yearly/1994_statistics.csv"
+        with path.open(encoding="utf-8-sig", newline="") as fh:
+            rows = {r["metric"]: r for r in csv.DictReader(fh)}
+        self.assertEqual("4", rows["model_assumptions:unknown"]["numerator"])
+        self.assertEqual("5", rows["model_assumptions:present"]["denominator"])
+        self.assertEqual("5", rows["model_assumptions:absent"]["denominator"])
 
 
 if __name__ == "__main__":

@@ -1,0 +1,89 @@
+{
+  "coordinate_origin": "top-left",
+  "coordinate_unit": "PDF point",
+  "logical_document_id": "logical_1f548c93e03ed591",
+  "page_number_basis": "preferred carrier local, 1-based",
+  "pages": [
+    {
+      "carrier_document_id": "carrier_5b627cf7a198cd3f",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 18,
+      "rotation": 0,
+      "segment_id": "segment_128e074219d3f9e6",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_5b627cf7a198cd3f",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 19,
+      "rotation": 0,
+      "segment_id": "segment_54c6297edee6e005",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_5b627cf7a198cd3f",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 20,
+      "rotation": 0,
+      "segment_id": "segment_01bd4d7c429da286",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_5b627cf7a198cd3f",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 21,
+      "rotation": 0,
+      "segment_id": "segment_493cc419347480d4",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_5b627cf7a198cd3f",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 22,
+      "rotation": 0,
+      "segment_id": "segment_63bad64a4b76f442",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    }
+  ],
+  "representation_id": "representation_bfd27db3ff03e704"
+}

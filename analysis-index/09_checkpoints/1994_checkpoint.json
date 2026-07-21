@@ -1,18 +1,14 @@
 {
   "carriers": 4,
   "checkpoint_type": "year",
-  "created_at": "2026-07-21T19:58:12Z",
-  "documents": 4,
-  "known_issues": [
-    "automatic candidate requires identity/content review",
-    "automatic candidate requires identity/content review",
-    "multi-article carrier",
-    "automatic candidate requires identity/content review"
-  ],
+  "created_at": "2026-07-21T21:20:34Z",
+  "documents": 13,
+  "known_issues": [],
   "parser_version": "0.5.1",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
-  "status": "conditional_pass",
-  "text_caches_reused": 0,
+  "status": "pass",
+  "tests_passed": 21,
+  "text_caches_reused": 4,
   "year": 1994
 }

@@ -1,0 +1,265 @@
+{
+  "coordinate_origin": "top-left",
+  "coordinate_unit": "PDF point",
+  "logical_document_id": "logical_df53325840ee3e00",
+  "page_number_basis": "preferred carrier local, 1-based",
+  "pages": [
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 11,
+      "rotation": 0,
+      "segment_id": "segment_4ab6f8f9297607f2",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 12,
+      "rotation": 0,
+      "segment_id": "segment_9d20799576ee4bef",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 13,
+      "rotation": 0,
+      "segment_id": "segment_8b24beba528034a0",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 14,
+      "rotation": 0,
+      "segment_id": "segment_55ca14d2492ac7d9",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 15,
+      "rotation": 0,
+      "segment_id": "segment_019abd9213b15a54",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 16,
+      "rotation": 0,
+      "segment_id": "segment_b10b0fdbfffbddca",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 17,
+      "rotation": 0,
+      "segment_id": "segment_c28567d8536774cb",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 18,
+      "rotation": 0,
+      "segment_id": "segment_5a5ee739454db4ee",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 19,
+      "rotation": 0,
+      "segment_id": "segment_ef19d186182df6c6",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 20,
+      "rotation": 0,
+      "segment_id": "segment_79589f7aa0f38554",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 21,
+      "rotation": 0,
+      "segment_id": "segment_53c50e871ce30d77",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 22,
+      "rotation": 0,
+      "segment_id": "segment_875f3542032425d7",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 23,
+      "rotation": 0,
+      "segment_id": "segment_7bef4ebe9a334086",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 24,
+      "rotation": 0,
+      "segment_id": "segment_ddc307972ba85dee",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 25,
+      "rotation": 0,
+      "segment_id": "segment_21de9c13ffad989a",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    },
+    {
+      "carrier_document_id": "carrier_af55bec0aac81b01",
+      "excluded_bbox": [],
+      "height": 727.92,
+      "manually_verified": true,
+      "page": 26,
+      "rotation": 0,
+      "segment_id": "segment_a6ee2322dce93967",
+      "valid_bbox": [
+        0,
+        0,
+        515.52,
+        727.92
+      ],
+      "width": 515.52
+    }
+  ],
+  "representation_id": "representation_87e8fbcbe2f4e4f3"
+}

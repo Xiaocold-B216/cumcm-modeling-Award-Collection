@@ -13,3 +13,10 @@ logical_33abe6eb835f81d8,appendix_c_table,9,,table,"compare solution counts, run
 logical_e6bf45e93a065728,input_output_table,1,,table,show nonlinear system data,A,least-squares input,yes,model-input table,verified,representation_4afe50c8aa2de718
 logical_e6bf45e93a065728,frequency_candidates_table,4,,table,show six constraint-feasible triples,A,screening result,yes,candidate solution table,verified,representation_4afe50c8aa2de718
 logical_c8ba8962d24258a2,counterexample_matrices,9,,matrix_diagram,show ranking instability under small structural changes,B,model limitation,yes,counterexample matrix pair,verified,representation_c44e8279a5aaf441
+logical_6065b485cb3bc2e9,visual_817654372f3d54c3,3,"[0,0,515.52,727.92]",contour_map,show terrain interpolation,A,show terrain interpolation,yes,contour_map,verified,representation_568618a457226b1f
+logical_6065b485cb3bc2e9,visual_1fb9e650468e2b61,7,"[0,0,515.52,727.92]",route_map,compare route schemes,A,compare route schemes,yes,route_map,verified,representation_568618a457226b1f
+logical_df53325840ee3e00,visual_a91df1dfe57107f5,18,"[0,0,515.52,727.92]",contour_map,show interpolated terrain,A,show interpolated terrain,yes,contour_map,verified,representation_87e8fbcbe2f4e4f3
+logical_df53325840ee3e00,visual_ff56e0f99e8189e0,23,"[0,0,515.52,727.92]",route_map,compare alignment alternatives,A,compare alignment alternatives,yes,route_map,verified,representation_87e8fbcbe2f4e4f3
+logical_23a6180e80675b4e,visual_417c09f568124486,2,"[0,0,515.52,727.92]",table,show lock classification,B,show lock classification,yes,table,verified,representation_09ccb0a0b49c4847
+logical_0cea45e5eff7f4b0,visual_32217c2d68c6cece,13,"[0,0,515.52,727.92]",table,provide dictionary boxing lookup,B,provide dictionary boxing lookup,yes,table,verified,representation_b37f84bd04297bad
+logical_1f548c93e03ed591,visual_c28c349fe9bc89a0,18,"[0,0,515.52,727.92]",probability_table,show binomial inter-opening distribution,B,show binomial inter-opening distribution,yes,probability_table,verified,representation_bfd27db3ff03e704
