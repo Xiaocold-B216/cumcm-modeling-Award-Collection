@@ -1,0 +1,270 @@
+{
+  "algorithms": [],
+  "analysis_eligibility": [
+    "metadata_statistics",
+    "model_statistics",
+    "result_pattern_statistics",
+    "structure_statistics",
+    "visualization_statistics"
+  ],
+  "article_order": 10,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_f2944dcc2020b380"
+  ],
+  "completeness_status": "complete",
+  "corpus_eligibility": {
+    "award_paper_patterns": "excluded",
+    "problem_analysis": "excluded",
+    "reviewer_feedback": "excluded",
+    "validation_patterns": "included",
+    "visualization_patterns": "excluded"
+  },
+  "corpus_status": "candidate",
+  "document_role": "solution_summary",
+  "document_subtype": "validation_summary",
+  "entity_type": "logical_document",
+  "evidence_status": "content_verified_partial",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [
+        15
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [
+        11
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [
+        2,
+        19
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [
+        2,
+        4,
+        20
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [
+        10,
+        13,
+        14,
+        19
+      ],
+      "value": true,
+      "value_status": "present"
+    }
+  ],
+  "logical_document_id": "logical_82e61970d72ec525",
+  "manual_overrides": false,
+  "models": [
+    "neural_network"
+  ],
+  "page_count": 30,
+  "parse_status": "partially_parsed",
+  "parser_version": "0.5.1",
+  "problem_code": "B",
+  "problem_id": "problem_cumcm_2008_b",
+  "representation_quality": "candidate",
+  "role_classification": {
+    "classification_basis": [
+      "validation-summary title"
+    ],
+    "confidence": 0.9,
+    "conflicting_signals": [],
+    "manually_verified": false,
+    "predicted_role": "solution_summary"
+  },
+  "schema_version": "1.4.1",
+  "segment_ids": [
+    "segment_e07373603198fce5",
+    "segment_7c586d5708334e2a",
+    "segment_4d03cdeb9d3639d6",
+    "segment_24923960a8f7b26d",
+    "segment_785f71d15d6ca715",
+    "segment_1c173a239adda9df",
+    "segment_f78f9436ee11ed53",
+    "segment_3e4bce91c402feec",
+    "segment_238d93993192981c",
+    "segment_cb6f0a77024bb029",
+    "segment_a9da83767fdef786",
+    "segment_c9329f775b09f75d",
+    "segment_8e048f032a07579d",
+    "segment_42320eeb42825431",
+    "segment_ea98576c3a2f62ef",
+    "segment_8b10239096d83365",
+    "segment_881d82a1097ccddb",
+    "segment_223d8a0f76f3185a",
+    "segment_b6c695bc5e4246dc",
+    "segment_d210d7ed1c33f0e7",
+    "segment_d489406882f5dae2",
+    "segment_7f043586758b7d16",
+    "segment_d13ba7dd7ca97678",
+    "segment_5b829b992165147b",
+    "segment_3e550f3e0c74e410",
+    "segment_4382a6e7b15946bd",
+    "segment_c791b47c7db79d2a",
+    "segment_3d426349f8774ce6",
+    "segment_9a3c00db70e3f246",
+    "segment_20892a5824ae1b28"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": null,
+  "source_path": "2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《基于BP神经网络的我国高等教育学费模型研究》.pdf",
+  "text_layer_status": "native_text",
+  "title": "2008B：《基于BP神经网络的我国高等教育学费模型研究》",
+  "updated_at": "2026-07-21T19:51:09Z",
+  "year": 2008
+}

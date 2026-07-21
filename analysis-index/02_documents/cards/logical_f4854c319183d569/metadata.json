@@ -1,0 +1,272 @@
+{
+  "algorithms": [
+    "simulated_annealing"
+  ],
+  "analysis_eligibility": [
+    "metadata_statistics",
+    "result_pattern_statistics",
+    "structure_statistics",
+    "visualization_statistics"
+  ],
+  "article_order": 19,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_9ee2d0196c53fc43"
+  ],
+  "completeness_status": "complete",
+  "corpus_eligibility": {
+    "award_paper_patterns": "excluded",
+    "problem_analysis": "included",
+    "reviewer_feedback": "excluded",
+    "validation_patterns": "excluded",
+    "visualization_patterns": "excluded"
+  },
+  "corpus_status": "candidate",
+  "document_role": "problem_statement",
+  "document_subtype": "none",
+  "entity_type": "logical_document",
+  "evidence_status": "content_verified_partial",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        37
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [
+        10
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [
+        24
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [
+        5,
+        8,
+        9,
+        24,
+        25,
+        27,
+        32
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    }
+  ],
+  "logical_document_id": "logical_f4854c319183d569",
+  "manual_overrides": false,
+  "models": [
+    "regression",
+    "simulation"
+  ],
+  "page_count": 41,
+  "parse_status": "partially_parsed",
+  "parser_version": "0.5.1",
+  "problem_code": "B",
+  "problem_id": "problem_cumcm_2008_b",
+  "representation_quality": "candidate",
+  "role_classification": {
+    "classification_basis": [
+      "problem path/title"
+    ],
+    "confidence": 0.91,
+    "conflicting_signals": [],
+    "manually_verified": false,
+    "predicted_role": "problem_statement"
+  },
+  "schema_version": "1.4.1",
+  "segment_ids": [
+    "segment_adcbbfd44f91e975",
+    "segment_8b4c56eea7009d47",
+    "segment_eb4851efaccb8872",
+    "segment_2ba52ddd28003efe",
+    "segment_aa317d749dd9f674",
+    "segment_5772d03059751146",
+    "segment_d55b81b717920068",
+    "segment_2ed4b4f3be2aaf26",
+    "segment_fbcfe9f5fd6cb08a",
+    "segment_92a44fa8c87e88de",
+    "segment_e7e56bff69856b25",
+    "segment_6acf602eb7182157",
+    "segment_c47d673c2e384897",
+    "segment_550b22b147e67744",
+    "segment_fe2da18b177d29c8",
+    "segment_40f45fee7be79284",
+    "segment_02adfa310ea874a6",
+    "segment_f5afb77c87f76f86",
+    "segment_8fce18ea097b16e3",
+    "segment_a89d499c6ac3b1b8",
+    "segment_8a190fbff7a04899",
+    "segment_99fe89fd1270ceaf",
+    "segment_d85ba6a14e28f666",
+    "segment_947c21bc73c95e49",
+    "segment_cd2fd7765631bd2d",
+    "segment_41490374fad30164",
+    "segment_301c5c33245cbd81",
+    "segment_fd8950a2c2368e93",
+    "segment_0cc9c66e7b89c1be",
+    "segment_4fdad976b843e12a",
+    "segment_c23e6ca6fdbd0cb4",
+    "segment_358e35835582bbc2",
+    "segment_d7b5549b04e2e65c",
+    "segment_c671235abe8aca7e",
+    "segment_6ef758113bb14e6c",
+    "segment_c1ff467d6de1a99f",
+    "segment_eedb31a8c8f50967",
+    "segment_d75e987a6fab91fa",
+    "segment_0171ab31354f80f1",
+    "segment_42a0ce9ae03562ca",
+    "segment_11d53f150eb1078f"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": null,
+  "source_path": "2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准的探讨》.pdf",
+  "text_layer_status": "native_text",
+  "title": "2008B：《高等教育学费标准的探讨》",
+  "updated_at": "2026-07-21T19:51:11Z",
+  "year": 2008
+}

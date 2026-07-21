@@ -1,0 +1,103 @@
+{
+  "logical_document_id": "logical_1cbba96b1f65d715",
+  "page_number_basis": "carrier-local, 1-based",
+  "pages": [
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 1,
+      "rotation": 0,
+      "text_chars": 415,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 2,
+      "rotation": 0,
+      "text_chars": 1305,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 3,
+      "rotation": 0,
+      "text_chars": 1017,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 4,
+      "rotation": 0,
+      "text_chars": 2383,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 5,
+      "rotation": 0,
+      "text_chars": 2451,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 6,
+      "rotation": 0,
+      "text_chars": 2046,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 7,
+      "rotation": 0,
+      "text_chars": 2426,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 8,
+      "rotation": 0,
+      "text_chars": 1504,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 9,
+      "rotation": 0,
+      "text_chars": 3827,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 10,
+      "rotation": 0,
+      "text_chars": 1662,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 11,
+      "rotation": 0,
+      "text_chars": 1328,
+      "width": 595.2999877929688
+    },
+    {
+      "height": 841.9000244140625,
+      "image_count": 1,
+      "page": 12,
+      "rotation": 0,
+      "text_chars": 1275,
+      "width": 595.2999877929688
+    }
+  ],
+  "representation_id": "representation_b40313a68e219888"
+}

@@ -1,0 +1,199 @@
+{
+  "logical_document_id": "logical_b698bc6fcb6929b3",
+  "page_number_basis": "carrier-local, 1-based",
+  "pages": [
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 1,
+      "rotation": 0,
+      "text_chars": 662,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 2,
+      "rotation": 0,
+      "text_chars": 220,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 3,
+      "rotation": 0,
+      "text_chars": 1816,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 4,
+      "rotation": 0,
+      "text_chars": 783,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 5,
+      "rotation": 0,
+      "text_chars": 1040,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 6,
+      "rotation": 0,
+      "text_chars": 1443,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 7,
+      "rotation": 0,
+      "text_chars": 1125,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 35,
+      "page": 8,
+      "rotation": 0,
+      "text_chars": 1248,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 9,
+      "rotation": 0,
+      "text_chars": 1561,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 10,
+      "rotation": 0,
+      "text_chars": 1317,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 11,
+      "rotation": 0,
+      "text_chars": 1811,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 12,
+      "rotation": 0,
+      "text_chars": 2280,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 13,
+      "rotation": 0,
+      "text_chars": 1361,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 2,
+      "page": 14,
+      "rotation": 0,
+      "text_chars": 1033,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 2,
+      "page": 15,
+      "rotation": 0,
+      "text_chars": 1023,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 16,
+      "rotation": 0,
+      "text_chars": 2513,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 17,
+      "rotation": 0,
+      "text_chars": 1150,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 51,
+      "page": 18,
+      "rotation": 0,
+      "text_chars": 396,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 19,
+      "rotation": 0,
+      "text_chars": 1545,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 20,
+      "rotation": 0,
+      "text_chars": 3395,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 21,
+      "rotation": 0,
+      "text_chars": 1616,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 22,
+      "rotation": 0,
+      "text_chars": 1435,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 23,
+      "rotation": 0,
+      "text_chars": 1342,
+      "width": 595.219970703125
+    },
+    {
+      "height": 842.0,
+      "image_count": 1,
+      "page": 24,
+      "rotation": 0,
+      "text_chars": 1548,
+      "width": 595.219970703125
+    }
+  ],
+  "representation_id": "representation_eb329d38453c3d1f"
+}

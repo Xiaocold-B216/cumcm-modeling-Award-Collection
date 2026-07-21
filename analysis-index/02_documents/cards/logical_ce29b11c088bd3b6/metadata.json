@@ -1,0 +1,211 @@
+{
+  "algorithms": [],
+  "analysis_eligibility": [
+    "metadata_statistics"
+  ],
+  "article_order": 2,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_5f09109ce2508bc9"
+  ],
+  "completeness_status": "complete",
+  "corpus_eligibility": {
+    "award_paper_patterns": "excluded",
+    "problem_analysis": "included",
+    "reviewer_feedback": "excluded",
+    "validation_patterns": "excluded",
+    "visualization_patterns": "excluded"
+  },
+  "corpus_status": "candidate",
+  "document_role": "problem_statement",
+  "document_subtype": "none",
+  "entity_type": "logical_document",
+  "evidence_status": "unverified",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "field not applicable to problem statement",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    }
+  ],
+  "logical_document_id": "logical_ce29b11c088bd3b6",
+  "manual_overrides": false,
+  "models": [],
+  "page_count": 14,
+  "parse_status": "pending_manual_review",
+  "parser_version": "0.5.1",
+  "problem_code": "A",
+  "problem_id": "problem_cumcm_2008_a",
+  "representation_quality": "candidate",
+  "role_classification": {
+    "classification_basis": [
+      "problem path/title"
+    ],
+    "confidence": 0.91,
+    "conflicting_signals": [],
+    "manually_verified": false,
+    "predicted_role": "problem_statement"
+  },
+  "schema_version": "1.4.1",
+  "segment_ids": [
+    "segment_8c534054f4af5b7c",
+    "segment_7906bd87673f325e",
+    "segment_ddfd90d642dfc73d",
+    "segment_85cfcc8023f5a781",
+    "segment_84aff0a62518da43",
+    "segment_a49cfc501a5170f6",
+    "segment_04171096a86eb345",
+    "segment_fd819a2b398a49ef",
+    "segment_5c8072b0c87f9550",
+    "segment_03a063c259cf8949",
+    "segment_9d821aa6b01e8e4a",
+    "segment_01bbb7fd9bba7188",
+    "segment_a54807ac9f03f5ab",
+    "segment_b6821c74e262fa71"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": null,
+  "source_path": "2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008A：《具有仿射不变性的几何结构在相机定位中的应用》.pdf",
+  "text_layer_status": "scanned_or_no_text",
+  "title": "2008A：《具有仿射不变性的几何结构在相机定位中的应用》",
+  "updated_at": "2026-07-21T19:51:08Z",
+  "year": 2008
+}

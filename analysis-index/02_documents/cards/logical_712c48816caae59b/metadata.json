@@ -1,0 +1,303 @@
+{
+  "algorithms": [
+    "genetic_algorithm",
+    "simulated_annealing"
+  ],
+  "analysis_eligibility": [
+    "metadata_statistics",
+    "model_statistics",
+    "result_pattern_statistics",
+    "structure_statistics",
+    "visualization_statistics"
+  ],
+  "article_order": 4,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_ed55e15a0d75912d"
+  ],
+  "completeness_status": "complete",
+  "corpus_eligibility": {
+    "award_paper_patterns": "excluded",
+    "problem_analysis": "excluded",
+    "reviewer_feedback": "excluded",
+    "validation_patterns": "included",
+    "visualization_patterns": "excluded"
+  },
+  "corpus_status": "candidate",
+  "document_role": "solution_summary",
+  "document_subtype": "validation_summary",
+  "entity_type": "logical_document",
+  "evidence_status": "content_verified_partial",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [
+        3
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [
+        5,
+        8,
+        10,
+        14,
+        21,
+        22
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [
+        4
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [
+        3,
+        5,
+        17,
+        18,
+        21,
+        22,
+        23,
+        27
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "unverified",
+      "exclusion_reason": "",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [
+        6,
+        17,
+        19,
+        20,
+        22,
+        24,
+        26
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        27
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [
+        5,
+        6,
+        9,
+        17,
+        18,
+        19,
+        22,
+        23,
+        27,
+        28,
+        30,
+        33,
+        36
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [
+        5,
+        6,
+        9,
+        17,
+        19,
+        22,
+        23,
+        28,
+        30,
+        33,
+        36,
+        37
+      ],
+      "value": true,
+      "value_status": "present"
+    }
+  ],
+  "logical_document_id": "logical_712c48816caae59b",
+  "manual_overrides": false,
+  "models": [
+    "simulation"
+  ],
+  "page_count": 39,
+  "parse_status": "partially_parsed",
+  "parser_version": "0.5.1",
+  "problem_code": "A",
+  "problem_id": "problem_cumcm_2008_a",
+  "representation_quality": "candidate",
+  "role_classification": {
+    "classification_basis": [
+      "validation-summary title"
+    ],
+    "confidence": 0.9,
+    "conflicting_signals": [],
+    "manually_verified": false,
+    "predicted_role": "solution_summary"
+  },
+  "schema_version": "1.4.1",
+  "segment_ids": [
+    "segment_9d32352b416d038b",
+    "segment_42daa88c9b6266a0",
+    "segment_8184f17eebab1ee9",
+    "segment_d418791879e4e252",
+    "segment_33ede0ba2ec3dff9",
+    "segment_bb1633677934b447",
+    "segment_afd5d26ac8006a1c",
+    "segment_a9adfa975978d161",
+    "segment_2462afd22347c32e",
+    "segment_f787330816f31b44",
+    "segment_d01b90d5cd43a06a",
+    "segment_15d78b73c8dcc432",
+    "segment_723ef3eb9386d89e",
+    "segment_95fa512c6e6f7aab",
+    "segment_eb51be59fff4c008",
+    "segment_aba970f71c1ca742",
+    "segment_2589521f5f40b053",
+    "segment_b18f6f3110b74984",
+    "segment_942f65d047151181",
+    "segment_39123f64745f801b",
+    "segment_fb2ca7bdcff797d6",
+    "segment_dd3b983959b41caf",
+    "segment_0456889d0241d78e",
+    "segment_66be864cc51932a2",
+    "segment_664afe5c315dcb61",
+    "segment_d524aeeb7c7343b2",
+    "segment_0d1779f71523e1d1",
+    "segment_580078cc1f59eec6",
+    "segment_e3a1d11f424e72c8",
+    "segment_2d610800ef744b89",
+    "segment_881347fe20a996d1",
+    "segment_9d93ff0104ed585e",
+    "segment_067918c7c92c7193",
+    "segment_9dd02b0f66c0fa15",
+    "segment_c25bf20d419798b0",
+    "segment_48a34761f12b7386",
+    "segment_1768c86dc436b5ee",
+    "segment_fbd2850deadac1c0",
+    "segment_45637c60c674f686"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": null,
+  "source_path": "2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008A：《数码相机定位算法研究》.pdf",
+  "text_layer_status": "native_text",
+  "title": "2008A：《数码相机定位算法研究》",
+  "updated_at": "2026-07-21T19:51:08Z",
+  "year": 2008
+}
