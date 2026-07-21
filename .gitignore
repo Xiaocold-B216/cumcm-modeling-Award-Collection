@@ -1,0 +1,8 @@
+analysis-index/cache/
+analysis-index/**/__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+*.tmp
+*.log.tmp
