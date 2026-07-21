@@ -1,0 +1,191 @@
+{
+  "logical_document_id": "logical_867b060443573637",
+  "page_number_basis": "carrier-local, 1-based",
+  "pages": [
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 1,
+      "rotation": 0,
+      "text_chars": 1221,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 2,
+      "rotation": 0,
+      "text_chars": 3750,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 3,
+      "rotation": 0,
+      "text_chars": 1848,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 4,
+      "rotation": 0,
+      "text_chars": 1035,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 5,
+      "rotation": 0,
+      "text_chars": 947,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 6,
+      "page": 6,
+      "rotation": 0,
+      "text_chars": 1374,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 7,
+      "rotation": 0,
+      "text_chars": 1033,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 2,
+      "page": 8,
+      "rotation": 0,
+      "text_chars": 1005,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 9,
+      "rotation": 0,
+      "text_chars": 1415,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 10,
+      "rotation": 0,
+      "text_chars": 784,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 11,
+      "rotation": 0,
+      "text_chars": 1283,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 12,
+      "rotation": 0,
+      "text_chars": 950,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 13,
+      "rotation": 0,
+      "text_chars": 1957,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 14,
+      "rotation": 0,
+      "text_chars": 1884,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 15,
+      "rotation": 0,
+      "text_chars": 1741,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 16,
+      "rotation": 0,
+      "text_chars": 1116,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 17,
+      "rotation": 0,
+      "text_chars": 1096,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 18,
+      "rotation": 0,
+      "text_chars": 1265,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 11,
+      "page": 19,
+      "rotation": 0,
+      "text_chars": 873,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 20,
+      "rotation": 0,
+      "text_chars": 1178,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 21,
+      "rotation": 0,
+      "text_chars": 1034,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 1,
+      "page": 22,
+      "rotation": 0,
+      "text_chars": 951,
+      "width": 595.4400024414062
+    },
+    {
+      "height": 841.9199829101562,
+      "image_count": 2,
+      "page": 23,
+      "rotation": 0,
+      "text_chars": 944,
+      "width": 595.4400024414062
+    }
+  ],
+  "representation_id": "representation_7cccb66ebcfe26d0"
+}
