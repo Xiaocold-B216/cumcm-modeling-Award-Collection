@@ -1,8 +1,8 @@
 # 2007B：《基于生成树算法的公交地铁线路选择模型》
 
 - 年份：2007
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：B
 - 模型候选：graph_model
 - 算法候选：待核验

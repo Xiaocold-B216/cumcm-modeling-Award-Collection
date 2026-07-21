@@ -1,7 +1,7 @@
 # 2007A：《丁克现象与中国人口增长》
 
 - 年份：2007
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：A
 - 模型候选：待核验

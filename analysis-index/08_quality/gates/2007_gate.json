@@ -14,9 +14,9 @@
     "statistics_scoped": true,
     "unknown_not_absent": true
   },
-  "manual_review_items": 7,
+  "manual_review_items": 28,
   "note": "conditional_pass permits later years; candidate evidence is not promoted to verified",
   "status": "conditional_pass",
-  "updated_at": "2026-07-21T19:51:05Z",
+  "updated_at": "2026-07-21T19:58:56Z",
   "year": 2007
 }

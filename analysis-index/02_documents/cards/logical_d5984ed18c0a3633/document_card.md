@@ -1,8 +1,8 @@
 # 2007A：《中国人口增长预测》
 
 - 年份：2007
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：A
 - 模型候选：time_series
 - 算法候选：待核验
