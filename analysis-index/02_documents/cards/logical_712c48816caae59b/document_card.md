@@ -2,7 +2,7 @@
 
 - 年份：2008
 - 角色：solution_summary
-- 状态：partially_parsed / content_verified_partial / complete
+- 状态：partially_parsed / unverified / complete
 - 题号：A
 - 模型候选：simulation
 - 算法候选：genetic_algorithm, simulated_annealing

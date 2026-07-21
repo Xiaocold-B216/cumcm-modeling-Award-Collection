@@ -4,4 +4,4 @@ MuPDF error: format error: cannot find page 20 in page tree
 
 MuPDF error: format error: cannot find page 20 in page tree
 
-{"carriers": 27, "logical_documents": 27, "manual_review": 2, "quality_gate": "conditional_pass", "status": "processed", "text_caches_reused": 0, "year": 2008}
+{"carriers": 27, "logical_documents": 27, "manual_review": 27, "quality_gate": "conditional_pass", "status": "processed", "text_caches_reused": 0, "year": 2008}

@@ -1,8 +1,8 @@
 # 2008A：《数码相机定位》
 
 - 年份：2008
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：A
 - 模型候选：待核验
 - 算法候选：待核验

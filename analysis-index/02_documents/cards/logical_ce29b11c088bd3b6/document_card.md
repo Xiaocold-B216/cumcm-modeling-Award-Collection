@@ -1,7 +1,7 @@
 # 2008A：《具有仿射不变性的几何结构在相机定位中的应用》
 
 - 年份：2008
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：A
 - 模型候选：待核验
