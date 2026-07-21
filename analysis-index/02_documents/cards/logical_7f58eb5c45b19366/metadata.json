@@ -1,16 +1,38 @@
 {
   "algorithms": [
-    "enumeration"
+    "enumeration",
+    "constraint_reduction"
   ],
   "analysis_eligibility": [
-    "metadata_statistics"
+    "metadata_statistics",
+    "reviewer_feedback_statistics"
   ],
   "article_order": 7,
-  "authors": [],
+  "authors": [
+    "韩继业"
+  ],
   "carrier_document_ids": [
     "carrier_b4771e2bf6fdc12f"
   ],
   "completeness_status": "complete",
+  "content_analysis": {
+    "document_purpose": "介绍代表性答卷，并讨论大规模离散问题的约束化求解。",
+    "limitations": [
+      "评注不是参赛论文，不进入award-paper字段分母"
+    ],
+    "reproducibility_level": "medium",
+    "review_findings": [
+      "单纯枚举在X=1000时产生28268个解",
+      "化学约束可减至10954个解",
+      "还需进一步删除无实际意义解",
+      "大规模离散问题应增加充分约束"
+    ],
+    "strengths": [
+      "用解空间规模量化方法改进",
+      "把竞赛答卷放入离散优化背景"
+    ],
+    "visual_evidence": "第2页四幅偏差分析图承接正文并由页末总结说明，属于本评注。"
+  },
   "corpus_eligibility": {
     "award_paper_patterns": "excluded",
     "problem_analysis": "excluded",
@@ -18,188 +40,191 @@
     "validation_patterns": "excluded",
     "visualization_patterns": "excluded"
   },
-  "corpus_status": "candidate",
+  "corpus_status": "included",
   "document_role": "expert_commentary",
   "document_subtype": "none",
   "entity_type": "logical_document",
-  "evidence_status": "unverified",
+  "evidence_status": "verified",
   "feature_statistics": [
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic keyword evidence pending manual verification",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "abstract",
       "source_bbox": [],
-      "source_pages": [
-        1
-      ],
-      "value": true,
-      "value_status": "present"
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "model_assumptions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "symbol_definitions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "model_validation",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "sensitivity_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "error_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "result_pattern_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic keyword evidence pending manual verification",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "final_solution",
       "source_bbox": [],
-      "source_pages": [
-        2
-      ],
-      "value": true,
-      "value_status": "present"
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "result_pattern_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "final_answer_summary_table",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "visualization_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "flowchart",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "visualization_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "visualization",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "references",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "appendix",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "automatic non-detection cannot establish absence",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "code_description",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     }
   ],
   "logical_document_id": "logical_7f58eb5c45b19366",
-  "manual_overrides": false,
-  "models": [],
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T00:00:00Z",
+  "models": [
+    "large_scale_discrete_optimization",
+    "constrained_enumeration"
+  ],
   "page_count": 2,
-  "parse_status": "partially_parsed",
+  "parse_status": "parsed",
   "parser_version": "0.5.1",
   "problem_code": "B",
   "problem_id": "problem_cumcm_1992_b",
-  "representation_quality": "candidate",
+  "representation_quality": "manually_reviewed",
   "role_classification": {
     "classification_basis": [
-      "commentary language/title"
+      "title",
+      "document_structure",
+      "first_page_text",
+      "visual_review"
     ],
-    "confidence": 0.94,
+    "confidence": 1.0,
     "conflicting_signals": [],
-    "manually_verified": false,
+    "manually_verified": true,
     "predicted_role": "expert_commentary"
   },
   "schema_version": "1.4.1",
   "segment_ids": [
-    "segment_45433ffbbfbdbd17",
-    "segment_334c4c3aa01bcde8"
+    "segment_dbe93c09cd463877",
+    "segment_468aed30c9e0e260"
   ],
   "segmentation_status": "not_required",
-  "solution_lineage_id": null,
+  "solution_lineage_id": "lineage_cumcm_1992_b_amino_acid",
   "source_path": "1992年数学建模国赛优秀论文/1992年B题优秀论文③ 关于蛋白质氨基酸的组合问题的评注.pdf",
   "text_layer_status": "native_text",
-  "title": "1992年B题优秀论文③ 关于蛋白质氨基酸的组合问题的评注",
+  "title": "关于“蛋白质氨基酸的组合问题”的评注",
   "updated_at": "2026-07-21T19:58:06Z",
   "year": 1992
 }

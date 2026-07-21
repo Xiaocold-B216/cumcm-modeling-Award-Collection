@@ -1,10 +1,33 @@
-# 1992年B题优秀论文① 实验数据分解
+# 1992年B题：实验数据分解
 
 - 年份：1992
-- 角色：award_paper
-- 状态：pending_manual_review / unverified / complete
+- 角色：problem_statement
+- 状态：parsed / verified / complete
 - 题号：B
-- 模型候选：待核验
-- 算法候选：待核验
+- 核心模型：不适用
+- 方案谱系：不适用
 
-> 本卡片为自动保守候选；未标记 manually_verified 前不得作为人工结论。
+## 人工核验摘要
+
+{
+  "subproblems": [
+    "分解给定分子量X为18种氨基酸分子量之和",
+    "分别讨论有无微型计算机",
+    "推广到一般情形"
+  ],
+  "inputs": [
+    "18个已知分子量",
+    "正整数X≤1000"
+  ],
+  "outputs": [
+    "全部可行组成",
+    "一般模型与方法"
+  ],
+  "constraints": [
+    "非负整数个数",
+    "分子量加和等于X"
+  ],
+  "data_attachments": "题面内嵌数列"
+}
+
+> 仅保存结构化短摘要和页码证据；完整提取正文为本地忽略缓存。

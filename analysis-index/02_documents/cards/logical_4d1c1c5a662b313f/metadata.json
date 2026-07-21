@@ -1,14 +1,35 @@
 {
   "algorithms": [],
   "analysis_eligibility": [
-    "metadata_statistics"
+    "metadata_statistics",
+    "reviewer_feedback_statistics"
   ],
   "article_order": 1,
-  "authors": [],
+  "authors": [
+    "项可风"
+  ],
   "carrier_document_ids": [
     "carrier_e33a15a0d18aa59d"
   ],
   "completeness_status": "complete",
+  "content_analysis": {
+    "document_purpose": "评议施肥题答卷并指出试验设计缺陷。",
+    "limitations": [
+      "扫描文本层不可用",
+      "主要针对实验设计，未复算代表论文全部回归结果"
+    ],
+    "opening_structure": "阅卷背景—代表性答卷—三个主要问题—改进设计。",
+    "reproducibility_level": "medium",
+    "review_findings": [
+      "单因素轮换设计不能估计交互作用",
+      "重复试验的区组效应不可忽略",
+      "建议采用15次试验的二次复合设计"
+    ],
+    "strengths": [
+      "批评直接绑定设计矩阵与可估参数",
+      "给出可执行的改进试验表"
+    ]
+  },
   "corpus_eligibility": {
     "award_paper_patterns": "excluded",
     "problem_analysis": "excluded",
@@ -16,185 +37,192 @@
     "validation_patterns": "excluded",
     "visualization_patterns": "excluded"
   },
-  "corpus_status": "candidate",
+  "corpus_status": "included",
   "document_role": "expert_commentary",
   "document_subtype": "none",
   "entity_type": "logical_document",
-  "evidence_status": "unverified",
+  "evidence_status": "key_content_verified",
   "feature_statistics": [
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "abstract",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "model_assumptions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "symbol_definitions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "model_validation",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "sensitivity_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "error_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "result_pattern_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "final_solution",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "result_pattern_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "final_answer_summary_table",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "visualization_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "flowchart",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "visualization_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "visualization",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "references",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "appendix",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "unverified",
-      "exclusion_reason": "native full text unavailable",
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
       "field_name": "code_description",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "unknown"
+      "value_status": "not_applicable"
     }
   ],
   "logical_document_id": "logical_4d1c1c5a662b313f",
-  "manual_overrides": false,
-  "models": [],
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T00:00:00Z",
+  "models": [
+    "experimental_design",
+    "quadratic_regression"
+  ],
   "page_count": 3,
-  "parse_status": "pending_manual_review",
+  "parse_status": "partially_parsed",
   "parser_version": "0.5.1",
   "problem_code": "A",
   "problem_id": "problem_cumcm_1992_a",
-  "representation_quality": "candidate",
+  "representation_quality": "manually_reviewed",
   "role_classification": {
     "classification_basis": [
-      "commentary language/title"
+      "title",
+      "document_structure",
+      "first_page_text",
+      "visual_review"
     ],
-    "confidence": 0.94,
+    "confidence": 1.0,
     "conflicting_signals": [],
-    "manually_verified": false,
+    "manually_verified": true,
     "predicted_role": "expert_commentary"
   },
   "schema_version": "1.4.1",
   "segment_ids": [
-    "segment_0cd00a7746b26028",
-    "segment_96115c337b036a1b",
-    "segment_cdc3e5f51db37ec0"
+    "segment_fbb7250eda45140b",
+    "segment_d24015f5e26d3683",
+    "segment_1c8c40ce5dda6b76"
   ],
-  "segmentation_status": "not_required",
-  "solution_lineage_id": null,
+  "segmentation_status": "segmented",
+  "solution_lineage_id": "lineage_cumcm_1992_a_fertilization",
   "source_path": "1992年数学建模国赛优秀论文/1992年A题优秀论文① 关于施肥效果分析问题的评注.pdf",
   "text_layer_status": "scanned_or_no_text",
-  "title": "1992年A题优秀论文① 关于施肥效果分析问题的评注",
+  "title": "关于施肥效果分析问题的评注",
   "updated_at": "2026-07-21T19:58:06Z",
   "year": 1992
 }

@@ -29,6 +29,18 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         self.assertEqual([], checkpoint["completed_years"])
         self.assertEqual(list(range(1992, 2011)), checkpoint["candidate_layer_years"])
 
+    def test_manual_override_preserves_segments_representations_and_bundle(self):
+        source = Path("scripts/build_index.py").read_text(encoding="utf-8")
+        self.assertIn('if document.get("manual_overrides"):', source)
+        self.assertIn("manual_segments =", source)
+        self.assertIn("manual_representations =", source)
+        self.assertIn("manually reviewed bundle, page map, and evidence are authoritative", source)
+        self.assertIn('r.get("manual_overrides")', source)
+        self.assertIn("preserve_existing=bool(docs)", source)
+        self.assertIn("return old", source)
+        self.assertIn('DOCUMENTS / "orphan_segments.jsonl"', source)
+        self.assertIn("blocking_queue =", source)
+
 
 if __name__ == "__main__":
     unittest.main()

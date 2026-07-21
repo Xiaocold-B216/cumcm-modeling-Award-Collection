@@ -1,11 +1,12 @@
 # 1992数据质量
 
-| logical_document_id | role | parse | evidence | segmentation | completeness |
-|---|---|---|---|---|---|
-| `logical_4d1c1c5a662b313f` | expert_commentary | pending_manual_review | unverified | not_required | complete |
-| `logical_b5ebbd7404ae15a9` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_096f6338555ccb87` | expert_commentary | partially_parsed | unverified | not_required | complete |
-| `logical_8b702cd539a61ed3` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_c246cf980eced8f6` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_33abe6eb835f81d8` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_7f58eb5c45b19366` | expert_commentary | partially_parsed | unverified | not_required | complete |
+| 类别 | 数量 | 说明 |
+|---|---:|---|
+| logical documents | 7 | 角色与边界均人工核验 |
+| parsed / verified | 4 | 两题面、非线性交调评注、氨基酸评注 |
+| partially_parsed / key_content_verified | 3 | 施肥评注及两篇参赛论文 |
+| 同页边界 | 3 | 施肥共享页两载体、非线性交调末页 |
+| 保存的排除区域 | 3 | 2个已匹配局部副本，1个未匹配足球文章片段 |
+| 未解决跨年关系 | 1 | 非线性交调真实年份和论文对应待1993 |
+
+扫描文本不可用不会被提升为全文parsed；所有论文字段的present/absent只来自有效区域人工核验。

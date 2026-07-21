@@ -1,77 +1,160 @@
 {
+  "coordinate_origin": "top-left",
+  "coordinate_unit": "PDF point",
   "logical_document_id": "logical_33abe6eb835f81d8",
   "page_number_basis": "carrier-local, 1-based",
   "pages": [
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 1,
       "rotation": 0,
+      "segment_id": "segment_78a323084d4395af",
       "text_chars": 1647,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 2,
       "rotation": 0,
+      "segment_id": "segment_9a81f90b14c94ba8",
       "text_chars": 1298,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 3,
       "rotation": 0,
+      "segment_id": "segment_2c23db93741a2ff8",
       "text_chars": 1699,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 4,
       "rotation": 0,
+      "segment_id": "segment_a0a245bc7f0e2cb2",
       "text_chars": 1918,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 5,
       "rotation": 0,
+      "segment_id": "segment_b8e21449b3f1a8f3",
       "text_chars": 1578,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 6,
       "rotation": 0,
+      "segment_id": "segment_462fe9879a670680",
       "text_chars": 1275,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 7,
       "rotation": 0,
+      "segment_id": "segment_a3d0c3ed384862f1",
       "text_chars": 1724,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 8,
       "rotation": 0,
+      "segment_id": "segment_e4a08ef883a15ed6",
       "text_chars": 1489,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 9,
       "rotation": 0,
+      "segment_id": "segment_09d80881b4ab7d46",
       "text_chars": 2026,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     }
   ],

@@ -1,0 +1,12 @@
+﻿logical_document_id,figure_or_table_id,page,bbox,chart_type,purpose,supports_question,supports_claim,effective,reusable_pattern,evidence_status,representation_id
+logical_b5ebbd7404ae15a9,table_1,1,,table,show fertilizer-yield input data,A,input data coverage,yes,raw data table,verified,representation_c277f27ba7731b76
+logical_b5ebbd7404ae15a9,table_2,3,,table,report regression estimates and significance,A,model fit,yes,parameter evidence table,verified,representation_c277f27ba7731b76
+logical_b5ebbd7404ae15a9,table_3,4,,table,compare factor effects,A,N/P/K influence ranking,yes,ANOVA table,verified,representation_c277f27ba7731b76
+logical_33abe6eb835f81d8,table_1,3,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237
+logical_33abe6eb835f81d8,table_2,4,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237
+logical_33abe6eb835f81d8,table_3,5,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237
+logical_33abe6eb835f81d8,table_4a,6,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237
+logical_33abe6eb835f81d8,table_4b,6,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237
+logical_33abe6eb835f81d8,table_4c,6,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237
+logical_33abe6eb835f81d8,table_5,7,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237
+logical_33abe6eb835f81d8,appendix_c_table,9,,table,"compare solution counts, runtime, or chemical constraints",B,constraint effectiveness,yes,baseline-versus-constrained model table,verified,representation_e42c8811ba3ff237

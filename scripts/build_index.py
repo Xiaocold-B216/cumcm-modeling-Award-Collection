@@ -702,10 +702,10 @@ def preserve_manual(existing: dict[str, dict[str, Any]], generated: dict[str, An
     old = existing.get(generated["logical_document_id"])
     if not old or not old.get("manual_overrides"):
         return generated
-    protected = {"document_role", "document_subtype", "role_classification", "corpus_eligibility",
-                 "segmentation_status", "completeness_status", "evidence_status", "feature_statistics",
-                 "problem_id", "solution_lineage_id", "manual_overrides"}
-    return {**generated, **{key: old[key] for key in protected if key in old}}
+    # A manual record is an evidence-bearing snapshot.  Replacing even apparently
+    # harmless fields (title, models, status, page count, or eligibility) can
+    # silently invalidate its card, relations, and statistics.
+    return old
 
 
 def build_year(year: int, resume: bool) -> dict[str, Any]:
@@ -715,6 +715,10 @@ def build_year(year: int, resume: bool) -> dict[str, Any]:
     by_path = {row["relative_path"]: row for row in inventory}
     carriers = [c for c in load_carriers() if c["year"] == year]
     existing_docs = {r["logical_document_id"]: r for r in read_jsonl(DOCUMENTS / "logical_documents.jsonl")}
+    existing_segments = read_jsonl(DOCUMENTS / f"page_segments_{year}.jsonl")
+    existing_boundaries = read_jsonl(DOCUMENTS / f"article_boundaries_{year}.jsonl")
+    existing_representations = read_jsonl(DOCUMENTS / f"representations_{year}.jsonl")
+    existing_review_queue = read_jsonl(QUALITY / "unresolved" / f"{year}_manual_review_queue.jsonl")
     all_existing = [r for r in existing_docs.values() if int(r.get("year", 0)) != year]
     docs, representations, segments, boundaries, review_queue = [], [], [], [], []
     reused_text = 0
@@ -761,6 +765,23 @@ def build_year(year: int, resume: bool) -> dict[str, Any]:
             "text_layer_status": text_status, "manual_overrides": False, "updated_at": now()}
         document = preserve_manual(existing_docs, document)
         docs.append(document)
+        if document.get("manual_overrides"):
+            manual_segments = [r for r in existing_segments if r.get("logical_document_id") == logical_id]
+            manual_representations = [r for r in existing_representations if r.get("logical_document_id") == logical_id]
+            segments.extend(manual_segments)
+            representations.extend(manual_representations)
+            boundaries.extend(r for r in existing_boundaries if r.get("logical_document_id") == logical_id)
+            review_queue.extend(r for r in existing_review_queue if r.get("logical_document_id") == logical_id)
+            # The manually reviewed bundle, page map, and evidence are authoritative.
+            # Rebuilding them from automatic text keywords would destroy verified work.
+            extracted_path = DOCUMENTS / "cards" / logical_id / "extracted_text.md"
+            if not extracted_path.exists():
+                extracted_path.parent.mkdir(parents=True, exist_ok=True)
+                chunks = [f"# {document['title']}\n\n> Local native-text cache; not tracked in Git.\n"]
+                for page in pages:
+                    chunks.append(f"\n## Page {page['page']}\n\n{page['text']}\n")
+                extracted_path.write_text("".join(chunks), encoding="utf-8")
+            continue
         for p in pages:
             seg_id = stable_id("segment_", cid, p["page"], "whole")
             segment = {"segment_id": seg_id, "carrier_document_id": cid, "logical_document_id": logical_id,
@@ -793,7 +814,8 @@ def build_year(year: int, resume: bool) -> dict[str, Any]:
     update_global_relations_and_lineages(year, docs, representations)
     write_jsonl(QUALITY / "unresolved" / f"{year}_manual_review_queue.jsonl", review_queue)
     stats = yearly_statistics(year, carriers, docs, representations, segments, review_queue)
-    write_year_report(year, stats, docs, review_queue)
+    write_year_report(year, stats, docs, review_queue,
+                      preserve_existing=bool(docs) and all(d.get("manual_overrides") for d in docs))
     gate = year_gate(year, carriers, docs, representations, stats, review_queue)
     checkpoint = {"checkpoint_type": "year", "year": year, "status": gate["status"],
                   "schema_version": SCHEMA_VERSION, "parser_version": PARSER_VERSION,
@@ -856,15 +878,21 @@ def write_document_bundle(doc: dict[str, Any], pages: list[dict[str, Any]], repr
 
 
 def update_global_relations_and_lineages(year: int, docs: list[dict[str, Any]], reps: list[dict[str, Any]]) -> None:
-    relations = [r for r in read_jsonl(RELATIONS / "document_relations.jsonl") if int(r.get("year", 0)) != year]
-    lineages = [r for r in read_jsonl(RELATIONS / "solution_lineages.jsonl") if int(r.get("contest_year", 0)) != year]
+    existing_relations = read_jsonl(RELATIONS / "document_relations.jsonl")
+    existing_lineages = read_jsonl(RELATIONS / "solution_lineages.jsonl")
+    relations = [r for r in existing_relations if int(r.get("year", 0)) != year or r.get("manual_overrides")]
+    lineages = [r for r in existing_lineages if int(r.get("contest_year", 0)) != year or r.get("manual_overrides")]
     problems = {d["problem_code"]: d for d in docs if d["document_role"] == "problem_statement" and d["problem_code"] != "unknown"}
     for rep in reps:
+        if any(d["logical_document_id"] == rep["logical_document_id"] and d.get("manual_overrides") for d in docs):
+            continue
         relations.append({"relation_id": stable_id("relation_", rep["carrier_document_id"], "contains", rep["logical_document_id"]),
             "year": year, "source_document_id": rep["carrier_document_id"], "target_document_id": rep["logical_document_id"],
             "relation_type": "contains", "evidence": "physical representation mapping",
             "confidence": .8, "verified_by": "automatic_candidate", "status": "candidate"})
     for doc in docs:
+        if doc.get("manual_overrides"):
+            continue
         code = doc["problem_code"]
         if doc["document_role"] == "award_paper" and code in problems:
             relations.append({"relation_id": stable_id("relation_", doc["logical_document_id"], "answers", problems[code]["logical_document_id"]),
@@ -895,9 +923,15 @@ def yearly_statistics(year: int, carriers: list[dict[str, Any]], docs: list[dict
     problems = {d["problem_id"] for d in docs if d["document_role"] == "problem_statement" and d["problem_id"]}
     add("unique_award_paper", "award_paper_count", len(awards), len(awards))
     add("unique_problem", "problem_count", len(problems), len(problems))
-    add("solution_lineage", "lineage_count", len(awards), len(awards), "candidate lineages pending manual deduplication")
+    lineage_note = "manually verified unique solution lineages" if awards and all(d.get("manual_overrides") for d in awards) \
+        else "candidate lineages pending manual deduplication"
+    add("solution_lineage", "lineage_count", len(awards), len(awards), lineage_note)
     add("representation", "representation_count", len(reps), len(docs), "count, not a paper percentage")
-    add("orphan_segment", "orphan_count", 0, len(segments), "automatic layer cannot assert absence; manual review pending")
+    carrier_ids = {d["carrier_document_ids"][0] for d in docs if d.get("carrier_document_ids")}
+    year_orphans = [r for r in read_jsonl(DOCUMENTS / "orphan_segments.jsonl")
+                    if r.get("carrier_document_id") in carrier_ids]
+    add("orphan_segment", "orphan_count", len(year_orphans), len(segments),
+        "preserved excluded regions; denominator is valid primary segments")
     add("logical_document", "manual_review_queue", len(queue), len(docs))
     for feature in FEATURES:
         records = [next(r for r in d["feature_statistics"] if r["field_name"] == feature) for d in awards]
@@ -911,7 +945,11 @@ def yearly_statistics(year: int, carriers: list[dict[str, Any]], docs: list[dict
     return rows
 
 
-def write_year_report(year: int, stats: list[dict[str, Any]], docs: list[dict[str, Any]], queue: list[dict[str, Any]]) -> None:
+def write_year_report(year: int, stats: list[dict[str, Any]], docs: list[dict[str, Any]], queue: list[dict[str, Any]],
+                      preserve_existing: bool = False) -> None:
+    if preserve_existing and (REPORTS / "yearly" / f"{year}_report.md").exists() \
+            and (REPORTS / "yearly" / f"{year}_data_quality.md").exists():
+        return
     roles = Counter(d["document_role"] for d in docs)
     report = f"""# {year}年优秀论文语料候选报告
 
@@ -964,8 +1002,10 @@ def year_gate(year: int, carriers: list[dict[str, Any]], docs: list[dict[str, An
             d.get("role_classification", {}).get("manually_verified") for d in docs
         )}
     structural_checks = {k: v for k, v in checks.items() if k != "manual_verification_complete"}
-    status = "pass" if all(checks.values()) and not queue else "conditional_pass" if all(structural_checks.values()) else "fail"
+    blocking_queue = [r for r in queue if not r.get("does_not_invalidate_1992_content_review")]
+    status = "pass" if all(checks.values()) and not blocking_queue else "conditional_pass" if all(structural_checks.values()) else "fail"
     gate = {"year": year, "status": status, "checks": checks, "manual_review_items": len(queue),
+            "blocking_manual_review_items": len(blocking_queue),
             "note": "conditional_pass permits later years; candidate evidence is not promoted to verified", "updated_at": now()}
     write_json(QUALITY / "gates" / f"{year}_gate.json", gate)
     return gate

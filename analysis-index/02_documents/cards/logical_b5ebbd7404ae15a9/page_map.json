@@ -1,53 +1,116 @@
 {
+  "coordinate_origin": "top-left",
+  "coordinate_unit": "PDF point",
   "logical_document_id": "logical_b5ebbd7404ae15a9",
   "page_number_basis": "carrier-local, 1-based",
   "pages": [
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 1,
       "rotation": 0,
+      "segment_id": "segment_a67cf8658558dcfb",
       "text_chars": 2444,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 2,
       "rotation": 0,
+      "segment_id": "segment_8cb48bc37b5f3fc3",
       "text_chars": 2262,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 3,
       "rotation": 0,
+      "segment_id": "segment_254d4182b0c36180",
       "text_chars": 4125,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 4,
       "rotation": 0,
+      "segment_id": "segment_4cd06d5c51f20bd1",
       "text_chars": 3664,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 5,
       "rotation": 0,
+      "segment_id": "segment_0a5ea738fc9cbf50",
       "text_chars": 2777,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [
+        [
+          0,
+          515,
+          588,
+          792
+        ]
+      ],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 6,
       "rotation": 0,
+      "segment_id": "segment_4a439450f087ab3c",
       "text_chars": 1732,
+      "valid_bbox": [
+        0,
+        0,
+        588,
+        515
+      ],
       "width": 588.0
     }
   ],

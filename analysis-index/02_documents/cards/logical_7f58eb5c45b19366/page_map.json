@@ -1,21 +1,41 @@
 {
+  "coordinate_origin": "top-left",
+  "coordinate_unit": "PDF point",
   "logical_document_id": "logical_7f58eb5c45b19366",
   "page_number_basis": "carrier-local, 1-based",
   "pages": [
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 1,
       "rotation": 0,
+      "segment_id": "segment_dbe93c09cd463877",
       "text_chars": 2970,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     },
     {
+      "excluded_bbox": [],
       "height": 792.0,
       "image_count": 3,
+      "manually_verified": true,
       "page": 2,
       "rotation": 0,
+      "segment_id": "segment_468aed30c9e0e260",
       "text_chars": 1174,
+      "valid_bbox": [
+        0,
+        0,
+        588.0,
+        792.0
+      ],
       "width": 588.0
     }
   ],
