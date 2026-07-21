@@ -1,0 +1,207 @@
+{
+  "algorithms": [],
+  "analysis_eligibility": [
+    "metadata_statistics"
+  ],
+  "article_order": 17,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_563ca384f90041ca"
+  ],
+  "completeness_status": "complete",
+  "corpus_eligibility": {
+    "award_paper_patterns": "excluded",
+    "problem_analysis": "excluded",
+    "reviewer_feedback": "included",
+    "validation_patterns": "excluded",
+    "visualization_patterns": "excluded"
+  },
+  "corpus_status": "candidate",
+  "document_role": "expert_commentary",
+  "document_subtype": "none",
+  "entity_type": "logical_document",
+  "evidence_status": "unverified",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    }
+  ],
+  "logical_document_id": "logical_d2b06e88f5df43ec",
+  "manual_overrides": false,
+  "models": [],
+  "page_count": 10,
+  "parse_status": "pending_manual_review",
+  "parser_version": "0.5.1",
+  "problem_code": "B",
+  "problem_id": "problem_cumcm_2003_b",
+  "representation_quality": "candidate",
+  "role_classification": {
+    "classification_basis": [
+      "commentary language/title"
+    ],
+    "confidence": 0.94,
+    "conflicting_signals": [],
+    "manually_verified": false,
+    "predicted_role": "expert_commentary"
+  },
+  "schema_version": "1.4.1",
+  "segment_ids": [
+    "segment_9bc38c67b7caa8c6",
+    "segment_c3ec9cfc13b0bd57",
+    "segment_158ffe2614263988",
+    "segment_bbe6291b544e17a1",
+    "segment_840ebead2b97428b",
+    "segment_6ad6ce56d02df88a",
+    "segment_213d2f29e4644d9b",
+    "segment_2f4fb83c7b77bd8f",
+    "segment_52a0219c1b7ab457",
+    "segment_57fc4492924a3b1f"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": null,
+  "source_path": "2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排_的模型和评述.pdf",
+  "text_layer_status": "scanned_or_no_text",
+  "title": "2003B：露天矿生产的车辆安排_的模型和评述",
+  "updated_at": "2026-07-21T19:50:47Z",
+  "year": 2003
+}
