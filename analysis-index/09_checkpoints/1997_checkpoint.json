@@ -5,9 +5,14 @@
   "documents": 19,
   "known_issues": [],
   "parser_version": "0.5.1",
+  "recovery_package_sha256": "a74b51b9631091f5cf479e044ecf62f1b5078854caf6a56870ef5e11aebcf97c",
+  "remote_checkpoint": "e0297c7d0997a496425d3d81e05feb3f30e75fcb",
+  "remote_readback_verified": true,
+  "remote_scope": "year_scoped_cards_and_compact_manifest_with_documented_large_blob_exceptions",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "status": "pass",
+  "tests_passed": 30,
   "text_caches_reused": 17,
   "year": 1997
 }

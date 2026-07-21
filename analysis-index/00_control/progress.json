@@ -5,6 +5,7 @@
   "analysis_checkpoint_through_1994_rebuilt": "312a10f880d4eb8bcbf74ce1425115d51bc7badb",
   "analysis_checkpoint_through_1995_rebuilt": "411f2e3c089b852d6077009ffa88490ad2066706",
   "analysis_checkpoint_through_1996": "73afa870943ddbf16ca549bee0f1301dcf508ed2",
+  "analysis_checkpoint_through_1997": "e0297c7d0997a496425d3d81e05feb3f30e75fcb",
   "candidate_layer_years": [
     1992,
     1993,
@@ -31,13 +32,14 @@
     1993,
     1994,
     1995,
-    1996
+    1996,
+    1997
   ],
   "infrastructure_status": "rebuild_1992_1995_reconciled_remote_verified",
   "invalid_empty_run_superseded": true,
-  "last_verified_remote_checkpoint": "73afa870943ddbf16ca549bee0f1301dcf508ed2",
+  "last_verified_remote_checkpoint": "e0297c7d0997a496425d3d81e05feb3f30e75fcb",
   "next_candidate_year": null,
-  "next_recommended_year": 1997,
+  "next_recommended_year": 1998,
   "parser_version": "0.5.1",
   "recovery_package_through_1993": {
     "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1993-rebuilt-a6d6a657.tar.gz",
@@ -55,19 +57,23 @@
     "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1996-73afa870.tar.gz",
     "sha256": "2eee462c198000bcc371e2a23931d981e22df60b358614d3e2b374957bda4c45"
   },
+  "recovery_package_through_1997": {
+    "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1997-e0297c7d.tar.gz",
+    "sha256": "a74b51b9631091f5cf479e044ecf62f1b5078854caf6a56870ef5e11aebcf97c"
+  },
   "remote_publish_status": "verified_year_scoped_with_complete_recovery_package",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "target_end_year": 2010,
-  "tests_passed": 27,
-  "updated_at": "2026-07-22T00:40:00Z",
+  "tests_passed": 30,
+  "updated_at": "2026-07-22T01:35:00Z",
   "year_status": {
     "1992": "pass",
     "1993": "pass",
     "1994": "pass",
     "1995": "conditional_pass",
     "1996": "pass",
-    "1997": "conditional_pass",
+    "1997": "pass",
     "1998": "conditional_pass",
     "1999": "conditional_pass",
     "2000": "conditional_pass",
