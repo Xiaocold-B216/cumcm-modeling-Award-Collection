@@ -1,0 +1,156 @@
+name: Rebuild award corpus 1992-2010
+
+on:
+  push:
+    branches:
+      - analysis/corpus-index
+    paths:
+      - .github/workflows/rebuild-corpus-1992-2010.yml
+  workflow_dispatch:
+    inputs:
+      start_year:
+        description: First year to process
+        required: false
+        default: "1992"
+      end_year:
+        description: Last year to process
+        required: false
+        default: "2010"
+
+permissions:
+  contents: write
+
+env:
+  SOURCE_BASELINE: a042ecf898feaba6fc81d543a10e0188db8b2b12
+  ANALYSIS_BRANCH: analysis/corpus-index
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    concurrency:
+      group: award-corpus-rebuild-1992-2010
+      cancel-in-progress: false
+
+    steps:
+      - name: Checkout analysis branch
+        uses: actions/checkout@v4
+        with:
+          ref: analysis/corpus-index
+          fetch-depth: 0
+          lfs: false
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Restore parser
+        run: |
+          python scripts/restore_build_index.py
+          python -m py_compile scripts/build_index.py scripts/restore_build_index.py
+
+      - name: Install parser dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pypdf pytest
+
+      - name: Run parser smoke tests
+        run: |
+          python - <<'PY'
+          import importlib.util
+          import sys
+          from pathlib import Path
+          path = Path('scripts/build_index.py')
+          spec = importlib.util.spec_from_file_location('build_index', path)
+          mod = importlib.util.module_from_spec(spec)
+          sys.modules[spec.name] = mod
+          spec.loader.exec_module(mod)
+          assert mod.extract_year('1995年数学建模/论文.pdf') == 1995
+          assert mod.classify_role('1995优秀论文/飞行管理问题答卷评述.pdf')[0] == 'expert_commentary'
+          assert mod.classify_role('1998真题/A题.pdf')[0] == 'problem_statement'
+          assert mod.classify_role('冶炼车间最优调度模型的检验.pdf')[:2] == ('solution_summary', 'validation_summary')
+          unknown = mod.field_states('短文本', 'scanned_or_no_text', 3)
+          assert all(x['value_status'] == 'unknown' and not x['eligible_for_statistics'] for x in unknown)
+          print('smoke tests passed')
+          PY
+
+      - name: Verify trusted baseline
+        run: |
+          test "$(git cat-file -t "$SOURCE_BASELINE")" = commit
+          test "$(git ls-tree -r --name-only "$SOURCE_BASELINE" | wc -l)" -gt 0
+          git diff --name-only "$SOURCE_BASELINE" -- | grep -Ev '^(analysis-index/|scripts/|tests/|schema/|\.github/|README_ANALYSIS\.md$|README_PIPELINE\.md$|\.gitignore$|\.bootstrap/)' > /tmp/source_changes || true
+          if test -s /tmp/source_changes; then
+            echo "Unexpected source changes:" >&2
+            cat /tmp/source_changes >&2
+            exit 1
+          fi
+
+      - name: Build inventory
+        run: |
+          python scripts/build_index.py --year inventory --resume | tee inventory-run.json
+          git add analysis-index scripts/build_index.py schema README_PIPELINE.md .gitignore
+          if ! git diff --cached --quiet; then
+            git commit -m "rebuild corpus inventory from trusted baseline"
+            git push origin HEAD:analysis/corpus-index
+          fi
+
+      - name: Process yearly corpus with checkpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+          START_YEAR="${{ github.event.inputs.start_year || '1992' }}"
+          END_YEAR="${{ github.event.inputs.end_year || '2010' }}"
+          for YEAR in $(seq "$START_YEAR" "$END_YEAR"); do
+            echo "=== Processing ${YEAR} ==="
+            python scripts/build_index.py --year "$YEAR" --resume | tee "year-${YEAR}-run.json"
+            python -m py_compile scripts/build_index.py
+            git diff --check
+            git add analysis-index schema scripts/build_index.py
+            if ! git diff --cached --quiet; then
+              git commit -m "process ${YEAR} award paper corpus"
+              git push origin HEAD:analysis/corpus-index
+            fi
+            tar -czf "checkpoint-${YEAR}.tar.gz" analysis-index scripts schema README_PIPELINE.md .gitignore
+            sha256sum "checkpoint-${YEAR}.tar.gz" > "checkpoint-${YEAR}.sha256"
+          done
+
+      - name: Build cross-year summary
+        run: |
+          python scripts/build_index.py --year summary --resume | tee summary-run.json
+          git diff --check
+          git add analysis-index schema scripts/build_index.py
+          if ! git diff --cached --quiet; then
+            git commit -m "summarize rebuilt award corpus through 2010"
+            git push origin HEAD:analysis/corpus-index
+          fi
+
+      - name: Verify resume behavior
+        run: |
+          python scripts/build_index.py --year inventory --resume > resume-inventory.json
+          python scripts/build_index.py --year 2010 --resume > resume-2010.json
+          grep -q '"status": "reused"' resume-inventory.json
+          grep -q '"status": "reused"' resume-2010.json
+
+      - name: Create final recovery package
+        if: always()
+        run: |
+          tar -czf checkpoint-through-2010.tar.gz analysis-index scripts schema README_PIPELINE.md .gitignore .bootstrap
+          sha256sum checkpoint-through-2010.tar.gz > checkpoint-through-2010.sha256
+          git ls-files analysis-index scripts schema .bootstrap README_PIPELINE.md .gitignore > checkpoint-through-2010-manifest.txt
+          git rev-parse HEAD > checkpoint-through-2010-commit.txt
+
+      - name: Upload checkpoints
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: award-corpus-checkpoints-${{ github.run_id }}
+          path: |
+            checkpoint-*.tar.gz
+            checkpoint-*.sha256
+            checkpoint-through-2010-manifest.txt
+            checkpoint-through-2010-commit.txt
+            *-run.json
+            resume-*.json
+          if-no-files-found: warn
+          retention-days: 30
