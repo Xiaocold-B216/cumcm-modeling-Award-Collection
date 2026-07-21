@@ -1,8 +1,8 @@
 # 2009A：联合制动器试验台电流控制方法的实现及改进
 
 - 年份：2009
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：A
 - 模型候选：simulation
 - 算法候选：待核验

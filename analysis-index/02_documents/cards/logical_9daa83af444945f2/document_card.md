@@ -1,7 +1,7 @@
 # 2009D：会议筹备优化方案
 
 - 年份：2009
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：D
 - 模型候选：待核验

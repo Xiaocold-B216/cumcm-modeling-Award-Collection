@@ -16,4 +16,4 @@ MuPDF error: format error: cannot find page 22 in page tree
 
 MuPDF error: format error: cannot find page 22 in page tree
 
-{"carriers": 22, "logical_documents": 22, "manual_review": 4, "quality_gate": "conditional_pass", "status": "processed", "text_caches_reused": 0, "year": 2009}
+{"carriers": 22, "logical_documents": 22, "manual_review": 22, "quality_gate": "conditional_pass", "status": "processed", "text_caches_reused": 0, "year": 2009}
