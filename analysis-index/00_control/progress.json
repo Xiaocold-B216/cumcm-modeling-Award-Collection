@@ -7,6 +7,7 @@
   "analysis_checkpoint_through_1996": "73afa870943ddbf16ca549bee0f1301dcf508ed2",
   "analysis_checkpoint_through_1997": "e0297c7d0997a496425d3d81e05feb3f30e75fcb",
   "analysis_checkpoint_through_1998": "6395ff59c8db264522e98bd3a3eb981febe61abd",
+  "analysis_checkpoint_geometry_through_1998": "2e43fe78fa5b455839df090d1b593910c7c4fd96",
   "candidate_layer_years": [
     1992,
     1993,
@@ -32,17 +33,16 @@
     1992,
     1993,
     1994,
-    1995,
     1996,
     1997,
     1998
   ],
   "infrastructure_status": "rebuild_1992_1995_reconciled_remote_verified",
   "invalid_empty_run_superseded": true,
-  "last_verified_remote_checkpoint": "6395ff59c8db264522e98bd3a3eb981febe61abd",
+  "last_verified_remote_checkpoint": "2e43fe78fa5b455839df090d1b593910c7c4fd96",
   "next_candidate_year": null,
-  "next_recommended_year": 1999,
-  "parser_version": "0.5.1",
+  "next_recommended_year": 1995,
+  "parser_version": "0.5.2",
   "recovery_package_through_1993": {
     "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1993-rebuilt-a6d6a657.tar.gz",
     "sha256": "c1eb86c31376e2a47c6d72a123dd69b1fc13fec4037bef967e310ece58220d53"
@@ -67,12 +67,16 @@
     "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1998-6395ff59.tar.gz",
     "sha256": "99bb5eb9723e6d8c77fad5867f67a4c8c2fbac25bbd2eb419c8dfc1336dabfec"
   },
-  "remote_publish_status": "pending_phase_commit",
+  "recovery_package_geometry_through_1998": {
+    "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1998-geometry-2e43fe78.tar.gz",
+    "sha256": "0cecbdf4514f584ca3025b6ede2cc72f5fdc0604331fa581c42947dc55d60c2f"
+  },
+  "remote_publish_status": "verified_geometry_correction_with_recovery_package",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "target_end_year": 2010,
-  "tests_passed": 33,
-  "updated_at": "2026-07-22T02:20:00Z",
+  "tests_passed": 34,
+  "updated_at": "2026-07-22T04:05:00Z",
   "year_status": {
     "1992": "pass",
     "1993": "pass",
