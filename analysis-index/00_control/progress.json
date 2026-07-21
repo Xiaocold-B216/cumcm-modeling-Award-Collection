@@ -4,24 +4,26 @@
     1992,
     1993,
     1994,
-    1995
+    1995,
+    1996
   ],
   "completed_years": [],
   "infrastructure_status": "locally_tested_pending_remote_readback",
   "invalid_empty_run_superseded": true,
   "last_verified_remote_checkpoint": "bb07481383d6d5ee57cfce615350f0f9a5750476",
-  "next_recommended_year": 1996,
+  "next_recommended_year": 1997,
   "parser_version": "0.5.1",
   "remote_publish_status": "pending_phase_commit",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "target_end_year": 2010,
   "tests_passed": 10,
-  "updated_at": "2026-07-21T19:50:19Z",
+  "updated_at": "2026-07-21T19:50:21Z",
   "year_status": {
     "1992": "conditional_pass",
     "1993": "conditional_pass",
     "1994": "conditional_pass",
-    "1995": "conditional_pass"
+    "1995": "conditional_pass",
+    "1996": "conditional_pass"
   }
 }

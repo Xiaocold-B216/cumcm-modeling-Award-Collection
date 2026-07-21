@@ -1,15 +1,22 @@
 {
-  "carriers": 0,
+  "carriers": 14,
   "checkpoint_type": "year",
-  "created_at": "2026-07-21T19:37:34Z",
-  "documents": 0,
-  "invalidated_at": "2026-07-21T19:50:08Z",
-  "invalidated_reason": "Git-quoted Unicode paths were not materialized by the prior parser",
-  "known_issues": [],
+  "created_at": "2026-07-21T19:50:21Z",
+  "documents": 14,
+  "known_issues": [
+    "role/text requires visual review",
+    "role/text requires visual review",
+    "role/text requires visual review",
+    "role/text requires visual review",
+    "role/text requires visual review",
+    "role/text requires visual review",
+    "role/text requires visual review",
+    "role/text requires visual review"
+  ],
   "parser_version": "0.5.1",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
-  "status": "invalidated_empty_source_run",
+  "status": "conditional_pass",
   "text_caches_reused": 0,
   "year": 1996
 }
