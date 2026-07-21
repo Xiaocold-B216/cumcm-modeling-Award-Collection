@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "required": [
+    "representation_id",
+    "logical_document_id",
+    "carrier_document_id",
+    "preferred_representation",
+    "preference_reason"
+  ],
+  "schema_version": "1.4.1",
+  "type": "object"
+}

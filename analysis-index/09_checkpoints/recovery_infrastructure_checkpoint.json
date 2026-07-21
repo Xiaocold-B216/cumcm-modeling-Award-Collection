@@ -1,0 +1,12 @@
+{
+  "checkpoint_type": "recovery_infrastructure",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "branch": "analysis/corpus-index",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.1",
+  "tests_passed": 10,
+  "status": "pending_remote_commit",
+  "remote_parent": "bb07481383d6d5ee57cfce615350f0f9a5750476",
+  "next_phase": "inventory",
+  "created_at": "2026-07-22T03:45:00Z"
+}

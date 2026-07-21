@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "completeness_status": {
+      "enum": [
+        "complete",
+        "missing_end",
+        "missing_middle",
+        "missing_segment",
+        "missing_start",
+        "unknown"
+      ]
+    },
+    "document_role": {
+      "enum": [
+        "award_paper",
+        "expert_commentary",
+        "other_related",
+        "problem_statement",
+        "solution_summary",
+        "unknown"
+      ]
+    },
+    "document_subtype": {
+      "enum": [
+        "editorial_note",
+        "method_note",
+        "none",
+        "problem_background",
+        "solution_outline",
+        "validation_summary"
+      ]
+    },
+    "evidence_status": {
+      "enum": [
+        "content_verified_partial",
+        "key_content_verified",
+        "unverified",
+        "verified"
+      ]
+    },
+    "parse_status": {
+      "enum": [
+        "corrupted",
+        "duplicate",
+        "metadata_only",
+        "parsed",
+        "partially_parsed",
+        "pending_manual_review",
+        "pending_ocr",
+        "unsupported"
+      ]
+    },
+    "segmentation_status": {
+      "enum": [
+        "candidate",
+        "not_required",
+        "pending_manual_review",
+        "segmented"
+      ]
+    }
+  },
+  "required": [
+    "logical_document_id",
+    "carrier_document_ids",
+    "document_role",
+    "document_subtype",
+    "parse_status",
+    "evidence_status",
+    "segmentation_status",
+    "completeness_status",
+    "feature_statistics",
+    "analysis_eligibility"
+  ],
+  "schema_version": "1.4.1",
+  "type": "object"
+}

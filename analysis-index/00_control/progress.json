@@ -3,9 +3,12 @@
   "completed_years": [],
   "next_recommended_year": 1992,
   "parser_version": "0.5.1",
-  "remote_publish_status": "workflow_pending",
+  "remote_publish_status": "infrastructure_commit_pending",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "target_end_year": 2010,
-  "updated_at": "2026-07-22T00:00:00Z"
+  "last_verified_remote_checkpoint": "bb07481383d6d5ee57cfce615350f0f9a5750476",
+  "infrastructure_status": "locally_tested_pending_remote_readback",
+  "tests_passed": 10,
+  "updated_at": "2026-07-22T03:45:00Z"
 }

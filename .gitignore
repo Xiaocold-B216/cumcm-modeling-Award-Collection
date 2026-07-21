@@ -3,6 +3,7 @@ analysis-index/**/__pycache__/
 analysis-index/**/full_text/
 analysis-index/**/ocr_cache/
 analysis-index/**/page_renders/
+analysis-index/02_documents/cards/**/extracted_text.md
 *.pyc
 __pycache__/
 .pytest_cache/
@@ -11,3 +12,4 @@ htmlcov/
 *.tmp
 *.log.tmp
 checkpoint-*.tar.gz
+checkpoint-*.sha256

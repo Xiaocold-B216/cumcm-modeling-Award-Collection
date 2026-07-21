@@ -45,7 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Restore parser
+      - name: Validate tracked parser
         run: |
           python scripts/restore_build_index.py
           python -m py_compile scripts/build_index.py scripts/restore_build_index.py
@@ -53,27 +53,11 @@ jobs:
       - name: Install parser dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pypdf pytest
+          python -m pip install pypdf PyMuPDF
 
-      - name: Run parser smoke tests
+      - name: Run infrastructure tests
         run: |
-          python - <<'PY'
-          import importlib.util
-          import sys
-          from pathlib import Path
-          path = Path('scripts/build_index.py')
-          spec = importlib.util.spec_from_file_location('build_index', path)
-          mod = importlib.util.module_from_spec(spec)
-          sys.modules[spec.name] = mod
-          spec.loader.exec_module(mod)
-          assert mod.extract_year('1995年数学建模/论文.pdf') == 1995
-          assert mod.classify_role('1995优秀论文/飞行管理问题答卷评述.pdf')[0] == 'expert_commentary'
-          assert mod.classify_role('1998真题/A题.pdf')[0] == 'problem_statement'
-          assert mod.classify_role('冶炼车间最优调度模型的检验.pdf')[:2] == ('solution_summary', 'validation_summary')
-          unknown = mod.field_states('短文本', 'scanned_or_no_text', 3)
-          assert all(x['value_status'] == 'unknown' and not x['eligible_for_statistics'] for x in unknown)
-          print('smoke tests passed')
-          PY
+          python -m unittest discover -s tests
 
       - name: Verify trusted baseline
         run: |
@@ -135,7 +119,7 @@ jobs:
       - name: Create final recovery package
         if: always()
         run: |
-          tar -czf checkpoint-through-2010.tar.gz analysis-index scripts schema README_PIPELINE.md .gitignore .bootstrap
+          tar -czf checkpoint-through-2010.tar.gz analysis-index scripts tests schema README_PIPELINE.md .gitignore
           sha256sum checkpoint-through-2010.tar.gz > checkpoint-through-2010.sha256
           git ls-files analysis-index scripts schema .bootstrap README_PIPELINE.md .gitignore > checkpoint-through-2010-manifest.txt
           git rev-parse HEAD > checkpoint-through-2010-commit.txt

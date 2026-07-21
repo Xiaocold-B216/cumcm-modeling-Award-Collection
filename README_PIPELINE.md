@@ -29,7 +29,7 @@ python scripts/build_index.py --year summary --resume
 GitHub Actions工作流将：
 
 1. 检出 `analysis/corpus-index`；
-2. 恢复解析器；
+2. 验证仓库内直接跟踪的解析器（不再使用截断的gzip恢复载荷）；
 3. 构建全库清单；
 4. 按1992—2010逐年运行；
 5. 每年测试、提交、推送；
@@ -37,3 +37,9 @@ GitHub Actions工作流将：
 7. 上传可下载检查点artifact。
 
 自动输出属于保守候选结果。只有经过页面视觉核验的内容才能升级为人工确认或完全验证状态。
+
+## 版本
+
+- Schema：1.4.1
+- Parser：0.5.1
+- 可信源资料基线：`a042ecf898feaba6fc81d543a10e0188db8b2b12`

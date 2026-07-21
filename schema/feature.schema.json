@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "value_status": {
+      "enum": [
+        "absent",
+        "not_applicable",
+        "present",
+        "unknown"
+      ]
+    }
+  },
+  "required": [
+    "field_name",
+    "value_status",
+    "evidence_status",
+    "source_pages",
+    "source_bbox",
+    "eligible_for_statistics"
+  ],
+  "schema_version": "1.4.1",
+  "type": "object"
+}

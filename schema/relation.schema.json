@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "relation_type": {
+      "enum": [
+        "adjacent_to",
+        "answers_problem",
+        "comments_on",
+        "contains",
+        "contaminated_by",
+        "continuation_of",
+        "duplicate_representation_of",
+        "evaluates_solution",
+        "partial_copy_of",
+        "resolved_alias",
+        "same_solution_lineage"
+      ]
+    }
+  },
+  "required": [
+    "relation_id",
+    "source_document_id",
+    "target_document_id",
+    "relation_type",
+    "evidence",
+    "confidence",
+    "verified_by",
+    "status"
+  ],
+  "schema_version": "1.4.1",
+  "type": "object"
+}

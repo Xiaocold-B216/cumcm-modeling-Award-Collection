@@ -1,0 +1,18 @@
+{
+  "phase": "recovery_infrastructure",
+  "status": "locally_passed_pending_remote_readback",
+  "checks": {
+    "trusted_baseline_exists": true,
+    "source_tree_unmodified": true,
+    "tracked_parser_present": true,
+    "parser_compiles": true,
+    "schema_readable": true,
+    "object_layers_separate": true,
+    "unknown_not_absent": true,
+    "resume_cache_contract_present": true,
+    "tests_passed_10": true,
+    "git_diff_check": true
+  },
+  "known_issue": "legacy .bootstrap payload is truncated but no longer used",
+  "updated_at": "2026-07-22T03:45:00Z"
+}
