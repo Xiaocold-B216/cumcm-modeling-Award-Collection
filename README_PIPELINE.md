@@ -41,5 +41,5 @@ GitHub Actions工作流将：
 ## 版本
 
 - Schema：1.4.1
-- Parser：0.5.1
+- Parser：0.5.2
 - 可信源资料基线：`a042ecf898feaba6fc81d543a10e0188db8b2b12`

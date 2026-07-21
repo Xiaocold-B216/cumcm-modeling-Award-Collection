@@ -1,7 +1,7 @@
 {
   "compatible_from": "1.4.0",
-  "migration": "add document_subtype and algorithm/reviewer eligibility without changing prior semantics",
-  "parser_version": "0.5.1",
+  "migration": "0.5.2 corrects absolute page geometry from actual PDF MediaBox while preserving normalized manual judgments",
+  "parser_version": "0.5.2",
   "schema_version": "1.4.1",
-  "updated_at": "2026-07-21T19:32:13Z"
+  "updated_at": "2026-07-21T22:59:19Z"
 }

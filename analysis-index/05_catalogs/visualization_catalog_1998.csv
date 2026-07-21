@@ -1,14 +1,14 @@
 ﻿logical_document_id,figure_or_table_id,page,bbox,chart_type,purpose,supports_question,supports_claim,effective,reusable_pattern,evidence_status,representation_id
-logical_4bcc9d16db5ec266,visual_dce01d8748114e60,4,"[0,0,595.22,842.0]",efficient_frontier,show return versus risk,A,show return versus risk,yes,efficient_frontier,verified,representation_294ac41bd6fd8a47
-logical_2d8d3900f17551a8,visual_d70742eccae32298,4,"[0,0,595.22,842.0]",result_table,compare fuzzy portfolios,A,compare fuzzy portfolios,yes,result_table,verified,representation_aee0ab9da870ebdc
-logical_f3cea3975f2825eb,visual_74c7833175cfa3b3,4,"[0,0,595.22,842.0]",efficient_frontier,show parametric frontier,A,show parametric frontier,yes,efficient_frontier,verified,representation_60272bb3331c2550
-logical_ec9fb8d8ba389ae0,visual_6dd069cb670957f4,3,"[0,0,595.22,842.0]",scatter_plot,show feasible portfolios,A,show feasible portfolios,yes,scatter_plot,verified,representation_19102833c38a9a27
-logical_872914b0619f17d8,visual_d34bbd4cddf450ed,5,"[0,0,595.22,842.0]",risk_return_curve,compare risk measures,A,compare risk measures,yes,risk_return_curve,verified,representation_123023f3828d9505
-logical_0a45ab72160311c8,visual_b251eac71c1b69aa,4,"[0,0,595.22,842.0]",risk_return_curve,show LP trade-off,A,show LP trade-off,yes,risk_return_curve,verified,representation_f9a5f6bb83b1ef6d
-logical_8e085b28e9421f70,visual_290c27dbe42c2212,7,"[0,0,595.22,842.0]",route_diagram,show multi-salesman partition,B,show multi-salesman partition,yes,route_diagram,verified,representation_94ea72dbe36aeac5
-logical_309f8c124ed6a6c4,visual_247e3f65b6da0b37,3,"[0,0,595.22,842.0]",map,show road network,B,show road network,yes,map,verified,representation_7718056e60772336
-logical_8d5b0c0250333b24,visual_88e5eeac8971dc47,4,"[0,0,595.22,842.0]",route_table,report routes,B,report routes,yes,route_table,verified,representation_1328962fa802cbeb
-logical_823f663caee774b4,visual_dd718494eb79f686,1,"[0,0,595.22,842.0]",map,show partial route plan,B,show partial route plan,yes,map,verified,representation_67b7430cfb7d180f
-logical_92065e717d1e9c19,visual_ba466410890c4940,4,"[0,0,595.22,842.0]",network_graph,show optimized routes,B,show optimized routes,yes,network_graph,verified,representation_8f4c4fc35563396a
-logical_1e518732177db900,visual_383e0477e3f8c6ef,2,"[0,0,595.22,842.0]",result_table,support optimality proof,B,support optimality proof,yes,result_table,verified,representation_d2a676fbd913161c
-logical_1dc6f576a4891e2f,visual_0d92acfbbc528199,6,"[0,0,595.22,842.0]",route_table,report balanced routes,B,report balanced routes,yes,route_table,verified,representation_da8c84c59552863c
+logical_4bcc9d16db5ec266,visual_dce01d8748114e60,4,"[0.0,0.0,598.0,793.0]",efficient_frontier,show return versus risk,A,show return versus risk,yes,efficient_frontier,verified,representation_294ac41bd6fd8a47
+logical_2d8d3900f17551a8,visual_d70742eccae32298,4,"[0.0,0.0,598.0,793.0]",result_table,compare fuzzy portfolios,A,compare fuzzy portfolios,yes,result_table,verified,representation_aee0ab9da870ebdc
+logical_f3cea3975f2825eb,visual_74c7833175cfa3b3,4,"[0.0,0.0,598.0,793.0]",efficient_frontier,show parametric frontier,A,show parametric frontier,yes,efficient_frontier,verified,representation_60272bb3331c2550
+logical_ec9fb8d8ba389ae0,visual_6dd069cb670957f4,3,"[0.0,0.0,598.0,793.0]",scatter_plot,show feasible portfolios,A,show feasible portfolios,yes,scatter_plot,verified,representation_19102833c38a9a27
+logical_872914b0619f17d8,visual_d34bbd4cddf450ed,5,"[0.0,0.0,598.0,793.0]",risk_return_curve,compare risk measures,A,compare risk measures,yes,risk_return_curve,verified,representation_123023f3828d9505
+logical_0a45ab72160311c8,visual_b251eac71c1b69aa,4,"[0.0,0.0,598.0,793.0]",risk_return_curve,show LP trade-off,A,show LP trade-off,yes,risk_return_curve,verified,representation_f9a5f6bb83b1ef6d
+logical_8e085b28e9421f70,visual_290c27dbe42c2212,7,"[0.0,0.0,598.0,793.0]",route_diagram,show multi-salesman partition,B,show multi-salesman partition,yes,route_diagram,verified,representation_94ea72dbe36aeac5
+logical_309f8c124ed6a6c4,visual_247e3f65b6da0b37,3,"[0.0,0.0,598.0,793.0]",map,show road network,B,show road network,yes,map,verified,representation_7718056e60772336
+logical_8d5b0c0250333b24,visual_88e5eeac8971dc47,4,"[0.0,0.0,598.0,793.0]",route_table,report routes,B,report routes,yes,route_table,verified,representation_1328962fa802cbeb
+logical_823f663caee774b4,visual_dd718494eb79f686,1,"[0.0,0.0,598.0,793.0]",map,show partial route plan,B,show partial route plan,yes,map,verified,representation_67b7430cfb7d180f
+logical_92065e717d1e9c19,visual_ba466410890c4940,4,"[0.0,0.0,598.0,793.0]",network_graph,show optimized routes,B,show optimized routes,yes,network_graph,verified,representation_8f4c4fc35563396a
+logical_1e518732177db900,visual_383e0477e3f8c6ef,2,"[0.0,0.0,598.0,793.0]",result_table,support optimality proof,B,support optimality proof,yes,result_table,verified,representation_d2a676fbd913161c
+logical_1dc6f576a4891e2f,visual_0d92acfbbc528199,6,"[0.0,0.0,598.0,793.0]",route_table,report balanced routes,B,report balanced routes,yes,route_table,verified,representation_da8c84c59552863c

@@ -1,14 +1,14 @@
 ﻿logical_document_id,figure_or_table_id,page,bbox,chart_type,purpose,supports_question,supports_claim,effective,reusable_pattern,evidence_status,representation_id
-logical_0140cddd677eb49c,visual_e4ee42715b8a6dc6,5,"[0,0,595.22,842.0]",flowchart,parameter calculation workflow,A,parameter calculation workflow,yes,flowchart,verified,representation_3c030026efbba06d
-logical_9bbd487dbb1f74e8,visual_3eaec6e5518fe011,3,"[0,0,595.22,842.0]",result_table,compare orthogonal designs,A,compare orthogonal designs,yes,result_table,verified,representation_59281adf6fc19cec
-logical_adcad50e009a41f7,visual_c97a902b0b27a064,4,"[0,0,595.22,842.0]",distribution_plot,validate simulated output,A,validate simulated output,yes,distribution_plot,verified,representation_35efc5cb5f55613e
-logical_23e3c4de4be0f730,visual_d5f40a6eeba9f286,4,"[0,0,595.22,842.0]",result_table,compare designs,A,compare designs,yes,result_table,verified,representation_653829035f02d721
-logical_a0296255f48bd4c0,visual_f5295331d26d16e0,2,"[0,0,595.22,842.0]",histogram,check output distribution,A,check output distribution,yes,histogram,verified,representation_cde346c6bc3014cb
-logical_c5eea15b8cd5fb65,visual_6a368f869495a89c,4,"[0,0,595.22,842.0]",result_table,show simulated costs,A,show simulated costs,yes,result_table,verified,representation_47518fe5eb0923c7
-logical_21d390cd7a1eec48,visual_6c3b1f8cd5e00a7d,4,"[0,0,595.22,842.0]",line_chart,compare parameter scenarios,A,compare parameter scenarios,yes,line_chart,verified,representation_2957dbc522447a15
-logical_9693c7c61b2aa469,visual_546d19a96983976d,4,"[0,0,595.22,842.0]",result_table,compare cutting sequences,B,compare cutting sequences,yes,result_table,verified,representation_8c35bc645f85ade4
-logical_0a84219dfcf2c743,visual_e2c5c892cb4fc0a1,6,"[0,0,595.22,842.0]",line_chart,verify cost model,B,verify cost model,yes,line_chart,verified,representation_56e68a1f034362d4
-logical_e19d39e74732a83a,visual_f1cf118ec50bc225,6,"[0,0,595.22,842.0]",result_table,report minimum-cost plan,B,report minimum-cost plan,yes,result_table,verified,representation_48a809f0e7f24539
-logical_fd23872e9d0f45fa,visual_b1d5d93744ed5199,6,"[0,0,595.22,842.0]",line_chart,show cost threshold,B,show cost threshold,yes,line_chart,verified,representation_94f3c5049b5ee3d9
-logical_0c10bb120c4c9bb0,visual_6a74ff910a572e3d,3,"[0,0,595.22,842.0]",sequence_diagram,show cutting order,B,show cutting order,yes,sequence_diagram,verified,representation_4b243335001e20d3
-logical_c04329f6338972c0,visual_5591a3fface259a4,5,"[0,0,595.22,842.0]",result_table,report tool and sequence,B,report tool and sequence,yes,result_table,verified,representation_9c0951f7548246bb
+logical_0140cddd677eb49c,visual_e4ee42715b8a6dc6,5,"[0.0,0.0,584.0,789.0]",flowchart,parameter calculation workflow,A,parameter calculation workflow,yes,flowchart,verified,representation_3c030026efbba06d
+logical_9bbd487dbb1f74e8,visual_3eaec6e5518fe011,3,"[0.0,0.0,584.0,789.0]",result_table,compare orthogonal designs,A,compare orthogonal designs,yes,result_table,verified,representation_59281adf6fc19cec
+logical_adcad50e009a41f7,visual_c97a902b0b27a064,4,"[0.0,0.0,584.0,789.0]",distribution_plot,validate simulated output,A,validate simulated output,yes,distribution_plot,verified,representation_35efc5cb5f55613e
+logical_23e3c4de4be0f730,visual_d5f40a6eeba9f286,4,"[0.0,0.0,584.0,789.0]",result_table,compare designs,A,compare designs,yes,result_table,verified,representation_653829035f02d721
+logical_a0296255f48bd4c0,visual_f5295331d26d16e0,2,"[0.0,0.0,584.0,789.0]",histogram,check output distribution,A,check output distribution,yes,histogram,verified,representation_cde346c6bc3014cb
+logical_c5eea15b8cd5fb65,visual_6a368f869495a89c,4,"[0.0,0.0,584.0,789.0]",result_table,show simulated costs,A,show simulated costs,yes,result_table,verified,representation_47518fe5eb0923c7
+logical_21d390cd7a1eec48,visual_6c3b1f8cd5e00a7d,4,"[0.0,0.0,584.0,789.0]",line_chart,compare parameter scenarios,A,compare parameter scenarios,yes,line_chart,verified,representation_2957dbc522447a15
+logical_9693c7c61b2aa469,visual_546d19a96983976d,4,"[0.0,0.0,584.0,789.0]",result_table,compare cutting sequences,B,compare cutting sequences,yes,result_table,verified,representation_8c35bc645f85ade4
+logical_0a84219dfcf2c743,visual_e2c5c892cb4fc0a1,6,"[0.0,0.0,584.0,789.0]",line_chart,verify cost model,B,verify cost model,yes,line_chart,verified,representation_56e68a1f034362d4
+logical_e19d39e74732a83a,visual_f1cf118ec50bc225,6,"[0.0,0.0,584.0,789.0]",result_table,report minimum-cost plan,B,report minimum-cost plan,yes,result_table,verified,representation_48a809f0e7f24539
+logical_fd23872e9d0f45fa,visual_b1d5d93744ed5199,6,"[0.0,0.0,584.0,789.0]",line_chart,show cost threshold,B,show cost threshold,yes,line_chart,verified,representation_94f3c5049b5ee3d9
+logical_0c10bb120c4c9bb0,visual_6a74ff910a572e3d,3,"[0.0,0.0,584.0,789.0]",sequence_diagram,show cutting order,B,show cutting order,yes,sequence_diagram,verified,representation_4b243335001e20d3
+logical_c04329f6338972c0,visual_5591a3fface259a4,5,"[0.0,0.0,584.0,789.0]",result_table,report tool and sequence,B,report tool and sequence,yes,result_table,verified,representation_9c0951f7548246bb

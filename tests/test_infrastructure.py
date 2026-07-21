@@ -1,6 +1,9 @@
 import json
+import csv
 import unittest
 from pathlib import Path
+
+import fitz
 
 from scripts import build_index as bi
 
@@ -11,8 +14,27 @@ ROOT = Path(__file__).resolve().parents[1]
 class InfrastructureTests(unittest.TestCase):
     def test_versions_and_baseline(self):
         self.assertEqual(bi.SCHEMA_VERSION, "1.4.1")
-        self.assertEqual(bi.PARSER_VERSION, "0.5.1")
+        self.assertEqual(bi.PARSER_VERSION, "0.5.2")
         self.assertEqual(bi.SOURCE_BASELINE, "a042ecf898feaba6fc81d543a10e0188db8b2b12")
+
+    def test_manual_segment_geometry_matches_actual_pdf_mediabox(self):
+        for year in range(1992, 1999):
+            manifest = ROOT / f"analysis-index/02_documents/{year}_carrier_manifest.csv"
+            with manifest.open(encoding="utf-8-sig", newline="") as handle:
+                paths = {row["carrier_document_id"]: row["relative_path"] for row in csv.DictReader(handle)}
+            opened = {}
+            try:
+                for segment in bi.read_jsonl(ROOT / f"analysis-index/02_documents/page_segments_{year}.jsonl"):
+                    relative_path = paths.get(segment["carrier_document_id"])
+                    if not relative_path or not relative_path.lower().endswith(".pdf"):
+                        continue
+                    document = opened.setdefault(relative_path, fitz.open(ROOT / relative_path))
+                    page = document[int(segment["page"]) - 1]
+                    self.assertAlmostEqual(page.rect.width, segment["page_width"], places=2)
+                    self.assertAlmostEqual(page.rect.height, segment["page_height"], places=2)
+            finally:
+                for document in opened.values():
+                    document.close()
 
     def test_year_and_role_classification(self):
         self.assertEqual(bi.extract_year("1995年数学建模/论文.pdf"), 1995)

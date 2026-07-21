@@ -31,7 +31,7 @@ except ImportError:  # pragma: no cover - Actions installs this dependency
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_BASELINE = "a042ecf898feaba6fc81d543a10e0188db8b2b12"
 SCHEMA_VERSION = "1.4.1"
-PARSER_VERSION = "0.5.1"
+PARSER_VERSION = "0.5.2"
 YEARS = tuple(range(1992, 2011))
 
 ANALYSIS = ROOT / "analysis-index"
@@ -719,8 +719,17 @@ def build_year(year: int, resume: bool) -> dict[str, Any]:
     existing_boundaries = read_jsonl(DOCUMENTS / f"article_boundaries_{year}.jsonl")
     existing_representations = read_jsonl(DOCUMENTS / f"representations_{year}.jsonl")
     existing_review_queue = read_jsonl(QUALITY / "unresolved" / f"{year}_manual_review_queue.jsonl")
+    absorbed_carriers = {r["carrier_document_id"] for r in read_jsonl(DOCUMENTS / "carrier_absorptions.jsonl")
+                         if int(r.get("year", 0)) == year and r.get("manually_verified")}
     all_existing = [r for r in existing_docs.values() if int(r.get("year", 0)) != year]
-    docs, representations, segments, boundaries, review_queue = [], [], [], [], []
+    manual_year_docs = {k: v for k, v in existing_docs.items()
+                        if int(v.get("year", 0)) == year and v.get("manual_overrides")}
+    docs = list(manual_year_docs.values())
+    manual_ids = set(manual_year_docs)
+    representations = [r for r in existing_representations if r.get("logical_document_id") in manual_ids]
+    segments = [r for r in existing_segments if r.get("logical_document_id") in manual_ids]
+    boundaries = [r for r in existing_boundaries if r.get("manual_overrides")]
+    review_queue = [r for r in existing_review_queue if r.get("logical_document_id") in manual_ids]
     reused_text = 0
     for order, carrier in enumerate(carriers, 1):
         rel = carrier["relative_path"]
@@ -735,7 +744,15 @@ def build_year(year: int, resume: bool) -> dict[str, Any]:
         role, subtype, confidence, basis = classify_role(rel, text)
         code = problem_code(rel, text)
         cid = carrier["carrier_document_id"]
+        if cid in absorbed_carriers:
+            # A manually reviewed multi-article or duplicate carrier is already
+            # represented by segments attached to canonical logical documents.
+            continue
         logical_id = stable_id("logical_", year, rel)
+        if logical_id in manual_year_docs:
+            # This carrier is already represented by a manually authoritative
+            # logical document preloaded above. Do not append it a second time.
+            continue
         representation_id = stable_id("representation_", cid, logical_id)
         likely_multi = any(x in rel for x in ("全集", "合集", "分卷", "合订"))
         segmentation = "pending_manual_review" if likely_multi else "not_required"
@@ -813,6 +830,13 @@ def build_year(year: int, resume: bool) -> dict[str, Any]:
     write_csv(DOCUMENTS / f"{year}_logical_document_manifest.csv", docs)
     update_global_relations_and_lineages(year, docs, representations)
     write_jsonl(QUALITY / "unresolved" / f"{year}_manual_review_queue.jsonl", review_queue)
+    # Manual review scripts retain judgments as normalized coordinates.  Always
+    # reconcile absolute points with the actual PDF MediaBox before gates/reports.
+    try:
+        from scripts.normalize_page_geometry import normalize_year_geometry
+    except ModuleNotFoundError:  # direct: python scripts/build_index.py
+        from normalize_page_geometry import normalize_year_geometry
+    normalize_year_geometry(year)
     stats = yearly_statistics(year, carriers, docs, representations, segments, review_queue)
     write_year_report(year, stats, docs, review_queue,
                       preserve_existing=bool(docs) and all(d.get("manual_overrides") for d in docs))
@@ -929,7 +953,8 @@ def yearly_statistics(year: int, carriers: list[dict[str, Any]], docs: list[dict
     add("representation", "representation_count", len(reps), len(docs), "count, not a paper percentage")
     carrier_ids = {d["carrier_document_ids"][0] for d in docs if d.get("carrier_document_ids")}
     year_orphans = [r for r in read_jsonl(DOCUMENTS / "orphan_segments.jsonl")
-                    if r.get("carrier_document_id") in carrier_ids]
+                    if int(r.get("year", 0) or 0) == year
+                    or (not r.get("year") and r.get("carrier_document_id") in carrier_ids)]
     add("orphan_segment", "orphan_count", len(year_orphans), len(segments),
         "preserved excluded regions; denominator is valid primary segments")
     add("logical_document", "manual_review_queue", len(queue), len(docs))
@@ -985,8 +1010,9 @@ def write_year_report(year: int, stats: list[dict[str, Any]], docs: list[dict[st
 
 def year_gate(year: int, carriers: list[dict[str, Any]], docs: list[dict[str, Any]], reps: list[dict[str, Any]],
               stats: list[dict[str, Any]], queue: list[dict[str, Any]]) -> dict[str, Any]:
+    represented_carriers = {r["carrier_document_id"] for r in reps}
     checks = {"carrier_manifest_exists": (DOCUMENTS / f"{year}_carrier_manifest.csv").exists(),
-        "candidate_carriers_accounted": len(carriers) > 0,
+        "candidate_carriers_accounted": bool(carriers) and {c["carrier_document_id"] for c in carriers} <= represented_carriers,
         "logical_documents_present": len(docs) > 0,
         "logical_document_six_pack": all(all((DOCUMENTS / "cards" / d["logical_document_id"] / name).exists()
             for name in ("document_card.md", "metadata.json", "extracted_text.md", "page_map.json", "evidence.jsonl", "review_record.md")) for d in docs),
@@ -1089,11 +1115,13 @@ def write_schema_files() -> None:
         else now()
     )
     write_json(manifest_path, {"schema_version": SCHEMA_VERSION, "parser_version": PARSER_VERSION,
-        "compatible_from": "1.4.0", "migration": "add document_subtype and algorithm/reviewer eligibility without changing prior semantics",
+        "compatible_from": "1.4.0", "migration": "0.5.2 corrects absolute page geometry from actual PDF MediaBox while preserving normalized manual judgments",
         "updated_at": migration_timestamp})
     (ROOT / "schema" / "migration_notes.md").write_text(
         "# Schema migration notes\n\n## 1.4.1\n\n向后兼容增加 `document_subtype`、算法统计资格和字段级bbox。"
-        "未改变carrier、segment、logical document、problem、lineage或representation的含义。\n", encoding="utf-8")
+        "未改变carrier、segment、logical document、problem、lineage或representation的含义。\n\n"
+        "## Parser 0.5.2\n\n修复人工复核脚本曾使用固定A4画布导致的绝对bbox偏差。"
+        "迁移以已保存的normalized_bbox为准，按每个PDF页面实际MediaBox重算PDF point坐标；稳定ID和人工边界判断不变。\n", encoding="utf-8")
 
 
 def main() -> None:

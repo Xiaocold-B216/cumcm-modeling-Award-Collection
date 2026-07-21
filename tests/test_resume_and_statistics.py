@@ -65,7 +65,7 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         segments = bi.read_jsonl(root / "02_documents/page_segments_1993.jsonl")
         paper_page_one = [s for s in segments if s["logical_document_id"] == "logical_c8ba8962d24258a2" and s["page"] == 1]
         self.assertEqual(1, len(paper_page_one))
-        self.assertEqual(360, paper_page_one[0]["include_bbox"][1])
+        self.assertAlmostEqual(360 / 798, paper_page_one[0]["normalized_bbox"][1], places=5)
         relations = bi.read_jsonl(root / "04_relations/document_relations.jsonl")
         aliases = [r for r in relations if r["relation_type"] == "resolved_alias" and r["source_document_id"] == "lineage_intermodulation_frequency_design_unresolved_year"]
         self.assertEqual(1, len(aliases))
@@ -92,7 +92,8 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         self.assertEqual("complete", mountain["completeness_status"])
         self.assertIn("1300", json.dumps(mountain["content_analysis"], ensure_ascii=False))
         boundaries = [b for b in bi.read_jsonl(root / "02_documents/article_boundaries_1994.jsonl") if b["same_page_boundary"]]
-        self.assertEqual({212, 232}, {b["boundary_y"] for b in boundaries})
+        self.assertEqual({round(212 / 727.92, 6), round(232 / 842, 6)},
+                         {b["normalized_bbox"][1] for b in boundaries})
         orphans = [o for o in bi.read_jsonl(root / "02_documents/orphan_segments.jsonl") if o.get("year") == 1994]
         self.assertEqual(2, len(orphans))
         self.assertTrue(all("下转第57页" in o["reason_excluded_from_primary_document"] for o in orphans))
@@ -160,7 +161,7 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         boundaries = bi.read_jsonl(root / "02_documents/article_boundaries_1996.jsonl")
         self.assertEqual(1, len(boundaries))
         self.assertTrue(boundaries[0]["same_page_boundary"])
-        self.assertEqual(390, boundaries[0]["boundary_y"])
+        self.assertAlmostEqual(390 / 842, boundaries[0]["normalized_bbox"][1], places=5)
 
     def test_1996_denominators_and_resume_gate(self):
         root = Path(__file__).resolve().parents[1] / "analysis-index"
@@ -195,7 +196,7 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         boundary = bi.read_jsonl(root / "02_documents/article_boundaries_1997.jsonl")
         self.assertEqual(1, len(boundary))
         self.assertTrue(boundary[0]["same_page_boundary"])
-        self.assertEqual(548, boundary[0]["boundary_y"])
+        self.assertAlmostEqual(548 / 842, boundary[0]["normalized_bbox"][1], places=5)
         relations = bi.read_jsonl(root / "04_relations/document_relations_1997.jsonl")
         self.assertTrue(any(r["relation_type"] == "adjacent_to" and
                             r["source_document_id"] == errata["logical_document_id"]
