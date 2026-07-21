@@ -15,18 +15,19 @@
     2003,
     2004,
     2005,
-    2006
+    2006,
+    2007
   ],
   "infrastructure_status": "locally_tested_pending_remote_readback",
   "last_verified_remote_checkpoint": "bb07481383d6d5ee57cfce615350f0f9a5750476",
-  "next_recommended_year": 2007,
+  "next_recommended_year": 2008,
   "parser_version": "0.5.1",
   "remote_publish_status": "pending_phase_commit",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "target_end_year": 2010,
   "tests_passed": 10,
-  "updated_at": "2026-07-21T19:37:52Z",
+  "updated_at": "2026-07-21T19:37:54Z",
   "year_status": {
     "1992": "pass",
     "1993": "pass",
@@ -42,6 +43,7 @@
     "2003": "pass",
     "2004": "pass",
     "2005": "pass",
-    "2006": "pass"
+    "2006": "pass",
+    "2007": "pass"
   }
 }
