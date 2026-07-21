@@ -1,10 +1,7 @@
 {
   "algorithms": [],
   "analysis_eligibility": [
-    "metadata_statistics",
-    "result_pattern_statistics",
-    "structure_statistics",
-    "visualization_statistics"
+    "metadata_statistics"
   ],
   "article_order": 4,
   "authors": [],
@@ -23,12 +20,12 @@
   "document_role": "problem_statement",
   "document_subtype": "none",
   "entity_type": "logical_document",
-  "evidence_status": "content_verified_partial",
+  "evidence_status": "unverified",
   "feature_statistics": [
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
+      "evidence_status": "unverified",
       "exclusion_reason": "field not applicable to problem statement",
       "field_name": "abstract",
       "source_bbox": [],
@@ -39,7 +36,7 @@
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
+      "evidence_status": "unverified",
       "exclusion_reason": "field not applicable to problem statement",
       "field_name": "model_assumptions",
       "source_bbox": [],
@@ -49,19 +46,19 @@
     },
     {
       "analysis_category": "structure_statistics",
-      "eligible_for_statistics": true,
+      "eligible_for_statistics": false,
       "evidence_status": "unverified",
-      "exclusion_reason": "",
+      "exclusion_reason": "automatic non-detection cannot establish absence",
       "field_name": "symbol_definitions",
       "source_bbox": [],
       "source_pages": [],
-      "value": false,
-      "value_status": "absent"
+      "value": null,
+      "value_status": "unknown"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
+      "evidence_status": "unverified",
       "exclusion_reason": "field not applicable to problem statement",
       "field_name": "model_validation",
       "source_bbox": [],
@@ -72,7 +69,7 @@
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
+      "evidence_status": "unverified",
       "exclusion_reason": "field not applicable to problem statement",
       "field_name": "sensitivity_analysis",
       "source_bbox": [],
@@ -83,7 +80,7 @@
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
+      "evidence_status": "unverified",
       "exclusion_reason": "field not applicable to problem statement",
       "field_name": "error_analysis",
       "source_bbox": [],
@@ -93,9 +90,9 @@
     },
     {
       "analysis_category": "result_pattern_statistics",
-      "eligible_for_statistics": true,
-      "evidence_status": "content_verified_partial",
-      "exclusion_reason": "",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "automatic keyword evidence pending manual verification",
       "field_name": "final_solution",
       "source_bbox": [],
       "source_pages": [
@@ -107,31 +104,31 @@
     },
     {
       "analysis_category": "result_pattern_statistics",
-      "eligible_for_statistics": true,
+      "eligible_for_statistics": false,
       "evidence_status": "unverified",
-      "exclusion_reason": "",
+      "exclusion_reason": "automatic non-detection cannot establish absence",
       "field_name": "final_answer_summary_table",
       "source_bbox": [],
       "source_pages": [],
-      "value": false,
-      "value_status": "absent"
+      "value": null,
+      "value_status": "unknown"
     },
     {
       "analysis_category": "visualization_statistics",
-      "eligible_for_statistics": true,
+      "eligible_for_statistics": false,
       "evidence_status": "unverified",
-      "exclusion_reason": "",
+      "exclusion_reason": "automatic non-detection cannot establish absence",
       "field_name": "flowchart",
       "source_bbox": [],
       "source_pages": [],
-      "value": false,
-      "value_status": "absent"
+      "value": null,
+      "value_status": "unknown"
     },
     {
       "analysis_category": "visualization_statistics",
-      "eligible_for_statistics": true,
-      "evidence_status": "content_verified_partial",
-      "exclusion_reason": "",
+      "eligible_for_statistics": false,
+      "evidence_status": "unverified",
+      "exclusion_reason": "automatic keyword evidence pending manual verification",
       "field_name": "visualization",
       "source_bbox": [],
       "source_pages": [
@@ -143,7 +140,7 @@
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
+      "evidence_status": "unverified",
       "exclusion_reason": "field not applicable to problem statement",
       "field_name": "references",
       "source_bbox": [],
@@ -154,7 +151,7 @@
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
+      "evidence_status": "unverified",
       "exclusion_reason": "field not applicable to problem statement",
       "field_name": "appendix",
       "source_bbox": [],
@@ -165,7 +162,7 @@
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
+      "evidence_status": "unverified",
       "exclusion_reason": "field not applicable to problem statement",
       "field_name": "code_description",
       "source_bbox": [],
@@ -202,6 +199,6 @@
   "source_path": "1994年数学建模国赛真题+优秀论文/1994年国赛赛题/1994年国赛赛题.pdf",
   "text_layer_status": "native_text",
   "title": "1994年国赛赛题",
-  "updated_at": "2026-07-21T19:50:16Z",
+  "updated_at": "2026-07-21T19:58:11Z",
   "year": 1994
 }
