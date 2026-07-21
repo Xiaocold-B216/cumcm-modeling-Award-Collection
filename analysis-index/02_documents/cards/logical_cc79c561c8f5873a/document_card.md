@@ -1,8 +1,8 @@
 # 1999A：刀具问题的仿真及灵敏度分析
 
 - 年份：1999
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：A
 - 模型候选：simulation
 - 算法候选：enumeration
