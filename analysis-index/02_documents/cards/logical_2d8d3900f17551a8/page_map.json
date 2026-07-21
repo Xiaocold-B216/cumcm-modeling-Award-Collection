@@ -1,0 +1,89 @@
+{
+  "coordinate_origin": "top-left",
+  "coordinate_unit": "PDF point",
+  "logical_document_id": "logical_2d8d3900f17551a8",
+  "page_number_basis": "carrier local, 1-based",
+  "pages": [
+    {
+      "carrier_document_id": "carrier_216f237c2ec3cdc3",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 1,
+      "rotation": 0,
+      "segment_id": "segment_d1af2db6e081fce3",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_216f237c2ec3cdc3",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 2,
+      "rotation": 0,
+      "segment_id": "segment_c7ab18086dfd7df7",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_216f237c2ec3cdc3",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 3,
+      "rotation": 0,
+      "segment_id": "segment_1270ce3ddf027082",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_216f237c2ec3cdc3",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 4,
+      "rotation": 0,
+      "segment_id": "segment_06245310ee98d6dd",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_216f237c2ec3cdc3",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 5,
+      "rotation": 0,
+      "segment_id": "segment_d2aa2164a5eef62a",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    }
+  ],
+  "representation_id": "representation_aee0ab9da870ebdc"
+}

@@ -1,0 +1,169 @@
+{
+  "coordinate_origin": "top-left",
+  "coordinate_unit": "PDF point",
+  "logical_document_id": "logical_309f8c124ed6a6c4",
+  "page_number_basis": "carrier local, 1-based",
+  "pages": [
+    {
+      "carrier_document_id": "carrier_8c0e4c4de72bce97",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 1,
+      "rotation": 0,
+      "segment_id": "segment_a72735fce7e8ed17",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_8c0e4c4de72bce97",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 2,
+      "rotation": 0,
+      "segment_id": "segment_64f895d7c83925ad",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_8c0e4c4de72bce97",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 3,
+      "rotation": 0,
+      "segment_id": "segment_7774766706d9d7f1",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_8c0e4c4de72bce97",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 4,
+      "rotation": 0,
+      "segment_id": "segment_826037e26f2067df",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_8c0e4c4de72bce97",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 5,
+      "rotation": 0,
+      "segment_id": "segment_273917e26f9bb3ef",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_8c0e4c4de72bce97",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 6,
+      "rotation": 0,
+      "segment_id": "segment_7148f26215f008a8",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_8c0e4c4de72bce97",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 7,
+      "rotation": 0,
+      "segment_id": "segment_4dda5f2895849446",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_8c0e4c4de72bce97",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 8,
+      "rotation": 0,
+      "segment_id": "segment_613535cadbb393df",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_8c0e4c4de72bce97",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 9,
+      "rotation": 0,
+      "segment_id": "segment_eba605130322eead",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_8c0e4c4de72bce97",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 10,
+      "rotation": 0,
+      "segment_id": "segment_58ffe121a63d9554",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    }
+  ],
+  "representation_id": "representation_7718056e60772336"
+}

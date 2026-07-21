@@ -1,0 +1,73 @@
+{
+  "coordinate_origin": "top-left",
+  "coordinate_unit": "PDF point",
+  "logical_document_id": "logical_b835699e7ec08200",
+  "page_number_basis": "carrier local, 1-based",
+  "pages": [
+    {
+      "carrier_document_id": "carrier_67e296d2342b1dc6",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 1,
+      "rotation": 0,
+      "segment_id": "segment_7a29472b0cbe9a34",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_67e296d2342b1dc6",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 2,
+      "rotation": 0,
+      "segment_id": "segment_c0f987c2fb8364c3",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_67e296d2342b1dc6",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 3,
+      "rotation": 0,
+      "segment_id": "segment_76f61e8ac3b4522d",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_67e296d2342b1dc6",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 4,
+      "rotation": 0,
+      "segment_id": "segment_f790de31666918b6",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    }
+  ],
+  "representation_id": "representation_10bf971db09268e4"
+}

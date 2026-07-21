@@ -1,0 +1,281 @@
+{
+  "algorithms": [
+    "max_min_membership",
+    "linear_programming"
+  ],
+  "analysis_eligibility": [
+    "algorithm_statistics",
+    "metadata_statistics",
+    "model_statistics",
+    "result_pattern_statistics",
+    "structure_statistics",
+    "visualization_statistics"
+  ],
+  "article_order": 3,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_216f237c2ec3cdc3"
+  ],
+  "completeness_status": "complete",
+  "content_analysis": {
+    "mathematical_essence": "把最低收益与风险上限模糊化，以最大化最低满意度得到折衷投资组合。"
+  },
+  "corpus_eligibility": {
+    "award_paper_patterns": "included",
+    "problem_analysis": "excluded",
+    "reviewer_feedback": "excluded",
+    "validation_patterns": "excluded",
+    "visualization_patterns": "included"
+  },
+  "corpus_status": "included",
+  "document_role": "award_paper",
+  "document_subtype": "none",
+  "entity_type": "logical_document",
+  "evidence_status": "key_content_verified",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "insufficient evidence",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "insufficient evidence",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "value": false,
+      "value_status": "absent"
+    }
+  ],
+  "logical_document_id": "logical_2d8d3900f17551a8",
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T02:00:00Z",
+  "models": [
+    "fuzzy_programming",
+    "portfolio_optimization"
+  ],
+  "page_count": 5,
+  "parse_status": "partially_parsed",
+  "problem_code": "A",
+  "problem_id": "problem_cumcm_1998_a",
+  "representation_quality": "manually_reviewed",
+  "role_classification": {
+    "classification_basis": [
+      "title",
+      "document_structure",
+      "visual_review",
+      "article_boundaries"
+    ],
+    "confidence": 1.0,
+    "conflicting_signals": [],
+    "manually_verified": true,
+    "predicted_role": "award_paper"
+  },
+  "segment_ids": [
+    "segment_d1af2db6e081fce3",
+    "segment_c7ab18086dfd7df7",
+    "segment_1270ce3ddf027082",
+    "segment_06245310ee98d6dd",
+    "segment_d2aa2164a5eef62a"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": "lineage_cumcm_1998_b96fe3b6481e07bc",
+  "title": "投资组合与模糊规划模型",
+  "year": 1998
+}

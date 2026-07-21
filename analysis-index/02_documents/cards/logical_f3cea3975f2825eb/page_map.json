@@ -1,0 +1,105 @@
+{
+  "coordinate_origin": "top-left",
+  "coordinate_unit": "PDF point",
+  "logical_document_id": "logical_f3cea3975f2825eb",
+  "page_number_basis": "carrier local, 1-based",
+  "pages": [
+    {
+      "carrier_document_id": "carrier_b56149418aa52d81",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 1,
+      "rotation": 0,
+      "segment_id": "segment_d7583307a05508e9",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_b56149418aa52d81",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 2,
+      "rotation": 0,
+      "segment_id": "segment_9247a4ee0f503fac",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_b56149418aa52d81",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 3,
+      "rotation": 0,
+      "segment_id": "segment_3d14fdcd9ee2659f",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_b56149418aa52d81",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 4,
+      "rotation": 0,
+      "segment_id": "segment_9d16394e1fc3a208",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_b56149418aa52d81",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 5,
+      "rotation": 0,
+      "segment_id": "segment_3a9c1578941258d4",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    },
+    {
+      "carrier_document_id": "carrier_b56149418aa52d81",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 6,
+      "rotation": 0,
+      "segment_id": "segment_db5c04c1f3069c10",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        842.0
+      ],
+      "width": 595.22
+    }
+  ],
+  "representation_id": "representation_60272bb3331c2550"
+}

@@ -215,6 +215,46 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         self.assertEqual("pass", gate["status"])
         self.assertEqual(0, gate["manual_review_items"])
 
+    def test_1998_excerpt_is_distinct_partial_paper_not_duplicate_representation(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        docs = bi.read_jsonl(root / "02_documents/logical_documents_1998.jsonl")
+        self.assertEqual(17, len(docs))
+        self.assertEqual(Counter({"award_paper": 15, "problem_statement": 2}),
+                         Counter(d["document_role"] for d in docs))
+        excerpt = next(d for d in docs if "节选" in d["title"])
+        full = next(d for d in docs if d["title"] == "灾情巡视的最佳路线")
+        self.assertNotEqual(excerpt["logical_document_id"], full["logical_document_id"])
+        self.assertNotEqual(excerpt["carrier_document_ids"], full["carrier_document_ids"])
+        self.assertEqual("missing_end", excerpt["completeness_status"])
+        self.assertEqual("content_verified_partial", excerpt["evidence_status"])
+        self.assertEqual(17, len(bi.read_jsonl(root / "02_documents/representations_1998.jsonl")))
+
+    def test_1998_missing_end_fields_remain_unknown(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        docs = bi.read_jsonl(root / "02_documents/logical_documents_1998.jsonl")
+        excerpt = next(d for d in docs if "节选" in d["title"])
+        fields = {r["field_name"]: r for r in excerpt["feature_statistics"]}
+        for field in ["model_validation", "final_solution", "final_answer_summary_table",
+                      "references", "appendix", "code_description"]:
+            self.assertEqual("unknown", fields[field]["value_status"])
+            self.assertFalse(fields[field]["eligible_for_statistics"])
+        requests = bi.read_jsonl(root / "02_documents/missing_segment_requests.jsonl")
+        self.assertIn("missing_1998_b_disaster_route_excerpt_continuation",
+                      {r["request_id"] for r in requests})
+
+    def test_1998_statistics_use_field_specific_denominators(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        with (root / "06_statistics/yearly/1998_statistics.csv").open(encoding="utf-8-sig", newline="") as fh:
+            rows = {r["metric"]: r for r in csv.DictReader(fh)}
+        self.assertEqual("16", rows["carrier_count"]["numerator"])
+        self.assertEqual("17", rows["logical_document_count"]["numerator"])
+        self.assertEqual("15", rows["award_paper_count"]["numerator"])
+        self.assertEqual("1", rows["final_solution:unknown"]["numerator"])
+        self.assertEqual("14", rows["final_solution:eligible_denominator"]["numerator"])
+        self.assertEqual("13", rows["visualization:present"]["numerator"])
+        gate = json.loads((root / "08_quality/gates/1998_gate.json").read_text(encoding="utf-8"))
+        self.assertEqual("pass", gate["status"])
+
 
 if __name__ == "__main__":
     unittest.main()

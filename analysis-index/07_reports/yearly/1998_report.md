@@ -1,23 +1,8 @@
-# 1998年优秀论文语料候选报告
+# 1998年人工核验报告
 
-> 本报告由相同可信基线重新构建。自动结果是保守候选，不等同于人工全文核验。
+- 物理PDF载体16；逻辑文档17；参赛论文15（A题8、B题7）；题面逻辑文档2；unique problem 2；方案谱系15。
+- 14篇论文载体完整；《灾情巡视的最佳路线（节选）》作者与同题完整论文不同，是独立论文的一页节选，不是重复表示，状态为 `missing_end + content_verified_partial`。
+- 官方A/B题面分别位于同一载体的第1、2页。17个逻辑文档均有一个首选表示；未发现重复表示或相邻文章污染。
+- 完整扫描论文保持 `partially_parsed + key_content_verified`；节选未确认字段均为unknown。
 
-## 对象构成
-
-- logical documents：16
-- award papers候选：13
-- expert commentaries候选：2
-- problem statements候选：1
-- solution summaries候选：0
-- unknown/other：0
-
-## 状态边界
-
-- 待人工复核：16
-- 扫描或无完整文本层的文档保持 `pending_manual_review` 或 `partially_parsed`。
-- 自动未命中的字段记为 `unknown`；仅完整原生文本的字段允许进入present/absent分母。
-- 合集和分卷尚未人工确认边界时，不将载体数解释为论文数。
-
-## 模型与算法候选
-
-模型标签与算法标签仅来自原生文本关键词，用于复核排序，不作为最终方法结论。
+A题以线性规划、多目标规划、模糊规划、有效边界和风险偏好参数分析为主。B题以图划分、多旅行商、整数规划、Hamilton回路、路线均衡和最优性下界证明为主。以上仅为1998年已核验样本的描述性观察。

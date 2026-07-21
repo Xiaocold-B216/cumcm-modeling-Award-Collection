@@ -1,0 +1,205 @@
+{
+  "algorithms": [],
+  "analysis_eligibility": [
+    "metadata_statistics",
+    "problem_analysis"
+  ],
+  "article_order": 17,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_00dcadc9245b8b16"
+  ],
+  "completeness_status": "complete",
+  "content_analysis": {
+    "subproblems": [
+      "设计分队巡视路线",
+      "比较完成时间与路程",
+      "处理新增道路情景"
+    ]
+  },
+  "corpus_eligibility": {
+    "award_paper_patterns": "excluded",
+    "problem_analysis": "included",
+    "reviewer_feedback": "excluded",
+    "validation_patterns": "excluded",
+    "visualization_patterns": "excluded"
+  },
+  "corpus_status": "included",
+  "document_role": "problem_statement",
+  "document_subtype": "none",
+  "entity_type": "logical_document",
+  "evidence_status": "verified",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    }
+  ],
+  "logical_document_id": "logical_fa40efe0f10aefdf",
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T02:00:00Z",
+  "models": [],
+  "page_count": 1,
+  "parse_status": "parsed",
+  "problem_code": "B",
+  "problem_id": "problem_cumcm_1998_b",
+  "representation_quality": "manually_reviewed",
+  "role_classification": {
+    "classification_basis": [
+      "title",
+      "document_structure",
+      "visual_review",
+      "article_boundaries"
+    ],
+    "confidence": 1.0,
+    "conflicting_signals": [],
+    "manually_verified": true,
+    "predicted_role": "problem_statement"
+  },
+  "segment_ids": [
+    "segment_68c57137caa0b1a5"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": null,
+  "title": "1998年B题：灾情巡视路线",
+  "year": 1998
+}
