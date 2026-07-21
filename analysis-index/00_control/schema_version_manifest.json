@@ -3,5 +3,5 @@
   "migration": "add document_subtype and algorithm/reviewer eligibility without changing prior semantics",
   "parser_version": "0.5.1",
   "schema_version": "1.4.1",
-  "updated_at": "2026-07-21T19:29:11Z"
+  "updated_at": "2026-07-21T19:32:13Z"
 }
