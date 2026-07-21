@@ -1,0 +1,293 @@
+{
+  "algorithms": [
+    "symbolic_optimization",
+    "mathematica"
+  ],
+  "analysis_eligibility": [
+    "algorithm_statistics",
+    "metadata_statistics",
+    "model_statistics",
+    "result_pattern_statistics",
+    "structure_statistics",
+    "visualization_statistics"
+  ],
+  "article_order": 6,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_0015ebc21dcf330c"
+  ],
+  "completeness_status": "complete",
+  "content_analysis": {
+    "mathematical_essence": "在年龄组递推约束下最大化长期年捕捞总量。"
+  },
+  "corpus_eligibility": {
+    "award_paper_patterns": "included",
+    "problem_analysis": "excluded",
+    "reviewer_feedback": "excluded",
+    "validation_patterns": "excluded",
+    "visualization_patterns": "included"
+  },
+  "corpus_status": "included",
+  "document_role": "award_paper",
+  "document_subtype": "none",
+  "entity_type": "logical_document",
+  "evidence_status": "key_content_verified",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "insufficient evidence",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "insufficient evidence",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    }
+  ],
+  "logical_document_id": "logical_feea7e1ad0dc8273",
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T00:30:00Z",
+  "models": [
+    "maximum_sustainable_yield",
+    "age_structured_population"
+  ],
+  "page_count": 6,
+  "parse_status": "partially_parsed",
+  "problem_code": "A",
+  "problem_id": "problem_cumcm_1996_a",
+  "representation_quality": "manually_reviewed",
+  "role_classification": {
+    "classification_basis": [
+      "title",
+      "document_structure",
+      "visual_review",
+      "article_boundaries"
+    ],
+    "confidence": 1.0,
+    "conflicting_signals": [],
+    "manually_verified": true,
+    "predicted_role": "award_paper"
+  },
+  "segment_ids": [
+    "segment_dc1c4e18eaa33077",
+    "segment_cad4082c874ba77a",
+    "segment_d865a89e236794cf",
+    "segment_b68bbfdc934bae7f",
+    "segment_1fb1298927f43a87",
+    "segment_ddacd241f65d17a6"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": "lineage_cumcm_1996_103876d5d5cf3992",
+  "title": "最优捕鱼策略问题",
+  "year": 1996
+}

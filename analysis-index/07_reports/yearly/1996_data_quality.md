@@ -1,18 +1,14 @@
 # 1996数据质量
 
-| logical_document_id | role | parse | evidence | segmentation | completeness |
-|---|---|---|---|---|---|
-| `logical_e0e23e98dce5e69b` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_5eb7cdbc16152ec3` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_dbecca2935c138e7` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_8dea91f1e87ba93f` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_b787ed51ba86b644` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_329d160750deec78` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_955d5e879143b93f` | expert_commentary | pending_manual_review | unverified | not_required | complete |
-| `logical_57eb71f0b74f108f` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_46559f785d5fe359` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_737fd0f5c8da52ad` | award_paper | pending_manual_review | unverified | not_required | complete |
-| `logical_febaf58cc7c5e2e2` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_018c98d177f1acd2` | award_paper | partially_parsed | unverified | not_required | complete |
-| `logical_c21271e31edf7d60` | expert_commentary | partially_parsed | unverified | not_required | complete |
-| `logical_af20215eb02e184e` | problem_statement | partially_parsed | unverified | not_required | complete |
+| 项目 | 结果 |
+|---|---|
+| carrier coverage | 14/14 |
+| logical documents | 15/15角色和边界人工确认 |
+| unique award papers | 11 |
+| unique problems | 2（共享一个物理题面载体） |
+| representations | 15，均为首选唯一表示 |
+| same-page boundary | 官方题面第1页y=390 |
+| missing/orphan | 0/0 |
+| OCR | 未执行全篇中文OCR；关键证据视觉核验 |
+
+未确认字段保持unknown，不进入present/absent分母。

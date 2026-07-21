@@ -1,0 +1,213 @@
+{
+  "algorithms": [],
+  "analysis_eligibility": [
+    "metadata_statistics",
+    "reviewer_feedback_statistics"
+  ],
+  "article_order": 13,
+  "authors": [
+    "付鹏"
+  ],
+  "carrier_document_ids": [
+    "carrier_6e1e0aac01f4a252"
+  ],
+  "completeness_status": "complete",
+  "content_analysis": {
+    "review_findings": [
+      "应先明确清洁度的可测定义",
+      "每轮完全混合是假设而非事实",
+      "模型参数必须能由实验标定",
+      "离散轮数和连续水量需联合处理",
+      "不要用程序输出替代理论说明"
+    ]
+  },
+  "corpus_eligibility": {
+    "award_paper_patterns": "excluded",
+    "problem_analysis": "excluded",
+    "reviewer_feedback": "included",
+    "validation_patterns": "excluded",
+    "visualization_patterns": "excluded"
+  },
+  "corpus_status": "included",
+  "document_role": "expert_commentary",
+  "document_subtype": "method_note",
+  "entity_type": "logical_document",
+  "evidence_status": "key_content_verified",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "award-paper feature is outside this document role",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "not_applicable"
+    }
+  ],
+  "logical_document_id": "logical_23cdc0f2d2e355b1",
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T00:30:00Z",
+  "models": [],
+  "page_count": 5,
+  "parse_status": "partially_parsed",
+  "problem_code": "B",
+  "problem_id": "problem_cumcm_1996_b",
+  "representation_quality": "manually_reviewed",
+  "role_classification": {
+    "classification_basis": [
+      "title",
+      "document_structure",
+      "visual_review",
+      "article_boundaries"
+    ],
+    "confidence": 1.0,
+    "conflicting_signals": [],
+    "manually_verified": true,
+    "predicted_role": "expert_commentary"
+  },
+  "segment_ids": [
+    "segment_513c531043a83e92",
+    "segment_823610a1839b333a",
+    "segment_18c7607d4036a704",
+    "segment_b7ff6de9c932a67d",
+    "segment_eeb73331bb56e7a3"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": null,
+  "title": "“节水洗衣机”问题数学建模及若干评注",
+  "year": 1996
+}

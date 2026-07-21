@@ -148,6 +148,32 @@ class ResumeAndStatisticsTests(unittest.TestCase):
         self.assertEqual("validation_summary", summary["document_subtype"])
         self.assertEqual("included", summary["corpus_eligibility"]["validation_patterns"])
 
+    def test_1996_combined_problem_page_splits_carrier_from_logical_documents(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        docs = bi.read_jsonl(root / "02_documents/logical_documents_1996.jsonl")
+        self.assertEqual(15, len(docs))
+        self.assertEqual(Counter({"award_paper": 11, "expert_commentary": 2, "problem_statement": 2}),
+                         Counter(d["document_role"] for d in docs))
+        problems = [d for d in docs if d["document_role"] == "problem_statement"]
+        self.assertEqual(1, len({d["carrier_document_ids"][0] for d in problems}))
+        self.assertEqual(2, len({d["problem_id"] for d in problems}))
+        boundaries = bi.read_jsonl(root / "02_documents/article_boundaries_1996.jsonl")
+        self.assertEqual(1, len(boundaries))
+        self.assertTrue(boundaries[0]["same_page_boundary"])
+        self.assertEqual(390, boundaries[0]["boundary_y"])
+
+    def test_1996_denominators_and_resume_gate(self):
+        root = Path(__file__).resolve().parents[1] / "analysis-index"
+        with (root / "06_statistics/yearly/1996_statistics.csv").open(encoding="utf-8-sig", newline="") as fh:
+            rows = {r["metric"]: r for r in csv.DictReader(fh)}
+        self.assertEqual("11", rows["award_paper_count"]["numerator"])
+        self.assertEqual("2", rows["problem_count"]["numerator"])
+        self.assertEqual("2", rows["flowchart:present"]["numerator"])
+        self.assertEqual("9", rows["visualization:present"]["numerator"])
+        gate = json.loads((root / "08_quality/gates/1996_gate.json").read_text(encoding="utf-8"))
+        self.assertEqual("pass", gate["status"])
+        self.assertEqual(0, gate["manual_review_items"])
+
 
 if __name__ == "__main__":
     unittest.main()

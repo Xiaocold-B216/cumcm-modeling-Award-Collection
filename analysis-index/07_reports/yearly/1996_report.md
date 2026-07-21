@@ -1,23 +1,7 @@
-# 1996年优秀论文语料候选报告
+# 1996年人工核验报告
 
-> 本报告由相同可信基线重新构建。自动结果是保守候选，不等同于人工全文核验。
+- 物理PDF载体14；逻辑文档15；参赛论文11（A题7、B题4）；专家/方法评注2；题面逻辑文档2；unique problem 2；方案谱系11。
+- 13个文章载体均为单篇完整文章；官方A/B题面共享一页，在y=390 PDF point处分区。15个逻辑文档各有一个首选表示，无重复表示、缺页或orphan。
+- 扫描文章保持 `partially_parsed + key_content_verified`；原生题面为 `parsed + verified`。
 
-## 对象构成
-
-- logical documents：14
-- award papers候选：11
-- expert commentaries候选：2
-- problem statements候选：1
-- solution summaries候选：0
-- unknown/other：0
-
-## 状态边界
-
-- 待人工复核：14
-- 扫描或无完整文本层的文档保持 `pending_manual_review` 或 `partially_parsed`。
-- 自动未命中的字段记为 `unknown`；仅完整原生文本的字段允许进入present/absent分母。
-- 合集和分卷尚未人工确认边界时，不将载体数解释为论文数。
-
-## 模型与算法候选
-
-模型标签与算法标签仅来自原生文本关键词，用于复核排序，不作为最终方法结论。
+A题以年龄结构种群模型、平衡/稳定性、最大持续产量、矩阵递推和捕捞强度优化为主。B题以多轮稀释质量守恒、离散轮数与连续水量联合优化、程序流程和模糊评价为主。该描述只适用于1996年已核验样本。

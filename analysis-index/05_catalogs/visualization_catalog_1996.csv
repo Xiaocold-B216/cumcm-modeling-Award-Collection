@@ -1,0 +1,9 @@
+﻿logical_document_id,figure_or_table_id,page,bbox,chart_type,purpose,supports_question,supports_claim,effective,reusable_pattern,evidence_status,representation_id
+logical_a56c3b28302705ee,visual_bd6009de4f7eaab4,4,"[0,0,595.22,842.0]",flowchart,compare sustainable-harvest workflow,A,compare sustainable-harvest workflow,yes,flowchart,verified,representation_103c86015ca1caff
+logical_a56c3b28302705ee,visual_7f59f26801a5a7ad,5,"[0,0,595.22,842.0]",line_chart,show catch-age relationship,A,show catch-age relationship,yes,line_chart,verified,representation_103c86015ca1caff
+logical_bdf2987b92ad0cb1,visual_d0f3f108674d00fd,3,"[0,0,595.22,842.0]",population_flow_diagram,show age transitions,A,show age transitions,yes,population_flow_diagram,verified,representation_1e389d4ad5e51ee1
+logical_3f75c3b7e5c15d7c,visual_bc3dec0f0a4dc377,5,"[0,0,595.22,842.0]",yield_curve,show yield versus intensity,A,show yield versus intensity,yes,yield_curve,verified,representation_18e5c5e263050e61
+logical_7e673df934fb4eaa,visual_3285f9072c460fc7,4,"[0,0,595.22,842.0]",line_chart,show water versus cloth mass,B,show water versus cloth mass,yes,line_chart,verified,representation_13c97fa499ef3949
+logical_fb97269a4c9318bb,visual_bd3a947cab88130b,9,"[0,0,595.22,842.0]",flowchart,show washing program,B,show washing program,yes,flowchart,verified,representation_e9d2c41a604e4ac9
+logical_fb97269a4c9318bb,visual_05661e03121f1d40,10,"[0,0,595.22,842.0]",decision_tree,show fuzzy evaluation,B,show fuzzy evaluation,yes,decision_tree,verified,representation_e9d2c41a604e4ac9
+logical_dc672f124ae8f632,visual_de8ab35ba8b108ce,3,"[0,0,595.22,842.0]",result_table,recommend rinse cycles,B,recommend rinse cycles,yes,result_table,verified,representation_af08aced6903057c

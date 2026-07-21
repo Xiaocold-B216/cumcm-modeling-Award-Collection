@@ -1,0 +1,354 @@
+{
+  "algorithms": [
+    "program_flow_design",
+    "dynamic_calculation",
+    "fuzzy_evaluation"
+  ],
+  "analysis_eligibility": [
+    "algorithm_statistics",
+    "metadata_statistics",
+    "model_statistics",
+    "result_pattern_statistics",
+    "structure_statistics",
+    "visualization_statistics"
+  ],
+  "article_order": 11,
+  "authors": [],
+  "carrier_document_ids": [
+    "carrier_17ef77a894a42798"
+  ],
+  "completeness_status": "complete",
+  "content_analysis": {
+    "mathematical_essence": "由滚筒几何、污物递推和程序状态设计节水流程，并用模糊评价比较方案。"
+  },
+  "corpus_eligibility": {
+    "award_paper_patterns": "included",
+    "problem_analysis": "excluded",
+    "reviewer_feedback": "excluded",
+    "validation_patterns": "excluded",
+    "visualization_patterns": "included"
+  },
+  "corpus_status": "included",
+  "document_role": "award_paper",
+  "document_subtype": "none",
+  "entity_type": "logical_document",
+  "evidence_status": "key_content_verified",
+  "feature_statistics": [
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "abstract",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "model_assumptions",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "symbol_definitions",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "model_validation",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "insufficient evidence",
+      "field_name": "sensitivity_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "model_statistics",
+      "eligible_for_statistics": false,
+      "evidence_status": "content_verified_partial",
+      "exclusion_reason": "insufficient evidence",
+      "field_name": "error_analysis",
+      "source_bbox": [],
+      "source_pages": [],
+      "value": null,
+      "value_status": "unknown"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "final_solution",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "result_pattern_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "final_answer_summary_table",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "flowchart",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "visualization_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "visualization",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "references",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": true,
+      "value_status": "present"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "appendix",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": false,
+      "value_status": "absent"
+    },
+    {
+      "analysis_category": "structure_statistics",
+      "eligible_for_statistics": true,
+      "evidence_status": "verified",
+      "exclusion_reason": "",
+      "field_name": "code_description",
+      "source_bbox": [],
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "value": true,
+      "value_status": "present"
+    }
+  ],
+  "logical_document_id": "logical_fb97269a4c9318bb",
+  "manual_overrides": true,
+  "manual_reviewed_at": "2026-07-22T00:30:00Z",
+  "models": [
+    "multi_stage_rinse_program",
+    "fuzzy_comprehensive_evaluation"
+  ],
+  "page_count": 11,
+  "parse_status": "partially_parsed",
+  "problem_code": "B",
+  "problem_id": "problem_cumcm_1996_b",
+  "representation_quality": "manually_reviewed",
+  "role_classification": {
+    "classification_basis": [
+      "title",
+      "document_structure",
+      "visual_review",
+      "article_boundaries"
+    ],
+    "confidence": 1.0,
+    "conflicting_signals": [],
+    "manually_verified": true,
+    "predicted_role": "award_paper"
+  },
+  "segment_ids": [
+    "segment_62faee497ae6beaf",
+    "segment_33ecdfe97d92dc0b",
+    "segment_4fb308fa6b90ef0b",
+    "segment_27c2d1207731f35f",
+    "segment_97df5114f4238a4a",
+    "segment_a2cf9ffa3f942e7f",
+    "segment_8c30babc9e6f1ac4",
+    "segment_bb189136735e12fa",
+    "segment_41023aa0e74b8ab7",
+    "segment_d32be4b5ba21afa5",
+    "segment_e7df2854b0129b15"
+  ],
+  "segmentation_status": "not_required",
+  "solution_lineage_id": "lineage_cumcm_1996_3137b1d6659803e0",
+  "title": "洗衣机的节水程序设计",
+  "year": 1996
+}

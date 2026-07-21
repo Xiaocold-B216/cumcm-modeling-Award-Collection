@@ -1,0 +1,25 @@
+{
+  "coordinate_origin": "top-left",
+  "coordinate_unit": "PDF point",
+  "logical_document_id": "logical_29f3a5583cbbe0d7",
+  "page_number_basis": "carrier local, 1-based",
+  "pages": [
+    {
+      "carrier_document_id": "carrier_6dfbd1eb2121d140",
+      "excluded_bbox": [],
+      "height": 842.0,
+      "manually_verified": true,
+      "page": 1,
+      "rotation": 0,
+      "segment_id": "segment_b64544ccb67b465b",
+      "valid_bbox": [
+        0,
+        0,
+        595.22,
+        390
+      ],
+      "width": 595.22
+    }
+  ],
+  "representation_id": "representation_32fd09ea65cc376c"
+}
