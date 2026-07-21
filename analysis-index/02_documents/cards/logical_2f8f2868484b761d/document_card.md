@@ -2,7 +2,7 @@
 
 - 年份：1998
 - 角色：expert_commentary
-- 状态：partially_parsed / content_verified_partial / complete
+- 状态：partially_parsed / unverified / complete
 - 题号：B
 - 模型候选：linear_programming, graph_model, simulation, neural_network
 - 算法候选：genetic_algorithm, simulated_annealing

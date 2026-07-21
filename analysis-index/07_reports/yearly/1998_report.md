@@ -5,15 +5,15 @@
 ## 对象构成
 
 - logical documents：16
-- award papers候选：0
+- award papers候选：13
 - expert commentaries候选：2
-- problem statements候选：14
+- problem statements候选：1
 - solution summaries候选：0
 - unknown/other：0
 
 ## 状态边界
 
-- 待人工复核：2
+- 待人工复核：16
 - 扫描或无完整文本层的文档保持 `pending_manual_review` 或 `partially_parsed`。
 - 自动未命中的字段记为 `unknown`；仅完整原生文本的字段允许进入present/absent分母。
 - 合集和分卷尚未人工确认边界时，不将载体数解释为论文数。

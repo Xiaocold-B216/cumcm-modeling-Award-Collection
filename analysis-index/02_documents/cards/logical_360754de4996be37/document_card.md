@@ -1,7 +1,7 @@
 # 1998B：多旅行商路线的几个问题
 
 - 年份：1998
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：B
 - 模型候选：待核验

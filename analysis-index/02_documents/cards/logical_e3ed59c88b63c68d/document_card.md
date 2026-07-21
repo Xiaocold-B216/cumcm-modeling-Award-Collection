@@ -1,8 +1,8 @@
 # 1998B：灾情巡视路线最优解的证明
 
 - 年份：1998
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：B
 - 模型候选：graph_model
 - 算法候选：待核验

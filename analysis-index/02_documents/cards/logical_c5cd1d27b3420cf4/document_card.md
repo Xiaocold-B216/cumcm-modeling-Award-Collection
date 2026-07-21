@@ -2,7 +2,7 @@
 
 - 年份：1998
 - 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 状态：partially_parsed / unverified / complete
 - 题号：A
 - 模型候选：待核验
 - 算法候选：待核验
