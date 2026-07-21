@@ -4,14 +4,15 @@
   "deferred_global_aggregation_paths": [
     "analysis-index/02_documents/logical_documents.jsonl",
     "analysis-index/04_relations/document_relations.jsonl",
-    "analysis-index/04_relations/solution_lineages.jsonl"
+    "analysis-index/04_relations/solution_lineages.jsonl",
+    "scripts/build_index.py"
   ],
   "authoritative_remote_alternatives": [
     "analysis-index/02_documents/logical_documents_1993.jsonl",
     "analysis-index/04_relations/document_relations_1993.jsonl",
     "analysis-index/04_relations/solution_lineages_1993.jsonl"
   ],
-  "reason": "GitHub connector rejected the 1.86 MB global logical-document aggregation because its omitted content could not be audited. The remote checkpoint therefore uses smaller year-scoped, reviewable views. Complete global aggregations remain in the verified downloadable recovery package.",
+  "reason": "GitHub connector rejected the 1.86 MB global logical-document aggregation and the 67 KB unified parser because their displayed content was truncated and could not be fully audited. The remote checkpoint therefore uses smaller year-scoped, reviewable views and retains the prior parser blob. Complete global aggregations and the updated parser remain in the verified downloadable recovery package.",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "status": "documented_nonblocking_remote_size_gate"
 }
