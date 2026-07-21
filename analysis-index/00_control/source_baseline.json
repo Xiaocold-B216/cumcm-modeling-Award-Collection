@@ -1,0 +1,9 @@
+{
+  "repository": "Xiaocold-B216/cumcm-modeling-Award-Collection",
+  "default_branch": "main",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "verified": true,
+  "verification_method": "GitHub connector fetch_commit",
+  "analysis_branch": "analysis/corpus-index",
+  "raw_sources_read_only": true
+}
