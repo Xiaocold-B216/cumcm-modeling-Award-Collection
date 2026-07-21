@@ -1,0 +1,31 @@
+{
+  "logical_document_id": "logical_416c76eade99cf8c",
+  "page_number_basis": "carrier-local, 1-based",
+  "pages": [
+    {
+      "height": 787.0,
+      "image_count": 3,
+      "page": 1,
+      "rotation": 0,
+      "text_chars": 10,
+      "width": 578.0
+    },
+    {
+      "height": 787.0,
+      "image_count": 3,
+      "page": 2,
+      "rotation": 0,
+      "text_chars": 10,
+      "width": 578.0
+    },
+    {
+      "height": 787.0,
+      "image_count": 3,
+      "page": 3,
+      "rotation": 0,
+      "text_chars": 10,
+      "width": 578.0
+    }
+  ],
+  "representation_id": "representation_c5aa208adddd795e"
+}
