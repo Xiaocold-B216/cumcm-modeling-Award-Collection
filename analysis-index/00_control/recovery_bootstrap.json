@@ -7,8 +7,16 @@
     "1b1d7bdd4d8e06792dad05391dc3a94538d5c2d7"
   ],
   "analysis_branch": "analysis/corpus-index",
-  "status": "rebuild_started",
+  "status": "infrastructure_repair_required",
   "remote_persistence_verified": true,
-  "verified_remote_commit": "61e30f8b3592108316338c2e27a1dd9566df52c5",
-  "verification_method": "GitHub connector remote read-back"
+  "verified_remote_commit": "88eea0168ed6f199937e613f0ce0b99f86eb74fd",
+  "verification_method": "GitHub connector and public Actions API read-back",
+  "workflow_run_id": 29860475236,
+  "workflow_run_status": "completed_failure",
+  "workflow_failure_stage": "restore_parser",
+  "existing_inventory_found": false,
+  "completed_years_found": [],
+  "last_verified_checkpoint": "88eea0168ed6f199937e613f0ce0b99f86eb74fd",
+  "next_phase": "repair_and_validate_recovery_infrastructure",
+  "audited_at": "2026-07-22T03:30:00+08:00"
 }
