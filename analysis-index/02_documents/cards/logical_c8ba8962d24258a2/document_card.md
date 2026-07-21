@@ -1,7 +1,7 @@
 # 1993年B题优秀论文③ 一个给足球队排名次的方法
 
 - 年份：1993
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：B
 - 模型候选：待核验
