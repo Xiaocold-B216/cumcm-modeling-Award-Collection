@@ -1,7 +1,7 @@
 # 2002A：车灯灯丝长度优化设计的数学模型和数值模拟 (2)
 
 - 年份：2002
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：A
 - 模型候选：待核验

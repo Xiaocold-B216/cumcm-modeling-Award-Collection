@@ -1,7 +1,7 @@
 # 2002A：车灯线光源的优化设计方案 (2)
 
 - 年份：2002
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：A
 - 模型候选：待核验

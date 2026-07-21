@@ -1,8 +1,8 @@
 # 2002B：彩票运行方案的合理性研究
 
 - 年份：2002
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：B
 - 模型候选：simulation
 - 算法候选：待核验
