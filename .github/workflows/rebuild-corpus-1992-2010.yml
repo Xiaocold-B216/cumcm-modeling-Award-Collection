@@ -72,7 +72,8 @@ jobs:
 
       - name: Build inventory
         run: |
-          python scripts/build_index.py --year inventory --resume | tee inventory-run.json
+          mkdir -p analysis-index/00_control/run_logs
+          python scripts/build_index.py --year inventory --resume | tee analysis-index/00_control/run_logs/inventory-run.json
           git add analysis-index scripts/build_index.py schema README_PIPELINE.md .gitignore
           if ! git diff --cached --quiet; then
             git commit -m "rebuild corpus inventory from trusted baseline"
@@ -87,7 +88,7 @@ jobs:
           END_YEAR="${{ github.event.inputs.end_year || '2010' }}"
           for YEAR in $(seq "$START_YEAR" "$END_YEAR"); do
             echo "=== Processing ${YEAR} ==="
-            python scripts/build_index.py --year "$YEAR" --resume | tee "year-${YEAR}-run.json"
+            python scripts/build_index.py --year "$YEAR" --resume | tee "analysis-index/00_control/run_logs/year-${YEAR}-run.json"
             python -m py_compile scripts/build_index.py
             git diff --check
             git add analysis-index schema scripts/build_index.py
@@ -101,7 +102,7 @@ jobs:
 
       - name: Build cross-year summary
         run: |
-          python scripts/build_index.py --year summary --resume | tee summary-run.json
+          python scripts/build_index.py --year summary --resume | tee analysis-index/00_control/run_logs/summary-run.json
           git diff --check
           git add analysis-index schema scripts/build_index.py
           if ! git diff --cached --quiet; then
@@ -111,10 +112,10 @@ jobs:
 
       - name: Verify resume behavior
         run: |
-          python scripts/build_index.py --year inventory --resume > resume-inventory.json
-          python scripts/build_index.py --year 2010 --resume > resume-2010.json
-          grep -q '"status": "reused"' resume-inventory.json
-          grep -q '"status": "reused"' resume-2010.json
+          python scripts/build_index.py --year inventory --resume > analysis-index/00_control/run_logs/resume-inventory.json
+          python scripts/build_index.py --year 2010 --resume > analysis-index/00_control/run_logs/resume-2010.json
+          grep -q '"status": "reused"' analysis-index/00_control/run_logs/resume-inventory.json
+          grep -q '"status": "reused"' analysis-index/00_control/run_logs/resume-2010.json
 
       - name: Create final recovery package
         if: always()
@@ -134,7 +135,6 @@ jobs:
             checkpoint-*.sha256
             checkpoint-through-2010-manifest.txt
             checkpoint-through-2010-commit.txt
-            *-run.json
-            resume-*.json
+            analysis-index/00_control/run_logs/*.json
           if-no-files-found: warn
           retention-days: 30

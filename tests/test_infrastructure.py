@@ -45,6 +45,14 @@ class InfrastructureTests(unittest.TestCase):
         self.assertIn("document_subtype", schema["required"])
         self.assertEqual(schema["schema_version"], "1.4.1")
 
+    def test_schema_manifest_is_idempotent(self):
+        bi.ensure_dirs()
+        bi.write_schema_files()
+        manifest = ROOT / "analysis-index/00_control/schema_version_manifest.json"
+        first = manifest.read_bytes()
+        bi.write_schema_files()
+        self.assertEqual(first, manifest.read_bytes())
+
 
 if __name__ == "__main__":
     unittest.main()

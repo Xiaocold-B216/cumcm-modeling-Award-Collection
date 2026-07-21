@@ -900,9 +900,17 @@ def write_schema_files() -> None:
         "properties": {"relation_type": {"enum": sorted(RELATION_TYPES)}}})
     write_json(schema_dir / "representation.schema.json", {**common, "type": "object",
         "required": ["representation_id", "logical_document_id", "carrier_document_id", "preferred_representation", "preference_reason"]})
-    write_json(CONTROL / "schema_version_manifest.json", {"schema_version": SCHEMA_VERSION, "parser_version": PARSER_VERSION,
+    manifest_path = CONTROL / "schema_version_manifest.json"
+    previous_manifest = read_json(manifest_path, {})
+    migration_timestamp = (
+        previous_manifest.get("updated_at")
+        if previous_manifest.get("schema_version") == SCHEMA_VERSION
+        and previous_manifest.get("parser_version") == PARSER_VERSION
+        else now()
+    )
+    write_json(manifest_path, {"schema_version": SCHEMA_VERSION, "parser_version": PARSER_VERSION,
         "compatible_from": "1.4.0", "migration": "add document_subtype and algorithm/reviewer eligibility without changing prior semantics",
-        "updated_at": now()})
+        "updated_at": migration_timestamp})
     (ROOT / "schema" / "migration_notes.md").write_text(
         "# Schema migration notes\n\n## 1.4.1\n\n向后兼容增加 `document_subtype`、算法统计资格和字段级bbox。"
         "未改变carrier、segment、logical document、problem、lineage或representation的含义。\n", encoding="utf-8")
