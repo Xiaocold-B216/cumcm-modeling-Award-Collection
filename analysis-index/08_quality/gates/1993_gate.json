@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "candidate_carriers_accounted": true,
+    "carrier_manifest_exists": true,
+    "corpus_eligibility_complete": true,
+    "field_status_enum": true,
+    "logical_document_six_pack": true,
+    "object_layers_separate": true,
+    "one_preferred_representation": true,
+    "roles_valid": true,
+    "source_unmodified": true,
+    "statistics_scoped": true,
+    "unknown_not_absent": true
+  },
+  "manual_review_items": 0,
+  "note": "conditional_pass permits later years; candidate evidence is not promoted to verified",
+  "status": "pass",
+  "updated_at": "2026-07-21T19:37:29Z",
+  "year": 1993
+}
