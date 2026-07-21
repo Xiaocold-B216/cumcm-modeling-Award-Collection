@@ -1,8 +1,8 @@
 # 2010A：储油罐的变位识别与罐容表标定 (3)
 
 - 年份：2010
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：A
 - 模型候选：simulation
 - 算法候选：enumeration

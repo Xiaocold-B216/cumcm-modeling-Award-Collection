@@ -1,7 +1,7 @@
 # 2010B：上海世博会影响力的定量评估
 
 - 年份：2010
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：B
 - 模型候选：待核验

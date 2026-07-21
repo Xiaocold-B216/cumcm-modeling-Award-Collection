@@ -1,7 +1,7 @@
 # 2010C：输油管的布置模型
 
 - 年份：2010
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：C
 - 模型候选：待核验

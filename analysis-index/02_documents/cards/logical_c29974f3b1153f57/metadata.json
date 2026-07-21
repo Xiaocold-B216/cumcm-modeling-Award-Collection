@@ -10,14 +10,14 @@
   ],
   "completeness_status": "complete",
   "corpus_eligibility": {
-    "award_paper_patterns": "excluded",
-    "problem_analysis": "included",
+    "award_paper_patterns": "included",
+    "problem_analysis": "excluded",
     "reviewer_feedback": "excluded",
     "validation_patterns": "excluded",
-    "visualization_patterns": "excluded"
+    "visualization_patterns": "included"
   },
   "corpus_status": "candidate",
-  "document_role": "problem_statement",
+  "document_role": "award_paper",
   "document_subtype": "none",
   "entity_type": "logical_document",
   "evidence_status": "unverified",
@@ -25,24 +25,24 @@
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
-      "exclusion_reason": "field not applicable to problem statement",
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
       "field_name": "abstract",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "not_applicable"
+      "value_status": "unknown"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
-      "exclusion_reason": "field not applicable to problem statement",
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
       "field_name": "model_assumptions",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "not_applicable"
+      "value_status": "unknown"
     },
     {
       "analysis_category": "structure_statistics",
@@ -58,35 +58,35 @@
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
-      "exclusion_reason": "field not applicable to problem statement",
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
       "field_name": "model_validation",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "not_applicable"
+      "value_status": "unknown"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
-      "exclusion_reason": "field not applicable to problem statement",
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
       "field_name": "sensitivity_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "not_applicable"
+      "value_status": "unknown"
     },
     {
       "analysis_category": "model_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
-      "exclusion_reason": "field not applicable to problem statement",
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
       "field_name": "error_analysis",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "not_applicable"
+      "value_status": "unknown"
     },
     {
       "analysis_category": "result_pattern_statistics",
@@ -135,35 +135,35 @@
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
-      "exclusion_reason": "field not applicable to problem statement",
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
       "field_name": "references",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "not_applicable"
+      "value_status": "unknown"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
-      "exclusion_reason": "field not applicable to problem statement",
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
       "field_name": "appendix",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "not_applicable"
+      "value_status": "unknown"
     },
     {
       "analysis_category": "structure_statistics",
       "eligible_for_statistics": false,
-      "evidence_status": "content_verified_partial",
-      "exclusion_reason": "field not applicable to problem statement",
+      "evidence_status": "unverified",
+      "exclusion_reason": "native full text unavailable",
       "field_name": "code_description",
       "source_bbox": [],
       "source_pages": [],
       "value": null,
-      "value_status": "not_applicable"
+      "value_status": "unknown"
     }
   ],
   "logical_document_id": "logical_c29974f3b1153f57",
@@ -177,12 +177,13 @@
   "representation_quality": "candidate",
   "role_classification": {
     "classification_basis": [
-      "problem path/title"
+      "award-paper directory",
+      "requires content confirmation"
     ],
-    "confidence": 0.91,
+    "confidence": 0.78,
     "conflicting_signals": [],
     "manually_verified": false,
-    "predicted_role": "problem_statement"
+    "predicted_role": "award_paper"
   },
   "schema_version": "1.4.1",
   "segment_ids": [
@@ -208,10 +209,10 @@
     "segment_1c5e203fbc09bdff"
   ],
   "segmentation_status": "not_required",
-  "solution_lineage_id": null,
+  "solution_lineage_id": "lineage_022db3f8059aa8ae",
   "source_path": "2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010C：输油管的布置模型.pdf",
   "text_layer_status": "scanned_or_no_text",
   "title": "2010C：输油管的布置模型",
-  "updated_at": "2026-07-21T19:51:22Z",
+  "updated_at": "2026-07-21T19:59:10Z",
   "year": 2010
 }
