@@ -1,13 +1,13 @@
 {
-  "analysis_head": "a1883449efc1199b4930185e534039cb925fe2cf",
+  "analysis_head": "c335d4432c526ef5c3acedc42c7702219ce7647b",
   "archive_expanded_logical_bytes": 93162114,
   "baseline_type": "commit",
   "candidate_carriers": 546,
   "candidate_pdf_carriers": 506,
   "checkout_bytes": 2267321523,
   "committed_source_modifications": 0,
-  "derived_local_cache_bytes": 1176081,
-  "derived_public_bytes": 2144344,
+  "derived_local_cache_bytes": 1182268,
+  "derived_public_bytes": 13206541,
   "direct_image_groups": 24,
   "duplicate_files": 166,
   "duplicate_groups": 75,
@@ -24,6 +24,6 @@
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "tracked_source_files": 3614,
   "unreadable_source_files": 0,
-  "updated_at": "2026-07-21T19:50:08Z",
+  "updated_at": "2026-07-21T19:58:04Z",
   "zip_image_groups": 16
 }
