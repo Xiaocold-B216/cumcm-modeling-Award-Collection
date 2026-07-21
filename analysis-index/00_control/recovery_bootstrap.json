@@ -8,5 +8,7 @@
   ],
   "analysis_branch": "analysis/corpus-index",
   "status": "rebuild_started",
-  "remote_persistence_verified": false
+  "remote_persistence_verified": true,
+  "verified_remote_commit": "61e30f8b3592108316338c2e27a1dd9566df52c5",
+  "verification_method": "GitHub connector remote read-back"
 }
