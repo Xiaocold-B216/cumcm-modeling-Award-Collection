@@ -1,11 +1,12 @@
 {
   "checks": {
-    "candidate_carriers_accounted": false,
+    "candidate_carriers_accounted": true,
     "carrier_manifest_exists": true,
     "corpus_eligibility_complete": true,
     "field_status_enum": true,
     "logical_document_six_pack": true,
-    "logical_documents_present": false,
+    "logical_documents_present": true,
+    "manual_verification_complete": false,
     "object_layers_separate": true,
     "one_preferred_representation": true,
     "roles_valid": true,
@@ -13,10 +14,9 @@
     "statistics_scoped": true,
     "unknown_not_absent": true
   },
-  "invalidated_empty_source_run": true,
-  "manual_review_items": 0,
-  "note": "Superseded: zero-carrier run is not a completed year.",
-  "status": "fail",
-  "updated_at": "2026-07-21T19:50:08Z",
+  "manual_review_items": 2,
+  "note": "conditional_pass permits later years; candidate evidence is not promoted to verified",
+  "status": "conditional_pass",
+  "updated_at": "2026-07-21T19:50:27Z",
   "year": 1998
 }
