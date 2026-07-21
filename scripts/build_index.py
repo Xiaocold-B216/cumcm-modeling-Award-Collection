@@ -607,17 +607,27 @@ def load_carriers() -> list[dict[str, Any]]:
 
 
 def classify_role(path: str, text: str = "") -> tuple[str, str, float, list[str]]:
-    joined = f"{path}\n{text[:3000]}"
+    parts = PurePosixPath(path).parts
+    scoped_parts = parts[1:] if len(parts) > 1 else parts
+    scoped_path = "/".join(scoped_parts)
+    filename = PurePosixPath(path).name
+    joined = f"{scoped_path}\n{text[:3000]}"
     signals = []
     if any(x in joined for x in ("评注", "评述", "点评", "答卷评", "专家评论")):
         return "expert_commentary", "none", .94, ["commentary language/title"]
     if any(x in joined for x in ("方案检验摘要", "模型的检验", "结果复核摘要")):
         return "solution_summary", "validation_summary", .90, ["validation-summary title"]
-    if any(x in path for x in ("真题", "赛题", "题目")) or re.search(r"(?:^|[/：])(?:19\d{2}|20\d{2})?[A-E]题(?:[/：.]|$)", path):
+    problem_directory = any(
+        ("赛题" in part or part.endswith("真题")) and "优秀论文" not in part
+        for part in scoped_parts[:-1]
+    )
+    if any(x in filename for x in ("真题", "赛题", "题目")) or problem_directory:
         return "problem_statement", "none", .91, ["problem path/title"]
-    if any(x in path for x in ("优秀论文", "优秀答卷")):
+    if any(x in scoped_path for x in ("优秀论文", "优秀答卷")):
         return "award_paper", "none", .78, ["award-paper directory", "requires content confirmation"]
-    if "论文" in path:
+    if Path(path).suffix.lower() == ".pdf" and extract_year(path):
+        return "award_paper", "none", .60, ["candidate PDF outside problem directory", "requires content confirmation"]
+    if "论文" in scoped_path:
         return "other_related", "none", .62, ["paper-related path only"]
     if text:
         signals.append("native first-page text available")
@@ -670,10 +680,14 @@ def feature_records(text: str, page_texts: list[str], text_status: str, role: st
             status, value, eligible, reason, pages = "unknown", None, False, "native full text unavailable", []
         else:
             hits = [i + 1 for i, body in enumerate(page_texts) if any(term.lower() in body.lower() for term in terms)]
-            status, value, eligible = ("present", True, True) if hits else ("absent", False, True)
-            reason, pages = "", hits
+            if hits:
+                status, value, eligible = "present", True, False
+                reason, pages = "automatic keyword evidence pending manual verification", hits
+            else:
+                status, value, eligible = "unknown", None, False
+                reason, pages = "automatic non-detection cannot establish absence", []
         records.append({"field_name": name, "value": value, "value_status": status,
-                        "evidence_status": "unverified" if status in {"unknown", "absent"} else "content_verified_partial",
+                        "evidence_status": "unverified",
                         "source_pages": pages, "source_bbox": [], "analysis_category": category,
                         "eligible_for_statistics": eligible, "exclusion_reason": reason})
     return records
@@ -723,7 +737,7 @@ def build_year(year: int, resume: bool) -> dict[str, Any]:
         segmentation = "pending_manual_review" if likely_multi else "not_required"
         completeness = "unknown" if likely_multi else "complete"
         parse_status = "partially_parsed" if pages else "metadata_only"
-        evidence_status = "content_verified_partial" if text_status == "native_text" else "unverified"
+        evidence_status = "unverified"
         if text_status != "native_text" and pages:
             parse_status = "pending_manual_review"
         problem_id = f"problem_cumcm_{year}_{code.lower()}" if code != "unknown" else None
@@ -762,10 +776,10 @@ def build_year(year: int, resume: bool) -> dict[str, Any]:
             "table_quality": "unreviewed", "formula_quality": "unreviewed", "page_order_quality": "unreviewed",
             "contamination_level": "unknown", "preferred_representation": True,
             "preference_reason": "only representation currently identified; pending comparative review"})
-        if likely_multi or role in {"unknown", "other_related"} or text_status != "native_text":
-            review_queue.append({"logical_document_id": logical_id, "carrier_document_id": cid, "year": year,
-                "reason": "multi-article carrier" if likely_multi else "role/text requires visual review",
-                "priority": "high" if likely_multi else "normal", "status": "pending_manual_review"})
+        review_queue.append({"logical_document_id": logical_id, "carrier_document_id": cid, "year": year,
+            "reason": "multi-article carrier" if likely_multi else "automatic candidate requires identity/content review",
+            "priority": "high" if likely_multi or role in {"unknown", "other_related"} else "normal",
+            "status": "pending_manual_review"})
         write_document_bundle(document, pages, representations[-1])
 
     merged_docs = sorted(all_existing + docs, key=lambda x: (int(x.get("year", 0)), x["logical_document_id"]))

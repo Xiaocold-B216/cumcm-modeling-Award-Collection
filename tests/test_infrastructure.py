@@ -17,7 +17,11 @@ class InfrastructureTests(unittest.TestCase):
     def test_year_and_role_classification(self):
         self.assertEqual(bi.extract_year("1995年数学建模/论文.pdf"), 1995)
         self.assertEqual(bi.classify_role("1995优秀论文/飞行管理问题答卷评述.pdf")[0], "expert_commentary")
-        self.assertEqual(bi.classify_role("1998真题/A题.pdf")[0], "problem_statement")
+        self.assertEqual(bi.classify_role("1998年数学建模国赛真题+优秀论文/1998年赛题/A题.pdf")[0], "problem_statement")
+        self.assertEqual(
+            bi.classify_role("1998年数学建模国赛真题+优秀论文/1998年优秀论文/1998A：投资收益和风险.pdf")[0],
+            "award_paper",
+        )
         self.assertEqual(bi.classify_role("冶炼车间最优调度模型的检验.pdf")[:2],
                          ("solution_summary", "validation_summary"))
 
@@ -30,6 +34,11 @@ class InfrastructureTests(unittest.TestCase):
         rows = bi.feature_records("短文本", ["短文本"], "scanned_or_no_text", "award_paper")
         self.assertTrue(rows)
         self.assertTrue(all(r["value_status"] == "unknown" for r in rows))
+        self.assertTrue(all(not r["eligible_for_statistics"] for r in rows))
+
+    def test_automatic_keyword_features_never_claim_absence_or_enter_denominator(self):
+        rows = bi.feature_records("摘要 结论 " * 300, ["摘要 结论 " * 300], "native_text", "award_paper")
+        self.assertNotIn("absent", {r["value_status"] for r in rows})
         self.assertTrue(all(not r["eligible_for_statistics"] for r in rows))
 
     def test_core_object_and_relation_enums_are_separate(self):

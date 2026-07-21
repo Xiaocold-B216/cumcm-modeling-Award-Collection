@@ -21,7 +21,7 @@ permissions:
   contents: write
 
 env:
-  # Recovery parser revision 3: Unicode-safe inventory and non-empty quality gates.
+  # Recovery parser revision 4: scoped roles and manual-only statistical eligibility.
   SOURCE_BASELINE: a042ecf898feaba6fc81d543a10e0188db8b2b12
   ANALYSIS_BRANCH: analysis/corpus-index
 
