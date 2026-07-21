@@ -7,6 +7,10 @@
     "printed journal pages 41-50 are absent; core model and results remain unknown"
   ],
   "parser_version": "0.5.1",
+  "recovery_package_sha256": "6ce4d684f366f43e5c42dad80011c6d92b6bd7ca57400dad9f74e9eeba01a034",
+  "remote_checkpoint": "411f2e3c089b852d6077009ffa88490ad2066706",
+  "remote_readback_verified": true,
+  "remote_scope": "year_scoped_cards_and_compact_manifest_with_documented_large_blob_exceptions",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "status": "conditional_pass",
