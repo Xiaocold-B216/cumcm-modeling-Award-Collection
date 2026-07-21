@@ -1,8 +1,8 @@
 # 2001A：血管管道的三维重建
 
 - 年份：2001
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：A
 - 模型候选：linear_programming, nonlinear_programming, simulation
 - 算法候选：待核验

@@ -1,8 +1,8 @@
 # 2001C：基金存储方案
 
 - 年份：2001
-- 角色：problem_statement
-- 状态：partially_parsed / content_verified_partial / complete
+- 角色：award_paper
+- 状态：partially_parsed / unverified / complete
 - 题号：C
 - 模型候选：linear_programming, dynamic_programming, graph_model
 - 算法候选：待核验
