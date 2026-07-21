@@ -2,7 +2,7 @@
 
 - 年份：2003
 - 角色：expert_commentary
-- 状态：partially_parsed / content_verified_partial / complete
+- 状态：partially_parsed / unverified / complete
 - 题号：D
 - 模型候选：simulation
 - 算法候选：待核验

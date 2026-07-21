@@ -1,7 +1,7 @@
 # 2003A：SARS传播预测的数学模型 (2)
 
 - 年份：2003
-- 角色：problem_statement
+- 角色：award_paper
 - 状态：pending_manual_review / unverified / complete
 - 题号：A
 - 模型候选：待核验
