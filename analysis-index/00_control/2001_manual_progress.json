@@ -1,0 +1,26 @@
+{
+  "do_not_advance_to": 2002,
+  "last_completed_year": 2000,
+  "next_recommended_year": 2001,
+  "pending_scope": [
+    "2001C：‘基金使用计划’模型和评述.pdf",
+    "2001C：基金存储方案.pdf",
+    "2001C：基金最佳使用计划.pdf"
+  ],
+  "recovery_package": {
+    "path": "/mnt/data/analysis-index-checkpoint-partial-2001-ab-manual.tar.gz",
+    "sha256": "8a57822ae08534a91809428c4afe6aab14ebf5b5c86e3f09795467f6907ada40"
+  },
+  "status": "conditional_pass",
+  "tests": {
+    "combined_1999_2001_passed": 35,
+    "failed": 0
+  },
+  "updated_at": "2026-07-22T14:00:00Z",
+  "verified_scope": [
+    "A papers",
+    "B papers",
+    "official A/B/C/D problem representations"
+  ],
+  "year": 2001
+}
