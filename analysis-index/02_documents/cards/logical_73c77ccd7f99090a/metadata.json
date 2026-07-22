@@ -1,0 +1,17 @@
+{
+  "document_role": "award_paper",
+  "evidence_status": "verified",
+  "logical_document_id": "logical_73c77ccd7f99090a",
+  "manual_summary": "将实际油罐拆分为圆柱体和两端球冠，采用平行截面面积积分与分段模型识别纵横向变位，并以MATLAB仿真和一次性补充进油数据验证。",
+  "manual_verification_complete": true,
+  "object_kind": "solution_paper",
+  "page_count": 25,
+  "parser_version": "0.5.2",
+  "problem_code": "A",
+  "schema_version": "1.4.1",
+  "solution_lineage_id": "lineage_d916d244b5194052",
+  "source_sha256": "82d81045acec41137b7306ad1af0acd0aff2948811ddc58a8e8f31caa0a15649",
+  "title": "储油罐的变位识别与罐容表标定",
+  "unknown_policy": "unestablished fields remain unknown, never absent",
+  "year": 2010
+}

@@ -1,0 +1,17 @@
+{
+  "document_role": "award_paper",
+  "evidence_status": "verified",
+  "logical_document_id": "logical_d2b6b13a222d9a8f",
+  "manual_summary": "以微积分建立椭圆柱与球冠储油量模型；使用龙贝格数值积分、最小二乘和单目标优化识别变位，给出α=2.14°、β=4.6°，并以相对标准偏差检验。",
+  "manual_verification_complete": true,
+  "object_kind": "solution_paper",
+  "page_count": 21,
+  "parser_version": "0.5.2",
+  "problem_code": "A",
+  "schema_version": "1.4.1",
+  "solution_lineage_id": "lineage_6e4224d0a8f16c0d",
+  "source_sha256": "88c6c782abd276280b59807b2108d4becd2c6b25d1f3e861f44b8047635c81c1",
+  "title": "倾斜卧式储油罐油量标定的实用方法",
+  "unknown_policy": "unestablished fields remain unknown, never absent",
+  "year": 2010
+}

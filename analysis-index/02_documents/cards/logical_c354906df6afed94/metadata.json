@@ -1,0 +1,17 @@
+{
+  "document_role": "award_paper",
+  "evidence_status": "verified",
+  "logical_document_id": "logical_c354906df6afed94",
+  "manual_summary": "采用截面法和微积分建立倾斜油罐体积模型，通过相邻油位进出油量误差最小化识别α=2.1°、β=5°并重新标定罐容表。",
+  "manual_verification_complete": true,
+  "object_kind": "solution_paper",
+  "page_count": 20,
+  "parser_version": "0.5.2",
+  "problem_code": "A",
+  "schema_version": "1.4.1",
+  "solution_lineage_id": "lineage_6e66005a65107790",
+  "source_sha256": "c01dffa58041769dc6dcda69d53d63709b059106443632f6552d9f7199c6af03",
+  "title": "储油罐的变位识别与罐容表标定 (4)",
+  "unknown_policy": "unestablished fields remain unknown, never absent",
+  "year": 2010
+}

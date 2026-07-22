@@ -1,0 +1,17 @@
+{
+  "document_role": "award_paper",
+  "evidence_status": "verified",
+  "logical_document_id": "logical_5097c7c73d838cb3",
+  "manual_summary": "以几何学、积分学、数值积分和多重积分处理三种油罐状态，最小二乘识别α=2.1°、β=4.6°，用附件数据验证多数误差在1L以内。",
+  "manual_verification_complete": true,
+  "object_kind": "solution_paper",
+  "page_count": 32,
+  "parser_version": "0.5.2",
+  "problem_code": "A",
+  "schema_version": "1.4.1",
+  "solution_lineage_id": "lineage_7f5fdd76f3ba5cc6",
+  "source_sha256": "91816d1197a09392ecd177171037e1bf302f4e1d87e769dbcc750015d8aca997",
+  "title": "储油罐的变位识别与罐容表标定 (3)",
+  "unknown_policy": "unestablished fields remain unknown, never absent",
+  "year": 2010
+}
