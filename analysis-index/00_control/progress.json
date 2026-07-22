@@ -24,7 +24,7 @@
   "recovery_package_through_1994": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1994-rebuilt-312a10f8.tar.gz","sha256":"834fae1950c6e878adea6e07ff78a41756d355d88fb94efb96b84380277ec6ee"},
   "recovery_package_through_1995": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1995-rebuilt-411f2e3c.tar.gz","sha256":"6ce4d684f366f43e5c42dad80011c6d92b6bd7ca57400dad9f74e9eeba01a034"},
   "recovery_package_through_1996": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1996-73afa870.tar.gz","sha256":"2eee462c198000bcc371e2a23931d981e22df60b358614d3e2b374957bda4c45"},
-  "recovery_package_through_1997": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1997-e0297c7d0997a496425d3d81e05feb3f30e75fcb","sha256":"a74b51b9631091f5cf479e044ecf62f1b5078854caf6a56870ef5e11aebcf97c"},
+  "recovery_package_through_1997": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1997-e0297c7d.tar.gz","sha256":"a74b51b9631091f5cf479e044ecf62f1b5078854caf6a56870ef5e11aebcf97c"},
   "recovery_package_through_1998": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1998-6395ff59.tar.gz","sha256":"99bb5eb9723e6d8c77fad5867f67a4c8c2fbac25bbd2eb419c8dfc1336dabfec"},
   "recovery_package_geometry_through_1998": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1998-geometry-2e43fe78.tar.gz","sha256":"0cecbdf4514f584ca3025b6ede2cc72f5fdc0604331fa581c42947dc55d60c2f"},
   "recovery_package_through_1999": {"path":"/mnt/data/analysis-index-checkpoint-through-1999-manual.tar.gz","sha256":"deacacf64c3ad1921cd96bd1ef4679b2493c3d5cbaa7501d2c93c7ee915b2e7e"},
