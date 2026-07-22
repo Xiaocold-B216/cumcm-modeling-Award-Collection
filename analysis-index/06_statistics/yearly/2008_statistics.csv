@@ -1,80 +1,14 @@
-﻿counting_scope,denominator,metric,note,numerator,percentage,year
-carrier_document,27,carrier_count,,27,100.0,2008
-logical_document,27,logical_document_count,,27,100.0,2008
-logical_document,27,role:award_paper,,25,92.6,2008
-logical_document,27,role:expert_commentary,,0,0.0,2008
-logical_document,27,role:other_related,,0,0.0,2008
-logical_document,27,role:problem_statement,,0,0.0,2008
-logical_document,27,role:solution_summary,,2,7.4,2008
-logical_document,27,role:unknown,,0,0.0,2008
-unique_award_paper,25,award_paper_count,,25,100.0,2008
-unique_problem,0,problem_count,,0,,2008
-solution_lineage,25,lineage_count,candidate lineages pending manual deduplication,25,100.0,2008
-representation,27,representation_count,"count, not a paper percentage",27,100.0,2008
-orphan_segment,624,orphan_count,automatic layer cannot assert absence; manual review pending,0,0.0,2008
-logical_document,27,manual_review_queue,,27,100.0,2008
-unique_award_paper,0,abstract:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,abstract:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,abstract:unknown,reported separately,5,20.0,2008
-unique_award_paper,25,abstract:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,abstract:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,model_assumptions:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,model_assumptions:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,model_assumptions:unknown,reported separately,3,12.0,2008
-unique_award_paper,25,model_assumptions:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,model_assumptions:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,symbol_definitions:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,symbol_definitions:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,symbol_definitions:unknown,reported separately,9,36.0,2008
-unique_award_paper,25,symbol_definitions:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,symbol_definitions:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,model_validation:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,model_validation:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,model_validation:unknown,reported separately,16,64.0,2008
-unique_award_paper,25,model_validation:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,model_validation:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,sensitivity_analysis:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,sensitivity_analysis:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,sensitivity_analysis:unknown,reported separately,20,80.0,2008
-unique_award_paper,25,sensitivity_analysis:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,sensitivity_analysis:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,error_analysis:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,error_analysis:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,error_analysis:unknown,reported separately,23,92.0,2008
-unique_award_paper,25,error_analysis:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,error_analysis:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,final_solution:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,final_solution:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,final_solution:unknown,reported separately,3,12.0,2008
-unique_award_paper,25,final_solution:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,final_solution:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,final_answer_summary_table:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,final_answer_summary_table:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,final_answer_summary_table:unknown,reported separately,21,84.0,2008
-unique_award_paper,25,final_answer_summary_table:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,final_answer_summary_table:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,flowchart:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,flowchart:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,flowchart:unknown,reported separately,20,80.0,2008
-unique_award_paper,25,flowchart:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,flowchart:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,visualization:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,visualization:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,visualization:unknown,reported separately,7,28.0,2008
-unique_award_paper,25,visualization:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,visualization:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,references:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,references:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,references:unknown,reported separately,5,20.0,2008
-unique_award_paper,25,references:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,references:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,appendix:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,appendix:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,appendix:unknown,reported separately,12,48.0,2008
-unique_award_paper,25,appendix:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,appendix:eligible_denominator,,0,0.0,2008
-unique_award_paper,0,code_description:present,field-specific eligible denominator,0,,2008
-unique_award_paper,0,code_description:absent,field-specific eligible denominator,0,,2008
-unique_award_paper,25,code_description:unknown,reported separately,16,64.0,2008
-unique_award_paper,25,code_description:not_applicable,reported separately,0,0.0,2008
-unique_award_paper,25,code_description:eligible_denominator,,0,0.0,2008
+counting_scope,denominator,metric,note,numerator,percentage,year
+year,46,physical_carriers,manually verified,46,,2008
+year,46,logical_documents,manually verified,46,,2008
+year,27,solution_papers,manually verified,27,,2008
+year,0,expert_commentaries,manually verified,0,,2008
+year,4,problem_statements,manually verified,4,,2008
+year,15,supporting_objects,manually verified,15,,2008
+year,27,solution_lineages,manually verified,27,,2008
+year,46,representations,manually verified,46,,2008
+year,624,pdf_pages,manually verified,624,,2008
+unique_solution_paper,27,problem_A_solution_count,,8,29.6,2008
+unique_solution_paper,27,problem_B_solution_count,,13,48.1,2008
+unique_solution_paper,27,problem_C_solution_count,,3,11.1,2008
+unique_solution_paper,27,problem_D_solution_count,,3,11.1,2008

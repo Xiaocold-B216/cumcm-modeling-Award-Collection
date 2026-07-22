@@ -1,22 +1,3 @@
 {
-  "checks": {
-    "candidate_carriers_accounted": true,
-    "carrier_manifest_exists": true,
-    "corpus_eligibility_complete": true,
-    "field_status_enum": true,
-    "logical_document_six_pack": true,
-    "logical_documents_present": true,
-    "manual_verification_complete": false,
-    "object_layers_separate": true,
-    "one_preferred_representation": true,
-    "roles_valid": true,
-    "source_unmodified": true,
-    "statistics_scoped": true,
-    "unknown_not_absent": true
-  },
-  "manual_review_items": 27,
-  "note": "conditional_pass permits later years; candidate evidence is not promoted to verified",
-  "status": "conditional_pass",
-  "updated_at": "2026-07-21T19:59:02Z",
-  "year": 2008
+  "blocking_manual_review_items":0,"checks":{"expert_commentary_excluded":true,"logical_documents_present":true,"manual_review_queue_empty":true,"manual_verification_complete":true,"object_layers_separate":true,"one_preferred_representation":true,"pdf_pages_reviewed":true,"physical_carriers_accounted":true,"problem_statements_separate":true,"remote_readback_verified":true,"representations_verified":true,"six_pack_complete":true,"solution_lineages_verified":true,"solution_papers_verified":true,"source_hashes_verified":true,"source_unmodified":true,"supporting_objects_separate":true,"unknown_not_absent":true},"counts":{"expert_commentaries":0,"logical_documents":46,"pdf_pages":624,"physical_carriers":46,"problem_statements":4,"representations":46,"solution_lineages":27,"solution_papers":27,"supporting_objects":15},"manual_review_items":0,"note":"All manual, local, publish, and remote readback checks passed.","status":"pass","updated_at":"2026-07-22T18:02:30Z","year":2008
 }

@@ -1,23 +1,26 @@
-# 2008年优秀论文语料候选报告
+# 2008年优秀论文语料人工核验报告
 
-> 本报告由相同可信基线重新构建。自动结果是保守候选，不等同于人工全文核验。
+## 最终对象构成
 
-## 对象构成
+- physical_carriers：46
+- logical_documents：46
+- solution_papers：27
+- expert_commentaries：0
+- problem_statements：4
+- supporting_objects：15
+- solution_lineages：27
+- representations：46
+- pdf_pages：624
 
-- logical documents：27
-- award papers候选：25
-- expert commentaries候选：0
-- problem statements候选：0
-- solution summaries候选：2
-- unknown/other：0
+## 题目分布
 
-## 状态边界
+- A题解答：8
+- B题解答：13
+- C题解答：3
+- D题解答：3
 
-- 待人工复核：27
-- 扫描或无完整文本层的文档保持 `pending_manual_review` 或 `partially_parsed`。
-- 自动未命中的字段记为 `unknown`；仅完整原生文本的字段允许进入present/absent分母。
-- 合集和分卷尚未人工确认边界时，不将载体数解释为论文数。
+## 人工复核结论
 
-## 模型与算法候选
+全部PDF逐页渲染检查，全部载体完成SHA-256核验。自动未命中的内容字段保持 `unknown`，不写为 `absent`。
 
-模型标签与算法标签仅来自原生文本关键词，用于复核排序，不作为最终方法结论。
+`地面搜索最短耗时的计算` 的原始空白尾页保留；未识别到专家评述。

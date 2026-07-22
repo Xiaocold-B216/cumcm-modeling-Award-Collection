@@ -1,23 +1,27 @@
-# 2009年优秀论文语料候选报告
+# 2009年优秀论文语料人工核验报告
 
-> 本报告由相同可信基线重新构建。自动结果是保守候选，不等同于人工全文核验。
+## 最终对象构成
 
-## 对象构成
+- physical_carriers：27
+- logical_documents：27
+- solution_papers：21
+- expert_commentaries：0
+- problem_statements：4
+- supporting_objects：1
+- solution_lineages：21
+- representations：27
+- pdf_pages：393
+- secondary_publications：1
 
-- logical documents：22
-- award papers候选：22
-- expert commentaries候选：0
-- problem statements候选：0
-- solution summaries候选：0
-- unknown/other：0
+## 题目分布
 
-## 状态边界
+- A题解答：7
+- B题解答：5
+- C题解答：5
+- D题解答：4
 
-- 待人工复核：22
-- 扫描或无完整文本层的文档保持 `pending_manual_review` 或 `partially_parsed`。
-- 自动未命中的字段记为 `unknown`；仅完整原生文本的字段允许进入present/absent分母。
-- 合集和分卷尚未人工确认边界时，不将载体数解释为论文数。
+## 人工复核结论
 
-## 模型与算法候选
+全部PDF逐页渲染检查，全部载体完成SHA-256核验。自动未命中的内容字段保持 `unknown`，不写为 `absent`。
 
-模型标签与算法标签仅来自原生文本关键词，用于复核排序，不作为最终方法结论。
+文件名前缀误写为B的制动器论文已纠正为A题；2010年期刊二次发表单独建档，不计入竞赛论文。

@@ -1,13 +1,14 @@
 {
-  "analysis_branch":"analysis/corpus-index",
-  "source_baseline_commit":"a042ecf898feaba6fc81d543a10e0188db8b2b12",
-  "completed_years":[1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007],
-  "next_recommended_year":2008,
-  "last_verified_complete_year":2007,
-  "last_verified_remote_checkpoint":"f24a15383ebdca084ec36ad028db21879aa4a781",
-  "parser_version":"0.5.2",
-  "schema_version":"1.4.1",
-  "target_end_year":2010,
-  "year_status":{"1992":"pass","1993":"pass","1994":"pass","1995":"conditional_pass","1996":"pass","1997":"pass","1998":"pass","1999":"pass","2000":"pass","2001":"pass","2002":"pass","2003":"pass","2004":"pass","2005":"pass","2006":"pass","2007":"pass"},
-  "updated_at":"2026-07-22T13:00:00Z"
+  "analysis_branch": "analysis/corpus-index",
+  "completed_years": [1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009],
+  "last_verified_complete_year": 2009,
+  "last_verified_remote_checkpoint": "pending_commit_sha",
+  "next_recommended_year": 2010,
+  "parser_version": "0.5.2",
+  "remote_publish_status": "pass",
+  "schema_version": "1.4.1",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "target_end_year": 2010,
+  "updated_at": "2026-07-22T18:02:30Z",
+  "year_status": {"1992":"pass","1993":"pass","1994":"pass","1995":"conditional_pass","1996":"pass","1997":"pass","1998":"pass","1999":"pass","2000":"pass","2001":"pass","2002":"pass","2003":"pass","2004":"pass","2005":"pass","2006":"pass","2007":"pass","2008":"pass","2009":"pass"}
 }
