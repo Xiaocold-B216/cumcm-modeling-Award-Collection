@@ -15,22 +15,21 @@
     "unknown_not_absent": true,
     "problem_statements_verified": true,
     "available_supporting_data_verified": true,
-    "required_supporting_data_complete": false
+    "required_supporting_data_complete": true
   },
   "manual_review_items": 0,
-  "missing_required_carriers": 4,
-  "status": "conditional_pass",
+  "missing_required_carriers": 0,
+  "status": "pass",
   "year": 2006,
-  "carriers": 20,
-  "documents": 20,
+  "carriers": 24,
+  "documents": 24,
   "solution_papers": 11,
   "problem_statements": 4,
-  "supporting_objects": 5,
+  "supporting_objects": 9,
   "known_issues": [
-    "2006-A attachments 1,2,4,5 are missing from the supplied batch",
     "award level/provenance is not asserted for the 11 solution PDFs",
     "one 11-page B solution has a course-assignment cover and is retained with low provenance confidence",
     "remote Git blob byte reconciliation pending"
   ],
-  "updated_at": "2026-07-22T11:00:00Z"
+  "updated_at": "2026-07-22T11:30:00Z"
 }
