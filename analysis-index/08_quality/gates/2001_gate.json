@@ -1,25 +1,23 @@
 {
-  "blocking_issue": "three C-problem PDFs from trusted baseline are not materialized in the current chat",
+  "blocking_issue": null,
   "checks": {
     "candidate_carriers_accounted": true,
     "duplicate_carriers_not_duplicate_papers": true,
     "field_status_enum": true,
     "logical_document_six_pack": true,
-    "manual_verification_complete_for_full_year": false,
-    "manual_verification_complete_for_materialized_scope": true,
+    "manual_verification_complete_for_full_year": true,
     "object_layers_separate": true,
     "official_problem_representations_verified": true,
     "shared_page_regions_segmented": true,
     "source_unmodified": true,
     "statistics_scoped": true,
-    "three_missing_c_pdfs_explicit": true,
-    "twenty_local_pdfs_hashed": true,
+    "twenty_three_local_pdfs_hashed": true,
     "unknown_not_absent": true
   },
-  "manual_review_items": 3,
-  "note": "conditional checkpoint is safe and auditable but is not analysis_checkpoint_through_2001 and does not authorize starting 2002",
-  "status": "conditional_pass",
-  "updated_at": "2026-07-22T14:00:00Z",
-  "verified_scope": "A/B papers and four official problem representations",
+  "manual_review_items": 0,
+  "note": "full-year manual checkpoint; authorizes starting 2002 after remote readback",
+  "status": "pass",
+  "updated_at": "2026-07-22T16:00:00Z",
+  "verified_scope": "all 23 PDFs and four official problem representations",
   "year": 2001
 }
