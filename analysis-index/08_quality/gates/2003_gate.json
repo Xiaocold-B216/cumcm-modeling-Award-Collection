@@ -1,4 +1,5 @@
 {
+  "blocking_issue": null,
   "checks": {
     "candidate_carriers_accounted": true,
     "carrier_manifest_exists": true,
@@ -6,17 +7,20 @@
     "field_status_enum": true,
     "logical_document_six_pack": true,
     "logical_documents_present": true,
-    "manual_verification_complete": false,
+    "manual_verification_complete": true,
     "object_layers_separate": true,
-    "one_preferred_representation": true,
-    "roles_valid": true,
+    "official_problem_representations_verified": true,
+    "shared_page_regions_segmented": true,
     "source_unmodified": true,
     "statistics_scoped": true,
-    "unknown_not_absent": true
+    "unknown_not_absent": true,
+    "baseline_pdf_sha_verified_locally": 16,
+    "baseline_pdf_blob_verified_by_git_and_visual": 7
   },
-  "manual_review_items": 23,
-  "note": "conditional_pass permits later years; candidate evidence is not promoted to verified",
-  "status": "conditional_pass",
-  "updated_at": "2026-07-21T19:58:42Z",
+  "manual_review_items": 0,
+  "note": "full-year manual checkpoint; seven PDFs use trusted baseline blob SHA plus visual verification because binary mount was unavailable",
+  "status": "pass",
+  "updated_at": "2026-07-22T09:00:00Z",
+  "verified_scope": "23 PDFs and four official DOC problem representations",
   "year": 2003
 }
