@@ -1,0 +1,39 @@
+{
+  "year": 2001,
+  "status": "partial_manual_verified",
+  "verified_scope": ["problem_A", "problem_B", "official_problem_statements_A_B_C_D"],
+  "pending_scope": ["three_problem_C_pdf_carriers"],
+  "problem_A": {
+    "solution_patterns": [
+      "FFT spatial correlation and template matching",
+      "continuous-discrete maximum inscribed circle with cross-slice consistency",
+      "parallel tangent geometry and polynomial centerline fitting",
+      "maximum inscribed circle and Bezier centerline",
+      "maximum coverage with grid, Monte Carlo, nonlinear optimization and least squares"
+    ],
+    "reusable_validation_pattern": "reconstruct three-dimensional vessel, reslice it, and compare regenerated sections with source slices"
+  },
+  "problem_B": {
+    "solution_patterns": [
+      "weighted multiobjective nonlinear programming",
+      "goal programming",
+      "Fisher ordered clustering and stochastic service",
+      "dual/single depot soft-time-window simulation",
+      "chance-constrained profit optimization",
+      "flow-curve graphical analysis and greedy simulation"
+    ],
+    "review_failure_patterns": [
+      "single untested weight vector",
+      "confusing the lower and upper load-factor requirements",
+      "GI/M/n queue mismatch with serial route service",
+      "over-simplified linear implementation",
+      "insufficient sensitivity analysis"
+    ]
+  },
+  "data_quality_notes": [
+    "six duplicate scan pairs are representations, not additional papers",
+    "one 2003 optics paper is excluded as wrong-year material",
+    "three shared page-8 layouts were segmented at approximately y=407.9 PDF points",
+    "unseen C-paper fields remain unknown rather than absent"
+  ]
+}
