@@ -1,8 +1,11 @@
 name: finalize-2008-2009-oneoff
 on:
+  workflow_dispatch:
   push:
-    branches: [analysis/corpus-index]
-    paths: [.github/workflows/finalize-2008-2009-oneoff.yml]
+    branches:
+      - analysis/corpus-index
+    paths:
+      - .github/workflows/finalize-2008-2009-oneoff.yml
 permissions:
   contents: write
 jobs:
