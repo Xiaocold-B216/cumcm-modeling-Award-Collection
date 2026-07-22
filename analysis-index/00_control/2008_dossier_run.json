@@ -1,0 +1,10 @@
+{
+  "year": 2008,
+  "run_id": 29919557733,
+  "run_attempt": 1,
+  "artifact_name": "review-2008-dossier",
+  "generated_at": "2026-07-22T12:26:27.213606+00:00",
+  "pdf_count": 27,
+  "page_count": 624,
+  "status": "dossier_generated_pending_manual_decision"
+}
