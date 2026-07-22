@@ -6,17 +6,28 @@
     "field_status_enum": true,
     "logical_document_six_pack": true,
     "logical_documents_present": true,
-    "manual_verification_complete": false,
+    "manual_verification_complete": true,
     "object_layers_separate": true,
     "one_preferred_representation": true,
     "roles_valid": true,
     "source_unmodified": true,
     "statistics_scoped": true,
-    "unknown_not_absent": true
+    "unknown_not_absent": true,
+    "problem_statements_verified": true,
+    "supporting_data_verified": true
   },
-  "manual_review_items": 18,
-  "note": "conditional_pass permits later years; candidate evidence is not promoted to verified",
-  "status": "conditional_pass",
-  "updated_at": "2026-07-21T19:58:47Z",
-  "year": 2005
+  "manual_review_items": 0,
+  "status": "pass",
+  "year": 2005,
+  "carriers": 29,
+  "documents": 29,
+  "award_papers": 16,
+  "expert_commentaries": 2,
+  "problem_statements": 4,
+  "supporting_datasets": 7,
+  "non_blocking_issues": [
+    "B2005Table header typo D00 preserved in source and normalized only in analysis metadata",
+    "remote Git blob byte reconciliation pending"
+  ],
+  "updated_at": "2026-07-22T10:00:00Z"
 }
