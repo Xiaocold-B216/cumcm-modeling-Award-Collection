@@ -1,0 +1,269 @@
+name: Build 2008 manual dossier one-off
+
+on:
+  push:
+    branches:
+      - analysis/corpus-index
+    paths:
+      - .github/workflows/dossier-2008-oneoff.yml
+
+permissions:
+  contents: write
+
+jobs:
+  dossier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: analysis/corpus-index
+          fetch-depth: 0
+          lfs: false
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install PyMuPDF Pillow
+
+      - name: Build compact dossier and contact sheets
+        shell: bash
+        env:
+          GH_RUN_ID: ${{ github.run_id }}
+          GH_RUN_ATTEMPT: ${{ github.run_attempt }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from __future__ import annotations
+          import csv, hashlib, json, math, os, re
+          from collections import Counter
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import fitz
+          from PIL import Image, ImageDraw, ImageFont
+
+          repo = Path.cwd()
+          source_root = next(p for p in repo.iterdir() if p.is_dir() and p.name.startswith('2008年数学建模国赛'))
+          out = repo / 'analysis-index' / '00_control'
+          out.mkdir(parents=True, exist_ok=True)
+          artifact = repo / 'review-2008-dossier-artifact'
+          sheet_dir = artifact / 'contact_sheets'
+          sheet_dir.mkdir(parents=True, exist_ok=True)
+
+          def norm_text(s: str) -> str:
+              s = s.lower()
+              s = re.sub(r'数学中国论文共享|www\.madio\.cn|微信公众号.?科研交流', '', s)
+              s = re.sub(r'\s+', '', s)
+              s = re.sub(r'[^0-9a-z\u4e00-\u9fff]+', '', s)
+              return s
+
+          def shingles(s: str, n: int = 7, max_items: int = 30000) -> set[int]:
+              if len(s) < n:
+                  return set()
+              vals = []
+              for i in range(len(s) - n + 1):
+                  h = int.from_bytes(hashlib.blake2b(s[i:i+n].encode('utf-8'), digest_size=8).digest(), 'big')
+                  vals.append(h)
+              if len(vals) <= max_items:
+                  return set(vals)
+              # deterministic evenly spaced sample
+              step = len(vals) / max_items
+              return {vals[min(len(vals)-1, int(i * step))] for i in range(max_items)}
+
+          def jaccard(a: set[int], b: set[int]) -> float:
+              if not a and not b:
+                  return 1.0
+              if not a or not b:
+                  return 0.0
+              return len(a & b) / len(a | b)
+
+          def detect_fields(first_text: str) -> dict:
+              flat = re.sub(r'\s+', ' ', first_text)
+              def grab(pattern):
+                  m = re.search(pattern, flat, re.I)
+                  return m.group(1).strip() if m else 'unknown'
+              return {
+                  'problem_code_detected': grab(r'(?:选择的题号|题号)[^A-D]{0,30}([A-D])'),
+                  'registration_id': grab(r'(?:报名号|全国统一编号)[^0-9]{0,20}([0-9]{5,})'),
+                  'school': grab(r'(?:所属学校|学校)[：:\s]*([^\n]{2,40}?)(?:参赛队员|队员|指导教师|日期)'),
+                  'authors': grab(r'参赛队员[^：:]*[：:]?(.{2,120}?)(?:指导教师|日期)'),
+              }
+
+          pdf_paths = sorted(source_root.rglob('*.pdf')) + sorted(source_root.rglob('*.PDF'))
+          # remove case-insensitive duplicates from glob overlap
+          seen = set(); pdfs = []
+          for p in pdf_paths:
+              key = p.resolve()
+              if key not in seen:
+                  seen.add(key); pdfs.append(p)
+
+          docs = []
+          page_rows = []
+          font = ImageFont.load_default()
+
+          for p in pdfs:
+              rel = p.relative_to(repo).as_posix()
+              doc = fitz.open(p)
+              texts = []
+              page_meta = []
+              thumbs = []
+              for i in range(doc.page_count):
+                  page = doc.load_page(i)
+                  text = page.get_text('text') or ''
+                  texts.append(text)
+                  words = page.get_text('words') or []
+                  images = page.get_images(full=True) or []
+                  drawings = page.get_drawings() or []
+                  compact = re.sub(r'\s+', ' ', text).strip()[:180]
+                  flags = []
+                  for label, pattern in [
+                      ('promise', '承诺书'), ('number_page', '编号专用页'), ('abstract', '摘要'),
+                      ('references', '参考文献'), ('appendix', '附录'), ('commentary', '评述|评注|专家点评|评阅意见')]:
+                      if re.search(pattern, text): flags.append(label)
+                  row = {
+                      'relative_path': rel,
+                      'page': i + 1,
+                      'chars': len(text),
+                      'words': len(words),
+                      'images': len(images),
+                      'drawings': len(drawings),
+                      'flags': '|'.join(flags),
+                      'excerpt': compact,
+                  }
+                  page_rows.append(row)
+                  page_meta.append(row)
+                  pix = page.get_pixmap(matrix=fitz.Matrix(0.42, 0.42), alpha=False)
+                  img = Image.frombytes('RGB', (pix.width, pix.height), pix.samples)
+                  thumbs.append((i + 1, img.copy()))
+
+              full = '\n'.join(texts)
+              normalized = norm_text(full)
+              body_texts = [t for t in texts if not re.search(r'承诺书|编号专用页', t)]
+              body = '\n'.join(body_texts)
+              fields = detect_fields('\n'.join(texts[:3]))
+              first_body_page = next((i+1 for i,t in enumerate(texts) if len(norm_text(t)) > 80 and not re.search(r'承诺书|编号专用页', t)), 1)
+              review_terms = sorted(set(re.findall(r'评述|评注|专家点评|评阅意见', full)))
+              solution_signals = sorted(set(re.findall(r'模型假设|模型建立|模型求解|摘要|关键词', full)))
+              rec = {
+                  'relative_path': rel,
+                  'filename': p.name,
+                  'sha256': hashlib.sha256(p.read_bytes()).hexdigest(),
+                  'page_count': doc.page_count,
+                  'full_text_sha256': hashlib.sha256(normalized.encode('utf-8')).hexdigest(),
+                  'normalized_char_count': len(normalized),
+                  'first_body_page': first_body_page,
+                  'problem_code_from_filename': (re.search(r'2008([A-D])', p.name).group(1) if re.search(r'2008([A-D])', p.name) else 'A' if '2008A' in rel else 'unknown'),
+                  'detected_fields': fields,
+                  'review_terms': review_terms,
+                  'solution_signals': solution_signals,
+                  'cover_excerpt': re.sub(r'\s+', ' ', '\n'.join(texts[:2])).strip()[:1800],
+                  'opening_excerpt': re.sub(r'\s+', ' ', '\n'.join(texts[max(0,first_body_page-1):min(doc.page_count,first_body_page+2)])).strip()[:3500],
+                  'closing_excerpt': re.sub(r'\s+', ' ', '\n'.join(texts[-2:])).strip()[:2500],
+                  'blank_or_near_blank_pages': [r['page'] for r in page_meta if r['chars'] < 20],
+                  'render_complete': True,
+              }
+              rec['_shingles'] = shingles(normalized)
+              docs.append(rec)
+
+              # all-page contact sheets, 16 pages per sheet
+              stem = hashlib.sha1(rel.encode('utf-8')).hexdigest()[:12]
+              for start in range(0, len(thumbs), 16):
+                  group = thumbs[start:start+16]
+                  tw, th, lh, cols = 280, 396, 20, 4
+                  rows = math.ceil(len(group)/cols)
+                  canvas = Image.new('RGB', (cols*tw, rows*(th+lh)), 'white')
+                  draw = ImageDraw.Draw(canvas)
+                  for j,(pno,img) in enumerate(group):
+                      img.thumbnail((tw-8, th-8))
+                      x0 = (j%cols)*tw
+                      y0 = (j//cols)*(th+lh)
+                      draw.text((x0+4,y0+4), f'p{pno}', fill='black', font=font)
+                      canvas.paste(img, (x0+(tw-img.width)//2, y0+lh+(th-img.height)//2))
+                  canvas.save(sheet_dir / f'{stem}_part{start//16+1:02d}.jpg', quality=76, optimize=True)
+              doc.close()
+
+          similarities = []
+          for i in range(len(docs)):
+              for j in range(i+1, len(docs)):
+                  score = jaccard(docs[i]['_shingles'], docs[j]['_shingles'])
+                  if score >= 0.20 or docs[i]['full_text_sha256'] == docs[j]['full_text_sha256']:
+                      similarities.append({
+                          'left': docs[i]['relative_path'],
+                          'right': docs[j]['relative_path'],
+                          'jaccard_7gram': round(score, 6),
+                          'exact_normalized_text': docs[i]['full_text_sha256'] == docs[j]['full_text_sha256'],
+                          'same_page_count': docs[i]['page_count'] == docs[j]['page_count'],
+                      })
+          similarities.sort(key=lambda x: x['jaccard_7gram'], reverse=True)
+
+          for d in docs:
+              d.pop('_shingles', None)
+
+          generated_at = datetime.now(timezone.utc).isoformat()
+          dossier_json = {
+              'year': 2008,
+              'generated_at': generated_at,
+              'source_baseline_commit': 'a042ecf898feaba6fc81d543a10e0188db8b2b12',
+              'run_id': int(os.environ['GH_RUN_ID']),
+              'run_attempt': int(os.environ['GH_RUN_ATTEMPT']),
+              'pdf_count': len(docs),
+              'page_count': sum(d['page_count'] for d in docs),
+              'documents': docs,
+              'similarity_pairs_ge_0_20': similarities,
+          }
+          (out / '2008_manual_dossier.json').write_text(json.dumps(dossier_json, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+          with (out / '2008_page_review_compact.csv').open('w', encoding='utf-8', newline='') as f:
+              w = csv.DictWriter(f, fieldnames=['relative_path','page','chars','words','images','drawings','flags','excerpt'])
+              w.writeheader(); w.writerows(page_rows)
+
+          md = ['# 2008 manual review dossier', '', f'- PDFs: {len(docs)}', f'- Pages: {sum(d["page_count"] for d in docs)}', f'- Generated: {generated_at}', '']
+          for idx,d in enumerate(docs,1):
+              md += [f'## {idx}. {d["filename"]}', '', f'- path: `{d["relative_path"]}`', f'- sha256: `{d["sha256"]}`', f'- pages: {d["page_count"]}', f'- full-text hash: `{d["full_text_sha256"]}`', f'- detected problem: {d["problem_code_from_filename"]}', f'- review terms: {d["review_terms"] or "none"}', f'- solution signals: {d["solution_signals"] or "none"}', f'- near-blank pages: {d["blank_or_near_blank_pages"] or "none"}', '', '### Cover/opening evidence', '', d['cover_excerpt'] or '(no text)', '', d['opening_excerpt'] or '(no text)', '', '### Closing evidence', '', d['closing_excerpt'] or '(no text)', '']
+          md += ['# Similarity pairs (Jaccard >= 0.20)', '']
+          for s in similarities:
+              md.append(f'- {s["jaccard_7gram"]:.6f} | `{s["left"]}` | `{s["right"]}` | exact={s["exact_normalized_text"]}')
+          (out / '2008_manual_dossier.md').write_text('\n'.join(md)+'\n', encoding='utf-8')
+
+          meta = {
+              'year': 2008,
+              'run_id': int(os.environ['GH_RUN_ID']),
+              'run_attempt': int(os.environ['GH_RUN_ATTEMPT']),
+              'artifact_name': 'review-2008-dossier',
+              'generated_at': generated_at,
+              'pdf_count': len(docs),
+              'page_count': sum(d['page_count'] for d in docs),
+              'status': 'dossier_generated_pending_manual_decision',
+          }
+          (out / '2008_dossier_run.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          (artifact / 'README.txt').write_text('All 624 source PDF pages are shown in contact sheets.\n', encoding='utf-8')
+          print(json.dumps(meta, ensure_ascii=False))
+          PY
+
+      - name: Upload dossier artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-2008-dossier
+          path: |
+            review-2008-dossier-artifact/
+            analysis-index/00_control/2008_manual_dossier.json
+            analysis-index/00_control/2008_manual_dossier.md
+            analysis-index/00_control/2008_page_review_compact.csv
+            analysis-index/00_control/2008_dossier_run.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit dossier and remove workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis-index/00_control/2008_manual_dossier.json \
+                  analysis-index/00_control/2008_manual_dossier.md \
+                  analysis-index/00_control/2008_page_review_compact.csv \
+                  analysis-index/00_control/2008_dossier_run.json
+          git rm .github/workflows/dossier-2008-oneoff.yml
+          git commit -m "build 2008 manual review dossier"
+          git push origin HEAD:analysis/corpus-index
