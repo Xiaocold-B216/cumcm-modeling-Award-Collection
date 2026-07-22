@@ -1,20 +1,12 @@
 {
-  "analysis_branch": "analysis/corpus-index",
-  "analysis_checkpoint_through_1999": "092c9c1a22c42e4ae76a644841bb99a6fbba2f1e",
-  "analysis_checkpoint_through_2000": "4f7703032f38055c8499878025cd7fa0acbd652e",
-  "analysis_checkpoint_through_2001": "3135df20b35143f8e637ce821909dd51fd8f1566",
-  "analysis_checkpoint_through_2002": "d93056efd076d483870b58a14ac3e62a80ef8d5d",
-  "candidate_layer_years": [1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010],
-  "completed_years": [1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002],
-  "infrastructure_status": "manual_review_verified_through_2002",
-  "last_verified_remote_checkpoint": "d93056efd076d483870b58a14ac3e62a80ef8d5d",
-  "next_recommended_year": 2003,
-  "parser_version": "0.5.2",
-  "recovery_package_through_2002": {"path":"/mnt/data/analysis-index-checkpoint-through-2002-manual.tar.gz","sha256":"c68f3feaf0d9f4e701ad2b028b634ab87620eb270eafd83cfe0b1f1700b58a18"},
-  "schema_version":"1.4.1",
+  "analysis_branch":"analysis/corpus-index",
   "source_baseline_commit":"a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "completed_years":[1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003],
+  "next_recommended_year":2004,
+  "last_verified_remote_checkpoint":"fbc6d620f26ff2fb05c90aaf2a92b81688a0d70e",
+  "parser_version":"0.5.2",
+  "schema_version":"1.4.1",
   "target_end_year":2010,
-  "tests_passed":84,
-  "updated_at":"2026-07-22T08:30:00Z",
-  "year_status":{"1992":"pass","1993":"pass","1994":"pass","1995":"conditional_pass","1996":"pass","1997":"pass","1998":"pass","1999":"pass","2000":"pass","2001":"pass","2002":"pass","2003":"conditional_pass","2004":"conditional_pass","2005":"conditional_pass","2006":"conditional_pass","2007":"conditional_pass","2008":"conditional_pass","2009":"conditional_pass","2010":"conditional_pass"}
+  "year_status":{"1992":"pass","1993":"pass","1994":"pass","1995":"conditional_pass","1996":"pass","1997":"pass","1998":"pass","1999":"pass","2000":"pass","2001":"pass","2002":"pass","2003":"pass"},
+  "updated_at":"2026-07-22T09:05:00Z"
 }
