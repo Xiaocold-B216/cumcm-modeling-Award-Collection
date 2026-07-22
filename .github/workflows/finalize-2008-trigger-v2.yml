@@ -1,0 +1,23 @@
+name: Trigger audited 2008 finalization v2
+
+on:
+  push:
+    branches:
+      - analysis/corpus-index
+    paths:
+      - .github/workflows/finalize-2008-trigger-v2.yml
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout analysis branch
+        uses: actions/checkout@v4
+        with:
+          ref: analysis/corpus-index
+          fetch-depth: 0
+         
