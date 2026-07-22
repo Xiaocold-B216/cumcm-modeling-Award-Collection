@@ -1,22 +1,26 @@
 {
   "checks": {
     "candidate_carriers_accounted": true,
-    "carrier_manifest_exists": true,
-    "corpus_eligibility_complete": true,
+    "duplicate_carrier_not_duplicate_paper": true,
     "field_status_enum": true,
+    "four_canonical_problems": true,
+    "local_uploaded_carriers_hashed": true,
     "logical_document_six_pack": true,
     "logical_documents_present": true,
-    "manual_verification_complete": false,
+    "manual_verification_complete": true,
     "object_layers_separate": true,
     "one_preferred_representation": true,
+    "real_mediabox_used": true,
+    "remote_reference_carriers_resolved": true,
     "roles_valid": true,
     "source_unmodified": true,
     "statistics_scoped": true,
     "unknown_not_absent": true
   },
-  "manual_review_items": 22,
-  "note": "conditional_pass permits later years; candidate evidence is not promoted to verified",
-  "status": "conditional_pass",
-  "updated_at": "2026-07-21T19:58:31Z",
+  "known_partial_documents": 1,
+  "manual_review_items": 0,
+  "note": "manual visual verification complete; all 22 carriers locally hashed; one expert commentary is missing_end and remains partial without contaminating award-paper denominators",
+  "status": "pass",
+  "updated_at": "2026-07-22T12:00:00Z",
   "year": 2000
 }
