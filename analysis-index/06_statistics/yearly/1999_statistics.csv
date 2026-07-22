@@ -1,80 +1,25 @@
-﻿counting_scope,denominator,metric,note,numerator,percentage,year
-carrier_document,17,carrier_count,,17,100.0,1999
-logical_document,17,logical_document_count,,17,100.0,1999
-logical_document,17,role:award_paper,,15,88.2,1999
-logical_document,17,role:expert_commentary,,1,5.9,1999
-logical_document,17,role:other_related,,0,0.0,1999
-logical_document,17,role:problem_statement,,1,5.9,1999
-logical_document,17,role:solution_summary,,0,0.0,1999
-logical_document,17,role:unknown,,0,0.0,1999
-unique_award_paper,15,award_paper_count,,15,100.0,1999
-unique_problem,1,problem_count,,1,100.0,1999
-solution_lineage,15,lineage_count,candidate lineages pending manual deduplication,15,100.0,1999
-representation,17,representation_count,"count, not a paper percentage",17,100.0,1999
-orphan_segment,107,orphan_count,automatic layer cannot assert absence; manual review pending,0,0.0,1999
-logical_document,17,manual_review_queue,,17,100.0,1999
-unique_award_paper,0,abstract:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,abstract:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,abstract:unknown,reported separately,0,0.0,1999
-unique_award_paper,15,abstract:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,abstract:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,model_assumptions:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,model_assumptions:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,model_assumptions:unknown,reported separately,1,6.7,1999
-unique_award_paper,15,model_assumptions:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,model_assumptions:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,symbol_definitions:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,symbol_definitions:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,symbol_definitions:unknown,reported separately,11,73.3,1999
-unique_award_paper,15,symbol_definitions:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,symbol_definitions:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,model_validation:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,model_validation:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,model_validation:unknown,reported separately,9,60.0,1999
-unique_award_paper,15,model_validation:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,model_validation:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,sensitivity_analysis:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,sensitivity_analysis:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,sensitivity_analysis:unknown,reported separately,10,66.7,1999
-unique_award_paper,15,sensitivity_analysis:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,sensitivity_analysis:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,error_analysis:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,error_analysis:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,error_analysis:unknown,reported separately,13,86.7,1999
-unique_award_paper,15,error_analysis:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,error_analysis:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,final_solution:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,final_solution:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,final_solution:unknown,reported separately,2,13.3,1999
-unique_award_paper,15,final_solution:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,final_solution:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,final_answer_summary_table:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,final_answer_summary_table:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,final_answer_summary_table:unknown,reported separately,14,93.3,1999
-unique_award_paper,15,final_answer_summary_table:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,final_answer_summary_table:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,flowchart:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,flowchart:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,flowchart:unknown,reported separately,15,100.0,1999
-unique_award_paper,15,flowchart:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,flowchart:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,visualization:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,visualization:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,visualization:unknown,reported separately,9,60.0,1999
-unique_award_paper,15,visualization:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,visualization:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,references:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,references:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,references:unknown,reported separately,3,20.0,1999
-unique_award_paper,15,references:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,references:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,appendix:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,appendix:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,appendix:unknown,reported separately,12,80.0,1999
-unique_award_paper,15,appendix:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,appendix:eligible_denominator,,0,0.0,1999
-unique_award_paper,0,code_description:present,field-specific eligible denominator,0,,1999
-unique_award_paper,0,code_description:absent,field-specific eligible denominator,0,,1999
-unique_award_paper,15,code_description:unknown,reported separately,7,46.7,1999
-unique_award_paper,15,code_description:not_applicable,reported separately,0,0.0,1999
-unique_award_paper,15,code_description:eligible_denominator,,0,0.0,1999
+﻿year,metric,counting_scope,corpus,present_n,absent_n,eligible_n,unknown_n,excluded_n
+1999,abstract,award_paper logical documents,award_paper_patterns,14,0,14,0,0
+1999,model_assumptions,award_paper logical documents,award_paper_patterns,11,2,13,1,0
+1999,symbol_definitions,award_paper logical documents,award_paper_patterns,3,10,13,1,0
+1999,model_validation,award_paper logical documents,award_paper_patterns,9,4,13,1,0
+1999,sensitivity_analysis,award_paper logical documents,award_paper_patterns,5,8,13,1,0
+1999,error_analysis,award_paper logical documents,award_paper_patterns,1,12,13,1,0
+1999,final_solution,award_paper logical documents,award_paper_patterns,12,1,13,1,0
+1999,final_answer_summary_table,award_paper logical documents,award_paper_patterns,5,8,13,1,0
+1999,flowchart,award_paper logical documents,award_paper_patterns,2,11,13,1,0
+1999,visualization,award_paper logical documents,award_paper_patterns,11,2,13,1,0
+1999,references,award_paper logical documents,award_paper_patterns,10,3,13,1,0
+1999,appendix,award_paper logical documents,award_paper_patterns,2,11,13,1,0
+1999,code_description,award_paper logical documents,award_paper_patterns,3,10,13,1,0
+1999,physical_carriers,physical carriers,all,17,,17,0,0
+1999,logical_documents,all verified logical documents,all,22,,22,0,0
+1999,award_papers,verified roles,all,14,,14,0,0
+1999,expert_commentaries,verified roles,all,3,,3,0,0
+1999,problem_statements,canonical unique problems,all,3,,3,0,0
+1999,other_related,adjacent complete notices,all,2,,2,0,0
+1999,solution_lineages,award paper lineages,all,14,,14,0,0
+1999,representations,carrier-document representations including partial copies,all,38,,38,0,0
+1999,same_page_boundaries,carrier-local verified transitions,all,20,,20,0,0
+1999,reviewer_feedback_items,verified explicit/synthesized feedback,all,13,,13,0,0
+1999,visualization_items,cataloged high-value visuals,all,17,,17,0,0
