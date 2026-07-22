@@ -1,0 +1,116 @@
+name: Trigger audited 2010 finalization v2
+
+on:
+  push:
+    branches:
+      - analysis/corpus-index
+    paths:
+      - .github/trigger-finalize-2010-v2
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: analysis/corpus-index
+          fetch-depth: 0
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install parser dependency
+        run: python -m pip install --disable-pip-version-check pymupdf
+      - name: Build audited 2010 index
+        run: python scripts/finalize_2010_manual.py
+      - name: Verify local gate
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('analysis-index')
+          expected = {'physical_carriers':20,'logical_documents':20,'solution_papers':9,'expert_commentaries':0,'problem_statements':4,'supporting_objects':7,'solution_lineages':9,'representations':20,'pdf_pages':320}
+          gate = json.loads((root/'08_quality/gates/2010_gate.json').read_text(encoding='utf-8'))
+          checkpoint = json.loads((root/'09_checkpoints/2010_checkpoint.json').read_text(encoding='utf-8'))
+          assert gate['status'] == 'pass_pending_remote_readback'
+          assert gate['counts'] == expected
+          assert checkpoint['counts'] == expected
+          assert (root/'08_quality/unresolved/2010_manual_review_queue.jsonl').read_text(encoding='utf-8').strip() == ''
+          docs = []
+          for p in (root/'02_documents/cards').glob('*/metadata.json'):
+              d = json.loads(p.read_text(encoding='utf-8'))
+              if d.get('year') == 2010:
+                  docs.append(d)
+          assert len(docs) == 20
+          for d in docs:
+              folder = root/'02_documents/cards'/d['logical_document_id']
+              for name in ('document_card.md','metadata.json','extracted_text.md','page_map.json','evidence.jsonl','review_record.md'):
+                  assert (folder/name).is_file(), (d['logical_document_id'], name)
+          PY
+      - name: Commit audited 2010 corpus
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          rm -f .github/workflows/finalize-2010-oneoff.yml
+          rm -f .github/workflows/finalize-2010-trigger-v2.yml
+          rm -f .github/trigger-finalize-2010-v2
+          git add -A
+          find analysis-index/02_documents/cards -path '*/extracted_text.md' -print0 | xargs -0 -r git add -f
+          git commit -m 'finalize manually reviewed 2010 award corpus'
+          git push origin HEAD:analysis/corpus-index
+      - name: Remote readback and pass checkpoint
+        run: |
+          git fetch origin analysis/corpus-index
+          first_sha=$(git rev-parse HEAD)
+          test "$first_sha" = "$(git rev-parse origin/analysis/corpus-index)"
+          ANALYSIS_COMMIT="$first_sha" python - <<'PY'
+          import json, os, time
+          from pathlib import Path
+          root = Path('analysis-index')
+          stamp = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+          sha = os.environ['ANALYSIS_COMMIT']
+          for path in (root/'08_quality/gates/2010_gate.json', root/'08_quality/2010_quality_gate.json'):
+              obj = json.loads(path.read_text(encoding='utf-8'))
+              obj['status'] = 'pass'
+              obj['checks']['remote_readback_verified'] = True
+              obj['note'] = 'All manual checks and remote readback passed.'
+              obj['analysis_commit_sha'] = sha
+              obj['updated_at'] = stamp
+              path.write_text(json.dumps(obj, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          cp = root/'09_checkpoints/2010_checkpoint.json'
+          obj = json.loads(cp.read_text(encoding='utf-8'))
+          obj['status'] = 'pass'; obj['remote_readback_verified'] = True; obj['analysis_commit_sha'] = sha; obj['remote_readback_at'] = stamp
+          cp.write_text(json.dumps(obj, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          summary = root/'00_control/2010_finalization_summary.json'
+          obj = json.loads(summary.read_text(encoding='utf-8'))
+          obj['status'] = 'pass'; obj['remote_readback_verified'] = True; obj['analysis_commit_sha'] = sha; obj['updated_at'] = stamp
+          obj['project_target_reached'] = False; obj['next_year_automatic_entry'] = False
+          summary.write_text(json.dumps(obj, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          progress = root/'00_control/progress.json'
+          obj = json.loads(progress.read_text(encoding='utf-8'))
+          obj['completed_years'] = sorted(set(obj.get('completed_years', [])) | {2010})
+          obj.setdefault('year_status', {})['2010'] = 'pass'
+          obj['last_verified_complete_year'] = 2010
+          obj['last_verified_remote_checkpoint'] = sha
+          obj['next_recommended_year'] = 2011
+          obj['target_end_year'] = 2011
+          obj['project_status'] = 'active'
+          obj['remote_publish_status'] = 'pass'
+          obj['updated_at'] = stamp
+          progress.write_text(json.dumps(obj, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          rb = root/'00_control/2010_remote_readback.json'
+          rb.write_text(json.dumps({'year':2010,'status':'pass','analysis_commit_sha':sha,'remote_readback_verified':True,'verified_at':stamp}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          PY
+          git add analysis-index/00_control analysis-index/08_quality analysis-index/09_checkpoints
+          git commit -m 'record 2010 remote pass checkpoint'
+          git push origin HEAD:analysis/corpus-index
+          second_sha=$(git rev-parse HEAD)
+          git fetch origin analysis/corpus-index
+          test "$second_sha" = "$(git rev-parse origin/analysis/corpus-index)"
+          git tag -f analysis_checkpoint_through_2010 "$second_sha"
+          git push -f origin refs/tags/analysis_checkpoint_through_2010
