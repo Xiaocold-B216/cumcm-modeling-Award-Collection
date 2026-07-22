@@ -1,4 +1,3 @@
-import csv
 import json
 import unittest
 from collections import Counter
@@ -29,13 +28,13 @@ class TestManualFinalization2008(unittest.TestCase):
         roles = Counter(d["document_role"] for d in self.docs)
         kinds = Counter(d["object_kind"] for d in self.docs)
         self.assertEqual(len(self.docs), 46)
-        self.assertEqual(roles["award_paper"], 26)
-        self.assertEqual(kinds["secondary_publication"], 1)
+        self.assertEqual(roles["award_paper"], 27)
+        self.assertEqual(kinds["solution_paper"], 27)
         self.assertEqual(roles["problem_statement"], 4)
         self.assertEqual(kinds["supporting_object"], 15)
         self.assertEqual(roles["expert_commentary"], 0)
         self.assertEqual(len(self.reps), 46)
-        self.assertEqual(len(self.lineages), 26)
+        self.assertEqual(len(self.lineages), 27)
         self.assertEqual(len(self.pages), 624)
 
     def test_six_pack_complete(self):
@@ -61,12 +60,11 @@ class TestManualFinalization2008(unittest.TestCase):
         expected = {
             "physical_carriers": 46,
             "logical_documents": 46,
-            "solution_papers": 26,
+            "solution_papers": 27,
             "expert_commentaries": 0,
             "problem_statements": 4,
             "supporting_objects": 15,
-            "secondary_publications": 1,
-            "solution_lineages": 26,
+            "solution_lineages": 27,
             "representations": 46,
             "pdf_pages": 624,
         }
@@ -78,7 +76,7 @@ class TestManualFinalization2008(unittest.TestCase):
     def test_problem_graph(self):
         graph = read_json(ANALYSIS / "04_relations/2008_problem_solution_graph.json")
         self.assertEqual({row["problem_code"] for row in graph["problems"]}, set("ABCD"))
-        self.assertEqual(sum(len(row["solution_lineage_ids"]) for row in graph["problems"]), 26)
+        self.assertEqual(sum(len(row["solution_lineage_ids"]) for row in graph["problems"]), 27)
 
 
 if __name__ == "__main__":
