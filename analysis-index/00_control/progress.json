@@ -8,94 +8,28 @@
   "analysis_checkpoint_through_1997": "e0297c7d0997a496425d3d81e05feb3f30e75fcb",
   "analysis_checkpoint_through_1998": "6395ff59c8db264522e98bd3a3eb981febe61abd",
   "analysis_checkpoint_geometry_through_1998": "2e43fe78fa5b455839df090d1b593910c7c4fd96",
-  "candidate_layer_years": [
-    1992,
-    1993,
-    1994,
-    1995,
-    1996,
-    1997,
-    1998,
-    1999,
-    2000,
-    2001,
-    2002,
-    2003,
-    2004,
-    2005,
-    2006,
-    2007,
-    2008,
-    2009,
-    2010
-  ],
-  "completed_years": [
-    1992,
-    1993,
-    1994,
-    1996,
-    1997,
-    1998
-  ],
-  "infrastructure_status": "rebuild_1992_1995_reconciled_remote_verified",
+  "analysis_checkpoint_through_1999": "092c9c1a22c42e4ae76a644841bb99a6fbba2f1e",
+  "candidate_layer_years": [1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010],
+  "completed_years": [1992,1993,1994,1995,1996,1997,1998,1999],
+  "infrastructure_status": "manual_review_verified_through_1999",
   "invalid_empty_run_superseded": true,
-  "last_verified_remote_checkpoint": "2e43fe78fa5b455839df090d1b593910c7c4fd96",
+  "last_verified_remote_checkpoint": "092c9c1a22c42e4ae76a644841bb99a6fbba2f1e",
   "next_candidate_year": null,
-  "next_recommended_year": 1995,
+  "next_recommended_year": 2000,
   "parser_version": "0.5.2",
-  "recovery_package_through_1993": {
-    "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1993-rebuilt-a6d6a657.tar.gz",
-    "sha256": "c1eb86c31376e2a47c6d72a123dd69b1fc13fec4037bef967e310ece58220d53"
-  },
-  "recovery_package_through_1994": {
-    "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1994-rebuilt-312a10f8.tar.gz",
-    "sha256": "834fae1950c6e878adea6e07ff78a41756d355d88fb94efb96b84380277ec6ee"
-  },
-  "recovery_package_through_1995": {
-    "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1995-rebuilt-411f2e3c.tar.gz",
-    "sha256": "6ce4d684f366f43e5c42dad80011c6d92b6bd7ca57400dad9f74e9eeba01a034"
-  },
-  "recovery_package_through_1996": {
-    "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1996-73afa870.tar.gz",
-    "sha256": "2eee462c198000bcc371e2a23931d981e22df60b358614d3e2b374957bda4c45"
-  },
-  "recovery_package_through_1997": {
-    "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1997-e0297c7d.tar.gz",
-    "sha256": "a74b51b9631091f5cf479e044ecf62f1b5078854caf6a56870ef5e11aebcf97c"
-  },
-  "recovery_package_through_1998": {
-    "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1998-6395ff59.tar.gz",
-    "sha256": "99bb5eb9723e6d8c77fad5867f67a4c8c2fbac25bbd2eb419c8dfc1336dabfec"
-  },
-  "recovery_package_geometry_through_1998": {
-    "path": "/workspace/recovery-artifacts/analysis-index-checkpoint-through-1998-geometry-2e43fe78.tar.gz",
-    "sha256": "0cecbdf4514f584ca3025b6ede2cc72f5fdc0604331fa581c42947dc55d60c2f"
-  },
-  "remote_publish_status": "verified_geometry_correction_with_recovery_package",
+  "recovery_package_through_1993": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1993-rebuilt-a6d6a657.tar.gz","sha256":"c1eb86c31376e2a47c6d72a123dd69b1fc13fec4037bef967e310ece58220d53"},
+  "recovery_package_through_1994": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1994-rebuilt-312a10f8.tar.gz","sha256":"834fae1950c6e878adea6e07ff78a41756d355d88fb94efb96b84380277ec6ee"},
+  "recovery_package_through_1995": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1995-rebuilt-411f2e3c.tar.gz","sha256":"6ce4d684f366f43e5c42dad80011c6d92b6bd7ca57400dad9f74e9eeba01a034"},
+  "recovery_package_through_1996": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1996-73afa870.tar.gz","sha256":"2eee462c198000bcc371e2a23931d981e22df60b358614d3e2b374957bda4c45"},
+  "recovery_package_through_1997": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1997-e0297c7d.tar.gz","sha256":"a74b51b9631091f5cf479e044ecf62f1b5078854caf6a56870ef5e11aebcf97c"},
+  "recovery_package_through_1998": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1998-6395ff59.tar.gz","sha256":"99bb5eb9723e6d8c77fad5867f67a4c8c2fbac25bbd2eb419c8dfc1336dabfec"},
+  "recovery_package_geometry_through_1998": {"path":"/workspace/recovery-artifacts/analysis-index-checkpoint-through-1998-geometry-2e43fe78.tar.gz","sha256":"0cecbdf4514f584ca3025b6ede2cc72f5fdc0604331fa581c42947dc55d60c2f"},
+  "recovery_package_through_1999": {"path":"/mnt/data/analysis-index-checkpoint-through-1999-manual.tar.gz","sha256":"deacacf64c3ad1921cd96bd1ef4679b2493c3d5cbaa7501d2c93c7ee915b2e7e"},
+  "remote_publish_status": "verified_1999_manual_core_with_complete_recovery_package",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "target_end_year": 2010,
-  "tests_passed": 34,
-  "updated_at": "2026-07-22T04:05:00Z",
-  "year_status": {
-    "1992": "pass",
-    "1993": "pass",
-    "1994": "pass",
-    "1995": "conditional_pass",
-    "1996": "pass",
-    "1997": "pass",
-    "1998": "pass",
-    "1999": "conditional_pass",
-    "2000": "conditional_pass",
-    "2001": "conditional_pass",
-    "2002": "conditional_pass",
-    "2003": "conditional_pass",
-    "2004": "conditional_pass",
-    "2005": "conditional_pass",
-    "2006": "conditional_pass",
-    "2007": "conditional_pass",
-    "2008": "conditional_pass",
-    "2009": "conditional_pass",
-    "2010": "conditional_pass"
-  }
+  "tests_passed": 45,
+  "updated_at": "2026-07-22T08:30:00Z",
+  "year_status": {"1992":"pass","1993":"pass","1994":"pass","1995":"conditional_pass","1996":"pass","1997":"pass","1998":"pass","1999":"pass","2000":"conditional_pass","2001":"conditional_pass","2002":"conditional_pass","2003":"conditional_pass","2004":"conditional_pass","2005":"conditional_pass","2006":"conditional_pass","2007":"conditional_pass","2008":"conditional_pass","2009":"conditional_pass","2010":"conditional_pass"}
 }
