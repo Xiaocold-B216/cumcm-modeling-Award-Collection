@@ -1,0 +1,34 @@
+name: Finalize 2012 corpus
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y antiword libreoffice
+          python -m pip install pymupdf pillow openpyxl python-docx
+      - name: Run 2012 finalizer
+        run: python scripts/finalize_2012_full.py
+      - name: Commit generated analysis
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add analysis-index
+          git commit -m "finalize 2012 corpus analysis" || true
+          git push
