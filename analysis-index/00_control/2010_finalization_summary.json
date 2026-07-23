@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "expert_commentaries": 0,
+    "logical_documents": 30,
+    "off_prompt_documents": 1,
+    "pdf_pages": 502,
+    "physical_carriers": 30,
+    "problem_statements": 4,
+    "representations": 30,
+    "solution_lineages": 18,
+    "solution_papers": 18,
+    "supporting_objects": 7
+  },
+  "hash_verification_complete": true,
+  "manual_page_review_complete": true,
+  "remote_readback_verified": false,
+  "six_pack_complete": true,
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "status": "pass_pending_remote_readback",
+  "updated_at": "2026-07-23T00:26:09Z",
+  "year": 2010
+}
