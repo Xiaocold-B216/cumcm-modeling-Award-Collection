@@ -1,0 +1,8 @@
+{
+  "checkpoint": "analysis_checkpoint_through_2011",
+  "status": "pass",
+  "analysis_commit_sha": "1b91780cd41a99cd44f59d31baa3d1ef9d67d87a",
+  "years": [1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011],
+  "remote_readback_verified": true,
+  "next_action": "await_2012_upload"
+}
