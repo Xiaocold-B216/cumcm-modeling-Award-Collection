@@ -1,0 +1,102 @@
+name: Inventory 2012 corpus via PR
+
+on:
+  pull_request:
+    branches:
+      - analysis/2012-inventory-base
+    paths:
+      - .github/trigger-2012-inventory
+
+permissions:
+  contents: write
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: analysis/2012-inventory-run
+          fetch-depth: 0
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y antiword libreoffice
+          python -m pip install --disable-pip-version-check pymupdf pillow openpyxl
+      - name: Inventory, hash and render 2012
+        run: |
+          python - <<'PY'
+          from __future__ import annotations
+          import hashlib, json, os, subprocess, tempfile
+          from pathlib import Path
+          import fitz
+          from PIL import Image
+          from openpyxl import load_workbook
+
+          root=Path.cwd(); year_root=root/'2012年数学建模国赛真题+优秀论文'
+          out=root/'analysis-index/00_control'; out.mkdir(parents=True,exist_ok=True)
+          contacts=root/'analysis-index/00_control/2012_contacts'; contacts.mkdir(parents=True,exist_ok=True)
+          def sha(p):
+              h=hashlib.sha256()
+              with p.open('rb') as f:
+                  for b in iter(lambda:f.read(1024*1024),b''): h.update(b)
+              return h.hexdigest()
+          rows=[]; pages=0; errors=[]
+          for p in sorted(x for x in year_root.rglob('*') if x.is_file()):
+              rel=p.relative_to(root).as_posix(); ext=p.suffix.lower(); row={'relative_path':rel,'filename':p.name,'extension':ext,'size_bytes':p.stat().st_size,'sha256':sha(p)}
+              try:
+                  if ext=='.pdf':
+                      fitz.TOOLS.reset_mupdf_warnings(); thumbs=[]
+                      with fitz.open(p) as doc:
+                          row['pdf_page_count']=doc.page_count; row['encrypted']=bool(doc.needs_pass); row['page_render_complete']=not doc.needs_pass
+                          row['page_text_chars']=[]; row['page_image_counts']=[]
+                          for i in range(doc.page_count):
+                              page=doc.load_page(i); text=page.get_text('text') or ''
+                              row['page_text_chars'].append(len(text)); row['page_image_counts'].append(len(page.get_images(full=True) or []))
+                              pix=page.get_pixmap(matrix=fitz.Matrix(0.18,0.18),alpha=False)
+                              thumbs.append((i+1,pix.width,pix.height,pix.samples))
+                          pages += doc.page_count
+                      row['mupdf_warnings']=list(dict.fromkeys(x for x in fitz.TOOLS.mupdf_warnings().splitlines() if x.strip()))
+                      if thumbs:
+                          from PIL import ImageDraw
+                          cellw=max(w for _,w,h,s in thumbs)+20; cellh=max(h for _,w,h,s in thumbs)+35; cols=4; rowsn=(len(thumbs)+cols-1)//cols
+                          sheet=Image.new('RGB',(cols*cellw,rowsn*cellh),'white'); draw=ImageDraw.Draw(sheet)
+                          for idx,(num,w,h,samples) in enumerate(thumbs):
+                              im=Image.frombytes('RGB',(w,h),samples); x=(idx%cols)*cellw+10; y=(idx//cols)*cellh+20; sheet.paste(im,(x,y)); draw.text((x,y-16),str(num),fill='black')
+                          sheet.save(contacts/(hashlib.sha256(rel.encode()).hexdigest()[:12]+'.jpg'),quality=80)
+                  elif ext in {'.png','.jpg','.jpeg','.bmp','.tif','.tiff','.gif','.webp'}:
+                      with Image.open(p) as im:
+                          row['image_size']=[im.width,im.height]; row['image_frames']=getattr(im,'n_frames',1); im.verify()
+                  elif ext=='.doc':
+                      cp=subprocess.run(['antiword',str(p)],stdout=subprocess.PIPE,stderr=subprocess.PIPE,check=False)
+                      row['antiword_returncode']=cp.returncode; row['text_chars']=len(cp.stdout); row['antiword_stderr']=cp.stderr.decode('utf-8','replace')[:500]
+                  elif ext in {'.xls','.xlsx'}:
+                      target=p
+                      if ext=='.xls':
+                          with tempfile.TemporaryDirectory() as td:
+                              cp=subprocess.run(['libreoffice','--headless','--convert-to','xlsx','--outdir',td,str(p)],stdout=subprocess.PIPE,stderr=subprocess.PIPE,check=False)
+                              converted=Path(td)/(p.stem+'.xlsx')
+                              if not converted.exists(): raise RuntimeError(cp.stderr.decode('utf-8','replace'))
+                              wb=load_workbook(converted,read_only=True,data_only=True)
+                              row['workbook_sheets']=[{'title':ws.title,'max_row':ws.max_row,'max_column':ws.max_column} for ws in wb.worksheets]; wb.close()
+                      else:
+                          wb=load_workbook(target,read_only=True,data_only=True); row['workbook_sheets']=[{'title':ws.title,'max_row':ws.max_row,'max_column':ws.max_column} for ws in wb.worksheets]; wb.close()
+              except Exception as e:
+                  row['error']=type(e).__name__+': '+str(e); errors.append({'path':rel,'error':row['error']})
+              rows.append(row)
+          obj={'year':2012,'physical_file_count':len(rows),'pdf_file_count':sum(r['extension']=='.pdf' for r in rows),'pdf_page_count':pages,'files':rows,'errors':errors}
+          (out/'2012_remote_inventory.json').write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          (out/'2012_inventory_summary.json').write_text(json.dumps({'year':2012,'physical_file_count':len(rows),'pdf_file_count':obj['pdf_file_count'],'pdf_page_count':pages,'error_count':len(errors)},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Commit inventory to run branch
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add analysis-index/00_control/2012_remote_inventory.json analysis-index/00_control/2012_inventory_summary.json analysis-index/00_control/2012_contacts
+          git commit -m 'inventory and render 2012 source carriers'
+          git push origin HEAD:analysis/2012-inventory-run
