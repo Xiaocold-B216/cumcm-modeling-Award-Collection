@@ -1,0 +1,3357 @@
+{
+  "year": 2012,
+  "physical_file_count": 268,
+  "pdf_file_count": 7,
+  "pdf_page_count": 206,
+  "files": [
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/1.xlsx",
+      "filename": "1.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 115713,
+      "sha256": "c0be55d6106ad830e16fa12a0b3b5dbfc6e07502e8044218e279bfb4be1bd5c9",
+      "workbook_sheets": [
+        {
+          "title": "红葡萄对酒",
+          "max_row": 28,
+          "max_column": 40
+        },
+        {
+          "title": "白葡萄对酒",
+          "max_row": 29,
+          "max_column": 39
+        },
+        {
+          "title": "红理化指标",
+          "max_row": 28,
+          "max_column": 129
+        },
+        {
+          "title": "白理化指标",
+          "max_row": 29,
+          "max_column": 129
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/2.xls",
+      "filename": "2.xls",
+      "extension": ".xls",
+      "size_bytes": 393216,
+      "sha256": "add1f4cf875af1dfad22e5c9e014fbbbbd063fe637238e54db41225a0ebcb959",
+      "workbook_sheets": [
+        {
+          "title": "红葡萄对酒",
+          "max_row": 56,
+          "max_column": 40
+        },
+        {
+          "title": "白葡萄对酒",
+          "max_row": 29,
+          "max_column": 39
+        },
+        {
+          "title": "红理化指标",
+          "max_row": 56,
+          "max_column": 129
+        },
+        {
+          "title": "白理化指标",
+          "max_row": 29,
+          "max_column": 129
+        },
+        {
+          "title": "Sheet1",
+          "max_row": 56,
+          "max_column": 64
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 56,
+          "max_column": 66
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/3.xlsx",
+      "filename": "3.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 35069,
+      "sha256": "62cb55faa4e6d7fde9070c3dc1d28fb4152a430c2319591e9ef7a748acd39c76",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 163,
+          "max_column": 34
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 113,
+          "max_column": 10
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/4.xls",
+      "filename": "4.xls",
+      "extension": ".xls",
+      "size_bytes": 228864,
+      "sha256": "52c1604e75bf9f82f7e4afae18a6893229370ed603c6fac9f461d8dc8b5764d0",
+      "workbook_sheets": [
+        {
+          "title": "葡萄酒",
+          "max_row": 65,
+          "max_column": 30
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 31,
+          "max_column": 7
+        },
+        {
+          "title": "红葡萄酒",
+          "max_row": 28,
+          "max_column": 10
+        },
+        {
+          "title": "白葡萄酒",
+          "max_row": 29,
+          "max_column": 9
+        },
+        {
+          "title": "红葡萄",
+          "max_row": 131,
+          "max_column": 32
+        },
+        {
+          "title": "白葡萄",
+          "max_row": 29,
+          "max_column": 31
+        },
+        {
+          "title": "红葡萄对酒",
+          "max_row": 28,
+          "max_column": 40
+        },
+        {
+          "title": "白葡萄对酒",
+          "max_row": 29,
+          "max_column": 39
+        },
+        {
+          "title": "四题一表",
+          "max_row": 21,
+          "max_column": 24
+        },
+        {
+          "title": "四题二表",
+          "max_row": 56,
+          "max_column": 24
+        },
+        {
+          "title": "四题表三",
+          "max_row": 43,
+          "max_column": 24
+        },
+        {
+          "title": "四题二表表",
+          "max_row": 28,
+          "max_column": 24
+        },
+        {
+          "title": "检验",
+          "max_row": 21,
+          "max_column": 22
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 8,
+          "max_column": 2
+        },
+        {
+          "title": "白扑扑",
+          "max_row": 29,
+          "max_column": 25
+        },
+        {
+          "title": "Sheet1",
+          "max_row": 14,
+          "max_column": 12
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/5.xlsx",
+      "filename": "5.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 16706,
+      "sha256": "931cd1bf5b8bf1118174e1c49d15b6a4ff679a7b6dd58c9748eb1610c783db48",
+      "workbook_sheets": [
+        {
+          "title": "总理化指标",
+          "max_row": 13,
+          "max_column": 9
+        },
+        {
+          "title": "因子1",
+          "max_row": 5,
+          "max_column": 5
+        },
+        {
+          "title": "因子2",
+          "max_row": 4,
+          "max_column": 4
+        },
+        {
+          "title": "因子3",
+          "max_row": 3,
+          "max_column": 3
+        },
+        {
+          "title": "因子4",
+          "max_row": 3,
+          "max_column": 3
+        },
+        {
+          "title": "因子5",
+          "max_row": 3,
+          "max_column": 3
+        },
+        {
+          "title": "因子6",
+          "max_row": 3,
+          "max_column": 3
+        },
+        {
+          "title": "因子7",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "因子8",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/A285.pdf",
+      "filename": "A285.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1888051,
+      "sha256": "ca15afed80d166cdb2f7232c220a2f1b0c6269199f13d48cf852973f19aa78ac",
+      "pdf_page_count": 41,
+      "encrypted": false,
+      "page_render_complete": true,
+      "page_text_chars": [
+        1090,
+        1282,
+        837,
+        1198,
+        1073,
+        1137,
+        1361,
+        1614,
+        1014,
+        1848,
+        1500,
+        1079,
+        1362,
+        1537,
+        1301,
+        1274,
+        621,
+        1376,
+        1283,
+        1182,
+        870,
+        1234,
+        1670,
+        1571,
+        1680,
+        1562,
+        2075,
+        2404,
+        1411,
+        1400,
+        1424,
+        1559,
+        1662,
+        5980,
+        7609,
+        7989,
+        8186,
+        7981,
+        8065,
+        665,
+        8
+      ],
+      "page_image_counts": [
+        1,
+        1,
+        1,
+        2,
+        4,
+        1,
+        2,
+        12,
+        2,
+        1,
+        1,
+        2,
+        6,
+        1,
+        2,
+        9,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mupdf_warnings": []
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/b系数.xls",
+      "filename": "b系数.xls",
+      "extension": ".xls",
+      "size_bytes": 5632,
+      "sha256": "521c00d1b1725b61ba67d9280fc7c2ebb50ad64e4db714d96de2992b8d6d3601",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 4,
+          "max_column": 5
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/b系数1.xls",
+      "filename": "b系数1.xls",
+      "extension": ".xls",
+      "size_bytes": 6144,
+      "sha256": "3fe4e801a337ed5de6c6254b8fe6aca285b49c1ec9a299f15aaaef59781b59a0",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 6,
+          "max_column": 7
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/b系数2.xls",
+      "filename": "b系数2.xls",
+      "extension": ".xls",
+      "size_bytes": 23552,
+      "sha256": "0902e0fa5b73920815356c8cb48bf93328580d92565d02ca7ed4ad6e2ed70430",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 7,
+          "max_column": 6
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/b系数3.xls",
+      "filename": "b系数3.xls",
+      "extension": ".xls",
+      "size_bytes": 27136,
+      "sha256": "e7ab51a6545641b44098d21b8ffd81f30f3e8071c7da57b9108a2a1a8e8afb62",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 28,
+          "max_column": 7
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/hdjay.sas",
+      "filename": "hdjay.sas",
+      "extension": ".sas",
+      "size_bytes": 46758,
+      "sha256": "9f0f737b653b119a1c15e46d218e025af1c1e3f261e4c4e25aff439fa33263d3"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/hdjco.sas",
+      "filename": "hdjco.sas",
+      "extension": ".sas",
+      "size_bytes": 1134,
+      "sha256": "c1b68525f0469052272206ce370af45cebcbee7272e32e84e2af439b3974c3b2"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/suiji.m",
+      "filename": "suiji.m",
+      "extension": ".m",
+      "size_bytes": 79,
+      "sha256": "775d718cd4a3465975ae0ea00624e779b434775653b00404edd1ae6a8258b92b"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/指标总表2.xlsx",
+      "filename": "指标总表2.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 117706,
+      "sha256": "ee692ca7646be2243d93e670a89a19649475d52adfd3af7bc3405e0399c03be6",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 28,
+          "max_column": 129
+        },
+        {
+          "title": "红理化指标",
+          "max_row": 28,
+          "max_column": 129
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/白葡萄酒.xlsx",
+      "filename": "白葡萄酒.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 10070,
+      "sha256": "8a3cf32de9363ebf2b8729e9d4349746608f25e69f87a5d91fb6830b39594f85",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 28,
+          "max_column": 4
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/系数.xls",
+      "filename": "系数.xls",
+      "extension": ".xls",
+      "size_bytes": 6656,
+      "sha256": "423ee88549657bde3e6b2dda7d9c18d57d14247e21ecfa9c30da8b4a21c0ebad",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 12,
+          "max_column": 7
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/系数1.xls",
+      "filename": "系数1.xls",
+      "extension": ".xls",
+      "size_bytes": 6144,
+      "sha256": "8c17ff2a1b8c56e241586ffb683b8f8b1a0869572cd25c7ae4ef6fb6be3e77f4",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 6,
+          "max_column": 7
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/系数2.xls",
+      "filename": "系数2.xls",
+      "extension": ".xls",
+      "size_bytes": 6144,
+      "sha256": "8c17ff2a1b8c56e241586ffb683b8f8b1a0869572cd25c7ae4ef6fb6be3e77f4",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 6,
+          "max_column": 7
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/系数3.xls",
+      "filename": "系数3.xls",
+      "extension": ".xls",
+      "size_bytes": 5632,
+      "sha256": "9b70352223e48895c5488aefb95b21d1738c73aa2a2a3987c916a05460fe33b0",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 4,
+          "max_column": 5
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/红葡萄酒.xlsx",
+      "filename": "红葡萄酒.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 131880,
+      "sha256": "d0332f2775f2bb8e20843e0ef99af0669eee0bbcd978d6ce29797cdb7ee8ae19",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 131,
+          "max_column": 28
+        },
+        {
+          "title": "极大型指标标准化",
+          "max_row": 131,
+          "max_column": 28
+        },
+        {
+          "title": "中间型指标",
+          "max_row": 131,
+          "max_column": 28
+        },
+        {
+          "title": "极小型指标",
+          "max_row": 92,
+          "max_column": 28
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 126,
+          "max_column": 5
+        },
+        {
+          "title": "处理后数据",
+          "max_row": 28,
+          "max_column": 28
+        },
+        {
+          "title": "Sheet5",
+          "max_row": 59,
+          "max_column": 30
+        },
+        {
+          "title": "Sheet6",
+          "max_row": 28,
+          "max_column": 3
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (1).pdf",
+      "filename": "2012A：葡萄酒的评价 (1).pdf",
+      "extension": ".pdf",
+      "size_bytes": 1527286,
+      "sha256": "949381e5cba1b4dc27e278e804288d75b8213a555e4da83f20ed99b4d5655352",
+      "pdf_page_count": 20,
+      "encrypted": false,
+      "page_render_complete": true,
+      "page_text_chars": [
+        242,
+        849,
+        1079,
+        884,
+        584,
+        670,
+        956,
+        691,
+        981,
+        1099,
+        293,
+        968,
+        1270,
+        1058,
+        1097,
+        363,
+        614,
+        613,
+        998,
+        792
+      ],
+      "page_image_counts": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        4,
+        4,
+        3,
+        1,
+        4,
+        1,
+        1,
+        2,
+        2,
+        3,
+        1,
+        1
+      ],
+      "mupdf_warnings": [
+        "Circular dependencies! Consider page cleaning.",
+        "... repeated 5 times..."
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (2).pdf",
+      "filename": "2012A：葡萄酒的评价 (2).pdf",
+      "extension": ".pdf",
+      "size_bytes": 1371682,
+      "sha256": "7234e4bf2d7fc31811ab427d220ca427a48b95b37d549a9302cbe21ee1a9cb16",
+      "pdf_page_count": 36,
+      "encrypted": false,
+      "page_render_complete": true,
+      "page_text_chars": [
+        1093,
+        994,
+        1243,
+        929,
+        850,
+        1116,
+        1303,
+        1466,
+        1419,
+        1464,
+        1328,
+        663,
+        814,
+        967,
+        1300,
+        1220,
+        1193,
+        1311,
+        1125,
+        1151,
+        1190,
+        785,
+        1076,
+        1449,
+        1250,
+        1485,
+        1126,
+        896,
+        245,
+        454,
+        2551,
+        2206,
+        2129,
+        1332,
+        1297,
+        591
+      ],
+      "page_image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        6,
+        1,
+        10,
+        6,
+        1,
+        1,
+        7,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mupdf_warnings": [
+        "Circular dependencies! Consider page cleaning.",
+        "... repeated 11 times..."
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (3).pdf",
+      "filename": "2012A：葡萄酒的评价 (3).pdf",
+      "extension": ".pdf",
+      "size_bytes": 986219,
+      "sha256": "b3e23d0568c6b8a3529598a4f2b9e3ed5b9eb90e71e32232b337f707996f5519",
+      "pdf_page_count": 27,
+      "encrypted": false,
+      "page_render_complete": true,
+      "page_text_chars": [
+        839,
+        742,
+        876,
+        648,
+        131,
+        517,
+        904,
+        723,
+        1029,
+        1067,
+        934,
+        1030,
+        1048,
+        1101,
+        931,
+        1241,
+        984,
+        1225,
+        1307,
+        926,
+        380,
+        142,
+        570,
+        403,
+        1673,
+        2132,
+        3
+      ],
+      "page_image_counts": [
+        1,
+        1,
+        1,
+        2,
+        6,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mupdf_warnings": []
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (4).doc",
+      "filename": "2012A：葡萄酒的评价 (4).doc",
+      "extension": ".doc",
+      "size_bytes": 1970688,
+      "sha256": "519fa35e0c76a094ffd89c38269f9bc1a9d1c491a8a675ef324f22705b28f1d5",
+      "antiword_returncode": 0,
+      "text_chars": 39706,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/B077.pdf",
+      "filename": "B077.pdf",
+      "extension": ".pdf",
+      "size_bytes": 473216,
+      "sha256": "cec3c5e0da82c5228e8a4e967bcaf7d437596ea07e33fccab2239036f519f5ac",
+      "pdf_page_count": 34,
+      "encrypted": false,
+      "page_render_complete": true,
+      "page_text_chars": [
+        103,
+        52,
+        869,
+        852,
+        830,
+        665,
+        924,
+        1272,
+        1003,
+        1027,
+        1144,
+        877,
+        1047,
+        1012,
+        1141,
+        1031,
+        458,
+        790,
+        651,
+        1034,
+        906,
+        75,
+        701,
+        373,
+        794,
+        1023,
+        1191,
+        907,
+        1283,
+        908,
+        1144,
+        541,
+        1258,
+        602
+      ],
+      "page_image_counts": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mupdf_warnings": []
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/Ratio.m",
+      "filename": "Ratio.m",
+      "extension": ".m",
+      "size_bytes": 678,
+      "sha256": "98e78927207a46a91e5b64aa566830fb61a265be9a23b12f11f319c2fef069d2"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/Space.m",
+      "filename": "Space.m",
+      "extension": ".m",
+      "size_bytes": 431,
+      "sha256": "6143218344b1b21fe9fa316c18ed1c2d19f6d27d5233f2cff956a0002ff4f456"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/account1.m",
+      "filename": "account1.m",
+      "extension": ".m",
+      "size_bytes": 3240,
+      "sha256": "b3e0d969a4c44cb08caa892ad8518621d96629abcb470a03a2e154ddc72ab71f"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/account2.m",
+      "filename": "account2.m",
+      "extension": ".m",
+      "size_bytes": 2207,
+      "sha256": "ce569047212dfcdc7e9da760d4c18009779e0d2340cc6ba9e29d383c105a4c67"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/account3.m",
+      "filename": "account3.m",
+      "extension": ".m",
+      "size_bytes": 306,
+      "sha256": "d7ecac3f5ef5ef6c00a7f1108ef267b4381b0ef0d1d03338c7b705b702865521"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/account4.m",
+      "filename": "account4.m",
+      "extension": ".m",
+      "size_bytes": 2206,
+      "sha256": "5a5e7def3a4db5873588e422f92649f7b6c0b7fb04be09ada42c0ab8c9cd51b9"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/cumcm2012B_附件3_三种类型的光伏电池(A单晶硅B多晶硅C非晶硅薄膜)组件设计参数和市场价格.xls",
+      "filename": "cumcm2012B_附件3_三种类型的光伏电池(A单晶硅B多晶硅C非晶硅薄膜)组件设计参数和市场价格.xls",
+      "extension": ".xls",
+      "size_bytes": 16896,
+      "sha256": "6265c17b973d41efa8f7ebb817f4eaf00bcf8c52689fb700d0a0dcd4e8b2cfd1",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 25,
+          "max_column": 8
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/cumcm2012B附件4_山西大同典型气象年逐时参数及各方向辐射强度.xls",
+      "filename": "cumcm2012B附件4_山西大同典型气象年逐时参数及各方向辐射强度.xls",
+      "extension": ".xls",
+      "size_bytes": 1175040,
+      "sha256": "0172461e5cb66888887fa4998bdc4ae6b24e4f53051d23c4bac2b26be640bdbd",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 8762,
+          "max_column": 10
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/profit.m",
+      "filename": "profit.m",
+      "extension": ".m",
+      "size_bytes": 848,
+      "sha256": "1718c67daf51409d8d67ac15810bbece79a030324c44e265be9d4f5d19e9b7be"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/zyjd.m",
+      "filename": "zyjd.m",
+      "extension": ".m",
+      "size_bytes": 1554,
+      "sha256": "fac95e6010761d69aa79d334a5945f3722740851aabebc41d56132b8dd09c765"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/程序.doc",
+      "filename": "程序.doc",
+      "extension": ".doc",
+      "size_bytes": 79872,
+      "sha256": "5bebe80a62ef4097b4945f2f371808d66ed2b375760975d9bf4f9242b1febb52",
+      "antiword_returncode": 0,
+      "text_chars": 32023,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/第一问靠北面屋顶铺设图.dwg",
+      "filename": "第一问靠北面屋顶铺设图.dwg",
+      "extension": ".dwg",
+      "size_bytes": 38636,
+      "sha256": "45e8fa7441f097ccae475a2f9a6df6757665a4b534f930e3fd0e94cfbce96371"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/第一问靠南面屋顶铺设图.dwg",
+      "filename": "第一问靠南面屋顶铺设图.dwg",
+      "extension": ".dwg",
+      "size_bytes": 44796,
+      "sha256": "444745c930e5dbdceb3d1981796daef170c4f2de12ca9bf1cb63f1aa8306b4c3"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/第三问铺设图.dwg",
+      "filename": "第三问铺设图.dwg",
+      "extension": ".dwg",
+      "size_bytes": 43892,
+      "sha256": "73c926e5fd3ccd29b45c4ad97c9eeb6d7d4aaf4fbb7223223bd6eac46b9be491"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/第二问铺设图.dwg",
+      "filename": "第二问铺设图.dwg",
+      "extension": ".dwg",
+      "size_bytes": 49056,
+      "sha256": "5049ad8e1c7129fa886a280ee08da32eae54138603d0ad0f23d44bc3ecc62712"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/西边墙铺设图.dwg",
+      "filename": "西边墙铺设图.dwg",
+      "extension": ".dwg",
+      "size_bytes": 44538,
+      "sha256": "886cc96b7cf42ff2128fda490de2b735acc20bbf2429e3047ba4cc728d60c15a"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/附件/设计图.dwg",
+      "filename": "设计图.dwg",
+      "extension": ".dwg",
+      "size_bytes": 67065,
+      "sha256": "93a5a062c61f505a4fc4bf02836896c776682f923891d672b2aec034407207cc"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/10121505.doc",
+      "filename": "10121505.doc",
+      "extension": ".doc",
+      "size_bytes": 887296,
+      "sha256": "f34850d4339e358c6a8c548224cec919afaa1b0f4adb660a81114c20d717015f",
+      "antiword_returncode": 0,
+      "text_chars": 28768,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/LINGO1.lg4",
+      "filename": "LINGO1.lg4",
+      "extension": ".lg4",
+      "size_bytes": 4608,
+      "sha256": "64076cb4956d1854af18d28c6acae48991ebb043eb0456513702727f31247f5d"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/东南西北各能量阶段总和.xls",
+      "filename": "东南西北各能量阶段总和.xls",
+      "extension": ".xls",
+      "size_bytes": 16896,
+      "sha256": "fa0a763f02afaa566adacaa9a3f01a8badc9d6a7df291527e60d7286ba8889c7",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 5,
+          "max_column": 7
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/北面墙处理.xls",
+      "filename": "北面墙处理.xls",
+      "extension": ".xls",
+      "size_bytes": 19968,
+      "sha256": "a8c111ac12ca34c5f0e9359b9050e8e04be65ae252a3c854376d377a1ca8b161",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 25,
+          "max_column": 9
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/南面墙处理.xls",
+      "filename": "南面墙处理.xls",
+      "extension": ".xls",
+      "size_bytes": 20992,
+      "sha256": "863ac808ac70747a18b01dbd9380e0039557afcddc85f484de94e082bb0b8f7c",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 25,
+          "max_column": 9
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/朝北斜面处理.xls",
+      "filename": "朝北斜面处理.xls",
+      "extension": ".xls",
+      "size_bytes": 20992,
+      "sha256": "cf72ef6b2c1b05c6f6e95ec0ef724dbd36092e5903128b54306b56d6d4ca213b",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 25,
+          "max_column": 9
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/朝南斜面处理.xls",
+      "filename": "朝南斜面处理.xls",
+      "extension": ".xls",
+      "size_bytes": 20992,
+      "sha256": "6dde1f35d1d9aa31a1ea90791a95fb982ac9dd32e0036ed99c5ba9fe674e7e76",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 25,
+          "max_column": 9
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/西面墙处理.xls",
+      "filename": "西面墙处理.xls",
+      "extension": ".xls",
+      "size_bytes": 20992,
+      "sha256": "fa37674ce84401a63631b6a80757b875b22867b94865c4e342ac7b1926c79695",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 25,
+          "max_column": 9
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/问题1东.m",
+      "filename": "问题1东.m",
+      "extension": ".m",
+      "size_bytes": 1062,
+      "sha256": "5095bf3cb987f25fb042619ed0ad5647f991f1247e97595aeb4ec1eebce1dc8c"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/问题1北斜面.m",
+      "filename": "问题1北斜面.m",
+      "extension": ".m",
+      "size_bytes": 839,
+      "sha256": "6f16d76186ded98bb2da60a520d4acbf7ee083490ca6b3bcc9820607dd349b32"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/问题1南.m",
+      "filename": "问题1南.m",
+      "extension": ".m",
+      "size_bytes": 1081,
+      "sha256": "69191a5a0ab3a53c92161449be240f3ceff6004e999250c8218dcb609dbe1835"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/问题1南斜面.m",
+      "filename": "问题1南斜面.m",
+      "extension": ".m",
+      "size_bytes": 981,
+      "sha256": "c071b6c3724b06ddb1853851b6f9e6ee7d1e3d96750a11974e7a7d9a5f6b5afc"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/问题1西.m",
+      "filename": "问题1西.m",
+      "extension": ".m",
+      "size_bytes": 972,
+      "sha256": "a8e9d532801c1648ccee3702c32c0872faa53ae0a610a11f27f071f8209672fc"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/问题2南斜面.m",
+      "filename": "问题2南斜面.m",
+      "extension": ".m",
+      "size_bytes": 795,
+      "sha256": "0787305211a5d2162ce4ef812eeccf31f5a62d517ddde7d697992441579b8c5c"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/问题3南.m",
+      "filename": "问题3南.m",
+      "extension": ".m",
+      "size_bytes": 1023,
+      "sha256": "bfb0e2eadd39d5af9b557ea0adc49303c0649ae5f417148d8b735b5af9db6d9e"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/问题3南斜面.m",
+      "filename": "问题3南斜面.m",
+      "extension": ".m",
+      "size_bytes": 885,
+      "sha256": "8c12e2a04f3f0bca56fa39370a58d11adc6cd046e11ac0e89f5d27a1927ea400"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/问题3西.m",
+      "filename": "问题3西.m",
+      "extension": ".m",
+      "size_bytes": 855,
+      "sha256": "d1eb141ef6b638e6cd3ffda2dafb3203eeaefb4a6269906057014d4749dccd77"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/问题二中的计算过程.xls",
+      "filename": "问题二中的计算过程.xls",
+      "extension": ".xls",
+      "size_bytes": 5148160,
+      "sha256": "699556df7f3609a24d2d8081d7d6ce9d6f0658fdff918167812abf7a290c30d5",
+      "workbook_sheets": [
+        {
+          "title": "封面",
+          "max_row": 33,
+          "max_column": 6
+        },
+        {
+          "title": "逐时气象参数",
+          "max_row": 8763,
+          "max_column": 37
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/20121784.doc",
+      "filename": "20121784.doc",
+      "extension": ".doc",
+      "size_bytes": 1056768,
+      "sha256": "d8a6941b4add626c8e9d9df846a8efb0cf12eab60132afd85cc8a2901d54fceb",
+      "antiword_returncode": 0,
+      "text_chars": 36639,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/20121784.pdf",
+      "filename": "20121784.pdf",
+      "extension": ".pdf",
+      "size_bytes": 556443,
+      "sha256": "4f77564ccfc4b9d56403654ee6993f1af6c9489db428c15d4af8dfc6517e97be",
+      "pdf_page_count": 18,
+      "encrypted": false,
+      "page_render_complete": true,
+      "page_text_chars": [
+        993,
+        1307,
+        700,
+        1278,
+        1300,
+        938,
+        969,
+        820,
+        566,
+        547,
+        677,
+        992,
+        839,
+        1124,
+        624,
+        967,
+        1445,
+        61
+      ],
+      "page_image_counts": [
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        1,
+        4,
+        1,
+        3,
+        1,
+        2,
+        9
+      ],
+      "mupdf_warnings": []
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/附录5.m",
+      "filename": "附录5.m",
+      "extension": ".m",
+      "size_bytes": 583,
+      "sha256": "a17cc4cfd3fd6cccd0d4d0d2b44e3a2bc785766af7504ece030afa7b808c3cb8"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/附录6.m",
+      "filename": "附录6.m",
+      "extension": ".m",
+      "size_bytes": 1236,
+      "sha256": "e35ccc964fb7aa29c19f294a885b99fc9db1c1b9c09580181d035d25b73ac0d1"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/附录一.m",
+      "filename": "附录一.m",
+      "extension": ".m",
+      "size_bytes": 932,
+      "sha256": "85ef6f3aac4b7ab4580006f05b74c62846cfc9cad50a971c3f213acd995154ff"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/附录七.lg4",
+      "filename": "附录七.lg4",
+      "extension": ".lg4",
+      "size_bytes": 4608,
+      "sha256": "410491e454b044500fcfff196c88c6f407a36f1c1289fb028bf5300940e7c079"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/附录二.m",
+      "filename": "附录二.m",
+      "extension": ".m",
+      "size_bytes": 990,
+      "sha256": "3c9feae989065ea88062bdb2a1bd6ec2880120314e22dd3943f70c1e174d2f04"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/附录四.lg4",
+      "filename": "附录四.lg4",
+      "extension": ".lg4",
+      "size_bytes": 4608,
+      "sha256": "2df2e4d408f4d12674251447a93f88aab016d71e71bf00b173bda6e465a3d118"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/B149答卷.pdf",
+      "filename": "B149答卷.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1144791,
+      "sha256": "90c31398dacda50949d10fa75f60e736b124e3947f908667f32fdd5c81f24ce8",
+      "pdf_page_count": 30,
+      "encrypted": false,
+      "page_render_complete": true,
+      "page_text_chars": [
+        1372,
+        1224,
+        487,
+        982,
+        1054,
+        964,
+        1198,
+        925,
+        1328,
+        1174,
+        1010,
+        1263,
+        1080,
+        1038,
+        1044,
+        955,
+        1009,
+        826,
+        551,
+        873,
+        391,
+        285,
+        45,
+        294,
+        561,
+        1045,
+        1049,
+        1292,
+        1492,
+        814
+      ],
+      "page_image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        3,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        4,
+        4,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mupdf_warnings": []
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/Untitled.m",
+      "filename": "Untitled.m",
+      "extension": ".m",
+      "size_bytes": 1342,
+      "sha256": "83d086beba49e1cb4156399b458f149d8253124ac9213a8683866b0921db4d60"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/bei_yingli.m",
+      "filename": "bei_yingli.m",
+      "extension": ".m",
+      "size_bytes": 562,
+      "sha256": "cf5b6d3264c34f50ffe7a6fc6861c50305de274fb60b1cab83c15692ab7da57f"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/beimian_fadianliang.m",
+      "filename": "beimian_fadianliang.m",
+      "extension": ".m",
+      "size_bytes": 629,
+      "sha256": "f08fb685c9c8b380d1b2fadd347f44c08227fd5918f4a36b696a06fc116c4460"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/cumcm.xls",
+      "filename": "cumcm.xls",
+      "extension": ".xls",
+      "size_bytes": 3579904,
+      "sha256": "0f45df80907bd7636bcc9ec28d86afdb7f61bb9b305bf915eda942e63045fd4a",
+      "workbook_sheets": [
+        {
+          "title": "封面",
+          "max_row": 33,
+          "max_column": 6
+        },
+        {
+          "title": "sheet",
+          "max_row": 8763,
+          "max_column": 13
+        },
+        {
+          "title": "Sheet1",
+          "max_row": 25,
+          "max_column": 11
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 18,
+          "max_column": 13
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 37304,
+          "max_column": 9
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/dong_yingli.m",
+      "filename": "dong_yingli.m",
+      "extension": ".m",
+      "size_bytes": 562,
+      "sha256": "119c2e8a1603301730d3beba681bb2fc151d4fe6764330c1b17c4d8e7fedb9d6"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/fadianliang.m",
+      "filename": "fadianliang.m",
+      "extension": ".m",
+      "size_bytes": 499,
+      "sha256": "58210647994d22f2edd2c62943f007de4954c578a4b830ea8307c1ebcc727c1d"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/gfdc_zuhe2.m",
+      "filename": "gfdc_zuhe2.m",
+      "extension": ".m",
+      "size_bytes": 2674,
+      "sha256": "8f873ba026772b1671643f75ceb7ec51735603ad605f84ff2f67af3b784d3899"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/nan_yingli.m",
+      "filename": "nan_yingli.m",
+      "extension": ".m",
+      "size_bytes": 562,
+      "sha256": "2ab8a7b5e822127fbcce4339cd2acee4a05355015fee36203338efffdff47831"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/pailie.m",
+      "filename": "pailie.m",
+      "extension": ".m",
+      "size_bytes": 568,
+      "sha256": "f3858f9ec2150bd77f4c8f65e7be2e1bc953755ce9804958c3aae2bc8a57f76a"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/qiangdu(!).m",
+      "filename": "qiangdu(!).m",
+      "extension": ".m",
+      "size_bytes": 570,
+      "sha256": "2406a987947f84a2ba1d472d19491f1ba3f0b692350c92d17e2a3a892d3e4772"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/renyijiaodu_fadianliang.m",
+      "filename": "renyijiaodu_fadianliang.m",
+      "extension": ".m",
+      "size_bytes": 626,
+      "sha256": "bc12364799bcf7d7483500e3213f419a5b328b86d79c2599310cfd5ed0b4d023"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/shuiping_yingli.m",
+      "filename": "shuiping_yingli.m",
+      "extension": ".m",
+      "size_bytes": 563,
+      "sha256": "a4400e177103253d47763760265ca981a7919e371cf1fb449461735b0c992e16"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/sun_jisuan_day_1.m",
+      "filename": "sun_jisuan_day_1.m",
+      "extension": ".m",
+      "size_bytes": 1595,
+      "sha256": "f39128139f0482c0b2945a8e8aced655ca6dd2e301a5a2d3e7f47f25d288bda9"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/sun_jisuan_day_2.m",
+      "filename": "sun_jisuan_day_2.m",
+      "extension": ".m",
+      "size_bytes": 2515,
+      "sha256": "6a5480e3130d18f4958b88182fe24776c42ff5b6b07a32acd227b7301aa6d88a"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/sun_jisuan_day_gama.m",
+      "filename": "sun_jisuan_day_gama.m",
+      "extension": ".m",
+      "size_bytes": 2491,
+      "sha256": "f0b3283359e2eeba481281551431bc9dfa0948ba6c6494e4fd0d8a573f6ab169"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/wuding2_yingli.m",
+      "filename": "wuding2_yingli.m",
+      "extension": ".m",
+      "size_bytes": 562,
+      "sha256": "af8ca4f8a1ff8acd36d505d5e71c23b75538abf60aea65b4a1cb97a039e1cbd4"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/wuding_yingli - 副本.m",
+      "filename": "wuding_yingli - 副本.m",
+      "extension": ".m",
+      "size_bytes": 566,
+      "sha256": "32e40b3c7b41b4fcb3e0d43ce019f4effc6b4efdaf87563f352daa2f17fcb7dd"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/wuding_yingli.m",
+      "filename": "wuding_yingli.m",
+      "extension": ".m",
+      "size_bytes": 563,
+      "sha256": "1695842a3c28b5604b914c45a691262aebc339043fd4354de8d2f559068b4339"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/xi_yingli.m",
+      "filename": "xi_yingli.m",
+      "extension": ".m",
+      "size_bytes": 562,
+      "sha256": "5b501c78e6e6c6827a1baf401b0e2409a92bc07ddcae0d3ee2a7632e64fb5a82"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/zuijiajiaodu.m",
+      "filename": "zuijiajiaodu.m",
+      "extension": ".m",
+      "size_bytes": 1162,
+      "sha256": "3ba1fb90c93a5d5e6b4659f500a98014cf980b645565799f5070e5baca2dae8d"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/基于递归算法的建筑外表面光伏电池布局优化分析与设计.doc",
+      "filename": "基于递归算法的建筑外表面光伏电池布局优化分析与设计.doc",
+      "extension": ".doc",
+      "size_bytes": 1717248,
+      "sha256": "4357f1eb1da91d0c65923d25ab6218f234c9f123a221ded8ee6318ecec53cc05",
+      "antiword_returncode": 0,
+      "text_chars": 43667,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/小屋设计图/重新设计小屋_东立面_sketchup.jpg",
+      "filename": "重新设计小屋_东立面_sketchup.jpg",
+      "extension": ".jpg",
+      "size_bytes": 34584,
+      "sha256": "2527399833ad65e9ac0a004dee8c3f299439c9ae9495324202ad5d717b1f6283",
+      "image_size": [
+        1300,
+        624
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/小屋设计图/重新设计小屋_北立面_sketchup.jpg",
+      "filename": "重新设计小屋_北立面_sketchup.jpg",
+      "extension": ".jpg",
+      "size_bytes": 36983,
+      "sha256": "f67536f9ee1661678016c018a11a209d1dd5f56aaf203d0c98bb3ce6ca94cfda",
+      "image_size": [
+        1300,
+        624
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/小屋设计图/重新设计小屋_南立面_sketchup.jpg",
+      "filename": "重新设计小屋_南立面_sketchup.jpg",
+      "extension": ".jpg",
+      "size_bytes": 35614,
+      "sha256": "8e9469b4f297dc381aee256c75f203aa21e011b5ca55153bab25fdd95fe9d84f",
+      "image_size": [
+        1300,
+        624
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/小屋设计图/重新设计小屋_屋顶平面_sketchup.jpg",
+      "filename": "重新设计小屋_屋顶平面_sketchup.jpg",
+      "extension": ".jpg",
+      "size_bytes": 29602,
+      "sha256": "aae1dfa9672f8341afdc03ec7b6c71ac0cd3c9cf91a86169d6bf55ceb6437dbf",
+      "image_size": [
+        1300,
+        624
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/小屋设计图/重新设计小屋_西立面_sketchup.jpg",
+      "filename": "重新设计小屋_西立面_sketchup.jpg",
+      "extension": ".jpg",
+      "size_bytes": 34478,
+      "sha256": "37f93a18a55b4eb92a430b14febf63cd43ddaa1272755d43f92672ea7c817781",
+      "image_size": [
+        1300,
+        624
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/小屋设计图/重新设计小屋_顶视图_sketchup.jpg",
+      "filename": "重新设计小屋_顶视图_sketchup.jpg",
+      "extension": ".jpg",
+      "size_bytes": 111532,
+      "sha256": "4116fd9950321a4b7189fa9aee66123f3ccf70a9ae224c5c1c7af8b5c6bf23a5",
+      "image_size": [
+        1300,
+        624
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/小屋设计图/重新设计小屋的立面图纸.png",
+      "filename": "重新设计小屋的立面图纸.png",
+      "extension": ".png",
+      "size_bytes": 14864,
+      "sha256": "1c9095115478e50dd939c290c888c17b065947df693455c4fa9c3e96bfec9af2",
+      "image_size": [
+        687,
+        477
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/总表格.xlsx",
+      "filename": "总表格.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 1582465,
+      "sha256": "2b1c7b61c19badba33e4c37a90186807e0ebbf47425016e6211745ea1e585063",
+      "workbook_sheets": [
+        {
+          "title": "倾斜面辐射总量",
+          "max_row": 8761,
+          "max_column": 19
+        },
+        {
+          "title": "各逆变器单位功率费用",
+          "max_row": 20,
+          "max_column": 17
+        },
+        {
+          "title": "排除北面",
+          "max_row": 25,
+          "max_column": 6
+        },
+        {
+          "title": "排除北面2",
+          "max_row": 45,
+          "max_column": 14
+        },
+        {
+          "title": "排除东面",
+          "max_row": 13,
+          "max_column": 8
+        },
+        {
+          "title": "各型号在各表面的利润",
+          "max_row": 32,
+          "max_column": 19
+        },
+        {
+          "title": "编程所得结果",
+          "max_row": 18,
+          "max_column": 25
+        },
+        {
+          "title": "问题一",
+          "max_row": 22,
+          "max_column": 4
+        },
+        {
+          "title": "问题二",
+          "max_row": 26,
+          "max_column": 4
+        },
+        {
+          "title": "问题三",
+          "max_row": 15,
+          "max_column": 4
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/code_贪心.cpp",
+      "filename": "code_贪心.cpp",
+      "extension": ".cpp",
+      "size_bytes": 3241,
+      "sha256": "656f255ac24e9155cf355afd31779274e2df7be52d761ccca8642a77dc0c84c6"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/Debug/code_贪心_南面.exe",
+      "filename": "code_贪心_南面.exe",
+      "extension": ".exe",
+      "size_bytes": 217196,
+      "sha256": "9dfa0f06025bcdd39e818a4577f3625613aa0b02e28269e16cba378163b776da"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/Debug/code_贪心_南面.ilk",
+      "filename": "code_贪心_南面.ilk",
+      "extension": ".ilk",
+      "size_bytes": 210196,
+      "sha256": "5ecc0f60e24a1a1de988f4163a3f72a57003489b54c473f5c3a73942fbe18762"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/Debug/code_贪心_南面.obj",
+      "filename": "code_贪心_南面.obj",
+      "extension": ".obj",
+      "size_bytes": 11932,
+      "sha256": "b37efc73e0c4eee72a22d213f8a8036daf45fee8241f0670c8cc6ba8d7220cee"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/Debug/code_贪心_南面.pch",
+      "filename": "code_贪心_南面.pch",
+      "extension": ".pch",
+      "size_bytes": 221420,
+      "sha256": "05338e23a77bc984b332846028828fd8877d3dc6182b3ea0ecda55be632fcc90"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/Debug/code_贪心_南面.pdb",
+      "filename": "code_贪心_南面.pdb",
+      "extension": ".pdb",
+      "size_bytes": 361472,
+      "sha256": "ee090ddb902e925b48f990f1ec72c4b5b259fc35667df15d459b99e9159da3e3"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/Debug/vc60.idb",
+      "filename": "vc60.idb",
+      "extension": ".idb",
+      "size_bytes": 33792,
+      "sha256": "091ed107e48a333786ef0e92320a41ef2cab7812df71d8da5b59212f6a6c3d28"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/Debug/vc60.pdb",
+      "filename": "vc60.pdb",
+      "extension": ".pdb",
+      "size_bytes": 45056,
+      "sha256": "8d7d0dcd532cd393cec03f487f8692799e3f723a73093dc2b46ef5781acf0c07"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/code_贪心_南面.cpp",
+      "filename": "code_贪心_南面.cpp",
+      "extension": ".cpp",
+      "size_bytes": 3619,
+      "sha256": "3e393ef9f8807255ab64a0f893b12b7eaf7c3104249d4cd482d6dfc7065b74c6"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/code_贪心_南面.dsp",
+      "filename": "code_贪心_南面.dsp",
+      "extension": ".dsp",
+      "size_bytes": 3499,
+      "sha256": "7cb3b05a2bd1176938081297c36a9ebc68a6bb3fb42fc01def5cf780a4019332"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/code_贪心_南面.dsw",
+      "filename": "code_贪心_南面.dsw",
+      "extension": ".dsw",
+      "size_bytes": 536,
+      "sha256": "6f3358b4f89c361b166ec7df3fa3ada719326cb36fc510a04bf1c81fddf3ac5d"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/code_贪心_南面.ncb",
+      "filename": "code_贪心_南面.ncb",
+      "extension": ".ncb",
+      "size_bytes": 33792,
+      "sha256": "5d8ad37f38956d99f67c65f0e95240bd67c027bd8ac6a5a1d4e2ff545fb9855b"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/code_贪心_南面.opt",
+      "filename": "code_贪心_南面.opt",
+      "extension": ".opt",
+      "size_bytes": 48640,
+      "sha256": "849035e456829560e2f76c4045a96c94e0142c5f9474d6d0c016e72a7d153dbe"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/南面/code_贪心_南面.plg",
+      "filename": "code_贪心_南面.plg",
+      "extension": ".plg",
+      "size_bytes": 1385,
+      "sha256": "89b44b615bb4998c535ceccc073e908d6f6cfc37987156f014b24855c5a34610"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step1.cpp",
+      "filename": "CUMCM_Q1_屋顶_step1.cpp",
+      "extension": ".cpp",
+      "size_bytes": 3617,
+      "sha256": "462ee2921b11099e36451c911a50e987db7c98eaf03976952a417815814bd9a9"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step1.dsp",
+      "filename": "CUMCM_Q1_屋顶_step1.dsp",
+      "extension": ".dsp",
+      "size_bytes": 3559,
+      "sha256": "de3f0f329f4ce60b9c1b99cb0ce618f4b22a93303c3f130cc89075e66c20c070"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step1.dsw",
+      "filename": "CUMCM_Q1_屋顶_step1.dsw",
+      "extension": ".dsw",
+      "size_bytes": 546,
+      "sha256": "0b882c87b6e125beddf73561e4614dea41072ed4830e4a482ca27c6df38106bb"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step1.ncb",
+      "filename": "CUMCM_Q1_屋顶_step1.ncb",
+      "extension": ".ncb",
+      "size_bytes": 33792,
+      "sha256": "cb36b2617549529dfa5982ee30c469c3e0bdc538519b6ded8d9db6e2dca3efe1"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step1.opt",
+      "filename": "CUMCM_Q1_屋顶_step1.opt",
+      "extension": ".opt",
+      "size_bytes": 48640,
+      "sha256": "fbb208bcc01a960b63baeed978244b3194fa5bf1e528f54cfb41facd513a0c5a"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step1.plg",
+      "filename": "CUMCM_Q1_屋顶_step1.plg",
+      "extension": ".plg",
+      "size_bytes": 1581,
+      "sha256": "d0a31692011908fea5a287f5c20f8c52b37f42220b66e0e8e25c42b32b176237"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step2.cpp",
+      "filename": "CUMCM_Q1_屋顶_step2.cpp",
+      "extension": ".cpp",
+      "size_bytes": 1545,
+      "sha256": "a7f35be849b3f7c587d238c287e88fbe0697dd48fd867c5185fdfde4cb253dc9"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step2.dsp",
+      "filename": "CUMCM_Q1_屋顶_step2.dsp",
+      "extension": ".dsp",
+      "size_bytes": 3559,
+      "sha256": "de6959a3a96cd607ac211e770ef933af0d02899043427818b4512c9bfbabe1f2"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step2.dsw",
+      "filename": "CUMCM_Q1_屋顶_step2.dsw",
+      "extension": ".dsw",
+      "size_bytes": 546,
+      "sha256": "662bd13b8253581023b3dcdeac7a7a527d5c4d33f23792256fdc50c13dedc893"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step2.ncb",
+      "filename": "CUMCM_Q1_屋顶_step2.ncb",
+      "extension": ".ncb",
+      "size_bytes": 41984,
+      "sha256": "5a7d7fc9f581d11871f8dfa7f430059280876f343619133f78aee51532d834db"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step2.opt",
+      "filename": "CUMCM_Q1_屋顶_step2.opt",
+      "extension": ".opt",
+      "size_bytes": 48640,
+      "sha256": "f1b861bad60a79ec458e4b5fb1c82ecd535f91132dd615a9ea3fe7f1d1160ae8"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/CUMCM_Q1_屋顶_step2.plg",
+      "filename": "CUMCM_Q1_屋顶_step2.plg",
+      "extension": ".plg",
+      "size_bytes": 1254,
+      "sha256": "ab8cccb9426a76b095f61fa51c1d30540199be8affc8f8ac7dd77727c64905af"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/CUMCM_Q1_屋顶_step1.exe",
+      "filename": "CUMCM_Q1_屋顶_step1.exe",
+      "extension": ".exe",
+      "size_bytes": 196707,
+      "sha256": "847e7d8f0dd4b656789383dc814bc8a309d2883ffae061281011cb09d6fe87d6"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/CUMCM_Q1_屋顶_step1.ilk",
+      "filename": "CUMCM_Q1_屋顶_step1.ilk",
+      "extension": ".ilk",
+      "size_bytes": 188996,
+      "sha256": "b4fe026a31f6a357ce26633fd74013d3e4dbfaea447bf7e875efa0359a38d083"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/CUMCM_Q1_屋顶_step1.obj",
+      "filename": "CUMCM_Q1_屋顶_step1.obj",
+      "extension": ".obj",
+      "size_bytes": 11716,
+      "sha256": "dd358e39378a293f9abd6eb2989112af41448ffff054f5dc9de6b7aee77a32f1"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/CUMCM_Q1_屋顶_step1.pch",
+      "filename": "CUMCM_Q1_屋顶_step1.pch",
+      "extension": ".pch",
+      "size_bytes": 221420,
+      "sha256": "3c872971dbbba3089b85919885bd1d228b5ddf05ebe53a7826ca2feb00a87cbd"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/CUMCM_Q1_屋顶_step1.pdb",
+      "filename": "CUMCM_Q1_屋顶_step1.pdb",
+      "extension": ".pdb",
+      "size_bytes": 353280,
+      "sha256": "810e0d4c679238580b8839086ab9aa2e8cf7e375d0fd9dbaf86d05a8f951c859"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/CUMCM_Q1_屋顶_step2.exe",
+      "filename": "CUMCM_Q1_屋顶_step2.exe",
+      "extension": ".exe",
+      "size_bytes": 188515,
+      "sha256": "732658bf46694b416cc4163d82cef04d4919c74c8a19094be07346c35f9a2a95"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/CUMCM_Q1_屋顶_step2.ilk",
+      "filename": "CUMCM_Q1_屋顶_step2.ilk",
+      "extension": ".ilk",
+      "size_bytes": 196888,
+      "sha256": "7773186a9549bbb89ee25c1278c98d44c897ac6844e5a21b89d8bcabbf54c490"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/CUMCM_Q1_屋顶_step2.obj",
+      "filename": "CUMCM_Q1_屋顶_step2.obj",
+      "extension": ".obj",
+      "size_bytes": 5575,
+      "sha256": "b12815ecb66515d2d22c92466d56c4b04494f09e4bdac42144fc97cfedb24bcf"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/CUMCM_Q1_屋顶_step2.pch",
+      "filename": "CUMCM_Q1_屋顶_step2.pch",
+      "extension": ".pch",
+      "size_bytes": 221420,
+      "sha256": "84cbf7f57c50cd66fbcd0270f4defb08cc92e0e7c36660849c48cd0c30623e21"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/CUMCM_Q1_屋顶_step2.pdb",
+      "filename": "CUMCM_Q1_屋顶_step2.pdb",
+      "extension": ".pdb",
+      "size_bytes": 435200,
+      "sha256": "990275bd602a79459043d70043ec77febefc7589d02d9600a4b539048d6c0f0a"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/vc60.idb",
+      "filename": "vc60.idb",
+      "extension": ".idb",
+      "size_bytes": 41984,
+      "sha256": "d453ffd2548c6f070c51ccd57dfa04ee66ff5780299ad4ec5ad24f339e415f5c"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/房顶/Debug/vc60.pdb",
+      "filename": "vc60.pdb",
+      "extension": ".pdb",
+      "size_bytes": 53248,
+      "sha256": "5fb2cd1546fbabc5b1915df2e966aa913ecc5268b50b05a5a7bc44bc253f4e6f"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step1.cpp",
+      "filename": "CUMCM_Q1_西面_step1.cpp",
+      "extension": ".cpp",
+      "size_bytes": 2695,
+      "sha256": "a55852ee4bbed069fcc50342e1be08f31a2e3e8596aa2180401e6531a7a0499b"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step1.dsp",
+      "filename": "CUMCM_Q1_西面_step1.dsp",
+      "extension": ".dsp",
+      "size_bytes": 3559,
+      "sha256": "fc2d04e2e3040ea852a4c65b932f31d9b9f140cf202c2fd645db4ab4812e6490"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step1.dsw",
+      "filename": "CUMCM_Q1_西面_step1.dsw",
+      "extension": ".dsw",
+      "size_bytes": 546,
+      "sha256": "24918f69f9c37d02d167764367e2cc652ad609eb9eac7c2a1199d79e0343db71"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step1.ncb",
+      "filename": "CUMCM_Q1_西面_step1.ncb",
+      "extension": ".ncb",
+      "size_bytes": 33792,
+      "sha256": "6c05836e7f1973d403c6baacbf992bcdc89919f29182bb9c671b6bcff1760505"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step1.opt",
+      "filename": "CUMCM_Q1_西面_step1.opt",
+      "extension": ".opt",
+      "size_bytes": 48640,
+      "sha256": "817812d7f0701c2e69468806cb911a4fc5e73bc03e36302f79a90198c949a556"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step1.plg",
+      "filename": "CUMCM_Q1_西面_step1.plg",
+      "extension": ".plg",
+      "size_bytes": 1402,
+      "sha256": "63f991b40d42122d17775aab01d2bc06a3083242bcfae8b9f518f48f7534e402"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step2.cpp",
+      "filename": "CUMCM_Q1_西面_step2.cpp",
+      "extension": ".cpp",
+      "size_bytes": 2367,
+      "sha256": "66b8842ac8999f6f1c7a639e9a3986e54b2a2f66e37ca164b0d75a46059cb11f"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step2.dsp",
+      "filename": "CUMCM_Q1_西面_step2.dsp",
+      "extension": ".dsp",
+      "size_bytes": 3559,
+      "sha256": "1ad663f7f308230239b65c363c14a02c5f8f18cf48496568cda72ac8e51ae813"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step2.dsw",
+      "filename": "CUMCM_Q1_西面_step2.dsw",
+      "extension": ".dsw",
+      "size_bytes": 546,
+      "sha256": "7215936c19c52ec76f45ad946c0406c52c07aacefb5ae568f11e08a459c87d0d"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step2.ncb",
+      "filename": "CUMCM_Q1_西面_step2.ncb",
+      "extension": ".ncb",
+      "size_bytes": 33792,
+      "sha256": "ef799e971acbb7eb1ef5d3b415c10726d81df208175f44bd5e8dd46f8fe5337a"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step2.opt",
+      "filename": "CUMCM_Q1_西面_step2.opt",
+      "extension": ".opt",
+      "size_bytes": 48640,
+      "sha256": "de3866121796f9f3c8dab454188f6b31cd53fda55ef756d34b57bfa57b743653"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/CUMCM_Q1_西面_step2.plg",
+      "filename": "CUMCM_Q1_西面_step2.plg",
+      "extension": ".plg",
+      "size_bytes": 1254,
+      "sha256": "9440663cde571378854472bd8d801c56fb9644f3720b89e5c76613f0473c5b7a"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/CUMCM_Q1_西面_step1.exe",
+      "filename": "CUMCM_Q1_西面_step1.exe",
+      "extension": ".exe",
+      "size_bytes": 192611,
+      "sha256": "556219036441ed66099d66577a9a711da4fa4aaeeb2f2a5e2fd275225baac992"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/CUMCM_Q1_西面_step1.ilk",
+      "filename": "CUMCM_Q1_西面_step1.ilk",
+      "extension": ".ilk",
+      "size_bytes": 187396,
+      "sha256": "8d60316337975e0d9424e55210c2437911ab259869a0ac39bb0083363d9a1e50"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/CUMCM_Q1_西面_step1.obj",
+      "filename": "CUMCM_Q1_西面_step1.obj",
+      "extension": ".obj",
+      "size_bytes": 8944,
+      "sha256": "25d192ba499bdf08d2e480e9976328b34b660aafc4da1c8d20a6414ca6858764"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/CUMCM_Q1_西面_step1.pch",
+      "filename": "CUMCM_Q1_西面_step1.pch",
+      "extension": ".pch",
+      "size_bytes": 221420,
+      "sha256": "132f5a3d97b6ead5192fc565d9c1d90ebc0e017138bb1a1b057fc94e8fba09cb"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/CUMCM_Q1_西面_step1.pdb",
+      "filename": "CUMCM_Q1_西面_step1.pdb",
+      "extension": ".pdb",
+      "size_bytes": 353280,
+      "sha256": "dd4a964f3740a17870cc65bc59df64f3783cce98b1f8270cff5f772e36dc1eb9"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/CUMCM_Q1_西面_step2.exe",
+      "filename": "CUMCM_Q1_西面_step2.exe",
+      "extension": ".exe",
+      "size_bytes": 188515,
+      "sha256": "7371ded8960f1362b7d168f964225081b64108f07d315133559260701ec25344"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/CUMCM_Q1_西面_step2.ilk",
+      "filename": "CUMCM_Q1_西面_step2.ilk",
+      "extension": ".ilk",
+      "size_bytes": 186040,
+      "sha256": "5488bf24f4891a406bada3c8b9dccaef6584dd1f9dde77f727e9e9edcf7ca463"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/CUMCM_Q1_西面_step2.obj",
+      "filename": "CUMCM_Q1_西面_step2.obj",
+      "extension": ".obj",
+      "size_bytes": 7021,
+      "sha256": "9d02f588d9f4e44d2e03e5f33ea3522d6a14693f13e7d7e330575fde7111c338"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/CUMCM_Q1_西面_step2.pch",
+      "filename": "CUMCM_Q1_西面_step2.pch",
+      "extension": ".pch",
+      "size_bytes": 221420,
+      "sha256": "24f94c79930fe7e47558927507ddebe5876dcd2bfb5941f0480bf213f9c29eb2"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/CUMCM_Q1_西面_step2.pdb",
+      "filename": "CUMCM_Q1_西面_step2.pdb",
+      "extension": ".pdb",
+      "size_bytes": 353280,
+      "sha256": "4baa14078ff44b9c38d8df8c015a8fa2a718847ce50b13d55434063fcfe54059"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/vc60.idb",
+      "filename": "vc60.idb",
+      "extension": ".idb",
+      "size_bytes": 33792,
+      "sha256": "47cb73fae0fdda73de72347eac7a6e8d32ef640b8a53eebafe95476dd1ebc85c"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题一/西面/Debug/vc60.pdb",
+      "filename": "vc60.pdb",
+      "extension": ".pdb",
+      "size_bytes": 53248,
+      "sha256": "8ce6c3bfa97342ce4f45af23d9d7f78972883c660a72d56dd1fac5543c16eb29"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题三/重新设计小屋模型autoCAD源文件.dwg",
+      "filename": "重新设计小屋模型autoCAD源文件.dwg",
+      "extension": ".dwg",
+      "size_bytes": 45888,
+      "sha256": "2f0f1cecda91c0ecd32724040c13089df75e9bd274c49ba12f3a6d9804165540"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题三/重新设计小屋模型sketchup源文件.skp",
+      "filename": "重新设计小屋模型sketchup源文件.skp",
+      "extension": ".skp",
+      "size_bytes": 91554,
+      "sha256": "773f4b490506f5400ab7683be94430fbae9151f5ccce51d9566b5ecf1b72f41b"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step1.cpp",
+      "filename": "CUMCM_Q2_屋顶_step1.cpp",
+      "extension": ".cpp",
+      "size_bytes": 3610,
+      "sha256": "50a2df34fafc97ec5e37dae4f0ff320e0c52b19f5595c554364bf82ce0e3daf5"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step1.dsp",
+      "filename": "CUMCM_Q2_屋顶_step1.dsp",
+      "extension": ".dsp",
+      "size_bytes": 3559,
+      "sha256": "d25789043e9c9ba7171703f0a2f44c7cce73f9264fae467fbccf2372896703a6"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step1.dsw",
+      "filename": "CUMCM_Q2_屋顶_step1.dsw",
+      "extension": ".dsw",
+      "size_bytes": 546,
+      "sha256": "12734540a8a6c1701438891b21a8d6a015210e209b5bdba40d92627529b6bf64"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step1.ncb",
+      "filename": "CUMCM_Q2_屋顶_step1.ncb",
+      "extension": ".ncb",
+      "size_bytes": 33792,
+      "sha256": "b8b98a84ed8bc689677a835f694501941a724345c87b14083edb424fbedadb52"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step1.opt",
+      "filename": "CUMCM_Q2_屋顶_step1.opt",
+      "extension": ".opt",
+      "size_bytes": 48640,
+      "sha256": "9f8a23fb57d5e57892cf7b1b189314fd6797a89b5db261ed13c6fa225ff59f3b"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step1.plg",
+      "filename": "CUMCM_Q2_屋顶_step1.plg",
+      "extension": ".plg",
+      "size_bytes": 1416,
+      "sha256": "104807ddb2d6f445f288f7d821905900e5dc824dcc50963190bed8afac05a143"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step2.cpp",
+      "filename": "CUMCM_Q2_屋顶_step2.cpp",
+      "extension": ".cpp",
+      "size_bytes": 2263,
+      "sha256": "ef04b843122a89084fafb973df508e42dca5c7cb6008c051cdbfc7a3649d9acb"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step2.dsp",
+      "filename": "CUMCM_Q2_屋顶_step2.dsp",
+      "extension": ".dsp",
+      "size_bytes": 3559,
+      "sha256": "3ea9a94e71dfb570445acb1482ddb433bc686e53491710995cc73df5ed08f715"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step2.dsw",
+      "filename": "CUMCM_Q2_屋顶_step2.dsw",
+      "extension": ".dsw",
+      "size_bytes": 546,
+      "sha256": "214878dfad62a6248bc5b55692967cc528dc77648e4db707581dd1ab24fa3813"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step2.ncb",
+      "filename": "CUMCM_Q2_屋顶_step2.ncb",
+      "extension": ".ncb",
+      "size_bytes": 41984,
+      "sha256": "ea71556b539007db03a641f7869619a7f74a3dd7cc192acba841d0a8063e7963"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step2.opt",
+      "filename": "CUMCM_Q2_屋顶_step2.opt",
+      "extension": ".opt",
+      "size_bytes": 48640,
+      "sha256": "514c7b03c883e467dbdf36a1b688db48ff2099d497c9a5a46007fb491a2c29b4"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/CUMCM_Q2_屋顶_step2.plg",
+      "filename": "CUMCM_Q2_屋顶_step2.plg",
+      "extension": ".plg",
+      "size_bytes": 272,
+      "sha256": "824557930063b301372680a11402a5b86ef7a5c3e955e9382254bdb338df7551"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/CUMCM_Q2_屋顶_step1.exe",
+      "filename": "CUMCM_Q2_屋顶_step1.exe",
+      "extension": ".exe",
+      "size_bytes": 196714,
+      "sha256": "2a3ab29eba2b15ee9479d2a1c6240f3bb3678d8a4a515513a28514d361d9366d"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/CUMCM_Q2_屋顶_step1.ilk",
+      "filename": "CUMCM_Q2_屋顶_step1.ilk",
+      "extension": ".ilk",
+      "size_bytes": 189004,
+      "sha256": "f8c8db99edde088d610b18c0e95543ee43575a6cc334becfc5bbe93118260b10"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/CUMCM_Q2_屋顶_step1.obj",
+      "filename": "CUMCM_Q2_屋顶_step1.obj",
+      "extension": ".obj",
+      "size_bytes": 11773,
+      "sha256": "026bd19cb7e614a8afae6bfc8ddb3960ae416db9c9d8b78dab23801feafb87a6"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/CUMCM_Q2_屋顶_step1.pch",
+      "filename": "CUMCM_Q2_屋顶_step1.pch",
+      "extension": ".pch",
+      "size_bytes": 221420,
+      "sha256": "9c74d0d67b7920f8e5e3ba8350fa1ae7eeb91a0e1962f6acbd91c0c4e4cdb68a"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/CUMCM_Q2_屋顶_step1.pdb",
+      "filename": "CUMCM_Q2_屋顶_step1.pdb",
+      "extension": ".pdb",
+      "size_bytes": 353280,
+      "sha256": "b957d2c121578c981878f46e13f0bed909fdaf1a91e7bb29daee8094a3585257"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/CUMCM_Q2_屋顶_step2.exe",
+      "filename": "CUMCM_Q2_屋顶_step2.exe",
+      "extension": ".exe",
+      "size_bytes": 188522,
+      "sha256": "9fbfa08d6e2fa7fb97f116291de704f7cf41373bc2f4acac5751db05dba136df"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/CUMCM_Q2_屋顶_step2.ilk",
+      "filename": "CUMCM_Q2_屋顶_step2.ilk",
+      "extension": ".ilk",
+      "size_bytes": 220652,
+      "sha256": "67cc480487327370274216cbeac1918822ca7e4356c5734f9349a16340ae57ce"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/CUMCM_Q2_屋顶_step2.obj",
+      "filename": "CUMCM_Q2_屋顶_step2.obj",
+      "extension": ".obj",
+      "size_bytes": 6970,
+      "sha256": "9a7296cc3db528b6d275d9450e27f075fe0c8f50eeed7c1a1e2e9637a308509b"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/CUMCM_Q2_屋顶_step2.pch",
+      "filename": "CUMCM_Q2_屋顶_step2.pch",
+      "extension": ".pch",
+      "size_bytes": 221420,
+      "sha256": "c9a57e896753f6b12fea9e50cd33ae26eb7d71b4b411fae72b75a16b162aa6a8"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/CUMCM_Q2_屋顶_step2.pdb",
+      "filename": "CUMCM_Q2_屋顶_step2.pdb",
+      "extension": ".pdb",
+      "size_bytes": 435200,
+      "sha256": "f41aabc68035140c8958e62ad9743f353d62c636b4f0dd8f86c4baf63c94879e"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/vc60.idb",
+      "filename": "vc60.idb",
+      "extension": ".idb",
+      "size_bytes": 41984,
+      "sha256": "62d955613c2c9e109ad2f4d8d4cf8ccf004e2fe2bc34bb3377df9ef7d9a2461e"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/房顶/Debug/vc60.pdb",
+      "filename": "vc60.pdb",
+      "extension": ".pdb",
+      "size_bytes": 53248,
+      "sha256": "07b5fe66d1fece2fe35aa6db70bf2da1a3bd969c692552c67a6eaf7daa326609"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/最佳倾角/CUMCM_Q2_bestangle.m",
+      "filename": "CUMCM_Q2_bestangle.m",
+      "extension": ".m",
+      "size_bytes": 1106,
+      "sha256": "cc3a8af6ec0372dac1c2a22c5fd670a6af19540a70dd8b7a78ffe88323f4eb81"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/最佳倾角/data.xls",
+      "filename": "data.xls",
+      "extension": ".xls",
+      "size_bytes": 2210304,
+      "sha256": "42d17d70a00455d7fa4ea420b28df321d6cddff45450f0294c2d6cdde5647c30",
+      "workbook_sheets": [
+        {
+          "title": "data",
+          "max_row": 8761,
+          "max_column": 19
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/源程序/问题二/最佳朝向/最佳朝向_TableCurve2D.prn",
+      "filename": "最佳朝向_TableCurve2D.prn",
+      "extension": ".prn",
+      "size_bytes": 828,
+      "sha256": "429e97ffe45594f7f0dcbbe22e8074854c5dafa089e95face407b085cb81d6d2"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/基于逐步回归的脑卒中发病环境因素分析及干预模型.doc",
+      "filename": "基于逐步回归的脑卒中发病环境因素分析及干预模型.doc",
+      "extension": ".doc",
+      "size_bytes": 748032,
+      "sha256": "a610ceee3c902f85c0fc590467868550f5cb9d52ecd57e21747ef890671cbdd7",
+      "antiword_returncode": 0,
+      "text_chars": 29124,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/年龄段/age.jpg",
+      "filename": "age.jpg",
+      "extension": ".jpg",
+      "size_bytes": 20093,
+      "sha256": "e7d4f538844b6e494fd42271f0704b196409ae3e643da56961ef17ed6aac6ff2",
+      "image_size": [
+        561,
+        420
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/年龄段/age.m",
+      "filename": "age.m",
+      "extension": ".m",
+      "size_bytes": 302,
+      "sha256": "070091db3b993f2a0cb8f45fc88bffa1ebf3804028de5b9c64771954b589d8a6"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/性别/sex.jpg",
+      "filename": "sex.jpg",
+      "extension": ".jpg",
+      "size_bytes": 13061,
+      "sha256": "ead99dbfecf823a9199bc2ddcaa397746e822fa10c73a186b97bf6d69fec28ff",
+      "image_size": [
+        561,
+        420
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/性别/sex.m",
+      "filename": "sex.m",
+      "extension": ".m",
+      "size_bytes": 73,
+      "sha256": "5d26dc4b91a83629fe17482385374bf292e7f2a99ef973a7865a5be428028acf"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/数据/2007年.xls",
+      "filename": "2007年.xls",
+      "extension": ".xls",
+      "size_bytes": 10240,
+      "sha256": "c1c6d6a51f6efe34c00a672c9d4915231011494014948cb2dcf4fa5417848295",
+      "workbook_sheets": [
+        {
+          "title": "2007年",
+          "max_row": 13,
+          "max_column": 10
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/数据/2010.xls",
+      "filename": "2010.xls",
+      "extension": ".xls",
+      "size_bytes": 12800,
+      "sha256": "6a5fb6da97d770241eb59c7ef21f0ad569094fb45f8ef2fcb23e81d7a3280b09",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 37,
+          "max_column": 14
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/数据/data5.xls",
+      "filename": "data5.xls",
+      "extension": ".xls",
+      "size_bytes": 216064,
+      "sha256": "3a68b034bb38f49722cd7aaaa39c3c3926eb53e0e4b0ca2fb8625b0396ad40ae",
+      "workbook_sheets": [
+        {
+          "title": "07",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "08",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "09",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "10",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "1月",
+          "max_row": 50,
+          "max_column": 35
+        },
+        {
+          "title": "2月",
+          "max_row": 34,
+          "max_column": 35
+        },
+        {
+          "title": "3月",
+          "max_row": 36,
+          "max_column": 35
+        },
+        {
+          "title": "4月",
+          "max_row": 36,
+          "max_column": 35
+        },
+        {
+          "title": "5月",
+          "max_row": 37,
+          "max_column": 35
+        },
+        {
+          "title": "6月",
+          "max_row": 36,
+          "max_column": 35
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/数据/二问.xls",
+      "filename": "二问.xls",
+      "extension": ".xls",
+      "size_bytes": 208384,
+      "sha256": "c8ab4b337548815930e401a7200e1ac7f77bb52478c3207e418beb75bdbc85ce",
+      "workbook_sheets": [
+        {
+          "title": "07",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "08",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "09",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "10",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "1月",
+          "max_row": 67,
+          "max_column": 34
+        },
+        {
+          "title": "2月",
+          "max_row": 32,
+          "max_column": 35
+        },
+        {
+          "title": "3月",
+          "max_row": 34,
+          "max_column": 35
+        },
+        {
+          "title": "4月",
+          "max_row": 34,
+          "max_column": 35
+        },
+        {
+          "title": "5月",
+          "max_row": 36,
+          "max_column": 35
+        },
+        {
+          "title": "6月",
+          "max_row": 35,
+          "max_column": 35
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/数据/数据.xls",
+      "filename": "数据.xls",
+      "extension": ".xls",
+      "size_bytes": 20480,
+      "sha256": "9b9f7ba553fac688cbd33324129bacc9c22842e6d8ee4d5d06283f6d49adfe89",
+      "workbook_sheets": [
+        {
+          "title": "Sheet1",
+          "max_row": 25,
+          "max_column": 15
+        },
+        {
+          "title": "Sheet2",
+          "max_row": 1,
+          "max_column": 1
+        },
+        {
+          "title": "Sheet3",
+          "max_row": 1,
+          "max_column": 1
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/新建文件夹/cancha.jpg",
+      "filename": "cancha.jpg",
+      "extension": ".jpg",
+      "size_bytes": 20999,
+      "sha256": "723aa4fb775c1bb2b26ef139224a7ea2443e3f08bbf66a347de02ecfa48d3411",
+      "image_size": [
+        561,
+        420
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/新建文件夹/duoyuan.m",
+      "filename": "duoyuan.m",
+      "extension": ".m",
+      "size_bytes": 1480,
+      "sha256": "15f38bc5117579e5448adc2f9c2bbdbd780472f1625c137b7302c3d38383b302"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/新建文件夹/pearson.m",
+      "filename": "pearson.m",
+      "extension": ".m",
+      "size_bytes": 1955,
+      "sha256": "06681d17345d60a5c9b5c0167a8f9c1b43e838a2160d3e50b759d9a92e17646a"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/月份/yymm4.m",
+      "filename": "yymm4.m",
+      "extension": ".m",
+      "size_bytes": 445,
+      "sha256": "9873737abdec76e343f9f6778ab6a845730e8b125667c4378f97904c7e06b2de"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/月份/年份.jpg",
+      "filename": "年份.jpg",
+      "extension": ".jpg",
+      "size_bytes": 38481,
+      "sha256": "a5db99c623dc088f5630c83d1d7936456bc52ff05da4a8c9e9505ef779f1aad1",
+      "image_size": [
+        562,
+        418
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/逐步回归分析/all.jpg",
+      "filename": "all.jpg",
+      "extension": ".jpg",
+      "size_bytes": 23162,
+      "sha256": "e8494a347664490b96c25ee69d119af92049e25eff19890f2375cee98fd47f0a",
+      "image_size": [
+        561,
+        420
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/逐步回归分析/out6.jpg",
+      "filename": "out6.jpg",
+      "extension": ".jpg",
+      "size_bytes": 21596,
+      "sha256": "a5ecda559991aff2ac3290899318850464568213fc91db4d4a0948fa10741a43",
+      "image_size": [
+        561,
+        420
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/逐步回归分析/out67.jpg",
+      "filename": "out67.jpg",
+      "extension": ".jpg",
+      "size_bytes": 21640,
+      "sha256": "a6f8706f5dd6698d07f7977c526dfd61f5c718dfc5c43539376bc8c1d20247b6",
+      "image_size": [
+        561,
+        420
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/逐步回归分析/zhubu.jpg",
+      "filename": "zhubu.jpg",
+      "extension": ".jpg",
+      "size_bytes": 49316,
+      "sha256": "9802dd1a46268f21b99079de07b1ae98b87cfe75b4b454ff3e6790c198d15c8b",
+      "image_size": [
+        734,
+        454
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/逐步回归分析/zhubu.m",
+      "filename": "zhubu.m",
+      "extension": ".m",
+      "size_bytes": 1254,
+      "sha256": "51d0a8149cb84cce6e99d25df3e5e46dedafc07b63148ca4c3685899e2707aa3"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (2).doc",
+      "filename": "2012C：脑卒中发病环境因素分析及干预 (2).doc",
+      "extension": ".doc",
+      "size_bytes": 1027072,
+      "sha256": "d3fcc8e0989c76486cbb665fbac51f584ee1d8442012efb49d6a50e3b45f2212",
+      "antiword_returncode": 0,
+      "text_chars": 13458,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/D044.doc",
+      "filename": "D044.doc",
+      "extension": ".doc",
+      "size_bytes": 1181696,
+      "sha256": "999de664600fda9d9811fe4c50324c0c1e4bec5a0e8ba17bc8d3b66b0d5eab4c",
+      "antiword_returncode": 0,
+      "text_chars": 55429,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/Dmethod1.mat",
+      "filename": "Dmethod1.mat",
+      "extension": ".mat",
+      "size_bytes": 10003,
+      "sha256": "2a7ce7a6bc6ff406bbdad0c4d05bbfb128022dc4014c3db0b52b66d409573f2b"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/Dmethod2.mat",
+      "filename": "Dmethod2.mat",
+      "extension": ".mat",
+      "size_bytes": 10283,
+      "sha256": "4cfe69ebef7a8d850b1d40267893b9dba60631c38e1178a9a5d0c41d665f01c1"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/FLOYD1.m",
+      "filename": "FLOYD1.m",
+      "extension": ".m",
+      "size_bytes": 566,
+      "sha256": "056c7073bee74d59029b32dfe7766f2e706e75116e7f8e96fdfac48e070950c3"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/LINGO1.lg4",
+      "filename": "LINGO1.lg4",
+      "extension": ".lg4",
+      "size_bytes": 7168,
+      "sha256": "c8df5b2f73c5478448bdf6851a8680b8ba9fe8b6305644a825f883087cc414ee"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/LINGO1.zip",
+      "filename": "LINGO1.zip",
+      "extension": ".zip",
+      "size_bytes": 1132,
+      "sha256": "c2addcc32665c9affabe1cd84d4de7e9767ac39f6dbd7d120294312ab22c10e0"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/LINGO2.lg4",
+      "filename": "LINGO2.lg4",
+      "extension": ".lg4",
+      "size_bytes": 16384,
+      "sha256": "facc8c016a6e7ddceff831a23098ae2f7a38cea5bffda53526fe15cf3745bc28"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/OA.fig",
+      "filename": "OA.fig",
+      "extension": ".fig",
+      "size_bytes": 101175,
+      "sha256": "307da676a9cf2b1b567f06178ea3570f0bd5006be2fc8b4331cde75380845684"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/OABCO.fig",
+      "filename": "OABCO.fig",
+      "extension": ".fig",
+      "size_bytes": 97415,
+      "sha256": "1486ff8a1dc9bea173836e0434e1b974484ee8e212e3431cb7c8d44094dc9078"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/OB.fig",
+      "filename": "OB.fig",
+      "extension": ".fig",
+      "size_bytes": 98603,
+      "sha256": "c750bf2c75df554983dba64dfe272f716bce957a961165e15a658478b9f8b5ee"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/OC.fig",
+      "filename": "OC.fig",
+      "extension": ".fig",
+      "size_bytes": 98803,
+      "sha256": "ab7fbe828d13d8917c9c0ba7b7df7430d4d82a896d2427635700ffdd997a73cc"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/distancebetweenlines.m",
+      "filename": "distancebetweenlines.m",
+      "extension": ".m",
+      "size_bytes": 717,
+      "sha256": "6074f18e69e280ea78d8a3eb467efd9afb4768bd87e469201da7c5eecde9d801"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/dykxlj.fig",
+      "filename": "dykxlj.fig",
+      "extension": ".fig",
+      "size_bytes": 97418,
+      "sha256": "59c4c93e0e22167c0d7888248aa88d3cccbad72f6257d65cadc55bcd8fb1c706"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/dykxlj1.fig",
+      "filename": "dykxlj1.fig",
+      "extension": ".fig",
+      "size_bytes": 94898,
+      "sha256": "ac28c45674d3368868d2b51ea1af11d75441b2f2718bfcebbeb6311e22f9ddfb"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/huchang.m",
+      "filename": "huchang.m",
+      "extension": ".m",
+      "size_bytes": 162,
+      "sha256": "0588e83c07634f8929fbbbaaab1b4764367811af9280aaf0f194a4dc06f2d528"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/iscycleIntersect.m",
+      "filename": "iscycleIntersect.m",
+      "extension": ".m",
+      "size_bytes": 486,
+      "sha256": "60cd9210c6c7082611da35c6044ac4d1499fa32d61fa7b8135ddf91f38fa53be"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/islineIntersect.m",
+      "filename": "islineIntersect.m",
+      "extension": ".m",
+      "size_bytes": 431,
+      "sha256": "82f8aa8b047b095037b5239a88ee6b704840f35728d7e5a707a744b831b54eb3"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/kxljmethod1.fig",
+      "filename": "kxljmethod1.fig",
+      "extension": ".fig",
+      "size_bytes": 111864,
+      "sha256": "2143f70559273fb30ee6b50155a1e7e08c64af8ba0a4c761b5d7f8eda33ca93d"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/kxljmethod2.fig",
+      "filename": "kxljmethod2.fig",
+      "extension": ".fig",
+      "size_bytes": 113451,
+      "sha256": "6ab92246bee2f3d330ba77fea745134177cd9f61be15b8df0db881136804c13b"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/linedistance.m",
+      "filename": "linedistance.m",
+      "extension": ".m",
+      "size_bytes": 243,
+      "sha256": "a80da4db12cbb7c6f7910173cdb0fea5c54308ef86eba5b16c1a2aa8e6df4e19"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/method1.m",
+      "filename": "method1.m",
+      "extension": ".m",
+      "size_bytes": 6224,
+      "sha256": "f68c4f3683a440f549b296cfd019c7fd75de96270fa9a5e4a9ac2e0044f1ba5b"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/method2.m",
+      "filename": "method2.m",
+      "extension": ".m",
+      "size_bytes": 5147,
+      "sha256": "c606d3b79fa5c9e4641b41abbb821d630c0ca1caac4054f68a7c4dd7faf18736"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/qiedian.m",
+      "filename": "qiedian.m",
+      "extension": ".m",
+      "size_bytes": 657,
+      "sha256": "32607778eafe55b987646dca6c9deaa925bef5a6370bb3f0b03f6655cdea1a70"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/wen1.m",
+      "filename": "wen1.m",
+      "extension": ".m",
+      "size_bytes": 2055,
+      "sha256": "8e856d007abb7d0c7739be2aef0e0e33895ae896bb7a4b6c821588f1edf0351c"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/xslj.m",
+      "filename": "xslj.m",
+      "extension": ".m",
+      "size_bytes": 463,
+      "sha256": "7c8db2bdbe4c20ed09206833893756feaa2eee3e691504b80e92cda74c79fe92"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/yuanyuanqiexian.m",
+      "filename": "yuanyuanqiexian.m",
+      "extension": ".m",
+      "size_bytes": 839,
+      "sha256": "b3253f285dc8211b78b5d37d59dfaaf2f77c3f30a011e7b577a12731cdf90a17"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/yykxlj.fig",
+      "filename": "yykxlj.fig",
+      "extension": ".fig",
+      "size_bytes": 133809,
+      "sha256": "55d17362cbae9d771f6e9d986ffafab2ae541c55430bd4f7aff8f9aad87f70f7"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/yykxlj1.fig",
+      "filename": "yykxlj1.fig",
+      "extension": ".fig",
+      "size_bytes": 111604,
+      "sha256": "45f422f6e5231b9df49bb9027c37eab9fd9f1f866c28e6a68c321c9541565b2a"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/zdlj.fig",
+      "filename": "zdlj.fig",
+      "extension": ".fig",
+      "size_bytes": 89890,
+      "sha256": "462773f9521bd5e968afc433aa689f1473d9d9125a2cddaa4299f03f2abca08d"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/zdlj.m",
+      "filename": "zdlj.m",
+      "extension": ".m",
+      "size_bytes": 1794,
+      "sha256": "4a06b4ba212276a1db5925f6c29b48b74f0b3e42d598a2d0cbadf8e49627cfb5"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (1)/程序运行说明.txt",
+      "filename": "程序运行说明.txt",
+      "extension": ".txt",
+      "size_bytes": 1202,
+      "sha256": "5800273e709d951224c4bc30b0b6e33eec6583d37306a44e25ee14b9f5a9fd10"
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (2).doc",
+      "filename": "2012D：机器人避障问题 (2).doc",
+      "extension": ".doc",
+      "size_bytes": 1146880,
+      "sha256": "d93a9a6a9de012927f8a5d4b36e1768ca3f6affb6952673f40fe2740d4032766",
+      "antiword_returncode": 0,
+      "text_chars": 42810,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012全国大学生数学建模竞赛论文格式规范.doc",
+      "filename": "2012全国大学生数学建模竞赛论文格式规范.doc",
+      "extension": ".doc",
+      "size_bytes": 53248,
+      "sha256": "5a9e40c773b2a831339032cf91e518eab18ec76e2be480882b73b72ac3d29698",
+      "antiword_returncode": 0,
+      "text_chars": 6461,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛A题.doc",
+      "filename": "2012年国赛A题.doc",
+      "extension": ".doc",
+      "size_bytes": 38400,
+      "sha256": "cb715a400ec8dce7bc2731d9a2a1f44240f51a61cee815157fa53ae24ac0e606",
+      "antiword_returncode": 0,
+      "text_chars": 1455,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛A题附件 (1).xls",
+      "filename": "2012年国赛A题附件 (1).xls",
+      "extension": ".xls",
+      "size_bytes": 205312,
+      "sha256": "fdb95e99c881afaff62375182e4dd5d6ca2858297d2ee6450d747ce3b078d547",
+      "workbook_sheets": [
+        {
+          "title": "第一组红葡萄酒品尝评分",
+          "max_row": 377,
+          "max_column": 15
+        },
+        {
+          "title": "第一组白葡萄酒品尝评分",
+          "max_row": 366,
+          "max_column": 14
+        },
+        {
+          "title": "第二组红葡萄酒品尝评分",
+          "max_row": 378,
+          "max_column": 12
+        },
+        {
+          "title": "第二组白葡萄酒品尝评分",
+          "max_row": 338,
+          "max_column": 14
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛A题附件 (2).xls",
+      "filename": "2012年国赛A题附件 (2).xls",
+      "extension": ".xls",
+      "size_bytes": 178688,
+      "sha256": "0b6b845715fbe852ddde8b709e592455eba2c845ef0d3f2be144758f674d2fab",
+      "workbook_sheets": [
+        {
+          "title": "酿酒葡萄",
+          "max_row": 494,
+          "max_column": 141
+        },
+        {
+          "title": "葡萄酒",
+          "max_row": 65,
+          "max_column": 34
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛A题附件 (3).xls",
+      "filename": "2012年国赛A题附件 (3).xls",
+      "extension": ".xls",
+      "size_bytes": 161280,
+      "sha256": "6ac7331378ab4b4275b65459d6e094663fee5ca41d1518d010bf5051bb4e0c63",
+      "workbook_sheets": [
+        {
+          "title": "红葡萄酒",
+          "max_row": 77,
+          "max_column": 34
+        },
+        {
+          "title": "白葡萄酒",
+          "max_row": 77,
+          "max_column": 62
+        },
+        {
+          "title": "白葡萄",
+          "max_row": 115,
+          "max_column": 70
+        },
+        {
+          "title": "红葡萄",
+          "max_row": 60,
+          "max_column": 34
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题.doc",
+      "filename": "2012年国赛B题.doc",
+      "extension": ".doc",
+      "size_bytes": 39936,
+      "sha256": "0eb3915934d542b1023d44093e56905185c7dffb612e102db242bf2827726799",
+      "antiword_returncode": 0,
+      "text_chars": 3038,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件 (1).doc",
+      "filename": "2012年国赛B题附件 (1).doc",
+      "extension": ".doc",
+      "size_bytes": 46592,
+      "sha256": "d803d3c02aa1e4d76d8998e1d480d31f17410ac374cc1cbfe0b2111276a19b1a",
+      "antiword_returncode": 0,
+      "text_chars": 4061,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件 (3).xls",
+      "filename": "2012年国赛B题附件 (3).xls",
+      "extension": ".xls",
+      "size_bytes": 41472,
+      "sha256": "14c7015025c4a242a7e135bab3bbe670b1f3150256572974cc6e91c8ff6de8e6",
+      "workbook_sheets": [
+        {
+          "title": "光伏组件参数",
+          "max_row": 275,
+          "max_column": 23
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件 (4).xls",
+      "filename": "2012年国赛B题附件 (4).xls",
+      "extension": ".xls",
+      "size_bytes": 1229312,
+      "sha256": "8bf3865973200d6f31e32eff8d809b6ad040d1b4e97b5b46afe9179c20f8b620",
+      "workbook_sheets": [
+        {
+          "title": "封面",
+          "max_row": 33,
+          "max_column": 6
+        },
+        {
+          "title": "逐时气象参数",
+          "max_row": 8763,
+          "max_column": 11
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件 (5).doc",
+      "filename": "2012年国赛B题附件 (5).doc",
+      "extension": ".doc",
+      "size_bytes": 60928,
+      "sha256": "1fccac08a89ad368d9769046a407930cee3924fc024c31f549d53943e40b6165",
+      "antiword_returncode": 0,
+      "text_chars": 2581,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件 (6).doc",
+      "filename": "2012年国赛B题附件 (6).doc",
+      "extension": ".doc",
+      "size_bytes": 79360,
+      "sha256": "833e1c75ccbb77b23e3b8b3f56ed5fb43429e2795f93dc6d6fbd65ae3028127d",
+      "antiword_returncode": 0,
+      "text_chars": 3213,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件 (7).doc",
+      "filename": "2012年国赛B题附件 (7).doc",
+      "extension": ".doc",
+      "size_bytes": 25088,
+      "sha256": "0365c55b6f5684c6651c35b17d668b6385c404b24a9c0f56826218ba9795c55e",
+      "antiword_returncode": 0,
+      "text_chars": 659,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件（2）/东立面.jpg",
+      "filename": "东立面.jpg",
+      "extension": ".jpg",
+      "size_bytes": 76939,
+      "sha256": "6bb5f2d791154a65564fcf900230eff15fbfb58343cb7f18ee32102ab6a87618",
+      "image_size": [
+        1214,
+        608
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件（2）/北立面.jpg",
+      "filename": "北立面.jpg",
+      "extension": ".jpg",
+      "size_bytes": 92490,
+      "sha256": "2c15303d4c9bdc6c8ee7bd089c113d30575c59adf4bfa95b89f03481e05c761a",
+      "image_size": [
+        1214,
+        608
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件（2）/南立面.jpg",
+      "filename": "南立面.jpg",
+      "extension": ".jpg",
+      "size_bytes": 112424,
+      "sha256": "f8629a43273fdf73cd79b2c05959b1087e42e17619f05ca8372df00cfe5ab2c5",
+      "image_size": [
+        1214,
+        632
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件（2）/西立面.jpg",
+      "filename": "西立面.jpg",
+      "extension": ".jpg",
+      "size_bytes": 70201,
+      "sha256": "e348f41c65a1b5be0f05abb93b7a5ea59c4a65fd38984902b9548e4f73ad60b0",
+      "image_size": [
+        1214,
+        608
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件（2）/透视图.jpg",
+      "filename": "透视图.jpg",
+      "extension": ".jpg",
+      "size_bytes": 91415,
+      "sha256": "bb5912532d0f33c38ff49da31878d6acabcc422adef82c2e2cb0e5d5cde8fda2",
+      "image_size": [
+        1214,
+        608
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛B题附件（2）/顶视图.jpg",
+      "filename": "顶视图.jpg",
+      "extension": ".jpg",
+      "size_bytes": 128978,
+      "sha256": "17b11b33bb503bc8ef27b225124fe4aa6bac428327ee3d49b69612049f4816b0",
+      "image_size": [
+        1214,
+        608
+      ],
+      "image_frames": 1
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛C题.doc",
+      "filename": "2012年国赛C题.doc",
+      "extension": ".doc",
+      "size_bytes": 34304,
+      "sha256": "653c84236a158a6ef479cca07ca9c13577e0bcb5d6632343f3fd4ff422d8b927",
+      "antiword_returncode": 0,
+      "text_chars": 1599,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛C题提示.doc",
+      "filename": "2012年国赛C题提示.doc",
+      "extension": ".doc",
+      "size_bytes": 11264,
+      "sha256": "b841fb57ec20155fc0f9c195c3384c8921b6189b5c5ec929c017fc02124ee6c7",
+      "antiword_returncode": 0,
+      "text_chars": 916,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/2012年国赛D题.doc",
+      "filename": "2012年国赛D题.doc",
+      "extension": ".doc",
+      "size_bytes": 84992,
+      "sha256": "2d4eb6994cf98ed321e2b47ac605282f1c095d425d4bf963fa08a593ffddb42f",
+      "antiword_returncode": 0,
+      "text_chars": 3154,
+      "antiword_stderr": ""
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/Appendix-C1/data1.xls",
+      "filename": "data1.xls",
+      "extension": ".xls",
+      "size_bytes": 825856,
+      "sha256": "83b8ba78f3273d66e2ccc7394494287b5990ea53b84076a2354502a454cabb9f",
+      "workbook_sheets": [
+        {
+          "title": "脑卒中",
+          "max_row": 11923,
+          "max_column": 5
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/Appendix-C1/data2.xls",
+      "filename": "data2.xls",
+      "extension": ".xls",
+      "size_bytes": 1329664,
+      "sha256": "7a08b58b3401c93d23e4dfd6ab0ad77afae8d5f2592b849ce9223977924e9923",
+      "workbook_sheets": [
+        {
+          "title": "脑卒中",
+          "max_row": 19511,
+          "max_column": 5
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/Appendix-C1/data3.xls",
+      "filename": "data3.xls",
+      "extension": ".xls",
+      "size_bytes": 950784,
+      "sha256": "1653e3c0c6d25fb89fa4158fc1745e2506e53cbffef9f83e5a2e80386530b095",
+      "workbook_sheets": [
+        {
+          "title": "脑卒中",
+          "max_row": 9856,
+          "max_column": 26
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/Appendix-C1/data4.xls",
+      "filename": "data4.xls",
+      "extension": ".xls",
+      "size_bytes": 1523712,
+      "sha256": "c73485bb478de486f0687ba8125e02b33997e4775659dd22d4874a88df8b3508",
+      "workbook_sheets": [
+        {
+          "title": "脑卒中",
+          "max_row": 20637,
+          "max_column": 11
+        }
+      ]
+    },
+    {
+      "relative_path": "2012年数学建模国赛真题+优秀论文/2012年赛题/Appendix-C2/data5.xls",
+      "filename": "data5.xls",
+      "extension": ".xls",
+      "size_bytes": 114688,
+      "sha256": "a7b7a5cb6e88e3c5dca274d43f1ec0d91736cf082719f1317fe68b4b5e7bf550",
+      "workbook_sheets": [
+        {
+          "title": "07",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "08",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "09",
+          "max_row": 34,
+          "max_column": 97
+        },
+        {
+          "title": "10",
+          "max_row": 34,
+          "max_column": 97
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
