@@ -1,39 +1,48 @@
 {
-  "schema_version": "1.4.1",
-  "analysis_branch": "analysis/corpus-index",
-  "updated_at": "2026-07-26T03:30:00Z",
-  "checkpoints": [
+  "manifest_status": "bootstrapped_remote_file_not_observed",
+  "note": "Bootstrapped because the remote checkpoint_manifest.json was not observed. Records include only years whose report/gate/checkpoint status was explicitly reconciled in this run; 2011 is intentionally omitted because its yearly artifacts were not observed.",
+  "records": [
     {
-      "year": 2007,
+      "checkpoint_path": "analysis-index/09_checkpoints/2007_checkpoint.json",
+      "gate_path": "analysis-index/08_quality/gates/2007_gate.json",
+      "remote_readback_verified": true,
+      "report_path": "analysis-index/07_reports/yearly/2007_report.md",
       "status": "pass",
-      "remote_readback_verified": true
+      "year": 2007
     },
     {
-      "year": 2008,
+      "checkpoint_path": "analysis-index/09_checkpoints/2008_checkpoint.json",
+      "gate_path": "analysis-index/08_quality/gates/2008_gate.json",
+      "remote_readback_verified": true,
+      "report_path": "analysis-index/07_reports/yearly/2008_report.md",
       "status": "pass",
-      "remote_readback_verified": true
+      "year": 2008
     },
     {
-      "year": 2009,
+      "checkpoint_path": "analysis-index/09_checkpoints/2009_checkpoint.json",
+      "gate_path": "analysis-index/08_quality/gates/2009_gate.json",
+      "remote_readback_verified": true,
+      "report_path": "analysis-index/07_reports/yearly/2009_report.md",
       "status": "pass",
-      "remote_readback_verified": true
+      "year": 2009
     },
     {
-      "year": 2010,
-      "status": "conditional_pass",
+      "checkpoint_path": "analysis-index/09_checkpoints/2010_checkpoint.json",
+      "gate_path": "analysis-index/08_quality/gates/2010_gate.json",
       "remote_readback_verified": false,
-      "manual_review_items": 19
-    },
-    {
-      "year": 2011,
-      "status": "unverified_no_year_evidence",
-      "remote_readback_verified": false
-    },
-    {
-      "year": 2018,
+      "report_path": "analysis-index/07_reports/yearly/2010_report.md",
       "status": "conditional_pass",
+      "year": 2010
+    },
+    {
+      "checkpoint_path": "analysis-index/09_checkpoints/2019_checkpoint.json",
+      "gate_path": "analysis-index/08_quality/gates/2019_gate.json",
       "remote_readback_verified": false,
-      "package": "2018_analysis_upload.zip"
+      "report_path": "analysis-index/07_reports/yearly/2019_report.md",
+      "status": "conditional_pass",
+      "year": 2019
     }
-  ]
+  ],
+  "schema_version": "1.4.1",
+  "updated_at": "2026-07-26T03:46:10Z"
 }
