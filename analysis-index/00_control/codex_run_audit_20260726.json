@@ -1,0 +1,835 @@
+{
+  "schema_version": "1.0.0",
+  "audit_type": "codex_previous_model_changes",
+  "audit_base": "e9d5ba2^",
+  "audit_base_resolved": "2f56d7743ad9100abdc4e90d2edb43266572aefd",
+  "audit_head": "53819844a4037889da58e8e4d14c1384583f3657",
+  "audit_branch": "analysis/corpus-index",
+  "audit_scope": {
+    "previous_model_commits": [
+      "e9d5ba2",
+      "7fb90fb",
+      "3ff2295",
+      "770ce74",
+      "a518df3",
+      "8134174",
+      "6f44bf5",
+      "c65b4d2",
+      "ac8399f",
+      "69de100",
+      "f1e290c",
+      "721c6f8"
+    ],
+    "net_diff_command": "git diff --name-status e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657",
+    "historical_union_method": "union of git show --name-only for every commit in audit_base..audit_head",
+    "net_diff_file_count": 26,
+    "historical_union_file_count": 37
+  },
+  "files_reviewed": 37,
+  "classification_counts": {
+    "encoding_only_change": 15,
+    "experimental_stage_b_artifact": 1,
+    "experimental_stage_c_artifact": 1,
+    "experimental_stage_d_artifact": 8,
+    "fabricated_placeholder": 1,
+    "global_state_corruption": 2,
+    "needs_manual_review": 1,
+    "reporting_error": 2,
+    "test_weakening": 3,
+    "unsupported_completion_claim": 1,
+    "valid_fix": 2
+  },
+  "records": [
+    {
+      "path": "analysis-index/00_control/codex_run_audit_20260726.md",
+      "changed_in_commits": [
+        "6f44bf5a1bd6abcbaf75b0ecf93219102139d081",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": "3fffb8a3402ce504243ddff2fae89b4b10d02001",
+      "change_summary": "The prior audit report has a UTF-8 BOM, covers only a subset of the requested evidence, and makes historical claims without a machine-readable per-file audit.",
+      "classification": "reporting_error",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "python read_bytes check on the current pre-A1 file shows UTF-8 BOM",
+        "git show f1e290c -- analysis-index/00_control/codex_run_audit_20260726.md"
+      ],
+      "recommended_action": "Replace only through the A1 audit artifact generated from actual Git evidence.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/00_control/manual_review_queue.jsonl",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "3ff229564479ba5c53b96c5f473e53071c27fe7e",
+        "6f44bf5a1bd6abcbaf75b0ecf93219102139d081",
+        "c65b4d25183902dc54fa8d6973baa2b05e16b654",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "66e69054af5c1f5de87c3f81ee94fa2dee653624",
+      "current_blob": "c589dbfe5519082083d90f6b8dd0cdde60c8d1e1",
+      "change_summary": "Historical commits temporarily added or advanced 2015/2016/2017 state and queue entries; f1e290c restored the prior state. The current net diff is formatting-only.",
+      "classification": "global_state_corruption",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..f1e290c -- analysis-index/00_control/manual_review_queue.jsonl",
+        "git diff --ignore-space-at-eol f1e290c^..f1e290c -- analysis-index/00_control/manual_review_queue.jsonl"
+      ],
+      "recommended_action": "A5/A6: rebuild from current gates, checkpoints, tests, and evidence; do not trust historical values.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/00_control/missing_segment_requests.jsonl",
+      "changed_in_commits": [
+        "3ff229564479ba5c53b96c5f473e53071c27fe7e"
+      ],
+      "baseline_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "current_blob": "082394960545da16e8144eed3525b78bf1274546",
+      "change_summary": "3ff2295 added 12 blocking 2017 requests; current rows remain, but the file itself does not carry evidence_paths or source hashes for independent verification.",
+      "classification": "needs_manual_review",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git show 3ff2295 -- analysis-index/00_control/missing_segment_requests.jsonl",
+        "git diff --name-status e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657"
+      ],
+      "recommended_action": "A5: reconcile each request against gates, checkpoints, reports, raw sources, and review IDs.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/00_control/progress.json",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "7fb90fb092d479a5844b318ed4fe05fa5a355c75",
+        "3ff229564479ba5c53b96c5f473e53071c27fe7e",
+        "770ce740ba7308f60666933e2c06ac78dcbe716e",
+        "6f44bf5a1bd6abcbaf75b0ecf93219102139d081",
+        "c65b4d25183902dc54fa8d6973baa2b05e16b654",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "bf6d4b036ef970842a81328341211fcc0231debf",
+      "current_blob": "164c04c3aa32316fcf57c06f54ec745b48c0fb4d",
+      "change_summary": "Historical commits temporarily added or advanced 2015/2016/2017 state and queue entries; f1e290c restored the prior state. The current net diff is formatting-only.",
+      "classification": "global_state_corruption",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..f1e290c -- analysis-index/00_control/progress.json",
+        "git diff --ignore-space-at-eol f1e290c^..f1e290c -- analysis-index/00_control/progress.json"
+      ],
+      "recommended_action": "A5/A6: rebuild from current gates, checkpoints, tests, and evidence; do not trust historical values.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/00_control/run_logs/inventory-run.json",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "aa8d0672948e2286b99bb03059f066b41c5cda0d",
+      "current_blob": "478b5f3ec265f6e1f460e344eb89ffae2d9015ec",
+      "change_summary": "The current net difference is CRLF/formatting-only; the MuPDF error text is present in the baseline and current records.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- analysis-index/00_control/run_logs/inventory-run.json"
+      ],
+      "recommended_action": "Retain as historical evidence; do not rewrite in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/00_control/run_logs/year-2006-run.json",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "9bba0c1dea1d9c88a490c170b607805f061792b3",
+      "current_blob": "230821a96bec07a107a29ec1f2d802f7f64a1ddd",
+      "change_summary": "The current net difference is CRLF/formatting-only; the MuPDF error text is present in the baseline and current records.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- analysis-index/00_control/run_logs/year-2006-run.json"
+      ],
+      "recommended_action": "Retain as historical evidence; do not rewrite in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/00_control/run_logs/year-2008-run.json",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "f6f486315692a4a68dc43b188cb404b8dd4c9f07",
+      "current_blob": "bdc5eed13e4849c15f5d6d0afcd27f603d021e91",
+      "change_summary": "The current net difference is CRLF/formatting-only; the MuPDF error text is present in the baseline and current records.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- analysis-index/00_control/run_logs/year-2008-run.json"
+      ],
+      "recommended_action": "Retain as historical evidence; do not rewrite in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/00_control/run_logs/year-2009-run.json",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "b31099414c7b1ec668027da1ee2984a2b2de63e4",
+      "current_blob": "cb0532db6ca2da130823f69b3c4a44cd4d8e1df1",
+      "change_summary": "The current net difference is CRLF/formatting-only; the MuPDF error text is present in the baseline and current records.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- analysis-index/00_control/run_logs/year-2009-run.json"
+      ],
+      "recommended_action": "Retain as historical evidence; do not rewrite in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/00_control/stage_a0_repository_snapshot.json",
+      "changed_in_commits": [
+        "6421726ab409692c543059bc664bdea1a71e83cd",
+        "5c793e032c8195999386d35fceddae89841d0f52",
+        "35449763cbfd57ad8a1483d25a5fb0cb597573f1",
+        "3e7fc5c28722dcdeff1b96df85068e64fae6e476",
+        "f44988c9c70ded384b3f26f483f95eb6a59e41d3",
+        "b606cafb77d33927881b3c41413a2a8806e2d5f6",
+        "53819844a4037889da58e8e4d14c1384583f3657"
+      ],
+      "baseline_blob": null,
+      "current_blob": "bc9ce3230d7bdb861f46d54c4e46b9a1caee574f",
+      "change_summary": "A0 snapshot files were generated and corrected through the preserved A0 commits; the final A0 files have no BOM, end with LF, and record remote readback evidence.",
+      "classification": "valid_fix",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git log --oneline -- path shows the preserved A0 commit chain",
+        "python read_bytes/json validation performed after A0 publication"
+      ],
+      "recommended_action": "Preserve unchanged from A1 onward.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/00_control/stage_a0_repository_snapshot.md",
+      "changed_in_commits": [
+        "6421726ab409692c543059bc664bdea1a71e83cd",
+        "5c793e032c8195999386d35fceddae89841d0f52",
+        "35449763cbfd57ad8a1483d25a5fb0cb597573f1",
+        "3e7fc5c28722dcdeff1b96df85068e64fae6e476",
+        "f44988c9c70ded384b3f26f483f95eb6a59e41d3",
+        "b606cafb77d33927881b3c41413a2a8806e2d5f6",
+        "53819844a4037889da58e8e4d14c1384583f3657"
+      ],
+      "baseline_blob": null,
+      "current_blob": "0a98d473367a6057207034c760442cb4207d1a67",
+      "change_summary": "A0 snapshot files were generated and corrected through the preserved A0 commits; the final A0 files have no BOM, end with LF, and record remote readback evidence.",
+      "classification": "valid_fix",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git log --oneline -- path shows the preserved A0 commit chain",
+        "python read_bytes/json validation performed after A0 publication"
+      ],
+      "recommended_action": "Preserve unchanged from A1 onward.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/01_inventory/unparsed_files.csv",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "6f44bf5a1bd6abcbaf75b0ecf93219102139d081"
+      ],
+      "baseline_blob": "8c4b595d917d13274df98de9d5c95bd7d8749c49",
+      "current_blob": "8c4b595d917d13274df98de9d5c95bd7d8749c49",
+      "change_summary": "e9d5ba2 added a synthetic all-none row; 6f44bf5 removed it. The current blob matches the audit baseline.",
+      "classification": "fabricated_placeholder",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..e9d5ba2 -- analysis-index/01_inventory/unparsed_files.csv",
+        "git diff --ignore-space-at-eol 6f44bf5^..6f44bf5 -- analysis-index/01_inventory/unparsed_files.csv"
+      ],
+      "recommended_action": "Preserve the restored empty inventory; A2 may only verify it.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/07_reports/2015_2025_completion_report.md",
+      "changed_in_commits": [
+        "81341744307f7205479a8284f039aaf7aa8f9d3a",
+        "69de100bb7e921060548393c5fe730e8f7c9314c"
+      ],
+      "baseline_blob": null,
+      "current_blob": "ea354654432d142ec7c324d677c2c213e3aac804",
+      "change_summary": "The report declares completion and all tests passed while its own table marks ten years as pending verification; it also reports cross-year/search work later removed by f1e290c.",
+      "classification": "unsupported_completion_claim",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "python read_bytes check on the current pre-A1 file shows UTF-8 BOM",
+        "git show 69de100 -- analysis-index/07_reports/2015_2025_completion_report.md",
+        "git show f1e290c -- analysis-index/10_normalization/concept_registry.json"
+      ],
+      "recommended_action": "A7/A10: regenerate any completion statement from actual logs and control evidence.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/07_reports/stage_a_control_repair_report.md",
+      "changed_in_commits": [
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+        "721c6f8da5bcdbff9299eb8f55184acc8539ac41"
+      ],
+      "baseline_blob": null,
+      "current_blob": "6f094b277a391876b9a818ab99ddb01b550347ba",
+      "change_summary": "The report says Stage A passed but simultaneously denies entry to Stage B, reports pending work as complete, and records an obsolete HEAD; it also has a UTF-8 BOM.",
+      "classification": "reporting_error",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "python read_bytes check on the current pre-A1 file shows UTF-8 BOM",
+        "git show 721c6f8 -- analysis-index/07_reports/stage_a_control_repair_report.md"
+      ],
+      "recommended_action": "A10 only: regenerate the report from A1-A10 JSON, logs, Git, and remote readback.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/08_quality/2015_test_results.json",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "56287454cabd49ab8989de51d553f178ac52b588",
+      "current_blob": "28b7a79e8df8047670564861b66dec8ab6b01885",
+      "change_summary": "The current net difference changes formatting/line endings only; the recorded 2015 values are unchanged.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- analysis-index/08_quality/2015_test_results.json"
+      ],
+      "recommended_action": "A3/A6: revalidate against fresh test and control evidence; do not treat the historical pass field as a fresh run.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/08_quality/gates/2015_gate.json",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "15ad1eba9fc820f1818f7c71b986a406a2ab6523",
+      "current_blob": "856f5ca76a7e95ee58efce8d57e37f6ec61d4207",
+      "change_summary": "The current net difference changes formatting/line endings only; the recorded 2015 values are unchanged.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- analysis-index/08_quality/gates/2015_gate.json"
+      ],
+      "recommended_action": "A3/A6: revalidate against fresh test and control evidence; do not treat the historical pass field as a fresh run.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/09_checkpoints/2015_checkpoint.json",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "c7cdd967c1ca2669f68785fcc326609413a1d518",
+      "current_blob": "daf45b63b210fc5ee560ce082480d7a8f7eb0c01",
+      "change_summary": "The current net difference changes formatting/line endings only; the recorded 2015 values are unchanged.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- analysis-index/09_checkpoints/2015_checkpoint.json"
+      ],
+      "recommended_action": "A3/A6: revalidate against fresh test and control evidence; do not treat the historical pass field as a fresh run.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/10_normalization/concept_registry.json",
+      "changed_in_commits": [
+        "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": null,
+      "change_summary": "Added by ac8399f and deleted by f1e290c; absent at A1 start.",
+      "classification": "experimental_stage_b_artifact",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": true,
+      "evidence": [
+        "git show ac8399f -- analysis-index/10_normalization/concept_registry.json",
+        "git show f1e290c -- analysis-index/10_normalization/concept_registry.json"
+      ],
+      "recommended_action": "A2: verify absence and record origin/removal; do not reimplement in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/11_commonness/commonness_grading.json",
+      "changed_in_commits": [
+        "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": null,
+      "change_summary": "Added by ac8399f and deleted by f1e290c; absent at A1 start.",
+      "classification": "experimental_stage_c_artifact",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": true,
+      "evidence": [
+        "git show ac8399f -- analysis-index/11_commonness/commonness_grading.json",
+        "git show f1e290c -- analysis-index/11_commonness/commonness_grading.json"
+      ],
+      "recommended_action": "A2: verify absence and record origin/removal; do not reimplement in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "analysis-index/12_search/search_index.json",
+      "changed_in_commits": [
+        "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": null,
+      "change_summary": "Added by ac8399f and deleted by f1e290c; absent at A1 start.",
+      "classification": "experimental_stage_d_artifact",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": true,
+      "evidence": [
+        "git show ac8399f -- analysis-index/12_search/search_index.json",
+        "git show f1e290c -- analysis-index/12_search/search_index.json"
+      ],
+      "recommended_action": "A2: verify absence and record origin/removal; do not reimplement in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "scripts/build_search_index.py",
+      "changed_in_commits": [
+        "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": null,
+      "change_summary": "Added by ac8399f and deleted by f1e290c; absent at A1 start.",
+      "classification": "experimental_stage_d_artifact",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": true,
+      "evidence": [
+        "git show ac8399f -- scripts/build_search_index.py",
+        "git show f1e290c -- scripts/build_search_index.py"
+      ],
+      "recommended_action": "A2: verify absence and record origin/removal; do not reimplement in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "scripts/search_corpus.py",
+      "changed_in_commits": [
+        "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": null,
+      "change_summary": "Added by ac8399f and deleted by f1e290c; absent at A1 start.",
+      "classification": "experimental_stage_d_artifact",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": true,
+      "evidence": [
+        "git show ac8399f -- scripts/search_corpus.py",
+        "git show f1e290c -- scripts/search_corpus.py"
+      ],
+      "recommended_action": "A2: verify absence and record origin/removal; do not reimplement in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "src/cumcm_search/__init__.py",
+      "changed_in_commits": [
+        "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": null,
+      "change_summary": "Added by ac8399f and deleted by f1e290c; absent at A1 start.",
+      "classification": "experimental_stage_d_artifact",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": true,
+      "evidence": [
+        "git show ac8399f -- src/cumcm_search/__init__.py",
+        "git show f1e290c -- src/cumcm_search/__init__.py"
+      ],
+      "recommended_action": "A2: verify absence and record origin/removal; do not reimplement in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "src/cumcm_search/search.py",
+      "changed_in_commits": [
+        "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": null,
+      "change_summary": "Added by ac8399f and deleted by f1e290c; absent at A1 start.",
+      "classification": "experimental_stage_d_artifact",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": true,
+      "evidence": [
+        "git show ac8399f -- src/cumcm_search/search.py",
+        "git show f1e290c -- src/cumcm_search/search.py"
+      ],
+      "recommended_action": "A2: verify absence and record origin/removal; do not reimplement in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2015_manual.py",
+      "changed_in_commits": [
+        "e9d5ba28352d4ac8e6faeb83328aa871b375214f",
+        "6f44bf5a1bd6abcbaf75b0ecf93219102139d081",
+        "c65b4d25183902dc54fa8d6973baa2b05e16b654",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "b076438cdd01031e8d602684758bc7353f892a95",
+      "current_blob": "33c4788e5f85f90087013d4fc905fdd219205caf",
+      "change_summary": "Historical changes to the 2015 test weakened validation; later commits restored the affected assertions. The current net diff is only encoding/line-ending normalization.",
+      "classification": "test_weakening",
+      "weakens_validation": true,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..f1e290c -- tests/test_2015_manual.py",
+        "git diff --ignore-space-at-eol f1e290c^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2015_manual.py"
+      ],
+      "recommended_action": "A3/A4: document the historical weakening and restore strict, evidence-backed assertions.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2016_manual.py",
+      "changed_in_commits": [
+        "7fb90fb092d479a5844b318ed4fe05fa5a355c75",
+        "6f44bf5a1bd6abcbaf75b0ecf93219102139d081",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "960397edc42da8fd49acac43e2cb09cf1d2b94be",
+      "current_blob": "fcfb5d43c5b3606b73f3220fd950dba705b58039",
+      "change_summary": "The final file differs from the audit baseline only by UTF-8-SIG/UTF-8 read-strategy and line-ending changes; no semantic net change remains.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2016_manual.py"
+      ],
+      "recommended_action": "A3: inspect the read strategy; A4 may replace it only with documented strict helpers.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2017_manual.py",
+      "changed_in_commits": [
+        "3ff229564479ba5c53b96c5f473e53071c27fe7e",
+        "6f44bf5a1bd6abcbaf75b0ecf93219102139d081",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "e2f9b7f72ff4689daa55190269b5937476c486bb",
+      "current_blob": "7bd01c45bd97a13197138c64b33f5ce68f04369b",
+      "change_summary": "Historical changes to the 2017 test weakened validation; later commits restored the affected assertions. The current net diff is only encoding/line-ending normalization.",
+      "classification": "test_weakening",
+      "weakens_validation": true,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..f1e290c -- tests/test_2017_manual.py",
+        "git diff --ignore-space-at-eol f1e290c^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2017_manual.py"
+      ],
+      "recommended_action": "A3/A4: document the historical weakening and restore strict, evidence-backed assertions.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2018_manual.py",
+      "changed_in_commits": [
+        "770ce740ba7308f60666933e2c06ac78dcbe716e",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "51e242e09186e0d1eda9b3b67c94d3bcf4b07c6f",
+      "current_blob": "1b77a02ef3c342128d4f075f5efee16807975738",
+      "change_summary": "The final file differs from the audit baseline only by UTF-8-SIG/UTF-8 read-strategy and line-ending changes; no semantic net change remains.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2018_manual.py"
+      ],
+      "recommended_action": "A3: inspect the read strategy; A4 may replace it only with documented strict helpers.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2019_manual.py",
+      "changed_in_commits": [
+        "770ce740ba7308f60666933e2c06ac78dcbe716e",
+        "a518df3f1815a1ca8911abbff1648c66d54d20f1",
+        "6f44bf5a1bd6abcbaf75b0ecf93219102139d081",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "a626f5c85f83d54d5639d23760780da47da35f3e",
+      "current_blob": "029e462efba1165ed8cf90cd80111084697a1987",
+      "change_summary": "The final file differs from the audit baseline only by UTF-8-SIG/UTF-8 read-strategy and line-ending changes; no semantic net change remains.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2019_manual.py"
+      ],
+      "recommended_action": "A3: inspect the read strategy; A4 may replace it only with documented strict helpers.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2020_manual.py",
+      "changed_in_commits": [
+        "770ce740ba7308f60666933e2c06ac78dcbe716e",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "86986080de33b1c13eec7828d27678d007df8daf",
+      "current_blob": "c8dbb62af9df6d52e03a8c3d7c192badbbacdeec",
+      "change_summary": "The final file differs from the audit baseline only by UTF-8-SIG/UTF-8 read-strategy and line-ending changes; no semantic net change remains.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2020_manual.py"
+      ],
+      "recommended_action": "A3: inspect the read strategy; A4 may replace it only with documented strict helpers.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2021_manual.py",
+      "changed_in_commits": [
+        "770ce740ba7308f60666933e2c06ac78dcbe716e",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "574d6f0219d15370709b9ca489c30b1d635485ef",
+      "current_blob": "6fd98710e19bc396a1ade6765cec03899ed752b1",
+      "change_summary": "The final file differs from the audit baseline only by UTF-8-SIG/UTF-8 read-strategy and line-ending changes; no semantic net change remains.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2021_manual.py"
+      ],
+      "recommended_action": "A3: inspect the read strategy; A4 may replace it only with documented strict helpers.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2022_manual.py",
+      "changed_in_commits": [
+        "770ce740ba7308f60666933e2c06ac78dcbe716e",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "50b90db9c4b07f202d93002216f906f577f68e35",
+      "current_blob": "e78647d518e60eeedcf9f86855e54c8ea989207b",
+      "change_summary": "The final file differs from the audit baseline only by UTF-8-SIG/UTF-8 read-strategy and line-ending changes; no semantic net change remains.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2022_manual.py"
+      ],
+      "recommended_action": "A3: inspect the read strategy; A4 may replace it only with documented strict helpers.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2023_manual.py",
+      "changed_in_commits": [
+        "770ce740ba7308f60666933e2c06ac78dcbe716e",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "e4a447c63132a480eff8dce6aeeb6cc900b0d091",
+      "current_blob": "894afff72ae54924917af7ed59ee6b473bbfbc47",
+      "change_summary": "The final file differs from the audit baseline only by UTF-8-SIG/UTF-8 read-strategy and line-ending changes; no semantic net change remains.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2023_manual.py"
+      ],
+      "recommended_action": "A3: inspect the read strategy; A4 may replace it only with documented strict helpers.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2024_manual.py",
+      "changed_in_commits": [
+        "770ce740ba7308f60666933e2c06ac78dcbe716e",
+        "6f44bf5a1bd6abcbaf75b0ecf93219102139d081",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "7aea5e909e95c590c81f5727f63029a3fc21a54b",
+      "current_blob": "d9a536f0e390c01ae81292e3198cce00a46fedbc",
+      "change_summary": "The final file differs from the audit baseline only by UTF-8-SIG/UTF-8 read-strategy and line-ending changes; no semantic net change remains.",
+      "classification": "encoding_only_change",
+      "weakens_validation": false,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2024_manual.py"
+      ],
+      "recommended_action": "A3: inspect the read strategy; A4 may replace it only with documented strict helpers.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_2025_manual.py",
+      "changed_in_commits": [
+        "770ce740ba7308f60666933e2c06ac78dcbe716e",
+        "6f44bf5a1bd6abcbaf75b0ecf93219102139d081",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": "195e61392e2d4fed859a66e3d5cd54ab963ba4a0",
+      "current_blob": "a8c5bd03e4bac5e4cc5803e9d09b83f59486ed08",
+      "change_summary": "Historical changes to the 2025 test weakened validation; later commits restored the affected assertions. The current net diff is only encoding/line-ending normalization.",
+      "classification": "test_weakening",
+      "weakens_validation": true,
+      "changes_factual_state": false,
+      "outside_allowed_scope": false,
+      "evidence": [
+        "git diff --ignore-space-at-eol e9d5ba2^..f1e290c -- tests/test_2025_manual.py",
+        "git diff --ignore-space-at-eol f1e290c^..53819844a4037889da58e8e4d14c1384583f3657 -- tests/test_2025_manual.py"
+      ],
+      "recommended_action": "A3/A4: document the historical weakening and restore strict, evidence-backed assertions.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_commonness.py",
+      "changed_in_commits": [
+        "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": null,
+      "change_summary": "Added by ac8399f and deleted by f1e290c; absent at A1 start.",
+      "classification": "experimental_stage_d_artifact",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": true,
+      "evidence": [
+        "git show ac8399f -- tests/test_commonness.py",
+        "git show f1e290c -- tests/test_commonness.py"
+      ],
+      "recommended_action": "A2: verify absence and record origin/removal; do not reimplement in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_cross_year_normalization.py",
+      "changed_in_commits": [
+        "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": null,
+      "change_summary": "Added by ac8399f and deleted by f1e290c; absent at A1 start.",
+      "classification": "experimental_stage_d_artifact",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": true,
+      "evidence": [
+        "git show ac8399f -- tests/test_cross_year_normalization.py",
+        "git show f1e290c -- tests/test_cross_year_normalization.py"
+      ],
+      "recommended_action": "A2: verify absence and record origin/removal; do not reimplement in A1.",
+      "confidence": "high"
+    },
+    {
+      "path": "tests/test_search_index.py",
+      "changed_in_commits": [
+        "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+        "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9"
+      ],
+      "baseline_blob": null,
+      "current_blob": null,
+      "change_summary": "Added by ac8399f and deleted by f1e290c; absent at A1 start.",
+      "classification": "experimental_stage_d_artifact",
+      "weakens_validation": false,
+      "changes_factual_state": true,
+      "outside_allowed_scope": true,
+      "evidence": [
+        "git show ac8399f -- tests/test_search_index.py",
+        "git show f1e290c -- tests/test_search_index.py"
+      ],
+      "recommended_action": "A2: verify absence and record origin/removal; do not reimplement in A1.",
+      "confidence": "high"
+    }
+  ],
+  "unresolved_items": [
+    {
+      "issue": "Historical test weakening occurred in 2015, 2017, and 2025 before later restoration; strict helper-based validation is not yet established.",
+      "evidence": [
+        "test_2015_manual.py",
+        "test_2017_manual.py",
+        "test_2025_manual.py",
+        "e9d5ba2",
+        "3ff2295",
+        "c65b4d2",
+        "f1e290c"
+      ],
+      "next_stage": "A3/A4"
+    },
+    {
+      "issue": "The 12 current 2017 missing requests need source and evidence reconciliation before being treated as final facts.",
+      "evidence": [
+        "analysis-index/00_control/missing_segment_requests.jsonl",
+        "3ff2295"
+      ],
+      "next_stage": "A5"
+    },
+    {
+      "issue": "The prior reports contain BOMs and unsupported or contradictory completion statements.",
+      "evidence": [
+        "analysis-index/00_control/codex_run_audit_20260726.md",
+        "analysis-index/07_reports/2015_2025_completion_report.md",
+        "analysis-index/07_reports/stage_a_control_repair_report.md"
+      ],
+      "next_stage": "A7/A10"
+    },
+    {
+      "issue": "B/C/D experimental artifacts were historically committed and later removed; current absence must be independently verified.",
+      "evidence": [
+        "ac8399f",
+        "f1e290c"
+      ],
+      "next_stage": "A2"
+    }
+  ]
+}
