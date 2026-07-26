@@ -1,1 +1,10 @@
-{"event": "local_analysis_package_built", "logical_documents": 34, "next_action": "user_upload_then_remote_readback", "physical_carriers": 34, "source_modifications": 0, "status": "conditional_pass", "timestamp": "2026-07-26T03:46:10Z", "year": 2019}
+{"timestamp":"2026-07-26T02:48:38Z","year":2015,"event":"remote_state_reconciliation","status":"complete","detail":"2007-2010 evidence reconciled; stale progress not treated as authoritative."}
+{"timestamp":"2026-07-26T02:48:38Z","year":2015,"event":"source_inventory_and_sha256","status":"complete","carriers":29,"detail":"All 29 current-chat source carriers hashed before and after analysis."}
+{"timestamp":"2026-07-26T02:48:38Z","year":2015,"event":"late_upload_reconciliation","status":"complete","detail":"Invalidated previous 17-carrier package and added 5 B, 4 C and 3 D paper carriers."}
+{"timestamp":"2026-07-26T02:48:38Z","year":2015,"event":"document_render_and_identity_review","status":"complete","detail":"All PDFs and Word renderings inspected by title, abstract, structure and page evidence."}
+{"timestamp":"2026-07-26T02:48:38Z","year":2015,"event":"spreadsheet_parse","status":"complete","detail":"Legacy XLS converted in a temporary workspace; source unchanged; 3 sheets and 63 coordinate records verified."}
+{"timestamp":"2026-07-26T02:48:38Z","year":2015,"event":"logical_document_resolution","status":"complete","documents":28,"representations":29,"detail":"A(5) and A(6) retained as two representations of one logical paper; all B/C/D papers distinct."}
+{"timestamp":"2026-07-26T02:48:38Z","year":2015,"event":"knowledge_extraction","status":"complete","methods":106,"visualization_patterns":23,"expert_feedback_status":"not_observed"}
+{"timestamp":"2026-07-26T02:48:38Z","year":2015,"event":"six_pack_generation","status":"complete","six_pack_documents":28}
+{"timestamp":"2026-07-26T02:48:38Z","year":2015,"event":"quality_gate","status":"conditional_pass","blocking_items":2,"detail":"Uploaded-set audit complete; full baseline reconciliation and A video remain blocking."}
+{"timestamp":"2026-07-26T02:48:38Z","year":2015,"event":"local_test_suite","status":"pass","passed":36,"failed":0,"command":"PYTHONDONTWRITEBYTECODE=1 pytest -q -p no:cacheprovider tests/test_2015_manual.py"}

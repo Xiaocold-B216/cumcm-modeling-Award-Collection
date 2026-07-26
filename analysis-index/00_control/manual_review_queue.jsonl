@@ -1,1 +1,2 @@
-{"blocking_items": 0, "note": "No open manual review item for the supplied carrier set.", "open_items": 0, "record_type": "year_summary", "status": "empty", "year": 2019}
+{"year":2015,"review_id":"2015_MR_001","status":"open","severity":"blocking","scope":"annual_source_completeness","description":"当前输入为29个散装载体；未取得可信基线2015目录的完整路径—哈希清单或原始自描述压缩包。","required_action":"提供2015_raw_bundle.zip或可信基线2015目录完整清单以完成全量对账。"}
+{"year":2015,"review_id":"2015_MR_002","status":"open","severity":"blocking","scope":"2015_PROBLEM_A","description":"A题引用的附件4原始视频未上传；当前只有下载说明文档。","required_action":"上传具有2015_missing_files.txt所列特征的原始视频。"}
