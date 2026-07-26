@@ -21,7 +21,7 @@
     2009
   ],
   "last_verified_complete_year": 2009,
-  "next_recommended_year": 2010,
+  "next_recommended_year": null,
   "parser_version": "0.5.2",
   "project_status": "active",
   "reconciliation_note": "progress was corrected to evidence-backed status: verified through 2009; 2010 conditional; 2011 unverified; 2025 processed independently.",
@@ -51,6 +51,8 @@
     "2009": "pass",
     "2010": "conditional_pass_pending_manual_review",
     "2011": "not_verified",
-    "2025": "conditional_pass_pending_remote_readback"
-  }
+    "2025": "conditional_pass_pending_remote_readback",
+    "2015": "conditional_pass"
+  },
+  "stop_after_year": 2015
 }
