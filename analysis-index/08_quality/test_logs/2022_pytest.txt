@@ -1,0 +1,7 @@
+2022 local annual test
+command: PYTHONDONTWRITEBYTECODE=1 CUMCM_2022_RAW_ROOT=/mnt/data/cumcm_2022_work/raw CUMCM_2022_BUNDLE=/mnt/data/2022年数学建模国赛真题+优秀论文.zip pytest -q -p no:cacheprovider tests/test_2022_manual.py
+result: 24 passed in 0.13s
+failed: 0
+skipped: 0
+source mutation count: 0
+status: pass

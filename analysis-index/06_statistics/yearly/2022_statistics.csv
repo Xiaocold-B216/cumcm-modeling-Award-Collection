@@ -1,0 +1,7 @@
+﻿year,scope,problem_code,transport_bundles,source_carriers,logical_documents,solution_papers,expert_commentaries,problem_statements,datasets,representations,page_segments,exact_sha_duplicate_groups,confirmed_content_duplicate_groups,manual_review_items,missing_source_requests,quality_status
+2022,year,ALL,1,259,7,7,0,0,0,7,259,0,2,3,7,conditional_pass
+2022,problem,A,0,94,2,2,0,0,0,2,94,0,2,1,1,conditional_pass
+2022,problem,B,0,115,3,3,0,0,0,3,115,0,0,0,1,conditional_pass
+2022,problem,C,0,26,1,1,0,0,0,1,26,0,0,1,2,conditional_pass
+2022,problem,D,0,0,0,0,0,0,0,0,0,0,0,0,1,conditional_pass
+2022,problem,E,0,24,1,1,0,0,0,1,24,0,0,1,2,conditional_pass

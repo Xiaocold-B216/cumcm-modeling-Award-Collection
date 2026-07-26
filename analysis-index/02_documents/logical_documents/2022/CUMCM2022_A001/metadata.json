@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "year": 2022,
+  "logical_document_id": "CUMCM2022_A001",
+  "problem_code": "A",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "title": "波浪能装置输出功率优化设计",
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_source": "not_observed",
+  "source_directory": "2022#U5e74#U6570#U5b66#U5efa#U6a21#U56fd#U8d5b#U771f#U9898+#U4f18#U79c0#U8bba#U6587/2022#U5e74#U56fd#U8d5b#U4f18#U79c0#U8bba#U6587A001",
+  "page_count": 37,
+  "carrier_count": 37,
+  "representation_ids": [
+    "CUMCM2022_A001_REP01"
+  ],
+  "preferred_representation_id": "CUMCM2022_A001_REP01",
+  "parse_status": "manually_verified_from_images",
+  "segmentation_status": "page_complete",
+  "evidence_status": "page_image_evidence_present",
+  "completeness_status": "complete_as_scanned",
+  "feature_status": {
+    "abstract": "present",
+    "body": "present",
+    "references": "present",
+    "code_appendix": "present",
+    "official_problem_statement": "not_observed",
+    "source_dataset": "not_observed",
+    "expert_commentary": "not_applicable",
+    "authors": "not_observed",
+    "award_level": "unknown"
+  },
+  "keywords": [
+    "振荡浮子式波浪能发电装置",
+    "垂荡",
+    "纵摇",
+    "四阶龙格-库塔法",
+    "遗传搜索算法"
+  ],
+  "reported_results": [
+    "摘要报告：垂荡线性阻尼条件的最大平均输出功率约 229.6819 W，最优阻尼系数 37639。",
+    "摘要报告：另一给定条件下最大平均输出功率约 230.0163 W，最优阻尼系数 81478。",
+    "摘要报告：垂荡与纵摇联合情形最大平均输出功率约 316.5807 W，最优直线阻尼系数 58944、最优旋转阻尼系数 98227。"
+  ],
+  "known_limitations": [
+    "仅提供 700 像素宽的带水印页面图像。",
+    "官方 A 题题面及可能的数据附件未提供。",
+    "附录代码为图像，未执行复现。"
+  ],
+  "source_confidence": "level_A_for_readable_paper_content",
+  "updated_at": "2026-07-26T05:16:52Z"
+}

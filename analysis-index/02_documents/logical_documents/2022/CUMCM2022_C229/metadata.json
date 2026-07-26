@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "year": 2022,
+  "logical_document_id": "CUMCM2022_C229",
+  "problem_code": "C",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "title": "基于成分数据分析的玻璃制品分析与分类",
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_source": "not_observed",
+  "source_directory": "2022#U5e74#U6570#U5b66#U5efa#U6a21#U56fd#U8d5b#U771f#U9898+#U4f18#U79c0#U8bba#U6587/2022#U5e74#U56fd#U8d5b#U4f18#U79c0#U8bba#U6587C#U9898C229",
+  "page_count": 26,
+  "carrier_count": 26,
+  "representation_ids": [
+    "CUMCM2022_C229_REP01"
+  ],
+  "preferred_representation_id": "CUMCM2022_C229_REP01",
+  "parse_status": "manually_verified_from_images",
+  "segmentation_status": "page_complete",
+  "evidence_status": "page_image_evidence_present",
+  "completeness_status": "complete_as_scanned",
+  "feature_status": {
+    "abstract": "present",
+    "body": "present",
+    "references": "present",
+    "code_appendix": "present",
+    "official_problem_statement": "not_observed",
+    "source_dataset": "not_observed",
+    "expert_commentary": "not_applicable",
+    "authors": "not_observed",
+    "award_level": "unknown"
+  },
+  "keywords": [
+    "成分数据",
+    "决策树",
+    "偏最小二乘判别分析",
+    "聚类分析",
+    "相关分析"
+  ],
+  "reported_results": [
+    "论文将玻璃主类划分为高钾与铅钡，并进一步给出若干亚类。",
+    "通过决策树与 PLS-DA 两条路线对未知样本交叉判别。",
+    "聚类数通过 SSE/轮廓或组间分离图进行选择，正文采用三类亚群方案。"
+  ],
+  "known_limitations": [
+    "官方 C 题题面与化学成分数据工作簿缺失。",
+    "组成比例和分类结果只能从论文页面读取，不能逐单元格核验。",
+    "部分图使用环形图；知识库保留为论文证据但不视为最佳通用图形。"
+  ],
+  "source_confidence": "level_A_for_readable_paper_content",
+  "updated_at": "2026-07-26T05:16:52Z"
+}

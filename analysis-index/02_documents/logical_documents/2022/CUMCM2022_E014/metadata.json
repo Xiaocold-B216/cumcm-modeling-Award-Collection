@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "year": 2022,
+  "logical_document_id": "CUMCM2022_E014",
+  "problem_code": "E",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "title": "基于时间序列预测的物料生产安排模型",
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_source": "not_observed",
+  "source_directory": "2022#U5e74#U6570#U5b66#U5efa#U6a21#U56fd#U8d5b#U771f#U9898+#U4f18#U79c0#U8bba#U6587/2022#U5e74#U56fd#U8d5b#U4f18#U79c0#U8bba#U6587E#U9898E014",
+  "page_count": 24,
+  "carrier_count": 24,
+  "representation_ids": [
+    "CUMCM2022_E014_REP01"
+  ],
+  "preferred_representation_id": "CUMCM2022_E014_REP01",
+  "parse_status": "manually_verified_from_images",
+  "segmentation_status": "page_complete",
+  "evidence_status": "page_image_evidence_present",
+  "completeness_status": "complete_as_scanned",
+  "feature_status": {
+    "abstract": "present",
+    "body": "present",
+    "references": "not_observed",
+    "code_appendix": "present",
+    "official_problem_statement": "not_observed",
+    "source_dataset": "not_observed",
+    "expert_commentary": "not_applicable",
+    "authors": "not_observed",
+    "award_level": "unknown"
+  },
+  "keywords": [
+    "生产安排",
+    "时间序列",
+    "三次指数平滑",
+    "预测",
+    "MATLAB",
+    "库存量",
+    "服务水平"
+  ],
+  "reported_results": [
+    "摘要报告：基础方案使多数物料服务水平达到 100%，但平均库存偏高。",
+    "物料 6004021055 的平均库存从约 198.63 件/周降至约 45.51 件/周，下降约 77.1%，平均服务水平约 92.91%。",
+    "论文声称改进后多数物料服务水平保持在 85% 以上，同时显著压低库存。"
+  ],
+  "known_limitations": [
+    "官方 E 题题面和企业物料需求历史数据工作簿缺失。",
+    "物料编号、周数据与模型结果无法逐行复算。",
+    "论文自述的服务水平和库存改善未进行外部复现。"
+  ],
+  "source_confidence": "level_A_for_readable_paper_content",
+  "updated_at": "2026-07-26T05:16:52Z"
+}

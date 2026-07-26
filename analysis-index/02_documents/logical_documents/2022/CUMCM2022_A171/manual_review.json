@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2022,
+  "logical_document_id": "CUMCM2022_A171",
+  "identity_review": "complete",
+  "first_last_page_review": "complete",
+  "page_sequence_review": "complete_via_contact_sheet",
+  "role_review": "paper_confirmed",
+  "award_level_review": "unknown_not_inferred",
+  "open_items": [
+    {
+      "issue": "appendix_duplicate_pages",
+      "status": "open_nonblocking",
+      "details": "Pages 53/56 and 54/57 have the same visible code content but different printed page numbers and SHA-256. Retain all carriers; verify against original PDF if available."
+    }
+  ],
+  "review_status": "conditional_complete",
+  "reviewed_at": "2026-07-26T05:16:52Z"
+}

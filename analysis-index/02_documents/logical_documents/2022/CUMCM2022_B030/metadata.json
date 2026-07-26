@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "year": 2022,
+  "logical_document_id": "CUMCM2022_B030",
+  "problem_code": "B",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "title": "无人机遂行编队飞行中的纯方位无源定位",
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_source": "not_observed",
+  "source_directory": "2022#U5e74#U6570#U5b66#U5efa#U6a21#U56fd#U8d5b#U771f#U9898+#U4f18#U79c0#U8bba#U6587/2022#U5e74#U56fd#U8d5b#U4f18#U79c0#U8bba#U6587B030",
+  "page_count": 42,
+  "carrier_count": 42,
+  "representation_ids": [
+    "CUMCM2022_B030_REP01"
+  ],
+  "preferred_representation_id": "CUMCM2022_B030_REP01",
+  "parse_status": "manually_verified_from_images",
+  "segmentation_status": "page_complete",
+  "evidence_status": "page_image_evidence_present",
+  "completeness_status": "complete_as_scanned",
+  "feature_status": {
+    "abstract": "present",
+    "body": "present",
+    "references": "present",
+    "code_appendix": "present",
+    "official_problem_statement": "not_observed",
+    "source_dataset": "not_observed",
+    "expert_commentary": "not_applicable",
+    "authors": "not_observed",
+    "award_level": "unknown"
+  },
+  "keywords": [
+    "遍历算法",
+    "定位模型",
+    "调整方案模型",
+    "迭代算法",
+    "仿真模拟"
+  ],
+  "reported_results": [
+    "论文给出圆形编队中多组无人机坐标与调整量表。",
+    "摘要声称增加一架无人机发射信号后，可对指定接收无人机实现有效定位。",
+    "圆形与锥形编队均给出可执行的分步调整方案。"
+  ],
+  "known_limitations": [
+    "官方 B 题题面未提供。",
+    "仿真数据与代码只以页面图像存在，未能运行复核。",
+    "论文标题与题目名称相同，但仍按论文角色处理，不能误计为题面。"
+  ],
+  "source_confidence": "level_A_for_readable_paper_content",
+  "updated_at": "2026-07-26T05:16:52Z"
+}

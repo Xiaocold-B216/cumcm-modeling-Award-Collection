@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2022,
+  "logical_document_id": "CUMCM2022_E014",
+  "identity_review": "complete",
+  "first_last_page_review": "complete",
+  "page_sequence_review": "complete_via_contact_sheet",
+  "role_review": "paper_confirmed",
+  "award_level_review": "unknown_not_inferred",
+  "open_items": [
+    {
+      "issue": "missing_official_workbook",
+      "status": "open_blocks_full_pass",
+      "details": "Material-demand history workbook is missing; forecasts and inventory results cannot be recomputed."
+    }
+  ],
+  "review_status": "conditional_complete",
+  "reviewed_at": "2026-07-26T05:16:52Z"
+}

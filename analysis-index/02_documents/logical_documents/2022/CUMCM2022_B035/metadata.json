@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "year": 2022,
+  "logical_document_id": "CUMCM2022_B035",
+  "problem_code": "B",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "title": "基于计算几何与带阈值启发式搜索的无人机无源定位模型",
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_source": "not_observed",
+  "source_directory": "2022#U5e74#U6570#U5b66#U5efa#U6a21#U56fd#U8d5b#U771f#U9898+#U4f18#U79c0#U8bba#U6587/2022#U5e74#U56fd#U8d5b#U4f18#U79c0#U8bba#U6587B035",
+  "page_count": 41,
+  "carrier_count": 41,
+  "representation_ids": [
+    "CUMCM2022_B035_REP01"
+  ],
+  "preferred_representation_id": "CUMCM2022_B035_REP01",
+  "parse_status": "manually_verified_from_images",
+  "segmentation_status": "page_complete",
+  "evidence_status": "page_image_evidence_present",
+  "completeness_status": "complete_as_scanned",
+  "feature_status": {
+    "abstract": "present",
+    "body": "present",
+    "references": "present",
+    "code_appendix": "present",
+    "official_problem_statement": "not_observed",
+    "source_dataset": "not_observed",
+    "expert_commentary": "not_applicable",
+    "authors": "not_observed",
+    "award_level": "unknown"
+  },
+  "keywords": [
+    "无源定位",
+    "启发式搜索",
+    "L2 loss",
+    "计算几何"
+  ],
+  "reported_results": [
+    "摘要称在距离误差不超过 15 m、角度误差不超过 1° 时，增加一架无人机发射信号即可实现有效定位。",
+    "摘要称圆形编队经 5 轮调整、16 架次信号发射后可达到较高位置精度。",
+    "错误编号场景在位置误差不超过 5 m 时可通过有限次信号传递解决。"
+  ],
+  "known_limitations": [
+    "官方 B 题题面未提供。",
+    "代码仅为 C++ 截图，无法直接编译。",
+    "摘要中的精度位数和传输次数来自论文自报，未独立复现。"
+  ],
+  "source_confidence": "level_A_for_readable_paper_content",
+  "updated_at": "2026-07-26T05:16:52Z"
+}
