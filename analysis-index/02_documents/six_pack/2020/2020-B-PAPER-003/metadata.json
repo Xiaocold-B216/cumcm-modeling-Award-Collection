@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-B-PAPER-003",
+  "year": 2020,
+  "problem_id": "2020-B",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "“穿越沙漠”游戏最佳策略模型的研究与构建",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-028"
+  ],
+  "representations": [
+    "2020-REP-028"
+  ],
+  "preferred_representation_id": "2020-REP-028",
+  "source_sha256": "40e583e4703ca3203d3d7df7ec81bf0f38255507bb59f5d05bfb1b17d2313d2c",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "图结构简化",
+      "路线枚举",
+      "动态规划",
+      "随机情景分析",
+      "博弈论"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "通过地图简化、路线枚举与动态规划求解确定天气策略，并使用随机模型和博弈论处理天气不确定及多人交互。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

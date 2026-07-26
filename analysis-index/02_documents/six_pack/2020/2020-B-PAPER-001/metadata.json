@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-B-PAPER-001",
+  "year": 2020,
+  "problem_id": "2020-B",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "“穿越沙漠”游戏下玩家的最优策略模型",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-026"
+  ],
+  "representations": [
+    "2020-REP-026"
+  ],
+  "preferred_representation_id": "2020-REP-026",
+  "source_sha256": "15d8bbcdc619edfc18dadd681aa8349dcc56f19344370e3b2debe30edcd7a04b",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "Floyd最短路",
+      "动态规划",
+      "马尔可夫决策过程",
+      "启发式搜索",
+      "多人博弈"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "将地图转为图结构，联合规划路线、天气、资源采购、挖矿和补给；对未知天气和多人场景扩展为随机决策与博弈模型。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

@@ -1,0 +1,30 @@
+{
+  "checkpoint_type": "year_manual_conditional",
+  "checkpoint_label": "analysis_checkpoint_2020_full_supplied_bundle",
+  "year": 2020,
+  "status": "conditional_pass",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "parser_version": "0.5.3",
+  "schema_version": "1.4.1",
+  "carriers": 39,
+  "documents": 39,
+  "solution_papers": 17,
+  "expert_commentaries": 0,
+  "problem_statements": 5,
+  "supporting_objects": 17,
+  "representations": 39,
+  "segments": 973,
+  "tests_expected": 32,
+  "manual_verification_complete_for_document_identity_and_method_extraction": true,
+  "annual_scope_complete_for_user_supplied_bundle": true,
+  "created_at": "2026-07-26T04:30:00Z",
+  "recovery_bundle": "2020_analysis_upload.zip",
+  "recovery_bundle_sha256": null,
+  "remote_readback_verified": false,
+  "conditional_items": [
+    "remote readback",
+    "optional no-missing-glyph A/C official sources"
+  ],
+  "tests_passed": 32,
+  "tests_failed": 0
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-A-DATA-001",
+  "year": 2020,
+  "problem_id": "2020-A",
+  "role": "dataset",
+  "document_subtype": "experimental_temperature_curve",
+  "title": "A题实验炉温曲线",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-002"
+  ],
+  "representations": [
+    "2020-REP-002"
+  ],
+  "preferred_representation_id": "2020-REP-002",
+  "source_sha256": "fc42c478d1b37796de5157125d9ea9e33c75d29ba7d7af9885b340fd41ab1e7c",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "709条0.5秒间隔温度记录，时间19—373秒，温度30.03—242.28°C。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

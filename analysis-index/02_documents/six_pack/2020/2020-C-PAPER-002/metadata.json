@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-C-PAPER-002",
+  "year": 2020,
+  "problem_id": "2020-C",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "基于梯度下降的决策树算法与非线性规划的信贷风险评估与信贷策略模型",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-031"
+  ],
+  "representations": [
+    "2020-REP-031"
+  ],
+  "preferred_representation_id": "2020-REP-031",
+  "source_sha256": "bfb40f71e4e1376fe22e81e3ba77735046c7c8f0b37f3859e43ad90fa863eb30",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "梯度提升决策树",
+      "特征工程",
+      "交叉验证",
+      "非线性规划",
+      "风险收益优化"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "利用发票和企业经营指标训练梯度提升决策树类模型评估信用风险，再通过非线性规划配置贷款额度与利率，并考虑突发事件行业冲击。",
+  "source_quality_findings": [
+    "文件名前缀误标为D题；正文题名、摘要、数据对象和问题结构均属于C题。"
+  ],
+  "created_at": "2026-07-26T04:30:00Z"
+}

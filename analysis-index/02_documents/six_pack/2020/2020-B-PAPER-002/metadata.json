@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-B-PAPER-002",
+  "year": 2020,
+  "problem_id": "2020-B",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "穿越沙漠游戏中的玩家行为决策问题",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-027"
+  ],
+  "representations": [
+    "2020-REP-027"
+  ],
+  "preferred_representation_id": "2020-REP-027",
+  "source_sha256": "473e11b268cdd133d9dd439719b055171c840360635c747c0f2759d5d7f9d678",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "图论最短路",
+      "多阶段动态规划",
+      "MDP",
+      "随机天气策略",
+      "静态博弈"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "针对已知天气、仅知当日天气及多人互动三类信息结构，建立最短路、动态规划、MDP和竞争合作决策模型。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

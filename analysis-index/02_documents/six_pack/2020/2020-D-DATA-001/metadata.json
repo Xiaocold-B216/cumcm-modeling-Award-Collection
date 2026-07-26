@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-D-DATA-001",
+  "year": 2020,
+  "problem_id": "2020-D",
+  "role": "dataset",
+  "document_subtype": "profile_measurement",
+  "title": "D题附件1：工件1水平与倾斜测量",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-012"
+  ],
+  "representations": [
+    "2020-REP-012"
+  ],
+  "preferred_representation_id": "2020-REP-012",
+  "source_sha256": "ff215ffd19c1e073facce364b88420dfa20cd87d489c42ec0840dd499c11e9fe",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "level与down两条高密度(x,z)轮廓，共284627个数据点。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

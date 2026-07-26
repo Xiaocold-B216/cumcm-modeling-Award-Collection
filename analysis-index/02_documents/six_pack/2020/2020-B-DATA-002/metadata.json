@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-B-DATA-002",
+  "year": 2020,
+  "problem_id": "2020-B",
+  "role": "dataset",
+  "document_subtype": "submission_template",
+  "title": "B题Result.xlsx提交模板",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-006"
+  ],
+  "representations": [
+    "2020-REP-006"
+  ],
+  "preferred_representation_id": "2020-REP-006",
+  "source_sha256": "88386597e48b96004181774bd668fe289d3a6e40fefb45350177b6292c7a02ce",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "第一关和第二关的逐日区域、资金、水和食物结果模板。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

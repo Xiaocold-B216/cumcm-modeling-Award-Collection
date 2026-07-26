@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-C-PAPER-003",
+  "year": 2020,
+  "problem_id": "2020-C",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "银行对中小微企业的信贷策略",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-032"
+  ],
+  "representations": [
+    "2020-REP-032"
+  ],
+  "preferred_representation_id": "2020-REP-032",
+  "source_sha256": "6cac74309590521133f181a0a8788e3cafe6e58130dd5bcb72cd45cd7dfcd45c",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "主成分分析",
+      "BP神经网络",
+      "综合评价",
+      "遗传算法",
+      "非线性规划",
+      "突发事件影响系数"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "构建企业实力、信誉、供求稳定性等综合指标，结合主成分分析和BP神经网络评估风险，再以遗传算法或非线性规划求信贷策略。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

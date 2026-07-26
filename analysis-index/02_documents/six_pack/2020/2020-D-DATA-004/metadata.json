@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-D-DATA-004",
+  "year": 2020,
+  "problem_id": "2020-D",
+  "role": "dataset",
+  "document_subtype": "local_angle_measurement",
+  "title": "D题附件4：角相关局部测量",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-015"
+  ],
+  "representations": [
+    "2020-REP-015"
+  ],
+  "preferred_representation_id": "2020-REP-015",
+  "source_sha256": "9cad8b22c97ea4e6a7c83d1ac63697ca8a37e893d6e7ee19e3c38ba9bf746fe4",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "9个局部测量工作表、约20.5万个点，用于角与线段参数修正。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

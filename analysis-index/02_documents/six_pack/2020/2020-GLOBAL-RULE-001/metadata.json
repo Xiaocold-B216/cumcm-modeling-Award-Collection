@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-GLOBAL-RULE-001",
+  "year": 2020,
+  "problem_id": "2020-ALL",
+  "role": "dataset",
+  "document_subtype": "competition_format_specification",
+  "title": "2020全国大学生数学建模竞赛论文格式规范",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-022"
+  ],
+  "representations": [
+    "2020-REP-022"
+  ],
+  "preferred_representation_id": "2020-REP-022",
+  "source_sha256": "5dc4160b02311bc78d17a567415a4cf431f7502773e1e468e0739e297e8b78ae",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "规定电子版论文第一页为摘要页、正文原则上控制在20页以内、附录应含完整可运行源程序和支撑材料清单，并禁止出现参赛者身份信息。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

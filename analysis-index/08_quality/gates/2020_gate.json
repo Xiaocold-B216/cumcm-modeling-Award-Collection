@@ -1,0 +1,53 @@
+{
+  "year": 2020,
+  "status": "conditional_pass",
+  "status_reason": [
+    "39 supplied carriers fully indexed and locally tested",
+    "remote readback pending",
+    "two optional no-missing-glyph official problem replacements requested"
+  ],
+  "checks": {
+    "all_observed_carriers_hashed": true,
+    "all_problem_statements_verified": true,
+    "supporting_data_verified_for_observed_files": true,
+    "four_quarters_present_for_problem_E": true,
+    "solution_paper_corpus_present": true,
+    "roles_manually_verified": true,
+    "expert_commentary_separated": true,
+    "object_layers_separate": true,
+    "field_status_enum": true,
+    "unknown_not_absent": true,
+    "page_boundary_review_complete": true,
+    "one_preferred_representation": true,
+    "source_unmodified": true,
+    "statistics_scoped": true,
+    "logical_document_six_pack": true,
+    "manual_verification_complete_for_document_identity_and_method_extraction": true,
+    "annual_scope_complete_for_user_supplied_bundle": true,
+    "remote_readback_verified": false,
+    "remote_baseline_file_by_file_completeness_verified": false
+  },
+  "manual_review_items": 4,
+  "blocking_items": 0,
+  "carriers": 39,
+  "documents": 39,
+  "solution_papers": 17,
+  "expert_commentaries": 0,
+  "problem_statements": 5,
+  "supporting_objects": 17,
+  "representations": 39,
+  "segments": 973,
+  "known_issues": [
+    "官方A题DOCX制程界限表和调整范围存在源文件缺字；数值由多篇论文一致交叉恢复",
+    "官方C题DOCX贷款额度范围源文件缺字；多篇论文一致写为10—100万元",
+    "文件名前缀误写2020D，正文明确属于C题",
+    "MathType公式需结合OLE/WMF专门提取"
+  ],
+  "updated_at": "2026-07-26T04:30:00Z",
+  "tests": {
+    "test_file": "tests/test_2020_manual.py",
+    "passed": 32,
+    "failed": 0,
+    "status": "pass"
+  }
+}

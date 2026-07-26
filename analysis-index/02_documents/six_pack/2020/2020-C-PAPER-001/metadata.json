@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-C-PAPER-001",
+  "year": 2020,
+  "problem_id": "2020-C",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "针对中小微企业最优信贷决策研究",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-030"
+  ],
+  "representations": [
+    "2020-REP-030"
+  ],
+  "preferred_representation_id": "2020-REP-030",
+  "source_sha256": "87a5d1dc04e3e45c17d13584b55df4c5f45f3829c1904bbf2a75ccc28e36b61c",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "熵权法",
+      "TOPSIS",
+      "Logistic回归",
+      "聚类/分层",
+      "非线性规划",
+      "突发事件情景修正"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "从发票、盈利、信誉和上下游关系构建风险指标，采用熵权/TOPSIS与Logistic等模型量化风险，并在总额度约束下优化贷款利率和额度。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

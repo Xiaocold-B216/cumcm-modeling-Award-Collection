@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-A-PROBLEM-001",
+  "year": 2020,
+  "problem_id": "2020-A",
+  "role": "problem",
+  "document_subtype": "problem_statement",
+  "title": "A题 炉温曲线",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-001"
+  ],
+  "representations": [
+    "2020-REP-001"
+  ],
+  "preferred_representation_id": "2020-REP-001",
+  "source_sha256": "686279ba0202e28e9c86f2e31611d17edec04865cd85acb3a69e606d2c425150",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "以回焊炉机理建模、速度与温区设定优化为核心的官方题面。",
+  "source_quality_findings": [
+    "制程界限表的最低值/最高值单元格在源DOCX中为空",
+    "温区设定温度允许调整范围的数值在源DOCX中缺失",
+    "无对应OLE对象可恢复这些数字"
+  ],
+  "created_at": "2026-07-26T03:30:00Z"
+}

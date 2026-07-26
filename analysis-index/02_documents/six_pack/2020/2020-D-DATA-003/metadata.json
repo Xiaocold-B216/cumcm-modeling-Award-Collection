@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-D-DATA-003",
+  "year": 2020,
+  "problem_id": "2020-D",
+  "role": "dataset",
+  "document_subtype": "local_circle_measurement",
+  "title": "D题附件3：圆相关局部测量",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-014"
+  ],
+  "representations": [
+    "2020-REP-014"
+  ],
+  "preferred_representation_id": "2020-REP-014",
+  "source_sha256": "875292c7b581f52ec16c1dcdf3483961944876157dad4c758040b946495c68bf",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "9个局部测量工作表、约54.9万个点，用于圆弧参数修正。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

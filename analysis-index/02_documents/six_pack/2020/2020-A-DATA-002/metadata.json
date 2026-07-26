@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-A-DATA-002",
+  "year": 2020,
+  "problem_id": "2020-A",
+  "role": "dataset",
+  "document_subtype": "submission_template",
+  "title": "A题result.csv提交模板",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-003"
+  ],
+  "representations": [
+    "2020-REP-003"
+  ],
+  "preferred_representation_id": "2020-REP-003",
+  "source_sha256": "2b995aa4a1f3e24ff0e88755ab56091bb68b8bebbaa473c884ab01963e521137",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "GBK编码的时间—温度提交模板，含表头和0、0.5秒两个空值行。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

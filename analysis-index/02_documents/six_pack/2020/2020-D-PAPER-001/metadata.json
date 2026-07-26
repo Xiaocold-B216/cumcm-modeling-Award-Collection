@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-D-PAPER-001",
+  "year": 2020,
+  "problem_id": "2020-D",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "基于接触式轮廓仪测量数据的工件形状自动标注方法",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-035"
+  ],
+  "representations": [
+    "2020-REP-035"
+  ],
+  "preferred_representation_id": "2020-REP-035",
+  "source_sha256": "d7e2c7b696dc4261e4faccb8430952c367ef95ee5d1004768a094e24b66b5b5e",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "滑动平均去噪",
+      "二阶导数阈值分段",
+      "最小二乘直线拟合",
+      "最小二乘圆拟合",
+      "刚体旋转校正",
+      "多扫描拼接"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "以二阶导数和滑动窗口识别直线、斜线与圆弧分段，使用最小二乘拟合几何参数，并通过旋转校正、多扫描拼接和局部数据修正完成自动标注。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

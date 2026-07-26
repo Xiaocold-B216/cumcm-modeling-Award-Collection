@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-C-PAPER-005",
+  "year": 2020,
+  "problem_id": "2020-C",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "银行基于大数据挖掘对中小微企业的信贷决策问题",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-034"
+  ],
+  "representations": [
+    "2020-REP-034"
+  ],
+  "preferred_representation_id": "2020-REP-034",
+  "source_sha256": "9b67da2ba5892fcd896328f91fa228863d9d494d94d5beff22fdf4156d6334f1",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "大数据特征工程",
+      "Logistic回归",
+      "综合评价",
+      "多目标规划",
+      "行业冲击系数"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "利用发票大数据提取规模、盈利、稳定性和关联关系指标，以Logistic回归和综合评价量化风险，并建立多目标规划分配额度和利率。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

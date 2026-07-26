@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-E-DATA-002",
+  "year": 2020,
+  "problem_id": "2020-E",
+  "role": "dataset",
+  "document_subtype": "quarterly_meter_readings",
+  "title": "E题附件2：二季度水表数据",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-018"
+  ],
+  "representations": [
+    "2020-REP-018"
+  ],
+  "preferred_representation_id": "2020-REP-018",
+  "source_sha256": "f6b63b6f0b32d76e41d12702fd98bf96c78c304e5ea72d294c6f37c9b4a2d7c9",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "2019年第二季度91个水表、778195条读数。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

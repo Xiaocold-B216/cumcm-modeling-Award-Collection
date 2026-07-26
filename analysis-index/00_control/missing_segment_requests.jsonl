@@ -1,1 +1,2 @@
-{"note": "All supplied PDF pages rendered and all structured carriers parsed.", "open_requests": 0, "record_type": "year_summary", "status": "none", "year": 2019}
+{"request_id": "2020-MISS-001", "year": 2020, "blocking": false, "status": "optional_source_replacement", "requested_file": "2020年国赛A题无缺字官方版.pdf或.docx", "recognition_features": "表1完整含0~3、-3~0、60~120、40~90、240~250，且温区允许±10℃调整", "reason": "替换当前源DOCX的缺字表格"}
+{"request_id": "2020-MISS-002", "year": 2020, "blocking": false, "status": "optional_source_replacement", "requested_file": "2020年国赛C题无缺字官方版.pdf或.docx", "recognition_features": "正文完整显示单户贷款额度10~100万元、年利率4%~15%", "reason": "替换当前源DOCX的贷款额度缺字"}

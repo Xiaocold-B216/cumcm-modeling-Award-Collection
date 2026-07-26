@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-C-DATA-003",
+  "year": 2020,
+  "problem_id": "2020-C",
+  "role": "dataset",
+  "document_subtype": "interest_churn_curve",
+  "title": "C题附件3：利率与客户流失率",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-010"
+  ],
+  "representations": [
+    "2020-REP-010"
+  ],
+  "preferred_representation_id": "2020-REP-010",
+  "source_sha256": "abdbdf684b76d2ea2675233662d5e3db346314716ffd911d1389599410624056",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "A/B/C信誉等级在4%—15%利率区间的客户流失率曲线；另有两个空工作表。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

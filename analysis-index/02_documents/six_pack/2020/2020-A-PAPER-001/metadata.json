@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-A-PAPER-001",
+  "year": 2020,
+  "problem_id": "2020-A",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "回焊炉温曲线优化控制",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-023"
+  ],
+  "representations": [
+    "2020-REP-023"
+  ],
+  "preferred_representation_id": "2020-REP-023",
+  "source_sha256": "260bf50a68449cdf33ae46f151e560165457ac07c4a624bee0ad90cca310e488",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "传热机理模型",
+      "分段环境温度函数",
+      "多元非线性拟合",
+      "模拟退火",
+      "多目标优化",
+      "灵敏度分析"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "围绕回焊炉温度传递、参数拟合、传送速度上限、217℃以上面积和峰值两侧对称性建立优化控制模型。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

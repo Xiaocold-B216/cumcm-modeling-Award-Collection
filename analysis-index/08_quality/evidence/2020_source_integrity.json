@@ -1,0 +1,284 @@
+{
+  "year": 2020,
+  "file_count": 39,
+  "modification_count": 0,
+  "all_sources_unmodified": true,
+  "hash_algorithm": "sha256",
+  "duplicate_sha256_groups": [],
+  "files": [
+    {
+      "carrier_id": "2020-CARRIER-001",
+      "filename": "2020年国赛A题.docx",
+      "bytes": 395168,
+      "sha256": "686279ba0202e28e9c86f2e31611d17edec04865cd85acb3a69e606d2c425150",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-002",
+      "filename": "2020年国赛A题附件.xlsx",
+      "bytes": 22940,
+      "sha256": "fc42c478d1b37796de5157125d9ea9e33c75d29ba7d7af9885b340fd41ab1e7c",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-003",
+      "filename": "2020年国赛A题result.csv",
+      "bytes": 32,
+      "sha256": "2b995aa4a1f3e24ff0e88755ab56091bb68b8bebbaa473c884ab01963e521137",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-004",
+      "filename": "2020年国赛B题.docx",
+      "bytes": 57063,
+      "sha256": "4972a0fea4a1b9fb10f0ee1545116a03635aae1343b72c7bbe8afc297a2d9165",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-005",
+      "filename": "2020年国赛B题附件.docx",
+      "bytes": 259622,
+      "sha256": "65c3b6ffb9daae64e2893f16e379a3063c732ab4fc04412f8e9d041cf144f28d",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-006",
+      "filename": "2020年国赛B题Result.xlsx",
+      "bytes": 11164,
+      "sha256": "88386597e48b96004181774bd668fe289d3a6e40fefb45350177b6292c7a02ce",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-007",
+      "filename": "2020年国赛C题.docx",
+      "bytes": 39196,
+      "sha256": "a540d0612422d2419ae34cace2ee11a15b5f68e427e006ee7041842641eb7c69",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-008",
+      "filename": "2020年国赛C题附件 (1).xlsx",
+      "bytes": 21273447,
+      "sha256": "450df5f7184aa43b3b1cddaa4387cceb91d4881a666e667b7c84c480a8b2b600",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-009",
+      "filename": "2020年国赛C题附件 (2).xlsx",
+      "bytes": 41682618,
+      "sha256": "1399075d2b39a05da6d7722af16cb96ed322cf13b96dd780d5d42a7686bc634b",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-010",
+      "filename": "2020年国赛C题附件 (3).xlsx",
+      "bytes": 13576,
+      "sha256": "abdbdf684b76d2ea2675233662d5e3db346314716ffd911d1389599410624056",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-011",
+      "filename": "2020年国赛D题.docx",
+      "bytes": 353147,
+      "sha256": "45463e4f8ec6b5e66172f7d09205e5e82f930e288da22ab56dfa54b9260c2f93",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-012",
+      "filename": "2020年国赛D题附件 (1).xlsx",
+      "bytes": 7407027,
+      "sha256": "ff215ffd19c1e073facce364b88420dfa20cd87d489c42ec0840dd499c11e9fe",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-013",
+      "filename": "2020年国赛D题附件 (2).xlsx",
+      "bytes": 20515708,
+      "sha256": "804e9f6a0cd764ea6527490b22e1bf7b9ba9213c514028b373eb146b8eb1fdab",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-014",
+      "filename": "2020年国赛D题附件 (3).xlsx",
+      "bytes": 15871647,
+      "sha256": "875292c7b581f52ec16c1dcdf3483961944876157dad4c758040b946495c68bf",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-015",
+      "filename": "2020年国赛D题附件 (4).xlsx",
+      "bytes": 5941285,
+      "sha256": "9cad8b22c97ea4e6a7c83d1ac63697ca8a37e893d6e7ee19e3c38ba9bf746fe4",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-016",
+      "filename": "2020年国赛E题.docx",
+      "bytes": 37173,
+      "sha256": "4c897568af2a20f62d5431f787f9db560effbc8aa2a1d3d43dc14a29d954dfeb",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-017",
+      "filename": "2020年国赛E题附件 (1).xlsx",
+      "bytes": 23157112,
+      "sha256": "0974f27b8e26a55c89b87f2860f37a55aaec5ade29b15941fa742c00e15df4f6",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-018",
+      "filename": "2020年国赛E题附件 (2).xlsx",
+      "bytes": 25030494,
+      "sha256": "f6b63b6f0b32d76e41d12702fd98bf96c78c304e5ea72d294c6f37c9b4a2d7c9",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-019",
+      "filename": "2020年国赛E题附件 (3).xlsx",
+      "bytes": 25667855,
+      "sha256": "dc10cc43d31b21a967506ed5d08757304a9ae55e5b1f4b35cbd3e9e9cf091e40",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-020",
+      "filename": "2020年国赛E题附件 (4).xlsx",
+      "bytes": 13802,
+      "sha256": "067644f7168762dd36067e1cec9f041ad8ee8e723cf15fdee4ae94c1b3473aad",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-021",
+      "filename": "2020年国赛E题附件 (5).xlsx",
+      "bytes": 25483604,
+      "sha256": "0a78337511708130e1fbf8e04d537fecd1e4f8127ff634707e191c652dfa39b9",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-022",
+      "filename": "2020全国大学生数学建模竞赛论文格式规范.doc",
+      "bytes": 68608,
+      "sha256": "5dc4160b02311bc78d17a567415a4cf431f7502773e1e468e0739e297e8b78ae",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-023",
+      "filename": "2020A：回焊炉温曲线优化控制.pdf",
+      "bytes": 13330953,
+      "sha256": "260bf50a68449cdf33ae46f151e560165457ac07c4a624bee0ad90cca310e488",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-024",
+      "filename": "2020A：基于维热传导方程的炉温曲线机理模型研究.pdf",
+      "bytes": 33485950,
+      "sha256": "aef1a183ffc67e15112e6cb048f9327b3d0826d8a64648a3eb27171403b43452",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-025",
+      "filename": "2020A：基于一维热传导方程的回焊炉炉温模型.pdf",
+      "bytes": 18943299,
+      "sha256": "3d4ddde5771a1316de38955bc4f8112d2a6102e928298fd6e7b18da456cd9972",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-026",
+      "filename": "2020B：穿越沙漠游戏下玩家的最优策略模型.pdf",
+      "bytes": 16009206,
+      "sha256": "15d8bbcdc619edfc18dadd681aa8349dcc56f19344370e3b2debe30edcd7a04b",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-027",
+      "filename": "2020B：穿越沙漠游戏中的玩家行为决策问题.pdf",
+      "bytes": 18364778,
+      "sha256": "473e11b268cdd133d9dd439719b055171c840360635c747c0f2759d5d7f9d678",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-028",
+      "filename": "2020B：穿越沙漠游戏最佳策略模型的研究与构建.pdf",
+      "bytes": 26874381,
+      "sha256": "40e583e4703ca3203d3d7df7ec81bf0f38255507bb59f5d05bfb1b17d2313d2c",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-029",
+      "filename": "2020B：基于动态规划、统计分析、静态博弈的穿越沙漠游戏策咯设计.pdf",
+      "bytes": 46316761,
+      "sha256": "26781a9c92e48a6fd495960c27aeb6e66b1c0a2a89db7f07bd6c0362a68e6a9e",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-030",
+      "filename": "2020C：针对中小微企业最优信贷决策研究.pdf",
+      "bytes": 19593307,
+      "sha256": "87a5d1dc04e3e45c17d13584b55df4c5f45f3829c1904bbf2a75ccc28e36b61c",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-031",
+      "filename": "2020D：基于梯度下降的决策树算法与非线性规划的信贷风险评估与信贷策略模型.pdf",
+      "bytes": 43351370,
+      "sha256": "bfb40f71e4e1376fe22e81e3ba77735046c7c8f0b37f3859e43ad90fa863eb30",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-032",
+      "filename": "2020C：银行对中小微企业的信贷策略.pdf",
+      "bytes": 23300215,
+      "sha256": "6cac74309590521133f181a0a8788e3cafe6e58130dd5bcb72cd45cd7dfcd45c",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-033",
+      "filename": "2020C：银行对中小微企业的信贷决策分析.pdf",
+      "bytes": 17618511,
+      "sha256": "c953c2e34d07e03c7f2ebbac036e227969c4b73d4ff051edfab7a1a6267ee493",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-034",
+      "filename": "2020C：银行基于大数据挖掘对中小微企业的信贷决策问题.pdf",
+      "bytes": 29550880,
+      "sha256": "9b67da2ba5892fcd896328f91fa228863d9d494d94d5beff22fdf4156d6334f1",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-035",
+      "filename": "2020D：基于接触式轮廓仪测量数据的工件形状自动标注方法.pdf",
+      "bytes": 10808047,
+      "sha256": "d7e2c7b696dc4261e4faccb8430952c367ef95ee5d1004768a094e24b66b5b5e",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-036",
+      "filename": "2020D：接触式轮廓仪的自动标注数学模型研究.pdf",
+      "bytes": 40219032,
+      "sha256": "f8167387022e46e54ea04c371f75adcf587ffd4e72c300beb3798588c3e826a9",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-037",
+      "filename": "2020D：接触式轮廓仪校准问题.pdf",
+      "bytes": 18536285,
+      "sha256": "cf4b513786360241fb0a5272598edb9a5cc95884a81864d28f99a4872d2d71d4",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-038",
+      "filename": "2020Ｅ：校园供水系统智能管理（１）.pdf",
+      "bytes": 11347020,
+      "sha256": "ce6a59742917ab90096a6f00cf2a8c1ad1c11d9e62e3fba9cf63be06c2af3022",
+      "original_unmodified": true
+    },
+    {
+      "carrier_id": "2020-CARRIER-039",
+      "filename": "2020Ｅ：校园供水系统智能管理（２）.pdf",
+      "bytes": 18377112,
+      "sha256": "8f455ac904b2e2ce127c1c1ebebb46b4910a857209eb1825a571d02e3b315eae",
+      "original_unmodified": true
+    }
+  ],
+  "verified_at": "2026-07-26T04:30:00Z"
+}

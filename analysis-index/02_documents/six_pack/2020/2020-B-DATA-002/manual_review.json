@@ -1,0 +1,12 @@
+{
+  "logical_document_id": "2020-B-DATA-002",
+  "manual_review_status": "complete_for_observed_carrier",
+  "role_verified": true,
+  "preferred_representation_verified": true,
+  "page_or_sheet_boundaries_verified": true,
+  "award_level_inference_prohibited": true,
+  "source_unmodified": true,
+  "blocking_for_annual_completion": false,
+  "limitations": [],
+  "reviewed_at": "2026-07-26T03:30:00Z"
+}

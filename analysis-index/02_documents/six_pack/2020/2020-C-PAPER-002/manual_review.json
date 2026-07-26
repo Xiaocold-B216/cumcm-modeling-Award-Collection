@@ -1,0 +1,15 @@
+{
+  "logical_document_id": "2020-C-PAPER-002",
+  "review_status": "complete_for_identity_and_method_extraction",
+  "role_verified": true,
+  "problem_assignment_verified": true,
+  "page_level_segments_generated": true,
+  "full_page_visual_review_status": "not_claimed",
+  "award_level": "unknown",
+  "expert_feedback": "not_observed",
+  "review_notes": [
+    "文件名前缀误标为D题；正文题名、摘要、数据对象和问题结构均属于C题。",
+    "全文页级边界已生成；未声称逐页人工视觉复核。"
+  ],
+  "reviewed_at": "2026-07-26T04:30:00Z"
+}

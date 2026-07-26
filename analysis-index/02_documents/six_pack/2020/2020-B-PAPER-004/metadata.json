@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-B-PAPER-004",
+  "year": 2020,
+  "problem_id": "2020-B",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "基于动态规划、统计分析、静态博弈的穿越沙漠游戏策略设计",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-029"
+  ],
+  "representations": [
+    "2020-REP-029"
+  ],
+  "preferred_representation_id": "2020-REP-029",
+  "source_sha256": "26781a9c92e48a6fd495960c27aeb6e66b1c0a2a89db7f07bd6c0362a68e6a9e",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "状态压缩动态规划",
+      "蒙特卡洛/随机模拟",
+      "统计区间分析",
+      "静态博弈",
+      "策略评估"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "把游戏状态编码为日期、区域、资金、水和食物，使用动态规划求确定场景最优策略，并以统计模拟和静态博弈处理未知天气与多人问题。",
+  "source_quality_findings": [
+    "原文件名“策咯”为拼写错误，正文标题为“策略设计”。"
+  ],
+  "created_at": "2026-07-26T04:30:00Z"
+}

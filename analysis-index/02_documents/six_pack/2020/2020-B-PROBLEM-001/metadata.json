@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-B-PROBLEM-001",
+  "year": 2020,
+  "problem_id": "2020-B",
+  "role": "problem",
+  "document_subtype": "problem_statement",
+  "title": "B题 穿越沙漠",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-004"
+  ],
+  "representations": [
+    "2020-REP-004"
+  ],
+  "preferred_representation_id": "2020-REP-004",
+  "source_sha256": "4972a0fea4a1b9fb10f0ee1545116a03635aae1343b72c7bbe8afc297a2d9165",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "以图上行走、天气、资源、补给、挖矿和多人互动为核心的官方题面。",
+  "source_quality_findings": [
+    "含13个MathType OLE对象与11个WMF预览；常规文本提取会漏掉公式",
+    "WMF预览可恢复2、3、n、k(2≤k≤n)、B≠A、2k、1/k、4、0、1等规则符号"
+  ],
+  "created_at": "2026-07-26T03:30:00Z"
+}

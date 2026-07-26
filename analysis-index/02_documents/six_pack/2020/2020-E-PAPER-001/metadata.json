@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-E-PAPER-001",
+  "year": 2020,
+  "problem_id": "2020-E",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "校园供水系统智能管理（1）",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-038"
+  ],
+  "representations": [
+    "2020-REP-038"
+  ],
+  "preferred_representation_id": "2020-REP-038",
+  "source_sha256": "ce6a59742917ab90096a6f00cf2a8c1ad1c11d9e62e3fba9cf63be06c2af3022",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "描述统计与置信区间",
+      "功能区聚类/分类",
+      "层级流量守恒",
+      "残差分析",
+      "BP神经网络",
+      "0-1维修决策"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "先统计不同功能区的日内和季节用水特征，再根据层级水表建立流量平衡关系，以残差和神经网络识别漏损位置，最后做维修经济优化。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

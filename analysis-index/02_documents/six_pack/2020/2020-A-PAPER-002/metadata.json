@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-A-PAPER-002",
+  "year": 2020,
+  "problem_id": "2020-A",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "基于一维热传导方程的炉温曲线机理模型研究",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-024"
+  ],
+  "representations": [
+    "2020-REP-024"
+  ],
+  "preferred_representation_id": "2020-REP-024",
+  "source_sha256": "aef1a183ffc67e15112e6cb048f9327b3d0826d8a64648a3eb27171403b43452",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "一维热传导偏微分方程",
+      "牛顿冷却定律",
+      "有限差分数值解",
+      "最小二乘参数辨识",
+      "A*搜索/组合优化",
+      "敏感性分析"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "从一维热传导方程和牛顿冷却边界出发构建炉温机理模型，辨识热参数，并在制程约束下优化温区设定和传送速度。",
+  "source_quality_findings": [
+    "原文件名缺少“一”字，正文标题和模型内容表明是一维热传导方程。"
+  ],
+  "created_at": "2026-07-26T04:30:00Z"
+}

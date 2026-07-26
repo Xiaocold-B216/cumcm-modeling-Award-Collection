@@ -1,1 +1,4 @@
-{"blocking_items": 0, "note": "No open manual review item for the supplied carrier set.", "open_items": 0, "record_type": "year_summary", "status": "empty", "year": 2019}
+{"review_id": "2020-REVIEW-001", "year": 2020, "severity": "nonblocking", "document_id": "2020-A-PROBLEM-001", "issue": "官方A题DOCX制程界限表和调整范围存在源文件缺字；数值由多篇论文一致交叉恢复", "status": "documented"}
+{"review_id": "2020-REVIEW-002", "year": 2020, "severity": "nonblocking", "document_id": "2020-C-PROBLEM-001", "issue": "官方C题DOCX贷款额度范围源文件缺字；多篇论文一致写为10—100万元", "status": "documented"}
+{"review_id": "2020-REVIEW-003", "year": 2020, "severity": "corrected", "document_id": "2020-C-PAPER-002", "issue": "文件名前缀误写2020D，正文明确属于C题", "status": "corrected"}
+{"review_id": "2020-REVIEW-004", "year": 2020, "severity": "nonblocking", "document_id": "2020-B-PROBLEM-001", "issue": "MathType公式需结合OLE/WMF专门提取", "status": "documented"}

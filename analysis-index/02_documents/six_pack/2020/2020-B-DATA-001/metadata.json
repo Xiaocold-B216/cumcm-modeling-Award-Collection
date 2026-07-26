@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-B-DATA-001",
+  "year": 2020,
+  "problem_id": "2020-B",
+  "role": "dataset",
+  "document_subtype": "scenario_map_attachment",
+  "title": "B题六关参数与地图附件",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-005"
+  ],
+  "representations": [
+    "2020-REP-005"
+  ],
+  "preferred_representation_id": "2020-REP-005",
+  "source_sha256": "65c3b6ffb9daae64e2893f16e379a3063c732ab4fc04412f8e9d041cf144f28d",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "8页附件，包含六关参数表、天气序列和地图。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

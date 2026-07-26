@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-D-DATA-002",
+  "year": 2020,
+  "problem_id": "2020-D",
+  "role": "dataset",
+  "document_subtype": "multi_scan_measurement",
+  "title": "D题附件2：工件2十次测量",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-013"
+  ],
+  "representations": [
+    "2020-REP-013"
+  ],
+  "preferred_representation_id": "2020-REP-013",
+  "source_sha256": "804e9f6a0cd764ea6527490b22e1bf7b9ba9213c514028b373eb146b8eb1fdab",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "10个工作表、约75.8万个轮廓点，用于多次扫描姿态估计、拼接和完整轮廓重建。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-E-DATA-001",
+  "year": 2020,
+  "problem_id": "2020-E",
+  "role": "dataset",
+  "document_subtype": "quarterly_meter_readings",
+  "title": "E题附件1：一季度水表数据",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-017"
+  ],
+  "representations": [
+    "2020-REP-017"
+  ],
+  "preferred_representation_id": "2020-REP-017",
+  "source_sha256": "0974f27b8e26a55c89b87f2860f37a55aaec5ade29b15941fa742c00e15df4f6",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "2019年第一季度91个水表、729283条读数。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

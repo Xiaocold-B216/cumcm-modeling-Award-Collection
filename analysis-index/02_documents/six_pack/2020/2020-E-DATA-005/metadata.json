@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-E-DATA-005",
+  "year": 2020,
+  "problem_id": "2020-E",
+  "role": "dataset",
+  "document_subtype": "quarterly_meter_readings",
+  "title": "E题附件5：四季度水表数据",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-021"
+  ],
+  "representations": [
+    "2020-REP-021"
+  ],
+  "preferred_representation_id": "2020-REP-021",
+  "source_sha256": "0a78337511708130e1fbf8e04d537fecd1e4f8127ff634707e191c652dfa39b9",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "第四季度水表读数与区间用量数据，共787466行、91个水表。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

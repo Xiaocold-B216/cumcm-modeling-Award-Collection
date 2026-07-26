@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-C-DATA-001",
+  "year": 2020,
+  "problem_id": "2020-C",
+  "role": "dataset",
+  "document_subtype": "labeled_credit_invoice_dataset",
+  "title": "C题附件1：123家有信贷记录企业",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-008"
+  ],
+  "representations": [
+    "2020-REP-008"
+  ],
+  "preferred_representation_id": "2020-REP-008",
+  "source_sha256": "450df5f7184aa43b3b1cddaa4387cceb91d4881a666e667b7c84c480a8b2b600",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "123家企业标签以及进项210947条、销项162484条发票记录。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}

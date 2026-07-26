@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-A-PAPER-003",
+  "year": 2020,
+  "problem_id": "2020-A",
+  "role": "paper",
+  "document_subtype": "competition_solution_paper",
+  "title": "基于一维热传导方程的回焊炉炉温模型",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-025"
+  ],
+  "representations": [
+    "2020-REP-025"
+  ],
+  "preferred_representation_id": "2020-REP-025",
+  "source_sha256": "3d4ddde5771a1316de38955bc4f8112d2a6102e928298fd6e7b18da456cd9972",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed; repository placement is not used as award evidence"
+  },
+  "solution_methods": {
+    "status": "present",
+    "values": [
+      "一维热传导方程",
+      "分段温度场",
+      "有限差分法",
+      "非线性最小二乘",
+      "约束非线性规划"
+    ]
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "eligible_solution_paper",
+  "observed_summary": "将炉内空间分段温度场与焊接区域一维导热方程耦合，通过有限差分和参数拟合求解炉温曲线，并进行约束优化。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T04:30:00Z"
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-C-PROBLEM-001",
+  "year": 2020,
+  "problem_id": "2020-C",
+  "role": "problem",
+  "document_subtype": "problem_statement",
+  "title": "C题 中小微企业的信贷决策",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-007"
+  ],
+  "representations": [
+    "2020-REP-007"
+  ],
+  "preferred_representation_id": "2020-REP-007",
+  "source_sha256": "a540d0612422d2419ae34cace2ee11a15b5f68e427e006ee7041842641eb7c69",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "以票据数据、信用风险、利率流失和突发冲击下信贷配置为核心的官方题面。",
+  "source_quality_findings": [
+    "“确定要放贷企业的贷款额度为…万元”中的额度范围在源DOCX中为空"
+  ],
+  "created_at": "2026-07-26T03:30:00Z"
+}

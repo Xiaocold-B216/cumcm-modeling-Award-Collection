@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.1",
+  "logical_document_id": "2020-E-PROBLEM-001",
+  "year": 2020,
+  "problem_id": "2020-E",
+  "role": "problem",
+  "document_subtype": "problem_statement",
+  "title": "E题 校园供水系统智能管理",
+  "language": "zh-CN",
+  "source_carriers": [
+    "2020-CARRIER-016"
+  ],
+  "representations": [
+    "2020-REP-016"
+  ],
+  "preferred_representation_id": "2020-REP-016",
+  "source_sha256": "4c897568af2a20f62d5431f787f9db560effbc8aa2a1d3d43dc14a29d954dfeb",
+  "award_level": {
+    "status": "unknown",
+    "value": null,
+    "basis": "not_observed"
+  },
+  "solution_methods": {
+    "status": "not_observed",
+    "values": []
+  },
+  "expert_feedback": {
+    "status": "not_observed",
+    "values": []
+  },
+  "corpus_eligibility": "supporting_material",
+  "observed_summary": "以用水规律、层级平衡、漏损检测定位和维修决策为核心的官方题面。",
+  "source_quality_findings": [],
+  "created_at": "2026-07-26T03:30:00Z"
+}
