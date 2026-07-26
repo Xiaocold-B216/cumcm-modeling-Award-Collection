@@ -252,7 +252,7 @@
     "The first snapshot incorrectly treated a cached origin ref as a verified remote state.",
     "A later PowerShell write reintroduced a UTF-8 BOM into the Markdown snapshot."
   ],
-  "remote_readback_verified": false,
-  "remote_readback_commit": null,
-  "remote_readback_at": null
+  "remote_readback_verified": true,
+  "remote_readback_commit": "b606cafb77d33927881b3c41413a2a8806e2d5f6",
+  "remote_readback_at": "2026-07-26T17:00:35Z"
 }

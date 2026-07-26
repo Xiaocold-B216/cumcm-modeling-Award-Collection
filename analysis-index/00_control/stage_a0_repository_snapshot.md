@@ -231,6 +231,6 @@
 
 ## Remote readback
 
-- Verified: `false`
-- Readback commit: `null`
-- Readback at (UTC): `null`
+- Verified: `true`
+- Readback commit: `b606cafb77d33927881b3c41413a2a8806e2d5f6`
+- Readback at (UTC): `2026-07-26T17:00:35Z`
