@@ -202,5 +202,7 @@ None (all removed)
 
 ## Remote Readback
 
-- **Verified**: Pending
+- **Verified**: Yes
+- **Remote Readback Commit**: 3e7fc5c28722dcdeff1b96df85068e64fae6e476
+- **Remote Readback At**: 2026-07-26T11:48:13Z
 

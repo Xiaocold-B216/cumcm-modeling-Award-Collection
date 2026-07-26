@@ -234,8 +234,8 @@
   ],
   "report_file_count": 65,
   "experimental_artifacts": [],
-  "remote_readback_verified": false,
-  "remote_readback_commit": null,
-  "remote_readback_at": null,
+  "remote_readback_verified": true,
+  "remote_readback_commit": "3e7fc5c28722dcdeff1b96df85068e64fae6e476",
+  "remote_readback_at": "2026-07-26T11:48:13Z",
   "generated_at": "2026-07-26T11:30:49Z"
 }
