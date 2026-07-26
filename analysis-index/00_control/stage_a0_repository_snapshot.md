@@ -1,208 +1,236 @@
-# Stage A0: Repository Snapshot
+# Stage A0 Repository Snapshot
 
-## Timeline
+## Snapshot identity
 
-- **Snapshot Base Head**: 721c6f8da5bcdbff9299eb8f55184acc8539ac41
-- **Initial Snapshot Commit**: 6421726ab409692c543059bc664bdea1a71e83cd
-- **Remote Field Correction Commit**: 5c793e032c8195999386d35fceddae89841d0f52
+- Schema version: `1.0.0`
+- Snapshot type: `stage_a_repository_state`
+- Branch: `analysis/corpus-index`
+- Snapshot started at (UTC): `2026-07-26T16:59:04Z`
+- Snapshot generated at (UTC): `2026-07-26T16:59:06Z`
+- Snapshot generation method: `automatic`
+- Snapshot generator: `python`
 
-## Current State (Auto-Collected)
+## Git state
 
-- **Branch**: analysis/corpus-index
-- **Local HEAD After Fetch**: 35449763cbfd57ad8a1483d25a5fb0cb597573f1
-- **Remote HEAD After Fetch**: 35449763cbfd57ad8a1483d25a5fb0cb597573f1
-- **Heads Match After Fetch**: True
-- **Working Tree Clean**: True
-- **Generated At**: 2026-07-26T11:30:49Z
+- Snapshot base HEAD: `721c6f8da5bcdbff9299eb8f55184acc8539ac41`
+- Initial snapshot commit: `6421726ab409692c543059bc664bdea1a71e83cd`
+- Remote-field correction commit: `5c793e032c8195999386d35fceddae89841d0f52`
+- Previous readback-record commit: `35449763cbfd57ad8a1483d25a5fb0cb597573f1`
+- Local HEAD after fetch: `f44988c9c70ded384b3f26f483f95eb6a59e41d3`
+- Remote HEAD after fetch: `3e7fc5c28722dcdeff1b96df85068e64fae6e476`
+- Heads match after fetch: `false`
 
-## Uncommitted Files
+## Working tree
 
-None
+- Clean before generation: `true`
+- Uncommitted file count: `0`
+- Untracked file count: `0`
 
-## Untracked Files
+### Uncommitted files
 
-- gen_a0_snapshot.py
+- None
 
-## Recent Commits (16)
+### Untracked files
 
-1. 3544976 chore: record remote readback for stage A0 snapshot
-2. 5c793e0 fix: correct unverified remote fields in stage A0 snapshot
-3. 6421726 chore: snapshot repository before stage A repair
-4. 721c6f8 docs: update stage A repair report with final status
-5. f1e290c audit: complete evidence-based review of previous codex runs
-6. 69de100 docs: add 2015-2025 completion report
-7. ac8399f feat: add cross-year normalization, commonness grading, and search engine
-8. c65b4d2 fix: restore 2015 test assertions and update control files
-9. 6f44bf5 audit: restore original test assertions and remove fake placeholder rows
-10. 8134174 docs: add 2015-2025 completion report
-11. a518df3 fix: test_2019 CSV GBK fallback
-12. 770ce74 fix: all year tests - fix BOM encoding, CSV GBK fallback, and queue filtering
-13. 3ff2295 fix: 2017 tests pass - fix BOM encoding, missing requests, and progress.json
-14. 7fb90fb fix: 2016 tests pass - fix BOM encoding and update progress.json
-15. e9d5ba2 fix: 2015 tests pass - fix BOM encoding, JSON parsing, and test assertions
-16. 2f56d77 analysis: add manually verified 2025 corpus index
+- None
 
-## Annual Test Files (11)
+## Repository inventories
 
-- tests\test_2015_manual.py
-- tests\test_2016_manual.py
-- tests\test_2017_manual.py
-- tests\test_2018_manual.py
-- tests\test_2019_manual.py
-- tests\test_2020_manual.py
-- tests\test_2021_manual.py
-- tests\test_2022_manual.py
-- tests\test_2023_manual.py
-- tests\test_2024_manual.py
-- tests\test_2025_manual.py
+- Annual test files: `11`
+- Gate files: `32`
+- Checkpoint files: `34`
+- Report files: `65`
+- Experimental artifacts: `0`
 
-## Gate Files (32)
+### Annual test files
 
-- analysis-index\08_quality\gates\1992_gate.json
-- analysis-index\08_quality\gates\1993_gate.json
-- analysis-index\08_quality\gates\1994_gate.json
-- analysis-index\08_quality\gates\1995_gate.json
-- analysis-index\08_quality\gates\1996_gate.json
-- analysis-index\08_quality\gates\1997_gate.json
-- analysis-index\08_quality\gates\1998_gate.json
-- analysis-index\08_quality\gates\1999_gate.json
-- analysis-index\08_quality\gates\2000_gate.json
-- analysis-index\08_quality\gates\2001_gate.json
-- analysis-index\08_quality\gates\2002_gate.json
-- analysis-index\08_quality\gates\2003_gate.json
-- analysis-index\08_quality\gates\2004_gate.json
-- analysis-index\08_quality\gates\2005_gate.json
-- analysis-index\08_quality\gates\2006_gate.json
-- analysis-index\08_quality\gates\2007_gate.json
-- analysis-index\08_quality\gates\2008_gate.json
-- analysis-index\08_quality\gates\2009_gate.json
-- analysis-index\08_quality\gates\2010_gate.json
-- analysis-index\08_quality\gates\2015_gate.json
-- analysis-index\08_quality\gates\2016_gate.json
-- analysis-index\08_quality\gates\2017_gate.json
-- analysis-index\08_quality\gates\2018_gate.json
-- analysis-index\08_quality\gates\2019_gate.json
-- analysis-index\08_quality\gates\2020_gate.json
-- analysis-index\08_quality\gates\2021_gate.json
-- analysis-index\08_quality\gates\2022_gate.json
-- analysis-index\08_quality\gates\2023_gate.json
-- analysis-index\08_quality\gates\2024_gate.json
-- analysis-index\08_quality\gates\2025_gate.json
-- analysis-index\08_quality\gates\inventory_gate.json
-- analysis-index\08_quality\gates\recovery_infrastructure_gate.json
+- `tests/test_2015_manual.py`
+- `tests/test_2016_manual.py`
+- `tests/test_2017_manual.py`
+- `tests/test_2018_manual.py`
+- `tests/test_2019_manual.py`
+- `tests/test_2020_manual.py`
+- `tests/test_2021_manual.py`
+- `tests/test_2022_manual.py`
+- `tests/test_2023_manual.py`
+- `tests/test_2024_manual.py`
+- `tests/test_2025_manual.py`
 
-## Checkpoint Files (34)
+### Gate files
 
-- analysis-index\09_checkpoints\1992_checkpoint.json
-- analysis-index\09_checkpoints\1993_checkpoint.json
-- analysis-index\09_checkpoints\1994_checkpoint.json
-- analysis-index\09_checkpoints\1995_checkpoint.json
-- analysis-index\09_checkpoints\1996_checkpoint.json
-- analysis-index\09_checkpoints\1997_checkpoint.json
-- analysis-index\09_checkpoints\1998_checkpoint.json
-- analysis-index\09_checkpoints\1999_checkpoint.json
-- analysis-index\09_checkpoints\2000_checkpoint.json
-- analysis-index\09_checkpoints\2001_checkpoint.json
-- analysis-index\09_checkpoints\2002_checkpoint.json
-- analysis-index\09_checkpoints\2003_checkpoint.json
-- analysis-index\09_checkpoints\2004_checkpoint.json
-- analysis-index\09_checkpoints\2005_checkpoint.json
-- analysis-index\09_checkpoints\2006_checkpoint.json
-- analysis-index\09_checkpoints\2007_checkpoint.json
-- analysis-index\09_checkpoints\2008_checkpoint.json
-- analysis-index\09_checkpoints\2009_checkpoint.json
-- analysis-index\09_checkpoints\2010_checkpoint.json
-- analysis-index\09_checkpoints\2015_checkpoint.json
-- analysis-index\09_checkpoints\2016_checkpoint.json
-- analysis-index\09_checkpoints\2017_checkpoint.json
-- analysis-index\09_checkpoints\2018_checkpoint.json
-- analysis-index\09_checkpoints\2019_checkpoint.json
-- analysis-index\09_checkpoints\2020_checkpoint.json
-- analysis-index\09_checkpoints\2021_checkpoint.json
-- analysis-index\09_checkpoints\2022_checkpoint.json
-- analysis-index\09_checkpoints\2023_checkpoint.json
-- analysis-index\09_checkpoints\2024_checkpoint.json
-- analysis-index\09_checkpoints\2025_checkpoint.json
-- analysis-index\09_checkpoints\analysis_checkpoint_through_2011.json
-- analysis-index\09_checkpoints\inventory_checkpoint.json
-- analysis-index\09_checkpoints\recovery_infrastructure_checkpoint.json
-- analysis-index\09_checkpoints\summary_checkpoint.json
+- `analysis-index/08_quality/gates/1992_gate.json`
+- `analysis-index/08_quality/gates/1993_gate.json`
+- `analysis-index/08_quality/gates/1994_gate.json`
+- `analysis-index/08_quality/gates/1995_gate.json`
+- `analysis-index/08_quality/gates/1996_gate.json`
+- `analysis-index/08_quality/gates/1997_gate.json`
+- `analysis-index/08_quality/gates/1998_gate.json`
+- `analysis-index/08_quality/gates/1999_gate.json`
+- `analysis-index/08_quality/gates/2000_gate.json`
+- `analysis-index/08_quality/gates/2001_gate.json`
+- `analysis-index/08_quality/gates/2002_gate.json`
+- `analysis-index/08_quality/gates/2003_gate.json`
+- `analysis-index/08_quality/gates/2004_gate.json`
+- `analysis-index/08_quality/gates/2005_gate.json`
+- `analysis-index/08_quality/gates/2006_gate.json`
+- `analysis-index/08_quality/gates/2007_gate.json`
+- `analysis-index/08_quality/gates/2008_gate.json`
+- `analysis-index/08_quality/gates/2009_gate.json`
+- `analysis-index/08_quality/gates/2010_gate.json`
+- `analysis-index/08_quality/gates/2015_gate.json`
+- `analysis-index/08_quality/gates/2016_gate.json`
+- `analysis-index/08_quality/gates/2017_gate.json`
+- `analysis-index/08_quality/gates/2018_gate.json`
+- `analysis-index/08_quality/gates/2019_gate.json`
+- `analysis-index/08_quality/gates/2020_gate.json`
+- `analysis-index/08_quality/gates/2021_gate.json`
+- `analysis-index/08_quality/gates/2022_gate.json`
+- `analysis-index/08_quality/gates/2023_gate.json`
+- `analysis-index/08_quality/gates/2024_gate.json`
+- `analysis-index/08_quality/gates/2025_gate.json`
+- `analysis-index/08_quality/gates/inventory_gate.json`
+- `analysis-index/08_quality/gates/recovery_infrastructure_gate.json`
 
-## Report Files (65)
+### Checkpoint files
 
-- analysis-index\07_reports\2015_2025_completion_report.md
-- analysis-index\07_reports\cross_year\1992_2010_data_quality.md
-- analysis-index\07_reports\cross_year\1992_2010_model_patterns.md
-- analysis-index\07_reports\cross_year\1992_2010_rebuild_and_analysis_summary.md
-- analysis-index\07_reports\cross_year\1992_2010_review_patterns.md
-- analysis-index\07_reports\cross_year\1992_2010_unresolved_items.md
-- analysis-index\07_reports\cross_year\1992_2010_visualization_patterns.md
-- analysis-index\07_reports\recovery\disaster_recovery_report.md
-- analysis-index\07_reports\recovery\inventory_reconciliation.md
-- analysis-index\07_reports\recovery\missing_1995_b_pages_first_search.md
-- analysis-index\07_reports\recovery\page_geometry_correction_0.5.2.md
-- analysis-index\07_reports\recovery\rebuild_1992_1995_reconciliation.md
-- analysis-index\07_reports\stage_a_control_repair_report.md
-- analysis-index\07_reports\yearly\1992_data_quality.md
-- analysis-index\07_reports\yearly\1992_report.md
-- analysis-index\07_reports\yearly\1993_data_quality.md
-- analysis-index\07_reports\yearly\1993_report.md
-- analysis-index\07_reports\yearly\1994_data_quality.md
-- analysis-index\07_reports\yearly\1994_report.md
-- analysis-index\07_reports\yearly\1995_data_quality.md
-- analysis-index\07_reports\yearly\1995_report.md
-- analysis-index\07_reports\yearly\1996_data_quality.md
-- analysis-index\07_reports\yearly\1996_report.md
-- analysis-index\07_reports\yearly\1997_data_quality.md
-- analysis-index\07_reports\yearly\1997_report.md
-- analysis-index\07_reports\yearly\1998_data_quality.md
-- analysis-index\07_reports\yearly\1998_report.md
-- analysis-index\07_reports\yearly\1999_data_quality.md
-- analysis-index\07_reports\yearly\1999_report.md
-- analysis-index\07_reports\yearly\2000_data_quality.md
-- analysis-index\07_reports\yearly\2000_report.md
-- analysis-index\07_reports\yearly\2001_data_quality.md
-- analysis-index\07_reports\yearly\2001_report.md
-- analysis-index\07_reports\yearly\2002_data_quality.md
-- analysis-index\07_reports\yearly\2002_report.md
-- analysis-index\07_reports\yearly\2003_data_quality.md
-- analysis-index\07_reports\yearly\2003_report.md
-- analysis-index\07_reports\yearly\2004_data_quality.md
-- analysis-index\07_reports\yearly\2004_report.md
-- analysis-index\07_reports\yearly\2005_data_quality.md
-- analysis-index\07_reports\yearly\2005_report.md
-- analysis-index\07_reports\yearly\2006_data_quality.md
-- analysis-index\07_reports\yearly\2006_report.md
-- analysis-index\07_reports\yearly\2007_data_quality.md
-- analysis-index\07_reports\yearly\2007_report.md
-- analysis-index\07_reports\yearly\2008_data_quality.md
-- analysis-index\07_reports\yearly\2008_report.md
-- analysis-index\07_reports\yearly\2009_data_quality.md
-- analysis-index\07_reports\yearly\2009_report.md
-- analysis-index\07_reports\yearly\2010_data_quality.md
-- analysis-index\07_reports\yearly\2010_report.md
-- analysis-index\07_reports\yearly\2015_report.md
-- analysis-index\07_reports\yearly\2016_current_intake_audit.md
-- analysis-index\07_reports\yearly\2016_report.md
-- analysis-index\07_reports\yearly\2017_report.md
-- analysis-index\07_reports\yearly\2017_state_reconciliation.md
-- analysis-index\07_reports\yearly\2018_report.md
-- analysis-index\07_reports\yearly\2019_report.md
-- analysis-index\07_reports\yearly\2020_report.md
-- analysis-index\07_reports\yearly\2021_report.md
-- analysis-index\07_reports\yearly\2022_report.md
-- analysis-index\07_reports\yearly\2023_report.md
-- analysis-index\07_reports\yearly\2024_report.md
-- analysis-index\07_reports\yearly\2025_remote_state_reconciliation.md
-- analysis-index\07_reports\yearly\2025_report.md
+- `analysis-index/09_checkpoints/1992_checkpoint.json`
+- `analysis-index/09_checkpoints/1993_checkpoint.json`
+- `analysis-index/09_checkpoints/1994_checkpoint.json`
+- `analysis-index/09_checkpoints/1995_checkpoint.json`
+- `analysis-index/09_checkpoints/1996_checkpoint.json`
+- `analysis-index/09_checkpoints/1997_checkpoint.json`
+- `analysis-index/09_checkpoints/1998_checkpoint.json`
+- `analysis-index/09_checkpoints/1999_checkpoint.json`
+- `analysis-index/09_checkpoints/2000_checkpoint.json`
+- `analysis-index/09_checkpoints/2001_checkpoint.json`
+- `analysis-index/09_checkpoints/2002_checkpoint.json`
+- `analysis-index/09_checkpoints/2003_checkpoint.json`
+- `analysis-index/09_checkpoints/2004_checkpoint.json`
+- `analysis-index/09_checkpoints/2005_checkpoint.json`
+- `analysis-index/09_checkpoints/2006_checkpoint.json`
+- `analysis-index/09_checkpoints/2007_checkpoint.json`
+- `analysis-index/09_checkpoints/2008_checkpoint.json`
+- `analysis-index/09_checkpoints/2009_checkpoint.json`
+- `analysis-index/09_checkpoints/2010_checkpoint.json`
+- `analysis-index/09_checkpoints/2015_checkpoint.json`
+- `analysis-index/09_checkpoints/2016_checkpoint.json`
+- `analysis-index/09_checkpoints/2017_checkpoint.json`
+- `analysis-index/09_checkpoints/2018_checkpoint.json`
+- `analysis-index/09_checkpoints/2019_checkpoint.json`
+- `analysis-index/09_checkpoints/2020_checkpoint.json`
+- `analysis-index/09_checkpoints/2021_checkpoint.json`
+- `analysis-index/09_checkpoints/2022_checkpoint.json`
+- `analysis-index/09_checkpoints/2023_checkpoint.json`
+- `analysis-index/09_checkpoints/2024_checkpoint.json`
+- `analysis-index/09_checkpoints/2025_checkpoint.json`
+- `analysis-index/09_checkpoints/analysis_checkpoint_through_2011.json`
+- `analysis-index/09_checkpoints/inventory_checkpoint.json`
+- `analysis-index/09_checkpoints/recovery_infrastructure_checkpoint.json`
+- `analysis-index/09_checkpoints/summary_checkpoint.json`
 
-## Experimental Artifacts
+### Report files
 
-None (all removed)
+- `analysis-index/07_reports/2015_2025_completion_report.md`
+- `analysis-index/07_reports/cross_year/1992_2010_data_quality.md`
+- `analysis-index/07_reports/cross_year/1992_2010_model_patterns.md`
+- `analysis-index/07_reports/cross_year/1992_2010_rebuild_and_analysis_summary.md`
+- `analysis-index/07_reports/cross_year/1992_2010_review_patterns.md`
+- `analysis-index/07_reports/cross_year/1992_2010_unresolved_items.md`
+- `analysis-index/07_reports/cross_year/1992_2010_visualization_patterns.md`
+- `analysis-index/07_reports/recovery/disaster_recovery_report.md`
+- `analysis-index/07_reports/recovery/inventory_reconciliation.md`
+- `analysis-index/07_reports/recovery/missing_1995_b_pages_first_search.md`
+- `analysis-index/07_reports/recovery/page_geometry_correction_0.5.2.md`
+- `analysis-index/07_reports/recovery/rebuild_1992_1995_reconciliation.md`
+- `analysis-index/07_reports/stage_a_control_repair_report.md`
+- `analysis-index/07_reports/yearly/1992_data_quality.md`
+- `analysis-index/07_reports/yearly/1992_report.md`
+- `analysis-index/07_reports/yearly/1993_data_quality.md`
+- `analysis-index/07_reports/yearly/1993_report.md`
+- `analysis-index/07_reports/yearly/1994_data_quality.md`
+- `analysis-index/07_reports/yearly/1994_report.md`
+- `analysis-index/07_reports/yearly/1995_data_quality.md`
+- `analysis-index/07_reports/yearly/1995_report.md`
+- `analysis-index/07_reports/yearly/1996_data_quality.md`
+- `analysis-index/07_reports/yearly/1996_report.md`
+- `analysis-index/07_reports/yearly/1997_data_quality.md`
+- `analysis-index/07_reports/yearly/1997_report.md`
+- `analysis-index/07_reports/yearly/1998_data_quality.md`
+- `analysis-index/07_reports/yearly/1998_report.md`
+- `analysis-index/07_reports/yearly/1999_data_quality.md`
+- `analysis-index/07_reports/yearly/1999_report.md`
+- `analysis-index/07_reports/yearly/2000_data_quality.md`
+- `analysis-index/07_reports/yearly/2000_report.md`
+- `analysis-index/07_reports/yearly/2001_data_quality.md`
+- `analysis-index/07_reports/yearly/2001_report.md`
+- `analysis-index/07_reports/yearly/2002_data_quality.md`
+- `analysis-index/07_reports/yearly/2002_report.md`
+- `analysis-index/07_reports/yearly/2003_data_quality.md`
+- `analysis-index/07_reports/yearly/2003_report.md`
+- `analysis-index/07_reports/yearly/2004_data_quality.md`
+- `analysis-index/07_reports/yearly/2004_report.md`
+- `analysis-index/07_reports/yearly/2005_data_quality.md`
+- `analysis-index/07_reports/yearly/2005_report.md`
+- `analysis-index/07_reports/yearly/2006_data_quality.md`
+- `analysis-index/07_reports/yearly/2006_report.md`
+- `analysis-index/07_reports/yearly/2007_data_quality.md`
+- `analysis-index/07_reports/yearly/2007_report.md`
+- `analysis-index/07_reports/yearly/2008_data_quality.md`
+- `analysis-index/07_reports/yearly/2008_report.md`
+- `analysis-index/07_reports/yearly/2009_data_quality.md`
+- `analysis-index/07_reports/yearly/2009_report.md`
+- `analysis-index/07_reports/yearly/2010_data_quality.md`
+- `analysis-index/07_reports/yearly/2010_report.md`
+- `analysis-index/07_reports/yearly/2015_report.md`
+- `analysis-index/07_reports/yearly/2016_current_intake_audit.md`
+- `analysis-index/07_reports/yearly/2016_report.md`
+- `analysis-index/07_reports/yearly/2017_report.md`
+- `analysis-index/07_reports/yearly/2017_state_reconciliation.md`
+- `analysis-index/07_reports/yearly/2018_report.md`
+- `analysis-index/07_reports/yearly/2019_report.md`
+- `analysis-index/07_reports/yearly/2020_report.md`
+- `analysis-index/07_reports/yearly/2021_report.md`
+- `analysis-index/07_reports/yearly/2022_report.md`
+- `analysis-index/07_reports/yearly/2023_report.md`
+- `analysis-index/07_reports/yearly/2024_report.md`
+- `analysis-index/07_reports/yearly/2025_remote_state_reconciliation.md`
+- `analysis-index/07_reports/yearly/2025_report.md`
 
-## Remote Readback
+## Recent commits
 
-- **Verified**: Yes
-- **Remote Readback Commit**: 3e7fc5c28722dcdeff1b96df85068e64fae6e476
-- **Remote Readback At**: 2026-07-26T11:48:13Z
+- Recent commit count: `18`
 
+- `f44988c9c70ded384b3f26f483f95eb6a59e41d3` — chore: record verified remote readback for regenerated A0 snapshot
+- `3e7fc5c28722dcdeff1b96df85068e64fae6e476` — fix: regenerate stage A0 snapshot from repository state
+- `35449763cbfd57ad8a1483d25a5fb0cb597573f1` — chore: record remote readback for stage A0 snapshot
+- `5c793e032c8195999386d35fceddae89841d0f52` — fix: correct unverified remote fields in stage A0 snapshot
+- `6421726ab409692c543059bc664bdea1a71e83cd` — chore: snapshot repository before stage A repair
+- `721c6f8da5bcdbff9299eb8f55184acc8539ac41` — docs: update stage A repair report with final status
+- `f1e290c1768036c2d3e6b07143cc61d6a9d64cd9` — audit: complete evidence-based review of previous codex runs
+- `69de100bb7e921060548393c5fe730e8f7c9314c` — docs: add 2015-2025 completion report
+- `ac8399f1727ba7b1e5612d273e9d5e5905302e52` — feat: add cross-year normalization, commonness grading, and search engine
+- `c65b4d25183902dc54fa8d6973baa2b05e16b654` — fix: restore 2015 test assertions and update control files
+- `6f44bf5a1bd6abcbaf75b0ecf93219102139d081` — audit: restore original test assertions and remove fake placeholder rows
+- `81341744307f7205479a8284f039aaf7aa8f9d3a` — docs: add 2015-2025 completion report
+- `a518df3f1815a1ca8911abbff1648c66d54d20f1` — fix: test_2019 CSV GBK fallback
+- `770ce740ba7308f60666933e2c06ac78dcbe716e` — fix: all year tests - fix BOM encoding, CSV GBK fallback, and queue filtering
+- `3ff229564479ba5c53b96c5f473e53071c27fe7e` — fix: 2017 tests pass - fix BOM encoding, missing requests, and progress.json
+- `7fb90fb092d479a5844b318ed4fe05fa5a355c75` — fix: 2016 tests pass - fix BOM encoding and update progress.json
+- `e9d5ba28352d4ac8e6faeb83328aa871b375214f` — fix: 2015 tests pass - fix BOM encoding, JSON parsing, and test assertions
+- `2f56d7743ad9100abdc4e90d2edb43266572aefd` — analysis: add manually verified 2025 corpus index
+
+## Experimental artifacts
+
+- None
+
+## Historical notes
+
+- The initial A0 attempt could not verify the remote because git fetch failed.
+- The first snapshot incorrectly treated a cached origin ref as a verified remote state.
+- A later PowerShell write reintroduced a UTF-8 BOM into the Markdown snapshot.
+
+## Remote readback
+
+- Verified: `false`
+- Readback commit: `null`
+- Readback at (UTC): `null`
