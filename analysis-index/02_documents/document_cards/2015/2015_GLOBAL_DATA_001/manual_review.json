@@ -1,0 +1,12 @@
+{
+  "year": 2015,
+  "logical_document_id": "2015_GLOBAL_DATA_001",
+  "review_status": "reviewed",
+  "identity_verified": true,
+  "role_verified": true,
+  "page_boundary_reviewed": true,
+  "preferred_representation_verified": true,
+  "issues": [],
+  "reviewed_at": "2026-07-26T02:35:34Z",
+  "review_note": "Manual content/layout review based on native text plus first/last-page rendering; spreadsheet parsed at BIFF record level."
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.3+2015-complete-uploaded-set-manual-audit",
+  "year": 2015,
+  "logical_document_id": "2015_PROBLEM_A",
+  "title": "A题 太阳影子定位",
+  "role": "problem",
+  "document_subtype": "problem_statement",
+  "problem_id": "2015_A",
+  "solution_lineage_id": "not_applicable",
+  "corpus_eligibility": "supporting_non_solution",
+  "authors": {
+    "value": null,
+    "status": "not_observed"
+  },
+  "award_level": {
+    "value": null,
+    "status": "unknown",
+    "basis": "not inferred from directory or filename"
+  },
+  "parse_status": "complete",
+  "evidence_status": "verified",
+  "completeness_status": "incomplete_supporting_attachment",
+  "segmentation_status": "complete",
+  "representations": [
+    {
+      "representation_id": "2015_REP_008",
+      "carrier_id": "2015_CARRIER_008",
+      "source_filename": "2015年国赛A题.doc",
+      "is_preferred": true,
+      "file_sha256": "b43501d5123811c038839a75f392de8ca8e153eae39e9e6e8e015d2c05134dca"
+    }
+  ],
+  "preferred_representation_id": "2015_REP_008",
+  "field_status_policy": "Unobserved fields use unknown/not_observed; absent is not inferred.",
+  "created_at": "2026-07-26T02:48:38Z"
+}

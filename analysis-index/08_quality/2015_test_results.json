@@ -1,0 +1,8 @@
+{
+  "year": 2015,
+  "status": "pass",
+  "passed": 36,
+  "failed": 0,
+  "command": "PYTHONDONTWRITEBYTECODE=1 pytest -q -p no:cacheprovider tests/test_2015_manual.py",
+  "duration_seconds": 0.09
+}

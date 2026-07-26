@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.3+2015-complete-uploaded-set-manual-audit",
+  "year": 2015,
+  "logical_document_id": "2015_D_DATA_002",
+  "title": "D题附件2 中华人民共和国土地增值税暂行条例",
+  "role": "dataset",
+  "document_subtype": "policy_reference",
+  "problem_id": "2015_D",
+  "solution_lineage_id": "not_applicable",
+  "corpus_eligibility": "supporting_non_solution",
+  "authors": {
+    "value": null,
+    "status": "not_observed"
+  },
+  "award_level": {
+    "value": null,
+    "status": "unknown",
+    "basis": "not inferred from directory or filename"
+  },
+  "parse_status": "complete",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "representations": [
+    {
+      "representation_id": "2015_REP_015",
+      "carrier_id": "2015_CARRIER_015",
+      "source_filename": "2015年国赛D题附件2 中华人民共和国土地增值税暂行条例.pdf",
+      "is_preferred": true,
+      "file_sha256": "d5ae5c859d9fd9ffd48d5493455d254334d15cbc082f93109fe2aab9d8697c42"
+    }
+  ],
+  "preferred_representation_id": "2015_REP_015",
+  "field_status_policy": "Unobserved fields use unknown/not_observed; absent is not inferred.",
+  "created_at": "2026-07-26T02:48:38Z"
+}

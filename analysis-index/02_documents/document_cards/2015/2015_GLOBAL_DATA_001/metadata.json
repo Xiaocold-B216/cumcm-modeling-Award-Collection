@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.3+2015-complete-uploaded-set-manual-audit",
+  "year": 2015,
+  "logical_document_id": "2015_GLOBAL_DATA_001",
+  "title": "全国大学生数学建模竞赛论文格式规范（2015修订）",
+  "role": "dataset",
+  "document_subtype": "format_reference",
+  "problem_id": "not_applicable",
+  "solution_lineage_id": "not_applicable",
+  "corpus_eligibility": "supporting_non_solution",
+  "authors": {
+    "value": null,
+    "status": "not_observed"
+  },
+  "award_level": {
+    "value": null,
+    "status": "unknown",
+    "basis": "not inferred from directory or filename"
+  },
+  "parse_status": "complete",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "representations": [
+    {
+      "representation_id": "2015_REP_017",
+      "carrier_id": "2015_CARRIER_017",
+      "source_filename": "全国大学生数学建模竞赛论文格式规范.doc",
+      "is_preferred": true,
+      "file_sha256": "a98dcd2c02e38b5a3c6ced1591e7fb79f493dea4b31e998471be459638b286f4"
+    }
+  ],
+  "preferred_representation_id": "2015_REP_017",
+  "field_status_policy": "Unobserved fields use unknown/not_observed; absent is not inferred.",
+  "created_at": "2026-07-26T02:48:38Z"
+}

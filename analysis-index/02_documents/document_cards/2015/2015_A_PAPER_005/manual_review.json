@@ -1,0 +1,25 @@
+{
+  "year": 2015,
+  "logical_document_id": "2015_A_PAPER_005",
+  "review_status": "reviewed",
+  "identity_verified": true,
+  "role_verified": true,
+  "page_boundary_reviewed": true,
+  "preferred_representation_verified": true,
+  "issues": [
+    {
+      "issue_id": "2015_MR_003",
+      "status": "resolved",
+      "severity": "medium",
+      "description": "两份PDF字节哈希不同，但规范化文本与逐页渲染序列完全一致，归并为一个logical document、两个representations。"
+    },
+    {
+      "issue_id": "2015_MR_004",
+      "status": "resolved",
+      "severity": "low",
+      "description": "PDF元数据标题为“车道被占用对城市道路通行能力的影响”，与正文不符；以正文首页标题为准。"
+    }
+  ],
+  "reviewed_at": "2026-07-26T02:35:34Z",
+  "review_note": "Manual content/layout review based on native text plus first/last-page rendering; spreadsheet parsed at BIFF record level."
+}

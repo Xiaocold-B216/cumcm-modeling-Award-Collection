@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.3+2015-complete-uploaded-set-manual-audit",
+  "year": 2015,
+  "logical_document_id": "2015_A_PAPER_005",
+  "title": "太阳影子定位（最小二乘、遗传算法与模拟退火）",
+  "role": "paper",
+  "document_subtype": "solution_paper",
+  "problem_id": "2015_A",
+  "solution_lineage_id": "2015_A_LINEAGE_005",
+  "corpus_eligibility": "eligible_solution",
+  "authors": {
+    "value": null,
+    "status": "not_observed"
+  },
+  "award_level": {
+    "value": null,
+    "status": "unknown",
+    "basis": "not inferred from directory or filename"
+  },
+  "parse_status": "complete",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "representations": [
+    {
+      "representation_id": "2015_REP_005",
+      "carrier_id": "2015_CARRIER_005",
+      "source_filename": "2015A：太阳影子定位 (5).pdf",
+      "is_preferred": true,
+      "file_sha256": "8ed079bee1eac8d7c76d3b08c45ea17648bd7a3c9564c51bfd7a749330b7fe88"
+    },
+    {
+      "representation_id": "2015_REP_006",
+      "carrier_id": "2015_CARRIER_006",
+      "source_filename": "2015A：太阳影子定位 (6).pdf",
+      "is_preferred": false,
+      "file_sha256": "61471733a48208e30a4521befa637abb1eeb706a4f30dfa5ef6133804454ff47"
+    }
+  ],
+  "preferred_representation_id": "2015_REP_005",
+  "field_status_policy": "Unobserved fields use unknown/not_observed; absent is not inferred.",
+  "created_at": "2026-07-26T02:48:38Z"
+}

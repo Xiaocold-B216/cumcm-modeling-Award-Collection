@@ -1,0 +1,19 @@
+{
+  "year": 2015,
+  "logical_document_id": "2015_PROBLEM_A",
+  "review_status": "reviewed_with_open_issue",
+  "identity_verified": true,
+  "role_verified": true,
+  "page_boundary_reviewed": true,
+  "preferred_representation_verified": true,
+  "issues": [
+    {
+      "issue_id": "2015_MR_002",
+      "status": "open",
+      "severity": "blocking",
+      "description": "A题附件4原始视频未在上传集合中观察到。"
+    }
+  ],
+  "reviewed_at": "2026-07-26T02:35:34Z",
+  "review_note": "Manual content/layout review based on native text plus first/last-page rendering; spreadsheet parsed at BIFF record level."
+}

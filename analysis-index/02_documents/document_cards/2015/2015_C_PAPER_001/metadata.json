@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.3+2015-complete-uploaded-set-manual-audit",
+  "year": 2015,
+  "logical_document_id": "2015_C_PAPER_001",
+  "title": "关于“月上柳梢头”研究模型的建立与分析",
+  "role": "paper",
+  "document_subtype": "solution_paper",
+  "problem_id": "2015_C",
+  "solution_lineage_id": "2015_C_LINEAGE_001",
+  "corpus_eligibility": "eligible_solution",
+  "authors": {
+    "value": null,
+    "status": "not_observed"
+  },
+  "award_level": {
+    "value": null,
+    "status": "unknown",
+    "basis": "not inferred from directory or filename"
+  },
+  "parse_status": "complete",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "representations": [
+    {
+      "representation_id": "2015_REP_023",
+      "carrier_id": "2015_CARRIER_023",
+      "source_filename": "2015C：月上柳梢头，人约黄昏后 (1).docx",
+      "is_preferred": true,
+      "file_sha256": "e8e506bfd7e29bff44dd4560c53999d4af2507da16cd265b2d57493786d6d24a"
+    }
+  ],
+  "preferred_representation_id": "2015_REP_023",
+  "field_status_policy": "Unobserved fields use unknown/not_observed; absent is not inferred.",
+  "created_at": "2026-07-26T02:48:38Z"
+}

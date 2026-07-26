@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.3+2015-complete-uploaded-set-manual-audit",
+  "year": 2015,
+  "logical_document_id": "2015_A_PAPER_004",
+  "title": "太阳影子定位（分层多目标与动态追踪）",
+  "role": "paper",
+  "document_subtype": "solution_paper",
+  "problem_id": "2015_A",
+  "solution_lineage_id": "2015_A_LINEAGE_004",
+  "corpus_eligibility": "eligible_solution",
+  "authors": {
+    "value": null,
+    "status": "not_observed"
+  },
+  "award_level": {
+    "value": null,
+    "status": "unknown",
+    "basis": "not inferred from directory or filename"
+  },
+  "parse_status": "complete",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "representations": [
+    {
+      "representation_id": "2015_REP_004",
+      "carrier_id": "2015_CARRIER_004",
+      "source_filename": "2015A：太阳影子定位 (4).pdf",
+      "is_preferred": true,
+      "file_sha256": "f5b0a1828e9bb3d91c7c054f89f3152bb68f2b9c3cc4abd0e57803793c77d752"
+    }
+  ],
+  "preferred_representation_id": "2015_REP_004",
+  "field_status_policy": "Unobserved fields use unknown/not_observed; absent is not inferred.",
+  "created_at": "2026-07-26T02:48:38Z"
+}
