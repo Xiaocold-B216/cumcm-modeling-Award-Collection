@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "verified_at": "2026-07-26T17:23:45Z",
+  "input_head": "400d5c38989585ec027b4c579fba4b700542e55c",
+  "artifacts": [
+    {
+      "path": "analysis-index/10_normalization/concept_registry.json",
+      "category": "stage_b",
+      "origin_commit": "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+      "removal_commit": "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+      "currently_present": false,
+      "reason": "Historical experimental artifact; Git shows it was added and later removed, and the path is absent at the A2 verification HEAD.",
+      "allowed_to_reimplement_later": true
+    },
+    {
+      "path": "analysis-index/11_commonness/commonness_grading.json",
+      "category": "stage_c",
+      "origin_commit": "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+      "removal_commit": "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+      "currently_present": false,
+      "reason": "Historical experimental artifact; Git shows it was added and later removed, and the path is absent at the A2 verification HEAD.",
+      "allowed_to_reimplement_later": true
+    },
+    {
+      "path": "analysis-index/12_search/search_index.json",
+      "category": "stage_d",
+      "origin_commit": "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+      "removal_commit": "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+      "currently_present": false,
+      "reason": "Historical experimental artifact; Git shows it was added and later removed, and the path is absent at the A2 verification HEAD.",
+      "allowed_to_reimplement_later": true
+    },
+    {
+      "path": "src/cumcm_search/__init__.py",
+      "category": "stage_d",
+      "origin_commit": "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+      "removal_commit": "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+      "currently_present": false,
+      "reason": "Historical experimental artifact; Git shows it was added and later removed, and the path is absent at the A2 verification HEAD.",
+      "allowed_to_reimplement_later": true
+    },
+    {
+      "path": "src/cumcm_search/search.py",
+      "category": "stage_d",
+      "origin_commit": "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+      "removal_commit": "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+      "currently_present": false,
+      "reason": "Historical experimental artifact; Git shows it was added and later removed, and the path is absent at the A2 verification HEAD.",
+      "allowed_to_reimplement_later": true
+    },
+    {
+      "path": "scripts/build_search_index.py",
+      "category": "stage_d",
+      "origin_commit": "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+      "removal_commit": "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+      "currently_present": false,
+      "reason": "Historical experimental artifact; Git shows it was added and later removed, and the path is absent at the A2 verification HEAD.",
+      "allowed_to_reimplement_later": true
+    },
+    {
+      "path": "scripts/search_corpus.py",
+      "category": "stage_d",
+      "origin_commit": "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+      "removal_commit": "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+      "currently_present": false,
+      "reason": "Historical experimental artifact; Git shows it was added and later removed, and the path is absent at the A2 verification HEAD.",
+      "allowed_to_reimplement_later": true
+    },
+    {
+      "path": "tests/test_commonness.py",
+      "category": "stage_d",
+      "origin_commit": "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+      "removal_commit": "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+      "currently_present": false,
+      "reason": "Historical experimental artifact; Git shows it was added and later removed, and the path is absent at the A2 verification HEAD.",
+      "allowed_to_reimplement_later": true
+    },
+    {
+      "path": "tests/test_cross_year_normalization.py",
+      "category": "stage_d",
+      "origin_commit": "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+      "removal_commit": "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+      "currently_present": false,
+      "reason": "Historical experimental artifact; Git shows it was added and later removed, and the path is absent at the A2 verification HEAD.",
+      "allowed_to_reimplement_later": true
+    },
+    {
+      "path": "tests/test_search_index.py",
+      "category": "stage_d",
+      "origin_commit": "ac8399f1727ba7b1e5612d273e9d5e5905302e52",
+      "removal_commit": "f1e290c1768036c2d3e6b07143cc61d6a9d64cd9",
+      "currently_present": false,
+      "reason": "Historical experimental artifact; Git shows it was added and later removed, and the path is absent at the A2 verification HEAD.",
+      "allowed_to_reimplement_later": true
+    }
+  ],
+  "unexpected_paths": []
+}
