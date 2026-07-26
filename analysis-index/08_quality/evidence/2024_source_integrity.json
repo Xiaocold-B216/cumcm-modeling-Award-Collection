@@ -1,0 +1,20 @@
+{
+  "year": 2024,
+  "generated_at": "2026-07-26T05:28:39Z",
+  "source_archives": {
+    "2024国赛优秀论文.zip": "e57298b45a4580ccfddf5bdd3e16cd38effa9533215d0e432ab10e2133900692",
+    "2024真题.zip": "101aa0a48ab3765a7f14423ae6bf02f1edb7ba3131a0ee7e11fbceae138d4693"
+  },
+  "physical_carrier_count": 820,
+  "member_carrier_count": 818,
+  "unique_sha256_count": 820,
+  "exact_duplicate_groups": 0,
+  "exact_duplicate_instances": 0,
+  "modified_files": 0,
+  "source_files_read_only": true,
+  "verification_note": "构建后独立重新计算全部820个载体SHA-256；与构建前清单逐项一致，未观察到字节变化。",
+  "rehash_verified_at": "2026-07-26T05:30:19Z",
+  "rehash_checked_carriers": 820,
+  "rehash_mismatches": 0,
+  "verification_method": "independent streaming SHA-256 rehash of both uploaded ZIPs and all 818 extracted member carriers"
+}

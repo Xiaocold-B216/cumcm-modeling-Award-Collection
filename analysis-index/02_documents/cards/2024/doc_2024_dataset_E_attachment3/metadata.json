@@ -1,0 +1,38 @@
+{
+  "logical_document_id": "doc_2024_dataset_E_attachment3",
+  "year": 2024,
+  "problem_code": "E",
+  "source_code": "E_attachment3",
+  "title": "E题附件3：五一临时交通管控措施",
+  "title_status": "observed",
+  "document_role": "dataset",
+  "document_subtype": "policy_attachment",
+  "corpus_eligibility": "supporting_context",
+  "parse_status": "fully_parsed_native_pdf",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "page_level_complete",
+  "preferred_representation_id": "rep_2024_dataset_E_attachment3",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_count_observed": 1,
+  "page_count_expected": 1,
+  "award_level": "not_applicable",
+  "award_level_status": "not_applicable",
+  "notes": "一页交通管控图示，说明5月1—5日管控路段及景区进出路线。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2-2024-manual",
+  "generated_at": "2026-07-26T05:28:39Z",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representation_ids": [
+    "rep_2024_dataset_E_attachment3"
+  ],
+  "relation_ids": [
+    "rel_doc_2024_dataset_E_attachment3_supports",
+    "rel_doc_2024_paper_E010_uses_doc_2024_dataset_E_attachment3",
+    "rel_doc_2024_paper_E061_uses_doc_2024_dataset_E_attachment3",
+    "rel_doc_2024_paper_E218_uses_doc_2024_dataset_E_attachment3",
+    "rel_rep_2024_dataset_E_attachment3_represents"
+  ],
+  "field_observation_policy": "未观察到写unknown或not_observed；不得由自动未命中写absent。"
+}

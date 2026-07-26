@@ -18,27 +18,19 @@
     2006,
     2007,
     2008,
-    2009
+    2009,
+    2010,
+    2011
   ],
   "last_verified_complete_year": 2009,
   "next_recommended_year": 2010,
   "parser_version": "0.5.2",
   "project_status": "active_pending_remote_readback",
-  "remote_publish_status": "2023_pending_remote_readback",
+  "remote_publish_status": "pending_remote_readback",
   "schema_version": "1.4.1",
   "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
-  "target_end_year": 2023,
-  "locally_completed_pending_remote_readback": [
-    2023
-  ],
-  "updated_at": "2026-07-26T05:23:18Z",
-  "state_reconciliation": {
-    "safe_remote_boundary": 2009,
-    "2010": "conditional_pass_with_19_manual_review_items",
-    "2011": "not_verified_required_year_files_missing",
-    "2023": "local_pass_pending_remote_readback",
-    "principle": "annual report, quality gate and checkpoint override stale progress claims"
-  },
+  "target_end_year": 2011,
+  "updated_at": "2026-07-26T05:30:19Z",
   "year_status": {
     "1992": "pass",
     "1993": "pass",
@@ -58,8 +50,44 @@
     "2007": "pass",
     "2008": "pass",
     "2009": "pass",
-    "2010": "conditional_pass",
-    "2011": "not_verified",
-    "2023": "pass_pending_remote_readback"
+    "2010": "pass_pending_remote_readback",
+    "2011": "pass_pending_remote_readback",
+    "2024": "conditional_pass"
+  },
+  "processed_years": [
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2024
+  ],
+  "latest_packaged_year": 2024,
+  "parallel_processing_note": "2024为并行年度包；不改变顺序处理指针和2010/2011远端读回状态。",
+  "control_merge_provenance": {
+    "remote_progress_blob_sha": "1ac6896e9a80eab95a9b50ad5eb5be54b2648659",
+    "remote_readback_at": "2026-07-26T05:30:19Z",
+    "remote_absent_at_readback": [
+      "analysis-index/00_control/checkpoint_manifest.json",
+      "analysis-index/00_control/processing_log.jsonl",
+      "analysis-index/00_control/missing_segment_requests.jsonl",
+      "analysis-index/00_control/manual_review_queue.jsonl"
+    ],
+    "merge_rule": "preserve all remote fields and statuses; add 2024 as conditional_pass without advancing sequential pointers"
   }
 }

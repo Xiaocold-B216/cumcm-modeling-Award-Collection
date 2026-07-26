@@ -1,0 +1,48 @@
+{
+  "year": 2024,
+  "status": "conditional_pass",
+  "updated_at": "2026-07-26T05:28:39Z",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "counts": {
+    "physical_carriers": 820,
+    "archive_containers": 2,
+    "assigned_member_carriers": 818,
+    "logical_documents": 29,
+    "solution_papers": 16,
+    "problem_statements": 5,
+    "datasets": 8,
+    "expert_commentaries": 0,
+    "representations": 29,
+    "solution_lineages": 16,
+    "paper_page_images": 805,
+    "page_segments": 815,
+    "all_segments": 826,
+    "missing_files": 7
+  },
+  "checks": {
+    "json_jsonl_csv_valid": true,
+    "sha256_coverage_complete_for_observed_carriers": true,
+    "carrier_document_representation_consistent": true,
+    "one_preferred_representation_per_document": true,
+    "roles_valid": true,
+    "unknown_not_absent": true,
+    "page_regions_valid": true,
+    "source_unmodified": true,
+    "six_pack_complete": true,
+    "expert_commentary_separated": true,
+    "award_level_not_inferred": true,
+    "all_expected_attachments_present": false,
+    "all_observed_page_sequences_complete": false,
+    "manual_review_queue_empty": false
+  },
+  "blocking_missing_items": 7,
+  "manual_review_items": 2,
+  "known_issues": [
+    "A242缺少内页码12、15、16",
+    "A题缺少result4.xlsx模板",
+    "C题缺少附件3中的result1_1.xlsx、result1_2.xlsx、result2.xlsx",
+    "A178原始题名未观察到",
+    "E题存在无车牌和unnnowk占位符"
+  ],
+  "decision": "全部已提供载体已完成哈希、对象分层、六件套和本地测试；但源文件缺口阻止年度标记为pass。"
+}

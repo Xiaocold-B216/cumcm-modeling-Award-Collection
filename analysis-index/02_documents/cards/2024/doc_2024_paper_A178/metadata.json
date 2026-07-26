@@ -1,0 +1,58 @@
+{
+  "logical_document_id": "doc_2024_paper_A178",
+  "year": 2024,
+  "problem_code": "A",
+  "source_code": "A178",
+  "title": "“板凳龙”运动路径与速度控制研究（描述性题名）",
+  "title_status": "derived_descriptive_original_not_observed",
+  "document_role": "paper",
+  "document_subtype": "competition_solution",
+  "corpus_eligibility": "eligible",
+  "parse_status": "partially_parsed_image_scan",
+  "evidence_status": "verified_page_sequence",
+  "completeness_status": "complete_observed_sequence",
+  "segmentation_status": "page_level_complete_for_observed_files",
+  "preferred_representation_id": "rep_2024_paper_A178",
+  "representation_count": 1,
+  "carrier_count": 48,
+  "page_count_observed": 48,
+  "page_count_expected": 48,
+  "award_level": "unknown",
+  "award_level_status": "not_inferred",
+  "notes": "原始表示为逐页JPG扫描。首页、抽样中页和末页已人工核验。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2-2024-manual",
+  "generated_at": "2026-07-26T05:28:39Z",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representation_ids": [
+    "rep_2024_paper_A178"
+  ],
+  "relation_ids": [
+    "rel_doc_2024_paper_A178_solves",
+    "rel_doc_2024_paper_A178_uses_doc_2024_dataset_A_result1",
+    "rel_doc_2024_paper_A178_uses_doc_2024_dataset_A_result2",
+    "rel_rep_2024_paper_A178_represents"
+  ],
+  "field_observation_policy": "未观察到写unknown或not_observed；不得由自动未命中写absent。",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    24,
+    46,
+    47,
+    48
+  ],
+  "reported_results": [
+    "自报碰撞时间约 412.4739 s",
+    "自报最小螺距 0.4000 m（与其他A题论文形成明显差异）",
+    "自报最大龙头速度约 1.2462 m/s"
+  ],
+  "limitations": [
+    "原始题名在所给扫描第一页未观察到",
+    "问题3使用简化碰撞主体，可能解释最小螺距差异"
+  ]
+}

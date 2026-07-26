@@ -1,0 +1,16 @@
+{
+  "logical_document_id": "doc_2024_paper_A053",
+  "review_status": "complete_for_observed_representation",
+  "manual_identity_verified": true,
+  "role_verified": "paper",
+  "award_level_inferred": false,
+  "page_sequence_verified": true,
+  "observed_page_count": 62,
+  "missing_page_indices": [],
+  "first_page_verified": true,
+  "last_page_verified": true,
+  "sampled_middle_pages_verified": true,
+  "title_status": "observed",
+  "blocking_issues": [],
+  "review_notes": "OCR用于导航和关键词提取，文档身份、题名和关键结构由页面视觉核验。"
+}

@@ -1,0 +1,7 @@
+﻿year,scope,problem_code,physical_carriers,logical_documents,solution_papers,problem_statements,datasets,expert_commentaries,representations,paper_pages,pdf_pages,page_segments,nonpage_segments,missing_files,quality_status
+2024,year_total,ALL,820,29,16,5,8,0,29,805,10,815,11,7,conditional_pass
+2024,problem,A,not_partitioned,8,5,1,2,0,8,269,3,272,3,4,conditional_pass
+2024,problem,B,not_partitioned,4,3,1,0,0,4,135,2,137,0,0,pass_within_bundle
+2024,problem,C,not_partitioned,7,4,1,2,0,7,213,1,214,4,3,conditional_pass
+2024,problem,D,not_partitioned,2,1,1,0,0,2,55,2,57,0,0,pass_within_bundle
+2024,problem,E,not_partitioned,7,3,1,3,0,7,133,2,135,3,0,pass_within_bundle

@@ -1,1 +1,2 @@
-{"year":2023,"status":"closed","open_items":0,"blocking_items":0,"note":"Identity, role, boundary, representation and six-pack reviews completed for all 32 logical documents.","updated_at":"2026-07-26T05:23:18Z"}
+{"review_id":"review_2024_A242_source_gap","year":2024,"status":"blocked_by_missing_source","priority":"high","logical_document_id":"doc_2024_paper_A242","request_ids":["missing_2024_A242_p12","missing_2024_A242_p15","missing_2024_A242_p16"],"action":"补充三张缺页后重新核验页序和六件套。"}
+{"review_id":"review_2024_official_templates","year":2024,"status":"blocked_by_missing_source","priority":"high","logical_document_id":null,"request_ids":["missing_2024_A_result4","missing_2024_C_result1_1","missing_2024_C_result1_2","missing_2024_C_result2"],"action":"补充官方结果模板并重新计算附件完整性。"}

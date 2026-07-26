@@ -1,0 +1,39 @@
+{
+  "logical_document_id": "doc_2024_dataset_C_attachment1",
+  "year": 2024,
+  "problem_code": "C",
+  "source_code": "C_attachment1",
+  "title": "C题附件1：乡村耕地与作物基本情况",
+  "title_status": "observed",
+  "document_role": "dataset",
+  "document_subtype": "structured_dataset",
+  "corpus_eligibility": "supporting_context",
+  "parse_status": "structured_parsed",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "logical_structure_complete",
+  "preferred_representation_id": "rep_2024_dataset_C_attachment1",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_count_observed": "not_applicable",
+  "page_count_expected": "not_applicable",
+  "award_level": "not_applicable",
+  "award_level_status": "not_applicable",
+  "notes": "54个地块/大棚，总面积1213亩；41种作物及适种地块、季次和管理规则。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2-2024-manual",
+  "generated_at": "2026-07-26T05:28:39Z",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representation_ids": [
+    "rep_2024_dataset_C_attachment1"
+  ],
+  "relation_ids": [
+    "rel_doc_2024_dataset_C_attachment1_supports",
+    "rel_doc_2024_paper_C038_uses_doc_2024_dataset_C_attachment1",
+    "rel_doc_2024_paper_C063_uses_doc_2024_dataset_C_attachment1",
+    "rel_doc_2024_paper_C094_uses_doc_2024_dataset_C_attachment1",
+    "rel_doc_2024_paper_C234_uses_doc_2024_dataset_C_attachment1",
+    "rel_rep_2024_dataset_C_attachment1_represents"
+  ],
+  "field_observation_policy": "未观察到写unknown或not_observed；不得由自动未命中写absent。"
+}

@@ -1,0 +1,58 @@
+{
+  "logical_document_id": "doc_2024_paper_A053",
+  "year": 2024,
+  "problem_code": "A",
+  "source_code": "A053",
+  "title": "基于目标优化的板凳龙形态调节",
+  "title_status": "observed",
+  "document_role": "paper",
+  "document_subtype": "competition_solution",
+  "corpus_eligibility": "eligible",
+  "parse_status": "partially_parsed_image_scan",
+  "evidence_status": "verified_page_sequence",
+  "completeness_status": "complete_observed_sequence",
+  "segmentation_status": "page_level_complete_for_observed_files",
+  "preferred_representation_id": "rep_2024_paper_A053",
+  "representation_count": 1,
+  "carrier_count": 62,
+  "page_count_observed": 62,
+  "page_count_expected": 62,
+  "award_level": "unknown",
+  "award_level_status": "not_inferred",
+  "notes": "原始表示为逐页JPG扫描。首页、抽样中页和末页已人工核验。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2-2024-manual",
+  "generated_at": "2026-07-26T05:28:39Z",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representation_ids": [
+    "rep_2024_paper_A053"
+  ],
+  "relation_ids": [
+    "rel_doc_2024_paper_A053_solves",
+    "rel_doc_2024_paper_A053_uses_doc_2024_dataset_A_result1",
+    "rel_doc_2024_paper_A053_uses_doc_2024_dataset_A_result2",
+    "rel_rep_2024_paper_A053_represents"
+  ],
+  "field_observation_policy": "未观察到写unknown或not_observed；不得由自动未命中写absent。",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    31,
+    60,
+    61,
+    62
+  ],
+  "reported_results": [
+    "自报首次碰撞终止时刻约 412.47 s",
+    "自报最小螺距约 45.04 cm",
+    "调头路径遍历得到约 12.5109 m"
+  ],
+  "limitations": [
+    "粒子群与遍历参数影响精度",
+    "摘要中的个别单位需回看原页确认"
+  ]
+}

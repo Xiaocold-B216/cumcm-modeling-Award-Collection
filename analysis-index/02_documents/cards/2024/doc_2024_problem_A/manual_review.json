@@ -1,0 +1,11 @@
+{
+  "logical_document_id": "doc_2024_problem_A",
+  "review_status": "complete_statement_with_missing_referenced_attachments",
+  "manual_identity_verified": true,
+  "role_verified": "problem",
+  "page_sequence_verified": true,
+  "observed_page_count": 3,
+  "blocking_issues": [
+    "missing_2024_A_result4"
+  ]
+}

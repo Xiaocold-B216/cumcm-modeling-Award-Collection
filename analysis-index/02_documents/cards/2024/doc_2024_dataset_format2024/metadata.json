@@ -1,0 +1,34 @@
+{
+  "logical_document_id": "doc_2024_dataset_format2024",
+  "year": 2024,
+  "problem_code": "GLOBAL",
+  "source_code": "format2024",
+  "title": "全国大学生数学建模竞赛论文格式规范（2024年修订稿）",
+  "title_status": "observed",
+  "document_role": "dataset",
+  "document_subtype": "format_specification",
+  "corpus_eligibility": "supporting_context",
+  "parse_status": "fully_text_extracted_legacy_doc",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "document_level_complete",
+  "preferred_representation_id": "rep_2024_dataset_format2024",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_count_observed": 4,
+  "page_count_expected": 4,
+  "award_level": "not_applicable",
+  "award_level_status": "not_applicable",
+  "notes": "4页论文与支撑材料格式规范，规定摘要页、正文、附录、匿名和电子文件要求。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2-2024-manual",
+  "generated_at": "2026-07-26T05:28:39Z",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representation_ids": [
+    "rep_2024_dataset_format2024"
+  ],
+  "relation_ids": [
+    "rel_rep_2024_dataset_format2024_represents"
+  ],
+  "field_observation_policy": "未观察到写unknown或not_observed；不得由自动未命中写absent。"
+}

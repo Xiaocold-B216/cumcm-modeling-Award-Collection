@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "doc_2024_paper_A242",
+  "review_status": "complete_with_source_gap",
+  "manual_identity_verified": true,
+  "role_verified": "paper",
+  "award_level_inferred": false,
+  "page_sequence_verified": true,
+  "observed_page_count": 55,
+  "missing_page_indices": [
+    12,
+    15,
+    16
+  ],
+  "first_page_verified": true,
+  "last_page_verified": true,
+  "sampled_middle_pages_verified": true,
+  "title_status": "observed",
+  "blocking_issues": [
+    "missing_2024_A242_p12",
+    "missing_2024_A242_p15",
+    "missing_2024_A242_p16"
+  ],
+  "review_notes": "OCR用于导航和关键词提取，文档身份、题名和关键结构由页面视觉核验。"
+}

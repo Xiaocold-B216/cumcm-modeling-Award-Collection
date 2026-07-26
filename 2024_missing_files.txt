@@ -1,0 +1,23 @@
+# 2024缺失文件与页面
+
+- `2024国赛优秀论文/A题/A242/12.jpg`
+  - 类型：page_image
+  - 证据：11.jpg内页码11后直接出现13.jpg内页码13；缺失段位于碰撞检测模型求解与验证之间。
+- `2024国赛优秀论文/A题/A242/15.jpg`
+  - 类型：page_image
+  - 证据：14.jpg内页码14后直接出现17.jpg内页码17；该段属于问题3最小螺距优化求解。
+- `2024国赛优秀论文/A题/A242/16.jpg`
+  - 类型：page_image
+  - 证据：14.jpg与17.jpg之间连续缺两页，17页承接问题3并进入问题4。
+- `2024真题/A题/附件/result4.xlsx`
+  - 类型：official_result_template
+  - 证据：A题题面问题4明确要求保存至result4.xlsx并称模板见附件；当前附件仅有result1.xlsx、result2.xlsx。
+- `2024真题/C题/附件3/result1_1.xlsx`
+  - 类型：official_result_template
+  - 证据：C题题面附件3明确列出result1_1.xlsx，当前包未观察到附件3。
+- `2024真题/C题/附件3/result1_2.xlsx`
+  - 类型：official_result_template
+  - 证据：C题题面附件3明确列出result1_2.xlsx，当前包未观察到附件3。
+- `2024真题/C题/附件3/result2.xlsx`
+  - 类型：official_result_template
+  - 证据：C题题面附件3明确列出result2.xlsx，当前包未观察到附件3。
