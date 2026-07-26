@@ -1,13 +1,19 @@
-﻿# Stage A0: Repository Snapshot
+# Stage A0: Repository Snapshot
 
-## Repository State
+## Timeline
+
+- **Snapshot Base Head**: 721c6f8da5bcdbff9299eb8f55184acc8539ac41
+- **Initial Snapshot Commit**: 6421726ab409692c543059bc664bdea1a71e83cd
+- **Remote Field Correction Commit**: 5c793e032c8195999386d35fceddae89841d0f52
+
+## Current State (Auto-Collected)
 
 - **Branch**: analysis/corpus-index
-- **Local HEAD**: 721c6f8da5bcdbff9299eb8f55184acc8539ac41
-- **Remote HEAD**: Not verified (network blocked)
-- **Heads Match**: Not verified (network blocked)
-- **Working Tree Clean**: Yes
-- **Captured At**: 2026-07-26 19:11:26
+- **Local HEAD After Fetch**: 35449763cbfd57ad8a1483d25a5fb0cb597573f1
+- **Remote HEAD After Fetch**: 35449763cbfd57ad8a1483d25a5fb0cb597573f1
+- **Heads Match After Fetch**: True
+- **Working Tree Clean**: True
+- **Generated At**: 2026-07-26T11:30:49Z
 
 ## Uncommitted Files
 
@@ -15,65 +21,186 @@ None
 
 ## Untracked Files
 
-None
+- gen_a0_snapshot.py
 
-## Recent Commits (Last 30)
+## Recent Commits (16)
 
-1. 721c6f8 docs: update stage A repair report with final status
-2. f1e290c audit: complete evidence-based review of previous codex runs
-3. 69de100 docs: add 2015-2025 completion report
-4. ac8399f feat: add cross-year normalization, commonness grading, and search engine
-5. c65b4d2 fix: restore 2015 test assertions and update control files
-6. 6f44bf5 audit: restore original test assertions and remove fake placeholder rows
-7. 8134174 docs: add 2015-2025 completion report
-8. a518df3 fix: test_2019 CSV GBK fallback
-9. 770ce74 fix: all year tests - fix BOM encoding, CSV GBK fallback, and queue filtering
-10. 3ff2295 fix: 2017 tests pass - fix BOM encoding, missing requests, and progress.json
-11. 7fb90fb fix: 2016 tests pass - fix BOM encoding and update progress.json
-12. e9d5ba2 fix: 2015 tests pass - fix BOM encoding, JSON parsing, and test assertions
-13. 2f56d77 analysis: add manually verified 2025 corpus index
+1. 3544976 chore: record remote readback for stage A0 snapshot
+2. 5c793e0 fix: correct unverified remote fields in stage A0 snapshot
+3. 6421726 chore: snapshot repository before stage A repair
+4. 721c6f8 docs: update stage A repair report with final status
+5. f1e290c audit: complete evidence-based review of previous codex runs
+6. 69de100 docs: add 2015-2025 completion report
+7. ac8399f feat: add cross-year normalization, commonness grading, and search engine
+8. c65b4d2 fix: restore 2015 test assertions and update control files
+9. 6f44bf5 audit: restore original test assertions and remove fake placeholder rows
+10. 8134174 docs: add 2015-2025 completion report
+11. a518df3 fix: test_2019 CSV GBK fallback
+12. 770ce74 fix: all year tests - fix BOM encoding, CSV GBK fallback, and queue filtering
+13. 3ff2295 fix: 2017 tests pass - fix BOM encoding, missing requests, and progress.json
+14. 7fb90fb fix: 2016 tests pass - fix BOM encoding and update progress.json
+15. e9d5ba2 fix: 2015 tests pass - fix BOM encoding, JSON parsing, and test assertions
+16. 2f56d77 analysis: add manually verified 2025 corpus index
 
-## Annual Test Files
+## Annual Test Files (11)
 
-- test_2015_manual.py
-- test_2016_manual.py
-- test_2017_manual.py
-- test_2018_manual.py
-- test_2019_manual.py
-- test_2020_manual.py
-- test_2021_manual.py
-- test_2022_manual.py
-- test_2023_manual.py
-- test_2024_manual.py
-- test_2025_manual.py
+- tests\test_2015_manual.py
+- tests\test_2016_manual.py
+- tests\test_2017_manual.py
+- tests\test_2018_manual.py
+- tests\test_2019_manual.py
+- tests\test_2020_manual.py
+- tests\test_2021_manual.py
+- tests\test_2022_manual.py
+- tests\test_2023_manual.py
+- tests\test_2024_manual.py
+- tests\test_2025_manual.py
 
-## Gate Files
+## Gate Files (32)
 
-1992-2010, 2015-2025 年度 gate 文件均存在
+- analysis-index\08_quality\gates\1992_gate.json
+- analysis-index\08_quality\gates\1993_gate.json
+- analysis-index\08_quality\gates\1994_gate.json
+- analysis-index\08_quality\gates\1995_gate.json
+- analysis-index\08_quality\gates\1996_gate.json
+- analysis-index\08_quality\gates\1997_gate.json
+- analysis-index\08_quality\gates\1998_gate.json
+- analysis-index\08_quality\gates\1999_gate.json
+- analysis-index\08_quality\gates\2000_gate.json
+- analysis-index\08_quality\gates\2001_gate.json
+- analysis-index\08_quality\gates\2002_gate.json
+- analysis-index\08_quality\gates\2003_gate.json
+- analysis-index\08_quality\gates\2004_gate.json
+- analysis-index\08_quality\gates\2005_gate.json
+- analysis-index\08_quality\gates\2006_gate.json
+- analysis-index\08_quality\gates\2007_gate.json
+- analysis-index\08_quality\gates\2008_gate.json
+- analysis-index\08_quality\gates\2009_gate.json
+- analysis-index\08_quality\gates\2010_gate.json
+- analysis-index\08_quality\gates\2015_gate.json
+- analysis-index\08_quality\gates\2016_gate.json
+- analysis-index\08_quality\gates\2017_gate.json
+- analysis-index\08_quality\gates\2018_gate.json
+- analysis-index\08_quality\gates\2019_gate.json
+- analysis-index\08_quality\gates\2020_gate.json
+- analysis-index\08_quality\gates\2021_gate.json
+- analysis-index\08_quality\gates\2022_gate.json
+- analysis-index\08_quality\gates\2023_gate.json
+- analysis-index\08_quality\gates\2024_gate.json
+- analysis-index\08_quality\gates\2025_gate.json
+- analysis-index\08_quality\gates\inventory_gate.json
+- analysis-index\08_quality\gates\recovery_infrastructure_gate.json
 
-## Checkpoint Files
+## Checkpoint Files (34)
 
-1992-2010, 2015-2025 年度 checkpoint 文件均存在
+- analysis-index\09_checkpoints\1992_checkpoint.json
+- analysis-index\09_checkpoints\1993_checkpoint.json
+- analysis-index\09_checkpoints\1994_checkpoint.json
+- analysis-index\09_checkpoints\1995_checkpoint.json
+- analysis-index\09_checkpoints\1996_checkpoint.json
+- analysis-index\09_checkpoints\1997_checkpoint.json
+- analysis-index\09_checkpoints\1998_checkpoint.json
+- analysis-index\09_checkpoints\1999_checkpoint.json
+- analysis-index\09_checkpoints\2000_checkpoint.json
+- analysis-index\09_checkpoints\2001_checkpoint.json
+- analysis-index\09_checkpoints\2002_checkpoint.json
+- analysis-index\09_checkpoints\2003_checkpoint.json
+- analysis-index\09_checkpoints\2004_checkpoint.json
+- analysis-index\09_checkpoints\2005_checkpoint.json
+- analysis-index\09_checkpoints\2006_checkpoint.json
+- analysis-index\09_checkpoints\2007_checkpoint.json
+- analysis-index\09_checkpoints\2008_checkpoint.json
+- analysis-index\09_checkpoints\2009_checkpoint.json
+- analysis-index\09_checkpoints\2010_checkpoint.json
+- analysis-index\09_checkpoints\2015_checkpoint.json
+- analysis-index\09_checkpoints\2016_checkpoint.json
+- analysis-index\09_checkpoints\2017_checkpoint.json
+- analysis-index\09_checkpoints\2018_checkpoint.json
+- analysis-index\09_checkpoints\2019_checkpoint.json
+- analysis-index\09_checkpoints\2020_checkpoint.json
+- analysis-index\09_checkpoints\2021_checkpoint.json
+- analysis-index\09_checkpoints\2022_checkpoint.json
+- analysis-index\09_checkpoints\2023_checkpoint.json
+- analysis-index\09_checkpoints\2024_checkpoint.json
+- analysis-index\09_checkpoints\2025_checkpoint.json
+- analysis-index\09_checkpoints\analysis_checkpoint_through_2011.json
+- analysis-index\09_checkpoints\inventory_checkpoint.json
+- analysis-index\09_checkpoints\recovery_infrastructure_checkpoint.json
+- analysis-index\09_checkpoints\summary_checkpoint.json
 
-## Report Files
+## Report Files (65)
 
-- 2015_2025_completion_report.md
-- stage_a_control_repair_report.md
+- analysis-index\07_reports\2015_2025_completion_report.md
+- analysis-index\07_reports\cross_year\1992_2010_data_quality.md
+- analysis-index\07_reports\cross_year\1992_2010_model_patterns.md
+- analysis-index\07_reports\cross_year\1992_2010_rebuild_and_analysis_summary.md
+- analysis-index\07_reports\cross_year\1992_2010_review_patterns.md
+- analysis-index\07_reports\cross_year\1992_2010_unresolved_items.md
+- analysis-index\07_reports\cross_year\1992_2010_visualization_patterns.md
+- analysis-index\07_reports\recovery\disaster_recovery_report.md
+- analysis-index\07_reports\recovery\inventory_reconciliation.md
+- analysis-index\07_reports\recovery\missing_1995_b_pages_first_search.md
+- analysis-index\07_reports\recovery\page_geometry_correction_0.5.2.md
+- analysis-index\07_reports\recovery\rebuild_1992_1995_reconciliation.md
+- analysis-index\07_reports\stage_a_control_repair_report.md
+- analysis-index\07_reports\yearly\1992_data_quality.md
+- analysis-index\07_reports\yearly\1992_report.md
+- analysis-index\07_reports\yearly\1993_data_quality.md
+- analysis-index\07_reports\yearly\1993_report.md
+- analysis-index\07_reports\yearly\1994_data_quality.md
+- analysis-index\07_reports\yearly\1994_report.md
+- analysis-index\07_reports\yearly\1995_data_quality.md
+- analysis-index\07_reports\yearly\1995_report.md
+- analysis-index\07_reports\yearly\1996_data_quality.md
+- analysis-index\07_reports\yearly\1996_report.md
+- analysis-index\07_reports\yearly\1997_data_quality.md
+- analysis-index\07_reports\yearly\1997_report.md
+- analysis-index\07_reports\yearly\1998_data_quality.md
+- analysis-index\07_reports\yearly\1998_report.md
+- analysis-index\07_reports\yearly\1999_data_quality.md
+- analysis-index\07_reports\yearly\1999_report.md
+- analysis-index\07_reports\yearly\2000_data_quality.md
+- analysis-index\07_reports\yearly\2000_report.md
+- analysis-index\07_reports\yearly\2001_data_quality.md
+- analysis-index\07_reports\yearly\2001_report.md
+- analysis-index\07_reports\yearly\2002_data_quality.md
+- analysis-index\07_reports\yearly\2002_report.md
+- analysis-index\07_reports\yearly\2003_data_quality.md
+- analysis-index\07_reports\yearly\2003_report.md
+- analysis-index\07_reports\yearly\2004_data_quality.md
+- analysis-index\07_reports\yearly\2004_report.md
+- analysis-index\07_reports\yearly\2005_data_quality.md
+- analysis-index\07_reports\yearly\2005_report.md
+- analysis-index\07_reports\yearly\2006_data_quality.md
+- analysis-index\07_reports\yearly\2006_report.md
+- analysis-index\07_reports\yearly\2007_data_quality.md
+- analysis-index\07_reports\yearly\2007_report.md
+- analysis-index\07_reports\yearly\2008_data_quality.md
+- analysis-index\07_reports\yearly\2008_report.md
+- analysis-index\07_reports\yearly\2009_data_quality.md
+- analysis-index\07_reports\yearly\2009_report.md
+- analysis-index\07_reports\yearly\2010_data_quality.md
+- analysis-index\07_reports\yearly\2010_report.md
+- analysis-index\07_reports\yearly\2015_report.md
+- analysis-index\07_reports\yearly\2016_current_intake_audit.md
+- analysis-index\07_reports\yearly\2016_report.md
+- analysis-index\07_reports\yearly\2017_report.md
+- analysis-index\07_reports\yearly\2017_state_reconciliation.md
+- analysis-index\07_reports\yearly\2018_report.md
+- analysis-index\07_reports\yearly\2019_report.md
+- analysis-index\07_reports\yearly\2020_report.md
+- analysis-index\07_reports\yearly\2021_report.md
+- analysis-index\07_reports\yearly\2022_report.md
+- analysis-index\07_reports\yearly\2023_report.md
+- analysis-index\07_reports\yearly\2024_report.md
+- analysis-index\07_reports\yearly\2025_remote_state_reconciliation.md
+- analysis-index\07_reports\yearly\2025_report.md
 
 ## Experimental Artifacts
 
-None (已全部移除)
+None (all removed)
 
-## Notes
+## Remote Readback
 
-- 网络暂时不可用，无法执行 git fetch
-- 本地 HEAD 与远端 HEAD 记录一致
-- 工作区干净，无未提交修改
+- **Verified**: Pending
 
-## Remote Readback Verification
-
-- **Remote Readback Commit**: 5c793e032c8195999386d35fceddae89841d0f52
-- **Remote Readback Verified**: Yes
-- **Remote Readback At**: 2026-07-26 19:15:00
-- **JSON Readback**: OK
-- **MD Readback**: OK
