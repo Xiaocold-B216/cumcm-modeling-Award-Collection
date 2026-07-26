@@ -1,11 +1,11 @@
-﻿# Stage A0: Repository Snapshot
+# Stage A0: Repository Snapshot
 
 ## Repository State
 
 - **Branch**: analysis/corpus-index
 - **Local HEAD**: 721c6f8da5bcdbff9299eb8f55184acc8539ac41
-- **Remote HEAD**: 721c6f8da5bcdbff9299eb8f55184acc8539ac41
-- **Heads Match**: Yes
+- **Remote HEAD**: Not verified (network blocked)
+- **Heads Match**: Not verified (network blocked)
 - **Working Tree Clean**: Yes
 - **Captured At**: 2026-07-26 19:11:26
 
