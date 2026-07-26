@@ -1,0 +1,44 @@
+{
+  "blocking_manual_review_items": 0,
+  "checks": {
+    "all_office_files_structurally_inspected": true,
+    "all_pdf_pages_rendered_or_inspected": true,
+    "all_supplied_carriers_hashed": true,
+    "blocking_manual_review_items_zero": true,
+    "expert_commentary_separated": true,
+    "local_tests_passed": true,
+    "logical_document_six_pack": true,
+    "manual_review_queue_empty": false,
+    "object_layers_separate": true,
+    "one_preferred_representation": true,
+    "page_boundaries_nonoverlapping": true,
+    "page_coordinates_valid": true,
+    "remote_readback_verified": false,
+    "roles_manually_verified": true,
+    "source_unmodified": true,
+    "statistics_scoped": true,
+    "unknown_not_absent": true
+  },
+  "counts": {
+    "expert_commentaries": 0,
+    "logical_documents": 106,
+    "pdf_pages": 524,
+    "physical_carriers": 107,
+    "problem_statements": 5,
+    "representations": 107,
+    "segments": 745,
+    "solution_papers": 7,
+    "supporting_objects": 94
+  },
+  "known_issues": [
+    "one cross-label byte-identical E-problem video requires source confirmation",
+    "official completeness of the supplied excellent-paper set is not observed",
+    "award level is not inferred from directory placement"
+  ],
+  "manual_review_items": 1,
+  "remote_readback_verified": false,
+  "status": "conditional_pass",
+  "updated_at": "2026-07-26T05:20:44Z",
+  "upload_ready": true,
+  "year": 2025
+}

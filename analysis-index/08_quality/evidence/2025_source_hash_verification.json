@@ -1,0 +1,759 @@
+{
+  "all_hashes_match": true,
+  "files": [
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "a37f6aad30b16ea09da9cb320ce194b12d3a28874008cf9ff19549f6c6079447",
+      "sha256_before": "a37f6aad30b16ea09da9cb320ce194b12d3a28874008cf9ff19549f6c6079447",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/A题/A题.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "af04b16e6a4719628971bcf5a03d230c9da6738e67eebac9276d254fdd4df1a7",
+      "sha256_before": "af04b16e6a4719628971bcf5a03d230c9da6738e67eebac9276d254fdd4df1a7",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/A题/附件/result1.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "c681d5e378538f71c77fca199a3ca8303a04dbcfc7bd95f870ae22f01ab69f91",
+      "sha256_before": "c681d5e378538f71c77fca199a3ca8303a04dbcfc7bd95f870ae22f01ab69f91",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/A题/附件/result2.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "b648c82d63e459ba6e6b3711ae79875e373521cd543b45571c4d8ff1ad5ec54a",
+      "sha256_before": "b648c82d63e459ba6e6b3711ae79875e373521cd543b45571c4d8ff1ad5ec54a",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/A题/附件/result3.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "b0b2ce649282c2d7063af3c30ac9c0d931512dc86014d3147bc765d8f1c8cf87",
+      "sha256_before": "b0b2ce649282c2d7063af3c30ac9c0d931512dc86014d3147bc765d8f1c8cf87",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/B题/B题.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "b42f8bdabe7497951284cd044386c3cdf9d349b5e8ef4baaa0336e65ff84c67b",
+      "sha256_before": "b42f8bdabe7497951284cd044386c3cdf9d349b5e8ef4baaa0336e65ff84c67b",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/B题/附件/附件1.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "24b3113e80d5ec5458ba4f447df9ed185578481e8b0081bdf0673689505e49d0",
+      "sha256_before": "24b3113e80d5ec5458ba4f447df9ed185578481e8b0081bdf0673689505e49d0",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/B题/附件/附件2.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "79e9f66a00409f1d1130d9f4f3d76b4d5e5a1ccd3ac2d24dc0af8ecc583d0ec8",
+      "sha256_before": "79e9f66a00409f1d1130d9f4f3d76b4d5e5a1ccd3ac2d24dc0af8ecc583d0ec8",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/B题/附件/附件3.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "9cf1400404c4560958da06685beb8c2e1e4df5918a6e13863663a54440ba12e3",
+      "sha256_before": "9cf1400404c4560958da06685beb8c2e1e4df5918a6e13863663a54440ba12e3",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/B题/附件/附件4.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "d54400f4bb9920c0d37f15f5b6bc161aa281c4b32c03c063efdeb739716eac08",
+      "sha256_before": "d54400f4bb9920c0d37f15f5b6bc161aa281c4b32c03c063efdeb739716eac08",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/C题/C题.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+      "sha256_before": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/C题/附件.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "280d690a1f78f5ff0889760592bf30de903ac5144ed8491d59ae744e560c4aa8",
+      "sha256_before": "280d690a1f78f5ff0889760592bf30de903ac5144ed8491d59ae744e560c4aa8",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/D题.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "769b2cec2981ee655fa37ea13708442830bb42e19d74e7e40fa7809bbdc8b3eb",
+      "sha256_before": "769b2cec2981ee655fa37ea13708442830bb42e19d74e7e40fa7809bbdc8b3eb",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/附件/附件1.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "77ae841ebc62df2773de46a083b05aa95bc8111ca5c7fc62786c77a0501b068a",
+      "sha256_before": "77ae841ebc62df2773de46a083b05aa95bc8111ca5c7fc62786c77a0501b068a",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/附件/附件2.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "cfa9bd89ca6c3c5976470a658af577e2c0ac0da98b488fb8e0fe2fae9f44d6bc",
+      "sha256_before": "cfa9bd89ca6c3c5976470a658af577e2c0ac0da98b488fb8e0fe2fae9f44d6bc",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/附件/附件3/result1-1.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "cfa9bd89ca6c3c5976470a658af577e2c0ac0da98b488fb8e0fe2fae9f44d6bc",
+      "sha256_before": "cfa9bd89ca6c3c5976470a658af577e2c0ac0da98b488fb8e0fe2fae9f44d6bc",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/附件/附件3/result1-2.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "ede188f310c06379cc4a325648265a7b20b83e6e00c1ac7c3cd9358deb90f97d",
+      "sha256_before": "ede188f310c06379cc4a325648265a7b20b83e6e00c1ac7c3cd9358deb90f97d",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/附件/附件3/result2-1.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "fe9bf025f32f14f1a50d547fac16480ac049dde84302105000d225bde21b3fc6",
+      "sha256_before": "fe9bf025f32f14f1a50d547fac16480ac049dde84302105000d225bde21b3fc6",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/附件/附件3/result2-2.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "cfa9bd89ca6c3c5976470a658af577e2c0ac0da98b488fb8e0fe2fae9f44d6bc",
+      "sha256_before": "cfa9bd89ca6c3c5976470a658af577e2c0ac0da98b488fb8e0fe2fae9f44d6bc",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/附件/附件3/result3-1.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "cfa9bd89ca6c3c5976470a658af577e2c0ac0da98b488fb8e0fe2fae9f44d6bc",
+      "sha256_before": "cfa9bd89ca6c3c5976470a658af577e2c0ac0da98b488fb8e0fe2fae9f44d6bc",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/附件/附件3/result3-2.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "0a7f570ce4ced26d0199406389fe47ac58a0bbf980775bae3d097c4f391eb166",
+      "sha256_before": "0a7f570ce4ced26d0199406389fe47ac58a0bbf980775bae3d097c4f391eb166",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/附件/附件3/result4-1.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "144c0ceed4b93bce8efbbc05823204108cf07735b23c57445b5124c89c3fac1f",
+      "sha256_before": "144c0ceed4b93bce8efbbc05823204108cf07735b23c57445b5124c89c3fac1f",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/附件/附件3/result4-2.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "1e6ecc6d75d2aaa0eae3dc961704fd17f1cd452a51490c80855a9f799ce1a958",
+      "sha256_before": "1e6ecc6d75d2aaa0eae3dc961704fd17f1cd452a51490c80855a9f799ce1a958",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/E题.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "6feb1855f12702b3304d1d29a89e066efda54201308517b13ed31f180281bad8",
+      "sha256_before": "6feb1855f12702b3304d1d29a89e066efda54201308517b13ed31f180281bad8",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件1/运动者1和运动者2的跳远成绩.txt"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "7f4a518491eeb502bab44f2ecc84b5056edb8cdb2ffb78dd92ced5f62180795a",
+      "sha256_before": "7f4a518491eeb502bab44f2ecc84b5056edb8cdb2ffb78dd92ced5f62180795a",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件1/运动者1的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "1774973b2936907030051230a9a0a76fb3b1c1fd411cf20edad26bd51668f9f0",
+      "sha256_before": "1774973b2936907030051230a9a0a76fb3b1c1fd411cf20edad26bd51668f9f0",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件1/运动者1的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "2a7876e783cc338248870b59d444ada2b7a67b98422fef276e72be0fc23d94fa",
+      "sha256_before": "2a7876e783cc338248870b59d444ada2b7a67b98422fef276e72be0fc23d94fa",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件1/运动者2的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "4e0839274aec0ba509420d4d0e59535ee91ddeefee1cf301e306edc0b6ffd38a",
+      "sha256_before": "4e0839274aec0ba509420d4d0e59535ee91ddeefee1cf301e306edc0b6ffd38a",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件1/运动者2的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "3ea6ce2400e6625ede6011fa5668d623126cbeaab7fc7010267ceac58b461630",
+      "sha256_before": "3ea6ce2400e6625ede6011fa5668d623126cbeaab7fc7010267ceac58b461630",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件2.jpg"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "62376643191d145f0fb4ef588374816d8361e7e0526475bbcf10f67cb8444edb",
+      "sha256_before": "62376643191d145f0fb4ef588374816d8361e7e0526475bbcf10f67cb8444edb",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者10第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "e411007fbbdb1a11efc53232af03324a9948a32a16164a7ef2fd298748e7e13c",
+      "sha256_before": "e411007fbbdb1a11efc53232af03324a9948a32a16164a7ef2fd298748e7e13c",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者10第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "704e6cc64479c92b9dae608b57cb3db429fb686dee2fda7a6255a566b8bb03fb",
+      "sha256_before": "704e6cc64479c92b9dae608b57cb3db429fb686dee2fda7a6255a566b8bb03fb",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者10第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "63253359a2b6c6d5e0f25161b04645016c7685a6e903d0ac5ef4b8b1f183ed44",
+      "sha256_before": "63253359a2b6c6d5e0f25161b04645016c7685a6e903d0ac5ef4b8b1f183ed44",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者10第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "2a6ad172c69aac227099b3613ee4a47d80ec26479e91c36c100f7455d3be1017",
+      "sha256_before": "2a6ad172c69aac227099b3613ee4a47d80ec26479e91c36c100f7455d3be1017",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者3第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "722e3a1bf53b90b7c0f0479301368a9ce87a5ade56e7efac96540e2b04ac9a9f",
+      "sha256_before": "722e3a1bf53b90b7c0f0479301368a9ce87a5ade56e7efac96540e2b04ac9a9f",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者3第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "75b44ede8af5a32e8ff9fe22d03500922a56788253cd98eea1d43b44f0a829ea",
+      "sha256_before": "75b44ede8af5a32e8ff9fe22d03500922a56788253cd98eea1d43b44f0a829ea",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者3第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "93b75ddbb94b606da873626487109589d3d72a5938dd76eaec40dafaa9120bf3",
+      "sha256_before": "93b75ddbb94b606da873626487109589d3d72a5938dd76eaec40dafaa9120bf3",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者3第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "50ae64ae032772f4768af48a88612dbff1e64a48022241b4e78222d62cb43379",
+      "sha256_before": "50ae64ae032772f4768af48a88612dbff1e64a48022241b4e78222d62cb43379",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者3第3次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "44ae046130de993792ee4c8812ab48192980fd95a65dc9cfb78826fa1363cea5",
+      "sha256_before": "44ae046130de993792ee4c8812ab48192980fd95a65dc9cfb78826fa1363cea5",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者3第3次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "017dba868d6d232d16330a7dfa513b42ebe0d6f4b4a52e1d56b50a6d6ac1c273",
+      "sha256_before": "017dba868d6d232d16330a7dfa513b42ebe0d6f4b4a52e1d56b50a6d6ac1c273",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者3第4次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "8c2cd6d0592aff435a2e4c646b846fc13b85053e370c577bfcaa7f2f2859d71d",
+      "sha256_before": "8c2cd6d0592aff435a2e4c646b846fc13b85053e370c577bfcaa7f2f2859d71d",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者3第4次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "8900f0698ff32386ff3f335bb61ced7e3ffe82056e9b242671576a7456d1444f",
+      "sha256_before": "8900f0698ff32386ff3f335bb61ced7e3ffe82056e9b242671576a7456d1444f",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者3第5次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "b9d7577b8a1e7c4435f821d51975cc63457600cba26b94083940ad314702cf26",
+      "sha256_before": "b9d7577b8a1e7c4435f821d51975cc63457600cba26b94083940ad314702cf26",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者3第5次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "fc83af4899d3c37fd7686c994bb25978389a4920ab51adfb65050957f5e7b084",
+      "sha256_before": "fc83af4899d3c37fd7686c994bb25978389a4920ab51adfb65050957f5e7b084",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者4第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "350e518df1a9ad715949474a9da54d4fb987b4cb63c4fe41a3d8d5f496342228",
+      "sha256_before": "350e518df1a9ad715949474a9da54d4fb987b4cb63c4fe41a3d8d5f496342228",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者4第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "46e4fa6cb0121e3e09327c9799c343ab583dde8c89145c877df1b5c2bbe18809",
+      "sha256_before": "46e4fa6cb0121e3e09327c9799c343ab583dde8c89145c877df1b5c2bbe18809",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者5第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "489bff55e84309fc9b9a5bb4672c9ca7a08fd409b3a549121b5ae43633c6cb01",
+      "sha256_before": "489bff55e84309fc9b9a5bb4672c9ca7a08fd409b3a549121b5ae43633c6cb01",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者5第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "d978f5ace5e9e527bcebceec2e4c2643f1f0bf352ee91cd8aeee65f98fd4527c",
+      "sha256_before": "d978f5ace5e9e527bcebceec2e4c2643f1f0bf352ee91cd8aeee65f98fd4527c",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者5第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "9d98973a0acf812fd4593a7b1730d4109f97d99725f38e69dc1093eb12cb8518",
+      "sha256_before": "9d98973a0acf812fd4593a7b1730d4109f97d99725f38e69dc1093eb12cb8518",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者5第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "1dcbb53b4660356ee59ba7e4408384ed13903997084463252d680e93afa61a11",
+      "sha256_before": "1dcbb53b4660356ee59ba7e4408384ed13903997084463252d680e93afa61a11",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者6第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "6b0c39ba6ad2f449b0016198c0f51862070e6bcc36d2c942d5f4008bcbed6369",
+      "sha256_before": "6b0c39ba6ad2f449b0016198c0f51862070e6bcc36d2c942d5f4008bcbed6369",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者6第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "46c26d8bf1af52915e3b036c40ed0940871f0217399eefc37eed9775b6588df8",
+      "sha256_before": "46c26d8bf1af52915e3b036c40ed0940871f0217399eefc37eed9775b6588df8",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者6第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "b0adabd3e9169b0e3f45cb3cbec24cf4cd5adae54e518bfd3a837ebdc714c4c3",
+      "sha256_before": "b0adabd3e9169b0e3f45cb3cbec24cf4cd5adae54e518bfd3a837ebdc714c4c3",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者6第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "6e1bc63dc24955d0aa8b9e0d30ffd0c70eb55094c47cc7255b4764687a14ede7",
+      "sha256_before": "6e1bc63dc24955d0aa8b9e0d30ffd0c70eb55094c47cc7255b4764687a14ede7",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者7第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "72901333b4b9212615a42942a7b6b01b9756588d8ca531234f7010bd4a7b571b",
+      "sha256_before": "72901333b4b9212615a42942a7b6b01b9756588d8ca531234f7010bd4a7b571b",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者7第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "1047cbf29fd128ad73d18deeae8a7685a6c3b4740d7fbd65051552432243bf1c",
+      "sha256_before": "1047cbf29fd128ad73d18deeae8a7685a6c3b4740d7fbd65051552432243bf1c",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者7第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "855be348ed21db11aea53e466bd1cf7cfeff5a0552378cbe0287dd8070e61787",
+      "sha256_before": "855be348ed21db11aea53e466bd1cf7cfeff5a0552378cbe0287dd8070e61787",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者7第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "9679b439ce29ec31ecf74dafe2366212d61afba0b7fc6b3bc3d7a18fca567e70",
+      "sha256_before": "9679b439ce29ec31ecf74dafe2366212d61afba0b7fc6b3bc3d7a18fca567e70",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者8第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "fa942fe444ea1b2e59caafed6df69fdc0ef60b05f03f8184dfc17b3719948fc3",
+      "sha256_before": "fa942fe444ea1b2e59caafed6df69fdc0ef60b05f03f8184dfc17b3719948fc3",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者8第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "687ce7bf58691f461bf7bf7195a026405701adbd9c532e810f204fa5a6e1171d",
+      "sha256_before": "687ce7bf58691f461bf7bf7195a026405701adbd9c532e810f204fa5a6e1171d",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者8第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "8795f3d65e686c47eceb1783597872bf65ad37502b7358fae3a7e764bc6b49f4",
+      "sha256_before": "8795f3d65e686c47eceb1783597872bf65ad37502b7358fae3a7e764bc6b49f4",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者8第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "dff1d2f75c0a1ad39e1c5a01f056d639c41a5735b99227b853f4aee8c35e8098",
+      "sha256_before": "dff1d2f75c0a1ad39e1c5a01f056d639c41a5735b99227b853f4aee8c35e8098",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者9第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "c16f6127ca1b50a72c1a3cab1b4f4d2be37f819a0d2b7d33ac361e04552e5f6a",
+      "sha256_before": "c16f6127ca1b50a72c1a3cab1b4f4d2be37f819a0d2b7d33ac361e04552e5f6a",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者9第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "2560a048cd07e524834de59c906e0776df3b59345f84227cf161b34dccaaf403",
+      "sha256_before": "2560a048cd07e524834de59c906e0776df3b59345f84227cf161b34dccaaf403",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整前/运动者姿势调整前的跳远成绩.txt"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "ffcbe79f3986eeb5d5d19b6dae50f74beef978e64d46338a16ddce6bf6e8ffdd",
+      "sha256_before": "ffcbe79f3986eeb5d5d19b6dae50f74beef978e64d46338a16ddce6bf6e8ffdd",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者10调整后第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "3a0423d53f54a471a88b63572dd7ad2b8a2dca2ea6e88f735b8446b9573dbd93",
+      "sha256_before": "3a0423d53f54a471a88b63572dd7ad2b8a2dca2ea6e88f735b8446b9573dbd93",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者10调整后第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "d776fff09ee997ac1f6f348f1e66238c362feb27ea9234e916a91322d79b62d2",
+      "sha256_before": "d776fff09ee997ac1f6f348f1e66238c362feb27ea9234e916a91322d79b62d2",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者10调整后第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "c70a3ce27c09b2689596c5c1d0b66232768ce6ec91058c4f2abf32aec875c355",
+      "sha256_before": "c70a3ce27c09b2689596c5c1d0b66232768ce6ec91058c4f2abf32aec875c355",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者10调整后第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "47f9a8d037eaeb3c23ed83e962ff9b0b1d485b87dbfc36e0116c7da75bf4a191",
+      "sha256_before": "47f9a8d037eaeb3c23ed83e962ff9b0b1d485b87dbfc36e0116c7da75bf4a191",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者3调整后第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "1774973b2936907030051230a9a0a76fb3b1c1fd411cf20edad26bd51668f9f0",
+      "sha256_before": "1774973b2936907030051230a9a0a76fb3b1c1fd411cf20edad26bd51668f9f0",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者3调整后第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "8ca2e1bbaf6a714d951feb3b82b4666f1b7b780ae5e0221b996b94337950bfa3",
+      "sha256_before": "8ca2e1bbaf6a714d951feb3b82b4666f1b7b780ae5e0221b996b94337950bfa3",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者3调整后第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "f4b4192f739e6fb3d04f397c1e0beb4914148fa4e5081580eb66d2d21cc52fd9",
+      "sha256_before": "f4b4192f739e6fb3d04f397c1e0beb4914148fa4e5081580eb66d2d21cc52fd9",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者3调整后第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "61edb109a13409cac51c7a1cbf8d819471f84c5dacca5cb5adccadd7606a0eda",
+      "sha256_before": "61edb109a13409cac51c7a1cbf8d819471f84c5dacca5cb5adccadd7606a0eda",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者4调整后第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "614b0921d55267ceb75ee1f409f656dad940ef45651afc5b7def742a27e061e7",
+      "sha256_before": "614b0921d55267ceb75ee1f409f656dad940ef45651afc5b7def742a27e061e7",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者4调整后第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "a653ba22adab72a2792b81ded650eba11b8bc13a34a2d545bab80d0705cc4648",
+      "sha256_before": "a653ba22adab72a2792b81ded650eba11b8bc13a34a2d545bab80d0705cc4648",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者4调整后第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "a5182ea14eb423b6995206cd54c9edd79d8b5eb4539eac695024824c061f185c",
+      "sha256_before": "a5182ea14eb423b6995206cd54c9edd79d8b5eb4539eac695024824c061f185c",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者4调整后第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "2f1e0294a0c673afcce3e6394d79d4d804920e2aff4b5cba9f7774293395dc91",
+      "sha256_before": "2f1e0294a0c673afcce3e6394d79d4d804920e2aff4b5cba9f7774293395dc91",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者5调整后第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "5037ec80faa30cdf40da107f854d1a751d345a0ba074df674ba6e94d2d8a5223",
+      "sha256_before": "5037ec80faa30cdf40da107f854d1a751d345a0ba074df674ba6e94d2d8a5223",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者5调整后第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "7a62102f0c880b103d0dc9c8aa536550d114ea8abd2cd93f2a54df200955ae92",
+      "sha256_before": "7a62102f0c880b103d0dc9c8aa536550d114ea8abd2cd93f2a54df200955ae92",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者5调整后第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "1b23ba5b0f37447e3fe24d5a6f4ad602ac4d780b019937914907b71ffc85880b",
+      "sha256_before": "1b23ba5b0f37447e3fe24d5a6f4ad602ac4d780b019937914907b71ffc85880b",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者5调整后第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "4c0a89b620a6528a193827bf04cd679558f802f6f6387eec28dda00c8cc10975",
+      "sha256_before": "4c0a89b620a6528a193827bf04cd679558f802f6f6387eec28dda00c8cc10975",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者6调整后第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "245d5257f609abe54e120fa67488e6d091a4f840aaa72254fc9ca1a08e224490",
+      "sha256_before": "245d5257f609abe54e120fa67488e6d091a4f840aaa72254fc9ca1a08e224490",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者6调整后第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "b079b3da78eb7166d33900a9c64188160658fea87f71539bb5f33c8652cd5413",
+      "sha256_before": "b079b3da78eb7166d33900a9c64188160658fea87f71539bb5f33c8652cd5413",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者6调整后第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "b98ba3c4336cf227836434bf1a68aa9ec5af7be2e930989fb6258f0a2048269c",
+      "sha256_before": "b98ba3c4336cf227836434bf1a68aa9ec5af7be2e930989fb6258f0a2048269c",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者6调整后第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "8ff00f33f3ba1afb976637924e0e8d7f3206e7973479d00529af8cf1ee196252",
+      "sha256_before": "8ff00f33f3ba1afb976637924e0e8d7f3206e7973479d00529af8cf1ee196252",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者7调整后第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "f6b94fc54c8592e5a4468be84ea1fad9576f101ae8535f1590fc654579a46da4",
+      "sha256_before": "f6b94fc54c8592e5a4468be84ea1fad9576f101ae8535f1590fc654579a46da4",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者7调整后第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "77283169474ddfc3f7818b044c64821598821a8db1ad5e2c3b5a680b2969de7a",
+      "sha256_before": "77283169474ddfc3f7818b044c64821598821a8db1ad5e2c3b5a680b2969de7a",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者7调整后第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "a75096448f5c25f540c6190b0c7d9920bab5d317c3a54085a9080e9ced3e6186",
+      "sha256_before": "a75096448f5c25f540c6190b0c7d9920bab5d317c3a54085a9080e9ced3e6186",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者7调整后第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "b49e6730196872c14dc96b49aa0efe4c3884ca7ad44f3b202aad4c7c44902809",
+      "sha256_before": "b49e6730196872c14dc96b49aa0efe4c3884ca7ad44f3b202aad4c7c44902809",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者8调整后第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "2671da92f9624baefc9f1c0e25c948d1e03dac4b9b8e0dc11c4f50e8ae7368e9",
+      "sha256_before": "2671da92f9624baefc9f1c0e25c948d1e03dac4b9b8e0dc11c4f50e8ae7368e9",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者8调整后第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "eb26b240503b22d378bad3e81e64dcd0fd850e289515bea71cb7a565998f4049",
+      "sha256_before": "eb26b240503b22d378bad3e81e64dcd0fd850e289515bea71cb7a565998f4049",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者9调整后第1次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "d222cf70ffa12b3eb6774d872f71996888f20c06aedb1f0ce2591af812b76052",
+      "sha256_before": "d222cf70ffa12b3eb6774d872f71996888f20c06aedb1f0ce2591af812b76052",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者9调整后第1次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "249c5de3a723dc490e818cc87d9135cf51f71552ae9adf78e8a266371e514e86",
+      "sha256_before": "249c5de3a723dc490e818cc87d9135cf51f71552ae9adf78e8a266371e514e86",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者9调整后第2次的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "7f3b9bd9dab3fbab3ec6fcd0082849269b23248ad4f61114ee09930334f04129",
+      "sha256_before": "7f3b9bd9dab3fbab3ec6fcd0082849269b23248ad4f61114ee09930334f04129",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者9调整后第2次的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "b8407b4e312f72fd54f0c15630069c3b94c17e43ad2643d2ee3a6144c8164b56",
+      "sha256_before": "b8407b4e312f72fd54f0c15630069c3b94c17e43ad2643d2ee3a6144c8164b56",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者姿势调整后的跳远成绩.txt"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "24c3c5f53c7a1f8c8518a400ca7447c1d94b0131fa8db99935c6bfcc299def3e",
+      "sha256_before": "24c3c5f53c7a1f8c8518a400ca7447c1d94b0131fa8db99935c6bfcc299def3e",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件4.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "69247daa458b63d605ae2073e53ee99ff64cc53ac1fc0bd516f780f8f8dfe9f5",
+      "sha256_before": "69247daa458b63d605ae2073e53ee99ff64cc53ac1fc0bd516f780f8f8dfe9f5",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件5/运动者11的跳远位置信息.xlsx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "e74fe30c94afd2723f25e6e983d54a0bd9049fbbac60d37527ddf09b9389aa47",
+      "sha256_before": "e74fe30c94afd2723f25e6e983d54a0bd9049fbbac60d37527ddf09b9389aa47",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件5/运动者11的跳远视频.mp4"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "69fc08c6a446c08e7116be35e8f99986377255318971d63d691fc11a9013917a",
+      "sha256_before": "69fc08c6a446c08e7116be35e8f99986377255318971d63d691fc11a9013917a",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/format2025.doc"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "9c14eab19304fe45a36e45a965fa740e2636690630ecd8528335d4e4aec3e2d4",
+      "sha256_before": "9c14eab19304fe45a36e45a965fa740e2636690630ecd8528335d4e4aec3e2d4",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A066.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "b5fb5fe4b2d06998bc85bb9276cf16afc1755913d91f18c01d5209f8f13ada92",
+      "sha256_before": "b5fb5fe4b2d06998bc85bb9276cf16afc1755913d91f18c01d5209f8f13ada92",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A196.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "17c1b7e255dcbb8e8ac34c0a750e39d7df1ee4a5ed0d0323b46388f168090330",
+      "sha256_before": "17c1b7e255dcbb8e8ac34c0a750e39d7df1ee4a5ed0d0323b46388f168090330",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/B060.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "515fd73059b427606ffd099781a124d34bac3306bee87c61d47259622351eb17",
+      "sha256_before": "515fd73059b427606ffd099781a124d34bac3306bee87c61d47259622351eb17",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C023.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "f26b27c9e8921c0af999eff65c8f5d5a3074d988465a639c18b0fe5c23a64a53",
+      "sha256_before": "f26b27c9e8921c0af999eff65c8f5d5a3074d988465a639c18b0fe5c23a64a53",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C0231779859404.docx"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "08ec307cdc65a673e6838e2e3d00b2337da414e7891284617e10f370e5f246b5",
+      "sha256_before": "08ec307cdc65a673e6838e2e3d00b2337da414e7891284617e10f370e5f246b5",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C132.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "bdbed46ff5d5841af82fa6441c8ab3d83a62658672857e445deadfd8dad1f0ac",
+      "sha256_before": "bdbed46ff5d5841af82fa6441c8ab3d83a62658672857e445deadfd8dad1f0ac",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/D037.pdf"
+    },
+    {
+      "match": true,
+      "read_only_mode": "0o444",
+      "sha256_after": "7270dacab35167e998141d5d34c34d12a912b3620249a892697211f24d009e0d",
+      "sha256_before": "7270dacab35167e998141d5d34c34d12a912b3620249a892697211f24d009e0d",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/E030.pdf"
+    }
+  ],
+  "modified_file_count": 0,
+  "outer_archive_sha256": "7b1186c3e430c6a593f4c63ea76e767dc83a9e0363940688617fa1b2dcd30272",
+  "source_file_count": 107,
+  "verified_at": "2026-07-26T05:20:44Z",
+  "year": 2025
+}

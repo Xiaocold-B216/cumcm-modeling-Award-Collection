@@ -1,17 +1,37 @@
 {
-  "manifest_version": "1.0",
-  "generated_at": "2026-07-26T05:30:19Z",
-  "source_remote_file_status": "not_found_at_build_time",
-  "entries": [
+  "checkpoints": [
     {
-      "year": 2024,
+      "path": "analysis-index/09_checkpoints/2007_checkpoint.json",
+      "remote_readback_verified": true,
+      "status": "pass",
+      "year": 2007
+    },
+    {
+      "path": "analysis-index/09_checkpoints/2008_checkpoint.json",
+      "remote_readback_verified": true,
+      "status": "pass",
+      "year": 2008
+    },
+    {
+      "path": "analysis-index/09_checkpoints/2009_checkpoint.json",
+      "remote_readback_verified": true,
+      "status": "pass",
+      "year": 2009
+    },
+    {
+      "path": "analysis-index/09_checkpoints/2010_checkpoint.json",
+      "remote_readback_verified": false,
       "status": "conditional_pass",
-      "checkpoint_path": "analysis-index/09_checkpoints/2024_checkpoint.json",
-      "quality_gate_path": "analysis-index/08_quality/gates/2024_gate.json",
-      "remote_readback_verified": false
+      "year": 2010
+    },
+    {
+      "path": "analysis-index/09_checkpoints/2025_checkpoint.json",
+      "remote_readback_verified": false,
+      "status": "conditional_pass",
+      "year": 2025
     }
   ],
-  "merge_policy": "若上传时远端已出现同名文件，必须按year合并，不得覆盖更晚条目。",
-  "remote_readback_at": "2026-07-26T05:30:19Z",
-  "remote_file_status": "not_found"
+  "manifest_scope": "evidence-backed reconciliation plus current upload package",
+  "schema_version": "1.4.1",
+  "updated_at": "2026-07-26T05:20:44Z"
 }

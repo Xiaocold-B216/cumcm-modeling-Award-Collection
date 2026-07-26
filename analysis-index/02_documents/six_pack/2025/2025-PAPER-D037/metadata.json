@@ -1,0 +1,27 @@
+{
+  "award_level": {
+    "reason": "not inferred from directory or filename",
+    "status": "unknown",
+    "value": "unknown"
+  },
+  "carrier_ids": [
+    "2025-CARRIER-0106"
+  ],
+  "corpus_eligibility": "eligible",
+  "created_at": "2026-07-26T05:20:44Z",
+  "document_id": "2025-PAPER-D037",
+  "document_subtype": "competition_solution",
+  "field_status_policy": "unobserved fields are unknown/not_observed, never converted to absent",
+  "page_count": 37,
+  "preferred_representation_id": "2025-REP-0106",
+  "problem_id": "D",
+  "representations": [
+    "2025-REP-0106"
+  ],
+  "role": "paper",
+  "source_paths": [
+    "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/D037.pdf"
+  ],
+  "title": "矿井突水水流漫延模型与逃生方案问题",
+  "year": 2025
+}

@@ -1,0 +1,27 @@
+{
+  "award_level": {
+    "reason": "not inferred from directory or filename",
+    "status": "unknown",
+    "value": "unknown"
+  },
+  "carrier_ids": [
+    "2025-CARRIER-0093"
+  ],
+  "corpus_eligibility": "eligible",
+  "created_at": "2026-07-26T05:20:44Z",
+  "document_id": "2025-DATA-E-070",
+  "document_subtype": "supporting_data_or_template",
+  "field_status_policy": "unobserved fields are unknown/not_observed, never converted to absent",
+  "page_count": 0,
+  "preferred_representation_id": "2025-REP-0093",
+  "problem_id": "E",
+  "representations": [
+    "2025-REP-0093"
+  ],
+  "role": "dataset",
+  "source_paths": [
+    "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/附件/附件3/姿势调整后/运动者9调整后第2次的跳远位置信息.xlsx"
+  ],
+  "title": "E题/附件/附件3/姿势调整后/运动者9调整后第2次的跳远位置信息.xlsx",
+  "year": 2025
+}

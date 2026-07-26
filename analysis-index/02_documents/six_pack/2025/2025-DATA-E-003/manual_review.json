@@ -1,0 +1,16 @@
+{
+  "document_id": "2025-DATA-E-003",
+  "open_items": [
+    "2025-MR-001"
+  ],
+  "review_basis": [
+    "SHA-256",
+    "file structure",
+    "page rendering for paginated documents",
+    "manual abstract/title review for papers"
+  ],
+  "reviewed_at": "2026-07-26T05:20:44Z",
+  "source_unmodified": true,
+  "status": "open_nonblocking",
+  "year": 2025
+}

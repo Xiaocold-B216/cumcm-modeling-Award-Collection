@@ -1,0 +1,27 @@
+{
+  "award_level": {
+    "reason": "not inferred from directory or filename",
+    "status": "unknown",
+    "value": "unknown"
+  },
+  "carrier_ids": [
+    "2025-CARRIER-0100"
+  ],
+  "corpus_eligibility": "eligible",
+  "created_at": "2026-07-26T05:20:44Z",
+  "document_id": "2025-PAPER-A066",
+  "document_subtype": "competition_solution",
+  "field_status_policy": "unobserved fields are unknown/not_observed, never converted to absent",
+  "page_count": 86,
+  "preferred_representation_id": "2025-REP-0100",
+  "problem_id": "A",
+  "representations": [
+    "2025-REP-0100"
+  ],
+  "role": "paper",
+  "source_paths": [
+    "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A066.pdf"
+  ],
+  "title": "多烟幕干扰弹投放优化设计",
+  "year": 2025
+}

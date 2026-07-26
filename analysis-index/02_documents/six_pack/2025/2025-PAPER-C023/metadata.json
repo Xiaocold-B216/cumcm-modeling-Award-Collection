@@ -1,0 +1,30 @@
+{
+  "award_level": {
+    "reason": "not inferred from directory or filename",
+    "status": "unknown",
+    "value": "unknown"
+  },
+  "carrier_ids": [
+    "2025-CARRIER-0103",
+    "2025-CARRIER-0104"
+  ],
+  "corpus_eligibility": "eligible",
+  "created_at": "2026-07-26T05:20:44Z",
+  "document_id": "2025-PAPER-C023",
+  "document_subtype": "competition_solution",
+  "field_status_policy": "unobserved fields are unknown/not_observed, never converted to absent",
+  "page_count": 122,
+  "preferred_representation_id": "2025-REP-0103",
+  "problem_id": "C",
+  "representations": [
+    "2025-REP-0103",
+    "2025-REP-0104"
+  ],
+  "role": "paper",
+  "source_paths": [
+    "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C023.pdf",
+    "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C0231779859404.docx"
+  ],
+  "title": "基于混合效应模型的NIPT时点优化与胎儿异常判定",
+  "year": 2025
+}

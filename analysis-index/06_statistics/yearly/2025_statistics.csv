@@ -1,0 +1,23 @@
+﻿year,metric,scope,value,unit,notes
+2025,physical_carriers,all,107,count,
+2025,logical_documents,all,106,count,
+2025,representations,all,107,count,
+2025,problem_statements,all,5,count,
+2025,solution_papers,all,7,count,
+2025,expert_commentaries,all,0,count,not_observed in supplied bundle
+2025,datasets_and_supporting_objects,all,94,count,
+2025,pdf_pages,all_pdf,524,pages,
+2025,paper_pdf_pages,solution_papers,516,pages,
+2025,paginated_segments,pdf_docx_doc,652,segments,
+2025,all_segments,all,745,segments,
+2025,xlsx_files,all,54,count,
+2025,mp4_files,all,35,count,
+2025,video_duration,E,348.799992,seconds,"35 videos, 1280x720, 30 fps"
+2025,duplicate_sha_groups,all,2,count,
+2025,open_manual_review_items,all,1,count,
+2025,source_modified_files,all,0,count,
+2025,solution_papers,A,2,count,
+2025,solution_papers,B,1,count,
+2025,solution_papers,C,2,count,
+2025,solution_papers,D,1,count,
+2025,solution_papers,E,1,count,
