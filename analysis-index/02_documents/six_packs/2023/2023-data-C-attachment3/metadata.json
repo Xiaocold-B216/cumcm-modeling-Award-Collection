@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-data-C-attachment3",
+  "title": "C题批发价格附件",
+  "role": "dataset",
+  "subtype": "problem_input_data",
+  "problem_code": "C",
+  "corpus_eligible": false,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-026"
+  ],
+  "representations": [
+    "rep-2023-026"
+  ],
+  "preferred_representation_id": "rep-2023-026",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023赛题/C题/附件3.xlsx",
+  "source_sha256": "3a383a51148c8d94afdd1a4a395a88d14dc06a507f4120185066fae92d1405e9",
+  "page_count": 0,
+  "sheet_count": 1,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}

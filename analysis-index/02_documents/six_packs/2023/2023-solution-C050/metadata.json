@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-solution-C050",
+  "title": "某商超蔬菜类商品动态定价与补货决策研究",
+  "role": "paper",
+  "subtype": "solution_paper",
+  "problem_code": "C",
+  "corpus_eligible": true,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-008"
+  ],
+  "representations": [
+    "rep-2023-008"
+  ],
+  "preferred_representation_id": "rep-2023-008",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/C050.pdf",
+  "source_sha256": "8842b1e70acb03dc82171ea016b19aaabd0da043ce16878b384bc3c212adb510",
+  "page_count": 44,
+  "sheet_count": 0,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-solution-A127",
+  "title": "定日镜场的输出功率优化",
+  "role": "paper",
+  "subtype": "solution_paper",
+  "problem_code": "A",
+  "corpus_eligible": true,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-002"
+  ],
+  "representations": [
+    "rep-2023-002"
+  ],
+  "preferred_representation_id": "rep-2023-002",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/A127.pdf",
+  "source_sha256": "77aae1ffa8d3c2ce29c870ab497b6b284b9ecf4236b2d5a4240c8fa9fc7a1d62",
+  "page_count": 58,
+  "sheet_count": 0,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}

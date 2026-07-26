@@ -1,0 +1,25 @@
+{
+  "year": 2023,
+  "logical_document_id": "2023-solution-A127",
+  "identity_verified": true,
+  "role_verified": true,
+  "problem_code_verified": true,
+  "boundary_review": {
+    "status": "complete",
+    "missing_first": false,
+    "missing_last": false,
+    "mixed_page_content": false,
+    "cross_file_continuation": false,
+    "page_or_sheet_segments_accounted": true
+  },
+  "preferred_representation_count": 1,
+  "source_hash_verified": true,
+  "source_unmodified": true,
+  "award_level_inferred": false,
+  "award_level_status": "not_observed",
+  "open_review_items": 0,
+  "review_status": "complete",
+  "notes": [
+    "自动候选仅用于定位；身份、角色、边界与方法摘要已人工核验。"
+  ]
+}

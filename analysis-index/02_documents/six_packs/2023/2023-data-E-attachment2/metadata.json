@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-data-E-attachment2",
+  "title": "E题黄河断面测量附件",
+  "role": "dataset",
+  "subtype": "problem_input_data",
+  "problem_code": "E",
+  "corpus_eligible": false,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-031"
+  ],
+  "representations": [
+    "rep-2023-031"
+  ],
+  "preferred_representation_id": "rep-2023-031",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023赛题/E题/附件2.xlsx",
+  "source_sha256": "0d98c9f14a964715d2d0ca74ac8ba1400dab7bac0599b6e6aae3e99638ed14aa",
+  "page_count": 0,
+  "sheet_count": 1,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}

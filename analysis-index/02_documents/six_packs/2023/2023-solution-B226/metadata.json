@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-solution-B226",
+  "title": "多波束测线布设",
+  "role": "paper",
+  "subtype": "solution_paper",
+  "problem_code": "B",
+  "corpus_eligible": true,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-005"
+  ],
+  "representations": [
+    "rep-2023-005"
+  ],
+  "preferred_representation_id": "rep-2023-005",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023数学建模竞赛展示论文/2023年展示论文/B226.pdf",
+  "source_sha256": "6575167cc2cace9fc4f7a2d9e654128803b4270096fcb2e63b27ef05faf7a33d",
+  "page_count": 51,
+  "sheet_count": 0,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}

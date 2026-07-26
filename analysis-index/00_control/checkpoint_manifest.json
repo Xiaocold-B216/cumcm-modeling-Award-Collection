@@ -1,21 +1,71 @@
 {
   "schema_version": "1.4.1",
-  "analysis_branch": "analysis/corpus-index",
-  "updated_at": "2026-07-26T05:20:00Z",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "updated_at": "2026-07-26T05:23:18Z",
+  "coverage_note": "Reconstructed from remotely readable annual gates/checkpoints/reports for 2007-2010 plus the local 2023 package; earlier annual entries remain represented by progress.json.",
   "checkpoints": [
     {
       "year": 2007,
-      "path": "analysis-index/09_checkpoints/2007_checkpoint.json",
       "status": "pass",
       "remote_readback_verified": true,
-      "source": "remote_readback_in_current_session"
+      "carriers": 43,
+      "logical_documents": 43,
+      "solution_papers": 27,
+      "expert_commentaries": 1,
+      "problem_statements": 4,
+      "supporting_objects": 11,
+      "representations": 43,
+      "segments": 459
     },
     {
-      "year": 2022,
-      "path": "analysis-index/09_checkpoints/2022_checkpoint.json",
+      "year": 2008,
+      "status": "pass",
+      "remote_readback_verified": true,
+      "carriers": 46,
+      "logical_documents": 46,
+      "solution_papers": 27,
+      "expert_commentaries": 0,
+      "problem_statements": 4,
+      "supporting_objects": 15,
+      "representations": 46,
+      "segments": 624
+    },
+    {
+      "year": 2009,
+      "status": "pass",
+      "remote_readback_verified": true,
+      "carriers": 27,
+      "logical_documents": 27,
+      "solution_papers": 21,
+      "expert_commentaries": 0,
+      "problem_statements": 4,
+      "supporting_objects": 1,
+      "representations": 27,
+      "segments": 393
+    },
+    {
+      "year": 2010,
       "status": "conditional_pass",
       "remote_readback_verified": false,
-      "source": "local_upload_package"
+      "carriers": 19,
+      "logical_documents": 19,
+      "manual_review_items": 19
+    },
+    {
+      "year": 2023,
+      "status": "pass_pending_remote_readback",
+      "remote_readback_verified": false,
+      "physical_carriers": 32,
+      "logical_documents": 32,
+      "solution_papers": 14,
+      "expert_commentaries": 0,
+      "problem_statements": 5,
+      "supporting_objects": 13,
+      "representations": 32,
+      "solution_lineages": 14,
+      "pdf_pages": 742,
+      "worksheet_segments": 19,
+      "segments": 761
     }
   ]
 }

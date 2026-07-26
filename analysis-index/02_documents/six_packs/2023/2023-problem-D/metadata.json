@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-problem-D",
+  "title": "圈养湖羊的空间利用率",
+  "role": "problem",
+  "subtype": "problem_statement",
+  "problem_code": "D",
+  "corpus_eligible": false,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-028"
+  ],
+  "representations": [
+    "rep-2023-028"
+  ],
+  "preferred_representation_id": "rep-2023-028",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023赛题/D题.pdf",
+  "source_sha256": "84becde14b9888994b23bff923db0c077733e8bae330958a45a82785058b2cd0",
+  "page_count": 2,
+  "sheet_count": 0,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}

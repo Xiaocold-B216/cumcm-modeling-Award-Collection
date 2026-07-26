@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-data-B-result1",
+  "title": "B题问题1结果提交模板",
+  "role": "dataset",
+  "subtype": "submission_template",
+  "problem_code": "B",
+  "corpus_eligible": false,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-020"
+  ],
+  "representations": [
+    "rep-2023-020"
+  ],
+  "preferred_representation_id": "rep-2023-020",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023赛题/B题/result1.xlsx",
+  "source_sha256": "9a86f9f4b9755447bda0ab9c3d8f4123561a0bfa735ede7d0c08b1c457ae83bd",
+  "page_count": 0,
+  "sheet_count": 1,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}

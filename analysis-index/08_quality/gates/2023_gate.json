@@ -1,0 +1,46 @@
+{
+  "year": 2023,
+  "status": "pass",
+  "checks": {
+    "baseline_file_set_verified": true,
+    "all_carriers_hashed": true,
+    "all_problem_statements_verified": true,
+    "all_supporting_data_verified": true,
+    "roles_manually_verified": true,
+    "expert_commentary_separated": true,
+    "object_layers_separate": true,
+    "field_status_enum": true,
+    "unknown_not_absent": true,
+    "page_and_sheet_regions_present": true,
+    "page_boundary_review_complete": true,
+    "one_preferred_representation": true,
+    "source_unmodified": true,
+    "statistics_scoped": true,
+    "logical_document_six_pack": true,
+    "manual_verification_complete_for_full_year": true,
+    "relations_referential_integrity": true,
+    "solution_lineages_complete": true,
+    "local_tests_passed": true
+  },
+  "manual_review_items": 0,
+  "blocking_manual_review_items": 0,
+  "counts": {
+    "physical_carriers": 32,
+    "logical_documents": 32,
+    "solution_papers": 14,
+    "expert_commentaries": 0,
+    "problem_statements": 5,
+    "supporting_objects": 13,
+    "representations": 32,
+    "solution_lineages": 14,
+    "pdf_pages": 742,
+    "worksheet_segments": 19,
+    "segments": 761
+  },
+  "known_issues": [
+    "award level is not inferred from repository placement",
+    "display-paper corpus is not the complete population of all 2023 submissions or awards",
+    "no standalone expert commentary was observed"
+  ],
+  "updated_at": "2026-07-26T05:23:18Z"
+}

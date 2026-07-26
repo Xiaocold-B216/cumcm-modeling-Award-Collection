@@ -1,0 +1,2 @@
+﻿year,physical_carriers,logical_documents,representations,solution_papers,expert_commentaries,problem_statements,datasets,submission_templates,input_datasets,pdf_files,xlsx_files,pdf_pages,xlsx_sheets,segments,solution_lineages,byte_duplicate_groups,manual_review_items,missing_segment_requests,source_modified_files,A_solution_papers,B_solution_papers,C_solution_papers,D_solution_papers,E_solution_papers,gate_status
+2023,32,32,32,14,0,5,13,4,9,19,13,742,19,761,14,1,0,0,0,4,3,4,1,2,pass

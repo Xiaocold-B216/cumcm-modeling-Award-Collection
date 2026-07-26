@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-problem-E",
+  "title": "黄河水沙监测数据分析",
+  "role": "problem",
+  "subtype": "problem_statement",
+  "problem_code": "E",
+  "corpus_eligible": false,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-029"
+  ],
+  "representations": [
+    "rep-2023-029"
+  ],
+  "preferred_representation_id": "rep-2023-029",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023赛题/E题/E题.pdf",
+  "source_sha256": "a066df6f2816c4c2124bed2e09ce41e0e42b5d1d5296790d2137b791b55d5b30",
+  "page_count": 1,
+  "sheet_count": 0,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}

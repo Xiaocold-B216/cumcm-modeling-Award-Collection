@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-data-B-attachment",
+  "title": "B题海底深度网格附件",
+  "role": "dataset",
+  "subtype": "problem_input_data",
+  "problem_code": "B",
+  "corpus_eligible": false,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-022"
+  ],
+  "representations": [
+    "rep-2023-022"
+  ],
+  "preferred_representation_id": "rep-2023-022",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023赛题/B题/附件.xlsx",
+  "source_sha256": "5f92dee1af5906869bd7dca45d73b90090bb971d882beb7d8461c6b563eee40a",
+  "page_count": 0,
+  "sheet_count": 1,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}

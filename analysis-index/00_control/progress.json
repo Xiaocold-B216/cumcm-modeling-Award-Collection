@@ -1,11 +1,6 @@
 {
   "analysis_branch": "analysis/corpus-index",
-  "schema_version": "1.4.1",
-  "parser_version": "0.5.2",
-  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
-  "target_end_year": 2022,
-  "stop_after_year": 2022,
-  "reconciled_complete_years": [
+  "completed_years": [
     1992,
     1993,
     1994,
@@ -21,16 +16,29 @@
     2004,
     2005,
     2006,
-    2007
+    2007,
+    2008,
+    2009
   ],
-  "last_verified_complete_year": 2007,
-  "processed_noncontiguous_years": [
-    2022
+  "last_verified_complete_year": 2009,
+  "next_recommended_year": 2010,
+  "parser_version": "0.5.2",
+  "project_status": "active_pending_remote_readback",
+  "remote_publish_status": "2023_pending_remote_readback",
+  "schema_version": "1.4.1",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "target_end_year": 2023,
+  "locally_completed_pending_remote_readback": [
+    2023
   ],
-  "latest_processed_year": 2022,
-  "next_recommended_year": null,
-  "project_status": "stopped_at_2022_conditional_pass_pending_remote_readback",
-  "remote_publish_status": "pending_user_upload_and_remote_readback",
+  "updated_at": "2026-07-26T05:23:18Z",
+  "state_reconciliation": {
+    "safe_remote_boundary": 2009,
+    "2010": "conditional_pass_with_19_manual_review_items",
+    "2011": "not_verified_required_year_files_missing",
+    "2023": "local_pass_pending_remote_readback",
+    "principle": "annual report, quality gate and checkpoint override stale progress claims"
+  },
   "year_status": {
     "1992": "pass",
     "1993": "pass",
@@ -48,82 +56,10 @@
     "2005": "pass",
     "2006": "pass",
     "2007": "pass",
-    "2008": "legacy_claim_not_reverified_in_this_run",
-    "2009": "legacy_claim_not_reverified_in_this_run",
-    "2010": "legacy_claim_not_reverified_in_this_run",
-    "2011": "legacy_claim_not_reverified_in_this_run",
-    "2012": "not_observed",
-    "2013": "not_observed",
-    "2014": "not_observed",
-    "2015": "not_observed",
-    "2016": "not_observed",
-    "2017": "not_observed",
-    "2018": "not_observed",
-    "2019": "not_observed",
-    "2020": "not_observed",
-    "2021": "not_observed",
-    "2022": "conditional_pass_pending_remote_readback"
-  },
-  "status_reconciliation": {
-    "authoritative_anchor_year": 2007,
-    "reason": "2007 report, gate and checkpoint are mutually consistent and remote-readback verified; legacy progress contains internally inconsistent completion/readback fields.",
-    "noncontiguous_processing_note": "2022 was processed as an explicitly requested independent year; no completion claim is made for 2008-2021."
-  },
-  "legacy_remote_snapshot": {
-    "analysis_branch": "analysis/corpus-index",
-    "completed_years": [
-      1992,
-      1993,
-      1994,
-      1995,
-      1996,
-      1997,
-      1998,
-      1999,
-      2000,
-      2001,
-      2002,
-      2003,
-      2004,
-      2005,
-      2006,
-      2007,
-      2008,
-      2009,
-      2010,
-      2011
-    ],
-    "last_verified_complete_year": 2009,
-    "next_recommended_year": 2010,
-    "parser_version": "0.5.2",
-    "project_status": "active_pending_remote_readback",
-    "remote_publish_status": "pending_remote_readback",
-    "schema_version": "1.4.1",
-    "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
-    "target_end_year": 2011,
-    "updated_at": "2026-07-23T00:26:09Z",
-    "year_status": {
-      "1992": "pass",
-      "1993": "pass",
-      "1994": "pass",
-      "1995": "pass",
-      "1996": "pass",
-      "1997": "pass",
-      "1998": "pass",
-      "1999": "pass",
-      "2000": "pass",
-      "2001": "pass",
-      "2002": "pass",
-      "2003": "pass",
-      "2004": "pass",
-      "2005": "pass",
-      "2006": "pass",
-      "2007": "pass",
-      "2008": "pass",
-      "2009": "pass",
-      "2010": "pass_pending_remote_readback",
-      "2011": "pass_pending_remote_readback"
-    }
-  },
-  "updated_at": "2026-07-26T05:20:00Z"
+    "2008": "pass",
+    "2009": "pass",
+    "2010": "conditional_pass",
+    "2011": "not_verified",
+    "2023": "pass_pending_remote_readback"
+  }
 }

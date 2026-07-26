@@ -1,0 +1,28 @@
+{
+  "checkpoint_type": "year_manual",
+  "checkpoint_label": "analysis_checkpoint_2023_local",
+  "year": 2023,
+  "status": "pass_pending_remote_readback",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "parser_version": "0.5.2",
+  "schema_version": "1.4.1",
+  "counts": {
+    "physical_carriers": 32,
+    "logical_documents": 32,
+    "solution_papers": 14,
+    "expert_commentaries": 0,
+    "problem_statements": 5,
+    "supporting_objects": 13,
+    "representations": 32,
+    "solution_lineages": 14,
+    "pdf_pages": 742,
+    "worksheet_segments": 19,
+    "segments": 761
+  },
+  "manual_review_complete": true,
+  "local_tests_expected": 28,
+  "local_tests_passed": true,
+  "remote_readback_verified": false,
+  "created_at": "2026-07-26T05:23:18Z",
+  "upload_bundle": "2023_analysis_upload.zip"
+}

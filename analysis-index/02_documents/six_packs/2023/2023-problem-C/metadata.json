@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-problem-C",
+  "title": "蔬菜类商品的自动定价与补货决策",
+  "role": "problem",
+  "subtype": "problem_statement",
+  "problem_code": "C",
+  "corpus_eligible": false,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-023"
+  ],
+  "representations": [
+    "rep-2023-023"
+  ],
+  "preferred_representation_id": "rep-2023-023",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023赛题/C题/C题.pdf",
+  "source_sha256": "f94818a4f1d84d2aaad2bcbfeb4a7047335a54dccc3a5a632ac2264bcf3d89e5",
+  "page_count": 1,
+  "sheet_count": 0,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}

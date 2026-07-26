@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.1",
+  "year": 2023,
+  "logical_document_id": "2023-data-A-result2",
+  "title": "A题问题2结果提交模板",
+  "role": "dataset",
+  "subtype": "submission_template",
+  "problem_code": "A",
+  "corpus_eligible": false,
+  "award_level": {
+    "value": "unknown",
+    "status": "not_observed",
+    "note": "不凭仓库目录或展示编号推断奖项。"
+  },
+  "physical_carriers": [
+    "car-2023-016"
+  ],
+  "representations": [
+    "rep-2023-016"
+  ],
+  "preferred_representation_id": "rep-2023-016",
+  "source_relative_path": "2023年数学建模国赛真题+优秀论文/2023赛题/A题/result2.xlsx",
+  "source_sha256": "4f9fbd0cc4e817063616e8202aab25f02cd68a9b4409fe77b13a9f8f0306caa1",
+  "page_count": 0,
+  "sheet_count": 1,
+  "identity_status": "verified",
+  "boundary_status": "verified",
+  "completeness_status": "complete",
+  "evidence_status": "manually_verified",
+  "source_unmodified": true
+}
