@@ -1,0 +1,415 @@
+{
+  "stage_id": "A4",
+  "stage_status": "passed_with_failures_recorded",
+  "status_interpretation": "The A4 baseline execution and evidence capture completed; this does not mean all annual tests passed.",
+  "authoritative_definition": "analysis-index/00_control/stage_definitions/A4.md",
+  "authoritative_inputs": [
+    "analysis-index/00_control/stage_plan_2015_2025.json",
+    "analysis-index/00_control/stage_plan_2015_2025.md",
+    "analysis-index/00_control/stage_definitions/A4.md",
+    "analysis-index/00_control/test_integrity_audit_2015_2025.json",
+    "analysis-index/00_control/test_change_justification.md"
+  ],
+  "collect": {
+    "command": "python -m pytest --collect-only -q -p no:cacheprovider tests/test_2015_manual.py tests/test_2016_manual.py tests/test_2017_manual.py tests/test_2018_manual.py tests/test_2019_manual.py tests/test_2020_manual.py tests/test_2021_manual.py tests/test_2022_manual.py tests/test_2023_manual.py tests/test_2024_manual.py tests/test_2025_manual.py",
+    "exit_code": 0,
+    "collected": 267,
+    "wall_clock_seconds": 0.641,
+    "log_id": "collect"
+  },
+  "annual_files": [
+    {
+      "year": 2015,
+      "test_file": "tests/test_2015_manual.py",
+      "log_id": "year-2015",
+      "status": "failed",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2015_manual.py",
+      "wall_clock_seconds": 0.782,
+      "exit_code": 1,
+      "collected": 36,
+      "passed": 26,
+      "failed": 10,
+      "skipped": 0,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [
+        "tests/test_2015_manual.py::test_02_json_jsonl_structures",
+        "tests/test_2015_manual.py::test_03_csv_structures",
+        "tests/test_2015_manual.py::test_05_source_snapshot_unmodified",
+        "tests/test_2015_manual.py::test_22_six_pack_metadata_matches_csv",
+        "tests/test_2015_manual.py::test_23_card_preferred_rep_matches_relation",
+        "tests/test_2015_manual.py::test_29_quality_gate_conditional_and_blocked",
+        "tests/test_2015_manual.py::test_30_missing_file_is_specific",
+        "tests/test_2015_manual.py::test_31_manual_queue_consistency",
+        "tests/test_2015_manual.py::test_32_progress_reconciliation",
+        "tests/test_2015_manual.py::test_33_original_file_modified_count_zero"
+      ],
+      "skip_records": [],
+      "slowest_test": {
+        "seconds": 0.14,
+        "phase": "call",
+        "node_id": "tests/test_2015_manual.py::test_02_json_jsonl_structures"
+      },
+      "completed": true,
+      "timed_out": false
+    },
+    {
+      "year": 2016,
+      "test_file": "tests/test_2016_manual.py",
+      "log_id": "year-2016",
+      "status": "failed",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2016_manual.py",
+      "wall_clock_seconds": 0.672,
+      "exit_code": 1,
+      "collected": 28,
+      "passed": 26,
+      "failed": 2,
+      "skipped": 0,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [
+        "tests/test_2016_manual.py::test_json_files_parse",
+        "tests/test_2016_manual.py::test_progress_reconciled"
+      ],
+      "skip_records": [],
+      "slowest_test": {
+        "seconds": 0.17,
+        "phase": "call",
+        "node_id": "tests/test_2016_manual.py::test_jsonl_files_parse"
+      },
+      "completed": true,
+      "timed_out": false
+    },
+    {
+      "year": 2017,
+      "test_file": "tests/test_2017_manual.py",
+      "log_id": "year-2017",
+      "status": "timeout",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2017_manual.py",
+      "wall_clock_seconds": 300.171,
+      "exit_code": 124,
+      "collected": 24,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [],
+      "skip_records": [],
+      "slowest_test": null,
+      "completed": false,
+      "timed_out": true
+    },
+    {
+      "year": 2018,
+      "test_file": "tests/test_2018_manual.py",
+      "log_id": "year-2018",
+      "status": "failed",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2018_manual.py",
+      "wall_clock_seconds": 7.706,
+      "exit_code": 1,
+      "collected": 16,
+      "passed": 12,
+      "failed": 4,
+      "skipped": 0,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [
+        "tests/test_2018_manual.py::test_json_jsonl_parse",
+        "tests/test_2018_manual.py::test_unknown_not_absent_policy",
+        "tests/test_2018_manual.py::test_missing_files_are_exact_and_nonblocking",
+        "tests/test_2018_manual.py::test_progress_reconciliation"
+      ],
+      "skip_records": [],
+      "slowest_test": {
+        "seconds": 7.14,
+        "phase": "call",
+        "node_id": "tests/test_2018_manual.py::test_unknown_not_absent_policy"
+      },
+      "completed": true,
+      "timed_out": false
+    },
+    {
+      "year": 2019,
+      "test_file": "tests/test_2019_manual.py",
+      "log_id": "year-2019",
+      "status": "failed",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2019_manual.py",
+      "wall_clock_seconds": 0.599,
+      "exit_code": 1,
+      "collected": 11,
+      "passed": 10,
+      "failed": 1,
+      "skipped": 0,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [
+        "tests/test_2019_manual.py::test_json_jsonl_csv_structures"
+      ],
+      "skip_records": [],
+      "slowest_test": {
+        "seconds": 0.17,
+        "phase": "call",
+        "node_id": "tests/test_2019_manual.py::test_json_jsonl_csv_structures"
+      },
+      "completed": true,
+      "timed_out": false
+    },
+    {
+      "year": 2020,
+      "test_file": "tests/test_2020_manual.py",
+      "log_id": "year-2020",
+      "status": "failed",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2020_manual.py",
+      "wall_clock_seconds": 0.561,
+      "exit_code": 1,
+      "collected": 32,
+      "passed": 21,
+      "failed": 11,
+      "skipped": 0,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [
+        "tests/test_2020_manual.py::test_json_control_files_parse",
+        "tests/test_2020_manual.py::test_source_unmodified",
+        "tests/test_2020_manual.py::test_e_q4_present",
+        "tests/test_2020_manual.py::test_metadata_status_semantics",
+        "tests/test_2020_manual.py::test_gate_conditional_pass",
+        "tests/test_2020_manual.py::test_checkpoint_counts_match_gate",
+        "tests/test_2020_manual.py::test_progress_pending_remote_readback",
+        "tests/test_2020_manual.py::test_no_blocking_missing_requests",
+        "tests/test_2020_manual.py::test_missing_files_txt_precise",
+        "tests/test_2020_manual.py::test_report_exists_and_has_corrections",
+        "tests/test_2020_manual.py::test_q4_audit_rows"
+      ],
+      "skip_records": [],
+      "slowest_test": {
+        "seconds": 0.01,
+        "phase": "call",
+        "node_id": "tests/test_2020_manual.py::test_jsonl_files_parse"
+      },
+      "completed": true,
+      "timed_out": false
+    },
+    {
+      "year": 2021,
+      "test_file": "tests/test_2021_manual.py",
+      "log_id": "year-2021",
+      "status": "failed",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2021_manual.py",
+      "wall_clock_seconds": 0.848,
+      "exit_code": 1,
+      "collected": 20,
+      "passed": 18,
+      "failed": 2,
+      "skipped": 0,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [
+        "tests/test_2021_manual.py::test_02_json_jsonl_parse",
+        "tests/test_2021_manual.py::test_20_no_raw_source_in_upload_package"
+      ],
+      "skip_records": [],
+      "slowest_test": {
+        "seconds": 0.25,
+        "phase": "call",
+        "node_id": "tests/test_2021_manual.py::test_20_no_raw_source_in_upload_package"
+      },
+      "completed": true,
+      "timed_out": false
+    },
+    {
+      "year": 2022,
+      "test_file": "tests/test_2022_manual.py",
+      "log_id": "year-2022",
+      "status": "failed",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2022_manual.py",
+      "wall_clock_seconds": 0.804,
+      "exit_code": 1,
+      "collected": 24,
+      "passed": 18,
+      "failed": 4,
+      "skipped": 2,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [
+        "tests/test_2022_manual.py::test_json_files_parse",
+        "tests/test_2022_manual.py::test_csv_files_parse_and_have_rows",
+        "tests/test_2022_manual.py::test_missing_file_requests_are_precise",
+        "tests/test_2022_manual.py::test_progress_stops_at_2022_without_claiming_gap_years"
+      ],
+      "skip_records": [
+        {
+          "node_id": "tests\\test_2022_manual.py",
+          "reason": "363: Set CUMCM_2022_RAW_ROOT for source read-only verification"
+        },
+        {
+          "node_id": "tests\\test_2022_manual.py",
+          "reason": "391: Set CUMCM_2022_BUNDLE for bundle hash verification"
+        }
+      ],
+      "slowest_test": {
+        "seconds": 0.2,
+        "phase": "call",
+        "node_id": "tests/test_2022_manual.py::test_jsonl_files_parse"
+      },
+      "completed": true,
+      "timed_out": false
+    },
+    {
+      "year": 2023,
+      "test_file": "tests/test_2023_manual.py",
+      "log_id": "year-2023",
+      "status": "failed",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2023_manual.py",
+      "wall_clock_seconds": 0.746,
+      "exit_code": 1,
+      "collected": 28,
+      "passed": 24,
+      "failed": 4,
+      "skipped": 0,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [
+        "tests/test_2023_manual.py::test_json_and_jsonl_parse",
+        "tests/test_2023_manual.py::test_no_blank_or_missing_segments",
+        "tests/test_2023_manual.py::test_progress_reconciled_conservatively",
+        "tests/test_2023_manual.py::test_manual_review_queue_closed"
+      ],
+      "skip_records": [],
+      "slowest_test": {
+        "seconds": 0.15,
+        "phase": "call",
+        "node_id": "tests/test_2023_manual.py::test_json_and_jsonl_parse"
+      },
+      "completed": true,
+      "timed_out": false
+    },
+    {
+      "year": 2024,
+      "test_file": "tests/test_2024_manual.py",
+      "log_id": "year-2024",
+      "status": "failed",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2024_manual.py",
+      "wall_clock_seconds": 0.586,
+      "exit_code": 1,
+      "collected": 24,
+      "passed": 19,
+      "failed": 5,
+      "skipped": 0,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [
+        "tests/test_2024_manual.py::test_json_jsonl_parse",
+        "tests/test_2024_manual.py::test_a242_missing_pages_explicit",
+        "tests/test_2024_manual.py::test_missing_official_templates_explicit",
+        "tests/test_2024_manual.py::test_progress_does_not_promote_to_pass",
+        "tests/test_2024_manual.py::test_final_control_readback_provenance"
+      ],
+      "skip_records": [],
+      "slowest_test": {
+        "seconds": 0.14,
+        "phase": "call",
+        "node_id": "tests/test_2024_manual.py::test_json_jsonl_parse"
+      },
+      "completed": true,
+      "timed_out": false
+    },
+    {
+      "year": 2025,
+      "test_file": "tests/test_2025_manual.py",
+      "log_id": "year-2025",
+      "status": "failed",
+      "command": "python -m pytest -q -ra --durations=10 -p no:cacheprovider tests/test_2025_manual.py",
+      "wall_clock_seconds": 8.055,
+      "exit_code": 1,
+      "collected": 24,
+      "passed": 20,
+      "failed": 4,
+      "skipped": 0,
+      "xfailed": 0,
+      "xpassed": 0,
+      "error": 0,
+      "warnings": 0,
+      "failure_node_ids": [
+        "tests/test_2025_manual.py::test_json_files_parse",
+        "tests/test_2025_manual.py::test_csv_files_parse",
+        "tests/test_2025_manual.py::test_unknown_not_absent_policy",
+        "tests/test_2025_manual.py::test_missing_segment_requests_empty"
+      ],
+      "skip_records": [],
+      "slowest_test": {
+        "seconds": 7.15,
+        "phase": "call",
+        "node_id": "tests/test_2025_manual.py::test_unknown_not_absent_policy"
+      },
+      "completed": true,
+      "timed_out": false
+    }
+  ],
+  "totals": {
+    "collected": 267,
+    "passed": 194,
+    "failed": 47,
+    "skipped": 2,
+    "xfailed": 0,
+    "xpassed": 0,
+    "error": 0,
+    "warnings": 0
+  },
+  "annual_attempts": 11,
+  "annual_files_collected": 11,
+  "annual_results_structured": 11,
+  "all_tests_passed": false,
+  "failure_inventory_records": 50,
+  "a3_findings": {
+    "source_files_reviewed": 11,
+    "source_test_functions": 267,
+    "source_weakening_functions": 22,
+    "issue_counts": {
+      "bom_handling": 69,
+      "confuses_global_and_annual_queue": 9,
+      "depends_on_total_queue_rows": 7,
+      "narrows_scan_scope": 1,
+      "only_checks_file_existence": 12,
+      "page_upper_bound_checked": 22,
+      "rejects_all_empty_csv": 2,
+      "schema_or_current_fact_conflict": 13,
+      "sheet_actual_upper_bound_checked": 2,
+      "uses_hardcoded_quantities": 146
+    },
+    "classified_findings": 7,
+    "requires_human_review": 0
+  },
+  "tests_modified": false,
+  "business_files_modified": false,
+  "stage_outputs": [
+    "analysis-index/00_control/a4_test_execution_summary.json",
+    "analysis-index/00_control/a4_test_failure_inventory.jsonl",
+    "analysis-index/00_control/a4_test_runtime_profile.json",
+    "analysis-index/00_control/a4_a3_findings_validation.md",
+    "analysis-index/00_control/a4_stage_report.md"
+  ],
+  "next_stage_started": false,
+  "stop_rule_observed": "A4 completed its evidence capture and must stop before A5."
+}

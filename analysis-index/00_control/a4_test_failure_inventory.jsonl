@@ -1,0 +1,50 @@
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2015", "message_excerpt": "json.decode...", "node_id": "tests/test_2015_manual.py::test_02_json_jsonl_structures", "year": 2015}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2015", "message_excerpt": "assert []", "node_id": "tests/test_2015_manual.py::test_03_csv_structures", "year": 2015}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2015", "message_excerpt": "Unicod...", "node_id": "tests/test_2015_manual.py::test_05_source_snapshot_unmodified", "year": 2015}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2015", "message_excerpt": "Uni...", "node_id": "tests/test_2015_manual.py::test_22_six_pack_metadata_matches_csv", "year": 2015}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2015", "message_excerpt": null, "node_id": "tests/test_2015_manual.py::test_23_card_preferred_rep_matches_relation", "year": 2015}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2015", "message_excerpt": null, "node_id": "tests/test_2015_manual.py::test_29_quality_gate_conditional_and_blocked", "year": 2015}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2015", "message_excerpt": "UnicodeD...", "node_id": "tests/test_2015_manual.py::test_30_missing_file_is_specific", "year": 2015}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2015", "message_excerpt": "Assertio...", "node_id": "tests/test_2015_manual.py::test_31_manual_queue_consistency", "year": 2015}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2015", "message_excerpt": "Assertion...", "node_id": "tests/test_2015_manual.py::test_32_progress_reconciliation", "year": 2015}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2015", "message_excerpt": null, "node_id": "tests/test_2015_manual.py::test_33_original_file_modified_count_zero", "year": 2015}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2016", "message_excerpt": "json.decoder.JSONDe...", "node_id": "tests/test_2016_manual.py::test_json_files_parse", "year": 2016}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2016", "message_excerpt": "AssertionError: ...", "node_id": "tests/test_2016_manual.py::test_progress_reconciled", "year": 2016}
+{"exit_code": 124, "kind": "timeout", "log_id": "year-2017", "message": "Annual pytest process reached the 300 second timeout; no node was inferred from partial output.", "node_id": null, "timeout_seconds": 300, "year": 2017}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2018", "message_excerpt": "json.decoder.JSONDe...", "node_id": "tests/test_2018_manual.py::test_json_jsonl_parse", "year": 2018}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2018", "message_excerpt": "assert 'aw...", "node_id": "tests/test_2018_manual.py::test_unknown_not_absent_policy", "year": 2018}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2018", "message_excerpt": null, "node_id": "tests/test_2018_manual.py::test_missing_files_are_exact_and_nonblocking", "year": 2018}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2018", "message_excerpt": "AssertionErr...", "node_id": "tests/test_2018_manual.py::test_progress_reconciliation", "year": 2018}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2019", "message_excerpt": "json.decod...", "node_id": "tests/test_2019_manual.py::test_json_jsonl_csv_structures", "year": 2019}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "UnicodeDeco...", "node_id": "tests/test_2020_manual.py::test_json_control_files_parse", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "UnicodeDecodeError...", "node_id": "tests/test_2020_manual.py::test_source_unmodified", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "UnicodeDecodeError: 'gb...", "node_id": "tests/test_2020_manual.py::test_e_q4_present", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "UnicodeDec...", "node_id": "tests/test_2020_manual.py::test_metadata_status_semantics", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "UnicodeDecodeE...", "node_id": "tests/test_2020_manual.py::test_gate_conditional_pass", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "Unicode...", "node_id": "tests/test_2020_manual.py::test_checkpoint_counts_match_gate", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "Key...", "node_id": "tests/test_2020_manual.py::test_progress_pending_remote_readback", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "KeyErro...", "node_id": "tests/test_2020_manual.py::test_no_blocking_missing_requests", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "UnicodeDec...", "node_id": "tests/test_2020_manual.py::test_missing_files_txt_precise", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "Un...", "node_id": "tests/test_2020_manual.py::test_report_exists_and_has_corrections", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2020", "message_excerpt": "UnicodeDecodeError: 'g...", "node_id": "tests/test_2020_manual.py::test_q4_audit_rows", "year": 2020}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2021", "message_excerpt": "json.decoder.JSO...", "node_id": "tests/test_2021_manual.py::test_02_json_jsonl_parse", "year": 2021}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2021", "message_excerpt": "A...", "node_id": "tests/test_2021_manual.py::test_20_no_raw_source_in_upload_package", "year": 2021}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2022", "message_excerpt": "json.decoder.JSONDe...", "node_id": "tests/test_2022_manual.py::test_json_files_parse", "year": 2022}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2022", "message_excerpt": "assert []", "node_id": "tests/test_2022_manual.py::test_csv_files_parse_and_have_rows", "year": 2022}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2022", "message_excerpt": "As...", "node_id": "tests/test_2022_manual.py::test_missing_file_requests_are_precise", "year": 2022}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2022", "message_excerpt": null, "node_id": "tests/test_2022_manual.py::test_progress_stops_at_2022_without_claiming_gap_years", "year": 2022}
+{"exit_code": 1, "kind": "skip", "log_id": "year-2022", "node_id": "tests\\test_2022_manual.py", "reason": "363: Set CUMCM_2022_RAW_ROOT for source read-only verification", "year": 2022}
+{"exit_code": 1, "kind": "skip", "log_id": "year-2022", "node_id": "tests\\test_2022_manual.py", "reason": "391: Set CUMCM_2022_BUNDLE for bundle hash verification", "year": 2022}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2023", "message_excerpt": "json.decoder.JS...", "node_id": "tests/test_2023_manual.py::test_json_and_jsonl_parse", "year": 2023}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2023", "message_excerpt": "KeyErro...", "node_id": "tests/test_2023_manual.py::test_no_blank_or_missing_segments", "year": 2023}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2023", "message_excerpt": "A...", "node_id": "tests/test_2023_manual.py::test_progress_reconciled_conservatively", "year": 2023}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2023", "message_excerpt": "KeyError:...", "node_id": "tests/test_2023_manual.py::test_manual_review_queue_closed", "year": 2023}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2024", "message_excerpt": "json.decoder.JSONDe...", "node_id": "tests/test_2024_manual.py::test_json_jsonl_parse", "year": 2024}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2024", "message_excerpt": "KeyError...", "node_id": "tests/test_2024_manual.py::test_a242_missing_pages_explicit", "year": 2024}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2024", "message_excerpt": "...", "node_id": "tests/test_2024_manual.py::test_missing_official_templates_explicit", "year": 2024}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2024", "message_excerpt": "Ke...", "node_id": "tests/test_2024_manual.py::test_progress_does_not_promote_to_pass", "year": 2024}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2024", "message_excerpt": "Ke...", "node_id": "tests/test_2024_manual.py::test_final_control_readback_provenance", "year": 2024}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2025", "message_excerpt": "json.decoder.JSONDe...", "node_id": "tests/test_2025_manual.py::test_json_files_parse", "year": 2025}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2025", "message_excerpt": "UnicodeDecodeError: ...", "node_id": "tests/test_2025_manual.py::test_csv_files_parse", "year": 2025}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2025", "message_excerpt": "assert ('\"...", "node_id": "tests/test_2025_manual.py::test_unknown_not_absent_policy", "year": 2025}
+{"exit_code": 1, "kind": "test_failure", "log_id": "year-2025", "message_excerpt": "Asser...", "node_id": "tests/test_2025_manual.py::test_missing_segment_requests_empty", "year": 2025}
