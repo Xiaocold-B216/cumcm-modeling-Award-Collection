@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_dataset_B_members",
+  "year": 2017,
+  "role": "dataset",
+  "document_subtype": "problem_dataset",
+  "title": "B题附件二 会员信息数据",
+  "problem_id": "B",
+  "carrier_ids": [
+    "2017_carrier_011"
+  ],
+  "representation_ids": [
+    "2017_rep_011"
+  ],
+  "preferred_representation_id": "2017_rep_011",
+  "solution_lineage_id": null,
+  "corpus_eligibility": "not_applicable",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "1877条有效会员记录，包括位置、信誉、预订时间和配额；另有1个空尾行。"
+}

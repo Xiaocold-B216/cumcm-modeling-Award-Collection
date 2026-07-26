@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_paper_A_02",
+  "year": 2017,
+  "role": "paper",
+  "document_subtype": "solution_paper",
+  "title": "CT系统参数标定及反投影重建成像",
+  "problem_id": "A",
+  "carrier_ids": [
+    "2017_carrier_002"
+  ],
+  "representation_ids": [
+    "2017_rep_002"
+  ],
+  "preferred_representation_id": "2017_rep_002",
+  "solution_lineage_id": "2017_lineage_A_02",
+  "corpus_eligibility": "eligible",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "简化离散模型、R-L滤波反投影、托盘镶边与自适应降噪。"
+}

@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_dataset_C_data1",
+  "year": 2017,
+  "role": "dataset",
+  "document_subtype": "problem_dataset",
+  "title": "C题 Data1 五种物质颜色-浓度数据",
+  "problem_id": "C",
+  "carrier_ids": [
+    "2017_carrier_014"
+  ],
+  "representation_ids": [
+    "2017_rep_014"
+  ],
+  "preferred_representation_id": "2017_rep_014",
+  "solution_lineage_id": null,
+  "corpus_eligibility": "not_applicable",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "五种物质的浓度与B/G/R/H/S颜色读数，包含重复测量与合并单元格。"
+}

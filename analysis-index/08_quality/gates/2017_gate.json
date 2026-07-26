@@ -1,0 +1,49 @@
+{
+  "year": 2017,
+  "status": "conditional_pass",
+  "checks": {
+    "all_received_carriers_hashed": true,
+    "all_received_carriers_match_trusted_baseline": true,
+    "problem_statements_verified": true,
+    "supporting_data_verified": true,
+    "roles_manually_verified": true,
+    "expert_commentary_separated": true,
+    "object_layers_separate": true,
+    "field_status_enum": true,
+    "unknown_not_absent": true,
+    "page_boundary_review_complete_for_received": true,
+    "one_preferred_representation": true,
+    "source_unmodified": true,
+    "statistics_scoped": true,
+    "logical_document_six_pack_for_received": true,
+    "manual_verification_complete_for_received": true,
+    "manual_verification_complete_for_full_year": false,
+    "all_expected_solution_papers_received": false,
+    "remote_readback_verified": false
+  },
+  "counts": {
+    "expected_physical_carriers": 32,
+    "received_physical_carriers": 20,
+    "missing_physical_carriers": 12,
+    "expected_logical_documents": 31,
+    "received_logical_documents": 19,
+    "expected_solution_papers": 18,
+    "received_solution_papers": 6,
+    "problem_statements": 4,
+    "dataset_or_reference_documents": 9,
+    "expert_commentaries_observed": 0,
+    "representations": 20,
+    "solution_lineages": 6,
+    "segments": 223,
+    "solution_paper_pages": 190
+  },
+  "manual_review_items": 12,
+  "blocking_manual_review_items": 12,
+  "known_issues": [
+    "Twelve trusted-baseline solution-paper carriers were not uploaded.",
+    "A1 PDF text layer has font encoding corruption; visual rendering is authoritative.",
+    "Remote readback is pending user upload."
+  ],
+  "note": "All received materials passed local integrity, identity, segmentation and six-pack checks. Full-year pass is blocked by exact missing carriers.",
+  "updated_at": "2026-07-26T03:30:00Z"
+}

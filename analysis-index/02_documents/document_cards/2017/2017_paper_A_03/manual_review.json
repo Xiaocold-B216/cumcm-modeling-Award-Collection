@@ -1,0 +1,18 @@
+{
+  "logical_document_id": "2017_paper_A_03",
+  "status": "complete",
+  "blocking_items": 0,
+  "reviewed_items": [
+    "identity",
+    "role",
+    "problem_assignment",
+    "preferred_representation",
+    "first_page",
+    "last_page_or_final_section",
+    "source_integrity"
+  ],
+  "notes": [
+    "年度仍有12个未上传的其他论文载体；该缺口不改变本逻辑文档自身的核验状态。"
+  ],
+  "reviewed_at": "2026-07-26T03:30:00Z"
+}

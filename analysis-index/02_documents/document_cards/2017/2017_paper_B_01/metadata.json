@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_paper_B_01",
+  "year": 2017,
+  "role": "paper",
+  "document_subtype": "solution_paper",
+  "title": "“拍照赚钱”的任务定价",
+  "problem_id": "B",
+  "carrier_ids": [
+    "2017_carrier_006"
+  ],
+  "representation_ids": [
+    "2017_rep_006"
+  ],
+  "preferred_representation_id": "2017_rep_006",
+  "solution_lineage_id": "2017_lineage_B_01",
+  "corpus_eligibility": "eligible",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "地理密度定价、吸引力因子、分配仿真、K-means打包和经济学搭售边界。"
+}

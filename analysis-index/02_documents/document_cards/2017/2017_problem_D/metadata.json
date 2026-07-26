@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_problem_D",
+  "year": 2017,
+  "role": "problem",
+  "document_subtype": "problem_statement",
+  "title": "D题 巡检线路的排班",
+  "problem_id": "D",
+  "carrier_ids": [
+    "2017_carrier_017"
+  ],
+  "representation_ids": [
+    "2017_rep_017"
+  ],
+  "preferred_representation_id": "2017_rep_017",
+  "solution_lineage_id": null,
+  "corpus_eligibility": "not_applicable",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "对26个化工厂巡检点安排三班倒人员、路径、时间表，考虑休息进餐和错时上班的人力节省。"
+}

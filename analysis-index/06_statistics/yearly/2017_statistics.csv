@@ -1,0 +1,2 @@
+﻿year,expected_physical_carriers,received_physical_carriers,missing_physical_carriers,expected_logical_documents,received_logical_documents,expected_solution_papers,received_solution_papers,problem_statements,dataset_or_reference_documents,expert_commentaries,representations,solution_lineages,native_pdf_pages,solution_paper_pages,segments,manual_review_open,source_modified_count,gate_status
+2017,32,20,12,31,19,18,6,4,9,0,20,6,194,190,223,12,0,conditional_pass

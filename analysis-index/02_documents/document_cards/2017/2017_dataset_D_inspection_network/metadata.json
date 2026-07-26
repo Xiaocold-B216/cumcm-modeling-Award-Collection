@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_dataset_D_inspection_network",
+  "year": 2017,
+  "role": "dataset",
+  "document_subtype": "problem_dataset",
+  "title": "D题巡检点、连通关系与网络图",
+  "problem_id": "D",
+  "carrier_ids": [
+    "2017_carrier_018"
+  ],
+  "representation_ids": [
+    "2017_rep_018"
+  ],
+  "preferred_representation_id": "2017_rep_018",
+  "solution_lineage_id": null,
+  "corpus_eligibility": "not_applicable",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "26个点的周期和服务时长、31条无向边及步行时间、嵌入式WMF连通图。"
+}

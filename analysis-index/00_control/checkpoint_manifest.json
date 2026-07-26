@@ -1,39 +1,32 @@
 {
   "schema_version": "1.4.1",
-  "updated_at": "2026-07-26T02:55:50Z",
+  "updated_at": "2026-07-26T03:30:00Z",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "entries": [
     {
       "year": 2007,
       "status": "pass",
+      "checkpoint_path": "analysis-index/09_checkpoints/2007_checkpoint.json",
       "remote_readback_verified": true,
-      "checkpoint_path": "analysis-index/09_checkpoints/2007_checkpoint.json"
-    },
-    {
-      "year": 2008,
-      "status": "pass",
-      "remote_readback_verified": true,
-      "analysis_commit_sha": "e83eca057490bda7fd48ff22d666eb3f5f62bab3",
-      "checkpoint_path": "analysis-index/09_checkpoints/2008_checkpoint.json"
+      "evidence_status": "observed_remote"
     },
     {
       "year": 2009,
       "status": "pass",
+      "checkpoint_path": "analysis-index/09_checkpoints/2009_checkpoint.json",
       "remote_readback_verified": true,
-      "analysis_commit_sha": "e83eca057490bda7fd48ff22d666eb3f5f62bab3",
-      "checkpoint_path": "analysis-index/09_checkpoints/2009_checkpoint.json"
+      "evidence_status": "observed_remote"
     },
     {
-      "year": 2010,
+      "year": 2017,
       "status": "conditional_pass",
+      "checkpoint_path": "analysis-index/09_checkpoints/2017_checkpoint.json",
       "remote_readback_verified": false,
-      "checkpoint_path": "analysis-index/09_checkpoints/2010_checkpoint.json"
-    },
-    {
-      "year": 2016,
-      "status": "conditional_pass_pending_remote_readback",
-      "remote_readback_verified": false,
-      "checkpoint_path": "analysis-index/09_checkpoints/2016_checkpoint.json"
+      "evidence_status": "generated_local"
     }
   ],
-  "note": "Manifest reconciles only states directly read in this run; it does not promote 2011-2015."
+  "notes": [
+    "This control file was not observed remotely before the 2017 run and is created conservatively.",
+    "2010-2016 are not promoted to pass."
+  ]
 }

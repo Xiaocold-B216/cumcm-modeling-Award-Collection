@@ -1,0 +1,26 @@
+{
+  "logical_document_id": "2017_reference_format_spec",
+  "year": 2017,
+  "role": "dataset",
+  "document_subtype": "governance_reference",
+  "title": "2017年全国大学生数学建模竞赛论文格式规范",
+  "problem_id": null,
+  "carrier_ids": [
+    "2017_carrier_019",
+    "2017_carrier_020"
+  ],
+  "representation_ids": [
+    "2017_rep_019",
+    "2017_rep_020"
+  ],
+  "preferred_representation_id": "2017_rep_020",
+  "solution_lineage_id": null,
+  "corpus_eligibility": "not_applicable",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "2017修订版论文纸质版、电子版与支撑材料提交规范；DOC与PDF为同一逻辑文档的两个表示。"
+}

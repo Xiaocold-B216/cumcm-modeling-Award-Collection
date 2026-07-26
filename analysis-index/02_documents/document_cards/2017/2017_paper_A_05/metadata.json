@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_paper_A_05",
+  "year": 2017,
+  "role": "paper",
+  "document_subtype": "solution_paper",
+  "title": "基于单目标优化模型和图像重建算法的CT系统研究",
+  "problem_id": "A",
+  "carrier_ids": [
+    "2017_carrier_005"
+  ],
+  "representation_ids": [
+    "2017_rep_005"
+  ],
+  "preferred_representation_id": "2017_rep_005",
+  "solution_lineage_id": "2017_lineage_A_05",
+  "corpus_eligibility": "eligible",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "黄金分割、遍历搜索、单目标误差优化和滤波反投影重建。"
+}

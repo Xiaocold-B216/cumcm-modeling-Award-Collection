@@ -1,0 +1,20 @@
+﻿logical_document_id,year,role,subtype,title,problem_id,solution_lineage_id,representation_count,preferred_representation_id,carrier_count,manual_review_status,corpus_eligibility,award_level_status,notes
+2017_problem_A,2017,problem,problem_statement,A题 CT系统参数标定及成像,A,,1,2017_rep_007,1,complete,not_applicable,not_observed,标定二维平行束CT系统的旋转中心、探测器间距和180个射线方向，并重建两个未知介质，分析精度稳定性及设计新模板。
+2017_problem_B,2017,problem,problem_statement,B题 “拍照赚钱”的任务定价,B,,1,2017_rep_009,1,complete,not_applicable,not_observed,分析众包拍照任务的定价与未完成原因，重定价、任务打包，并为新项目定价和评价实施效果。
+2017_problem_C,2017,problem,problem_statement,C题 颜色与物质浓度辨识,C,,1,2017_rep_013,1,complete,not_applicable,not_observed,由B/G/R/H/S颜色读数辨识物质浓度，评价五组数据，建立模型并研究数据量与颜色维度影响。
+2017_problem_D,2017,problem,problem_statement,D题 巡检线路的排班,D,,1,2017_rep_017,1,complete,not_applicable,not_observed,对26个化工厂巡检点安排三班倒人员、路径、时间表，考虑休息进餐和错时上班的人力节省。
+2017_dataset_A_all_attachments,2017,dataset,problem_dataset,A题五个数据附件合并工作簿,A,,1,2017_rep_008,1,complete,not_applicable,not_observed,包含256×256标定模板、两组/三组512×180投影接收数据、10个指定位置坐标等五张工作表。
+2017_dataset_B_ended_tasks,2017,dataset,problem_dataset,B题附件一 已结束项目任务数据,B,,1,2017_rep_010,1,complete,not_applicable,not_observed,835个任务点的经纬度、原定价与完成状态。
+2017_dataset_B_members,2017,dataset,problem_dataset,B题附件二 会员信息数据,B,,1,2017_rep_011,1,complete,not_applicable,not_observed,1877条有效会员记录，包括位置、信誉、预订时间和配额；另有1个空尾行。
+2017_dataset_B_new_tasks,2017,dataset,problem_dataset,B题附件三 新项目任务数据,B,,1,2017_rep_012,1,complete,not_applicable,not_observed,2066个新项目任务点位置。
+2017_dataset_C_data1,2017,dataset,problem_dataset,C题 Data1 五种物质颜色-浓度数据,C,,1,2017_rep_014,1,complete,not_applicable,not_observed,五种物质的浓度与B/G/R/H/S颜色读数，包含重复测量与合并单元格。
+2017_dataset_C_data2,2017,dataset,problem_dataset,C题 Data2 二氧化硫颜色-浓度数据,C,,1,2017_rep_015,1,complete,not_applicable,not_observed,25条二氧化硫浓度与颜色读数，覆盖水、20、30、50、80、100、150 ppm。
+2017_dataset_C_field_notes,2017,dataset,problem_dataset_note,C题数据字段说明,C,,1,2017_rep_016,1,complete,not_applicable,not_observed,说明ppm=mg/L、水表示零浓度，以及B/G/R/H/S字段定义。
+2017_dataset_D_inspection_network,2017,dataset,problem_dataset,D题巡检点、连通关系与网络图,D,,1,2017_rep_018,1,complete,not_applicable,not_observed,26个点的周期和服务时长、31条无向边及步行时间、嵌入式WMF连通图。
+2017_reference_format_spec,2017,dataset,governance_reference,2017年全国大学生数学建模竞赛论文格式规范,,,2,2017_rep_020,2,complete,not_applicable,not_observed,2017修订版论文纸质版、电子版与支撑材料提交规范；DOC与PDF为同一逻辑文档的两个表示。
+2017_paper_A_01,2017,paper,solution_paper,CT系统标定与图像重建,A,2017_lineage_A_01,1,2017_rep_001,1,complete,eligible,not_observed,用投影强度曲线、图像形态学、最小二乘拟合和逆Radon重建进行标定与成像。
+2017_paper_A_02,2017,paper,solution_paper,CT系统参数标定及反投影重建成像,A,2017_lineage_A_02,1,2017_rep_002,1,complete,eligible,not_observed,简化离散模型、R-L滤波反投影、托盘镶边与自适应降噪。
+2017_paper_A_03,2017,paper,solution_paper,CT系统参数标定及成像,A,2017_lineage_A_03,1,2017_rep_003,1,complete,eligible,not_observed,最小二乘非线性迭代优化，结合FBP与ART，并用分布检验和仿真分析稳定性。
+2017_paper_A_04,2017,paper,solution_paper,平行束CT系统的参数标定及成像,A,2017_lineage_A_04,1,2017_rep_004,1,complete,eligible,not_observed,小圆投影不等式、微元运动方程、Prewitt边缘提取和滤波反投影。
+2017_paper_A_05,2017,paper,solution_paper,基于单目标优化模型和图像重建算法的CT系统研究,A,2017_lineage_A_05,1,2017_rep_005,1,complete,eligible,not_observed,黄金分割、遍历搜索、单目标误差优化和滤波反投影重建。
+2017_paper_B_01,2017,paper,solution_paper,“拍照赚钱”的任务定价,B,2017_lineage_B_01,1,2017_rep_006,1,complete,eligible,not_observed,地理密度定价、吸引力因子、分配仿真、K-means打包和经济学搭售边界。

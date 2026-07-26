@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_problem_B",
+  "year": 2017,
+  "role": "problem",
+  "document_subtype": "problem_statement",
+  "title": "B题 “拍照赚钱”的任务定价",
+  "problem_id": "B",
+  "carrier_ids": [
+    "2017_carrier_009"
+  ],
+  "representation_ids": [
+    "2017_rep_009"
+  ],
+  "preferred_representation_id": "2017_rep_009",
+  "solution_lineage_id": null,
+  "corpus_eligibility": "not_applicable",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "分析众包拍照任务的定价与未完成原因，重定价、任务打包，并为新项目定价和评价实施效果。"
+}

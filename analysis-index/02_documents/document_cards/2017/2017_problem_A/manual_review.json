@@ -1,0 +1,16 @@
+{
+  "logical_document_id": "2017_problem_A",
+  "status": "complete",
+  "blocking_items": 0,
+  "reviewed_items": [
+    "identity",
+    "role",
+    "problem_assignment",
+    "preferred_representation",
+    "first_page",
+    "last_page_or_final_section",
+    "source_integrity"
+  ],
+  "notes": [],
+  "reviewed_at": "2026-07-26T03:30:00Z"
+}

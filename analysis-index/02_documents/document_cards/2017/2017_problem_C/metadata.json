@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_problem_C",
+  "year": 2017,
+  "role": "problem",
+  "document_subtype": "problem_statement",
+  "title": "C题 颜色与物质浓度辨识",
+  "problem_id": "C",
+  "carrier_ids": [
+    "2017_carrier_013"
+  ],
+  "representation_ids": [
+    "2017_rep_013"
+  ],
+  "preferred_representation_id": "2017_rep_013",
+  "solution_lineage_id": null,
+  "corpus_eligibility": "not_applicable",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "由B/G/R/H/S颜色读数辨识物质浓度，评价五组数据，建立模型并研究数据量与颜色维度影响。"
+}

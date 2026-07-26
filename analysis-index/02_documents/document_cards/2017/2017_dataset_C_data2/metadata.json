@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_dataset_C_data2",
+  "year": 2017,
+  "role": "dataset",
+  "document_subtype": "problem_dataset",
+  "title": "C题 Data2 二氧化硫颜色-浓度数据",
+  "problem_id": "C",
+  "carrier_ids": [
+    "2017_carrier_015"
+  ],
+  "representation_ids": [
+    "2017_rep_015"
+  ],
+  "preferred_representation_id": "2017_rep_015",
+  "solution_lineage_id": null,
+  "corpus_eligibility": "not_applicable",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "25条二氧化硫浓度与颜色读数，覆盖水、20、30、50、80、100、150 ppm。"
+}

@@ -1,0 +1,24 @@
+{
+  "logical_document_id": "2017_paper_A_04",
+  "year": 2017,
+  "role": "paper",
+  "document_subtype": "solution_paper",
+  "title": "平行束CT系统的参数标定及成像",
+  "problem_id": "A",
+  "carrier_ids": [
+    "2017_carrier_004"
+  ],
+  "representation_ids": [
+    "2017_rep_004"
+  ],
+  "preferred_representation_id": "2017_rep_004",
+  "solution_lineage_id": "2017_lineage_A_04",
+  "corpus_eligibility": "eligible",
+  "award_level_status": "not_observed",
+  "parse_status": "complete",
+  "segmentation_status": "complete",
+  "evidence_status": "observed",
+  "completeness_status": "complete_for_received_carrier",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "summary": "小圆投影不等式、微元运动方程、Prewitt边缘提取和滤波反投影。"
+}
