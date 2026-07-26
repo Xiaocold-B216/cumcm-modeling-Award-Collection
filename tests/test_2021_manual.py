@@ -9,9 +9,9 @@ YEAR=2021
 SHA_RE=re.compile(r'^[0-9a-f]{64}$')
 
 
-def j(path): return json.loads(path.read_text(encoding='utf-8'))
+def j(path): return json.loads(path.read_text(encoding='utf-8-sig'))
 def jl(path):
-    text=path.read_text(encoding='utf-8')
+    text=path.read_text(encoding='utf-8-sig')
     return [json.loads(x) for x in text.splitlines() if x.strip()]
 
 def docs():
@@ -94,7 +94,7 @@ def test_13_relation_and_lineage_counts():
 def test_14_unknown_not_absent_policy():
     for d in docs():
         assert d['award_level'] in {'unknown','not_applicable'}
-    text='\n'.join(p.read_text(encoding='utf-8') for p in (AI/'02_documents/six_packs/2021').rglob('*.md'))
+    text='\n'.join(p.read_text(encoding='utf-8-sig') for p in (AI/'02_documents/six_packs/2021').rglob('*.md'))
     assert '未观察' in text or 'not_observed' in text
 
 def test_15_expert_feedback_not_fabricated():

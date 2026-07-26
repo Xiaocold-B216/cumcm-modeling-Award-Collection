@@ -6,7 +6,7 @@ Y=2024
 
 def read_jsonl(p):
     rows=[]
-    for i,line in enumerate(p.read_text(encoding='utf-8').splitlines(),1):
+    for i,line in enumerate(p.read_text(encoding='utf-8-sig').splitlines(),1):
         if line.strip():
             rows.append(json.loads(line))
     return rows
@@ -36,7 +36,7 @@ def test_required_paths_exist():
 
 def test_json_jsonl_parse():
     for p in ROOT.rglob('*.json'):
-        json.loads(p.read_text(encoding='utf-8'))
+        json.loads(p.read_text(encoding='utf-8-sig'))
     for p in ROOT.rglob('*.jsonl'):
         read_jsonl(p)
 
@@ -138,14 +138,14 @@ def test_expert_feedback_empty_not_fabricated():
     assert read_jsonl(ROOT/'analysis-index/05_knowledge/expert_feedback/2024_feedback.jsonl')==[]
 
 def test_source_integrity_record():
-    x=json.loads((ROOT/'analysis-index/08_quality/evidence/2024_source_integrity.json').read_text(encoding='utf-8'))
+    x=json.loads((ROOT/'analysis-index/08_quality/evidence/2024_source_integrity.json').read_text(encoding='utf-8-sig'))
     assert x['physical_carrier_count']==820
     assert x['unique_sha256_count']==820
     assert x['exact_duplicate_groups']==0
     assert x['modified_files']==0
 
 def test_statistics_match_gate():
-    gate=json.loads((ROOT/'analysis-index/08_quality/gates/2024_gate.json').read_text(encoding='utf-8'))
+    gate=json.loads((ROOT/'analysis-index/08_quality/gates/2024_gate.json').read_text(encoding='utf-8-sig'))
     with (ROOT/'analysis-index/06_statistics/yearly/2024_statistics.csv').open(encoding='utf-8-sig') as f:
         total=next(csv.DictReader(f))
     assert int(total['physical_carriers'])==gate['counts']['physical_carriers']==820
@@ -154,21 +154,21 @@ def test_statistics_match_gate():
     assert int(total['representations'])==29
 
 def test_gate_is_conditional_not_pass():
-    gate=json.loads((ROOT/'analysis-index/08_quality/gates/2024_gate.json').read_text(encoding='utf-8'))
+    gate=json.loads((ROOT/'analysis-index/08_quality/gates/2024_gate.json').read_text(encoding='utf-8-sig'))
     assert gate['status']=='conditional_pass'
     assert gate['blocking_missing_items']==7
     assert gate['checks']['all_expected_attachments_present'] is False
     assert gate['checks']['all_observed_page_sequences_complete'] is False
 
 def test_checkpoint_consistent():
-    gate=json.loads((ROOT/'analysis-index/08_quality/gates/2024_gate.json').read_text(encoding='utf-8'))
-    cp=json.loads((ROOT/'analysis-index/09_checkpoints/2024_checkpoint.json').read_text(encoding='utf-8'))
+    gate=json.loads((ROOT/'analysis-index/08_quality/gates/2024_gate.json').read_text(encoding='utf-8-sig'))
+    cp=json.loads((ROOT/'analysis-index/09_checkpoints/2024_checkpoint.json').read_text(encoding='utf-8-sig'))
     assert cp['status']==gate['status']=='conditional_pass'
     assert cp['counts']==gate['counts']
     assert cp['remote_readback_verified'] is False
 
 def test_progress_does_not_promote_to_pass():
-    p=json.loads((ROOT/'analysis-index/00_control/progress.json').read_text(encoding='utf-8'))
+    p=json.loads((ROOT/'analysis-index/00_control/progress.json').read_text(encoding='utf-8-sig'))
     assert p['year_status']['2024']=='conditional_pass'
     assert 2024 not in p['completed_years']
     assert 2024 in p['processed_years']
@@ -216,10 +216,10 @@ def test_segment_references_are_resolvable():
     assert all(not s.get('carrier_id') or s['carrier_id'] in carriers for s in segs)
 
 def test_final_control_readback_provenance():
-    p=json.loads((ROOT/'analysis-index/00_control/progress.json').read_text(encoding='utf-8'))
+    p=json.loads((ROOT/'analysis-index/00_control/progress.json').read_text(encoding='utf-8-sig'))
     prov=p['control_merge_provenance']
     assert prov['remote_progress_blob_sha']=='1ac6896e9a80eab95a9b50ad5eb5be54b2648659'
     assert len(prov['remote_absent_at_readback'])==4
-    integrity=json.loads((ROOT/'analysis-index/08_quality/evidence/2024_source_integrity.json').read_text(encoding='utf-8'))
+    integrity=json.loads((ROOT/'analysis-index/08_quality/evidence/2024_source_integrity.json').read_text(encoding='utf-8-sig'))
     assert integrity['rehash_checked_carriers']==820
     assert integrity['rehash_mismatches']==0

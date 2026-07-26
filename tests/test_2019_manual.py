@@ -8,7 +8,7 @@ YEAR=2019
 
 def read_jsonl(p):
     rows=[]
-    for line in p.read_text(encoding='utf-8').splitlines():
+    for line in p.read_text(encoding='utf-8-sig').splitlines():
         if line.strip(): rows.append(json.loads(line))
     return rows
 
@@ -23,7 +23,7 @@ def test_required_files_exist():
 
 def test_json_jsonl_csv_structures():
     for p in ROOT.rglob('*.json'):
-        json.loads(p.read_text(encoding='utf-8'))
+        json.loads(p.read_text(encoding='utf-8-sig'))
     for p in ROOT.rglob('*.jsonl'):
         read_jsonl(p)
     for p in ROOT.rglob('*.csv'):
@@ -84,7 +84,7 @@ def test_solution_lineages():
 def test_unknown_not_absent_and_no_award_inference():
     with (AN/'02_documents/logical_documents/2019.csv').open(encoding='utf-8-sig',newline='') as f: docs=list(csv.DictReader(f))
     assert all(x['award_level']=='unknown' for x in docs)
-    corpus='\n'.join(p.read_text(encoding='utf-8',errors='ignore') for p in (AN/'02_documents/dossiers').rglob('*') if p.is_file())
+    corpus='\n'.join(p.read_text(encoding='utf-8-sig',errors='ignore') for p in (AN/'02_documents/dossiers').rglob('*') if p.is_file())
     assert 'award_level": "absent"' not in corpus
 
 def test_source_modification_count_zero():
@@ -93,7 +93,7 @@ def test_source_modification_count_zero():
     assert int(row['physical_carriers'])==34
 
 def test_gate_is_nonblocking_conditional_pass():
-    gate=json.loads((AN/'08_quality/gates/2019_gate.json').read_text(encoding='utf-8'))
+    gate=json.loads((AN/'08_quality/gates/2019_gate.json').read_text(encoding='utf-8-sig'))
     assert gate['status']=='conditional_pass'
     assert gate['blocking_manual_review_items']==0
     assert gate['checks']['local_tests_passed'] is True

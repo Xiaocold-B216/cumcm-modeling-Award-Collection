@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 YEAR = 2022
 
 def read_jsonl(path):
-    text=path.read_text(encoding='utf-8')
+    text=path.read_text(encoding='utf-8-sig')
     return [json.loads(line) for line in text.splitlines() if line.strip()]
 
 def sha256(path):
@@ -43,7 +43,7 @@ def test_required_paths_exist():
 
 def test_json_files_parse():
     for p in ROOT.rglob('*.json'):
-        json.loads(p.read_text(encoding='utf-8'))
+        json.loads(p.read_text(encoding='utf-8-sig'))
 
 def test_jsonl_files_parse():
     for p in ROOT.rglob('*.jsonl'):
@@ -98,7 +98,7 @@ def test_legal_document_roles():
 
 def test_unknown_is_not_absent():
     for p in ROOT.glob('analysis-index/02_documents/logical_documents/2022/*/metadata.json'):
-        m=json.loads(p.read_text(encoding='utf-8'))
+        m=json.loads(p.read_text(encoding='utf-8-sig'))
         assert 'absent' not in set(m['feature_status'].values())
         assert m['award_level']=='unknown'
         assert m['authors']=='not_observed'
@@ -156,7 +156,7 @@ def test_statistics_match_counts():
     assert int(y['source_carriers'])==259 and int(y['logical_documents'])==7 and int(y['representations'])==7 and int(y['page_segments'])==259
 
 def test_gate_is_conditional_not_pass():
-    g=json.loads((ROOT/'analysis-index/08_quality/gates/2022_gate.json').read_text(encoding='utf-8'))
+    g=json.loads((ROOT/'analysis-index/08_quality/gates/2022_gate.json').read_text(encoding='utf-8-sig'))
     assert g['status']=='conditional_pass'
     assert g['checks']['full_year_source_complete'] is False
     assert g['checks']['official_problem_statements_present'] is False
@@ -167,13 +167,13 @@ def test_missing_file_requests_are_precise():
     assert all(r['expected_name_or_role'] and r['recognition_features'] for r in rows)
 
 def test_progress_stops_at_2022_without_claiming_gap_years():
-    p=json.loads((ROOT/'analysis-index/00_control/progress.json').read_text(encoding='utf-8'))
+    p=json.loads((ROOT/'analysis-index/00_control/progress.json').read_text(encoding='utf-8-sig'))
     assert p['stop_after_year']==2022 and p['next_recommended_year'] is None
     assert p['year_status']['2012']=='not_observed' and p['year_status']['2021']=='not_observed'
     assert p['year_status']['2022']=='conditional_pass_pending_remote_readback'
 
 def test_checkpoint_pending_remote_readback():
-    c=json.loads((ROOT/'analysis-index/09_checkpoints/2022_checkpoint.json').read_text(encoding='utf-8'))
+    c=json.loads((ROOT/'analysis-index/09_checkpoints/2022_checkpoint.json').read_text(encoding='utf-8-sig'))
     assert c['remote_readback_verified'] is False and c['stop_after_year']==2022
 
 def test_source_files_unmodified_when_raw_root_available():

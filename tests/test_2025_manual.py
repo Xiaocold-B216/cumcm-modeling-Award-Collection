@@ -24,11 +24,11 @@ def test_required_files_exist():
     assert all(p.exists() for p in required)
 
 def test_json_files_parse():
-    for p in ROOT.rglob('*.json'): json.loads(p.read_text(encoding='utf-8'))
+    for p in ROOT.rglob('*.json'): json.loads(p.read_text(encoding='utf-8-sig'))
 
 def test_jsonl_files_parse():
     for p in ROOT.rglob('*.jsonl'):
-        for line in p.read_text(encoding='utf-8').splitlines():
+        for line in p.read_text(encoding='utf-8-sig').splitlines():
             if line.strip(): json.loads(line)
 
 def test_csv_files_parse():
@@ -86,7 +86,7 @@ def test_segment_coordinates_valid_and_nonoverlap():
             assert s['bbox_pdf_points'] is None
 
 def test_unknown_not_absent_policy():
-    text='\n'.join(p.read_text(encoding='utf-8',errors='ignore') for p in AI.rglob('*') if p.is_file() and p.suffix in {'.json','.jsonl','.csv','.md'})
+    text='\n'.join(p.read_text(encoding='utf-8-sig',errors='ignore') for p in AI.rglob('*') if p.is_file() and p.suffix in {'.json','.jsonl','.csv','.md'})
     assert 'field_status_policy' in text
     # No machine field marks an unobserved feature as absent.
     assert '"status": "absent"' not in text and '"status":"absent"' not in text
@@ -109,28 +109,28 @@ def test_manual_review_is_nonblocking():
     assert len(q)==1 and q[0]['severity']=='nonblocking' and q[0]['status']=='open'
 
 def test_missing_segment_requests_empty():
-    assert read_jsonl(AI/'00_control/missing_segment_requests.jsonl')==[]
+    assert [x for x in read_jsonl(AI/'00_control/missing_segment_requests.jsonl') if x.get('year')==2025]==[]
 
 def test_source_unmodified_evidence():
-    e=json.loads((AI/'08_quality/evidence/2025_source_hash_verification.json').read_text(encoding='utf-8'))
+    e=json.loads((AI/'08_quality/evidence/2025_source_hash_verification.json').read_text(encoding='utf-8-sig'))
     assert e['source_file_count']==107 and e['modified_file_count']==0 and e['all_hashes_match'] is True
     assert all(x['match'] for x in e['files'])
 
 def test_gate_conditional_pass_without_blockers():
-    g=json.loads((AI/'08_quality/gates/2025_gate.json').read_text(encoding='utf-8'))
+    g=json.loads((AI/'08_quality/gates/2025_gate.json').read_text(encoding='utf-8-sig'))
     assert g['status']=='conditional_pass'
     assert g['blocking_manual_review_items']==0
     assert g['manual_review_items']==1
     assert g['upload_ready'] is True
 
 def test_progress_reconciled_not_blindly_advanced():
-    p=json.loads((AI/'00_control/progress.json').read_text(encoding='utf-8'))
+    p=json.loads((AI/'00_control/progress.json').read_text(encoding='utf-8-sig'))
     assert p['last_verified_complete_year']==2009
     assert 2010 not in p['completed_years'] and 2011 not in p['completed_years'] and 2025 not in p['completed_years']
     assert p['year_status']['2025']=='conditional_pass_pending_remote_readback'
 
 def test_checkpoint_counts_match():
-    c=json.loads((AI/'09_checkpoints/2025_checkpoint.json').read_text(encoding='utf-8'))
+    c=json.loads((AI/'09_checkpoints/2025_checkpoint.json').read_text(encoding='utf-8-sig'))
     assert (c['carriers'],c['documents'],c['representations'])==(107,106,107)
     assert c['solution_papers']==7 and c['problem_statements']==5 and c['expert_commentaries']==0
 
@@ -153,6 +153,6 @@ def test_c023_representation_pair():
     assert {r['format'] for r in reps}=={'pdf','docx'}
 
 def test_report_contains_required_sections():
-    text=(AI/'07_reports/yearly/2025_report.md').read_text(encoding='utf-8')
+    text=(AI/'07_reports/yearly/2025_report.md').read_text(encoding='utf-8-sig')
     for s in ['年度对象统计','关键纠错','模型与算法谱系','专家评审知识','高价值可视化模式','数据质量限制','测试与质量门']:
         assert s in text

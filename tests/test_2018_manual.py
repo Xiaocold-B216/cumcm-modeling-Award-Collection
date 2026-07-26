@@ -7,7 +7,7 @@ YEAR='2018'
 
 def read_jsonl(path):
     rows=[]
-    for i,line in enumerate(path.read_text(encoding='utf-8').splitlines(),1):
+    for i,line in enumerate(path.read_text(encoding='utf-8-sig').splitlines(),1):
         if line.strip():
             rows.append(json.loads(line))
     return rows
@@ -26,7 +26,7 @@ def test_required_files_exist():
     assert all(p.exists() for p in req)
 
 def test_json_jsonl_parse():
-    for p in AI.rglob('*.json'): json.loads(p.read_text(encoding='utf-8'))
+    for p in AI.rglob('*.json'): json.loads(p.read_text(encoding='utf-8-sig'))
     for p in AI.rglob('*.jsonl'): read_jsonl(p)
 
 def test_counts_and_object_layers():
@@ -42,7 +42,7 @@ def test_sha256_coverage_and_uniqueness():
     assert len({c['sha256'] for c in carriers})==27
 
 def test_source_unmodified():
-    a=json.loads((AI/'08_quality/evidence/2018_source_hash_audit.json').read_text(encoding='utf-8'))
+    a=json.loads((AI/'08_quality/evidence/2018_source_hash_audit.json').read_text(encoding='utf-8-sig'))
     assert a['source_modified_count']==0
     assert all(x['initial_sha256']==x['final_sha256'] and not x['modified'] for x in a['hashes'])
 
@@ -68,7 +68,7 @@ def test_problem_distribution_and_filename_correction():
     assert x['problem_id']=='2018-B' and x['filename'].startswith('2018A')
 
 def test_unknown_not_absent_policy():
-    raw='\n'.join(p.read_text(encoding='utf-8',errors='ignore') for p in AI.rglob('*') if p.is_file() and p.suffix in {'.json','.jsonl','.csv','.md'})
+    raw='\n'.join(p.read_text(encoding='utf-8-sig',errors='ignore') for p in AI.rglob('*') if p.is_file() and p.suffix in {'.json','.jsonl','.csv','.md'})
     assert 'award_level,absent' not in raw
     assert all(d['award_level']=='unknown' for d in docs())
     assert all(d['expert_feedback_status']=='not_observed' for d in docs())
@@ -106,14 +106,14 @@ def test_missing_files_are_exact_and_nonblocking():
     assert all(x['blocking'] is False for x in req)
 
 def test_gate_is_conditional_pass_not_pass():
-    gate=json.loads((AI/'08_quality/gates/2018_gate.json').read_text(encoding='utf-8'))
+    gate=json.loads((AI/'08_quality/gates/2018_gate.json').read_text(encoding='utf-8-sig'))
     assert gate['status']=='conditional_pass'
     assert gate['checks']['supporting_data_complete'] is False
     assert gate['checks']['source_unmodified'] is True
     assert gate['blocking_manual_review_items']==0
 
 def test_progress_reconciliation():
-    p=json.loads((AI/'00_control/progress.json').read_text(encoding='utf-8'))
+    p=json.loads((AI/'00_control/progress.json').read_text(encoding='utf-8-sig'))
     assert p['last_verified_complete_year']==2009
     assert p['year_status']['2010'].startswith('conditional_pass')
     assert p['year_status']['2011']=='unverified_no_year_evidence'

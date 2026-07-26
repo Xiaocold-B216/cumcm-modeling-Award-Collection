@@ -1,7 +1,7 @@
 from pathlib import Path
 import csv,json,re,hashlib
 ROOT=Path(__file__).resolve().parents[1]
-def jl(p): return [json.loads(x) for x in (ROOT/p).read_text(encoding='utf-8').splitlines() if x.strip()]
+def jl(p): return [json.loads(x) for x in (ROOT/p).read_text(encoding='utf-8-sig').splitlines() if x.strip()]
 def docs():
     with (ROOT/'analysis-index/02_documents/logical_documents/2020.csv').open(encoding='utf-8-sig') as f:return list(csv.DictReader(f))
 def test_json_control_files_parse():

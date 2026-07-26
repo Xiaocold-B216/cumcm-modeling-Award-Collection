@@ -53,7 +53,14 @@
     "2025": "conditional_pass_pending_remote_readback",
     "2015": "conditional_pass",
     "2016": "conditional_pass",
-    "2017": "conditional_pass_missing_source_carriers"
+    "2017": "conditional_pass_missing_source_carriers",
+    "2018": "conditional_pass",
+    "2019": "conditional_pass",
+    "2020": "conditional_pass",
+    "2021": "conditional_pass_pending_remote_readback",
+    "2022": "conditional_pass",
+    "2023": "pass_pending_remote_readback",
+    "2024": "conditional_pass"
   },
   "stop_after_year": 2015,
   "next_recommended_year": null
