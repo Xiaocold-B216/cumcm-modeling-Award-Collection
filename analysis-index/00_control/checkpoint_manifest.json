@@ -1,7 +1,6 @@
 {
   "schema_version": "1.4.1",
-  "updated_at": "2026-07-26T02:48:38Z",
-  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "updated_at": "2026-07-26T02:55:50Z",
   "entries": [
     {
       "year": 2007,
@@ -13,49 +12,28 @@
       "year": 2008,
       "status": "pass",
       "remote_readback_verified": true,
+      "analysis_commit_sha": "e83eca057490bda7fd48ff22d666eb3f5f62bab3",
       "checkpoint_path": "analysis-index/09_checkpoints/2008_checkpoint.json"
     },
     {
       "year": 2009,
       "status": "pass",
       "remote_readback_verified": true,
+      "analysis_commit_sha": "e83eca057490bda7fd48ff22d666eb3f5f62bab3",
       "checkpoint_path": "analysis-index/09_checkpoints/2009_checkpoint.json"
     },
     {
       "year": 2010,
       "status": "conditional_pass",
-      "remote_readback_verified": "unknown",
+      "remote_readback_verified": false,
       "checkpoint_path": "analysis-index/09_checkpoints/2010_checkpoint.json"
     },
     {
-      "year": 2011,
-      "status": "unverified_no_complete_evidence",
+      "year": 2016,
+      "status": "conditional_pass_pending_remote_readback",
       "remote_readback_verified": false,
-      "checkpoint_path": "not_observed"
-    },
-    {
-      "year": 2012,
-      "status": "not_audited_in_current_run",
-      "remote_readback_verified": "unknown",
-      "checkpoint_path": "not_evaluated"
-    },
-    {
-      "year": 2013,
-      "status": "not_audited_in_current_run",
-      "remote_readback_verified": "unknown",
-      "checkpoint_path": "not_evaluated"
-    },
-    {
-      "year": 2014,
-      "status": "not_audited_in_current_run",
-      "remote_readback_verified": "unknown",
-      "checkpoint_path": "not_evaluated"
-    },
-    {
-      "year": 2015,
-      "status": "conditional_pass_pending_user_upload",
-      "remote_readback_verified": false,
-      "checkpoint_path": "analysis-index/09_checkpoints/2015_checkpoint.json"
+      "checkpoint_path": "analysis-index/09_checkpoints/2016_checkpoint.json"
     }
-  ]
+  ],
+  "note": "Manifest reconciles only states directly read in this run; it does not promote 2011-2015."
 }
