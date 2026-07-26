@@ -1,0 +1,37 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_5566dbaba22652a0",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_5566dbaba22652a0",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "缺失和异常数据处理",
+    "日均/月均时间聚合",
+    "Pearson 相关分析",
+    "BP 神经网络回归",
+    "隐藏层网格选择",
+    "MSE/BZ 综合评价"
+  ],
+  "page_count": 31,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_5566dbaba22652a0",
+  "problem_code": "D",
+  "reported_results": [
+    "为六类污染物分别选择隐藏层规模。",
+    "报告 PM2.5 准确度由 48.22% 提升到 90.35%。",
+    "报告 PM10 准确度由 54.06% 提升到 89.37%。"
+  ],
+  "representation_id": "repr_5566dbaba22652a0",
+  "source_filename": "2019D：空气质量数据的校准（3）.pdf",
+  "source_sha256": "2cda747e3167d78d7a21a43adb3cb774a53785069f1be5c387a7e060f3525efb",
+  "source_size_bytes": 9985505,
+  "title": "2019D：空气质量数据的校准（3）",
+  "year": 2019
+}

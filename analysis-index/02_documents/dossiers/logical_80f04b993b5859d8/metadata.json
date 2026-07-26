@@ -1,0 +1,36 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_80f04b993b5859d8",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_80f04b993b5859d8",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "探索性数据分析",
+    "时间对齐差异计算",
+    "关联度分析",
+    "多元线性回归",
+    "分段线性插值校准"
+  ],
+  "page_count": 24,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_80f04b993b5859d8",
+  "problem_code": "D",
+  "reported_results": [
+    "识别国控点与自建点在分布、连续性及日内峰谷上的差异。",
+    "不同污染物的主要差异影响因素不同。",
+    "论文报告校准残差由 56717 降为 1649，约为原残差的 2.9%。"
+  ],
+  "representation_id": "repr_80f04b993b5859d8",
+  "source_filename": "2019D：空气质量数据的校准.pdf",
+  "source_sha256": "085d4cc3af788d1e88364aa2c7fefd691867e340796eb0528e3c7da2d8411b9e",
+  "source_size_bytes": 10495257,
+  "title": "2019D：空气质量数据的校准",
+  "year": 2019
+}

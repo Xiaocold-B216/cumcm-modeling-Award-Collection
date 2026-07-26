@@ -1,0 +1,38 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_a499dc18aba95051",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_a499dc18aba95051",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "压力—密度曲线拟合",
+    "有限差分压力模型",
+    "目标规划模型",
+    "多重搜索算法",
+    "凸轮边缘与针阀几何",
+    "灰色/样条辅助处理"
+  ],
+  "page_count": 24,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_a499dc18aba95051",
+  "problem_code": "A",
+  "reported_results": [
+    "稳压 100 MPa 时单向阀开启时长约 0.2875 ms。",
+    "压力升至 150 MPa 后开启时长约 0.765 ms。",
+    "柱塞泵搜索得到凸轮角速度约 27.3 rad/s。",
+    "双喷嘴最优开始间隔约 49.1 ms；阈值减压方案报告阈值约 102.25 MPa。"
+  ],
+  "representation_id": "repr_a499dc18aba95051",
+  "source_filename": "2019A：高压油管压力波动的稳定控制.pdf",
+  "source_sha256": "4c2c4e7772addc4fbc9d153f263b82622cfefa28619f6537fb6c5eec1979da50",
+  "source_size_bytes": 8573500,
+  "title": "2019A：高压油管压力波动的稳定控制",
+  "year": 2019
+}

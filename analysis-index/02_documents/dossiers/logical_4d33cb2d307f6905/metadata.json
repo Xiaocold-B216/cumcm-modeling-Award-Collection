@@ -1,0 +1,36 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_4d33cb2d307f6905",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_4d33cb2d307f6905",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "销售流水清洗",
+    "营业额与利润率核算",
+    "折扣率与折扣力度构造",
+    "线性与分段回归",
+    "商品类别对比"
+  ],
+  "page_count": 20,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_4d33cb2d307f6905",
+  "problem_code": "E",
+  "reported_results": [
+    "销售额总体随折扣力度增加而上升，但论文认为影响不强。",
+    "利润率随折扣力度增加而下降。",
+    "食品、进口类和日用类被认为更适合分析“薄利多销”。"
+  ],
+  "representation_id": "repr_4d33cb2d307f6905",
+  "source_filename": "2019E：“薄利多销”分析.pdf",
+  "source_sha256": "6c4c3287fa48799b1a2dcc2ae38a384d99c58d599c3e4177dbd49929137b3576",
+  "source_size_bytes": 7070725,
+  "title": "2019E：“薄利多销”分析",
+  "year": 2019
+}

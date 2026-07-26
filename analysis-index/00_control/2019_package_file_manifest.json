@@ -1,0 +1,1134 @@
+{
+  "year": 2019,
+  "manifest_scope": "all upload-package files except this manifest itself",
+  "self_digest_policy": "excluded_to_avoid_recursive_self_hash",
+  "file_count_excluding_self": 225,
+  "total_size_bytes_excluding_self": 647276,
+  "files": [
+    {
+      "path": "analysis-index/00_control/2019_source_integrity.json",
+      "size_bytes": 8172,
+      "sha256": "73a68261e373b728dc26772c01b0bce2986fc72c3e1bd83d6d4fb009a2dc461d"
+    },
+    {
+      "path": "analysis-index/00_control/checkpoint_manifest.json",
+      "size_bytes": 2027,
+      "sha256": "14c068c30eebc3eab45b8f6f6301b6b80b845643fe3769a6da9a5d1a90688e91"
+    },
+    {
+      "path": "analysis-index/00_control/manual_review_queue.jsonl",
+      "size_bytes": 171,
+      "sha256": "4e829c4cae8d91ff6c979622aa2b8648acd972871c5cd879544785a8b50dd74b"
+    },
+    {
+      "path": "analysis-index/00_control/missing_segment_requests.jsonl",
+      "size_bytes": 163,
+      "sha256": "cc8bbf265a92c3e4bcb0886da6a597ae13d631c9a1790b5cbaeb14c507785294"
+    },
+    {
+      "path": "analysis-index/00_control/processing_log.jsonl",
+      "size_bytes": 251,
+      "sha256": "8618ff74471531ec9dcbf2a166cfe5ef2490ecbf2a626c304b875e94a5d045a9"
+    },
+    {
+      "path": "analysis-index/00_control/progress.json",
+      "size_bytes": 1470,
+      "sha256": "2e0e63d953fbae6c6f7f6ba1cd9ceb6e53361bd6e45f9aa6c9d4db768fff06bf"
+    },
+    {
+      "path": "analysis-index/01_inventory/2019_carrier_manifest.jsonl",
+      "size_bytes": 23390,
+      "sha256": "64cf85b2e2867363a85c60bf68b1f7447341e9f7849b1568d3921dacf4888473"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_089b0209bc381660/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "1ea1fe7116c47736ade3697b1f1f65268c1812cec9f1166ec3d15ab67219590b"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_089b0209bc381660/metadata.json",
+      "size_bytes": 1395,
+      "sha256": "64f64cd4393d5b589bdbc35249d695d5777dd2a3b8adf84a06b826afce8bcb52"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_089b0209bc381660/model_summary.md",
+      "size_bytes": 1319,
+      "sha256": "0a78dabac57ca1717540a48588828b60371c1a231eb76bf64161d69e5999a397"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_089b0209bc381660/problem_summary.md",
+      "size_bytes": 697,
+      "sha256": "6eb4f2abac18e8cafbf2435aebfa265b065314553d287a6b435c1363a7ddf12d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_089b0209bc381660/validation.md",
+      "size_bytes": 553,
+      "sha256": "f3ed191a3686c214b92593617f65744db24e5966f588c507121a82be9e67159d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_089b0209bc381660/visualization.md",
+      "size_bytes": 388,
+      "sha256": "3e6ea520c32b045b1a9a767156cfa0d8977f834d863faa59e83955b6aa06f68f"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_12835ffaa968abe5/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "300852193472a1dc38e15999e80c06dcade65eee2befbb3392d28da56a2d2597"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_12835ffaa968abe5/metadata.json",
+      "size_bytes": 1367,
+      "sha256": "bb28ce8e7759016685cc765d058af6181dbe713f617982f2077a29aa4f636d6d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_12835ffaa968abe5/model_summary.md",
+      "size_bytes": 1290,
+      "sha256": "1b6d1d0acd615206d00dbbe983ba6262ab1dc070b3ca0b331a080d14ddbf4664"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_12835ffaa968abe5/problem_summary.md",
+      "size_bytes": 699,
+      "sha256": "b17350cc8f482e119444cc4ac4c0c7ba809d7d5edbf9f798368b349ab11d3e7c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_12835ffaa968abe5/validation.md",
+      "size_bytes": 598,
+      "sha256": "22fe15bd39cbb2014e6858d7c6f194ea6329694d028aba59d155151a2757adf4"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_12835ffaa968abe5/visualization.md",
+      "size_bytes": 383,
+      "sha256": "07594a40d666f06f1f7009873b54d7f67fc4a1edcefe001fb8ab6b9dcbbf7dc3"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_1ba7cd1fb86e4b45/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "51c7fedf8e8e46043b33458f9adbaf476ac8070ea5767a63d9ac83fe6e84ee0b"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_1ba7cd1fb86e4b45/metadata.json",
+      "size_bytes": 1332,
+      "sha256": "795a07e6130098c90c598a1a098f6f574cb16e14255ee0c957ce220536ff924d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_1ba7cd1fb86e4b45/model_summary.md",
+      "size_bytes": 1295,
+      "sha256": "b45bff042d4ff47517918485392d7609a82bd05d1450bd04ce6269271e03bc2e"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_1ba7cd1fb86e4b45/problem_summary.md",
+      "size_bytes": 674,
+      "sha256": "71cb441d190803965a456d232cc830f1920e533069627492b74c096bd82dc8df"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_1ba7cd1fb86e4b45/validation.md",
+      "size_bytes": 559,
+      "sha256": "46ef957726ef62ff6bf964c454d924c4f167414c0547f33332d366a0ca0af55f"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_1ba7cd1fb86e4b45/visualization.md",
+      "size_bytes": 391,
+      "sha256": "d15f8eeaf5c101d576df7c6dcf2a6f2649df7e9c2ca34dcb69a7846249dd9436"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_209e08d4cd1baa59/manual_review.json",
+      "size_bytes": 659,
+      "sha256": "b42f7e70a9af76cb90477fe55d82ccd5060abbde166c2d85f3f02d052b5f0ced"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_209e08d4cd1baa59/metadata.json",
+      "size_bytes": 1096,
+      "sha256": "e1910349f7fe7e7cf39781ad294936a13a53f55eab2ae9124aacbbc7af1cfe80"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_209e08d4cd1baa59/model_summary.md",
+      "size_bytes": 170,
+      "sha256": "0125bcc34992b4c846f42f535d02b54e36b525f90b0f6cb439b36ac978fcb71c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_209e08d4cd1baa59/problem_summary.md",
+      "size_bytes": 270,
+      "sha256": "4877c78d924c7da2ef07eedccfe3dad362ddb02ae73203dd5c24fc731d8dc8a8"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_209e08d4cd1baa59/validation.md",
+      "size_bytes": 236,
+      "sha256": "38bf35f3cbfae41039ea4014b797c899e146eb4425744ebdcebd594cb61c2188"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_209e08d4cd1baa59/visualization.md",
+      "size_bytes": 96,
+      "sha256": "1b70ea6382444ddd5807d4b5c80827158417f5162f6602affc9c068445414291"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_20ed112de4708d8e/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "fbdb8fad0f31bacf0d2b6bd13d27ad3936d81a92ee30f373e38347df69ed707f"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_20ed112de4708d8e/metadata.json",
+      "size_bytes": 1083,
+      "sha256": "196b065665eea908ba78226db44bbab8c14868a69707db315c073a8d476b3a51"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_20ed112de4708d8e/model_summary.md",
+      "size_bytes": 170,
+      "sha256": "0125bcc34992b4c846f42f535d02b54e36b525f90b0f6cb439b36ac978fcb71c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_20ed112de4708d8e/problem_summary.md",
+      "size_bytes": 270,
+      "sha256": "c49d87cfa4df7c239317ea20f56ba9b073f0f38110df047737c4790d9d4dbe2d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_20ed112de4708d8e/validation.md",
+      "size_bytes": 236,
+      "sha256": "38bf35f3cbfae41039ea4014b797c899e146eb4425744ebdcebd594cb61c2188"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_20ed112de4708d8e/visualization.md",
+      "size_bytes": 102,
+      "sha256": "9e7f8a319e71645f52acd08f8643e2faad1107c112ec1f40957d780f777f93b2"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_266e0755dd3f5f2d/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "15bd6270dba7bbdff8ec8dcdd6472e3413ffbf531dab6ab64e3e32f439594ac3"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_266e0755dd3f5f2d/metadata.json",
+      "size_bytes": 1059,
+      "sha256": "fddff1faea1855be1acac915cbf2422ebbc99e25a2e18158875833319b178c3c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_266e0755dd3f5f2d/model_summary.md",
+      "size_bytes": 248,
+      "sha256": "4a68e56ccf2fa7a12c1b1f699a193b2d28a0e732f441bdc7b4749babd1f4ffd1"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_266e0755dd3f5f2d/problem_summary.md",
+      "size_bytes": 249,
+      "sha256": "f3ea1eaa1b3cb45f3e8bc291b81f4a0f9ca187cd2cf04c13fa170d235a711d60"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_266e0755dd3f5f2d/validation.md",
+      "size_bytes": 322,
+      "sha256": "394b05a0f22c1252def9416d564cba2c517617d884eb28f5ccafcdc120f9beeb"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_266e0755dd3f5f2d/visualization.md",
+      "size_bytes": 111,
+      "sha256": "0e19f5dbe0a80007de70c410bd3404bd3a669492e2061e20f483635210d61983"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_26b301c2b203d8a1/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "90536097c80ccaaa1b3f5eba1560477f1a0d917bdecacb6bad5f455c5512a6a6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_26b301c2b203d8a1/metadata.json",
+      "size_bytes": 1052,
+      "sha256": "572fdb777faf17df39e9c61540498474319a914e5de40f6714005c83008477e6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_26b301c2b203d8a1/model_summary.md",
+      "size_bytes": 233,
+      "sha256": "bd74057748c82ae7251ac942dacedead5bc71d61454b69e1688fb6004ce107e2"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_26b301c2b203d8a1/problem_summary.md",
+      "size_bytes": 245,
+      "sha256": "0f2d2d9cc34537e7ccc15bf981e4aa7fecd761f3fcf0c75dff22b6f1d5a44622"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_26b301c2b203d8a1/validation.md",
+      "size_bytes": 307,
+      "sha256": "6f2b6ecb79264280667fabe279e852449fb6d7ce3978e0aac51bae5b682bf91a"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_26b301c2b203d8a1/visualization.md",
+      "size_bytes": 81,
+      "sha256": "2f5de994719723af8579c080cec924898f83c9036b3afb406b80a9b861d8d124"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_284da834a778d975/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "889fdbd486951a71f22a7e441cc9aa1ac559f3922aea46f93330a46370b3f6ed"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_284da834a778d975/metadata.json",
+      "size_bytes": 1017,
+      "sha256": "c6b37d518c73b16e631347ef7d1dd3c4f497955346ec29975d0529abfc989f36"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_284da834a778d975/model_summary.md",
+      "size_bytes": 238,
+      "sha256": "fe68e555457a21066f2969fc98f5760d927608669b6be9f7a5820ae31fea81e1"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_284da834a778d975/problem_summary.md",
+      "size_bytes": 267,
+      "sha256": "76409a03af271f03c3c8c769f6a56a7251b95b483448abcf668b659365ab3095"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_284da834a778d975/validation.md",
+      "size_bytes": 312,
+      "sha256": "3057db7cb6bd80eb780d9ec57f1ffef2ed5b54a4b65b2bcf5c272c20464fdc4c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_284da834a778d975/visualization.md",
+      "size_bytes": 102,
+      "sha256": "9e7f8a319e71645f52acd08f8643e2faad1107c112ec1f40957d780f777f93b2"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_28dd381804368bb4/manual_review.json",
+      "size_bytes": 656,
+      "sha256": "d8509d85ce8542f0661dff0da9301a50d0987a6c55393eee22bb48eefe458297"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_28dd381804368bb4/metadata.json",
+      "size_bytes": 910,
+      "sha256": "164fa44dd8f65d87de4d225eced3eb82f4db45467ecf294251f4e1797e310ae4"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_28dd381804368bb4/model_summary.md",
+      "size_bytes": 199,
+      "sha256": "a56c8418cdfc40816326a4caa7f184b2abf41663cbf3779bc90a0eab501ee5a6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_28dd381804368bb4/problem_summary.md",
+      "size_bytes": 380,
+      "sha256": "c13aa35dca93af609640b86f12d08f4775c468590210e896c00d057b8d007525"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_28dd381804368bb4/validation.md",
+      "size_bytes": 144,
+      "sha256": "2e01c13d18468783229ea43e8e9df1196b0c24cf80ff0f47fbc6defbc24b86bb"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_28dd381804368bb4/visualization.md",
+      "size_bytes": 160,
+      "sha256": "9066a8c6ae34dcf67e3f587187691774e5e64cd729a40c39ece7b151972e196c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_2c7c20e8fdbf45c1/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "a87b0f755c8df9e7c1d1a187ac8b8bddc9e9cd15002565956a32b5be1d52ee42"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_2c7c20e8fdbf45c1/metadata.json",
+      "size_bytes": 1312,
+      "sha256": "12891ab1dcf4c2ed20995b8ffa1d0fe31e15513290d28701a92b678f63fba6f6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_2c7c20e8fdbf45c1/model_summary.md",
+      "size_bytes": 1241,
+      "sha256": "fa2b0047c50febf8c9aa5ee15c2f8c40f19d8c7d1d7cbf82df12bd9a79ec5f8c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_2c7c20e8fdbf45c1/problem_summary.md",
+      "size_bytes": 715,
+      "sha256": "20a547098f639deeb653ca5472841a93e38bdd504510483ddb378c1e4f06acef"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_2c7c20e8fdbf45c1/validation.md",
+      "size_bytes": 613,
+      "sha256": "e69033646070dc5b70ea640f41e6919349fdea77d176a66e274fd784e7968fcb"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_2c7c20e8fdbf45c1/visualization.md",
+      "size_bytes": 401,
+      "sha256": "4fd9304bdf2ac731da782ba362e712498941931824d12d4f1e13e11dca3c7933"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_3501b9e0037a363c/manual_review.json",
+      "size_bytes": 656,
+      "sha256": "a163e10f30d2cf1079d54cccb78bd37f04a53e3d1c0c74df06f51c73044e3700"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_3501b9e0037a363c/metadata.json",
+      "size_bytes": 915,
+      "sha256": "da7e009d01e545065f5031e5ee55ab1cbcdcba47686ee41b6486087b7555f5cf"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_3501b9e0037a363c/model_summary.md",
+      "size_bytes": 199,
+      "sha256": "a56c8418cdfc40816326a4caa7f184b2abf41663cbf3779bc90a0eab501ee5a6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_3501b9e0037a363c/problem_summary.md",
+      "size_bytes": 380,
+      "sha256": "1437bf4876ea35e7874569b00117b7a001794157794f2517a045e5514ebdad44"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_3501b9e0037a363c/validation.md",
+      "size_bytes": 144,
+      "sha256": "2e01c13d18468783229ea43e8e9df1196b0c24cf80ff0f47fbc6defbc24b86bb"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_3501b9e0037a363c/visualization.md",
+      "size_bytes": 160,
+      "sha256": "9066a8c6ae34dcf67e3f587187691774e5e64cd729a40c39ece7b151972e196c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_4d33cb2d307f6905/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "dd4e46a192edb68b8a90335f32b58f1eb927ad97c4e670c460f4a6f1e8100b61"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_4d33cb2d307f6905/metadata.json",
+      "size_bytes": 1315,
+      "sha256": "3262455b84099d009d1795ebda8706d298d58d147f2232cf05b438f48aeec184"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_4d33cb2d307f6905/model_summary.md",
+      "size_bytes": 1223,
+      "sha256": "2a99238d2633c3e50a4733a41b7cb650a3565ce4e90a2e278260bd3d97f5ef30"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_4d33cb2d307f6905/problem_summary.md",
+      "size_bytes": 733,
+      "sha256": "2220a748ba49f10ffcad90a9e90094116baa6b3ee04c270434bf7f36859c5be5"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_4d33cb2d307f6905/validation.md",
+      "size_bytes": 547,
+      "sha256": "478de629381f16be78151d0f274a0dc012bd487b3b9dfa06f0070fdd14a580f5"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_4d33cb2d307f6905/visualization.md",
+      "size_bytes": 392,
+      "sha256": "f45a5f724914a0ab312e933c7f82c7b886e17f097fabd5d67ff0e76801fb058f"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5566dbaba22652a0/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "e6217a351c0fe7072ce16f6ff28431b9263cacfae96f636d1ad4019e785874fc"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5566dbaba22652a0/metadata.json",
+      "size_bytes": 1318,
+      "sha256": "9c6196403c1b7d5a64e5c06eef509d64561ede32ad6c13cee08e1b8aac4aa716"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5566dbaba22652a0/model_summary.md",
+      "size_bytes": 1334,
+      "sha256": "dce6029aaa805876082b5ededa01f2275a37f80d305ad30805d777a727105eef"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5566dbaba22652a0/problem_summary.md",
+      "size_bytes": 689,
+      "sha256": "ad282cc66f3ea12a6ea4d28f06cb5893a2503ab54f2166f834b349455254020a"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5566dbaba22652a0/validation.md",
+      "size_bytes": 610,
+      "sha256": "8b9d0dc5c39f981e8022273fc5efc01a05a60dca328f818c3ea5945af0f42fea"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5566dbaba22652a0/visualization.md",
+      "size_bytes": 387,
+      "sha256": "e7fb70c33288eb3e8c9f158176ea51f3cef146c096ad88c062b84e0605f6cde3"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5f14dbb53708a105/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "e4ec12a91536d8d5cab4300e6e2e888b21c26aaf90af584bf72f5bc69a06c9a5"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5f14dbb53708a105/metadata.json",
+      "size_bytes": 1365,
+      "sha256": "471417e9a5ecda1d2891e8b6a935fed4e56380f7035e5a7b1a390b9a2dc5b974"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5f14dbb53708a105/model_summary.md",
+      "size_bytes": 1296,
+      "sha256": "28d188c3dcbdb16dd7d5f938b437ec74ad10cacf04ab967446a46c105e921235"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5f14dbb53708a105/problem_summary.md",
+      "size_bytes": 698,
+      "sha256": "be7a017d257f700c2deb9475c13a8187d358f717075200f263908e0a2b10160f"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5f14dbb53708a105/validation.md",
+      "size_bytes": 577,
+      "sha256": "1759e5407781f0e50d1079158a406db4c50ec2cbc723f3acee797ef78906169b"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_5f14dbb53708a105/visualization.md",
+      "size_bytes": 380,
+      "sha256": "75664da6f9539906523a5680163d80aeac18a10cdb9135d73029e66ae4641ea5"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_66c59f332b69feaa/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "3d32ecbfee3ecaf6e0960a9eb926cbedd12d3b973bc58db2730f78b48f1db48d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_66c59f332b69feaa/metadata.json",
+      "size_bytes": 1043,
+      "sha256": "99f5dfd4efa7e2e8c0757df95f1eb6c8fc82b484161e6c5185edde3088bb0e10"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_66c59f332b69feaa/model_summary.md",
+      "size_bytes": 241,
+      "sha256": "d8d4f2bb7763cdc0fa461d0ed7201e81cb60a20764410e59b15f593092cfd654"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_66c59f332b69feaa/problem_summary.md",
+      "size_bytes": 288,
+      "sha256": "8896604395a236e7cf058a5ddb2761edcc99f71f8d2c180f4185456af4ec4c0c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_66c59f332b69feaa/validation.md",
+      "size_bytes": 315,
+      "sha256": "a1c29826c42f41aa83f281299933a7121c2f4ba56a1bcf720ed60f231bcc7455"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_66c59f332b69feaa/visualization.md",
+      "size_bytes": 111,
+      "sha256": "0e19f5dbe0a80007de70c410bd3404bd3a669492e2061e20f483635210d61983"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_80f04b993b5859d8/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "8bf455a6f60943e699e7622ed8044de272cbc59d506bd31b6049c9efff4c3b3c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_80f04b993b5859d8/metadata.json",
+      "size_bytes": 1318,
+      "sha256": "603aa93b6afe042ad5410b098f01be30814924179c26c3815ee13ebe808de380"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_80f04b993b5859d8/model_summary.md",
+      "size_bytes": 1291,
+      "sha256": "8076b839a05313aa7eec66717208c086d6ebd7807848e42b3754d152b259217b"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_80f04b993b5859d8/problem_summary.md",
+      "size_bytes": 712,
+      "sha256": "4bbe2841cb5b17ec8bbe25a921099b37ab47745f307c6e1f661b926f589a7024"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_80f04b993b5859d8/validation.md",
+      "size_bytes": 556,
+      "sha256": "aa7a75501e106de3a0291270a021deb7c8136730040c629f68a9c8b34d13956f"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_80f04b993b5859d8/visualization.md",
+      "size_bytes": 382,
+      "sha256": "2895e781e63d024869f473a6fce235c4d54e947517cf4aa299e1a359eb84aa6d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_865f29871818863a/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "a94e37fc1e5b30751ee96349f87456781cee56ed24c501ba3f516e53108e0ab3"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_865f29871818863a/metadata.json",
+      "size_bytes": 1395,
+      "sha256": "ed3f5a01f62c760b4150b3fe544e5438bbd37c7b40760d2f7221094e7bd3c290"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_865f29871818863a/model_summary.md",
+      "size_bytes": 1365,
+      "sha256": "3002139c66821b2a1a5b16e5623b6b29d673bd6238451297c0efb8b2f5f4cfbd"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_865f29871818863a/problem_summary.md",
+      "size_bytes": 694,
+      "sha256": "2acb3c97e1abd5832ce9f394632f752e292dd356b59b8eeeb8cc2f89b706f0e7"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_865f29871818863a/validation.md",
+      "size_bytes": 556,
+      "sha256": "1e33eb72010a996a994d36089f76b088557a18947c714dd9de593ccc67506374"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_865f29871818863a/visualization.md",
+      "size_bytes": 384,
+      "sha256": "93750cc178abe0ebd881f313d91efe64ec60af223e6a0052cbdb80bba5da053e"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_8a310e72cc9cd843/manual_review.json",
+      "size_bytes": 656,
+      "sha256": "1468a260756a23928d5e723fe7a25b4deb82943389a16b9579e256a219f7267e"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_8a310e72cc9cd843/metadata.json",
+      "size_bytes": 910,
+      "sha256": "484f51d5e303944e79fed6a5bf70e0d4314c452f5ccbfb31910c1010877abc59"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_8a310e72cc9cd843/model_summary.md",
+      "size_bytes": 199,
+      "sha256": "a56c8418cdfc40816326a4caa7f184b2abf41663cbf3779bc90a0eab501ee5a6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_8a310e72cc9cd843/problem_summary.md",
+      "size_bytes": 374,
+      "sha256": "4917e611807beab54eee3d43d0d2c7e787bae05d936e330518fd874a2de90c56"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_8a310e72cc9cd843/validation.md",
+      "size_bytes": 144,
+      "sha256": "2e01c13d18468783229ea43e8e9df1196b0c24cf80ff0f47fbc6defbc24b86bb"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_8a310e72cc9cd843/visualization.md",
+      "size_bytes": 160,
+      "sha256": "9066a8c6ae34dcf67e3f587187691774e5e64cd729a40c39ece7b151972e196c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_911d32b00a14deda/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "e744f0f8b2a0d187b4db1d70c8de47f5d217aee4478c47197b95db6e08ca1da6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_911d32b00a14deda/metadata.json",
+      "size_bytes": 1018,
+      "sha256": "64deb60f746358fc091f4b81a198d6338112552c97891c092fe4cfee878993cf"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_911d32b00a14deda/model_summary.md",
+      "size_bytes": 240,
+      "sha256": "0db06aec647a42bb87222254fdf89217deff3f21ce269398ef93ad751a3734b5"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_911d32b00a14deda/problem_summary.md",
+      "size_bytes": 264,
+      "sha256": "aef373481939912baa85de02699d6db57fec895b454580bcd97c1dca1971e63d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_911d32b00a14deda/validation.md",
+      "size_bytes": 314,
+      "sha256": "abb202b7e0f877bb0d9cc3f4a33a4cfe34153e274fba9f657610da4e41014bd7"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_911d32b00a14deda/visualization.md",
+      "size_bytes": 111,
+      "sha256": "0e19f5dbe0a80007de70c410bd3404bd3a669492e2061e20f483635210d61983"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9a9779de84e6be62/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "47e2d3bce82022f4f5693feff46d4af96c1427294ca06d63ffb3e62c54ade0b9"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9a9779de84e6be62/metadata.json",
+      "size_bytes": 1325,
+      "sha256": "deb48d32d0fa90a62492b58ed2580d6e2727ea5b3a7884ca887438663010dfb5"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9a9779de84e6be62/model_summary.md",
+      "size_bytes": 1146,
+      "sha256": "0135ed1b11a8d00450e458c479570a8f01580fcc819f14aa402f1b281dac520d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9a9779de84e6be62/problem_summary.md",
+      "size_bytes": 677,
+      "sha256": "9a19e6765b2a657e330b9d6027737c0b3be69bffdf221677a1996ffca63eef3f"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9a9779de84e6be62/validation.md",
+      "size_bytes": 535,
+      "sha256": "9aaa5b023c8189bfa96a60aebb3281e9ae8d92e87d04b3a14ee56ea002d3fc03"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9a9779de84e6be62/visualization.md",
+      "size_bytes": 390,
+      "sha256": "e77cecfc0e61a11c76619085e36d1c933e021106ad7e76a6a467eec660ef107b"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9ebe2ff009cb6c4a/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "78bb577096197eb3b070e613b677f7c9d53dd8b4b2026702dd2241f9e51f9ac6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9ebe2ff009cb6c4a/metadata.json",
+      "size_bytes": 1506,
+      "sha256": "c3bc19289e8cd4d4cbf9f6e04a7a14560181105689814736bc27021280e502bc"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9ebe2ff009cb6c4a/model_summary.md",
+      "size_bytes": 1600,
+      "sha256": "feaf93ce0d520e4d3773baaf8beeb98151e8b983cf7ba07f732ece68b0ad339e"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9ebe2ff009cb6c4a/problem_summary.md",
+      "size_bytes": 778,
+      "sha256": "937360e5b0fe80c1a810d35782076d3830ebc0e7cd8ddf099ff1d64341b79246"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9ebe2ff009cb6c4a/validation.md",
+      "size_bytes": 679,
+      "sha256": "7b91136bb278a8de31edab14e1ca63fa75c2a54be2ac1cd810823189be32a3f4"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_9ebe2ff009cb6c4a/visualization.md",
+      "size_bytes": 411,
+      "sha256": "0178da57a8f0e7b03a7ac56d15f60b6b4f8584929635b57288187fa228a8ba82"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a27865a8c303d954/manual_review.json",
+      "size_bytes": 656,
+      "sha256": "0139e8fb4dc807ac4fbb034471c3ccad94f047f29f01ae62b18960cd9307a49c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a27865a8c303d954/metadata.json",
+      "size_bytes": 910,
+      "sha256": "61b5aea315f42d9d305b39ed56e0085c79e7e0fac25cd5da31167392412be28d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a27865a8c303d954/model_summary.md",
+      "size_bytes": 199,
+      "sha256": "a56c8418cdfc40816326a4caa7f184b2abf41663cbf3779bc90a0eab501ee5a6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a27865a8c303d954/problem_summary.md",
+      "size_bytes": 392,
+      "sha256": "749d6dea24ba5b12f93f6d68c834ecbb57023467bb5db0095921c4fd7906fbc5"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a27865a8c303d954/validation.md",
+      "size_bytes": 144,
+      "sha256": "2e01c13d18468783229ea43e8e9df1196b0c24cf80ff0f47fbc6defbc24b86bb"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a27865a8c303d954/visualization.md",
+      "size_bytes": 160,
+      "sha256": "9066a8c6ae34dcf67e3f587187691774e5e64cd729a40c39ece7b151972e196c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a278db035e2abf18/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "9be3585c2e5859c6f2814378ec3907698a3fb22d0eaf11bc161595bb2384fc06"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a278db035e2abf18/metadata.json",
+      "size_bytes": 1010,
+      "sha256": "06742671dd2d4c6be6ae0d411178ebcb5863b16a2c417c40cd64954fd3876550"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a278db035e2abf18/model_summary.md",
+      "size_bytes": 241,
+      "sha256": "bde90c0817a5da9a05faab31061f945a7bed4b3fd28aea9f82cd83f8a5b49020"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a278db035e2abf18/problem_summary.md",
+      "size_bytes": 255,
+      "sha256": "dabd9f529da53bdd5acf2e73be2d24f169b10facaf250b78f68e8f46f9c710a9"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a278db035e2abf18/validation.md",
+      "size_bytes": 315,
+      "sha256": "6200bfbba0357e19470a7ddb327b11b084121a0adde6f9c957f93d77860bbb2c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a278db035e2abf18/visualization.md",
+      "size_bytes": 111,
+      "sha256": "0e19f5dbe0a80007de70c410bd3404bd3a669492e2061e20f483635210d61983"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a499dc18aba95051/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "40fb263f856daefc9b028bfc734419a473fe5084d86f507512ecb8929552475c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a499dc18aba95051/metadata.json",
+      "size_bytes": 1438,
+      "sha256": "3813dc21d325d3ce15ac4a7ca4e865fbcc37def95560f0278fe4b71e7fc2f294"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a499dc18aba95051/model_summary.md",
+      "size_bytes": 1414,
+      "sha256": "2c1f6e1d91d1845d807b914c18fb4fc8f9acb429a231e2c83283fb110dc90a6d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a499dc18aba95051/problem_summary.md",
+      "size_bytes": 757,
+      "sha256": "933492df7745d9a0fa935c16f7c4de986e38efcf93c64b0c858e82e6362267dd"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a499dc18aba95051/validation.md",
+      "size_bytes": 628,
+      "sha256": "62dd55efdefea1b851da1e8dfb507ea22a7c535466e605a49578543f2dbd51c2"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a499dc18aba95051/visualization.md",
+      "size_bytes": 380,
+      "sha256": "bb6a11ca2cd7437e1bc95d761f2a268f46b067429700c5a36f348612ebfe232e"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a5084d0be9233b69/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "b445aaa889b962f5f40b6897622bd9b816b12b1d7c249a0e501ecf5d31330979"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a5084d0be9233b69/metadata.json",
+      "size_bytes": 1031,
+      "sha256": "f86af0b39eb06c6cdae4ae6485affe1e1214307714c44face4663e530675b480"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a5084d0be9233b69/model_summary.md",
+      "size_bytes": 241,
+      "sha256": "06193d5e20c0deefdab4ee809deaf55e717c0758b854bd55b95304ec6184d88d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a5084d0be9233b69/problem_summary.md",
+      "size_bytes": 279,
+      "sha256": "a82d721200d7cbc4ff5c9d95811da9e2c0d81e6b703faf879de239931be1f8e1"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a5084d0be9233b69/validation.md",
+      "size_bytes": 315,
+      "sha256": "51b95c86904221753ba9e304cd0c220b4f31b999ceee6fe7420b818f7d3b0803"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_a5084d0be9233b69/visualization.md",
+      "size_bytes": 102,
+      "sha256": "9e7f8a319e71645f52acd08f8643e2faad1107c112ec1f40957d780f777f93b2"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b450c43d95f7cc43/manual_review.json",
+      "size_bytes": 656,
+      "sha256": "fabbe1e40be8cc0767af2a2b7bd118bf7c3abebc68585476de499bc4ff55773c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b450c43d95f7cc43/metadata.json",
+      "size_bytes": 913,
+      "sha256": "6a4d7c7a588ed77c226a90997bc052ebe5284d9517ed5bceafb407c075673fa0"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b450c43d95f7cc43/model_summary.md",
+      "size_bytes": 199,
+      "sha256": "a56c8418cdfc40816326a4caa7f184b2abf41663cbf3779bc90a0eab501ee5a6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b450c43d95f7cc43/problem_summary.md",
+      "size_bytes": 443,
+      "sha256": "eda990a820486723a8b42c7e326945e3c588685d4e47d05603f37c67b2e068c8"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b450c43d95f7cc43/validation.md",
+      "size_bytes": 144,
+      "sha256": "2e01c13d18468783229ea43e8e9df1196b0c24cf80ff0f47fbc6defbc24b86bb"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b450c43d95f7cc43/visualization.md",
+      "size_bytes": 160,
+      "sha256": "9066a8c6ae34dcf67e3f587187691774e5e64cd729a40c39ece7b151972e196c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b5791e2b3ce660db/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "f1327d482f1f8149bf7ddf4ce2f3cc3d7b38cfd4f4f10e60c96c8a5bdbc69d93"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b5791e2b3ce660db/metadata.json",
+      "size_bytes": 1066,
+      "sha256": "718eb56c7fd29ed049df92599a3fd7f9621d61ccadc5f2c953a535944dd8cf01"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b5791e2b3ce660db/model_summary.md",
+      "size_bytes": 232,
+      "sha256": "244b5fe2176332eabc1087a11619851ac2cf52319283b16eb8c05cc98642538f"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b5791e2b3ce660db/problem_summary.md",
+      "size_bytes": 259,
+      "sha256": "dd29e045f7655406fe22cd74ef8754c24cfd8223710a7199eb39e8531764a21a"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b5791e2b3ce660db/validation.md",
+      "size_bytes": 306,
+      "sha256": "3a4291ca96f84a2c3e3867bd56945c8e17bb7f3f9e158218a43140352e829b11"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b5791e2b3ce660db/visualization.md",
+      "size_bytes": 81,
+      "sha256": "2f5de994719723af8579c080cec924898f83c9036b3afb406b80a9b861d8d124"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b92cd38d2f6585e4/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "37ac734ecfaf22762c652e56547ae317b09ef68676bd671d8d5f305382f63b0c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b92cd38d2f6585e4/metadata.json",
+      "size_bytes": 1370,
+      "sha256": "d87439ed6b40d3a41d82c18a78967034458477c455b1bcc48ecd7063bf3c7f22"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b92cd38d2f6585e4/model_summary.md",
+      "size_bytes": 1216,
+      "sha256": "69a6bf25093229d9511af325f29840f7c9f32d1d62fcc49104ec2f9ee73d6ad9"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b92cd38d2f6585e4/problem_summary.md",
+      "size_bytes": 697,
+      "sha256": "85ace9c290f78b42c9835d49eafde1629a6c03b5a07813a96378afe08cd871f4"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b92cd38d2f6585e4/validation.md",
+      "size_bytes": 574,
+      "sha256": "f036775630a7a43a1ab6b7162b06960a4a2f5d0209568450193a4caa3f3b5c45"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_b92cd38d2f6585e4/visualization.md",
+      "size_bytes": 380,
+      "sha256": "90db8641cae1f406da07e5bead41ccb8f694539f0beb2f1a35cec2c87e741acf"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c155791bf8652f01/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "65fd3a3b3cae4202b93257c87dd3efb9692396ffde883b10c8b359fad2c69113"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c155791bf8652f01/metadata.json",
+      "size_bytes": 1028,
+      "sha256": "316ee8a126a74e8e00d7f24cceb9f8d616a15454f758f955fc67e991d1ea3c96"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c155791bf8652f01/model_summary.md",
+      "size_bytes": 224,
+      "sha256": "938ec625a83c67cafb8570af97c72f156a5364611b3f9e3c46efbf3b240e0cae"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c155791bf8652f01/problem_summary.md",
+      "size_bytes": 275,
+      "sha256": "bd93f9c155d46764eff2ef502606dd7c9bb0a4276c9b1d378f447cb40245aa5d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c155791bf8652f01/validation.md",
+      "size_bytes": 298,
+      "sha256": "c158c0cb918fa12c622f1a4e42115ca218d245c6d0b25a19b9e71510835195fe"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c155791bf8652f01/visualization.md",
+      "size_bytes": 111,
+      "sha256": "0e19f5dbe0a80007de70c410bd3404bd3a669492e2061e20f483635210d61983"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c82d9e01ec4dec10/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "1529262ce1cd7b303cb56736e19348e0e6a908a26aeb94bea12d514b51383d41"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c82d9e01ec4dec10/metadata.json",
+      "size_bytes": 1409,
+      "sha256": "4f0cafc1b0d871a5bef69e61190547da6ef75529841ca66ee18f4ea829412aff"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c82d9e01ec4dec10/model_summary.md",
+      "size_bytes": 1388,
+      "sha256": "4903f5c9c5b9f0535fb99810bd955d85a107e61fb37f3ee3e67234510d7b96fe"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c82d9e01ec4dec10/problem_summary.md",
+      "size_bytes": 754,
+      "sha256": "22bc68ad185736afe6b03670e2f5caa7abaf494074decae8ce4ab967f92b132a"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c82d9e01ec4dec10/validation.md",
+      "size_bytes": 610,
+      "sha256": "8a1dc80387158a356adb04464b4b3e55633313a8b48c8b4da49c2d7b2ff137a0"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c82d9e01ec4dec10/visualization.md",
+      "size_bytes": 386,
+      "sha256": "941849d531277520d01593d8379f8f872ecb36d32da724dcbfcd6ca343d2bcab"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c924f842158b3442/manual_review.json",
+      "size_bytes": 646,
+      "sha256": "bd962e19878f8813773faf639434c71c1e80461c629fe43c37b467cb4c9b47a4"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c924f842158b3442/metadata.json",
+      "size_bytes": 1058,
+      "sha256": "9816dbc4e6f43b15a7074a431755ecf9d8eff99b95a56c00c953f152f50abc7d"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c924f842158b3442/model_summary.md",
+      "size_bytes": 233,
+      "sha256": "5101f02295f634cdaa76681191f9d2bb557f67be68062f7f95d1272359bb647e"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c924f842158b3442/problem_summary.md",
+      "size_bytes": 251,
+      "sha256": "9e5302682ca51bb8abbaa8992fbbedcb6779a4e62f5e25511284532aa1261ebd"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c924f842158b3442/validation.md",
+      "size_bytes": 307,
+      "sha256": "03e3249b7e6dc4cec522739017dfc5c4ed25d2c07728e55b1770c8a55f92f3af"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_c924f842158b3442/visualization.md",
+      "size_bytes": 81,
+      "sha256": "2f5de994719723af8579c080cec924898f83c9036b3afb406b80a9b861d8d124"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_d1a2bebfa9616f25/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "0b721b43968a2191b0f73108511695d1384947581560969d7107963d84eef97f"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_d1a2bebfa9616f25/metadata.json",
+      "size_bytes": 1475,
+      "sha256": "35bd4ca9210e89d339d2747826f01e264312944cba68985f42d26f8a38285e4f"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_d1a2bebfa9616f25/model_summary.md",
+      "size_bytes": 1452,
+      "sha256": "bef8b309255b11eb9894230ba204c4abaf2686c39bc5346af1fe4e99f4884416"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_d1a2bebfa9616f25/problem_summary.md",
+      "size_bytes": 706,
+      "sha256": "f7078783999782cf7bfcf1bee676f467e21d7c4f5dd84cf0dce3bc3e809a2cb7"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_d1a2bebfa9616f25/validation.md",
+      "size_bytes": 613,
+      "sha256": "04338baf661f2431d9b16d587166af43354502361ddc382808fdc108fb393ea6"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_d1a2bebfa9616f25/visualization.md",
+      "size_bytes": 371,
+      "sha256": "6e272d5a078984a044e45db272b141273e9b025479d0d693d3fc8a8f323e3eb9"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_e67041254721a593/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "9c06d6791aac12cda5b5f81065831d6fd9934af6a90f68255e438eff7ef709a0"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_e67041254721a593/metadata.json",
+      "size_bytes": 1506,
+      "sha256": "0e26d46a3bd6753a7a6c47fb313a7a11c359d392609cf36b43563e06855fbfde"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_e67041254721a593/model_summary.md",
+      "size_bytes": 1426,
+      "sha256": "7c9f08983e69910a5c9e39ba2c028a79ca1641b05caf2b9b98083c827df2d497"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_e67041254721a593/problem_summary.md",
+      "size_bytes": 679,
+      "sha256": "706afb5ec457c3418307498b62c7c26160593e0945f2558b855f0cca06b3500b"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_e67041254721a593/validation.md",
+      "size_bytes": 604,
+      "sha256": "44d3a84923083df730cdd4d1a324b94a177eddb36bce9c756b02ba6dd1726157"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_e67041254721a593/visualization.md",
+      "size_bytes": 391,
+      "sha256": "b4e895982f8c9561367198f98ba3f0d473364447a126c1d6e1158a88f926fc66"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_f61081c6ba9bef85/manual_review.json",
+      "size_bytes": 721,
+      "sha256": "7f22029374370db3e865552fc31f12047047a551fc35c6b581ce29aa3c5f246c"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_f61081c6ba9bef85/metadata.json",
+      "size_bytes": 1294,
+      "sha256": "1a40def0c40b61a46ab3b5d0a9abb37f5bd75c0d52ceced87a48d55b0e5e57e7"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_f61081c6ba9bef85/model_summary.md",
+      "size_bytes": 1157,
+      "sha256": "2edbf05cb3b4d5600eb9a279dadcb43c8676c389431a11f172f20756af0f7c17"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_f61081c6ba9bef85/problem_summary.md",
+      "size_bytes": 709,
+      "sha256": "e7441f63baf0dd3c60d62fef6391b8e5c519a68bb0956ddbee0b5e294f82c3b1"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_f61081c6ba9bef85/validation.md",
+      "size_bytes": 541,
+      "sha256": "9f17723c245571a4755800651f875360f79320c38b0811403a8338f7519b0a47"
+    },
+    {
+      "path": "analysis-index/02_documents/dossiers/logical_f61081c6ba9bef85/visualization.md",
+      "size_bytes": 371,
+      "sha256": "3adf0882499627d07353fc8975cae156b590219a0bc4cb317181de951dec615d"
+    },
+    {
+      "path": "analysis-index/02_documents/logical_documents/2019.csv",
+      "size_bytes": 15271,
+      "sha256": "7fd2ef58d9c60d69223eff1c15807a926983e8a7d7ec8a72a2c4dec775b9b877"
+    },
+    {
+      "path": "analysis-index/03_segments/2019_segments.jsonl",
+      "size_bytes": 344353,
+      "sha256": "023f5fd88e966a45adbf2e847a710be12a783b4e476d0b8d4d2d97c892513d3e"
+    },
+    {
+      "path": "analysis-index/04_relations/2019_relations.jsonl",
+      "size_bytes": 13162,
+      "sha256": "106c63d84507e158ff7fced79ca2d5068d5a15246c2093d90f9ed1eed9e9de5f"
+    },
+    {
+      "path": "analysis-index/04_relations/2019_representations.jsonl",
+      "size_bytes": 17142,
+      "sha256": "555c4ab8959226498ed67a86bba941361339a76981b74a26d8f5aa736da5c3da"
+    },
+    {
+      "path": "analysis-index/04_relations/2019_solution_lineages.jsonl",
+      "size_bytes": 7089,
+      "sha256": "76c88e08efa7ae05c01de7305e180a72a4313eef4e28a3de37eeed4e26a6945a"
+    },
+    {
+      "path": "analysis-index/05_knowledge/expert_feedback/2019_feedback.jsonl",
+      "size_bytes": 351,
+      "sha256": "533a9e8ca8041826eaf9e03ecce9b02db351153089c7aa56cbe01008ce973514"
+    },
+    {
+      "path": "analysis-index/05_knowledge/methods/2019_methods.jsonl",
+      "size_bytes": 38563,
+      "sha256": "e912665593fb8b63c0a5fac0e49bc8a4e2735694c3557073bfcdf59948e81568"
+    },
+    {
+      "path": "analysis-index/05_knowledge/visualizations/2019_visualizations.jsonl",
+      "size_bytes": 32238,
+      "sha256": "83ab349991de0525b13e6c1c047568bcfb9f65f2ef8be658274b16ac878ff6c7"
+    },
+    {
+      "path": "analysis-index/06_statistics/yearly/2019_statistics.csv",
+      "size_bytes": 356,
+      "sha256": "bd314b5ef6477cc7e1e519bd93a24d3b9c1e1c79652312f75bb3878aaf6d4adb"
+    },
+    {
+      "path": "analysis-index/07_reports/yearly/2019_report.md",
+      "size_bytes": 5457,
+      "sha256": "748132d1aacd62576936bf309682efac2f4171fe0621f06ee3876cd56c286e3b"
+    },
+    {
+      "path": "analysis-index/08_quality/2019_test_results.json",
+      "size_bytes": 159,
+      "sha256": "d58fb68f6986c2219213c0ea4331ae46f01e347b3deb99814f57cd9a7bfc0efa"
+    },
+    {
+      "path": "analysis-index/08_quality/gates/2019_gate.json",
+      "size_bytes": 1565,
+      "sha256": "bb36173637551faa474c280800a993c5fb69db52007c01699dd9553fe568612b"
+    },
+    {
+      "path": "analysis-index/09_checkpoints/2019_checkpoint.json",
+      "size_bytes": 848,
+      "sha256": "8c890e9bff6d4d958d0ed3ef27c0a9880346caf0c2b9a421b962dbac390bfe39"
+    },
+    {
+      "path": "tests/test_2019_manual.py",
+      "size_bytes": 5025,
+      "sha256": "e50974c64754bcce2ad1e0b139d6445f2168fca3518b8dd75fd15082c905ceeb"
+    }
+  ]
+}

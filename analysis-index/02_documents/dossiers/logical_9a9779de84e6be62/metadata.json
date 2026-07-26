@@ -1,0 +1,35 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_9a9779de84e6be62",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_9a9779de84e6be62",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "成本比例线性回归",
+    "日级经营指标核算",
+    "降价百分比等级化",
+    "Excel 统计与数据拟合",
+    "28 类商品分组分析"
+  ],
+  "page_count": 37,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_9a9779de84e6be62",
+  "problem_code": "E",
+  "reported_results": [
+    "论文报告在折扣力度约 5.5、降价约 15.5% 时利润率达到约 19.4%。",
+    "弹性较高商品对折扣更敏感；部分非必需品利润改善有限。"
+  ],
+  "representation_id": "repr_9a9779de84e6be62",
+  "source_filename": "2019E：薄利多销销售策略的模型研究分析.pdf",
+  "source_sha256": "d8030b8c0d26b54df5b6b285501ecb81ca9518817b85f28ed21c8e0b79e912bb",
+  "source_size_bytes": 19167584,
+  "title": "2019E：薄利多销销售策略的模型研究分析",
+  "year": 2019
+}

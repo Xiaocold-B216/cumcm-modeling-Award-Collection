@@ -1,0 +1,37 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_089b0209bc381660",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_089b0209bc381660",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "SPSS 异常与缺失处理",
+    "MATLAB 成本补全",
+    "日营业额与利润率聚合",
+    "折扣力度挖掘",
+    "多元回归分析",
+    "29 类商品分类分析"
+  ],
+  "page_count": 36,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_089b0209bc381660",
+  "problem_code": "E",
+  "reported_results": [
+    "论文认为平均折扣率为 0%—25% 时利润提升困难。",
+    "提出 25%—27.5% 是较合适的“薄利多销”折扣率区间。",
+    "不同商品类别对折扣的反应存在显著差异。"
+  ],
+  "representation_id": "repr_089b0209bc381660",
+  "source_filename": "2019E：基于数据挖掘对“薄利多销”进行分析.pdf",
+  "source_sha256": "5a65936d38831e1fc1a42eccce6a7ede43582500a0d5b00872f6651dfbc74116",
+  "source_size_bytes": 14302138,
+  "title": "2019E：基于数据挖掘对“薄利多销”进行分析",
+  "year": 2019
+}

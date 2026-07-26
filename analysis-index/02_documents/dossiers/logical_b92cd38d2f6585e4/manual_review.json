@@ -1,0 +1,24 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "duplicate_merge_decision": "do_not_merge_unique_sha256",
+  "institution": "not_observed",
+  "logical_document_id": "logical_b92cd38d2f6585e4",
+  "non_blocking_limitations": [
+    "full reproduction of all paper computations not performed"
+  ],
+  "open_blocking_items": [],
+  "page_boundary_status": "verified_non_overlapping",
+  "preferred_representation_confirmed": true,
+  "problem_code_confirmed": "B",
+  "review_scope": [
+    "identity_and_role",
+    "title_or_schema",
+    "render_or_structure_integrity",
+    "selected_content_evidence"
+  ],
+  "reviewed_at": "2026-07-26T03:46:10Z",
+  "role_confirmed": "paper",
+  "status": "reviewed",
+  "year": 2019
+}

@@ -1,0 +1,38 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_9ebe2ff009cb6c4a",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_9ebe2ff009cb6c4a",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "质量守恒常微分方程",
+    "压力—密度数值积分",
+    "差分离散与数值模拟",
+    "积分平方偏差目标规划",
+    "遍历与分层搜索",
+    "凸轮—针阀几何模型"
+  ],
+  "page_count": 42,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_9ebe2ff009cb6c4a",
+  "problem_code": "A",
+  "reported_results": [
+    "100 MPa 稳压时单向阀开启时长约 0.288 ms。",
+    "升至 150 MPa 后稳态开启时长约 0.752 ms。",
+    "柱塞泵模型给出凸轮角速度约 27.5 rad/s；双喷嘴方案给出 55 rad/s 与 50 ms 间隔的组合。",
+    "比较泄压阀式和电磁阀式减压控制方案。"
+  ],
+  "representation_id": "repr_9ebe2ff009cb6c4a",
+  "source_filename": "2019A：基于数值模拟的高压油管压力控制模型.pdf",
+  "source_sha256": "dc2facd0cfd35e1ad71b0f18213c51cd8de9fad06430fb1cb2efec6a3bc77167",
+  "source_size_bytes": 18553365,
+  "title": "2019A：基于数值模拟的高压油管压力控制模型",
+  "year": 2019
+}

@@ -1,0 +1,36 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_b92cd38d2f6585e4",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_b92cd38d2f6585e4",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "一维常系数微分方程",
+    "动量与能量守恒",
+    "欧拉刚体旋转定理",
+    "转动惯量与力矩模型",
+    "模拟退火多目标优化"
+  ],
+  "page_count": 32,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_b92cd38d2f6585e4",
+  "problem_code": "B",
+  "reported_results": [
+    "给出九类拉力组合对应的鼓面倾角。",
+    "将小角度转动拆分为两个自由度的独立旋转。",
+    "通过全局优化得到适用于不同倾斜情形的队员调整方案。"
+  ],
+  "representation_id": "repr_b92cd38d2f6585e4",
+  "source_filename": "2019B：同心鼓运动模型的理论分析与策略研究.pdf",
+  "source_sha256": "fdece372d16a207fa7c4b3bd6df08a459ff8f2ba9552df4ca9aedcc02d826e30",
+  "source_size_bytes": 10615035,
+  "title": "2019B：同心鼓运动模型的理论分析与策略研究",
+  "year": 2019
+}

@@ -1,0 +1,37 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_12835ffaa968abe5",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_12835ffaa968abe5",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "0-1 收益决策",
+    "队列模拟与曲线拟合",
+    "控制变量敏感性分析",
+    "交通流上车点优化",
+    "短途优先临界模型"
+  ],
+  "page_count": 39,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_12835ffaa968abe5",
+  "problem_code": "C",
+  "reported_results": [
+    "示例机场被划分为四个司机决策时段。",
+    "模型认为等待时间是排队收益的主要影响因素。",
+    "上车点泊车位数量以乘车效率最大化确定。",
+    "给出基于时间和基于路程的两种短途优先标准。"
+  ],
+  "representation_id": "repr_12835ffaa968abe5",
+  "source_filename": "2019C：机场的出租车问题.pdf",
+  "source_sha256": "630c0988f179cead02a118b48fab5223a2c78b87e15da3c8b0533fffdc664c09",
+  "source_size_bytes": 12293988,
+  "title": "2019C：机场的出租车问题",
+  "year": 2019
+}

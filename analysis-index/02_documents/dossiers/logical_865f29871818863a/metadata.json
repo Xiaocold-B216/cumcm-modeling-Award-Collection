@@ -1,0 +1,37 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_865f29871818863a",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_865f29871818863a",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "数据质量与缺失处理",
+    "分布与箱线图分析",
+    "相关矩阵与散点矩阵",
+    "零点漂移和量程漂移",
+    "交叉影响回归",
+    "归一化回归校准"
+  ],
+  "page_count": 36,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_865f29871818863a",
+  "problem_code": "D",
+  "reported_results": [
+    "识别 PM2.5 与 PM10 的高相关关系以及 O3 与其他指标较弱的相关性。",
+    "指出不同污染物的漂移与气象影响路径不同。",
+    "校准后绝对误差和相对误差均明显降低。"
+  ],
+  "representation_id": "repr_865f29871818863a",
+  "source_filename": "2019D：空气质量监测数据校准模型研究.pdf",
+  "source_sha256": "0a8d5ad9251457e113c1080120d1bd3f938368eddcf16a53ba017b0607708f5d",
+  "source_size_bytes": 11310235,
+  "title": "2019D：空气质量监测数据校准模型研究",
+  "year": 2019
+}

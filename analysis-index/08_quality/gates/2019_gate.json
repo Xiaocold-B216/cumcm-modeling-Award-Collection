@@ -1,0 +1,45 @@
+{
+  "blocking_manual_review_items": 0,
+  "checks": {
+    "carrier_manifest_exists": true,
+    "expert_commentary_observed": "not_observed",
+    "json_jsonl_csv_valid": true,
+    "local_tests_passed": true,
+    "logical_documents_present": true,
+    "object_layers_separate": true,
+    "one_preferred_representation": true,
+    "page_regions_non_overlapping": true,
+    "physical_carriers_accounted": true,
+    "problem_statements_separate": true,
+    "remote_readback_verified": false,
+    "representations_verified": true,
+    "roles_valid": true,
+    "six_pack_complete": true,
+    "solution_lineages_verified": true,
+    "source_baseline_2019_directory_reconciled": "not_observed",
+    "source_hashes_verified": true,
+    "source_unmodified": true,
+    "supporting_objects_separate": true,
+    "unknown_not_absent": true
+  },
+  "counts": {
+    "expert_commentaries": 0,
+    "logical_documents": 34,
+    "pdf_pages": 562,
+    "physical_carriers": 34,
+    "problem_statements": 5,
+    "representations": 34,
+    "solution_lineages": 17,
+    "solution_papers": 17,
+    "supporting_objects": 12
+  },
+  "manual_review_items": 0,
+  "non_blocking_limitations": [
+    "source baseline 2019 directory tree could not be independently enumerated through the read-only connector",
+    "expert commentary not observed"
+  ],
+  "note": "All supplied carriers are processed and local tests pass. Conditional status is limited to baseline path reconciliation and pending remote readback.",
+  "status": "conditional_pass",
+  "updated_at": "2026-07-26T03:46:10Z",
+  "year": 2019
+}

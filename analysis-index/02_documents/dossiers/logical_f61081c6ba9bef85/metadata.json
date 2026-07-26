@@ -1,0 +1,36 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_f61081c6ba9bef85",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_f61081c6ba9bef85",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "数据汇总与缺失处理",
+    "两类成本补全",
+    "折扣力度指标",
+    "迭代加权最小二乘",
+    "需求价格弹性"
+  ],
+  "page_count": 23,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_f61081c6ba9bef85",
+  "problem_code": "E",
+  "reported_results": [
+    "折扣力度与销售额呈正相关。",
+    "折扣力度与利润率呈负相关。",
+    "价格弹性高的类别对折扣反应更明显。"
+  ],
+  "representation_id": "repr_f61081c6ba9bef85",
+  "source_filename": "2019E：基于打折力度概念的“薄利多销”模型.pdf",
+  "source_sha256": "7713c814fe742d1bfa4ee1ce0a466b74a09964f05fbaec40c11504b50625e43a",
+  "source_size_bytes": 6763974,
+  "title": "2019E：基于打折力度概念的“薄利多销”模型",
+  "year": 2019
+}

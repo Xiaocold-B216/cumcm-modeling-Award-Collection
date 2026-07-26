@@ -1,0 +1,37 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_1ba7cd1fb86e4b45",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_1ba7cd1fb86e4b45",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "SPSS 描述统计与 BDP 图",
+    "数据清洗与标准化",
+    "灰色关联分析",
+    "加权平均校准",
+    "RBF 神经网络",
+    "逐步多元线性回归"
+  ],
+  "page_count": 39,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_1ba7cd1fb86e4b45",
+  "problem_code": "D",
+  "reported_results": [
+    "指出风速与多项污染物误差存在较高灰关联度。",
+    "比较加权平均、RBF 网络和逐步回归的校准结果。",
+    "给出各污染物的误差修正序列。"
+  ],
+  "representation_id": "repr_1ba7cd1fb86e4b45",
+  "source_filename": "2019D：空气质量数据的校准（2）.pdf",
+  "source_sha256": "e11407323cdfeec345779e523cfc729b3ff9a9a126f1ec98468295e49a694b68",
+  "source_size_bytes": 12705646,
+  "title": "2019D：空气质量数据的校准（2）",
+  "year": 2019
+}

@@ -1,0 +1,38 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_e67041254721a593",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_e67041254721a593",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "生灭过程排队模型",
+    "乘客到达量预测",
+    "净收益决策模型",
+    "灵敏度与噪声分析",
+    "蒙特卡洛上车点模拟",
+    "优先排队模型"
+  ],
+  "page_count": 30,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_e67041254721a593",
+  "problem_code": "C",
+  "reported_results": [
+    "示例日 12:24—15:00 倾向空载返城，其他时段倾向排队载客。",
+    "15:00 蓄车池约 806 辆，预计排队 1.6 h，收益约 54.3 元/h。",
+    "报告决策准确率约 88.46%。",
+    "多上车点方案给出 5 个上车点、10 个泊位、发车效率约 184 辆/h。"
+  ],
+  "representation_id": "repr_e67041254721a593",
+  "source_filename": "2019C：机场出租车司机综合决策及机场出租车管理模型.pdf",
+  "source_sha256": "355fb07c5007b06eb0b6daec79244510c15f5c8b918f51808d6884b0db13668f",
+  "source_size_bytes": 10646915,
+  "title": "2019C：机场出租车司机综合决策及机场出租车管理模型",
+  "year": 2019
+}

@@ -1,0 +1,38 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_d1a2bebfa9616f25",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_d1a2bebfa9616f25",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "机制驱动收益模型",
+    "随机模拟与模型检验",
+    "航班与需求时序建模",
+    "单目标上车点优化",
+    "长短途优先排队优化",
+    "灵敏度与鲁棒性分析"
+  ],
+  "page_count": 39,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_d1a2bebfa9616f25",
+  "problem_code": "C",
+  "reported_results": [
+    "北京机场示例给出约 21 km 的司机选择转折点。",
+    "8 个上车点时乘客和出租车平均用时约 4 min。",
+    "短途 6 km 示例在 100 辆队列中优先至约第 15 位。",
+    "模拟截止时间 50 min 被认为较合理。"
+  ],
+  "representation_id": "repr_d1a2bebfa9616f25",
+  "source_filename": "2019C：基于系统模拟的机场出租车决策与安排模型.pdf",
+  "source_sha256": "8bb01eb671898a5687eac0058a5ae118f7459950957dec859011961f93595456",
+  "source_size_bytes": 16004130,
+  "title": "2019C：基于系统模拟的机场出租车决策与安排模型",
+  "year": 2019
+}

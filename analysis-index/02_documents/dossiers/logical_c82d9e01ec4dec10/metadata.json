@@ -1,0 +1,38 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_c82d9e01ec4dec10",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_c82d9e01ec4dec10",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "最小二乘物性拟合",
+    "质量守恒微分模型",
+    "离散时间遍历求解",
+    "双喷嘴相位优化",
+    "阈值减压控制",
+    "扰动稳定性检验"
+  ],
+  "page_count": 40,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_c82d9e01ec4dec10",
+  "problem_code": "A",
+  "reported_results": [
+    "单向阀最优开启时长约 0.29 ms。",
+    "2 s、5 s、10 s 升压情形给出约 0.90、0.75、0.73 ms 的过渡控制参数。",
+    "凸轮角速度约 27.195 rad/s 时压力波动较小。",
+    "双喷嘴半周期错峰方案与阈值减压方案均被比较。"
+  ],
+  "representation_id": "repr_c82d9e01ec4dec10",
+  "source_filename": "2019A：高压油管的压强控制.pdf",
+  "source_sha256": "805217ee3a78edff4799f1de969e4c05faecedebbec807afbadb03265c1273fd",
+  "source_size_bytes": 13657003,
+  "title": "2019A：高压油管的压强控制",
+  "year": 2019
+}

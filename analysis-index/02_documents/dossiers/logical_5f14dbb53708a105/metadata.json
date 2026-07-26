@@ -1,0 +1,36 @@
+{
+  "authors": "not_observed",
+  "award_level": "unknown",
+  "award_level_evidence": "not_observed",
+  "carrier_id": "carrier_5f14dbb53708a105",
+  "created_at": "2026-07-26T03:46:10Z",
+  "document_role": "paper",
+  "document_subtype": "solution_paper",
+  "evidence_status": "verified_from_supplied_carrier",
+  "institution": "not_observed",
+  "logical_document_id": "logical_5f14dbb53708a105",
+  "manual_review_status": "reviewed",
+  "media_type": "application/pdf",
+  "method_names": [
+    "分段一维碰撞模型",
+    "牛顿第二定律",
+    "三维平动与转动模型",
+    "力矩平衡与转动惯量",
+    "数值计算与策略搜索"
+  ],
+  "page_count": 27,
+  "parse_status": "complete",
+  "preferred_representation_id": "repr_5f14dbb53708a105",
+  "problem_code": "B",
+  "reported_results": [
+    "理想情形给出约 90 N 的同步拉力与 0.194 s 开始发力时刻。",
+    "较易操作的方案给出约 80 N 拉力和 0.22 s 开始发力。",
+    "对鼓面倾斜情形给出一组非均匀拉力用于纠偏。"
+  ],
+  "representation_id": "repr_5f14dbb53708a105",
+  "source_filename": "2019B：同心鼓“同心协力”策略探究.pdf",
+  "source_sha256": "4bb37c13f389734798a3ab8abb96cbda37473b9b4e2c1cc9a720a68474617b81",
+  "source_size_bytes": 7486332,
+  "title": "2019B：同心鼓“同心协力”策略探究",
+  "year": 2019
+}
