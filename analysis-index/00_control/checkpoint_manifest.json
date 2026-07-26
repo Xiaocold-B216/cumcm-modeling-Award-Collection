@@ -1,32 +1,39 @@
 {
   "schema_version": "1.4.1",
+  "analysis_branch": "analysis/corpus-index",
   "updated_at": "2026-07-26T03:30:00Z",
-  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
-  "entries": [
+  "checkpoints": [
     {
       "year": 2007,
       "status": "pass",
-      "checkpoint_path": "analysis-index/09_checkpoints/2007_checkpoint.json",
-      "remote_readback_verified": true,
-      "evidence_status": "observed_remote"
+      "remote_readback_verified": true
+    },
+    {
+      "year": 2008,
+      "status": "pass",
+      "remote_readback_verified": true
     },
     {
       "year": 2009,
       "status": "pass",
-      "checkpoint_path": "analysis-index/09_checkpoints/2009_checkpoint.json",
-      "remote_readback_verified": true,
-      "evidence_status": "observed_remote"
+      "remote_readback_verified": true
     },
     {
-      "year": 2017,
+      "year": 2010,
       "status": "conditional_pass",
-      "checkpoint_path": "analysis-index/09_checkpoints/2017_checkpoint.json",
       "remote_readback_verified": false,
-      "evidence_status": "generated_local"
+      "manual_review_items": 19
+    },
+    {
+      "year": 2011,
+      "status": "unverified_no_year_evidence",
+      "remote_readback_verified": false
+    },
+    {
+      "year": 2018,
+      "status": "conditional_pass",
+      "remote_readback_verified": false,
+      "package": "2018_analysis_upload.zip"
     }
-  ],
-  "notes": [
-    "This control file was not observed remotely before the 2017 run and is created conservatively.",
-    "2010-2016 are not promoted to pass."
   ]
 }

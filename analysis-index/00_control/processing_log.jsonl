@@ -1,7 +1,5 @@
-{"event_id":"2017_evt_001","timestamp":"2026-07-26T03:30:00Z","year":2017,"event":"remote_state_reconciliation","status":"complete","details":"Verified 2007, 2008, 2009 pass; 2010 conditional; 2011-2016 unsupported/not observed."}
-{"event_id":"2017_evt_002","timestamp":"2026-07-26T03:30:00Z","year":2017,"event":"source_receipt","status":"complete","details":"Received 20 carriers in current conversation."}
-{"event_id":"2017_evt_003","timestamp":"2026-07-26T03:30:00Z","year":2017,"event":"trusted_baseline_byte_verification","status":"complete","details":"All 20 received Git blob SHA-1 fingerprints match trusted baseline paths."}
-{"event_id":"2017_evt_004","timestamp":"2026-07-26T03:30:00Z","year":2017,"event":"identity_and_representation_resolution","status":"complete","details":"Resolved 19 logical documents, 20 representations, 6 lineages."}
-{"event_id":"2017_evt_005","timestamp":"2026-07-26T03:30:00Z","year":2017,"event":"missing_source_detection","status":"blocked_full_year","details":"12 exact solution-paper carriers missing."}
-{"event_id":"2017_evt_006","timestamp":"2026-07-26T03:30:00Z","year":2017,"event":"local_analysis_and_six_pack","status":"complete_for_received","details":"Generated six-pack for all 19 received logical documents."}
-{"event_id":"2017_evt_007","timestamp":"2026-07-26T03:30:00Z","year":2017,"event":"source_integrity_postcheck","status":"complete","details":"Original source modified count=0."}
+{"timestamp":"2026-07-26T03:30:00Z","event":"remote_state_reconciliation","year":2018,"result":"2007-2009 verified pass; 2010 conditional; 2011 no annual evidence; progress.json not treated as sole authority"}
+{"timestamp":"2026-07-26T03:30:00Z","event":"source_inventory","year":2018,"result":"27 physical carriers hashed including 4 RAR members; 0 modified"}
+{"timestamp":"2026-07-26T03:30:00Z","event":"manual_document_review","year":2018,"result":"27 logical documents, 13 solution papers; all observed boundaries and roles verified"}
+{"timestamp":"2026-07-26T03:30:00Z","event":"missing_support_detection","year":2018,"result":"C attachments 1-5 explicitly missing; nonblocking for indexing, blocking for reproduction"}
+{"timestamp":"2026-07-26T03:30:00Z","event":"local_quality_gate","year":2018,"result":"conditional_pass pending C data and remote readback"}

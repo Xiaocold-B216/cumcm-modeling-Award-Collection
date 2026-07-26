@@ -1,5 +1,8 @@
 {
   "analysis_branch": "analysis/corpus-index",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
   "completed_years": [
     1992,
     1993,
@@ -22,13 +25,10 @@
   ],
   "last_verified_complete_year": 2009,
   "next_recommended_year": 2010,
-  "parser_version": "0.5.2",
-  "schema_version": "1.4.1",
-  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
-  "target_end_year": 2017,
-  "project_status": "active_source_gap",
-  "remote_publish_status": "pending_user_upload_and_readback",
-  "updated_at": "2026-07-26T03:30:00Z",
+  "current_batch_target_year": 2018,
+  "current_batch_stop_after_year": 2018,
+  "project_status": "active_pending_user_upload_and_remote_readback",
+  "remote_publish_status": "pending_user_upload",
   "year_status": {
     "1992": "pass",
     "1993": "pass",
@@ -48,14 +48,18 @@
     "2007": "pass",
     "2008": "pass",
     "2009": "pass",
-    "2010": "conditional_pass",
-    "2011": "unverified_claim_not_supported_by_artifacts",
-    "2012": "not_observed",
-    "2013": "not_observed",
-    "2014": "not_observed",
-    "2015": "not_observed",
-    "2016": "not_observed",
-    "2017": "conditional_pass_missing_source_carriers"
+    "2010": "conditional_pass_manual_review_pending",
+    "2011": "unverified_no_year_evidence",
+    "2018": "conditional_pass_pending_remote_readback"
   },
-  "reconciliation_note": "Annual reports, gates and checkpoints take precedence over stale progress claims. 2017 is an independent non-contiguous checkpoint and does not advance last_verified_complete_year."
+  "state_reconciliation": {
+    "authoritative_basis": [
+      "yearly report",
+      "quality gate",
+      "checkpoint"
+    ],
+    "finding": "Remote progress.json overstated 2010/2011 completion. 2008/2009 have verified pass evidence; 2010 remains conditional; 2011 annual evidence was not found.",
+    "reconciled_at": "2026-07-26T03:30:00Z"
+  },
+  "updated_at": "2026-07-26T03:30:00Z"
 }
