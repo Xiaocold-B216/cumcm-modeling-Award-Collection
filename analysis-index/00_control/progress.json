@@ -1,5 +1,8 @@
 {
   "analysis_branch": "analysis/corpus-index",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.3+2015-complete-uploaded-set-manual-audit",
   "completed_years": [
     1992,
     1993,
@@ -21,18 +24,10 @@
     2009
   ],
   "last_verified_complete_year": 2009,
-  "next_recommended_year": 2010,
-  "non_contiguous_processed_years": [
-    2019
+  "conditional_years": [
+    2010,
+    2015
   ],
-  "parser_version": "0.5.2",
-  "project_status": "active_pending_user_upload",
-  "remote_publish_status": "pending_2019_user_upload_and_readback",
-  "schema_version": "1.4.1",
-  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
-  "state_reconciliation_note": "Reconciled from actual yearly reports, gates, and checkpoints: 2007-2009 verified pass; 2010 conditional_pass; 2011 yearly report/gate/checkpoint not observed; 2019 conditional_pass pending user upload and remote readback.",
-  "target_end_year": 2011,
-  "updated_at": "2026-07-26T03:46:10Z",
   "year_status": {
     "1992": "pass",
     "1993": "pass",
@@ -53,7 +48,18 @@
     "2008": "pass",
     "2009": "pass",
     "2010": "conditional_pass",
-    "2011": "not_verified_missing_year_artifacts",
-    "2019": "conditional_pass_pending_user_upload"
-  }
+    "2011": "unverified_no_complete_evidence",
+    "2012": "not_audited_in_current_run",
+    "2013": "not_audited_in_current_run",
+    "2014": "not_audited_in_current_run",
+    "2015": "conditional_pass_pending_user_upload_and_remote_readback"
+  },
+  "current_processed_year": 2015,
+  "target_end_year": 2015,
+  "next_recommended_year": null,
+  "stop_after_year": 2015,
+  "project_status": "stopped_at_2015_conditional_pass",
+  "remote_publish_status": "pending_user_upload",
+  "updated_at": "2026-07-26T02:48:38Z",
+  "state_reconciliation": "analysis-index/00_control/2015_status_reconciliation.md"
 }
