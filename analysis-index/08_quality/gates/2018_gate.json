@@ -1,0 +1,63 @@
+{
+  "year": 2018,
+  "status": "conditional_pass",
+  "publish_status": "pending_user_upload",
+  "checks": {
+    "all_uploaded_carriers_hashed": true,
+    "archive_members_extracted_and_hashed": true,
+    "problem_statements_verified": true,
+    "supporting_data_complete": false,
+    "roles_manually_verified": true,
+    "expert_commentary_separated": true,
+    "object_layers_separate": true,
+    "field_status_enum": true,
+    "unknown_not_absent": true,
+    "page_region_evidence_present": true,
+    "page_boundary_review_complete": true,
+    "one_preferred_representation_per_document": true,
+    "source_unmodified": true,
+    "statistics_scoped": true,
+    "logical_document_six_pack": true,
+    "manual_verification_complete_for_observed_material": true,
+    "missing_files_explicit": true,
+    "local_tests_passed": true,
+    "remote_readback_verified": false
+  },
+  "counts": {
+    "physical_carriers": 27,
+    "top_level_uploads": 23,
+    "embedded_archive_members": 4,
+    "archive_container_carriers": 1,
+    "logical_documents": 27,
+    "representations": 27,
+    "segments": 580,
+    "pdf_page_segments": 544,
+    "solution_papers": 13,
+    "problem_statements": 4,
+    "datasets": 8,
+    "commentaries": 2,
+    "expert_commentaries": 0,
+    "expert_feedback_status": "not_observed",
+    "methods": 119,
+    "visualization_patterns": 85,
+    "manual_review_open_items": 1,
+    "source_modified_count": 0,
+    "byte_duplicate_groups": 0
+  },
+  "manual_review_items": 1,
+  "blocking_manual_review_items": 0,
+  "known_issues": [
+    "C problem attachments 1-5 not supplied; data-level reproduction unavailable",
+    "2018-B-SOL-003 source filename has incorrect A prefix; classification corrected by content",
+    "two paper-internal wording inconsistencies preserved and annotated",
+    "award level not inferred"
+  ],
+  "conditional_pass_reason": "Observed corpus is fully indexed, but five C-problem data attachments and remote readback are outstanding.",
+  "updated_at": "2026-07-26T03:30:00Z",
+  "local_test_result": {
+    "command": "pytest -q tests/test_2018_manual.py",
+    "passed": 16,
+    "failed": 0,
+    "duration_seconds": 0.07
+  }
+}

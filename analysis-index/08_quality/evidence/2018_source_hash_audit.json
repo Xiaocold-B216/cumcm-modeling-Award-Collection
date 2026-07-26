@@ -1,0 +1,196 @@
+{
+  "year": 2018,
+  "source_modified_count": 0,
+  "hashes": [
+    {
+      "carrier_id": "2018-CAR-005",
+      "filename": "2018年国赛B题 附件（2）.rar",
+      "initial_sha256": "20b3e2fb11f014eec56b9045f45f94f676685a2f85f62dffda0d4a2ffc6218cc",
+      "final_sha256": "20b3e2fb11f014eec56b9045f45f94f676685a2f85f62dffda0d4a2ffc6218cc",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-006",
+      "filename": "2018年国赛C题.docx",
+      "initial_sha256": "b229d9d9bf973be900e36a21707784d9e92a075e149b47d5c7412f93946af95b",
+      "final_sha256": "b229d9d9bf973be900e36a21707784d9e92a075e149b47d5c7412f93946af95b",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-007",
+      "filename": "2018年国赛C题附录.txt",
+      "initial_sha256": "6bfbd13b50b7b49d592f6048b111f9bc7e7e36279ff58fc42af55692278cee4a",
+      "final_sha256": "6bfbd13b50b7b49d592f6048b111f9bc7e7e36279ff58fc42af55692278cee4a",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-008",
+      "filename": "2018年国赛D题.docx",
+      "initial_sha256": "229021b097c9f767fd7e9e57a5be961027977d91c6ce2f6f9818ed7fc888f14f",
+      "final_sha256": "229021b097c9f767fd7e9e57a5be961027977d91c6ce2f6f9818ed7fc888f14f",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-009",
+      "filename": "2018年国赛D题附件.xlsx",
+      "initial_sha256": "e909875f4314a154341bf4e288d9e42b8cf32595daa0c8084203ae231f1e6198",
+      "final_sha256": "e909875f4314a154341bf4e288d9e42b8cf32595daa0c8084203ae231f1e6198",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-010",
+      "filename": "2018全国大学生数学建模竞赛论文格式规范.doc",
+      "initial_sha256": "900ff8f0d314577a7ec6a204192aceb1129fba3b34850ece1bd8c5a1501cee56",
+      "final_sha256": "900ff8f0d314577a7ec6a204192aceb1129fba3b34850ece1bd8c5a1501cee56",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-001",
+      "filename": "2018年国赛A题.docx",
+      "initial_sha256": "f9cc25bc676020073498a68fbae077f04bd9a7ef3e97e683ae27cbc0947ee02f",
+      "final_sha256": "f9cc25bc676020073498a68fbae077f04bd9a7ef3e97e683ae27cbc0947ee02f",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-002",
+      "filename": "2018年国赛A题附件.xlsx",
+      "initial_sha256": "5cc06685f8fe568107a492351a5bc22f9119b0d509d324e303c84c0014e885a2",
+      "final_sha256": "5cc06685f8fe568107a492351a5bc22f9119b0d509d324e303c84c0014e885a2",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-003",
+      "filename": "2018年国赛B题 .doc",
+      "initial_sha256": "d115b6b24fd6c1e50c03186a5a5585945d3d3ba278d8cc5e0bdf9758e36e8f97",
+      "final_sha256": "d115b6b24fd6c1e50c03186a5a5585945d3d3ba278d8cc5e0bdf9758e36e8f97",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-004",
+      "filename": "2018年国赛B题 附件（1）.doc",
+      "initial_sha256": "84926364ac401fdf7aec325cf5c0bf7a92772f33a20135cb64bb15f09836d21f",
+      "final_sha256": "84926364ac401fdf7aec325cf5c0bf7a92772f33a20135cb64bb15f09836d21f",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-015",
+      "filename": "2018B：基于 0-1 规划的单 RGV 动态调度模型.pdf",
+      "initial_sha256": "fe929769cd2910351ff17517e814d2f238d45ca08a261ca9fae9425c8791cc30",
+      "final_sha256": "fe929769cd2910351ff17517e814d2f238d45ca08a261ca9fae9425c8791cc30",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-016",
+      "filename": "2018B：智能 RGV 的动态调度策略.pdf",
+      "initial_sha256": "225d97f5f63ca088c2f83113f698c454d2af9846f5bb4f79a6fb53cfe135c8d6",
+      "final_sha256": "225d97f5f63ca088c2f83113f698c454d2af9846f5bb4f79a6fb53cfe135c8d6",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-018",
+      "filename": "2018C：大型百货商场会员画像描述.pdf",
+      "initial_sha256": "13f2064cb213f797f83bba49f19ec22dca83f1924b51d7af4ec0a1759c74bf24",
+      "final_sha256": "13f2064cb213f797f83bba49f19ec22dca83f1924b51d7af4ec0a1759c74bf24",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-019",
+      "filename": "2018C：基于 RFMS 指标的大型百货商场会员画像数据挖掘.pdf",
+      "initial_sha256": "02b432c6e94112a7e1ed5d113edda521777edf14192ebbc806804769ea01678f",
+      "final_sha256": "02b432c6e94112a7e1ed5d113edda521777edf14192ebbc806804769ea01678f",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-020",
+      "filename": "2018C：基于 RFMT 模型的百货商场会员画像描绘.pdf",
+      "initial_sha256": "8c8ad6f12eb321a51291ec8616ec087a765bb177057b0eb4d0f7b7fe1c0032ce",
+      "final_sha256": "8c8ad6f12eb321a51291ec8616ec087a765bb177057b0eb4d0f7b7fe1c0032ce",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-011",
+      "filename": "2018A：高温作业服设计.pdf",
+      "initial_sha256": "b313a36c2f3d65102850c3bad2a89262a6bc403d25dbdf6035581e3cf2cae2aa",
+      "final_sha256": "b313a36c2f3d65102850c3bad2a89262a6bc403d25dbdf6035581e3cf2cae2aa",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-012",
+      "filename": "2018A：高温作业专用服装设计.pdf",
+      "initial_sha256": "eef9b9fb1dccf67c1dab44779ad25a7f28c57401162b04473f31d60492337ec3",
+      "final_sha256": "eef9b9fb1dccf67c1dab44779ad25a7f28c57401162b04473f31d60492337ec3",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-014",
+      "filename": "2018A：基于多原则比较和蒙特卡洛模拟的 RGV 动态调度模型.pdf",
+      "initial_sha256": "ff5fea82381fc3877f8fea031cd47426b54759284a9efe2fbc26873cee585689",
+      "final_sha256": "ff5fea82381fc3877f8fea031cd47426b54759284a9efe2fbc26873cee585689",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-013",
+      "filename": "2018A：基于非稳态导热的高温作业专用服装设计.pdf",
+      "initial_sha256": "ae162485ac1bf99fc7bc1f2062b19dca546597111226a5ded5a1ef08d74491a7",
+      "final_sha256": "ae162485ac1bf99fc7bc1f2062b19dca546597111226a5ded5a1ef08d74491a7",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-017",
+      "filename": "2018B：RGV 的动态调度优化问题.pdf",
+      "initial_sha256": "dd2faa6cfd84373ff40963d1ad1c7deced7a97878aafa146ff287f6246e00d17",
+      "final_sha256": "dd2faa6cfd84373ff40963d1ad1c7deced7a97878aafa146ff287f6246e00d17",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-021",
+      "filename": "2018D：汽车总装线配置的优化模型研究.pdf",
+      "initial_sha256": "6b9b3a408d9d55d049255a13ba2c14a078325897d7264de3a719958346673d7c",
+      "final_sha256": "6b9b3a408d9d55d049255a13ba2c14a078325897d7264de3a719958346673d7c",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-022",
+      "filename": "2018D：汽车总装线配置方案.pdf",
+      "initial_sha256": "c0e72628b5a316e06775a381f15293b26d0888d5676f16bc17fb051e5307e992",
+      "final_sha256": "c0e72628b5a316e06775a381f15293b26d0888d5676f16bc17fb051e5307e992",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-023",
+      "filename": "2018D：确定汽车装配顺序问题的算法.pdf",
+      "initial_sha256": "6c59ebd3a2e07b948865071e545e26b1ca5985cd2d41249e10db390268f4a378",
+      "final_sha256": "6c59ebd3a2e07b948865071e545e26b1ca5985cd2d41249e10db390268f4a378",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-024",
+      "filename": "Case_1_result.xls",
+      "initial_sha256": "aeb48491b0dd59f457c2ecb667545946f79f38c90f54f8e0c5793256106d1ef4",
+      "final_sha256": "aeb48491b0dd59f457c2ecb667545946f79f38c90f54f8e0c5793256106d1ef4",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-025",
+      "filename": "Case_2_result.xls",
+      "initial_sha256": "c303f0f0f8b786ee33020050189344ee09cb986601e6622c0b91367630ac8a35",
+      "final_sha256": "c303f0f0f8b786ee33020050189344ee09cb986601e6622c0b91367630ac8a35",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-026",
+      "filename": "Case_3_result_1.xls",
+      "initial_sha256": "6f2c182d5ae726b7e59d2cd6623eaa9e6958c4727bee707327e0657c9836bf6d",
+      "final_sha256": "6f2c182d5ae726b7e59d2cd6623eaa9e6958c4727bee707327e0657c9836bf6d",
+      "modified": false
+    },
+    {
+      "carrier_id": "2018-CAR-027",
+      "filename": "Case_3_result_2.xls",
+      "initial_sha256": "6ed83cb195138d89cd9cdc4a73e505e1ca7a7e15d9e3e5cb9385df54ad66269f",
+      "final_sha256": "6ed83cb195138d89cd9cdc4a73e505e1ca7a7e15d9e3e5cb9385df54ad66269f",
+      "modified": false
+    }
+  ],
+  "audited_at": "2026-07-26T03:30:00Z"
+}

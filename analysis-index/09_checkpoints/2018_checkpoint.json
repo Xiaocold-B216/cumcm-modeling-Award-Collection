@@ -1,0 +1,46 @@
+{
+  "year": 2018,
+  "checkpoint_type": "year_manual_local",
+  "status": "conditional_pass",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "counts": {
+    "physical_carriers": 27,
+    "top_level_uploads": 23,
+    "embedded_archive_members": 4,
+    "archive_container_carriers": 1,
+    "logical_documents": 27,
+    "representations": 27,
+    "segments": 580,
+    "pdf_page_segments": 544,
+    "solution_papers": 13,
+    "problem_statements": 4,
+    "datasets": 8,
+    "commentaries": 2,
+    "expert_commentaries": 0,
+    "expert_feedback_status": "not_observed",
+    "methods": 119,
+    "visualization_patterns": 85,
+    "manual_review_open_items": 1,
+    "source_modified_count": 0,
+    "byte_duplicate_groups": 0
+  },
+  "manual_review_complete_for_observed_material": true,
+  "missing_files": [
+    "2018-MISS-C-01",
+    "2018-MISS-C-02",
+    "2018-MISS-C-03",
+    "2018-MISS-C-04",
+    "2018-MISS-C-05"
+  ],
+  "recovery_bundle": "2018_analysis_upload.zip",
+  "recovery_bundle_sha256": "see external 2018_analysis_upload.zip.sha256 sidecar (not embedded to avoid self-referential hash)",
+  "remote_readback_verified": false,
+  "created_at": "2026-07-26T03:30:00Z",
+  "tests": {
+    "expected": 16,
+    "passed": 16,
+    "failed": 0
+  }
+}

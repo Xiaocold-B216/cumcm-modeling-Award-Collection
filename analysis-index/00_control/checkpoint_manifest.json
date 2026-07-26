@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.1",
+  "analysis_branch": "analysis/corpus-index",
+  "updated_at": "2026-07-26T03:30:00Z",
+  "checkpoints": [
+    {
+      "year": 2007,
+      "status": "pass",
+      "remote_readback_verified": true
+    },
+    {
+      "year": 2008,
+      "status": "pass",
+      "remote_readback_verified": true
+    },
+    {
+      "year": 2009,
+      "status": "pass",
+      "remote_readback_verified": true
+    },
+    {
+      "year": 2010,
+      "status": "conditional_pass",
+      "remote_readback_verified": false,
+      "manual_review_items": 19
+    },
+    {
+      "year": 2011,
+      "status": "unverified_no_year_evidence",
+      "remote_readback_verified": false
+    },
+    {
+      "year": 2018,
+      "status": "conditional_pass",
+      "remote_readback_verified": false,
+      "package": "2018_analysis_upload.zip"
+    }
+  ]
+}
