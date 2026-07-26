@@ -1,48 +1,48 @@
-﻿{
-    "year":  2015,
-    "status":  "conditional_pass",
-    "updated_at":  "2026-07-26T02:48:38Z",
-    "source_baseline_commit":  "a042ecf898feaba6fc81d543a10e0188db8b2b12",
-    "counts":  {
-                   "physical_carriers":  29,
-                   "logical_documents":  28,
-                   "representations":  29,
-                   "solution_papers":  18,
-                   "problem_statements":  4,
-                   "datasets":  6,
-                   "expert_commentaries":  0,
-                   "solution_lineages":  18,
-                   "pdf_pages":  480,
-                   "representation_segments":  625
-               },
-    "checks":  {
-                   "all_uploaded_carriers_hashed":  true,
-                   "raw_bundle_completeness_verified":  false,
-                   "all_referenced_attachments_present":  false,
-                   "roles_manually_verified":  true,
-                   "expert_commentary_separated":  true,
-                   "object_layers_separate":  true,
-                   "field_status_enum":  true,
-                   "unknown_not_absent":  true,
-                   "page_and_region_boundaries_valid":  true,
-                   "one_preferred_representation":  true,
-                   "source_unmodified":  true,
-                   "statistics_scoped":  true,
-                   "logical_document_six_pack":  true,
-                   "manual_verification_complete_for_uploaded_set":  true,
-                   "manual_verification_complete_for_full_year":  false,
-                   "local_tests_passed":  true
-               },
-    "manual_review_items":  2,
-    "blocking_manual_review_items":  2,
-    "known_issues":  [
-                         "A题附件4原始视频未上传",
-                         "29个散装文件无法与可信基线2015完整目录树做全量路径—哈希对账"
-                     ],
-    "note":  "conditional_pass applies to the audited 29-carrier uploaded set; it is not a trusted-baseline full-year completeness pass.",
-    "test_result":  {
-                        "passed":  36,
-                        "failed":  0,
-                        "command":  "PYTHONDONTWRITEBYTECODE=1 pytest -q -p no:cacheprovider tests/test_2015_manual.py"
-                    }
-}
+{
+  "year": 2015,
+  "status": "conditional_pass",
+  "updated_at": "2026-07-26T02:48:38Z",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "counts": {
+    "physical_carriers": 29,
+    "logical_documents": 28,
+    "representations": 29,
+    "solution_papers": 18,
+    "problem_statements": 4,
+    "datasets": 6,
+    "expert_commentaries": 0,
+    "solution_lineages": 18,
+    "pdf_pages": 480,
+    "representation_segments": 625
+  },
+  "checks": {
+    "all_uploaded_carriers_hashed": true,
+    "raw_bundle_completeness_verified": false,
+    "all_referenced_attachments_present": false,
+    "roles_manually_verified": true,
+    "expert_commentary_separated": true,
+    "object_layers_separate": true,
+    "field_status_enum": true,
+    "unknown_not_absent": true,
+    "page_and_region_boundaries_valid": true,
+    "one_preferred_representation": true,
+    "source_unmodified": true,
+    "statistics_scoped": true,
+    "logical_document_six_pack": true,
+    "manual_verification_complete_for_uploaded_set": true,
+    "manual_verification_complete_for_full_year": false,
+    "local_tests_passed": true
+  },
+  "manual_review_items": 2,
+  "blocking_manual_review_items": 2,
+  "known_issues": [
+    "A题附件4原始视频未上传",
+    "29个散装文件无法与可信基线2015完整目录树做全量路径—哈希对账"
+  ],
+  "note": "conditional_pass applies to the audited 29-carrier uploaded set; it is not a trusted-baseline full-year completeness pass.",
+  "test_result": {
+    "passed": 36,
+    "failed": 0,
+    "command": "PYTHONDONTWRITEBYTECODE=1 pytest -q -p no:cacheprovider tests/test_2015_manual.py"
+  }
+}

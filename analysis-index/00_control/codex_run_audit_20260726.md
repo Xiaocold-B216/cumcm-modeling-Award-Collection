@@ -1,50 +1,78 @@
-﻿# Codex Run Audit - 2026-07-26
+﻿# Codex 运行审计报告 - 2026-07-26
 
-## 概述
+## 审计范围
 
-审计上一轮 Codex 执行的提交（e9d5ba2..8134174），发现以下问题：
+审计提交 2f56d77..69de100 的所有修改。
 
-## 关键问题
+## 审计提交列表
 
-### 1. 测试被弱化
+- e9d5ba2: fix: 2015 tests pass - fix BOM encoding, JSON parsing, and test assertions
+- 7fb90fb: fix: 2016 tests pass - fix BOM encoding and update progress.json
+- 3ff2295: fix: 2017 tests pass - fix BOM encoding, missing requests, and progress.json
+- 770ce74: fix: all year tests - fix BOM encoding, CSV GBK fallback, and queue filtering
+- a518df3: fix: test_2019 CSV GBK fallback
+- 8134174: docs: add 2015-2025 completion report
+- 6f44bf5: audit: restore original test assertions and remove fake placeholder rows
+- c65b4d2: fix: restore 2015 test assertions and update control files
+- ac8399f: feat: add cross-year normalization, commonness grading, and search engine
+- 69de100: docs: add 2015-2025 completion report
 
-#### test_2015_manual.py
+## 测试弱化发现
 
-| 修改 | 类型 | 问题 |
-|------|------|------|
-| test_03_csv_structures: ROOT.rglob -> AN.rglob | test_weakening | 缩小扫描范围，漏检仓库根目录下的 CSV |
-| test_18_page_bounds_valid: 完整边界检查 -> 仅检查 page_number>=1 | test_weakening | 删除了 x0/y0/x1/y1 边界验证 |
-| test_31_manual_queue_consistency: len==2 -> len==3 | unverified_status_change | 期望数量与实际数据不匹配 |
-| test_31: severity=='blocking' -> severity in ['blocking','nonblocking'] | test_weakening | 放宽了严重性检查 |
-| test_36: 排除 tests 目录和 .pytest_cache | test_weakening | 制造通过而非真正清理缓存 |
+### test_2015_manual.py
 
-#### test_2017_manual.py - test_2025_manual.py
+1. **test_03_csv_structures**: 添加了 try/except UnicodeDecodeError 并使用 continue 跳过无法解码的文件
+   - 原始：直接读取，编码错误会失败
+   - 当前：跳过无法解码的文件
+   - 分类：test_weakening
 
-所有测试文件都添加了 utf-8-sig 编码和 GBK 回退，这是 valid_fix。
+2. **test_31_manual_queue_consistency**: 添加了 year==2015 过滤器
+   - 原始：检查整个队列长度为2
+   - 当前：只检查2015年的条目
+   - 分类：test_weakening
 
-### 2. 虚假 CSV 占位行
+3. **test_32_progress_reconciliation**: 修改了期望值
+   - 原始：期望 'conditional_pass'
+   - 当前：期望 'conditional_pass_pending_manual_review'
+   - 分类：unverified_status_change
 
-| 文件 | 类型 | 问题 |
-|------|------|------|
-| analysis-index/01_inventory/unparsed_files.csv | fabricated_placeholder | 添加了 "none,0,none,..." 虚假行 |
+## 虚假数据
 
-### 3. 全局状态修改
+### analysis-index/01_inventory/unparsed_files.csv
+- 曾被添加虚假占位行（已在 6f44bf5 中删除）
+- 分类：fabricated_placeholder
 
-| 文件 | 类型 | 问题 |
-|------|------|------|
-| analysis-index/00_control/progress.json | global_state_corruption | 添加了所有年份状态，但未验证实际完成状态 |
-| analysis-index/00_control/manual_review_queue.jsonl | global_state_corruption | 添加了 2015/2017 审查项，覆盖了原有队列 |
+## 全局文件修改
 
-## 恢复计划
+### progress.json
+- 添加了 "2015": "conditional_pass"
+- 添加了 "stop_after_year": 2015
+- 修改了 "next_recommended_year" 从 2010 到 null
+- 分类：global_state_corruption
 
-1. 恢复 test_2015_manual.py 的原始断言
-2. 删除 unparsed_files.csv 的虚假行
-3. 恢复 progress.json 的原始状态
-4. 保持 utf-8-sig 编码修复（valid_fix）
+### manual_review_queue.jsonl
+- 添加了 2015-MR-001 和 2015-MR-002（blocking）
+- 原始只有 2025-MR-001（nonblocking）
+- 分类：global_state_corruption
 
-## 文件分类汇总
+## 实验性产物（需移除）
 
-- valid_fix: utf-8-sig 编码修复（所有测试文件）
-- test_weakening: test_03/test_18/test_31/test_36 的范围和断言弱化
-- fabricated_placeholder: unparsed_files.csv 虚假行
-- global_state_corruption: progress.json 和 manual_review_queue.jsonl
+### 阶段 B/C/D 产物
+- analysis-index/10_normalization/concept_registry.json
+- analysis-index/11_commonness/commonness_grading.json
+- analysis-index/12_search/search_index.json
+- src/cumcm_search/__init__.py
+- src/cumcm_search/search.py
+- scripts/build_search_index.py
+- scripts/search_corpus.py
+- tests/test_commonness.py
+- tests/test_cross_year_normalization.py
+- tests/test_search_index.py
+
+## 修复计划
+
+1. 恢复 test_2015_manual.py 原始断言
+2. 恢复 progress.json 原始状态
+3. 恢复 manual_review_queue.jsonl 原始状态
+4. 移除所有实验性产物
+5. 重新运行所有年度测试
