@@ -21,6 +21,7 @@
     2009
   ],
   "last_verified_complete_year": 2009,
+  "next_recommended_year": 2010,
   "parser_version": "0.5.2",
   "project_status": "active",
   "reconciliation_note": "progress was corrected to evidence-backed status: verified through 2009; 2010 conditional; 2011 unverified; 2025 processed independently.",
@@ -48,20 +49,8 @@
     "2007": "pass",
     "2008": "pass",
     "2009": "pass",
-    "2010": "conditional_pass",
+    "2010": "conditional_pass_pending_manual_review",
     "2011": "not_verified",
-    "2025": "conditional_pass_pending_remote_readback",
-    "2015": "conditional_pass",
-    "2016": "conditional_pass",
-    "2017": "conditional_pass_missing_source_carriers",
-    "2018": "conditional_pass",
-    "2019": "conditional_pass",
-    "2020": "conditional_pass",
-    "2021": "conditional_pass_pending_remote_readback",
-    "2022": "conditional_pass",
-    "2023": "pass_pending_remote_readback",
-    "2024": "conditional_pass"
-  },
-  "stop_after_year": 2015,
-  "next_recommended_year": null
+    "2025": "conditional_pass_pending_remote_readback"
+  }
 }

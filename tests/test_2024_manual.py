@@ -42,7 +42,10 @@ def test_json_jsonl_parse():
 
 def test_csv_parse_and_counts():
     p=ROOT/'analysis-index/02_documents/logical_documents/2024.csv'
-    with p.open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
+    try:
+   with p.open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
+  except UnicodeDecodeError:
+   with p.open(encoding='gbk',newline='') as f: rows=list(csv.DictReader(f))
     assert len(rows)==29
     assert sum(r['document_role']=='paper' for r in rows)==16
     assert sum(r['document_role']=='problem' for r in rows)==5

@@ -109,7 +109,7 @@ def test_manual_review_is_nonblocking():
     assert len(q)==1 and q[0]['severity']=='nonblocking' and q[0]['status']=='open'
 
 def test_missing_segment_requests_empty():
-    assert [x for x in read_jsonl(AI/'00_control/missing_segment_requests.jsonl') if x.get('year')==2025]==[]
+    assert read_jsonl(AI/'00_control/missing_segment_requests.jsonl')==[]
 
 def test_source_unmodified_evidence():
     e=json.loads((AI/'08_quality/evidence/2025_source_hash_verification.json').read_text(encoding='utf-8-sig'))

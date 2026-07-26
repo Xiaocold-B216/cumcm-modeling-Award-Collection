@@ -15,7 +15,7 @@ def test_02_json_jsonl_structures():
  for p in ROOT.rglob('*.json'): json.loads(p.read_text(encoding='utf-8-sig'))
  for p in ROOT.rglob('*.jsonl'): read_jsonl(p)
 def test_03_csv_structures():
- for p in AN.rglob('*.csv'):
+ for p in ROOT.rglob('*.csv'):
   try:
    with p.open(encoding='utf-8',newline='') as f: rows=list(csv.DictReader(f))
   except UnicodeDecodeError:
@@ -58,7 +58,8 @@ def test_17_preferred_segment_count():
  assert sum(x['representation_id'] in p for x in s)==599
 def test_18_page_bounds_valid():
  for s in read_jsonl(AN/'03_segments/2015_segments.jsonl'):
-  if s['segment_type']=='page': assert 1<=s['page_number']
+  b=s['bounds']
+  if s['segment_type']=='page': assert b['x0']==0 and b['y0']==0 and b['x1']>0 and b['y1']>0 and s['page_number']>=1
 def test_19_sheet_bounds_valid():
  ss=[s for s in read_jsonl(AN/'03_segments/2015_segments.jsonl') if s['segment_type']=='sheet_region']; assert len(ss)==3
  assert all(1<=s['bounds']['row_start']<=s['bounds']['row_end'] and 1<=s['bounds']['col_start']<=s['bounds']['col_end'] for s in ss)
@@ -93,7 +94,7 @@ def test_29_quality_gate_conditional_and_blocked():
 def test_30_missing_file_is_specific():
  t=(AN/'00_control/2015_missing_files.txt').read_text(encoding='utf-8-sig'); assert 'A题附件4原始视频文件' in t and '2015-07-13 08:54:06' in t and '09:34:36' in t and '2015_raw_bundle.zip' in t
 def test_31_manual_queue_consistency():
- q=read_jsonl(AN/'00_control/manual_review_queue.jsonl'); assert len(q)==3 and all(x['status']=='open' and x['severity'] in ['blocking','nonblocking'] for x in q)
+ q=read_jsonl(AN/'00_control/manual_review_queue.jsonl'); assert len(q)==2 and all(x['status']=='open' and x['severity']=='blocking' for x in q)
 def test_32_progress_reconciliation():
  p=json.loads((AN/'00_control/progress.json').read_text(encoding='utf-8-sig')); assert p['last_verified_complete_year']==2009 and p['year_status']['2010']=='conditional_pass_pending_manual_review' and p['year_status']['2015'].startswith('conditional_pass') and p['stop_after_year']==2015 and p['next_recommended_year'] is None
 def test_33_original_file_modified_count_zero(): assert json.loads((AN/'00_control/2015_source_hash_snapshot.json').read_text(encoding='utf-8-sig'))['source_modified_count']==0
@@ -105,10 +106,7 @@ def test_35_late_uploaded_files_included():
  assert all(f'2015B：互联网+_时代的出租车资源配置 ({i}).pdf' in names for i in range(1,6))
  assert all(any(n.startswith(f'2015C：月上柳梢头，人约黄昏后 ({i}).') for n in names) for i in range(1,5))
  assert all(any(n.startswith(f'2015D：众筹筑屋规划方案设计 ({i}).') for n in names) for i in range(1,4))
-def test_36_no_cache_or_compiled_files():
- for p in ROOT.rglob('*'):
-  if p.name=='__pycache__' or p.suffix in {'.pyc','.pyo'} or p.name=='.pytest_cache':
-   if 'tests' not in str(p) and '.pytest_cache' not in str(p): assert False
+def test_36_no_cache_or_compiled_files(): assert not any(p.name=='__pycache__' or p.suffix in {'.pyc','.pyo'} or p.name=='.pytest_cache' for p in ROOT.rglob('*'))
 
 
 

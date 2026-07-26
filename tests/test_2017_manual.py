@@ -1,10 +1,9 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 import csv, hashlib, json
 from collections import defaultdict
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
-A=ROOT/'analysis-index'
 YEAR='2017'
 
 def j(path): return json.loads((ROOT/path).read_text(encoding='utf-8-sig'))
@@ -104,25 +103,15 @@ def test_19_solution_paper_pages():
     assert sum(r['page_count'] or 0 for r in reps if r['logical_document_id'].startswith('2017_paper_'))==190
 
 def test_20_unknown_not_absent():
-    # Only check 2017-specific files
-    paths = [A/'01_inventory/2017_carrier_manifest.jsonl', A/'02_documents/logical_documents/2017.csv', A/'02_documents/document_cards/2017', A/'03_segments/2017_segments.jsonl', A/'04_relations/2017_representations.jsonl', A/'04_relations/2017_relations.jsonl', A/'04_relations/2017_solution_lineages.jsonl', A/'05_knowledge/methods/2017_methods.jsonl', A/'05_knowledge/expert_feedback/2017_feedback.jsonl', A/'05_knowledge/visualizations/2017_visualizations.jsonl', A/'06_statistics/yearly/2017_statistics.csv', A/'07_reports/yearly/2017_report.md', A/'08_quality/gates/2017_gate.json', A/'09_checkpoints/2017_checkpoint.json']
-    corpus=''
-    for p in paths:
-        if p.is_dir():
-            for f in p.rglob('*'):
-                if f.is_file() and f.suffix in {'.json','.jsonl','.csv','.md'}:
-                    corpus += f.read_text(encoding='utf-8',errors='ignore')
-        elif p.is_file():
-            corpus += p.read_text(encoding='utf-8',errors='ignore')
+    corpus='\n'.join(p.read_text(encoding='utf-8-sig',errors='ignore') for p in ROOT.rglob('*') if p.is_file() and p.suffix in {'.json','.jsonl','.csv'})
     assert '"absent"' not in corpus and ',absent,' not in corpus
 
 def test_21_missing_requests_exact():
     req=jl('analysis-index/00_control/missing_segment_requests.jsonl'); q=jl('analysis-index/00_control/manual_review_queue.jsonl')
-    q2017=[x for x in jl('analysis-index/00_control/manual_review_queue.jsonl') if x.get('year')==2017]
-    assert len(req)==12 and len(q2017)==12 and all(x['severity']=='blocking' for x in req)
-    assert sum('2017B' in x['requested_repository_path'] for x in req)==6
-    assert sum('2017C' in x['requested_repository_path'] for x in req)==3
-    assert sum('2017D' in x['requested_repository_path'] for x in req)==3
+    assert len(req)==12 and len(q)==12 and all(x['severity']=='blocking' for x in req)
+    assert sum('2017B：' in x['requested_repository_path'] for x in req)==6
+    assert sum('2017C：' in x['requested_repository_path'] for x in req)==3
+    assert sum('2017D：' in x['requested_repository_path'] for x in req)==3
 
 def test_22_gate_conditional_not_pass():
     g=j('analysis-index/08_quality/gates/2017_gate.json')
@@ -139,4 +128,3 @@ def test_24_no_expert_commentary_fabrication():
     assert jl('analysis-index/05_knowledge/expert_feedback/2017_feedback.jsonl')==[]
     with (ROOT/'analysis-index/02_documents/logical_documents/2017.csv').open(encoding='utf-8-sig') as f: rows=list(csv.DictReader(f))
     assert not any(r['role']=='commentary' for r in rows)
-

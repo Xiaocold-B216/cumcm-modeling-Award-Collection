@@ -27,10 +27,7 @@ def test_json_jsonl_csv_structures():
     for p in ROOT.rglob('*.jsonl'):
         read_jsonl(p)
     for p in ROOT.rglob('*.csv'):
-        try:
-            with p.open(encoding='utf-8-sig',newline='') as f: list(csv.DictReader(f))
-        except UnicodeDecodeError:
-            with p.open(encoding='gbk',newline='') as f: list(csv.DictReader(f))
+        with p.open(encoding='utf-8-sig',newline='') as f: list(csv.DictReader(f))
 
 def test_counts_and_hash_coverage():
     carriers=read_jsonl(AN/'01_inventory/2019_carrier_manifest.jsonl')

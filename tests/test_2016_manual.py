@@ -73,9 +73,9 @@ def test_checkpoint_not_remote_verified(): assert j(A/'09_checkpoints/2016_check
 def test_progress_reconciled():
     p=j(A/'00_control/progress.json'); assert p['last_verified_complete_year']==2009 and p['year_status']['2010']=='conditional_pass' and p['year_status']['2016'].startswith('conditional_pass')
 def test_missing_file_precise():
-    t=(ROOT/'2016_missing_files.txt').read_text(encoding='utf-8'); assert '4#、16#、24#、33#、49#、57#' in t and 'D题附件2' in t
+    t=(ROOT/'2016_missing_files.txt').read_text(encoding='utf-8-sig'); assert '4#、16#、24#、33#、49#、57#' in t and 'D题附件2' in t
 def test_monthly_data_audit_in_report():
-    t=(A/'07_reports/yearly/2016_report.md').read_text(encoding='utf-8'); assert '35040' in t and '10个空白或非数值风速单元格' in t
+    t=(A/'07_reports/yearly/2016_report.md').read_text(encoding='utf-8-sig'); assert '35040' in t and '10个空白或非数值风速单元格' in t
 def test_no_award_inference(): assert all(x['award_level'] in {'unknown','not_applicable'} for x in docs())
 
 
