@@ -1,0 +1,11 @@
+{
+  "logical_document_id": "2021-commentary-format-spec",
+  "review_status": "complete",
+  "checks": {
+    "administrative_guidance_role_verified": true,
+    "not_solution_paper": true,
+    "not_expert_commentary": true,
+    "derived_render_pages": 6
+  },
+  "reviewed_at": "2026-07-26T05:25:25Z"
+}

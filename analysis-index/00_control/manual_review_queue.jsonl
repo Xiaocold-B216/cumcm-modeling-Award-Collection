@@ -1,4 +1,2 @@
-{"review_id": "2020-REVIEW-001", "year": 2020, "severity": "nonblocking", "document_id": "2020-A-PROBLEM-001", "issue": "官方A题DOCX制程界限表和调整范围存在源文件缺字；数值由多篇论文一致交叉恢复", "status": "documented"}
-{"review_id": "2020-REVIEW-002", "year": 2020, "severity": "nonblocking", "document_id": "2020-C-PROBLEM-001", "issue": "官方C题DOCX贷款额度范围源文件缺字；多篇论文一致写为10—100万元", "status": "documented"}
-{"review_id": "2020-REVIEW-003", "year": 2020, "severity": "corrected", "document_id": "2020-C-PAPER-002", "issue": "文件名前缀误写2020D，正文明确属于C题", "status": "corrected"}
-{"review_id": "2020-REVIEW-004", "year": 2020, "severity": "nonblocking", "document_id": "2020-B-PROBLEM-001", "issue": "MathType公式需结合OLE/WMF专门提取", "status": "documented"}
+{"queue_id": "mrq-2021-001", "year": 2021, "severity": "non_blocking", "scope": "corpus_completeness", "status": "open", "request": "使用官方获奖/优秀论文清单外部核对本上传包17篇解答是否覆盖年度全部公开优秀论文。", "reason": "上传包内部完整，但未引入外部官方清单。"}
+{"queue_id": "mrq-2021-002", "year": 2021, "severity": "non_blocking", "scope": "semantic_precision", "logical_document_id": "2021-paper-B026", "status": "open", "request": "核对摘要中最优收率“5719”和“4648”的小数点/百分号排版。", "reason": "扫描页原排版未显示明确小数点，索引未擅自归一化。"}

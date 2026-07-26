@@ -1,0 +1,55 @@
+{
+  "logical_document_id": "2021-dataset-E3-near-mid-ir-origins",
+  "year": 2021,
+  "role": "dataset",
+  "document_subtype": "input_dataset",
+  "problem_id": "E",
+  "title": "E题附件3：近红外与中红外产地数据",
+  "corpus_eligibility": "eligible_support",
+  "parse_status": "schema_inspected",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "preferred_representation_id": "rep-2021-dataset-E3-near-mid-ir-origins-02",
+  "representation_count": 2,
+  "carrier_count": 2,
+  "page_or_region_count": 2,
+  "award_level": "not_applicable",
+  "expert_commentary": false,
+  "notes": "近红外256×5998和中红外256×3450两个工作表。两份文件字节完全相同；按内容纠正为E题附件3。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representations": [
+    {
+      "representation_id": "rep-2021-dataset-E3-near-mid-ir-origins-01",
+      "logical_document_id": "2021-dataset-E3-near-mid-ir-origins",
+      "year": 2021,
+      "representation_type": "xlsx_workbook",
+      "carrier_ids": [
+        "car-2021-0747"
+      ],
+      "preferred": false,
+      "coverage_status": "complete",
+      "page_count": null,
+      "byte_identical_group": "3d5c6a1cbbc679a63ba22c8971376e2e6b2275c533a16c4ae353725efd013ada",
+      "notes": "retained alternate physical representation; not deleted; exact byte duplicate of sibling representation"
+    },
+    {
+      "representation_id": "rep-2021-dataset-E3-near-mid-ir-origins-02",
+      "logical_document_id": "2021-dataset-E3-near-mid-ir-origins",
+      "year": 2021,
+      "representation_type": "xlsx_workbook",
+      "carrier_ids": [
+        "car-2021-0752"
+      ],
+      "preferred": true,
+      "coverage_status": "complete",
+      "page_count": null,
+      "byte_identical_group": "3d5c6a1cbbc679a63ba22c8971376e2e6b2275c533a16c4ae353725efd013ada",
+      "notes": "preferred canonical filename/content representation; exact byte duplicate of sibling representation"
+    }
+  ],
+  "field_observation_policy": "未观察字段使用unknown或not_observed；不以自动未命中写absent。",
+  "generated_at": "2026-07-26T05:25:25Z"
+}

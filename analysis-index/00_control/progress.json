@@ -1,6 +1,29 @@
 {
   "analysis_branch": "analysis/corpus-index",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
   "completed_years": [
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "processed_years": [
     1992,
     1993,
     1994,
@@ -20,17 +43,15 @@
     2008,
     2009,
     2010,
-    2011
+    2011,
+    2021
   ],
   "last_verified_complete_year": 2009,
-  "next_recommended_year": 2020,
-  "parser_version": "0.5.3",
-  "project_status": "conditional_pass_2020_pending_remote_readback",
-  "remote_publish_status": "local_package_ready_not_uploaded",
-  "schema_version": "1.4.1",
-  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
-  "target_end_year": 2020,
-  "updated_at": "2026-07-26T04:30:00Z",
+  "current_target_year": 2021,
+  "target_end_year": 2021,
+  "next_recommended_year": null,
+  "project_status": "2021_conditional_pass_pending_upload_and_remote_readback",
+  "remote_publish_status": "pending_user_upload",
   "year_status": {
     "1992": "pass",
     "1993": "pass",
@@ -50,23 +71,11 @@
     "2007": "pass",
     "2008": "pass",
     "2009": "pass",
-    "2010": "pass_pending_remote_readback",
-    "2011": "pass_pending_remote_readback",
-    "2020": "conditional_pass_pending_remote_readback"
+    "2010": "conditional_pass",
+    "2011": "unverified_progress_claim_pending_remote_readback",
+    "2021": "conditional_pass_pending_remote_readback"
   },
-  "state_reconciliation": {
-    "current_session_remote_files_verified": [
-      "analysis-index/00_control/progress.json",
-      "analysis-index/08_quality/gates/2007_gate.json",
-      "analysis-index/09_checkpoints/2007_checkpoint.json",
-      "analysis-index/07_reports/yearly/2007_report.md"
-    ],
-    "authoritative_safe_checkpoint_year": 2007,
-    "progress_completed_array_inconsistency": "2010 and 2011 are listed as completed but remain pass_pending_remote_readback",
-    "current_session_does_not_reclassify_2008_2011_without_yearly_readback": true,
-    "remote_progress_blob_sha": "1ac6896e9a80eab95a9b50ad5eb5be54b2648659",
-    "current_2020_bundle_carriers": 39,
-    "current_2020_solution_papers": 17,
-    "2020_completed_years_policy": "2020 is not added to completed_years until remote readback verification"
-  }
+  "state_reconciliation_note": "progress.json旧声明与2010质量门冲突；按实际年度gate/checkpoint/report，以2009为最高远端核验完整年。2021仅在本地完成，等待用户上传及远端读回。",
+  "workflow_stop_after_year": 2021,
+  "updated_at": "2026-07-26T05:25:25Z"
 }

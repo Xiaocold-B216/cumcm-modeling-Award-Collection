@@ -1,0 +1,12 @@
+{
+  "logical_document_id": "2021-dataset-A1-nodes",
+  "review_status": "complete",
+  "checks": {
+    "file_opened_read_only": true,
+    "schema_sample_reviewed": true,
+    "sha256_verified": true,
+    "preferred_representation_unique": true,
+    "source_unmodified": true
+  },
+  "reviewed_at": "2026-07-26T05:25:25Z"
+}

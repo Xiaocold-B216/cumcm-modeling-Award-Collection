@@ -1,0 +1,41 @@
+{
+  "logical_document_id": "2021-problem-E",
+  "year": 2021,
+  "role": "problem",
+  "document_subtype": "official_problem_statement",
+  "problem_id": "E",
+  "title": "中药材的鉴别",
+  "corpus_eligibility": "eligible_reference",
+  "parse_status": "parsed",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "preferred_representation_id": "rep-2021-problem-E-pdf",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_or_region_count": 3,
+  "award_level": "not_applicable",
+  "expert_commentary": false,
+  "notes": "利用近红外与中红外光谱鉴别中药材类别和产地，研究特征差异并对指定未知样本进行分类。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representations": [
+    {
+      "representation_id": "rep-2021-problem-E-pdf",
+      "logical_document_id": "2021-problem-E",
+      "year": 2021,
+      "representation_type": "pdf",
+      "carrier_ids": [
+        "car-2021-0749"
+      ],
+      "preferred": true,
+      "coverage_status": "complete",
+      "page_count": 3,
+      "byte_identical_group": null,
+      "notes": "原生PDF题面。"
+    }
+  ],
+  "field_observation_policy": "未观察字段使用unknown或not_observed；不以自动未命中写absent。",
+  "generated_at": "2026-07-26T05:25:25Z"
+}

@@ -1,0 +1,41 @@
+{
+  "logical_document_id": "2021-dataset-A4-result-template",
+  "year": 2021,
+  "role": "dataset",
+  "document_subtype": "result_template",
+  "problem_id": "A",
+  "title": "A题附件4：result.xlsx结果模板",
+  "corpus_eligibility": "eligible_support",
+  "parse_status": "schema_inspected",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "preferred_representation_id": "rep-2021-dataset-A4-result-template-01",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_or_region_count": 3,
+  "award_level": "not_applicable",
+  "expert_commentary": false,
+  "notes": "3个工作表：理想抛物面顶点、调整后主索节点及坐标、促动器伸缩量。文件名序号与题面附件编号不一致，内容身份按工作表确认。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representations": [
+    {
+      "representation_id": "rep-2021-dataset-A4-result-template-01",
+      "logical_document_id": "2021-dataset-A4-result-template",
+      "year": 2021,
+      "representation_type": "xlsx_workbook",
+      "carrier_ids": [
+        "car-2021-0733"
+      ],
+      "preferred": true,
+      "coverage_status": "complete",
+      "page_count": null,
+      "byte_identical_group": null,
+      "notes": "preferred canonical filename/content representation"
+    }
+  ],
+  "field_observation_policy": "未观察字段使用unknown或not_observed；不以自动未命中写absent。",
+  "generated_at": "2026-07-26T05:25:25Z"
+}

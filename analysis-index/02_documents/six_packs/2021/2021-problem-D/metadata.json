@@ -1,0 +1,41 @@
+{
+  "logical_document_id": "2021-problem-D",
+  "year": 2021,
+  "role": "problem",
+  "document_subtype": "official_problem_statement",
+  "problem_id": "D",
+  "title": "连铸切割的在线优化",
+  "corpus_eligibility": "eligible_reference",
+  "parse_status": "parsed",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "preferred_representation_id": "rep-2021-problem-D-pdf",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_or_region_count": 2,
+  "award_level": "not_applicable",
+  "expert_commentary": false,
+  "notes": "在正常切割、尾坯和结晶器异常报废段条件下，按切割损失优先、用户目标次优的原则生成实时最优切割方案。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representations": [
+    {
+      "representation_id": "rep-2021-problem-D-pdf",
+      "logical_document_id": "2021-problem-D",
+      "year": 2021,
+      "representation_type": "pdf",
+      "carrier_ids": [
+        "car-2021-0744"
+      ],
+      "preferred": true,
+      "coverage_status": "complete",
+      "page_count": 2,
+      "byte_identical_group": null,
+      "notes": "原生PDF题面。"
+    }
+  ],
+  "field_observation_policy": "未观察字段使用unknown或not_observed；不以自动未命中写absent。",
+  "generated_at": "2026-07-26T05:25:25Z"
+}

@@ -1,0 +1,60 @@
+{
+  "year": 2021,
+  "status": "conditional_pass",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "checks": {
+    "outer_archive_hashed": true,
+    "all_archive_members_hashed": true,
+    "all_problem_statements_verified": true,
+    "supporting_data_verified": true,
+    "roles_manually_verified": true,
+    "expert_commentary_separated": true,
+    "object_layers_separate": true,
+    "field_status_enum": true,
+    "unknown_not_absent": true,
+    "page_boundary_review_complete": true,
+    "one_preferred_representation": true,
+    "source_unmodified": true,
+    "statistics_scoped": true,
+    "logical_document_six_pack": true,
+    "paper_page_sequences_complete": true,
+    "duplicate_carriers_retained": true,
+    "manual_identity_verification_complete_for_bundle": true,
+    "full_text_semantic_review_complete": false,
+    "external_official_corpus_completeness_verified": false,
+    "local_tests_passed": true
+  },
+  "counts": {
+    "scope": "ALL",
+    "physical_carriers": 754,
+    "logical_documents": 37,
+    "representations": 41,
+    "segments": 769,
+    "solution_papers": 17,
+    "problem_statements": 5,
+    "datasets": 14,
+    "commentaries": 1,
+    "paper_image_pages": 729
+  },
+  "physical_archive_members": 753,
+  "preferred_representations": 37,
+  "expert_commentaries_present": 0,
+  "manual_review_items": 2,
+  "blocking_manual_review_items": 0,
+  "known_issues": [
+    "17篇解答的身份、题号、页序与摘要已人工核验，但多数正文为图片页，未完成逐页全文语义转写。",
+    "未使用外部官方优秀论文名单核对年度绝对覆盖度；因此只对上传包范围作完整性结论。",
+    "四组文件名带“D题附件”的工作簿内容实际为E题红外光谱附件，并与附件1-4字节完全重复；已在逻辑层纠正并保留所有物理载体。",
+    "B026摘要中的收率数值排版缺少明确小数点，保持原始观察并进入非阻塞复核队列。",
+    "不凭仓库目录或文档代码推断奖项等级。"
+  ],
+  "updated_at": "2026-07-26T05:25:25Z",
+  "test_result": {
+    "framework": "pytest",
+    "tests_passed": 20,
+    "tests_failed": 0,
+    "command": "YEAR2021_SOURCE_ARCHIVE=<source> pytest -q tests/test_2021_manual.py"
+  }
+}

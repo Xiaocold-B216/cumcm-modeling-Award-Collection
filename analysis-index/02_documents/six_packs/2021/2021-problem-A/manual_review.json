@@ -1,0 +1,11 @@
+{
+  "logical_document_id": "2021-problem-A",
+  "review_status": "complete",
+  "checks": {
+    "official_problem_identity": true,
+    "page_count_verified": true,
+    "attachment_descriptions_reviewed": true,
+    "solution_paper": false
+  },
+  "reviewed_at": "2026-07-26T05:25:25Z"
+}

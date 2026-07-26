@@ -1,0 +1,55 @@
+{
+  "logical_document_id": "2021-dataset-E1-mid-ir-types",
+  "year": 2021,
+  "role": "dataset",
+  "document_subtype": "input_dataset",
+  "problem_id": "E",
+  "title": "E题附件1：多类药材中红外光谱",
+  "corpus_eligibility": "eligible_support",
+  "parse_status": "schema_inspected",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "preferred_representation_id": "rep-2021-dataset-E1-mid-ir-types-02",
+  "representation_count": 2,
+  "carrier_count": 2,
+  "page_or_region_count": 1,
+  "award_level": "not_applicable",
+  "expert_commentary": false,
+  "notes": "中红外工作表，426行×3349列。两份文件字节完全相同；带“D题”前缀的文件名与内容冲突，按E题题面及光谱字段纠正。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representations": [
+    {
+      "representation_id": "rep-2021-dataset-E1-mid-ir-types-01",
+      "logical_document_id": "2021-dataset-E1-mid-ir-types",
+      "year": 2021,
+      "representation_type": "xlsx_workbook",
+      "carrier_ids": [
+        "car-2021-0745"
+      ],
+      "preferred": false,
+      "coverage_status": "complete",
+      "page_count": null,
+      "byte_identical_group": "37bbb3b3e64c874526eb7400eeef7db836cead5d023462969136952a97eef7cb",
+      "notes": "retained alternate physical representation; not deleted; exact byte duplicate of sibling representation"
+    },
+    {
+      "representation_id": "rep-2021-dataset-E1-mid-ir-types-02",
+      "logical_document_id": "2021-dataset-E1-mid-ir-types",
+      "year": 2021,
+      "representation_type": "xlsx_workbook",
+      "carrier_ids": [
+        "car-2021-0750"
+      ],
+      "preferred": true,
+      "coverage_status": "complete",
+      "page_count": null,
+      "byte_identical_group": "37bbb3b3e64c874526eb7400eeef7db836cead5d023462969136952a97eef7cb",
+      "notes": "preferred canonical filename/content representation; exact byte duplicate of sibling representation"
+    }
+  ],
+  "field_observation_policy": "未观察字段使用unknown或not_observed；不以自动未命中写absent。",
+  "generated_at": "2026-07-26T05:25:25Z"
+}

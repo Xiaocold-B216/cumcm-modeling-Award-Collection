@@ -1,0 +1,41 @@
+{
+  "logical_document_id": "2021-dataset-C2-loss-rates",
+  "year": 2021,
+  "role": "dataset",
+  "document_subtype": "input_dataset",
+  "problem_id": "C",
+  "title": "C题附件2：转运损耗率",
+  "corpus_eligibility": "eligible_support",
+  "parse_status": "schema_inspected",
+  "evidence_status": "verified",
+  "completeness_status": "complete",
+  "segmentation_status": "complete",
+  "preferred_representation_id": "rep-2021-dataset-C2-loss-rates-01",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_or_region_count": 1,
+  "award_level": "not_applicable",
+  "expert_commentary": false,
+  "notes": "8家转运商、240周运输损耗率。",
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "representations": [
+    {
+      "representation_id": "rep-2021-dataset-C2-loss-rates-01",
+      "logical_document_id": "2021-dataset-C2-loss-rates",
+      "year": 2021,
+      "representation_type": "xlsx_workbook",
+      "carrier_ids": [
+        "car-2021-0741"
+      ],
+      "preferred": true,
+      "coverage_status": "complete",
+      "page_count": null,
+      "byte_identical_group": null,
+      "notes": "preferred canonical filename/content representation"
+    }
+  ],
+  "field_observation_policy": "未观察字段使用unknown或not_observed；不以自动未命中写absent。",
+  "generated_at": "2026-07-26T05:25:25Z"
+}

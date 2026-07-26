@@ -1,0 +1,18 @@
+{
+  "logical_document_id": "2021-paper-D026",
+  "review_status": "complete_for_identity_role_boundary_and_abstract",
+  "checks": {
+    "title_page_reviewed": true,
+    "role_verified_as_solution_paper": true,
+    "problem_assignment_verified": true,
+    "page_sequence_contiguous": true,
+    "first_page_reviewed": true,
+    "last_page_presence_verified": true,
+    "award_level_not_inferred": true,
+    "full_body_semantic_transcription_complete": false
+  },
+  "non_blocking_limitations": [
+    "正文未逐页完整OCR；方法与结果以摘要页和抽样页为依据。"
+  ],
+  "reviewed_at": "2026-07-26T05:25:25Z"
+}
