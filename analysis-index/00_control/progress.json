@@ -1,4 +1,4 @@
-{
+﻿{
     "analysis_branch":  "analysis/corpus-index",
     "completed_years":  [
                             1992,
@@ -48,10 +48,11 @@
                         "2007":  "pass",
                         "2008":  "pass",
                         "2009":  "pass",
-                        "2010":  "conditional_pass_pending_manual_review",
+                        "2010":  "conditional_pass",
                         "2011":  "not_verified",
                         "2025":  "conditional_pass_pending_remote_readback",
-                        "2015":  "conditional_pass"
+                        "2015":  "conditional_pass",
+                        "2016":  "conditional_pass"
                     },
     "stop_after_year":  2015,
     "next_recommended_year":  null

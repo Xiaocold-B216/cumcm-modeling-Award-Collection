@@ -1,10 +1,10 @@
-from pathlib import Path
+﻿from pathlib import Path
 import json,csv,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 A=ROOT/'analysis-index'
-def j(p): return json.loads(p.read_text(encoding='utf-8'))
+def j(p): return json.loads(p.read_text(encoding='utf-8-sig'))
 def jl(p):
-    return [json.loads(x) for x in p.read_text(encoding='utf-8').splitlines() if x.strip()]
+    return [json.loads(x) for x in p.read_text(encoding='utf-8-sig').splitlines() if x.strip()]
 def test_required_files():
     req=['01_inventory/2016_carrier_manifest.jsonl','02_documents/logical_documents/2016.csv','03_segments/2016_segments.jsonl','04_relations/2016_representations.jsonl','04_relations/2016_relations.jsonl','04_relations/2016_solution_lineages.jsonl','05_knowledge/methods/2016_methods.jsonl','05_knowledge/expert_feedback/2016_feedback.jsonl','05_knowledge/visualizations/2016_visualizations.jsonl','06_statistics/yearly/2016_statistics.csv','07_reports/yearly/2016_report.md','08_quality/gates/2016_gate.json','09_checkpoints/2016_checkpoint.json','00_control/progress.json','00_control/checkpoint_manifest.json','00_control/processing_log.jsonl','00_control/missing_segment_requests.jsonl','00_control/manual_review_queue.jsonl']
     assert all((A/x).exists() for x in req)
@@ -77,3 +77,5 @@ def test_missing_file_precise():
 def test_monthly_data_audit_in_report():
     t=(A/'07_reports/yearly/2016_report.md').read_text(encoding='utf-8'); assert '35040' in t and '10个空白或非数值风速单元格' in t
 def test_no_award_inference(): assert all(x['award_level'] in {'unknown','not_applicable'} for x in docs())
+
+
