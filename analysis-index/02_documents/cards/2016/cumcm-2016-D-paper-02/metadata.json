@@ -1,0 +1,45 @@
+{
+  "document_id": "cumcm-2016-D-paper-02",
+  "year": 2016,
+  "title": "风电场运行状况分析及优化模型",
+  "role": "paper",
+  "document_subtype": "solution_paper",
+  "problem_id": "cumcm-2016-problem-D",
+  "solution_lineage_id": "lin-2016-D-02",
+  "corpus_eligibility": "eligible",
+  "parse_status": "parsed",
+  "completeness_status": "complete",
+  "segmentation_status": "page_verified",
+  "evidence_status": "verified",
+  "manual_review_status": "verified",
+  "award_level": "unknown",
+  "award_level_status": "not_observed",
+  "authors": "unknown",
+  "authors_status": "not_observed",
+  "preferred_representation_id": "rep-2016-026",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_count": 48,
+  "figure_reference_count": 7,
+  "table_reference_count": 18,
+  "notes": "",
+  "representation_ids": [
+    "rep-2016-026"
+  ],
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "field_status": {
+    "title": "present",
+    "authors": "not_observed",
+    "award_level": "not_observed",
+    "expert_feedback": "not_observed"
+  },
+  "source_carrier_ids": [
+    "car-2016-026"
+  ],
+  "source_sha256": [
+    "89ab698eb82bce52b6844af057d40433341c15f612a68796019a29eecb5235ed"
+  ],
+  "generated_at": "2026-07-26T02:55:50Z"
+}

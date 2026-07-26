@@ -1,0 +1,46 @@
+{
+  "document_id": "cumcm-2016-format-spec",
+  "year": 2016,
+  "title": "全国大学生数学建模竞赛论文格式规范（2016年修订稿）",
+  "role": "commentary",
+  "document_subtype": "competition_format_specification",
+  "problem_id": "not_applicable",
+  "solution_lineage_id": "not_applicable",
+  "corpus_eligibility": "reference_only",
+  "parse_status": "parsed",
+  "completeness_status": "complete",
+  "segmentation_status": "page_verified_via_conversion",
+  "evidence_status": "verified",
+  "manual_review_status": "verified",
+  "award_level": "not_applicable",
+  "award_level_status": "not_applicable",
+  "authors": "全国大学生数学建模竞赛组委会",
+  "authors_status": "present",
+  "preferred_representation_id": "rep-2016-035",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_count": 5,
+  "sheet_count": null,
+  "figure_reference_count": 0,
+  "table_reference_count": 0,
+  "notes": "不计入参赛论文。",
+  "representation_ids": [
+    "rep-2016-035"
+  ],
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "field_status": {
+    "title": "present",
+    "authors": "present",
+    "award_level": "not_applicable",
+    "expert_feedback": "not_applicable"
+  },
+  "source_carrier_ids": [
+    "car-2016-035"
+  ],
+  "source_sha256": [
+    "428fa17f3ad359b5d3a14a74156c48745a61cfedffad7e4b9c23cca1f08efdaf"
+  ],
+  "generated_at": "2026-07-26T02:55:50Z"
+}

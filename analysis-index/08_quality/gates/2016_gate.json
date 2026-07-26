@@ -1,0 +1,50 @@
+{
+  "year": 2016,
+  "status": "conditional_pass",
+  "checks": {
+    "all_uploaded_carriers_hashed": true,
+    "carrier_manifest_exists": true,
+    "logical_documents_present": true,
+    "logical_document_six_pack": true,
+    "object_layers_separate": true,
+    "roles_valid": true,
+    "expert_commentary_excluded_from_papers": true,
+    "one_preferred_representation": true,
+    "duplicate_representations_preserved": true,
+    "unknown_not_absent": true,
+    "page_and_sheet_boundaries_valid": true,
+    "source_unmodified": true,
+    "statistics_scoped": true,
+    "manual_verification_complete_for_available_materials": true,
+    "all_expected_supporting_files_present": false,
+    "remote_readback_verified": false,
+    "local_tests_all_passed": true
+  },
+  "counts": {
+    "physical_carriers": 35,
+    "logical_documents": 34,
+    "representations": 35,
+    "solution_paper_carriers": 15,
+    "solution_papers": 14,
+    "solution_lineages": 14,
+    "problem_statements": 4,
+    "datasets": 15,
+    "commentaries": 1,
+    "logical_paper_pages": 529,
+    "segments": 943
+  },
+  "manual_review_items": 3,
+  "blocking_manual_review_items": 0,
+  "known_issues": [
+    "D题附件2缺失，无法独立复算问题二",
+    "A05原文标题和交叉引用存在占位符",
+    "D题附件1存在源数据异常且未修复"
+  ],
+  "note": "conditional_pass permits corpus indexing; missing D attachment 2 prevents full supporting-data completeness.",
+  "updated_at": "2026-07-26T02:55:50Z",
+  "test_result": {
+    "command": "pytest -q",
+    "passed": 28,
+    "failed": 0
+  }
+}

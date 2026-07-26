@@ -1,0 +1,45 @@
+{
+  "document_id": "cumcm-2016-problem-C",
+  "year": 2016,
+  "title": "C题 电池剩余放电时间预测",
+  "role": "problem",
+  "document_subtype": "official_problem_statement",
+  "problem_id": "cumcm-2016-problem-C",
+  "solution_lineage_id": "not_applicable",
+  "corpus_eligibility": "reference_only",
+  "parse_status": "parsed",
+  "completeness_status": "complete",
+  "segmentation_status": "page_verified_via_conversion",
+  "evidence_status": "verified",
+  "manual_review_status": "verified",
+  "award_level": "not_applicable",
+  "award_level_status": "not_applicable",
+  "authors": "全国大学生数学建模竞赛组委会",
+  "authors_status": "present",
+  "preferred_representation_id": "rep-2016-030",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_count": 2,
+  "figure_reference_count": 0,
+  "table_reference_count": 0,
+  "notes": "原始Word文件只读；页级证据由LibreOffice转换PDF获取。",
+  "representation_ids": [
+    "rep-2016-030"
+  ],
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "field_status": {
+    "title": "present",
+    "authors": "present",
+    "award_level": "not_applicable",
+    "expert_feedback": "not_applicable"
+  },
+  "source_carrier_ids": [
+    "car-2016-030"
+  ],
+  "source_sha256": [
+    "138eea50b468e989b8d99fd0fe679620b2edcea6565cd0daa8551a7e1bfb6844"
+  ],
+  "generated_at": "2026-07-26T02:55:50Z"
+}

@@ -1,0 +1,6 @@
+﻿year,scope,physical_carriers,logical_documents,representations,solution_papers,problem_statements,datasets,commentaries,solution_lineages,logical_paper_pages,representation_pages,segments,manual_review_items_open,gate_status
+2016,all,35,34,35,14,4,15,1,14,529,576,943,3,conditional_pass
+2016,problem_A,6,6,6,5,1,0,0,5,202,205,205,1,verified_available_materials
+2016,problem_B,6,5,6,4,1,0,0,4,132,163,163,0,verified_available_materials
+2016,problem_C,4,4,4,2,1,1,0,2,42,44,46,0,verified_available_materials
+2016,problem_D,18,18,18,3,1,14,0,3,153,159,524,2,verified_available_materials

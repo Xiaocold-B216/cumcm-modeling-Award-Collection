@@ -1,0 +1,13 @@
+{
+  "document_id": "cumcm-2016-D-dataset-attachment1-07",
+  "review_status": "verified_with_data_issues",
+  "role_verified": "dataset",
+  "identity_verified": true,
+  "source_hash_verified": true,
+  "source_unmodified": true,
+  "completeness_status": "complete_with_observed_source_anomalies",
+  "open_issues": [
+    "保留源数据中的空白或非数值单元格，不做修复。"
+  ],
+  "reviewed_at": "2026-07-26T02:55:50Z"
+}

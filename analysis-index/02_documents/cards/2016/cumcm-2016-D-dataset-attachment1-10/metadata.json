@@ -1,0 +1,46 @@
+{
+  "document_id": "cumcm-2016-D-dataset-attachment1-10",
+  "year": 2016,
+  "title": "D题附件1：2015年10月风电场日实际发电曲线统计表",
+  "role": "dataset",
+  "document_subtype": "official_problem_dataset",
+  "problem_id": "cumcm-2016-problem-D",
+  "solution_lineage_id": "not_applicable",
+  "corpus_eligibility": "reference_only",
+  "parse_status": "parsed",
+  "completeness_status": "complete",
+  "segmentation_status": "sheet_region_verified",
+  "evidence_status": "verified",
+  "manual_review_status": "verified",
+  "award_level": "not_applicable",
+  "award_level_status": "not_applicable",
+  "authors": "unknown",
+  "authors_status": "not_observed",
+  "preferred_representation_id": "rep-2016-010",
+  "representation_count": 1,
+  "carrier_count": 1,
+  "page_count": null,
+  "sheet_count": 31,
+  "figure_reference_count": 0,
+  "table_reference_count": 31,
+  "notes": "文件名年份为观测数据年份2015，语料归属为2016年D题附件。",
+  "representation_ids": [
+    "rep-2016-010"
+  ],
+  "schema_version": "1.4.1",
+  "parser_version": "0.5.2",
+  "source_baseline_commit": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+  "field_status": {
+    "title": "present",
+    "authors": "not_observed",
+    "award_level": "not_applicable",
+    "expert_feedback": "not_applicable"
+  },
+  "source_carrier_ids": [
+    "car-2016-010"
+  ],
+  "source_sha256": [
+    "c876ef5822e1c8f49a15eae4bbf209c46152ca51002a44ed1e1c2c1d4d9d636c"
+  ],
+  "generated_at": "2026-07-26T02:55:50Z"
+}
