@@ -106,5 +106,8 @@
   "remote_fetch_verified_at_snapshot": false,
   "heads_match_at_snapshot": null,
   "snapshot_commit": "6421726ab409692c543059bc664bdea1a71e83cd",
-  "network_blocked_at_snapshot": true
+  "network_blocked_at_snapshot": true,
+  "remote_readback_commit": "5c793e032c8195999386d35fceddae89841d0f52",
+  "remote_readback_verified": true,
+  "remote_readback_at": "2026-07-26T19:15:00Z"
 }

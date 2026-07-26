@@ -1,4 +1,4 @@
-# Stage A0: Repository Snapshot
+﻿# Stage A0: Repository Snapshot
 
 ## Repository State
 
@@ -69,3 +69,11 @@ None (已全部移除)
 - 网络暂时不可用，无法执行 git fetch
 - 本地 HEAD 与远端 HEAD 记录一致
 - 工作区干净，无未提交修改
+
+## Remote Readback Verification
+
+- **Remote Readback Commit**: 5c793e032c8195999386d35fceddae89841d0f52
+- **Remote Readback Verified**: Yes
+- **Remote Readback At**: 2026-07-26 19:15:00
+- **JSON Readback**: OK
+- **MD Readback**: OK
