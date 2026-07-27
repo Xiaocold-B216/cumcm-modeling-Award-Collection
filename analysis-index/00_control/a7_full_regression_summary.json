@@ -3,7 +3,8 @@
   "stage_title": "Full regression, quality gates, and cross-file consistency",
   "prior_blocked_commit": "b4d31fc6bb3b0373464f1f7f92322390e0ab446b",
   "blocker_repair_commit": "d07dcfdd41fc778947e768835a13f9e3029f79cd",
-  "input_commit": "d07dcfdd41fc778947e768835a13f9e3029f79cd",
+  "infrastructure_repair_commit": "d830e61908334e194cdd5b6a669400fb9d367f75",
+  "input_commit": "d830e61908334e194cdd5b6a669400fb9d367f75",
   "input_branch": "analysis/corpus-index",
   "a6_precondition": {"status": "passed_with_recorded_failures", "remote_readback": "passed", "working_tree_clean_at_start": true},
   "runtime": {
@@ -81,7 +82,26 @@
     ],
     "waived": false
   },
-  "failure_accounting": {"full_collected": 306, "full_passed": 265, "full_failed": 39, "full_skipped": 2, "full_errors": 0, "full_exit_code": 1, "new_failure_count": 0, "retained_annual_failure_count": 25, "retained_additional_failure_count": 12, "infrastructure_first_result_failures": 2, "no_new_skip_or_xfail": true, "no_timeout": true},
+  "infrastructure_post_repair_result": {
+    "targeted_nodes": 2,
+    "targeted_passed": 2,
+    "targeted_failed": 0,
+    "targeted_errors": 0,
+    "full_nodes": 11,
+    "full_passed": 11,
+    "full_failed": 0,
+    "full_skipped": 0,
+    "full_errors": 0,
+    "exit_code": 0,
+    "baseline_entries": 3614,
+    "chinese_relative_path_real_checkout": true,
+    "original_source_modifications": 0,
+    "committed_source_modifications": 0,
+    "source_hash_mismatches": 0,
+    "classification": "passed_after_approved_infrastructure_repair",
+    "platform_waiver": "not_used"
+  },
+  "failure_accounting": {"full_collected": 306, "full_passed": 267, "full_failed": 37, "full_skipped": 2, "full_errors": 0, "full_exit_code": 1, "new_failure_count": 0, "retained_annual_failure_count": 25, "retained_additional_failure_count": 12, "infrastructure_first_result_failures": 2, "infrastructure_post_repair_failures": 0, "no_new_skip_or_xfail": true, "no_timeout": true},
   "schema_validation": {
     "validator": "jsonschema 4.26.0 Draft202012Validator", "schema_definitions": 4, "schema_definitions_check_schema": "passed", "mapping_status": "resolved", "logical_document_instances": 326, "feature_instances": 4238, "representation_instances": 367, "relation_instances": 383, "total_instances": 5314, "validation_errors": 0,
     "mapping": {"logical_document": "analysis-index/02_documents/logical_documents.jsonl", "feature": "feature_statistics nested in logical_documents.jsonl", "representation": "analysis-index/02_documents/representations_1992.jsonl through representations_2010.jsonl", "relation": "analysis-index/04_relations/document_relations.jsonl"}
@@ -93,7 +113,7 @@
     "markdown_controls": {"files": 2346, "strict_utf8": 2346, "bom": 0, "final_lf": 2346, "nul": 0},
     "run_log_repair_validation": "all four approved files are strict UTF-8 JSON, no BOM, final LF"
   },
-  "cross_file_validation": {"gate_checkpoint_numeric_mismatches": 0, "gate_checkpoint_scope_differences": [2021, 2023], "progress_missing_2015_2024_statuses": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "queue_duplicate_ids": 0, "a5_evidence_path_orphans": 0, "manifest_entries": 2157, "direct_path_resolved": 107, "direct_path_hash_verified": 107, "direct_path_hash_mismatches": 0, "unresolved_or_external_scope": 2050, "index_duplicate_id_sets": 0, "field_aware_orphan_foreign_keys": 0, "year_field_mismatches": 0, "preferred_representation_missing": 0},
+  "cross_file_validation": {"gate_checkpoint_numeric_mismatches": 0, "gate_checkpoint_scope_differences": [2021, 2023], "progress_missing_2015_2024_statuses": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "queue_duplicate_ids": 0, "a5_evidence_path_orphans": 0, "manifest_entries": 2157, "direct_path_resolved": 107, "direct_path_hash_verified": 107, "direct_path_hash_mismatches": 0, "unresolved_or_external_scope": 2050, "index_duplicate_id_sets": 0, "field_aware_orphan_foreign_keys": 0, "year_field_mismatches": 0, "preferred_representation_missing": 0, "source_baseline_entries": 3614, "source_hash_mismatches": 0, "in_scope_index_data_changes_since_prior_a7": 0},
   "risk_scan": {"new_skip_or_xfail": false, "modified_test_errors_ignore": false, "absolute_personal_path_files": 0, "secret_pattern_files": 0, "cache_or_temp_paths": 0, "syntax_errors": 0, "tests_changed_by_recovery": false},
-  "final": {"a7_status": "failed", "blocking_reasons": ["The baseline object was recovered, but the two infrastructure assertions did not remain pure local-object-availability failures: one found protected-source content differences and one failed on Unicode subprocess decoding."], "environment_waiver": "not_applicable", "a8_started": false, "a8_ready_to_start": false, "working_tree_before_outputs": "clean"}
+  "final": {"a7_status": "passed_with_recorded_failures", "blocking_reasons": [], "environment_waiver": "not_used; infrastructure tests passed after approved repair", "retained_annual_failures": 25, "retained_additional_failures": 12, "full_regression_failures": 37, "full_regression_skipped": 2, "infrastructure_failures": 0, "a8_started": false, "a8_ready_to_start": true, "working_tree_before_outputs": "clean"}
 }

@@ -2,7 +2,8 @@
   "stage_id": "A7",
   "prior_blocked_commit": "b4d31fc6bb3b0373464f1f7f92322390e0ab446b",
   "blocker_repair_commit": "d07dcfdd41fc778947e768835a13f9e3029f79cd",
-  "input_commit": "d07dcfdd41fc778947e768835a13f9e3029f79cd",
+  "infrastructure_repair_commit": "d830e61908334e194cdd5b6a669400fb9d367f75",
+  "input_commit": "d830e61908334e194cdd5b6a669400fb9d367f75",
   "scope": "2015-2025 and global files that reference those years",
   "checks": [
     {
@@ -56,10 +57,10 @@
     {
       "check_id": "A7-CF-007",
       "type": "runtime_and_schema_gate",
-      "status": "blocked",
-      "actual": {"full_collection_errors": 0, "schema_definitions": 4, "schema_mapping": "resolved", "schema_instances": 5314, "schema_validation_errors": 0, "infrastructure_failed_assertions": 2, "baseline_object_recovered": true},
-      "difference": "The baseline object was recovered by bounded SHA fetch, but one infrastructure assertion found six protected-source differences and the other failed on subprocess Unicode decoding; these are not waiver-eligible object-availability failures.",
-      "blocks_a7": true
+      "status": "passed",
+      "actual": {"full_collection_errors": 0, "schema_definitions": 4, "schema_mapping": "resolved", "schema_instances": 5314, "schema_validation_errors": 0, "infrastructure_failed_assertions": 0, "baseline_object_recovered": true, "post_repair_targeted_passed": 2, "post_repair_full_infrastructure_passed": 11, "source_baseline_entries": 3614, "source_hash_mismatches": 0},
+      "difference": "The approved infrastructure repair classified exactly six root-level derived control artifacts and changed Git -z output handling to bytes plus strict UTF-8 decoding. Targeted and full infrastructure verification then passed; no platform waiver was needed.",
+      "blocks_a7": false
     }
   ],
   "year_status_summary": [
@@ -76,8 +77,10 @@
     {"year": 2025, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"}
   ],
   "baseline_object_recovery": {"sha": "a042ecf898feaba6fc81d543a10e0188db8b2b12", "fetch_attempts": 1, "final_cat_file_exit_code": 0, "waiver_applicable": false},
-  "blocking_reasons": ["unwaived infrastructure failures remain after baseline object recovery: protected-source content differences and subprocess Unicode decoding failure"],
+  "post_repair_infrastructure": {"targeted_nodes": 2, "targeted_passed": 2, "full_nodes": 11, "full_passed": 11, "full_failed": 0, "exit_code": 0, "platform_waiver": "not_used"},
+  "blocking_reasons": [],
   "no_unapproved_repairs_applied": true,
   "a8_started": false,
-  "overall_status": "failed"
+  "overall_status": "passed_with_recorded_failures",
+  "a8_ready_to_start": true
 }
