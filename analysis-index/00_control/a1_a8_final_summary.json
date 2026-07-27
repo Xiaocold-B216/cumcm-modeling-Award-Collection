@@ -13,7 +13,7 @@
     "committed_source_modifications": 0
   },
   "final_input_commit": "fb670937d61d8394ecbf4ec0dd1bb3d58e503086",
-  "workflow_status": "a8_final_delivery_closure_pending",
+  "workflow_status": "completed",
   "bootstrap": {
     "definition_commit": "ed56c65a1ac6928810be3f149d19c850587fb601",
     "human_readable_plan_commit": "b306c7bf621ad1e71720319778c19992a8de87d3",
@@ -208,13 +208,21 @@
   "a8_delivery": {
     "summary_commit": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
     "delivery_commit_predecessor": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
+    "delivery_commit": "d1dbfdb5562b0da125d261ea6f7e45ba5e54cccf",
+    "terminal_correction_commit": {
+      "resolution": "self",
+      "command": "git rev-parse HEAD",
+      "self_sha_embedded": false
+    },
     "first_push": "passed",
     "first_remote_readback": "passed",
-    "final_push": "pending",
-    "final_remote_readback": "pending",
-    "force_push": false
+    "second_push": "passed",
+    "second_remote_readback": "passed",
+    "force_used": false
   },
-  "a8_status": "final_delivery_closure_pending",
-  "terminal_stage": "A8",
-  "next_stage": null
+  "a8_status": "passed",
+  "terminal_stage": true,
+  "next_stage": null,
+  "remote_persistence": "passed",
+  "remote_readback": "passed"
 }

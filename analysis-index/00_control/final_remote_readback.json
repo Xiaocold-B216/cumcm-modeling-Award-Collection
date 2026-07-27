@@ -1,16 +1,21 @@
 {
   "repository": "Xiaocold-B216/cumcm-modeling-Award-Collection",
   "branch": "analysis/corpus-index",
-  "local_head": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
-  "tracking_head": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
-  "ls_remote_head": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
+  "local_head": "d1dbfdb5562b0da125d261ea6f7e45ba5e54cccf",
+  "tracking_head": "d1dbfdb5562b0da125d261ea6f7e45ba5e54cccf",
+  "ls_remote_head": "d1dbfdb5562b0da125d261ea6f7e45ba5e54cccf",
   "fetch_exit_code": 0,
   "push_exit_code": 0,
   "diff_exit_code": 0,
   "worktree_clean": true,
   "summary_commit": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
   "delivery_commit_predecessor": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
-  "delivery_commit": "this commit; resolve with git rev-parse HEAD",
+  "delivery_commit": "d1dbfdb5562b0da125d261ea6f7e45ba5e54cccf",
+  "terminal_correction_commit": {
+    "resolution": "self",
+    "self_sha_embedded": false,
+    "verification_command": "git rev-parse HEAD"
+  },
   "remote_head_before_a8_push": "fb670937d61d8394ecbf4ec0dd1bb3d58e503086",
   "remote_head_after_first_a8_push": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
   "first_push": {"status":"passed","force_used":false},
@@ -29,7 +34,11 @@
       {"path":"analysis-index/00_control/stage_definitions/A8.md","http_status":200,"content_type":"text/plain; charset=utf-8","sha256":"8d667a2a6576c3f9b3b9c4462ebcf54588ec6d202ef07f6ec5aa87ef84d0a674","bytes":1735,"byte_equal":true}
     ]
   },
-  "final_push": {"status":"pending","force_used":false},
-  "final_remote_readback": {"status":"pending","files":4,"http_200":null,"non_html":null,"byte_equal":null,"format_validation":null},
-  "final_status": "pending_final_push"
+  "second_push": {"status":"passed","force_used":false},
+  "second_remote_readback": {"status":"passed","files":4,"http_200":true,"non_html":true,"byte_equal":true,"format_validation":"passed"},
+  "final_push": {"status":"passed","force_used":false},
+  "final_remote_readback": {"status":"passed","files":4,"http_200":true,"non_html":true,"byte_equal":true,"format_validation":"passed"},
+  "remote_persistence": "passed",
+  "remote_readback": "passed",
+  "final_status": "passed"
 }

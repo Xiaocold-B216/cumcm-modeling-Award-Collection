@@ -2,9 +2,9 @@
 
 ## 执行摘要
 
-本报告是 A1—A8 工作流的终止交付记录。A1—A7 的历史提交、控制产物、年度 Gate/Checkpoint/Report、测试记录、Schema 和源完整性证据已读取并汇总。A8 不执行业务修复，不升级任何不完整、conditional、missing、unknown 或 pending 状态。
+本报告是 A1—A8 工作流的终止交付记录。A1—A7 的历史提交、控制产物、年度 Gate/Checkpoint/Report、测试记录、Schema 和源完整性证据已读取并汇总。A8 不执行业务修复，不升级任何不完整、conditional、missing 或 unknown 状态；年度证据中的历史 pending-readback 状态保持原样。
 
-首次 A8 汇总提交和首次普通 push/远端回读已经通过；本文件正在由第二个独立 A8 闭环提交固化最终交付状态。
+首次 A8 汇总提交和首次普通 push/远端回读已经通过；第二次独立 A8 闭环提交也已完成普通 push 和远端回读。本次仅纠正终态记录；纠正提交自身 SHA 不嵌入自身文件，由 `git rev-parse HEAD` 在提交后解析。
 
 ## 可信恢复点
 
@@ -28,7 +28,7 @@
 | A5 | `92d4889...` | `2027a39cf32a878812ef8f290738e063eea94131` | passed | 逐年对账、15 个修复候选、11 个人工复核项 | conditional/incomplete 年份保留 |
 | A6 | `2027a39...` | `2f318cef8415ca49b8e4088ebd266443406c73f5` | passed_with_recorded_failures | 批准的最小测试策略修复和 2017 诊断 | 3 个 2017 既有失败、延后修复 |
 | A7 | `2f318cef...` | `b4d31fc...` → `fb670937d61d8394ecbf4ec0dd1bb3d58e503086` | passed_with_recorded_failures | 全量回归、Schema、跨文件审计 | 25 annual、12 additional failures、2 skips |
-| A8 | `fb670937...` | `b5fd0be...` → 本次闭环提交 | final_delivery_closure_pending | 最终汇总和恢复检查点 | 最终四文件回读后终止 |
+| A8 | `fb670937...` | `b5fd0be...` → `d1dbfdb...` → 终态纠正（自身 SHA 不嵌入） | passed | 最终汇总和恢复检查点 | 终止；`terminal=true`，`next_stage=null` |
 
 A7 的完整恢复链保留为：`b4d31fc` → `d07dcfdd41fc778947e768835a13f9e3029f79cd` → `173393b` → `1d343f5` → `d830e61` → `fb67093`。其中 `d830e61` 仅修复精确派生控制文件分类和 Git 中文路径严格解码；未修改业务资料。
 
@@ -71,7 +71,7 @@ A7 的完整恢复链保留为：`b4d31fc` → `d07dcfdd41fc778947e768835a13f9e3
 
 - 2017：12 条中央缺段请求仍 open/blocking；接收集不是完整年度源；A1 PDF font encoding 仍需视觉复核；A4 timeout 的 24 个节点没有逐节点终态。
 - 2018、2022、2024：明确的缺源文件/附件和 supporting-data 不完整状态保持不变。
-- 2021、2023：年度 checkpoint/report 的 remote-readback pending scope 差异保持不变。
+- 2021、2023：年度 checkpoint/report 的历史 remote-readback pending scope 差异保持不变。
 - 2025：`2025-MR-001` 的跨标签字节相同 E 视频需要源确认，且官方总体完整性未观察到。
 - 全局人工复核：`2025-MR-001`；A5 人工复核队列仍有 11 项，年度队列分别保留在年度证据中。
 - Retained failures：25 个年度失败、12 个额外正式失败、2 个环境变量门控 skip。
@@ -104,8 +104,8 @@ git diff --exit-code HEAD origin/analysis/corpus-index
 
 ## 远端交付结果
 
-首次 A8 汇总提交 `b5fd0be23922cb1ad2d2cc97e8b203e146643d5d` 已普通 push，首次远端回读已通过：四个 A8 文件、四个 A7 最终产物、`scripts/build_index.py` 和 A8 定义均 HTTP 200、非 HTML、本地/Git blob/raw 三方字节一致。当前正在创建最终闭环提交；A8 不使用 force push，不修改 A1—A7，不提交测试 XML、日志、缓存或临时文件。
+首次 A8 汇总提交 `b5fd0be23922cb1ad2d2cc97e8b203e146643d5d` 已普通 push，首次远端回读已通过：四个 A8 文件、四个 A7 最终产物、`scripts/build_index.py` 和 A8 定义均 HTTP 200、非 HTML、本地/Git blob/raw 三方字节一致。第二次闭环提交 `d1dbfdb5562b0da125d261ea6f7e45ba5e54cccf` 已普通 push，四个 A8 文件远端回读已通过。本次仅纠正终态记录；纠正提交自身 SHA 不写入自身文件，提交后由 `git rev-parse HEAD` 和 `ls-remote` 外部确认。A8 不使用 force push，不修改 A1—A7，不提交测试 XML、日志、缓存或临时文件。
 
 ## 终止声明
 
-A8 是终止阶段。最终闭环提交 push 并完成四个 A8 文件远端回读后，状态固化为 `A8 = passed`、`workflow = completed`、`terminal = true`、`next_stage = null`，随后停止，不启动 A9 或任何其他阶段。
+A8 是终止阶段。本次终态纠正提交完成普通 push 并完成四个 A8 文件远端回读后，状态固化为 `A8 = passed`、`workflow = completed`、`terminal = true`、`next_stage = null`，随后停止，不启动 A9 或任何其他阶段。

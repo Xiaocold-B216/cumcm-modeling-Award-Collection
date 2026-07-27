@@ -3,7 +3,12 @@
   "stage_id": "A8",
   "input_commit": "fb670937d61d8394ecbf4ec0dd1bb3d58e503086",
   "summary_commit": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
-  "delivery_commit": "this commit; resolve with git rev-parse HEAD",
+  "delivery_commit": "d1dbfdb5562b0da125d261ea6f7e45ba5e54cccf",
+  "terminal_correction_commit": {
+    "resolution": "self",
+    "self_sha_embedded": false,
+    "verification_command": "git rev-parse HEAD"
+  },
   "trusted_source_baseline": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "a1_a7_status": {
     "A1":"passed",
@@ -37,7 +42,9 @@
   "remote_readback": "passed",
   "first_push": {"commit":"b5fd0be23922cb1ad2d2cc97e8b203e146643d5d","status":"passed","force_used":false},
   "first_remote_readback": {"status":"passed","files":10},
-  "final_push": {"status":"pending_at_commit_creation","force_used":false},
+  "final_push": {"status":"passed","force_used":false},
+  "final_remote_readback": {"status":"passed","files":4},
+  "workflow_status": "completed",
   "recovery_entrypoint": "checkout analysis/corpus-index at the final delivery commit, verify the trusted baseline object, then use the commands in analysis-index/00_control/a1_a8_final_summary.md",
   "next_stage": null,
   "terminal": true
