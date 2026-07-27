@@ -2,8 +2,8 @@
   "checkpoint_id": "a8-final-20260727",
   "stage_id": "A8",
   "input_commit": "fb670937d61d8394ecbf4ec0dd1bb3d58e503086",
-  "summary_commit": null,
-  "delivery_commit": null,
+  "summary_commit": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
+  "delivery_commit": "this commit; resolve with git rev-parse HEAD",
   "trusted_source_baseline": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
   "a1_a7_status": {
     "A1":"passed",
@@ -15,7 +15,7 @@
     "A6":"passed_with_recorded_failures",
     "A7":"passed_with_recorded_failures"
   },
-  "a8_status": "pending_post_push_readback",
+  "a8_status": "passed",
   "year_status_summary": {
     "2015":"conditional_pass",
     "2016":"conditional_pass",
@@ -33,9 +33,12 @@
   "nonblocking_items": ["retained test failures", "conditional year statuses", "open nonblocking human reviews", "unresolved external-source scope"],
   "human_review_items": {"global_open":1,"a5_open":11,"annual_open_counts":{"2015":2,"2016":3,"2017":12,"2018":1,"2019":0,"2020":4,"2021":2,"2022":3,"2023":0,"2024":2,"2025":1}},
   "missing_source_items": {"central_2017_open":12,"year_specific_open":{"2016":1,"2017":12,"2018":5,"2020":2,"2022":7,"2024":7},"external_or_unresolved_manifest_scope":2050},
-  "remote_persistence": "pending",
-  "remote_readback": "pending",
+  "remote_persistence": "passed",
+  "remote_readback": "passed",
+  "first_push": {"commit":"b5fd0be23922cb1ad2d2cc97e8b203e146643d5d","status":"passed","force_used":false},
+  "first_remote_readback": {"status":"passed","files":10},
+  "final_push": {"status":"pending_at_commit_creation","force_used":false},
   "recovery_entrypoint": "checkout analysis/corpus-index at the final delivery commit, verify the trusted baseline object, then use the commands in analysis-index/00_control/a1_a8_final_summary.md",
   "next_stage": null,
-  "terminal": false
+  "terminal": true
 }

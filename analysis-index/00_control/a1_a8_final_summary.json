@@ -13,7 +13,7 @@
     "committed_source_modifications": 0
   },
   "final_input_commit": "fb670937d61d8394ecbf4ec0dd1bb3d58e503086",
-  "workflow_status": "a8_in_progress_pending_post_push_readback",
+  "workflow_status": "a8_final_delivery_closure_pending",
   "bootstrap": {
     "definition_commit": "ed56c65a1ac6928810be3f149d19c850587fb601",
     "human_readable_plan_commit": "b306c7bf621ad1e71720319778c19992a8de87d3",
@@ -205,7 +205,16 @@
     "runtime": {"python":"3.14.6","pytest":"9.1.1","PyMuPDF":"1.28.0","jsonschema":"4.26.0","attrs":"26.1.0","jsonschema-specifications":"2025.9.1","referencing":"0.37.0","rpds-py":"2026.6.3"}
   },
   "prohibited_inferences": ["2015-2025 are not all complete", "all tests did not pass", "all source files are not proven available", "historical annual remote readback is not rewritten as passed", "A4 timeout did not produce individual 2017 outcomes"],
-  "a8_status": "pending_post_push_readback",
+  "a8_delivery": {
+    "summary_commit": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
+    "delivery_commit_predecessor": "b5fd0be23922cb1ad2d2cc97e8b203e146643d5d",
+    "first_push": "passed",
+    "first_remote_readback": "passed",
+    "final_push": "pending",
+    "final_remote_readback": "pending",
+    "force_push": false
+  },
+  "a8_status": "final_delivery_closure_pending",
   "terminal_stage": "A8",
   "next_stage": null
 }
