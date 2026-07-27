@@ -12,6 +12,9 @@
     {"name": "runtime_version", "command": "approved interpreter --version", "exit_code": 0, "retries": 0},
     {"name": "pytest_version", "command": "approved interpreter -m pytest --version", "exit_code": 0, "retries": 0},
     {"name": "dependency_imports", "command": "approved interpreter import fitz and jsonschema", "exit_code": 0, "retries": 0},
+    {"name": "baseline_object_probe", "command": "git cat-file -e <sha>^{commit}", "exit_code": 128, "object_available": false, "retries": 0},
+    {"name": "baseline_object_sha_fetch", "command": "git -c http.version=HTTP/1.1 -c http.sslBackend=schannel fetch --no-tags --filter=blob:none origin <sha>", "exit_code": 0, "object_available_after": true, "retries": 0},
+    {"name": "infrastructure_first_terminal", "command": "approved interpreter -m pytest -q -p no:cacheprovider tests/test_infrastructure.py", "exit_code": 1, "nodes": 11, "passed": 9, "failed": 2, "errors": 0, "waiver_applicable": false, "retries": 0},
     {"name": "annual_collect", "command": "approved interpreter -m pytest --collect-only -q -p no:cacheprovider tests/test_2015_manual.py through tests/test_2025_manual.py", "exit_code": 0, "nodes": 267, "year_2017_nodes": 24, "collection_errors": 0, "retries": 0},
     {"name": "full_collect", "command": "approved interpreter -m pytest --collect-only -q -p no:cacheprovider tests", "exit_code": 0, "nodes": 306, "collection_errors": 0, "retries": 0},
     {"name": "annual_full_regression", "command": "approved interpreter -m pytest -q -p no:cacheprovider annual tests", "exit_code": 1, "nodes": 267, "passed": 240, "failed": 25, "skipped": 2, "errors": 0, "timeouts": 0, "retries": 0},
@@ -21,7 +24,7 @@
     {"name": "cross_file_audit", "command": "approved interpreter read-only gate/checkpoint/queue/index/hash audit", "exit_code": 0, "years": 11, "numeric_mismatches": 0, "hash_mismatches": 0, "retries": 0}
   ],
   "temporary_execution": {"external_ascii_detached_worktree_used": true, "repository_files_changed_by_execution": false, "temporary_logs_in_repository": false},
-  "network_before_delivery": {"fetch_and_ls_remote_required_before_push": true},
-  "a7_status_before_delivery": "blocked: environment",
+  "baseline_recovery": {"object_sha": "a042ecf898feaba6fc81d543a10e0188db8b2b12", "remote_subject": "data: import award papers 2024-2025", "bounded_attempts_used": 1, "attempts_2_and_3": "not_run_after_success", "final_cat_file_exit_code": 0, "environment_waiver": "not_applicable"},
+  "a7_status_before_delivery": "failed",
   "a8_started": false
 }

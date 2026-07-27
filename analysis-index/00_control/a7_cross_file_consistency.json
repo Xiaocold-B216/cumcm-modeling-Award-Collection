@@ -57,8 +57,8 @@
       "check_id": "A7-CF-007",
       "type": "runtime_and_schema_gate",
       "status": "blocked",
-      "actual": {"full_collection_errors": 0, "schema_definitions": 4, "schema_mapping": "resolved", "schema_instances": 5314, "schema_validation_errors": 0, "infrastructure_failed_assertions": 2},
-      "difference": "fitz and jsonschema were restored as approved. The first infrastructure execution still fails two source-baseline assertions because Git object a042ecf898feaba6fc81d543a10e0188db8b2b12 is unavailable locally.",
+      "actual": {"full_collection_errors": 0, "schema_definitions": 4, "schema_mapping": "resolved", "schema_instances": 5314, "schema_validation_errors": 0, "infrastructure_failed_assertions": 2, "baseline_object_recovered": true},
+      "difference": "The baseline object was recovered by bounded SHA fetch, but one infrastructure assertion found six protected-source differences and the other failed on subprocess Unicode decoding; these are not waiver-eligible object-availability failures.",
       "blocks_a7": true
     }
   ],
@@ -75,8 +75,9 @@
     {"year": 2024, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"},
     {"year": 2025, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"}
   ],
-  "blocking_reasons": ["environment: two first-time infrastructure assertions fail because the declared source baseline Git object is unavailable locally"],
+  "baseline_object_recovery": {"sha": "a042ecf898feaba6fc81d543a10e0188db8b2b12", "fetch_attempts": 1, "final_cat_file_exit_code": 0, "waiver_applicable": false},
+  "blocking_reasons": ["unwaived infrastructure failures remain after baseline object recovery: protected-source content differences and subprocess Unicode decoding failure"],
   "no_unapproved_repairs_applied": true,
   "a8_started": false,
-  "overall_status": "blocked: environment"
+  "overall_status": "failed"
 }

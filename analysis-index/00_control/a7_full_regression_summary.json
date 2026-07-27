@@ -57,10 +57,29 @@
     "collected": 28, "passed": 16, "failed": 12, "skipped": 0, "errors": 0, "exit_code": 1, "failures_are_preexisting": true,
     "files": [{"file": "tests/test_2008_manual_finalization.py", "collected": 5, "passed": 0, "failed": 5}, {"file": "tests/test_resume_and_statistics.py", "collected": 23, "passed": 16, "failed": 7}]
   },
+  "baseline_object_recovery": {
+    "object": "a042ecf898feaba6fc81d543a10e0188db8b2b12",
+    "remote_commit_subject": "data: import award papers 2024-2025",
+    "attempts": [
+      {"attempt": 0, "command": "git cat-file -e <sha>^{commit}", "exit_code": 128, "object_available_after": false, "classification": "local_object_missing"},
+      {"attempt": 1, "command": "git -c http.version=HTTP/1.1 -c http.sslBackend=schannel fetch --no-tags --filter=blob:none origin <sha>", "exit_code": 0, "object_available_after": true, "classification": "bounded_sha_fetch_succeeded"},
+      {"attempt": 2, "command": "fetch origin main", "status": "not_run", "reason": "object became available after attempt 1"},
+      {"attempt": 3, "command": "deepen main by 500", "status": "not_run", "reason": "object became available after attempt 1"}
+    ],
+    "final_object_probe_exit_code": 0,
+    "object_type": "commit",
+    "remote_existence_basis": "bounded SHA fetch returned the named GitHub object and final cat-file probe succeeded",
+    "waiver_applicable": false
+  },
   "infrastructure_first_terminal_result": {
     "collected": 11, "passed": 9, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1, "retained_automatically": false,
     "failed_nodes": ["tests/test_infrastructure.py::InfrastructureTests::test_source_verification_and_baseline_count", "tests/test_infrastructure.py::InfrastructureTests::test_unicode_baseline_paths_are_real_checkout_paths"],
-    "cause": "The source baseline Git object a042ecf898feaba6fc81d543a10e0188db8b2b12 is unavailable in the local object database."
+    "classification": "unwaived_infrastructure_failures",
+    "reasons": [
+      "source_verification_and_baseline_count found committed protected-source differences: 2016_missing_files.txt, 2017_missing_files.txt, 2018_missing_files.txt, 2021_PACKAGE_README.md, 2022_missing_files.txt, 2024_missing_files.txt",
+      "unicode_baseline_paths_are_real_checkout_paths failed with a subprocess text-decoding UnicodeDecodeError after the baseline object became available"
+    ],
+    "waived": false
   },
   "failure_accounting": {"full_collected": 306, "full_passed": 265, "full_failed": 39, "full_skipped": 2, "full_errors": 0, "full_exit_code": 1, "new_failure_count": 0, "retained_annual_failure_count": 25, "retained_additional_failure_count": 12, "infrastructure_first_result_failures": 2, "no_new_skip_or_xfail": true, "no_timeout": true},
   "schema_validation": {
@@ -76,5 +95,5 @@
   },
   "cross_file_validation": {"gate_checkpoint_numeric_mismatches": 0, "gate_checkpoint_scope_differences": [2021, 2023], "progress_missing_2015_2024_statuses": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "queue_duplicate_ids": 0, "a5_evidence_path_orphans": 0, "manifest_entries": 2157, "direct_path_resolved": 107, "direct_path_hash_verified": 107, "direct_path_hash_mismatches": 0, "unresolved_or_external_scope": 2050, "index_duplicate_id_sets": 0, "field_aware_orphan_foreign_keys": 0, "year_field_mismatches": 0, "preferred_representation_missing": 0},
   "risk_scan": {"new_skip_or_xfail": false, "modified_test_errors_ignore": false, "absolute_personal_path_files": 0, "secret_pattern_files": 0, "cache_or_temp_paths": 0, "syntax_errors": 0, "tests_changed_by_recovery": false},
-  "final": {"a7_status": "blocked: environment", "blocking_reasons": ["Two first-time infrastructure assertions fail because the declared source baseline Git object is unavailable locally."], "a8_started": false, "a8_ready_to_start": false, "working_tree_before_outputs": "clean"}
+  "final": {"a7_status": "failed", "blocking_reasons": ["The baseline object was recovered, but the two infrastructure assertions did not remain pure local-object-availability failures: one found protected-source content differences and one failed on Unicode subprocess decoding."], "environment_waiver": "not_applicable", "a8_started": false, "a8_ready_to_start": false, "working_tree_before_outputs": "clean"}
 }
