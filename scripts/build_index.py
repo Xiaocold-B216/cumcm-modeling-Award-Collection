@@ -51,6 +51,14 @@ DERIVED_PREFIXES = (
     "analysis-index/", "scripts/", "tests/", "schema/", ".github/",
     ".bootstrap/", "README_ANALYSIS.md", "README_PIPELINE.md", ".gitignore",
 )
+DERIVED_EXACT_PATHS = {
+    "2016_missing_files.txt",
+    "2017_missing_files.txt",
+    "2018_missing_files.txt",
+    "2021_PACKAGE_README.md",
+    "2022_missing_files.txt",
+    "2024_missing_files.txt",
+}
 IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".tif", ".tiff", ".bmp", ".gif", ".webp"}
 ARCHIVE_EXTS = {".zip", ".rar", ".7z", ".tar", ".gz"}
 CODE_EXTS = {".py", ".m", ".r", ".c", ".cc", ".cpp", ".h", ".java", ".ipynb"}
@@ -127,6 +135,20 @@ def run(*args: str, check: bool = True) -> str:
     return cp.stdout
 
 
+def run_git_bytes(*args: str, check: bool = True) -> bytes:
+    cp = subprocess.run(args, cwd=ROOT, check=check, capture_output=True, text=False)
+    return cp.stdout
+
+
+def decode_git_utf8(data: bytes) -> str:
+    return data.decode("utf-8", errors="strict")
+
+
+def is_derived_path(path: str) -> bool:
+    normalized = path.replace("\\", "/")
+    return normalized in DERIVED_EXACT_PATHS or normalized.startswith(DERIVED_PREFIXES)
+
+
 def stable_id(prefix: str, *parts: object) -> str:
     raw = "\x1f".join(str(p) for p in parts).encode("utf-8", "surrogatepass")
     return prefix + hashlib.sha256(raw).hexdigest()[:16]
@@ -197,14 +219,16 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
 def baseline_entries() -> list[dict[str, Any]]:
     # NUL-delimited output is mandatory here.  Without it Git quotes non-ASCII
     # paths with octal escapes; the quoted string is not a real filesystem path.
-    output = run("git", "-c", "core.quotePath=false", "ls-tree", "-r", "-l", "-z", SOURCE_BASELINE)
+    output = decode_git_utf8(run_git_bytes(
+        "git", "-c", "core.quotePath=false", "ls-tree", "-r", "-l", "-z", SOURCE_BASELINE
+    ))
     rows = []
     for line in output.split("\0"):
         if not line:
             continue
         meta, path = line.split("\t", 1)
         mode, obj_type, sha, size = meta.split()
-        if path.startswith(DERIVED_PREFIXES):
+        if is_derived_path(path):
             continue
         rows.append({"mode": mode, "git_object_type": obj_type, "git_sha": sha,
                      "git_blob_size": int(size) if size != "-" else None, "relative_path": path})
@@ -215,12 +239,18 @@ def verify_source() -> dict[str, Any]:
     baseline_type = run("git", "cat-file", "-t", SOURCE_BASELINE).strip()
     head = run("git", "rev-parse", "HEAD").strip()
     changed = []
-    for line in run("git", "-c", "core.quotePath=false", "status", "--porcelain=v1", "-z").split("\0"):
+    status_output = decode_git_utf8(run_git_bytes(
+        "git", "-c", "core.quotePath=false", "status", "--porcelain=v1", "-z"
+    ))
+    for line in status_output.split("\0"):
         path = line[3:] if len(line) >= 4 else ""
-        if path and not path.startswith(DERIVED_PREFIXES):
+        if path and not is_derived_path(path):
             changed.append(path)
-    committed_changes = [path for path in run("git", "-c", "core.quotePath=false", "diff", "--name-only", "-z", SOURCE_BASELINE, "HEAD").split("\0")
-                         if path and not path.startswith(DERIVED_PREFIXES)]
+    diff_output = decode_git_utf8(run_git_bytes(
+        "git", "-c", "core.quotePath=false", "diff", "--name-only", "-z", SOURCE_BASELINE, "HEAD"
+    ))
+    committed_changes = [path for path in diff_output.split("\0")
+                         if path and not is_derived_path(path)]
     if baseline_type != "commit":
         raise RuntimeError("trusted source baseline is not a commit")
     if changed:
