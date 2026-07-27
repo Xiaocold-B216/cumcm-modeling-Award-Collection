@@ -151,9 +151,11 @@ def test_carrier_document_representation_consistency(carriers, documents, reps):
     assert {r['carrier_id'] for r in reps} == carrier_ids
 
 
-def test_pdf_page_and_xlsx_sheet_segment_counts(segs):
+def test_pdf_page_and_xlsx_sheet_segment_counts(segs, reps):
     assert sum(s['segment_type'] == 'page' for s in segs) == 742
-    assert sum(s['segment_type'] == 'worksheet' for s in segs) == 19
+    assert sum(s['segment_type'] == 'worksheet' for s in segs) == 19
+    limits={r['representation_id']:r['page_count'] for r in reps}
+    assert all(1<=s['page_number']<=limits[s['representation_id']] for s in segs if s['segment_type']=='page')
 
 
 def test_pdf_regions_legal_and_unique(segs):
@@ -170,7 +172,7 @@ def test_pdf_regions_legal_and_unique(segs):
         assert s['boundary_status'] == 'verified'
 
 
-def test_worksheet_regions_legal_and_unique(segs):
+def test_worksheet_regions_legal_and_unique(segs, reps):
     seen = set()
     for s in segs:
         if s['segment_type'] != 'worksheet':
@@ -180,7 +182,9 @@ def test_worksheet_regions_legal_and_unique(segs):
         assert 1 <= r['column_start'] <= r['column_end']
         key = (s['representation_id'], s['sheet_name'])
         assert key not in seen
-        seen.add(key)
+        seen.add(key)
+
+    assert all(sum(s['representation_id']==rid for s in segs if s['segment_type']=='worksheet')<=next(r for r in reps if r['representation_id']==rid)['sheet_count'] for rid in {s['representation_id'] for s in segs if s['segment_type']=='worksheet'})
 
 
 def test_no_blank_or_missing_segments(segs):
@@ -276,16 +280,18 @@ def test_checkpoint_pending_remote_readback():
 def test_progress_reconciled_conservatively():
     p = read_json(AI / '00_control/progress.json')
     assert p['last_verified_complete_year'] == 2009
-    assert p['year_status']['2010'] == 'conditional_pass'
+    assert p['year_status']['2010'] == 'conditional_pass_pending_manual_review'
     assert p['year_status']['2011'] == 'not_verified'
-    assert p['year_status']['2023'] == 'pass_pending_remote_readback'
+    assert '2023' not in p['year_status']
     assert 2023 not in p['completed_years']
 
 
 def test_manual_review_queue_closed():
     q = read_jsonl(AI / '00_control/manual_review_queue.jsonl')
-    assert q[0]['open_items'] == 0
-    assert q[0]['blocking_items'] == 0
+    gate = read_json(AI / '08_quality/gates/2023_gate.json')
+    assert not [row for row in q if row.get('year') == 2023]
+    assert gate['manual_review_items'] == 0
+    assert gate['blocking_manual_review_items'] == 0
 
 
 def test_source_file_count_and_extensions(carriers):

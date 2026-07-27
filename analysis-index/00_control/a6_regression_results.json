@@ -1,0 +1,106 @@
+{
+  "stage_id": "A6",
+  "input_commit": "2027a39cf32a878812ef8f290738e063eea94131",
+  "runtime": {
+    "interpreter": "approved absolute interpreter; repository artifact intentionally omits the personal absolute path",
+    "python_version": "3.14.6",
+    "pytest_version": "9.1.1",
+    "bytecode_disabled": true,
+    "dependency_changes": false
+  },
+  "collection_validation": {
+    "command": "python -m pytest --collect-only -q -p no:cacheprovider tests/test_2015_manual.py through tests/test_2025_manual.py",
+    "baseline": {
+      "commit": "2027a39cf32a878812ef8f290738e063eea94131",
+      "collected": 267,
+      "year_2017_collected": 24,
+      "collection_errors": 0,
+      "import_errors": 0,
+      "syntax_errors": 0,
+      "exit_code": 0
+    },
+    "current": {
+      "collected": 267,
+      "year_2017_collected": 24,
+      "collection_errors": 0,
+      "import_errors": 0,
+      "syntax_errors": 0,
+      "exit_code": 0
+    },
+    "node_set_equal": true
+  },
+  "targeted_regression": {
+    "command": "python -m pytest -q -p no:cacheprovider on the 33 approved affected nodes",
+    "node_count": 33,
+    "passed": 33,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0,
+    "exit_code": 0
+  },
+  "diagnostic_2017": {
+    "command": "python -m pytest -q -p no:cacheprovider tests/test_2017_manual.py::<one node at a time>",
+    "annual_file_rerun": false,
+    "node_count": 24,
+    "baseline": {
+      "passed": 20,
+      "failed": 3,
+      "skipped": 0,
+      "errors": 0,
+      "timeouts": 1,
+      "timeout_node": "tests/test_2017_manual.py::test_20_unknown_not_absent"
+    },
+    "current": {
+      "passed": 21,
+      "failed": 3,
+      "skipped": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "terminal_outcomes": 24,
+      "failure_nodes": [
+        "tests/test_2017_manual.py::test_03_json_and_jsonl_parse",
+        "tests/test_2017_manual.py::test_21_missing_requests_exact",
+        "tests/test_2017_manual.py::test_23_progress_conservative"
+      ]
+    },
+    "comparison": {
+      "new_failures": [],
+      "same_preexisting_failures": [
+        "tests/test_2017_manual.py::test_03_json_and_jsonl_parse",
+        "tests/test_2017_manual.py::test_21_missing_requests_exact",
+        "tests/test_2017_manual.py::test_23_progress_conservative"
+      ],
+      "baseline_timeout_resolved": "tests/test_2017_manual.py::test_20_unknown_not_absent"
+    }
+  },
+  "annual_regression": [
+    {"year": 2015, "baseline": {"passed": 26, "failed": 10, "skipped": 0, "errors": 0, "exit_code": 1}, "current": {"passed": 28, "failed": 8, "skipped": 0, "errors": 0, "exit_code": 1}, "new_failures": [], "status": "completed_with_preexisting_failures"},
+    {"year": 2016, "baseline": {"passed": 26, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1}, "current": {"passed": 26, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1}, "new_failures": [], "status": "completed_with_preexisting_failures"},
+    {"year": 2018, "baseline": {"passed": 12, "failed": 4, "skipped": 0, "errors": 0, "exit_code": 1}, "current": {"passed": 15, "failed": 1, "skipped": 0, "errors": 0, "exit_code": 1}, "new_failures": [], "status": "completed_with_preexisting_failures"},
+    {"year": 2019, "baseline": {"passed": 10, "failed": 1, "skipped": 0, "errors": 0, "exit_code": 1}, "current": {"passed": 10, "failed": 1, "skipped": 0, "errors": 0, "exit_code": 1}, "new_failures": [], "status": "completed_with_preexisting_failures"},
+    {"year": 2020, "baseline": {"passed": 21, "failed": 11, "skipped": 0, "errors": 0, "exit_code": 1}, "current": {"passed": 23, "failed": 9, "skipped": 0, "errors": 0, "exit_code": 1}, "new_failures": [], "status": "completed_with_preexisting_failures"},
+    {"year": 2021, "baseline": {"passed": 18, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1}, "current": {"passed": 18, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1}, "new_failures": [], "status": "completed_with_preexisting_failures"},
+    {"year": 2022, "baseline": {"passed": 18, "failed": 4, "skipped": 2, "errors": 0, "exit_code": 1}, "current": {"passed": 20, "failed": 2, "skipped": 2, "errors": 0, "exit_code": 1}, "new_failures": [], "status": "completed_with_preexisting_failures"},
+    {"year": 2023, "baseline": {"passed": 24, "failed": 4, "skipped": 0, "errors": 0, "exit_code": 1}, "current": {"passed": 26, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1}, "new_failures": [], "status": "completed_with_preexisting_failures"},
+    {"year": 2024, "baseline": {"passed": 19, "failed": 5, "skipped": 0, "errors": 0, "exit_code": 1}, "current": {"passed": 22, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1}, "new_failures": [], "status": "completed_with_preexisting_failures"},
+    {"year": 2025, "baseline": {"passed": 20, "failed": 4, "skipped": 0, "errors": 0, "exit_code": 1}, "current": {"passed": 22, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1}, "new_failures": [], "status": "completed_with_preexisting_failures"}
+  ],
+  "quality_gates": {
+    "python_compile": {"status": "passed", "exit_code": 0, "files": 11},
+    "git_diff_check": "passed",
+    "errors_ignore_in_modified_tests": false,
+    "new_skip_or_xfail": false,
+    "collection_import_syntax_errors": 0,
+    "source_and_business_inputs_changed": false,
+    "a4_outputs_changed": false,
+    "a5_outputs_changed": false,
+    "a7_started": false
+  },
+  "acceptance": {
+    "targeted_regression_passed": true,
+    "affected_year_regression_completed": true,
+    "unaffected_years_new_failures": 0,
+    "remote_readback": "pending_delivery",
+    "final_status_before_remote_readback": "completed_locally_pending_remote_readback"
+  }
+}

@@ -8,7 +8,15 @@ AI = ROOT / "analysis-index"
 YEAR = 2025
 
 def read_jsonl(path: Path):
-    return [json.loads(x) for x in path.read_text(encoding="utf-8").splitlines() if x.strip()]
+    return [json.loads(x) for x in path.read_text(encoding="utf-8").splitlines() if x.strip()]
+
+def read_text_strict(path: Path, encoding="utf-8"):
+
+    try:
+        return path.read_text(encoding=encoding)
+    except UnicodeDecodeError as exc:
+        rel=path.resolve().relative_to(ROOT.resolve()).as_posix()
+        raise AssertionError(f"decode failure: path={rel} encoding={encoding} exception={type(exc).__name__} position={exc.start}:{exc.end} reason={exc.reason}") from exc
 
 def test_required_files_exist():
     required = [
@@ -74,19 +82,21 @@ def test_every_document_has_exact_six_pack():
         assert {p.name for p in folder.iterdir() if p.is_file()}==expected
 
 def test_segment_coordinates_valid_and_nonoverlap():
-    segs=read_jsonl(AI/'03_segments/2025_segments.jsonl')
+    segs=read_jsonl(AI/'03_segments/2025_segments.jsonl')
+    reps={x['representation_id']:x for x in read_jsonl(AI/'04_relations/2025_representations.jsonl')}
     assert len(segs)==745
     page_keys=set()
     for s in segs:
         assert s['coordinate_valid'] is True
         if s['segment_type']=='page':
             x0,y0,x1,y1=s['bbox_pdf_points']; assert x1>x0 and y1>y0
-            key=(s['representation_id'],s['page_number']); assert key not in page_keys; page_keys.add(key)
+            key=(s['representation_id'],s['page_number']); assert key not in page_keys; page_keys.add(key)
+            assert 1<=s['page_number']<=reps[s['representation_id']]['page_count']
         else:
             assert s['bbox_pdf_points'] is None
 
 def test_unknown_not_absent_policy():
-    text='\n'.join(p.read_text(encoding='utf-8',errors='ignore') for p in AI.rglob('*') if p.is_file() and p.suffix in {'.json','.jsonl','.csv','.md'})
+    text='\n'.join(read_text_strict(p) for p in AI.rglob('*') if p.is_file() and '2025' in p.as_posix() and p.suffix in {'.json','.jsonl','.csv','.md'})
     assert 'field_status_policy' in text
     # No machine field marks an unobserved feature as absent.
     assert '"status": "absent"' not in text and '"status":"absent"' not in text
@@ -105,11 +115,12 @@ def test_duplicate_relations_retained():
     assert any(r.get('duplicate_semantics')=='cross_label_duplicate_requires_source_confirmation' for r in dup)
 
 def test_manual_review_is_nonblocking():
-    q=read_jsonl(AI/'00_control/manual_review_queue.jsonl')
+    q=[x for x in read_jsonl(AI/'00_control/manual_review_queue.jsonl') if x.get('year')==2025]
     assert len(q)==1 and q[0]['severity']=='nonblocking' and q[0]['status']=='open'
 
 def test_missing_segment_requests_empty():
-    assert read_jsonl(AI/'00_control/missing_segment_requests.jsonl')==[]
+    rows=[x for x in read_jsonl(AI/'00_control/missing_segment_requests.jsonl') if x.get('year')==2025]
+    assert rows==[]
 
 def test_source_unmodified_evidence():
     e=json.loads((AI/'08_quality/evidence/2025_source_hash_verification.json').read_text(encoding='utf-8'))

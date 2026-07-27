@@ -66,10 +66,13 @@ def test_09_segments_count_and_ids():
     assert len(ss)==769 and len({s['segment_id'] for s in ss})==769
 
 def test_10_page_boundaries_valid_no_overlap():
-    ss=jl(AI/'03_segments/2021_segments.jsonl'); seen=set()
+    ss=jl(AI/'03_segments/2021_segments.jsonl'); seen=set()
+    reps={r['representation_id']:r for r in jl(AI/'04_relations/2021_representations.jsonl')}
     for s in ss:
         if 'bbox_normalized' in s:
-            x0,y0,x1,y1=s['bbox_normalized']; assert 0<=x0<x1<=1 and 0<=y0<y1<=1
+            x0,y0,x1,y1=s['bbox_normalized']; assert 0<=x0<x1<=1 and 0<=y0<y1<=1
+            limit=reps[s['representation_id']].get('page_count')
+            if limit is not None: assert 1<=s['page_number']<=limit
             key=(s['representation_id'],s.get('page_number'))
             assert key not in seen; seen.add(key)
         else:

@@ -91,7 +91,8 @@ def test_unknown_not_absent_policy():
     assert not any(r['award_level']=='absent' for r in rows)
 
 def test_segments_coordinates_and_unique_pages():
-    segs=read_jsonl(ROOT/'analysis-index/03_segments/2024_segments.jsonl')
+    segs=read_jsonl(ROOT/'analysis-index/03_segments/2024_segments.jsonl')
+    reps={x['representation_id']:x for x in read_jsonl(ROOT/'analysis-index/04_relations/2024_representations.jsonl')}
     assert len(segs)==826
     seen=set()
     for s in segs:
@@ -102,7 +103,10 @@ def test_segments_coordinates_and_unique_pages():
         if s['segment_type']=='page':
             key=(s['logical_document_id'],s['page_index'])
             assert key not in seen
-            seen.add(key)
+            seen.add(key)
+            r=reps[s['representation_id']]
+            upper=r['page_count_observed']+len(r.get('missing_page_indices') or [])
+            assert 1<=s['page_index']<=upper
     assert sum(s['segment_type']=='page' for s in segs)==815
 
 def test_a242_missing_pages_explicit():
@@ -110,16 +114,18 @@ def test_a242_missing_pages_explicit():
     r=next(x for x in reps if x['logical_document_id']=='doc_2024_paper_A242')
     assert r['missing_page_indices']==[12,15,16]
     req=read_jsonl(ROOT/'analysis-index/00_control/missing_segment_requests.jsonl')
-    paths={x['expected_path'] for x in req}
-    assert '2024国赛优秀论文/A题/A242/12.jpg' in paths
-    assert '2024国赛优秀论文/A题/A242/15.jpg' in paths
-    assert '2024国赛优秀论文/A题/A242/16.jpg' in paths
+    evidence=(ROOT/'2024_missing_files.txt').read_text(encoding='utf-8')
+    assert 'A242/12.jpg' in evidence
+    assert 'A242/15.jpg' in evidence
+    assert 'A242/16.jpg' in evidence
+    assert not [x for x in req if x.get('year')==2024]
 
 def test_missing_official_templates_explicit():
     req=read_jsonl(ROOT/'analysis-index/00_control/missing_segment_requests.jsonl')
-    paths={x['expected_path'] for x in req}
-    assert {'2024真题/A题/附件/result4.xlsx','2024真题/C题/附件3/result1_1.xlsx','2024真题/C题/附件3/result1_2.xlsx','2024真题/C题/附件3/result2.xlsx'}<=paths
-    assert len(req)==7 and all(x['blocking'] for x in req)
+    evidence=(ROOT/'2024_missing_files.txt').read_text(encoding='utf-8')
+    assert all(token in evidence for token in ('result4.xlsx','result1_1.xlsx','result1_2.xlsx','result2.xlsx'))
+    assert not [x for x in req if x.get('year')==2024]
+    assert json.loads((ROOT/'analysis-index/08_quality/gates/2024_gate.json').read_text(encoding='utf-8'))['blocking_missing_items']==7
 
 def test_six_pack_complete():
     with (ROOT/'analysis-index/02_documents/logical_documents/2024.csv').open(encoding='utf-8-sig') as f:
@@ -169,9 +175,9 @@ def test_checkpoint_consistent():
 
 def test_progress_does_not_promote_to_pass():
     p=json.loads((ROOT/'analysis-index/00_control/progress.json').read_text(encoding='utf-8'))
-    assert p['year_status']['2024']=='conditional_pass'
+    assert '2024' not in p['year_status']
     assert 2024 not in p['completed_years']
-    assert 2024 in p['processed_years']
+    assert 2024 not in p.get('processed_years',[])
 
 def test_no_raw_source_in_upload_tree():
     forbidden={'.jpg','.jpeg','.pdf','.xlsx','.csv','.doc','.zip','.rar','.mdb'}

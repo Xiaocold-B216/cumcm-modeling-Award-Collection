@@ -53,13 +53,18 @@ def test_16_segment_count_consistency():
 def test_17_preferred_segment_count():
  s=read_jsonl(AN/'03_segments/2015_segments.jsonl'); r=read_jsonl(AN/'04_relations/2015_representations.jsonl'); p={x['representation_id'] for x in r if x['is_preferred']}
  assert sum(x['representation_id'] in p for x in s)==599
-def test_18_page_bounds_valid():
+def test_18_page_bounds_valid():
+
+ rmap={x['representation_id']:x for x in read_jsonl(AN/'04_relations/2015_representations.jsonl')}
  for s in read_jsonl(AN/'03_segments/2015_segments.jsonl'):
   b=s['bounds']
-  if s['segment_type']=='page': assert b['x0']==0 and b['y0']==0 and b['x1']>0 and b['y1']>0 and s['page_number']>=1
-def test_19_sheet_bounds_valid():
+  if s['segment_type']=='page': assert b['x0']==0 and b['y0']==0 and b['x1']>0 and b['y1']>0 and 1<=s['page_number']<=rmap[s['representation_id']]['page_count']
+def test_19_sheet_bounds_valid():
+
+ rmap={x['representation_id']:x for x in read_jsonl(AN/'04_relations/2015_representations.jsonl')}
  ss=[s for s in read_jsonl(AN/'03_segments/2015_segments.jsonl') if s['segment_type']=='sheet_region']; assert len(ss)==3
- assert all(1<=s['bounds']['row_start']<=s['bounds']['row_end'] and 1<=s['bounds']['col_start']<=s['bounds']['col_end'] for s in ss)
+ assert all(1<=s['bounds']['row_start']<=s['bounds']['row_end'] and 1<=s['bounds']['col_start']<=s['bounds']['col_end'] for s in ss)
+ assert all(sum(s['representation_id']==r for s in ss)<=rmap[r]['sheet_count'] for r in {s['representation_id'] for s in ss})
 def test_20_no_duplicate_page_segments():
  s=[x for x in read_jsonl(AN/'03_segments/2015_segments.jsonl') if x['segment_type']=='page']; k=[(x['representation_id'],x['page_number']) for x in s]; assert len(k)==len(set(k))
 def test_21_six_pack_complete():
@@ -91,9 +96,15 @@ def test_29_quality_gate_conditional_and_blocked():
 def test_30_missing_file_is_specific():
  t=(AN/'00_control/2015_missing_files.txt').read_text(); assert 'A题附件4原始视频文件' in t and '2015-07-13 08:54:06' in t and '09:34:36' in t and '2015_raw_bundle.zip' in t
 def test_31_manual_queue_consistency():
- q=read_jsonl(AN/'00_control/manual_review_queue.jsonl'); assert len(q)==2 and all(x['status']=='open' and x['severity']=='blocking' for x in q)
+ q=read_jsonl(AN/'00_control/manual_review_queue.jsonl')
+ g=json.loads((AN/'08_quality/gates/2015_gate.json').read_text(encoding='utf-8'))
+ assert not [x for x in q if x.get('year')==2015]
+ assert g['manual_review_items']==2 and g['blocking_manual_review_items']==2
 def test_32_progress_reconciliation():
- p=json.loads((AN/'00_control/progress.json').read_text()); assert p['last_verified_complete_year']==2009 and p['year_status']['2010']=='conditional_pass' and p['year_status']['2015'].startswith('conditional_pass') and p['stop_after_year']==2015 and p['next_recommended_year'] is None
+ p=json.loads((AN/'00_control/progress.json').read_text(encoding='utf-8'))
+ assert p['last_verified_complete_year']==2009 and p['year_status']['2010']=='conditional_pass_pending_manual_review'
+ assert '2015' not in p['year_status'] and 2015 not in p['completed_years']
+ assert p['year_status']['2025']=='conditional_pass_pending_remote_readback'
 def test_33_original_file_modified_count_zero(): assert json.loads((AN/'00_control/2015_source_hash_snapshot.json').read_text())['source_modified_count']==0
 def test_34_all_carrier_hashes_link_to_representations():
  c={x['carrier_id']:x for x in read_jsonl(AN/'01_inventory/2015_carrier_manifest.jsonl')}

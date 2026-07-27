@@ -1,0 +1,157 @@
+{
+  "stage_id": "A6",
+  "stage_title": "Confirmed minimal repair and local regression",
+  "input_commit": "2027a39cf32a878812ef8f290738e063eea94131",
+  "authoritative_input": "analysis-index/00_control/a5_proposed_repairs.json",
+  "human_confirmation": {
+    "status": "approved",
+    "scope": [
+      "A5-RP-013",
+      "A5-RP-014",
+      "A5-RP-015",
+      "A5-RP-004 diagnostic_only"
+    ],
+    "constraints": [
+      "Use only the approved existing Anaconda interpreter for validation",
+      "Do not install or change dependencies",
+      "Do not modify source materials or A4 records",
+      "Do not execute A5 or A7"
+    ]
+  },
+  "approved_repairs": [
+    "A5-RP-013",
+    "A5-RP-014",
+    "A5-RP-015"
+  ],
+  "diagnostic_only_repairs": [
+    "A5-RP-004"
+  ],
+  "deferred_repairs": [
+    "A5-RP-001",
+    "A5-RP-002",
+    "A5-RP-003",
+    "A5-RP-005",
+    "A5-RP-006",
+    "A5-RP-007",
+    "A5-RP-008",
+    "A5-RP-009",
+    "A5-RP-010",
+    "A5-RP-011",
+    "A5-RP-012"
+  ],
+  "repairs": [
+    {
+      "repair_id": "A5-RP-013",
+      "status": "approved_and_applied",
+      "issue_type": "cross_year_queue_and_progress_test_isolation",
+      "evidence": [
+        "analysis-index/00_control/test_integrity_audit_2015_2025.json",
+        "analysis-index/00_control/a4_a3_findings_validation.md",
+        "analysis-index/00_control/progress.json"
+      ],
+      "target_files": [
+        "tests/test_2015_manual.py",
+        "tests/test_2018_manual.py",
+        "tests/test_2020_manual.py",
+        "tests/test_2022_manual.py",
+        "tests/test_2023_manual.py",
+        "tests/test_2024_manual.py",
+        "tests/test_2025_manual.py"
+      ],
+      "before": "Assertions treated global queue rows as if they belonged to the current year and required progress entries for years intentionally absent from the partial historical progress file.",
+      "after": "Queue assertions filter by the current year where year scope is intended, global gate counts remain explicit, and progress assertions accept the documented partial status model without promoting absent years.",
+      "impact_scope": "Test assertions only; queue, gate, checkpoint, progress, business data, and source bytes were not modified.",
+      "regression": {
+        "targeted_node_count": 24,
+        "targeted_passed": 24,
+        "command": "python -m pytest -q -p no:cacheprovider <approved affected queue/progress nodes>"
+      },
+      "rollback": "Revert only the A5-RP-013 assertion hunks from this commit; retain the A3 finding and all control inputs."
+    },
+    {
+      "repair_id": "A5-RP-014",
+      "status": "approved_and_applied",
+      "issue_type": "errors_ignore_encoding_evidence",
+      "evidence": [
+        "analysis-index/00_control/test_integrity_audit_2015_2025.json",
+        "analysis-index/00_control/a4_a3_findings_validation.md"
+      ],
+      "target_files": [
+        "tests/test_2017_manual.py",
+        "tests/test_2018_manual.py",
+        "tests/test_2019_manual.py",
+        "tests/test_2025_manual.py"
+      ],
+      "before": "Year-specific unknown-content scans used errors=ignore, allowing malformed bytes to be silently discarded.",
+      "after": "Year-specific scans use strict UTF-8 decoding and raise an assertion with repository-relative path, encoding, exception type, byte position, and reason on decode failure.",
+      "impact_scope": "Test read policy only; no source bytes or derived business records were changed.",
+      "regression": {
+        "targeted_node_count": 4,
+        "targeted_passed": 4,
+        "command": "python -m pytest -q -p no:cacheprovider <approved strict-decoding nodes>"
+      },
+      "rollback": "Revert only the A5-RP-014 decoding-policy hunks from this commit; retain the A3 finding."
+    },
+    {
+      "repair_id": "A5-RP-015",
+      "status": "approved_and_applied",
+      "issue_type": "BOM_input_output_policy_separation_and_bounds",
+      "evidence": [
+        "analysis-index/00_control/test_integrity_audit_2015_2025.json",
+        "analysis-index/00_control/a4_a3_findings_validation.md"
+      ],
+      "target_files": [
+        "tests/test_2015_manual.py",
+        "tests/test_2016_manual.py",
+        "tests/test_2017_manual.py",
+        "tests/test_2018_manual.py",
+        "tests/test_2019_manual.py",
+        "tests/test_2020_manual.py",
+        "tests/test_2021_manual.py",
+        "tests/test_2022_manual.py",
+        "tests/test_2023_manual.py",
+        "tests/test_2024_manual.py",
+        "tests/test_2025_manual.py"
+      ],
+      "before": "Page and worksheet upper bounds used incomplete or hard-coded limits, and BOM/encoding behavior was not consistently separated from strict output validation.",
+      "after": "Bounds are derived from representation, carrier, inspection, observed-page, missing-page, or sheet evidence; input BOM tolerance remains distinct from strict UTF-8 output checks.",
+      "impact_scope": "Test assertions only; no source, business, gate, checkpoint, queue, or A4 output was modified.",
+      "regression": {
+        "targeted_node_count": 33,
+        "targeted_passed": 33,
+        "command": "python -m pytest -q -p no:cacheprovider <33 approved affected nodes>"
+      },
+      "rollback": "Revert only the A5-RP-015 assertion and input-policy hunks from this commit; preserve all evidence and source records."
+    }
+  ],
+  "diagnostic_only": {
+    "repair_id": "A5-RP-004",
+    "status": "diagnosed_without_overwriting_A4",
+    "target": "2017 only",
+    "before": "24 nodes were collected; the A4 annual run timed out at 300 seconds with exit code 124 and no terminal outcomes recorded.",
+    "after": "All 24 nodes were executed independently. Current results are 21 passed, 3 existing failures, 0 skipped, 0 errors, and 0 timeouts; the three failures match the clean baseline.",
+    "evidence": [
+      "analysis-index/00_control/a4_test_execution_summary.json",
+      "analysis-index/00_control/a4_test_runtime_profile.json",
+      "analysis-index/00_control/a4_test_failure_inventory.jsonl",
+      "tests/test_2017_manual.py"
+    ],
+    "scope_guard": "No 2015, 2016, or 2018-2025 annual test was rerun as part of the 2017 diagnostic, and no A4 file was overwritten.",
+    "rollback": "Remove only this A6 diagnostic evidence if rejected; retain the A4 timeout aggregate unchanged."
+  },
+  "changed_files": [
+    "tests/test_2015_manual.py",
+    "tests/test_2016_manual.py",
+    "tests/test_2017_manual.py",
+    "tests/test_2018_manual.py",
+    "tests/test_2019_manual.py",
+    "tests/test_2020_manual.py",
+    "tests/test_2021_manual.py",
+    "tests/test_2022_manual.py",
+    "tests/test_2023_manual.py",
+    "tests/test_2024_manual.py",
+    "tests/test_2025_manual.py"
+  ],
+  "protected_inputs_unchanged": true,
+  "next_stage_started": false
+}

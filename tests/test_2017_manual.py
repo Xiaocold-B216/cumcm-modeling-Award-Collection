@@ -7,10 +7,18 @@ ROOT=Path(__file__).resolve().parents[1]
 YEAR='2017'
 
 def j(path): return json.loads((ROOT/path).read_text(encoding='utf-8'))
-def jl(path):
+def jl(path):
     p=ROOT/path
     if not p.read_text(encoding='utf-8').strip(): return []
-    return [json.loads(x) for x in p.read_text(encoding='utf-8').splitlines() if x.strip()]
+    return [json.loads(x) for x in p.read_text(encoding='utf-8').splitlines() if x.strip()]
+
+def read_text_strict(path, encoding='utf-8'):
+
+    try:
+        return path.read_text(encoding=encoding)
+    except UnicodeDecodeError as exc:
+        rel=path.resolve().relative_to(ROOT.resolve()).as_posix()
+        raise AssertionError(f'decode failure: path={rel} encoding={encoding} exception={type(exc).__name__} position={exc.start}:{exc.end} reason={exc.reason}') from exc
 
 def test_01_required_annual_files_exist():
     req=['analysis-index/01_inventory/2017_carrier_manifest.jsonl','analysis-index/02_documents/logical_documents/2017.csv','analysis-index/03_segments/2017_segments.jsonl','analysis-index/04_relations/2017_representations.jsonl','analysis-index/04_relations/2017_relations.jsonl','analysis-index/04_relations/2017_solution_lineages.jsonl','analysis-index/05_knowledge/methods/2017_methods.jsonl','analysis-index/05_knowledge/expert_feedback/2017_feedback.jsonl','analysis-index/05_knowledge/visualizations/2017_visualizations.jsonl','analysis-index/06_statistics/yearly/2017_statistics.csv','analysis-index/07_reports/yearly/2017_report.md','analysis-index/08_quality/gates/2017_gate.json','analysis-index/09_checkpoints/2017_checkpoint.json','2017_missing_files.txt']
@@ -87,10 +95,14 @@ def test_16_segments_reference_valid_representations():
     segs=jl('analysis-index/03_segments/2017_segments.jsonl')
     assert len(segs)==223 and all(s['representation_id'] in reps for s in segs)
 
-def test_17_page_bbox_legal():
+def test_17_page_bbox_legal():
+
+    reps={r['representation_id']:r for r in jl('analysis-index/04_relations/2017_representations.jsonl')}
     for s in jl('analysis-index/03_segments/2017_segments.jsonl'):
         if s['bbox'] is not None:
-            x0,y0,x1,y1=s['bbox']; assert x0>=0 and y0>=0 and x1>x0 and y1>y0
+            x0,y0,x1,y1=s['bbox']; assert x0>=0 and y0>=0 and x1>x0 and y1>y0
+            page_limit=reps[s['representation_id']].get('page_count') or reps[s['representation_id']].get('derived_page_view_count')
+            assert 1<=s['page_number']<=page_limit
 
 def test_18_page_regions_nonoverlap():
     groups=defaultdict(list)
@@ -103,7 +115,7 @@ def test_19_solution_paper_pages():
     assert sum(r['page_count'] or 0 for r in reps if r['logical_document_id'].startswith('2017_paper_'))==190
 
 def test_20_unknown_not_absent():
-    corpus='\n'.join(p.read_text(encoding='utf-8',errors='ignore') for p in ROOT.rglob('*') if p.is_file() and p.suffix in {'.json','.jsonl','.csv'})
+    corpus='\n'.join(read_text_strict(p) for p in ROOT.rglob('*') if p.is_file() and '2017' in p.as_posix() and p.suffix in {'.json','.jsonl','.csv'})
     assert '"absent"' not in corpus and ',absent,' not in corpus
 
 def test_21_missing_requests_exact():

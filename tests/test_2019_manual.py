@@ -6,11 +6,19 @@ ROOT=Path(__file__).resolve().parents[1]
 AN=ROOT/'analysis-index'
 YEAR=2019
 
-def read_jsonl(p):
+def read_jsonl(p):
     rows=[]
     for line in p.read_text(encoding='utf-8').splitlines():
         if line.strip(): rows.append(json.loads(line))
-    return rows
+    return rows
+
+def read_text_strict(path, encoding='utf-8'):
+
+    try:
+        return path.read_text(encoding=encoding)
+    except UnicodeDecodeError as exc:
+        rel=path.resolve().relative_to(ROOT.resolve()).as_posix()
+        raise AssertionError(f'decode failure: path={rel} encoding={encoding} exception={type(exc).__name__} position={exc.start}:{exc.end} reason={exc.reason}') from exc
 
 def test_required_files_exist():
     required=[
@@ -63,11 +71,13 @@ def test_six_pack_exactly_once_per_document():
         assert required.issubset({p.name for p in path.iterdir()})
 
 def test_page_boundaries_and_coordinates():
-    segs=read_jsonl(AN/'03_segments/2019_segments.jsonl')
+    segs=read_jsonl(AN/'03_segments/2019_segments.jsonl')
+    reps={x['representation_id']:x for x in read_jsonl(AN/'04_relations/2019_representations.jsonl')}
     seen=set()
     for s in segs:
         if s['segment_type']=='page_region':
-            assert s['page_start']==s['page_end'] and s['page_start']>=1
+            assert s['page_start']==s['page_end'] and s['page_start']>=1
+            assert s['page_start']<=reps[s['representation_id']]['page_count']
             x0,y0,x1,y1=s['bbox_normalized']
             assert 0<=x0<x1<=1 and 0<=y0<y1<=1
             key=(s['representation_id'],s['page_start'])
@@ -84,7 +94,7 @@ def test_solution_lineages():
 def test_unknown_not_absent_and_no_award_inference():
     with (AN/'02_documents/logical_documents/2019.csv').open(encoding='utf-8-sig',newline='') as f: docs=list(csv.DictReader(f))
     assert all(x['award_level']=='unknown' for x in docs)
-    corpus='\n'.join(p.read_text(encoding='utf-8',errors='ignore') for p in (AN/'02_documents/dossiers').rglob('*') if p.is_file())
+    corpus='\n'.join(read_text_strict(p) for p in (AN/'02_documents/dossiers').rglob('*') if p.is_file())
     assert 'award_level": "absent"' not in corpus
 
 def test_source_modification_count_zero():

@@ -52,9 +52,12 @@ def test_segments_unique_and_legal():
             x0,y0,x1,y1=s['bbox']; assert 0<=x0<x1 and 0<=y0<y1
         else: assert s['segment_type']=='sheet_region' and s['cell_range']
 def test_page_boundaries_nonoverlap():
-    seg=jl(A/'03_segments/2016_segments.jsonl'); keys=[]
+    seg=jl(A/'03_segments/2016_segments.jsonl'); keys=[]
+    reps={r['representation_id']:r for r in jl(A/'04_relations/2016_representations.jsonl')}
     for s in seg:
-        keys.append((s['representation_id'],s['page_number'],s['sheet_name']))
+        keys.append((s['representation_id'],s['page_number'],s['sheet_name']))
+        if s['page_number'] is not None:
+            assert 1<=s['page_number']<=reps[s['representation_id']]['page_count']
     assert len(keys)==len(set(keys))
 def test_problem_distribution():
     ls=jl(A/'04_relations/2016_solution_lineages.jsonl')

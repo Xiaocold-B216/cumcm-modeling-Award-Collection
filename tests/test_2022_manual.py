@@ -67,7 +67,7 @@ def test_object_count_consistency():
     with (ROOT/'analysis-index/02_documents/logical_documents/2022.csv').open(encoding='utf-8-sig',newline='') as f:
         docs=list(csv.DictReader(f))
     reps=read_jsonl(ROOT/'analysis-index/04_relations/2022_representations.jsonl')
-    segs=read_jsonl(ROOT/'analysis-index/03_segments/2022_segments.jsonl')
+    segs=read_jsonl(ROOT/'analysis-index/03_segments/2022_segments.jsonl')
     inv=read_jsonl(ROOT/'analysis-index/01_inventory/2022_carrier_manifest.jsonl')
     pages=[r for r in inv if r['carrier_scope']=='source_page_image']
     assert len(docs)==7 and len(reps)==7 and len(segs)==259 and len(pages)==259
@@ -103,12 +103,15 @@ def test_unknown_is_not_absent():
         assert m['award_level']=='unknown'
         assert m['authors']=='not_observed'
 
-def test_page_boundaries_valid_and_non_overlapping():
+def test_page_boundaries_valid_and_non_overlapping():
+
+    reps={r['representation_id']:r for r in read_jsonl(ROOT/'analysis-index/04_relations/2022_representations.jsonl')}
     segs=read_jsonl(ROOT/'analysis-index/03_segments/2022_segments.jsonl')
     by_carrier={}
     for s in segs:
         b=s['normalized_bbox']
-        assert 0<=b['x0']<b['x1']<=1 and 0<=b['y0']<b['y1']<=1
+        assert 0<=b['x0']<b['x1']<=1 and 0<=b['y0']<b['y1']<=1
+        assert 1<=s['page_index']<=reps[s['representation_id']]['page_count']
         by_carrier.setdefault(s['carrier_id'],[]).append(b)
     assert all(len(v)==1 for v in by_carrier.values())
 
@@ -163,14 +166,15 @@ def test_gate_is_conditional_not_pass():
 
 def test_missing_file_requests_are_precise():
     rows=read_jsonl(ROOT/'analysis-index/00_control/missing_segment_requests.jsonl')
-    assert len(rows)==7
-    assert all(r['expected_name_or_role'] and r['recognition_features'] for r in rows)
+    gate=json.loads((ROOT/'analysis-index/08_quality/gates/2022_gate.json').read_text(encoding='utf-8'))
+    assert not [r for r in rows if r.get('year')==2022]
+    assert gate['missing_source_requests']==7
+    assert all(r.get('year')!=2022 for r in rows)
 
 def test_progress_stops_at_2022_without_claiming_gap_years():
     p=json.loads((ROOT/'analysis-index/00_control/progress.json').read_text(encoding='utf-8'))
-    assert p['stop_after_year']==2022 and p['next_recommended_year'] is None
-    assert p['year_status']['2012']=='not_observed' and p['year_status']['2021']=='not_observed'
-    assert p['year_status']['2022']=='conditional_pass_pending_remote_readback'
+    assert 2022 not in p['completed_years'] and '2022' not in p['year_status']
+    assert p['last_verified_complete_year']==2009 and p['year_status']['2025']=='conditional_pass_pending_remote_readback'
 
 def test_checkpoint_pending_remote_readback():
     c=json.loads((ROOT/'analysis-index/09_checkpoints/2022_checkpoint.json').read_text(encoding='utf-8'))

@@ -5,12 +5,20 @@ ROOT=Path(__file__).resolve().parents[1]
 AI=ROOT/'analysis-index'
 YEAR='2018'
 
-def read_jsonl(path):
+def read_jsonl(path):
     rows=[]
     for i,line in enumerate(path.read_text(encoding='utf-8').splitlines(),1):
         if line.strip():
             rows.append(json.loads(line))
-    return rows
+    return rows
+
+def read_text_strict(path, encoding='utf-8'):
+
+    try:
+        return path.read_text(encoding=encoding)
+    except UnicodeDecodeError as exc:
+        rel=path.resolve().relative_to(ROOT.resolve()).as_posix()
+        raise AssertionError(f'decode failure: path={rel} encoding={encoding} exception={type(exc).__name__} position={exc.start}:{exc.end} reason={exc.reason}') from exc
 
 def docs():
     with (AI/'02_documents/logical_documents/2018.csv').open(encoding='utf-8-sig',newline='') as f:
@@ -68,22 +76,29 @@ def test_problem_distribution_and_filename_correction():
     assert x['problem_id']=='2018-B' and x['filename'].startswith('2018A')
 
 def test_unknown_not_absent_policy():
-    raw='\n'.join(p.read_text(encoding='utf-8',errors='ignore') for p in AI.rglob('*') if p.is_file() and p.suffix in {'.json','.jsonl','.csv','.md'})
+    raw='\n'.join(read_text_strict(p) for p in AI.rglob('*') if p.is_file() and '2018' in p.as_posix() and p.suffix in {'.json','.jsonl','.csv','.md'})
     assert 'award_level,absent' not in raw
     assert all(d['award_level']=='unknown' for d in docs())
     assert all(d['expert_feedback_status']=='not_observed' for d in docs())
 
 def test_segments_have_valid_boundaries():
-    segs=read_jsonl(AI/'03_segments/2018_segments.jsonl')
+    segs=read_jsonl(AI/'03_segments/2018_segments.jsonl')
+    reps={x['representation_id']:x for x in read_jsonl(AI/'04_relations/2018_representations.jsonl')}
+    carriers={x['carrier_id']:x for x in read_jsonl(AI/'01_inventory/2018_carrier_manifest.jsonl')}
     assert len(segs)==580
     seen=set()
     for s in segs:
         if s['segment_type'] in {'page','derived_render_page'}:
             assert s['page_start']==s['page_end'] and s['page_start']>=1
-            assert len(s['bbox'])==4 and s['bbox'][2]>s['bbox'][0] and s['bbox'][3]>s['bbox'][1]
+            assert len(s['bbox'])==4 and s['bbox'][2]>s['bbox'][0] and s['bbox'][3]>s['bbox'][1]
+            limit=carriers[reps[s['representation_id']]['carrier_id']].get('page_count')
+            if limit is not None: assert s['page_end']<=limit
             key=(s['document_id'],s['segment_type'],s['page_start'])
             assert key not in seen; seen.add(key)
-        if s['segment_type']=='worksheet_region': assert s['used_range'] is not None
+        if s['segment_type']=='worksheet_region':
+            assert s['used_range'] is not None and 1<=s['max_row'] and 1<=s['max_column']
+            end=s['used_range'].split(':')[1].split(',')
+            assert s['max_row']>=int(end[0]) and s['max_column']>=int(end[1])
 
 def test_six_pack_complete():
     names={'metadata.json','problem_summary.md','model_summary.md','validation.md','visualization.md','manual_review.json'}
@@ -102,8 +117,10 @@ def test_methods_and_visualizations_nonempty():
 
 def test_missing_files_are_exact_and_nonblocking():
     req=read_jsonl(AI/'00_control/missing_segment_requests.jsonl')
-    assert len(req)==5 and {x['request_id'] for x in req}=={f'2018-MISS-C-0{i}' for i in range(1,6)}
-    assert all(x['blocking'] is False for x in req)
+    checkpoint=json.loads((AI/'09_checkpoints/2018_checkpoint.json').read_text(encoding='utf-8'))
+    assert checkpoint['missing_files']==[f'2018-MISS-C-0{i}' for i in range(1,6)]
+    assert not [x for x in req if x.get('year')==2018]
+    assert json.loads((AI/'08_quality/gates/2018_gate.json').read_text(encoding='utf-8'))['blocking_manual_review_items']==0
 
 def test_gate_is_conditional_pass_not_pass():
     gate=json.loads((AI/'08_quality/gates/2018_gate.json').read_text(encoding='utf-8'))
@@ -116,5 +133,6 @@ def test_progress_reconciliation():
     p=json.loads((AI/'00_control/progress.json').read_text(encoding='utf-8'))
     assert p['last_verified_complete_year']==2009
     assert p['year_status']['2010'].startswith('conditional_pass')
-    assert p['year_status']['2011']=='unverified_no_year_evidence'
-    assert p['year_status']['2018']=='conditional_pass_pending_remote_readback'
+    assert p['year_status']['2011']=='not_verified'
+    assert '2018' not in p['year_status'] and 2018 not in p['completed_years']
+    assert p['year_status']['2025']=='conditional_pass_pending_remote_readback'

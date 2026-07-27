@@ -44,14 +44,29 @@ def test_feedback_not_observed(): assert jl('analysis-index/05_knowledge/expert_
 def test_observed_visualizations():
     v=jl('analysis-index/05_knowledge/visualizations/2020_visualizations.jsonl'); assert sum(x.get('paper_observed',False) for x in v)==68
 def test_segments_page_coordinates():
-    for x in jl('analysis-index/03_segments/2020_segments.jsonl'):
+    reps={x['representation_id']:x for x in jl('analysis-index/04_relations/2020_representations.jsonl')}
+    carriers={x['carrier_id']:x for x in jl('analysis-index/01_inventory/2020_carrier_manifest.jsonl')}
+
+    for x in jl('analysis-index/03_segments/2020_segments.jsonl'):
         if x['segment_type']=='page':
-            a,b,c,d=x['region']; assert 0<=a<c<=1 and 0<=b<d<=1
+            a,b,c,d=x['region']; assert 0<=a<c<=1 and 0<=b<d<=1
+            limit=carriers[reps[x['representation_id']]['carrier_id']].get('inspection',{}).get('pages')
+            if limit is not None: assert 1<=x['page_number']<=limit
 def test_page_boundaries_unique():
     p=[x for x in jl('analysis-index/03_segments/2020_segments.jsonl') if x['segment_type']=='page']; keys=[(x['representation_id'],x['page_number']) for x in p]; assert len(keys)==len(set(keys))
-def test_tabular_boundaries():
+def test_tabular_boundaries():
+
+    reps={x['representation_id']:x for x in jl('analysis-index/04_relations/2020_representations.jsonl')}
+    carriers={x['carrier_id']:x for x in jl('analysis-index/01_inventory/2020_carrier_manifest.jsonl')}
+    sheets={}
     for x in jl('analysis-index/03_segments/2020_segments.jsonl'):
-        if x['segment_type']!='page': assert x['row_start']>=1 and x['row_end']>=x['row_start'] and x['column_start']>=1 and x['column_end']>=x['column_start']
+        if x['segment_type']!='page':
+            assert x['row_start']>=1 and x['row_end']>=x['row_start'] and x['column_start']>=1 and x['column_end']>=x['column_start']
+            sheets[x['representation_id']]=sheets.get(x['representation_id'],0)+1
+
+    for rid,count in sheets.items():
+        inspection=carriers[reps[rid]['carrier_id']].get('inspection',{})
+        if inspection.get('sheet_count') is not None: assert count<=inspection['sheet_count']
 def test_six_pack_complete():
     names={'metadata.json','problem_summary.md','model_summary.md','validation.md','visualization.md','manual_review.json'}; base=ROOT/'analysis-index/02_documents/six_pack/2020'
     for d in docs(): assert names<={x.name for x in (base/d['logical_document_id']).iterdir()}
@@ -63,9 +78,14 @@ def test_gate_conditional_pass():
 def test_checkpoint_counts_match_gate():
     g=json.loads((ROOT/'analysis-index/08_quality/gates/2020_gate.json').read_text()); c=json.loads((ROOT/'analysis-index/09_checkpoints/2020_checkpoint.json').read_text());
     for k in ['carriers','documents','solution_papers','problem_statements','supporting_objects','representations','segments']: assert g[k]==c[k]
-def test_progress_pending_remote_readback():
-    p=json.loads((ROOT/'analysis-index/00_control/progress.json').read_text()); assert 2020 not in p['completed_years'] and p['year_status']['2020']=='conditional_pass_pending_remote_readback' and p['next_recommended_year']==2020
-def test_no_blocking_missing_requests(): assert all(not x['blocking'] for x in jl('analysis-index/00_control/missing_segment_requests.jsonl'))
+def test_progress_pending_remote_readback():
+    p=json.loads((ROOT/'analysis-index/00_control/progress.json').read_text(encoding='utf-8'))
+    assert 2020 not in p['completed_years'] and '2020' not in p['year_status']
+    assert p['last_verified_complete_year']==2009 and p['year_status']['2025']=='conditional_pass_pending_remote_readback'
+def test_no_blocking_missing_requests():
+    rows=[x for x in jl('analysis-index/00_control/missing_segment_requests.jsonl') if x.get('year')==2020]
+    assert rows==[]
+    assert json.loads((ROOT/'analysis-index/08_quality/gates/2020_gate.json').read_text(encoding='utf-8'))['blocking_items']==0
 def test_missing_files_txt_precise():
     t=(ROOT/'analysis-index/00_control/2020_missing_files.txt').read_text(); assert '没有阻塞性缺失文件' in t and '0~3' in t and '10~100万元' in t
 def test_report_exists_and_has_corrections():
