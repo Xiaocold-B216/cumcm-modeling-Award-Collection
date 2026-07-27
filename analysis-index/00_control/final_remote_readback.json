@@ -1,0 +1,24 @@
+{
+  "repository": "Xiaocold-B216/cumcm-modeling-Award-Collection",
+  "branch": "analysis/corpus-index",
+  "local_head": "fb670937d61d8394ecbf4ec0dd1bb3d58e503086",
+  "tracking_head": "fb670937d61d8394ecbf4ec0dd1bb3d58e503086",
+  "ls_remote_head": "fb670937d61d8394ecbf4ec0dd1bb3d58e503086",
+  "fetch_exit_code": 0,
+  "push_exit_code": null,
+  "diff_exit_code": 0,
+  "worktree_clean": true,
+  "summary_commit": null,
+  "delivery_commit_predecessor": null,
+  "remote_head_before_a8_push": "fb670937d61d8394ecbf4ec0dd1bb3d58e503086",
+  "remote_head_after_a8_push": null,
+  "files": [
+    {"path":"analysis-index/00_control/a1_a8_final_summary.json","http_status":null,"content_type":null,"local_sha256":null,"git_blob_sha256":null,"remote_sha256":null,"local_bytes":null,"git_blob_bytes":null,"remote_bytes":null,"byte_equal":null,"format_validation":"pending_post_push_readback"},
+    {"path":"analysis-index/00_control/a1_a8_final_summary.md","http_status":null,"content_type":null,"local_sha256":null,"git_blob_sha256":null,"remote_sha256":null,"local_bytes":null,"git_blob_bytes":null,"remote_bytes":null,"byte_equal":null,"format_validation":"pending_post_push_readback"},
+    {"path":"analysis-index/00_control/final_remote_readback.json","http_status":null,"content_type":null,"local_sha256":null,"git_blob_sha256":null,"remote_sha256":null,"local_bytes":null,"git_blob_bytes":null,"remote_bytes":null,"byte_equal":null,"format_validation":"pending_post_push_readback"},
+    {"path":"analysis-index/09_checkpoints/a8_final_checkpoint.json","http_status":null,"content_type":null,"local_sha256":null,"git_blob_sha256":null,"remote_sha256":null,"local_bytes":null,"git_blob_bytes":null,"remote_bytes":null,"byte_equal":null,"format_validation":"pending_post_push_readback"}
+  ],
+  "first_push": {"status":"pending","force_used":false},
+  "final_push": {"status":"not_started","force_used":false},
+  "final_status": "pending_post_push_readback"
+}
