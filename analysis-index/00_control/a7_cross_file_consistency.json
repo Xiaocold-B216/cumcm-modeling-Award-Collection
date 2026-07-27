@@ -1,0 +1,112 @@
+{
+  "stage_id": "A7",
+  "input_commit": "2f318cef8415ca49b8e4088ebd266443406c73f5",
+  "scope": "2015-2025 and global files that reference those years",
+  "overall_status": "blocked: environment",
+  "checks": [
+    {
+      "check_id": "A7-CF-001",
+      "type": "gate_checkpoint_report_progress",
+      "scope": "2015-2025",
+      "evidence_paths": ["analysis-index/08_quality/gates/", "analysis-index/09_checkpoints/", "analysis-index/07_reports/yearly/", "analysis-index/00_control/progress.json"],
+      "expected": "Gate, Checkpoint and report states are reconciled without promoting conditional evidence.",
+      "actual": {"gate_checkpoint_numeric_mismatches": 0, "gate_checkpoint_scope_differences": [2021, 2023], "progress_missing_year_statuses": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]},
+      "status": "conditional",
+      "difference": "2021 and 2023 Checkpoints retain remote-readback-pending scope; progress has no status keys for 2015-2024. A5 explicitly documents these scope differences.",
+      "blocks_a7": false,
+      "recommended_stage": "human review or later control reconciliation; no A7 repair"
+    },
+    {
+      "check_id": "A7-CF-002",
+      "type": "queue_consistency",
+      "scope": "global and annual queues",
+      "evidence_paths": ["analysis-index/00_control/manual_review_queue.jsonl", "analysis-index/00_control/missing_segment_requests.jsonl", "analysis-index/00_control/a5_human_review_queue.jsonl"],
+      "expected": "IDs, years, statuses and blocking scopes are explicit and unique.",
+      "actual": {"global_manual_review_open": 1, "global_missing_segment_open": 12, "global_missing_segment_blocking": 12, "a5_human_review_open": 11, "duplicate_ids": 0, "a5_global_reference_orphans": 0},
+      "status": "passed",
+      "difference": "Global counts are not forced to equal year-local Gate counts; 2017 global blocking requests align with its Gate/Checkpoint missing-carrier scope.",
+      "blocks_a7": false,
+      "recommended_stage": "none"
+    },
+    {
+      "check_id": "A7-CF-003",
+      "type": "index_foreign_keys_and_statistics",
+      "scope": "inventory, documents, representations, segments, relations, lineages, methods, visualizations and yearly statistics",
+      "evidence_paths": ["analysis-index/01_inventory/", "analysis-index/02_documents/", "analysis-index/03_segments/", "analysis-index/04_relations/", "analysis-index/05_knowledge/", "analysis-index/06_statistics/yearly/"],
+      "expected": "IDs are unique and available foreign-key fields resolve within their declared scope.",
+      "actual": {"years_checked": 11, "duplicate_id_sets": 0, "field_aware_orphan_foreign_keys": 0, "year_field_mismatches": 0, "preferred_representation_missing": 0},
+      "status": "passed",
+      "difference": "Schemas use different field names and some segment/knowledge records deliberately omit carrier or document fields; omitted fields were not treated as orphan references.",
+      "blocks_a7": false,
+      "recommended_stage": "none"
+    },
+    {
+      "check_id": "A7-CF-004",
+      "type": "manifest_hash_stability",
+      "scope": "2015-2025 carrier manifests and repository-resolvable source files",
+      "evidence_paths": ["analysis-index/01_inventory/2015_carrier_manifest.jsonl", "analysis-index/01_inventory/2016_carrier_manifest.jsonl", "analysis-index/01_inventory/2017_carrier_manifest.jsonl", "analysis-index/01_inventory/2018_carrier_manifest.jsonl", "analysis-index/01_inventory/2019_carrier_manifest.jsonl", "analysis-index/01_inventory/2020_carrier_manifest.jsonl", "analysis-index/01_inventory/2021_carrier_manifest.jsonl", "analysis-index/01_inventory/2022_carrier_manifest.jsonl", "analysis-index/01_inventory/2023_carrier_manifest.jsonl", "analysis-index/01_inventory/2024_carrier_manifest.jsonl", "analysis-index/01_inventory/2025_carrier_manifest.jsonl"],
+      "expected": "Resolvable manifest SHA-256 values equal raw repository bytes; unresolved external source scope is not silently treated as a mismatch.",
+      "actual": {"manifest_entries": 2157, "repository_resolved": 159, "hash_verified": 159, "hash_mismatches": 0, "unresolved_or_external": 1998},
+      "status": "conditional",
+      "difference": "Most 2015-2025 manifest records refer to uploaded, archive-member, or external source scope not present as a directly hashable repository path; no resolved hash mismatch was found.",
+      "blocks_a7": false,
+      "recommended_stage": "source delivery or human scope confirmation; no A7 repair"
+    },
+    {
+      "check_id": "A7-CF-005",
+      "type": "strict_structured_file_validation",
+      "scope": "analysis-index JSON, JSONL, CSV and Markdown controls",
+      "evidence_paths": ["analysis-index/00_control/run_logs/", "analysis-index/00_control/", "analysis-index/01_inventory/", "analysis-index/02_documents/", "analysis-index/03_segments/"],
+      "expected": "Strict JSON/JSONL/CSV parsing and controlled-text encoding rules are satisfied.",
+      "actual": {"json_parse_failures": 4, "jsonl_bad_lines": 0, "csv_bad_rows": 0, "json_duplicate_or_nonfinite_failures": 0, "historical_markdown_bom_files": 2},
+      "status": "failed",
+      "difference": "Four existing run-log files contain non-JSON prefixes/content and two historical Markdown controls contain BOM; A7 did not rewrite them.",
+      "blocks_a7": true,
+      "recommended_stage": "later control-file repair after human approval; no A7 repair"
+    },
+    {
+      "check_id": "A7-CF-006",
+      "type": "risk_scan",
+      "scope": "tracked text, tests, scripts and controlled files",
+      "evidence_paths": ["tests/", "scripts/", "analysis-index/00_control/"],
+      "expected": "No unrecorded weakening, secrets, personal paths, or task-created cache artifacts.",
+      "actual": {"new_skip_or_xfail": false, "absolute_personal_path_files": 0, "secret_pattern_files": 0, "cache_or_temp_paths": 0, "existing_errors_ignore_occurrences": 20, "contextual_placeholder_files": 8},
+      "status": "conditional",
+      "difference": "The errors-ignore scan includes historical prose and one existing unmodified script occurrence; A6 records the modified-test scope as clean. Placeholder terms are contextual evidence labels, not completion claims.",
+      "blocks_a7": false,
+      "recommended_stage": "future repair review; no A7 repair"
+    },
+    {
+      "check_id": "A7-CF-007",
+      "type": "runtime_and_schema_gate",
+      "scope": "formal tests and schema validation",
+      "evidence_paths": ["tests/test_infrastructure.py", "schema/", "analysis-index/00_control/a7_full_regression_summary.json"],
+      "expected": "All formal tests collect and the repository schema validator is available.",
+      "actual": {"collection_blocker": "tests/test_infrastructure.py imports missing fitz", "schema_validator": "jsonschema unavailable; no repository validator found"},
+      "status": "blocked",
+      "difference": "The fixed runtime was not changed and no dependency operation was authorized.",
+      "blocks_a7": true,
+      "recommended_stage": "environment recovery only; do not install dependencies in A7"
+    }
+  ],
+  "year_status_summary": [
+    {"year": 2015, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"},
+    {"year": 2016, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"},
+    {"year": 2017, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"},
+    {"year": 2018, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"},
+    {"year": 2019, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"},
+    {"year": 2020, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"},
+    {"year": 2021, "gate": "conditional_pass", "checkpoint": "conditional_pass_pending_remote_readback", "scope_result": "different_scope"},
+    {"year": 2022, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"},
+    {"year": 2023, "gate": "pass", "checkpoint": "pass_pending_remote_readback", "scope_result": "different_scope"},
+    {"year": 2024, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"},
+    {"year": 2025, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"}
+  ],
+  "blocking_reasons": [
+    "environment: tests/test_infrastructure.py cannot collect because fitz is unavailable",
+    "environment: no installed jsonschema package and no repository validator was found",
+    "strict format findings remain recorded without A7 repair"
+  ],
+  "no_repairs_applied": true,
+  "a8_started": false
+}
