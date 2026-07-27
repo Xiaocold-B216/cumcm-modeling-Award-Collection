@@ -1,68 +1,81 @@
-# A7 全量回归与跨文件一致性审计报告
+# A7 全量回归、质量门与跨文件一致性复审报告
 
-## 输入状态
+## 1. 输入与边界
 
-- 阶段：A7；A8 未启动。
+- 既有阻塞提交：`b4d31fc6bb3b0373464f1f7f92322390e0ab446b`
+- 本轮格式修复提交：`d07dcfdd41fc778947e768835a13f9e3029f79cd`
+- 复审输入：`d07dcfdd41fc778947e768835a13f9e3029f79cd`
 - 分支：`analysis/corpus-index`
-- 输入 HEAD：`2f318cef8415ca49b8e4088ebd266443406c73f5`
-- A6：`passed_with_recorded_failures`，其独立 push 和远端回读已在 A7 开始前确认通过。
-- 工作区：A7 产物创建前干净。
-- 运行时：approved interpreter，Python 3.14.6，pytest 9.1.1。
-- A6 报告中的 `completed_locally_pending_remote_readback` 被识别为历史提交前文字，没有被当作当前阻塞。
+- A6：`passed_with_recorded_failures`
+- 工作区在复审开始时干净；A8 未启动。
+- 未修改测试、业务资料、A4/A5/A6 产物、Gate、Checkpoint、报告、progress、队列、索引或统计文件。
 
-## 执行范围
+本轮阻塞解除只使用已批准的现有运行时恢复：PyMuPDF 1.28.0（提供 `fitz`）和 `jsonschema` 4.26.0 及其必要依赖。Python 3.14.6、pytest 9.1.1 未改变，仓库依赖声明未改变。测试均使用批准解释器、`PYTHONDONTWRITEBYTECODE=1` 和 `-p no:cacheprovider`。
 
-A7 按 `tests/` 实际内容将 14 个 Python 测试文件视为正式测试，至少包含 2015—2025 的 11 个年度文件，并额外覆盖 2008 终结测试、基础设施测试和恢复统计测试。未修改测试、业务资料、A4/A5/A6、Gate、Checkpoint、报告、progress、队列、索引或统计文件；未安装、升级或降级依赖。
+## 2. 收集与全量回归
 
-## 测试收集与全量回归
+收集结果：
 
-2015—2025 年度完整收集通过：267 节点，2017 年 24 节点，collection/import/syntax errors 为 0。年度全量执行包含 2017，结果为：
+| 范围 | Collected | Collection errors | Import errors | Syntax errors |
+|---|---:|---:|---:|---:|
+| 2015—2025 年度套件 | 267 | 0 | 0 | 0 |
+| 其中 2017 | 24 | 0 | 0 | 0 |
+| 全部 `tests/` | 306 | 0 | 0 | 0 |
+
+年度套件在格式修复前的已记录基线为 `267 = 231 passed + 34 failed + 2 skipped`。格式修复后实际结果为：
 
 | 范围 | Collected | Passed | Failed | Skipped | Errors | Timeout | Exit |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 2015—2025 年度套件 | 267 | 231 | 34 | 2 | 0 | 0 | 1 |
+| 2015—2025 年度套件（修复后） | 267 | 240 | 25 | 2 | 0 | 0 | 1 |
 | 2008 与恢复统计额外套件 | 28 | 16 | 12 | 0 | 0 | 0 | 1 |
+| 基础设施首次终态结果 | 11 | 9 | 2 | 0 | 0 | 0 | 1 |
+| 全部 `tests/` | 306 | 265 | 39 | 2 | 0 | 0 | 1 |
 
-完整 `tests/*.py` 收集在 `tests/test_infrastructure.py` 处因 `ModuleNotFoundError: fitz` 失败，退出码为 2；因此基础设施测试未被伪装为通过。该固定运行时缺少依赖，A7 标记 `blocked: environment`，没有安装依赖。
+年度失败数减少 9 个是本轮批准修复的直接效果：四份 run log 规范化后，原先仅因全局 JSON/JSONL 解析失败的年度断言转为通过。剩余 25 个年度失败是既有失败的子集；没有新增失败、skip、xfail、error 或 timeout。2017 修复后为 24 collected、22 passed、2 failed、0 skipped、0 errors、0 timeout；两项失败仍为既有 `test_21_missing_requests_exact` 和 `test_23_progress_conservative`。
 
-年度 34 个失败均为 A6 已记录的保留失败，2017 的三个失败仍为：
+额外套件仍为 28 collected、16 passed、12 failed。基础设施测试是首次获得可收集运行的独立结果，两个失败不自动归入历史保留失败：
 
-- `tests/test_2017_manual.py::test_03_json_and_jsonl_parse`
-- `tests/test_2017_manual.py::test_21_missing_requests_exact`
-- `tests/test_2017_manual.py::test_23_progress_conservative`
+- `tests/test_infrastructure.py::InfrastructureTests::test_source_verification_and_baseline_count`
+- `tests/test_infrastructure.py::InfrastructureTests::test_unicode_baseline_paths_are_real_checkout_paths`
 
-相对 A6 没有新失败、错误、超时或节点缺失。两个 skip 是 2022 年已有的环境变量门控，未新增 skip/xfail。
+两者均因源码声明的基线对象 `a042ecf898feaba6fc81d543a10e0188db8b2b12` 不在本地 Git 对象库中而失败。没有通过修改测试或伪造基线来掩盖该结果。
 
-## Schema、结构和编码
+## 3. Schema 验证
 
-- 4 个 Schema 定义 JSON 可严格解析；但固定环境没有 `jsonschema`，仓库也没有可执行的正式 validator，因此 Schema 实例验证未完成，属于环境阻塞。
-- 1,617 个 JSON 中 1,613 个严格解析通过；4 个既有 `run_logs` 文件含非 JSON 内容，未改写。
-- 570 个 JSONL、19,960 行逐行解析通过；无坏行、重复键、NaN 或 Infinity。
-- 96 个 CSV、10,371 行按仓库历史 `utf-8-sig` 规则解析通过，无坏行；86 个历史 CSV 带 BOM，未把历史输入规则误用于 A7 新输出。
-- 2,345 个 Markdown 控制文件可严格解码并有末尾 LF；其中 2 个历史文件带 BOM。
-- A7 新产物必须在提交前另行验证为 UTF-8、无 BOM、LF-only、末尾 LF。
+四份 Schema 定义均通过 Draft 2020-12 `check_schema`。从仓库文件字段和生成脚本确定的实例映射如下：
 
-## 跨文件一致性
+| Schema | 权威实例 | 实例数 | 错误 |
+|---|---|---:|---:|
+| logical_document | `analysis-index/02_documents/logical_documents.jsonl` | 326 | 0 |
+| feature | 上述逻辑文档的 `feature_statistics` | 4238 | 0 |
+| representation | `analysis-index/02_documents/representations_1992.jsonl`—`representations_2010.jsonl` | 367 | 0 |
+| relation | `analysis-index/04_relations/document_relations.jsonl` | 383 | 0 |
 
-- 2015—2025 Gate 与 Checkpoint 的可比数值没有发现不一致。
-- 2021 与 2023 的 Gate/Checkpoint 存在已记录的远端回读作用域差异；没有把 `pass_pending_remote_readback` 提升为完整通过。
-- `progress.json` 缺少 2015—2024 年度状态键；A5 已明确以更具体的 Gate、Checkpoint 和年度报告为准，未将缺少键解释成年度不存在。
-- 全局人工复核队列为 1 条开放项；全局缺段请求为 12 条开放且 blocking，均归属 2017；A5 队列为 11 条开放项，ID 唯一且对全局 2025 复核项的引用闭合。
-- 2015—2025 索引检查中，重复 ID、字段可用范围内的外键孤立、年度字段不一致和缺失 preferred representation 均为 0。
-- 2,157 条载体清单记录中，159 条可直接解析到仓库文件且 SHA-256 全部一致；1,998 条属于当前仓库不可直接解析的上传、归档成员或外部源范围；未发现已解析文件的哈希不一致。
+共验证 5314 个实例，字段映射已解析，未使用字段适配或猜测性转换。
 
-## 风险与边界
+## 4. 严格结构与编码质量门
 
-风险扫描未发现个人绝对路径、凭据模式或任务产生的缓存/临时文件。已有 `errors="ignore"` 命中主要是审计说明文字，另有一个未修改脚本命中；已有 skip/xfail 和 placeholder 词均结合上下文记录，未视为 A7 新弱化。A7 没有实施任何修复或返工。
+- JSON：1620 个，严格 UTF-8 1620 个，解析成功 1620 个，重复键/NaN/Infinity 0，BOM 0。
+- JSONL：570 个、19960 行，逐行解析成功，无坏行、无 BOM。
+- CSV：96 个、10371 行，无坏行；86 个历史输入 BOM 按 `utf-8-sig` 规则保留。
+- Markdown 控制文件：2346 个严格 UTF-8，BOM 0，末尾 LF 2346 个，NUL 0。
+- 四份 run log 已全部为严格 JSON、无 BOM、末尾 LF；两份历史 Markdown 仅移除了开头 BOM，其余字节保持原样。
+- AST 语法检查：`tests/` 与 `scripts/` 共 30 个 Python 文件，0 syntax error。
+- 无个人绝对路径、凭据、任务产生的缓存或临时文件；未修改测试，没有新增 skip/xfail 或 `errors="ignore"`。
 
-## A7 最终判定
+## 5. 跨文件一致性
 
-`A7 = blocked: environment`。
+- Gate/Checkpoint 可比数值不一致：0。
+- 2021、2023 保留已记录的远端回读作用域差异，未升级为完整通过。
+- progress 缺少 2015—2024 年状态键，属于既有部分历史状态模型，不被解释为年度不存在。
+- 队列 ID 重复：0；A5 证据路径孤立：0；全局缺段请求 12 条均为 open/blocking；A5 队列 11 条 open。
+- 载体清单 2157 条；按直接 checkout-relative 路径解析 107 条且 SHA-256 全部一致，0 hash mismatch；其余 2050 条属于当前未直接落地的上传、归档成员或外部源范围。
+- 索引重复 ID 集合、字段感知外键孤立、年度字段不一致、缺失 preferred representation：均为 0。
 
-阻塞依据是：
+## 6. 最终判定
 
-1. 仓库正式测试 `tests/test_infrastructure.py` 依赖当前固定环境中不存在的 `fitz`，导致完整 `tests/*.py` 收集不能通过；
-2. 当前环境没有 `jsonschema` 且仓库没有可执行 Schema validator，A7 要求的正式 Schema 验证无法完成；
-3. 既有 4 个非纯 JSON run-log 和历史 BOM 已如实记录，A7 未修改它们。
+`A7 = blocked: environment`
 
-本报告不表示所有测试通过，也不实施任何 A7 之外的修复。提交、普通 push 和远端回读是本四文件交付的后置门；A8 不得启动。
+阻塞只剩首次基础设施结果中的两个源基线校验失败：本地缺少声明的 Git 基线对象。Schema、严格格式、收集、跨文件一致性和风险扫描均已通过或按既有条件项记录。A7 不表示全部测试通过；年度仍有 25 个保留失败，额外套件仍有 12 个保留失败。
+
+由于基础设施阻塞未解除，`A8 = not_ready_to_start`。本轮不执行 A8。

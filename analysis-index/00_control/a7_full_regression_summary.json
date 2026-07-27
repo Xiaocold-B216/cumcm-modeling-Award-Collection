@@ -1,189 +1,80 @@
 {
   "stage_id": "A7",
   "stage_title": "Full regression, quality gates, and cross-file consistency",
-  "input_commit": "2f318cef8415ca49b8e4088ebd266443406c73f5",
+  "prior_blocked_commit": "b4d31fc6bb3b0373464f1f7f92322390e0ab446b",
+  "blocker_repair_commit": "d07dcfdd41fc778947e768835a13f9e3029f79cd",
+  "input_commit": "d07dcfdd41fc778947e768835a13f9e3029f79cd",
   "input_branch": "analysis/corpus-index",
-  "a6_precondition": {
-    "status": "passed_with_recorded_failures",
-    "remote_persistence": "passed",
-    "remote_readback": "passed",
-    "historical_pending_text_ignored": true,
-    "working_tree_clean_at_start": true
-  },
+  "a6_precondition": {"status": "passed_with_recorded_failures", "remote_readback": "passed", "working_tree_clean_at_start": true},
   "runtime": {
-    "interpreter": "approved interpreter",
+    "interpreter": "approved absolute interpreter",
     "python_version": "3.14.6",
     "pytest_version": "9.1.1",
     "bytecode_disabled": true,
     "cacheprovider_disabled": true,
-    "dependency_changes": false
-  },
-  "test_scope": {
-    "formal_test_files_total": 14,
-    "annual_files": [
-      "tests/test_2015_manual.py",
-      "tests/test_2016_manual.py",
-      "tests/test_2017_manual.py",
-      "tests/test_2018_manual.py",
-      "tests/test_2019_manual.py",
-      "tests/test_2020_manual.py",
-      "tests/test_2021_manual.py",
-      "tests/test_2022_manual.py",
-      "tests/test_2023_manual.py",
-      "tests/test_2024_manual.py",
-      "tests/test_2025_manual.py"
-    ],
-    "additional_formal_files": [
-      "tests/test_2008_manual_finalization.py",
-      "tests/test_infrastructure.py",
-      "tests/test_resume_and_statistics.py"
-    ],
-    "scope_decision": "All tests/*.py files were treated as formal. The 2015-2025 annual suite was also run independently so the missing optional dependency could not hide annual results."
+    "dependency_changes": true,
+    "dependency_scope": "approved runtime restoration only",
+    "restored_packages": {"PyMuPDF": "1.28.0", "jsonschema": "4.26.0", "attrs": "26.1.0", "jsonschema-specifications": "2025.9.1", "referencing": "0.37.0", "rpds-py": "2026.6.3"},
+    "pytest_version_changed": false,
+    "python_version_changed": false,
+    "repository_dependency_files_changed": false
   },
   "collection": {
-    "annual_command": "approved interpreter -m pytest --collect-only -q -p no:cacheprovider tests/test_2015_manual.py through tests/test_2025_manual.py",
-    "annual_exit_code": 0,
     "annual_collected": 267,
     "annual_2017_collected": 24,
-    "annual_collection_import_syntax_errors": 0,
-    "full_formal_command": "approved interpreter -m pytest --collect-only -q -p no:cacheprovider tests/*.py",
-    "full_formal_exit_code": 2,
-    "full_formal_collected_before_interruption": 295,
-    "full_formal_collection_errors": 1,
-    "full_formal_error": {
-      "file": "tests/test_infrastructure.py",
-      "exception": "ModuleNotFoundError",
-      "missing_module": "fitz",
-      "classification": "blocked: environment"
-    },
-    "node_set_against_a6_annual": "equal",
+    "full_collected": 306,
+    "collection_exit_code": 0,
+    "collection_errors": 0,
+    "import_errors": 0,
+    "syntax_errors": 0,
     "node_set_loss": 0
   },
   "annual_full_regression": {
-    "command": "approved interpreter -m pytest -q -p no:cacheprovider tests/test_2015_manual.py through tests/test_2025_manual.py",
-    "exit_code": 1,
-    "duration_seconds": 5.76,
-    "collected": 267,
-    "passed": 231,
-    "failed": 34,
-    "skipped": 2,
-    "errors": 0,
-    "timeouts": 0,
+    "pre_repair_recorded_baseline": {"collected": 267, "passed": 231, "failed": 34, "skipped": 2, "errors": 0, "timeouts": 0},
+    "post_repair_observed": {"collected": 267, "passed": 240, "failed": 25, "skipped": 2, "errors": 0, "timeouts": 0, "exit_code": 1, "duration_seconds": 7.28},
+    "approved_repair_effect": {"parse_only_failures_removed": 9, "new_failures": 0, "explanation": "The four approved run-log repairs made nine repository-wide JSON/JSONL parsing assertions pass; no non-parse failure was newly introduced."},
     "by_file": [
-      {"year": 2015, "file": "tests/test_2015_manual.py", "collected": 36, "passed": 28, "failed": 8, "skipped": 0, "errors": 0, "exit_code": 1},
-      {"year": 2016, "file": "tests/test_2016_manual.py", "collected": 28, "passed": 26, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1},
-      {"year": 2017, "file": "tests/test_2017_manual.py", "collected": 24, "passed": 21, "failed": 3, "skipped": 0, "errors": 0, "exit_code": 1},
-      {"year": 2018, "file": "tests/test_2018_manual.py", "collected": 16, "passed": 15, "failed": 1, "skipped": 0, "errors": 0, "exit_code": 1},
-      {"year": 2019, "file": "tests/test_2019_manual.py", "collected": 11, "passed": 10, "failed": 1, "skipped": 0, "errors": 0, "exit_code": 1},
-      {"year": 2020, "file": "tests/test_2020_manual.py", "collected": 32, "passed": 23, "failed": 9, "skipped": 0, "errors": 0, "exit_code": 1},
-      {"year": 2021, "file": "tests/test_2021_manual.py", "collected": 20, "passed": 18, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1},
-      {"year": 2022, "file": "tests/test_2022_manual.py", "collected": 24, "passed": 20, "failed": 2, "skipped": 2, "errors": 0, "exit_code": 1},
-      {"year": 2023, "file": "tests/test_2023_manual.py", "collected": 28, "passed": 26, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1},
-      {"year": 2024, "file": "tests/test_2024_manual.py", "collected": 24, "passed": 22, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1},
-      {"year": 2025, "file": "tests/test_2025_manual.py", "collected": 24, "passed": 22, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1}
+      {"year": 2015, "collected": 36, "passed": 29, "failed": 7, "skipped": 0, "errors": 0},
+      {"year": 2016, "collected": 28, "passed": 27, "failed": 1, "skipped": 0, "errors": 0},
+      {"year": 2017, "collected": 24, "passed": 22, "failed": 2, "skipped": 0, "errors": 0},
+      {"year": 2018, "collected": 16, "passed": 16, "failed": 0, "skipped": 0, "errors": 0},
+      {"year": 2019, "collected": 11, "passed": 10, "failed": 1, "skipped": 0, "errors": 0},
+      {"year": 2020, "collected": 32, "passed": 23, "failed": 9, "skipped": 0, "errors": 0},
+      {"year": 2021, "collected": 20, "passed": 19, "failed": 1, "skipped": 0, "errors": 0},
+      {"year": 2022, "collected": 24, "passed": 21, "failed": 1, "skipped": 2, "errors": 0},
+      {"year": 2023, "collected": 28, "passed": 27, "failed": 1, "skipped": 0, "errors": 0},
+      {"year": 2024, "collected": 24, "passed": 23, "failed": 1, "skipped": 0, "errors": 0},
+      {"year": 2025, "collected": 24, "passed": 23, "failed": 1, "skipped": 0, "errors": 0}
+    ],
+    "retained_failure_nodes": [
+      "tests/test_2015_manual.py::test_03_csv_structures", "tests/test_2015_manual.py::test_05_source_snapshot_unmodified", "tests/test_2015_manual.py::test_22_six_pack_metadata_matches_csv", "tests/test_2015_manual.py::test_23_card_preferred_rep_matches_relation", "tests/test_2015_manual.py::test_29_quality_gate_conditional_and_blocked", "tests/test_2015_manual.py::test_30_missing_file_is_specific", "tests/test_2015_manual.py::test_33_original_file_modified_count_zero",
+      "tests/test_2016_manual.py::test_progress_reconciled", "tests/test_2017_manual.py::test_21_missing_requests_exact", "tests/test_2017_manual.py::test_23_progress_conservative", "tests/test_2019_manual.py::test_json_jsonl_csv_structures",
+      "tests/test_2020_manual.py::test_json_control_files_parse", "tests/test_2020_manual.py::test_source_unmodified", "tests/test_2020_manual.py::test_e_q4_present", "tests/test_2020_manual.py::test_metadata_status_semantics", "tests/test_2020_manual.py::test_gate_conditional_pass", "tests/test_2020_manual.py::test_checkpoint_counts_match_gate", "tests/test_2020_manual.py::test_missing_files_txt_precise", "tests/test_2020_manual.py::test_report_exists_and_has_corrections", "tests/test_2020_manual.py::test_q4_audit_rows",
+      "tests/test_2021_manual.py::test_20_no_raw_source_in_upload_package", "tests/test_2022_manual.py::test_csv_files_parse_and_have_rows", "tests/test_2023_manual.py::test_no_blank_or_missing_segments", "tests/test_2024_manual.py::test_final_control_readback_provenance", "tests/test_2025_manual.py::test_csv_files_parse"
     ]
   },
   "additional_formal_regression": {
-    "collectable_files_command": "approved interpreter -m pytest --collect-only -q -p no:cacheprovider tests/test_2008_manual_finalization.py tests/test_resume_and_statistics.py",
-    "collectable_nodes": 28,
-    "command": "approved interpreter -m pytest -q -p no:cacheprovider tests/test_2008_manual_finalization.py tests/test_resume_and_statistics.py",
-    "exit_code": 1,
-    "duration_seconds": 0.64,
-    "passed": 16,
-    "failed": 12,
-    "skipped": 0,
-    "errors": 0,
-    "by_file": [
-      {"file": "tests/test_2008_manual_finalization.py", "collected": 5, "passed": 0, "failed": 5, "skipped": 0, "errors": 0},
-      {"file": "tests/test_resume_and_statistics.py", "collected": 23, "passed": 16, "failed": 7, "skipped": 0, "errors": 0}
-    ],
-    "infrastructure_file": {
-      "status": "not_executed_after_collection_error",
-      "file": "tests/test_infrastructure.py",
-      "blocker": "missing fitz dependency"
-    }
+    "collected": 28, "passed": 16, "failed": 12, "skipped": 0, "errors": 0, "exit_code": 1, "failures_are_preexisting": true,
+    "files": [{"file": "tests/test_2008_manual_finalization.py", "collected": 5, "passed": 0, "failed": 5}, {"file": "tests/test_resume_and_statistics.py", "collected": 23, "passed": 16, "failed": 7}]
   },
-  "retained_failures": {
-    "count": 34,
-    "new_failure_count": 0,
-    "comparison_basis": "A6 current annual counts, A6 new_failures fields, and A4 failure inventory",
-    "nodes": [
-      "tests/test_2015_manual.py::test_02_json_jsonl_structures",
-      "tests/test_2015_manual.py::test_03_csv_structures",
-      "tests/test_2015_manual.py::test_05_source_snapshot_unmodified",
-      "tests/test_2015_manual.py::test_22_six_pack_metadata_matches_csv",
-      "tests/test_2015_manual.py::test_23_card_preferred_rep_matches_relation",
-      "tests/test_2015_manual.py::test_29_quality_gate_conditional_and_blocked",
-      "tests/test_2015_manual.py::test_30_missing_file_is_specific",
-      "tests/test_2015_manual.py::test_33_original_file_modified_count_zero",
-      "tests/test_2016_manual.py::test_json_files_parse",
-      "tests/test_2016_manual.py::test_progress_reconciled",
-      "tests/test_2017_manual.py::test_03_json_and_jsonl_parse",
-      "tests/test_2017_manual.py::test_21_missing_requests_exact",
-      "tests/test_2017_manual.py::test_23_progress_conservative",
-      "tests/test_2018_manual.py::test_json_jsonl_parse",
-      "tests/test_2019_manual.py::test_json_jsonl_csv_structures",
-      "tests/test_2020_manual.py::test_json_control_files_parse",
-      "tests/test_2020_manual.py::test_source_unmodified",
-      "tests/test_2020_manual.py::test_e_q4_present",
-      "tests/test_2020_manual.py::test_metadata_status_semantics",
-      "tests/test_2020_manual.py::test_gate_conditional_pass",
-      "tests/test_2020_manual.py::test_checkpoint_counts_match_gate",
-      "tests/test_2020_manual.py::test_missing_files_txt_precise",
-      "tests/test_2020_manual.py::test_report_exists_and_has_corrections",
-      "tests/test_2020_manual.py::test_q4_audit_rows",
-      "tests/test_2021_manual.py::test_02_json_jsonl_parse",
-      "tests/test_2021_manual.py::test_20_no_raw_source_in_upload_package",
-      "tests/test_2022_manual.py::test_json_files_parse",
-      "tests/test_2022_manual.py::test_csv_files_parse_and_have_rows",
-      "tests/test_2023_manual.py::test_json_and_jsonl_parse",
-      "tests/test_2023_manual.py::test_no_blank_or_missing_segments",
-      "tests/test_2024_manual.py::test_json_jsonl_parse",
-      "tests/test_2024_manual.py::test_final_control_readback_provenance",
-      "tests/test_2025_manual.py::test_json_files_parse",
-      "tests/test_2025_manual.py::test_csv_files_parse"
-    ],
-    "2017_diagnostic_failures_match_a6": true
+  "infrastructure_first_terminal_result": {
+    "collected": 11, "passed": 9, "failed": 2, "skipped": 0, "errors": 0, "exit_code": 1, "retained_automatically": false,
+    "failed_nodes": ["tests/test_infrastructure.py::InfrastructureTests::test_source_verification_and_baseline_count", "tests/test_infrastructure.py::InfrastructureTests::test_unicode_baseline_paths_are_real_checkout_paths"],
+    "cause": "The source baseline Git object a042ecf898feaba6fc81d543a10e0188db8b2b12 is unavailable in the local object database."
   },
-  "skips_and_errors": {
-    "skipped_count": 2,
-    "skip_records": [
-      {"file": "tests/test_2022_manual.py", "reason": "Set CUMCM_2022_RAW_ROOT for source read-only verification"},
-      {"file": "tests/test_2022_manual.py", "reason": "Set CUMCM_2022_BUNDLE for bundle hash verification"}
-    ],
-    "xfail_count": 0,
-    "hard_test_errors": 1,
-    "hard_test_error_records": [
-      {"kind": "collection/import", "file": "tests/test_infrastructure.py", "exception": "ModuleNotFoundError", "module": "fitz"}
-    ]
+  "failure_accounting": {"full_collected": 306, "full_passed": 265, "full_failed": 39, "full_skipped": 2, "full_errors": 0, "full_exit_code": 1, "new_failure_count": 0, "retained_annual_failure_count": 25, "retained_additional_failure_count": 12, "infrastructure_first_result_failures": 2, "no_new_skip_or_xfail": true, "no_timeout": true},
+  "schema_validation": {
+    "validator": "jsonschema 4.26.0 Draft202012Validator", "schema_definitions": 4, "schema_definitions_check_schema": "passed", "mapping_status": "resolved", "logical_document_instances": 326, "feature_instances": 4238, "representation_instances": 367, "relation_instances": 383, "total_instances": 5314, "validation_errors": 0,
+    "mapping": {"logical_document": "analysis-index/02_documents/logical_documents.jsonl", "feature": "feature_statistics nested in logical_documents.jsonl", "representation": "analysis-index/02_documents/representations_1992.jsonl through representations_2010.jsonl", "relation": "analysis-index/04_relations/document_relations.jsonl"}
   },
-  "schema_and_format_validation": {
-    "schema_definition_files": 4,
-    "schema_definition_json_parse": "passed",
-    "schema_validator": "unavailable: jsonschema is not installed and no repository validator was found",
-    "json": {"files": 1617, "strict_utf8": 1617, "parse_ok": 1613, "parse_failed": 4, "bom": 0, "nonfinite_or_duplicate_key_failures": 0, "final_lf": 1615},
-    "json_parse_failed_files": [
-      "analysis-index/00_control/run_logs/inventory-run.json",
-      "analysis-index/00_control/run_logs/year-2006-run.json",
-      "analysis-index/00_control/run_logs/year-2008-run.json",
-      "analysis-index/00_control/run_logs/year-2009-run.json"
-    ],
-    "jsonl": {"files": 570, "strict_utf8": 570, "parse_ok": 570, "bad_lines": 0, "rows": 19960, "bom": 0, "final_lf": 480},
-    "csv": {"files": 96, "strict_utf8": 96, "parse_ok": 96, "bad_rows": 0, "rows": 10371, "bom": 86, "final_lf": 96, "repository_policy": "utf-8-sig accepted for historical CSV inputs"},
-    "markdown_controls": {"files": 2345, "strict_utf8": 2345, "bom": 2, "final_lf": 2345, "nul": 0},
-    "controlled_new_output_policy": "A7 outputs must be UTF-8, no BOM, LF-only, and final-LF; validation is required before commit."
+  "strict_format_validation": {
+    "json": {"files": 1620, "strict_utf8": 1620, "parse_ok": 1620, "parse_failed": 0, "duplicate_or_nonfinite_failures": 0, "bom": 0, "final_lf": 1618},
+    "jsonl": {"files": 570, "strict_utf8": 570, "rows": 19960, "parse_ok": 19960, "bad_lines": 0, "bom": 0, "final_lf": 480},
+    "csv": {"files": 96, "strict_utf8": 96, "parse_ok": 96, "rows": 10371, "bad_rows": 0, "bom": 86, "final_lf": 96, "historical_utf8_sig_accepted": true},
+    "markdown_controls": {"files": 2346, "strict_utf8": 2346, "bom": 0, "final_lf": 2346, "nul": 0},
+    "run_log_repair_validation": "all four approved files are strict UTF-8 JSON, no BOM, final LF"
   },
-  "risk_scan": {
-    "skip_or_xfail_hits": 39,
-    "skip_or_xfail_interpretation": "Existing recorded 2022 environment-gated skips plus audit prose references; no new skip or xfail was introduced.",
-    "errors_ignore_hits": 20,
-    "errors_ignore_interpretation": "Most hits are historical audit prose; one existing script occurrence remains in scripts/search_missing_1995_pages.py and was not modified in A7.",
-    "placeholder_files": 8,
-    "absolute_personal_path_files": 0,
-    "secret_pattern_files": 0,
-    "cache_or_temp_paths_in_worktree": 0
-  },
-  "local_status_before_outputs": "clean",
-  "a7_status_before_commit": "blocked: environment",
-  "a8_started": false
+  "cross_file_validation": {"gate_checkpoint_numeric_mismatches": 0, "gate_checkpoint_scope_differences": [2021, 2023], "progress_missing_2015_2024_statuses": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "queue_duplicate_ids": 0, "a5_evidence_path_orphans": 0, "manifest_entries": 2157, "direct_path_resolved": 107, "direct_path_hash_verified": 107, "direct_path_hash_mismatches": 0, "unresolved_or_external_scope": 2050, "index_duplicate_id_sets": 0, "field_aware_orphan_foreign_keys": 0, "year_field_mismatches": 0, "preferred_representation_missing": 0},
+  "risk_scan": {"new_skip_or_xfail": false, "modified_test_errors_ignore": false, "absolute_personal_path_files": 0, "secret_pattern_files": 0, "cache_or_temp_paths": 0, "syntax_errors": 0, "tests_changed_by_recovery": false},
+  "final": {"a7_status": "blocked: environment", "blocking_reasons": ["Two first-time infrastructure assertions fail because the declared source baseline Git object is unavailable locally."], "a8_started": false, "a8_ready_to_start": false, "working_tree_before_outputs": "clean"}
 }

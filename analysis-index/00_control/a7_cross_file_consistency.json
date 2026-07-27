@@ -1,92 +1,65 @@
 {
   "stage_id": "A7",
-  "input_commit": "2f318cef8415ca49b8e4088ebd266443406c73f5",
+  "prior_blocked_commit": "b4d31fc6bb3b0373464f1f7f92322390e0ab446b",
+  "blocker_repair_commit": "d07dcfdd41fc778947e768835a13f9e3029f79cd",
+  "input_commit": "d07dcfdd41fc778947e768835a13f9e3029f79cd",
   "scope": "2015-2025 and global files that reference those years",
-  "overall_status": "blocked: environment",
   "checks": [
     {
       "check_id": "A7-CF-001",
       "type": "gate_checkpoint_report_progress",
-      "scope": "2015-2025",
-      "evidence_paths": ["analysis-index/08_quality/gates/", "analysis-index/09_checkpoints/", "analysis-index/07_reports/yearly/", "analysis-index/00_control/progress.json"],
-      "expected": "Gate, Checkpoint and report states are reconciled without promoting conditional evidence.",
-      "actual": {"gate_checkpoint_numeric_mismatches": 0, "gate_checkpoint_scope_differences": [2021, 2023], "progress_missing_year_statuses": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]},
       "status": "conditional",
-      "difference": "2021 and 2023 Checkpoints retain remote-readback-pending scope; progress has no status keys for 2015-2024. A5 explicitly documents these scope differences.",
-      "blocks_a7": false,
-      "recommended_stage": "human review or later control reconciliation; no A7 repair"
+      "actual": {"gate_checkpoint_numeric_mismatches": 0, "gate_checkpoint_scope_differences": [2021, 2023], "progress_missing_year_statuses": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "yearly_reports_missing": []},
+      "difference": "2021 and 2023 retain documented remote-readback-pending scope differences; progress intentionally has no 2015-2024 status keys.",
+      "blocks_a7": false
     },
     {
       "check_id": "A7-CF-002",
       "type": "queue_consistency",
-      "scope": "global and annual queues",
-      "evidence_paths": ["analysis-index/00_control/manual_review_queue.jsonl", "analysis-index/00_control/missing_segment_requests.jsonl", "analysis-index/00_control/a5_human_review_queue.jsonl"],
-      "expected": "IDs, years, statuses and blocking scopes are explicit and unique.",
-      "actual": {"global_manual_review_open": 1, "global_missing_segment_open": 12, "global_missing_segment_blocking": 12, "a5_human_review_open": 11, "duplicate_ids": 0, "a5_global_reference_orphans": 0},
       "status": "passed",
-      "difference": "Global counts are not forced to equal year-local Gate counts; 2017 global blocking requests align with its Gate/Checkpoint missing-carrier scope.",
-      "blocks_a7": false,
-      "recommended_stage": "none"
+      "actual": {"global_manual_review_open": 1, "global_missing_segment_open": 12, "global_missing_segment_blocking": 12, "a5_human_review_open": 11, "duplicate_ids": 0, "a5_evidence_path_orphans": 0},
+      "difference": "Global and year-local queues remain separate scopes; all A5 evidence paths resolve.",
+      "blocks_a7": false
     },
     {
       "check_id": "A7-CF-003",
       "type": "index_foreign_keys_and_statistics",
-      "scope": "inventory, documents, representations, segments, relations, lineages, methods, visualizations and yearly statistics",
-      "evidence_paths": ["analysis-index/01_inventory/", "analysis-index/02_documents/", "analysis-index/03_segments/", "analysis-index/04_relations/", "analysis-index/05_knowledge/", "analysis-index/06_statistics/yearly/"],
-      "expected": "IDs are unique and available foreign-key fields resolve within their declared scope.",
-      "actual": {"years_checked": 11, "duplicate_id_sets": 0, "field_aware_orphan_foreign_keys": 0, "year_field_mismatches": 0, "preferred_representation_missing": 0},
       "status": "passed",
-      "difference": "Schemas use different field names and some segment/knowledge records deliberately omit carrier or document fields; omitted fields were not treated as orphan references.",
-      "blocks_a7": false,
-      "recommended_stage": "none"
+      "actual": {"years_checked": 11, "duplicate_id_sets": 0, "field_aware_orphan_foreign_keys": 0, "year_field_mismatches": 0, "preferred_representation_missing": 0},
+      "difference": "The blocker commit changed only four run logs and two historical Markdown controls; index, queue, gate, checkpoint, report, and statistics files were unchanged.",
+      "blocks_a7": false
     },
     {
       "check_id": "A7-CF-004",
       "type": "manifest_hash_stability",
-      "scope": "2015-2025 carrier manifests and repository-resolvable source files",
-      "evidence_paths": ["analysis-index/01_inventory/2015_carrier_manifest.jsonl", "analysis-index/01_inventory/2016_carrier_manifest.jsonl", "analysis-index/01_inventory/2017_carrier_manifest.jsonl", "analysis-index/01_inventory/2018_carrier_manifest.jsonl", "analysis-index/01_inventory/2019_carrier_manifest.jsonl", "analysis-index/01_inventory/2020_carrier_manifest.jsonl", "analysis-index/01_inventory/2021_carrier_manifest.jsonl", "analysis-index/01_inventory/2022_carrier_manifest.jsonl", "analysis-index/01_inventory/2023_carrier_manifest.jsonl", "analysis-index/01_inventory/2024_carrier_manifest.jsonl", "analysis-index/01_inventory/2025_carrier_manifest.jsonl"],
-      "expected": "Resolvable manifest SHA-256 values equal raw repository bytes; unresolved external source scope is not silently treated as a mismatch.",
-      "actual": {"manifest_entries": 2157, "repository_resolved": 159, "hash_verified": 159, "hash_mismatches": 0, "unresolved_or_external": 1998},
       "status": "conditional",
-      "difference": "Most 2015-2025 manifest records refer to uploaded, archive-member, or external source scope not present as a directly hashable repository path; no resolved hash mismatch was found.",
-      "blocks_a7": false,
-      "recommended_stage": "source delivery or human scope confirmation; no A7 repair"
+      "actual": {"manifest_entries": 2157, "direct_path_resolved": 107, "direct_path_hash_verified": 107, "direct_path_hash_mismatches": 0, "unresolved_or_external": 2050},
+      "difference": "Only directly resolvable checkout-relative paths were hashed; unresolved upload, archive-member, and external-source scope was not treated as a mismatch.",
+      "blocks_a7": false
     },
     {
       "check_id": "A7-CF-005",
       "type": "strict_structured_file_validation",
-      "scope": "analysis-index JSON, JSONL, CSV and Markdown controls",
-      "evidence_paths": ["analysis-index/00_control/run_logs/", "analysis-index/00_control/", "analysis-index/01_inventory/", "analysis-index/02_documents/", "analysis-index/03_segments/"],
-      "expected": "Strict JSON/JSONL/CSV parsing and controlled-text encoding rules are satisfied.",
-      "actual": {"json_parse_failures": 4, "jsonl_bad_lines": 0, "csv_bad_rows": 0, "json_duplicate_or_nonfinite_failures": 0, "historical_markdown_bom_files": 2},
-      "status": "failed",
-      "difference": "Four existing run-log files contain non-JSON prefixes/content and two historical Markdown controls contain BOM; A7 did not rewrite them.",
-      "blocks_a7": true,
-      "recommended_stage": "later control-file repair after human approval; no A7 repair"
+      "status": "passed",
+      "actual": {"json_parse_failures": 0, "jsonl_bad_lines": 0, "csv_bad_rows": 0, "markdown_bom_files": 0, "json_duplicate_or_nonfinite_failures": 0},
+      "difference": "The four approved run logs are now strict JSON; the two approved Markdown controls are BOM-free.",
+      "blocks_a7": false
     },
     {
       "check_id": "A7-CF-006",
       "type": "risk_scan",
-      "scope": "tracked text, tests, scripts and controlled files",
-      "evidence_paths": ["tests/", "scripts/", "analysis-index/00_control/"],
-      "expected": "No unrecorded weakening, secrets, personal paths, or task-created cache artifacts.",
-      "actual": {"new_skip_or_xfail": false, "absolute_personal_path_files": 0, "secret_pattern_files": 0, "cache_or_temp_paths": 0, "existing_errors_ignore_occurrences": 20, "contextual_placeholder_files": 8},
       "status": "conditional",
-      "difference": "The errors-ignore scan includes historical prose and one existing unmodified script occurrence; A6 records the modified-test scope as clean. Placeholder terms are contextual evidence labels, not completion claims.",
-      "blocks_a7": false,
-      "recommended_stage": "future repair review; no A7 repair"
+      "actual": {"new_skip_or_xfail": false, "modified_test_errors_ignore": false, "absolute_personal_path_files": 0, "secret_pattern_files": 0, "cache_or_temp_paths": 0, "syntax_errors": 0},
+      "difference": "Existing contextual skip/xfail and errors-ignore references remain outside the recovery scope; no tests were changed.",
+      "blocks_a7": false
     },
     {
       "check_id": "A7-CF-007",
       "type": "runtime_and_schema_gate",
-      "scope": "formal tests and schema validation",
-      "evidence_paths": ["tests/test_infrastructure.py", "schema/", "analysis-index/00_control/a7_full_regression_summary.json"],
-      "expected": "All formal tests collect and the repository schema validator is available.",
-      "actual": {"collection_blocker": "tests/test_infrastructure.py imports missing fitz", "schema_validator": "jsonschema unavailable; no repository validator found"},
       "status": "blocked",
-      "difference": "The fixed runtime was not changed and no dependency operation was authorized.",
-      "blocks_a7": true,
-      "recommended_stage": "environment recovery only; do not install dependencies in A7"
+      "actual": {"full_collection_errors": 0, "schema_definitions": 4, "schema_mapping": "resolved", "schema_instances": 5314, "schema_validation_errors": 0, "infrastructure_failed_assertions": 2},
+      "difference": "fitz and jsonschema were restored as approved. The first infrastructure execution still fails two source-baseline assertions because Git object a042ecf898feaba6fc81d543a10e0188db8b2b12 is unavailable locally.",
+      "blocks_a7": true
     }
   ],
   "year_status_summary": [
@@ -102,11 +75,8 @@
     {"year": 2024, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"},
     {"year": 2025, "gate": "conditional_pass", "checkpoint": "conditional_pass", "scope_result": "same"}
   ],
-  "blocking_reasons": [
-    "environment: tests/test_infrastructure.py cannot collect because fitz is unavailable",
-    "environment: no installed jsonschema package and no repository validator was found",
-    "strict format findings remain recorded without A7 repair"
-  ],
-  "no_repairs_applied": true,
-  "a8_started": false
+  "blocking_reasons": ["environment: two first-time infrastructure assertions fail because the declared source baseline Git object is unavailable locally"],
+  "no_unapproved_repairs_applied": true,
+  "a8_started": false,
+  "overall_status": "blocked: environment"
 }
