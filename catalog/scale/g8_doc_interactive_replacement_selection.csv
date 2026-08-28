@@ -1,0 +1,2 @@
+replacement_rank,paper_id,source_path,source_sha256,source_size,ole_signature,subject_type,artifact_eligible,selection_role,selection_key,selection_reason,preflight_pass
+1,CUMCM-2014-D-003,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014D：储药槽的设计/D-储药槽的设计.doc,2C45B7888C43355B39D0BC01726D842D4744C55DC1E2F8AF829B7DB9D8D4AA35,568832,D0CF11E0A1B11AE1,PAPER,1,SMALL,000000568832|CUMCM-2014-D-003,"small-size replacement from remaining DOC PAPER eligible candidates, sorted by source_size ascending then paper_id ascending",1

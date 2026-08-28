@@ -1,0 +1,7 @@
+stage=G8-DOC-INTERACTIVE-WORD-PILOT
+status=USER_ACTION_REQUIRED
+runner_created=1
+static_validation_pass=1
+word_com_instance_created=0
+conversion_run=0
+next=USER_RUN_INTERACTIVE_WORD_PILOT

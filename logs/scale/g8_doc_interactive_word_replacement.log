@@ -1,0 +1,15 @@
+stage=G8-DOC-INTERACTIVE-WORD-PILOT-REPLACEMENT
+status=PASS
+word_com_run=0
+replacement_conversion_rerun=0
+primary_pdf_readable=1
+validation_pdf_readable=1
+primary_pages=33
+validation_pages=33
+unexplained_pages=0
+ocr_required=0
+content_sanity_pass=1
+semantic_determinism_pass=1
+existing_paper_sample_qa_rerun=0
+contract_approved=1
+next=G8-DOC-BATCH-EXTRACTION

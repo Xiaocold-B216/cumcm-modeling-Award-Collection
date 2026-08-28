@@ -1,0 +1,11 @@
+stage=G8-IMAGE-CONTRACT-PILOT-R
+started=2026-08-23T15:15:46.617822+00:00
+ocr_backend=tesseract.js
+ocr_version=7.0.0
+capability_smoke=PASS text_chars=1278 text_sha256=8C9F6F981033215BBBE5B1648248A2836396388798DB557D6BABE8CFE90424BC
+image_targets=22 image_pages=799
+pilot_passed=3/3 contract_approved=1
+batch_completed=22
+page_classes=text:799,blank:0,image_only:0,unexplained:0
+artifact_new=0 eligibility_deferred=22
+protected_drift=0 old_artifact_drift=0 idempotency_pass=1

@@ -1,0 +1,27 @@
+{
+  "stage": "G8-DOC-CONVERSION-ALTERNATIVE-PLAN",
+  "status": "PASS",
+  "word_com_previous_blocker": "0x80070520 LOGIN_SESSION_NOT_FOUND",
+  "word_com_conversion_retry": 0,
+  "word_com_instance_created": 0,
+  "safe_existing_pilot_candidates": 0,
+  "no_autonomous_local_doc_path": 1,
+  "interactive_word_pilot_feasible": 1,
+  "interactive_word_requires_user_action": 1,
+  "recommended_strategy": "C_INTERACTIVE_MICROSOFT_WORD_PILOT",
+  "recommended_next_stage": "G8-DOC-INTERACTIVE-WORD-PILOT",
+  "external_user_authorization_required": 1,
+  "external_options": [
+    "USER_RUN_INTERACTIVE_WORD_PILOT",
+    "USER_AUTHORIZE_NEW_LOCAL_DOC_TOOL"
+  ],
+  "prohibited_actions": [
+    "Word COM retry",
+    "DOC conversion",
+    "DOC extraction",
+    "Artifact generation",
+    "installation",
+    "network",
+    "system/security changes"
+  ]
+}

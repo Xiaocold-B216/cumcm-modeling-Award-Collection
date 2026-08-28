@@ -1,0 +1,4 @@
+sample_order,paper_id,year,problem,page_count,naming_pattern,page_mapping_complete,extraction_attempted,extraction_completed,provenance_complete,rerun_stable,source_sha_unchanged,pilot_status,reason
+1,CUMCM-2012-C-001,2012,C,4,mixed_filename_tokens,1,0,0,1,1,1,REJECTED_NO_LOCAL_OCR_BACKEND,"Pillow verified raster readability and deterministic mapping; no local OCR engine exists, so extraction/OCR was not attempted"
+2,CUMCM-2014-B-001,2014,B,8,numeric_tokens,1,0,0,1,1,1,REJECTED_NO_LOCAL_OCR_BACKEND,"Pillow verified raster readability and deterministic mapping; no local OCR engine exists, so extraction/OCR was not attempted"
+3,CUMCM-2021-A-A028,2021,A,38,numeric_tokens,1,0,0,1,1,1,REJECTED_NO_LOCAL_OCR_BACKEND,"Pillow verified raster readability and deterministic mapping; no local OCR engine exists, so extraction/OCR was not attempted"

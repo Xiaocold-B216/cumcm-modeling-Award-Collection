@@ -1,0 +1,65 @@
+{
+  "accepted_image_extensions": [
+    ".bmp",
+    ".gif",
+    ".jpeg",
+    ".jpg",
+    ".png",
+    ".tif",
+    ".tiff"
+  ],
+  "approval_status": "REJECTED",
+  "backend": {
+    "deterministic": 1,
+    "local_only": 1,
+    "name": "Pillow",
+    "purpose": "readability and metadata validation only",
+    "version": "12.3.0"
+  },
+  "contract_version": "g8-mf41-image-v1",
+  "idempotency": {
+    "contract_content_deterministic": 1,
+    "sample_selection_deterministic": 1,
+    "source_immutable": 1
+  },
+  "image_only_handling": "defer until approved OCR/text extraction backend exists",
+  "ocr_backend": "NONE",
+  "ocr_language": "NOT_APPLICABLE_NO_ENGINE",
+  "ordering_rule": "numeric filename tokens, with frozen PaperFileMembership ordering for names without page tokens; never OS listing order",
+  "page_mapping": "catalog/scale/g8_mf41_image_page_map.csv",
+  "page_marker": "logical_page_number=image_sequence_order",
+  "pilot": {
+    "approval": 0,
+    "extraction_gate": 0,
+    "failure_reason": "no existing local OCR/text extraction engine",
+    "page_mapping_gate": 1,
+    "provenance_gate": 1,
+    "rerun_gate": 1,
+    "sample_count": 3,
+    "sample_ids": [
+      "CUMCM-2012-C-001",
+      "CUMCM-2014-B-001",
+      "CUMCM-2021-A-A028"
+    ]
+  },
+  "preprocessing": "none; source images are immutable",
+  "provenance": {
+    "logical_page_number": "ordering evidence recorded per page",
+    "source_image_path": "recorded per page",
+    "source_image_sha256": "recorded per page",
+    "source_page_kind": "image_sequence"
+  },
+  "qa": {
+    "duplicate_logical_page": 0,
+    "duplicate_sha": 0,
+    "orientation_anomaly": 0,
+    "page_gap": 0,
+    "page_zero": 0,
+    "unreadable_image": 0,
+    "unresolved_page_order": 0,
+    "unsupported_image_format": 0
+  },
+  "source_derivative_sha": "no derivative created",
+  "text_normalization": "NOT_EXECUTED",
+  "verified_blank_handling": "NOT_EXECUTED"
+}

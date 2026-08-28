@@ -1,0 +1,17 @@
+stage=G8-DOC-CONTRACT-PILOT
+status=BLOCKED
+validation_mode=1
+doc_target_rows=18
+sample_rows=3
+word_executable_present=1
+word_com_capability=0
+word_com_error=WORD_COM_CAPABILITY_UNAVAILABLE_0x80070520_LOGIN_SESSION_NOT_FOUND
+pre_existing_word_processes=0
+stage_word_processes_created=0
+stage_word_processes_cleaned=0
+orphan_stage_word_processes=0
+conversion_attempted=0
+doc_batch_run=0
+formal_artifact_generation_run=0
+source_sha_mismatch=0
+next=G8-DOC-CONVERSION-ALTERNATIVE-PLAN

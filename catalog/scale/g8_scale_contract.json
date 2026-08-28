@@ -1,0 +1,48 @@
+{
+  "stage": "G8-SCALE",
+  "scope": "all formal identities excluding frozen Pilot years 2015 and 2025",
+  "identity_source": "catalog/papers.csv",
+  "membership_semantics": "catalog/paper_files.csv PaperFileMembership; one Paper may have N Files",
+  "subject_type_classification": "path and membership evidence; insufficient evidence remains AMBIGUOUS",
+  "subject_types": [
+    "PAPER",
+    "PROBLEM_PACKAGE",
+    "SUPPORTING_MATERIAL",
+    "AMBIGUOUS"
+  ],
+  "artifact_eligibility": "only PAPER with resolved supported extraction input",
+  "quality_classes": [
+    "Q0",
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5"
+  ],
+  "q0_q1_contract": "original PDF -> pdf-inspector native Markdown",
+  "q2_contract": "existing local OCR readable derivative -> frozen hybrid page contract",
+  "repair_routing": {
+    "Q2": "existing frozen local OCR/hybrid only",
+    "Q3": "DEFERRED_REPAIR_REQUIRED",
+    "Q4": "DEFERRED_REACQUISITION_REQUIRED",
+    "Q5": "DEFERRED_QUARANTINE_REVIEW"
+  },
+  "unsupported_format": "DEFERRED_UNSUPPORTED_FORMAT; no conversion or new parser",
+  "artifact_contract": [
+    "paper.md",
+    "metadata.yaml",
+    "knowledge_card.md"
+  ],
+  "index_contract": "only complete artifact-eligible Paper sets may enter a future G9 index",
+  "qa_contract": "artifact existence, SHA, metadata/provenance, Markdown structure, knowledge-card evidence, broken paths, and ineligible leakage",
+  "deferred_contract": "item-local unresolved work is written to g8_deferred_review.csv",
+  "batch_checkpoint": "atomic g8_run_state.json after each batch",
+  "pilot_reuse": {
+    "years": [
+      2015,
+      2025
+    ],
+    "frozen_outputs": true
+  },
+  "local_only": true
+}

@@ -1,0 +1,2 @@
+paper_id,content_sanity_pass,eligibility_contradiction,normalized_text_chars,paper_signal_count,identity_signal_hits,reason,validation_content_sanity_pass,validation_normalized_text_chars,validation_identity_signal_hits
+CUMCM-2014-D-003,1,0,30734,4,储药槽;药盒;储药柜;冗余;药品,PASS,1,30734,储药槽;药盒;储药柜;冗余;药品

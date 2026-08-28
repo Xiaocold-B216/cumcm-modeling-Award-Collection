@@ -1,0 +1,2 @@
+﻿failure_class,paper_count,year_count,page_count_total,representative_sample_count,candidate_repair_strategy,candidate_tools,automation_potential,human_visual_review_required,recommended_next_stage
+PARTIAL_SCAN,128,15,2120,5,deterministic render/repair contract candidate after sample approval,existing pdftoppm; existing pdf-inspector; human visual review,MEDIUM,1,G8-Q3-CONTRACT-PILOT

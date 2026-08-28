@@ -1,0 +1,643 @@
+﻿paper_id,prior_status,final_subject_type,artifact_eligible,evidence,resolution,still_deferred
+CUMCM-1992-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1992-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1992-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1992-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1992-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1992-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1993-A-001,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-1993-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1993-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1993-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-A-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1995-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-A-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1996-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-A-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-A-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1997-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-A-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1998-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-A-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-1999-C-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-B-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-C-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-C-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-D-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-D-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2000-D-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-010,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-011,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-A-012,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-B-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-B-009,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2001-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-C-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2001-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2002-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-010,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-011,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-012,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-013,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-014,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-A-015,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-B-007,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2002-B-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-B-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2002-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2003-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-A-007,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2003-A-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-A-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-A-010,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-B-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2003-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-B-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-B-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-B-010,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-B-011,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-C-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2003-D-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-D-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-D-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-D-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2003-D-005,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2004-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-A-006,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2004-A-007,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2004-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2004-B-008,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2004-C-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2004-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2005-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-A-008,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2005-B-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2005-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-C-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2005-C-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-C-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-C-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2005-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2006-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-A-005,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2006-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2006-B-006,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2006-C-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2006-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2007-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2007-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-010,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-011,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2007-A-012,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-013,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-A-014,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2007-A-015,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-008,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2007-B-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-010,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-011,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-B-012,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-C-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-C-004,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2007-D-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-D-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2007-D-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2008-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-A-007,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2008-A-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-A-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-008,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2008-B-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-010,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-011,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-012,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-013,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-B-014,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-C-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2008-C-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2008-D-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2008-D-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-D-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2008-D-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-A-006,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2009-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-B-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2009-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-B-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-C-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-C-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-C-005,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2009-C-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2009-D-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-D-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-D-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2009-D-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-A-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2010-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-B-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2010-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-C-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-C-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-C-005,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2010-D-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-D-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-D-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2010-D-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2010-D-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2011-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2011-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2011-A-003,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2011-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2011-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2011-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2011-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2011-A-008,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2011-A-009,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2011-B-001,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,image/code/data members are not a formal paper body,ALREADY_RESOLVED,False
+CUMCM-2011-B-002,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,image/code/data members are not a formal paper body,ALREADY_RESOLVED,False
+CUMCM-2011-B-003,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2011-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2011-C-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2011-C-002,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2011-C-003,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2011-D-001,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2011-D-002,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-003,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-004,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-005,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-006,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-007,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2011-D-008,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-009,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-010,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-011,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-012,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-013,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2011-D-014,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-015,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-016,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-017,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-018,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-019,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-020,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-021,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-022,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-023,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-024,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-025,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-026,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-027,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-028,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-029,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-030,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-031,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-032,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-033,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-034,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-035,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-036,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-037,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-038,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2011-D-039,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-040,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-041,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-042,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-043,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2011-D-044,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-045,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-046,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-047,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-048,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2011-D-049,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2012-A-002,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-A-003,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2012-A-004,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2012-A-005,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2012-A-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2012-A-A285,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2012-B-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2012-B-002,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-B-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2012-B-004,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2012-B-005,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2012-B-006,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-B-007,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2012-B-B077,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2012-B-B149,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2012-C-001,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2012-C-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2012-C-003,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2012-C-004,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2012-D-001,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2012-D-002,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-003,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-004,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-005,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-006,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-007,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-008,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-009,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-010,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-011,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-012,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-013,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-014,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2012-D-015,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2012-D-D044,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2013-A-001,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2013-A-002,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-A-003,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2013-A-004,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2013-A-005,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2013-A-006,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-A-A0114,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2013-B-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2013-B-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2013-B-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2013-B-004,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2013-B-005,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2013-B-006,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2013-C-001,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-C-002,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-C-003,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-C-004,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-C-005,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-C-006,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-C-007,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-C-008,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-C-009,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-C-010,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2013-D-001,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2013-D-002,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-D-003,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2013-D-004,AMBIGUOUS_MANUAL_REVIEW|UNRESOLVED,AMBIGUOUS_MANUAL_REVIEW,UNRESOLVED,multiple plausible source members; no source strategy invented,AMBIGUOUS_MANUAL_REVIEW,True
+CUMCM-2014-A-001,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,image/code/data members are not a formal paper body,ALREADY_RESOLVED,False
+CUMCM-2014-A-002,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-A-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2014-A-004,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-A-005,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-A-006,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2014-A-007,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-A-008,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-A-009,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-A-A1000,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2014-A-A1114,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2014-A-A1116,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2014-A-A1501,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2014-A-A2302,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2014-B-001,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2014-B-002,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-B-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2014-B-B1604,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2014-B-B1801,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2014-B-B2704,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2014-C-001,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-C-002,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-C-003,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-C-004,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-C-005,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-C-006,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-C-007,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-C-008,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2014-C-009,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-C-010,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2014-C-C1951,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2014-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2014-D-002,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2014-D-003,PAPER|UNRESOLVED,PAPER,UNRESOLVED,primary path is under an explicit paper/award-paper directory; extraction conversion/parser forbidden in unattended scope,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2014-D-004,SUPPORTING_MATERIAL|0,SUPPORTING_MATERIAL,0,unsupported extension or supporting-material filename evidence,ALREADY_RESOLVED,False
+CUMCM-2014-D-D2202,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-A-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2016-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-B-006,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2016-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-C-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2016-C-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2016-D-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-D-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2016-D-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-A-005,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2017-A-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-B-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2017-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-B-006,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-B-007,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-B-008,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-C-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2017-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-C-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-C-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-D-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-D-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2017-D-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2017-D-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-A-004,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2018-A-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-B-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2018-B-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-C-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2018-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-C-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2018-D-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-D-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2018-D-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-A-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2019-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-A-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-B-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2019-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-C-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2019-C-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2019-E-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-E-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2019-E-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2019-E-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-A-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-A-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-A-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2020-A-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-B-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-B-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-B-003,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2020-B-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-B-005,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-C-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-C-002,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-C-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-C-004,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2020-D-001,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-D-002,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2020-D-003,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-D-004,PAPER|1,PAPER,1,primary path is under an explicit paper/award-paper directory,ALREADY_RESOLVED,False
+CUMCM-2020-E-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2021-A-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2021-A-A028,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-A-A115,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-A-A217,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-B-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2021-B-B007,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-B-B026,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-B-B050,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-B-B106,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-C-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2021-C-C066,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-C-C085,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-C-C169,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-C-C283,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2021-D-D017,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-D-D026,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-D-D034,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-E-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2021-E-E014,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-E-E025,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2021-E-E037,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2022-C-C229,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2022-E-E014,PAPER|UNRESOLVED,PAPER,UNRESOLVED,paper directory and sequential image members; OCR/image packaging not authorized for eligibility,UNSUPPORTED_CONFIRMED_PAPER_UNSUPPORTED,True
+CUMCM-2023-A-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2023-B-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2023-C-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2023-D-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2023-E-001,PROBLEM_PACKAGE|0,PROBLEM_PACKAGE,0,problem/attachment directory signal,ALREADY_RESOLVED,False
+CUMCM-2024-A-001,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2024-B-001,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2024-C-001,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2024-D-001,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False
+CUMCM-2024-E-001,PAPER|1,PAPER,1,one PDF member among the logical identity; non-PDF sibling retained as provenance,ALREADY_RESOLVED,False

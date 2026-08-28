@@ -1,0 +1,9 @@
+stage=G8-DOC-BATCH-CONVERSION-RESUME-REPAIR
+word_com_run=0
+historical_samples=11
+reconciled_attempted=11
+reconciled_completed=10
+reconciled_failed=1
+reconciled_pending=3
+failed_ids=CUMCM-2012-D-001
+pending_ids=CUMCM-2012-D-D044,CUMCM-2013-D-004,CUMCM-2014-D-002

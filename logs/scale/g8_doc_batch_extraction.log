@@ -1,0 +1,91 @@
+stage=G8-DOC-BATCH-EXTRACTION
+status=USER_ACTION_REQUIRED
+target_rows=17
+pilot_reuse=3
+word_conversion_required=14
+word_conversion_completed=0
+word_conversion_failed=0
+word_com_run=0
+doc_batch_run=0
+next=USER_RUN_G8_DOC_BATCH
+2026-08-27T23:39:57.1421991+08:00 PREFLIGHT paper_id=CUMCM-2011-A-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.1550830+08:00 PREFLIGHT paper_id=CUMCM-2011-C-002 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.1623374+08:00 PREFLIGHT paper_id=CUMCM-2011-C-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.1674456+08:00 PREFLIGHT paper_id=CUMCM-2011-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.1716132+08:00 PREFLIGHT paper_id=CUMCM-2011-D-007 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.1794964+08:00 PREFLIGHT paper_id=CUMCM-2011-D-013 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.1872864+08:00 PREFLIGHT paper_id=CUMCM-2012-A-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.1956979+08:00 PREFLIGHT paper_id=CUMCM-2012-B-005 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.2018658+08:00 PREFLIGHT paper_id=CUMCM-2012-B-007 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.2097194+08:00 PREFLIGHT paper_id=CUMCM-2012-C-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.2173116+08:00 PREFLIGHT paper_id=CUMCM-2012-C-004 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.2239215+08:00 PREFLIGHT paper_id=CUMCM-2012-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.2319524+08:00 PREFLIGHT paper_id=CUMCM-2012-D-D044 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.2425634+08:00 PREFLIGHT paper_id=CUMCM-2013-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.2530194+08:00 PREFLIGHT paper_id=CUMCM-2013-D-004 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.2613962+08:00 PREFLIGHT paper_id=CUMCM-2014-D-002 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-27T23:39:57.2698813+08:00 PREFLIGHT paper_id=CUMCM-2014-D-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:29.8856629+08:00 PREFLIGHT paper_id=CUMCM-2011-A-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:29.9155895+08:00 PREFLIGHT paper_id=CUMCM-2011-C-002 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:29.9417262+08:00 PREFLIGHT paper_id=CUMCM-2011-C-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:29.9619419+08:00 PREFLIGHT paper_id=CUMCM-2011-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:29.9850068+08:00 PREFLIGHT paper_id=CUMCM-2011-D-007 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.0091185+08:00 PREFLIGHT paper_id=CUMCM-2011-D-013 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.0384460+08:00 PREFLIGHT paper_id=CUMCM-2012-A-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.0639866+08:00 PREFLIGHT paper_id=CUMCM-2012-B-005 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.0886225+08:00 PREFLIGHT paper_id=CUMCM-2012-B-007 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.1146947+08:00 PREFLIGHT paper_id=CUMCM-2012-C-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.1406290+08:00 PREFLIGHT paper_id=CUMCM-2012-C-004 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.1667913+08:00 PREFLIGHT paper_id=CUMCM-2012-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.1928439+08:00 PREFLIGHT paper_id=CUMCM-2012-D-D044 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.2190336+08:00 PREFLIGHT paper_id=CUMCM-2013-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.2428824+08:00 PREFLIGHT paper_id=CUMCM-2013-D-004 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.2822893+08:00 PREFLIGHT paper_id=CUMCM-2014-D-002 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:30:30.3103296+08:00 PREFLIGHT paper_id=CUMCM-2014-D-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T04:33:34.1168809+08:00 RUN_STATUS=PARTIAL DOC_BATCH_WORD_CONVERSION_COMPLETED=10 DOC_BATCH_WORD_CONVERSION_FAILED=4 DOC_BATCH_STAGE_WORD_PROCESSES_CLEANED=11 ORPHAN=
+2026-08-28T23:15:23.3023330+08:00 PREFLIGHT paper_id=CUMCM-2011-A-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3113600+08:00 PREFLIGHT paper_id=CUMCM-2011-C-002 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3183738+08:00 PREFLIGHT paper_id=CUMCM-2011-C-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3238830+08:00 PREFLIGHT paper_id=CUMCM-2011-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3313989+08:00 PREFLIGHT paper_id=CUMCM-2011-D-007 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3369090+08:00 PREFLIGHT paper_id=CUMCM-2011-D-013 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3459258+08:00 PREFLIGHT paper_id=CUMCM-2012-A-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3543308+08:00 PREFLIGHT paper_id=CUMCM-2012-B-005 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3598468+08:00 PREFLIGHT paper_id=CUMCM-2012-B-007 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3673542+08:00 PREFLIGHT paper_id=CUMCM-2012-C-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3738631+08:00 PREFLIGHT paper_id=CUMCM-2012-C-004 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3806204+08:00 PREFLIGHT paper_id=CUMCM-2012-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3871304+08:00 PREFLIGHT paper_id=CUMCM-2012-D-D044 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.3973651+08:00 PREFLIGHT paper_id=CUMCM-2013-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.4048774+08:00 PREFLIGHT paper_id=CUMCM-2013-D-004 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.4138925+08:00 PREFLIGHT paper_id=CUMCM-2014-D-002 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:15:23.4214088+08:00 PREFLIGHT paper_id=CUMCM-2014-D-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.1696706+08:00 PREFLIGHT paper_id=CUMCM-2011-A-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.1856053+08:00 PREFLIGHT paper_id=CUMCM-2011-C-002 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.1926801+08:00 PREFLIGHT paper_id=CUMCM-2011-C-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.2014979+08:00 PREFLIGHT paper_id=CUMCM-2011-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.2099058+08:00 PREFLIGHT paper_id=CUMCM-2011-D-007 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.2186348+08:00 PREFLIGHT paper_id=CUMCM-2011-D-013 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.2307575+08:00 PREFLIGHT paper_id=CUMCM-2012-A-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.2413166+08:00 PREFLIGHT paper_id=CUMCM-2012-B-005 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.2508309+08:00 PREFLIGHT paper_id=CUMCM-2012-B-007 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.2609347+08:00 PREFLIGHT paper_id=CUMCM-2012-C-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.2696344+08:00 PREFLIGHT paper_id=CUMCM-2012-C-004 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.2807859+08:00 PREFLIGHT paper_id=CUMCM-2012-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.2910075+08:00 PREFLIGHT paper_id=CUMCM-2012-D-D044 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.3074721+08:00 PREFLIGHT paper_id=CUMCM-2013-D-001 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.3206288+08:00 PREFLIGHT paper_id=CUMCM-2013-D-004 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.3342223+08:00 PREFLIGHT paper_id=CUMCM-2014-D-002 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.3456948+08:00 PREFLIGHT paper_id=CUMCM-2014-D-003 source_exists=1 source_sha_match=1 source_size_match=1 source_ole_match=1 eligibility_match=1 membership_match=1 artifact_absent=1
+2026-08-28T23:20:23.4140590+08:00 SKIP_COMPLETE paper_id=CUMCM-2011-A-003 SUCCESSFUL_CONVERSION_RERUN=0
+2026-08-28T23:20:23.4241580+08:00 SKIP_COMPLETE paper_id=CUMCM-2011-C-003 SUCCESSFUL_CONVERSION_RERUN=0
+2026-08-28T23:20:23.4348759+08:00 SKIP_COMPLETE paper_id=CUMCM-2011-D-001 SUCCESSFUL_CONVERSION_RERUN=0
+2026-08-28T23:20:23.4442241+08:00 SKIP_COMPLETE paper_id=CUMCM-2011-D-007 SUCCESSFUL_CONVERSION_RERUN=0
+2026-08-28T23:20:23.4537509+08:00 SKIP_COMPLETE paper_id=CUMCM-2011-D-013 SUCCESSFUL_CONVERSION_RERUN=0
+2026-08-28T23:20:23.4661232+08:00 SKIP_COMPLETE paper_id=CUMCM-2012-A-003 SUCCESSFUL_CONVERSION_RERUN=0
+2026-08-28T23:20:23.5370122+08:00 SKIP_COMPLETE paper_id=CUMCM-2012-B-005 SUCCESSFUL_CONVERSION_RERUN=0
+2026-08-28T23:20:23.5470450+08:00 SKIP_COMPLETE paper_id=CUMCM-2012-B-007 SUCCESSFUL_CONVERSION_RERUN=0
+2026-08-28T23:20:23.5560783+08:00 SKIP_COMPLETE paper_id=CUMCM-2012-C-003 SUCCESSFUL_CONVERSION_RERUN=0
+2026-08-28T23:20:23.5652845+08:00 SKIP_COMPLETE paper_id=CUMCM-2012-C-004 SUCCESSFUL_CONVERSION_RERUN=0
+2026-08-28T23:20:40.8718484+08:00 ROW_LOCAL_FAILURE_CONTINUES paper_id=CUMCM-2012-D-001 attempt_count=2 error_code=EXPORT_ERROR retry_allowed=0
+2026-08-28T23:21:48.1327267+08:00 RUN_STATUS=PARTIAL DOC_BATCH_WORD_CONVERSION_ATTEMPTED=14 DOC_BATCH_WORD_CONVERSION_COMPLETED=13 DOC_BATCH_WORD_CONVERSION_FAILED=1 DOC_BATCH_WORD_CONVERSION_PENDING=0 SUCCESSFUL_CONVERSION_RERUN=0 DOC_BATCH_STAGE_WORD_PROCESSES_CLEANED=4 ORPHAN=

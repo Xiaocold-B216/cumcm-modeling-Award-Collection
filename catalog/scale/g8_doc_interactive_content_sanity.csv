@@ -1,0 +1,4 @@
+paper_id,content_sanity_pass,eligibility_contradiction,normalized_text_chars,paper_signal_count,identity_signal_hits,reason
+CUMCM-2014-A-006,0,1,79,0,,INSUBSTANTIAL_OR_NON_PAPER_CONTENT
+CUMCM-2011-C-002,1,0,35528,8,养老金;退休职工;养老保险;替代率;收支平衡,PASS
+CUMCM-2013-D-001,1,0,96750,5,公共自行车;鹿城区;自行车服务系统;站点;借车;还车,PASS

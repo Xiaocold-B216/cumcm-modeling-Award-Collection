@@ -1,0 +1,7 @@
+stage=G8-ELIGIBILITY-ANOMALY-R42
+started=2026-08-23T18:42:54.581140+00:00
+population=42 image=22 doc=18 gitkeep=1 legacy_manual=1
+final_types=PAPER:37,PROBLEM_PACKAGE:1,SUPPORTING_MATERIAL:4,AMBIGUOUS:0
+image_artifacts=19 qa_failures=0
+doc_target=18 doc_extraction=0 doc_conversion=0
+source_mismatch=0 protected_drift=0 old_artifact_drift=0 idempotency=1

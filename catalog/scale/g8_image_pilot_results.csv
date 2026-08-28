@@ -1,0 +1,4 @@
+paper_id,page_count,text_pages,blank_pages,image_only_pages,unexplained_pages,extraction_status,source_sha256_match,rerun_stable,reused_derivative,repeated_page_text,pilot_status,artifact_status,downstream_action
+CUMCM-2012-C-001,4,4,0,0,0,PASS,1,1,1,0,PASS,PENDING_ELIGIBILITY,G8-ELIGIBILITY-ANOMALY-R
+CUMCM-2014-B-001,8,8,0,0,0,PASS,1,1,1,0,PASS,PENDING_ELIGIBILITY,G8-ELIGIBILITY-ANOMALY-R
+CUMCM-2021-A-A028,38,38,0,0,0,PASS,1,1,1,0,PASS,PENDING_ELIGIBILITY,G8-ELIGIBILITY-ANOMALY-R

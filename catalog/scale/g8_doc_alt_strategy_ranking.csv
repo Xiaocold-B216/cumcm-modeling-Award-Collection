@@ -1,0 +1,5 @@
+rank,strategy,available_now,requires_user_action,requires_install,requires_system_change,security_risk,fidelity_expectation,provenance_quality,automation_quality,reproducibility,recommended,reason
+1,A_EXISTING_LOCAL_READ_ONLY_PARSER,0,0,0,0,LOW,UNKNOWN,NONE,NONE,NONE,0,No installed antiword/catdoc/wv or verified Python/Node binary-DOC parser.
+2,B_EXISTING_LOCAL_NON_COM_CONVERTER,0,1,0,0,MEDIUM,MEDIUM,MEDIUM,LOW,LOW,0,Wordconv.exe exists but cannot start in this session and has no verified governed PDF route.
+3,C_INTERACTIVE_MICROSOFT_WORD_PILOT,0,1,0,0,MEDIUM,HIGH,HIGH,MEDIUM,MEDIUM,1,Word is installed; blocker is session-specific. User can run a separately controlled 3-sample pilot in a normal desktop login session.
+4,D_USER_AUTHORIZED_NEW_LOCAL_DOC_TOOL,0,1,1,0,REVIEW_REQUIRED,TO_VALIDATE,HIGH_IF_CONTRACTED,HIGH_IF_CONTRACTED,HIGH_IF_CONTRACTED,0,Fallback only if the user cannot provide a normal desktop Word session; installation requires explicit authorization.

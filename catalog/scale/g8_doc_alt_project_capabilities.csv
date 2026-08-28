@@ -1,0 +1,5 @@
+path,capability,used_before,stage,binary_doc_support,dependency,safe_reuse,notes
+tools/46_g8_mf41_unsupported_format_closure.py,DOC/OLE signature and capability inventory,1,G8-MF41,signature/metadata only,Python stdlib,1,does not extract binary DOC body
+tools/49_g8_doc_contract_pilot.py,Word COM DOC contract pilot,1,G8-DOC-CONTRACT-PILOT,"conversion path designed, not proven",Microsoft Word COM,0,blocked by 0x80070520; current stage must not retry
+tools/44_g8_manual_backlog_plan.py,DOC backlog and unsupported-format planning,1,G8 backlog planning,none,Python stdlib,1,inventory/planning only
+catalog/pilot/g6_extraction_contract.json,PDF page-aware extraction contract,1,G6,none; PDF input only,pdf-inspector/Poppler contract,1,reusable only after a governed derivative exists

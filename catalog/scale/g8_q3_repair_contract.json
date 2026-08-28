@@ -1,0 +1,10 @@
+{
+  "stage": "G8-Q3-00",
+  "approved_classes": [],
+  "classes": {
+    "PARTIAL_SCAN": {
+      "contract_status": "MANUAL_REQUIRED",
+      "reason": "Pilot has no formal Q3 repair contract"
+    }
+  }
+}

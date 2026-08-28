@@ -1,0 +1,14 @@
+stage=G8-DOC-INTERACTIVE-WORD-PILOT-CONTENT-SANITY-REVIEW
+status=PASS
+paper_id=CUMCM-2014-A-006
+review_confidence=HIGH
+final_subject_type=SUPPORTING_MATERIAL
+final_artifact_eligible=0
+eligible_before=454 eligible_after=453
+ineligible_before=188 ineligible_after=189
+doc_backlog_before=18 doc_backlog_after=17
+q3_backlog_before=128 q3_backlog_after=128
+replacement_paper_id=CUMCM-2014-D-003 replacement_selection_key=000000568832|CUMCM-2014-D-003
+replacement_preflight_pass=1
+replacement_conversion_run=0 word_com_run=0 existing_pdf_qa_rerun=0
+formal_artifacts_generated=0 formal_artifacts_deleted=0 g3_modified=0 q3_run=0 image_run=0 g9_run=0 g10_run=0

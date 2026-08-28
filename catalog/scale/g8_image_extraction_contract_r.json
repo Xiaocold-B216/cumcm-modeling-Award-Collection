@@ -1,0 +1,46 @@
+{
+  "contract_version": "g8-image-sequence-v2",
+  "contract_parent": "G8-Q2 OCR contract / G5-25D frozen OCR capability",
+  "input_source_kind": "image_sequence",
+  "accepted_image_formats": [
+    ".bmp",
+    ".jpeg",
+    ".jpg",
+    ".png",
+    ".tif",
+    ".tiff",
+    ".webp"
+  ],
+  "ordering_source": "catalog/scale/g8_mf41_image_page_map.csv",
+  "logical_page_mapping": "1-based logical_page_number; deterministic existing map reused",
+  "ocr_backend": "tesseract.js",
+  "ocr_version": "7.0.0",
+  "ocr_language": "chi_sim+eng",
+  "preprocessing": [
+    "read-only source",
+    "in-memory RGB conversion only when needed",
+    "no enhancement or redraw"
+  ],
+  "text_normalization": "UTF-8, normalize line endings, remove NUL/replacement characters and trailing whitespace",
+  "page_marker_contract": "source_page_kind=image_sequence; logical_page_number; source image path and SHA",
+  "provenance_contract": "source image SHA -> logical page -> OCR text SHA -> derivative/Artifact SHA",
+  "source_image_sha": "required and revalidated against page map",
+  "output_sha": "SHA-256 for every page text, derivative manifest, and Artifact",
+  "qa": [
+    "page accounting",
+    "source integrity",
+    "runtime marker scan",
+    "binary/mojibake ratio",
+    "page-order match",
+    "rerun stability"
+  ],
+  "idempotency": "reuse derivative only when contract and ordered source SHA list match; write-if-changed",
+  "rejection_conditions": [
+    "missing backend or language data",
+    "source SHA drift",
+    "unexplained page",
+    "page-map drift",
+    "systematic OCR/runtime failure",
+    "repeated whole-page output"
+  ]
+}

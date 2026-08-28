@@ -1,0 +1,2 @@
+paper_id,conversion_status,primary_pdf_readable,validation_pdf_readable,page_accounting,extraction_status,content_sanity,eligibility_contradiction,semantic_determinism,status
+CUMCM-2014-D-003,PASS,1,1,PASS,PASS,PASS,0,PASS,PASS

@@ -1,0 +1,3 @@
+option,why_needed,installation_required,system_change_required,source_mutation_risk,fidelity,automation,provenance,reversibility,recommended_use,approval_required
+USER_RUN_INTERACTIVE_WORD_PILOT,Current Codex login session cannot instantiate Word COM; normal desktop session is the smallest existing capability path.,0,0,LOW_WITH_READONLY_CONTRACT,HIGH_EXPECTED,MEDIUM,HIGH,HIGH,first next step; controlled 3-sample pilot only,1
+USER_AUTHORIZE_NEW_LOCAL_DOC_TOOL,Fallback if interactive Word cannot be provided; select and validate a local binary-DOC tool in a separate authorized stage.,1,0,MUST_BE_VALIDATED,TO_VALIDATE,TO_VALIDATE,TO_VALIDATE,MEDIUM,fallback only; do not install in this stage,1

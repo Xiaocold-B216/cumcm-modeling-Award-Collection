@@ -1,0 +1,16 @@
+﻿paper_id,from_category,to_category,final_subject_type,artifact_eligible,reason
+CUMCM-1993-A-001,MANUAL_ELIGIBILITY_REVIEW,MANUAL_ELIGIBILITY_REVIEW,AMBIGUOUS,UNRESOLVED,"Paper-like evidence is present, but formal Paper closure would require choosing one of two non-canonical primary memberships, which is outside this stage."
+CUMCM-2013-A-002,MANUAL_ELIGIBILITY_REVIEW,,PROBLEM_PACKAGE,0,"The source is a problem statement or appendix, not a Paper Artifact candidate."
+CUMCM-2013-A-006,MANUAL_ELIGIBILITY_REVIEW,,PROBLEM_PACKAGE,0,"The source is a problem statement or appendix, not a Paper Artifact candidate."
+CUMCM-2013-C-001,MANUAL_ELIGIBILITY_REVIEW,,SUPPORTING_MATERIAL,0,"The source is computational supporting material, not a Paper Artifact candidate."
+CUMCM-2013-C-002,MANUAL_ELIGIBILITY_REVIEW,,SUPPORTING_MATERIAL,0,"The source is computational supporting material, not a Paper Artifact candidate."
+CUMCM-2013-C-003,MANUAL_ELIGIBILITY_REVIEW,,SUPPORTING_MATERIAL,0,"The source is computational supporting material, not a Paper Artifact candidate."
+CUMCM-2013-C-004,MANUAL_ELIGIBILITY_REVIEW,,SUPPORTING_MATERIAL,0,"The source is computational supporting material, not a Paper Artifact candidate."
+CUMCM-2013-C-005,MANUAL_ELIGIBILITY_REVIEW,,SUPPORTING_MATERIAL,0,"The source is computational supporting material, not a Paper Artifact candidate."
+CUMCM-2013-C-006,MANUAL_ELIGIBILITY_REVIEW,,PROBLEM_PACKAGE,0,"The source is a problem statement or appendix, not a Paper Artifact candidate."
+CUMCM-2013-C-007,MANUAL_ELIGIBILITY_REVIEW,,SUPPORTING_MATERIAL,0,"The source is computational supporting material, not a Paper Artifact candidate."
+CUMCM-2013-C-008,MANUAL_ELIGIBILITY_REVIEW,,SUPPORTING_MATERIAL,0,"The source is computational supporting material, not a Paper Artifact candidate."
+CUMCM-2013-C-009,MANUAL_ELIGIBILITY_REVIEW,,SUPPORTING_MATERIAL,0,"The source is computational supporting material, not a Paper Artifact candidate."
+CUMCM-2013-D-002,MANUAL_ELIGIBILITY_REVIEW,,PROBLEM_PACKAGE,0,"The source is a problem statement or appendix, not a Paper Artifact candidate."
+CUMCM-2013-D-003,MANUAL_ELIGIBILITY_REVIEW,,PROBLEM_PACKAGE,0,"The source is a problem statement or appendix, not a Paper Artifact candidate."
+CUMCM-2013-D-004,MANUAL_ELIGIBILITY_REVIEW,MANUAL_UNSUPPORTED_FORMAT,PAPER,UNRESOLVED,Paper identity is supported by directory and team naming; extraction eligibility remains unresolved because the primary DOC lacks a frozen supported backend.

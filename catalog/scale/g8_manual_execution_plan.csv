@@ -1,0 +1,9 @@
+﻿execution_order,stage,workstream,target_count,priority,dependencies,estimated_complexity,automation_level,requires_user_review,expected_output,success_gate
+1,G8-ME-15,A-ELIGIBILITY,15,P1,current evidence packets; no G3 write,MEDIUM,READ_ONLY_PREPARED,1,formal subject-type/membership decisions,15 decisions with evidence; formal overlay update authorized separately
+2,G8-MF-40,B-UNSUPPORTED-FORMAT,40,P2,G8-ME-15 where identity changes,HIGH,INVENTORY_ONLY,1,format governance decisions and approved contracts,all 40 have confirmed format/membership strategy; no unapproved conversion
+3,G8-Q3-CONTRACT-PILOT,C-Q3-GOVERNANCE,5,P2,ME/MF decisions; user approval of candidate contract,HIGH,SAMPLE_ONLY,1,approved or rejected repair contract,sample QA and deterministic rerun pass; otherwise retain manual subset
+4,G8-Q3-BATCH-REPAIR,C-Q3-GOVERNANCE,128,P2,G8-Q3-CONTRACT-PILOT PASS,HIGH,CONDITIONAL,1,approved Q3 derivatives or explicit manual subset,only approved class/contract batches; source and SHA QA pass
+5,G8-MANUAL-ARTIFACT-CLOSURE,ARTIFACT-CLOSURE,128,P2,ME/MF reconciliation and approved Q3 outputs,MEDIUM,CONDITIONAL,1,incremental Paper Artifacts,final eligibility frozen; three-file Artifact QA pass
+6,G8-INT-FINAL,INTEGRATION,1,P2,all authorized manual work complete,MEDIUM,VALIDATION,1,final Scale integration status,"identity, eligibility, artifacts and provenance reconcile"
+7,G9-FULL-INDEX,INDEX,1,P3,G8-INT-FINAL PASS,MEDIUM,AUTOMATED_AFTER_GATE,1,full search index,G8 gate explicitly permits G9
+8,G10-CONSISTENCY,QA,1,P3,G9-FULL-INDEX PASS,MEDIUM,AUTOMATED_AFTER_GATE,1,consistency report,"all links, hashes and status mappings pass"
