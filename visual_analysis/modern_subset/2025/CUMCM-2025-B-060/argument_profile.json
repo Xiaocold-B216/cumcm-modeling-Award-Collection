@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "paper_id": "CUMCM-2025-B-060",
+    "year": 2025,
+    "problem": "B",
+    "source_file": "2025数学建模国赛优秀论文/B060.pdf",
+    "analysis_date": "2026-09-03",
+    "status": "needs_extraction",
+    "note": "Argument structure requires semantic analysis of paper content."
+  },
+  "questions": {
+    "Q1": {
+      "task_definition": "needs_extraction",
+      "modeling_insight": "needs_extraction",
+      "assumptions": "needs_extraction",
+      "variables": "needs_extraction",
+      "reality_relation": "needs_extraction",
+      "mathematical_derivation": "needs_extraction",
+      "objective_equation": "needs_extraction",
+      "algorithm": "needs_extraction",
+      "result": "needs_extraction",
+      "interpretation": "needs_extraction",
+      "validation": "needs_extraction"
+    }
+  },
+  "patterns": {
+    "reality_then_formula": "needs_extraction",
+    "model_selection_justification": "needs_extraction",
+    "algorithm_explanation_position": "needs_extraction",
+    "result_figure_step": "needs_extraction",
+    "sensitivity_analysis_position": "needs_extraction",
+    "model_evaluation_style": "needs_extraction",
+    "conclusion_style": "needs_extraction"
+  },
+  "strategy": {
+    "abstract_style": "needs_extraction",
+    "opening_paragraph_style": "needs_extraction",
+    "transition_technique": "needs_extraction",
+    "emphasis_technique": "needs_extraction",
+    "figure_table_placement": "needs_extraction"
+  }
+}
