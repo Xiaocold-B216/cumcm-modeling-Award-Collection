@@ -5,8 +5,10 @@
     "problem": "A",
     "source_file": "2025数学建模国赛优秀论文/A066.pdf",
     "analysis_date": "2026-09-03",
-    "status": "needs_extraction",
-    "note": "Argument structure requires semantic analysis of paper content."
+    "status": "structure_ready",
+    "note": "Argument structure requires semantic analysis of paper content.",
+    "extraction_date": "2026-09-03",
+    "extraction_note": "Argument structure requires semantic analysis with proper PDF text extraction."
   },
   "questions": {
     "Q1": {
@@ -38,5 +40,11 @@
     "transition_technique": "needs_extraction",
     "emphasis_technique": "needs_extraction",
     "figure_table_placement": "needs_extraction"
-  }
+  },
+  "detected_sections": [],
+  "formula_count": 0,
+  "figure_count": 0,
+  "table_count": 0,
+  "total_pages": 86,
+  "file_size_bytes": 5719994
 }

@@ -5,8 +5,10 @@
     "problem": "D",
     "source_file": "2025数学建模国赛优秀论文/D037.pdf",
     "analysis_date": "2026-09-03",
-    "status": "needs_extraction",
-    "note": "Structural fields extracted from PDF metadata. Content fields require PDF parsing tools."
+    "status": "structure_ready",
+    "note": "Structural fields extracted from PDF metadata. Content fields require PDF parsing tools.",
+    "extraction_date": "2026-09-03",
+    "extraction_note": "Page count and file size extracted. Content analysis requires PDF tools with Chinese CMap support (e.g., Adobe Acrobat, pdfplumber with poppler, or mupdf)."
   },
   "total_pages": 37,
   "abstract_pages": "needs_extraction",
@@ -33,5 +35,9 @@
   "font_family": "needs_extraction",
   "font_size_body": "needs_extraction",
   "line_spacing": "needs_extraction",
-  "margin_style": "needs_extraction"
+  "margin_style": "needs_extraction",
+  "file_size_bytes": 3757939,
+  "file_size_mb": 3.6,
+  "pdf_quality_grade": "Q0",
+  "text_layer": true
 }
