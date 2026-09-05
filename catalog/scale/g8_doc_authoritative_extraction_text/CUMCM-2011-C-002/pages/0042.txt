@@ -1,0 +1,1 @@
+plot(A,KK,'-','linewidth',2); grid on; hold on; plot(A,KK,'*','markersize',8); xlabel('缴费起始年龄'); ylabel('资金缺口' ); title('缴费起始年龄-资金缺口关系图'); 42 [Image: Image6]

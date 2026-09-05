@@ -1,0 +1,38 @@
+Eiig
+二 所
+72 数学 的 实践 与 认识 0 着
+分 别 取 产 1,2, -, n, ik P TELL P; 为 圆心 , e 为 半径 的 圆 内 变动 选取 合适 的 步 长 , 编
+程 计算 PLP,PJ),…, PP,P,))， 若 能 搜索 到 己 点 , 使
+maxP(P.P) 三 6
+说 明 P,,P: …,P， 都 可 以 被 利用 , 结束 程序 ; 否则 继续 搜索
+2. 网 格 的 横向 和 纵向 不 固定 (可 以 旋转 )
+首先 , 取 网 格 的 铅 垂 网 线 , 水 平 网 线 与 所 给 坐标 系 的 纵横 轴 平 行 , 按 上 文 所 提供 的 方法
+进行 判别 和 编程 of
+其 次 , 将 坐标 系 绕 原 点 旋转 x 角度 (为 保证 精度 , x 的 选取 必须 适当 的 小 ) i 复 才 位 P，
+在 新 坐标 系 下 的 坐标 记 为 P(o = (ui(Q ,9) ,对 旋转 后 的 新 坐标 系 中 丝 们 新 坐标
+P;(9% , 再 继续 按 上 文 所 提供 的 方法 求解 如 此 继续 下 去 ， it
+如 果 在 上 述 搜索 过 程 中 , 已 得 知 P,,…, P， 可 被 全 部 利用 ,四 9
+4 模型 分 析 及 推广 应 用
+对 于 直接 搜索 模型 , 作为 一 种 最 直接 , 最 简单 的 人 人/ 能 够 保证 在 不 遗漏 一 个 点 的 情
+况 下 找到 解 但 是 ， 此 模型 是 建立 在 全 面 搜索 的 基础 上 化 毫 不 考虑 可 简化 的 因素 , 因而 具
+有 计算 量 大 , 搜索 速度 慢 等 缺点 , 不 利于 推广 应 用 LS
+而 对 于 优化 搜索 模型 , 它 在 充分 考虑 有 利 条 件 的 同时 , 可 避免 某 些 不 利 因素 , 从 而 能 够
+在 比较 短 的 时 间 内 寻找 到 目标 点 , 完成 任 物 这 对 于 其 它 类 似 问题 也 有 很 好 的 参考 价值
+地 如 说 在 考虑 已 有 交通 枢纽 城 全 谓 入 zT， 如 后 安排 某 地 区 交通 建设 , 使 投资 比较 少 , 但 达
+到 改善 各 地 交通 及 城市 建设 规划 的 NABL 及 在 充分 和 用 已 有 某 些 有 利 条件 下 , 再 如 何人 为
+增加 有 利 因素 , 以 达到 最 优化 效果 佘 本 优化 模型 都 有 一 定 的 借鉴 作用 ”当然 , 如 何 较 快 的
+Ni
+参考 文献 ; ¥
+一 -一
+[1] 姜 启 源 . 数学 模型 . 北 更 :高 等 教育 出 版 社 , 1987
+[2] 齐 欢 .
+[3] 施 久 玉 等 [3 异 哈尔滨 : 哈尔滨 工 程 大 学 出 版 社 , 1996, 5.
+[4] 张 \ 人 北京 : 清华 大 学 出 版 社 , 1995, 4.
+[5y 王 树 末 it 及 其 算法 . 北京 : 中 国 科 学 技术 出 版 社 , 1990, 10.
+册 -
+M ineDrilngDistribution
+ZHU Zhen-bo, XIEW en-chong, PIXing-yu
+(A irforce Radar Institute, W uhan 430010)
+Abstract  This paper offers a mathematical model of m ine drillings distribution and its solu-
+ton by using different op tm ization m ethods, such as all-sided searching method, partial-search-
+o4 © 1994-2008 China Academic Journal Electronic Publishing House. All rights reserve ttp://www.cnki.net

@@ -1,0 +1,42 @@
+REIRTARR
+L_Mid_tmp(1) =
+LMGd(3*Pointi)): % 第 一 个 点 到 抛物 而 的 距离
+L_Mid_tmp(2) = L_Mid(3sPoint(ij)
+1 % 第 二 个 点 到 抛物 而 的 距离
+LMid tmp(3) ~ L_MidG3#Pointi-
+5 o6df =REHROER
+tmp = find(L._tmp == max(L_tmp)).
+Mid tmpttmp) =0;
+L_Main = double(Length(Position(i,2:4)));
+Point_average(i) = Point_average(i) + ( 2*L_Main +
+TeL_Mid tmp(1)+L_Mid_tmp(2)*L_Mid_tmp(3))) (4¥length(index)):
+nd
+end
+%6 主 案 节 点 偏 移 重 均值
+Distance_average = sum(abs(Point_average)).length(Point_average), _ 1
+%86 。 计算 调节 后 主 案 节点 位 置 >7% \\b
+fori= 1:length(Postion) AT 人 广
+L _ PositionG) = sqntPosition(i2y2+ Positon(i 3Y 2 Posiion((4Y2),
+MoveMat(D = (L_PosiionG)- PoinLavenage(D)L Bosiior)
+MoveMati2)= MoveMatti 1), \
+MoveMati3)= MoveMati1),
+end 人 人
+Posiion Neut.D PaSionG 这 一
+| postion Nesat2.)= posiont.2 vonevie
+|9%)  SHEHBEMARM BARENS ALH
+Wan 区
+ki
+Hori= LengthtGroup phos)
+forj = length(Position Nesb)
+iftGroup_plus1)== Positon(i1))
+Group_ Data_Nex(k,) = Posiion Next(24)
+K=kel;
+eleif{Group_phusi2)== Posiion(i 1)
+Group_Data_Nexa(k,) = Posiion Next( 24)
+K=ke;
+elciftGroup_phisi3) == Positon(i 1)
+Group_ Data_Nexa(k,) = Posiion Next(24)
+K=ke;
+se
+nd
+end

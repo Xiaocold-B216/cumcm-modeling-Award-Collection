@@ -1,0 +1,31 @@
+title(” 偏 最 小 二 乘 回归 系 至 直方 图 ")
+yhat = repmat(beta3(1,2), size(a,1),1]) +ab0(:,[L:n])* beta3([2.endj,:)% 求
+yl ，ym 的 预测 值
+ymax =mas([yhat,ab0(: n+ Liend)));
+够 求 预测 值 和 观测 值 的 最 大 值
+% FH y1,y2,y3 的 预测 图 ， 并 面 直线 y=X
+figure, subplot(1,2,1)
+al=[0:ymax(1));
+a2=(0:ymax(1));
+b1=[0:ymax(2)];
+b2=[0:ymax(2));
+plot(yhat(:,1),ab0(:n+1),*,a1,02, color’ k)
+title(' 乙 醇 转化 率 预 测 图 ) <
+subplot(1,2,2) 这 BR
+plot(yhat(:,2),ab0(:,n+2),"0",b1,b2, color’, k’) 您 2
+title( 烯烃 转化 率 预 测 图 ) 社
+gegend( 糊 烃 2) 3 四
+8 5 As AR
+= 2 >
+党 迄
+?eelltypen: "code”,
+Yexecution'count": 66,
+metadatan: ~
+“collapsed”: tmue
+“outputs’: [,
+»source’: [
+“import pandas as pd“n”,
+Yimport numpy as np“n”,
+Yimport matplotlib”
+]
+第 41 页

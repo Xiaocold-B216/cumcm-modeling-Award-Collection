@@ -1,0 +1,36 @@
+paper_id: CUMCM-2013-C-010
+year: 2013
+problem: C
+subject_type: PAPER
+artifact_eligible: true
+quality: Q2
+authority_sources:
+- path: 2013年数学建模国赛真题+优秀论文/2013C：古塔的变形/成都工业学院 专5 C 肖瑜琳 刘新燕 黄龙.pdf
+  sha256: 6AB6592042F87A3F1863F72A0B2E3FE2745A72C9F229D559B2F2EE89CDF545C3
+authority_sha256: 6AB6592042F87A3F1863F72A0B2E3FE2745A72C9F229D559B2F2EE89CDF545C3
+paper_file_memberships:
+- path: 2013年数学建模国赛真题+优秀论文/2013C：古塔的变形/成都工业学院 专5 C 肖瑜琳 刘新燕 黄龙.pdf
+  role: primary
+  canonical: true
+primary_file: 2013年数学建模国赛真题+优秀论文/2013C：古塔的变形/成都工业学院 专5 C 肖瑜琳 刘新燕 黄龙.pdf
+extraction_inputs:
+- path: derived/scale/pdf_ocr/CUMCM-2013-C-010.readable.pdf
+  sha256: 71173757ED60E5D5E6BD0CE3B19E9D0BE330879748CDFDB720F39896AD27B67F
+  kind: g8_q2_ocr_derivative
+extraction_input_sha256: 71173757ED60E5D5E6BD0CE3B19E9D0BE330879748CDFDB720F39896AD27B67F
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: poppler-pdftotext
+page_count: 39
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+repair_provenance:
+  stage: G8-RM-Q2
+  source_sha256: 6AB6592042F87A3F1863F72A0B2E3FE2745A72C9F229D559B2F2EE89CDF545C3
+  derived_sha256: 71173757ED60E5D5E6BD0CE3B19E9D0BE330879748CDFDB720F39896AD27B67F
+  derivative_file_path: derived/scale/pdf_ocr/CUMCM-2013-C-010.readable.pdf
+  source: existing local frozen derivative; no OCR rerun

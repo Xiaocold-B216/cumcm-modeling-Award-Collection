@@ -1,0 +1,23 @@
+% 问题 1 的程序
+% 从起点13出发，终点为17，
+clc,clear all
+%% 构造权重矩阵
+w(1,2)=2;w(2,3)=1;w(2,4)=3;w(2,19)=5;w(3,5)=1;w(3,6)=1;w(4,21)=1;w(4,17)=11;
+w(5,7)=2;w(6,8)=2;w(6,10)=5;w(6,14)=1;w(8,17)=1;w(10,11)=2;w(11,13)=2;
+w(13,17)=17;w(17,20)=10;w(17,21)=10;w(19,20)=2;w(20,21)=4;
+w=w' ; % MATLAB工具箱要求数据是下三角矩阵
+[i,j,k]=find(w);
+b=sparse(i,j,k,26,26) ; % 构造稀疏矩阵
+%% 画图
+h = view(biograph(b,[],'ShowArrows','off','ShowWeights','on'));
+% ShowArrows=off，表示无向图，on表示有向图
+% ShowWeights=off,表示无权图，on表示赋权图
+%% 求最短路
+k1=13; % 起点
+k2=17; % 终点
+[dist,path,pred]=graphshortestpath(b,k1,k2,'directed',0)
+% directed是有向图或无向图的标志，
+% directed=0表示无向图，directed=1表示有向图
+23
+
+

@@ -1,0 +1,31 @@
+paper_id: CUMCM-2016-D-004
+year: 2016
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (1).pdf
+  sha256: 8D8A005547CBA649C1656221E3E158CF26195BC3FCE69536578F0441549FB626
+authority_sha256: 8D8A005547CBA649C1656221E3E158CF26195BC3FCE69536578F0441549FB626
+paper_file_memberships:
+- path: 2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (1).pdf
+  role: primary
+  canonical: true
+primary_file: 2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (1).pdf
+extraction_inputs:
+- path: 2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (1).pdf
+  sha256: 8D8A005547CBA649C1656221E3E158CF26195BC3FCE69536578F0441549FB626
+  kind: original
+extraction_input_sha256: 8D8A005547CBA649C1656221E3E158CF26195BC3FCE69536578F0441549FB626
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 81
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

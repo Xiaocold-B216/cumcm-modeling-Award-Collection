@@ -1,0 +1,38 @@
+ObjLnp zeros(w)
+ObiL2 = np.zer0s(w)
+fori in range(K):
+minObj = 7777777
+now_j=0
+forjin tops0:
+now_Obj-0
+ijin name orj in name2:
+continue
+for z in range(w):
+ObjL2[7]-ObjL[z}* GHLIj|[z]
+now_Obi+=Z[z]*max(C-ObiL2[z].0)
+if now_Obj<minObj:
+minObj=now_Obj
+now_j-j
+forzin range(w):
+ObjLz}+~GHL[now jz
+‘name2.append(now_j)
+retum name2
+def get_new_Z(name)
+cha = np.zeros(w)
+ObjL-np.zeros()
+nswZ = npZeros(w)
+for jin name:
+forzin range(w):
+ObjL{z] += GHLIj][z]
+forzin range(w):
+chalz]-C-Obil.{z]
+forz in range(w-1):
+if chalz]<0:
+chalz+1]+=chalz]
+chalz]-0
+if chafw-1] < 0
+chafw - 1]=0
+s=np.sum(cha)
+forzin range(w):
+newZfz)-chalz]s
+retum newZ,

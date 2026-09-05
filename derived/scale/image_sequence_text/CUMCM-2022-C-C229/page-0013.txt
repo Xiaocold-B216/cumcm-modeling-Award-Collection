@@ -1,0 +1,34 @@
+计算 不 同 变量 的 投影 重要 性 (VIP) ， 结 果 见 表 10。 希 先 VIP 值 大 于 1 的 特征 ， 对
+于 分 类 有 影响 的 特征 分 别 为 PbO、K2O、BaO 和 SrO。 上 面 图 表 结 果 是 在 simca 软件 抬
+作 完 成 -
+6.2.2 亚 类 划分 方法 结果 及 敏感 性 分 析
+将 两 类 琉 吏 分 别 进行 更 进一步 亚 英 的 划分 ， 本 次 划分 并 不 知 亚 类 划分 的 结果 故 该 批
+数据 并 未 有 明确 的 类 型 ， 因 此 该 类 问题 为 无 监 督学 习 问题 没有 已 知 的 因 变 量 ， 且 需 进行
+分 类 所 以 选择 聚 类 分 析 模型 . 首先 需要 进行 选择 所 分 类 别 的 个 数 ， 我 们 采用 语言 中 的
+friz_nbclust 函数 进 行 判断 ， 如 图 根据 其 间断 点 可 知 两 种 孩 殉 的 亚 分 类 最 终 均 选取 3 类 ;
+»  Optimal number of clus Optimal number ofclus
+§2001+ 8 70044
+8 |\ 人
+三 150 划 \
+£ \ H 500{ *\
+2 100 、 400] \
+三 、 £ ss
+三 s0 ss 三 300 ”1
+2 3 夏 200 Se
+此 12345678910 已 12345678910
+Number of clusters k Numiber of clusters k
+图 12， 高 鲜 分 类 个 数 确 定 加 13。 锁 栅 分 类 个 数 确定
+其 次 ， 在 确定 票 区 不 孝 的 情况 下 用 K-means 进行 聚 类 .结果 如 图
+Bivariate Cluster Plot Bivariate Cluster Plot
+o o
+j — 二 下 于
+如 § Ce
+时 一 起 pEpy
+和 9 Ra 和 g >
+3 8
+4 20 2 -4 0 2 4
+Component 1 Component 1
+These two components e' These two components e:
+图 14; 高 钙 梨 类 情况 图 15， 锁 领 划 类 清 况
+分 析 运 行 结果 图 可 知 角钢 玻璃 可 被 明显 的 分 为 三 并 ， 故 其 亚 分 类 包含 三 类 ， BRK
+玖 三 类 划分 并 未 有 非常 明显 的 类 别 ， 仅 可 粗略 将 其 分 为 三 区

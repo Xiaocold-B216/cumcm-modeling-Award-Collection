@@ -1,0 +1,59 @@
+立 | 要 数 o * RUEN .
+附录 A 部 分 重要 数据 表 和 程序 ( 注 ， 整个 数据 表 在 文件 夹 中 )
+合 = 1 rcE = 1 PP
+附录 A-1 每 一 种 药 盒 所 对 应 的 最 小 储 药 模 宽 度 和 最 大 储 药 槽 宽度
+6 iio io ia | aa | iaaeriiz | io04asriiz |
+me io io io Tt | az ha | lo4oraio | lootosr6iz |
+issz io to ti Tt | 2 | ao | ion4esrs6z | inn4eeraez |
+lt [al ao lo Tt | 20 | ao | enezrezs | 1045s6l02 |
+laito ah ti ht | az | az | soszz6rrte | lt04ss6lo |
+la io ro io Tt | aa | ao | roroeralz | 10n4eers6z |
+sa09 aaa ts | 2 2 | eessatstr | any5zr0os |
+is [us st | 2 | 22 srornlaze | 1l5s2es9l |
+le az ea 1 | 22 | 22 ze6ezkser | 125s88822 |
+3 [o et | az at etalazrtss | ltoeszo5 |
+:65 | ta ia Tt | at at | seaztotsi2 | 10zr0at566 |
+668 | lo | io at | at at | loyirtz5 | loomrtzi5 |
+Ia ai ht | 2 | 2 | sotaokktl | ll6r26lr59 |
+2 | tr Ts Tt | aa | letebs | lzorozll2r |
+[zt ns 6 Ta Ta | Tastlo5 | lz0r0ll2r |
+25 ins is | aa | rataoszrs | lzoroztlzr |
+4 ras Tt | aa | aaaoortr | 12r6saiz5 |
+sr6 | io iis Ts | 2 [26 | alsolata | looat46or |
+1085
+合
+附录 A-2 4 种 竖 向 隔 板 间距 类 型 对 应 的 药 盒 规格
+| 编 TK am [& cm 村 (mi| 编 弛 长 mm 讨 高 Cm) 人 侦 (om 编 8 长 am) 高 am [28 om| 编 8 攻 Con) J Gon) [ 2 ca
+[eso |ilijlinlalisl mn llnlal 66 [ 535 lo ml
+[ra linlilalmp sellml5gl5|1a51 96 [ ar [ a5 ]
+[la imini mlbla [ 66 [ 33 ol
+Painlai lnlnlsrl [ 181 55[ o6[ 66 [ 55 T 136 76] ar [ a5 |
+[Lisa lla lnlalsl aa [ 18] va [ os [ 66 [ 5351 lmrla5l |
+Ha 100 | 70 T sof is0 [ooo] mn [ 18| 16[ o6 [ 66 [ 53 16a] 76] a5 [ a5 |
+[ae alilulalal nln6lmls5 | 35 [ ooi | 78 [ a5 [ a5 |
+Hillis ulalal ai lnlialnsla5alalrlal |
+Hilli us all sl 53T 200] 70] a5 [ a5 |
+[os2 | vo| eo [ 1o| ieo [una]l es lislaslili [ 33  200] 75 | a5 [ a5 |
+[aos | woo | o1 llhaslala [ 18 Toor [ ion[ 60 [ 33  206 | e1 | a5 [ a5 |
+[is | lm | soo | 1o Fooo [ios[ im [ 1 [oea[ 1o0 60 | 35 [ os8 | 196 [ s6 [ a5 |
+[aor | ve laslaslsrli [ 18 [oar [1o0f 60 [ 33  ars [ ao | a5 [ a5 |
+[2 | [ vo 326ll mn [ 18 Tooe[ ao [ al 55T at6] 16] as [ a5 |
+[o60 | 1o0 | 70 T 15 oa0 [s5| o6 [ 18 Jass [ eo [ 33 [ 33  s00 | o5 | a5 | a5 |
+[2s5 | 120 [ m1 [ 15 [260 [6s | e0 [ 18 Jeor [ ao [ 33 [ 53 [ air | o6 | a5 [ a5 |
+附录 A-3 16 种 紧 向 隔 板 间距 类 型 所 对 应 的 药 盒 规格
+
+[  EEiGswy T  EFEoCGow)  T  T — Fhe Gom) |
+
+E BE | | E
+上 编号 | 长 mm | 高 mm) J5 Go | 编 引 | 长 wm) JF Gu) | 高 em| | %S TK Goo) | 高 cm [5 Co) |
+[eeo | 100 T 100 f 10 ls T s10 T es T _ 1 7as T o6 [ 75 [ 5 |
+Hill 50 T aos T 1os T ov T 1o T ls T 100 T 65 ls
+Li | llllli ls ll lllll ls T o6 T 77 ls |
+Larllli li T sor | 1i6 | es [ 35 | lslrl72 ls |
+Hb | 1o0 T 70 li ls T 1o0 T vo T alsls5 ls
+[ooo T s0 T e1 T u1 T o6¢ T 1o0 T vo T 1s T slinls ls |
+Li ll5ls ls 1 1o0 I w 1 33 T Lilllss ls |
+[ares § ouia | ea 1 u T ann J so7 il ls lss |
+Hz | 10 | s0 [ li 15 | lnmsa ]
+
+18

@@ -1,0 +1,37 @@
+‘
+3 58 工 程 数 学 学 报 第 22 卷 ‘
+| 对 于 长 江 ， 可 以 在 前 期 采取 0.95 的 污水 处 理 方式 ， 使 污染 控制 在 一 定 的 水 平 并 使 水 质 能 够 |
+得 到 缓解 ， 到 后 期 采取 0.9 的 污水 处 理 方式 ， 提 高 企业 的 积极 性 。 .
+; 问题 5，。 关于 未 来 改善 长 江水 质 的 建议 略
+| ，
+参考 文献 : ，
+[1] 沈 时 兴 ， 王 国明 ， 张 辉 ， 顾 丽华 . 模糊 综合 指数 法 评价 巢湖 原水 水 质 及 其 应 用 研究 [B/OL]， hitp://www.
+1 xa.cnki.net，2005-9-17 2
+i [2] 刘 培 桐 . 环境 学 概论 [M], 北京 : 高 等 教育 出 版 社 ，1995
+(3] 刘 圣 勇 . 一 维 水 质 模型 对 河流 污染 物 扩散 的 简单 模拟 [EBB/OLj. http://www.xa.cnkinet，2005-9-17 .
+5 [4] 何 冬 宇 ， 朱 建新 , 中 小 河流 水 质 模型 应 用 研究 B/OL]. http://www.xa.cnki.net，2005-9-17 :
+: [5] db%, WHET, MRRE. 概率 论 与 数理 统计 [M]. 北京 ， 高 等 教育 出 版 社 ，2002 :
+1 图 刘 思 峰 ， 党 妃 国 ， 方 志 耕 等 . 灰色 系统 理论 及 其 应 用 [M]. 北京 ， 科 学 出 版 杜 ，2004 :
+| :
+1 Evaluation and Forecasting Model of Yangtse River ，
+| Water Quality and Practical Research :
+|
+3 YU Liang-liang, LI Qian, LI Liang-shu
+
+{ ( Xian Jiaotong University, Xi’an 710049 ) ，
+Abstract: Supposing the data provided is absolutely authentic, the thesis analyzes the water quality of the j
+i Yangtse River. Firstly, 让 makes a comprehensive evaluation of the water quality affected by manifold factor |
+by using the FCI，FCI information table is formed with these data，We introduce the concept of equivalent
+: contamination when pitching the contamination. Simple computer simulation on the contamination diffusion 1
+i is done based upon the simplified modle of one-dimensional water diffusion. On the matter of Yangtes River :
+! quality prediction, the water is divided into three categories, that is, A (drinking water), B (IV,V) and C (inferior i
+; V). As the restriction exists, we has defined the concept of comparative ratio. After eliminating the mutation :
+i variable, we predict the comparative ratio according to the GM(1, 1) predicting-modle with revised factors. ¢
+§ When forecasting the control on the contamination quantity, we get it by the GM(1, 1) modle. However, total :
+中 flux of yangtee River in the 10 years is stochastic array almost without rule. Thus we assume it apPlies to the ¢
+H normal school with low confidence level of 0.90-0.95. The confidence level of annual sewage disposal is 0.95 and H
+人 0.90. Practical analysis is done to testify the result. 1
+， Keywords: blur comprehensive evaluation; confidence level 下
+| |
+|
+和 生

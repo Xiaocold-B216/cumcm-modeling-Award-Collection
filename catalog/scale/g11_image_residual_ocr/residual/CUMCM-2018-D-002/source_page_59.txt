@@ -1,0 +1,46 @@
+回 成 寺 动 回
+ae
+站 放款
+a2. d1[0]—, bw—, x[x1++]=0;
+}
+ab=sum(al. pz, 6) /2;bb=sum(a2. pz, 6) /2;
+aw=sum (al. pz, 6) —ab; bw=sum (a2. pz, 6) -bb;
+wl=0;
+for (int i=0;i<6&&ab!=0;i++)
+{
+for (;al. pz[i]!=0&&ab!=0;al. pz[i]—, ab—)
+wlwl++]=i;
+}
+for (int i=0;i<6&&bb!=0;i++) A7
+>
+for (;a2. pz[i] !=0&&bb!=0;a2. pz[i]—, bb 一 ) 一 \)
+wlwl++]=i; 2XG
+} ， H
+for (int i=0;i<6&&aw!=0;i++) XS
+( 名
+for (;al.pz[i]1=0&&aw!=0;al.pz[i]=
+wlwl++]=i; K
+}
+for (int i=0;1<6&&bw!=0;i++)
+{ O
+for (;a2. pz[il 4 a2.pz[i]—, bw—)
+wlwl++]=i;
+}
+ab=zab ;bb=zbb; j )
+aw=zaw; bw=zbw; -7 ¥
+v1=0;
+milaeo 人-
+whi Cr- —)v[vl++]=1;
+ee v[vl++]=0;
+了 ile(bw—)v[vl++]=1;
+b/)
+Tu ;bb=zbb;
+aw=zaw; bw=zbw;
+int i=0;
+for (;ab!=0;i++, ab—)
+{
+if(z[i]==5)
+{
+if(al.ys[7]1=0)
+z[1]=7, al. ys[7]—;
+59

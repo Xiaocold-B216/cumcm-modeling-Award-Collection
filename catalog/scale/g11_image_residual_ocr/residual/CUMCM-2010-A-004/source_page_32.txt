@@ -1,0 +1,28 @@
+EiiEaE
+|
+近
+剖 本 二
+人
+waen
+double vb = giuguan(cos(hub) * h - cos(hub) * 1500 - 6000 * tan(hua));
+double vm = 15 * 15 / tan(hua) * (1500 / 3 * sqrt(pow(1- ha * ha, 3)) - 1500 * ha * asin(ha) -
+1500.0 * sqrt(1 - ha * ha)
++(2 - ha) * pi /2 * 1500.0 + pi * (cos(hub) * h -
+cos(hub) * 1500.0 + 2000 * tan(hua) - 1500.0)) / 100;
+v=va+vb+vm;
+fprintftfp," 高 度 :%.2lfmmt 剩余 油 量 :%.21fLin", h, v);
+}
+else
+{
+fprintf(fp,"i/%:3000.00mm\t 剩余 油 量 :64029.08L <= V <= 64664.45L\n", NULL);
+本
+h += 100; 全 SBD
+， -个
+从
+}
+-
+ee
+%% )
+一 一
+7% 由
+32

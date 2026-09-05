@@ -1,0 +1,39 @@
+回 成 革 动 国
+后
+0
+BRLLT]
+四
+{
+multimap<{float, vector<int> > Respond; // 返回 值
+for (int i=0; i<FeasibleSolve.size(); ++i) // 遍历 每 一 种 方案
+{
+float fTotalTime = 0; // 总 花 时
+vector<int> CurrWay; // 行车 路 线
+int nLineName = FeasibleSolve[i][1];
+// 第 一 段 路
+fTotalTime = 3. 0*(FeasibleSolve[i][2] - FeasibleSolve[ 订 [0]); “
+=:iK2
+=
+int a = FeasibleSolve[i][2]; 全 \
+int b = FeasibleSolve[i][0]; 准 -
+CurrWay. push_back (Al1Lines[nLineName-1]. Lineln ibleSolve[i][0]]);
+CurrWay. push_back (nLineName) ;
+全
+if (FeasibleSolve[il.size() ==3) |
+{
+CurrWay. push_back (Al1Lines [nLineNamez1] .LinelInfo[FeasibleSolve[i][2]]);
+AAA
+Respond. insert ( mal i#(fTotalTime, CurrWay) );
+continue;
+y
+int nlineNamel = 一 了
+for, Root iae0; jf=3)7 力 计算 剩余 每 一 段 路 花费 的 时
+间 2
+loat fEachTime = 0;
+fEachTime = 3.0%(FeasibleSolve[i][j+2] - FeasibleSolvelil[jl); // 乘 车
+用 时
+fEachTime += 5.0; // 换 乘 时 间
+fTotalTime+= fEachTime;
+nLineNamel = FeasibleSolve[i][j+1];
+CurrWay. push_back (Al1Lines[nLineNamel-1]. LineInfo[FeasibleSolve[i][j]]);
+23

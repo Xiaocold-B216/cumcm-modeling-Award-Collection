@@ -1,0 +1,107 @@
+// 非环形路的上行路
+if (strUpLoad != "")
+{
+BusRoadCal(strUpLoad,
+
+currLoad_up.nLineName,
+
+AllBuses,
+
+currLoad_down.nLineName,
+
+AllBuses,
+
+currLoad_up.LineInfo);
+}
+// 非环形路的下行路
+if (strDownLoad != "")
+{
+BusRoadCal(strDownLoad,
+
+流
+
+currLoad_down.LineInfo);
+}
+
+交
+
+{
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+else if( !IsRoundWay )
+
+ReverseRoadCal(strUpLoad,
+
+currLoad_down.nLineName,
+
+}
+
+= currLoad_up;
+
+：
+科
+
+AllLines[currLoad_up.nLineName-1]
+
+研
+
+ww
+
+currLoad_down.LineInfo);
+
+AllBuses,
+
+AllLines[currLoad_down.nLineName-1] = currLoad_down;
+}
+
+// 520*520 的矩阵，里面存储相对应的线路之间的重合站点信息
+vTemp(520);
+
+号
+
+vector<vector<int> >
+
+众
+
+vector<vector<vector<int> > > RoadCrossInfo(520, vTemp);
+// 任意两条线路间相交间相交顶点信息
+
+公
+
+RoadCrossInfo = CalRoadCrossInfo( AllBuses );
+int nStart = -1;
+
+信
+
+int nEnd
+
+= -1;
+
+微
+
+for (int i=0; i<200; ++i)
+{
+
+cout << "请输入起始站点：" ;
+cin >> nStart >> nEnd;
+Time_Cost_BusChangeTimes_Pro(nStart,
+
+RoadCrossInfo);
+}
+}
+
+40
+
+nEnd,
+
+AllLines,
+
+AllBuses,
+
+

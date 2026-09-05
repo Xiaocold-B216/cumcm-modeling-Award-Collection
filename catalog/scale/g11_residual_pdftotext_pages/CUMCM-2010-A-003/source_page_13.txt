@@ -1,0 +1,111 @@
+h
+'
+Vhead
+( h ) = ∫ S ( h) dh =
+0
+
+π R 2 (h cos β − R cos β + 2 tan a + R ) π (h cos β − R cos β + 2 tan a + R )3
+−
+2
+6
++
+
+2(h cos β − R cos β + 2 tan a + R) 2R − (h cos β − R cos β + 2 tan a + R )2 − 1
+3
+
+2R(h cos β − R cos β + 2 tan a + R) 2R − (h cos β − R cos β + 2 tan a + R )2 − 1
+3
+3
+⎛
+⎞
+2R − 3R + 1
+(h cos β − R cos β + 2 tan a + R)
+−
+arctan ⎜
+⎟
+⎜ 2R − (h cos β − R cos β + 2 tan a + R )2 − 1 ⎟
+3
+⎝
+⎠
+3
+2
+(h cos β − R cos β + 2 tan a + R) − 3R (h cos β − R cos β + 2 tan a + R )
++
+3
+⎛
+⎞
+R −1
+⎟
+× arctan ⎜
+⎜ 2R − (h cos β − R cos β + 2 tan a + R )2 − 1 ⎟
+⎝
+⎠
+3
+⎛ ( R − 1) (h cos β − R cos β + 2 tan a + R ) ⎞
+2R
++
+arctan ⎜
+⎟
+⎜ 2R − (h cos β − R cos β + 2 tan a + R )2 − 1 ⎟
+3
+⎝
+⎠
+
+'
+
+'
+
+'
+
+'
+
+研
+
+交
+
+流
+
+−
+
+：
+科
+
+于是得到 Vhead 1 = Vhead ( H1 ) ， Vhead 2 = Vhead ( H 2 )
+'
+② 当 H 1 ≤ 3, H 2 < 0 时，只有 Vhead 1 ，此时 Vhead 1 ≈ Vhead
+1
+'
+'
+③ 当 H1 > 3 时， Vhead 1 = Vhead
+,
+1 Vhead 2 ≈ Vhead 2
+
+号
+
+（2）中间圆筒部分体积的计算
+
+众
+
+由“问题一”中椭圆部分面积公式可推出，半径为 R 高为 t 的弓形面积：
+
+公
+
+S (t ) = − r 2 arcsin
+
+r −t
+π
+− ( r − t ) 2 rt − t2 + r 2
+r
+2
+
+微
+
+信
+
+为计算方便，同样将油罐经旋转后放入坐标系进行分析，如下图所示：
+
+图 13
+
+- 12 -
+
+

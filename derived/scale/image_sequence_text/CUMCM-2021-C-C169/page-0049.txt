@@ -1,0 +1,42 @@
+wa = o5] swarm{) updateGridndex(ob) Gd
+end
+Extraslengih(ob]swarm)-cbirep_sze;
+oreclExtra
+obj=objDeleteoneRepMemebr(:
+end
+end
+end
+methods satic)
+functon  = RouletteWheelSelecton(P)
+1= ind(and<=eumsum(P)1 frst);
+end
+end
+end
+问题 四 :
+[(mrwa] wwa] xtem]  dea ondqeaorn | 说明 | 最 大 站 下 王家]
+dedearcose 1
+datasdsread( f 50 家 供应 商 数 据 提 取 .lse,2.C24H51
+fori=1:50
+MING,2)=min(datal;
+MAxiaj=maxtdatatl
+end
+MAX=0.2tMAX;
+yy
+=spReaiiheetmpongptionst humvarables' 1)
+opts Sheet = ‘Sneetl’;
+opts DataRange = "62051';
+opts ariabieNames = “VarName2's
+optsarableTypes = ‘categoricl’;
+opts = setvaropts(opts, “Vartiame2", "EmptyFieldRule’, auto')
+asify= readiablef'DAMATLAB2020a\bin 前 50 家 供应 商 数据 提取 -ds opts UseErcel’,
+le);
+dear opts
+dassfy_double=table2arcay(varfun(@double,cassiyl;
+afL211 了 1
+bca6066072
+alc2-0.5)
+dassify_score=(allasif_doubl).*cl+c2)."b{clasify_double):
+fori=1:50
+ifclassly_doutse==1
+MAX=MAXG
+四

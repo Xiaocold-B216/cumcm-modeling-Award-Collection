@@ -1,0 +1,28 @@
+回 成 革 动 国
+和 让
+0
+BRiE]
+四
+vector<vector<int> > AllBuses(3957+39) ;
+// 从 文件 读 入 公交 线路 和 站 点 信息 ， 并 存 入 数组 。
+AddBusStationsAndLines (Al1Lines, AllBuses);
+// 将 地 铁 站 点 信息 和 地 铁 线路 信息 存 入 数组 中 。
+AddRailWayStationsAndLines (AllLines, AllBuses);
+// 1044%1044 的 矩阵 ， 里 面 存 储 相对 应 的 线路 之 问 的 重合 站 点 信息
+vector<vector<vector<long> > > RoadCrossInfo;
+// 任意 两 条 线路 间 相 交 间 相交 项 点 信息 “
+RoadCrossInfo = CalRoadCrossInfo( AllBuses ) ; “ <
+o,
+int nStart = -1; <
+int nEnd = -1;
+for (int i=0; i<200; ++i) A
+{ 全
+cout << “请 输入 起 始 站 点 : ” ; |
+cin >>nStart >> nEnd;
+Time Cost BusChangeTimes_Pro (nStart, nEnd, AllLines, AllBuses,
+RoadCrossInfo) ; Ve, (ee
+”3
+}
+一 一
+7 "
+59

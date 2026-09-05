@@ -1,0 +1,44 @@
+ques_ 21 = a(:,2:em0);
+5 ques_2_l(isnanfques_ 2.1(:51))， "95
+5。 data = ques_2_1(2:endy2zend)3
+7. datal = ques_21(2:en0,1);
+5. data2 - ques_2.1(1,2:en0);
+o. xx 数据 预 处 理 56 S6-1 56-2
+10. rd = 5;
+2 1
+12. ntlb - sgolayfilttdata'yrd,flkaiser(fl,38))3 % 5G
+13. K_deriva = aiff(kativ,1); %56-1
+1 k_deriva = difF(katln,2); xx 56-2
+1 提取 主 成 分 PCA
+16. = data;
+17. [cun_contribution_ratel,F1, contribution ratel]- PCAL(x1);
+15. x2 -ktlb
+15. [cun_contribution_ratez,F2,contribution_ratez]= PCAL(X2);
+20. x3 = k_deriva’;
+21. [cun_contribution_rate3,F3, contribution rate3]- PCAL(3);
+22. x4 = k_deriva';
+23. [cun_contribution_rated,F4, contribution rated]s PCAL(x8);
+20. xx 画册 页 献 训 图
+25. xx "28; % 看 前 28 METMEL RiFARE
+26. y1 。 contribution ratel(1:x)*180;
+27. figure;bar(yt)
+25. hold on
+25. yy1 < cun_contrdbution_rate1(1:xx)*100;
+30. plot(iixk,yy1, 'v-') x 末 经 外 理 数据
+ae( 丙 机 图 一 原 好 数据 );
+32. xlabel(* ERANAN")sylabel ( FMRE")
+33. Legena( ' 责 南 训 ,累积 页 南宁)
+5
+as
+36. y2 -。 contribution rate2(1:x0)°160;
+37. figure;bar(y2)
+aa hold on
+58. yy2 = cum_contribution_rate2(1:xx)*100;
+.plot(l:xxoyy2r*- ) XSG 处 理 后 的 数据
+.title( 页 南 率 图 ”56 处 理 后 的 数据 "7
+42. xlabel(* ERANAN);ylabel( AE")
+43. legend( ' 责 南京 '， 累 积 页 献 训 )
+45. y3 = contribution rate3(11x)*100;
+45. figure;bar(y3)
+47. hold on
+Ed

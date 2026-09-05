@@ -1,0 +1,27 @@
+马 :二
+和
+;和 p = 3)
+e
+Error=[Error'NEXTMinNumberStartTime,StartTime+ProcessTime,0];% 记 录 故 障 信
+息
+end
+end
+Position=ceil(MinNumber/2);% 更 新 位 置
+end
+while ~(Rec(end,6)+Expect(3,MinNumber)+Wash<=28800)
+Rec(end,:)=[];
+end
+%% 计算
+SUM=size(Rec'1)-size(Error1);% 成 料 数
+WAIT=(Rec(end,6)*8-size(Rec, 1)*sum(Work))/8; %CNC 平均 非 有 效 工 作 时 长 #7
+Last=Rec(end,6)+Expect(3,MinNumber)+Wash;% 最 终 完 成 物料 清洗 时 刻 二 Si
+%% 计时
+0/0 2 \
+toc 1 7
+O 〇
+和
+~ 下
+Mg
+AZ
+e-
+56

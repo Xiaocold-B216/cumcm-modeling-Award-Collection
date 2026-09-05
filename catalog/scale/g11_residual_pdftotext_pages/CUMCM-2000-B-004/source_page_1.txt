@@ -1,0 +1,82 @@
+第 31 卷第 1 期
+数学的实践与认识
+V o l131 N o 11
+2001 年 1 月
+J an. 2001
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+have the m a them a tica l m odel—— a m odel of indefin ite ou tp u t.
+A fter design ing the m odel, firstly w e u se the m ethod of im p roved m in im a l facto rs and the
+m ethod of im p roved a lgo rithm to get an in itia l so lu tion; Second ly w e u se the m ethod of itera tion
+and the m ethod of tria l to ad ju st and m od ify it; L a stly w e d raw a conclu sion.
+
+710072)
+
+研
+
+( 西北工业大学, 西安
+
+交
+
+段晓军, 俞昌盛, 吴建德
+指导老师: 张胜贵
+
+流
+
+钢管订购和运输策略
+
+编者按:
+
+本文节选的是原论文中模型的分析与建立以及之前的准备工作部分. 该部分通过单位钢管的最
+
+小运购费, 建立了问题求解的二次规划模型, 特点是思路、表述简明、清晰, 尤其是第 3 问的模型具有较强的一
+
+摘要:
+
+：
+科
+
+般性, 适用于树形结构的通常情形. 值得注意的是, 模型中有关铺设费的假设和表达式与常见情形略有不同.
+在铺设管道为一条线的情况下, 我们建立了解决钢管订购和运输问题的非线性规划模型. 由于变
+
+量较少, 约束条件大都为线性的, 目标函数为二次函数, 所以利用L ingo 软件, 可以很快求得比较满意的订购
+和运输方案. 我们利用M atlab 软件, 对所得到的数据进行拟合, 得到相应的反映销价变化对总费用影响的
+曲线, 然后比较各个钢厂钢管销价变化对总费用影响的大小. 对于钢厂钢管产量上限变化对总费用和购运
+
+号
+
+计划的影响, 我们也作了类似的处理. 如果要铺设的管道是树形图, 我们对树形图的每条边定向, 建立了与
+铺设管道为一条线时类似的数学模型, 从而大大拓广了模型的使用范围. 在论文中, 我们还对所建立的模型
+
+符号说明
+
+· s i: 钢厂 S i 在指定期限内钢管的最大产量;
+g w i, j : A i 到 A j 之间铺设管道的里程数;
+g c ij : 单位钢管从钢厂 S i 运到 A j 所需最小订购和运输费用;
+g x i: 钢厂 S i 是否承担制造这种钢管;
+g y ij : 钢厂 S i 运抵 A j 点的钢管数量, 不含路过 A j 的部分;
+g z j : 运到 A j 的所有钢管沿 A j → A j + 1 铺设的数量;
+g z ij : 运抵 A i 的所有钢管沿 A i → A j 铺设的数量;
+g d (A j ) : 树中 A j 的度数;
+
+微
+
+信
+
+1
+
+公
+众
+
+的优缺点和需要改进的方向进行了讨论.
+
+g d - (A j ) : 树中 A j 的入度;
+g d + (A j ) : 树中 A j 的出度;
+g Λ: 单位钢管 1 公里的公路运输费用.
+
+2
+
+基本假设
+根据题目的要求, 并为达到简化问题的目的, 我们有以下假设:
+1. 假设运到 A j 的钢管, 只能在 A j - 1 到 A j + 1 之间包含 A j 的某个区段内铺设. 并且到达
+
+

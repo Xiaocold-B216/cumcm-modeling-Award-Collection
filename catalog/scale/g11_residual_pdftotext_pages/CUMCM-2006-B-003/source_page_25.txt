@@ -1,0 +1,77 @@
+j(k)=j(k)+1;
+end
+end
+end
+X1=data201(D(1:j(1),2),:);
+X2=data201(D(j(1)+1:j(1)+j(2),2),:);
+X3=data201(D(j(1)+j(2)+1:j(1)+j(2)+j(3),2),:);
+
+流
+
+X4=data201(D(j(1)+j(2)+j(3)+1:j(1)+j(2)+j(3)+j(4),2),:);
+data1=X4;
+n=size(data1);
+
+交
+
+[ra,ir]=sort(data1(:,2));
+W=[ra,ir];
+
+研
+
+k=1;
+for i=1:n(1)
+
+%if (data1(i,4)<=1&data1(i,5)>3&data1(i,5)<4.5
+
+：
+科
+
+if (data1(i,4)<=1)&data1(i,5)<3
+
+%if (data1(i,4)<=1&data1(i,5)>4.5
+s(k)=i;
+k=k+1;
+end
+
+号
+
+end
+M=data1(s',:);
+j=0;
+
+公
+
+for i=2:n(1)
+
+众
+
+s';
+
+if data1(i,1)-data1(i-1,1)==1
+j=j+1;
+
+信
+
+end
+
+end
+
+微
+
+n2=size(M);
+k=1;
+
+for i=1:n2(1)
+for j=1:n(1)
+if data1(j,1)==M(i,1)
+ss(k)=j;
+k=k+1;
+end
+end
+end
+ss;
+
+23
+
+

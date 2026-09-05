@@ -1,0 +1,47 @@
+paper_id: CUMCM-2018-D-002
+year: 2018
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018D：确定汽车装配顺序问题的算法.pdf
+  sha256: 6C59EBD3A2E07B948865071E545E26B1CA5985CD2D41249E10DB390268F4A378
+authority_sha256: 6C59EBD3A2E07B948865071E545E26B1CA5985CD2D41249E10DB390268F4A378
+paper_file_memberships:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018D：确定汽车装配顺序问题的算法.pdf
+  role: primary
+  canonical: true
+primary_file: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018D：确定汽车装配顺序问题的算法.pdf
+extraction_inputs:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018D：确定汽车装配顺序问题的算法.pdf
+  sha256: 6C59EBD3A2E07B948865071E545E26B1CA5985CD2D41249E10DB390268F4A378
+  kind: original
+extraction_input_sha256: 6C59EBD3A2E07B948865071E545E26B1CA5985CD2D41249E10DB390268F4A378
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 61
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_10.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_11.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_12.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_13.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_14.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_15.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_16.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_17.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_18.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_19.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_20.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_21.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_22.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_23.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_24.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_25.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_26.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_27.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_28.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_29.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_30.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_31.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_32.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_33.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_34.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_35.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_36.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_37.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_38.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_39.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_40.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_41.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_42.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_43.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_44.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_45.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_46.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_47.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_48.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_49.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_50.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_51.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_52.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_53.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_54.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_55.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_56.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_57.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_58.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_59.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_60.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_61.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_7.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_8.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-D-002/source_page_9.txt"]
+  source_sha256: 6C59EBD3A2E07B948865071E545E26B1CA5985CD2D41249E10DB390268F4A378
+  current_body_sha256: 6388A1FA023B809FDEF7F5F1A1241B22204EC5455D96C933DD727C9D3A266438
+  candidate_body_sha256: F8BD0FBB7DC8D141D5D7F6AB16DC50FAB1B7FA1C40FD2C320990661732338860
+  source_page_count: 61
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

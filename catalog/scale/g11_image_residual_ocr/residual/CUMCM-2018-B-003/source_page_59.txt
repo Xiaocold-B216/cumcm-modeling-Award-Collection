@@ -1,0 +1,44 @@
+Elii
+多 二 是
+.
+aa(m+1:m+3,4)=TT4";
+aa(m+1:m+3,2)=VTTL;
+for i=m+1 :m+3
+aa(i,3)=VTT1(i-m)+T(4)+T(7-mod(aa(i,4).2));
+end
+end
+[m,n]=size(aa);
+aa(m-2:m,:)=[];
+[m,n]=size(aa);
+for i=m:-1:m-15 A7
+d=dT(abs(ceil(aa(i,5)/2)-1)+1);%H7) ° NY
+if aa(i,7)+T(6)+T(7)+d>8*3600 o7 由
+aa(i,7)=0; 2XG
+oa W
+end X
+bb=[]; S R
+for i=l:m 全
+if aa(i,7)==0;
+bb=[bb,i];
+1 end O
+en O
+aa(bb,:)=[]; %%
+[m,n]=size(aa);
+for i=l:m |
+for j=i+1:m = ¥
+if aa(i,5)==aa(j
+党 站 6);
+下 区
+en
+an
+nd
+endj 了 3/
+NM
+附录 十 五 : f301.m
+function [ T6,VTT1,VTT2,TT4,TT5 ] = £301( T1,T2,T3,t0,dT,T,GZBH )
+Ql=perms(setdiff([1,3,5,7],GZBH));
+[QIM,QIN]=size(Q1);
+Q2=perms(setdiff([2,4,6,8],GZBH));
+[Q2M,Q2N]=size(Q2);
+T6=10*3600+1;% 记 录 最 小 值
+59

@@ -1,0 +1,106 @@
+# Current Formal Excerpt — CUMCM-2000-A-005 — source page 9
+
+- Current body: `derived/scale/papers/CUMCM-2000-A-005/paper.md`
+- Current body SHA256: `272BC28FCA3DF8069B06A102EB847BF285E515FBE39D50823F9832A430987E36`
+- Current page segment SHA256: `64A6B4C3CD6C51F37C8FDCBA2E675B52700D03B558C7D69CF22D959D18C68E76`
+- Extraction method: `STRICT_SOURCE_PAGE_MARKER_BOUNDARY`
+- Repair route: `DOC_EXISTING_EXTRACTION_RECONSTRUCTION`
+- Repair layer: `G11_MARKER_ONLY_PAGE_LOCAL_FORMAL_BODY`
+- Repair page audit: `catalog/scale/g11_multi_route_formal_repair_pages.csv`
+
+The block between the delimiters below is copied from the current `paper.md` substring. No human wording, OCR, rendering, or extraction was added in this stage.
+
+<!-- BEGIN EXACT CURRENT PAPER.MD SUBSTRING -->
+<!-- source_page: 9 -->
+
+第 31 卷第 1 期
+数学的实践与认识
+V o l131 N o 11
+2001 年 1 月
+J an. 2001
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+sequences. T he second is the p eriod ic p rop erty of the DNA sequences. T he th ird is tha t am oun t
+of info rm a tion of the sequences. B y u sing th is m ethod, w e cla ssify the na tu re sequences and
+a rtifica l sequences. A t la st, w e ana lyze the cha racteristic in th is m odel and con sider the
+genera liza tion of th is m odel.
+
+116024)
+
+研
+
+( 大连理工大学, 大连
+
+交
+
+冯 涛, 康吉吉雯, 韩小军
+指导老师: 贺明峰
+
+流
+
+关于 D NA 序列分类问题的模型
+
+编者按:
+
+本文以统计方法提取样本特征, 以之作为BP 神经网络的输入, 用M A TLAB 中相应算法进行训
+
+练. 然后用于解决本分类问题, 得到了较准确的结果. 本文提取特征时考虑较为全面, 在此基础上正确地运
+
+摘要:
+
+：
+科
+
+用了神经网络方法, 发挥了神经网络适用于非线性问题、具有自适应能力的优点. 思路清楚, 文字简练.
+本文提出了一种将人工神经元网络用于DNA 分类的方法. 作者首先应用概率统计的方法对 20 个
+
+已知类别的人工 DNA 序列进行特征提取, 形成 DNA 序列的特征向量, 并将之作为样本输入BP 神经网络进
+行学习. 作者应用了M A TLAB 软件包中的 N eu ral N etw o rk Too lbox ( 神经网络工具箱) 中的反向传播 (Back
+p rop agation BP ) 算法来训练神经网络. 在本文中, 作者构造了两个三层BP 神经网络, 将提取的DNA 特征向
+
+号
+
+量集作为样本分别输入这两个网络进行学习. 通过训练后, 将 20 个未分类的人工序列样本和 182 个自然序
+列样本提取特征形成特征向量并输入两个网络进行分类. 结果表明: 本文中提出的分类方法能够以很高的
+
+公
+众
+
+正确率和精度对 DNA 序列进行分类, 将人工神经元网络用于DNA 序列分类是完全可行的.
+
+问题重述 ( 略)
+
+1
+
+DNA 序列由四个碱基 A 、T、C、G 按一定规律排列而成. 已知所给人工序列 1- 10 属
+
+信
+
+于 A 类, 11- 20 属于 B 类. 本题中, 我们的主要工作有两个:
+1) 提取 A 、
+B 两类特征;
+)
+2 以所提取 A 、
+B 两类特征为依据, 把 20 个人工序列及 182 个自然序列分为 A 、
+B 两类
+( 可能存在同时不具有 A 、
+)
+B 两类特征, 不能归为 A 、
+B 中任一类的序列 .
+
+微
+
+在本题中, 先以序列 1- 20 为依据, 提取出 A 、
+B 两类序列的统计特征, 然后运用神经网
+络中的 B P 网络对未知序列进行了分类识别.
+
+2
+
+模型建立的理论依据
+神经网络是近年来发展的一种大规模并行分布处理的非线性系统[ 1 ] , 其主要特点有:
+1) 能以任意精度逼近任意给定连续的非线性函数;
+2) 对复杂不确定问题具有自适应和自学习能力;
+3 ) 具有较强的容错能力和信息综合能力, 能同时处理定量和定性的信息, 能很好地协
+
+调多种输入信息的关系.
+传统的分类识别方法, 对于一般非线性系统的识别很困难, 而神经网络却为此提供了一
+<!-- END EXACT CURRENT PAPER.MD SUBSTRING -->

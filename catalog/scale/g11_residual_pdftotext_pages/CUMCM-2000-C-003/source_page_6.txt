@@ -1,0 +1,108 @@
+第 31 卷第 1 期
+数学的实践与认识
+V o l131 N o 11
+2001 年 1 月
+J an. 2001
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+模型的评价 ( 略)
+
+5
+
+参考文献:
+[1]
+
+姜启源 1 数学模型 ( 第二版) 1 北京: 高等教育出版社, 19931
+
+[2]
+
+同济大学数学教研室 1 高等数学 ( 第四版) 1 北京: 高等教育出版社, 19961
+
+[3]
+
+武汉测绘学院控制测量教研室等 1 控制测量学 ( 下册) 1 北京: 测绘出版社, 19951
+
+[4]
+
+孔祥元, 梅是义 1 控制测量学 1 北京: 测绘出版社, 19951
+
+[5]
+
+杨
+
+流
+
+珏, 梅是义 1 控制测量学 1 北京: 测绘出版社, 19951
+
+L I L i2jun,
+
+ZHAN G Q in
+
+研
+
+ZHON G Y in 2hua,
+
+交
+
+The ma thema tica l M odels of Fly ing over the North Pole
+
+Abstract:
+
+：
+科
+
+(L ianyungang Co llege of Chem ica l T echno logy, L ianyungang
+
+222001)
+
+T h is p ap er in tend s to exp la in the p rob lem of saving fligh t tim e by fou r hou rs,
+
+w h ich is converted in to the p rob lem of the fligh t d istance in a con stan t flying sp eed. U nder
+these cond ition s, tw o m a them a tica l m odels a re estab lished.
+
+( 1 ) In the sp herica l m odel, the
+
+d irect rela tion betw een the fligh t d istance and the la titude and long itude a re cla rified by app lying
+the know ledge of geom etry. Fo r the m odel of revo lving ellip so id, the B essel T heo ry is app lied
+
+号
+
+to w o rk ou t the app rox im a te fo rm u la, by w h ich the fligh t tim e is ca lcu la ted fo r saving 41041
+hou rs. ( 2) A sim p le cu rve is con structed, w h ich is adop ted a s the app rox im a te fligh t d istance.
+B y the app lica tion of in teg ra tion, 2 fo rm u lae, app rox im a te and accu ra te, a re estab lished so the
+
+公
+众
+
+fligh t tim e save 410535 and 410531 hou rs, resp ectively. T he ca lcu la tion resu lts exp la in the
+
+微
+
+信
+
+p rob lem of fligh t tim e.
+
+飞 越 北 极
+
+何永强, 陆新根, 沈重欢
+指导老师: 数模组
+( 浙江万里学院, 宁波
+
+编者按:
+
+315101)
+
+若将地球视作旋转椭球, 飞机的航线应为长、短半轴分别为 6388 和 6367 千米的椭圆旋转而得的
+
+旋转椭球面上过给定两点的短程线即测地线. 本文应用微分几何知识, 给出了测地线满足的微分方程, 并借
+助数学软件求得多数航线段的长度. 该方法有一定的特点, 是可取的. 我们选取了论文的这一部分内容, 予
+以发表. 若使计算更加精确, 应将地理纬度转化为归化纬度 ( 详见本期《飞越北极的数学计算模型》一文).
+
+摘要:
+
+本文对“飞机从北京出发、飞越北极直达底特律的所需时间, 可比原航线节省多少时间”的问题进行
+
+讨论, 并将航线选择归结为寻求曲面上的最短弧.
+应用“曲面上最短弧为测地线”的事实进行了讨论. 模型 ( 一) 假设地球是球体, 我们可通过单位向量的
+
+

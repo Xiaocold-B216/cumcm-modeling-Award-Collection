@@ -1,0 +1,66 @@
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+zaw=aw = sum(a1.ys,7)-ab;
+printf("A2:");
+printf("输入各配置数量的和（输入 B1、B2、B3、B4、B5、B6 的和，若无则输
+入 0）:\n");for(int i=0;i<6;i++)scanf("%d",&a2.pz[i]);
+printf("输入各动力数量的和 (输入汽油、柴油车数量的和，若无则输入
+0):\n");for(int i=0;i<2;i++)scanf("%d",&a2.dl[i]);
+printf(" 输 入 各 驱 动 数 量 的 和 （ 输 入 二 驱 、 四 驱 数 量 ） :\n");for(int
+i=0;i<2;i++)scanf("%d",&a2.qd[i]);
+printf("输入各颜色数量的和（输入黑色、白色、蓝色、棕色、金色、R 类车
+（红色黄色之和）、\nS 类车（银色灰色之和）、红色、黄色、银色、灰色）:\n");for(int
+i=0;i<11;i++)scanf("%d",&a2.ys[i]);
+zbb=bb = sum(a2.ys,7)/2;
+zbw=bw = sum(a2.ys,7)-bb;
+hcsf(a1.ys[0]+a2.ys[0]);//黑车分组
+for(int i=0;i<hcz[0];i++)//第一次黑车
+z[zl++]=0;
+a1.ys[0]-=hcz[0];
+ab -= hcz[0];
+for(;a1.ys[2]!=0;)//蓝、白车
+{
+if(zl%2==0)
+{
+z[zl++]=2;ab--;a1.ys[2]--;
+if(ab==0)break;
+z[zl++]=1;ab--;a1.ys[1]--;
+if(ab==0)break;
+}
+else
+{
+z[zl++]=1;ab--;a1.ys[1]--;
+if(ab==0)break;
+z[zl++]=2;ab--;a1.ys[2]--;
+if(ab==0)break;
+}
+}
+/***********白天的 A1*********************************/
+int a1hcsl;
+if(a2.ys[0]>=bb)
+{
+a1hcsl = hcz[1] - bb;
+}
+else
+{
+a1hcsl = hcz[1] - a2.ys[0];
+43
+
+

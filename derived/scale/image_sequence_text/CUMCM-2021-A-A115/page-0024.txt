@@ -1,0 +1,43 @@
+for k=T:length(FI111)
+TeD-sqrt( (FJHIeDy2 +(FIJHI(c2)72 (FJIc3))72 )
+sital(kD=acos(FJII(k3)rHGO
+ail(kDratan(FJIIIMk2)FJI(K ID
+arGin( sialkl) )y2
+be-dg*Preos(sital (k.1)):
+TI(k2)-Cbtsqrttb'2-4*asc))(2sa:
+ICL2)=dFGD+rICLI:
+(3)-rlHkcD-rl(k2):
+Tc4)=rlc2)*sinGsital(k-D)*cos(failtlc1)
+0L.4)-0:
+F1(K.5)r1(K.2)*sinGsital (k,D)*sin(fail(k.1));
+£101,5)0;
+F1(k6)-r1(k.2)*cos(sital(k.1):
+end
+TCD=T1C:3
+WG)=max(max(abs(D))
+for1=13
+for m=1:4300
+(m)= ismember( FI3(m),FIIC.4):
+ifx(m)>0
+FJ4nD- FI3Om JJ)
+else
+Fi4dmi) 人
+end
+end
+end
+1tz1C:L3)-FJHCL3;
+1tz2C:13)-T10.4.G:
+tz1-tz1 Jabs(tz1):
+tz(isnan(z1) = 1:
+tz2=abs(tz2) zl:
+CGO-tz2C13)
+forM=Lilength(FJ4)
+ifFJ4GMLD>5 &&e FIAM2)>5 && FIAM3)>S
+[AB] = find(FI1(.4)—FI4OM1);
+[ALBI] = find(FI11(: 4)—FI4(M2));
+[A2.B2] = find(FIT1IC.4)=-FI4M3)):
+Ten(M, 1)=sqrt( (FJIN(A.D-FJNICALD)"2+ (FITA2)-
+FINAL2)"2 +(EJHICA.3)-FJINIAL3))72 %
+en(ML2)=sqrt( (CEJNI(A.ID-FJIHI(A2.D)2+ (FJIII(A.2)-
+FJIIIA2.2)72 +(FJIIICAL3)-FJIII(A2.3))2
+24

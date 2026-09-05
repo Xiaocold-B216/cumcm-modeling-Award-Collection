@@ -1,0 +1,100 @@
+{
+int a = i+1;
+cout << a << endl;
+}
+fout << endl;
+}
+}
+
+// 综合处理时间，花费，转乘次数。并将结果分别存入文件中。
+
+流
+
+void Time_Cost_BusChangeTimes_Pro
+(
+
+vector<LoadMessage> & AllLines,
+
+研
+
+ww
+
+信息
+
+交
+
+点
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+int nStart, int nEnd,
+
+vector<vector<int> > & AllBuses,
+
+站信息
+
+交叉信息
+
+：
+科
+
+vector<vector<vector<long> > > &RoadCrossInfo
+
+{
+char
+
+char_1[20];
+
+char
+
+char_2[20];
+
+// 所有路线
+// 所有公汽
+// 任意两路线的
+
+号
+
+)
+
+// 起 始 点 和 目 标
+
+, char_2, 10 );
+
+公
+
+itoa( nEnd
+
+众
+
+itoa( nStart, char_1, 10 );
+
+string * pStr_1 = new string(char_1);
+
+信
+
+string * pStr_2 = new string(char_2);
+
+微
+
+string strPartName = "("+ * pStr_1+"-"+ * pStr_2+")";
+
+ofstream fout( (strPartName+"用时_费用.txt").c_str() );
+
+vector<vector<int> > FeasibleSolve_2;
+
+// 二次转乘
+
+TwiceBusChange(nStart, nEnd, FeasibleSolve_2, AllLines, AllBuses, RoadCrossInfo);
+vector<vector<float> > A
+= Time_Cost_Calculate(FeasibleSolve_2, AllLines);
+OutPutTime_Cost_Cal(fout, A);
+
+45
+
+

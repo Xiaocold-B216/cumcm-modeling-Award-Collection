@@ -1,0 +1,72 @@
+# datal = data_X
+
+print(data_X.shape, data_jw.shape)
+
+data_X_know = data_jw.loc[index_14,:]
+
+data_X_unknow = data_jw.loc[gsz_index,:]
+
+print{data_X_know.index, "\n', data_X_unknow.index)
+
+data_y_know = data_y.drop{gsz_index)
+
+print{data_X_know.shape, data_y_know.shape, data_X_unknow.shape)
+
+test = pd.concat{[data_y_know, data_X_know],axis = 1)
+
+test.shape
+
+from scipy.spatial import distance_matrix
+
+dis = pd.DataFrame(distance_matrix(data_X_know.values, data_X_unknow.values), index =
+
+data_X_know.index, columns = data_X_unknow.index)
+
+# np.linalg.norm({np.array(data_X_know([0,:]))
+
+dis_group = pd.concat{[data_y_know, dis], axis = 1)
+
+print(dis_group.shape)
+
+print{dis_group.columns)
+
+print(dis_group)
+
+min_index = dis_group.idxmin()
+
+print{min_index)
+
+[*zip(gsz_index, dis_group.loc[min_index[1:], 'OP'])]
+
+dis_groupby = dis_group.groupby('OP').mean()
+
+dis_groupby
+
+by_min_index = dis_groupby.idxmin()
+
+print{by_min_index)
+
+data3_X = pd.DataFrame(datal.iloc[:,2:].values - datal.iloc[:,1:-1].values, index = datal.index)
+
+datad_X = pd.DataFrame(data2.iloc[:,2:].values - data2.iloc[:,1:-1].values, index = data2.index)
+
+print{data3_X.shape, data4_X.shape)
+
+print(all{data3_X.index == datad_X.index))
+
+print{data3_X.columns, data4_X.columns)
+
+max_min3 = data3_X.agg(lambda x: x.max() - x.min())
+
+print{max_min3.describe())
+
+data3_jw = data3_X.loc[:,max_min3 > max_min3.mean() + 0 * max_min3.std()]
+
+print{data3_X.shape, data3_jw.shape)
+
+max_min4 = data4_X.agg(lambda x: x.max() - x.min(})
+
+print{max_mind.describe())
+
+datad_jw = datad_X.loc[:,max_min4 > max_min4.mean() + 0 * max_mind.std()]
+30

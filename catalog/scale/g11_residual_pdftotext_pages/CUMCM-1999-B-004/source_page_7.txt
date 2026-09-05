@@ -1,0 +1,112 @@
+数
+
+66
+
+学
+
+的
+
+实
+
+践
+
+与
+
+认
+
+识
+
+30 卷
+
+选择一口旧井, 使各旧井到它的最远距离最小, 以这口井为坐标原点和旋转中心. 设旋
+转了某一角度 Η后, 各井按旋转后的新坐标映射到以 ( - 015, 015) 与 ( 015, 015) 为对角顶点
+的正方形内, 它们的映射象为 P ′
+i , i = 1, 2, …, n. 则我们有
+定理 3. 3. 1 存在一个角度 Η∈ [ 0, Πg
+2 ], 使得旋转 Η角后, 各旧井的映射象 P ′
+1, P ′
+2,
+…, P ′
+n 被一判决圆全部覆盖.
+
+4
+
+交
+
+流
+
+计算可利用井数在问题二中已有详细讨论, 我们建立的模型与算法均可用.
+2
+2
+例如由定理 21211 可知, 若对两旧井 a , b, 不存在整数 m , n , 使得 d m + n ≤2Ε成
+立, 则 a , b 中最多只能利用一口井. 因此该定理可作为判别 n 口井均可利用的一个必要条件.
+对于该问题, 我们认为有效的一个充要条件是难找的, 只有对实际问题进行求解计算来
+验证.
+
+模型结论改进方向及建议 ( 略)
+
+研
+
+参考文献:
+姜启源. 数学模型 1 高等教育出版社, 北京, 1993.
+
+[2]
+
+叶其孝 1 大学生数学建模竞赛辅导教材 1 湖南教育出版社, 长沙, 1997.
+
+[3]
+
+朱道元 1 数学建模精品 1 东南大学出版社, 南京, 1999.
+
+：
+科
+
+[1]
+
+号
+
+The M a thema tica l m odel of Borehole Layout
+
+公
+众
+
+HU H a i2yang,
+
+CH EN J ian,
+
+(N an jing U n iversity, N an jing
+
+Abstract:
+
+LU X in
+
+210093)
+
+In th is thesis, w e beg in ou r resea rch of m a them a tica l m odel of bo reho le layou t w ith
+
+an eye to the w ho le and then ana lyze step by step the effeciency, flex ib ility and com p lex ity of a ll
+k ind s of ca lcu la ting m ethod s. A t la st, w e get a rela tivity better m ethod to m ake ou t the num ber
+
+信
+
+of bo reho les tha t can be u tilized under d ifferen t circum ferences.
+To the first question, after the dem on stra tion of an overa ll resea rch m odel, p recise loca l
+
+微
+
+m odel and a g rap h iza lm od le, and after the d iscu ssion of the flex ib ility and com p lex ity of va riou s
+ca lcu la ting m ethod s, w e com e to the an sw er ram edy, tha t on ly fou r u sed bo redho les can be u ti2
+lized a t m o st, num bered 2, 4, 5, and 10.
+To the second question, w e offer an overa ll resea rch m odel, a p recise loca l m odel a s w ell
+a s a revo lving vecto r m odel. In p a rticu la r, w e g ive a theo retica l dem on stra tion of the loca l m od2
+el. T he an sw er w e get is tha t on ly 6 u sed bo reho les can be u tilized a t m o st, num bered 1, 6, 7, 8,
+9, and 11 and tha t the net w ill revo lve 44137 w ith a coo rd ina te ( 0147, 0167).
+To the th ird question, in o rder to judge w hether a ll of the g iven bo reho les can be u sed, w e
+enum era te the am p le requ irem en ts and the com p u lso ry requ irem en ts together w ith the app ro ri2
+a tely effective ca lcu la ting m ethod.
+
+© 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

@@ -1,0 +1,46 @@
+5
+0 az2.aet_yaiato，200)
+10 ax2.legend (locr6，ancole1)
+is1 phz:mlabel(' 安 排 周 数 人
+1823 axl.legend(locr0，ncolc1)
+83 plt.gridClinestyles:, color=k')
+184 。。 pleuneC#ARE, RR, FEHAKLLD
+155
+16 plesherO
+187 ¢ 每 用 实际 收 偶 量 的 变化 图
+188 retara LOSTLL, 1:] + LOSTE2, 1:) + LOSTES, 1:] + L0sTL4，1] ,全
+Evoryvask_choosed ,Everyeeek-chooaec ,Cost_accusulated (0) ,Cost_accunulateat
+器]
+150
+190
+191 LOsTI ,Everyseek-chooaehl ,Everysask_chooseC1 .Pal Pei=tast func (1.5,5°f  # 4 4 .
+1ex)
+162 LOST2, Everyvesk_choosai2, Everyvesk _choossC?,Pa2, Pedetest fusc (1.5,£30K8 WATR& +
+茧 二 是 -zlaz
+103
+194 plt.xlabel(' 安 排 周 数 人
+195 pit.plot (range(1，25),LOSTI label="# £  # 4)
+196 ple.plot(xange(1, 26),L0ST2, 1abel=s# B # £*)
+197 pit. logend (loc=0, ncal=1)
+105 ple.eseleC §E H KED
+199 pie.ahor)
+20
+201 prexlabe ( EAAH
+202 pitiplot(sangs (1, 25) ,(Evexyresk _choosehi /Evarysask_chooseCt) [1:] ,1abeln* 调 速 语 M/
+7
+208 ple.plot (range(1，25) ,(Everyaeex_ehooseh2/Everyweax_choosec2) [1:] , Labele" # & ¥ A/c-
+此 钢 中
+204 pie. legendloc-0，acelc1)
+205 pltvtatle(' 首 后 AM/C 比 鲍 比 园 ，
+206 ple.shovO)
+207
+208 plt .xlabel(' 安 排 周 数 人
+209 Plt .plot (range(1，25) ,(Everyveex_choosehl-Everyeaek-choosec1) [12] ,labelo* 调 监 语 A —
+cxan
+210 pit.plot (range(1, 26)  (Everysask _choosok2-Everysaok_chooseC2) [1:] , labela® # % HA,—
+czany
+211 pit. logend (loc0, neole1)
+22 pre.uatleC H EA/CH HH 8)
+213 pie.shos()
+214
+215 Patvzlabel(' 安 排 周 数 ，

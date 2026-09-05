@@ -1,0 +1,48 @@
+下
+站 六 和
+
+附录 :
+所 有 代码 基于 Matlab R2018a
+代码 文件 名 与 问题 的 对 应 关系
+情况 一 方法 一 第 一 组 : Situation1Team1.m
+情况 一 方法 一 第 二 组 : Situation1Team2.m
+情况 一 方法 一 第 三 组 : Situation1Team3.m
+情况 二 方法 一 第 一 组 : Situation2Team1.m
+情况 二 方法 一 第 二 组 : Situation2Team2.m
+情况 二 方法 一 第 三 组 : Situation3Team3.m
+单 工序 情况 三 方法 一 第 一 组 : Situation3_1Team1l.m A7
+单 工序 情况 三 方法 一 第 二 组 : Situation3_1Team2.m 全 NY
+单 工序 情况 三 方法 一 第 三 组 :Situation3_1Team3.m _ “由
+双 工 序 情 况 三 方法 一 第 一 组 :Situation3_2Team1.m 2XG
+双 工序 情况 三 方法 一 第 二 组 : Situation3_2Team2.m ood
+双 工 序 情 况 三 方法 一 第 三 组 ;Situation3_2Team3.m
+情况 一 方法 二 第 一 组 : Simplify_Situation1Team1.m As
+情况 一 方法 二 第 二 组 : Simplify_Situation1Team2.m ”全
+情况 一 方法 二 第 三 组 : Simplify_Situation1Team3.m X
+情况 二 方法 二 第 一 组 : Simplify_Situation2Team1.m
+情况 二 方法 二 第 二 组 : Simplify_Situation2Team2.m
+情况 二 方法 二 第 三 组 : Simplify_Situation3Team3.m
+单 工序 情况 三 方法 二 第 一 组 : Simplify, Situation3_1Team1.m
+单 工序 情况 三 方法 二 第 二 组 : sona nnon
+单 工序 情况 三 方法 二 第 三 组 : Simp fiy Situation3_1Team3.m
+EAEA cptpoi
+双 工 序 情 况 三 方法 二 第 二 绍 河 Simplify_Ssituation3_2Team2.m
+ETHR=E=Eo, Frtoit, shontons 2
+绘图 的 代码 : Plot.
+alt Msn
+
+Zn
+om， 下 文 仅 给 出 各 类 型 第 一 组 的 代码 。
+SA
+有 证 方 法 一 第 一 组 的 代码
+Situation1Team1.m
+% 情 况 1 下 的 代码
+clear;clc;
+%% 计时
+tic
+%% 输入 不 同 组 别 参数
+Move=[0,20,33,46];% 第 一 组 [0,20,33,46] 第 二 组 [0,23,41,59] 第 三 组 [0,18,32,46]
+Work=560;% 第 一 组 560 第 二 组 580 第 三 组 545
+Switch=repmat([28,31],1,4);% 第 一 组 [28,31] 第 二 组 [30,35] 第 三 组 [27,32]
+
+25

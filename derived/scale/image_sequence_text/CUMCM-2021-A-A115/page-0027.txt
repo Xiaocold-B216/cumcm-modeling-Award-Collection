@@ -1,0 +1,39 @@
+Toad(FI111mat)
+X3FIICLY:
+V3FIIG2):
+ZAENIE3)
+tr= delaunay(3.y3);
+trimesh(trx3.y3.23);
+colomap winter
+hidden of
+hold on
+XFILC):
+Y-EINIG2),
+ZFINC3)
+seatterd(sy.2.1,4r)
+[二
+LEYT  ~ < (\ V1
+ele%p 问 题 二 程序 一 《数据 预 处 理 ) 售
+clear N
+R=3004; 入
+X1=-R:0.00001:-0.0001; .
+for m=1:length(x1) 3 d
+人
+dos 1(m)+300.7160) 2);
+和
+bs62.37 so，
+691s 00357:
+X(m)-(Cb-sqrtb 2-4*asc))12;
+Yo-x(m*yl(mJxln;
+d(m)-sart((x(m)) 2+(y(m) 2):
+end
+plot(dL.d):
+222-spline(d1.d).
+M2s _<Wiesu § >  _AV”  ]
+[agagE= 上 mL |
+ele%6 问 题 二 程序 二
+clear
+ToadCFJ11.mat)
+Toad(FJ3.mat)
+oadCFJI2.mat)
+z7

@@ -1,0 +1,48 @@
+回 成 革 动 国
+RE 0
+加 只 RN
+end
+end
+ifflag% 由 于 原 目标 CNC 发 生 故 障 ， 重 启 循环
+continue;
+end
+flag=0;
+fori=1:size(Errop1)% 等 待 中 检查 错误 信息
+if Time<=Error(i,3) && Time+Expect(2,MinNumber)>=Error(i,3) && Error(i,5)==0 &&
+MinNumber==Error(j2)% 等 待 中 原 目标 发 生 了 故障
+Error(j5)=1;% 标 记 为 已 处 理
+Situation(Error(j2))=0;% 修 复 完 成 后 取 走 故障 工件
+for j=1:8%CNC 的 时 间 推 进 二
+if Left(j)-(Error(i,3)-Time)<0 二 个，
+Left(j)=0;
+else 2XG
+Left(j)=Left(j)-(Error(i,3)-Time); ood
+end p
+end
+tErer 2-Eror a erorticts 2BEE 所 需 时 间 转 换 为 当前 工作 剩余
+完成 时 间 x
+Time=Errorl;3);% 时 间 调 整 至 故障 发 生
+flag=1;
+end @
+end O 〇
+放 flag% 由 于 原 目 标 CNC 发 生 故 障 丰 主 启 循环
+continue; /Y )
+end
+Time=Time+Expect(2,Mi sx 党 人
+if Now==1% 当 前 且 标 是 工序 1 的 CNC
+flag=0;
+for.k pe 人  ——
+7 c(k,1)==MinNumber && isnan(Rec(k,3))% 同 时 发 生 上 料 和 下 料
+下 Ce
+六 Rec(k,3)=Time;
+| N Rec(end+1,1)=MinNumber;
+N Rec(end,2)=Time;
+Rec(end,3:6)=NaN;% 构 建 此 工件 工序 2 fic saE kE
+break;
+end
+end
+ifflag==0% 仅 发 生 上 料
+Rec(end+1,1)=MinNumber;
+Rec(end,2)=Time;
+Rec(end,3:6)=NaN;
+49

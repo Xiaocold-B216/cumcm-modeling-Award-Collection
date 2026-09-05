@@ -1,0 +1,44 @@
+回味
+.
+}
+rand = randuni();
+K=0;
+for(int i=1; i<9; i++){
+K = K+ 1.0*empl[i}/n;
+if(K>rand) return i
+}
+return 1;
+}
+int main(){
+init1(); #7
+print(); 全 NY
+srand(time(NULL)); 一 \)
+int repeat = 100000; 2
+while(repeat--) {
+int time = 0;
+int pos = I,next_pos = 0;// 小 车 起 始 位 置 As
+bool begin = 0; &
+init2(); X
+while(time<3600%8){
+JrdskkR 下 人 jj R kkodokok
+for(int j=1;j<95j++){ ®
+T[j] = L{full][pos][j] + rep[j}* B[j]*typelj]*put_down ;
+ee
+T[] += inf
+} 放
+AT typelj]) {
+in
+六 入
+和 aa
+含 next os= min_index(Tpos);/ 选 择 代价 最 小 的
+1 JRGDext pos] <inb / 关 过 去 无 需 等 待 ， 并 且 当前 小 车 状态 允许 过 去 ， 则 选择
+NA
+for(int i=13i<9;i++) {
+S[i] -= TInext_pos];/ 选 择 后 ， 在 这 一 过 程 中 ,RGV 无 法 做 其 他 工作 ， 所 以
+下 一 次 选择 经 过 T[next pos] 时 间
+/此 时 若 $ 为 正 ， 则 说 明 CNC 机 器 经 过 S[ 秒 后 可 以 加 工 下 一 任务 ;
+/车 $ 为 负 ， 则 说 明 CNC 机 器 已 经 加 工 完毕 ， 等 待 S 加 | 秒
+}
+/若是 CNC1 S = prol, 而 CNC2 S =pro2*full -put_down*B
+if(type[next_pos] == 0)
+32

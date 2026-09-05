@@ -1,0 +1,40 @@
+回 成 革 动 国
+后
+0
+BRLLT]
+半生 二
+multimap<{float, vector<int> > Respond; // 返回 值
+for (int i=0; i<FeasibleSolve.size(); ++i) // 遍历 每 一 种 方案
+{
+int nTotalCost = 0;
+vector<int> CurrWay; // 行车 路 线
+int nFirstLineName = FeasibleSolve[i][1];
+CurrWay. push_back ( AllLines[ nFirstLineName-l ]. LineInfo[ FeasibleSolve[i][0] 1);
+全
+for (int j=0; j<FeasibleSolveli].size(); j+=3) // 每 一 段 路 二 <
+1 \
+全
+int nEachCost = 0; 1
+int nLineName = =1;
+nLineName = FeasibleSolve[i][j+1]; 余
+S / 单一 票 价 路 段
+if (‘AllLines[nLineName-1].strPri 三 一 票 制 1 元 。”)
+{
+nEachCost = 1;
+} [o]
+else 2 ee // 分 段 票 价 路 段
+{
+int nDistance casibleSolve[i] [j+2]-FeasibleSolvel[i][j];
+if (nDis = 20)
+ebpch St = 1;
+if( nDistance <= 40)
+人 achCost = 2;
+为 else
+下 4 nEachCost = 3;
+% nTotalCost += nEachCost;
+CurrWay. push_back ( nLineName ) ;
+CurrWay. push_back ( AllLines[ nLineName-1 ].LineInfo[ FeasibleSolve[il[j+2] 1);
+}
+Respond. insert ( make pair(nTotalCost, CurrWay) );
+}
+25

@@ -1,0 +1,91 @@
+2.a phen[:，esnum_of_a]
+
+2 phen[: num_of as num of s + num of b]
+
+ae  phenl:, momofa + num_of_b:]
+
+rom ervan_predias, W)
+
+errors  error_pred(s.b, MB)
+
+errorc - error predtzel “C)
+
+XL30, X_50, X.c0 -aa yerrora ab + errord, ac  errorc
+
+X - rp.nstack{(x_a0, x.50, x co])
+
+xa - comert(c_a0, an)
+
+xb = comvert(c_bo, 0*)
+
+We  comert(ceo, Me
+
+onctraints
+
+人 10.6 = Eye.66 Ee1.72 -9.96 。 2.2
+
+§ ela  man(rp.ones_1ike(V_a)"0.5, 2.82vletvy a/(Va 6.6 + V_b 8.66 + V.c 。 0.72))
+
+§ ab - nan(rp.ones_11ke(V_5)"0.5, 2.82"164°V_b/(V_a “6.6 + VLb "8.66 + We * 0.72))
+
+pones JikeQV_6)"D.8, 2.82°104"V_c/(Y_a 0.6 + VLb *0.66 + V.c * 0.72))
+
+ea 6
+
+se]
+
+ee
+
+ostradmt
+
+1
+
+ba vb 0 -0) + baamtaxtsc)
+
+Was
+
+Output - va ea eg 二 wei
+
+utpur_llstrappengtbatpoe
+
+£  Ctrans * x.sum(axise1) + C_purchase 。(x_a.sum(axis<1) + x_b.sum(axise1) +
+Ca
+
+人 esiapEi 1)
+
+cocoraave
+
+ea = (282 ， le 2 -xuacsuntaxisc0) 。( -aphalveski - 1) 1 0.6 - x_b.sun(axts-) ©
+(
+
+1 aphatveeka - 1) 1 0.66 -Xesaumlads-0 。G -aaphafuestci - 2]) /
+
+o)
+
+“ print ("【 进 化 内 部 】CV1",CV1.mean())》
+
+ua -coreshape(C 1)
+
+oa - (assamtaxts-) + absomtaxts-) + acsomtaxtscD) -4.8 。 ea-reshape(-1 2
+
+ma -nprhatackt[cvl eva
+
++ update 亩 存
+
+3 print ("【 进 化 内 部 】 库 存 总 量 ，"，(V_a2+V_b2+V_cz2) ,mean())》
+
+return [f， Ca Way ba V_c2, %.30, %.b0, x.c0]
+es GHE ass
+det plot_plemek 1, vartable)s
+
+obal va lst vb dat v.c list
+
+obal weol_list， oLprepare list
+
+abal Ca_pred_ ist xb_pred_ltst， x_c_pred_liat
+
+lobal df ALall， df_.8 al df_E_all
+
+lobal x Aa, xsail, xc_an
+
+select AI0 - fearfileat ,村 料 分 类 '] “= "AIC" 供 应 闪 1D

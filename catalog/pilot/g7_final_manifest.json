@@ -1,0 +1,18 @@
+{
+  "stage": "G7-PILOT",
+  "generated_at": "2026-08-22T17:27:23+00:00",
+  "tool_version": "40-g7-pilot-index-final-qa-v1",
+  "identity_count": 28,
+  "eligible_paper_count": 22,
+  "excluded_entity_count": 6,
+  "artifact_count": 66,
+  "paper_index_rows": 22,
+  "paper_qa_rows": 22,
+  "artifact_qa_rows": 66,
+  "g6_manifest_sha256": "60BDDEC2FE67012F023104912899F1895AA7E3FC2B0F6D8DA5B369C3CA1303F0",
+  "g7_index_sha256": "D38D960FA1064A7D3B0BF320671411B9AF39C205FC5D8E140418C7097D023F3B",
+  "g7_index_jsonl_sha256": "77EC40782BD420D24AA262E535C879E98F59550FD8ACC0656F0B4C1360B1618C",
+  "g7_paper_qa_sha256": "852FA057C49A966390DF74357BDA2974708779720431BA2FC06A7FCD0D4F87F3",
+  "g7_artifact_qa_sha256": "7D2AA83BD5B2C3227917FC6FC5A5A942DCCED71E2072543408856583071D9592",
+  "extraction_contract": "catalog/pilot/g6_extraction_contract.json"
+}

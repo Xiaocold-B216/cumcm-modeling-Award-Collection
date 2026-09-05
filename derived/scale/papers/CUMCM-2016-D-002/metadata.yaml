@@ -1,0 +1,47 @@
+paper_id: CUMCM-2016-D-002
+year: 2016
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (2).pdf
+  sha256: 89AB698EB82BCE52B6844AF057D40433341C15F612A68796019A29EECB5235ED
+authority_sha256: 89AB698EB82BCE52B6844AF057D40433341C15F612A68796019A29EECB5235ED
+paper_file_memberships:
+- path: 2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (2).pdf
+  role: primary
+  canonical: true
+primary_file: 2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (2).pdf
+extraction_inputs:
+- path: 2016年数学建模国赛真题+优秀论文/2016年优秀论文/2016D：风电场运行状况分析及维护计划优化 (2).pdf
+  sha256: 89AB698EB82BCE52B6844AF057D40433341C15F612A68796019A29EECB5235ED
+  kind: original
+extraction_input_sha256: 89AB698EB82BCE52B6844AF057D40433341C15F612A68796019A29EECB5235ED
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 48
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["44"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2016-D-002/source_page_44.txt"]
+  source_sha256: 89AB698EB82BCE52B6844AF057D40433341C15F612A68796019A29EECB5235ED
+  current_body_sha256: 9E795B6DEE79779489D739B67AA2F0FFC0768D676190795E104014845E8BB6D0
+  candidate_body_sha256: 4A60C95899B7430802F3461E6C0446D193AB97D25212D138FAE86B1F4E2E1093
+  source_page_count: 48
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

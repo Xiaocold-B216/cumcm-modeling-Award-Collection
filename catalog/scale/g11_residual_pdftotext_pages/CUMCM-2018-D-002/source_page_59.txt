@@ -1,0 +1,66 @@
+a2.dl[0]--,bw--,x[xl++]=0;
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+ab=sum(a1.pz,6)/2;bb=sum(a2.pz,6)/2;
+aw=sum(a1.pz,6)-ab;bw=sum(a2.pz,6)-bb;
+wl=0;
+for(int i=0;i<6&&ab!=0;i++)
+{
+for(;a1.pz[i]!=0&&ab!=0;a1.pz[i]--,ab--)
+w[wl++]=i;
+}
+for(int i=0;i<6&&bb!=0;i++)
+{
+for(;a2.pz[i]!=0&&bb!=0;a2.pz[i]--,bb--)
+w[wl++]=i;
+}
+for(int i=0;i<6&&aw!=0;i++)
+{
+for(;a1.pz[i]!=0&&aw!=0;a1.pz[i]--,aw--)
+w[wl++]=i;
+}
+for(int i=0;i<6&&bw!=0;i++)
+{
+for(;a2.pz[i]!=0&&bw!=0;a2.pz[i]--,bw--)
+w[wl++]=i;
+}
+
+流
+
+}
+
+微
+
+信
+
+公
+
+ab=zab;bb=zbb;
+aw=zaw;bw=zbw;
+vl=0;
+while(ab--)v[vl++]=0;
+while(bb--)v[vl++]=1;
+while(aw--)v[vl++]=0;
+while(bw--)v[vl++]=1;
+ab=zab;bb=zbb;
+aw=zaw;bw=zbw;
+int i=0;
+for(;ab!=0;i++,ab--)
+{
+if(z[i]==5)
+{
+if(a1.ys[7]!=0)
+z[i]=7,a1.ys[7]--;
+59
+
+

@@ -1,0 +1,117 @@
+{
+  "attempt_id": "20260902T162528503373_425d96bb",
+  "batch_attempt_id": "20260902T162528503373_425d96bb",
+  "paper_id": "CUMCM-2003-B-011",
+  "source_path": "2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排B.pdf",
+  "source_sha256": "FC6D6D5F62F5ED7FC676BE234FA904B617642FCA842586514F6A83DE6B0D4264",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 8,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 8,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "EisE 第 20 卷 第 7 期 工 程 数 学 学 报 Vol.20 No.7 2003 年 2 月 JOURNAL OF ENGINEERING MATHEMATICS De 2003 文章 编号 :1005-3085(2003)07-0076-07 露天 矿 生产 的 车 辆 安排 苏 勇 ， 潘 信 峰 ， REA -从 > 指导 教师 ; 数 覃 组 -pp “由 (浙江 工程 学 院 ,杭州 312018) % ] 7 编者 按 : 本 文 的 特点 在 十 大 车 辆 进行 安排 时 引入 了 装 箱 问 题 的 模型 , 划 种 经 划 的 装 箱 算法 求解 , 虽 AR 摘 要 : 本 文 以 总 运 蔓 最 小 为 目标 建立 整数 规划 模型 ,求解 中 二 污 渭 惧 弛 把 该 问题 转化 为 线性 规划 模型 ， 使 解 题 难 度 降低 。 在 满足 约束 条 件 的 情况 ,使 总 运 量 落 如 最 小 的 前 提 下 ,通过 变量 的 取 整 改选, 全 逐渐 逼近 最 优 解 ,本 文采 用 装 箱 问题 来 解决 此 问题 8 有 车辆 的 调度 。 模 型 二 在 模型 一 的 基础 上 。 对 矿石 产量 最 大 ,总 产量 最 大 ,总 运 量 最 小 按 优先 级 高 候 进 行 排序 ,运用 目标 规划 方法 建立 模型 ， 然后 对 目标 规划 进行 线性 转换 ,利用 Lindo 软件 求解 。 关键 词 : 车 辆 调度 , 整 型 规划 , 装 箱 问题 ,目标 规划 目 分 类 号 : AMS(2000) 90C05 < 0221.1 文献 标识 码 : A 1 问题 重 述 ( 略 ) 2 模型 假设 ( 略 ) j 3 符号 说 明 ~--- 小 人 Vi: 第 守 个 铲 地 ， 0 点 7 之 间 的 距离 ; 芒 : 印 点 7 在 一 个 班次 内 的 产量 需要 ; 8 ar 852: 铲 位 ;含有 的 岩石 数量 ; 内 六 运 到 ) 印 点 至 少 所 需 的 趟 数 ， 5 :卡车 从 铲 位 ; 运 到 印 点 7 印 货 的 趟 数 ; 全 sa ;i 铲 位 装 矿石 的 至 多 趟 数 ;， 。 diz: 卡 车 到 ; 铲 位 装 岩 石 的 至 多 趟 数 ; 【N 和 人 本 的 数 量 (= 7)， & :矿石 印 点 数 (= 3); m :表示 外 点 的 总 数 ( 思 = 5); :表示 铲 位 的 总 数 (= 10); 六 :每 班 小 时 数 (h= 8); Z :最 小 总 运 量 ; xi: 铲 位 守 的 铁 含量 ; e :表示 品位 限制 ; : 表 示 在 铲 位 装 货 所 需要 的 时 间 ; a: 表 示 在 外 点 卸货 所 需 的 时 间 ; Q :一 个 工作 时 间 段 内 总 产量 ; 已 :为 优先 因子 (i= 1,2,3); EiigAE 第 7 其 经 天 矿 生产 的 车 辆 安排 77 地 ,ad7 为 第 ; 优先 级 的 正 负 偏差 变量 ; _ 在 第 j 个 铲 位 有 铲 车 2 0 在 第 j 个 铲 位 没有 铲 车 ; 7 :卡车 在 铲 位 ; 与 印 点 /行驶 一 趟 所 需 时 间 ( 不 考虑 装 货 印 货 , 只 考虑 单 赵 在 路 程 上 所 花 的 时 间 ); 4 问题 的 分 析 建 模 与 求解 4.1 问题 一 的 分 析 -从 该 问题 是 一 定 约束 条 件 下 的 最 优化 问题 。 要 求 卡 车 满载 运输 , 则 必 有 到 Sas 班次 产量 要 求 的 最 小 总 运 量 ,此 总 运 量 与 车 辆 的 安排 总 数 相对 独立 。 建 这 以 意 运 量 最 小 为 目标 函数 的 整 型 规划 模型 。 目 标 函 数 的 等 是 每 个 铲 位 与 其 相对 应 的 印 伐 科 间 载 物 卡 车 的 运 输 次 数 。 在 满足 总 运 量 最 小 的 前 拢 下 建立 组 合 沈 化 模型 求解 最 少 的 个 诗 融 邱 喀 后 根据 路 线 上 的 车 流量 ,在 考 吃 尽量 避免 等 待 的 情况 下 确定 各 条 路 线 的 车 流 密 排 。 (3 总 泛 量 乙 表 示 ; 2=5150x Xix L; Wi (2) 目 车 在 铲 位 在 装 货 最 多 的 趟 数 ， 2 一 8i wz 和 | (3) 卡 车 在 印 点 7 至 少 印 货 的 趟 数 : © b=[5im] STle 最 小 总 运 量 模型 如 下 4 和 A min z=35154x X; J s.t. £x,0) (j=1,2,,m) (1) aa 机 (i=1,2,,n) (2) Roy (i=1,2,,7) (3) NA ， 代 作 0 (j=1,2,,k) (4) SN 5<a (5) SR Sx,<h0xy, (i=1,2,\",n) Sx,<h, (i=1.2,,m) (6) yw=0 或 1 (i=1,2,,n) (7) X5 为 整数 (j=1,2-+m,i=1,2,,n)(8) 外 表示 按 印 点 要 求 ,在 第 j 个 印 点 的 最 少 运输 次 数 应 满足 的 条 件 ; @、@ 分 别 表示 因 铲 位 石料 的 储量 有 限 , 在 矿石 印 点 和 岩石 印 点 的 运输 次 数 受到 的 限 制 ; 是 o-a) 78 I 程 数学 学 报 第 20 卷 @ 国 表示 印 点 满足 品位 限制 ;@ 表 示 工 作 的 总 电 铲 数 不 能 超过 原 有 的 电 铲 数 ; 轿 表 示 在 一 个 班次 内 , 铲 位 和 印 点 能 接受 的 最 多 卡车 数目 受到 装 印 时 间 的 限制 ; 问题 一 的 算法 描述 : 显然 此 问题 为 整数 规划 问题 , NP 一 C 问题 。 a. 解 此 类 整数 规划 的 一 般 问 题 的 步骤 ， (1) 用 连续 松弛 把 此 整数 规划 问题 转化 为 线性 规划 问题 ,使 问题 难度 降低 。 (2) 用 Matlab 求 得 该 问题 最 优 解 下 界 , 在 总 运 量 增加 最 小 的 前 提 下 ,通过 变量 取 整 改 进 ,使 逐渐 台 近 最 优 解 。 他 2 .对 于 一 般 的 小 规模 整数 规划 问题 ,用 Lindo 软件 直接 求解 。 A7 <. 用 组 合 规划 的 装 箱 问 题 对 车 辆 流 进行 安排 。 = 外 问题 一 实例 的 求解 : 2 根据 实例 数据 , 设 Vi: 铲 位 ; 人 Un :矿石 漏 。DD :便装 场 I U,.EEH1 Us: 兰 场 LA ( 表 1. 表 2. 对 变量 赋值 ) As a1 ,Sa 党 四 CC 着 国 因 区 碳 因 四 四 四 四 区 四 站 下 天 和 加 四 古 凸 本 下 本 本 本 区 四 人 本 而 古 加 加 区 四 醒 攻 区 四 四 四 四 四 四 四 四 加 os ygaTafululn[ulslulw n EGGOOOOOOCC 用 Lindo 解 得 (AF 录 略 ) :最 优 解 Z= 85320 吨公里 ; 铲 位 有 7 个 ,分 别 是 1,2,3， 4,8,9,10; X, on. es LO 表 3. CaCoCOCCOCOCOCOCOCE H 国有 本 可 本 有 区 可 本 古国 本 省 本 天 本币 本 天 加 下 天 四 CI 2 最 小 总 运 量 下 的 调整 ( 装 箱 模型 ) ; 如 何 安排 运输 货物 ( 需 多 少 辆 卡车 ) : EisE Bwt 第 ?7 期 露天 矿 生产 的 车 辆 安排 79 现 假定 一 辆 卡车 一 个 班次 全 部 工作 的 时 间 为 一 个 工作 时 ,把 表 3. 铲 ,外 位 卡车 的 运输 次 数 转化 为 所 需 工作 时 ,如 表 4 表 4 ECaCacacacacacocEE CZE0 E C C C E E #EH1 0 0 0 本 丁丁 古本 正面 旺 2 了 了 汪汪 KE CICIEEHDIEIEESEIA 区 CTEXR E C C C E C < PC E AGAER2F5RE TERAUR, FERRETA 每 辆 卡 库 所 用 的 工作 时 最 多 ,来 减少 卡车 圣 ; 一 个 班次 外 一 辆 卡车 最 多 工作 一 个 工作 局 外 基隆 的 容量 是 一 工作 时 ， 物 品 的 大 小 是 W, 工作 时 ,如 果 工 作 时 的 整数 部 分 是 (2 REFR) , 则 说 明 放 该 物品 需要 1) 个 整 箱子 和 现 ; - 0( 待 装 箱 ) 。 a) 装 箱 问题 模型 (目标 :箱子 数目 最 少 ) 儿 min $Y, st Sxx,<cxy, © 国光 O gf 人 引进 三 个 装 箱 算法 D: NF 算法 :按照 物体 给 定 的 顺序 装 条 :把 物体 ww 放 入 第 一 个 箱子 ;一 般 地 , 设 ww 是 当前 要 装 的 物品 。Bi 是 具有 最 去 下 标的 使 用 过 的 箱子 , 若 w HKRERFKTB 的 剩余 长 度 , 则 把 w, 放 人 局 ,否则 把 w; 放 人 一 个 新 的 箱子 号 +1, 且 B 在 以 后 的 装 箱 中 不 再 使 用 。NF 算 法 的 时 间 复 杂 性 为 Q( ze 机 给 定 的 顺序 装 箱 : 把 物体 ww; 放 人 第 一 个 箱子 ;一 般 地 , 设 zw 是 当前 要 装 和 0 BA w; 且 下 标 最 小 的 箱 季 将 放 入 ri 如 果 不 存在 这 样 的 箱子 , 则 另 开 一 个 新 箱子 Bi ,将 zu; 放 入 PAk. FF 昔 法 的 时 间 复杂 性 为 Onlogn) 。 ARRr 算法 :是 先 将 物品 按 长 度 从 大 到 小 排序 ,然后 按 FF 算法 对 物品 装 箱 。FFD 算法 交 时 间 复杂 性 为 O(nlogn )。 11 个 物品 不 能 分 割 的 放 到 n 个 箱子 里 。 物品 的 大 小 分 别 为 :0.84, 0.867, 0.051, 0.736, 0.204, 0.229, 0.9, 0.84, 0.28, 0. 33,0.5 我 们 就 直接 用 NF 算法 实现 , 解 得 近似 最 优 解 总 Yi 一 8 最 少 的 箱子 数 是 8+7=15; NF 算法 的 复杂 度 是 O(n) ,但 它 在 装 箱 过 程 中 资源 浪费 比较 严重 ; EisE 80 工 程 数学 学 报 第 20 着 用 FFD 算法 解 装 箱 问题 ; 按 烦 序 排列 的 物品 大 小 分 别 为 :0.9,，0.867, 0.84, 0.84 ,0.736, 0.5, 0.33, 0.28, 0. 229, 0.204, 0.051 得 到 近似 最 优 解 Evi=7 最 小 的 箱子 数 是 7+7=14; 我 们 就 可 以 找 出 初步 车 辆 安排 铲 位 1 至 岩石 漏 有 2 辆 ; 跑 81 趟 。 铲 位 2 至 矿石 漏 有 1 辆 ; 跑 13 趟 。 #7 铲 位 2 至 倒 装 场 I 有 1 辆 ; 跑 39 趟 。 二 SB 铲 位 2 至 合 装 场 耻 有 1 辆 ; 跑 14 趟 。 运 完 后 到 铲 位 3 至 到 岩 五 渔 ;中 8 是 外 ] 铲 位 3 至 岩石 漏 有 1 辆 ; 跑 35 趟 。 < 铲 位 4 BEES IH EE 78, , 及 一 铲 位 8 至 矿石 湿 有 2 辆 ;路 55 趟 。 2 工 的 路 线 上 , 跑 2 “ ) 铲 位 9 至 岩 场 有 2 9;5 70 趟 。 2\\ / 铲 位 10 至 倒 装 场 I 有 2 辆 ; 跑 71 趟 。 其 中 肪 辆 要 转 到 铲 位 10 至 岩 场 的 路 线 , 跑 15 #. A\\ 铲 位 10 至 矿石 漏 有 1 辆 ; 跑 10 趟 。 运 完 后 到 铲 位 4 到 倒 装 场 [ 跑 7 趟 。 车 辆 的 运输 安排 是 否 满足 条 件 , 用 判断 等 待 问题 方法 进行 检验 。 各 条 路 线 上 的 汽车 容 量 如 表 5 Hp © CA CCCacacaDDCC CEIIREIEIEEEEEIEIE TEe EENEN EE EARARRE oo IEEIEEEEEIENESEE SEE ENRE E) ENENERE 1 岗 太 算法 : 表 5. 可 看 出 各 线路 上 所 分 配 的 卡车 数 是 满足 线路 上 车 辆 数 饱和 度 的 , 即 卡车 在 一 条 线路 上 自我 循环 不 会 发 生 等 待 。 等 待 问 题 只 发 生 在 路 线 交 叉 的 铲 位 和 印 点 上 。 其 简单 分 支 的 等 待 判断 算法 有 :1) 若 相交 的 两 条 路 线 等 长 ,在 满足 发 车 量 小 于 路 线 饱 和 度 的 情况 下 ,只 要 两 路 线 的 发 车 时 间 相差 3 分 钟 就 可 避免 等 待 现 象 2) 若 相交 路 线 不 等 长 ,逐步 递 推出 在 第 i 次 运输 时 出 现 第 1 次 等 待 情况 而 ;大 于 路 线 饱 和 度 ; 或 一 直 推算 到 最 后 一 次 运输 都 没 发 生 等 待 , 则 表示 此 路 线 方案 可 行 ; 算 法 二 :构造 运输 包括 装 货 ,运输 ,卸货 的 时 间 分 布 函数 ,用 Matlab 将 它们 的 整个 运输 过 程 表示 在 以 时 间 为 横 坐 标的 同一 坐标 系 内 ,可 以 直观 地 看 出 它 们 的 等 待 情况 。 若 上 下 工作 区 的 印 货 时 (在 不 同 路 线 的 同一 外 点 ) 相 交 , 就 是 出 现 了 等 待 现 嫩 二 此 Eo = Ea h — | Ro EILBBIH —AHFR (BU RE HOAR B F) FBGe S BLA, 10EE 1 1， 3] [1 PP Fl rc [F] DT ] [5] 一 ] [—=] BE 图 1 4.2 问题 二 的 分 析 , 建 模 与 求解， > 该 问题 局 于 目标 规划 问题 ,可 以 采用 目标 法 规划 的 模型 求解 ,下 于 矿石 产量 基 大 y 必 产 量 最 大 ,总 运 量 最 小 按 优先 级 排序 。 同 本 也 可 反 这 出 成 和 有 村 上坟 有 攻 和 下 序 法 进行 迭代 运算 CI( 略 )。 2 \\) 4.2.1 问题 二 的 模型 mi Q=EFidr+Pa 人 +Pd s.t. C-@ pren 0.08545X, +df —dif =M (= 3 充分 大 ) (9) 0.015435X;, + d5 -地 =M RN (10) 0.01545 $1,X, + dy -dj=0 bo (11) 2 x28x (8x250 汪 训 富 ) (12) ORFLBIREEF RILEIVNA h6%, HRHT P,;@ 表 示 把 目标 总 产量 最 大 列 为 第 二 优先 级 ,优先 因子 Pay@ 表 示 扰 总 运 量 最 小 列 为 第 三 优先 级 ,赋予 优先 因子 P;;@ 所 有 卡车 在 一 个 工作 时 段 人 em 上 问题 二 实例 的 求解: 小 该 目标 规划 例 束 条 御 和 决策 变量 较 多 ,直接 求解 计算 量 较 大 ,所 以 我 们 简化 为 仅 对 第 一 优先 人 为 本 提 在 只 保 国生 一 个 估 和 级 从 大昌 达到 天 的 请 让 用 Lindo 软 件 (程序 在 附 有 录 咯 ) 对 该 目标 规划 进行 求解 ,在 实际 问题 中 , 当 等 待 无 法 避免 时 ,用 该 算法 能 较为 得 生地 估算 出 总 产量 和 岩石 ,矿石 各 自 的 产量 。 只 同时 我 们 她 可 以 把 该 目标 规划 问题 转化 为 线性 规划 问题 ,应 用 Lindo 软件 对 其 进行 求 ¥ RZERRE) o t 1R E BRAR « 总 产量 :Q = 95394.8 吨 岩石 产量 :49278 吨 矿石 产量 :46116.8 吨 19 辆 卡车 ,7 辆 铲 车 ,在 5,6,7 铲 位 不 设 铲 车 。 车 辆 在 各 条 路 线 上 的 调配 ,如 表 6. EisE 82 工 程 数 学 学 报 第 20 卷 表 6. To ENET 本 2 和 本 : O R EL IZe E e NE NEET I 卡车 5 VD 14 7 一 JJ 1 卡车 6 Vi—U; 18 V—U,\" 必 Si 卡车 7,8 Vi—Us 34 | 从 \\ 5 卡 丰 1 TU 和 卡车 9,10 Vi—U, | 34 一 一 8 人 卡车 11,12 Vs 一 Un 25 / 和 > 卡 丰 13 Vi—U; 30 ] AN SS 5 模型 的 评价 IIN 对 于 问题 一 二 规划 模型 ,条 件 简明 易 懂 ,求解 对 计算 机 依赖 较 大 。 当 问题 规模 较 大 时 ， 求解 有 一 定 难度 。 @ 对 于 问题 一 的 快速 算法 :NF 竺 法 佐 催 点 办 装 箱 问 题 是 NP-C FE FHA 算法 安排 车 的 数量 和 调度 ,算法 复杂 性 低 。 对 本 题 人 人 人 和 一 苹 2; 用 近似 优先 程度 入 和 ea 14 辆 。FFD 算法 的 Rero = 这 ,复杂 性 为 O(nlogn)。 征 隐 王 绪 箱 算法 排除 卡车 在 装卸 货 时 等 待 的 可 能 ,所 以 对 得 到 车 辆 的 安排 需 进 行 调整 。 和 和 | 和 玉生 的 和 各 是 的 关 电 不 阴 用 一 个 条 用 信和 法 让 计算 和 条 B v N2 人 ] 'S GEH FTH BRHF 数学 规划 与 组 合 优化 [ M]. 杭州 :浙江 大 学 出 版 社 ,2001;10 | 满 风 , 传 波 , 聂 高 辉 . 运筹 学 模型 与 方法 教程 例题 分 析 与 题解 [ M] .北京 :清华 大 学 出 版 社 ,2000 [3] 陈 理 荣 . 数学 建 模 导论 [M] .北京 :北京 邮电 大 学 出 版 社 ,1999;2 [4] 杨 启 帆 , 方 道 元 数学 建 模 [M]. 杭州 :浙江 大 学 出 版 社 ,1999;8 [5] 朱 道 元 等 . 数学 建 模 [M]. 北京 :科学 出 版 社 ,2003;3 [6] 喜 震 东 , 薪 鲁 敏 , 束 金龙 , 数学 建 模 简明 教程 [M], 上 海 :华东 师范 大 学 出 版 社 ,2002;3 (下 转 19 页 } © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http:/Wwww.cnki.net 回避 二 汉 加 - p 站 第 7 期 2003 高 教 社 杯 全 国 大 学 生 数 学 建 模 竞赛 19 5 友信 To{mmsdn & w wAn k F| kem 因 witn 如 了 和 二 w E 可 whE AhE 等 3 加 Kht wad k 人 | 天 加 而 做 条 唤 孙 于 作 本 | BAL 加 ET 5 [N TCE 人 加 AS 87 | 第 二 炮兵 工程 学 院 TAM amy E AJ| _ARE 88 | 第 二 雹 兵 指 挥 学 院 ES 了 | 指导 组 89 |wmmEES | 活 飞 逢 永 清 mEAL| 库 在 强 等 0 二 下 EIRTIR RNETS To Tabewen ruw wag abh | kia CRETTFTYTT [9 o [mmEARTERER | RAE REA mEn | mERAA 5 [mbiatearn | % 于 A k ate | mekmm 加 和 下 下 加 三 加 izk 5 |HEIsHERARR I7 A & RXE $ER | Fak¥ ET 加 win EEC #r% mem wem | kwka 1 [wEE-REAEL | F m 名 攻关 全 | xwe 1 WAWEREXS 人 | 站 全 汪 - 讶 | _ yuk ER 和 六 Vehicle Arrangement for the Strip Mines SS N SU Yong, PAN Xin-feng, ZHOU Hui-ling (College of Zhejiang Engineering, Hangzhou 310018) Abstract: In this paper, we study the optimization problem of the vehicle arrangement for the strip mines. We use lincar programming methed. g © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net",
+  "normalized_text_chars": 9139,
+  "normalized_text_sha256": "3BADCF75C70EC042B4195C857A0A1C3D8C2547E25945ABE7BA73956E3630CAD2",
+  "page_provenance_summary": {
+    "OCR": 8
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "C45477E4E426627929E0D1A7AB3D22A7D574659BA539D76F04FDC3E5B094425F",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "51F970453E2FD322C0677C6D91A003E99CF0543A091F4862919DA03D7568DD60"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "9B0CC166CA4ECC0EF1659F6DC36800D32C0619226D35EC822E958E777A6A71A8",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "A507E262ABECBA064FB9F605372291E60A2C692CC93E8F0932108FFAF01697A5"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "034C7726B97D152A678B1229BFF12239E7829F3153F9C9238EC5B712EE108A8F",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "A2702328795715FED63C2C85415FFA0698869C8FE84AAB8E980C85FBDB22B3BF"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "9AD180F84FBAD34B2CB59D8404959E138279F127285737693058BFE517950747",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "72589760F682C901D0B8497EA19B67B13751465681ED9A631E4E604949CB6C62"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "DA91BED7246025D936861593227423E1F4ED7CA6FF9D28EEF876F78C318BD68F",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "821BBFC64720BFFCF9227E34864357AF804AEC697704F8FCFBA29672A06856D4"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "30B0713A37A3A26931128594BD2FD7905343AB62246E3AC63E55DD71CE014C29",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "0BC10D79CE269B4F37E2610D6EECA8A387CCC5C9E9B72D0B4A144ABB41B6C803"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "BFE198F05680D9AE9A976BA7A3609CF1148FC8F009B233669DC4F1359366A075",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "FE91070A812B0BCC5C3EF978E1FA682133A38821D2031028A68DA53107C5FD35"
+    },
+    {
+      "page_number": 8,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "2BD864605DD1BF14B51D78A562D33497E1443AC5A5A1290FD190C92FF27C8A27",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 8,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "75B1AF6F46B54390BE41B89799A0DD8906B085AC19724913F0BF866670582B83"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

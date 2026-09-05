@@ -1,0 +1,32 @@
+end
+fori = HengthGroup plus)
+MiddlelMiddle2.Middle3] =
+Middle(Group_Data Next(3%,1:3),Group Data_ Next(3#-1,1:3)Group Data Next(3%-
+213)
+Group_Data_Next(3#1.4:6) = Middlel;
+Group_Data Next(3%i-146) = Middle2;
+Group_Dat_NentG3wi-2.4.6)= Middle3;
+end
+Point_All = [Posiion Next(:2:4)Position Next(;2:4)Group Data Nexi(.4:6);
+Delta_All= zeros(length(Point AD WE E2REE R
+“i5
+fori = 1length(Point_Al)
+Dela_AlGD = abs(double(Length(Point ALG1:3))):
+end
+Fitness = sqi((Delta_AII*Delia_Alllengih(Delta_ AID);
+end
+问题 2 子 函 数 :以 文件 名 FMave_Testmj
+PtMevd 泛 代 三 次 的 淹 试 呈 数
+区
+Joad(Group_Informtion maty
+Position_NextlGroup_Data_ Next] Distance_averagel Fitnss1] =
+Move(Position Group_Data.Group. plus);
+[Position_Next2,Group_Data_Next2.Distance_average? Fitness2]
+Move(Position_Nextl,Group_Data_Nextl Group_plus);
+[Position Next3 Group Data_Next3,Distance_averages Fitness3] ~
+Move(Position_Next2,Group_Data_Next2Group_plus);
+EE2FEE:_(longthm)
+SoR AEHOEES
+o
+function L = Length(M)
+% ”4 点 为 待 求 到 抛物 而 径 向 距离 的 点

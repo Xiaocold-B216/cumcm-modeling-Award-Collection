@@ -1,0 +1,43 @@
+FJINIOJ2)-=FJHIGL2)
+FII@3)-FIG3):
+EII(nA)yFI12G.1);
+n+
+end
+end
+for k=1:length(FI111)
+TD-sqrt( (FJIeDy2 +(FIJIHI(2)72 (FJIHIc3))72 )
+sital(kD=acos(FJII(k3)rHHO
+Rail(kDratan(FJIIIMe2)FJIk TD
+arGkin( sital(el)  )'2%
+be-d*Preos(sital (k.1)):
+TI(k2)-(Cbtsqrttb'2-4*asc))(2sa:
+THCL2)=dFGD)HrICLI:
+Te3)-rlHeD-rl(k2):
+Tc4)=rlc2)*sin(sital(k-D)*cos(failtkc1)
+4-0:
+F1(K.5)r1(K.2)*sinGsital (k,D)*sin(fai1(k 1));
+£101,5)-0;
+r1(k6)-rl(k2)*cos(sital (.):
+end
+CDTIG3)
+W(i)-max(max(abs(r)));
+forl-13
+for m-1:4300
+x(m)* ismember( FI3(n,1)FITT1GA4):
+这 Sm)>0
+FJ4nD=- FI3(mJ:
+else
+FI4mD= 0
+end
+end
+end
+21G13)FING13);
+122(:1:3)11(.46);
+tz1-tz1 Jabs(tz1);
+ti(isnan(tz1) = 1
+1tz2-absttz2).*tzl:
+ICG.4O=tz2C.13):
+forM=lilength(FI4)
+证 FJ4CM.D)>5 && FIAM2)>5 && FIAM3)>5
+AB] = find(FJ111.4)==FH4QLD).
+34

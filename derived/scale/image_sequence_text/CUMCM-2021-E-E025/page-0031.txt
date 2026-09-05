@@ -1,0 +1,37 @@
+final_clf.fitCX, Y)
+predl = final clfpredict(dataa)
+#RF
+clf =RandomForestClassifier(n_estimators=99, max_depth=89,max_features=28)
+pfitness1 = cross_val_score(clf, X, Y, cv=5,scoring="precision_macro').mean()
+rfitness1 = cross_val_score(clf, X, Y, cv=5,scoring=recall macro').mean()
+ffitness1 = cross_val_score(clf, X, Y, cv=>5,scoring=f1 macro').mean()
+afitness] = cross_val score(clf, X, Y, cv=5,scoring=accuracy').mean()
+rf_model = RandomForestClassifier(n_estimators=99, max_depth=89,max_features=28)
+rf_model.fit(X, Y)
+pred =rf_model.predict(dataa)
+#xgb
+Xgbc = xgb.XGBClassifier(max_depth=3, learning_rate=0.28005144974158647,
+n_estimators=473, objective=multi:softmax’,
+eval metric= error, num_class=11,
+booster=gbtree', n_jobs=4,
+gamma=0, min_child_weight=0.01226452121030943,
+subsample=0.37768775627497536,
+colsample_bytree=0.8, seed=7)
+pfitness = cross_val_score(xgbc, X, Y, cv=5,scoring="precision_macro').mean()
+rfitness = cross_val_score(xgbc, X, Y, cv=5,scoring=recall _macro').mean()
+ffitness = cross_val score(xgbc, X, Y, cv=>5,scoring=1{1_macro').mean()
+afitness = cross_val_score(xgbc, X, Y, cv=5,scoring='accuracy').mean()
+xgbe.fit(X, Y)
+pred =xgbc.predict(dataa)
+#GBDT
+cf =ensemble.GradientBoostingClassifier(n_estimators=100,
+max_depth=3)
+pfitness3 = cross_val_score(clf, X, Y, cv=5,scoring="precision_macro').mean()
+rfitness3 = cross_val_score(clf, X, Y, cv=5,scoring=recall_macro').mean()
+ffitness3 = cross_val_score(clf, X, Y, cv=>5,scoring='f1_macro').mean()
+afitness3 = cross_val score(clf, X, Y, cv=5,scoring=accuracy').mean()
+clf.fit(X, Y)
+pred = clf.predict(dataa)
+clf = MLPClassifier(solver=1bfgs', alpha=le-5,hidden layer sizes=(50, 50), random_state=1)
+pfitness4 = cross_val_score(clf, X, Y, cv=5,scoring="precision_macro').mean()
+30

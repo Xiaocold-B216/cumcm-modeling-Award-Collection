@@ -1,0 +1,96 @@
+：
+科
+
+研
+
+流
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+ww
+
+w=@file('Time.txt');
+enddata
+!目标段;
+SUBMODEL SUB_LosT:
+[OBJ_LosT]min=3+ @sum(roads:W*X)*3+5*(@sum(roads:X)-1);
+ENDSUBMODEL
+!约束段;
+SUBMODEL SUB_CON:
+@for(C(i)|i#ne#N #and# i#ne#M:
+@sum(roads(i,j):x(i,j))=@sum(roads(j,i):x(j,i)));
+@for(C(i)|i#eq#N:
+@sum(roads(i,j):x(i,j))-@sum(roads(j,i):x(j,i))=1);
+@for(C(i)|i#eq#M:
+@sum(roads(i,j):x(i,j))-@sum(roads(j,i):x(j,i))=-1);
+ENDSUBMODEL
+SUBMODEL SUB_CON2:
+@for(C(i)|i#ne#N #and# i#ne#M:
+@sum(roads(i,j):x(i,j))=@sum(roads(j,i):x(j,i)));
+@for(C(i)|i#eq#N:
+@sum(roads(i,j):x(i,j))-@sum(roads(j,i):x(j,i))=1);
+@for(C(i)|i#eq#M:
+@sum(roads(i,j):x(i,j))-@sum(roads(j,i):x(j,i))=-1);
+@sum(roads:x)-1<2;
+ENDSUBMODEL
+CALC:
+@SET('TERSEO',1);!简洁输出报告;
+!@set('stawin',0);
+@divert('第一问结果.log');
+
+微
+
+信
+
+公
+
+众
+
+号
+
+!一线;
+N=3359;M=1828;
+@solve(sub_lost,sub_con2);
+@write('一线：',OBJ_LosT,@newline(1));
+@for(roads(i,j):
+@ifc(x(i,j)#eq#1:
+@write(i,',',j,';',@newline(1));
+);
+);
+!二线;
+N=1557;M=481;
+@solve(sub_lost,sub_con);
+@write('二线：',OBJ_LosT,@newline(1));
+@for(roads(i,j):
+@ifc(x(i,j)#eq#1:
+@write(i,',',j,';',@newline(1));
+);
+);
+!三线;
+N=971;M=485;
+@solve(sub_lost,sub_con);
+@write('三线：',OBJ_LosT,@newline(1));
+@for(roads(i,j):
+@ifc(x(i,j)#eq#1:
+@write(i,',',j,';',@newline(1));
+);
+);
+!四线;
+N=8;M=73;
+@solve(sub_lost,sub_con);
+@write('四线：',OBJ_LosT,@newline(1));
+@for(roads(i,j):
+@ifc(x(i,j)#eq#1:
+@write(i,',',j,';',@newline(1));
+);
+);
+
+35
+
+

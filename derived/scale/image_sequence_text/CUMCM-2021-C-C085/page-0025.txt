@@ -1,0 +1,42 @@
+ETTETOROODITITETTEIEETTS
+Judgement -input 这 num2stm_Y) 个 指标 是 否 需要 经 过 正 向 化 处 理 ， 需 要 请 输入 1 ， 不 需要 笨 入 0:
+anal
+Pos_Y ~ input( 箱 入 需要 正 向 化 处 理 的 指标 所 在 列 。 例 如 第 2、3、6 三 列 震 要 处 更， 那么 你 震 要 输入
+346， 六
+disp( 请 输入 和 需要 处 理 的 这 些 列 的 指标 类 型 《1， 极 小 型 ， 2， 中 间 型 ， 3， 区 间 型 ) 9
+Type_Y- input 例如， 第 2 列 是 极 小 型 ， 第 3 列 是 区 间 型 ， 第 6 列 是 中 间 型 ， 就 输入 [1.32]， 小
+%6 Position 和 Type 是 两 个 同 维度 的 行 向 量
+Hori= 1: se(Pos_Y2) % 这 里 需要 对 这 些 列 分 别处 理 ， 因 此 我 们 需要 知道 一 共 要 处 理 的 次 数 ， 邵 和
+环 的 次 数
+Y(.Pos_Y() = Posit yxCPos YGO)Tpe YGOPos YO)
+PosiLY 是 进行 正 向 化
+6 第 一 个 参数 是 要 正 向 化 处 理 的 那 一 列 向 量 X(.PosiionG)
+Type_Y， 对 应 列 的 指标 类型 《1; 极 小 型 ， 2， 中 间 型 。 3， 区间 型 )
+人 % Pos_ Yi 原始 拓 阵 中 的 位 置 R
+% 函数 返回 正 向 化 之 后 的 指标 >
+end
+disp( 正 向 化 后 的 短 阵 Y- 0, 了
+dpCD:
+end v ’
+ioh 第 三 步 ， 对 正 向 化 后 的 短 阵 进 和 标准 化
+ZYVrepmasum(reD 405ng 1),
+disp( 标 准 化 短 阵 ,Z
+dip(2);
+oird ZREAEREMEL
+Judgement - input 请 输入 是 否 需要 增加 权重 ， 雷 要 答 入 1， 不 需要 答 入 0。 小
+Judsement -1
+Sudgement ~inputt 使 用 壤 权 法 确定 权重 请 输入 1， 否则 答 入 0。 小
+if Judgement 一 1
+ifsum(sum(Z<0))>0  % 如 果 之 前 标准 化 后 的 Z 短 阵 中 存在 负数 ， 则 重新 对 X 进行 标准 化
+dsp( 原 来 标准 化 得 到 的 Z 短 阵 中 存在 负数 ， 所 以 需要 对 X 重新 标准 化 );
+ori= ln Y
+Erjnlm Y
+260)= [YG3) - minYGi)/ [max(XC.) -mi
+end
+end
+disp(X 重新 进行 标准 化 得 到 的 标准 化 短 阵 2 为 ， 小
+dp
+end
+w= weight shang(2);
+disCGEREIIY: )
+和 5

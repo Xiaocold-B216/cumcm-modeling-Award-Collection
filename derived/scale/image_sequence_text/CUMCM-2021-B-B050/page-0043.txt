@@ -1,0 +1,22 @@
+xl .xn 的 系数 ， 每 一 列 是 一 个 回归 方程
+re —
+
+据 回归 方程 的 常数 项
+
+x1,..xn 的 系数 ， 每 一 列 是 一 个 回归 方程
+
+2、pre_main.m
+
+芭 ev |
+
+data_1(40:44,:);
+
+data_1(91:96,:);
+
+forietss —_tod § ® = io |
+ee -AX2 了  |
+
+data_return(i,1) = 200;data_return(i,2) = 200;
+p
+路 四 国 大 学 生 在 绪
+Cszm7oe Oo co7

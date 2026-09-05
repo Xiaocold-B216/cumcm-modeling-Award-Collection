@@ -1,0 +1,156 @@
+数
+
+40
+
+学
+
+的
+
+实
+
+践
+
+与
+
+认
+
+识
+
+30 卷
+
+并不明显.
+3. 误差分析
+我们在分析工序无故障的工作时间时, 用刀具无故障工作时间的分布来近似, 但实际工
+序无故障的工作时间是未知的. 若用正态分布来描述, 其均值 Λ、均方差 Ρ 的不确定性, 对结
+果会造成误差. 我们利用模型 I 的结果来进行误差分析, 得下表:
+570
+
+570
+
+580
+
+590
+
+600
+
+600
+
+Ρ
+
+185. 86
+
+195. 64
+
+185. 86
+
+185. 86
+
+185. 86
+
+195. 64
+
+C
+
+4. 75
+
+4. 9
+
+4. 63
+
+4. 51
+
+4. 4
+
+4. 55
+
+∃
+
+0
+
+3. 2%
+
+2. 5%
+
+5%
+
+7. 4%
+
+4. 2%
+
+C- C0
+×100◊ (C 0 取 4175) 表示.
+C0
+
+交
+
+∃ 代表相对误差, 用
+
+流
+
+Λ
+
+7
+
+：
+科
+
+研
+
+由表可见均值 Λ、均方差 Ρ 的较小变化对结果的影响不大, 因此我们采用文中所给方法
+近似工序无故障工作时间的分布是合理的.
+
+模型的评价及改进
+
+1. 本模型通过对检查间隔和换刀间隔进行遍历搜索, 得到了固定检查间隔下的最优
+
+解.
+
+2. 进行蒙特卡洛方法模拟的次数有限, 使得模拟结果精度有限, 误差较大.
+
+号
+
+3. 对问题三, 只提供了一种有效的方案, 而没能给出最优解. 我们建议提出一种简单易
+
+参考文献:
+
+公
+众
+
+行的方案, 便于工作人员在实际操作中按方案进行检查.
+
+曹晋华等 1 可靠性数学引论 1 科学出版社, 北京.
+
+[2]
+
+蔡常丰 1 数学模型建模分析 1 科学出版社, 北京.
+
+[3]
+
+徐士良 1C 常用算法程序集 1 清华大学出版社, 北京.
+
+微
+
+信
+
+[1]
+
+The M anagem en t of An Automa tic La the
+SH IM ing,
+
+L IN Chao 2you,
+
+FAN G B in
+
+(T he N ava l U n iversity of Eng ineering, W uhan
+
+Abstract:
+
+430033)
+
+T he m anagem en t of an au tom a tic la the is d iscu ssed. T he determ ina tion of exam in 2
+
+ing in terva l and change tactics of cu tting 2too l lead s to the ana lysis of an op tim iza tion p rob lem of
+exp ecta tion lo ss of a sing le p a rt. A n effective com p u ta tion is g iven. T h ree exam p les′resu lts
+have been ob ta ined.
+
+

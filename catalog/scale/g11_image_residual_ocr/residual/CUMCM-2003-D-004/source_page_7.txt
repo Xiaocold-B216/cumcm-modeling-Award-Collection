@@ -1,0 +1,47 @@
+是 刘
+第 7 期 江河 竞渡 的 优化 模型 107 Te
+
+由 于 江水 汕 急 (其 流速 远 远大 于 人 的 游 速 ) ,因此 一 旦 选择 路 线 错误 ,就 会 被 江水 冲 到 下
+游 而 无 法 到 达 终 点 。 研 究 表明 ,如 果 赛事 全 程 不 超过 江面 宽度 的 1.5 倍 , 一 般 人 是 难以 采取
+趋势 妆 游 向 对 岸 的 路 线 达到 终点 的 。 以 2002 年 的 比赛 为 例 , 选 手 要 想 成 功 抢 渡 ,在 保证 速
+度 稳定 在 1.44 米 / 秘 (时 速 约 为 520 米 ) 的 前 提 下 ,还 要 选择 合理 的 前 进 方向 , 方 能 到 达 终
+点 。
+
+如 果 整 个 流域 水 速 基 本 不 变 , 则 游泳 者 可 以 保持 方向 基本 不 变 ; 如 果 水 流速 度 随 其 距 岩
+边 的 距离 发 生变 化 ( 越 往 江 心 流速 越 快 ), 则 游泳 者 前 进 的 方向 也 要 随 之 变化 一 一 靠近 岸 边
+时 ,由 于 水 流 较 缓 ,游泳 者 偏向 逆流 的 角度 可 稍 大 ,以 2002 年 为 例 , 若 游泳 者 的 速度 为 1.5
+米 / 秒 ,水 速 为 1.89 米 / 秒 , 则 出 发 时 左 偏 角 度 应 接近 45 度 , 离 岸 边 100 米 处 时 , 左 偏 角 减 至
+30 度 , 此 后 角度 逐渐 减 小 , 当 向 江 心 再 前 进 100 米 处 时 ,角度 减 至 23 放 ,外 后 gj
+BER BE 200 米 处 ,再 反 过 来 将 角度 逐渐 升 至 45 度 , 直 至 终点 。 2 =
+
+=
+
+参考 文献 &
+[1] 时 其 孝 . 大 学 生 数 学 建 模 竞赛 辅导 教材 (三 )[M] ,长沙 :湖南 教育 «g \
+[2] TXKIE.Mathematicad 教程 [M] ,北京 :电子 工业 出 版 社 ,2002 2
+
+Optimum Model of aa Across a River
+
+o
+YIN Lv 人》 A Zhi-bo, LIU Zhong-liang
+oh CUI Guo-sheng
+“一 of Engineering,Shenyang 110036)
+
+及 bstract;First,assuming that the NT。 river is constant, sets up Model I and then educes the best
+route of 2002"s champio ashould be a straight line from jumping-off point ro finish, the speed is about 1.54m/s,
+and the direction is 3 oo 27.5 degrees to the left of the perpendicular. Similarly ,a competitor, with
+aspeed of 1. 村 1d swim at an angle of 31.9 degrees,and the best resulr is about 15 minutes and 10 sec-
+onds. Figures of the /o9 speeds and the directions of swimmers who succeeded in accomplishing 1934 s and
+Rs why the proportion of success was so different. The qualifying speed for people to swim
+ne opposite bank must be of v2(uY/X).
+
+On the basis of Model 1 ,Model IT is set up to assume that the flow rate of the river changes in sections.
+The angle is at 36.1 degrees within 200 merters from the rwo sides and 28.1 degrees in the middle. The best re-
+sult is about 15 minutes and 4 seconds.
+
+Finally,sets up the Model 区 and IV with flow rates of the river continuously changing, and solves these
+Models by discrere methods. Then, provides the directions thar should be readjusted every 100 meters to the ’
+swimmers. The optimum route is a reversed ‘S’. The basic principle is to swim at a wider angle when near the
+bank than in the middle.
+
+Keywords: swimming race across a river:mathematic model;0 ptimization;speed

@@ -1,0 +1,49 @@
+1
+， 116 工 程 数 学 学 报 第 20 郑 和
+| 别 为 200、10.1.0 元 。 ，
+i 前 面 是 针对 中 等 收入 水 平 的 彩民 情况 考虑 的 ,对 于 经 济 发 达 地 区 和 欠 发 达 地 区 应 有 所 和
+i 不 同 。 这 里 分 别 对 年 收入 1 万 元 2 万 元 ,2.5 万 元 .3 万 元 ,4 万 元 .5 万 元 10 万 元 ,工作 年 限 均 | ，
+| 35 年 的 情况 进行 了 讨论 ,给 出 适用 于 相应 各 种 情况 前 最 优 方 案 , 如 下 面 的 表 4。 下
+1 表 4 人
+| | | | | an | ax |
+i 指标 万 元 本
+| | om | ao | | | ao | 人
+EC 本 生生 i
+| ; 1
+j |ew [ ow | om | om | om | om | ow |
+| To oo oo | ow | ow | on |
+| To aoo | os oo | oo |sw |，
+| IITIIEIOENOIOEEOIECNTOREEIETCI 1
+| ER E ET  EEPUT C |
+; = | 加 | wo | | | 加 |
+ER 和
+| EN 而 |
+ZS  E Val |
+| as | |
+LAwhh rr 和
+| 问题 (三 ) 赂 2 |
+H 及
+| |
+参考 文献 1
+|
+[1] 中 国 彩票 网 :htp://www-cpiao.com @ 8 E
+[2] 中 国 经 济 虹 气 放 中 心 ,hup/wwrrenacadl ]
+[3] 杨 纶 标 . 模 移 数学 原理 及 应 用 [M] .武汉 :华南 再 拉 iRaE 1998 1
+[4] 朱智 贤 , 林 崇 德 . 思 维 发 展 心理 学 [M] .北京 :北京 师范 天 学 出 版 社 ,1986 | 和
+[5] ” 钱 贷 迪 等 .运筹 学 [M] .北京 :清华 居 学 二 版 社 ,1999 |
+Fe |
+The Optimal Model of the Protien of Mathematics in Lottery Ticket and Its Comments |
+一 |
+) 记 HAN Zhong-geng 1 1
+i (Institute 2 ngineering Information Engineering University, ，PLA ，Zhengzhou 450002) 六
+| 人 |
+| Abstract : \Y IN be round and origin of problem B of 2002 Chinese Undergraduate Mathematics Contest in Modeling are in- i i
+1 troduced .村 二 peoprae modeling idea and basic method are also presented. Besides this the author put forward the existing problem 和 人
+H and those be ic， Finally, a concrete optimal model and its solution is given. i i3
+i Keywords: 中 y ticket scheme; the probabiligy of winning prize; psychological curve; attaction |
+| I
+2
+: | |
+i
+k
+. i

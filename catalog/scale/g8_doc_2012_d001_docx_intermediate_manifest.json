@@ -1,0 +1,16 @@
+{
+  "stage": "G8-DOC-CUMCM-2012-D-001-DOCX-INTERMEDIATE-PILOT",
+  "paper_id": "CUMCM-2012-D-001",
+  "source_absolute": "D:\\cumcm-modeling-Award-Collection\\2012年数学建模国赛真题+优秀论文\\2012年优秀论文\\2012D：机器人避障问题 (2).doc",
+  "source_sha256": "D93A9A6A9DE012927F8A5D4B36E1768CA3F6AFFB6952673F40FE2740D4032766",
+  "docx_output_path": "D:\\cumcm-modeling-Award-Collection\\tmp\\g8_doc_2012_d001_docx_intermediate\\CUMCM-2012-D-001\\source_rebuilt.docx",
+  "pdf_output_path": "D:\\cumcm-modeling-Award-Collection\\tmp\\g8_doc_2012_d001_docx_intermediate\\CUMCM-2012-D-001\\source_rebuilt.pdf",
+  "active_word_product_version_expected": "16.0.20326.20112",
+  "word_com_version_expected": "16.0",
+  "docx_saveas2_format": 16,
+  "pdf_export_format": 17,
+  "direct_word_export_route_status": "CLOSED",
+  "targeted_export_attempt_count": 2,
+  "targeted_export_failure_count": 2,
+  "new_remediation_contract": true
+}

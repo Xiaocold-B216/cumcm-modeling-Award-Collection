@@ -1,0 +1,45 @@
+: - 本 pvpeo
+
+52 工 程 数 学 学 报 第 22 着
+通过 对 附件 一 、 二 的 认真 研读 ， 以 及 查阅 相关 的 资料 我 们 从 政策 层面 方面 提出 以 下 两 点 建 ，
+: 议 ，1、 加 强 宣传 力度 ， 唤 醒 民 众 正确 认识 长 江 的 现状 。2、 立 即 制定 相应 的 法 律 法 规 ， 加 大 对 k
+: 违法 排污 行为 的 处 罚 力度 。 在 具体 治理 长 江 方面 的 几 点 意见 ，1、 加 强 对 中 小 支流 的 治理 。2、
+， 加 强 主 要 污染 城市 的 污水 处 理 力度 ， 污 水 达 不 到 标准 ， 则 由 政府 出 面 买单 。3、 对 污染 严重 的 1
+! 企业 实行 关 停 并 转 ， 集 中 建设 实力 强 、 能 治理 好 污染 的 大 企业 。4、 大 力 发 展 低 污 染 农 业 ， 控
+制 农药 化 肥 的 使 用 量 。5、 提 高 警惕 ， 坚 决 防止 江水 治 了 又 污 。 ，
+| 4 模型 的 评价 与 改进
+1 在 本 文中 ， 我 们 没有 使 用 单一 的 模型 对 问题 进行 分 析 求 解 ， 而 是 综合 运用 了 多 种 数学 模
+: 型 ， 并 且 增 加 了 一 定 的 检验 环节 。 这 样 就 增加 了 我 们 所 求 得 数据 的 合理 性 ， 同 时 也 增加 了 论文 i
+; 的 实际 参考 价值 。 在 运用 归 一 化 法 综合 评价 长 江水 质 情况 时 ， 我 们 很 巧妙 的 将 多 个 指标 转化 为
+; 单一 指标 ， 这 样 就 很 好 的 解决 了 多 指标 难以 比较 的 难题 。 在 解决 问题 三 时 ， 通 过 一 次 累加 序列 ;
+: 拟 合法 和 时 间 序 列 法 的 有 机 结合 ， 解 决 了 长 江水 质 情况 随机 性 和 波动 性 较 大 从 而 难以 准确 预测 :
+的 难题 。
+i 在 改进 方面 我 们 认为 :在 问题 一 中 模糊 数学 确定 的 污染 指数 可 以 改进 为 用 模糊 神经 网 络 进
+1 行 判断 的 指数 ， 可 以 更 好 的 反映 污染 程度 ， 以 及 不 同 点 的 关系 ;问题 二 中 ， 可 以 改进 为 灰色 评
+1 价 ， 以 更 好 的 反映 污染 物 的 来 源 ， 问 题 三 中 ， 我 们 用 以 预测 的 一 次 累加 拟 合 模型 昌 然 在 数据 点
+， 以 内 误差 较 小 ， 但 在 数据 点 以 外 ， 进 行 预测 时 ， 误 差 将 是 不 可 知 的 ， 可 以 改进 为 使 用 时 间 序 列 ，
+法 、 灰色 系 统 理论 、BP 神经 网 络 进行 预测 ”或 者 将 其 三 者 有 机 的 结合 在 一 起 ， 通 过 优化 组 合 ，
+形成 最 优化 权 值 组 合法 ， 这 样 既 可 以 达到 较 高 的 精度 要 求 又 可 以 避免 应 用 大 量 的 参数 ， 达 到 最
+小 误差 预测 的 目的 。 |
+| The Water Quality Evaluation in Yangtze River :
+! and Estimate Research :
+， ZHANG Hu, CAI Yan， YAO Hai-qiang
+1 Advisor: YANG Chun-de
+(Chongqing University of Posts and Telecommunications, chongqing 440803)
+] Abstract: This paper aims at researching the change of the water quality in Changjiang River over the past ，
+H ten years. So as to forecast the water quality in the next ten years as well as putting forward some constructive ;
+: suggestions on renovation. In the first question, we bring forward the concept of colligating pollution exponent
+f from the aspect of fuzzifying mathematics idea and use this concept to analyze the situation of water pollution.
+
+The conclusion we draw is: the water quality in 2004 ia worse than that in 2003, but to the year 2005, the :
+: situation is becoming better. In the second question, we combine the water quality observation (which was 了
+i gained form seven locations along the Changjiang River) and basic data report. we use mathematical way to ji
+H obtain the amount of the increasing pollution. Our conclusion is: Yueyang city in Hunan province and its upper :
+drainage areas are the main sources of permanganate and nitric ammonia pollution. In the third question, we 3
+establish the once accumulate the fit pattern self-purification factor and the time queue law Pattern and arrive
+1 at one conclusion: ten years later, the first two types of water will no longer exist, and the third type water will 了
+， only reamin 0.62% of the whole. In the forth question, we use plurality linear regression pattern to conclude the :
+: linearity relationships among the flux of Changjiang River, the total amount of waste water, the percentage of ;
+: the fourth/ fifth/ sixth type of water and put up our way to solve the problem. ;
+{ Keywords: normalization law; self-purification factor; once accumulate the fit pattern self-purification factor; }
+. time queue law; plurality linear regression pattern {

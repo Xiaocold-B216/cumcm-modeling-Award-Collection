@@ -1,0 +1,28 @@
+马 :二
+u 3
+CLyes
+X3 0. 1388990 0. 000000
+Y 0. 1388990 0. 000000
+X 6.733784 0. 6237698E-08
+Z 7.279503 0. 000000
+附录 四 对 5.3.2 结 果 分 析 的 改进 模型 求解 的 原始 结果
+Local optimal solution found.
+Objective value: 251. 9755
+Extended solver steps: 0
+Total solver iterations: 24
+Variable Value Reduced goRt
+S1 8. 402522 0:70000 0 <
+S2 10. 99455 0. Duo
+o
+S4 5.052875 2 0000
+S3 0. 000000 了 10.000000
+Y 0. 000000 0. 000000
+X 6. 752954 4 0. 000000
+Z 7. KE 义 0. 000000
+©
+% °
+~ 下
+2
+AZ
+e
+12

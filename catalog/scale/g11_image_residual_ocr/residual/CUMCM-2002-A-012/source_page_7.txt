@@ -1,0 +1,83 @@
+了 维普 资讯 http:waspeii
+
+3 TS
+
+: o" :
+
+t 二
+
+! petino
+
+; 外 全 外
+
+第 5 期 车 灯光 源 优 化 问题 的 探讨 47 —
+
+i ——————————————————————————————————————— :
+
+1 -Y |
+; 如 图 6, 形 成 一 类 似 椭圆 的 光斑 ,应 该 说 从 直观 上 讲 这 个 结论 是 非常 不 错 的 ,光斑 的 大 小 即 和
+为 车 灯 满 足 一 定 光 强 要 求 的 情况 下 在 测试 屏 上 可 照 亮 的 区 域 ,从 图 上 我 们 可 以 看 出 区 域 面 fis
+} 本
+B 积 比较 大 ,而且 光 强 分 布 也 比较 均匀 ,这 在 能 耗 和 照 亮 面积 中 取得 了 一 个 平衡 ,由 此 分 析 此
+， 设计 的 车 灯 能 照 亮 一 个 相当 长 的 距离 ,这 个 结果 应 该 还 是 比较 令 人 满意 的 。 人
+} : . 生生
+: AT 58 n H(ABCHA) ' BEIHAAS HPUR) i 让
+: 1 x 外
+H 100 150 it 2
+is 站 中
+0 $15
+: TELELFLFELFFESPSP 名 下
+Ea == |
+i 11
+3 (a) 水 平方 向 (b) 坚 直方 向 |
+
+， P 和
+: me mss 次 |
+<- 必 > |
+H 参考 文献 : 一 \) f
+
+3 : y A 二
+: [1]  Jonas Gomes and Luiz Velho. Image Processing for Computer Graphics (M]. New York: ed erlag, 1997 ni
+t [2] 圭 功 炎 、 数学 模型 讲义 [M] . 北京 :北京 大 学 出 版 社 ,1999 p SA |
+、 JS 和
+H Computational Analysis and Optimization of ¢ he Integrity Distribution I
+
+s 『 “全 关 二
+: NC A i
+
+s YAN Xiang, ZHANG Xin-hua,/ 加 Ac jang |
+: Advisor: SONG Bao-rui ; ;
+H (Dept. of Computer Science, Shanghai Jiao Tong University 954 Huashan Rd., Shanghai 200030) 和
+和
+4 / ©
+
+H Abstract: In this paper, we presented our algori d/techniques to derive the intensity distribution of the light saurce. Our basic 1
+
+H method ia numeric simulation, vith the help of theoretical d on We devised several innovations to approach the originally continuous |
+
+! problem by discrete computation. We first divide the linear light source into minute segments, which are modeled as independent point i
+
+和 light sources. We then set up a Coneinsor tion on the paraboloid . Different from the traditional uniform-sized grid , we use a grid 二
+| according to the solid angle, getting a more dccurate modeling of the paraboloid ，Our major innovation lies in the motivation and imple- 有
+| mentation of the“connected-set”idea ，Jhere may exits multiple points in the paraboloid that acts as the reflection point. Which is worse, |
+H one such point may be several (nominated) coordinates in our approximation. So we have to group these consecutive coordinates back into
+H one “reflection point” . Put an 六 should divide nominated coordinates into several connected-sets, where each connected-set 人
+represents on Ge To implement this idea, we use the Bread-First Search , which is linear to the number of nominated coor- 上
+和 dinates. To scail rr we further developed a parallel algorithm te compute the conneeted-sets for each sampling point in the 1
+
+i
+
+， sereen simulianco 4d. substantially faster than the obvious serial algorithm that runs sequentially for each sampling point We have |
+also proved|the correctness of this parallel algorithm. Our emperimental results showed that our model is reasonable, sccurate and efi- 人
+1 . 外 村
+< 了 全
+人 re distribution; mathematical modeling; connected set; breadth-first search; optimization 人
+和
+人 1
+这 各
+人
+
+: 是 和
+B
+1 1
+Fiit

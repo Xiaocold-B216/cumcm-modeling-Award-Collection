@@ -1,0 +1,41 @@
+minthital=thital;
+minthita2=thita2;
+minbeta=beta;
+minFt2=Ft2;
+end
+end
+if minthita2 (n)>pi/2%ADJIEC .让 ¥ux
+[r,minh,minbeta,minthital,minthita2,mind]=tuodir2 (n,mq, v,vshui,gdH);
+else
+r=Lm*sum(sin(minthita2))+sin(minbeta)+sum(sin(minthital));
+end
+if minbeta*180/pi>5% 01°CakC?»*~1y59R
+continue;
+end
+if (90-minthita2(n)*180/pi)>16%A0IEAA  OE°L  2LDYC2» ~1y169R
+continue;
+end
+if abs (minH-gdH)>0.2
+continue;
+end
+a=36/pi;b=1.5;c=1/20;
+fenshu=a*minbetatb*minh+c*r;
+kxn=[kxn n];
+Kxmaq= [kxma mq] ;
+kx1=[kx1l 1];
+kxh=[kxh minh];
+kxbeta=[kxbeta minbeta];
+kxr=[kxr r];
+zfenshu=[zfenshu fenshu];
+end
+end
+end
+[fenshu, i]=max (-zfenshu) ;
+fenshu
+kxma (1)
+kxl(1)
+kxn (1)
+附录 9 第 三 问 不 同情 况 分 析 计 算
+v=12;% cEU
+vshui=1.5; $E®A-EUIE
+41

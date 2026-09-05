@@ -1,0 +1,46 @@
+Efes
+)
+disp(play13)
+% 家 庭 年 均 收入 为 5000 元 一 10000 元
+play13=[c play3(:,:,2)];
+disp('")
+disp('2. 家 庭 年 均 收入 为 5000 元 一 10000 元 的 各 专业 学 生 应 该 获得 的 国家 补贴 如
+下 : (单位 : 元 ) )
+disp(' 专 业 类 别 第 一 批 第 二 批 第 三 批
+)
+disp(play13)
+% 家 庭 年 均 收入 为 10000 元 一 15000 元
+play13=[c play3(:,:,3)]; 人
+disp('") e 和 从》
+disp(3. 家 庭 年 均 收入 为 10000 元 一 15000 元 的 各 专业 学 生 应 访 获 和 区 请 这 补贴
+如 下 : 〈 单 位: 元) 1 在
+disp(' 专 业 类 别 第 一 批 第 二 批 一 第 三 批
+)
+disp(play13) 供
+% 家 庭 年 均 收 入 为 15000 元 一 25000 元 s
+play13=[c play3(:,:,4)]; X
+disp( ) IK
+disp('4 ZBEHIWIN 15000 元 一 25000 元 的 各 专业 学 生 应 该 获得 的 国家 补贴
+如 下 : 习 单 位 : 元 ) 9 四
+disp(' 专 业 类 别 第 B, 人 第 二 批 第 三 批
+A,
+disp(play13)
+[yl,y2l=meshgrid(a2,x1); | =
+ttle 国家 补助 与 学 生 学 并 和 要 三 收入 的 关系 图 像 )
+xlabel(' 家 庭 年 平均 收入 / 才 )
+wetiineiio b Fol
+2 和
+mesh(yLy2,
+oo
+xx=2eros(156,2);
+=
+fori=1:4
+xx(39%i-38:39%i,2)=a2(i);
+end
+[k,res,re]=regress(U,[xx(:,1).*xx(:,2) xx ones(156,1)]);
+ss=sum((U-mean(U)).A2);rs=sum(re.*2);R=(ss-rs)/ss;
+disp( )
+disp( )
+pl1=sprintf(' 对 国家 补助 与 学 生 学 费 和 家 庭 收 入 的 关系 进行 二 元 二 次 拟 合 , 拟 合 的
+相关 系数 为 : %d'R);
+39

@@ -1,0 +1,39 @@
+[num2,tx12,~] = xlsread( 附 件 3 xlsx,1,A2:C43017
+Group = zeros(length(txt2),1);
+fori= 1:length(txt2)
+1 ay
+if(stremp(txt] 用 Ptxt201D) 为
+GroupGD) = 站
+aa 出 sonay
+rpG 中
+ap Gao63
+GroupGi3) = 站
+@
+per
+end
+本
+本
+名
+fori= 1:length(Group)
+for j = llength(Position)
+这 minfismember(Groupi:)Position(.D)J>O)
+if(Group(i,1) == Position(j,1))
+Group_Data(k,:) = Position(j,2:4);.
+it
+elscif{Group(i2) == Position(i1)
+GT 汪 2
+K=kel;
+lseiffGroup(i3) == position
+Guup Paalk]-Posiea02 从
+2
+-
+=a
+三
+村
+就
+Ca 二
+% 数 所 处理” 找到 所 有 三 个 痪 志 孝 在 抛物 面 上 的 反射 单元 存在 Group_plus
+% 并 分 好 组 ， 把 中 点 数据 存放 在 Group, Dan 的 吉 到 6 列
+区
+i
+load('Information484)

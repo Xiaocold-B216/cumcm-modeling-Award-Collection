@@ -1,0 +1,75 @@
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+ww
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+流
+
+men(k,j,i+1)=(M(i,k+3*(k-1))/100)*total(k)*(1-(M(i,k+3*(k-1)+1)/1000))-(1-r)*q*bili(i);%q*f1*bili(1);
+elseif k==1
+women(k,j,i+1)=(M(i,k+3*(k-1)+2)/100)*total(k)*(1-(M(i,k+3*(k-1)+3)/1000))+r*(total(1)/(total(1)+total(
+2)))*q*bili(i);%q*f1*bili(1);
+men(k,j,i+1)=(M(i,k+3*(k-1))/100)*total(k)*(1-(M(i,k+3*(k-1)+1)/1000))+(1-r)*(total(1)/(total(1)+total(2
+)))*q*bili(i);%q*f1*bili(1)
+else
+women(k,j,i+1)=(M(i,k+3*(k-1)+2)/100)*total(k)*(1-(M(i,k+3*(k-1)+3)/1000))+r*(total(2)/(total(1)+total(
+2)))*q*bili(i);%q*f1*bili(1);
+men(k,j,i+1)=(M(i,k+3*(k-1))/100)*total(k)*(1-(M(i,k+3*(k-1)+1)/1000))+(1-r)*(total(2)/(total(1)+total(2
+)))*q*bili(i);
+end
+x1(k,j,i)=women(k,j,i+1)+men(k,j,i+1);
+end
+else
+for i=1:90
+if k==3
+women(k,j,i+1)=(1-M(i,3+k+3*(k-1))/1000)*women(k,j-1,i)-r*q*bili(i);
+men(k,j,i+1)=(1-M(i,1+k+3*(k-1))/1000)*men(k,j-1,i)-(1-r)*q*bili(i);
+elseif k==1
+women(k,j,i+1)=(1-M(i,3+k+3*(k-1))/1000)*women(k,j-1,i)+(total(1)/(total(1)+total(2)))*r*q*bili(i);
+men(k,j,i+1)=(1-M(i,1+k+3*(k-1))/1000)*men(k,j-1,i)+(total(1)/(total(1)+total(2)))*(1-r)*q*bili(i);
+else
+women(k,j,i+1)=(1-M(i,3+k+3*(k-1))/1000)*women(k,j-1,i)+(total(2)/(total(1)+total(2)))*r*q*bili(i);
+men(k,j,i+1)=(1-M(i,1+k+3*(k-1))/1000)*men(k,j-1,i)+(total(2)/(total(1)+total(2)))*(1-r)*q*bili(i);
+end
+x1(k,j,i)=women(k,j,i+1)+men(k,j,i+1);
+end
+end
+hi=b(:,k)/sum(b(:,k));
+f=0;
+for i=1:35
+f=f+(1-yer(k)/1000)*z(k)*hi(i)*women(k,j,i+15);%(women(k,j,i+15)/(men(k,j,i+15)+women(k,j,i+15)))*x
+1(k,j,i+14);
+end
+women(k,j,1)=s(k)*f;
+men(k,j,1)=(1-s(k))*f;
+total(k)=sum(x1(k,j,:))+f;
+end
+j
+total
+sum(total)
+end
+
+18
+
+

@@ -1,0 +1,16 @@
+paper_id=CUMCM-2020-B-005
+page_number=50
+page_classification=LAST_SUBSTANTIVE_PERSISTED_PAGE
+source_path=2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020B：穿越沙漠游戏最佳策略模型的研究与构建.pdf
+source_sha256=40E583E4703CA3203D3D7DF7EC81BF0F38255507BB59F5D05BFB1B17D2313D2C
+persisted_page_text_path=catalog/scale/g8_q3_batch_repair/CUMCM-2020-B-005/pages/0050.txt
+
+=== PERSISTED PAGE TEXT (READ-ONLY EXISTING EVIDENCE) ===
+国 册 这 Ee =. SHERAEER REAEETTE 主要 功能 /用 途 求解 第 一 关 不 按 矿 时 的 最 佳 策略 (Matlab 源 代码 ) [pl 2 dm | 求解 第 三 关 不 挖 矿 时 的 最 佳 策略 “Matlab 源 代码 ) | mL Lepp | 求解 第 一 关 按 入 时 的 最 佳 策略 “CH+ 源 代码) | mL_2epp | 求解 第 三 关 挖 矿 时 的 最 佳 策略 “Cr+ 源 代码 ) | plotLm | 绘制 第 一 关 、 第 二 关 利 余 资金 数 的 变化 曲线 “Matlab 源 代 码 ) . 绘制 第 一 关 、 第 三 关 剩 余 水 量 、 食物 量 的 变化 曲线 (Matlab 源 代码 ) 以 第 一 关 为 例 进行 灵敏 度 分 析 Matlab 源 代码 ) 1 求解 第 四 基 的 最 佳 策略 .并 使 用 蒙特 Fi 下 CC++ 源 代码 一 [“problom3_11gd | 求解 决策 方案 Lingo 源 代 码 ) PAY | 了 4epp “| 隶 解 第 六 关 的 最 佳 策略 【CH+ 源 代码 ) 、 UV AI | 该 表格 是 我 们 以 第 一 关 为 何 进行 灵 租 度 芷 饥 中 的 硕 冶 数 据 表格 ,该 -. yx sx | 表格 用 于 导入 Matlab 进行 计算 “AS RSIUNS | 该 表格 我 们 第 一 癌 中 第 一 关 与 殊 志 六 从 天 求 出 的 最 优 解 对应 的 每 天 的 水 、 食 物 和 资金 的 秋 众 量 ] @© %° ~ 下 2 和 和 请 50
+
+=== FORMAL ARTIFACT CONTEXT WINDOW ===
+2 16 12 10150 70 16 55 5640 76 234 和 12 10150 78 17 55 6640 46 204 18 12 ma 人 和 一 68 18 55 7640 16 174 19 12 ”Hulsoy ¥ 50 19 62 4730 201 207 20 14 1 10 38 20 55 4730 185 195 21 y/ Y$e 36 40 21 5 530 170 174 2 wo 10470 26 26 2 55 6730 155 153 28, 12 10470 10 14 23 55 7730 131 135 开 10470 0 0 24 55 8730 116 114 25 55 9730 86 84 26 26 55 10730 ”6 66 27 27 55 1730 47 45 28 28 55 12730 32 24 29 29 6 12730 16 12 30 30 64 12730 0 0 49 国 册 这 Ee =. SHERAEER REAEETTE 主要 功能 /用 途 求解 第 一 关 不 按 矿 时 的 最 佳 策略 (Matlab 源 代码 ) [pl 2 dm | 求解 第 三 关 不 挖 矿 时 的 最 佳 策略 “Matlab 源 代码 ) | mL Lepp | 求解 第 一 关 按 入 时 的 最 佳 策略 “CH+ 源 代码) | mL_2epp | 求解 第 三 关 挖 矿 时 的 最 佳 策略 “Cr+ 源 代码 ) | plotLm | 绘制 第 一 关 、 第 二 关 利 余 资金 数 的 变化 曲线 “Matlab 源 代 码 ) . 绘制 第 一 关 、 第 三 关 剩 余 水 量 、 食物 量 的 变化 曲线 (Matlab 源 代码 ) 以 第 一 关 为 例 进行 灵敏 度 分 析 Matlab 源 代码 ) 1 求解 第 四 基 的 最 佳 策略 .并 使 用 蒙特 Fi 下 CC++ 源 代码 一 [“problom3_11gd | 求解 决策 方案 Lingo 源 代 码 ) PAY | 了 4epp “| 隶 解 第 六 关 的 最 佳 策略 【CH+ 源 代码 ) 、 UV AI | 该 表格 是 我 们 以 第 一 关 为 何 进行 灵 租 度 芷 饥 中 的 硕 冶 数 据 表格 ,该 -. yx sx | 表格 用 于 导入 Matlab 进行 计算 “AS RSIUNS | 该 表格 我 们 第 一 癌 中 第 一 关 与 殊 志 六 从 天 求 出 的 最 优 解 对应 的 每 天 的 水 、 食 物 和 资金 的 秋 众 量 ] @© %° ~ 下 2 和 和 请 50
+
+
+=== HUMAN REVIEW NOTE ===
+This file prepares evidence only. It is not a human review decision.

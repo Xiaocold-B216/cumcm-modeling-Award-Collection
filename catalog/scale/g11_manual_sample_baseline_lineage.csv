@@ -1,0 +1,3 @@
+﻿attempt_id,role,evidence_recoverable,authoritative,historical_lineage_verified,current_evidence_verified,status,evidence_scope,notes
+20260903T171602418687_17165c0c,HISTORICAL_REFERENCE,0,0,0,UNAVAILABLE,HISTORICAL_UNRECOVERABLE,No old attempt/result/checkpoint/manifest/precheck/packet/log evidence found,Retained as historical reference; no equivalence or supersession claim is made.
+20260903T172404115633_3c748bc1,AUTHORITATIVE_CURRENT_BASELINE,1,1,0,1,ADOPTED,Current result/manifest/precheck/decision/packet evidence,Current state is adopted without asserting historical equivalence.

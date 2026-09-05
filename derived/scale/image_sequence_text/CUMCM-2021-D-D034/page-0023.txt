@@ -1,0 +1,37 @@
+if(Imin<0){
+printf(" 切 割 次 数 : 1 (无 需 进行 离线 二 次 切割 )Nn");
+printf(" 切 割 后 长 度 为 合格 的 钢坯 有 : %d 段 \n" F);
+double f = -Iminye;
+int F1 = 0;
+F1= (int)f1;
+printfl" 首 次 线 切 后 长 度 为 : %6f 的 钢坯 有 %d B\n"NFL);
+double r2 = Nmax+fmod(Imin,e)F2 =1;
+printfl" 首 次 线 切 后 长 度 为 : %ff 的 钢坯 有 :1 B\n", r2);
+int F3 = F-F1-F2;
+printf(" 首 次 线 切 后 长 度 为 : %lf 的 钢坯 有 : %d B\n",Nmax,F3);
+printf(" 最 优 方案 切割 后 所 有 尾 坯 切割 损失 最 小 值 :%f\n"lImin);
+printf(" 即 该 长 度 钢 坯 切割 后 无 用 料 损失 ;
+}
+if(Imin==0){
+printfl" 切 害 次 数 : 1\n");
+printf(" 首 次 切割 后 长 度 为 : %lf 的 钢坯 有 %d B\n",NmaxF);
+printf(" 最 优 方案 切割 后 所 有 尾 坯 切割 损失 最 大 值 : %f\n 最 优 方案 切割 后 所 有 尾 坯 切 割 损失 最 小
+值 ; %f\n",Imax,Imin);
+}
+return 0;
+}
+2. 调整 后 的 切割 方案 程序
+2.1 调整 后 的 切割 方案 1 程序
+#include <stdio.h>
+#include <math.h>
+int main(){
+double SN=9.5Nmin=9,Nmax=10,Cmin=4.8,Cmax=12.6;
+printft" 请 输入 “ 预 切割 钢坯 长 度 : S" 以 逗号 + 回 车 结束 输入 :");
+scanf("%If\n",&S);
+printfl" 预 切割 钢坯 长 度 : s=%If\n"S);
+doublee=N-Nmin;
+doublef = S/N;
+intF = 0;
+F = (int)f;
+double = S-F*N;
+float E = F*e;

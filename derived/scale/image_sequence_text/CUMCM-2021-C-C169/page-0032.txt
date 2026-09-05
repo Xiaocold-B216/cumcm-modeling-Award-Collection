@@ -1,0 +1,56 @@
+eanac
+die
+X=xlsread( 指标 选取 .xlsx,182:1403 小
+% 途 代 十 次
+orte110
+
+% 数 据 正 向 化 处 理
+
+oric58
+
+XCip=max(X(INXG)
+
+end
+
+% 数 据 最 小 -最 大 规范 化
+
+x=mapminmax(X,0,1);
+
+ee
+
+N=400,2c=0.8;Prm=0.2M=10,Ci=7;n=8,DaiNo=2;ads=1;
+
+% 调 用 遗传 算法 求解
+
+lblee 利 =RAGA(GN niPcPm,MLDaiNo ciadsj; < 和
+
+sedatetoiel TINv
+end gnlyl
+人 anat _ 7
+% 得 到 各 指标 权重 人
+acetb2) \
+% 得 到 评分 二 .
+el 和 |
+MovreffisiELhs  Y
+
+—
+
+mction abmmin mmax=RAGAooN mpc pm M.DaiNo,Ciads)
+和 % N 为 和 群 规 模 pc 为 交叉 概率 ,pm 为 变异 概 神 ,DaiNe 为 了 在 进行 两 代 进化 之 后 加 速 一 次 而
+设 定 的 限制 娄
+和 %m 优化 变量 数目 ，M 变异 方向 所 瑚 要 的 入 机 数 ，ci 为 加 如 次 数 ，xmin 为 优化 变量 的 下 限
+向 量 wmax 为 优化 变量 的 上 限 向 量
+%6 变 重 的 数目 n 必须 等 于 xmin 和 xmax 的 维 数 ads 为 0 是 求 最 小 值 ， 为 其 它 求 最 大 值
+和 % mmin 和 mmax 为 优秀 个 体 变化 区 间 的 上 下 限 介
+fads==0
+
+ad=ascend';
+te
+
+ddescend;
+end
+aa
+mm=zeros{1,n;mm2=ones(Ln);
+人 rz=1CI 。% 表 示 加 速 次 数 为 20 次
+
+F

@@ -1,0 +1,47 @@
+的
+EEER
+aa(4,7)=aa(j,3)+T(6)+ T(7)+T(5);
+tQ(i)=aa(j,3)+ T(6)+T(7);
+else
+aa(8,2)=tQ(1);
+aa(4,3)=aa(8,2);
+aa(8,3)=aa(8,2)+T(6)+T(4);
+aa(4,6)=tQ()+T(6);
+aa(4,7)=tQ)+T(6)+T(7)+T(5);
+tQM)=tQM)+T(6)+T(7);
+end
+end
+end A7
+t0=tQ(i); 全 NY
+UTT=aa(.,6); 一 \)
+SI=length(UTT); 2XG
+for ijk=1:SI ood
+if UTT(ijk)>100000
+UTT(ijk)=0; As
+end &
+oa 六 人
+[nmn,nmi]=max(UTT);
+clear UTT SI ijk
+a=aa(nmi,5); o
+GZ=[]; O
+BXYQX=100; %%
+GZZZ=0;
+while t0<8*3600 二
+if randi(100)>55.5&&r: Ke:
+ioandlO2d2 约 有 入 之 一 的 概率 发 生 故 障
+%BBQsrandi(600);BBQ=0;BBQ=300;BBQ=600;
+B } ¥ RNG  A—
+0 di(8);
+Seawaea 表示 第 一 道 工 序 故障 ，2 表示 第 二 道 工 序 故障
+1 AA=AA-4*(AAA-1);% 第 AAA 道 工 序 的 第 AA 个 元 件 故 障
+m,n]=size(aa);
+SA， if AAA=1
+GZBH=aa(m-4+AA 4);
+for i=m-3:m
+ifaa(i,1)==AA
+GZN=i;
+GZSI=aa(i,2)+T(6)+randi(T(4));
+GZZZ=GZSJ+600+BBQ;
+aa(i,3)=GZZZ;
+aa(i,2)=999999;
+82

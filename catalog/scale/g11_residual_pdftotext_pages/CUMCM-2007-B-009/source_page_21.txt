@@ -1,0 +1,111 @@
+模型建立
+
+∑ Min(w (u, v), w (u, v)).x
+
+目标函数： Min
+
+1
+
+约束条件： λ ≥ 0
+
+2
+
+u ,v
+
+u ,v
+
+xu ,v ∈ {0,1}
+
+η ∈ {0,1}
+
+流
+
+模型求解
+
+Step1 : 对所有的节点 u ，
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+u ≠ A, THEN
+
+L(u ) = ∞; ELSE
+
+L(u ) = 0 ； S = φ ；
+
+交
+
+IF
+
+研
+
+Step3 : 对所有的节点 v ， v ∉ S ，
+
+：
+科
+
+ww
+
+Step 2 : 选取不在集合 S 中的， L(u ) 值最小的节点 u ， S = S ∪ {u}；
+
+令 L(v ) = Min[ L(v ), L(u ) + w1 (u , v), L(u ) + w2 (u , v)] ， Pre(v) = u ，
+其中， w1 (u, v) = t 0 (u, v) + λ ⋅ {η ⋅ t w1 + [ f (u ) ∨ η ] ⋅ t w 2 } ，
+
+w2 (u , v) = t p (u, v) ，
+
+L(v) = L(u ) + w(u , v), THEN
+
+IF
+
+f (v) = 1 and (u = A or f (u ) = 0),
+
+众
+
+号
+
+IF
+
+THEN
+
+Re (v) = R(u , v), η = 0
+
+公
+
+ELSE IF
+
+信
+
+ELSE
+
+ELSE
+
+f (v ) = 1 ；
+
+；
+
+R(u , v) ∩ Re (u ) = φ , THEN
+
+Re (v) = R(u , v), η = 1 ；
+
+Re (v) = R(u , v) ∩ Re (u ) , η = 0 ；
+
+B ∈ S , THEN
+
+GOTO Step5; ELSE GOTO Step 2 ；
+
+微
+
+Step 4 : IF
+
+f (v ) = 0
+
+Step5 : 形成最优路径 A(v 0 ) − v1 − v 2 − " − vi − vi +1 − " − v n − B(v n +1 ) ，通过 Pr e(v) 与 Re (v)
+从终点 B 反向递归查找全路径与节点，算法结束。
+
+21
+
+

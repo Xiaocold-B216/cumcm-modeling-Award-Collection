@@ -1,0 +1,50 @@
+流
+
+The path needs change 3 times trafficline
+S8-S3412-S2743-S2544-S2953-S778-P2535-S399-S608-D12-D26-D25-S525-S3162-S73
+There has the shortest path whose length is 68 and costs 3
+The path needs change 2 times trafficline
+S8-S1383-S1691-S3766-S1726-S1008-S940-S2085-P609-S483-S604-S2650-S3470-S261
+9-S2340-S3162-S2181-S73
+There has the shortest path whose length is 77 and costs 2
+The path needs change 2 times trafficline
+S8-P1381-S1321-S2019-S2017-S1477-S1404-S2480-S3241-S3409-S3186-S3544-S1788S1789-S1770-S2322-S992-S3142-S3898-S1855-S73
+由于时间紧迫，对问题３当前的求解，也许存在小的差错，但已经足以为我们发现
+趋势，提供一种感性上的参考。
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+ww
+
+参考文献
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+[1] 赵巧霞等.以最小换乘次数和站数为目标的公交出行算法.
+[2] 杨新苗等.基于GIS 的公交乘客出行路径选择模型[J].东南大学学报(自然科学
+版),2000,30(6):87 - 91
+[3] 韩传峰,胡志伟.城市公交路网性能评估的网络图方法[J].系统工程,2003,21
+(3):58 - 61.
+
+18
+
+

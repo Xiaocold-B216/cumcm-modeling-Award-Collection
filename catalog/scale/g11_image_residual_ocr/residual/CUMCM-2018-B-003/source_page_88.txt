@@ -1,0 +1,39 @@
+Elidiz:
+- u 出
+ER
+% 一 道 工 序 的 修复 时 间 ， 随 机 ，10,15,20 的 20 组 随机
+clc,clear
+G=[;
+for i=1:20
+[m(i),m1(i), TMT(),GZ] = £302( );
+G=[G;GZ];
+clear GZ
+end
+A=[TMT;ml];
+A=A";
+B(1)=A(1,2); 全 从 >
+for i=2:20 一 \)
+B(i)=B(i-1)+A(,2); 2XG
+end
+[mm,nn]=size(G); 任
+C=zeros(1,mm); 了
+C(B)=1; 儿
+G=[G,C];
+D=zeros(19,5); o
+for i=1:19 o
+DG,D=i+l; %%
+end
+for i=1:19 一
+[mm,nn]=size(G);._~ ¥
+CDOT
+B=B+1; _
+end y/}
+G=[[1 oil
+y
+ZM=[mean(A(:,1)),mean(A(:,2))];
+ZMM=std(A,0,1);
+A=[A;ZM;ZMM];
+附录 二 十 一 : Ques304.m
+% 两 道 工序 的 修复 时 间 ， 随 机 ，10,15,20 的 20 组 随机
+clc,clear
+88

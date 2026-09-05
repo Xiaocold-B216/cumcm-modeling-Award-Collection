@@ -1,0 +1,46 @@
+paper_id: CUMCM-2013-A-004
+year: 2013
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (3)/A-13241002-黄小敏，黄程，王露.pdf
+  sha256: EABCE38647FBE0FACB29330177B5EAE63A61A5FD67FAEFF867B24E91AF49C7D4
+authority_sha256: EABCE38647FBE0FACB29330177B5EAE63A61A5FD67FAEFF867B24E91AF49C7D4
+paper_file_memberships:
+- path: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (3)/A-13241002-黄小敏，黄程，王露.pdf
+  role: primary
+  canonical: true
+primary_file: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (3)/A-13241002-黄小敏，黄程，王露.pdf
+extraction_inputs:
+- path: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (3)/A-13241002-黄小敏，黄程，王露.pdf
+  sha256: EABCE38647FBE0FACB29330177B5EAE63A61A5FD67FAEFF867B24E91AF49C7D4
+  kind: original
+extraction_input_sha256: EABCE38647FBE0FACB29330177B5EAE63A61A5FD67FAEFF867B24E91AF49C7D4
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q0/Q1 Native Markdown Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 40
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["39"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2013-A-004/source_page_39.txt"]
+  source_sha256: EABCE38647FBE0FACB29330177B5EAE63A61A5FD67FAEFF867B24E91AF49C7D4
+  current_body_sha256: 05372098F28EA73E2363DB3AC4AE4E9835C71243FFBA868F1CD2B409E72C4870
+  candidate_body_sha256: F725177A1396DE525B75F26428726B10581ACF0562930DB0AE330A5CE77A5101
+  source_page_count: 40
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

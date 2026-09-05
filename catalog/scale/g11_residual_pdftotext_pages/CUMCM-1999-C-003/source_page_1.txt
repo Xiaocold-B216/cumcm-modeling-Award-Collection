@@ -1,0 +1,89 @@
+第 30 卷第 1 期
+数学的实践与认识
+V o l130 N o 11
+2000 年 1 月
+J an. 2000
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+即: 当出矸率小于 11% 时, 每年 100 万元是够用的; 当出矸率为 11% 时, 年度最低经费为
+100. 404 万元!
+
+5
+
+模型的分析与评价
+此模型首先确定了总费用对出矸率和堆数的函数关系, 通过三维图形的比较确定了最
+
+优堆积煤矸石的堆数和征地方式. 此模型经过多次选择, 最优方案的准确性较高, 计算较简
+单, 较为完满地解决了原始问题; 缺点是实际中存贷款利率并不相等, 地价的增长率, 出矸率
+
+流
+
+也并非恒定, 此模型未将这些因素考虑进去, 在实际应用中会受到一定的限制.
+参考文献:
+姜启源 1 数学模型 ( 第二版) 1 高等教育出版社, 北京, 1993.
+
+[2]
+
+张韵华 1M athem atica 符号计算系统实用教程 1 中国科学技术大学出版社, 合肥, 1998.
+
+[3]
+
+同济大学数学教研室 1 高等数学 ( 第四版) 1 高等教育出版社, 北京, 1996.
+
+研
+
+交
+
+[1]
+
+：
+科
+
+M a thema tica l M odel of heaped- up Gangue
+ZHAO Y i2rong,
+
+CH EN W e i,
+
+Synopsis:
+
+361021)
+
+号
+
+(J im ei U n iversity, X iam en
+
+SU N Dong 2jie
+
+T h is p ap er d iscu sses the exp end itu re of heap ing up gangue in coa lfield and ana lyzes
+
+公
+众
+
+d ifferen t land 2p u rcha se w ays and the heap ing 2up num ber, from w h ich it com es to a conclu sion a s
+fo llow s: T he lea st exp end itu re is needed on ly in the ca se tha t a ll land a re p u rcha sed once a t the
+beg inn ing of coa l ex traction, and tha t a ll the gangue m eta ls a re p iled in one heap. A lso, fo r the
+d ifferen t gangue p roduction ra te, a m a them a tia l w ay of figu ring ou t the to ta l exp end itu re m en 2
+tioned above is g iven. L a st bu t no t lea st, ba sed on the d ifferen t gangue p roduction ra te, a fo rm u 2
+
+微
+
+信
+
+la of w o rk ing ou t the low est annua l average exp end itu re is acco rd ing ly p rovided.
+
+煤矸石堆积问题的解答及引出的思考
+贾晓峰1 ,
+
+唐 云2
+
+(1. 太原理工大学应用数学系, 太原 030024)
+(21 清华大学数学科学系, 北京 100084)
+
+摘要:
+
+本文首先给出煤矸石堆积问题的参考答案, 其次介绍学生答卷中由于对出矸率及征地方式的理解
+
+不同而导出的不同解答, 最后从学生答卷中发现到的缺点和错误提出一些在数学建模教学中值得思考的问
+题和建议.
+
+

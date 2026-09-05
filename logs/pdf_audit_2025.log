@@ -1,0 +1,37 @@
+[2026-08-20T12:43:19.908328] G4-25 2025 PDF Audit started
+[2026-08-20T12:43:19.908360] REPO_ROOT=D:\cumcm-modeling-Award-Collection
+[2026-08-20T12:43:19.908999] AUDIT_SCHEMA_VERSION=1
+[2026-08-20T12:43:19.919806] EXPECTED_PDF_FILES_2025=12
+[2026-08-20T12:43:19.920387] [1/12] Processing: 2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/A题/A题.pdf
+[2026-08-20T12:43:19.927501]   type=text_based pages=1 routing=NATIVE_TEXT_REVIEW
+[2026-08-20T12:43:19.928126] [2/12] Processing: 2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/B题/B题.pdf
+[2026-08-20T12:43:19.933742]   type=text_based pages=2 routing=NATIVE_TEXT_REVIEW
+[2026-08-20T12:43:19.934233] [3/12] Processing: 2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/C题/C题.pdf
+[2026-08-20T12:43:19.943164]   type=text_based pages=2 routing=NATIVE_TEXT_REVIEW
+[2026-08-20T12:43:19.943816] [4/12] Processing: 2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/D题.pdf
+[2026-08-20T12:43:19.951906]   type=text_based pages=2 routing=NATIVE_TEXT_REVIEW
+[2026-08-20T12:43:19.952507] [5/12] Processing: 2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/E题.pdf
+[2026-08-20T12:43:19.957001]   type=text_based pages=1 routing=NATIVE_TEXT_REVIEW
+[2026-08-20T12:43:19.957456] [6/12] Processing: 2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A066.pdf
+[2026-08-20T12:43:19.976092]   type=image_based pages=86 routing=IMAGE_VISUAL_REVIEW
+[2026-08-20T12:43:19.980759] [7/12] Processing: 2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A196.pdf
+[2026-08-20T12:43:20.003213]   type=image_based pages=98 routing=IMAGE_VISUAL_REVIEW
+[2026-08-20T12:43:20.008911] [8/12] Processing: 2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/B060.pdf
+[2026-08-20T12:43:20.023259]   type=image_based pages=72 routing=IMAGE_VISUAL_REVIEW
+[2026-08-20T12:43:20.026896] [9/12] Processing: 2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C023.pdf
+[2026-08-20T12:43:20.056377]   type=image_based pages=122 routing=IMAGE_VISUAL_REVIEW
+[2026-08-20T12:43:20.063790] [10/12] Processing: 2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C132.pdf
+[2026-08-20T12:43:20.079941]   type=image_based pages=65 routing=IMAGE_VISUAL_REVIEW
+[2026-08-20T12:43:20.084035] [11/12] Processing: 2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/D037.pdf
+[2026-08-20T12:43:20.094807]   type=image_based pages=37 routing=IMAGE_VISUAL_REVIEW
+[2026-08-20T12:43:20.097733] [12/12] Processing: 2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/E030.pdf
+[2026-08-20T12:43:20.108171]   type=image_based pages=36 routing=IMAGE_VISUAL_REVIEW
+[2026-08-20T12:43:20.111099] COVERAGE: Expected=12 Audited=12 Missing=0 Extra=0
+[2026-08-20T12:43:20.111107] DUPLICATE_AUDIT_ROWS=0
+[2026-08-20T12:43:20.111815] Wrote 12 rows to D:\cumcm-modeling-Award-Collection\catalog\pilot\pdf_audit_2025.csv
+[2026-08-20T12:43:20.113270] Wrote 7 rows to D:\cumcm-modeling-Award-Collection\catalog\pilot\pdf_review_2025.csv
+[2026-08-20T12:43:20.113280] FINAL_Q_ASSIGNED=0
+[2026-08-20T12:43:20.113282] FINAL_Q_UNASSIGNED=12
+[2026-08-20T12:43:20.113284] DIRECT_PDF_TYPE_TO_FINAL_Q_MAPPING=0
+[2026-08-20T12:43:20.113285] ASSIGNED_Q_WITHOUT_INDEPENDENT_EVIDENCE=0
+[2026-08-20T12:43:20.113286] VISUAL_REVIEW_EXECUTED=0

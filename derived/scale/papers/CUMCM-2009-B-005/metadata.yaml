@@ -1,0 +1,47 @@
+paper_id: CUMCM-2009-B-005
+year: 2009
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：基于排队论的病床安排模型的研究.pdf
+  sha256: 69EC746ECFABBF2C291F9944263CD269F1D4E8CAD8194C1070CF0A7699875D4F
+authority_sha256: 69EC746ECFABBF2C291F9944263CD269F1D4E8CAD8194C1070CF0A7699875D4F
+paper_file_memberships:
+- path: 2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：基于排队论的病床安排模型的研究.pdf
+  role: primary
+  canonical: true
+primary_file: 2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：基于排队论的病床安排模型的研究.pdf
+extraction_inputs:
+- path: 2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009B：基于排队论的病床安排模型的研究.pdf
+  sha256: 69EC746ECFABBF2C291F9944263CD269F1D4E8CAD8194C1070CF0A7699875D4F
+  kind: original
+extraction_input_sha256: 69EC746ECFABBF2C291F9944263CD269F1D4E8CAD8194C1070CF0A7699875D4F
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 2
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-B-005/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-B-005/source_page_2.txt"]
+  source_sha256: 69EC746ECFABBF2C291F9944263CD269F1D4E8CAD8194C1070CF0A7699875D4F
+  current_body_sha256: 7D42C2ED96391D5552C5527F8E37592EC86ADA7F6C7EF15BAD108377FD0B329A
+  candidate_body_sha256: A7D7224168D1B17EF47ED4DF6283C752F2D3CEE7BAF51F4C144FD61AC96689A1
+  source_page_count: 2
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

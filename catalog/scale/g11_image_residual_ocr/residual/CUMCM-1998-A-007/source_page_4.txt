@@ -1,0 +1,48 @@
+于 二
+四
+] 期 王 正 方 等 : 投资 组 合 与 模糊 规划 模型 1
+mr we | AeE
+Te ao
+vo [ws [o |0 [von0 |0  wman [amm
+bvosn Jonsz |o|o [vome | u|oren | oeron |mar
+bosa [onosr|o|o Tawwnn | o |v {wemw [sam
+Oo | Di |0|ommw | rom
+II 本 IT 本 本 全 ENET
+CE 和 IECITIITEIETG
+CITIESTIRINREIIEIITTEIETG
+CERNET 和 IRON
+o Twm [oo Tomms [o |oowmor fi
+IE ES
+和
+"To Tv To v [ol r: Ta
+囊 2 收益 与 风险 的 矢 系 /
+ITC AAAX
+俞 好 系数 (| 收 茂 与 风险 基站 | 风险 下 知 7 最 相应 大 于 的 什 (元 )
+0.0429 呈 =0 .05-40 04483407 (0.3.266) N 7751
+一 E
+UN 天 二 0 68S4 十 0 038241 7 | CR 4 SN 579U
+37 有 一 407334 十 0 03823C7 | 4.7) | 5166
+Ta 1
+Du 3
+Di 二
+Da 2
+CTTCERIITIEI 本 有
+CI 于 了
+Do 加
+IIOIESEIIIITTIRTITTITN TIT
+以 上 运用 伪 好 系数 加 dw 4 一 系列 最 优 投资 组 合 ， 下 面 我 们 运用 模糊 线性 规划 来 求解 ， 上 述 偏
+好 系数 加 权 法 依 藏 竹 权 重 的 建立 ， 而 模糊 目标 规划 则 应 用 模糊 隶属 函数 的 概念 ， 首 先 引 入 一 些 符 号 与
+公式 ， q 办
+LU 为 第 人 风采 训 放 的 虹 高 Li 为 第 k 理想 日 标 达成 的 最 低 可 接受 值 ,
+: 理想 目标 的 降低 允许 范围 (变动 余地 ).
+erxensepwammw 它 表 示 为 :
+以 > u. (Zh < Li),
+NA MA = O<ule) <l (Li < Zn < U),
+1 (四 > 1),
+也 就 是 上 式 能 反映 一 个 现实 目标 的 达成 度 (车 完 全 达成 ， 取 1) 或 (完全 未 达成 ， 取 0 值 ), 我 们 令 模
+精 束 属 函 数 :
+本
+pp(r) 三 工 一 (全 .
+元
+对 模糊 模型 的 任何 解 来 说 , 我们 希望 最 大 化 从 {7z) 的 最 小 值 ,也 就 是 说 希望 最 小 化 任 一 现实 目标 的 最
+-2008 n nal h All rig n

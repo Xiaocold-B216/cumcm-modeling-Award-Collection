@@ -1,0 +1,42 @@
+ax(ND=TI(A2.4)rICAL.4
+ay(M)-r1(A2,5)r1(ALS);
+aZ(M)-r1(A26)}r1(ALG);
+bx(MDJ=rI(A3.4)rIAL4;
+by(M)-T1(A3,5)-rI(ALS);
+b2(M)TI(A36)TI(ALS);
+sital(M,1)=acos(  ( (ay(M)*bz(M)-az(M)*by(M))*cos(bt)*cos(af) +
+(@z(M)*bx(M)-ax(M)*bz(M))* cos(b)*sin(af) +(ax(M)*by(M)-ay(M)*bx(M))*sin(bt) )
+sqrt (ay(M)*bOM)-az(M)*by(M)) 2+(@z(M)*(M)-ax(M)*bz(M)) 2+(ax(M)*by(M)-
+ay(M*bxOM)2 ) 让
+sital(M.2)-abs(cos(sital (M.1))):
+S1(M.2)-2.899°51(M.1)*sital(M.2);
+ifs10M,2)20
+nt
+end
+end
+end
+den?pi*0.5 2sum(s1(:2)):
+disp( 调节 前 馈 源 能 的 接收 比 为 7
+disp(d)
+mes  s~_Z= ® ]
+灵敏 度 分 析 程序 SN 一 |
+ele% 灵 敏 度 分 析 主 程序 ， 焦 点 位 置 不 变 ， 掀 物 面 项 点 位 置 变化
+lear|
+loadCFJILinaty
+ToadcRI3mat7
+loadCFJI2mat)
+R-300.4;
+ddF-0:
+for e=1length(ddF)
+F=0.466*R+ddF(e);
+dF=-0.6:001:0.6;
+W=10000000000;
+for i=1-length(dF)
+人 rdFGD)+F:
+SGR+dFGJ
+nl:
+forj=llength(FJID
+£2G.1)-sqrt( FINGDY2+ENG)2 )
+ifr2(,1)<=150
+FJIIOLD=FTUG.D:
+»

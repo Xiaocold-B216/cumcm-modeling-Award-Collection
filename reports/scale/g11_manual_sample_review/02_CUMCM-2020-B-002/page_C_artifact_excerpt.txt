@@ -1,0 +1,16 @@
+paper_id=CUMCM-2020-B-002
+page_number=104
+page_classification=LAST_SUBSTANTIVE_PERSISTED_PAGE
+source_path=2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020B：基于动态规划、统计分析、静态博弈的穿越沙漠游戏策咯设计.pdf
+source_sha256=26781A9C92E48A6FD495960C27AEB6E66B1C0A2A89DB7F07BD6C0362A68E6A9E
+persisted_page_text_path=catalog/scale/g8_q3_batch_repair/CUMCM-2020-B-002/pages/0104.txt
+
+=== PERSISTED PAGE TEXT (READ-ONLY EXISTING EVIDENCE) ===
+EiaE 本 | EEEE wase return [1] else: return [1,buy_uater,buy_food] 证 current_position==5: if deadline-current_date+i==2: return [6] else: return [5] if current_position==6: if deadline-current_date+l==1: return [13] else: 人 return [6] - return [] SN 7 : 个 从 2 104
+
+=== FORMAL ARTIFACT CONTEXT WINDOW ===
+价格 与 重量 AL water_price = 5; food_weight = 2; food_price = 10; - return [world_map, start_point, end_point, villag _list, deadline, initial money, base_income, weight_limit, food_consumption’ water_consumption_list, food_weight, food_price, water_weight, water_pricel; ° 人 CA“ def get_strategy (current_money， OA current_food, current_position, current_date, world_map, start_point, end_point, vill mine_list, weather_list, deadline, initial_money, base_income, t_limit, food_consumption ist, water_consumption_list, food_weight, food_price, wat t, water_price pily_val 有 AR # print: 2 # m 地 ， 水 〔 儿 箱 ) ， 食 物 类 nt_po 强 tion，current_whether，current_date Ti Q ather=weather_1ist[current_date-1] if\current_weather==0: current_position==1: return [5,buy_vater,buy_food] # 4 高 温 ，3 隧 天 elif current_position==5: return [6] elif current_position==6: return [13] elif current_weather==1: if current_position==1: if current_date>1: 103 EiaE 本 | EEEE wase return [1] else: return [1,buy_uater,buy_food] 证 current_position==5: if deadline-current_date+i==2: return [6] else: return [5] if current_position==6: if deadline-current_date+l==1: return [13] else: 人 return [6] - return [] SN 7 : 个 从 2 104
+
+
+=== HUMAN REVIEW NOTE ===
+This file prepares evidence only. It is not a human review decision.

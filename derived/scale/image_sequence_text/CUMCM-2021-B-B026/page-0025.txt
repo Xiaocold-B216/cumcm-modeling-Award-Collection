@@ -1,0 +1,81 @@
+12.  %cftool 工具 箱 求 二 次 曲线
+
+13. function [fitresult, gof] = createFit(x, y)
+
+14. [xData, yData] = prepareCurveData( x, y );
+
+15. ft = fittype( 'poly2" );
+
+16. [fitresult, gof] = fit( xData, yData, ft );
+
+17. figure( 'Name', 'untitled fit 1' );
+
+18. h = plot( fitresult, xData, yData )};
+
+19. legend( h, 'y vs. x', "untitled fit 1', 'Location', 'NorthEast’
+
+20. xlabel x
+
+21. ylabel y
+
+22. grid on
+
+附录 9
+
+1. data=xlsread('C:NMUsersNHDN\DesktopNBN\ 附 件 1.xlsx7，'A")
+
+2; y=data(:,8);
+
+3, T=data(:,1);
+
+4.  xl=data(:,4);%Co/Si02
+
+5.  x2=data(:,5);%HAP
+
+6. x3=data(:,6);%wt
+
+7. x4=data(:,7);%LBE
+
+8.  X=[ones(size(x1)) x1 x3.^2 T.A2 T  x2.*x4 x1.*T x4.*T x3.
+*x41;
+
+9. [b,bint,r,rint,stats] = regress(y,X);
+
+10. stepwise(X,y)
+
+11.  rcoplot(r,rint)
+
+附录 10
+
+1. ，” 拟 合 函数 的 最 大 值 求解 :
+
+2. F=@(x) -172.8*x(3)^2+6.1#+Xx(5)^2-25.3kx(1)-77.5kx(5)+3.7kx(2)#X(4)
++482.4%X(3)FX(4)+0. 1T*x(1)*X(5)-3.1*x(4) *x(5)+11787;
+
+3.  1b=[33;50;0.5;0.3;250];
+
+4.  ub=[200;200;5;2.1;500];ub2=[200;200;5;2.1;349];
+
+5. x0=[200;200;1;2;1.68;400];x01=[200;200;1;2;1.68;350];
+
+6. [x1,fvall]=fmincon(f,x@,[1,[1,[]1,[],1b,ub);
+
+7. x1max2=x1(1);
+
+8. x2max2=x1(2);
+
+9. x3max2=x1(3);
+
+10.  x4max2=x1(4);
+
+11.  Tmax2=x1(5);
+
+12.  zmax2=-fvall;
+
+13.  m=[x1max2,x2max2,x3max2,x4max2, Tmax2,zmax2]
+
+14.  [x2,fvall2]=fmincon(f,x01,[],[1,[],[]1,1b,ub2);
+
+15.  x1max22=x2(1);
+
+25

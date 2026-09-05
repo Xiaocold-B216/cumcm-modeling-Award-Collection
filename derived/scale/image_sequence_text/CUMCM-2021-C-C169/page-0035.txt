@@ -1,0 +1,46 @@
+ET
+whilel=a1
+urationNo0;
+ac
+orELN
+rnifndlo
+ifracem
+MutationNo=MutationNorl:
+viempS(MutationNo,=vd();
+valzeros1nl;
+end
+end
+MutationNo~=0
+break;
+end
+end
+% 选 择 进行 变异 操作 的 父 代 结束 >
+shengyulio1=0;
+foris1n )
+ifval=zeros(in)
+shengyuNo1=shengyulio1+1;
+Viemp6(shengyuNol, J=va(eempt 表示 造反 局 攻守 的 交代
+end
+end
+% 变 异 开始
+DirectionVetnfrad(1,1,1,n)
+fori=LMuationNo
+一 tempNo0;
+网 Wel-=1
+temptio=temphios3;
+VS(=sar((veempS(4M°DirectionV).A2).fsum((tempS(i}+MDirectionV).2))
+yeFeaslys(il
+iftempho==200
+VS()=viempS(i:
+break
+elseify==1
+break
+end
+Meonifndlo M:
+end
+end
+step end
+eswiemp 外
+a
+end
+3s

@@ -1,0 +1,74 @@
+where ct.cut_time between '2016-12-01' and '2017-02-28';
+--2017 春
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+from #cut_time ct
+where ct.cut_time between '2017-03-01' and '2017-05-31';
+--2017 夏
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+from #cut_time ct
+where ct.cut_time between '2017-06-01' and '2017-08-31';
+--2017 秋
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+
+流
+
+from #cut_time ct
+where ct.cut_time between '2017-09-01' and '2017-11-30';
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+where ct.cut_time between '2017-12-01' and '2018-02-28';
+
+研
+
+from #cut_time ct
+
+交
+
+--2018 冬
+
+----------------------特价商品消费占比----------------------------
+
+：
+科
+
+select SUM(je) as 商品消费总金额 from vtime_mall_vip_sale_detail;
+select SUM(je) as 特价商品消费总金额
+from vtime_mall_vip_sale_detail vmvsd
+
+left join product_information pdi on vmvsd.spbm=pdi.spbm
+
+号
+
+where pdi.splm like '%特%' or pdi.splm like '%折%' or pdi.splm like '%促%'
+
+众
+
+---------------------高价商品消费占比------------------------------售价为以上为高价商品
+
+select SUM(je) as 高价商品消费总金额
+
+公
+
+from vtime_mall_vip_sale_detail vmvsd
+
+信
+
+where sj>=5000
+
+--------------------该商场会员与非会员的消费差异----------------------------------
+
+微
+
+--------------------------购买力维度---------------------------------------创建该商场每日非会员消费金额临时表
+if object_id('tempdb..#notvip_total_je') is not null
+Begin
+
+drop table #notvip_total_je
+End
+select CONVERT(char(10),dtime,120) as date,SUM(je) as 非会员消费总金额 into #notvip_total_je
+from total t
+where
+vsd_kh is null and t.vi_kh is null --限定非会员
+group by CONVERT(char(10),dtime,120)
+24
+
+

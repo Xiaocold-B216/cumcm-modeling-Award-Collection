@@ -1,0 +1,523 @@
+﻿{
+    "schema_version":  1,
+    "contract_name":  "CUMCM Award Collection Paper Identity Contract",
+    "contract_version":  "1.0.1",
+    "created_at":  "2026-08-17T19:22:27+08:00",
+    "created_by":  "G3-00R",
+    "description":  "Defines the entity model, relationships, and identity rules for the CUMCM Award Collection paper governance system.",
+    "entity_model":  {
+                         "File":  {
+                                      "description":  "A physical file in the repository. Represents a single digital artifact with a unique path.",
+                                      "primary_key":  "path",
+                                      "fields":  {
+                                                     "path":  {
+                                                                  "type":  "string",
+                                                                  "description":  "Relative path from repository root. Uses forward slashes.",
+                                                                  "required":  true,
+                                                                  "unique":  true
+                                                              },
+                                                     "filename":  {
+                                                                      "type":  "string",
+                                                                      "description":  "File name including extension.",
+                                                                      "required":  true
+                                                                  },
+                                                     "file_extension":  {
+                                                                            "type":  "string",
+                                                                            "description":  "File extension in lowercase (e.g., .pdf, .doc, .docx).",
+                                                                            "required":  true
+                                                                        },
+                                                     "file_size_bytes":  {
+                                                                             "type":  "integer",
+                                                                             "description":  "File size in bytes.",
+                                                                             "required":  true
+                                                                         },
+                                                     "sha256":  {
+                                                                    "type":  "string",
+                                                                    "description":  "SHA-256 hash of file contents. 64 hex characters.",
+                                                                    "required":  true,
+                                                                    "pattern":  "^[0-9A-Fa-f]{64}$"
+                                                                },
+                                                     "year":  {
+                                                                  "type":  "string",
+                                                                  "description":  "Year extracted from path. \u0027unknown\u0027 if not determinable.",
+                                                                  "required":  true,
+                                                                  "default":  "unknown"
+                                                              },
+                                                     "problem_code":  {
+                                                                          "type":  "string",
+                                                                          "description":  "Problem code extracted from path. \u0027unknown\u0027 if not determinable.",
+                                                                          "required":  true,
+                                                                          "default":  "unknown"
+                                                                      },
+                                                     "readable":  {
+                                                                      "type":  "boolean",
+                                                                      "description":  "Whether the file was readable during G1 inventory.",
+                                                                      "required":  true
+                                                                  },
+                                                     "recorded_at":  {
+                                                                         "type":  "string",
+                                                                         "description":  "ISO 8601 timestamp of when the record was created.",
+                                                                         "required":  true
+                                                                     }
+                                                 },
+                                      "source":  "catalog/files.csv"
+                                  },
+                         "Paper":  {
+                                       "description":  "A logical paper entity. One paper may have multiple file representations (PDF, DOC, DOCX, etc.).",
+                                       "primary_key":  "paper_id",
+                                       "fields":  {
+                                                      "paper_id":  {
+                                                                       "type":  "string",
+                                                                       "description":  "Unique paper identifier. Format: CUMCM-{YEAR}-{PROBLEM}-{ID}",
+                                                                       "required":  true,
+                                                                       "unique":  true,
+                                                                       "pattern":  "^CUMCM-\\d{4}-[A-Z]-[A-Z0-9]+$"
+                                                                   },
+                                                      "year":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Year of the paper. \u0027unknown\u0027 if not determinable.",
+                                                                   "required":  true,
+                                                                   "default":  "unknown"
+                                                               },
+                                                      "problem_code":  {
+                                                                           "type":  "string",
+                                                                           "description":  "Problem code. \u0027unknown\u0027 if not determinable.",
+                                                                           "required":  true,
+                                                                           "default":  "unknown"
+                                                                       },
+                                                      "title":  {
+                                                                    "type":  "string",
+                                                                    "description":  "Paper title. \u0027unknown\u0027 if not determinable.",
+                                                                    "required":  false,
+                                                                    "default":  "unknown"
+                                                                },
+                                                      "authors":  {
+                                                                      "type":  "string",
+                                                                      "description":  "Author names. \u0027unknown\u0027 if not determinable.",
+                                                                      "required":  false,
+                                                                      "default":  "unknown"
+                                                                  },
+                                                      "institution":  {
+                                                                          "type":  "string",
+                                                                          "description":  "Institution/school name. \u0027unknown\u0027 if not determinable.",
+                                                                          "required":  false,
+                                                                          "default":  "unknown"
+                                                                      },
+                                                      "award":  {
+                                                                    "type":  "string",
+                                                                    "description":  "Award level. \u0027unknown\u0027 if not determinable.",
+                                                                    "required":  false,
+                                                                    "default":  "unknown"
+                                                                },
+                                                      "status":  {
+                                                                     "type":  "string",
+                                                                     "description":  "Paper status.",
+                                                                     "required":  true,
+                                                                     "enum":  [
+                                                                                  "active",
+                                                                                  "needs_review",
+                                                                                  "merged",
+                                                                                  "deprecated"
+                                                                              ],
+                                                                     "default":  "needs_review"
+                                                                 },
+                                                      "created_at":  {
+                                                                         "type":  "string",
+                                                                         "description":  "ISO 8601 timestamp of paper record creation.",
+                                                                         "required":  true
+                                                                     },
+                                                      "updated_at":  {
+                                                                         "type":  "string",
+                                                                         "description":  "ISO 8601 timestamp of last update.",
+                                                                         "required":  true
+                                                                     }
+                                                  },
+                                       "source":  "catalog/papers.csv"
+                                   },
+                         "PaperFileMembership":  {
+                                                     "description":  "Maps files to papers. A file can belong to at most one paper. A paper can have multiple files.",
+                                                     "primary_key":  "membership_id",
+                                                     "fields":  {
+                                                                    "membership_id":  {
+                                                                                          "type":  "string",
+                                                                                          "description":  "Deterministic ID: MEM-{paper_id}-{path_hash}",
+                                                                                          "required":  true,
+                                                                                          "unique":  true
+                                                                                      },
+                                                                    "paper_id":  {
+                                                                                     "type":  "string",
+                                                                                     "description":  "Reference to Paper.paper_id.",
+                                                                                     "required":  true
+                                                                                 },
+                                                                    "path":  {
+                                                                                 "type":  "string",
+                                                                                 "description":  "Reference to File.path.",
+                                                                                 "required":  true
+                                                                             },
+                                                                    "role":  {
+                                                                                 "type":  "string",
+                                                                                 "description":  "Role of this file in the paper.",
+                                                                                 "required":  true,
+                                                                                 "enum":  [
+                                                                                              "primary",
+                                                                                              "alternate",
+                                                                                              "derived",
+                                                                                              "unknown"
+                                                                                          ],
+                                                                                 "default":  "unknown"
+                                                                             },
+                                                                    "canonical":  {
+                                                                                      "type":  "boolean",
+                                                                                      "description":  "Whether this is the canonical/preferred representation. Does NOT mean other files should be deleted.",
+                                                                                      "required":  true,
+                                                                                      "default":  false
+                                                                                  },
+                                                                    "notes":  {
+                                                                                  "type":  "string",
+                                                                                  "description":  "Additional notes about this membership.",
+                                                                                  "required":  false,
+                                                                                  "default":  ""
+                                                                              },
+                                                                    "created_at":  {
+                                                                                       "type":  "string",
+                                                                                       "description":  "ISO 8601 timestamp.",
+                                                                                       "required":  true
+                                                                                   }
+                                                                },
+                                                     "source":  "catalog/paper_files.csv"
+                                                 },
+                         "Source":  {
+                                        "description":  "Provenance information. Tracks where a file came from (original archive, OCR, re-export, etc.).",
+                                        "primary_key":  "source_id",
+                                        "fields":  {
+                                                       "source_id":  {
+                                                                         "type":  "string",
+                                                                         "description":  "Deterministic ID: SRC-{path_hash}",
+                                                                         "required":  true,
+                                                                         "unique":  true
+                                                                     },
+                                                       "path":  {
+                                                                    "type":  "string",
+                                                                    "description":  "Reference to File.path.",
+                                                                    "required":  true
+                                                                },
+                                                       "source_type":  {
+                                                                           "type":  "string",
+                                                                           "description":  "Type of source.",
+                                                                           "required":  true,
+                                                                           "enum":  [
+                                                                                        "original_archive",
+                                                                                        "ocr",
+                                                                                        "re_export",
+                                                                                        "scan",
+                                                                                        "digital_native",
+                                                                                        "unknown"
+                                                                                    ],
+                                                                           "default":  "unknown"
+                                                                       },
+                                                       "source_identifier":  {
+                                                                                 "type":  "string",
+                                                                                 "description":  "Original source identifier (e.g., archive name, URL). Distinct from paper_id.",
+                                                                                 "required":  false,
+                                                                                 "default":  "unknown"
+                                                                             },
+                                                       "acquisition_date":  {
+                                                                                "type":  "string",
+                                                                                "description":  "When the file was acquired. \u0027unknown\u0027 if not determinable.",
+                                                                                "required":  false,
+                                                                                "default":  "unknown"
+                                                                            },
+                                                       "notes":  {
+                                                                     "type":  "string",
+                                                                     "description":  "Additional provenance notes.",
+                                                                     "required":  false,
+                                                                     "default":  ""
+                                                                 },
+                                                       "created_at":  {
+                                                                          "type":  "string",
+                                                                          "description":  "ISO 8601 timestamp.",
+                                                                          "required":  true
+                                                                      }
+                                                   },
+                                        "source":  "catalog/sources.csv"
+                                    },
+                         "DuplicateRelation":  {
+                                                   "description":  "Exact duplicate relationship between files. Based solely on SHA-256 match.",
+                                                   "primary_key":  "relation_id",
+                                                   "fields":  {
+                                                                  "relation_id":  {
+                                                                                      "type":  "string",
+                                                                                      "description":  "Deterministic ID: DUP-{sha256_prefix}",
+                                                                                      "required":  true,
+                                                                                      "unique":  true
+                                                                                  },
+                                                                  "duplicate_group":  {
+                                                                                          "type":  "string",
+                                                                                          "description":  "Group identifier from G2. Format: DG{NNNNN}.",
+                                                                                          "required":  true
+                                                                                      },
+                                                                  "sha256":  {
+                                                                                 "type":  "string",
+                                                                                 "description":  "SHA-256 hash shared by all members.",
+                                                                                 "required":  true,
+                                                                                 "pattern":  "^[0-9A-Fa-f]{64}$"
+                                                                             },
+                                                                  "member_count":  {
+                                                                                       "type":  "integer",
+                                                                                       "description":  "Number of files in this duplicate group.",
+                                                                                       "required":  true,
+                                                                                       "minimum":  2
+                                                                                   },
+                                                                  "member_index":  {
+                                                                                       "type":  "integer",
+                                                                                       "description":  "Index of this member within the group.",
+                                                                                       "required":  true,
+                                                                                       "minimum":  1
+                                                                                   },
+                                                                  "path":  {
+                                                                               "type":  "string",
+                                                                               "description":  "Reference to File.path.",
+                                                                               "required":  true
+                                                                           },
+                                                                  "relation_type":  {
+                                                                                        "type":  "string",
+                                                                                        "description":  "Must be \u0027exact_duplicate\u0027 for G2.",
+                                                                                        "required":  true,
+                                                                                        "enum":  [
+                                                                                                     "exact_duplicate"
+                                                                                                 ],
+                                                                                        "default":  "exact_duplicate"
+                                                                                    },
+                                                                  "recorded_at":  {
+                                                                                      "type":  "string",
+                                                                                      "description":  "ISO 8601 timestamp.",
+                                                                                      "required":  true
+                                                                                  }
+                                                              },
+                                                   "source":  "catalog/duplicates.csv"
+                                               },
+                         "WorkRelation":  {
+                                              "description":  "Relationship between papers or files that represent the same intellectual work.",
+                                              "primary_key":  "relation_id",
+                                              "fields":  {
+                                                             "relation_id":  {
+                                                                                 "type":  "string",
+                                                                                 "description":  "Deterministic ID: WR-{hash}",
+                                                                                 "required":  true,
+                                                                                 "unique":  true
+                                                                             },
+                                                             "relation_type":  {
+                                                                                   "type":  "string",
+                                                                                   "description":  "Type of work relation.",
+                                                                                   "required":  true,
+                                                                                   "enum":  [
+                                                                                                "exact_duplicate",
+                                                                                                "near_duplicate",
+                                                                                                "same_work_different_format",
+                                                                                                "same_work_different_version"
+                                                                                            ]
+                                                                               },
+                                                             "source_entity_type":  {
+                                                                                        "type":  "string",
+                                                                                        "description":  "Type of source entity.",
+                                                                                        "required":  true,
+                                                                                        "enum":  [
+                                                                                                     "file",
+                                                                                                     "paper"
+                                                                                                 ]
+                                                                                    },
+                                                             "source_entity_id":  {
+                                                                                      "type":  "string",
+                                                                                      "description":  "ID of source entity (path for file, paper_id for paper).",
+                                                                                      "required":  true
+                                                                                  },
+                                                             "target_entity_type":  {
+                                                                                        "type":  "string",
+                                                                                        "description":  "Type of target entity.",
+                                                                                        "required":  true,
+                                                                                        "enum":  [
+                                                                                                     "file",
+                                                                                                     "paper"
+                                                                                                 ]
+                                                                                    },
+                                                             "target_entity_id":  {
+                                                                                      "type":  "string",
+                                                                                      "description":  "ID of target entity (path for file, paper_id for paper).",
+                                                                                      "required":  true
+                                                                                  },
+                                                             "confidence":  {
+                                                                                "type":  "string",
+                                                                                "description":  "Confidence level of the relation.",
+                                                                                "required":  true,
+                                                                                "enum":  [
+                                                                                             "high",
+                                                                                             "medium",
+                                                                                             "low",
+                                                                                             "unknown"
+                                                                                         ],
+                                                                                "default":  "unknown"
+                                                                            },
+                                                             "evidence":  {
+                                                                              "type":  "string",
+                                                                              "description":  "Evidence supporting this relation.",
+                                                                              "required":  false,
+                                                                              "default":  ""
+                                                                          },
+                                                             "status":  {
+                                                                            "type":  "string",
+                                                                            "description":  "Relation status.",
+                                                                            "required":  true,
+                                                                            "enum":  [
+                                                                                         "active",
+                                                                                         "needs_review",
+                                                                                         "deprecated"
+                                                                                     ],
+                                                                            "default":  "needs_review"
+                                                                        },
+                                                             "recorded_at":  {
+                                                                                 "type":  "string",
+                                                                                 "description":  "ISO 8601 timestamp.",
+                                                                                 "required":  true
+                                                                             },
+                                                             "updated_at":  {
+                                                                                "type":  "string",
+                                                                                "description":  "ISO 8601 timestamp of last update.",
+                                                                                "required":  true
+                                                                            }
+                                                         },
+                                              "source":  "catalog/work_relations.csv"
+                                          }
+                     },
+    "paper_id_pattern":  {
+                             "format":  "CUMCM-{YEAR}-{PROBLEM}-{ID}",
+                             "description":  "Year, problem code, and identifier. Supports both numeric IDs (001) and source identifiers (A066).",
+                             "example":  "CUMCM-2015-A-001, CUMCM-2025-A-A066, CUMCM-2025-C-C023",
+                             "year_range":  "1992-2025",
+                             "sequential_digits":  4,
+                             "stability":  "Paper IDs are stable once assigned. New papers get new IDs. Existing IDs are never reassigned.",
+                             "stability_guarantee":  "PASS",
+                             "problem_codes":  [
+                                                   "A",
+                                                   "B",
+                                                   "C",
+                                                   "D",
+                                                   "E"
+                                               ],
+                             "id_types":  [
+                                              "numeric",
+                                              "source_identifier"
+                                          ]
+                         },
+    "relation_types":  {
+                           "exact_duplicate":  {
+                                                   "description":  "Files with identical SHA-256 hashes. Byte-for-byte identical.",
+                                                   "determination":  "SHA-256 match only.",
+                                                   "scope":  "File to File"
+                                               },
+                           "near_duplicate":  {
+                                                  "description":  "Files that are very similar but not byte-identical. May differ in metadata, formatting, or minor edits.",
+                                                  "determination":  "Content similarity analysis (not in G3-00).",
+                                                  "scope":  "File to File or Paper to Paper"
+                                              },
+                           "same_work_different_format":  {
+                                                              "description":  "Same intellectual work in different file formats (e.g., PDF and DOCX of same paper).",
+                                                              "determination":  "Content analysis and metadata matching (not in G3-00).",
+                                                              "scope":  "File to File or Paper to Paper"
+                                                          },
+                           "same_work_different_version":  {
+                                                               "description":  "Same intellectual work with substantive differences (e.g., draft vs. final, revised edition).",
+                                                               "determination":  "Content analysis and version detection (not in G3-00).",
+                                                               "scope":  "File to File or Paper to Paper"
+                                                           }
+                       },
+    "unknown_needs_review_semantics":  {
+                                           "unknown":  {
+                                                           "description":  "The value cannot be determined from available information. Not an error, just insufficient data.",
+                                                           "usage":  "Use for year, problem_code, title, authors, institution, award, source_type when not determinable.",
+                                                           "implication":  "Does not block processing. May be resolved in later stages."
+                                                       },
+                                           "needs_review":  {
+                                                                "description":  "The value requires human review or additional analysis before it can be confirmed.",
+                                                                "usage":  "Use for paper status, relation status when confidence is low or conflicting evidence exists.",
+                                                                "implication":  "Blocks automated processing until reviewed. Items with needs_review should be surfaced in reports."
+                                                            }
+                                       },
+    "referential_integrity":  {
+                                  "description":  "All foreign key references must point to existing records.",
+                                  "rules":  [
+                                                "PaperFileMembership.paper_id must reference existing Paper.paper_id",
+                                                "PaperFileMembership.path must reference existing File.path",
+                                                "Source.path must reference existing File.path",
+                                                "DuplicateRelation.path must reference existing File.path",
+                                                "WorkRelation.source_entity_id must reference existing File.path or Paper.paper_id",
+                                                "WorkRelation.target_entity_id must reference existing File.path or Paper.paper_id"
+                                            ],
+                                  "validation":  "PASS"
+                              },
+    "relation_id_deterministic":  {
+                                      "description":  "Relation IDs must be deterministic and reproducible.",
+                                      "rules":  [
+                                                    "membership_id = MEM-{paper_id}-{hash(path)[:8]}",
+                                                    "source_id = SRC-{hash(path)[:8]}",
+                                                    "relation_id = DUP-{sha256[:8]}",
+                                                    "relation_id = WR-{hash(source_entity_id + target_entity_id)[:8]}"
+                                                ],
+                                      "no_random_uuid":  true,
+                                      "validation":  "PASS"
+                                  },
+    "cross_year_exact_duplicate_rules":  {
+                                             "description":  "How to handle exact duplicates that span multiple years.",
+                                             "rule":  "Exact duplicates across years are preserved. Each file retains its original path and year. The duplicate relation is recorded. No automatic deletion or merging.",
+                                             "example":  "If 2019/file.pdf and 2020/file.pdf have same SHA-256, both are kept. DuplicateRelation records the relationship.",
+                                             "validation":  "PASS"
+                                         },
+    "mixed_extension_exact_duplicate_rules":  {
+                                                  "description":  "How to handle exact duplicates with different file extensions.",
+                                                  "rule":  "Exact duplicates with different extensions are preserved. Each file retains its original path and extension. The duplicate relation is recorded. No automatic deletion or merging.",
+                                                  "example":  "If file.pdf and file.doc have same SHA-256, both are kept. DuplicateRelation records the relationship.",
+                                                  "validation":  "PASS"
+                                              },
+    "canonical_preferred_semantics":  {
+                                          "description":  "The \u0027canonical\u0027 flag in PaperFileMembership does NOT imply other files should be deleted.",
+                                          "rule":  "canonical=true indicates the preferred representation for display/analysis purposes. All other representations are preserved.",
+                                          "validation":  "PASS"
+                                      },
+    "write_ownership":  {
+                            "G3-01":  {
+                                          "description":  "Paper ID Assignment",
+                                          "can_write":  [
+                                                            "catalog/papers.csv"
+                                                        ],
+                                          "can_read":  [
+                                                           "catalog/files.csv",
+                                                           "catalog/manifest.jsonl",
+                                                           "catalog/duplicates.csv",
+                                                           "catalog/schema/*"
+                                                       ]
+                                      },
+                            "G3-02":  {
+                                          "description":  "Paper-File Membership Assignment",
+                                          "can_write":  [
+                                                            "catalog/paper_files.csv"
+                                                        ],
+                                          "can_read":  [
+                                                           "catalog/files.csv",
+                                                           "catalog/papers.csv",
+                                                           "catalog/schema/*"
+                                                       ]
+                                      },
+                            "G4":  {
+                                       "description":  "PDF Audit",
+                                       "can_write":  [
+                                                         "catalog/pdf_audit.csv",
+                                                         "reports/G4_pdf_audit.md"
+                                                     ],
+                                       "can_read":  [
+                                                        "catalog/files.csv",
+                                                        "catalog/papers.csv",
+                                                        "catalog/paper_files.csv",
+                                                        "catalog/schema/*"
+                                                    ]
+                                   }
+                        }
+}

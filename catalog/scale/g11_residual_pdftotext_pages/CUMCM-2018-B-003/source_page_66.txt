@@ -1,0 +1,68 @@
+if tQ(i)<aa(j,3)
+tQ(i)=aa(j,3)+T(6)+T(7);
+else
+tQ(i)=tQ(i)+T(6)+T(7);
+end
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+end
+d=dT(abs(QQ(i,2)-QQ(i,1))+1);
+tQ(i)=tQ(i)+d;
+for j=1:4
+if QQ(i,2)==aa(j,1)
+if tQ(i)<aa(j,3)
+tQ(i)=aa(j,3)+T(6)+T(7);
+else
+tQ(i)=tQ(i)+T(6)+T(7);
+end
+end
+end
+d=dT(abs(QQ(i,2)-QQ(i,3))+1);
+tQ(i)=tQ(i)+d;
+for j=1:4
+if QQ(i,3)==aa(j,1)
+if tQ(i)<aa(j,3)
+tQ(i)=aa(j,3)+T(6)+T(7);
+else
+tQ(i)=tQ(i)+T(6)+T(7);
+end
+end
+end
+d=dT(abs(QQ(i,4)-QQ(i,3))+1);
+tQ(i)=tQ(i)+d;
+for j=1:4
+if QQ(i,4)==aa(j,1)
+if tQ(i)<aa(j,3)
+tQ(i)=aa(j,3)+T(6)+T(7);
+else
+tQ(i)=tQ(i)+T(6)+T(7);
+end
+end
+end
+
+end
+[tQmin,tQind]=min(tQ);
+aa(5:8,1)=QQ(tQind,:)';
+aa(1:4,5)=QQ(tQind,:)';
+66
+
+

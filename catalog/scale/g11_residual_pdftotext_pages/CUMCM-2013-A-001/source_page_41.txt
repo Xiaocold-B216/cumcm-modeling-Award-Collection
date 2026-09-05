@@ -1,0 +1,47 @@
+%%其中改道的概率分别是 P(1,2)=.1,P(2,1)=.3,P(2,3)=.1,P(3,2)=.2%%%
+%%%%%%%%%%%%%%%其中 P(i,j)指从 i 车道改道 j 车道的概
+率%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+
+for j=3:road_length
+if
+(road_next(1,j)>0)&&(road_next(2,j)==0)&&(road_next(1,j-1)||road_next(1,j-2)||road_next(1
+,max(j-3,1))) %一道到二道
+temp = rand(1);
+if(temp>0.9)
+road_next(2,j)=1;
+road_next(1,j)=0;
+end
+for k=j:min(j+3,road_length)
+if(road_next(2,k)>0)
+road_next(2,k)=min(road_next(2,k),1);
+end
+end
+end
+
+if
+(road_next(2,j)>0)&&(road_next(1,j)==0)&&(road_next(2,j-1)||road_next(2,j-2)||road_next(2
+,max(j-3,1))) %二道到一道
+temp = rand(1);
+if(temp>0.85)
+road_next(1,j)=1;
+road_next(2,j)=0;
+end
+for k=j:min(j+3,road_length)
+if(road_next(1,k)>0)
+road_next(1,k)=min(road_next(1,k),1);
+end
+end
+end
+
+if
+(road_next(2,j)>0)&&(road_next(3,j)==0)&&(road_next(2,j-1)||road_next(2,j-2)||road_next(2
+,max(j-3,1))) %二道到三道
+temp = rand(1);
+if(temp>0.9)
+road_next(3,j)=1;
+road_next(2,j)=0;
+7
+
+

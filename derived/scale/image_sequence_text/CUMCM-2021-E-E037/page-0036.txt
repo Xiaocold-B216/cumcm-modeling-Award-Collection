@@ -1,0 +1,41 @@
+score_r = clf.score(Xtest, Ytest)
+print(score_r)
+clf = clf-fit{X_know, y_know)
+print{clf.score(X_know, y_knowy))
+print{clf.predict{X_unknow))
+[*zip(BC_index, clf.predict(X_unknow))]
+dataO['OP'] = dataO['OP'].astype(int)
+data0
+data_X = pd.DataFrame(data0.iloc[:,3:].values - data0.iloc[:,2:-1].values, index = data0.index)
+data_X
+colors = ["r", "g", "b", "c", "m", "y", "navy", "purple", "gold", "gray", "orange", "lime", "pink",
+"tomato", "khaki", "azure", "linen", "rose", |
+plt.figure(' 附 件 四 Class', figsize = (5, 3), dpi = 300)
+plt.xticks{range(0, 10000, 1000), rotation = 45, fontsize = 5)
+plt.yticks(fontsize = 5)
+plt.xlabel(' 波 段 ,fontsize = 5)
+plt.ylabel(' 吸 光度 , fontsize = 5)
+plt.grid(True)
+fori in range(data_X.shape[0]):
+
+plt.plot{data_X.columns[2:], data_X.iloc[i,2:], color = colors[int{data0.iloc[i,1])], linewidth =
+0.5)
+plt.show()
+max_min = data_X.agg(lambda x: x.max() - x.min())
+print{max_min.describe())
+data_X1 = data_X.loc[:,max_min > max_min.mean() + 0 * max_min.std({)]
+# datal = data_X
+print{data_X.shape, data_X1.shape)
+data_X_know = data_X1.loc[dataO['OP'] != 0]
+data_X_unknow = data_X1.loc[data0['OP'] == 0]
+print{data_X_know.shape, \n', data_X_unknow.shape)
+print{data_X_know.index, "\n', data_X_unknow.index)
+data_y_know = data0.loc[dataO['OP'] !=0, 'OP']
+print{data_X_know.shape, data_y_know.shape, data_X_unknow.shape)
+print{data_y_know.index)
+from scipy.spatial import distance_matrix
+dis = pd.DataFrame(distance_matrix(data_X_know.values, data_X_unknow.values), index =
+data_X_know.index, columns = data_X_unknow.index)
+dis_group = pd.concat{[data_y_know, dis], axis = 1)
+
+36

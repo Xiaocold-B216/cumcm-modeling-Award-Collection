@@ -1,0 +1,50 @@
+end
+[~,I1]=sort(desity);
+[~,I2]=sort(dis_highdesity);
+[~,I3]=sort(I1);
+[~,I4]=sort(I2);
+I=I3+I4;
+[~,E]=sort(I);
+for i=1:length(address_order)
+dist(i,i)=inf;
+end
+Q=ones(1,length(address_order));
+for i=E
+if percent(i)<k
+L=[];
+else
+K=find(dist(i,:)<theta(i));
+J=find(percent(K)<k);
+L=K(J);
+M=[];m=1;
+for n=1:length(L)
+if Q(L(n))==0
+M=[M;n];
+m=m+1;
+else
+Q(L(n))=0;
+end
+end
+if ~isempty(M)
+L(M)=[];
+end
+if Q(i)==0
+O=[];
+else
+O=i;
+end
+if length(L)>3
+L=L(1:3);
+end
+eval(['a{',num2str(i),'}=','[L,O]',';']);
+end
+end
+for i=1:length(a)
+group_amount(i)=length(a{i});
+end
+for i=1:max(group_amount)
+eval(['Group',num2str(i),'=[]',';']);
+eval(['G',num2str(i),'=find(','group_amount','==','i',');']);
+38
+
+

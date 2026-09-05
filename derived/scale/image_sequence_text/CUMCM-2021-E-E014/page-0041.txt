@@ -1,0 +1,40 @@
+15. sm = k_deriv2;
+16. sgfl = mapstd(sgf1) 数据 标准 化
+17. y_tiqu = sgFA(:, tiqu_column);
+15. sg1(:, tiqu_column) = [];
+se [sgfliop];
+20. % classificationtearner XRREHHRETAE
+1. xxGsdiff2
+2. qcaer
+3. a= xiscead(CHHfF 2.x05x');
+4. a=atix = a(iend,1)sy = a(2iend, 2iend);
+s. XERRERHEH
+5. tiqu_column - [3 14 38 48 58 7179 86 89 ...
+里 110 134 152 227 331 618];
+5. op = y(1,);
+o. op(:, tiqu_coluem) = [];
+10. 8 - y(2iend, );
+11. order - 5;
+12. ranelen = 11;
+13. 5gf = sgolayfilt(Biorder franelen); « X5G
+1 k_deriva = GiFF(sef,2); xs6 数据 的 二 阶 求 导
+15. se -deriv2i
+16. sefl -mapgtdtsegfD 数据 标准 化
+17. y tiqu 和 (tiqi_column);
+16. sgri(:, tiqu_colum) - (1;
+19..5871 [sgfliop];
+20. % classificationtearner 外 调用 分 类 器 工具 条
+.xsave('datazhENmat' ytrainedhodel')
+22. load datazneh
+23. yuce - trainedodel predictFen(y_tiqu);
+op - [61471069113492583] % 得 到 六 所 在 的 0p
+1 xxassoonth
+elcielear
+xlsread( "附件 2.xlsx 5
+4. a=a%ix = a(3iend,1)jy - a(2iend,2iend);
+s. x 浊 取 和 要 鉴别 药材
+tiqu colwmm = [31 38 48 58 7179 86 89 ...
+7. 110 134 152 227 331 618];
+5. op = y(1,);
+o. on(:, tiqu_coluen) = [1;
+加

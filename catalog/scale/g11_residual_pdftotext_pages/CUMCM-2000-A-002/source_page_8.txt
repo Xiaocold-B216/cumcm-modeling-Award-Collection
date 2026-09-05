@@ -1,0 +1,82 @@
+1期
+
+吕金翅等: DNA 序列分类的数学模型
+
+53
+
+变短, 但是由随机信号在各方向上的平均性, 总体前进方向并未受到影响, 故我们只提取方
+向而忽略距离作为特征信息.
+我们从不同角度, 提取序列整体上和局部之间的特征, 建立了以上三种数学模型. 三种
+模型各有优劣, 但他们在特征提取, 模式识别和分类上的都具有一定的普适性和优越性.
+参考文献:
+[1]
+
+郝柏林, 刘寄星. 理论物理与生命科学. 上海科学技术出版社.
+
+[2]
+
+金冬燕, 金
+
+流
+
+奇, 侯云德. 核酸和蛋白质的化学合成与序列分析. 科学出版社.
+
+LU J in 2ch i,
+
+研
+
+交
+
+The M a thema tica l M odels on the Cla ssif ica tion
+of The D NA Sequences
+M A X iao 2long,
+
+CAO Fang
+
+Abstract:
+
+：
+科
+
+(T he U n iversity of Science and T echno logy of Ch ina,
+
+H efei 230026)
+
+T h is p ap er dea ls w ith the p rob lem of how to cla ssify the DNA sequences from th ree
+
+d ifferen t ang les and acco rd ing ly estab lishes th ree k ind s of m odels.
+F irstly, on the po in t of b io log ica l backg round and geom etrica l symm etry, w e estab lished a
+
+号
+
+descrip tive m odel of 32d im en siona l sp ace cu rve on the DNA sequence, by w h ich w e go t a
+rud im en ta ry m a them a tica lm odel2Ca lcu lu s m odel. T h rough the in teg ra tion of the m odel function,
+w e have acqu ired the cla ssifica tion resu lts of the DNA sequences from 1 to 20, and found them
+
+公
+众
+
+iden tica l to the cla ssifica tion resu lts g iven by the p rob lem. T hen w e cla ssified the la tter 20 DNA
+sequences.
+
+T hen, on the view of the a rtificia l neu ra l netw o rk s, a second m odel - T he A rtificia l neu ra l
+netw o rk s m odel w a s estab lished. W e cho sen th ree k ind s of ba sic netw o rk s, w h ich w ell fit in to
+the cla ssifica tion a t la st. A nd by the sam e tim e, w e p ropo sed the im p rovem en t of the B P netw o rk,
+
+信
+
+and fina lly p rocu red com p a ra tively idea l cla ssifica tion resu lts by va riou s tra in ing p rog ramm es.
+a lso, w e found the resu lts iden tica l to w ha t w e have go t by Ca lcu lu s m odel.
+B y the end, w e endow ed A , C , G, T w ith geom etrica l m ean ing: A ind ica tes righ t, w h ile C a s
+
+微
+
+dow n, G a s up , T a s left. W e go t a m ob ile cu rve from each sequence w ith the po in ts of the p la in
+
+m oving acco rd ing to the con tro lling of the DNA sequence. B y fo llow ing the fea tu re of the m oving
+d irection, the m odel function w a s estab lished. B y the w ay w e acqu ired the cla ssifica tion resu lts of
+the la tter 20 DNA sequences and found them p ractica lly iden tica l to the resu lts of the tw o above
+m odels (O ne of resu lts d ifferen tly show ed in th is m odel is rega rded a s ind ivisib le ). T h is m odel
+con ta in s m o re info rm a tion, and is m o re stab le.
+
+

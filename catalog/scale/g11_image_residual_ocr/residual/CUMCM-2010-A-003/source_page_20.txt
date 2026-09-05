@@ -1,0 +1,46 @@
+马 :二
+u 更
+CLyes
++2%rxrkrxatan (0. 625%x/ (rksqrt (2. 25-x%x))) /3+2. 0289;
+return ans;
+}
+double g(double x)
+{
+double ans =
+AxPT#R*R— (R¥R* (R-x+8*tan (p1) ) *asin ((R-x+8%tan (p1)) /R) +R*R¥sqrt (2R* (x
+-8#tan (pl))- (x-8*tan (pl))* (x-8*tan(pl))) ~R*R* (R-x) *asin ((R-x) /R) ~R*Rx*
+sqrt (2%R*x—x*x) —pow ( (2%R* (x—8*tan (p1) )- (x-8*tan (p1) ) * (x-8*tan(pl))), I.
+5) /3+pow ((2%Rkx—x*x), 1.5)/3)/tan(pl);
+return ans; #7
+| -人 从 >
+“W
+-CA
+int main()
+{ 由
+double H1, VI, H, H2, hl, h2;
+double out, s, t, ans, ansx, ansy, ansz, A S,%pppp;
+\ 7
+double numx[1024], numy[1024], leftf1024%;
+4 \ SN
+freopen( in2. txt”, “r”, stdin);
+freopen (“outl. txt”, “w”, stdout);
+numx[0] = 0; o
+So
+while (scanf ("%1f %1f”, 及 numg[k]，&numy[k]) == 2)
+{
+numx[k] += n k ;
+) k++; =
+yp k) ;
+C]
+os = 100000000 ;
+六 处 先 采 用 大 范围 大 步 长 、 再 使 用 小 范围 小 步 长
+全 nt qq = 5850; qq <= 5950; qq++)
+double q = (double)qq/100;
+ans = 100000000;
+for(int j = 40; j《= 60; j++)
+{
+for(int i = 190; i <= 220; i++)
+{
+pl = (double)i/18000%P1; //ff)&
+p2 = (double) j/1800%P1;
+-19 -

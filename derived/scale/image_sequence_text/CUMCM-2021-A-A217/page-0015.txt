@@ -1,0 +1,36 @@
+和 ta)
+和 rr(h)emor(A) (ojegB 用
+志 rr) 3
+人 Toe030 sOD)
+Na 人 -severeUDjraert
+rsjrsvO)
+& 上 stmCD)as0)
+BNB (ae(1).3e ().203)
+图 9， 反馈 面板 三 角形 区 域 示意 图
+设 一 点 (zwgw;zm) 在 线段 及 Bs 上 ， 则 其 在 z 轴 的 坐标 可 以 表示 为 :
+aw =niaw (§) + razw (说 CD
+其 中 ,mu 加 >0 且 站 十 突 一 1。 接 着 ， 设 另 一 点 (zyzt ) 在 点 (zw;gywyztr) 与 忆 为 端点
+的 线段 上 ， 该 点 在 > 轴 上 的 坐标 可 以 表示 为 :
+anmz( 让 十 amazw( 说 十 ozw( 襄 a
+it, 8,8,>0Ha +8=1.
+ian=t, sra=t, s=ts. Hilt+h+t=106>0,L>0, t,>0. @Ed
+WZATEY B5 2 BAEAR. LLL, 1931T —A7ELLBLBy By Ja TNSUR ARAY = itTE09 HF
+面 上 的 坐标 为:
+ap ze- (说 2w Go)) (0
+wr |=|wwG) Ga wGo) || & -3)
+欧 ) Na( 侣 各 加 种 ( 间 人 \ta
+将 外 一 1 一 丘 一 刀 代 入 式 (7-3) 约 去 z 轴 的 坐标 ， 并 根据 矩阵 运算 法 则 可 得 :
+(“) s (=2 —aw (G) 2w(id) TRON(wa) 人
+t) (说 一 如 ww (G) —ww (G)) \wiw —ww (is)
+注意 到 三 个 点 B, BaB。 为 三 角形 的 三 个 项 点 ， 式 (7-4) 中 的 逆 矩 阵 总 是 存在 。 因 此 ，
+当 坐 标 (zy;g 多 ) 给 定时 ， 可 以 根据 式 (7-4) 计 算 丰 和 如 的 值 ， 进 而 判断 该 点 的 水 平面 投影
+是 否 在 三 角形 的 水 平面 投影 的 内 部 。 根 据 实 际 条 件 ， 对 于 任意 在 驳 十 娩 寺 150? 范 围 内
+的 (zy,gy)， 都 有 一 个 了 E :7 使 得 其 在 了 所 指 代 的 三 角形 内 部 。 故 可 进一步 根据 式 (7-3) 求
+得 (zy,yy) 对 应 的 z 轴 坐标 为:
+2ie =tuzw (3) + taz (32) + taz (is) a-5
+JW, BHERE ERMMBTRIAR, IHRIAT L=45ByBy B ARV
+向 量 地 一 (euieziea， 有 :
+aw (n) —zw(2) ww () —uw (a) 各 (条 一 种 (和 Ne 0
+2w (i) —aw (is) ww(G) —ww(Go) 2w() —awCin) [| e2|=[O) oo
+2w (a) —2w (5) w (Gs) —vw () 2w (Ga) — 2w (3)/ \es, 0，
+15

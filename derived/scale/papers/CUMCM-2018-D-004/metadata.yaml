@@ -1,0 +1,36 @@
+paper_id: CUMCM-2018-D-004
+year: 2018
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q2
+authority_sources:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018D：汽车总装线配置的优化模型研究.pdf
+  sha256: 6B9B3A408D9D55D049255A13BA2C14A078325897D7264DE3A719958346673D7C
+authority_sha256: 6B9B3A408D9D55D049255A13BA2C14A078325897D7264DE3A719958346673D7C
+paper_file_memberships:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018D：汽车总装线配置的优化模型研究.pdf
+  role: primary
+  canonical: true
+primary_file: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018D：汽车总装线配置的优化模型研究.pdf
+extraction_inputs:
+- path: derived/scale/pdf_ocr/CUMCM-2018-D-004.readable.pdf
+  sha256: 21759860AAF0A20A97A479D610011026365EDC4F04C260FEA4F3D4F22D34E95B
+  kind: g8_q2_ocr_derivative
+extraction_input_sha256: 21759860AAF0A20A97A479D610011026365EDC4F04C260FEA4F3D4F22D34E95B
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: poppler-pdftotext
+page_count: 40
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+repair_provenance:
+  stage: G8-RM-Q2
+  source_sha256: 6B9B3A408D9D55D049255A13BA2C14A078325897D7264DE3A719958346673D7C
+  derived_sha256: 21759860AAF0A20A97A479D610011026365EDC4F04C260FEA4F3D4F22D34E95B
+  derivative_file_path: derived/scale/pdf_ocr/CUMCM-2018-D-004.readable.pdf
+  source: existing local frozen derivative; no OCR rerun

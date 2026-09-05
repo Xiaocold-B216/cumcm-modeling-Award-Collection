@@ -1,0 +1,39 @@
+Bgae
+到 本 co
+mEEHE
+public void total(){ /总 目标 函数
+int index = 0;
+double mubiaol = 0.0;
+double mubiao2 = 0.0;
+double mubiao3 = 0.0;
+double mubiao4 = 0.0;
+double mubiao5 = 0.0;
+double temp = 0.0;
+double tt= 0.0;
+for(index = 0;index<size;index++){ %
+o
+mubiaol = studuan(xuefei[index],shouru[index]); 一 Si
+mubiaol = mubiaol *dongtai(mubiaol); 2XG \
+mubiao2 = xueduan(xuefei[index]);
+mubiao2 = mubiao2*dongtai(mubiao2); As
+temp = renshufindex]*bokuan[inde X
+mubiao3 =zhengduan(feiyong[index],temp);
+mubiao3.= mubiao3*dongtai(mubiag3);
+O
+7
+Iaubiao4 = shechang Pefeilindexly
+mubiaos = peoplechéng(xuefeifindex]);
+tt= or 条 oormioyormotnoog
+System.OPDiigitln(" 第 "+(index+l)+" 评 价 结果 为 : "+tb;
+6 | 记
+| \
+KK
+WR-
+msmatan java 程序 ;
+import java.util.*;
+public class moni {
+private static final double max = 10000.0;
+private static final double min = 4000.0;
+private static final double F = 143001384.57;
+private static final double N =9313.57;
+35

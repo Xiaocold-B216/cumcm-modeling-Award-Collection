@@ -1,0 +1,71 @@
+to colum -0415 22 38 34 45 74 114 178 269];
+py
+
+16. op(:, tiqu_column) - 0
+
+和 ae y(2iend, );
+
+12. order + 5;
+
+15. framelen = 1
+
+16. sf = sgolayF1E(B,onder, fronelen);  X5
+
+15. k_deriva = diff 人 sg,2) 56 攻 据 的 一 阶 求 导
+1 eriv2
+
+17. 5871 = mapstd(sef)5 数据 标准 化
+
+15. y_tiau = sf(:vtiqu_column)i
+
+15. sgF1(:, tiqucotumn) = Di
+
+.sa = [sgfljop];
+
+21. xclassificationLeamer 此 处 调用 分 类 吴 工 具 条
+外 sGdiff1
+
+2 acaer
+
+-asread( "了 入 3.xlsxr ， 中 红 外"
+
+和 ten)5 = aaendyazend);
+
+s. x 规 到 而 要 枚 药材
+
+5 tiqu_column = [4 15 22 30 34 45 74 114,170 209];
+
+op yb
+
+5. op(:, tiqu_columy = [1;
+
+o. 8< y(aiena, );
+
+16. mas;
+
+11. framelen - 1
+本
+
+15. k_derivi = difftsgfi; 56 数据 的 一 阶 求 导
+16. 5g71 erivl
+
+15. se = mapsta(sgra); XSHRIIE
+
+16. yq = sgF(:, tiau_column);
+
+17. s871(:, tiqu_cotumn) = [1;
+
+se = [sgfliop];
+
+19. % classificationLearner XRARARBTRE
+让 di 人
+
+acialear
+
+asread(" 阶 伟 3.xasx'， 中 红外 "5
+
+和 end 让 = a(2iend,2:end);
+
+s. AREERHGH
+
+6. tiqu_colum = [4 15 22 30 34 45 74 114 170 209];

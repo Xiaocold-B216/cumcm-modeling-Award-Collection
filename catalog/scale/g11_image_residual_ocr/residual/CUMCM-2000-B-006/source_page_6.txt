@@ -1,0 +1,35 @@
+加
+第 31 卷 第 1 其 数学 的 实践 与 认识 Vol31 N BRRASE
+200! 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan le
+The Order and Transportation of Pipelines
+DNG Yong, XUE Fei, ZHANG Zhen
+(Southeast U niversity, Nangjing 210096)
+Abstract We succeeded in draw ing up an optimal plan for the order and neMR N
+pipelines by establishing two models A diagrammatic model is set up for the mV in
+which there is no branch in the track of pipelines Solution of epblotyfle equivalent to
+the plan thatm inin izes some area of a special diagram. The idea of flow ij ¥ Ips to set
+up a non-linear programm ingmodel for the last problem w here the frack is a tree diagram. The
+regular fom of the modelmakes it convenient to find the sol ENO。 SAS System. The
+model is also used to give an accurate sensitivity 5P roblem.
+一 类 运输 问题 的 建 模
+,出 、
+Re 李 健
+AAA *， 武 汉 430072)
+摘要 : co 后 Poor 题 的 命题 思路 , 两 种 主要 的 建 模 与 求解 方法
+一 -一
+1 2
+7 刘 帮 寻 栅 况 检 的 题 , 本 质 上 是 一 类 运输 问题
+运输 1 全 人 全 人 的 估 人 大 由 于 实际 问题 的 多 样 性 , 运输 问题
+的 模型 划 是 各 和 各 样 的 往往 涉及 到 优化 领域 中 的 网 络 优化 、 线性 规划 ,二 次 规划 ,0 一 1 规
+则 生 分 支 ，“ 有 些 运输 问题 还 涉及 非 线性 规划 , 随机 优化 、 排队 论 时 间 表 问题 ,库存 问题 等 运
+is
+村 半 的 诸多 领域
+刀 最 简单 的 运输 问题 模型 就 是 线性 规划 中 的 标准 运输 问题 , 用 单纯 形 法 求解 此 类 特殊 问
+题 的 具体 实现 就 是 表 上 作业 法 '… 它 的 存储 规模 小 求解 步骤 简单 , 是 实际 中 常常 遇 到 的 一
+类 模型 和 方法
+B 题 命题 的 主要 动机 是 结合 当前 西 气 东 输 工程 的 背景 , 让 参赛 学 生 综 合 运用 网 络 优化 、
+线性 规划 或 二 次 规划 和 整数 规划 等 方面 的 知识 , 在 建 模 与 求解 过 程 中 灵活 地 发 挥 自身 的 能
+力 因此 ,题目 具有 一 定 的 综合 性 但 是 考虑 到 竞赛 只 有 三 天 , 题目 叙述 不 宜 过 长 , 数据 不
+宜 过 多 , 竞赛 题目 对 现实 的 问题 作 了 简化 , 主要 体现 在 以 下 方面
+1 输 气 管 网 简化 为 一 条 主管 道 (题目 第 一 小 题 )， 这 一 简化 使 问题 看 起 来 更 明朗 , 便于
+作 © 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved  http://www.cnki.net

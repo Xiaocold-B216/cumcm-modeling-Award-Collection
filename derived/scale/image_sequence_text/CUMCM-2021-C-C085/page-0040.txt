@@ -1,0 +1,50 @@
+Worksheet write(3, 0, 'C)
+fori in range(w):
+
+werksheetwriteCl i+1, AW[i])
+
+worksheet write(2, i+1. BWIil)
+
+worksheet write(3, i+1, CW[il)
+workbookclose()
+介绍 : 输入 : ABCtestT2xlsx; 输出 : 转运 分 配 值 .xlsx， 规 划 ABC 在 贪心 情况 下
+应 在 每 个 转运 商 分 配 多 少 的 初始 值 ，T3T4 同 理 ， 只 修改 了 输入 文件 名
+import random
+import numpy as np
+import xlrd
+import xlsxwriter
+excel = xlrd.open workbook("ABCIestT2.xIsx", by
+sheet = excelsheet_by_name('Sheet1')
+workbook = xlsxwriter Workbook( 转 运 分 配 值 xlsXj 艺 建 喜 文 伟
+worksheet = workbookadd worksheet(),  # \# \ sheet ， 可 以
+workadd_worksheet(employee) 来 指定 Sheet 名 , 但 中 文 名 会 报 UnicodeDecodeErro
+的 错误
+pojlo05
+X[2.5.17.3.0.64]
+‘chushi-np zeros(8)
+foriin range(8):
+
+chushi[X[i]]-0
+forzin range(24):
+
+A~int(sheet.cell_value(z * 3 + 1, 1))
+
+B= int(sheet.cell_value(z * 3 +2. 1))
+
+C = int(sheet.cell_value(z * 3 +3, 1))
+
+AL = np.zeros(s)
+
+BL= np.zeros(8)
+
+CL= np.zeros(8)
+
+NOW-[ABC]
+
+FP-np.zeros(3.8))
+
+人 0
+
+i0
+
+w©

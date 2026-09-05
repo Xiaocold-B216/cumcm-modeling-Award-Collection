@@ -1,0 +1,43 @@
+ERE
+.
+BRLLT]
+回 共 Sakn
+wsn
+if ( !IsExist )
+continue;
+int m=0;
+int nStart pos = -1;
+iter = ToRailWay. begin();
+for (mn=0; m<AllLines[nCurLineName-1].LineInfo.size() ; ++m)
+{
+if (AllLines[nCurLineName-1].LineInfo[m] == NSTART)
+{ 全
+nStart pos = mi “ <
+a
+break; \
+】 7 8
+iter = ToRailWay. To LineInfo[m]);
+if ( iter != ToRailWay.end() ) 全
+{ 全
+ToRailWay.erase( iter ) ;
+}
+} [o]
+/ |
+while ( !ToRailWay. Enpty O)
+{
+int a = ay. size();
+~
+) Fali find( AllLines[nCurLineName-1].LineInfo[m] );
+o,
+MA int a= iter->first ;
+下 20. _b = iter->second;
+// if (iter->second == 3984 && iter->first == 87)
+// {
+// int y =0;
+// }
+if ( iter == ToRailWay.end() )
+{
++m;
+continue;
+}
+52

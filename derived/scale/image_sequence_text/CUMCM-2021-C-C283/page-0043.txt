@@ -1,0 +1,85 @@
+四
+
+-
+
+区
+
+p
+
+or
+
+148 # 第 六 个 模块 一 一 信誉 度
+
+149 间 目 标 : 给 出 一 个 数列 ， 对 应 每 个 供应 商 信誉 度 的 指标
+
+aaa se p8
+
+open
+
+让
+
+二 leeas seemage
+
+154 at = paread-excel(" 隔 件 1 近 5 年 402 党 供应 商 的 相关 数据 -xlsxr vaheet_namer' 企 业 的 订货
+量 (sa ) 7
+
+155 dtl = pd.read_excel(" 附 件 1 近 5 年 402 家 供应 商 的 相关 数据 .xlsz" ,sheet-naae=' 供 应 商 的 全
+供 货 量 〔(m)
+
+o
+
+it actat_cohuasto21 5
+
+表 ee bl
+
+® 闸 涩
+
+冯 的
+
+ar 入 奈 生
+
+本 _
+
+han)
+
+1 aa S ，
+
+-
+
+2 和 他 5
+
+- 兰 / 作
+
+人 上
+
+169 } on=data[1]1=0
+
+10esule appenacop.sesnCaneats] Cposseiont)
+
+二
+
+天 aa
+
+到
+
+到
+
+175 《第 七 个 模块 一 一 供给 弹性
+
+176 ## 目 标 : 给 出 一 个 数列 ， 对 应 每 个 供应 商 供给 弹性 的 指标
+
+入
+
+二
+
+色 二 anaeoa
+
+通才 aaa
+
+181 at = pd.read_excel(" 所 件 1 近 5 年 402 家 供应 商 的 戎 关 数 据 .xlsxw ,aheet_nazer' 企 业 的 订货 人
+® 全 ] 分
+
+182 dfl = pd.read_excel(" 附 件 1 近 5 年 402 家 供应 商 的 扯 关 数据 .xlsx" ,sheet-nase=' 供 应 商 的 +
+供 货 量 (aa?) )
+
+出 aaap 。 datae canaanstai1

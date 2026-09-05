@@ -1,0 +1,41 @@
+% 问题 1 的 程序
+% 从 起 点 17 出 发 ， 终 点 为 19
+clc, clear all
+%% 构造 权重 珑 阵
+w(l,2)=2;w(2,3)=1;w(2,4)=3;w(2, 19)=5;w(3,5)=1;w(3, 17)=4;w(4 21)=1;w(4 17)=11;
+w(5,7)=2;w(17,20)=10;w(17, 20)=10;w(19, 20)=2;w(20, 21)=4;
+ww %MATLAB 工 具 箱 要 求 数据 是 下 三 角 和 矩阵
+[i, j, k]=find (w) ;
+b=sparse (i, j, k, 26, 26) ; % ALEAELA FE
+%% 画图
+h = view(biograph(b, [],” ，ShowArrows ，off ，ShowWeights ，on )) ;
+% ShowArrows=off， 表 示 无 向 图 ，on 表 示 有 向 图
+% ShowWeights=off, 表示 无 权 图 ，on 表 示 赋 权 图
+%% ， 求 最 短路
+k1=17; % 起 点
+k2=19; % 终点
+[dist, path, pred]=graphshortestpath(b,kl,k2，directed ,0)
+% directed 是 有 向 图 或 无 向 图 的 标志 ，
+% directed=0 表 示 无 向 图 ，directed=1 表 示 有 向 图
+% dist= 最 短路 长 度
+% path= 最 短路 径
+% pred= 包 含 前 任 项 点
+%% 将 最 短路 径 染色 :
+set (h. Nodes (path)，Color , [1 0.4 0.4])
+fowEdges = getedgesbynodeid(h, get(h.Nodes (path)，ID )) ;
+revEdges = getedgesbynodeid(h, get(h.Nodes(fliplr(path))，ID ));
+edges = [fowEdges;revEdges];
+set (6dgss LineColor’, [1 0 0]); % 给 最 短路 径 设置 颜色
+set (edges, TineWidth ,1.5); % 给 最 短路 径 设 置 宽度
+计算 结果 :
+dist =
+10
+path =
+17 3 2 19
+pred =
+Columns 1 through 17
+2 3 17 2 3 NaN 5 NaN NaN NaN NaN NaN NaN
+NaN NaN NaN 0
+Columns 18 through 26
+NaN 2 17 4 NaN NaN NaN NaN NaN
+25

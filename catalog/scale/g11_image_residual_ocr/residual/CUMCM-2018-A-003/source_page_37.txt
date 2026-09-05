@@ -1,0 +1,46 @@
+—
+下
+二 二
+回 共 RE
+subplot(212)
+plot(t,wei,""")
+axis([0 10000 0.5 4.5])
+xlabel(' 当 前 时 间 t);
+ylabel(RGYV 所 在 位 置 );
+title('case2 的 RGV 调度 轨迹 )
+Case3:
+resultl:
+由 于 不 同 组 数据 间 代 码 较为 相似 ， 我 们 使 用 第 一 组 数据 为 例 : A7
+#include<iostream> 一 NY
+#include<ctime> 2 \)
+#include<stdlib.h>
+using namespace std; ood
+#define inf 5000/ 无 穷 大
+int pro = 560:/ 加 工时 间 As
+int rep[9] = {0,28,31,28,31,28,31,28,31}; SN
+int put_ down =25; X
+int L[9][9] = {
+0,0,0,0, 0, 0, 0, 0, 0,
+0, 0, 0, 20, 20, 33, 33, 46, 46, @
+0, 0, 0, 20, 20, 33, 33, 46, 46, 人 O
+0, 20, 20, 0, 0, 20, 20, 33, 33, YA
+0, 20, 20, 0, 0, 20, 20, 33, 33,
+0, 33, 33, 20, 20, 0, 0, 20, N
+0, 33, 33, 20, 20, 0, 0, 20, 20, A nd
+0, 46, 46, 33, 33,20,.20,0,0, ¥
+0, 46, 46, 33, 33, 20; ;
+int S[9] = {0,0,0 oj 和 余 时 间
+er
+int num = 0 成 名 数量
+int 证 态 到 达 其 他 CNC 加 工 台 的 代价
+ini e de[9][10000]-10); /记录 时 间
+int emor[9][1000]={0};
+int numm{9]={0};
+int breakNo[ 100],breakBeT[100],breakEnT[100],breakPos[ 100],numBR = 0; /记录 故障
+void out(int endtime[9][10000]){
+for(int ii=13ii<8;ii++){
+numm(  [+=numm[ii+1];
+}
+cout<<"ALL"<<numm[1]<<endl<<endl;
+for(int ii=13ii<9;ii++){
+37

@@ -1,0 +1,26 @@
+# Knowledge Card
+
+## Basic Information
+
+- Paper ID: CUMCM-1995-B-003
+- Year: 1995
+- Problem: B
+
+## Evidence-based Content
+
+The following excerpt is copied deterministically from the generated paper body; no method or conclusion is inferred beyond this source evidence.
+
+> 加 下 省 可 *。68 数学 的 实践 与 认识 加 二 生生 天 车 与 治 栋 炉 的 作业 调度 模型 杨 银 芳 郭 安 蒋 有 岗 (重庆 工业 管理 学 院 , 重庆 630050) 指
+> 导 教师 : 宋江 敏 编者 按 :该 参赛 论文 在 对 一 台 至 五 台 天 车 这 五 个 方案 进行 选 优 时 采用 了 层次 今 析 法 A 全 合理 地 设立 准则 层 , 有 特色 
+> 。 现 摘 孙 有 关内 容 如 下 。 -从 关键 词 : 层 次 分 析 法 ,层次 结构 图 ,最 优 方 案 . 全 W = 我 们 采用 关键 路 线 法 (CMP) 作 出 从 一 台 天
+>  车 到 五 台 天 车 情况 下 一 个 - 周期 的 个 网 络 图 ,通过 泌 制 程序 (程序 见 附录 3), 找 出 关键 路 线 ,一 个 周期 的 运行 介 , 通 寺 网 络 图 分
+>  析 , 得 出 各 种 运行 方案 下 年 产量 及 《天 车 一 炉子 作业 运行 图 》, 由 此 给 个 方案 下 各 台 天 车 的 作业 率 。 SN 人 要 在 这 五 个 方案 中 择
+>  取 最 优 方 案 , 其 实质 为 一 多 目标 0 运用 层次 分 析 法 (AHP) 进 行 双 选 择优 。 具 体 作法 如 下 ， 一 、 得 出 递 阶层 次 结构 图 LA “ WA
+>  饮 仁 准 撕 系统 立 代 G 1 3 和 < ¥ ; FDC 加 Ra ER 一 下 SEA << SA FF 7 JS 1 ASSS SSN 1%4 -一 /mn ss 一 < STRSI [
+> nre] [ea 7 994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http:/A
+
+## Evidence
+
+- Evidence granularity: page
+- Source pages represented: 1, 2, 3
+- Authoritative normalized text SHA-256: B5F927670ED7DCCB4206E4DB2E0D0E44FF05F849E7E2CA4FF6842F62C770B8B3

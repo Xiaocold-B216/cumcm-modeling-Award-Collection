@@ -1,0 +1,68 @@
+end
+if Situation(MinNumber)==1%换料时取下了一个已经完成工序 1 的工件
+Now=2;%下一道目标工序发生变化
+NEXT=k;%记录此工件的序号
+end
+Situation(MinNumber)=1;
+
+：
+科
+
+研
+
+交
+
+流
+
+Time=Time+Expect(3,MinNumber);%完成换料
+for k=1:8
+if Left(k)-Expect(4,MinNumber)<0
+Left(k)=0;
+else
+Left(k)=Left(k)-Expect(4,MinNumber);
+end
+end
+Left(MinNumber)=Work(1);
+if unifrnd(0,100)>=99%生成故障信息
+StartTime=Time+unifrnd(0,Work(1));%随机生成故障开始时间（发生在加工时）
+ProcessTime=unifrnd(600,1200);%随机生成人工修复所需时间
+Error=[Error;size(Rec,1),MinNumber,StartTime,StartTime+ProcessTime,0];% 记 录
+故障信息
+end
+else%当前目标是工序 2 的 CNC
+flag=0;
+
+微
+
+信
+
+公
+
+众
+
+号
+
+for k=size(Rec,1):-1:1%记录本次操作时刻
+if Rec(k,4)==MinNumber && isnan(Rec(k,6))%取下已完成工件
+flag=1;
+Rec(k,6)=Time;
+Rec(NEXT,4)=MinNumber;
+Rec(NEXT,5)=Time;
+break;
+end
+end
+if flag==0%放置待加工工序 2 的工件
+Rec(NEXT,4)=MinNumber;
+Rec(NEXT,5)=Time;
+end
+Now=1;%此时目标工序重新变为工序 1
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber)+Wash;%完成换料
+for k=1:8
+if Left(k)-Expect(4,MinNumber)-Wash<0
+Left(k)=0;
+else
+Left(k)=Left(k)-Expect(4,MinNumber)-Wash;
+50
+
+

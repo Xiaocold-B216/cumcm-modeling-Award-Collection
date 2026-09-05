@@ -1,0 +1,44 @@
+Ee
+if (z1%2==0)
+{
+z[z1++]=5;aw—;al. ys[5]—;
+if (aw==alhcsl)break;
+z[z1++]=3;aw—;al. ys[3]—;
+if (aw==alhcsl)break;
+}
+else
+{
+z[z1++]=3;aw—;al. ys[3]—;
+if (aw==alhcsl)break;
+z[z1++]=5;aw—;al. ys[5]—; 区
+if(aw==alhcsl)break; -从 >
+2
+} H
+} W
+else if(al. ys[5]==0)
+{ 人
+for (;al.ys[4] 1=0&&al. ys[6] re )//&S
+{
+if (z1%2==0)
+{ o
+z[z1++]=4;aw-=; al. ys[4]—;
+rr
+2[z1++]=6;aw—:a ) s[6]—;
+if (aw=5 alhcsl)break;
+} \ t
+use _，
+{
+“%, Ru ys[6] 一 ;
+/7.. if (aw==alhcsl)break;
+下 4: [z1++]=4;aw—;al. ys[4]—;
+n) if (aw==alhcsl) break;
+WRy
+if (al. ys[6]==0)
+{
+for (;al.ys[4] !=0&&al.ys[3]1=0&&aw>alhcsl;)// 金 棕
+{
+if (z1%2==0)
+{
+z[z1++]=4;aw—;al. ys[4]—;
+if (aw==alhcsl) break;
+52

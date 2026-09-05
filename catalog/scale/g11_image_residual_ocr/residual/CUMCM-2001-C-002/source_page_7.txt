@@ -1,0 +1,48 @@
+ES
+和
+Hi oh
+
+134 工 程 数 学 学 报 第 194 证
+上 rr 一 利 研 交 泊
+
+4) “有 人 少数 参赛 队 假 设 每 年 国库 券 定 时 发 行 (例如 7 月 工 日 等 ) 。
+
+5) 极 个 别 的 队 ,银行 利息 计 复 利 ,或 者 给 出 所 谓 的 4 年 存款 的 平 的 利率 。
+
+对 于 1) ~ 3)，, 评 卷 时 做 了 放宽 处 理 , 只 要 模型 正确 ,论文 仍 被 认为 是 较 好 的 ,有 的 可 能 还
+被 选 为 优秀 论文 。 对 于 4).5) , 评 卷 时 ,我 们 认为 是 不 合理 的 假设 。
+
+4.2 ”关于 模型 求解
+
+在 合理 假设 下 ,建立 的 数学 模型 ,参赛 队 给 出 了 下 述 几 种 主要 数学 解法 。
+
+1) 用 穷 举 法 , 找 出 最 佳 的 基金 使 用 计划 具有 周期 性 ,并 用 归纳 法 证 明了 该 结论 。
+
+2) “用 非 线性 规划 [或 线性 规划 ) 方法 ,证 明 最 佳 使 用 计划 具有 周期 性 。
+
+3) “用 图 方法 找 出 最 佳 使 用 计划 的 周期 性 ,并 用 归纳 法 证 明 该 结论 。
+
+4) “对 于 第 2 问 . 比 较 了 一 年 里 国库 券 发 行 时 间 对 结果 的 影响 。
+
+5) 只 给 出 = 年 存 购 的 一 般 模 型 , 没有 利用 题目 所 给 出 的 数据 简化 模型 , 但 却 用
+Mathematica 或 Matlab 直接 给 出 最 优 解 。 “/.
+
+评 卷 时 ,我们 认为 1) ~ 4) 的 解法 都 是 较 好 的 方法 ,5) 吕 然 也 能 给 出 玉 拓 站 果 , 担 模 型 太
+一 般 化 ,没有 特点 。 由
+
+6) 对 于 第 3 问 ,少数 队 仍 将 此 问题 看 作 有 期 存 网 亲 是 ,其 解 基 全 不 下 。
+参考 文献 :
+[1] 萎 启 麻 . 数 学 模型 [ M] ,北京 : 商 等 教育 出 版 杜 ,1993
+[2] “ 朱 道 元 . 昭 学 模型 精品 案例 [M] .南京 :东南 大 学 出 版 社 ,1999
+
+The Comments and oh Investment
+CHEN En-shui, S hi-zhong
+(Department of Applied Mathematics, Southeast University, Nanjing 210096)
+Abstract: In this paper,we give a refrence ans 下 10 the found investment. Some excellent methods and defects proposed by the
+students participating in the contest for -s i pectiem are introduced and reviewed.
+Key words: investment; mathematical modelingy o fr programming Probiemn
+~
+y/)
+Yo
+
+e-

@@ -1,0 +1,88 @@
+#include <iostream>
+#include <vector>
+#include "LoadMessage.h"
+#include <fstream>
+using namespace std;
+// 判断一条线上两点间是否是上下层次关系，如果是，确定位置
+bool find(vector<int> &Line, const int NFIRST, const int NSECOND,
+int &pos_1, int &pos_2)
+{
+
+流
+
+if (NFIRST == NSECOND)
+{
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+int i = 0;
+
+while (Line[i] != NFIRST)
+
+研
+
+ww
+
+{
+
+}
+
+pos_1 = pos_2 = i;
+
+}
+
+bool bHaveFound
+
+号
+
+return true;
+
+：
+科
+
+++i;
+
+= false;
+
+众
+
+bool IsDirectTo_1 = false;
+
+{
+
+公
+
+for (int i=0; i<Line.size(); ++i)
+if (Line[i] == NFIRST)
+
+信
+
+{
+
+IsDirectTo_1 = true;
+
+微
+
+pos_1 = i;
+continue;
+
+}
+if (IsDirectTo_1 && Line[i] == NSECOND)
+{
+pos_2 = i;
+bHaveFound = true;
+break;
+}
+
+}
+
+30
+
+

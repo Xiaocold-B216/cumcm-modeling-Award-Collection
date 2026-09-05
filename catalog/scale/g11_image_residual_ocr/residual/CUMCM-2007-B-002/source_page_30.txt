@@ -1,0 +1,42 @@
+回 成 革 动 国
+ae 汪
+时
+和
+#include <iostream»
+#include <vector>
+#include “LoadMessage. h”
+#include <fstream>
+using namespace std;
+// 判断 一 条 线 上 两 点 间 是 否 是 上 下 层次 关系 ， 如 果 是 ， 确 定位 置
+bool find(vector<int> &Line, const int NFIRST，const int NSECOND,
+int &pos_ 1，int &pos 2)
+{
+if (NFIRST == NSECOND) 二
+， =\sS
+int i =0;
+2/ 一
+while (Line[i] != NFIRST)
+{
++
+} 全
+全
+pos_ 1 = pos-2 = i;
+return true; 和 @
+9K )
+bool bHaveFound ”= false;
+bool IsDirectTo 1 = ;
+for (int i=0;miLine. size(); ++1)
+{
+< NFIRST)
+下 Ge = true;
+s 1 = ii
+1 // continue;
+}
+if (IsDirectTo 1 && Line[i] == NSECOND)
+{
+pos 2 = i;
+bHaveFound = true;
+break;
+}
+}
+30

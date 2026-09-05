@@ -1,0 +1,40 @@
+16. y_tiu = sgFI(:, tiau_column);
+17. 5871(:, tiqu_column) = [1;
+15. 5671 = [sgfliop];
+15. % classificationLearner 此 处 调用 分 类 器 工具 条
+20. % save('data22.mat trainedodel )
+xx 红外 s6diff2
+2. acaer
+3. a= xlsread( "附件 3.xlsx'， 近 红外 "7
+4. a= atix = a(3iend,1)sy = a2zend2xend);
+s. xRRELHEH
+5. tiqu_column - (4 15 22 30 31 45 74 114 170 209];
+7. op = y(1,);
+5. o(:, tiqu_coluen) = [];
+o. 8= 2:end ,25
+10. order = 5;
+11. franelen = 11;
+12. sf = sgolayfile(8,order, franelen);  %56
+13. k derdva 。 G3FF(s8F,1); XSG HHE HRS
+se  k_derivi;
+15. sg = mapstd(sgfl); 数据 标准 化
+16. ytiqu = sgFA(:, tigu_column);
+17. s87(:, tiqu column) = [1
+15. 5
+二 % classificationLearner 此 处 渭 用 分 类 器 工具 箱
+(data2lmat'，trainedhodel )
+.load data21
+22. yuce - trainedodel. predictFen(y_tiqu);
+23. yucel = [(17311;1;2;1633;4310;9;14] 这 是 得 到 问题 三 的 op
+用 中 红外
+eaciclear
+= xlsread( "附件 3.xlsx'， 中 红外 "5
+4. a-atix = a(3iend,1)sy = a(2end, 2iend);
+s. x 浊 取 册 要 鉴别 药材
+5。 tiqu_colum - [415 22 30 34 45 74 114 178 209];
+7. op yu
+5. on(:, tiqu_coluen) = [1;
+ed
+10. order - 5;
+11. franelen = 11;
+@

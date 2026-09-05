@@ -1,0 +1,14 @@
+paper_id: CUMCM-2011-A-003
+year: 2011
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（6）.doc
+source_sha256: FDA40E0C371BD0C91806B4CB581162EC0F1C3B51A7CAEF492EDD71D6E602E038
+effective_pdf_path: derived/scale/doc_batch/CUMCM-2011-A-003/source_converted.pdf
+effective_pdf_sha256: 1C5836385FC251303FB4E5B01B6D22093D74CC9C4EC2AD360B09987616C15291
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2011-A-003/normalized_body.txt
+authoritative_text_sha256: 3F1F2F920262CB8C90BCB7694CB904B840CEE23882E96CC2A0A5DA9786B27D24
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

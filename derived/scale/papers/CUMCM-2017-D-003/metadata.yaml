@@ -1,0 +1,47 @@
+paper_id: CUMCM-2017-D-003
+year: 2017
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (1).pdf
+  sha256: 397CC22AEE381F5E884A61A90FB67C80D4A2FBAE6AB8F317C7C68DC40219BF5E
+authority_sha256: 397CC22AEE381F5E884A61A90FB67C80D4A2FBAE6AB8F317C7C68DC40219BF5E
+paper_file_memberships:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (1).pdf
+  role: primary
+  canonical: true
+primary_file: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (1).pdf
+extraction_inputs:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (1).pdf
+  sha256: 397CC22AEE381F5E884A61A90FB67C80D4A2FBAE6AB8F317C7C68DC40219BF5E
+  kind: original
+extraction_input_sha256: 397CC22AEE381F5E884A61A90FB67C80D4A2FBAE6AB8F317C7C68DC40219BF5E
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 26
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["18"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-D-003/source_page_18.txt"]
+  source_sha256: 397CC22AEE381F5E884A61A90FB67C80D4A2FBAE6AB8F317C7C68DC40219BF5E
+  current_body_sha256: D3E17EB5E5D53AA77B73DCDC27BE31F0192F7DD0530A22503D95DC0A21A66790
+  candidate_body_sha256: F8779B61CC13C3C11FED07D5FCF4482B8BF265557B38CC5598E15BC5840CD951
+  source_page_count: 26
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

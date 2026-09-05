@@ -1,0 +1,30 @@
+加
+u 7
+省 全球
+2
+5 全
+MA
+L 各
+#o
+At FPEAR, BRATAT BURL0 C06 Fi RRQUiAIE ACDE 是 一 个 正方 形 , 正
+Jr AKE Aoomm Jf ILIEAYLB 点 的 位 轩 - 线 们 谭 以 建立 下 面 五 个 方程 。
+Ad = ED \
+|AC|=100
+|cDl'= 100
+_AE 1ED
+[Vliac
+转换 为 坐标 表示 即 ， KR
+一 = 让，，，
+2bg v Y.-Y, =Y,— Ys
+全 Z3: -7Z; =Zy—Zs
+CA —X0)? + 0 — Y2)? + (Za 一 202 = 100?
+Ge 一 Xa)2 + (Ya = Y3)? + (Z4 一 23)2 = 1003
+Wo x (X = Xs) + (¥s = Y2) X (Yy = Y5) + (Zs = Z4) X (Zy —Z5) = 0
+N xz -Xi = (Xs — X1) /3
+Y,—Yi=(%-Y)/3
+2 -2 = (Zs—12) /3
+其 中 Xi = 2 , Y = 于 全 (i=1,2,3,4,5)
+经 过 简单 分 析 可 以 知道 一 共有 五 个 未 知 量 : Zi ,Zz ,Za3 ,Za ,Zs 。 但 是 我 们 知
+道 一 共有 9 个 方程 , 我 们 采用 最 小 二 乘法 求解 这 个 超 定 方程 组 ,得 到 了 五 个 点 在
+照相 机 坐标 系 内 的 坐标 。
+9

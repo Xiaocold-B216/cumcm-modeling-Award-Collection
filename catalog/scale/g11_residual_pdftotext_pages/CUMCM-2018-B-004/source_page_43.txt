@@ -1,0 +1,70 @@
+Left(MinNumber)=Work(2)-Wash;
+end
+Position=ceil(MinNumber/2);%更新位置
+end
+
+流
+
+Rec=[Rec,TempRec];%记录本次刀具分布情况下的完整加工情况
+Statistics=[Statistics;0,0];%统计本次刀具分布情况下的成功加工数和失败加工数
+for k=1:size(TempRec,1)
+if isnan(sum(TempRec(k,:)))
+Statistics(end,2)=Statistics(end,2)+1;
+else
+Statistics(end,1)=Statistics(end,1)+1;
+end
+end
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+end
+%% 对所有情况数据的分析
+Rec(1)=[];
+MaxProduct=max(Statistics(:,1));%最大产量
+CompleteTime=inf;%产量最大情况下的最短完成时间
+BestPlan=cell(1,1);%产量最大且完成时间最短的物料加工情况
+BestKnife=[];%产量最大且完成时间最短的刀具分布方案
+for i=1:size(Rec,2)%找出产量最大情况下的最短完成时间
+if Statistics(i,1)==MaxProduct
+for j=size(Rec{1,i},1):-1:1
+if ~isnan(Rec{1,i}(j,6))
+if Rec{1,i}(j,6)<=CompleteTime
+CompleteTime=Rec{1,i}(j,6);
+end
+break;
+end
+end
+end
+end
+
+交
+
+end
+
+微
+
+for i=1:size(Rec,2)%找出产量最大且完成时间最短的所有方案并记录
+if Statistics(i,1)==MaxProduct
+for j=size(Rec{1,i},1):-1:1
+if ~isnan(Rec{1,i}(j,6))
+if Rec{1,i}(j,6)==CompleteTime
+BestPlan=[BestPlan,Rec{1,i}];
+BestKnife=[BestKnife;Order(i,:)];
+end
+break;
+end
+end
+43
+
+

@@ -1,0 +1,42 @@
+加 5
+u 7
+EEEE
+A=xj2wl(0A);B=xj2wl(0B);C=xj2wl(0C);D=xj2wl(0D);E=xj2wl(0E);
+[A;B;C;D:E]
+[round(w12xs(A));round(w12xs(B));round(w12xs(C));round(wl2xs(D));round(wl2xs(E))]
+附录 六 计算 精度 误差 程序
+%jdwc.m
+% 计 算 精 度 误 差
+bound_zb; ~
+: X
+xs AS
+jF[]; 2XG
+刘 =[]; -5
+DZzb=[]; L
+yx=[oA;oB;oC;oE;oD]; X
+fori=1:5 As
+for j=1:length(zb_bound{i}(;,1)) ;
+he-oainy([xs2wl([zb_bound{i}(j,2),2by bolind{i}(,1)]),1577;absac]);
+nizb=rh(1)*[xs2wl({zb_bound{i}(j,2),zb,_boundy{i}(j,1)]),1577];
+jl=norm(nzb-yx(i,:));
+J=0l1s 9
+end 从 9
+we=[we;mean(jlj),std(L)];
+刘 =[];
+ad
+wc |
+we(:,1)-12*3.78 ——
+we(:,2)./we(:,1) ) v
+7
+附录 七 ar
+SS-
+和 下 程序 是 在 前 面 附录 的 基础 上 修改 或 增加 而 来 的 ， 为 避免 重复 ， 这 里 只 有 修
+改过 的 程序 ， 其 他 相关 程序 请 参照 前 面 附录
+%wdx.m
+bound_zb;
+dqp=0.3;
+wdx_zb=zb_bound;
+total_result={};
+for cs=1:10
+zb_bound=wdx_zb;
+34

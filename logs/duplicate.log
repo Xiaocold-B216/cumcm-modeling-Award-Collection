@@ -1,0 +1,25 @@
+﻿[2026-08-17T19:01:51+08:00] [INFO] G2 Exact Duplicate Detection started
+[2026-08-17T19:01:51+08:00] [INFO] Repository root: D:\cumcm-modeling-Award-Collection
+[2026-08-17T19:01:51+08:00] [INFO] Step 1: Reading G1 catalog...
+[2026-08-17T19:01:52+08:00] [INFO] CSV records: 3634
+[2026-08-17T19:01:52+08:00] [INFO] JSONL records: 3634
+[2026-08-17T19:01:52+08:00] [INFO] Path set match: True
+[2026-08-17T19:01:52+08:00] [INFO] SHA match: True
+[2026-08-17T19:01:52+08:00] [INFO] Step 2: Verifying SHA-256 integrity...
+[2026-08-17T19:01:52+08:00] [INFO] Valid SHA-256: 3634
+[2026-08-17T19:01:52+08:00] [INFO] Invalid SHA-256: 0
+[2026-08-17T19:01:52+08:00] [INFO] Step 3: Finding exact duplicates...
+[2026-08-17T19:01:53+08:00] [INFO] Total files: 3634
+[2026-08-17T19:01:53+08:00] [INFO] Unique SHA-256: 3543
+[2026-08-17T19:01:53+08:00] [INFO] Exact duplicate groups: 75
+[2026-08-17T19:01:53+08:00] [INFO] Exact duplicate members: 166
+[2026-08-17T19:01:53+08:00] [INFO] Extra copies: 91
+[2026-08-17T19:01:53+08:00] [INFO] Max group size: 4
+[2026-08-17T19:01:53+08:00] [INFO] Step 4: Analyzing duplicate groups...
+[2026-08-17T19:01:53+08:00] [INFO] Same extension groups: 71
+[2026-08-17T19:01:53+08:00] [INFO] Mixed extension groups: 4
+[2026-08-17T19:01:53+08:00] [INFO] Cross year groups: 1
+[2026-08-17T19:01:53+08:00] [INFO] Same year groups: 74
+[2026-08-17T19:01:53+08:00] [INFO] Step 5: Writing catalog/duplicates.csv...
+[2026-08-17T19:01:53+08:00] [INFO] Written 166 records to D:\cumcm-modeling-Award-Collection\catalog\duplicates.csv
+[2026-08-17T19:01:53+08:00] [INFO] Step 6: Writing logs/duplicate.log...

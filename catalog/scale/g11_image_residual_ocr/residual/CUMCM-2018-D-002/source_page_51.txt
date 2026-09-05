@@ -1,0 +1,43 @@
+是
+一 一
+alhcsl = hcz[3]- a2.ys[0];
+}
+for (;al. ys[5]!=0&&al. ys[4] !=0&&aw>alhcsl;)//R 金
+{
+if (z1%2==0)
+{
+z[z1++]=5;aw—;al. ys[5]—;
+if (aw==alhcsl)break;
+z[z1++]=4;aw—;al. ys[4]—;
+if (aw==alhcsl)break;
+} P
+else -从 >
+( AN
+z[z1++]=4;aw—;al. ys[4]—; 2XG
+if (aw==alhcsl) break; p H
+z[z1++]=5;aw—;al. ys[5]—; XS
+if(aw==alhcsl)break; As \
+} e
+| 入
+if(al. ys[4]==0)
+{ O
+for (;al. ys[5] 2 ]!=0&&aw>alhcsl;)//R S
+%A
+if (z1%2==0)
+{ TS
+z[z1++ jav—;al. ys[5]—;
+co) break;
+[ ]=6;aw--;al.ys[6] 一 ;
+“4 h vato break;
+下 4
+以 z[z1++]=6;aw—;al. ys[6]—;
+SA， if (aw==alhcsl)break;
+z[z1++]=5;aw—;al. ys[5]—;
+if (aw==alhcsl) break;
+}
+}
+if (al. ys[6]==0)
+{
+for (;al.ys[5]!=0&&al.ys[3]!=0&&aw>alhcsl;)//R 棕
+{
+51

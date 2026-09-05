@@ -1,0 +1,44 @@
+EEEE
+c(2*(lj(i)-1)+2)=t0+T(4);
+M(2*(i-1)+2,2)=2*(Ij(i)-1)+2;
+end
+% 多 步 最 优
+while t0<=8*3600
+[e,f,g,h,] = oneStep( a,dT,T,t0,c );%a,t0,c 改变 为 fgh.
+e3 = fStep(fdTLTghe)'
+e3 =reshape(e3,64,4);
+[minValue,row] = min(e3);
+[minValue,col] = min(minValue); A7
+d=dT(abs(a-col)+1); 全 NY
+t0=t0+d; 一 \)
+t0 2XG
+a=col; p ood
+N=N+1; SS
+i=a; AS) \
+if 10>c(2%(i-1)+1)&&t0>c(2*(i-1)+2) Q
+9%[cmin,cind]=min([c(2*(i-1)+1),c(2*(i-1) 人
+cmin=t0;cind=1;
+¢(2%(i-1)+cind)=cmin+T(4-+cind)+T(4);
+elseif t0<c(2*(i-1)+ 1)&&L0<c(2*(i-1)+2),
+CN
+cmin=cmin-T(4+cind);
+¢(2%(i-1)+cind)=cmin+ T(4¥cind)#T(4);
+else
+[cmin,cindj=min([c 人 DeortDt2)，
+cmin=t0; _—~
+¢(2%(i-1)+cind)=cmin+T(4-+cind)+T(4);
+end 到 说
+M(N,1
+M se
+% (2)-1:-1:1
+13]RintG2)--2*(a-D+cind
+和 M(i,3)=cmin;
+break;
+end
+end
+t0=cmin+T(4+cind)+T(7);
+end
+[m,n]=size(M);
+MOm-7:m,:)=[];
+M(m-8,3)=M(m-8,1)+T(4+mod(M(m-8,2),2))+T(4);
+34

@@ -1,0 +1,62 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-1995-B-003",
+  "source_path": "1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车与冶炼炉的作业调度模型.pdf",
+  "source_sha256": "73DFF2EFA876FA71BF6116B33EBB94D9A115B32D5ED1EC3DA84EC79EBE934D41",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 3,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 3,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "加 下 省 可 *。68 数学 的 实践 与 认识 加 二 生生 天 车 与 治 栋 炉 的 作业 调度 模型 杨 银 芳 郭 安 蒋 有 岗 (重庆 工业 管理 学 院 , 重庆 630050) 指导 教师 : 宋江 敏 编者 按 :该 参赛 论文 在 对 一 台 至 五 台 天 车 这 五 个 方案 进行 选 优 时 采用 了 层次 今 析 法 A 全 合理 地 设立 准则 层 , 有 特色 。 现 摘 孙 有 关内 容 如 下 。 -从 关键 词 : 层 次 分 析 法 ,层次 结构 图 ,最 优 方 案 . 全 W = 我 们 采用 关键 路 线 法 (CMP) 作 出 从 一 台 天 车 到 五 台 天 车 情况 下 一 个 - 周期 的 个 网 络 图 ,通过 泌 制 程序 (程序 见 附录 3), 找 出 关键 路 线 ,一 个 周期 的 运行 介 , 通 寺 网 络 图 分 析 , 得 出 各 种 运行 方案 下 年 产量 及 《天 车 一 炉子 作业 运行 图 》, 由 此 给 个 方案 下 各 台 天 车 的 作业 率 。 SN 人 要 在 这 五 个 方案 中 择 取 最 优 方 案 , 其 实质 为 一 多 目标 0 运用 层次 分 析 法 (AHP) 进 行 双 选 择优 。 具 体 作法 如 下 ， 一 、 得 出 递 阶层 次 结构 图 LA “ WA 饮 仁 准 撕 系统 立 代 G 1 3 和 < ¥ ; FDC 加 Ra ER 一 下 SEA << SA FF 7 JS 1 ASSS SSN 1%4 -一 /mn ss 一 < STRSI [nre] [ea 7 994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http:/Awww.cnki.net 国 虽 时 IT 滞 第 26 卷 (1996) 第 1 期 69 。 二 、 两 两 比较 构造 判断 握 阵 ( 见 附录 1) all al2 … alj … az A= - ai e aij -4 “n anl an2 +~ anj | 一 a; 并 对 7 的 相对 重要 数字 -从 > 褒 生 三 、 涉 行 单 排序 > 利用 和 愁 法 X 对 A 按 列 归 一 化 。 宕 Day . @ 对 W, 按 行 求 和 刺 , = >) 刺 , %4, 2 将 砚 归 一 化 友 = — (ul,… 名 om) 姑 为 特征 向 量 >w. S —_— 小 = (AW), 1 和 力 AZ 9 四 、 一 致 性 检验 | D CT “I 这 RT 一 查 表 可 得 CR = 向 当 Cl .1 时 ,具有 满意 的 一 致 性 2 994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http:/Awww.cnki.net 加 大 赔 生 70。 数学 的 实践 与 认 只 oa 五 、 层 次 总 排序 B1 B2 Bn Cl wwl MaW1 wa $ 了 C2 w2 ww2 we | 全 pw2 -从 CA > w [SN 2 六 、 总 排序 的 一 致 性 检验 人 种 L CT= Da(CD, RI= 3la,RD, 名 儿 o 用 FORTRAN 编程 可 计算 出 层次 兽 排 序 如 / 由 好 到 ; 知 ) : 3 台 天 车 -5 台 天 车 ->4 台 天 车 -1 台 世 % Na 即 安排 3 台 天 车 的 方案 为 最 优 方案 。“ —~7 AL X& 2 © 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net",
+  "normalized_text_chars": 1689,
+  "normalized_text_sha256": "B5F927670ED7DCCB4206E4DB2E0D0E44FF05F849E7E2CA4FF6842F62C770B8B3",
+  "page_provenance_summary": {
+    "OCR": 3
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "9D494C4B8B859334052181E3350968E1A2EF559ABF65151A47A9AAAABEED3600",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "0067ABF6DFA9586E15EE35E9CC7482E7A37A15ED69420C5ABC202EF5F4A9B5CD"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "EC1D02F07D08356D5A36B1C69B09F65FBE3A1C65839F16910B9851051AE613E0",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B47349BB799A20143F9D3A284C4FDDC973E3C2C0F01B6D92E3D888DA1DE4DF92"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "C160BF6E49BC9227C4EECDB0EF7004092D6B6C4C02038D5128A5C33EFF7AC38E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "F01D0B1EB2161AE9D534A9C1BF75587016544EB77EED303916054A884BF60B5F"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

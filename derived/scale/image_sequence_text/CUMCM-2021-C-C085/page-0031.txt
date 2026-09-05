@@ -1,0 +1,31 @@
+S_DHappend(upieCvall)
+S_GHappend(tupleCval2))
+al=[)
+for jin range(24):
+CMPI-]
+CMP2-[
+fori in range(10):
+k=i*24+j
+CMP1append(DHIr][k])
+CMP2.append(GHIFIIK])
+AVE=np.mean(CMP2)
+GH_max-0
+foriin range(10):
+if CMP1[i]=0:
+continue =
+证 CMP2GJCMPI09  and  CMP2[ij<-AVE3 一 and
+GH_max<CMP2(il: N 7 看 刘 ))
+GH_max = CMP2(i] a 2
+vaLappend(GH_max) 和
+GH_Tappend(uple(val)) .
+append(tup! 2 A
+workbook = xls Sa # 建立 文件
+worshest 三 Cs d_worksheet)  # 建立 sheet ， 可 以
+work add Sa employee?) 来 指定 sheet 名 , 但 中 文 名 会 报 UnicodeDecodsErro
+fif%
+forrin range(sheet nrows-1):
+worksheet write(r + 1.,0, ID[r])
+forjin range(24):
+worksheet write(r+1. j+1. GH_T[][j])
+workbookclose()
+了 1

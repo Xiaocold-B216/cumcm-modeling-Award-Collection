@@ -1,0 +1,113 @@
+vector<vector<int> > temp;
+OnceBusChange(iter->second,
+NEND, temp, AllLines, AllBuses, RoadCrossInfo );
+int c = temp.size();
+for (int kk=0; kk<temp.size(); ++kk)
+{
+FeasibleLine[0] = nStart_pos ; FeasibleLine[1] = nCurLineName;
+FeasibleLine[2] = m
+
+; FeasibleLine[3] = temp[kk][0];
+
+流
+
+FeasibleLine[4] = temp[kk][1]; FeasibleLine[5] = temp[kk][2];
+FeasibleLine[6] = temp[kk][3]; FeasibleLine[7] = temp[kk][4];
+
+//
+//
+//
+
+int s1 = temp[kk][0];
+int s2 = temp[kk][1];
+int s3 = temp[kk][2];
+
+int s4 = temp[kk][3];
+int s5 = temp[kk][4];
+
+//
+//
+
+if
+
+3984 &&
+//
+3993 )
+
+{
+
+==
+
+AllLines[FeasibleLine[4]-1].LineInfo[FeasibleLine[5]]
+
+==
+
+众
+
+//
+
+(AllLines[FeasibleLine[4]-1].LineInfo[FeasibleLine[3]]
+
+号
+
+//
+
+= temp[kk][1];
+
+研
+
+ww
+
+//
+
+交
+
+int s
+
+：
+科
+
+//
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+FeasibleLine[8] = temp[kk][5];
+
+//
+
+int a = 0;
+
+}
+
+微
+
+信
+
+公
+
+//
+
+FeasibleSolve.push_back( FeasibleLine );
+
+}
+
+ToRailWay.erase( iter );
+
+}
+}
+
+}
+if ( !FeasibleSolve.empty() )
+bHaveFound = true;
+return bHaveFound;
+
+}
+
+53
+
+

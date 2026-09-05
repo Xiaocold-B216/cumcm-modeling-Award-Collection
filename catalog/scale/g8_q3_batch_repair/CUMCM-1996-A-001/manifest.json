@@ -1,0 +1,117 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-1996-A-001",
+  "source_path": "1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996A：持续高产捕鱼策略.pdf",
+  "source_sha256": "B42F3B854FC08AEB3B4AC3B711E6299BE0E2097F280B7C4680DF685119439786",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 8,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 8,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "ERiEE 个 1997 年 1 月 数学 的 实践 与 认 识 第 27 着 1 期 一下 持续 高 产 捕 鱼 策略 BAE 。 张 艳 怕 。 部 陡 国 { 国 防 科技 大 学 ， 长 沙 410075) 指导 裁 师 : 吴 ” 衣 编 香 候 ” 文 章 将 0.8 还 屏 为 平均 死亡 率 ， 即 2 = 0.8 或 pe 三 侈 w N{365) = V(0)(1 -- r)365 求 出 日 死亡 率 r = 0.00439971. 在 此 基础 上 建 : 9 . 量 的 微分 方程 和 连结 条 件 , 从 而 得 到 各 龄 鱼 数量 的 递 推 公式. MAEHME RE AERR 得 稳定 解 ， 然 后 用 直接 搜索 法 寻 最 得 优 捕 绑 强度 系数 和 相应 的 最 大 持续 捕 54 6.45 万 吨 ， 模 型 和 计算 都 是 正确 的 ， 但 若 将 0.8/ 年 理解 为 瞬时 死亡 率 更 加 正确 ， 此 时 ， 相 应 的 日 死亡 率 要 小 一 半 左右 ， 摘 。 要。 ARSCETERETSE, 多 化 的 突变 性 和 死亡 、 让 失 打 刚 下 的 很 设 ， 建 立 了 鳃 鱼 生 态 系统 的 微分 一 癌 分 模型 用 数 信 模 所 方法 ， 分 析 工 在 各 种 捕 失 强度 下 系统 的 稳定 状态， 并 最 终 利 用 半 似 Leslie 矩阵 的 方法 检验 了 此 时 网 为 种 群 不 变 的 稳定 状态 . 在 此 基础 上 , 对 间 题 1), 通过 对 [0,1] 区 间 所 有 满足 保持 稳定 状态 捕捞 强度 系数 \\p 的 搜索 ， 得 出 使 得 年 产量 最 高 的 最 优 值 p = 0.037, 对 应 的 年 产量 为 6.44455 万 吨 对 于 问题 2) 分 别 讨论 了 5 年 中 了 不 变 和 每 年 p 发 生变 化 的 两 种 情况 ， 用 逐步 求 精 的 搜索 法 分 别 求解 ， 得 出 两 种 情况 下 各 自 的 最 优 策略 ， 其 产量 分 别 为 49.0575 万 吨 和 49.6284 万 吨 ， 本 文 还 进一步 考虑 了 模型 的 改 进 ， 并 讨论 了 以 保证 最 大 利润 为 目标 0 数值 计算 表明 我 们 的 模型 是 相当 令 A S 一 、 问题 的 重 述 人 本 自然 资源 不 断 地 被 人 类 开发 ,科学 技术 日 新 月 异 ， 以 及 受 短期 经 济 利益 的 驱使 ， 许 多 自然 资源 都 受到 掠夺 式 开发 ， 使 得 自然 次 源 日 着 减 少 ， 世 使 是 有 些 可 再 生 资源 也 未 能 逃 胶 比 运 . 于 是 ， 在 渔业 捕 找 上 如 何 制定 捕 找 方 式 这 一 问题 就 应 运 而 生 ， 采 用 何 种 捕捞 方式 ,才能 既 保 证 鱼 群 的 持续 稳定 发 展 而 不 至 于 精 竟 ， 又 要 能 提供 最 大 数 叙 的 产量 ， 是 渔业 管理 中 的 一 个 重要 问题 . 科 现在 面临 对 钥 鱼 的 捕 描 策 略 ， 设 Ci- 汲 群 按 年 龄 分 为 四 组 , 称 为 1 龄 ，… ,4 龄 鱼 , 平均 体重 分 别 为 5.07, 11.55, 17.86， 3229 ( 冯 ) ,省 组 自然 死亡 率 均 为 0.8/ 年 ; VS eg 捕 鱼 期 只 能 在 每 年 的 前 8 个 月 ， 后 四 个 月 为 鲁 鱼 的 集中 产 卵 多 化 期 ， 平 均 每 BEPE 1100 x 10°(1), 3 龄 鱼 产 卵 为 其 一 半 ， 孵 多 化 后 成 1 龄 鱼 ， 成 活 率 为 122 x 10137(L.22 x 1013 4n), n 为 产 卵 总 量 ; C3. 捕 鱼 采用 固定 努力 量 方式 ， 即 单位 时 间 捕 鱼 量 与 该 年 龄 的 鱼 总 孝 成 正比 ， 比 例 系数 为 捕捞 强度 系数 ， 捕 捞 只 能 捕 到 3 龄 鱼 和 4 龄 鱼 ， 其 捕捞 强度 系数 比 为 0.42 : 1 现在 问题 如 下 ， 1) 如 何 实现 可 持续 捕捞 ， 即 每 年 年 初 各 年 龄 组 鱼 的 数目 保持 稳定 ， 以 及 在 稳定 状态 下 ， 采 用 何 种 捕捞 强度 能 使 年 捕获 量 最 大 2) 渔业 公司 承包 该 鱼 5 年 的 捕捞 业务 ， 开 始 鱼 群 分 布 已 知 (各 年 龄 组 数 日 分 别 为， 加 天 加 BEE 30 数学 的 实践 与 认 识 第 27 卷 122.29.7,10.1.3.29(x109 条 )), 该 公司 应 如 何 决策 才能 获得 最 大 捕捞 总 量 而 不 太 损害 鱼 群 生产 能 力 . 二 、 模 型 假设 及 说 明 假设 ， HI， 鱼 群 死亡 和 捕捞 为 连续 过 程 ， ， H2， 鱼 在 第 一 年 9 月 初 集中 产 四 并 在 后 四 个 月 解 化 ， 来 年 初 成 为 1 铃 鱼 H3， 每 到 第 二 年 初 ;第 一 年 的 1 、2 、3 伶 鱼 各 增 -- 岁 ,但 4 散 鱼 退出 鱼 群 系统 H4， 平 均 每 条 鱼 的 产 孵 是 理解 为 对 所 有 色 的 平均 ， 改 在 计算 总 产 卵 时 ， 不 考虑 瞧 雄 区 别 = 说 明 ， 避 A A:、6C1 中 ， 各 组 鱼 年 平均 死亡 率 为 0.8/ 年 ， 折 合 为 日 均 死 亡 率 为 工 3 = 0.004299i/ H ; of \\ A2、H3 中 ， 由 文 加 AMB, MEHR—ALY 3 年 ， 故 认为 4 路 oo \\ 亡 . = 三 、 问 题 的 分 析 任 本 系统 具有 如 下 特点 ， 1. 鲁 鱼 的 产 卵 量 大 ， 死 亡 率 高 , 在 这 两 个 因 者 上 = 衬 得 在 一 般 条 件 下 1 龄 鱼 数目 术 稳定 ， 事 实 上 ， 第 + 二 1 年 1 龄 鱼 产生 的 数目 为 (t+ 1) -nx 存活 率 一] 32 六 10 于 =1.22 x Ia/ CC =1.22 x 1011 (1 一 3 由 于 之 1.22 x 101l, H04 n 变 人 变动 ) 时 ，( 基 至 变动 一 个 数量 级 )， Nilt + 1) 反应 并 不 敏感， 人 的 观点 看 ， 鳃 鱼 对 于 捕捞 量 是 有 ~ 定 适应 力 的 . 2. 从 目前 的 捕捞 方式 可 知 ) 当年 捕 鱼 产量 只 由 3 、4 龄 鱼 决定 ， 1 、 2 龄 鱼 不 受 捕捞 影响 ， 这 也 保证 了 种 群 的 延续 . 3. 当 捕 捞 强 度 系 数 发 生变 化 时 ， 鱼 群 中 各 年 龄 组 的 鱼 的 数目 会 发 生变 化 ， 即 产量 会 发 生变 化 ， 鉴 笑 世 甩 特 点 ， 在 一 定 捕 摘 强 度 范围 内 ， 鱼 群 会 趋 于 新 的 稳定 点 ， 形 成 一 种 持续 捕捞 的 局 面 但 不 同 稳定 点 产量 不 一 致 . 4. ;注意 到 在 无 捕捞 时 ， Na(b 一 1.22 x 101(t 一 co), Na(t) = 0.2Na(b), Na(t) = 0.04 x 所 AD = 0.008Nab), 这 种 年 龄 组 分 布 我 们 称 为 自然 居 态 . 人 > 四 、 符 号 说 明 下， 本 和 第。 天 的 台 上 ， 2 34 ,365; : 4 龄 鱼 的 捕捞 强度 系数 ， r : 日 均 死 亡 率 ; 9 : 每 年 4 龄 鱼 产 卵 量 ) mn 1 每 年 3 、4 龄 鱼 产 量 总 量 ; NS : 达到 最 大 持续 捕捞 量 时 ; 龄 鱼 数目 ， MS, : 自然 状态 时 ; 龄 鱼 数 ， Total : 5 年 合同 期 内 最 大 总 捕捞 量 ; EligE] 全 1 期 杜 小 勇 : 持续 高 产 捕 鱼 策略 31 e 其 它 要 用 的 记号 文中 另行 说 明 ， 五 、 模 型 建立 及 求解 (一 ) 系统 描述 根据 条 件 假设 ， 在 前 8 个 月 鱼 群 受到 一 定 强度 的 捕捞 ， 同 时 还 存在 自然 死亡 ， 我 们 把 这 两 个 因素 视 为 连续 过 程 ， 捕 捞 时 由 于 鱼网 的 因素 ， 只 能 捕 到 3 龄 鱼 和 守 俭 鱼 ， 其 捕 捞 强 度 系 数 之 比 为 0.42:1. 在 第 9 个 月 的 前 几 天 ， 所 有 ? 玲 鱼 和 4 龄 鱼 一 次 性 产 镶 ， 然 后 卵 进入 四 个 月 的 铸 化 期 ， 到 年 末 时 钱 化 完成 ， 一 部 分 成 为 : 龄 鱼 ， 同 涯 洗 鱼 还 存在 自 然 死亡 . 到 期 末 黎 化 的 孵 和 当年 4 龄 鱼 在 年 东 时 退出 色 群 系数 ， 当然 ， 鱼 产 卵 也 是 有 一 段 时 间 的 ， 但 为 了 简化 模型 ， 林 计 这 一 时 间 . 通 讨 对 鱼 群 系统 的 分 析 ， 我 们 得 到 一 组 微 分 方程 ， 在 一 年 内 A7 Ca -rat 0<s<365， 二 N ds 一 站 人 本 一-rNa(tsj， 0<s<365 2 CNa(ts) _ —rN3(t,3) — 0.42pN3(t, 5), 0<Ls < 站 ds © { —rN3(t,s), / Se < 于 | -Ne -pe 0EK28) ds \\ =rNs(t,s), <'s < 365. 了 o 对 于 这 类 可 分 离 变量 的 微分 方程 ， 我 们 容易 得 的 解 Ni = Ni(t,0)e™\"*, 0< s < 365, Na(t.s) = Na(£,0)e™™*, 0<s<365， Na(t, 0)e(r+0420)s 0<s< 243， Na(t,s) = { 2 243 < s < 365. _[ NalQ)estene, 0<s<243, Mattre) = { Nalt.0)e 由 233-r， 243 < g < 365, 人 和 和 人 -下 一作 即 Nat0) Li n= [Na(t 一 1.243)/2 + Ny(t 一 1.243)] x g), Na(t,0) = Nj(£= 1,365), “ 鸭 ] 光 一 1.365)， 人 Co Natt 一 1,365). 忌 在 可 等 绒 狂 捞 的 情况 下 ;每 年 年 初时 各 组 鱼 的 数目 保持 不 变 ， 因 此 分 析 鱼 群 的 稳定 性 时 需要 各 和 年 初 鱼 群 分 布 的 定量 描述 及 它们 之 间 的 关系 ， 因 此 我 们 考查 这 两 组 方程 ] AL] 司 的 联系 并 且 得 到 N Ni(t,0) = 帮 -ie-(+042p)x243Na(t 一 10)/2 十 所 -le-C+P)x243Natt 一 1,0) 加 9 x 1.22 x 101 Jet = T 100 g X eTTENIB Ny(t — 1,0)/2 % e-CPBN, — ,0)] Na(t,0) = Ny(t 一 1 0)eacsr Na(t 0) = Naz(t -1,0)e-365r Na(t,0) = Na(t — 1,0)¢243x042p-365r ， ERiEE Eie! 32 ¥ ¥ ® * BR 与 认识 第 27 卷 E 为 了 直观 显示 ， 我 们 把 它 写成 矩阵 形式 . NG=4t-1Nt-D， 其 中 N(t) = (Natb0) Na(2, 0), N3(t,0), Ny(2,0)), N@E-1)=(Ni(t—1,0), Naii—1,0), N;(t-1,0), at 一 Lo) 0 0 工 A ap-G+ro42p)x243 六 -le-C+P)x243 De 0 T 0 0 = ISSN ”0 omr 0 0 ”= SS 0 0 —243%0.42p—365r y4 (二 ) 问题 求解 } = (ERE 1 由 问题 得 到 矩阵 4(t - 1), 形似 Leslie 矩阵 钙 , 但 蒜 非 一 灌 数 矩 阵 ， 对 其 特 征 根 及 特征 向 量 作出 定量 分 析 较 为 困难 ， 为 此 ， 我 们 根据 Eyse 鱼 数 目的 转化 关 系 编写 了 C 请 言 程序 ， 用 它 能 对 一 定 初 值 和 捕捞 强度 下 : 着 年 初 的 多 群 分 布 作出 了 动态 模拟 . 其 模拟 过 程 如 下 : (Y : 需要 模拟 的 年 数 ， AS 转移 矩阵 N(0) : 分 布 初 值 ) R K=0 N N(K+ 人 小 K=K+1 AN 1er> | ¥ Yes > [ea -op \\V 对 模拟 的 结果 进行 观察 ,容易 得 到 鱼 群 的 稳定 分 布 (因为 了 可 变 ) 及 稳定 时 的 年 份 . 设 稳 定 状 态 下 3 .< 翁 苍 鱼 数目 分 别 为 Va, Na 那么 我 们 可 计算 出 该 稳 态 下 的 年 捕捞 基 gain(p) =17.86 x ( / ae-Croaapjtx 042od) 十 22.99 x ( / * Nae™(+0)t x et) 运用 搜索 算法 可 以 得 到 捕获 量 最 大 值 .我 们 设置 初 值 W(0) = (122 x 10°,29.7 x 10°,10.1 x 109, 3.29 x 109), 在 [0, 1] 区 间 上 用 搜索 算法 ， 得 到 最 大 可 持续 捕 恢 量 . _inax[gain(D)] = 6.44455 万 吨 , 此 时 ，p* = 0.03700(1/ 天 ). 此 时 鱼 群 分 布 为 (WSi, NS。， NSa, NS4) = (1.15056 x 1011，2.309929 x 1010,4.063498 x 109,2.13120 x 107) 我 们 取 [0, 0.01 区 闻 上 不 同 ? 值 所 对 应 的 稳定 状态 下 持续 捕捞 量 , 并 利用 Mathematica 制图 如 下 EEaE 1 期 _ HAR : 持续 高 产 捕 鱼 策略 _ 33 cat L] 5 ‘ 3 2 \\, 1 AOL, 0 ole 0 0 008 007 可 看 由 的 要 大 值 如 为 最 大 值 ， 不 会 出 现 多 峰 现象 -从 >》 问题 II ， oAN ， 分 所; 由 交 业 公司 承包 期 为 5 年 ， 且 要 求 在 轩 定 努力 量 的 执 撕 方式 下 全 入 去 年 后 的 温 场 的 生产 能 力 不 受 太 大 破坏 ， 我 们 对 国定 努力 量 捕捞 方式 有 两 笠 理 解 ; 方法 A : 认为 五 年 期 捕捞 强度 系数 p 为 不 同一 值 ， | = 方法 B : 认为 五 第 期 各 第 2 值 不 同 ， 记 第 ; 年 的 捕捞 强度 系数 为 起 我 们 分 析 了 本 题 所 给 的 数据 ,发 现 2 、3 、 4 圾 鱼 的 效 二 如 使 在 折 然 条 件 下 者 无 尖 达到 ,， 故 认 定 这 种 鱼 的 年 龄 分 布 是 由 某 种 异常 的 自然 原因 引起 的 是 一 种 不 稳定 状态 . 今后 无 论 捕 捞 量 如 何 少 ， 都 不 可 能 维持 原 有 鱼 群 各 年 龄 组 的 数目 .因此 我 们 理解 所 谓 生 产能 力 不 受 太 大 破坏 起 指 对 于 一 种 稳定 状态 而 高 . 在 杰 题 中 即 取 问 题 ! 中 可 获得 最 大 WERIRS. K FE §AMAERY Cut = 1.2.3.4.5. 根据 题 意 , 我 们 的 日 的 是 求 五 年 期 内 最 大 的 捕捞 总 量 ， 日 标 函数 :Total =max DCuti; s.b Ve) a 村 1 二 12,3.4. 对 于 方法 A, 我 们 假设 m = p. 0 利用 一 维 搜索 法 ， 在 [0.] 区 间 上 举 my 进行 搜索 ， 可 直接 得 到 Total 的 最 大 值 ， Total = 49.06 万 吨 ， 此 时 js.037 对 于 方法 B, 因为 m 人 =- E2 4 5) 各 不 相同 ， 若 在 0.1] 区 间 上 直接 利用 五 维 搜索 则 速度 慢 ， 精 度 低 ， 于 和 先进 行 数据 合理 分 析 ， 确 定 出 P 可 能 的 范围 值 ， 在 这 小 范围 内 进行 逐步 求 精 搜 索 ,) 先 在 小 区 间 求 出 最 优 解 ， 再 在 最 优 解 附近 求 出 更 优 解 ， 所 以 我 们 需要 解决 的 要 间 题 是 缩小 搜索 范围 ， 并 提高 结果 精度 . 下 面 我 们 来 寻求 名 的 大 到 范围 为 了 展 计 的 范围 ， 我 们 首先 注意 到 Ni[i + 1 0] 的 数目 满足 如 下 定理 定理 在 未 题 所 给 数据 下 , 设 第 ; 年 的 捕捞 强度 系数 为 若 Nitt+1.0) < NSix0.9(f = 123, 分 则 这 种 锌 搁 方 式 一 定 不 是 最 优 的 ， S 了 VSE 明 ; 由 于 在 情况 A 中 我 们 已 在 mw = p 条件 下 求 出 了 一 个 满足 不 破坏 生产 能 力 的 最 3 次 可 行 解 ， 其 捕获 量 为 gain= 49,06 万 吨 ， 当 不 限制 六 的 值 时 ， 必 有 大 量 捕获 量 Total> 1 内 现在 由 Nitt +1,0) < NSy x 0.9 则 att+2,0)< NSy x 0.9 x 0.2 = 1..1506 x 1011x0.9x02=2.07x101 < NS N3(t+3,0) < NS1 x0.9x0.2x0.2=414x 10°< NSa 所 以 当 Ni(5,0) < NS1x0.95 Ni(4.0) < NSix0.9 将 造成 Nz(6.0) < NS 与 W53(6.0) < NSa, 由 约束 条 件 可 知 这 是 不 可 行 的 ， 它 将 使 5 年 后 生产 能 力 章 到 破坏 . EiEAE A 34 数学 的 实践 与 认 识 第 27 郑 现在 论 若 Ni(2.0) < NS1 x 0.9 则 这 五 年 的 捕获 量 依次 为 Co 《25.6023， Cors <10.6, cats <5.27, 为 保证 生产 能 力 不 遵 到 破坏 Cor 和 3， Caty < 2， 得 Total= £C,,, < 49 万 吨 ， 同 理 可 证 ， 当 Ni(2.0) < 六 Si x 0.9 时 ， Total < 49 万 吨 ， 因此 当 Ni(2.0) < NS x 0.9 或 ml3,0 < Stx0.9 天 不 能 获得 最 优 解 ， 所 以 可 知 对 于 Ni(i,0).(i = 1.2,3.4,5) 在 寻求 做 化 解 时 均 不 可 能 小 于 NS x 0.9, 故 有 Ja 0)> NS x 0.9> 1.10x103 一 从 >》 ws 由 于 i 的 变化 将 影响 第 ;+ 1 年 的 1 龄 鱼 的 数目 ， 所 以 我 们 可 利用 此 年 .1 龄 鱼 的 数 日 来 确定 上 一 生 的 捕 描 强度 系数 的 范围 ha 5 第 ~- 年 最 大 值 已 由 题目 给 出 ， 同 时 我 们 经 分 析 可 知 , 若 27 3 人 稳定 值 则 不 仅 不 会 使 下 一 年 1 龄 鱼 数目 有 时 著 变 化 ， 而 且 使 超出 稳定 值 的 3 、4 龄 鱼 会 因 自然 死亡 而 影响 最 优 值 .因为 第 2 、3 、4 龄 鱼 最 起 蒜 自 然 稳 定 值 ， 所 以 我 们 取 第 2 、3 、4 龄 鱼 的 最 大 值 就 为 其 自然 稳定 值 ， 利 用 耻 述 两 个 方程 ， 取 不 同 的 p 值 求解 对 应 Nati + 1,0) 的 值 . DA as(i 244) =N,(i.0) x ce 0) x erC+Px243 (人 +1,0) =Naq(i 244) x 1.109 x 10° x 1.22 x 10'/(1.22 x 1011 十 Nas(i244) x 1.109 x 105、 二 2,3.4,5 @ 其 中 Nas(i.244) 为 第 ; 年 9 月 初 下 各 的 4 &-EOHIT (并 将 两 条 3 龄 鱼 并 为 一 条 4 龄 鱼 处 理 ), 我 们 利用 Mathematica 中 数值 多 办 得 到 如 下 数据 ， , [一 南下 270 00 0.05 N3o(1.244) || 64056.8 _ 93237 | 1.05442 x 107 b To0.03 | 0.01 0.005 Noall ,2 1 7242%5 x 10° | 13759x109 0.1 0.08 0.05 [TO | 6.71301 x 10° | 3.77665 x 10™ | 1.10474 x 10 二 多 玉 05 0.01 0005 | LN _| 1.30385 < 10 T.21903 x 10 SLS 上 008 | 0.005 Nsa(i.244] | 3014 玖 9785 5.125 x 10 V 已 0 0.01 0.005 ] N N3a(i.244) | 3.96789 x 107 | 3,33520 XI0I | 6.06350 x 10 N 五 | 0 1005 Ni(i+1.0) | 33585x 10° | 2.18332 xi0m | 1.0844 XIU [五 0.03 0 0.005_ [N.(i+1.0) | 1.18709 x 10™ | 1.21501 » 10™ | 1.29778 x 10°% ERBHHRYE p 与 mli + 1 0) 的 单调 递减 关系 : 1L0x 10™ < Ny(2,0) < wasl = 1.21886 x 1013 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved htt ww.cnki.ne EEaE 工期 性 小 勇 : 持续 高 产 捕 鱼 策略 和 2 = 可 知 0.005 < Pa < 0.008, 又 由 NO0) > 1.10087 x 101， 可知 p; < 0.05 i= 2,3,4,5. 于 是 我 们 在 区 闻 0.005 < 六 < 0.08 与 40< 有 < 0.05(i = 2,3,4,5) 内 进行 逐步 求 精 搜 索 ， 这 明 显 提高 了 An 的 精度 ， 进 而 提高 了 Total 的 精度 . 编程 匠 拆 得 到 如 下 数值 ， Total2 一 4.96284 x 10 Cat; = 2.18348 x 10 Caty = 8.1705% x im 及 三 00974 | Gur, = 9842 X rm 1 三 0.0367 | at = 6.15638 x 15°° [2 全 | xn _ 因 减 少 了 给 匆 范 围 ， 此 程序 在 奔腾 00585 上 运行 时 间 为 42 B. -从 > 六 模型 检验 分 -人 忆 “ 作 (1) 本 模型 得 到 一 个 递 推 关系 ， 当 稳定 后 ， 递 推 式 中 前 述 的 转移 巷 阵 及 (o) 也 近似 成 为 一 个 常数 矩阵 ， 即 近似 地 有 N(0) = AN(0), As by by bs 4 s 0 由 二 NEEA 0 0 和 0 易 见 入 = 1 是 4 的 一 个 特征 值 ， 稳 定 状态 下 各 组 鱼 数目 即 对 应 \\ 的 特征 向 量 , 当 和 = 1 时 表明 该 群体 不 增 也 不 减 ， 而 》 一 1 的 等 价 形式 就 是 上 R -YA bas1s2 十 bas1s233 二 1 [ 谢 下 面 我 们 用 本 模型 模拟 和 结果 来 验证 . 取 初 值 W(0) = (122 x 109,29.7 x 109,10.1 x 10 329 x 109) P = 0 并 由 计算 机 模拟 结果 得 到 生 了 0 0 24.8234 0.043195 — _ 10.20071 0 0 0 本 0 0.20071 0 0 of ) 认 0 0 0.00122001 0 人 丽人 3 这 就 从 一 方面 验证 了 此 时 的 状态 确 为 种 群 不 变 的 稳定 状态 ， 从 而 我 们 的 模型 是 合理 的 ， 基 本 符合 实际 S 和 2) 居间 题 开 的 结果 来 看 ， 由 于 Tutall 与 Total2 的 结果 相关 很 小 ， 所 以 实际 上 第 1 本 全 全 的 铺 捞 强度 太 大 ( 撤 网 次 数 太 多 ) 不 仅 难以 找到 那么 多 捕捞 工具 ， 而 且 在 > 0.02 [ 汐 藻 围 内 改变 的 值 ， 每 年 捕捞 量 将 不 会 受到 很 大 影响 ， 所 以 从 经 济 效益 出 发 ， 宁愿 采 取 持 续 捕捞 方式 ， 进 而 验证 了 问题 [ 的 求解 最 优 人 性， 同时 从 结果 看 出 第 一 年 大 力 捕 撕 而 以 后 每 年 都 相差 不 大 ， 正 说 明了 我 们 分 析 所 讲 的 所 给 的 数据 的 特殊 性 ， 七 、 模 型 的 评价 1。 本 模型 在 建 模 过 程 中 ， 对 键 鱼 产 卸 、 钱 化 、 死 亡 等 过 程 做 了 合理 的 简化 ， 建 立 了 微分 差分 模型 ， 建 模 简单 、 清 晰 ， 有 一定 普遍 意义 . EiiE EEEm 36 数学 的 实战 与 认 识 第 27 郑 = 2， 在 计算 中 ， 合 理 使 用 确定 范围 和 逐渐 求 精 的 搜索 方法 ， 使 计算 简便 、 精 确 ， 计 算 结 果 经 检验 分 析 是 正确 的 ， 由 此 得 到 的 结论 合理 可 信人. 3， 提出 的 模型 改进 方案 及 关于 极 大 利润 可 持续 捕捞 问题 ， 有 一 定 实际 意义 . 4 不足 之 处 是 由 于 缺乏 某 些 必 要 的 专业 知识 和 数据 ， 使 得 讨论 无 法 更 深入 进行 . 八 、 模 型 改进 方 样 之 一 : 邂 鱼 具有 周期 过 游 性 ， 如 果 能 获得 这 方面 的 欧 详 细 扑 资料 我 们 就 可 不 必 在 捕捞 期 内 均衡 捕捞 而 可 在 某 些 特定 时 期 进行 集中 摧 洲 ， 增 大 此 时 的 乓 捞 努力 量 ， 可 能 会 获得 更 高 的 经 济 效益 . 方向 之 二 ， 区 人 对 于 请 持 公司 求 说 ， 它 关心 的 不 只 是 一 年 能 捕 多 少 鱼 ， 还 有 其 经 济 效益 六 而 县 这 党 ) 常 是 主要 的 . 公司 获得 的 利润 不 仅 与 年 产量 有 关 ， 还 与 市 场 价格 、 成 本 投入 存 关 河 成 林 投入 与 袖 获 强度 系数 成 正比 ， 而 最 终 收入 折合 成 不 变价 格 与 贴现 率 当 时 的 价格 有 关 ( 贴 - 现 率 是 指 因 通货 及 胀 而 引起 纸币 的 一 定 的 贬值 ). Mg 人 LA 设 每 年 的 贴现 率 为 w, cl,c2 分 别 为 鱼 和 捕 鱼 成 本 的 当时 价格 指 上 可 定 值 ， 则 有 目标 函数 为 SS eam = Duoirlx (cl x Cat; —c2 x P J \\ 取 uw = 0.98,cl : c2 = 1000 : 50, 鱼 的 价格 为 1000 美 ar / 医 eam= TOREXI| ) [Pa 三 DO cats = 2.40848 | Cat; 的 单位 为 万 吨 ， 。 从 数据 分 析 可 得 由 于 减 下 支出 金 笑 ， 捕 捞 强 度 系数 降低 不 少 ， 原 因 是 当 p 在 大 于 某 值 的 范围 内 变化 时 ， hila -¢ 的 变化 不 敏感 . 参考 文献 站 (1) 姜 启 源 ,- 数 学 Ra 和 高 等 教育 出 版 社 ， 北 京 . [2r. B REH 里 斯 基 ， 分 门 鱼 类 学 ， 高 等 教育 出 版 社 ， 北 京 ， 1958. 四 和 数学 建 模 竞 赛 辅导 教材 ， 湖 南 教育 出 版 社 ， 长 沙 ， 1993. NS Pe",
+  "normalized_text_chars": 12278,
+  "normalized_text_sha256": "11753B1E95A4F4CCF8EB3B9CF8E40ED3D1AD66160396BDE60D8BCB9D8205B585",
+  "page_provenance_summary": {
+    "OCR": 8
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "6B4C64FAC5C8DCC760AC06E82D55B72BB423AEC3D38C9B595CE96CE81D4F634D",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "23C699C387947716E16E33E43BF2CAF049AC8E04AF91FC23A5FC6704BF8FF0F7"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "A5B8BC21DA66DC141CF88239080A9C327801796E2DB002CE3463CA4E4D6E2A03",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "E4A42FB1B421688DE7986D31EBB968137D8F9329E8E7FBDC685BD4C02A6E804C"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "B7E2D93CD95F165CC9F2688F2B274F914D6528D349B0B1D05AF39CEEA8A5B3F3",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "1C312105724EEDB91AFEE9336E5747FB6257A055779D0E0981C30AA09B6AC2F4"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "0ECE3CB0DE6A7A53DBDA0B259D6BEE440D1B26F7E1D5A0C9BC9D8C2F45D00221",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "10383F588735BB2114EB0B921803881FD87CD07CD5358458D1A7FC7B486713AA"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "5E0EE33D53DD549938C0317DDD85DAA8D1774465A2D1AA0CF35E55B919348975",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "97A7BA94351A24055256068C0CA73519E36C09D947AFF01CB344029B50D3CDD5"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "51490D591456D4A28A38614577B594BC8E82CA4F856BCDE27FE30FDC5ED321EA",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "6607DDBAD0D1173D7FEFFC23396245FBFDBE769F4C76C19DC7CC4546B50DB6FF"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "D10432EA0EF4C7EED64FF03E5C6AE20DB3E539998D963A24674B6FC9BE958D23",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B9E907DB07C8F79B184CA92DC00AF9E3DDA3AF644922E3522540693CC410CD33"
+    },
+    {
+      "page_number": 8,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "D26E79079745DCE6FD1A5A8CDD84A2D6FFF17A3C5503109A44D6165A12C7CE90",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 8,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "75553D0CF5030D38B2AD4E123383266DFBF31730306FF77816CE604A21FF61A6"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

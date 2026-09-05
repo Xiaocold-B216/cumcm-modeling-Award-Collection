@@ -1,0 +1,32 @@
+EiiEaE
+本 辣
+HF T
+FR]
+半生 二
+2. 附件 二
+程序 :
+model:
+min=5.6% (x*2+ (y=5) *2) *0.5+6.0% ( (15-x) *2+ (8-m-y) "2) *0.5+7.2%y+27.5
+*(m~2+25)~0.5;
+x<15;
+y<8;
+m<8; 四
+end
+-从
+2 一
+结果 :
+Local optimal solution found at iteratio 67
+Objective value: 51.9685
+一
+-
+Variable 难 Reduced Cost
+X 6.733782 -0.1688306E-07
+Y ©.1388995 0.000000
+% 0.%204969 0.000000
+ow Slack or Surplus Dual Price
+251.9685 -1.000000
+2 8.266218 0.000000
+一 一 3 7.861100 0.000000
+认 4 7.279503 0.000000
+y/
+2

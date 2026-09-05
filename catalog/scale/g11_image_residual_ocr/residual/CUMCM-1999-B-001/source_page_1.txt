@@ -1,0 +1,37 @@
+回 虽 二
+ee
+第 30 卷 第 1 其 数学 的 实践 与 认识 Vol 30 n. EEEAEE
+2000 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan 2000.
+ing method, graph theory method, sightmethod and operation-in-graph mehtod For the given nu-
+merical examples, the obtained solution to problem (1) is 4 and the available old drillings are P2,
+P4Ps,Pio the solution to problem (2) is 6 and the available old drillings are P1, Ps, P1, Ps, Po,
+Pu Finally, for problem (3), this paper gives a sufficient and necessary conditon for n old
+drillings being available
+“钻井 布局 ”问题 评述 -多
+林 褒 勋 2XG
+(郑州 大 学 数学 系 ， 郑 州 450052) 从
+摘要 : 本文 评述 1999 IN 型 、 解法 途径 及 进一步 研究
+等 方面 作出 总 结 二
+! s 外
+80 年 代 一 位 地 质 工程 师 在 从 事 一 项 研究 中 与 笔者 讨论 过 此 题 的 原型 , 当时 研究 的 情况
+比较 复杂 , 如 网 格 的 纵横 间隔 可 以 选择 , 但 和 能 太 小 , 转角 也 有 限制 , 尽 可 能 利用 全 部 旧 井
+本 题 就 是 从 中 提取 出 来 的 一 个 形式 比 颂 简明 的 问题 后 来 又 经 过 组 委 会 几 位 同志 的 精心 设
+计 , 才 得 到 专科 组 的 两 小 题 和 本 科 绢 的 3 是 ( 赛 题 参见 前 面 的 介绍 )
+人 的 人 人 由 于 瑟 题 原先 是 入 选 为 D 题 (专科 组 ) 的 , 希望 计算 上 容
+易 些 ， 人 交合 这 样 就 造成 了 一 个 缺陷 : 数据 对 计算 方案
+的 不 敏感 性 ¥
+笔者 在 评阅 工作 过 程 中 ! 受到 一 些 优秀 答卷 的 启发 , 并 听取 了 评阅 专家 的 讨论 意见 , 对
+这 过 古 的 认识 得 办 现在 谈 一 些 看 法 , 供 大 家 参考
+2 v
+A
+_ 是 解 此 题 欠 需要 专门 的 知识 , 方法 是 初等 的 , 但 一 些 基本 概念 要 清楚 一 些 好 的 答卷 都 是
+有 oeme 而 大 部 分 答卷 中 的 错误 都 是 源 于 这 些 方面 的 朴 忽
+Naeas
+研究 网 格 点 与 其 它 点 的 关系 必然 要 用 取 整 运算 常用 的 有 如 下 两 种 :
+[x ]= 不 大 于 x 的 最 大 整数 (x 的 整数 部 分 )，
+GD)= [e+ 羡 ]G 按 四 合 五 入 规则 的 取 束 )
+前 者 相当 于 计算 机 中 的 函数 NT, 后 者 相当 于 函数 ROUND (对 非 负数 而 言 ) 此 外 , 有 时 还
+会 用 到 上 取 整 (ceiling) 和 下 取 整 (flooD). 这 里 [x ] 相 当 于 下 取 整 我 们 可 以 分 别 表示 按 下 取
+整 及 四 舍 五 入 取 整 的 小 数 部 分 为
+px- [FAo= 上- ro)|
+23 © 1994-2008 ( a Academ: urnal Electronic Publishing House. All rights reserve tp://www.cnki.net

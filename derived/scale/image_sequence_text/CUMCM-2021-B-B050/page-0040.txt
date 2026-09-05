@@ -1,0 +1,48 @@
+data_return(i,3) = 1;data_return(i,4) = 0.01;data_return(i,5) = 1.68;
+
+data_return(i,6) = B_2(i-79,1);data_return(i,7) = B_2(i-79,2);data_return(i,8) =
+sob
+fori =85:90
+
+data_return(i,1) = 10;data_return(i,2) = 10;
+
+data_return(i,3) = L;data_return(i,4) = 0.01;data_return(i,5) = 1.68;
+
+data_return(i,6) = B_3(i-84,1);data_return(i,7) = B_3(i-84,2);data_return(i,8) =
+B_3(i-84,4);
+
+data_return(i,1) = 25;data_return(i,2) = 25;
+
+data_return(i,3) = Ldata_return(i,4) = 0.01;data_return(i,5) = 1.68;
+
+data_return(i,6) = B_4(i-90,1);data_return(i,7) = B_4(i-90,2);data_return(i8) =
+B_4(1-90,4);
+
+data_return(i,1) = 50;data_return(i,2) = 50;
+
+data_return(i;3) = 1;data_return(i,4) = 0.01;data_retum(i,5) = 2.1;
+
+data_return(i,6) = B_5(i-96, 1)idata_return(i,7) = B_5(i-96,2);data_return(i,8) =
+B_5(1-96,4);
+fori =103:108
+
+data_return(i,1) = 75;data_return(;,2) = 75;
+
+data_return(i,3) = 1;data_return(i,4) = 0.01;data_return(i,5) = 1.68;
+
+data_return(i,6) = B_6(i-102,1);data_return(i,7) = B_6(i-102,2);data_return(;,8) =
+B_6(1-102,0);
+fori=109:114
+
+data_return(i,1) = 100;data_return(i,2) = 100;
+
+data_return(i,3) = 1;data_return(i,4) = 0.01;data_return(i,5) = 0.9;
+
+data_return(i,6) = B_7(i-108,1);data_return(i,7) = B_7(i-108,2);data_return(i,8) =
+B_7(i-108,4);
+data_return = [data_return, data_return(:,3).A2, data_return(;,4).A2,
+data_return(:,5).A2, data_return(:,6).A2, data_return(:,7), data_return(:,8)];
+data_return(,7:8) = [data_return(;,1).A2, data_return(:,2)."2];
+
+”
+K MEAZE]

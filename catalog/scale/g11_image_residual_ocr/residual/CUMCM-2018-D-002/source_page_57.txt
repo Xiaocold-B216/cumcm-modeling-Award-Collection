@@ -1,0 +1,45 @@
+Da 口 |
+党 -让
+if (bw==0) break;
+}
+if (a2. ys[1]==0)
+{
+for (;bw!=0&&a2. ys[3]!=0;bw—, a2. ys[3]—)
+Z [z1++] =3 本
+}
+else if (a2. ys [3] ==0)
+{
+for (;bw!=0&&a2. ys[1]!=0;bw—, a2. ys[1]—)
+Z [z1++] =1 本
+} 人
+-从 >
+ARRAARAAAARRARRRARRRARRARR kkikiekk
+FhkrkkkrkkkkkkkkkkkkRkokokkkkokkokokok / 74
+} p 才
+[xkxkrkrkrkRkkokkk /
+\
+y1=0; 会 A
+ab=sum(al. qd, 2) /2;bb=sum(a2. qd, 2) /2
+aw=sum(al. qd, 2) —ab; bw=sum(a2. qd, 2) bb..
+int ajg = (ab*2/(al.qd[1]==0?1:al. qd[1]))-2;
+if (ajg<5)ajg=(ab*4/ (al. qd[1]1==0?1 :al.qd[1]))-2;
+int bjg = (bb*2/(a2. qd [1]=-071:42, qd[11))-2;
+if (bjg<5) bjg=(bb*4/ (a2. qd[1]1==0?1:a2. qd[1])) -2;
+While (ab!=0) JV )
+for (int i=0; 3 4ab-08tal, qd[1]1=0;i++)
+al. qd[1]>—, ab—, ylyl++]=1;
+for (int) i=0;i<ajg&&ab!=0&&al. qd[0] 1=0;i++)
+o 1 人 一 ,ab 一 ,y[y1++]=0;
+) Zu
+mijPGuD
+We (int i=0;i<2&&bb!=0&&a2. qd[1]!=0;i++)
+SA， a2. qd[1] 一 , bb—, y[yl++]=1;
+for (int i=0;i<bjg&&bb!=0&&a2. qd[0]!=0;i++)
+a2. qd[0]—, bb—, y[y1++]=0;
+}
+While (aw!=0)
+{
+for (int i=0;i<2&&aw!=0&&al. qd[1]!=0;i++)
+al. qd[1]—, aw—, y[y1++]=1;
+for (int i=0;i<ajg&&aw!=0&&al. qd[0]!=0;i++)
+57

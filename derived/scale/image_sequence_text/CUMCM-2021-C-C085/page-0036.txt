@@ -1,0 +1,34 @@
+误
+for rin range(S0):
+worksheet write(r, 0, DP[r])
+worksheet write(r 1. str(S{r]))
+workbook close0
+介绍 ; 对 确定 的 供 货 商 俩 心 求解 供 货 量 分 配 的 规划 ， 输 入; 期 望 供 货 量 .xlsx; 给
+出 表格 : 订单 量规 划 结果 .xlsx，T4 同 理 ， 区 别 为 供应 商 列表 为 全 部 供应 商
+importrandom
+import numpy as np
+import xlrd
+import xlsxwriter
+def takeCB(elem):
+retum clem[0]
+excel = xlrd open_workbook(" 期 望 供 货 量 xlsx" rb)
+sheet = excelsheet_by_name('SheetT')
+n-402
+-24
+C-28488
+asco2
+ia0
+RE
+GHL-[]
+Seln-{]
+JIEGUO-np.zeros((n.w)
+forrin range(1 sheet.nrows):
+ID.append(sheet.cell value(r, 0))
+FLappend(sheet.cell value(r, 1)
+forrin range(1 sheetnrows):
+val-{]
+for ¢ in range(2,sheetncols):
+ssheet cell_value(r, ¢)
+val.append(s)
+GHL.append(tuple(val))
+%

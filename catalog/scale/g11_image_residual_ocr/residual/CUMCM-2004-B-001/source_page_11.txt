@@ -1,0 +1,42 @@
+RE 品
+[Dis
+第 7 期 电力 市 场 输电 阻塞 管理 模型 89 -
+s.t. 9i < Gmi
+L=(1+7m)m; <0
+HPRRERA 8 个 (go 9)。
+5.5 ”最 高 效率 规划 流程 〈 略 )
+6 “实例 求解 结果 :
+6.1 对 问题 一 的 解答
+6.1.1 ”模型 (1) (不 带 常数 项 ) 的 线性 系数 及 其 检验 结果 从
+表 1 不 带 常数 项 的 模型 的 线性 系数 及 其 检验 结果 二 Sa
+=
+ER [吉普 民
+国 EKZRTUIEEZURIEIOCICZI SSE
+IECOUTTEITIERITIIIIOTGICTIECIO
+EECORTETICCNICISITI ET
+EECESIOTSIZIETI 取 T
+IECITRTRIIINECTIICIIIEITI
+人 EECESEEIT
+表 1 中 第 了 行 对 应 第 ) 条 线路 。 检 验 结果 中 1-o 为 可 信 度 。
+AAA
+表 2 带 常 歼 项 的 模 生性 系数 及 其 检验 结果
+TEST  | @ [F[a
+EECTIICNEIGIIOCIIEIT 和
+3 TREETTTCIICEGIIIIEZI 丰
+站 IECTTRICETTRITOEITTOIETINICITIEDEG | 0
+IIETEICRIOEIOOIECOGICTGIETI
+ITCETIRECIZIRKITEIOIEIOICZIICEOE
+ICIOIGICTTIIEZIU
+7 S -
+| 六-
+6.1.2 .异型 (2) ( 带 常 数 项 ) 的 线性 系数 及 其 检验 结果
+6.2 “对 问题 二 的 解答
+本 文 设 计 了 两 种 阻塞 费用 计算 规则 ， 并 对 其 优 劣 做 了 详细 讨论 。 有 具体 细节 见 模 型 建立 部
+分 。
+6.3 ”对 问题 三 的 解答
+预报 负荷 需求 为 982.4MW 时 的 分 配 预 案 如 表 3。 -
+6.4 “对 问题 四 的 解答
+预报 负荷 需求 为 982.4MW 时 的 分 配 预案 ( 表 3) ， 其 阻塞 检查 结果 及 调整 后 的 最 终 出 力 分
+配方 案 分 别 如 表 4， 表 5 所 示 。
+其 中 阻 寒 费 用 1、2 分 别 是 用 阻塞 费用 规则 一 、 二 求 得 的 。
+6.5 ”问题 五 的 求解 结果

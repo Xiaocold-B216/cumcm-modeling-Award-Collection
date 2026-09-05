@@ -1,0 +1,24 @@
+{
+  "runtime_type": "historical_local",
+  "runtime_root": "D:\\texlive\\2026\\bin\\windows",
+  "baseline_version": "25.02.0",
+  "active_version": "25.02.0",
+  "pdfinfo": "D:\\texlive\\2026\\bin\\windows\\pdfinfo.exe",
+  "pdftotext": "D:\\texlive\\2026\\bin\\windows\\pdftotext.exe",
+  "pdftoppm": "D:\\texlive\\2026\\bin\\windows\\pdftoppm.exe",
+  "pdftocairo": "D:\\texlive\\2026\\bin\\windows\\pdftocairo.exe",
+  "tool_versions": {
+    "PDFINFO": "25.02.0",
+    "PDFTOTEXT": "25.02.0",
+    "PDFTOPPM": "25.02.0",
+    "PDFTOCAIRO": "25.02.0"
+  },
+  "historical_provenance_reference": "catalog/scale/g8_poppler_historical_provenance.json",
+  "reference_validation": {
+    "identities": 17,
+    "pages": 606,
+    "page_hash_matches": 606,
+    "body_hash_matches": 17
+  },
+  "validation_status": "PASS"
+}

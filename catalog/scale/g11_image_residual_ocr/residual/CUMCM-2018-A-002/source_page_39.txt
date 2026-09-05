@@ -1,0 +1,43 @@
+回味
+多 二 是
+A(m,m)=h+lam_4/derta_x4;
+A(m,m-1)=-lam_4/derta_x4;
+%% 追赶 法 求解
+for k=2:n+1
+k;
+b=zeros(m,1);
+for i=2:m-1
+b(i, 1)=u(i+1,k-1);
+end
+b(1,1)=u(2,k-1)+r1*u(1,k); _
+bml,D=0; _ 从
+b(m1+m2,1)=0; = SS
+b(m1+m2+m3,1)=0; 2XG
+b(m, 1)=37*h; 中 一
+bb=diag(A)";
+aa=[0,diag(A,-1); As
+c=diag(A,1)’;
+N=length(bb); X
+L=zeros(N); K
+uu0=0;y0=0;aa(1)=0;
+L(1)=bb(1)-aa(1)*uu0; 0
+y(1)=(b(1)-y0*aa(1))/L(1); %% o
+wu(1)=c(1)/L(D);
+for i=2:(N-1)
+L(i)=bb(i)-aa(i)*uu(i-1); 二
+yY(D=(bGD)-yGr-l)*aa(GD)L(  d
+wu(i)=c@)/L(); = 一-
+end )
+L(N)=bb(N)-aa(N UN
+RCI
+xDEYODNSN
+RN
+SG -uuGD)*x(i+T);
+end
+u(2:m+1,k)=x";
+end
+if u(m+1,3600)<=47&u(m+1,3301)<=44
+optimum=[optimum 12*1000];
+end
+end
+39

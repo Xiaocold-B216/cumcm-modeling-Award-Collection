@@ -1,0 +1,67 @@
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+[ T6,VTT1,VTT2,TT4,TT5 ] = f201( T1,T2,T3,t0,dT,T );
+t0=T6;%当前时间
+for ii=1:4
+for jj=m:-1:1
+if TT4(ii)==aa(jj,1)
+aa(jj,3)=VTT1(ii);
+aa(jj,5)=TT5(ii);
+aa(jj,6)=VTT2(ii);
+aa(jj,7)=aa(jj,6)+T(5)+T(7);
+break;
+end
+end
+end
+aa(m+1:m+4,1)=TT4';
+aa(m+1:m+4,4)=TT4'*2-1;
+aa(m+1:m+4,2)=VTT1;
+aa(m+1:m+4,3)=VTT1+T(6)+T(4);
+
+流
+
+UTT=aa(:,6);
+SI=length(UTT);
+for ijk=1:SI
+if UTT(ijk)>100000
+UTT(ijk)=0;
+end
+end
+[nmn,nmi]=max(UTT);
+clear UTT SI ijk
+T3=aa(nmi,5);%当前位置；
+
+end
+
+公
+
+end
+
+微
+
+信
+
+[m,n]=size(aa);
+aa(m-3:m,:)=[];
+[m,n]=size(aa);
+for i=m:-1:m-15
+d=dT(abs(aa(i,5)-1)+1);%移动
+if aa(i,7)+T(6)+T(7)+d>8*3600
+aa(i,7)=0;
+end
+end
+bb=[];
+for i=1:m
+if aa(i,7)==0;
+73
+
+

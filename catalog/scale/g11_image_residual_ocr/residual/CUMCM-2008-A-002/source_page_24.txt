@@ -1,0 +1,37 @@
+回 员 讨 汉 回
+村
+4.4.4 +t 和 k 符 号 的 确定
+首先 在 R,t 已 确定 的 情况 下 ， 借 助 公式 (22) (28) 不 难 求 出
+了 = 三 -t3Xi
+Xi(GGXiTD2yi+Da)-Ginxi+n2yi+Ia)
+或 者
+7Z= -Gy
+yxXi+Dnayi+Ds)-(DixXi+Doyi+Ds)
+以 及 相应 的
+Z= CGGixi+Bayi+ba)t-GUxi+nayi+ra)ts
+XiGGXifD2yi+na)-Ginxifnayi+ra) A7
+a ARV
+7= (@,X H1 Y 153 )y (1 X; Hy y H1 ots 由
+RISE R71
+根据 我 们 坐标 系 的 选择 法 ， 应 有 Zi <0 和 Zi<0， 上 Ko 和
+这 样 即 可 确定 出 两 坐标 系 之 间 的 正 交 旋转 矩阵 R 和 秆 移 何 量 +， 两 坐标 系 的 相对 位
+置 随 之 确定 。 SN
+五 人
+1 \
+WAEBERLi 1
+若是 考虑 相机 镜头 畸变 对 系统 成 像 的 影响 ， 我 们 可 以 引入 如 下 的 畸变 模型 ， 即
+y/ 2
+iu 及 rd4j2piw +pi( 二 +2u 记
+六 区 N u,
+吓 PlrerepornC am
+其 中 ，uy easr 庆 和 see 下 的 1 为 实际 图 像 中 的 观测 值 ，kik: 是 径
+向 畸变 参数 ，p,， : 电 河 有 N 灾 参数 ， 且 其 他 参数 满足
+为 u,=u-c, ,v,=v-c,,r’=u; +v;
+此 时 ， |  T——
+N- D =4 |m 志 (Askka,pupRit5MO|
+mass 并 借用 本 文采 用 的 微分 进化 算法 进行 非 线 性
+优化 ， 确 定 出 也 中 各 参数 的 值 。
+双 相 机 立体 视觉 原理 的 讨论 串
+在 实际 应 用 中 , 利用 相机 的 双 目 定位 原理 确定 运动 物体 的 位 置 有 着 十 分 广泛 的 应 用
+背景 ， 因 此 这 里 有 必要 针对 双 目 定位 原理 展开 讨论
+22

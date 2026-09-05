@@ -1,0 +1,25 @@
+5. op (tiqu_column)-[;
+10. order = 5;
+11. franelen = 11;
+12. 5gf = sgolayFilt(y’,order, franelen);  ¥S
+13. k_deriva = diff(sgf2) xsG 数据 的 一 阶 求 导
+se -deriv2
+15. se 。 mapstd(sef1); 数据 标准 化
+16. y_tiau = SEFAC:, tau_columnt);
+17. y_tiqu = y_tiqu's
+16. sgf2 = [op,y_tiqul;
+15. xclassificationLearner Presretsat
+20. % save('trainedhodell.mat'，traineawodell
+21. train - sgra(1221,1); % WiE
+22. load trainedhodell
+2 test -sgf2(2223end:); 。 % BERE
+20. testl = test(:,1);test2 = test(:,2:en);
+25. yfit - trainediodel predictFen(test2);
+26. xx -1:1ength(testn);
+27. plot(xx,test1, ‘0'); hold on
+26. plot(u,yfit, **)
+25. legend( "真实 值 '，, 检 验 预 测 值 ')% 检 验 集 可 术 化
+30. sgr = sf
+31. sin - sef1([94 109 148 278 308 330 347，:);
+32. yfitl - trainednodgll predictrca(sin);
+男

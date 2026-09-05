@@ -1,0 +1,36 @@
+Jndex1 = find(abs(x1-0.5)<0.00117),
+Index2 = find(abs(x1+0.5)<0.00117);
+Index = [Indexl,Index2];
+mpl = ones(l Jength(theta_deg)).
+mp2 = ones(l length(L);
+RBall=Linde), 。 % 三 个 半径 ， 可 确定 一 个 国 环 和 一 个 国
+figure(1)
+ae
+subplot(121)
+plothta_deg,x1,LineWidi,1)
+gridon
+hokdon
+plotheta_deg,0 5*umpl r-);
+ploitheta_deg.-0.S%umpl-),
+plotheta_deg(Index)x1(Index)0)
+foris 1length(index)
+text(theta_deg(Index(i)),x1(Index(i))+0.2(snumste(theta.deg(Index(i)).".num2str(x](Index(
+0
+end
+lim((0 25])
+labelCABE()):
+Eee
+Subplot(1.22)
+plot(Lx1, LineWidih' 1);
+ridon
+hold on
+plot(L,0.5%mp2,'r--);
+plot(L-OSetmp2sr 人
+plotLndegsl(ndeoiroy
+fori= 1length(index)
+tea(LGndex(D)xlindexG))HG2[Cnum2siLndexiD) num2strxiindekGD)])
+end
+Xlim([0 RAsin(25*pi1S0)]):
+Xlabel(K f1 EZ] 2 $2E B5(m)):
+yiabel( HEHAL2] 2 办 距离,
+%  saveas(gea, Q3 BRT prg)

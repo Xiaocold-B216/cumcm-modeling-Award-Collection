@@ -1,0 +1,33 @@
+paper_id: CUMCM-2011-B-003
+year: 2011
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011B：交巡警服务平台的设置与调度（3）/交巡警服务平台的设置与调度.pdf
+  sha256: E0C41FB5E5AE5DB3D0A87C40D1A49F6C188C539D3395F37D672C6CD1EBAFC9A0
+authority_sha256: E0C41FB5E5AE5DB3D0A87C40D1A49F6C188C539D3395F37D672C6CD1EBAFC9A0
+paper_file_memberships:
+- path: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011B：交巡警服务平台的设置与调度（3）/交巡警服务平台的设置与调度.doc
+  role: primary
+  canonical: false
+- path: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011B：交巡警服务平台的设置与调度（3）/交巡警服务平台的设置与调度.pdf
+  role: primary
+  canonical: false
+primary_file: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011B：交巡警服务平台的设置与调度（3）/交巡警服务平台的设置与调度.pdf
+extraction_inputs:
+- path: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011B：交巡警服务平台的设置与调度（3）/交巡警服务平台的设置与调度.pdf
+  sha256: E0C41FB5E5AE5DB3D0A87C40D1A49F6C188C539D3395F37D672C6CD1EBAFC9A0
+  kind: original
+extraction_input_sha256: E0C41FB5E5AE5DB3D0A87C40D1A49F6C188C539D3395F37D672C6CD1EBAFC9A0
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q0/Q1 Native Markdown Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 31
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true

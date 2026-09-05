@@ -1,0 +1,48 @@
+paper_id: CUMCM-2014-A-A2302
+year: 2014
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略/A23022014_杜磊_江启文_汪鑫 .pdf
+  sha256: A5CE222DB27F1A47800723DB92BC76A8CCF2CA053A6F62CD7B5CEFBE8018A237
+authority_sha256: A5CE222DB27F1A47800723DB92BC76A8CCF2CA053A6F62CD7B5CEFBE8018A237
+paper_file_memberships:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略/A23022014_杜磊_江启文_汪鑫 .pdf
+  role: primary
+  canonical: true
+primary_file: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略/A23022014_杜磊_江启文_汪鑫
+  .pdf
+extraction_inputs:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略/A23022014_杜磊_江启文_汪鑫 .pdf
+  sha256: A5CE222DB27F1A47800723DB92BC76A8CCF2CA053A6F62CD7B5CEFBE8018A237
+  kind: original
+extraction_input_sha256: A5CE222DB27F1A47800723DB92BC76A8CCF2CA053A6F62CD7B5CEFBE8018A237
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 29
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["16"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2014-A-A2302/source_page_16.txt"]
+  source_sha256: A5CE222DB27F1A47800723DB92BC76A8CCF2CA053A6F62CD7B5CEFBE8018A237
+  current_body_sha256: 778D00D592BA7000E96DD2E934AFAC1019B5BE871EB4BC060808265122785424
+  candidate_body_sha256: 3B37B5C56062E3CC3DAAE4ABD8354B0EE227DCC397442B2F5799CEAD233900D5
+  source_page_count: 29
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

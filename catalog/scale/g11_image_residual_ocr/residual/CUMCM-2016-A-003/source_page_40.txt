@@ -1,0 +1,36 @@
+Gt=100%g;%.01°2; 00C 玉 |
+Gq=mqxgjsGOTiTCoOC 玉 |
+FLtfu=rouxgxVt;s .Of i 五 |
+Fgfu=rou*g*vq; 300A|Co, jA!
+Fshui3=0+374* (vshui/gdH"2* (gdH-h-4.5)"2) ~2*1%0.3; SE+EUEGA |
+pA»aOE
+gama3=atan (Fty(5)/ (Fshui3/2+Ftx(5)));
+Ftp=Ftx(5) *cos (gama3) +Fty (5) *sin (gama3) ;
+beta=atan ( (Ftp+Fshui3/2*cos (gama3))/ ((Ftfu-Gt) /2+Ftz (5)));
+Ft2x(1)=Fshui3+Ftx (5);
+Ft2y(1)=Fty(5);
+Ft2z (1)=Ftfu-Gt+Ftz (5) +Fqfu-Gq;
+$A2A 2;-0
+roum=6450; $A%A AUIE
+Vm=mm/roum; $A%A Ta»y
+Fmfu=rou*g*vm; $AA" [A|
+Gm=mm*q; $A*A OgA;
+Fshuid=zeros(l,n); SE+EUE®A | nA»U0E
+for i=1:n
+Fshuid (i)=0; SE+EUE®A | pA»GOE
+gama4 (i)=atan (Ft2y(i)/ (Fshuid (i) /2+Ft2x(i)));
+Ftp=Ft2x(i) *cos (gama4 (i))+Ft2y(i) *sin(gamad (i));
+thita2 (i)=atan ((Ftp+Fshuid (i)*cos (gama4 (i))/2)/ ((Fmfu-Gm) /2+Ft2z(i)));
+if thita2(i)<0
+thita2 (i)=thita2(i)+pi;
+end
+Ft2x (i+1)=Fshuid (i) +Ft2x(1);
+Ft2y (i+1)=Ft2y (i);
+Ft2z (i+1) =Fmfu-Gm+Ft2z (1);
+end
+H=h+sum (cos (thital))+cos (beta) +Lm*sum(cos (thita2));% BIEpAkata
+if abs (H-gdH)<min
+minh=h;
+min=abs (H-gdH) ;
+minH=H;
+40

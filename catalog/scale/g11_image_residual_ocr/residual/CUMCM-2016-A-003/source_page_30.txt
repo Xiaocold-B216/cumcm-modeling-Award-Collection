@@ -1,0 +1,38 @@
+g=9.8; 200A | MOR09E
+V=pi*172%h;%20E014»y
+Ffeng=0.625%S*v~2;% ‘cA|
+Ffu=rou*g*v;% iA|
+Gfu=m*g;%, +&00A|
+if Ffu-Gfu<0
+continue;
+end
+alpha (1)=atan (Ffeng/ (Ffu-Gfu)) ;
+Ft (1)=sqrt (Ffeng”2+ (Ffu-Gfu) *2) ;
+$. 0102¢ -0
+Vg=1*pi*0.025%2;% 0'UTa»y
+Ggang=10*g;% O'UOGA|
+Fgfu=rou*g*Vvg;
+for i=1:4
+alpha (i+l)=atan((Ft(i)*sin(alpha(i)))/ (Ft(i) *cos (alpha(i))+Fgfu-Ggang)) ;
+Ft (i+1)=Ft (i) *sin(alpha(i))/sin(alpha (i+1));
+thital (i)=atan(Ft(i)*sin(alpha(i))*1/ ((Fgfu-Ggang) *1/2+Ft (i)*cos (alpha(i)))
+) 7
+end
+$.0122:40
+Ve=1*pi*0.15%2;% Of°1a»y
+Vq=mq/7800; 3081iCoTa»y
+Gt=100%g;% 01°%; -O0@A!
+Gg=mq*g; $081 1CO0PA !
+Ftfu=rou*g*vt;% 0I° ;A!
+Fgfu=rou*g*Vvq; $00A|Co , jA!
+gama (1) =atan (Ft (5) *sin (alpha(5))/ (Ftfu+Ft (5) *cos (alpha (5) ) ~Gt-Gg+Fqfu) ) ;
+Ft2(1)=Ft (5) *sin(alpha (5))/sin(gama(1));
+beta=atan (Ft (5) *sin (alpha(5)) *1/ ( (Ftfu-Gt) *1/2+Ft (5) *cos (alpha (5)) *1)) ;
+人 六 及 -2
+mm=0.735; $A%A ORA;
+roum=6450; $A%A" AUIE
+Vm=mm/roum; gs 六 = 天 14»y
+Fmfu=rou*g*Vm; $A*A"  jA|
+Gm=mm*g; $A*A OgA!
+Lm=0.105; $A%A" *=qE
+30

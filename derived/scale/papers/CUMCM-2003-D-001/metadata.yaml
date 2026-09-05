@@ -1,0 +1,47 @@
+paper_id: CUMCM-2003-D-001
+year: 2003
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003D：抢渡长江的数学模型（2）.pdf
+  sha256: 4AAE7A6D1021D49FAFD1CDC63020EF7F72BB95C359E692E76C84B1DD39784647
+authority_sha256: 4AAE7A6D1021D49FAFD1CDC63020EF7F72BB95C359E692E76C84B1DD39784647
+paper_file_memberships:
+- path: 2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003D：抢渡长江的数学模型（2）.pdf
+  role: primary
+  canonical: true
+primary_file: 2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003D：抢渡长江的数学模型（2）.pdf
+extraction_inputs:
+- path: 2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003D：抢渡长江的数学模型（2）.pdf
+  sha256: 4AAE7A6D1021D49FAFD1CDC63020EF7F72BB95C359E692E76C84B1DD39784647
+  kind: original
+extraction_input_sha256: 4AAE7A6D1021D49FAFD1CDC63020EF7F72BB95C359E692E76C84B1DD39784647
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 7
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-D-001/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-D-001/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-D-001/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-D-001/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-D-001/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-D-001/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-D-001/source_page_7.txt"]
+  source_sha256: 4AAE7A6D1021D49FAFD1CDC63020EF7F72BB95C359E692E76C84B1DD39784647
+  current_body_sha256: 3DD7EB474B8E3D94B78EBAA0E3FE743F6158C9FC7F47686280FBBD4FE3AD55BA
+  candidate_body_sha256: D7AD063BEFC4D5C8187325898109BE3ACBA61BE3E92DE0C28405E46CFD793BA7
+  source_page_count: 7
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

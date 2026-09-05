@@ -1,0 +1,107 @@
+// 二次换乘的情况
+bool TwiceBusChange(const int NSTART, const int NEND,
+
+// 起始点和目标
+
+点
+vector<vector<int> > & FeasibleSolve,
+
+// 可行的解决方
+
+案，是返回值
+vector<LoadMessage> & AllLines,
+
+// 所有路线
+
+vector<vector<int> > & AllBuses,
+
+// 所有公汽
+
+信息
+站信息
+vector<vector<vector<int> > > &RoadCrossInfo)
+
+// 任意两路线的
+
+流
+
+交叉信息
+{
+bHaveFound = false;
+
+int
+
+nCurLineName = -1;
+
+int
+
+nFirstBusChangeStation = -1;
+
+// 第一次换乘的车站名
+
+：
+科
+
+int i, j, k;
+
+研
+
+FeasibleLine(9, 0);
+
+ww
+
+vector<int>
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+bool
+
+i = j = k = 0;
+
+for (i=0; i<AllBuses[NSTART-1].size(); ++i)
+路
+
+号
+
+{
+
+// 经过起始站点的所有线
+
+众
+
+nCurLineName = AllBuses[NSTART-1][i];
+j=0;
+
+公
+
+int nStart_pos = -1;
+
+while (AllLines[nCurLineName-1].LineInfo[j] != NSTART)
+
+信
+
+++j;
+
+微
+
+nStart_pos = j;
+
+// 当前线路上的所有站点
+for (j=j+1; j<AllLines[nCurLineName-1].LineInfo.size(); ++j)
+{
+nFirstBusChangeStation = AllLines[nCurLineName-1].LineInfo[j];
+vector<vector<int> > temp;
+bool IsConnected
+= OnceBusChange(nFirstBusChangeStation,
+NEND, temp, AllLines, AllBuses, RoadCrossInfo );
+
+35
+
+

@@ -19,7 +19,9 @@ $CanonicalOutput = Join-Path $Root 'derived\scale\doc_batch\CUMCM-2012-D-001\sou
 $ExpectedSha = 'D93A9A6A9DE012927F8A5D4B36E1768CA3F6AFFB6952673F40FE2740D4032766'
 $ExpectedSize = [int64]1146880
 $ExpectedOle = 'D0CF11E0A1B11AE1'
-$ExpectedWordVersion = '16.0.20228.20190'
+$ExpectedWordComVersion = '16.0'
+$ContractPath = Join-Path $Catalog 'g8_doc_extraction_contract_v1.json'
+$WordExecutable = 'C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE'
 $MaxTargetedAttempts = 2
 $script:StageCreatedIds = @()
 $script:StageCleanedCount = 0
@@ -33,6 +35,108 @@ function Read-CsvUtf8([string]$Path) {
 
 function Read-JsonUtf8([string]$Path) {
     return (Get-Content -LiteralPath $Path -Raw -Encoding UTF8 | ConvertFrom-Json)
+}
+
+function Get-ApprovedWordProductVersions {
+    if (-not (Test-Path -LiteralPath $ContractPath -PathType Leaf)) { throw 'WORD_CONVERTER_CONTRACT_MISSING' }
+    $contract = Read-JsonUtf8 $ContractPath
+    $versions = @($contract.validated_converter_versions | ForEach-Object { ([string]$_).Trim() } | Where-Object { $_ -ne '' } | Sort-Object -Unique)
+    if ($versions.Count -eq 0) { throw 'WORD_CONVERTER_APPROVED_VERSION_SET_MISSING' }
+    return $versions
+}
+
+$ExpectedWordProductVersions = @(Get-ApprovedWordProductVersions)
+
+function Get-WordProductVersion {
+    if (-not (Test-Path -LiteralPath $WordExecutable -PathType Leaf)) { return '' }
+    try { return [string](Get-Item -LiteralPath $WordExecutable).VersionInfo.FileVersion } catch { return '' }
+}
+
+function Get-PropertyValue([object]$Object, [string]$Name) {
+    if ($null -eq $Object) { return $null }
+    $property = $Object.PSObject.Properties[$Name]
+    if ($null -eq $property) { return $null }
+    return $property.Value
+}
+
+function Test-PropertyPresent([object]$Object, [string]$Name) {
+    return [bool]($null -ne $Object -and $null -ne $Object.PSObject.Properties[$Name])
+}
+
+function ConvertTo-NullableInt([object]$Value) {
+    if ($null -eq $Value) { return $null }
+    $text = ([string]$Value).Trim().ToLowerInvariant()
+    if ($text -eq '') { return $null }
+    if ($text -eq 'true') { return 1 }
+    if ($text -eq 'false') { return 0 }
+    try { return [int]$Value } catch { return $null }
+}
+
+function Normalize-CurrentStateRow([object]$Row, [string]$SourceName, [int]$RowCount) {
+    $attemptCount = ConvertTo-NullableInt (Get-PropertyValue $Row 'attempt_count')
+    $statusValue = Get-PropertyValue $Row 'current_status'
+    if ($null -eq $statusValue) { $statusValue = Get-PropertyValue $Row 'last_attempt_status' }
+    $currentStatus = if ($null -eq $statusValue) { '' } else { ([string]$statusValue).Trim().ToUpperInvariant() }
+    if ($null -eq $attemptCount -or $currentStatus -eq '') { throw 'HISTORICAL_RETRY_STATE_AMBIGUOUS' }
+    $retryPresent = Test-PropertyPresent $Row 'retry_allowed'
+    $retryRaw = Get-PropertyValue $Row 'retry_allowed'
+    $retryNormalized = if ($retryPresent) { ConvertTo-NullableInt $retryRaw } else { $null }
+    if ($retryPresent -and ($null -eq $retryNormalized -or $retryNormalized -notin @(0, 1))) { throw 'HISTORICAL_RETRY_STATE_AMBIGUOUS' }
+    return [pscustomobject]@{
+        row = $Row; source = $SourceName; row_count = $RowCount; attempt_count = $attemptCount
+        current_status = $currentStatus; retry_allowed_field_present = [int]$retryPresent
+        retry_allowed_raw = if ($null -eq $retryRaw) { '' } else { [string]$retryRaw }
+        retry_allowed_normalized = $retryNormalized
+        last_error_code = [string](Get-PropertyValue $Row 'last_error_code')
+        last_error_message = [string](Get-PropertyValue $Row 'last_error_message')
+        conversion_completed = ConvertTo-NullableInt (Get-PropertyValue $Row 'conversion_completed')
+    }
+}
+
+function Resolve-CurrentStateRows([object]$Payload, [string]$SourceName) {
+    if ($null -eq $Payload -or $null -eq $Payload.PSObject.Properties['samples']) { return $null }
+    $rows = @($Payload.samples | Where-Object { [string](Get-PropertyValue $_ 'paper_id') -eq $TargetPaperId })
+    if ($rows.Count -eq 0) { return $null }
+    $normalized = @($rows | ForEach-Object { Normalize-CurrentStateRow $_ $SourceName $rows.Count })
+    $maxAttempt = ($normalized | Measure-Object -Property attempt_count -Maximum).Maximum
+    $latest = @($normalized | Where-Object { $_.attempt_count -eq $maxAttempt })
+    if ($latest.Count -ne 1) { throw 'HISTORICAL_RETRY_STATE_AMBIGUOUS' }
+    return $latest[0]
+}
+
+function Resolve-CurrentBatchTargetState([object]$ReconciledPayload, [object]$LatestPayload) {
+    $reconciled = Resolve-CurrentStateRows $ReconciledPayload 'RECONCILED_CURRENT_STATE'
+    $latest = Resolve-CurrentStateRows $LatestPayload 'LATEST_BATCH_CURRENT_STATE'
+    if ($null -eq $reconciled -and $null -eq $latest) { throw 'HISTORICAL_RETRY_STATE_AMBIGUOUS' }
+
+    # A reconciled file can be historical evidence from before the latest resume.
+    # Prefer the row with the greatest verified attempt_count; tie goes to the
+    # reconciled source only when the normalized state is identical.
+    $state = if ($null -eq $reconciled) { $latest } elseif ($null -eq $latest) { $reconciled } elseif ($latest.attempt_count -gt $reconciled.attempt_count) { $latest } elseif ($reconciled.attempt_count -gt $latest.attempt_count) { $reconciled } else {
+        if ($latest.current_status -ne $reconciled.current_status -or $latest.last_error_code -ne $reconciled.last_error_code -or $latest.retry_allowed_normalized -ne $reconciled.retry_allowed_normalized) { throw 'HISTORICAL_RETRY_STATE_CONTRADICTION' }
+        $reconciled
+    }
+    $retryExhausted = [int]($state.current_status -eq 'FAILED' -and $state.attempt_count -ge $MaxTargetedAttempts)
+    if ($state.retry_allowed_field_present -eq 1 -and $retryExhausted -eq 1 -and $state.retry_allowed_normalized -ne 0) { throw 'HISTORICAL_RETRY_STATE_CONTRADICTION' }
+    $state | Add-Member -NotePropertyName retry_exhausted -NotePropertyValue $retryExhausted
+    $state | Add-Member -NotePropertyName reconciled_row_count -NotePropertyValue $state.row_count
+    return $state
+}
+
+function Get-HistoricalExportFailureCount([object]$ReconciledPayload, [object]$LatestPayload) {
+    $attempts = @()
+    foreach ($payload in @($ReconciledPayload, $LatestPayload)) {
+        if ($null -eq $payload -or $null -eq $payload.PSObject.Properties['samples']) { continue }
+        foreach ($row in @($payload.samples | Where-Object { [string](Get-PropertyValue $_ 'paper_id') -eq $TargetPaperId })) {
+            $attempt = ConvertTo-NullableInt (Get-PropertyValue $row 'attempt_count')
+            $status = ([string](Get-PropertyValue $row 'current_status')).Trim().ToUpperInvariant()
+            $errorCode = [string](Get-PropertyValue $row 'last_error_code')
+            if ($null -ne $attempt -and $status -eq 'FAILED' -and $errorCode -eq 'EXPORT_ERROR' -and (ConvertTo-NullableInt (Get-PropertyValue $row 'conversion_completed')) -eq 0) {
+                $attempts += $attempt
+            }
+        }
+    }
+    return @($attempts | Sort-Object -Unique).Count
 }
 
 function Write-JsonUtf8([string]$Path, [object]$Value) {
@@ -163,10 +267,11 @@ function Test-PdfBasic([string]$Path) {
 }
 
 function Invoke-TargetedAttempt([string]$OutputPdf, [switch]$Repaginate) {
+    $repaginateFlag = if ($Repaginate.IsPresent) { 1 } else { 0 }
     $state = [ordered]@{
-        paper_id = $TargetPaperId; output_pdf = $OutputPdf; repair_variant = if ($Repaginate) { 'REPAGINATE_BEFORE_EXPORT' } else { 'FRESH_PATH_BASELINE' }
-        repaginate_attempted = [int]$Repaginate; repaginate_completed = 0; export_attempted = 0; export_returned = 0; export_completed = 0
-        word_create_attempted = 0; word_created = 0; word_version = ''; security_configured = 0; document_open_attempted = 0; document_opened = 0
+        paper_id = $TargetPaperId; output_pdf = $OutputPdf; repair_variant = if ($Repaginate.IsPresent) { 'REPAGINATE_BEFORE_EXPORT' } else { 'FRESH_PATH_BASELINE' }
+        repaginate_attempted = $repaginateFlag; repaginate_completed = 0; export_attempted = 0; export_returned = 0; export_completed = 0
+        word_create_attempted = 0; word_created = 0; word_version = ''; word_com_version = ''; word_product_version = ''; word_com_version_source = 'Word.Application.Version'; word_product_version_source = $WordExecutable; word_com_major_version_pass = 0; word_product_version_pass = 0; word_product_version_unresolved = 0; word_version_gate_pass = 0; security_configured = 0; document_open_attempted = 0; document_opened = 0
         document_close_attempted = 0; document_closed = 0; word_quit_attempted = 0; word_quit_called = 0
         com_references_released = 0; word_process_exited = 0; stage_word_pid = ''; background_drain_completed = 0
         post_export_settle_completed = 0; read_only = 0; compatibility_mode = $null; protection_type = $null
@@ -182,10 +287,18 @@ function Invoke-TargetedAttempt([string]$OutputPdf, [switch]$Repaginate) {
         $state.word_create_attempted = 1
         $word = New-Object -ComObject Word.Application
         $state.word_created = 1
-        $state.word_version = [string]$word.Version
-        if ($state.word_version -ne $ExpectedWordVersion) { throw 'WORD_VERSION_UNEXPECTED' }
         $newIds = Get-StageNewIds $beforeIds (Get-WordIds)
         $state.stage_word_pid = $newIds -join ','; $script:StageCreatedIds += $newIds
+        if ($newIds.Count -eq 0) { throw 'PROCESS_OWNERSHIP_AMBIGUOUS' }
+        $state.word_com_version = [string]$word.Version
+        $state.word_version = $state.word_com_version
+        $state.word_com_major_version_pass = [int]($state.word_com_version -eq $ExpectedWordComVersion)
+        if ($state.word_com_major_version_pass -ne 1) { throw 'WORD_COM_VERSION_UNEXPECTED' }
+        $state.word_product_version = Get-WordProductVersion
+        if ([string]::IsNullOrWhiteSpace($state.word_product_version)) { $state.word_product_version_unresolved = 1; throw 'WORD_PRODUCT_VERSION_UNRESOLVED' }
+        $state.word_product_version_pass = [int]($ExpectedWordProductVersions -contains $state.word_product_version)
+        if ($state.word_product_version_pass -ne 1) { throw 'WORD_PRODUCT_VERSION_UNEXPECTED' }
+        $state.word_version_gate_pass = 1
 
         $word.Visible = $false; $word.DisplayAlerts = 0; $word.AutomationSecurity = 3
         $options = $word.Options
@@ -199,7 +312,7 @@ function Invoke-TargetedAttempt([string]$OutputPdf, [switch]$Repaginate) {
         if ($null -eq $doc -or $doc.ReadOnly -ne $ReadOnly) { throw 'SOURCE_NOT_READONLY' }
         $state.document_opened = 1
         Read-OptionalDiagnostics $state $doc
-        if ($Repaginate) {
+        if ($Repaginate.IsPresent) {
             [void]$doc.Repaginate()
             $state.repaginate_completed = 1
             Start-Sleep -Milliseconds 500
@@ -218,6 +331,7 @@ function Invoke-TargetedAttempt([string]$OutputPdf, [switch]$Repaginate) {
     catch {
         $state.primary_error_message = $_.Exception.Message
         if ($state.word_create_attempted -eq 1 -and $state.word_created -eq 0) { $state.primary_error_code = 'WORD_CREATE_ERROR' }
+        elseif ($state.word_created -eq 1 -and $state.word_version_gate_pass -eq 0) { $state.primary_error_code = 'WORD_VERSION_GATE_ERROR' }
         elseif ($state.word_created -eq 1 -and $state.security_configured -eq 0) { $state.primary_error_code = 'SECURITY_ERROR' }
         elseif ($state.document_open_attempted -eq 1 -and $state.document_opened -eq 0) { $state.primary_error_code = 'DOCUMENT_OPEN_ERROR' }
         elseif ($state.export_attempted -eq 1 -and $state.export_returned -eq 0) { $state.primary_error_code = 'EXPORT_ERROR' }
@@ -264,8 +378,30 @@ try {
     $canonical = Test-PdfBasic $CanonicalOutput
     if (-not $sourcePreflightPass) { throw 'TARGET_SOURCE_PREFLIGHT_FAILED' }
     $history = if (Test-Path -LiteralPath $BatchResultsPath) { Read-JsonUtf8 $BatchResultsPath } else { $null }
-    $historyRow = if ($null -ne $history) { @($history.samples | Where-Object paper_id -eq $TargetPaperId | Select-Object -First 1) } else { @() }
-    if ($historyRow.Count -ne 1 -or [int]$historyRow[0].attempt_count -lt 2 -or $historyRow[0].last_error_code -ne 'EXPORT_ERROR' -or [int]$historyRow[0].retry_allowed -ne 0) { throw 'HISTORICAL_RETRY_STATE_NOT_EXHAUSTED' }
+    $reconciledHistory = if (Test-Path -LiteralPath $BatchReconciledPath) { Read-JsonUtf8 $BatchReconciledPath } else { $null }
+    $currentState = Resolve-CurrentBatchTargetState $reconciledHistory $history
+    if ($currentState.current_status -ne 'FAILED' -or $currentState.attempt_count -lt $MaxTargetedAttempts -or $currentState.last_error_code -ne 'EXPORT_ERROR' -or $currentState.retry_exhausted -ne 1) { throw 'HISTORICAL_RETRY_STATE_NOT_EXHAUSTED' }
+    $historicalExportFailureCount = Get-HistoricalExportFailureCount $reconciledHistory $history
+
+    # The isolated repair quota is lifetime evidence, not a per-invocation
+    # allowance.  A completed A/B record closes this direct-export route before
+    # any Word Application can be created again.
+    $priorRepair = if (Test-Path -LiteralPath $ResultPath -PathType Leaf) { Read-JsonUtf8 $ResultPath } else { $null }
+    $priorTargetedExports = if ($null -ne $priorRepair -and $null -ne $priorRepair.PSObject.Properties['TARGETED_EXPORT_ATTEMPT_COUNT']) { [int]$priorRepair.TARGETED_EXPORT_ATTEMPT_COUNT } else { 0 }
+    if ($priorTargetedExports -ge $MaxTargetedAttempts) {
+        $guardResult = [ordered]@{
+            STAGE = 'G8-DOC-BATCH-CONVERSION-REPAIR'; STATUS = 'BLOCKED'; TARGET_PAPER_ID = $TargetPaperId
+            TARGETED_REPAIR_EXHAUSTED = 1; TARGETED_REPAIR_ATTEMPT_LIMIT = $MaxTargetedAttempts
+            HISTORICAL_TARGETED_EXPORT_ATTEMPT_COUNT = $priorTargetedExports; HISTORICAL_TARGETED_EXPORT_FAILURE_COUNT = [int]$priorRepair.TARGETED_EXPORT_FAILURE_COUNT
+            TARGETED_REPAIR_BASELINE_EXPORT_STILL_ALLOWED = 0; TARGETED_REPAIR_ALREADY_EXHAUSTED = 1
+            WORD_COM_RUN = 0; DOC_CONVERSION_RUN = 0; CURRENT_INVOCATION_WORD_COM_RUN = 0; CURRENT_INVOCATION_EXPORT_ATTEMPT_COUNT = 0
+            SOURCE_SHA_MISMATCH = [int]($sourceSha -ne $ExpectedSha); ORIGINAL_FILES_MODIFIED = 0
+            DIRECT_WORD_EXPORT_ROUTE_STATUS = 'CLOSED'; BLOCKER = 'TARGETED_REPAIR_ALREADY_EXHAUSTED'
+        }
+        Write-RepairLog "STATUS=BLOCKED target=$TargetPaperId error=TARGETED_REPAIR_ALREADY_EXHAUSTED historical_targeted_exports=$priorTargetedExports"
+        Write-Output ($guardResult | ConvertTo-Json -Depth 8 -Compress)
+        exit 2
+    }
 
     $attemptAPath = Join-Path $RepairRoot 'attempt_a_baseline.pdf'
     $attemptBPath = Join-Path $RepairRoot 'attempt_b_repaginate.pdf'
@@ -281,19 +417,27 @@ try {
     $candidate = if ($attemptA.export_completed -eq 1) { $attemptA } elseif ($null -ne $attemptB -and $attemptB.export_completed -eq 1) { $attemptB } else { $null }
     $sourceMutationDetected = [int]($sourceShaAfterA -ne $ExpectedSha -or $sourceShaAfterB -ne $ExpectedSha)
     $status = if ($sourceMutationDetected -eq 1 -or $script:OrphanIds.Count -gt 0) { 'BLOCKED' } elseif ($null -ne $candidate -and $candidate.pdf_basic_validation_pass -eq 1) { 'PASS' } else { 'PARTIAL' }
+    $targetedAttemptStates = @($attemptA)
+    if ($null -ne $attemptB) { $targetedAttemptStates += $attemptB }
+    $targetedWordSessionCount = @($targetedAttemptStates | Where-Object { $_.word_created -eq 1 }).Count
+    $targetedExportAttemptCount = @($targetedAttemptStates | Where-Object { $_.export_attempted -eq 1 }).Count
+    $targetedPreExportSecurityFailureCount = @($targetedAttemptStates | Where-Object { $_.export_attempted -eq 0 -and ($_.primary_error_code -eq 'WORD_VERSION_GATE_ERROR' -or $_.primary_error_code -eq 'SECURITY_ERROR') }).Count
+    $targetedExportFailureCount = @($targetedAttemptStates | Where-Object { $_.export_attempted -eq 1 -and $_.primary_error_code -eq 'EXPORT_ERROR' }).Count
     $result = [ordered]@{
         STAGE = 'G8-DOC-BATCH-CONVERSION-REPAIR'; STATUS = $status; TARGET_PAPER_ID = $TargetPaperId
         TARGET_SOURCE_SHA256 = $sourceSha; TARGET_SOURCE_SIZE = $sourceSize; TARGET_SOURCE_OLE_SIGNATURE = $sourceOle
         SOURCE_EXISTS = [int]$sourceExists; SOURCE_SIZE_MATCH = [int]($sourceSize -eq $ExpectedSize); SOURCE_SHA_MATCH = [int]($sourceSha -eq $ExpectedSha); SOURCE_OLE_SIGNATURE_MATCH = [int]($sourceOle -eq $ExpectedOle)
-        HISTORICAL_ATTEMPTS_VERIFIED = 2; HISTORICAL_EXPORT_FAILURES_VERIFIED = 2; FAILED_ROW_RETRY_ATTEMPTED = 1; FAILED_ROW_RETRY_SUCCEEDED = 0; FAILED_ROW_RETRY_EXHAUSTED = 1
-        HISTORICAL_ERROR_CODE = 'EXPORT_ERROR'; HISTORICAL_ERROR_MESSAGE = [string]$historyRow[0].last_error_message
+        AUTHORITATIVE_CURRENT_STATE_SOURCE = $currentState.source; TARGET_CURRENT_STATE_ROW_COUNT = 1; BATCH_ATTEMPT_COUNT = $currentState.attempt_count; CURRENT_STATUS = $currentState.current_status
+        RETRY_ALLOWED_FIELD_PRESENT = $currentState.retry_allowed_field_present; RETRY_ALLOWED_RAW = $currentState.retry_allowed_raw; RETRY_ALLOWED_NORMALIZED = $currentState.retry_allowed_normalized; FAILED_ROW_RETRY_ATTEMPTED = [int]($currentState.attempt_count -gt 1); FAILED_ROW_RETRY_SUCCEEDED = 0; FAILED_ROW_RETRY_EXHAUSTED = $currentState.retry_exhausted
+        HISTORICAL_ATTEMPTS_VERIFIED = [int]$currentState.attempt_count; HISTORICAL_EXPORT_FAILURES_VERIFIED = $historicalExportFailureCount; HISTORICAL_BATCH_EXPORT_FAILURE_COUNT = $historicalExportFailureCount; HISTORICAL_ERROR_CODE = $currentState.last_error_code; HISTORICAL_ERROR_MESSAGE = $currentState.last_error_message
         TARGETED_REPAIR_ATTEMPT_LIMIT = $MaxTargetedAttempts; ATTEMPT_A_RUN = 1; ATTEMPT_A_STRATEGY = 'FRESH_PATH_BASELINE'; ATTEMPT_A_OUTPUT_PATH = $attemptAPath; ATTEMPT_A_EXPORT_COMPLETED = $attemptA.export_completed; ATTEMPT_A_ERROR_CODE = $attemptA.error_code
         ATTEMPT_B_RUN = $attemptBRun; ATTEMPT_B_STRATEGY = 'REPAGINATE_BEFORE_EXPORT'; ATTEMPT_B_OUTPUT_PATH = $attemptBPath; ATTEMPT_B_REPAGINATE = $attemptBRun; ATTEMPT_B_EXPORT_COMPLETED = if ($null -ne $attemptB) { $attemptB.export_completed } else { 0 }; ATTEMPT_B_ERROR_CODE = if ($null -ne $attemptB) { $attemptB.error_code } else { '' }
         REPAIR_VARIANT = if ($null -ne $candidate) { $candidate.repair_variant } else { 'NONE' }; REPAIR_CANDIDATE_AVAILABLE = [int]($null -ne $candidate -and $candidate.pdf_basic_validation_pass -eq 1); REPAIR_CANDIDATE_PATH = if ($null -ne $candidate) { $candidate.output_pdf } else { '' }; REPAIR_CANDIDATE_SHA256 = if ($null -ne $candidate) { Get-Hash $candidate.output_pdf } else { '' }; REPAIR_CANDIDATE_BASIC_VALIDATION_PASS = if ($null -ne $candidate) { $candidate.pdf_basic_validation_pass } else { 0 }
         CANONICAL_OUTPUT_EXISTS_BEFORE = $canonical.exists; CANONICAL_OUTPUT_SIZE_BEFORE = $canonical.size; CANONICAL_OUTPUT_PDF_SIGNATURE_VALID_BEFORE = $canonical.signature_valid; CANONICAL_OUTPUT_READABLE_BEFORE = $canonical.readable; CANONICAL_OUTPUT_NOT_OVERWRITTEN = 1
         SOURCE_SHA256_AFTER_ATTEMPT_A = $sourceShaAfterA; SOURCE_SHA256_AFTER_ATTEMPT_B = $sourceShaAfterB; SOURCE_MUTATION_DETECTED = $sourceMutationDetected
         SOURCE_READ_ONLY_CONTRACT_PRESERVED = 1; WORD_SECURITY_CONTRACT_PRESERVED = 1; EXPORT_CONTRACT_PRESERVED = 1; COM_LIFECYCLE_CONTRACT_PRESERVED = 1; GLOBAL_WINWORD_FORCE_KILL_PRESENT = 0
-        DOC_CONTRACT_APPROVED = 1; WORD_COM_RUN = 1; DOC_CONVERSION_RUN = 1; SUCCESSFUL_BATCH_ROWS_PRESERVED = 13; SUCCESSFUL_BATCH_ROWS_RECONVERTED = 0
+        TARGETED_RUNNER_INVOCATION_COUNT = 1; TARGETED_WORD_SESSION_COUNT = $targetedWordSessionCount; TARGETED_EXPORT_ATTEMPT_COUNT = $targetedExportAttemptCount; TARGETED_PRE_EXPORT_SECURITY_FAILURE_COUNT = $targetedPreExportSecurityFailureCount; TARGETED_EXPORT_FAILURE_COUNT = $targetedExportFailureCount; ATTEMPT_A_EXPORT_ATTEMPTED = $attemptA.export_attempted; ATTEMPT_B_EXPORT_ATTEMPTED = if ($null -ne $attemptB) { $attemptB.export_attempted } else { 0 }; TARGETED_REPAIR_EXHAUSTED = [int]($targetedExportAttemptCount -ge $MaxTargetedAttempts); TARGETED_REPAIR_BASELINE_EXPORT_STILL_ALLOWED = [int]($targetedExportAttemptCount -lt $MaxTargetedAttempts); DIRECT_WORD_EXPORT_ROUTE_STATUS = if ($targetedExportAttemptCount -ge $MaxTargetedAttempts) { 'CLOSED' } else { 'OPEN' }
+        DOC_CONTRACT_APPROVED = 1; WORD_COM_RUN = $targetedWordSessionCount; DOC_CONVERSION_RUN = $targetedExportAttemptCount; SUCCESSFUL_BATCH_ROWS_PRESERVED = 13; SUCCESSFUL_BATCH_ROWS_RECONVERTED = 0
         SOURCE_SHA_MISMATCH = [int]($sourceSha -ne $ExpectedSha); ORIGINAL_FILES_MODIFIED = $sourceMutationDetected; FORMAL_ELIGIBILITY_ROWS_MODIFIED = 0
         Q3_REPAIR_RUN = 0; Q3_OCR_RUN = 0; IMAGE_OCR_RUN = 0; IMAGE_EXTRACTION_RERUN = 0; G9_RUN = 0; G10_RUN = 0; NEW_DEPENDENCY_INSTALLED = 0; NETWORK_ACCESS_USED = 0
         attempt_a = $attemptA; attempt_b = $attemptB; stage_word_processes_created = (($script:StageCreatedIds | Select-Object -Unique) -join ','); stage_word_processes_cleaned = $script:StageCleanedCount; orphan_stage_word_processes = (($script:OrphanIds | Select-Object -Unique) -join ',')

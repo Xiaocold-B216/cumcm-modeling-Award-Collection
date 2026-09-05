@@ -1,0 +1,99 @@
+回 成 革 动 国
+人
+|
+BRLLT]
+回 蔡 Sakn
+wsn
+ss ond
+end  felose(£id);
+for i=1:size(L,1) end
+tline=L{i,d}; Ltl=L;
+tefindstr(cline, sn ， ，
+temp=zeros (1,length(t)) ; Lt1{1041,1}="TO01";
+if stremp(L(L,3), "来 回 20) 11 Lt1{1041,2}=3;
+stremp(Lii,3), "环行 29) _ ，
+for j=length(t):-1:1 Lt1{1041,3}=">k[l1";
+Lt1{1041,4}=DL{1,1};
+cemp (Length (£) -3+1) =str2double (tline (t (3) +1:
+二 人)+4))
+LE Lt1{1042,1}="T001";
+tor j-l:lengthtt) Lt1{1042,2}=3;
+temp (j) =str2double (tline (t (3)+1:t(5)+4)); Lt1{1042,3}="2k[12";
+end Lt1{1042,4}=DL{1,1};
+L2{i,1}=temp;
+end
+for i=1:3957 Lt1{1043,1}='T002";
+让 £loor (1/10)==0 Lt1{1043,2}=3;
+Cit{i}=strcat('s000', num2str(i)); 一
+elseif floor(i/100)==0 Ltl1{t1043,3}=' 环 行 1 7
+Cit{i}=strcat('s00',num2str(i)); = 四 .
+J e Lt1{1043,4}=strcat (DL{2,1},DL{2,1} (6:end));
+Cit{i}=strcat('s0',num2str(i));
+else 全
+Cit{i)mstreat ('S', num2str (i)); Lt1{1044,1}="T002";
+end =3. £=]
+四 Lt1{1044,2)=3; A7
+CLt(3958}="D01: SO567, S0042, S0025'5 Lt1{1044,3}="M12"; 全
+Cit{3950]='D02; S1487'7 Lt1{1044,4}=strcat (DL{2,1},DL{2,1} (6:end));
+Cie(39601=，D03:， 50303, $0302°; Lo44 2 一
+CLE(3961}="D04: SO566'; for i=1:1044
+Cit{3962)='D05: S0436, S0438, S0437, 50435¢; tline=Ltl{i,4};
+Cit 3063101006. 50392 20224 S0309. SOHY 通 tandstr(tiine ,si 了
+CLt(3964)='D07: S0386,)§0388, S0387, S03831; temp=zeros (1, length (£)) :
+Cit{3965)}="'D08: S3068F s0617, S0619, S0618, 也 ’ 9 和 一
+So if stremp(Ltl{i,3}, 来 回 2 tremp (Ltl{i,3}, 环行 27)
+Cit(3966)="002: S127514 for j=length (t):-1:1
+CLt(3967)="D10: 52057 s072d, S0722, $0720';
+CLt(3968)="D11: 50070, s23E1783721"; 和 . .
+Cit(3969)="D12: 50609, s0608Ls temp (length (t)-j+1)=str2do tline(t(j)+1:t(3)+4))7
+CLt(3970)="D13: 52633, 50395, s04g1, §8400'; end 7 全
+Cit(3971)='D14; $3321, 52535, s2464); else 7 二
+CLt(3972)="D15: $3320, 52534'; AY Re
+Cit(3973)="D1: 53506, SO167, S0168'; fof j=Lilengty
+CLt(3974)="D17: $0237, 50239, 50238, §023¢, temp (j) =str2dolble (tline (t(j)+1:t (§)+4));
+S0540°; end
+CLt(3975)="D18: S06EE";
+Cit{3976}='D19: S0180, 50181'; end .
+Cit(3977)='D20: 52079, 52933, §1919, 51921, Lt2{i, 1}=tgmp;
+51920'7 end
+CLt(3978)="D21: S0465, S0467, S0466, SO464"; O
+CLt(3979)="022: 53457';
+Cit(3980)='023: 52512°;
+€it{3981}="'D24: 50537, S3580';
+Cit13982}=,D25: S0526, S0526, S0527, S0525';
+cit13983}=,D26: 53045, S0605, S0607';
+Cit{3984)="D27: S0087, S0088, S0086'; [一 7
+CD363 .028 50855 30856 3054 50957': |
+cit13986}=,D29: S0631, S0632, S0630';
+€it{3987)="'D30: 53874, S1426, 51427'; 村
+Cit(3988)='D31; $0211, 50539, S0541, S0540'; in
+Cit{3989}='D32: S0978, S0497, SOAMELL 4
+€it{3990}='D33: 51894, S1896, 51895';
+€it{3991)='D34: 51104, S0576, S0' 5
+Cit{3992}='D35: 53010, S0583, SOSHR";
+cit13993)}-'D36: 53676, 50425, soodf SHfo';
+Ci(3994)=027: 2 s04 理 ,是 56,，
+Cit{3995}='D38: 53g62, 中
+Cit(3996}='039: 51985 Wja: .
+N</
+1.2 直达 队列 表 DO 与 22 的 建立
+六 全 全 和
+[vakeBiWf=@=r akesz.mn 第 = 问
+clea NS 上 clear S
+S(1:3957,1:3957) =(zeros (1,1, 'uintl6') }; 5(1:3996,1:3996)={zeros(1,1, 'uintl6')};
+for i=1:1040 for 1=1:1044
+t=L2{i,1}; t=Lt2{i,1};
+for j=l:length(t)-1 for j=l:length(t)-1
+for k=j+1l:length(t) for k=j+l:length(t)
+temp=S{t(j),t(k)}; temp=S{t(j),t(k)};
+str=L{i,1}; [n,m]=size (temp);
+[n,m]=size (temp); if n==1 && temp(l,1)==0
+if n==1 && temp(l,1)==0 temp (n,1)=i;
+if Ltl{i,2}==2
+temp (n, 1) =str2double (str(2:end)) ; if (k-j)>40
+if L{i,2}==2 temp (n,2)=3;
+if (k-j)>40 elseif (k-j)>20
+temp (n,2)=3; temp (n,2)=2;
+elseif (k-3)>20 else
+temp(n,2)=2; temp (n,2)=1;
+28

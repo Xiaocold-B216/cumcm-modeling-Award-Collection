@@ -1,0 +1,50 @@
+{
+t 人 由 人
+本
+， Hiee
+
+| am am OE
+
+| 二 、 把 握 尺 度 ,合理 购 彩 和
+较 高 的 预期 收益 总 和 较 大 的 预期 风险 相 联系 投资 彩票 游戏 ,并 不 是 获取 收益 的 正常 途 | 人
+! BABFE—FHH, —FREEERE, AERE RYERPL, EXRKEE ER 人
+H 应 谨慎 理智 购 彩 ,每 期 适当 投入 几 元 , 既 能 买 个 希望 梦想 回 家 ,也 能 享受 开奖 时 刻 的 心动 ,又
+不 至 于 因 盲目 的 投入 引发 "家庭 经 济 危机 ?。 人
+三 、 讲 究 投注 的 科学 性 ,树立 彩民 良好 形象 下
+| 彩 号 的 出 现 随意 性 强 ,本 身 具有 不 可 预测 ,是 一 种 科学 刺激 往往 能 带 给 人 惊喜 的 游戏 。 |
+| 因此 ,彩票 本 身 就 是 玩 的 心动 与 潇洒 做 一 个 文明 彩民 ,将 科学 购 彩 进行 到 底 ,把 买 彩 当 作 一 1
+! 项 娱乐 , 重 在 参与 .至今 为 止 ,还 没有 发 现 哪 一 期 特等 奖 的 号 码 是 人 为 地 被 预先 “研究 ”出 来 & 1
+| 的 .事实 上 , 买 彩 者 “ 心 想 ” 未 必 一 定 “ 事 成 ”。 购 买 者 一 定 要 理智 对 待 。
+了 从 我 们 对 “传统 型 ”和 ”* 乐 透 型 ”彩票 中 各 种 奖项 出 现 的 可 能 性 对 彩民 的 吸引 力 等 因素 |
+1 的 综合 分 析 中 ,可 以 看 出 ,每 注 “ 乐 透 型 " 彩票 比 "传统 型 " 彩票 的 平均 收益 率 大 ;而 且 乐 透 型 ih
+! 彩票 的 趣味 性 也 很 高 , 它 正 逐渐 成 为 世界 彩票 业 的 主流 。 -次 》 |
+; 站 全 的 让 |
+| 时 工作 和 生活 中 长 期 绷 紧 的 神经 得 以 放松 ,使 人 们 在 不 知 不 党 中 拥有 学 种 快乐 的 心情 。 这 就 人
+1 是 彩票 游戏 的 乐趣 。 人
+Pik
+| 参考 文献 : 任 | ，
+， 二
+[1 高 强 ,从 经 济 学 角度 审视 博彩 现象 []] .陕西 经 贸 学 院 学 报 ,2001 DG |
+! [2] SME BRGETHEI). 渭南 师范 学 院 学 报 ,2001;6 银 人
+3 [3] 。 何 文章 .数学 建 模 与 实验 [M] .哈尔滨 : 哈尔滨 工程 大 学 出 版 桩 22007 Hh
+; [4] ” 何 文章 ,大 学 数学 实验 [M] . 哈尔滨 :哈尔滨 工程 大 学 出 版 社 ,2000;8 人
+H [5] ” 母 丽华 .数学 实验 [M] .哈尔滨 :黑龙 江 科学 技术 出 版 社 200218 人
+[6] 。 旧 夏 的 . 格 率 统计 在 彩票 选号 中 的 应 用 []] Hit 机 二
+[7] ， 许 乘 .概率 论 与 树 理 统计 [M] .哈尔滨 : 哈 处 活 b 征 大 学 出 版 社 ,2002;3
+NA
+} TO in Lottery |
+4 LIYi sa GUO Song-hai， KANG Hui | 人
+! Advisors:  A CHEN Xing-yuan, MU Li-hua |
+1 有 7 Institute of Science and Technology, 150001) i
+. Abstract: This model discusses ho Ve evaluate the rationality of the general prize-winning evaluatifyg, procedures on the traditional | |
+H lottery and lotto %; 一 上 时
+h First, en rules, this paper found the probability of the various awards cases of two types by the use
+of the sis al probability. Regarding each event of prizing-wining as Benouli experiment，under the assumption of the sufficient ]
+“中 pe eae， end the whether each lottery ticket wins the Pa or not, according to the Large-Number Law, is l 站
+H attributy o the Normal Distribution, and find the rate of return of each lottery ticket. On the basis of those efforts, we construct the 扯
+? NS the rationality of those programs with fair measure by taking advantage of the gambling mentality. In succession, 1i 时
+H by the use of Matlab 6.1, we calculated the model of Nonlinear planning on these questions. By the solution of the model, we find |
+| the optimal program for the given lottery sales volume and the settings of award items and prize amount. |
+四 Keywords: lottery; Two-term; expected rate of return; judgement of function il i :
+: |
+交 下 1

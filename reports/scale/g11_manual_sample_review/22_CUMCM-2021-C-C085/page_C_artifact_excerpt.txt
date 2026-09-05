@@ -1,0 +1,85 @@
+paper_id=CUMCM-2021-C-C085
+page_number=56
+page_classification=LAST_PAGE_FROM_FROZEN_PAGE_COUNT
+source_path=2021年数学建模国赛真题+优秀论文/2021年国赛优秀论文C题-C085/C1.jpg
+source_sha256=24D7E77815731CDAD56457C691FB63EFD8A1ABD70A15FF6E9519549B6C008449
+persisted_page_text_path=NOT_AVAILABLE_FOR_THIS_STRATUM
+
+=== PERSISTED PAGE TEXT (READ-ONLY EXISTING EVIDENCE) ===
+[No page-local persisted text is available; no new extraction was run.]
+
+=== FORMAL ARTIFACT CONTEXT WINDOW ===
+9CA5F30E1ACFF40EE515EBD0DC8BB448AA681E -->
+<!-- ocr_backend: tesseract.js 7.0.0 -->
+
+Torrin range(1 sheet nrows):
+war0
+for ¢ in range(2.sheetneols:
+s-sheet.cell value(r, ¢)
+i 认 FLII 一 A'
+ss10.6
+iFLI--'B:
+5-5/0.66
+iFLI--C:
+ss10.72
+val.append(s)
+GHL.append(tuple(val))
+Imdi—4
+lmdr=4# 灵 敏 度 分 析 ， 往 前 看 Imd-1 周 修改 这 个 Ir
+def GetObj(name, C):
+ObiL= np.zeros(w)
+now_Obj-0
+forjin name
+forzin range(w):
+oObiLEI += GHLIEz
+forz in range(w-1, 1-1):
+for kk in range(ImdLlmdr-+1
+print(kk)
+#print(kk)
+if ObjL{z]-C<0;
+证 z-kk>23:
+continue
+证 zkk<0:
+continue
+x=C-ObjLEZ]
+证 ObjLIz-kkj-C>0
+ifx<ObiLIz-kkl-C:
+ObiLIz -kk-=x
+ObjLIz}+=x
+else:
+y=ObiLIz-kk-C
+ObiLIz-kk -=y
+ObjL[z] YY
+forzin range(w):
+E
+
+## Logical image page 56
+
+<!-- source_page_kind: image_sequence -->
+<!-- logical_page_number: 56 -->
+<!-- source_image_path: 2021年数学建模国赛真题+优秀论文/2021年国赛优秀论文C题-C085/C56.jpg -->
+<!-- source_image_sha256: C2D3A9809D4D64BCF1A31B95AA14E09A0131E4FAEA1AAE84EC114CD62B1976BC -->
+<!-- ocr_backend: tesseract.js 7.0.0 -->
+
+mow_ON +— max(C - ObjL[z], 0)
+#now_Obj += (C - ObjL{z])
+retum now_Obj
+证 _name_ 一” main
+1-10000
+£-50000
+foriin range(n):
+NL.append(i)
+while ler
+mid ~int((1 +1)/2)
+Crmid
+tag-GetObj(NL.C)
+iftag 一 0:
+ans=mid
+T-mid
+else:
+mid
+print(ans)
+
+
+=== HUMAN REVIEW NOTE ===
+This file prepares evidence only. It is not a human review decision.

@@ -1,0 +1,66 @@
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+附录六：f201.m
+function [ T6,VTT1,VTT2,TT4,TT5 ] = f201( T1,T2,T3,t0,dT,T )
+QQ=perms([1,2,3,4]);
+T6=10*3600+1;%记录最小值
+for i=1:24
+for j=1:24
+T4=QQ(i,:);%前往哪个工序 1
+T5=QQ(j,:);%去往哪里工序 2
+d=dT(abs(T4(1)-T3)+1);%移动
+QT=t0+d;%移动到 T41
+QT=max(QT,T1(T4(1)));%T41 开始下料
+VT1(1,1)=QT;
+QT=QT+T(6);%T41 下料完毕
+d=dT(abs(T4(1)-T5(1))+1);%移动
+QT=QT+d;%移动到 T51
+QT=max(QT,T2(T5(1)));%T51 开始下料
+VT2(1,1)=QT;
+QT=QT+T(7);%T51 下料完毕
+QT=QT+T(8);%T51 清洗完毕
+
+流
+
+if M(m-8,3)+T(4+mod(M(m-8,2),2))+T(7)>8*3600
+M(m-8,:)=[];
+end
+MM(:,1)=M(:,2);
+MM(:,2)=M(:,1);
+MM(:,3)=M(:,3);
+
+微
+
+信
+
+公
+
+for k=2:4
+d=dT(abs(T5(k-1)-T4(k))+1);%移动
+QT=QT+d;%移动到 T4k
+QT=max(QT,T1(T4(k)));%T4k 开始下料
+VT1(k,1)=QT;
+QT=QT+T(6);%T4k 下料完毕
+d=dT(abs(T4(k)-T5(k))+1);%移动
+QT=QT+d;%移动到 T5k
+QT=max(QT,T2(T5(k)));%T5k 开始下料
+VT2(k,1)=QT;
+QT=QT+T(7);%T5k 下料完毕
+QT=QT+T(8);%T5k 清洗完毕
+end
+if QT < T6
+T6=QT;
+VTT1=VT1;
+VTT2=VT2;
+35
+
+

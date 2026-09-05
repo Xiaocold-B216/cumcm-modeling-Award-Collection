@@ -1,0 +1,39 @@
+回避
+u i
+CLyes
+return v;
+}
+public double school(double f){
+double v= 0.0;
+v= 0.53;
+return v;
+}
+public double mubiao2(double f){ 全
+double v= 0.0; -从
+- Si
+v= (f-min)/(max-min); 2 \
+return v;
+|
+public double mubiao3(double f){ As
+double v=0.0; >
+Y 了 位 NAEF; 不
+return v; @
+} 人 9
+public double ua
+double v=0.0; TS
+double temp = 0. 中
+double r=0:0;"
+double 中 En = {6029.88,6510.94,7182.1,8606.55;
+ou 人 ={0.0198,0.0198,0.0225,0.0252};
+r(int i=0;i<4;i++){
+W, temp = Math.pow(1+rate[i], 4-1);
+NA， temp = (shenghuol[i]+f)/temp;
+v = vt+temp;
+}
+r=(235547.36-v)/(v+53985.68);
+r=2%1/5;
+return r;
+}
+public double mubiao5(double f){
+double v= 0.0;
+38

@@ -1,0 +1,45 @@
+4e.end x 把 村 类 点 显示 出 来
+1
+42. hold on
+or 1= 1:k
+sr [Conter,num2str(1)];
+45.  plot(eval([str1,(:,1)']),eval([strd, (2 .", Markersize',15, "colo
+orand rand rand]);
+evaltT'n = boundary(，strli 0250，vstrl (55228215
+enpty(kn)
+本 eval(['plot( strly (sstrl 0225)5
+0。 aase
+se， eval(['plot(…strli (kn,1),strd, tkny2))37)5
+5 end
+52. plot(centen(:,1), center(:,2), 'ke );
+53 title( "56 IEHIT=5N FHIBAMA);
+end
+55. a1 + zeros(size(Centert, 1),1);
+55. for 11 =- 1:size(Center1,1)
+57. ec = find(Fs(:52)==Centerltiis1))5
+5 aa = ec
+5 end
+50. a2 -= zeros(size(Center2,1),1);
+51. for 111 = 1:size(Center2,1)
+本 cea - FA(FS(:2)Center2(311,2));
+GE
+o1. end
+55. 3 = zeros (size(Center3, 1),1);
+op iiz =- 1:size(Center3,1)
+村 cea -find(fs(:o1)-*Center3a(ii2,1));
+6 aa(iiz) - cc
+ia end
+70. 21 + zeros(size(Centers, 1),1);
+71. for 413 -= 1:size(Centerd,1)
+了 ccd = find(Fs(:52)=rCentera(ii3,2))
+7 3 length(cc4)"-a1
+7 at) - cca;
+5 ase
+和 ta) 。 ccd(D5
+aa ca
+ed
+75. end
+50. at-unique(at);1=[at;0a011;
+51. a5 = zeros(size(Centers, 1),1);
+82. for 114 = 1:size(Centers,1)
+5

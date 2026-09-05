@@ -1,0 +1,84 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-1996-B-004",
+  "source_path": "1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996B：洗衣机的节水优化模型.pdf",
+  "source_sha256": "907E9301526E62FC341CE96A0FA8832CF83824643CF528AACEE2EC4033E4A283",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 5,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 5,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "EEaE 个 1997 年 1 月 数学 的 实践 与 认识 第 27 卷 1 期 :此 -无 要 的 下 水 侣 化 模 天 | 洗衣 机 的 节 水 优化 模型 张 斌 珍 。” 何 继 青 K 展 (华北 工学 院 ， 太 原 0300051) 指导 教师 : 杨 明 编者 按 ”本 文 在 把 洗衣 过 程 简化 为 一 次 性 溶解 、 多 次 稀释 的 前 提 下 ， 紧 紧 抓 住 每 驼 旭 水、 脱 水 时 污 物 浓度 的 变化 来 建 模 , 叙述 简明 , 求解 (最 优 加 水 和 内) 过 程 清晰 扼要 ,模型 检 蛤 和 儿 应 用 部 分 也 颇具 竺 色 , 7 ° \\) 文中 建立 的 “动态 规划 模型 ”、“ 多 阶段 决策 模型 ” 实际 . 9 摘 。 要” 本文 道 过 分 析 洗衣 机 的 洗衣 过 程 ， 认 为 是 -次 性 深 解 FYH BalEe. 据 此 建立 动态 规划 模型 ， 并 利用 和 迭代 公式 生 最 优化 原理 ， 得 出 地 少 用 从 断 公 式 和 代数 解 ， 以 海 棠 洗衣 机 为 例 ， 通 过 关 比 ， 利 四 我 们 的 漠 型 算出 的 员 7 HhiL) 家 提供 数据 要 小 ， 从 而 说 明 所 惠 权 本 的 优 赵 性， 最后， 根据 模 多 角 ， 给 出 最 小 用 水 革 与 履 胡 服 的 重量 的 关系 图 ， 并 从 中 得 内 有 遥 的 结论 ， 世 给 玉 家 提供 一 个 节约 用 水 的 程序 | \\ 3 —— 1 洗衣 机 一 次 用 水 量 有 最 高 需 和 怨 低 限 ， 能 连续 补充 在 限度 内 的 任意 水 量 . ?洗衣 机 每 办 运行 时 各 为 ,加 水 一 滨 洗 一 脱水 3， 仅 在 第 一 输 运行 时 如 下 演 举 州 ， 在 后 面 的 运行 轮 中 仅 有 带 释 作 用 - 4 洗衣 时 所 加 的 洗 淋 剂 适量 ， 漂 洗 时 间 足 够 ， 能 使 污垢 一 次 溶解 ， 忽 略 不 能 深 解 的 污垢 . 1 5 2 .天 二 5 下 衣 服 的 重量 成 正比 TY 凰 二 、 符号 和 变量 说 明 如 : 。 污 物 的 质量 (kgj; 户 : 。 第 ;次 运行 时 污 物 浓 庆 (bg/ 逢 ) na: 洗衣 服 时 洗衣 机 运行 轮 数 次) zi: 。 第 ;办 用 水 量 ( 逢 ) 凡 : 。 干 衣服 的 质量 (kgj; 首 : 。 衣服 脱水 后 衣服 含水 质量 (kg)i 局 二 四 1 期 张 惰 珍 等 : 洗衣 机 的 节 水 优化 模型 77 = e: 衣服 的 清洁 度 (常量 ， 洗 净 的 衣服 上 污 证 与 4 之 比 ) 3: 。 。 洗 一 次 衣服 总 用 水 量 ( 升 ) Max : 。 洗衣 机 一 次 洗衣 的 最 大 量 (kgj: ae: 脱水 后 衣服 含水 质量 与 干 衣服 质量 比 (常量 ) Wes :洗衣 机 一 次 注水 最 高 限 ( 升 ) Was ;衣服 完全 温 泡 的 状态 下 为 使 洗衣 机 能 正常 运行 需 注入 的 最 低 水 量 ( 升 ); . 次 0 单位 质量 的 衣服 完全 温 泡 最 低 所 需 水 量 ( 沸 量 : =“ US Vauin(M) = EM + Wain ( 升 ) 2 \\) 三 、 模 型 的 建立 及 求 钙 H (一 ) 模型 分 析 全 (D 从 化 学 中 的 洗涤 剂 原理 知 ， 有 助 址 洗 活 作 用 的 二 个 固 芝 ， 1 表面 活性 (以 到 扔 为 代表 的 活性 六 产生 洗 淋 作 用 的 各 种 物性 之 通称 ) 2 界 酒 筷 ( 栈 入 洗 淋 剂 中 的 矿 和 磁 酸 盐 等 无 机 助 剂 的 作用 ). 3. 机 域 力 和 沈 水 力 (由 于 水 的 流动 产生 机 械 及 入 在 本 题 中 ， 由 于 只 在 第 一 次 加 入 洗涤 剂 ， 在 第 二 深 及 以 后 ， 不 再 加 入 洗 漆 浏 ， 从 而 使 有 助 于 洗 泊 的 三 个 因素 中 的 前 两 个 不 存在 ， 只 利 水 的 流动 力 的 作用 ， 洗 漂 作 用 因此 很 籁 弱 ， 于 是 假设 污 物 第 一 次 被 洗涤 ， 接 来 的 过 程 只 是 污 物 的 稀释 过 程 是 合理 的 . () 实际 生活 经 验 可 知 ， 在 衣服 宪 全 温 泡 的 革 础 上 ， 洗 衣 机 还 需 有 一 定 的 富 棒 水 量 Yo 才能 使 其 正常 运行 ， 一 种 衣服 客 信 温 泡 所 需 水 量 是 衣服 质量 的 6 售 ， 由 质量 为 M 的 家 服 使 洗衣 机 能 洗 的 最 少 水 量 Vaia (M) = Wan + AM. 脱水 后 剩 下 水 量 是 衣服 质量 的 o 借 ， m = eM. 对 于 普通 衣服 cy 可 视 为 常数 ， 实 验 测定 1 kg 混合 干 衣服 完全 浸泡 所 需 水 基 ， 脱 水 后 衣服 入 水 基于 衣服 质 生 之 比 ， 如 表 | -一 二 [p.10510T15720725730735 | o \\Bfetzastoorarosrs TsrTise] \\ 7, [mm | 03 |0611092 1120 | 152 1188 | 3.15 | 和 - a=0.60;§=50 1 污 物 的 浓度 为 ， A, prm _ _pm _ Paam N 户 二 天 记 二 天 十 志 内 二 到 寺 一 2EE 经 迁 代 得 _ Agmn—t 所 二 zl(z2 + m)(z3 十 也 ) (Zn 十 人) () 模型 的 建立 Eli: & o i 78 数学 的 实战 与 认 识 第 27 卷 wa 根据 上 述 分 析 ， 可 以 建立 以 下 的 多 阶段 决策 模型 ， 来 解决 洗衣 机 的 节 水 问题 :; Din 5 = 人 t=1 4omm 站 Vinin(M) < 21 < Vinax Vain(M) < 2i +m < Vinax, P=2,00,m (1) 定理 1 OGAEN n, 若 (1) 存在 最 优 解 zi 05.--,25, 则 ， 人 本 ES 证 明 :运用 反 证 法 2 若 (2) 不 成 立 ， 取 o d 7 X 3 eNy yOm, i= 了 3 治 ost 可 出 有 o VOD <31 E Van DainQO) Sm< Vinas 从 而 得 到 zi,zz，…,zn 四 本 二 (or 二 了 28 于 加 (+ 一 z+》 (3i + m) 由 2 ] V DIL > n 这 与 zi 和 是 最 优 解 相 矛 盾 . 二 jn 值 讨 论 m\" TV TO 且 当 mm m=23 人 刚好 为 Win(M) 则 有 最 多 洗涤 轮 数 ， 由 Far <e 得 lne mmuz = | 一 一 一 -一 一 | +1 m : 人 | 3 . Eig 嫩 一 1 其 张 由 珍 等 :洗衣 机 的 节 水 优化 模型 79 人) 当 ouai+mti= 23…… 为 War 则 最 少 轮 数 由 meis < 得 mu 一 = +1 ln 一 一 Umax 综 上 所 述 ， w 的 取 值 范围 wmio < mn < nanar。 (四 ) 求 最 优 解 (D 当 盖 取 单 值 时 ， nuin =m = nae 有 . m* <e o (Ra a 从 >》 NA . 成 立 ， 所 以 ma = za 十 加 = 四 二 下 = 二 网 = Viia(M) “ih peR S = nVain(M) — (n— 1)m. d (2) 当 半 取 多 值 时 满足 nmis < m < resax' B 1 BUATmpbc- ,名 利用 定理 1, 则 原 模型 转 为 求 min | Si 1S; =n; x 2i 一 (FS - 2R o =max { 2 Vain() } =1,2,--- k 四 、 模 型 结果 与 检验 8/ ° 以 海棠 洗衣 机 XQB42-1 THA 以 <= 0.005.M = 3.1,Wain =824 代 从 模型 可 得 S = 108.58 升 ， 而 实际 中 这 种 型 号 的 洗衣 机 实用 水 127 升 ， 节 约 用 水 8.42 并 对 于 给 定 的 一 个 = (例如 e = 0.005), 可 根据 程 序 用 计算 求 出 M - $ 的 籽 庶 关系 ( 见 表 2 及 图 1). 下 亲 1 72 // 分 < 90 1 以 4- 了 <X iw TIGER cloth (kg) 建议 , 洗衣 机 厂家 向 用 户 提供 该 图 、 表 ， 以 便 用 户 节约 用 水 . ERgaE EeE 80 数学 的 实践 与 认 识 第 27 着 五 、 模 型 评价 及 推广 模型 的 最 大 优点 在 于 把 洗衣 机 按 固 定 挡 水 量 方式 改进 成 加 水 量 随 衣物 的 变化 而 连 续 变 化 的 方式 ， 目 在 每 一 次 洗衣 过 程 中 利用 动态 规划 优化 ， 从 两 方面 节约 了 水 量 . 模型 还 具有 形式 简单 、 适 用 范围 广 等 优点 .对 于 不 同 列 号 的 洗衣 机 ， 只 要 把 程序 中 某 些 参数 作为 相应 变化 ， 就 可 得 到 节约 用 水 的 模型 . 在 实际 过 程 中 ， 单 位 质量 的 衣物 随 着 种 类 、 材 料 、 尺 十 的 不 同 ， 其 处 于 淄 泡 状态 需 最 小 水 量 广 和 脱水 后 衣服 与 干 衣服 质量 比 o 的 不 同 ”最 少 用 水 量 也 要 变化 ， 但 只 要 适 当地 改变 及 和 o 的 值 ， 该 模型 就 能 运用 于 这 些 情况 表 ?衣服 重量 与 用 水 情况 表 < 人 ELE ER 量 (kg) | 次 数 | 水 量 (kg) | 水 量 (kg) | 水 量 (kg) | 量 kejz| 清 法 坟 | : 0.20 2 24.76 24.44 49. 40.0281 0.40 2 25.82 25.18 5100. | Rae 0.60 2 26.88 25.92 1) .80 0.0012 0.80 2 27.94 Z6.06 《 4.60 0.0020 1.00 2 29.0u 27.40 s 6. 0.0030 1.20 2 | 3D.06 28.14 58.20 0.0040 1.40 | 2 1.68 29.44 ) 61.12 0.0050 | 1.60 | 2 36.20 33.64 69.85 0.0050 . | 1.80 2 40.73 37.85 78.58 0.0050 2.00 3 34.30 31.10 31.10 96.50 0.0008 2.20 3 35.36 31.84 31.84 99.04 0.0009 2.40 3 36.42 32158 32.58 101.58 0.0011 2.60 3 37.48d 133.3 习 33.32 104.12 0.0013 2.80 3 38.54 同 34.06 34.06 106.66 0.0015 3.00 3 39.605 |' 34.80 34.80 1109.58 0.0017 3.20 3 6 35.54 35.54 111.74 | 0.0019 3.40 3 的 7 36.28 36.28 114.28 0.0022 3.60 3 2.78 37.02 37.02 116.82 0.0024 3.80 | 3 和 4 37.76 37.76 119.36 0.0026 4.00 | 3| 44.90 38.50 38.50 121.90 0.0028 -| 这 \\s 参考 文 献 四 2 表面 活性 剂 ， 化 学 出 版 社 . 全 和 材 编写 组 ， 运 筹 学 ， 清 华 大 学 出 版 社 ， 北 京 . KR OB42-1 海棠 牌 洗衣 机 说 明 书 .",
+  "normalized_text_chars": 5200,
+  "normalized_text_sha256": "E1E6DC6013382EC3179239D246095769137AF303FA7C08683AE9D2D67A87D03E",
+  "page_provenance_summary": {
+    "OCR": 5
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "CAF91A288714529F303883EEC6E4C1B0A61DA7102A7BC1E5740707409B5E887A",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "8E6F09FA005CCE332D901588BB94DACD8DD398DA1847E3266F3CF0A3121847C3"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "6037B8893AE3C9B6939BDAF7377EFC92B3DE878AB9BC49E78450F3CD1D7EAD06",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "55B0AFE401ADD853C70436A83D493A13928C37216481BCE46788924DBECAD54C"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "C459554519B582707F3F73CDCAED96158A72D0429E0974557280E77737DE979B",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "031280BB6C56CC52FAC1C2020DE9136EC094E392EBF905F15743093F546A4050"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "5CB653045563A14D40EC38AE522FD6522C1D86309C855C65298D393EE0AE79F4",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "FAA672AFE026E4E6F9C0BBA2D952A0C655718AB30A106EE6FEDC7AFD1F998D28"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "9AF036E5972449E7148022938E99942098F4677D01FFC1B058AFC2ED151E7F6E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "19C2D854F617EBB64FFCE0047E94F9DF0EAF55D6BBA2A0AA6E8645B722572807"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

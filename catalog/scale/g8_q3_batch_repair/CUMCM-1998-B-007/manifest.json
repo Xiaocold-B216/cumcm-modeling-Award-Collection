@@ -1,0 +1,117 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-1998-B-007",
+  "source_path": "1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998B：多旅行商路线的几个问题.pdf",
+  "source_sha256": "964628E2521276461DC5B878BE977AEAF63EE0350AFC6B302D9C3F19CEE0FF50",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 8,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 8,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "和 第 29 着 第 1 期 数学 的 实践 与 认识 Vol. 29 No. 1 1999 年 1] 月 MATHEMATICS IN PRACTICE AND THEORY Jan., 1999 多 旅行 商 路 线 的 几 个 问题 - 例文 鲁 ( 上 海 华东 理工 大 学 应 用 数学 研究 所 200237) 摘 要 本 文 对 SB 题 (全 国 大 学 生 数 学 建 模 竞 赛 ) 的 几 个 较为 深入 的 问题 进行 讨论 ， Hanilten 回路 与 最 优 旅行 商 路 线 的 关系 ， 日 标 函数 的 处 再 ， 最 小 组 效 问题 特别， 对 于 SSF 晤 Ah 题 ， 22 组 是 否 为 最 小 组 数 ， 我 们 给 出 了 肯定 的 结论 . ¢ \\) - — HATRRMAE B2 Fi— WRE, SRATHRERES 7, r» 辆 路 线 组 织 ， 作业 调度 等 方面 全 国庆 学 生 站 学 囊 相 这 容 9515 十 正 是 这 样 一 类 回 题 ， 二 般 来 说 ， 这 类 问题 不 存 在 好 算法 ， 由 于 实 祭 要 求 的 不 同 ， 这 类 问题 中 的 日 标 函 数 与 约束 条 件 交 可 以 有 多 种 形式 ， 这 样 ， 结 合 具体 问题 的 特 丈 性 ， 进 行 较为 深入 的 讨论 ， 仍 然 是 可 能 的 ， “JSS 本 文 对 98B 题 的 几 个 较为 深入 的 问题 进行 讨论 ， 在 号 |， 我 们 诗 沦 郊 向 图 上 最 小 Hammilton 加 路 与 最 优 旅行 商 路 线 的 关系 ， 指 出 二 者 何 时 相同 ， 何 时 可 能 不 丰 周 的 一 些 判断 ， 在 §2, 针对 98B 中 的 、 目标 函数 的 处 理 ， 讨 论 如 何 将 双 目 标 化 为 单 目标 的 问 是 ,以及 如 知 把 点 权 化 为 边 权 的 问题， 我 们 在 §3 讨论 ， 在 给 定 的 时 间 下 ， 如 何 确定 最 小 组 数 的 问题 ， 特 别 SS98B 题 第 三 小 题 中 ， 当 给 定时 间 限定 为 6.4286( 小 时 )， 可 断言 22 组 是 最 小 组 数 ， 也 就 是 说 ， 21 组 是 不 可 行 的 ， 对 此 ， 我 们 在 94 介绍 了 集 合 禾 郑 问题 ， 在 55 讨论 了 有 关 9NB 到 本 最 后 在 46 给 出 证 明 为 节省 篇 幅 ， 我 们 对 8 题 丰 再 复述 ， 因 为 在 本 期 杂志 的 者 干 文章 中 均 有 俊 壕 。 98B 题 的 图 形 亦 略 ， 但 有 关 数 据 列 在 附录 中 , LL 人 区 氏 最 小 Homilton 回路 与 最 优 放 行商 路 线 的 关系 我 们 限于 讨论 无 向 图 给 定 一 个 连通 图 (7 = (0E,0), 3 V 为 顶点 集 ， 书 为 边 集 ， 为 定义 在 已 上 的 权 ( 负 j、(7 的 一 个 了 An 回路 是 顶点 集 上 的 一 个 循环 排列 r = ci … ownon+i (mrl = ol) 其 中 一 切 riciti 2e) 定义 为 r 上 所 有 边 权 之 和 ， 当 wlo) 达到 最 小 ， e 称 为 最 小 Hamilton 回路 ，<G 的 一 个 瑚 生 商 路 线 是 顶点 集 Y 的 可 重复 但 不 壕 沁 的 一 个 循环 排列 ， 多 旅行 坎 路 线 则 是 顶点 集 懈 的 何 旺 复 但 总 体 上 不 壕 油 的 多 个 循环 排列 ， 其 余 有 关 概 念 类 同 于 Hatnilton 回路 . ao 不 难得 到 以 下 二 个 结论 四. 只 / 绪 人 ， 如 果 完 全 图 5; = (YE 的 权 不 受 限制 ， 那 么 存在 例子 使 得 ， G 的 最 小 Hanilion JoAse (7 的 最 优 旅行 商 路 线 . SA 结论 2 如 果 完全 图 (; = (Vi 的 权 满 足 三 角形 不 等 式 ， VigkEV, RS 二 ai (1.1) 那么 (; 的 最 小 Hatilton 回路 必 是 (; 的 最 优 旅行 商 路 线 . 对 于 〔; 为 连 道 但 不 是 完全 图 的 情形 ， 容 易 注意 到 。 (; 可 能 不 存在 Hamilton 回路 ， 这 时 也 就 不 存在 最 小 Haunilton 回路 ， 还 可 以 想到 ， (7 的 最 优 旅行 商 路 线 可 到 完全 图 (” 上 去 找 ， 这 个 完全 优化 理 纶 与 算法 ”为 国家 自然 科学 基金 助 项 有. ， EliiE] - 了 2 六 80 数 学 的 实践 与 认识 29 着 图 57 = (V, ,ee 其 中 边 集 民 包含 上 的 一 切 点 对 ， 而 wf) 定义 为 O 上 顶点 ; 与 顶点 7 之 间 的 距离 (最 短路 长 度 ), 它 必 定 满足 三 角形 不 等 式 . 结论 3 连通 图 5; = (W Bie) 所 相应 的 完全 图 (7 = (V, 忆 ,uw\") 的 最 小 Hanilton 回路 17 必定 给 出 《; 的 最 优 旅行 商 路 线 ， 其 中 几 ' 中 的 边 用 〈; 中 的 最 短路 (其 二 端点 与 该 边 的 二 端点 相同 ) 来 代替 . 结论 3 具有 直观 解释 ， 它 可 用 反 证 法 加 以 证 明 . 从 8B 题 的 竞赛 答案 来 看 ， 不 少 答卷 提 到 上 述 结论 2 与 结论 3, 但 是 在 级 述 结论 2 时 ， 一 些 答 卷 未 指明 这 一 结论 只 适用 寺 完 全 图 ， 在 叙述 结论 3 时 ， 一 些 答卷 也 未 强调 〔; 与 (” 的 差别 ， 这 样 ， 也 就 产生 了 一 个 用 问 ,结论 2 能 耕 推 广 到 非 完全 图 呢 》 这 时 ， 相 应 十 三 角形 不 等 式 (1.1) 的 条 件 要 变 为 - HHE (i,k) € 已 及 从 7 至 人 的 任 一 条 路 P, -从 E YY SS w = (0 人 ED T 也 就 是 说 ， 对 位 Li 人 ) < 户 uie 恰 等 于 (= (5 Bo) 中 顶点 ;与 k22 < 疑问 的 结论 如 下 ， ARAN : 结论 4 有 例子 表明 ， 即 使 (= (V,E u) 丁 一 一 满足 (1.2) 且 存 在 Homilon 加 路， 但 (; 的 , 最 小 Hamilton 回路 不 是 ( 的 最 优 旅行 商 路 线 . A 二 证 如 图 1 C= 1 已 YY 由 10 个 顶点 AS 组 成 ,而 巨 由 13 条 边 组 成 ， 权 ti 分别 标 出 ， b 、 在 每 一 条 边 旁 ， 其 中 * 大 于 1 显然， 对 此 图 (1 是 成 立 的 ， 图 (; 有 唯一 的 Hauuiltou 加 重 . 路 ABCDEFGHIIA, 其 长 度 ( 邑 最 小 的 用 lton © 3 回路 长 度 ) 为 图 ， 由 二 8 二 4 (13) 但 图 (; 的 旅行 商 路 线 A oo A 的 长 度 为 —_— ly=10+2x (1.4) 由 于 了 之 \" 直 庆 这 样 就 得 到 了 结论 4 。 证 毕 尚 竺 54 是 ， 对 满足 (1.2) 且 存在 Hannilton 回路 的 图 ， 再 增加 什么 合理 的 条 件 ， 可 保证 (7 的 最 小 刘 a 生 人 回路 必 是 最 优 旅行 商 路 线 呢 ? AS 42 关于 目标 函数 的 处 理 Ta 题 第 一 小 题 中 , 要 求 设计 三 组 “总 路 程 最 短 且 各 组 尽 可 能 均衡 的 巡视 路 线 ” 以 (4 (2 (5 表示 三 组 巡视 路 线 的 长 度 ， 上 述 要 求 可 表示 为 如 下 双 目 标 函 数 的 优化 ， in(C 十 Ca 十 (3) min (max C; 一 uin €5). 从 问题 的 实际 背景 出 发 ， 可 考虑 营 代为 下 列 目标 函数 的 优化， ni 和风 (2.1) 折光 1 期 俞 文 蚀 : 多 旅行 商 路 线 的 几 个 问题 81 它 与 上 述 双 目标 在 含义 上 有 一 致 的 地 方 ， 但 不 尽 相同 ， 在 98B 题 第 二 小 题 中 ， 容 易 确定 最 小 组 数 为 4 (参见 本 文 83). 在 98B 题 中 已 将 35 个 村 编号 为 从 1 到 35, 现 再 将 17 个 乡 的 字母 编号 依次 改 为 从 36 至 52, 将 县城 编号 为 53, 引入 点 权 (顶点 上 的 权 ) 如 下 : =35(<i<35)，， =70036<i<5)， us=0， (2 其 中 已 将 在 村 与 乡 的 巡视 时 间 依 照 汽车 行驶 速度 (35 公里 / 小 时 ) 化 成 了 公里 教 . 以 G= (V, 已 , 四) 表示 98B 题 的 图 , 以 (” = {Y, E', o') 表示 相应 的 完全 图 (o 表示 任 二 点 之 间 的 距离 ), Hy, Ha, Hs, Hy 表示 (” 上 的 4 个 旅行 商 路 线 ， 其 全 体能 获 盖 V, 且 每 个 太 均 包含 顶点 53( 县 城 ). 对 工地 1 2,3,4， : 人 G= > N 人 JET JE PyA \\ 于 (2.0 对 由 二 小 是 7 = UV Er) 上 下 列 旦 标 函 闫 85 生 化 ， 类 似 于 (2.1), 对 93B 题 第 二 小 题 ， 可 考虑 ( (WA 5 ) 上 下 列 旦 标 通 ; mninmaxtcr+D， (2.3) - SiS4 , SS 但 是 ， (2.3) 与 \\2.1) 的 区 别 是 明显 的 ， (2.1) 中 的 目标 函数 售 : fil 5, 合 (2.3) 中 的 目标 函数 兼 含 边 权 与 点 权 ， 为 了 把 (2.3) 转换 为 与 (2.1) 相同 的 形式 ， 引 六 另 二 完全 图 (” = (V.B',v\"), 其 中 『 .o YEB ye CN 3 (2.4) 易 知 ， 边 权 ww” 仍 满 足 三 角形 不 等 式 ， 这样， 对 1 = 1,2,3,4, 令 (一 7 wly, . $, (J.kYEH, 利用 (2.4) 容易 证 明 ， 必 成 立 (Y = 从 从 而 ， 可 以 得 到 下 列 优化 问题 < min yas C (2.5) 结论 5 (\" = (PN To (23) 等 价 于 (5 = (V, B',w\") 上 的 优化 问题 (2.5)， 其 中 权 边 权 uv 由 全 sd 和 葵 出 结论 5 的 意 鼠 在 Ha( ”上 的 边 权 与 点 权 都 化 成 了 〈”” 的 边 权 ， 从 而 使 第 二 小 题 的 问题 与 第 一 小 机 ) 成 为 相同 的 形式 { 只 是 组 数 不 同 ), 它们 可 采用 相同 的 近似 算法 来 处 理 ， 我 们 发 现 ， 在 88 题 的 别 答 和 ， 提 到 过 把 点 权 化 为 边 权 的 思想 ， 但 要 把 这 一 思想 明确 地 形成 一 个 结论 ， 还 需 联 系 到 有 目 RER 的 捧 体 形式 ， 以 上 讨论 了 单 目标 函数 miax ('* 的 情形 ， 对 前 述 双 目 标的 情形 和 下 一 节 的 最 组 数 | 题 论 是 类 似 的 . PR 43 最 小 组 数 问题 给 定 长 度 约束 ， 求 解 多 旅行 商 路 线 的 最 小 组 数 ， 是 一 个 有 实际 意义 的 重要 问题 。 98B 题 中 第 二 ”小 题 与 第 三 小 题 均 涉及 这 样 的 问题 . 用 包 中 的 记号 ， 它 可 以 表示 成 如 下 形式 .给 定 一 个 连通 图 (7 = (PE (98B 题 的 相应 数据 见 附录 ), 求 相应 的 完全 图 (” = (V, BY !) 上 多 旅行 商 路 线 Hi (i 一 1,2,… .站 ,使 其 们 体能 狗 盖 ，， 其 每 一 个 旅行 商 路 线 均 含有 顶点 53( 具 城 ), 且 达 到 win , (3.1) se whih (i=l2e), (32) JEH, 好 回 虽 这 品 回 _ - o 2 折光 号 数学 的 实 成 与 认识 罗 卷 其 中 由 为 点 权 ， / 为 给 定 的 长 度 上 限 . 一 般 来 说 ， 求 解 最 小 组 数 问题 (3.1) 一 (3.2)， 或 者 说 ， 要 确定 最 小 组 数 \"， 包 括 二 个 方面 ， 一 方 面 ， 要 构造 (7 的 / 个 旅行 商 路 线 ， 满 足 相应 的 长 度 约束 ， 另 一 方面 ， 要 证 明 \" 是 组 数 的 下 界 ， 即 证 明 — 上 组 是 不 可 行 的 . 对 98B 第 二 小 古来 说 ,问题 (3.0)--(3.2) 中 的 长 度 上 界 L 为 840 公里 ， 相 应 的 时 间 上 界 为 24 小 时 .给 出 4 组 可 行 的 旅行 商 路 线 是 不 困难 的 ， 多 数 答 卷 都 能 做 到 ， 但 要 证 明 4 组 是 一 个 下 界 ， 不 少 短 卷 都 做 得 不 好 ， 只 有 少数 试卷 给 出 了 简 滞 的 论证 ， 以 下 是 一 个 这 样 的 论证 ， 假 如 3 组 可 行 的 旅行 商 路 线 能 符合 长 度 约束 或 相应 的 时 间 约束 ， 由 于 从 县 城 至 所 有 点 (村 或 乡 ) 的 虐 离 的 最 大 值 为 d=T115 (公里 ), 而 24 是 ( 的 多 旅行 商 问题 的 一 个 简单 下 界 ， 这 样 ， 由 (3.2) 可 得 ， 3 540 > ) 0; + 2d = 69 x 35 + 155 = 2570, 后 AY = \\{ \\) 二 便 得 矛盾. - 对 计 一 般 的 长 床上 措 2 相 它 的 对 间 上 并 为 了 三 L5h), 最 小 组 数 | 他 32) 的 解答 会 是 大 当 冰 难 的 ， 计 算 世 记 会 很 大 对 98B 第 三 小 古来 说 ， 问 题 (3.1)- 关 32 中 的 长 度 上 界 上 为 225 公 纪 ， 它 根 当 寺 时 河上 失 6.4280 小 时 ， 很 多 答卷 给 出 23 组 可 行 的 慈 行 着 路 线 ， 不 少 答卷 给 出 22 组 可 行 的 旅行 商 路 线 ， 但 22 组 是 坎 为 最 小 组 数 呢 ? 对 此 ， 未 发 现 有 一 企 著 卷 能 环 给 出 正确 的 论证 ， 当 然 ， 这 与 答卷 时 间 有 限 也 是 有 关 的 、 我 们 将 在 35 与 46 中 还 明王 列 结论 ， 结论 6 当 /上 = 225 时 ， 节 小 组 数 问 题 (4.1 一 人 (3.2 其 有 下 是 ， = 22 内 4 集合 覆 关 问题 及 其 下 困 为 证 明 结论 6 做 准备 , 我 们 在 本 节 叙 述 集合 覆盖 问题 的 概念 及 关于 下 界 的 一 个 结论 . RABHR 题 的 提 法 如 下 ; 4 9 给 定 集合 N = {1.2， ,nj B-ATFHE 忆 在 F 中 寻找 最 小 个 数 ( 称 最 小 提 盖 数 ) 的 子 集 族 F G 记 使 得 N 的 每 一 个 元 素 至 少 锐 手 加 中 的 一 个 子 集 . 在 计算 复杂 性 理论 中 ， 访 问题 是 一 个 Y 困难 问题 同时， 对 于 一 般 情 况 ， 也 很 难得 到 什么 结 论 ， 为 了 得 到 有 用 的 结论 ， 我 们 对 jh 与 记 的 形式 做 出 一 些 限制， 假设 1 对 任何 S € F, S 的 寺 集 亦 属于 记 , 假设 2 记 / 汶 竹 集 族 /中 元 素 个 数 为 / 的 那些 子 集 组 成 的 族 ， 假 设 成 立 v F=FURUFUF, 人 假 史记 为 子 集 族 忆 中 4 元 素 个 数 为 了。 月 元 素 个 数 为 ! 的 那些 子 集 组 成 的 放假 设 设立 已 A- 启 = 局 oURUA 用 = 有 UP (4.0 -个 侵 设 等 价 十 应 = 用 As 四 Fap=Fg=Fa=0 这 表明 ， 比 起 A 中 的 元 素来 说 ， 睛 中 的 元 素 的 “ 权 ” 较 重 ， 从 而 ， F 中 没有 3 元 素 皆 属于 已 的 三 点 于 集 ， 局 也 有 类 似 的 性 质 . 结论 7 车 N 的 子 集 族 忆 满足 假设 1-3, 设 |N| = mm 8 二 号 又 Fi2UFy) 的 最 大 分 离子 集 数 为 /, 叫 集 合 狠 盖 问 题 的 最 小 儿 盖 数 ， 满足 ; > [(n+b—g)/4]. 1994-2008 China Academic Journal Electronic Publishing House. All rights reservec http://www.cnki.net 回 虽 这 品 回 二 1 期 例文 鲈 : 多 旅行 商 路 线 的 几 个 问题 83 该 结论 的 证 明 从 略 ， 有 兴趣 的 读者 可 以 自己 研究 . 该 结论 给 出 了 地 小 覆盖 数 的 一 个 下 界 ， 它 特别 适合 于 局 ,* 与 F 所 含 子 集 个 数 较 少 的 情形 . 此 外 ， 在 有 关 假 设 满足 时 ， 另 有 二 个 明显 的 下 界 (n/4] 5 [1/2) 45 合格 组 的 一 些 性 质 首先 ， 简 述 一 下 §2 中 提 到 过 的 顶点 编号 ， 顶 点 集 N 分 为 4{ 村 ) 与 B(%), 其 中 站 加 与 最 小 组 数 问题 (3.1) 一 (3.2) 相 一 致 ， 根 据 0988 第 三 小 是 的 要 求 ， 我 们 引入 下 列 定 伏 > 定义 工 N = -41U 1 的 一 个 子 集 % 隐 为 合格 组 ， 如 果 o/ A\\) « [> STu + LIST(5 ULR1)) < 225, (5.1) JEs 其 中 点 权 vi 由 (22) 给 出 ， LTSP() an 这 样 ， 每 个 合格 组 确定 了 一 个 可 行 的 旅行 商 路 线 ， 9 三 第 三 小 题 中 的 要 求 就 是 要 确定 寻找 组 数 最 少 的 合格 组 ， 使 其 全 体能 噬 盖 所 有 村 与 乡 . vv 合格 组 的 全 体 构成 N 的 子 集 族 P， 如 前 ， 以 户 2 数 为 的 合格 组 的 全 体 ， 经 过 计算 与 分 析 ， 我 们 得 到 | 六合 52, _ (52) 人 1F4) =795, (5.3) 吕 = 1354, (5.4) . 3| =58, ! (5.5) 六 |F] =0, (5.6) ups (5.1) 右 端 225( 公 里 ) 相当 于 时 间 上 界 6.4286 小 时 ， 它 愉 Rovj + LISP({G03))8—10 j 的 最 大 值 ， 所 以 每 一 个 点 (村 或 乡 ) 均 是 一 个 合格 组 ,因此 显然 成 立 (5.:2). (5.3)45 ( 吕 4] 可 通 过 穷 举 法 算得 ， 为 了 较 快 地 确定 Fy, 即 确定 一 切 4 点 合格 组 ， 可 考虑 F; 中 哪些 在 虑 合 属 组 可 以 扩充 ， 例 如 ， 假 如 3 点 合格 组 {i,0 k) 能 扩充 为 4 点 合格 组 ， 它 至 少 应 满足 - (o4 3uj + LISP(SU {53}) < 190, jes Wa Ta 35( 公 里 ), 相当 于 1 小 时 ， 辐 时 ， 假 如 它 扩 充 为 4 点 合格 组 (i,5,k1), 那么 还 应 有 全 直人 汗 E Fa (k) € 局 (大作 E 局: 这样，4 点 合格 组 的 候选 者 就 少 得 多 了 ， 从 而 局 可 以 较 快 地 计算 出 来 ， 便 得 (5.5). 当然 ， 以 上 请， 局, 局 的 计算 都 要 借助 于 计算 机 来 完成 . 下 面 ， 我 们 证 明 (5.6)， 不 然 的 话 ， 设 存在 5 点 合格 组 S 一 【有 ,ay Aska ,As} 由 点 权 (2.2) 及 定义 1, 中 至 多 一 个 点 为 月 的 点 { 乡 ). 假如 % 中 确 有 一 个 点 为 月 的 点 ， 3 中 点 权 之 和 为 210， 于 是 对 = 1 345 有 tf,53) < LISP(SU {5)) < 3255 一 210) = 7.5， (5.7) 加 区 二 号 总 84 Ho¥ MW ox K 与 认 识 29 卷 其 中 oo 祭 放 = wi; 表示 点 1 与 点 j 之 间 的 距离 .容易 检验 ， 满 足 (5.7) 的 只 有 一 个 点 (点 1), 不 可 能 有 5 个 点 ， 便 得 矛盾 ， 假如 % 中 所 有 点 为 4 的 点 ，% 中 点 权 之 和 为 175, FRAXM i=1,2,3,4.5, 有 We 人 (5) < JUISPlsu (53)) < jz25- 175) = 25. (5:8) 同样 ， 对 1 三 工 二 汪 45 (天 中 ,有 (Ai 后 ) < SUSP(SU 5 < 25. (5.9) <=A_ 容易 检验 ， A 中 点 满足 (5.8) 的 有 9 个 ， 其 金 体 记 为 二 = {1,2,3,5,26,28,29 31,380) 0ES 检验 ， 只 有 AT 中 的 点 语 = 上 存在 AT 中 其 他 四 个 点 总 能 满足 (5.9). 促 ,5.9) raa 人 有 5 个 ， 所 以 亦 得 矛盾 . 如 前 ， 以 户 ， 表 东 A 中 点 玫 却 记 甩 中 点 儿 为 的 合格 组 的 会 依 ， 用 (2 和 证 明 [F0sl = [Faal =0, SS (5.10) 从 而 更 有 Fia= Foa=0.d@ (5.0) ae 全 上 是 显然 的 ， (5.6) 与 (5.11) 表明 书 满足 假设 2-3. 根据 计算 ， 局: U 及， BETE 万 个 合格 组 ， 3037 人 36.38 {1.36,52), {1,3038h {1,37.50), (1,87,52), {1,38,50}, {2.37,38), {2.33.89}, “{3,37.38}, 13,38,39), {20,50,52}, {1,2,3,37), {1,2,3,38}, {2.3.5,38}. 由 于 上 述 15 个 合格 组 只 涉及 11 个 点 ， 而 上 述 每 个 合格 组 为 3 点 或 4 点 ， 所 以 MaUF) 至 多 有 3 个 分 离 的 合 恪 组 ， 通 过 简单 列举 ， 可 知 大 梧 o™ 的 最 大 分 离合 格 组 个 数 为 Ux- 和 (5.11) y 结论 6 的 证 明 由 |N| = 52、 和 7 Wy 1), 根据 结论 7 可 算得 复 盖 N aRAERE—DTFRY [(IV]+ |B] — q)/4] = 66 但 它 与 结论 6 (22 组 为 下 界 ) 相去 甚 远 ， 因 此 ， 我 们 还 要 讨论 子 集 族 己 的 更 多 性 质 太 以 4 IFIB®R N 的 合格 组 的 结构 . 以 全 NA 7 中 含有 点 人 的 合格 组 的 全 体 (也 是 子 集 族 ), 类 似 地 引入 记号 五:( 全 .对 计算 结果 进行 必用 ， 2 Fulk) = 昨 等 要 求 可 以 发 现 N 的 下 列子 集 ， 外 > By={42,43,44), Ay = {10,12,13,14,15,16}, R 应 二 {41,45,46}, y = {8,9, 11,17,18,19,22,24} 它们 分 别 具 有 下 列 性 质 VkeB, Iy(k)=0, (6.1) YE， Fk)=0. Fy(k) =0, (6.2) YE 二 外 Ai) 二 四 (6.3) WE 三 人 (6.4) 3 EliiE] - 了 2 六 1 期 俞 文 鲈 :多 旅行 商 路 线 的 几 个 问题 5 设 卫 = {Si ss vs 上 由 个 合格 组 组 成 ， 它 能 狗 盖 点 集 N = 4 U 有 由 于 满足 假设 1, 可 设 不 同 合格 组 是 互相 分 离 的 ， 由 性 质 (6.1)，? 必 会 有 3 个 单 点 合格 组 ， 不 妨 设 = 人 = 由 性 质 (6 一 (6.3)， BR% 4 U 02 的 必 是 两 点 合格 组 ， 进 一 步 ， 可 以 发 现 ， 二 点 均 在 A, U js 中 的 二 点 合格 组 只 有 人 个 ， 更 具体 地 说 ， 有 民 = 民 niUB 关 = 全 3 有 3233161115.16} }. (6.5) 由 (6.5) 易 知 / 中 分 离 的 2 点 合格 组 至 多 有 2 个 ， 因 此 只 可 能 育 以 下 三 个 情形 ， 二 $o 情形 1 mn AI = 和 情形 2 T01=1 KBsTaR=0 swss 以 情形 1 来 分 析 ， 其 它 二 情形 的 分 析 是 类 亿 的 在 情 萎 1， 7 民 的 -- 帮 2 ea 4 U Ba 中 的 4 个 点 ， 个 必 应 有 5 个 合 入 组 斑 症 :4 U 成 的 另外 工 个 页 (6.2)-(6.3), 这 5 个 合格 组 必定 皆 当 2 点 全 将 红 ， 它 们 的 全 体 亦 狐 盖 4 2 之 外 的 了 AN frrisdy, i4,is, 且 这 5 个 点 霄 属 世上 GIRGRT 1). 更 不 扩 没 名 盎 4 U ts 的 7 个 2 帮会 格 组 为 大 55 ,Sto 且 全 人 SS 页 三 (9 上 全 (6.6) Ny=N\\(BUA, 六 5 (6.7) 于 是 ， 7 履 盖 Ni) ， 经 计算 可 检验 如 下 性 质 ，。 .1 的 任 :3 点 未 能 组 成 一 个 合格 组 ， 即 局 站 (对 tx 4) = 小 (6.3) y 2% 由 于 |4a| = Ay = Ni 有 Was) 至 少 有 3 个 点 同时 ， (6.8) 保证 这 3 AEESRT - 二 个 合格 组 ， 因 此 ， 不 妨 设 和 € ALASUir € ALN wise 由 (6.4)， 可 分 以 下 情形 ， . 情形 1.1 |si| = lupe| = 情形 1.2 ll<2 或 |%oo<2 其 实 ， 铺 形 1.2 又 可 分 成 装 王 展 展 ， 现 只 分 析 情形 1.1, 因 其 他 情形 亦 类 似 ， 分 析 的 鉴 个 思路 可 参见 图 2 不 妨 设 ¥ = sse se = em 罗 接着 (6.6)(07) 信 B . ci 全 = 全 中 负 二 fs ie 3 UL N 包 其 中 于 怖 ' c 六 实际 上 , 生 Q i ) B=B\\ (B,UB) is JJ = 5 — 1T = 1, CS WSI |As| =29 a - 由 于 7 福 盖 Na 根据 结论 7 与 (5.10)， 可 得 人 5 中 组 数 的 下 界 如 下 图 2 一 之 [(29 十 1 —4)/4] = [37/4] =10. 所 以 ， > 22. 结论 6 证 毕 . 注 如 提要 校 核 上 述 证 明 中 的 计算 是 可 正确 ， 实 际 上 不 必要 算出 应， 局， 记 的 全 部 合格 组 ( 见 (5.3)-(5.5)). 而 只 需 校 核对 推理 过 程 起 作用 的 以 下 内 容 ， (4.0 (5.10)，(6.D 一 (6.4) 以 及 (6.3) 4 1994-2008 China Academic Journal Electronic Publishing House. All rights reservec http://www.cnki.net EiiEaE MA 辣 | 汪汪 回 蕉 外 . 二 86 数学 的 实践 与 认识 29 % 附 录 98B 题 的 图 形 所 相应 的 图 0 = (V, £, o) 的 有 关 数据 如 下 , 以 备 必要 时 可 复 算 ，W(32,33) = 19 不 满足 三 角形 不 等 式 (1.2)， 该 值 被覆 去 . (23 = 6, wb3,2) =9.2, w(53,38) = 115, w(33,48) = 19.8, w(53,50) = 10.1, w(53,52) = 12.9, w(1,36) = 10.3, w(1,37) = 5.9, (38) =11.2, w(2,3)=43, w(2,5) = 8.3, w(3,38) =7.9, w(3,39) =82, w(,8)=204, w,39) =127, w(5,6)=9.7. (539 = 13， w(5,48) = 114, w(6,7)=73, 10(6,47) = IF w(6,48) =9.5, w(T,39) =15.0, w(7,45) =7.2, w(7,47) =T45, SB w(8,40) = 8, w(9,40) =78, w(9,41) =506, w(10,4)) = WHLAD) = 14.2, w(11,42) = 6% ee 45) = 132 ua( 人 3 = 这 w(12,42) = T8, w{i243) = 102, w(lh 14) =88, w( 人 = §6, w(1144) = 16.4. w 1A5) = 98, w{iiib) =15, suw(1443)=9.9, al0540 5 e{1617) = 6.8, w(16,44) = 1L8E (17,22) = 6.7, wiiTA6) 095， as = w(I8,45) = §8Seis, 46) = 9.2, w(i9.20) = 9.3, w(19,45) =8.1, w(19,46) = T.2,0 w(20,21) =7.9, w(20.25) = 65, w(20,47) = 55, w(2L23 ¢1, w(21,25) = T.8, WEZIAG) =40, w(22,23) = 10, w(2246)=10.1, w(23,21) = 5.9. w(23,49) = T.9, w(24,27) = I88, w(24A9= 132, w(25,48) = 12, w(25,49) = 8.8, w(26,27) =T.8 w(26,49) =10.5, (26,50) = 10.5, W2T28) =T9, w(28,50) = 12.01 w(28,51) =83, w(29,50) = 15.2, w29,51) =72, w(20,52) =79, 5w(30,32) = 10.3， w(30,51)=77, CELE) =80, w(ELI3)E TE w(3L52) =0.2 w(32,35) = 14., W(3AR.35) = 208, w(33,360),574, w(34,35) =82, w(34,56) = 11.5, w(34,37) 一 17.6. w(36, 37)A 1 0(36.52) = 8.8, an(37,38) = 11, WA4.15) = 15.8, w(48,49) = 142, NM 参考 文献 D 社 问 油 ， 运 等 图 论 ， La 大 学 出 版 社 ， 北 京 ， 1954 [2] E.L. Lawler, JJ. Lenstra, AHLG. Rinnouy Kan, D.B. Shawoys，The Traveling Saiesman Problem, Wileys, € % 1X4 Problems on Multiple Traveling Salesman Routes ) YU WEN-GI 1 以 TS (Bust China University of Scicnee asd Technology, Shanghai 200237) D ©1994-2008 China Academic Journal Electronic Publi",
+  "normalized_text_chars": 14014,
+  "normalized_text_sha256": "DD8AF3206EB21D164D29789AA17251283F2BAA4F7159D941A7E6228CF7A444CD",
+  "page_provenance_summary": {
+    "OCR": 8
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "9EDA34B85CCE654697310BED60D2FA3242ED2175DBFE4ECFA453269E3D0C511E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "27F58039D6EDB4978943AB0BF4EACD0839883A4A66F7F1D4069F6CA67D9CC0CE"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "C40C61AC6901214E673CEED30D8D9B87E9340E7A1D6A34EBD20D10A3A73F1F7D",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "1D5A72676F929B01833C9A2EB31F9ABBB1AA1220FE3A664B8E3DDD0805BA28C2"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "1E774A67892839136517E246FBC7DCFF45E158BB155DBFB99ED6668B158BB35E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "32C8611EB1F062557DD79FA6ED07F70F100B3E5B77D8B8B2DA534ED33518FFC5"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "F409BE70A5EF71EDD998A758975413A4411F3A840202549FCC41818C035B548B",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "9516C47C52A8546199966FEC5D9A37754A6C932A2BDEF9AC7742900799C4FA54"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "43704A48B8E8BF8C093599AD8FB6DE90859B30417E754A8CEAB26FAD87F932A3",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "AA101432242B89A55DBF62B7146733C208C8FA64858DBB8CBBB1A0AD866F9FEF"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "FD0A78BE0F79F60DCAABD948768AE506F540222AF3A29366D7BF94B05F26AF66",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "D43C4C6634B07165F663747E89DD3BC34A718F95F203DF10DA194F6476E1B505"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "E74D2E73E8F094905AC94E5B0449EF5062B92ECF6BE0DBEC91CFABF615447FDC",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "7A5250A21E515CCE2517FA7D25F3C005B64C7E4E8B9D097131714D1A4E0518CA"
+    },
+    {
+      "page_number": 8,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "E0A116F308C4386209FB9C184F10C1E2D8B243EFD91FB1575580B42FDDCC52BD",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 8,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "927966D78B5CE1EC65577602D1A20D83DF2F69C72EEC3BF8418C5A1A790C9A77"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

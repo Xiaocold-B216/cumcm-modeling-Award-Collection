@@ -1,0 +1,43 @@
+回 大 车 油 国
+a
+Sei
+1 期 赵 桂 芹 : 刀具 问题 的 仿真 及 灵敏 度 分 析 —
+3 灵敏 度 分 析
+为 方便 起 见 , 我 们 仅 在 策略 下 , 比较 参数 改变 后 w ”的 变化 情况
+1.pi= 0 99 其 余 参 数值 不 变 2.p2= 0 3, 其 余 参 数值 不 变
+n < 290 295 300 305 310 n < 290 300 310 320
+28 7.385 7384 7395 729%6 7 491 30 9 254 9 230 9 247 9 218
+31 7420 7371 73l2 7348 7313 35 9 260 9 204 9 203 9 285
+34 73l2 72953 7231 7333 7415 40 9 283 9 229 9 204 9 208
+37 7284 7332 了 7428 7428 7 361 45 9 247 9 193 9 206 9 354
+1= 0.99 时 , 与 问题 2 相 比 , 单价 下 一- s 之
+“ 本 ， 0
+降 , v 减 小 , 增 大 , 这 是 因为 刀具 生产 零件 一 TO oE sTn o0s
+的 情况 变 好 , 而 p， 变 小 , 类 似 于 pm， 变 大 , 同 75 6 698 6 866 (cf 6 803
+时 还 可 看 到 P， 对 单位 正品 价格 影响 较 大 吕 700 afi 《cg  《6
+本 85 6 7268 GO 6710 _ 6710 6696
+而 P* 对 单位 正品 价格 影响 较 小 < SS
+2.f= 100, 其 余 参数 值 不 变 <N N
+与 问题 2 相 比 ,” 增 大 , 这 是 因为 了 HR， 四
+查 费用 变 小 , 从 而 可 以 加 大 检查 间隔 人 请
+3. k= 800, 其 余 参 数值 不 变 d= 4000 洪 余 参数 值 不 变
+n ~ 260 265 270 275 280 n ~ 260 265 270 275 280
+45 &679 &689 &651 8&8l2 & 768 O 30 9676 9632 9600 9707 9 635
+50 8694 &78 &687 8& 到 8/601 35 9663 9630 9574 9543 9538
+55 & 665 R 667 & 640 R 600 /8 Ri 40 9602 9585 9538 9545 9520
+60 8715 873 8&713 86 入 % 697 45 9 567 9.522 9.539 9 665 9 620
+， 风光 j 各 、 本
+与 问题 2 比较 ,x 减 习 莹 号 因为 上 减 小 后 , 预防 性 换 力 次 数 增加 可 减少 总 费用 , 而 4 增
+加 后 , 故障 后 换 刀 费 肝 允 整个 检查 费用 的 影响 变 大 , 因而 提前 换 刀 才 可 以 减 小 单位 正品 费
+用 对 0
+/
+Mb
+六 - 从 and Sensitivity Analysis for Kn ife Problem
+R ZHAO Guirqin， ZHOU L in
+(SoutheastUniversity， Nanjing 210096)
+Abstract Asto theproblem A in CMCM- 99, this article firstly search out the approxinate
+optinal solution to knife-rep lacement period, check period and them ininum cost for unit good-
+product through computer artificial simulation, and then have sensitivity analysis for pi (the
+probability of goodproduct produced by good knife), p2(the probability of good-product pro-
+duced by bad knife), k, f, d, at last concludes that u (the knife-replacement period) is the
+most inportant op tin izing param eter

@@ -1,0 +1,30 @@
+paper_id: CUMCM-2015-B-004
+year: 2015
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+authority_sources:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (4).pdf
+  sha256: E3801A701CD22DBF9DC9B9D308B28C85928FE04A49E139C8247C3ADB0B536D2F
+authority_sha256: E3801A701CD22DBF9DC9B9D308B28C85928FE04A49E139C8247C3ADB0B536D2F
+paper_file_memberships:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (4).pdf
+  role: primary
+  canonical: true
+primary_file: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (4).pdf
+extraction_inputs:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (4).pdf
+  sha256: E3801A701CD22DBF9DC9B9D308B28C85928FE04A49E139C8247C3ADB0B536D2F
+  kind: original
+extraction_input_sha256: E3801A701CD22DBF9DC9B9D308B28C85928FE04A49E139C8247C3ADB0B536D2F
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G6-00G
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 31
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

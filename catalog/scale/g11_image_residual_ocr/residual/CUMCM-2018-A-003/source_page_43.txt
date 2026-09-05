@@ -1,0 +1,46 @@
+ERE
+.
+srand(time(NULL));
+init();
+print();
+int time = 0;
+int pos = lnext_ pos = 0;// 小 车 起 始 位 置
+bool begin = 0;
+while(time<3600*8){
+/ 兴 束 素 水 束 求 束 求 事理 平 人  E kkddokok /
+for(int j=1;j<9;j++){
+T[j]= L{full][pos][j] + rep[j] + B[j]*type[j]*put_down ;
+if((SGI-Lfull][pos](j]) > 0)¢
+T[j] += inf} #7
+>
+if(full == 0 && BDI]=-0K&&typeD]) { 2 \)
+TD] += inf}
+) 中-
+/移动 T+ 上 下 料 T+ 清洗 了 T+ 假设 不 会 提前 过 委 攻 待 +/ 很 设 不 会 空 着 手 去
+到 空 的 CNC2 中 AS SS
+eatassssssssss X
+next_pos = min_index(T);/ 选 择 代 价 最 小 6
+if(T[next_pos] < inf) / 若 过 去 无 需 等 待 ， 并 且 当前 小 车 状态 允许 过 去 ， 则 选择
+{ oO
+for(int i=1;i<9;i++){ 人 V 4 o
+S[i] -= T[next rr 在 这 一 过 程 中 ,RGV 无 法 做 其 他 工作 ， 所 以
+下 一 次 选择 经 过 T[next_pos] 时 间 0 》
+}
+/若是 oo CNC2 S = pro2*full - put_down*B
+onuueuao 反 | Of
+os] = pro[0] ;
+入
+2 if(type[next pos] 一 1 && full==1) Smext posl = pro[l] -
+Blnext_po own;
+SRPSee -_pos];// 时 间 需 要 延长 这 个 过 程 的 时 间
+| 1/ cout<<time- type[next_pos]*B[next_pos]*put_down<<" :
+Re _pos<<endl;
+cout<<"now:"<<time<<":";
+for(int j=1;j<9;j++) cout<<S[j] <<"";
+cout<<endl<<"B: ";
+/交换 ;
+if(full == 1){
+/车 上 的 清洗 掉
+if(B[next_pos])
+it[ hold_ CNCUnext_ pos] ].outtime2 = time -
+43

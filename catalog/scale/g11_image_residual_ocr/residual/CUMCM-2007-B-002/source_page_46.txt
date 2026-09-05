@@ -1,0 +1,43 @@
+回 成 革 动 国
+IE
+0
+BRiE]
+EEn
+}
+10. 3. 2 (文件 名 : CalulateWays. h)
+#include <map>
+#include <iostream>
+#include <vector>
+#include “LoadMessage. h”
+#include <fstream>
+#include <queue>
+using namespace std; 全
+， =\sN
+int aaaaaa ; 二
+int bbbbbb ; 从 N
+// 判断 一 条 线 上 两 点 间 是 否 是 上 下 层次 关系 ， 如 果 是 ， 确 定 EN
+bool find(vector<int> &Line, const int NFIRST, const “NSECOND,
+int &pos 1, int &pos 2) 全
+{ 全
+if (NFIRST == NSECOND)
+{
+int i =0; 和 @
+IAAM
+while (Line[i] != NFIR
+{
++H;
+}
+~
+pos_1 = \a i;
+o,
+下 好
+1 aveFound ”= false;
+01 IsDirectTo 1 = false;
+for (int i=0; i<Line.size(); ++i)
+{
+if (Linel[i] == NFIRST)
+{
+IsDirectTo 1 = true;
+pos 1 = i;
+continue;
+46

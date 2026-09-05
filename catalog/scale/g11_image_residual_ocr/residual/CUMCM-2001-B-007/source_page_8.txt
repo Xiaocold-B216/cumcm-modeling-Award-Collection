@@ -1,0 +1,41 @@
+回 叶 这
+EU
+本 车
+El
+入
+66 工 程 数 学 学 报 第 19 区
+
+参考 文献 :
+
+[1 钱 ， 泗 . 运 筹 学 [M]. 北 京 :科学 出 版 社 ,2000
+
+[2] 肖 雁 , 符 卓 , 李 育 安 . 带 软 时 间 窗 口 的 车 辆 路 径 问 题 及 其 应 用 前 景 探 讨 [J]. 中 国运 筹 学 会 第 六 届 学 术 交 流 会 论文
+
+集 , 下 卷 ,634 - 638
+Study on the Scheduling Problem
+DONG Qiang，LIU Chao-hui, MA Yi a
+Instructor: WU Meng da 人 本
+o
+(National University of Defence Technology , ChangSha 410073) 全 从
+人 \
+Abstract : As it'sa vehicle-scheduling problem with soft time windows , we established two multiple objective programming mod-
+外 人
+
+els to satisfy different practical conditions: double-parkinglot model and single-parking-lot model. Th ec of the former
+
+was to match the capacity of passengers holding with the real demand , while the objectiyé Ofithe latter as to minimize the average
+
+inconvenience of passengers and the cost of transit companies. Both of the two models'eonsideredor benefits of both passengers and
+
+companies. By using the method of step-by-step time , we simulated the practical proceduré and drew two dispatching plans: static
+
+dispatching and dynamic dispatching. e
+
+Key words : scheduling ; step-by-step time ; dispatching plans K
+
+o
+MA
+_— }
+AL
+o p%
+1994-2006 China Academic Journal Electronic Publishing House. All rights reserved.  http:/www.cnki.n

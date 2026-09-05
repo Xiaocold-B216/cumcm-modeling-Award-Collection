@@ -1,0 +1,33 @@
+inu2d(Lf angle300);
+lfreset
+plot3d(Lf angle300)
+elf reset
+eror_plot(Lf angle300)
+function error_plot(Lf angle300) % 横向 剖面 高 低 差
+angle = linspace(angle300, -angle300+pi. 100);
+Lw = Polarpara(Lf angle);
+err = Constant sphere_radius-Lw:
+plot([-Lw.*cos(angle); -Lw ycos(anglejj [0.err; er “K, ‘LineWidih'2);
+holdCon'):.
+gridCon’);
+plot(-Lw.*cos(angle), err, ‘ok', ‘LineWidih' 2),
+Xlim(j-150, 150])
+ylim([L-0.6.0.6J%
+styleCfontsize'"fontname’),
+% fastPiint( 图 片 /probl1. 检 验 .剖面 上 的 高 低 差 ( 径 向 高 度 vs 基准 球面 半径 )7;
+end
+Function plot3d(Lf, angle300) % 3d 高 低 差
+d= Datag'
+XYZ = dmain_node_coordinate;
+ABR = Polar. xyz2abr(XYZ);
+index = ABR(.2) > pi-angle300;
+X=XYZCA)Y = XYZ(.2)Z = XYZ(.3),
+err= -Polarpara(Lf, ABR(: 2)):
+erf-index) = NaN;
+trisurf(d.triangle,X. Y,Z,err+ Constant.sphere_radius, FaceColor’interp’);
+view(2);
+colorbar();
+axisCequal);
+styleCfontsize!, fontname’),
+colormap('gray’).
+34

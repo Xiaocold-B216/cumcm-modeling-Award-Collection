@@ -1,0 +1,72 @@
+流
+
+fout << 2002+z << "年标准学费:" << tutor_money << "
+";
+float max_money = country_money[z]*country_people[z]*(1-city_per[z]) +
+city_money[z]*city_people[z]*city_per[z];
+";
+cout << "上限学费:" << max_money << "
+";
+fout << "上限学费:" << max_money << "
+float min_money = (other_money[z]*dif[i][z] +
+shenghuofei[i][z])*(quanzhongrenjun/per_gdp[z])*special_age[j]-shenghuofei[i][z];
+cout << "下限学费:" << min_money << endl;
+fout << "下限学费:" << min_money << endl;
+}
+}
+cout << endl;
+}
+
+交
+
+return 0;
+
+研
+
+}
+
+（2）不考虑区域差异、专业类别求得标准学费，上限学费和下限学费的 VC++程序。
+#include <iostream>
+#include <fstream>
+
+：
+科
+
+数学中国
+www.madio.net
+
+using namespace std;
+
+信
+
+公
+
+众
+
+号
+
+int main()
+{
+ofstream fout("b.txt");
+// 中等偏下户城镇居民人均可支配收入
+double city_money[5] = {4931.96, 5377.25, 6024.1, 6710.58, 7554.16};
+// 农村居民人均纯收入
+double country_money[5] = {2476, 2622, 2936, 3255, 3587};
+// 城镇生比例
+double city_per[5] = {0.65, 0.65, 0.65, 0.65, 0.65};
+
+微
+
+// 人均国内生产总值
+double per_gdp[5] = {8184, 9101, 10561, 14040, 16084};
+// 成本系数
+double chengbenxishu = 1.1;
+// 学历系数
+double school_age = 1;
+// 专业系数
+double special_age = 1;
+// 生均生活、学习费
+
+21
+
+

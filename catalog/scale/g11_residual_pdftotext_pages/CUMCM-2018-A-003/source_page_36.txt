@@ -1,0 +1,64 @@
+}
+for(int i=1;i<9;i++)
+{
+for(int j=1;j<9;j++){
+max_P[i][j] = 0.8*P[i][j] + 0.5*max_P[i][j];
+}
+}
+}
+}
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+%Matlab 代码
+%蒙特卡洛学习经验矩阵分布热图
+clc;
+clear;
+data = [0,40,0,31,0,0,0,0;
+30,0,40,0,2,0,1,0;
+0,0,0,0,0,13,0,60;
+39,0,31,0,1,0,0,0;
+0,30,0,39,0,1,0,0;
+1,0,1,0,56,0,12,0;
+0,2,0,1,0,56,0,12;
+0,0,0,0,12,0,59,0];
+xvalues = {'CNC1','CNC2','CNC3','CNC4','CNC5','CNC6','CNC7','CNC8'};
+yvalues = {'CNC1','CNC2','CNC3','CNC4','CNC5','CNC6','CNC7','CNC8'};
+yvalues=yvalues'
+HeatMap(data,'Colormap',' redbluecmap','ColumnLabels',yvalues,'RowLabels',xvalues);
+colorbar
+
+微
+
+信
+
+%任务一的第一种情况和第二种情况调度轨迹图
+RGV=xlsread('data.xlsx');
+RGV1=xlsread('dataa.xlsx')
+%RGV=RGV';
+a=RGV(:,1)
+b=RGV(:,2);
+wei=floor((RGV1(:,1)+1)./2);
+t=RGV1(:,2);
+subplot(211)
+plot(b,a,'-^')
+axis([0 10000 0.5 4.5])
+xlabel('当前时间 t');
+ylabel('RGV 所在位置');
+title('case1 的 RGV 调度轨迹')
+36
+
+

@@ -1,0 +1,39 @@
+回 虽 时
+40 数学 的 实践 与 认识 0 fo
+并 不 明显
+3， 误 差分 析
+我 们 在 分 析 工 序 无 故障 的 工作 时 间 时 , 用 刀具 无 故障 工作 时 间 的 分 布 来 近似 , 但 实际 工
+序 无 故障 的 工作 时 间 是 未 知 的 着 用 正 态 分 布 来 描述 , 其 均值 八 均 方差 5 的 不 确定 性 , 对 结
+果 会 造成 误差 我 们 利用 模型 7 的 结果 来 进行 误差 分 析 , 得 下 表 :
+|
+a 185 86 195 64 185 86 185 86 185 86 |. 195 64
+C 4 75 49 4 63 4 51 Rs
+A 0 3 29%0 2 390 5% 7 4% 司 2%
+7 \N
+=
+、 训 C- Co 二 】
+A 代表 相对 误差 , 用 Co X100% (Co 取 4.75) 表 示
+， ， Sa 人 二: ，
+由 表 可 见 均值 心 均 方差 [的 较 小 变化 对 结果 的 影响 磁 em 人保 用 文中 有 所 给 方法
+近似 工序 无 故障 工作 时 间 的 分 布 是 合理 的 |
+了“
+7 模型 的 评价 及 改进
+1 ， 本 模型 通过 对 检查 间隔 和 换 刀 间隔 进行 过 历 搜索 , 得 到 了 固定 检查 间隔 下 的 最 优
+解
+2 进行 蒙特 卡 洛 方法 模拟 的 次 数 有 限 : 乱 得 模拟 结果 精度 有 限 ， 误差 较 大
+3 对 问题 三 , 只 提供 了 一 种 得 做 罗 方 案 , 而 没 能 给 出 最 优 解 我 们 建议 提出 一 种 简单 易
+行 的 方案 , 便于 工作 人 员 在 实际 操作 中 搓 六 案 进行 检查
+参考 文献: 放
+[1] 曹 晋 华 等 . oo Yohioo
+[2] 蔡 常 丰 . 数学 模型 建 模 秒 入 .科学 出 版 社 , 北京
+[3] 徐 士 恨 .C 六 清华 大 学 出 版 社 , 北京
+2
+7,
+X N%. M anagement of An Automatic Lathe
+TSR SHIM ing，L N Chao-you, FANGBin
+(TheNavalU niversity of Engineering，W uhan 430033)
+Abstract Themanagementof an automatic lathe is discussed The detem ination of exam in-
+ing interval and change tactics of cutting-tool leads to the analysis of an op tm ization problem of
+expectatbn loss of a single part An effective computation is given Three examples' results
+have been obtained
+4 @ 1994-2008 Ch c Journal Electronic Publ e. Allrights rese p//www.cnki

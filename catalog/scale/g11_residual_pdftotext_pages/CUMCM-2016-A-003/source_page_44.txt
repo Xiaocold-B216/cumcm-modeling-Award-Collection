@@ -1,0 +1,41 @@
+Vm=mm/roum;%ÃªÁ´Ìå»ý
+Fmfu=rou*g*Vm;%ÃªÁ´¸¡Á¦
+Gm=mm*g;%ÃªÁ´ÖØÁ¦
+Fshui4=zeros(1,n);
+
+%È±ÉÙË®Á¦µÄ»úÖÆ
+
+for i=1:n
+Fshui4(i)=0;
+
+%È±ÉÙË®Á¦µÄ»úÖÆ
+
+gama4(i)=atan(Ft2y(i)/(Fshui4(i)/2+Ft2x(i)));
+Ftp=Ft2x(i)*cos(gama4(i))+Ft2y(i)*sin(gama4(i));
+thita2(i)=atan((Ftp+Fshui4(i)*cos(gama4(i))/2)/((Fmfu-Gm)/2+Ft2z(i)));
+if thita2(i)<0
+thita2(i)=thita2(i)+pi;
+end
+Ft2x(i+1)=Fshui4(i)+Ft2x(i);
+Ft2y(i+1)=Ft2y(i);
+Ft2z(i+1)=Fmfu-Gm+Ft2z(i);
+end
+
+H=h+sum(cos(thita1))+cos(beta)+Lm*sum(cos(thita2));%¸ß¶ÈµÄ½áËã
+if abs(H-gdH)<min
+minh=h;
+min=abs(H-gdH);
+minH=H;
+minthita1=thita1;
+minthita2=thita2;
+minbeta=beta;
+minFt2=Ft2;
+end
+end
+minbeta*180/pi
+minh
+r=Lm*sum(sin(minthita2))+sin(minbeta)+sum(sin(minthita1))
+
+44
+
+

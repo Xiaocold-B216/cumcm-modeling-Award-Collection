@@ -1,0 +1,69 @@
+public void total(){
+int index = 0;
+
+//总目标函数
+
+double mubiao1 = 0.0;
+double mubiao2 = 0.0;
+double mubiao3 = 0.0;
+double mubiao4 = 0.0;
+double mubiao5 = 0.0;
+double temp = 0.0;
+double tt = 0.0;
+
+研
+
+mubiao2 = xueduan(xuefei[index]);
+mubiao2 = mubiao2*dongtai(mubiao2);
+
+交
+
+mubiao1 = studuan(xuefei[index],shouru[index]);
+mubiao1 = mubiao1*dongtai(mubiao1);
+
+流
+
+for(index = 0;index<size;index++){
+
+：
+科
+
+数学中国
+www.madio.net
+temp = renshu[index]*bokuan[index];
+mubiao3 = zhengduan(feiyong[index],temp);
+mubiao3 = mubiao3*dongtai(mubiao3);
+
+众
+
+号
+
+mubiao4 = shechang(xuefei[index]);
+mubiao5 = peoplechang(xuefei[index]);
+
+tt = 0.5*(mubiao1+mubiao2+mubiao3)+0.5*(mubiao4+mubiao5);
+
+}
+
+微
+
+信
+
+}
+
+}
+
+公
+
+System.out.println("第"+(index+1)+"评价结果为: "+tt);
+
+3．实现学费寻优模型的 java 程序：
+import java.util.*;
+public class moni {
+private static final double max = 10000.0;
+private static final double min = 4000.0;
+private static final double F = 143001384.57;
+private static final double N = 9313.57;
+35
+
+

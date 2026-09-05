@@ -1,0 +1,73 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-1998-A-006",
+  "source_path": "1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：投资组合模型.pdf",
+  "source_sha256": "4E6C60C02F9AC753A0E7E976C414065D9FFBE2CE250B99E83E925BA3FDC9577D",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 4,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 4,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "有 号 EEE 第 罗 卷 第 1 期 数学 的 实践 与 认识 Vol 29 No. 1 190 年 1 月 MATHEMATICS IN PRACTICE AND THEORY Jan., 1999 投资 组 合 模型 伍 仕 刚 。 孟 宪 丽 胡子 虽 指导 教师 数学 建 模 教 练 组 ( 杭州 电子 工业 学 院 ， 杭 州 3,0027， <=A_ /as 编者 按 ”该 文 正确 建立 了 数 池 模型。 多 日 标 鼎 策 楼 型 ， 几 以 解决 A 是 的 投资 组 台 问 是 E 全 g RS 数 扣 本 特 多 目 交流 居 化 为 间 朋 款 奖 策 模 型 非 线性 规划 ， 并 简化 为 线性 规划 本 数 规 划 技术 余下 了 1 一 4 的 详细 结果 ， 水文 的 特点 在 于 考 率 了 一 个 问题 : 到 底 性 规 划 与 其 简化 形式 有 相同 解 ? 这 文中 定理 上 给 出 一 个 充分 条 传 , 可 以 对 于 具 | 问题 在 出 是， 所 得 简化 的 线性 规划 问题 的 最 优 解 也 是 原来 非 线性 规划 问题 的 最 优 解 AS 摘 要 本文 建 立 了 考 由 交易 费用 情况 下 的 市 场 资产 纽 台 投资 模型 ， 并 s 全 HFRY HIACHERS BER ) WUCEASRBRETIT(T, 6LEETR RER R BTRMIRLR RR, 然后 术 甬 讨论 了 一 般 情况 下 的 最 优 投 资 求解 方法 ， 给 出 定理 ， 在 总 金 宅 大 于 某 一 基 值 时 ， 可 化 5 本 求解 A 一 、 问题 提出 ) 和 和 7 基本 恨 设 08) AR )) < 一 由 Te 1 投资 者 拥有 的 总 投资 额 ， .投资 寺 银 行 的 存 吉 铀 二 | 对 第 ;07 = 1 六， 种 资产 所 的 实际 投资 产 ; di 对 第 isS2 ) 种 资产 的 投资 比 苹 ， 。 必 投 资 者 最 终 所 获得 的 净 收 益 . (: nn 5 资产 Ni 在 该 妖 时 期 内 的 预期 收益 率 ; o 而 小 从 所 时 所 需 付 的 交易 哄 率 . 证 四 、 问 题 分 析 由 于 资产 预期 收益 的 不 确定 性 ， 导 臻 它 的 风险 特性 ， 资 产 的 风险 用 预期 收益 率 的 方差 来 表示 ， 在 这 里 ， 投 资 N 的 平均 收益 为 wii 风险 损失 为 要 使 投资 者 的 净 收 益 尽 可 能 大 ， 而 风险 损失 尽 可 能 小 ， 一 个 解决 办 法 就 是 进行 组 全 投资， 分 散 风 险 ， 以 期 获得 较 高 的 收益 ， 模 型 的 日 的 就 在 十 求解 最 优 投资 组 全 当然 最 优 投资 还 决定 十 人 的 因 索 , 即 投资 者 对 风险 收益 的 偏好 程度 ， 怎 样 解决 二 者 的 相互 关系 也 是 模型 要 解决 的 一 个 重要 问题 3 oootab0g China Academic Journal Electronic Publishing House, All vights reserved. ran 加 8 版 和 总 16 数学 的 实践 与 认 识 20 % 五 、 模 型 建立 及 求解 投资 者 的 净 收益 为 购买 各 种 资产 及 银行 的 总 期 望 收 益 除去 在 此 过 程 中 的 交易 费用 . 在 对 资产 Ai 进行 投资 时 ， 对 于 投资 金额 <; 的 不 同 ， 所 付 的 交易 费用 也 有 所 不 同 ， 不 投资 时 不 付费 ， 投 资 额 大 于 «; 时 交易 费 为 ciPi， EUZHHRK wipi. 记 0， Hue=0 唐人 从 (1) 可 -/ 讼 > -CN 则 购买 资产 %; 所 付 的 交易 旨 为 六 Fi， 由 于 投资 银行 时 勿 需 交 易 费 ， 所 以 总 下 用 Mi 投 固 资 者 的 净 收 益 R=rgr+ Y we- A (2) = ) 全 在 对 单个 资产 进行 投资 时 ， 风 险 损失 金额 为 风险 损失 素 沫 t 资 数额 的 乘积 组合 投资 时 ， 投 资 者 所 要 承担 的 风险 采用 所 投资 产 中 风险 损失 金额 的 最 大 值 来 度 直 ， 苑 ” 全 % 全 rigi} (3) 。 多 目标 投资 决策 模 问题 的 目标 在 于 使 净 收 i 大 8 总 体 风险 尽 可 能 小 ， 根 据 上 面 的 讨论 ， 可 建立 存在 无 风险 投 资 ( 即 存 银行 生息 ) 时 ， 资 产 组 合 投 资 决 策 的 多 目标 数学 模型 , — 2bg ] wax = vote HA = = 下 4 win Q = OO[E) 下 st w+ ri 由， 四 堆 - fok 0. (e=0), 六 天 (0< < Liy [€ > u) 0 0 = 为 便士 以 后 的 求解 和 论证 ， 将 日 标 函数 muiin (变换 成 等 价 形式 ， min Q = Q 并 且 附 加 约束 条 件 3 © 1994-2008 China Academic Journal Electronic Publishing House. All rights reservec http://www.cnki.ne 加 8 号 总 1 期 伍 仕 刚 等 : 投资 组 合 模型 17 0 < QU 三 工业 工 述 模 型 可 化 为 等 价 的 多 目标 规划 模型 : max 有 = wm mnEG- Pi i= = min Q =Q, ’ St+ iT Pi (5) | 0 oo， 多 | 他 <) 二 S2 > = 六 0 站 7 o 偏好 系数 加 权 法 公司 在 实际 投资 中 ， 投 资 者 总 是 权衡 资产 风险 和 预期 收益 址 企 方面 选择 一 个 令 自己 满意 的 资产 组 合 进行 投资 ， 这 种 满意 的 资产 组 合 称 为 有 效 资 产 组 合 ， 因 此 分 别 内 目标 函数 扩 和 Q 赋 子 权重 | ~- 和 和 AU< ASE TD 将 (5) 式 化 为 单 日 标 规划 模型 ， 0. n min Wo=A-Q = (1= Xuire + 32 ri — =t (0<A<), 人 sa 二 > 十 = 前、 (6) = = 0 下 三 “sn 2 2 本 Q 2 2 \\ AN W [at 系数 和 ARERERAL (tk FEERRNEREE, FRHE, 和 的 值 由 投资 ss (6) 式 是 一 个 带 约束 条 件 的 非 线性 规划 问题 ， 一 般 可 用 罚 函 数 法 化 为 无 约束 非 线性 规划 ， 再 利用 多 维 空间 的 单纯 形 法 ， 通 过 计算 机 编程 进行 求解 ， 不 过 这 种 方法 过 于 复杂 日 缺乏 一 定 的 稳定 性 ， 央 此 有 必要 寻求 一 种 较为 简单 的 方法 . 由 于 交易 费用 的 分 段 性 , 造成 日 标 规划 (0) 的 非 线性 ,如 果 考 虑 所 投 总 资产 数量 相当 大 的 情况 ， 认为 对 某 种 资产 %， 只 存在 不 投资 和 投资 额 大 于 ui 两 种 情况 ， 即 不 考虑 o 对 交易 费用 的 影响 ， 而 且 后 面 有 定理 可 以 证 明 ， 当 1 大 寺 某 一 值 时 ， 投 资 额 的 确 只 有 以 上 两 种 情况 ， 如 以 投资 权重 ww 为 3 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http:/fwww.cnki.ne EiiEaE ME 滞 本 ti) m 外 13 数学 的 实践 与 认 识 29 % 变量 ， 这 时 (6) 式 可 化 如 下 的 为 线性 规划 模型 ， min2Z=AQ-(U-A) | + mw 一 呈 | (0<A<D， = = st ao 二 w+》 Pei M, (7) = i= wigi <Q. WO 20, = 全 对 此 线性 规划 模型 进行 求解 给 定投 资 偏好 秆 %, 利 电 数学 软件 Maple V4 name 码 如 asSsS 下 (以 问题 1 的 数据 其 疯 及 取 二 避 人 ): \\ 74 with(simplex); 由 cnsts := {wl+ w2 + w3 4+ wd + w0 + 0.017w] +0.027w2 +0 34+ 0.065 wd = 1}; obj := —0.37 (wl\"0.28 + w2\"0.21 + w3 0.23 + «d\"0.25 + \"人 —0.017w] = 0.027w2 — 0.045 w3 — 0.065\" wd)s 0:77Q: 4 『 “= winimize(obj, eusts_ union {wl >= 0,w2 >= 0, wd F¥=0, id >=0,00 >=0. Q >=0,wl +0.025 — Q <= 0,w2\"0.015 — Q <=0, w3\"0.035 —Q<=0,0d70.026 - Q <=0}): o) 输出 结果 为 {ful = 0.99009, w0 = 0, % =00wd =0,Q = 0.024753). 六 、 扩展 ( 略 ) N 参考 文献 — Dj 文 显 武 ， 国 际 投资 # 学 出 版 社 ， 武 汉 ， 1998. [2] [其 ] 4 仇 插 尼 齐 著 ， 毕 娄 华 译 ， 单 月 标 和 多 目标 系统 线性 规范 ， 同 济 大 学 出 版 社 ， 上 海 ， 198G 中 管 梅 全,/ 线 侍 规 划 ， 山 东 科学 技术 出 版 社 ， 济 南 ， 9S3. \\ A, “&, 他 NS 附 录 ( 略 ) 认 3",
+  "normalized_text_chars": 4284,
+  "normalized_text_sha256": "375AE896C1A6ACE27CAFAB07949E79A2F62030CD007C8B91A283B8A3FFB56890",
+  "page_provenance_summary": {
+    "OCR": 4
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "B426F785AF08879517F9A3338862B14BA2C90861DD3095256D38C006877F30F5",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "F3A93E0006404F7164CBAD0438C8ED6AF1A87F2548560E5166BDDA913FF109ED"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "0311A119AF865F3E4C9D84E3E92CC59DD85C205A3A97749FC1445025345A46D5",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "FAF83963981445AB9F7758A50DD83A3F34418074D5C8C45938B0E6D77072618D"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "31F78B8C18A597AAE22F62261C405425379453ADE86EEBFFA939C5F1A74A73C4",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "45F2170BFB302B6462233F32C821D5BDE95D058F760784BE21C1586515BF3C29"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "60BD5A92ABDD24AD00867F6D33F383F6FEAB96E3D3A081E9AB9743DF223829D5",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "09A1105DF89F5639F39412069F0C982A298440D25C620985EFC7B91F7B067E4A"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

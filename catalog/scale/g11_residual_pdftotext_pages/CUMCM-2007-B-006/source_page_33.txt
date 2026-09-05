@@ -1,0 +1,113 @@
+研
+
+end
+
+end
+
+end
+
+end
+end
+
+1.4 邻接搜索程序段问题二求解
+Search2.m
+
+：
+科
+
+end
+
+end
+
+流
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+ww
+
+temp=0;
+for kk=1:1040
+if str2double(L{kk,1}(2:end))==U2(x,6)
+if L2{kk,1}(1,1)==t(i)
+temp=1;
+break
+end
+end
+end
+U2(x,7)=t3(k3,1);%车辆3
+%始发站数
+for kk=1:1040
+if str2double(L{kk,1}(2:end))==U2(x,7)
+if L2{kk,1}(1,1)==t(j)
+temp=temp+1;
+break
+end
+end
+end
+U2(x,8)=temp;
+%人流量
+U2(x,9)=sum(Time(t(j),:))-...
+sum(Time(:,t(j)))-...
+sum(Time(:,t(i)))+...
+sum(Time(t(i),:));
+%费用
+U2(x,10)=t1(k1,2)+t2(k2,2)+t3(k3,2);
+x=x+1;
+
+微
+
+信
+
+公
+
+众
+
+号
+
+N='S0087';
+M='S3676';
+% 映射
+if strcmp(N(1),'S')
+for i=1:41
+t=findstr(D{i,1},N);
+if ~isempty(t)
+N=tx(i);
+break
+end
+end
+if ischar(N)
+N=str2double(N(2:end));
+end
+end
+if strcmp(M(1),'S')
+for i=1:41
+t=findstr(D{i,1},M);
+if ~isempty(t)
+M=tx(i);
+break
+end
+end
+if ischar(M)
+M=str2double(M(2:end));
+end
+end
+% 直达
+if Time(N,M)~=0
+temp=S{N,M};
+for i=1:size(temp,1)
+if temp(i,1)>1040
+disp(strcat('直达地铁为:',Lt1{temp(i,1),1}))
+else
+disp(strcat('直达汽车为:',Lt1{temp(i,1),1}))
+end
+end
+
+31
+
+

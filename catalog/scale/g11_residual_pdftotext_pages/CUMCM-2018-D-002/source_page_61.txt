@@ -1,0 +1,56 @@
+}
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+}
+for(;bw!=0;i++,bw--)
+{
+if(z[i]==5)
+{
+if(a2.ys[7]!=0)
+z[i]=7,a2.ys[7]--;
+else if(a2.ys[8]!=0)
+z[i]=8,a2.ys[8]--;
+}
+if(z[i]==6)
+{
+if(a2.ys[9]!=0)
+z[i]=9,a2.ys[9]--;
+else if(a2.ys[10]!=0)
+z[i]=10,a2.ys[10]--;
+}
+}
+fprintf(fp, "分析的第%d 日的装配顺序表\n",q);//给每天的数据命名
+fprintf(fp, "品牌\t 配置\t 动力\t 驱动\t 颜色\t 喷涂线\n");
+for(int i=0;i<zl;i++)
+{
+fprintf(fp,
+"%s\t%s\t%s\t%s\t%s\tC%d\n",pp[v[i]],pz[w[i]],dl[x[i]],qd[y[i]],ys[z[i]],i
+%2+1);
+//cout<<<<","<<<<","<<<<","<<<<","<<<<endl;
+}
+}
+fclose(fp);
+return 0;
+}
+
+61
+
+

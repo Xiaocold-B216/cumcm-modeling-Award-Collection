@@ -1,0 +1,39 @@
+ElRAE
+mEEHE
+double shenghuofei[5] = {4106, 4411, 4925, 5463, 6114};
+/ 标准 生 均 成 本
+double biaozhun[5] = {15119.56, 14962.77, 14928.92, 15025.47, 15332.8};
+/ 利率
+double interest_rate[5] = {0.0504, 0.0573, 0.0522, 0.057, 0.054};
+/地 区 差别
+double dif[5]={1, 1 1 1 1};
+/ 平均 每 户 家 庭 人 口
+double country_people[5] = {4.4, 4.1, 4.08, 4.08, 4.05};
+double city people[5]= {3.2, 3.13, 3.1, 3.1, 3.09}; A7
+二
+<- w
+/ 生 均 事业 性 经 费 支 出 气
+double other _ money[S] = {12394.32, 12147.76, 12122.22, 125 aq
+cout << “全 国 : ”<< endl; As
+for (intz=0; z <5; ++z) 和
+{ # 一
+float quanzhongrenjun = city money[z}*ci 民 er{z]
+country money[z]*(1-city per[z]);
+float tutor_money = @
+(quanzhongrenjun/per_gdp(z])*(biaozhun[z]*diffz]*chengbenxishu+shenghuofei[z])*school _
+age*special .age*(l.0+interest_rate “shenghuofei[z];
+cout|/ <<2002+z << "年 标准 党 #: !! << tutor_money <<" "
+fout <<2002+z< 3 从 标准 学费 << tutor_money <<" "
+float max_money = PR y_money[z]*country _people[z]*(1-city_per[z]) 十
+city_money[z]*city_people[z]*¢ity_per[z];
+cout << "上 限 党 费 :" << max_money <<"
+fout << " [ F4%:" << max money <<" "
+flo; oney = (other_money[z]*dif[z] +
+Seoshaotei Gaonenninwpor p—
+9 oL t <<" Ffi2#3%:" << min_money << endl;
+] Jfout<< 下限 学 费 :" << min_money << endl;
+INY
+cout << endl;
+return 0;
+}
+22

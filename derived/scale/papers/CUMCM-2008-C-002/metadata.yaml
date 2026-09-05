@@ -1,0 +1,44 @@
+paper_id: CUMCM-2008-C-002
+year: 2008
+problem: C
+subject_type: PAPER
+artifact_eligible: true
+quality: Q2
+authority_sources:
+- path: 2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008C：《地面搜索最短耗时的计算》.pdf
+  sha256: A278B28A8734A15F99B0FCE66D63B6AF432B6716A58F6F0D3067D066ABA7375B
+authority_sha256: A278B28A8734A15F99B0FCE66D63B6AF432B6716A58F6F0D3067D066ABA7375B
+paper_file_memberships:
+- path: 2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008C：《地面搜索最短耗时的计算》.pdf
+  role: primary
+  canonical: true
+primary_file: 2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008C：《地面搜索最短耗时的计算》.pdf
+extraction_inputs:
+- path: derived/scale/pdf_ocr/CUMCM-2008-C-002.readable.pdf
+  sha256: 0822484D8863D4B1D0EF78C8FDD3DE87E9AAF3F517862DC590CA16CA9998B115
+  kind: g8_q2_ocr_derivative
+extraction_input_sha256: 0822484D8863D4B1D0EF78C8FDD3DE87E9AAF3F517862DC590CA16CA9998B115
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: poppler-pdftotext
+page_count: 8
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+repair_provenance:
+  stage: G8-Q2-R
+  paper_id: CUMCM-2008-C-002
+  source_file_path: 2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008C：《地面搜索最短耗时的计算》.pdf
+  source_sha256: A278B28A8734A15F99B0FCE66D63B6AF432B6716A58F6F0D3067D066ABA7375B
+  derived_file_path: derived/scale/pdf_ocr/CUMCM-2008-C-002.readable.pdf
+  derived_sha256: 0822484D8863D4B1D0EF78C8FDD3DE87E9AAF3F517862DC590CA16CA9998B115
+  page_count: 8
+  ocr_engine: tesseract.js
+  ocr_engine_version: 7.0.0
+  ocr_languages: chi_sim+eng
+  page_audit_rows: 8
+  unexplained_pages: 0
+  status: PASS

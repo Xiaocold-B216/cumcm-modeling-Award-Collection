@@ -1,0 +1,47 @@
+人
+加 只 RN
+Situation(Error(j2))=0;% 修 复 完 成 后 取 走 故障 工件
+end
+end
+fori=1:8% 计 算 预 计时 间
+Expect(1,i)=Move(1+abs(Position-ceil(i/2)));
+Expect(2,i)=Left(i);
+Expect(3,i)=Switch(i);
+Expect(4,i)=sum(Expect(1:3,i));
+end
+[MinNumberj=min(Expect(4,:));% 找 出 下 一 个 目标
+Time=Time+Expect(1,MinNumber);%RGV 移动 至 下 一 个 目标 位 置
+flag=0; A7
+fori=1:size(Erron1)% 运 动 后 再 次 检查 错误 信息 一 SS
+if Time>=Error(i,3) && Time<=Error(i,4) && Error(i,5)==0 && Mi mbers=Error(i,2)%
+运动 中 原 目标 发 生 了 故障 2
+Errorlj5)=1;% 标 记 为 已 处 理 ood
+Situation(Errorli2))=0;% 修 复 完成 后 取 走 故障 工作 人
+forj=1:8%CNC 的 时 间 推 进 US \
+if Left(j)-Expect(1,MinNumber)<0 ”全
+Left(j)=0; X
+else
+Left(j)=Left(j)-Expect(1,MinNumber);
+end @
+end V4 O 〇
+erotaraolqeeapamanapsoaraean
+时 间 人
+flag=1; 放
+end A nd
+oo 一
+ifflag% 由 于 原 旧 标 发 生 故 障 ， 重 启 循环
+ope | V*
+end //
+=X%
+IN E1:sizefError1)% 等 待 中 检查 错误 信息
+| /, 下 ime<=Error(i,3) && Time+Expect(2,MinNumber)>=Error(i,3) && Error(i,5)==0 &&
+VAN erErol 2% 1  ERIE T H
+Error(j5)=1;% 标 记 为 已 处 理
+Situation(Error(j2))=0;% 修 复 完 成 后 取 走 故障 工件
+for j=1:8%CNC 的 时 间 推 进
+if Left(j)-(Error(i,3)-Time)<0
+Left(j)=0;
+else
+Left(j)=Left(j)-(Error(i,3)-Time);
+end
+45

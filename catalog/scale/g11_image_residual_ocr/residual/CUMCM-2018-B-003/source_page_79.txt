@@ -1,0 +1,46 @@
+Eliid
+5 u 出
+ER
+newstart(i,4)=2*(newstart(i,1)-1)+1;
+end
+end
+N=4;i=6;
+aa=newstart(4*i-3:4*i,:);
+t0=aa(4,2)+T(6);
+aa=[aa;aal;
+QQ=perms([1,2,3,4]);
+for i=1:24
+d=dT(abs(aa(4,1)-QQ(,1))+1); 次
+tQ(i)=t0+d; ° NY
+for j=1:4 “由
+if QQ(i, 1)==aa(j,1) 2XG
+if tQ(i)<aa(j,3)
+tQ(i)=aa(j,3)+ T(6)+T(7);
+else As
+tQM)=tQ)+T(6)+T(7); 人
+end 全
+end
+end
+d=dT(abs(QQ(1,2)-QQ(1,1))+1); o
+tQO=tQGO)+d; O
+for j=1:4 %%
+if QQ(i,2)==aa(j,1)
+ireQas =L
+1Q(0)=aa(ii3)+T(6)T(7):
+else _—~ ¥
+ororn
+%,
+end
+end
+d=dT(abs(QQ(1.2)-QQ(1,3))+1);
+| GOasier )+d，
+fonj=1:4
+if QQ(i,3)==aa(j,1)
+if tQ(i)<aa(j,3)
+tQ(i)=aa(j,3)+ T(6)+T(7);
+else
+tQM)=tQ)+T(6)+T(7);
+end
+end
+end
+79

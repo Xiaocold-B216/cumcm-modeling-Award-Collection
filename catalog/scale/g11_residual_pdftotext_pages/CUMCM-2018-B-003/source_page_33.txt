@@ -1,0 +1,64 @@
+b=zeros(1,8);
+%CNC 预计加工完成时间
+c=zeros(1,8);
+%初始路径选择
+start=[ones(6,1),perms([2,3,4])];
+
+流
+
+for i=1:6
+lj=start(i,:);
+[Mn(i),Ma(i)] = xunhuan( a,T,lj,t0,b,c );
+clear lj
+end
+
+交
+
+%初始路径选择
+start=perms([1,2,3,4]);
+
+：
+科
+
+号
+
+信
+
+公
+
+众
+
+i=6;clear M
+lj=start(i,:);
+%初始路径移动
+N=8;
+for i=1:4
+%RGV 每一步移动
+dT=[0,T(1:3)];
+d=dT(abs(a-lj(i))+1);
+a=lj(i);
+t0=t0+d;
+
+研
+
+for i=1:24
+lj=start(i,:);
+[Mn(i),Ma(i)] = xunhuan( a,T,lj,t0,b,c );
+clear lj
+end
+
+微
+
+%RGV 为单个奇数 CNC 上料
+M(2*(i-1)+1,1)=t0;
+t0=t0+T(5);
+b(2*(lj(i)-1)+1)=1;
+c(2*(lj(i)-1)+1)=t0+T(4);
+M(2*(i-1)+1,2)=2*(lj(i)-1)+1;
+%RGV 为单个偶数 CNC 上料
+M(2*(i-1)+2,1)=t0;
+t0=t0+T(6);
+b(2*(lj(i)-1)+2)=1;
+33
+
+

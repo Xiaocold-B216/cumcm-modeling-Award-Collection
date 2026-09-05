@@ -1,0 +1,50 @@
+3
+加 只 RN
+end
+break;
+end
+end
+
+end
+end
+BestPlan(1)=[];
+REC=BestPlan{lend};% 挑 选 一 个 最 佳 方案
+while ~(REC(end,6)+Expect(3,MinNumber)+Wash<=28800)
+
+REC(end,:)=[];
+end
+%% 计算 y
+SUM=size(REC,1);% 成 料 数 二 从 >
+WAIT=(REC(end,6)*8-size(REC,1)*sum(Work))/8;%CNC 平均 非 有 效 工作 时 长 \)
+Cclons beeaNomWahAREARBAT ) 2
+%% 计时 ood
+toc p SS
+clear CompleteTime Expect flag jj k Left MaxProduct MinNumb et Move N XT Now Order Position
+Situation Switch TempRec Time Tool Type Wash Work; ”全
+memory AR
+用 于 单 工序 情况 三 方法 一 第 一 组 的 代码
+Situation3_1Team1.m @
+% 情 况 3〈 基 于 情况 1) 下 的 代码 4 O
+clear;clc; YA
+%% 计时
+tic 放
+%% 输入 不 同 组 别 参数
+woue<o205346]& 息 和 1 第 二 组 [0,23,41,59] 第 三 组 [0,18,32,46]
+Work=560;%3 —4 #—4H 580 第 三 组 545
+Switch=repma b o 第 二 组 [30,35] 第 三 组 [27,32]
+Wash=2 > 第 二 组 30 第 三 组 25
+人
+Pasitio AEL%iSk RGY 的 位 置 ， 取 值 为 1r4
+RegFamis s & onc 当前 工作 剩余 完成 时 间 ， 等 待 时 为 0
+Sitbatiof-zeros(1.8);% 记 录 8 台 CNC 当前 是 否 拥有 工件，0 为 无 ，1 为 有
+Time=0;% 系 统 已 运行 时 间
+Expect=ones(4,8);% 预 计时 间 ， 第 一 行为 预计 运动 时 间 ， 第 二 行为 预计 等 待 时 间 ， 第 三 行为 预
+计 上 下 料 时 间 ， 第 四 行为 前 三 项 之 和
+Rec=[];% 记 录 每 个 工件 的 上 下 料 信 息
+Error=[];% 记 录 故 障 信息
+%% 系统 开始 运行
+while Time<=28800
+
+fori=1:size(Errop1)% 检 查 错误 信息
+
+31

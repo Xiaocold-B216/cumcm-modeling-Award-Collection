@@ -1,0 +1,40 @@
+回 成 革 动 国
+IE
+二
+BRiE]
+四
+/# ofstream fout( “各 公 汽 站 信息 . txt”);
+for (int i=0; i<AllBuses.size(); ++i)
+{
+fout << i+l < 7%
+for (int j=0; j<AllBuses[i].size(); ++j)
+{
+fout << AllBuses[i][j] <<”” ;
+]
+a
+fout << endl; \
+} Z 7
+of stream foutl(“ 各 公路 线路 重合 站 点 信息 . txt”); 任
+全
+for (int i=0; i<520; ++i) 人
+{
+for (int j=i; j<520; ++j)
+(ACT e
+for (int k=0; 0 nfol@] [j]. size(); ++k)
+{
+foutl << RoadCrossinfeli][j1[k] << ” 7;
+o
+foutlatC endl;
+}
+1 信
+W
+三 的 相关 程序
+10 文件 名 : CalculateStandars. h)
+#include <vector>
+#include <map>
+#include <fstream>
+#include “LoadMessage. h”
+#include <string>
+#include <iomanip>
+#include “CalulateWays.h”
+41

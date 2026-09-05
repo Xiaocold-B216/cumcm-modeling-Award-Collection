@@ -1,0 +1,183 @@
+{
+  "attempt_id": "20260902T162528503373_425d96bb",
+  "batch_attempt_id": "20260902T162528503373_425d96bb",
+  "paper_id": "CUMCM-2004-B-003",
+  "source_path": "2004年数学建模国赛真题+优秀论文/2004优秀论文/2004B：电力市场输电阻塞管理模型-武汉大学.pdf",
+  "source_sha256": "BECE9B82D971E3DA984BD797E837BDCEB3A4502673B2A5E53445D94602429C6E",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 14,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 14,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "EEE E: ag 省 全 光头 第 21 卷 第 7 期 工 程 数 学 学 报 Vol. 21 No. 7 2004 年 12 月 CHINESE JOURNAL OF ENGINEERING MATHEMATICS Dec. 2004 文章 编号 :1005-3085(2004)07-0079-14 ”电力 市 场 输电 阻塞 管理 模型 杨 双 红 ， 刘 W, % 琦 (武汉 大 学 ， 武 汉 430072) 编者 按 :， 该 文 叙述 清楚 ， 对 各 个 问题 的 考虑 及 处 理 非常 向 全 ， 特 别 在 安全 日 标 中 ， 让 风 地 采用 了 相对 芳 研 的 概 ， 即 使 用 裕 度 占 最 大 裕 度 的 百分比 并 秆 安全 与 经 济 双 中 宗 问 是 巧 ， 给 出 了 先 安全 后 经 济 的 两 步 优化 和 。 较 好 地 解决 了 “电力 市 场 的 输电 阻 宏 管 理 ” 问 题 ， FER IUTURLKARE KSmE UE 更 。 但 是 该 立 给 二 了 两 个 三 灾 栅 站 函数 ， 第 .二 个 费用 函数 重新 计算 了 清算 价 ， 和 -多 费 用 函 数 为 好 也 摘要 :， 本 文 对 公平 开 欣 市 场 条 件 下 ， 独 立 电网 的 输电 阻塞 管理 问题 做 了 模型 研究 ,首先 ， 下 同和 下 ， 利 用 多 元 线性 回归 求 取 线路 潮流 分 布 与 机 组 出 力 分 配 之 间 的 近似 公式 。 木 交 有 常数 项 和 没有 常数 项 的 两 种 线性 回归 模型 分 别 做 了 回归 分 析 和 细致 的 假设 检验 ， 并 由 电力 系统 分 析 的 知识， 阐明 了 电网 潮流 分 布 与 机 组 出 力 只 有 统计 规律 性 ， 带 有 常数 项 的 回归 模型 更 合理 。 根 据 阻塞 d = 生 的 影响 ， 本 文 设计 了 “ 技 损失 成 比例 补偿 ”和 “ 按 市 场 规则 确定 费用 ” 两 种 阻塞 费用 计算 规则 ， 并 做 了 详细 地 比较 讨论 。 根 据 电力 市 场 交 易 规 则 ， 兼 顾 计 算 的 时 间 效率 ， 本 文 利用 递归 策略 给 出 了 间 马 行 的 出 力 分 配 预案 计算 方法 及 其 流程 图 ， 在 机 组 数 不 多 时 简单 的 手工 计算 很 容易 求 得 分 配 预 案 。 对 阻 这 由 问 题记 本 文 按 电网 “安全 第 一 ， 兼 顾 经 济 ” 的 原则 ， 提 出 分 阶段 〈 共 分 四 个 阶段 ; 阻塞 检查 、 调 整 预案 ， 狠 度 输 电 、 拉 闸 限 电 ) 按 步骤 规划 的 计算 流 程 ， 并 对 各 个 规划 阶段 分 别 建立 了 数学 模型 ， 阻塞 检查 为 判断 一 组 不 等 式 ， 调 整 预 案 是 求解 以 阻 寨 费 用 最 小 为 目标 的 规划 问题 ， 裕 度 输电 规划 先 以 裕 度 占用 率 最 小 为 目标 ， 再 在 裕 度 占用 率 不 增 的 条 件 下 以 阻塞 费用 最 小 为 目标 做 规划 ， 拉 闸 限 电 规划 则 是 在 保证 电网 最 低 安 全 水 平 的 条 件 下 ， 以 总 出 力 最 大 为 目标 做 规划 。 化 简 后 ， 各 阶段 的 规划 模型 ， 除 调整 预案 模型 是 线性 约束 条 件 下 阶梯 函数 族 的 最 大 最 小 规划 外 ， 其 余 阶 段 规划 模 型 均 为 线性 规划 。 出 于 计算 效率 的 : 合 古 目 特点 ， 本 文 发 现 以 Hufftman 树 作为 决策 树 时 ， 阻 塞 管理 问 题 的 规划 流程 具有 最 高 计算 效率 ， 此 时 Bit 各 条 简单 的 规则 的 判定 即 可 确定 应 该 进行 哪 一 个 阶段 的 规划 , 从 而 不 必 -- 步 步 按部就班 地 进行 。 本 文 还 对 Hifgman 决 策 树 流程 的 一 些 技术 细节 及 改进 节点 定义 的 最 优 流程 做 了 讨论 。 另 外 ， 本 文 从 | 了 本 数 角度 对 阶梯 函数 的 数学 分 析 性 能 及 优化 解法 做 了 讨论 ， 并 给 出 了 求解 以 阶 樟 栈 为 目标 的 优化 问 是 的 于 角 及 两 种 简单 易 行 的 启发 式 算法 ， 并 在 附录 中 ， 给 出 了 一 些 典 型 算法 的 流 程 图 。 本 文 方法 简单 有 效 ， 思路 清晰 。 主 要 缺点 表现 在 : 因 专 业 知识 匮乏 ， 没 有 结合 现行 的 几 种 典型 的 电力 市 场 运营 模式 的 特点 给 出 更 合理 的 阻塞 管理 办 法 。 关键 词 : 输电 阻塞 答 理 ;多 元 o 回归 ， 分 阶段 规划 流程 ，Huftman 决 策 树 高 效 规划 流程 ， 启 发 式 算法 ， 分 类 号 : AMS(2000062005 | REHHS: 0212.1 文献 标识 码 : A q_UAG ， pe 所 .， 及 2 < 麻 件 候 刘 1 加 Ne 中 心 在 制定 当前 时 段 电网 运行 的 调度 计划 时 ， 不 考虑 该 时 段 内 电网 发 生 故障 的 可 能 ; 2， AGC 辅助 服务 需要 实时 调度 ， 在 制定 调度 计划 时 暂 不 考虑 AGC 调度 的 实施 ， 3， 认为 网 方 的 调度 命令 豚 时 完成 ， 不 考虑 调度 延 时 4.。 认为 给 定 电网 是 独立 电网 ， 因 而 与 其 他 电网 之 间 不 存在 功率 传输 ; 5 认为 一 个 时 段 内 负荷 、 机 组 出 力 以 及 潮流 分 布 都 不 会 有 突变 ; 6， 对 每 台 机 组 ， 只 有 前 面 的 段 容量 全 部 被 选择 时 ， 才 能 选择 后 面 的 段 容量 ; 7， 清算 价 理解 为 所 有 机 组 所 有 被 选用 段 对 应 段 价 的 最 大 值 ; gg : Eo 80 工 程 数 学 % # 第 21 卷 8， 不 考虑 电网 的 电能 损耗 。 3 ”符号 说 明 gs: 第 宇 台 发 电机 组 出 力 的 调度 值 ， 单 位 ，MW，i = 1 2 ,8 guo : 当前 段 开始 时 刻 第 ; 台 发 电机 组 的 实际 出 力 ， 单 位 ， MW; Le 第 了 条 线路 上 的 有 功 潮流 值 ， 单 位 ，MW，j = 1,2, ,6; om : 第 了 条 线路 上 有 功 潮流 关于 第 台 机 组 出 力 值 的 线性 系数 ; 太 :。 第 了 条 线路 有 功 潮流 关于 各 机 组 出 力 近似 公式 中 的 常 效 项 ， msj: 第 了 条 线路 上 有 功 潮流 值 的 安全 限 值 ， 单 位 ，MYWV; - rmi: 第 了 条 线路 上 有 功 潮流 的 相对 安全 浴 度 〈 百 分 数 ) ， -从 > 作 : 使 用 安全 容 度 给 电 中 ， 第 ;米线 路 相对 安全 格 度 的 利用 率 ; = 站 us: 自 : 台 发 志 宙 组 的 1 坡 速 率 ， 单 位 ， MW / 小 时 2 \\ gmi: 第 # 台 发 电机 组 可 发 出 力 的 上 限 ， 单 位 ，MW; Pi(gD):， 第 宇 洗 发 电机 组 出 力 为 % 时 ， 地 大 段 序 对 应 的 段 价 ， 单 位 : Ai px: 清算 价 ， 单 位 :元 /MWrh; PL. 。 某 一 时 段 的 负荷 预测 值 ， 单 位 ，MWV; As BE: 。 阻塞 费用 ， 单 位 ; 元 ; S At 每 一 时 段 的 时 间 间隔 《 题 中 取 1/4 小 时 ) ， 时 (2 四 时 ， “TS 4 ”问题 分 析 4.1 “问题 背景 的 理解 e 电能 传输 时 ， 由 于 输电 线路 传输 竹 拓 的 限制 朋 有 功 潮流 的 绝对 值 不 能 超过 其 安全 限 值 ， 否 则 ， 将 引起 输电 阻塞 ， 危 及 电网 安全 /此 时 必须 对 各 机 组 的 出 力 分 配方 案 做 调整 ， 以 消除 查 塞 。 这 样 就 会 使 一 些 序 内 容量 按 分 配 预 案 示 应 取得 发 电 权 的 发 电容 量 ) 不 能 出 力 ， 而 一 些 序 外 容量 《竞价 中 未 取得 发 电 积 的 发 电容 量 ) 被 迫 要 在 低 于 其 报价 的 消 算 价 上 出 力 。 为 了 解决 利 益 冲 突 ， 网 方 要 为 输电 四 而 格 执行 电网 规则 付出 代价 ， 对 发 电 商 灌 在 的 或 实际 的 利 益 损失 给 予 补偿 。 购 电 虱 用 之 外 的 这 一 部 分 阁 外 费用 即 为 阻塞 费 用 。 电力 市 场 以 安全 和 经 济 为 目标 ， 坚 持 “ 安 全 第 一 ， 兼 顾 经 济 \" 的 原则 ， 这 也 是 电力 市 场 规划 时 应 该 遵守 的 原 wl | 42 、 线 路 尖 流 与 机 组 出 力 的 关系 由 电 为 系统 和 新 目 的 知识 知 ， 输 电网 络 的 潮流 分 布 取决 于 网 络 拓扑 结构 、 各 发 电机 组 的 出 HURSERK. 因 电力 系统 的 负荷 需求 具有 随机 性 ， 因 此 即使 对 给 定 的 输电 网 络 ， 机 组 出 机 用 络 尖 分布 在 移 于 上 也 没有 确定 意义 的 孙 数 关系 ， 而 仅仅 呈现 统计 意义 上 的 规律 性 。 省 由 到 古 目 给 定 的 32 组 所 组 出力 数据 均 是 在 各 机 组 当前 册 力 值 内 近 的 实验 值 ， 假 设 一 个 时 自 (分钟 ) 内 潮流 分 布 不 会 发 生 突变 ， 我 们 在 局 部 线性 的 假设 下 ， 利 用 多 元 线性 回归 求 得 线路 潮流 与 机 组 出 力 的 近似 关系 ， 并 在 一 定 的 显著 性 水 绊 下 检验 回归 结果 。 4.3 ”用 塞 费 用 出 于 电网 安全 的 考虑 ， 阻 塞 出 现时 要 通过 调整 出 力 方案 ， 尽 量 避 免 阻 塞 。 但 调整 后 的 方案 将 有 迟 于 市 场 规则 ， 引 起 网 方 和 厂 方 的 利益 冲突 。 阻 塞 费用 作为 解决 或 缓解 这 种 利益 冲突 的 关 键 手段 ， 需 要 考虑 以 下 方面 ; 1. 阻塞 引起 两 方面 的 损失 ， 使 有 些 机 组 的 序 内 容量 不 能 出 力 或 少 出 力 ， 导 臻 这些 机 级 应 得 的 利益 受到 损失 ， 使 有 些 机 组 的 序 外 容量 被 迫 以 低 于 其 报价 的 清算 价格 出 力 ， 导 致 其 央 妇 二 人 首 二 全 第 7 期 电力 市 场 输电 阻 寨 管理 模型 81 所 得 利益 低 于 期 望 利益 而 造成 损失 。 阻 塞 费用 要 对 以 上 两 种 损失 给 予 适当 的 、 公 平 的 补 偿 。 2. 调整 阻塞 后 得 到 的 方案 与 市 场 规则 不 符 ， 电 网 公司 要 为 其 违背 规则 付出 代价 ， 一 种 可 行 的 办 法 是 部 分 的 或 完全 的 履行 市 场 规则 。 3. 为 了 做 到 非 歧视 的 对 待 所 有 市 场 交易 者 ， 保 证 市 场 的 公平 开放 ， 阻 塞 费 用 的 合理 定义 以 及 分 摊 多 其 重要 。 4.4 出力 分 配方 案 的 规划 流程 _/ 电力 市 场 以 安全 和 经 济 为 目标 ， 而 且 坚持 安全 第 一 的 友 则 ， 阻 塞 管理 时 ， s 则 ， 按 以 下 步骤 分 阶段 规划 让 力 方案 ; 二 \\) LOHEIE. RECRTRER. HBANF. 从 \\ , 出 力 分 本 预案 ， 著 不 存在 可 行 的 出 力 分 配 预案 ， 则 直接 转 入 “ 拉 羡 限 电 ?阶段 做 规划 (OL 拉 曾 限 电 ) ; 人 ) 2. 检查 阻塞 。 和信 只 是 否 发 生 阻 塞 。 若 不 发 生 阻 塞 ， 则 分 配 预案 就 是 最 优 出 力 分 配方 案 ， 而 侠 此 时 随 塞 费用 为 0， 否则， 进入 下 一 阶段 规划 。 Rv= 3. 调整 预案 。 若 出 力 分 配 预 案 引起 阻塞 ， 则 应 首 拓 求 藉 不 引起 阻塞 且 经 济 目标 最 优 〈 即 阻 塞 费用 最 小 ) 的 出 力 分 配方 案 ， 不 存在 这 样 的 方案 时 转 入 下 一 阶段 规划 。 4 容 度 输电 。 着 不 存在 无 阻塞 条 售 下 的 出 男 分 配方 案 ， 则 必须 降低 安全 目标 ， 利 用 安全 栓 度 输 电 。 PiArci f) anenren ( 裕 度 利用 最 小 ) 的 出 力 方案 ， 再 以 最 优 安全 日 标 为 约 ， 宵 取 安全 目标 林 低 于 该 最 优 值 的 条 件 下 ， 经 济 目标 最 优 的 出 力 方 案 。 不 在 安 目标 最 优 的 方案 时 ， 转 入 下 一 阶段 规划 。 5. 拉 亲 限 电 。 ae ljd 低 安全 要 求 〈 安 全 容 度 不 小 于 0) 的 出 力 方案 ， 此 时 如 果 按 负荷 全 额 供电 则 电网 安全 不 能 保证 ， 所 以 必须 拉 闹 眼 电 。 这 时 ， 应 以 停电 故障 造 戌 的 损失 最 小 为 目标 二 即 在 安全 裕 度 不 小 于 0 的 条 件 下 ， 求 可 以 保证 的 总 出 力 最 大 时 的 出 力 方案 。 = 4 chg of 201 人 Se 1。 人 sieRS RET 下 需求 约束 了 必须 采取 拉 闸 隐 电 措施 前 减负 荷 的 情形 外 ， 电 网 总 要 尽量 满足 符合 需求 ， 保 证 机 组 总 出 力 等 于 负荷 预报 值 ， 即 ，2 9 = PL 2. 机 组 疏 坡 速率 约束 考虑 到 机 组 疏 坡 速率 的 限制 ， 所 有 出 力 分 配方 案 ， 只 有 当 各 机 组 的 息 坡 值 均 不 超过 其 在 单位 时 段 内 疏 坡 值 的 上 限时 ， 才 是 可 行 的 ， 即 ; go 一 uiAt<9<go+uAt i=1,2,...,8 Bgan EE 82 工 程 数 学 学 报 第 21 卷 3. 机 组 可 用 容量 限制 每 个 机 组 可 用 容量 均 有 一 上 限 值 gt 〈 段 容量 的 总 和 ) ， 机 组 的 实际 出 力 不 应 超出 此 上 限 值 ， 即 9i < gmiy i=1,2,...,8: 4. 不 发 生 阻塞 的 条 件 不 发 生 阻塞 时 ， 各 线路 潮流 的 绝对 值 均 不 超过 其 潮流 限 值 ， 即 ; 所 [一 mi < 0 其 中 了 = 1 26 5. 电网 的 最 低 安全 保证 约束 < 电力 市 场 以 电网 安全 为 第 一 虽 标 ， 人 直人 这 是 电网 的 最 低 限 许 的 安全 保证 ， 即 ， 人) 全 1 (1+7)m; <0, j=1,2,...,6 2 5 ”模型 的 建立 5.1 潮流 分 布 公式 % 由 前 面 的 分 析 ， 我 们 以 愿 目 所 给 的 33 组 数据 为 样机 ，- 利 甩 多 元 线性 回归 求 取 潮 流 分 布 近似 公式 。 回 归 模型 有 式 (D 、 式 〈2) 两 种 ， 两 者 的 区 别 仅 在 寺 省 否 带 有 常数 项 。 我 们 对 两 种 模 型 的 回归 结果 在 一 定 置信 水 平 下 做 检验 ， 最 后 对 两 种 模型 的 合理 性 做 比较 讨论 。 5.1.1 ”回归 模型 8 = aygi+e; 1) 1 或 OALC ° 广元 po +bj+e; (2) i=1 其 中 gj ~ N(0,02) HIRET5E1,2,....,6. 用 最 小 二 乘法 估计 参数 中 Co~32) 用 上 标 表示 ， 则 : 对 模型 (0)， 记 ; —— gf (0) ..， 0 工 1 92 98 1i (人 2) , G= ee y/A 9 gf o gf Q G = (alja27 ,asj)7 ， E;= 人 ,后 ) 自 规 方 往 为 : jse * GTG4 = GT (9) 即 可 得 4 的 最 小 二 乘 估计 ， 容 易 证 明 它 也 是 4; 的 无 偏 估计 。 对 模型 (2), 用 增 广 矩 阵 巨 = [NiG] 代替 G，《〈 其 中 N = (2 .…,1D) 了 as 表示 企 为 1 的 列 向 量 ) ， 矶 = [by, Aj] 代替 全 ， 则 而 的 求法 与 模型 (1) 过 程 完全 相同 。 5.1.2 ”回归 结果 的 检验 为 了 确定 忆 与 992,…,9 之 间 是 否 存在 显著 的 线性 关系 ， 需 要 根据 样本 值 运用 假设 检验 来 判断 ， 以 确定 求 得 的 回归 方程 是 否 有 价值 。 假设 选 定 的 显著 性 水 平 为 ， 对 本 题 ， 我 们 要 对 每 个 ; (7 = 1, 2,.…,6) 做 以 下 检验 ， Ho :ay = agj = agj = a45 = as; = ag; = a7; = ag; =0 有 Bo Erea 第 7 期 电力 市 场 输 电阻 塞 管理 模型 83 Hy :对 ;i = 1 2,……8 至 少 存在 一 个 oj #0 可 以 用 常用 的 玉 检验 法 和 克 检 验 法 检验 加。 5.1.3 ”模型 求解 及 讨论 我 们 用 MATLAB 统 计 工具 箱 对 两 个 模型 分 别 做 了 回归 及 假设 检验 ， 其 中 显著 性 水 平 取 a5%。 回 归 和 检验 的 结果 见 实例 求解 部 分 表 1、 表 2。 显然 模型 (2) 的 回归 效果 远 比 模型 (]) 理 想 ， 然 而 若 以 模型 (2) 为 回归 模型 。 似 乎 速 背 了 我 们 的 假设 “认为 给 定 电网 是 独立 电网 ， 与 其 他 电网 之 间 不 存在 功率 传 町 \"， 函 为 对 狂 立 电网 ， 当 所 有 机 组 停机 时 ， 该 电网 成 为 一 无 源 网 络 ， 而 无 源 网 络 在 旋 态 时 其 中 功率 的 流动 应 该 为 零 ， 所 以 常数 项 应 该 为 0。 下面 我 们 试 网 对 这 一 现象 做 出 合理 解 笠 ， 说 明 模型 (2) 的 合理 性 S 包 消除 这 种 < 磊 讶 \" =\\VsS 这 种 \"顾虑 \"。 \\) yA LOASEEA. JVISTIRGRT SRERABLAAE, WISRAETAR 19. P 负荷 需求 是 时 变 的 随机 变量 《随机 过 程 ) ， 因 而 机 组 出 力 与 潮流 分 布 具 乔 在 统计 意义 上 的 规律 性 。 Q NS 2. 线性 回归 建立 在 局 部 线性 化 假设 基础 上 ， wa 力 以 及 负荷 需求 短期 内 只 在 一 个 小 区 域内 变化 。 线 性 回归 相当 于 在 该 小 区 域内 把 机 组 出 力 与 潮流 分 布 的 期 望 关系 曲线 用 其 切线 近似 。 该 期 望 曲线 本 身 可 能 种 遍 伟 兴 但 其 某 自 的 切线 则 不 一 定 过 原 点 ， 因 此 ， 回 归 模型 带 有 常数 项 更 合理 。 4)\\ 监 于 上 述 两 点 ， 以 下 计算 均 以 带 有 常数 项 的 回归 方程 模型 (2)) ， 作 为 有 功 潮流 值 与 各 机 组 出 力 的 近似 公式 。 0 ( 策 弄 (0) ) 下 ， 计 算 方法 完全 类 似 ， 本 文 不 再 玫 述 。 5.2” 阳 讲 费用 计算 规则 N 由 * 问 题 分 析 \" 部 分 对 阻塞 用 的 讨论 ， 我 们 设计 了 两 种 阻塞 费用 的 计算 规则 ， 考 虑 到 规则 的 灵活 性 ， 其 中 均 有 可 供 调整 的 筑 数 在 模型 的 讨论 部 分 ， 我 们 对 这 两 种 规划 的 性 能 及 其 它 夫 则 作 了 简单 的 探讨 。 让 5.2.1 ， 按 损失 成 比例 补偿 的 胃 塞 琢 用 计算 规则 此 规则 考虑 阻塞 调整 引起 的 损失 ， 并 以 一 定 的 比例 对 受 损 方 的 损失 进行 补偿 ， 补 偿 的 总 和 即 为 阻塞 费用 .7 | 和 分 别 表达 如 下 1 序 内 恩典 放 部 分 ， 设 按 出 力 分 配 预案 第 ; 台 机 组 的 第 上 段 出 力 分 配 值 为 g 吧 ， 段 从 3 和 ， 消 咎 从 为 pf < z 罗 )， 阻 守 调 整 后 ， 访 彼 分 配 出 力 为 90， 且 g > [pn 和 Eue=0 —6D(6% 5)At @ 2. 序 外 多 出 力 部 分 : 设 按 分 配 预案 第 ; 台 机 组 的 第 上 段 出 力 为 序 外 容量 (此 时 该 段 of) = 0. p) > pz 如》， 但 阻塞 调整 后 该 段 出 力 分 配 值 of) > 0。 风 阻塞 调整 引起 该 机 组 该 段 和 益 的 损失 值 为 及 = 0%) -pi)0 - oDAt = -可 )@ 风 -号 )At | 于 是 ， 前 损失 为 所 有 机 组 所 有 有 段 损失 值 的 益 和 ; 忌 = 忠 兄 碟 。 总 阻塞 费用 由 总 损失 乘 以 一 个 比例 系数 得 到 : 马 = 7 BY Bgan 四 84 工 程 数 学 学 报 第 21 卷 其 中 ，? 为 可 调 参数 ， 取 0 到 1 间 某 个 适当 的 值 ， 由 调度 部 门 酌情 选取 。 下 文 为 方便 求 解 ， 取 y = 1 ( 即 完全 补偿 损失 ) 进行 计算 。 显然 (4), (5) 两 式 有 完全 相同 的 表达 式 ， 且 因 阻 塞 调整 调整 前 后 出 力 没有 变化 的 段 这些 段 的 特点 是 段 序数 较 小 且 有 9gC = gf ) 其 损失 为 零 ， 因 而 E 既 可 以 只 对 出 力 分 配 值 在 阻塞 调 整 前 后 有 变化 的 段 计算 也 可 对 全 段 统一 计算 。 《对 全 段 统一 计算 时 阻塞 费用 表达 趟 更 简单 ， 有 利于 下 文 的 规划 ) 。 5.2.2 按 市 场 规则 确定 阳 塞 费 用 此 规则 对 阻塞 调整 捕 的 出 力 分 配方 案 ， 学 得 攻 市 场 认 区 应 从 的 清 笋 价 ， 取 该 党 价 与 分 配 预案 确定 的 清算 价 的 折 中 值 作为 基 终 青 算 价 付 给 风电 红 ， 开 以 两 次 购 电 咒 之 羌 作为 阻塞 费用 。 设 总 出 力 为 p “等 寺 负 车 预测 千 ，g := PE) ， 按 分 配 预案 清算 价 为 zy ， 不 守 调 整 后 的 清 算 价 为 p 仿 ， 最 给 清 禹 价 芳 p， 则 此 规则 表达 如 下 2 总 阻塞 费用 已 = ac(PP — PD) .二 H 其 中 pZ = (1 - 0)pY + bp 他 0 为 可 调 参数 ， 下 文 计算 中 取 /bS 扎 5.2.3 “ 阻 塞 费用 计算 规则 的 讨论 WANs 比较 上 述 两 种 阻塞 费用 的 计算 规则 ， 我 们 有 以 下 结 褒 \\、 | 1 二 1. 第 一 种 规则 只 对 利益 受 损 的 机 组 的 损失 做 一 定 交 款 偿 闪 对 阻塞 调整 未 引起 出 力 分 配 变化 的 机 组 ， 因 阻塞 调整 没有 对 其 引起 损失 ， 因 而 也 就 没有 补偿 。 所 以 第 一 种 规则 的 阻塞 费 用 一 般 情况 下 比较 小 ， 对 网 方 更 有 利 。 2 第 二 种 规则 稍 简单 ， To 规划 。 3. 第 一 种 规则 下 ， 当 清算 价 所 对 的 慌 的 出 力 变化 时 ， 因 有 zax 二 Pi， 所 以 BL, =0. 将 没有 补偿 。 但 实际 上 对 发 电 方 米 说 ,只 要 网 方 付 给 电价 高 于 其 发 电 成 本 ， 即 有 将 利 。 而 报价 通常 都 高 于 成 本 ,| 最 省 设 电力 焉 少时 实际 上 也 有 损失 ， 规 则 一 对 此 处 理 不 公 ， 4 考 由 规则 一 的 公平 性 ， 关 加 订 外 容量 多 发 引起 损失 的 机 组 ， 可 以 认为 其 可 失 为 发 生 的 实 际 损失 ， 而 全 帮 人 3 让 和 的 虽然 应 得 的 利益 受到 损失 ， 但 它 也 因 少 发 该 部 分 出 而 j 欠 了 燃料 由 用 等 发 电 成 本 。 所 以 对 其 单位 出 力 的 损失 应 扣除 发 电 成 本 。 2 v \\Z KG s 则 册 分 本 预案 是 在 每 一 时 段 开始 前 根据 负 蓓 预报 以 及 各 机 组 的 报价 、 当 前 出 力 和 有 过 | 末 / 吉 市 所 交易 规 则 所 确定 的 。 由 古 目 所 描述 的 交易 规则 ， 兼 质 计算 的 时 间 效 闻 ， 出 力 分 配 颈 案 的 求 取 方 法 描述 如 下 ， Stepl: 按 段 价 由 小 到 大 的 顺序 选择 各 机 组 各 段 容 量 ， 直 至 所 有 已 选段 容量 的 总 和 等 于 负荷 预报 值 PE， (此 时 最 末 一 个 被 选 入 的 段 容量 可 能 只 有 部 分 被 选中 ) ; Step2: 对 每 台 机 组 计算 其 被 选取 段 容量 的 和 9， 比 较 %i 与 当前 出 力 gio， 若 gi 一 go > :At， 则 取 9 = ga 十 由 :At， 并 令 标志 变量 flagt = 一 1; # 9:— gio < —vi- At, WR g: = gio — vi- At, 并 令 flagi=1: 否则 9 不 变 ，jlag: = 0。 ! 第 7 期 电力 市 场 输电 阻塞 管理 模型 85 Step3: 若 所 有 flag 都 为 0， 则 此 时 9 即 为 出 力 分 配 预案 中 第 ; 台 机 组 的 出 力 值 ， 结 束 计 算 。 否 则 ， 计 算 经 Step2 调整 后 的 总 出 力 g = 开 gi。 Stepd: 若 9 = PIT， 则 此 时 g 为 出 力 分 配 预 案 中 第 ; 台 机 组 的 出 力 分 配 值 ， 结 束 计算 ; 若 g > PL 且 所 有 jlagi 均 为 1 或 g < PL 且 所 有 jlagi 均 为 -1， 则 不 存在 可 行 的 出 力 分 配 预 案 ， 结 束 计算 并 直接 转 入 拉 闭 限 电 阶段 做 规划 ; 否则 ， 转 Step5。 <N Step5: # g < PL， 则 对 flag; # -1 的 所 有 机 组 的 未 被 选中 让 的 容量 Ci 站 段 价 由 小 到 大 逐个 选取 ， 且 每 到 一 个 即 转 至 Step2; 若 9 > PL， 则 对 个 的 所 有 机 组 己 选 的 正 容 最 ， 按 被 选取 顺序 的 逆序 逐个 去 除 ， 0 。 对 题目 所 给 数据 通过 简单 的 手工 操作 很 容易 得 到 出 力 分 配 预案 C Re 分 )， 对 稍 复杂 的 情形 ， 由 以 上 算法 编程 不 难 求 得 结果 。 A ) 5.4 “阻塞 管理 NS 5.4.1 “数学 模型 < 在 问题 的 分 析 部 分 ， 我 们 根据 电网 \"安全 第 一 ， 兼 顾 经 济 f 准 原则 ， 已 经 确定 了 阳 塞 管理 过 程 机 组 出 力 方案 规划 的 基本 步骤 ， 即 阻塞 检查 、 调 整 预案 裕 度 发 电 、 拉 几 限 电 四 个 阶段 的 规 划 ， 以 下 分 别 讨论 。 \\ 1. 阻塞 检查 0 在 得 到 出 力 分 配 预 案 后 ， 首 先 要 葵 查 该 册 分 配方 案 是 震 会 引起 阻塞 。 若 不 发 生 阻塞， 则 此 预案 即 为 最 优 的 调度 方案 寺中 要 转 到 下 一 阶段 继 续 规 划 。 Di 阻塞 检查 的 方法 是 检查 各 线路 潮流 分 布 是 否 越 限 ， 即 检查 下 列 不 等 式 是 否 全 部 成 立 ， \\ l;|~m; <0, j=1,2,...,6 (6) 8 其 中 4= 3 age: :| Saer 2. 调整 预案 ] w 调整 预案 是 在 出 力 分 配 预案 引起 阻塞 时 ， 寻 找 可 行 的 出力 分 配方 案 ， 使 得 在 不 发 生 阴 守 的 乱 件 FRERR 可 用 以 下 模型 表述 : 8 minE 人 \\ > =PL, 1 // i=1 TS st -mi<0， @ gio — vi - At < gi < gio + vi - At, 9i < gmi 其 中 ， 四 条 约束 的 意义 分 别 为 ， 负 荷 需求 约束 、 不 阻塞 条 件 、 疏 坡 速率 限制 、 可 发 功率 上 限 约束 ， 阻 塞 费用 的 表达 式 已 在 上 文中 给 出 。 若 模型 7 存在 最 优 解 ， 则 该 解 即 为 最 优 的 出 力 分 配方 案 。 埋 则 ， 若 7 的 可 行 域 为 空 ， 则 表明 没有 不 发 生 阻塞 的 可 行 解 ， 需 要 转 下 一 阶段 规划 。 3. 裕 度 输电 机 7 四 86 工 B 数 学 学 # 第 21 卷 模型 7 的 可 行 域 为 空 时 ， 表 明 不 存在 无 阻塞 条 件 下 的 出 力 分 配方 案 ， 此 时 必须 考虑 利用 安全 检 度 输电 。 定义 第 了 条 线路 的 安全 容 度 利用 率 力 为 ， 利 用 了 的 相对 安全 检 度 与 该 线路 总 相对 安全 容 度 的 比值 ，W = 邮 Las = 《 即 线路 的 法 绝对 值 | = (1 + mm)mu) 。 考虑 到 各 条 , 线路 总 相对 安全 容 度 数值 上 的 差别 ， 我 们 以 n; 作为 这 一 阶段 线路 安全 的 评价 指标 。 根 据 * 安 全 经 济 \"原则 ， 这 一 阶段 的 规划 又 可 分 为 两 个 步 又 。 (@) 先 不 考虑 经 济 目标 ， 以 安全 容 度 利用 些 咏 小 为 目标 ， 求 取 豆 行 的 最 安全 的 《〈 保 贸 检 度 最 大 ) 出 力 分 配方 案 。 我 们 以 各 线路 最 大 浴 诬 利用 率 最 小 为 目标 灵 这 弛 下 术 型 ° \\ of 让 Ze=z 7 ) ls1 = (1 + myry)m; < st gio~vit <gi < gt SS ® ’ giSgmi _ _ 了 “二 7<1 X : 若 模型 (8) 存在 最 优 解 《 记 该 最 优 解 对 应 的 葵 度 利用 率 为 ()2) ， 则 转 到 下 一 步 进行 对 经 济 目标 的 优化 。 否 则 若 模型 (8) 的 可 行 域 为 空 ， 则 表明 没有 保证 系统 最 低 安全 水 平 的 可 行 解 ， 此 时 必须 拉 周 限 电 。 (b) 模型 8) 存在 最 优 解 时 /二 明 保 证 电网 安全 水 平 最 高 〈 保 留 检 度 最 大 ) 的 可 行 册 力 分 配方 案 存 在 ， 但 模型 人 jf 未 考虑 经 济 目标 ， 所 以 此 时 应 再 以 安全 目标 不 降低 为 约束 ， 寻 找 经 济 最 优 《阻塞 费用 最 小 ) 的 出 力 分 配方 案 。 用 以 下 模型 描述 ; IR min E \\t To=PL ~ ¥ -GE+mmjmi <0 8 人 9i0 一 vit < 9i < 9i0 十 vit (9) 2 ) ’ 9i < Gmi . 7, n; <nj 短信 的 最 优 解 即 为 最 优 出 分 配方 案 。( 因 模型 (§ BRAR—TES (0) 闪 A ”的 避 行 解 ， 所 以 若 (8) 有 解 则 (9) 的 可 行 域 必 非 空 ) 。 Wa= 近 疗 限 电 当 模型 (8) 的 可 行 域 为 空 时 ， 则 表明 若 要 按 负荷 需求 供电 ， 则 无 法 保证 电网 的 安全 ， 此 时 只 能 通过 拉 亲 限 电表 减负 荷 。 因 停电 故障 损失 很 大 ， 在 该 阶段 我 们 以 电网 安全 不 低 于 最 低 安全 水 平 为 约束 ， 求 取 可 保证 的 总 出 力 最 大 时 的 出 力 分 配方 案 ， 用 以 下 模型 描述 ， max2 0 gio — vit <a < gio + vit 54:4 < gmi (0) y] = (1 + ry)m; < 0 Bgan 让 四 第 7 期 电力 市 场 输电 阻塞 管理 模型 87 5.4.2 ”模型 的 化 简 1. 预案 调整 模型 (7) 的 化 简 我 们 采用 问题 二 中 阻塞 费用 定义 的 第 二 种 规则 ， 即 巨 = max{(pi(g:) — #) - PL}, 去 掉 与 决策 向 量 G 无 关 的 项 ， 则 可 等 效 地 取 目 标 为 : maxpi(gi) 另外 ， 考 虑 到 出 力 变化 不 大 时 ， 潮 流 值 的 正 负 号 不 会 改变 。 而 县 对 不 自给 出 的 数 据 ， 出 力 在 其 相 坡 速率 限制 的 范围 内 取信 对 ， 潮 流 值 的 正 负 号 也 确实 不 会 改变 ， 故 只 要 将 初始 实际 潮流 为 负 的 每 条 线 蜂 《 记 为 族 ; 鸡 应 的 回归 方程 系数 伴 部 取 相反 数 (-aije 一 ai。 = 为 38) ， 则 可 去 挤 绝对 值 约束 得 到 线性 约束 SR 交 所 有 模型 中 aiiv 均 艇 了 这 科 变 顽 ， 名 此 所 有 约束 均 为 线性 约束 ) ， 41， min {maxpi(g } H 8 > 6=PL, i=1 2 你 goAES gi < i - At 9i < gmi 上 述 模型 是 线性 约束 下 阶梯 函数 族 的 最 大 最 小 冰 题 愉 可 以 直接 用 MATLAB 优化 工具 箱 。 求解。 然而 ， 考 虑 到 阶梯 函数 的 梯度 加 〈 从 广义 函数 角度 ) 是 在 间断 点 处 取 值 的 几 个 冲 激 函数 的 得 加 〈 见 附录 ) ， 其 他 区 域 取 值 均 为 0， 其 优化 性 能 很 不 理想 。 为 此 ， 针 对 阶 梓 数 优化 问题， 我 们 提出 以 下 求解 建议 :日 (a) 使 用 代理 目标 函数 寻找 或 构造 一 个 优化 性 能 良好 的 函数 ， 若 它 与 阶梯 函数 具有 良好 一 致 性 ， 即 具有 这 样 的 特点 ; 当 该 本 数 取 最 优 解 时 ， 阶 梯 函 数 取得 次 优 解 ， 则 取 该 函数 为 代理 目标 。 用 代理 目标 代替 阶 横 函数 目标 做 规划 ， 得 到 代理 目标 的 最 优 解 ， 再 在 该 最 优 解 的 信 域内 搜索 阶梯 本 标的 局 部 最 优 解 作为 最 终 的 非 劣 解 。 Ai (比如 采用 样 条 拟 合 ) 。 (b) 狗 浊 梯度 优化 算法 | 颇 称 轿 数 目标 难于 优化 的 关键 在 于 其 梯度 函数 不 理想 。 因 此 不 适 于 用 梯度 优化 算法 优 第 。 兴 使 用 非 梯度 算法 优化 ， 则 不 需 用 梯度 函数 ， 因 而 如 果 方法 选取 适当 ， 应 该 彰 交 emaemw 考虑 到 本 厦 各 模型 的 约束 均 为 线性 约束 ， 建 议 对 单纯 形 法 做 改 RY 进 四 ， 构 造 非 梯度 算法 求解。 (c) 针对 具体 问题 设计 月 发 式 算法 i 考虑 到 本 问题 的 目标 函数 为 阶梯 函数 ， 而 各 机 组 可 选用 段 只 有 有 限 几 个 。 因 此 在 预案 基础 上 ， 按 段 价 由 小 到 大 的 顺序 逐个 列举 未 使 用 段 ， 做 穷 举 搜索 〈 实 际 上 是 以 预案 为 起 点 的 邻 域 搜索 ， 也 不 难得 到 结果 。 让 考虑 到 潮流 分 布 公式 已 经 取得 ， 在 对 ou 做 取 反 变换 后 ， 显 然 ， 若 第 条 线路 潮流 超 限 即 5 > mj， 则 应 优先 考虑 对 {ouj} 中 取 值 为 负 的 机 组 增加 出 力 或 对 取 值 为 正 的 机 组 减 少 出 力 ， 以 消除 阻塞 。 由 上 一 步 我 们 设计 以 下 启发 式 算法 。 . 记分 配 预案 为 Go， 其 清算 价 为 p 包 ， 算 法 描述 如 下 ， 有 和 B 88 工 程 数 学 学 报 第 2! 郑 Stepl: 对 所 有 机 组 未 被 选 入 Go (部 分 或 全 部 ) 的 各 个 非 空 段 〈 段 容量 非 0) ， 按 对 应 段 价 由 小 到 大 统一 排序 ， 并 按 序 逐 个 选取 段 容 量 〈 每 次 选 一 个 ) 加 入 Go， 记 此 时 第 ;个 机 组 已 选段 容量 总 和 为 gi*。 Step2: 以 不 发 生 阻 塞 、 满 足 疏 坡 限制 以 及 9%i < 9i# 为 约束 ， 以 机 组 总 出 力 为 目标 ， 求 解 以 下 线性 规划 模型 max 》 g 人 <mi 8 一 0 十 vt #7 | 9 < gix 二 NY Stepd: 判断 证 述 模型 的 解 : 若 一 9 > PL, # Stepds 否则 转 Step2. Step4:。 从 最 末 一 个 被 选 入 的 段 开始 逆序 调整 出 力 值 了 以 此 时 。 出 力 分 配方 案 作为 最 优 方案 ， 结 束 计算 ， AS 我 们 用 MATLAB 编程 对 题目 所 给 的 两 种 负荷 需求 下 的 数据 求解 ， 得 到 的 结果 分 别 如 表 4、 表 5 所 示 。 W 2. 裕 度 输电 模型 的 化 简 AR (a) 模型 8 的 化 简 模型 8 可 等 价 地 表示 为 如 下 的 线性 规划 模型 四 miny ‘ 人 站 seEP / 人 =(1+nm)m; <0 ] ep ]go-ut<g<go+ut Q 一 gi < gmi 小 \" 1 入 1 入 其 中 多 RE 15 个 (91 ga,98,m1 26 四 )。 (b) 本 到 9 的 化 简 模型 7 化 简 求解 方法 类 似 ， 只 是 此 时 多 了 一 条 线性 约束 今 min {msxp(o)} P fosh N Ij — (L+ myr;)m; <0 st. gio —vit < gi < gio +vit 9i < gmi UAH 3. 拉 闸 限 电 模型 的 化 简 模型 10 可 化 为 如 下 的 线性 规划 模型 ; max 2 9 oceanemamenammaoos ananmdt ma 攻 尖 © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net EE y Bdas 第 7 期 电力 市 场 输电 阻塞 管理 模型 89 gio — vi - At < gio < gio +vi - At 8:t-9 i < gmi I;—(1+7;)m; <0 其 中 决策 变 最 有 8 个 (gu go ga)。 5.5 ”最 高 效率 规划 流程 〈 贱 ) 6 “实例 求解 结果 Ppy 6.1 “对 问题 一 的 解答 -从 > 6.1.1 。 模型 (1) 《不 带 党 路 本》 的 线性 系 效 用 其 检验 结果 = W - 。。 表 1 不 带 常数 项 的 模型 的 线性 系数 及 其 检验 结果 2 | TY TESTOERICOG IE 国 IEEZRITEZXIEIIUIICNIZONIECI ET 5 Frodadiaiod5aag5t8200791239-93441 .5550 上 | 9 | 58500 | 9100 3 brag， 本 人 -0345090322r193905098730N| 90 14367 | 240 人 5 +[139599 46425.099 081,790514 48,1009,50w71_| Q3750 | 289%0 | e.708 5 [59.91139 1010199.1.0129 070490983-69572,1507| 05006 | 5.475 | 979500 o |_mason suean,620 0 1 si 1 omt0raaas_| 07797 | 12008 | oas [o] 表 1 中 第 了 行 对 应 第 7 条 线路 。 检 验 5 力 ! -的 5 . #2 BERA 的 人 Ht 系数 及 其 检验 结果 ETETEEIITTO 国有 REIITRTEEOCCRRIO 和 ECIZIEZG [ o47IT.12750 0146443 Sasonr, 1260 eoat 9.5)| 13135 | osoasr | auroa | o 3 | Fo50e7. 1985 Tosasve 2.467,0 2301 0.27e7, 2019 | 169 | oo0se | 2570 | 0 [04098,1070B090472.08 1 anis omee 422, T6aa0l | 77613 | 099988 | 442 | 0 5 poaam raa8airtia02r6505270020r038901 09 | 1a913 | 099958 | oa9 | 0 IEEEETREIETIRIIICRKICOEICTICICIECZSN N </ 6.1 模型 2) (〈 带 常数 项 ) 的 线性 系数 及 其 检验 结果 ] 尺 5 对 问题 二 的 解答 文 设计 了 两 种 阻塞 费用 计算 规则 ， 并 对 其 优 劣 做 了 详细 讨论 。 具 体 细 节 见 模型 建立 部 分 。 6.3 ”对 问题 三 的 解答 预报 负荷 需求 为 982.4MW 时 的 分 配 预 案 如 表 3。 - 6.4 “对 问题 四 的 解答 预报 负荷 需求 为 982.4MW 时 的 分 配 预 案 ( 表 3) ， 其 阻塞 检查 结果 及 调整 后 的 最 终 出 力 分 配方 案 分 别 如 表 4， 表 5 所 示 。 其 中 阻塞 费用 1、2 分 别 是 用 阻塞 费用 规则 一 、 二 求 得 的 。 6.5 ”问题 五 的 求解 结果 EREAE a 90 工 程 数 学 学 报 第 2] 郑 预报 负荷 需求 为 1052.8MW 时 分 配 预 案 、 阻 塞 检验 结果 及 最 终 出 力 分 配方 案 分 别 如 表 6， 表 7， 表 8 所 示 。 表 3 ”分配 预 案 9 TITaTareTaraT7Ta 5 GE | 疝 | w | m [ |m [wi] w 出 力 分 配 预 案 ( 光 瓦 ) | 150 | 79 | 180 | e95 | 125 证 报价 (元 ) | 252 | ao | 2a 1 so | 215 | 262 1 260 | 303 介 放 坡 值 ( 引 的) | 33 15 上 全 | 3] 27 | 30 | 未 D _FwRgE CE) | 3) | 9 | o | 195 | 0 [15 [nefime 一 CN 303 2 二 B 表 4 阻塞 检验 结果 “了 A ) 外 | 1 | 2 | 3 | 4《ksSs | 8 mr | 165 | 150 | 16 [ ws]] m | 1@2 湖 流 分 布 | 173.3047 | 141.0049 | -150.9235 中 1209114 | 1368265 | 168.519 ara | 83047 | -89951 | -90765 :340886 | 48265 | 6519 表 5 调整 后 的 方 出 、 机 组 出 力 〈 兆 瓦 》 [153,8687，228，90.1124，152，95.3222， 60.1,117] 允许 疏 坡 值 ( 兆 瓦 )》 。 | 133;15,48,19.5,27,30,21,27| 实际 息 坡 值 兆 瓦 》 | [3315.48,10.11,27,20.69,21,27) 潮流 限 值 ( 兆 瓦 ) | 。 [165,150,160,155,132,163 实际 潮流 分 布 〈 光 碗 ) -| -7 (165,150,155.26,124.51,131.51,159.53] 清算 价 ( 元 ) ”| | 495 阻 寨 费用 EC 元 ) |。 3183.1 阻塞 费用 4 GO | 47155 a>7 v ’ \\a 表 6 分 配 预 案 Las 2 aslsl7 ls TREE | | | as2 | 95 | 1 | 1s0 | 1024 | wr mans | 252 | 320 | 356 | 302 | 30 | 305 | 306 | 303 清算 价 356 表 7 mERE 4 | 1 [| 2 | 3 | 4 | 5 | as mr | 16 | 1 | lt | 项 | 1 | 1 湖 济 分 布 | 17724 | 141.17 | 156345 | 12974 | 13483 | 16706 ama | 1224 | -883 | -385 | -3526 | 283 | 505 7 Bo 省 全 二 第 7 其 电力 市 场 输电 阻塞 管理 模型 91 注 : 超 限 值 为 负 表示 该 线路 未 发 生 阻塞 。 表 8 调整 后 的 出 力 分 配方 案 方案 出 力 方案 ( 兆 瓦 ) 153,88,228,99.5,152,155,60.3,117] 最 高 报价 〈 元 ) [489,495,356,302,510,380,120,303] 允许 疏 坡 值 〔 兆 瓦 ) | [33,15,48,19.5,27,30,21,27] 化 实际 息 坡 值 〔 兆 瓦 )》 | [33,15,48,19.5,27,30,20.8,27) AAA 人 En 潮流 限 值 〔 兆 瓦 ) [165,150,160,155,132,162) 实际 潮流 分 布 〈 光 瓦 ) | [173.4093,143.5893,155.213,124 G2. es 1o0 2 > 相对 安全 容 度 利用 率 | (39.2%12.3%,4.25% -55.16%,30.23%,19.20%] 一 让 “mmon [s = 多 下 阻 时 并 时 1 《元 ) 1962.3 f9\\_ mAmm (FE |4533 Ar |) —) D 7 “总 结 评价 \\/ 本 文 对 公平 开放 市 场 条 件 下 独立 电网 的 输电 阻塞 管 aa 文章 的 主要 优点 是 : 4 AN 1. 在 局 部 线性 假设 下 ， 对 带 有 常数 项 和 没有 常数 项 的 线性 回归 模型 分 别 做 了 回归 分 析 和 细 致 的 假设 检验 ， 并 以 回归 方程 作为 潮流 分 布 和 出 力 分 配 的 近似 公式 ; \\ / 2. 0 人 ad 因而 带 有 常数 项 的 回归 模型 更 合理 ， 刀 “ )) 3. 出 于 对 阳 再 融 响 的 末 和 设计 了 两 种 阻塞 费用 计算 规则 ， 并 对 其 做 了 详细 的 比 较 说 明 ， Y 4. 根据 市 场 规则 ， 栽 质 计算 时 间 效率 ， 利 用 递归 策略 得 到 了 简单 易 行 的 出 力 分 配 预 案 计 算 方 法 ， V o 5. canuiine 按 电网 “安全 第 一 ， 兼 顾 经 济 ” 的 原则 ， 提 出 分 阶段 〈 共 四 个 阶段 ) 按 | 项 攻 的 证 人 流程 ， 并 对 各 个 规划 阶段 分 别 建立 了 数学 模型 ; MU 1 和 齐 各 ja 划 术 做 了 更 分 的 化 条 并 对 其 求解 方法 做 了 说 明 ; A S\\ ASN. 提出 以 Huffman 树 作为 决策 树 的 高 效 规划 流程 ， 并 对 一 些 技术 细 节 做 了 改进 ， 8. 在 附录 中 给 出 了 一 些 典 型 计算 规则 的 流程 图 ， 从 广义 函数 角度 对 阶梯 函数 的 数学 分 析 性 能 做 了 讨论 ， 并 给 出 了 求解 建议 和 两 种 启发 式 算法 。 主要 缺点 表现 在 ; 因 专 业 知 识 匮乏 ， 没 有 结合 现行 的 几 种 典型 的 电力 市 场 运营 模 式 四 (如 Pool 模式 、 双 边 交易 模式 等 ) 的 特点 给 出 更 合理 的 阻塞 管理 办 法 ， 对 阻塞 费用 的 分 反问 题 讨论 还 不 充分 。 EE 二 | 92 工 程 数 学 学 报 第 21 卷 8 附录 ( 略 ) 参考 文献 : [1) 何 仰 赞 ， 温 增 银 , 电力 系统 分 析 〈 第 三 版 ) [M]. 武汉 : 华中 科技 大 学 出 版 社 ，2003 [2) 范 金城 ， 梅 长 林 . 数据 分 析 [M]. 北京 : 科学 出 版 社 ，2002 [3 郑 君 里 ， 应 启 击 ， 杨 为 理 . 信号 与 系统 《第 二 版 ){M]. 北京 :高 等 教育 出 版 社 ，2000 [4) 严 昔 敏 ， 吴 伟 民 . 数据 结构 [M]. 北京 : 清华 大 学 出 版 社 ，1997 国王 春 森 . 系统 设计 师 教 程 [M]. 北京 ， 清华 大 学 出 版 社 ，2001 [6] 张 智 星 等 . 神经 -模糊 和 软 计算 [M], 西安 交通 大 学 出 版 社 ，2000 _ 人 7] 杨 洪 明 ， 段 献 忠 ， 何 仰 赞 . 阻塞 费用 的 计算 和 分 反方 法 []} 电力 自动 化 设备 ，2002;(5):10-12 一 - 稚 2 A Manasgormmnent Mode) for Transmission Ce 的 Powér Market YANG Shuang-hong, LIU Gang, YAN Qi H S (Wuhan University, Wuhan 430072 人 \\ ALAN Abstract: In this paper on the basis of an open and competitive matket, ja is developed to study the management of transmission congestion in an independent power 5y stem. Firstly, under the assumption of local linearization, the approximate formula for the relation of the power flow distribution to the machine output is derived by multivariate lineas regression. Both the models with &nd without constantrterm are considered and tested. Furthermore, according to the knowledge from power systém analysis, we demonstrate that the model with the constant-term is more reasonable. Considering the effect of the congestion adjustment, we design two rules for calculating congestion cost and make detailed comparison between them. According to the transaction rule of the power market and accounting for the computation eficiency as well, we use the recursion strategy to figure out a simple and feasible meth od of the ps scheme of output allocation，This article pro- poses a four-stage computation strategy 家 fbeicongestion adjustment, which is; congestion check, pre-scheme adjustment, margin transmission and loa AM on. In the first stage, a group of inequalities are judged; the second stage is to program with the objective of minimum congestion cost; in the third stage，our first target is the minimum occupancy of in, then the objective is the lowest congestion cost while the occupancy remains the same if no less than: 让 stage, assuring the lowest security level, the objective is maximum output. After simplification, all are linear except the second one, which is a staircase function maxi-min programming subjected to linear constraint condition. Also, we find that the procedure is most efficient if the Huffman tree is u theydscision tree In this case only fow simple rules are needed to determine which stage ought to be car ea of doing step by step. Last but not the least, we study the programming performance of staircase function from the perspective of generalized function, and we propose two simple heuris- tic algorithi 0 suggestions for the optimization problem whose objective is staircase function. The methods proposed/in this paper are clear and efficient. However, for the lack of the professional knowledge, we do no t give azonable congestion management method for some current typical patterns of the power market. ] Keywords: power congestion management; multivariate linear regressioni Progremming flows by stage; of- programming How of Huffman decision tree; heuristic algorithms",
+  "normalized_text_chars": 24277,
+  "normalized_text_sha256": "6188F31AB5B5B0D26CE8F53359AFAB41974B1BB0817880CA944CD9ED161F96A3",
+  "page_provenance_summary": {
+    "OCR": 14
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "BB4B007E06894185DE26A98AE820286155FA43050770704E3934D0A4382F1BF9",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "9F0DB0390FA233AAB56161BA123A8DAED02B0F4B8399BB91269D6DC4E162B79B"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "B5F1E5E1EEF2AC3E8AACBF33602A50B842A3A5E59CB02CEEE7047286DE2DA35C",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "47AC22A106479DAF4DFEB4C73C020DDBAE8568C62C83E417F39EC440883CB939"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "9B20F1BE14E782F248F245635ED582B6BEDBA7EA64AB35BA67BC28928440CDDF",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "0BCF1BE93F79FD923FCDC119A25D2C9755B3C264D7496A4F061E2E9FEBFE1ECE"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "62EDD8E34D8108FC9367541ABAFD4C06F8F9F50E9C940FA695BB499CD2181093",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "7B7C3B3E928F6ECA6DA35523C707842559663C3A8CC1E6E64B0B0213E8290733"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "1D4B5B14819A85E489F2783D969B7A6947F5BE25E1F480C28DB2AEA0EF3CA378",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "6F7DB0F1EE435B2E58CE00963DB2AC332D88EA911624F5F7B8A2D5C9395D582C"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "290E81FF7F91307FF3A630EB2EE67ED15BC53D23F1DC558ED1D79E96BDEC9A9E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "70E7B59EA4B48601E9A3167A64CC729307A289726002686DE7F1C7E42AE8B0B9"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "5CEFEDFF204AD1D5D9967C6DB075A6194F2FA583F6BA2EB73D925E236B09F044",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "30518878D1F71E2A0791921BEDC115E9CE8F9309A216C54D86BC8AEF363C8234"
+    },
+    {
+      "page_number": 8,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "84499F6242D8A7C93552C112CE8CBD876FC22B21828E242F0E6BAC89759BF8B9",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 8,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "40DB218694F7A531E339B7C161C404E9A65B589A11636D492E68E0C05D22BF9C"
+    },
+    {
+      "page_number": 9,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "DB5A1F49E2807F789017092F4863E83C0BE2D8ADC2D5E2DA364A9FC7D1E5479E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 9,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "9AE9FAAA05147B828765C2E03205D709D18D8BE0A7ABDFA21802F5FC0EDAC0D5"
+    },
+    {
+      "page_number": 10,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "5601EF847A52F59A69DA2B5301C35594FD51552179912DF50BACF5DB23D78513",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 10,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "56B35CA3FE7AC1FE7B0A5A65CC371EDF3E22AE51E35A7C5059CBB72CCE99E744"
+    },
+    {
+      "page_number": 11,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "2A2EED395B51C809D68AEC6E667BC9BDDB5ED64A140DB57D49B9BF7EF6376DC4",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 11,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "3A94705550C1FFDFB3976FA38B0AC55363362671FE633E7D766239939EC89982"
+    },
+    {
+      "page_number": 12,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "2AFAFD900DC7CC68B1FEF74943196FC62921CC87A1CED46DA3751AD7BAB1BBC6",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 12,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "83BD1DB0D1FAEEE0A33C5B22A82E97B4E1B7F5B240DF9B70A3F0325C45155E55"
+    },
+    {
+      "page_number": 13,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "02E4E3684952A4EFA9B830F0011508998D63A5FA0AC633DE57968AC4C150AD9A",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 13,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "9A7C4487F2FB706C8CBDB2A21A4F4E0758FA3ACA3B283C7F624EA58124933C44"
+    },
+    {
+      "page_number": 14,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "0E8E6377F51C366C8581BD9D4BD16347E60484968459F4F7C9199BA3F371A241",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 14,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "333DA672251540DF339AAD2CEC4E16074B5411B653E4CB76330205B77785EA74"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

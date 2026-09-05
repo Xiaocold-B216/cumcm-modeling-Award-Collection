@@ -1,0 +1,16 @@
+paper_id=CUMCM-2013-D-001
+page_number=81
+page_classification=LAST_SUBSTANTIVE_PERSISTED_PAGE
+source_path=2013年数学建模国赛真题+优秀论文/2013D：城市公共自行车服务系统运行状况和效率分析/论文.doc
+source_sha256=955CC7179247EDA8AD6EBB74CFD1233D514D9F80A809B0C2EB244BEACABAFDEA
+persisted_page_text_path=catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2013-D-001/pages/0081.txt
+
+=== PERSISTED PAGE TEXT (READ-ONLY EXISTING EVIDENCE) ===
+function peak = find_peak(x) peak0 = []; peak_cnt = 0; x_diff = diff(x); n = length(x); x_mid = min(x) + 0.6 * (max(x)-min(x)); for i = 2:n-1 if x_diff(i-1) >= 0 && x_diff(i) <= 0 && ... x_diff(i-1)^2 + x_diff(i)^2 ~=0 && x(i) > x_mid peak_cnt = peak_cnt + 1; peak0 = [peak0, i]; end end if peak_cnt <= 1 peak = peak0; else peak_actual_cnt = 1; peak = peak0(1); peak_set_cnt = 1; % new_peak_flag = 0; i_peak = 2; while i_peak <= peak_cnt if abs(peak0(i_peak) - peak(peak_actual_cnt)) < 3 peak(peak_actual_cnt) = (peak_set_cnt * peak(peak_actual_cnt) + peak0(i_peak) ) / (peak_set_cnt + 1); peak_set_cnt = peak_set_cnt + 1; else peak_actual_cnt = peak_actual_cnt + 1; peak(peak_actual_cnt) = peak0(i_peak); peak_set_cnt = 1; end i_peak = i_peak + 1; end peak = round(peak); end 81 [Image: Image6]
+
+=== FORMAL ARTIFACT CONTEXT WINDOW ===
+ilter_radiu) st_hist_mean_f = start_time_hist; % mean_filter_radiu = 1; for j = 1:length(start_time_hist) if j-mean_filter_radiu <1 mean_range = 1:j+mean_filter_radiu; elseif j+mean_filter_radiu > length(start_time_hist) mean_range = j-mean_filter_radiu:length(start_time_hist); else mean_range = j-mean_filter_radiu:j+mean_filter_radiu; end st_hist_mean_f(j) = mean(start_time_hist(mean_range)); end 80 [Image: Image6] function peak = find_peak(x) peak0 = []; peak_cnt = 0; x_diff = diff(x); n = length(x); x_mid = min(x) + 0.6 * (max(x)-min(x)); for i = 2:n-1 if x_diff(i-1) >= 0 && x_diff(i) <= 0 && ... x_diff(i-1)^2 + x_diff(i)^2 ~=0 && x(i) > x_mid peak_cnt = peak_cnt + 1; peak0 = [peak0, i]; end end if peak_cnt <= 1 peak = peak0; else peak_actual_cnt = 1; peak = peak0(1); peak_set_cnt = 1; % new_peak_flag = 0; i_peak = 2; while i_peak <= peak_cnt if abs(peak0(i_peak) - peak(peak_actual_cnt)) < 3 peak(peak_actual_cnt) = (peak_set_cnt * peak(peak_actual_cnt) + peak0(i_peak) ) / (peak_set_cnt + 1); peak_set_cnt = peak_set_cnt + 1; else peak_actual_cnt = peak_actual_cnt + 1; peak(peak_actual_cnt) = peak0(i_peak); peak_set_cnt = 1; end i_peak = i_peak + 1; end peak = round(peak); end 81 [Image: Image6]
+
+
+=== HUMAN REVIEW NOTE ===
+This file prepares evidence only. It is not a human review decision.

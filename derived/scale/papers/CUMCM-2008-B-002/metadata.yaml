@@ -1,0 +1,47 @@
+paper_id: CUMCM-2008-B-002
+year: 2008
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准探讨的最优化模型》.PDF
+  sha256: 4930440A3A4E47D7B0E7BF0F65EE6B6BE8288F9B00A113E1A04E2E0709C60725
+authority_sha256: 4930440A3A4E47D7B0E7BF0F65EE6B6BE8288F9B00A113E1A04E2E0709C60725
+paper_file_memberships:
+- path: 2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准探讨的最优化模型》.PDF
+  role: primary
+  canonical: true
+primary_file: 2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准探讨的最优化模型》.PDF
+extraction_inputs:
+- path: 2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008B：《高等教育学费标准探讨的最优化模型》.PDF
+  sha256: 4930440A3A4E47D7B0E7BF0F65EE6B6BE8288F9B00A113E1A04E2E0709C60725
+  kind: original
+extraction_input_sha256: 4930440A3A4E47D7B0E7BF0F65EE6B6BE8288F9B00A113E1A04E2E0709C60725
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 16
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_10.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_11.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_12.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_13.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_14.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_15.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_16.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_7.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_8.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2008-B-002/source_page_9.txt"]
+  source_sha256: 4930440A3A4E47D7B0E7BF0F65EE6B6BE8288F9B00A113E1A04E2E0709C60725
+  current_body_sha256: 3295B56BF37C6691360268E57DC1C89C5C3E4CEF4FE781D21B853EEC49BF0117
+  candidate_body_sha256: EF15590EF91D529C10C0FB5AF907E944B7026B845E4058222B2F6E348E3792B9
+  source_page_count: 16
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

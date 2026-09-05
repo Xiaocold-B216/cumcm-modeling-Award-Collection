@@ -1,0 +1,46 @@
+回 吕 这 动 回
+a
+}
+else
+{
+z[z1++]=3;ab—;al. ys[3]—;
+if (ab==alhcsl)break;
+z[z1++]=4;ab—;al. ys[4]—;
+if (ab==alhcsl)break;
+}
+}
+}
+}
+for (;al. ys[6]!=0&&ab!=alhcsl;al. ys[6]—, ab—)//S 车 A7
+z[z1++]=6; 一 NY
+for (;al. ys[1]!=0&&al. ys[3] !=0&&ab!=alhcsl;) 一 \)
+2
+z[z1++]=1;ab—;al. ys[1]—; / H
+if (ab==alhcsl) break; XS
+z[z1++]=3;ab—;al. ys [3] 一 ; As \
+if (ab==alhcsl)break; X
+} o
+if (al. ys[1]==0) K
+{
+for (;ab!=alhcsl&&al. ys[3] 170;ab—, al. ys [3]—)
+z[z1++]=3; [e]
+%
+else if(al. ys[3]==0)
+{ m¢
+for (;ab!=alhc Ts [1]!'=0;ab—, al. ys[1]—)
+Z [z14+]=1;
+}
+ \V
+/水 沙沙 冰冰 1 skokskokekokokokokokokokokokokokokokskokskokskskskskskokokokskskoskoskokskokoskskokskskskskskskokokkokskoskskokoskskokok
+He
+尖
+| \ Ma 1 [0]-=ab;
+f or (;ab>0;ab—-)
+z[z1++]=0;
+}
+if (a2. ys[0]>=bb)
+{
+a2. ys[0]-=bb;
+for (;bb!=0;bb—)
+z[z1++]=0;
+46

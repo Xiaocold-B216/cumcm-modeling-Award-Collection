@@ -1,0 +1,71 @@
+ta)) .^2)) 7
+
+x=sqrt((2.5.xv.^2-1.25.xv.^2.xh) .^2+(374.x2.*h.xV.^2) .^2+2.*(2.5.xv.^2-1.25.xvV.^2.xh) .
+* (374.*2.xh.x*V.^2) .xcos (beta))./(rou.*9.8.x*0.87) .*log((sec(alpha)+tan(alpha)))+sin(Phi
+0)+sin (phil)+sin(phi2)+sin(phi3)+sin(Phi4)+L-(31649.66x*h-22143.12+11760-11760.xr.x0.87)
+./(rou.*9.8.*0.87)7
+
+end
+
+outphi0=phi0.*180./pis 钢 桶 倾角
+
+outphil=phil.*180./pis 钢 管 倾 角
+
+outphi2=phi2.*180./pi
+
+outphi3=phi3.*180./pi
+
+outphid=phid.*180./pi
+
+h
+
+outalpha=alpha.*180./pi
+
+outtheta=theta.*180./pi
+
+outx=x
+
+outk=sqrt ((2.5.*%v. 2-1.25.%v."2.%h) .^2+(374.*2.xh.xV.^2) .^2+2.x (2.5.%v."2-1.25.%v. 2.*
+h) .* (374.*2.xh.xV.^2) .*cos (beta) ) ./(rou.x*9.8.*0.87)s 锚 链 系 数 < 全 >
+outFY= (-22143.12+11760-11760*r*0.87+31649.66*h) P_< MYv
+outFx=sqrt((2.5.xV.^2-1.25.xvV.^2.xh) .^2+(374.x2.xh.xV.^2) .^2 Va L25.%v.72.
+*h)) $RR
+
+程序 3 3 s %
+
+$2016.9.11 系 泊 系 统 设计 2 3 °
+
+% r,H,v,V,beta, rou,L
+
+br REAEER A AN jn 调整 = 即 可 调整 钢 球 质量 。8 为 水 深 ，v 为 风速 ，V 为 水 速 ，
+bet 为 风 i 和 的 是 Sol 工 是 锚 链 的 长 度
+
+I L ZuBhis phis,b, theta,
+
+N 桶 的 倾斜 朋 ，Phil 至 Phi4 为 从 下 至 上 各 节 钢 管 的 倾斜 角 ，h 为 吃水 深度 ，theta 为 锚 链 末端 与 锚 的 连接 点 处 切
+线 方向 与 海 床 夹 角 ，x 为 游 动 的 最 大 范围 。
+
+r=1;
+
+H=18;
+
+v=36;
+
+v=0;
+
+beta=0;
+
+rou=7;
+
+1=22.05;
+
+gs 考虑 到 错 链 可 能 并 不 是 全 部 悬 室 ， 有 可 能 部 分 堆放 在 海 床上 ， 因 此 先 求解 不 堆放 情形 ， 至 于 堆放 情形 ， 在 下 面 if 中 考虑 。
+f-fzero(e(h)
+
+(h+1./sqrt (1+sqrt((2.5.xv.^2-1.25.xv.^2.xh) .^2+(374.*2.xh.xV.^2).^2+2.x(2.5.xv.^2-1.25.xv.^2.
+*h) .* (374.*2.*h.xV.^2) .*cos (beta)) ."2./...
+
+(-10248.12+31649.66.%h) .72) +1./sqrt (1+sqrt ((2.5.%v.72-1.25.%v."2.*h) .^2+(374.*2.xh.xV.^2) .^2
++2.*(2.5.xv.^2-1.25.xv.^2.xh) .* (374.%2.*h.*V."2) .xcos (beta) ) . 2./...
+
+25

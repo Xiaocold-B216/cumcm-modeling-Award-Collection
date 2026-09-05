@@ -1,0 +1,139 @@
+{
+  "attempt_id": "20260902T162528503373_425d96bb",
+  "batch_attempt_id": "20260902T162528503373_425d96bb",
+  "paper_id": "CUMCM-2003-A-010",
+  "source_path": "2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：SARS传播的研究 (2).pdf",
+  "source_sha256": "3BAC38062D1B5C4DC4B705D02DAE2318A9366CD537D86BD3FDCEE0439008EC11",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 10,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 10,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "EEE E 第 20 卷 第 7 期 工 程 数 学 学 报 Vol.20 No.7 2003 年 2 月 JOURNAL OF ENGINEERING MATHEMATICS Dee 2% 文章 编号 :1005-3085(2003)07-0035-10 SARS 传播 的 研究 肖 红 江 ， ® %, 李 名 科 -从 > 指导 教师 ; 贺 祖国 ”由 (北京 邮电 大 学 ,北京 100876) %4 编者 按 : ar_aaanaaasrameanaurawskaaj 文章 对 基于 低 通 滤波 理论 的 系统 乏 制 模型 作 了 重点 研究 ,引进 的 * 方 政 控 向 了 雪 ' 尝 合体 现 了 SARS 传染 率 、 治 全 率 , 特 别 是 “下 府 近 旬 力 赤 \" 光 影响 , 志 过 这 些 参数 的 变化 对 交情 发 展 的 影响 进行 了 定量 分 析 , 扒 导 严 流 , 丫 于 创 交 内 。 文 闪 对 四 种 模型 的 优 热点 作 亲 过 为 虽 肯 的 评价 。 摘 ”要 ; 冰 文 法 台 附件 -所 给 的 模型, 对 它 提 出 的 半 模拟 御 庆 示 竹 芍 旋 法 进行 了 检验 ,得 出 该 模型 的 优 上 在 于 形式 简单 ,模拟 的 精确 度 较 高 ,K 值 的 改变 体 狐 出 对 其 合理 性 ,同时 指出 了 它 的 主要 缺点 在 于 过 分 依赖 数据 和 不 具有 长 远 的 预测 性 。 对 于 问题 2, 我 们 提出 了 (1) 微 分 差分 方程 组 合 模型 (2) 基 于 低 通 涉 波 理论 的 系统 控制 模型 (3) 基 于 肿 经 网 络 的 系统 模型 (4) 基 于 分 支 过 程 (Branching Pro- ee) 的 Monte Carle 仿真 模 型 加 和 上 有 不 同 松 必 思想 的 模型 。 在 区 型 2 中 ,通过 解析 求解 我 人 得 出 了 北京 SARS 持续 期 为 99 天 到。 时 间 越 里 越 好 \"SARS 传染 病 不 可 能 周期 性 复发 \"等 结 论 。 对 于 问题 3, 我们 受到 经 济 学 问 用 画 数 * 的 思想 的 启发, 引入 了 三 个 不 同 的 影响 数 并 提 出 了 \"旅游 人 次 影响 粮 型 8 最 终 得 出 在 SARS 影 响 下 北京 市 将 少 接待 海外 游客 138.211 万 人 次 。 最 后 ,我 们 给 出 了 发 ee 关键 词 2 经 网 络 ;分 支 过 程 ;Monte Carlo 随机 模拟 ;后 效 性 RN 中 图 分 类 号 : 0241.81 文献 标识 码 : A 1 问题 重 述 ( 略 ) 长 分 2 e EZ 设 NY 群 分 为 易 感 人 群 (健康 者 ) ,传染 者 ,隔离 者 ,康复 者 ,死亡 者 五 大 类 。 2) 人 群 中 任何 两 人 的 接触 是 相互 独立 的 , 且 具 有 相同 的 概率 。 当 健康 人 与 患者 接触 时 ,有 一 定 的 概率 被 感染 上 , 且 此 病 有 一 定 的 治愈 率 与 死亡 率 。 3) SARS 患者 康复 后 具有 免疫 能 力 ,治愈 后 没有 被 感染 的 可 能 。 4) 在 0 时 刻 时 ,该 疫 区 已 经 发 现 To 名 康 者 。 5) 不 考虑 该 地 区 的 自然 死亡 率 与 出 生 率 对 总 人 口 数 产生 的 影响 及 人 口 流动 的 影响 。 更 过 1 36 工 程 数 学 学 报 第 20 % 3 符号 说 明 N(2): 在 某 时 刻 此 传染 系统 内 的 仍 人 口 数 。 》: 自由 传播 源 平 均 每 天 造成 的 感染 率 。 Ae: 为 该 病 平均 每 天 的 治 请 率 。 人 : 患者 平均 每 天 的 死亡 率 。 to: 当 疫情 蔓延 到 一 定 程度 后 ,政府 等 机 构 采 取 措 施 的 起 始 时 间 。 即 :控制 起 始 时 间 。 M(5): 过 了 潜伏 期 ,表现 出 症状 ,但 还 未 隔离 的 患者 数 。( 自 由 传染 源 ) 多 区 (215 时 刻 传染 源 的 总 数 。 = ks DP(+): + 时 刻 疑 似 病例 的 人 数 。 一 \\ CP(:): 时刻 确诊 病人 的 人 数 。 加 2 R(z): (时 刻 的 退出 传染 系统 的 人 数 (包括 康复 洛 [ 据 次 ga S(e): (时 刻 的 健康 人 数 ( 易 感 当 人群, 泵 包括 已 病 后 治 辣 局 : 蜂 似 病例 中 每 日 被 排除 的 人 数 占用 亿 病 创 的 比例 | 多] SS 记 : 亿 六 名 中 得 日 转 从 为 丧 认 病人 占 必 人 请 何 汐 a en 其 它 符号 使 用 时 再 予 说 明 。 “IN 4 模型 建立 及 求解 , % 。 对 问题 1 的 回答 人 uk NO (1+ HG): 它 是 基于 现实 中 的 自然 状态 ,描述 出 了 SARS 传染 病 最 核心 最 本 质 的 变化 趋势 。K 的 Se K 值 的 变化 体现 。 该 模型 的 优点 在 于 简单 , 易 行 ,方便 对 数据 采用 拟 合 处 愤 儿 利用 取 对 数 求 方差 估计 与 实际 数据 的 误差 ,说 明了 该 模型 所 具有 的 合理 性 。 一 DERe AYRRRERAASSEAET RRSXEN EHBEN-2 HRRTMIRR 6 A — BRE T R H B BA S 3) 禁 因 的 各 了 :此 模型 把 实际 问题 过 于 简单 化 了 ,有 不 合理 的 地 广 ， 人 NU) 模型 让 的 K 的 取 值 只 能 根据 已 经 有 的 数据 拟 合 , 因 此 模型 的 精确 度 严重 地 依赖 与 ]] :两 关 当 据 的 准确 度 。 实 际 中 ,统计 所 给 的 数据 本 身 就 有 一 定 误差, 拟 合 一 个 本 身 就 包含 信 关 | 的 徐 名 势必 造成 与 现实 规律 更 大 的 背离 。 我 们 以 “北京 日 志 \"的 数据 进行 验证 , 见 图 1 .图 2。 习 直观 的 看 出 ,模型 只 能 给 出 接近 的 前 期 发 展 趋势 ,后 期 拟 合 与 实际 曲线 有 相当 误差 (2) 模型 本 身 不 具有 预测 性 , 它 的 K 值 是 由 数据 拟 合 决定 的 。 如 果 青 离 题目 本 意 , 我 们 让 K 按照 某 种 规律 变化 ,预测 发 展 趋势 ,其 产生 的 误差 是 很 大 的 。( 图 略 ) (3) 随 着 时 间 的 推移 ,社会 中 存在 各 种 控制 的 综合 作用 ,用 一 个 单纯 笼统 的 K 的 变化 已 很 难 刻画 出 复杂 因素 的 影响 ,因为 各 种 因素 对 SARS 的 影响 不 尽 相 同 , 有 的 可 能 抑制 传 播 ,有 的 则 可 能 促进 流行 ,致使 模型 的 一 致 性 在 后 期 变 差 , 误 郑 越 来 越 大 。 因 此 ,至 少 应 设 为 某 种 函数 形式 , 引 和 一 些 参量 因子 进行 考虑 。 更 Bw ved 第 7 期 SARS 传 播 的 研究 37 ( 黑 线 表示 实际 北京 数据 的 变化 趋势 ,红线 为 其 拟 合 的 变化 趋势 曲线 ) 140 人 2500 ] 1 xa 3 AT 0 | 1500 80 \\ 红线 1000 R& © Sa AAA ao * SeA 订 —— CE B1 新 增 人 数 的 变化 趋势 图 2 ooxcSR > (4) 此 模型 单单 刻画 出 了 传染 病 的 一 般 竹 ,那么 SARS 和 其 它 的 传染 病 条 抽 上 的 区 别 了 ,缺乏 对 其 SARS 的 特征 进行 具体 深入 分 析 。 次 。 对 问题 2 的 回答 模型 一 ”微分 差分 方程 组 合 模型 人 全 和 和 人 仆人 全 人 人 且 和 全 人 人 重点 考虑 研究 对 象 是 否 已 退出 系统 。 对 于 处 于 系统 中 的 各 种 参量 间 的 关系 体现 与 模型 中 。 据 资 料 :SARS 潜 状 期 的 患者 下 具有 传染 性 , 则 oa TO)+ CPUD+DP(D+S(D)=N() x AUD) _3 M(e)$(e) - e CP(e) - LCP() # M(1)]= a* I2(0) “5porr-pp-a CP(D= CP(: =1) + BJAP - R(1) 用 R(t)=(p+8)-CP(t 1(0)=1,,S(0) = CP(0)=CPy,DP(0) = DP, 模型 一 的 求解 了 在 模型 中 ,参数 的 确定 ， 0 Ce 应 = (每 天 新 增 的 疑似 转 为 确诊 的 人 数 )/DP(U) 加 #0)/CP(1); 3 = (当天 病人 死亡 数 )/CP(D 和 对 题 中 的 数据 去 除 偏离 较 大 的 点 ,进行 多 SN 下 项 式 拟 合 ,得 :Bi ,5, 及 w+ 6, 并 通过 前 10 天 卫生 的 实际 数据 ,做 出 时 间 的 函数 图 象 ,用 计算 机 在 ] 人 的 邻 域内 以 微小 步 长 搜索 ,并 不 断 调整 使 理论 Ne 图 象 与 实际 图 象 尽量 趋 于 一 致 ,得 到 此 时 的 》 中 抒 . =0.532ia=0.683。 由 于 (+) 的 数值 解 没有 所 _ 原始 数据 与 之 做 对 比 , 我 们 转化 为 做 10 天 以 后 人 人 3 加 宙 亩 的 \"确诊 病例 日 增 量 图 ,, 见 图 3。 图 3 ABAHAAETEE 可 见 ,总 体 趋势 符合 的 很 好 ,但 个 别 点 有 较 大 的 误差 模型 二 “基于 低 通 滤波 理论 的 系统 控制 模型 E | 38 工 程 数学 学报 第 20 卷 由 系统 控制 理论 基础 ,我 们 联想 到 通信 系统 中 的 低 通 滤波 曲线 ,为 此 引入 一 个 \"有效 控 制 画 数 \", 使 得 原本 按照 自然 规律 变化 增长 下 的 新 增 病例 数 在 “有 效 控制 函数 \"的 影响 下 按照 我 们 所 预期 的 期 望 逐 渐 减 少 ,并 将 现实 中 的 各 种 措施 映射 为 控制 函数 中 的 某 些 参量 。 有 效 控制 函数 C 的 引入 : 如 Ce 全 一 下 (AMz) 的 物理 意义 ; 它 反映 了 患者 数 与 政府 等 各 种 控制 措施 的 相对 比率 关系 ,也 可 把 它 定义 为 “相对 感染 率 \", 并 记 为 e= Me。(A/) 比 信 越 小 ,其 控制 效用 越 好 。/ 。- 全 的 物理 意义 :构造 的 一 个 下 降 趋 势 的 函数 。 它 是 以 控制 时 间 an 的 。 7: 它 的 物理 意义 是 代表 了 政府 等 采取 强硬 措施 (如 跑 离 等 ) 药 列 入 闻 昌 我 们 假设 ,不 论 在 如 何 提高 其 医疗 水 平 的 情况 下 ,其 自然 的 传染 率 怎 娩 疼 要 席 于 治 疹 率 - 邹 : -w>0 上 :为 可 调 待定 系数 ,为 与 数据 吻合 页 设 。 那么 ,我 们 最 终 的 模型 方案 永 : As 人 (+ 六 Dr Q | 于 昌 = xy x ie) -xi 儿 | 记 宇多 = -axs(D)xil) i(0)xN(O)= 9 。 人 / 9 人 xc s(t),i(t),r(t): 易 感 者 ,和 退出 系统 者 所 占 的 比率 。ii(t) :微分 方程 求 出 来 的 原 始 解析 解 。 \\nd 模型 二 的 求解 让 1. 在 tn LUHT, SARS 表现 出 的 性 状 和 其 它 传染 性 疾病 的 表现 趋势 差不多 ,因此 ， 我 们 重点 讨 期 (to) 以 后 的 情况 。 当 :t+ 之 如 时 ， 全 -y(e-t ax 六 or 癌 -(D+ln(D)] xc 1] 由 [站 式 我 们 提出 性 质 1， is: 和 质 1 “政府 等 控制 的 起 始 时 间 在 \"快速 蔓延 期 \"后 越 里 越 好 , 即 : 越 小 越 好 。( 证 明 咯 ) TS 我 们 还 可 将 模型 中 各 比率 变换 成 所 对 应 的 具体 的 人 数 ,得 : 青 =AxTxS-uxT [2] s s 于 是 :I(S)= 石 - So- S+ L1n(£) ……[4] 二 =-AxTXS ° 结合 文 [3,4] 式 可 以 看 出 , 当 S= 区 时 ,我 们 绘 出 其 在 第 一 象限 的 轨迹 图 样 , 可 以 看 出 其 那 时 的 轨 线 取 极 大 。 因 此 我 们 可 以 定性 的 认为 ;其 S= 蔡 为 其 六 值 , 当 其 传染 者 超过 此 值 ， 其 发 病 的 人 数 会 越 来 越 多 ,而 当 其 传染 者 的 值 小 于 此 值 时 ,发 病 的 人 数 是 会 减少 。 而 结合 我 回避 二 汉 加 天 | 第 7 期 SARS 传播 的 研究 39 们 对 SARS 的 认识 ,其 超过 阔 值 是 很 容易 做 到 的 。 因 此 ,不 加 任何 控制 的 话 ,其 SARS 的 发 展 趋势 将 会 是 相当 迅猛 的 。 3. 对 于 文 [2,3] 式 我 们 进一步 讨论 ， 取 Dulac 函数 B(T,S) = Ts ,k,m 待定 ， D = 号 (BGS)(QAxTxS-ux1D)+ 六 (BCI,S)(-AxTxS)) = ASCn+D( 有 +1) 下 一 ASw( 有 +1) 玫 一 (me 二 1)A 下 +1Sm 当时 m=&= -1 时 ， 必 有 D=0， 由 Dulae 函数 的 性 质 可 得 :其 [2,3] 式 在 第 一 象限 内 无 闭 轨 。 由 此 ,我 们 提出 性 质 2。 全 夺 2ASARS( 包 括 其 它 小 分 广 和 田代 ) 它 们 坝 闪失 不 全 局 的 即 : 疫 情侣 发 后 不 可 能 再 次 出 现 “快速 蓝 延 期 \"。( 证 明 略 ) _ 2 让 此 定理 对 现实 具有 十 分 重要 的 指导 意义 ,人 们 细 须 对 SARS Ca 弹 而 担心 受 怕 , 只 要 平时 作 好 预防 工作 ,SARS 是 会 远离 我 们 的 。 一 模型 二 的 求解 结果 : 人 我 们 在 取 定 以 下 参数 :N(z) = 1382 万 人 ,= 0.2, Canmaos 2 天 ,其 颜 测 号 实际 数据 对 比 图 :( 见 图 4)。 2 入 4 果 ( 晨 线 光 模型 2 中 拟 和 出 的 发 展 趋势 ,而 io FX 黑 所 感 实 际 所 给 出 的 数据 散 点 。 可 以 看 出 四 AAA 模型 2 不 仅 在 初始 阶段 一 致 性 好 ,而 且 已 经 四 局 ”具有 较 强 的 预测 能 力 。 为 进一步 说 明 引 入 “ 六 .CA 各 参量 的 影响 程度 ,我 们 做 如 下 灵敏 度 分 析 。 - TSL 参数 灵敏 度 分 析 2 和 o CE 图 4 预测 与 实 二 煞 所 区 比 图 1. 关 于 政府 控制 力度 7: NT 7 的 大 小 将 直接 决定 最 终 控制 住 SARS 态势 ,SARS 可 _ 1=) 已 经 几乎 消亡 的 天 数 。 我 们 取 y 的 初 值 为 0.01, 先 以 o 7 0.005 为 步 长 ,后 以 0.05 为 步 长 ,关于 7 的 变化 对 控制 态 v 势 所 希 的 天 数 影响 的 趋势 图 ( 见 图 5); 从 控制 力度 参数 7 3 的 影响 分 析 中 ,可 以 看 出 ，y 取 值 在 [0.01,0.03] 的 范围 中 及 LA 时 ,对 最 终 控制 天 数 的 敏感 性 高 ,超出 此 范围 的 灵敏 度 FEEES 。 降 低 , 在 北京 地 区 现 有 的 病例 基数 下 ,最 饮 速 度 控制 SARS 从 BS 沁 对 控制 天 数 的 影响 也 是 要 经 历 30 天 左右 。 ] > 2. 关 于 控制 起 始 时 间 fo; N] 从 发 现 SARS 病例 开始 的 那天 算 起 ,to 在 今后 的 第 . 1 到 第 35 天 变化 对 最 终 控 制 天 数 的 影响 如 图 ( 见 图 6)。 可 可 以 看 出 性 质 1 是 成 立 的 。 当 疫情 爆发 18 天 之 前 ,控制 十 时 间 tn 提前 或 者 是 推 后 5 天 时 间 ,对 最 终 的 控制 天 数 影 和 3 响 大 概 在 20 天 左右 ;如 果 是 在 疫情 爆发 18 天 之 后 ,控制 usaam wkaaa 时 间 提前 或 者 是 退 后 5 天 时 间 ,对 最 终 的 控制 天 数 影响 大 概 在 5 天 左右 。 更 hARE w 40 工 B % ¥ ¥ #® 第 20 % 3. 关 于 接触 传染 率 1 定性 分 析 可 知 ,其 接触 传染 率 ) 越 高 ,其 控制 的 天 数 自然 会 随 之 增加 。( 接 触 传染 率 A 对 控制 天 数 的 影响 控制 趋势 散 点 图 略 ) 其 控制 天 数 与 接触 传染 率 》 几乎 是 成 线形 增长 。 我 们 模拟 给 出 的 》 = 0.2, 控 制 时 间 在 99 天 ,3 个 月 左右 ,与 实际 情况 是 十 分 吻合 的 。 4. 关 于 SARS 治愈 率 Ai: 由 于 治愈 率 wx 的 对 控制 天 数 的 影响 是 非 线形 的 , 且 要 看 出 具体 的 影响 ,我 们 采用 / 的 初 值 为 0.001, 步 长 为 0.001 ,逐步 增加 下 去 ,得 到 其 最 终 的 影响 趋势 图 ( 略 ) :可 以 看 出 在 [0.001,0.07] 区 间 之 内 对 控制 天 数 的 影响 相当 大 ,而 在 之 后 的 区 间 中 对 控制 天 数 的 影响 逐渐 趋 于 平缓 。 -次 > 模型 三 :基于 神经 网 络 的 系统 模型 人 人 工人 各 人 办 和 经 人 的. 因此 上 有 二 处 劝 能 力 ,对 复杂 问题 具有 自 适应 和 自学 习 的 能 力 , 可 以 很 好 的 协调 岁 种 第 八 信息 的 站 本 我 们 将 SARS 的 传播 看 作 类 似 与 神经 网 丫 的 非 线性 的 给 虑 鲍 镭 系 (DOD= AD Da 其 中 w( 1) 为 影响 获 个 系统 的 控制 因素 ,>(z 一 1 sg 人 为 系统 前 n, 次 输出 对 系 统 新 的 输出 药 反馈 影响 。 oa C 了 的 动态 神经 网 络 来 识别 此 非 线 性 系统 ; AS 利用 Matlab 神经 网 络 工具 箱 编程 得 仿真 预测 曲线 : 的 和 7 上 : 号 | 了 1 y os 全 让 和 网 其 x 一 “HEHWYA i 有 Sond rr 本 | | 1 200 10 70 一 0 40 50 60 70 eg 加 加 El 天 数 © El w o B7 中 bavismnn 图 8 氢 测 值 误 关 分 析 本 本 H 25| 下 <7 o1 八 N £ 2 人 X o 六 人 ya 记 疏 - f UT 10 人 021 N- 本 q 调 高 E ER 7o 和 5 二 让 5 > 图 9 北京 地 区 确诊 累计 病例 总 数 预测 曲线 图 10 预测 值 误 差分 析 从 图 象 可 以 看 出 :其 误差 最 大 波动 不 超过 24( 解 压 处 理 后 的 值 ) ,相对 误差 度 为 24339 =7.08% ,相对 于 前 两 个 模型 来 说 ,精度 已 经 完全 能 满足 需要 了 。 模型 四 :基于 分 支 过 程 (Branching Process) 的 Monte Carlo 仿真 模型 建立 随机 过 程 模型 ,用 分 支 过 程 (Branching Process) 来 描画 SARS 的 传播 过 程 ,并 按照 所 给 bi 口 | 第 7 期 SARS 传播 的 研究 41 aa _— 的 数据 对 疫情 蔓延 的 趋势 作出 预测 。 设 X， 为 第 ” 代 感 染 SARS 的 人 数 ,& 为 在 第 + 1 代 时 由 第 n 代 的 第 ; 个 个 体 产生 的 子 代 的 感染 人 数 。 如 图 11 所 示 。 为 一 族 相互 独立 且 服从 同一 分 布 (;.i .4 ) 的 非 负 整数 人 随机 变量 , 风 Xe 和 = Cn=12) 在 实际 的 模型 求解 中 ,按照 分 支 过程 理 论 , 疫 区 内 人 与 人 接触 产生 的 SARS 的 传播 是 独立 的 ,随机 的 。 对 这 种 大 量 的 、 随 机 的 行 为 的 描述 符合 计算 机 Monte Carlo 模拟 的 要 求 。 La 疫情 发 展 的 预测 ;( 具 体 变量 及 算法 略 ) 2 5 对 疫 区 内 SARS 的 传播 用 计算 机 进行 1000 次 模拟 。 我 从 遂 有 ES 0 北京 地 区 从 4 月 20 日 起 15 内 疫情 发 展 的 数据 ,选取 上 且 增 病 妆 殉 来 四 11 今 过 生 才 四。 撒 述 疫情 走势 。 每 次 的 模拟 结果 都 是 疫情 的 一 种 可 能 多 受 展 过 吾 。 | 对 比 实际 情形 和 模拟 铺 采 的 前 L 75 FT38 1 线 图 ,可 以 看 到 Nienre Carlo 仿真 得 天 的 曲线 与 实际 曲线 ， p 有 较 大 差异 。 作 出 如 下 改进 :在 评 算 税 入 环 模拟 时 ,通过 . 竺 一 守 训 围 出 以 一 定 步 长 油 衣 和 参 数 的 取 值 ,改变 增长 : 雪线 以 使得 尽量 多 的 昌 线 有 2 过 程 接近 于 实际 的 疫情 ， 的 变化 ,对 实际 数值 和 模 手 对 逢 用 最 小 二 乘法 衡量 其 相 cssaicas 。 似 程度 。 优 化 参数 取 值 ,得 到 最 优 的 目前 参数 值 。 由 这 四 12 北京 区 SaRS RIH TAANAR 些 参数 的 取 值 并 兼顾 考虑 疫情 发 展 带 来 的 参数 变化 ,再 进行 疫情 发 展 过 程 模拟 。 有 理由 认为 这 些 曲 合 志 采 随时 间 的 变化 从 概率 意义 上 表明 了 未 来 实际 疫情 的 发 展 趋势 MA 最 终 模拟 结果 对 比如 下 :( 为 了 直观 采用 直方 图 | | 亲王 = “图 | \\ 19 业 | — Sa 一 ae ” 本 ” = 下 4 = 让 2 员 把 ?ma | E H ||¥N 2 am arm earec TREEPOEEEEI 图 13 模 拟 得 到 的 SARS 疫情 的 日 增 病例 走势 、 结论 : . 1. 从 实际 与 模拟 走势 图 对 比 来 看 , 较 准确 的 由 已 知 的 15 天 的 数据 预测 了 其 后 疫情 的 发 展 状 况 ; ， 2. 横 拟 走势 图 中 在 日 增 量 降 到 0 后 ,还 会 有 一 些 随机 的 扰动 ,说 明 疫情 在 临近 结束 时 会 © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http:/Wwww.cnki.net bi 口 | & Eo 42 I B 数学 学 报 第 20 卷 有 和 零星 病例 的 出 现 ,假设 随机 仿真 中 这 段 时 间 无 限 延长 ,其 新 塔 病例 的 概率 将 无 限 趋 于 0。 5 模型 比较 和 评价 1. 模型 1 的 优点 在 于 考虑 的 因素 较为 全 面 ,更 能 体现 疫情 发 展 的 本 来 面貌 ;并 且 只 要 给 定 初始 值 就 可 进行 长 期 预测 ， 不 需要 大 量 的 数据 支持 ;缺点 在 于 模型 的 对 疫情 发 展 的 巴 测 不 是 很 准确 。 2. 模型 2 更 好 的 体现 了 外 界 对 疫情 发 展 的 控制 作用 ,能 对 SARS 的 有 效 控制 提供 重要 的 指导 依据 。 其 预测 结果 也 较为 准确 。 对 此 模型 我 们 进行 了 重点 的 研究 和 讨论 * 并 进行 了 几 个 重要 参量 的 灵敏 度 分 析 。 而 附件 1 所 给 的 模型 在 SARS 的 防御 控制 中 并 嗓 有 实质 的 意义 。 eV 3. 六 型 3 IE B 0 R RA 5, BIRAAE 0SKTTA 1TH8, L 依靠 大 量 的 输入 对 网 络 进行 不 断 的 训练 来 达到 对 复杂 系统 的 逼近 ,而 谷 遇 一 . 纯 预 测 值 , 但 由 于 是 网 络 内 部 的 调整 ,并 没有 对 现实 应 采取 娜 种 预 这 、 这 制 蕴 施 提供 很 守 丽 指导 性 的 支持 ， 所 以 在 此 方面 有 些 欠缺 。 AX 4B RICT SR ASR RIIE 18, 0000040 2 RTBAHh RhE BO12 R, Monte Carlo iR HRI FISBIN CBA WIRL (EEEEAAIER 2 RHRRE. 综 上 RI--MEEESUNERYEYREMRETRERORE, BEET BX FEBORLERREARLT SRORENAASEL —MRRAEHRA. # 别 的 ,我 们 可 以 综合 模型 2 和 模型 3 的 优点 ,用 神经 网 络 煤 型 预测 出 的 数据 来 规划 系统 控制 模型 中 的 参数 ,三保 证 了 模型 预测 疫情 趋势 的 准确 度 ,又 可 贰 模 型 中 各 参数 的 现实 指导 总 义 。 对 卫生 部 门 所 采取 的 措施 进香 评估 我 们 认为 卫生 部 门 所 采取 的 措施 是 行 之 有 效 的 。 通 过 “了 离 \"控制 传染 源 ,使 接触 传染 率 降低 ,再 加 上 全 社会 的 警惕 性 所 高 ,双管齐下 ,从 理论 上 是 能 得 到 较 好 的 效果 。 。 对 于 问题 3 的 回答 | 我 们 以 旅游 业 收入 为 记 准 ] 开 它 近 似 的 看 成 与 旅游 人 数 成 正比 的 线形 系统 。 问题 又 随 之 转化 为 SARS 对 旅游 大 数 的 影响 。 其 拟 售 出 的 往年 旅游 游客 图 和 2003 年 预测 图 如 下 35 \\ \\= 35 ao AP 和 < » Sr : sj 到 7 N 18 NS \" W, 4 8 8 10 12 2 4 O 8 1© 12 TAN， 图 14 前 凡 年 (从 1997 一 2002 年 ) 图 15 2003 年 海外 旅游 人 数 预测 图 : 假设 :y :为 年 份 ; Ni(y) :为 第 y 年 : 月 来 北京 旅游 的 海外 游客 数 。 Ni(y) :为 预测 中 的 第 年 月 来 北京 旅游 的 海外 游客 数 。 Aspy 为 2003 年 第 ; 月 ; 天 新 增 的 病例 数 ; 。 Adts 为 2003 年 第 月 天 新 增 的 疑似 病例 数 。 我 们 借助 考虑 经 济 学 中 的 效用 函数 的 原理 ,引入 三 个 影响 函数 : 忆 : 对 旅游 业 总 的 影响 尊 数 ; 更 > e 第 7 期 SARS 传播 的 研究 43 2Z :为 SARS 得 到 控制 消失 之 后 对 社会 的 后 效 性 影响 函数 。 我 们 提出 旅游 人 次 影响 模型 为 : Ni(y)=N(y) ……[14] ; ; 6- 和 2 (Am x (两 )+ 守卫 1 PP=pixGi+pzxZ 其 中 :pi,oz 为 两 部 分 所 占 的 权重 ,ol + pzi :为 修正 系数 。 关于 G 函数 的 说 明 :这 是 借鉴 了 经 济 学 中 著名 的 效用 函数 的 形式 。 一 关于 Z 的 两 点 说 明 : -从 1.2Z 的 作用 为 :产生 “SRAS 后 效 作用 \"( 在 6 月 ) 之 后 ,模仿 逐步 恢复 性 函数 SS 2. 至 于 1.1 ERARIRARRRS ARTRERDE HERRS 数值 。 ,基站 同时 期 的 权重 大 小 ,以 此 来 进行 对 经 济 影 响 的 模拟 。 2 2Z 函数 是 不 起 作用 的 ,只 有 G 郧 数 的 作用 体现 在 经 济 影响 本 数 日 ;6 胃 为 发 展 趋势 的 转折 点 ,Z 函数 逐渐 起 主导 作用,G 区 数 的 入 响 迅速 衰 间 HCxuRsERe s an 用 体现 在 经 济 影响 函 效 上 。 表 工 模型 求解 由 SN iT Ta M SCT B FoizgaRaak| Bw | wow | men | wen | mw | 三 AT 全 | nw | 二 | en | owe | 7 | zems 1 9 7 TAN wa 2 FosganiE | | nw | wow | 15 | 2 |men | TU | wews 长 7 | ams [woms \\R 于 是 ,我 们 最 终 给 出 的 在 有 无 SARS 影响 下 的 2003 2 — 年 海外 旅游 人 次 曲线 图 为 ( 见 图 16) 2 网 175 〈 黑 线 代 表 在 SARS 影响 下 的 旅游 人 次 变化 趋势 , 红 全 SA 线 是 预测 正常 情况 下 的 人 次 变化 趋势 ) 机 0， 有 预计 SARS 对 北京 2003 年 所 造成 的 经 济 损失 为 ; | AN: 损失 的 总 的 海外 旅游 人 数 ( 万 人 ) losspersons = SA 和 138.211( 万 人 ) 人 误差 分 析 :我 们 所 提出 的 旅游 人 口 模型 ,是 基于 我 们 1 用 多 项 式 拟 合 预测 出 的 正常 情况 下 应 该 具有 的 旅游 人 口 数 。 因 此 ,误差 来 自 两 方面 : 1) 多 项 式 拟 合 所 造成 的 误差 Si1,2) 模 型 本 身 的 误 善 S:。 最 终 误差 必定 满足 ; Si- S 委 S 委 Si+ S， 结论 为 : 0.16655<<S<C3.63011 (过 程 略 ) 所 以 我 们 对 自己 建立 的 模型 的 预测 能 力 基本 满意 。 问题 4: 写 给 报刊 的 短文 ( 略 ) EisE 后 狂 二 加 只 Re 44 工 程 数学 学报 第 20 卷 人 全 和 参考 文献 : [1] 姜 启 源 . 数学 模型 [M]. 北京 :高 等 教育 出 版 社 ,1993 [2] 赵 达 网 , 朱 迎 善 . 应 用 随机 过 程 [M]. 北京 :机械 工 业 出 版 社 ,1993 [3] 闻 新 等 .Matlab 神经 网 络 应 用 设计 [M] , 北京 :科学 出 版 社 ,2000 [4] Shi Yaolin. Stochastic dynamic model of SARS spreading[j] .www science.com,2003;9 The Study of the Spread of SARS 多 > = XIAO Hongjiang， WU Tong， LI Mingke _ \\ Advisor: HE Zu-guo 一 (Beijing University of Posts and Telecormmunicarions，Beii Abstract: This article compares the model in tke attachment 1,and cxamis its/method called \"Half - Imitation ~ Circulation - Caleulation” . The advar.tag of the modsl is itsease ,its high precision in the aspect of imitation, and its reasonable change of ine Value of \" 攻 \" .At the same tme, wEint ouf Shat is main drawback is thar it de pends on the date exsessivsiy and is not able to predict the sifbation for longer time、In the second question, we bring up four medels which are based on four different core methods: ( I)the model based on differenrial and dif- ference equations (2) the controling - model based on filter; (3) theumodel of neural network; (4)the simulation model based on Branching Process. In Model 2,we conclude that SARS will last 99 days in Beijing; the earlier it is controlledthe better if will becomesand SARS will no break out preadically. In the third question, we are en- lighted by the \"consequense function’ in egonomics,<0 we bring in three different influential functions to draw ou \"an influential model of the foreign wsidy, en we draw a conclusion that the city of Beijing will lose 1,382, 110 foreign visitors due to SARS.Finaly yy 有 a short composition to be printed on the local newspapers. Keywords: filter; neural network; branching proce { 上 接 28 页 ) j Mode 由 SARS Epidemic Considering Self-cure 2 LI Bei, XU Haixuan, GUO Jiajia 罗 ( Dalian University of Technology, Dalian 116024，China ) sw a SELuliR (susceptible，exposed，unisolated infectious，isolated infectious, recovered) na 1 with self-cure is built to model the SARS cpidemic. The problem is solved with two methods: one is ordi- 1 lfieséntial cquation which we then come to a conclusion that self-cure indecd exists in the SARS transmis- 除 the other is computer simulation based on the small-work network which we also absorb the basic ideas of the Sznajd and the cellular automation model，and then we discuss some parameters and the effects of vaccina- tion. At last we analyze the epidemic situation in Beijing and estimate the results if control measures are taken 5 days later or calier. Keywords: SARS; Sclf-cure; ordinary differential equation; Small-World Network; the Sznajd model; the cellu- lar automation model; simulation",
+  "normalized_text_chars": 15877,
+  "normalized_text_sha256": "43DF101EAFABBABBF018E2A264834FF46B3ED5463B6AA2B340F3DBC6974F1CC3",
+  "page_provenance_summary": {
+    "OCR": 10
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "3E58D7816C990F9EA24E4440DD6A9915DCEE728512FFE8F5B3CAC86DD95CCB14",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "32E70FEC816A3AF4820F8C31526474547BE04EFF66C33720D706BD7AAC0C5AC6"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "0FE4B4A5F4E3F548D1347C7ED3B15FE190238554EDD1CEB47EC9AF702372F61C",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "604DF14BDA76DEF2C7A85A308CCD7A3FEC9C51E70F71C901E7EB1EF4589586A1"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "065DC4B611DB7E27A968CBC00E33D2622A971F563E615B3D03832B7FD4BA6B49",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "DBF56BA0B4D5C9BCCA97F73B947325E373A9B2B034AA4F47ECF7B9565E457FC1"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "C1A45EB05C23D87DAFED9D52BAA4B316ACE3A4CC67B89B4B412AE285C4A2B91F",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "10683820CA0E828EC7BA74E41FB6709E23B66391B9F9C328CBD21F69C9A2D2E4"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "804EF4BFCB40F64A3F0BBB8B4CA8AF81FD4BF79FD1178E3DDCDE079114248983",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "56BF2106BEA98920905E411E6533307DF5C4D2A549931A0B9EC1C2F17E8E57D1"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "B9EB7112F96C1BF9A000CFC4D83D0DE1B6496AE55DF3896A6B5A50E7DFB6C732",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "1A35B2CAE7F8E8862B5983E09A8E6E1364ED56ABB1FB5FA902CA408318BA7CF7"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "CD31164A13F485F071DD34E3C0850967BF8D37DA7E7A897A31302542B250E80E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B53F1620FF06254910DB832438987284479B70E808FA0119A1530B47FBBDE04C"
+    },
+    {
+      "page_number": 8,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "F7CBAF6FED53EA1A8C8D42DE15F2B164061D6E286875797FBEB9F3175600AA93",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 8,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "0093AD32ED9C3BB2B0868D411393E9349629C07D6DBD039270D0161A4BBA83B5"
+    },
+    {
+      "page_number": 9,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "801D4F65459D3A486BE5003CD522DD2AA569E743A3CF72A0C678976B9A3CA91E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 9,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "A7479AEA3443DEB2882540E9E3DFD60E4106496600DC5173E682C86997B486F1"
+    },
+    {
+      "page_number": 10,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "90026AED1A72FC70F0050E68C421E5638AC9750E946DD1956DC1542806D98192",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 10,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "D657C0455CE588865ECD6B316C1AE22054478D16B8DF46701776034BC85CB863"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

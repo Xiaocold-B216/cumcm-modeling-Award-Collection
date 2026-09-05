@@ -1,0 +1,367 @@
+1期
+
+赵桂芹: 刀具问题的仿真及灵敏度分析
+
+103
+
+灵敏度分析
+
+3
+
+为方便起见, 我们仅在策略g 下, 比较参数改变后 u , n 的变化情况
+11p 1 = 0. 99 其余参数值不变
+295
+
+300
+
+305
+
+310
+
+28
+
+7. 385
+
+7. 384
+
+7. 395
+
+7. 296
+
+7. 491
+
+31
+
+7. 420
+
+7. 371
+
+7. 312
+
+7. 348
+
+7. 313
+
+34
+
+7. 312
+
+7. 293
+
+7. 231
+
+7. 333
+
+37
+
+7. 284
+
+7. 332
+
+7. 428
+
+7. 428
+
+u
+
+290
+
+300
+
+310
+
+320
+
+30
+
+9. 254
+
+9. 230
+
+9. 247
+
+9. 218
+
+35
+
+9. 260
+
+9. 204
+
+9. 203
+
+9. 285
+
+7. 415
+
+40
+
+9. 283
+
+9. 229
+
+9. 204
+
+9. 208
+
+7. 361
+
+45
+
+9. 247
+
+9. 193
+
+9. 206
+
+9. 354
+
+p 1 = 0199 时, 与问题 2 相比, 单价下
+
+降, u 减小, n 增大, 这是因为刀具生产零件
+的情况变好, 而 p 2 变小, 类似于 p 1 变大, 同
+
+n
+
+300
+
+305
+
+310
+
+315
+
+320
+
+70
+
+6. 793
+
+6. 789
+
+流
+
+290
+
+n
+
+6. 745
+
+6. 733
+
+6. 708
+
+75
+
+6. 698
+
+6. 866
+
+6. 847
+
+6. 793
+
+6. 803
+
+80
+
+6. 700
+
+6. 677
+
+6. 690
+
+6. 663
+
+u
+
+n
+
+交
+
+u
+
+21p 2 = 0. 3, 其余参数值不变
+
+31k = 800, 其余参数值不变
+u
+
+：
+科
+
+研
+
+6. 679
+时还可看到 p 1 对单位正品价格影响较大,
+85
+6. 726
+6. 721
+6. 710
+6. 710
+6. 696
+而 p 2 对单位正品价格影响较小.
+21f = 100, 其余参数值不变
+与问题 2 相比, n 增大, 这是因为 f 降低后, 坏零件损失费用减小, 因而其相对于整个检
+查费用变小, 从而可以加大检查间隔.
+
+d = 4000, 其余参数值不变
+
+265
+
+270
+
+275
+
+260
+
+265
+
+270
+
+275
+
+280
+
+45
+
+8. 679
+
+8. 689
+
+8. 651
+
+8. 812
+
+8. 768
+
+30
+
+9. 676
+
+9. 632
+
+9. 600
+
+9. 707
+
+9. 635
+
+50
+
+8. 694
+
+8. 789
+
+8. 687
+
+8. 753
+
+8. 691
+
+35
+
+9. 663
+
+9. 630
+
+9. 574
+
+9. 543
+
+9. 538
+
+55
+
+8. 665
+
+8. 667
+
+8. 640
+
+8. 600
+
+8. 830
+
+40
+
+9. 602
+
+9. 585
+
+9. 538
+
+9. 545
+
+9. 520
+
+60
+
+8. 715
+
+8. 736
+
+8. 713
+
+8. 653
+
+8. 697
+
+45
+
+9. 567
+
+9. 522
+
+9. 539
+
+9. 665
+
+9. 620
+
+n
+
+公
+众
+
+号
+
+280
+
+u
+
+260
+
+n
+
+信
+
+与问题 2 比较, u 减小, 这是因为 k 减小后, 预防性换刀次数增加可减少总费用, 而 d 增
+加后, 故障后换刀费用对整个检查费用的影响变大, 因而提前换刀才可以减小单位正品费
+用. 对 t 也可以做类似分析.
+
+微
+
+The Sim ula tion and Sen sitiv ity Ana lysis for Kn ife Problem
+ZHAO Gu i2qin,
+
+ZHOU L in
+
+(Sou thea st U n iversity, N an jing
+
+Abstract:
+
+210096)
+
+A s to the p rob lem A in CM CM - 99, th is a rticle firstly sea rch ou t the app rox im a te
+
+op tim a l so lu tion to kn ife2rep lacem en t p eriod, check p eriod and the m in im um co st fo r un it good 2
+p roduct th rough com p u ter a rtificia l sim u la tion, and then have sen sitivity ana lysis fo r p 1 ( the
+p robab ility of good 2p roduct p roduced by good kn ife ) , p 2 ( the p robab ility of good 2p roduct p ro 2
+duced by bad kn ife ) , k , f , d , a t la st concludes tha t u ( the kn ife2rep lacem en t p eriod ) is the
+m o st im po rtan t op tim izing p a ram eter.
+
+© 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

@@ -1,0 +1,39 @@
+附录 4
+汉
+ETDIEESTIUEITZESCTIG 卫生
+[03646r+2347 | won |
+EEC 本 天
+Tw| mevewres |wow 天
+全 2-5622 |
+005 | oil
+ET 到 本 SU
+EEC 本 IT 和
+人 ro
+ao007P 0977+590 | 9
+人 3
+人 2572 | swm|
+人 ar |
+ooor+666L | w.on |
+- 公 .
+[|
+[ore | ww|
+w| ssomsp-overens | wam
+[too54r+7o89 | 2 |
+T or-ad5 | ai |
+人 oggr-4oL | oo |
+人 aas |
+附录 5
+本 文 代码 使 用 的 软件 是 MatlabR2018b
+1. 乙醇 转化 率 的 三 次 样 条 插值 :
+2. xl =[256,275,366,325,356];x2=[256,275,366,325,356,466];
+3.  x3=[250,275,300,350,400];x4=[250,275,300,325,350,400];
+4 中 = Y(1:5,1)"; y2=Y(1:5,2)";
+5. new_x =250:25:400;
+6. p1=[];
+7. pl = [pl,spline(x1,yl,new_x)'];
+8. pl = [pl,spline(x1l,y2,new_x) '"];% 三 次 样 条 插值
+9. for i=3:5
+10. yi=Y(:,i)";
+11. pl = [pl,spline(x2,yi,new_x)'];
+12.  end
+22

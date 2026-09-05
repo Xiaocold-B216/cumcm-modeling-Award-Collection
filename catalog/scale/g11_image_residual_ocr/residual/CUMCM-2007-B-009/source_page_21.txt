@@ -1,0 +1,29 @@
+BIRE
+- u 出
+EEEE
+模型 建立
+目标 函数 : Min > Min(w, (u, v), w, (u,v).x,,
+约束 条 件 ，4 >0 ”
+x,, €{0.1}
+ne{0L}
+模型 求解 A7
+SSR 7
+Suepl; 对 所 有 的 节点 大 \
+IF u#A, THEN L(u)=w; ELSE L(u)=0; S= 1
+A) )
+Srep2: 选取 不 在 集合 8 中 的 ,Zeoy 值 最 小 的 节点 w， 人
+Step3: 对 所 有 的 节 咎 9 veS， 2
+A L(v) = Min[L(v), L() + w; (u,v), L(u)+ wy(@hsv)], Pre(v)=u,
+其 中 ，m(ey) 二 1 十 4 切 OFEGOY7] ta} ，
+on O
+不 ZO)=ZGO+ 3 THEN f(v)=0 ELSE f(v)=1;
+IF f(v) d (u=A or f(u)=0),
+THEN CN jj=0，;
+EISE-B R(u,v)"R,(u)=¢, THEN R,(v)=R(u,v), n=1;
+ELF {FE0) = Run) nRw). n=0;
+7
+Step4 : r \ael THEN GOTO Step5, ELSE GOTO Step?;
+YA-
+So 形成 最 优 路 径 A(vy) -六 一 BO)， 通 过 Pre(y) 与 RO)
+欢 终点 巨 反 向 递归 查找 全 路 径 与 节点 ， 算 法 结束 。
+21

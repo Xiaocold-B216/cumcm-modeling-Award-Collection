@@ -1,0 +1,65 @@
+附录：
+
+交
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+代码文件名与问题的对应关系
+情况一方法一第一组：Situation1Team1.m
+情况一方法一第二组：Situation1Team2.m
+情况一方法一第三组：Situation1Team3.m
+情况二方法一第一组：Situation2Team1.m
+情况二方法一第二组：Situation2Team2.m
+情况二方法一第三组：Situation3Team3.m
+单工序情况三方法一第一组：Situation3_1Team1.m
+单工序情况三方法一第二组：Situation3_1Team2.m
+单工序情况三方法一第三组：Situation3_1Team3.m
+双工序情况三方法一第一组：Situation3_2Team1.m
+双工序情况三方法一第二组：Situation3_2Team2.m
+双工序情况三方法一第三组：Situation3_2Team3.m
+情况一方法二第一组：Simplify_Situation1Team1.m
+情况一方法二第二组：Simplify_Situation1Team2.m
+情况一方法二第三组：Simplify_Situation1Team3.m
+情况二方法二第一组：Simplify_Situation2Team1.m
+情况二方法二第二组：Simplify_Situation2Team2.m
+情况二方法二第三组：Simplify_Situation3Team3.m
+单工序情况三方法二第一组：Simplify_Situation3_1Team1.m
+单工序情况三方法二第二组：Simplify_Situation3_1Team2.m
+单工序情况三方法二第三组：Simplify_Situation3_1Team3.m
+双工序情况三方法二第一组：Simplify_Situation3_2Team1.m
+双工序情况三方法二第二组：Simplify_Situation3_2Team2.m
+双工序情况三方法二第三组：Simplify_Situation3_2Team3.m
+绘图的代码：Plot.m
+模型的检验的代码：ModelTest.m
+
+流
+
+所有代码基于 Matlab R2018a
+
+微
+
+由于同类型不同组的代码高度相似，下文仅给出各类型第一组的代码。
+用于情况一方法一第一组的代码
+Situation1Team1.m
+%情况 1 下的代码
+clear;clc;
+%% 计时
+tic
+%% 输入不同组别参数
+Move=[0,20,33,46];%第一组[0,20,33,46] 第二组[0,23,41,59] 第三组[0,18,32,46]
+Work=560;%第一组 560 第二组 580 第三组 545
+Switch=repmat([28,31],1,4);%第一组[28,31] 第二组[30,35] 第三组[27,32]
+25
+
+

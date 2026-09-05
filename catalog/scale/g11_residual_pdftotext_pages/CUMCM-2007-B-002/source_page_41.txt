@@ -1,0 +1,80 @@
+/*
+
+ofstream fout("各公汽站信息.txt");
+for (int i=0; i<AllBuses.size(); ++i)
+{
+fout << i+1 << ": ";
+for (int j=0; j<AllBuses[i].size(); ++j)
+{
+fout << AllBuses[i][j] << " " ;
+
+流
+
+}
+
+研
+
+ww
+
+交
+
+}
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+fout << endl;
+
+for (int i=0; i<520; ++i)
+{
+
+：
+科
+
+ofstream fout1("各公路线路重合站点信息.txt");
+
+for (int j=i; j<520; ++j)
+{
+
+for (int k=0; k<RoadCrossInfo[i][j].size(); ++k)
+
+号
+
+{
+}
+
+众
+
+fout1 << RoadCrossInfo[i][j][k] << " ";
+
+}
+
+微
+
+信
+
+*/
+
+公
+
+fout1 << endl;
+}
+
+10.3 问题二的相关程序
+
+10.3.1（文件名：CalculateStandars.h）
+#include <vector>
+#include <map>
+#include <fstream>
+#include "LoadMessage.h"
+#include <string>
+#include <iomanip>
+#include "CalulateWays.h"
+
+41
+
+

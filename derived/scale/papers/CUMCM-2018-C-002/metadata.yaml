@@ -1,0 +1,47 @@
+paper_id: CUMCM-2018-C-002
+year: 2018
+problem: C
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018C：大型百货商场会员画像描述.pdf
+  sha256: 13F2064CB213F797F83BBA49F19EC22DCA83F1924B51D7AF4EC0A1759C74BF24
+authority_sha256: 13F2064CB213F797F83BBA49F19EC22DCA83F1924B51D7AF4EC0A1759C74BF24
+paper_file_memberships:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018C：大型百货商场会员画像描述.pdf
+  role: primary
+  canonical: true
+primary_file: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018C：大型百货商场会员画像描述.pdf
+extraction_inputs:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018C：大型百货商场会员画像描述.pdf
+  sha256: 13F2064CB213F797F83BBA49F19EC22DCA83F1924B51D7AF4EC0A1759C74BF24
+  kind: original
+extraction_input_sha256: 13F2064CB213F797F83BBA49F19EC22DCA83F1924B51D7AF4EC0A1759C74BF24
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 15
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_10.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_11.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_12.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_13.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_14.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_15.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_7.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_8.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-C-002/source_page_9.txt"]
+  source_sha256: 13F2064CB213F797F83BBA49F19EC22DCA83F1924B51D7AF4EC0A1759C74BF24
+  current_body_sha256: FBB25C5B485A8F16529C31BC57C4643ACBB05DC3CEABCEEE71C9B19242CDCD1B
+  candidate_body_sha256: B7BF41A9F0C6A43F87C01ED3DA8CFC056FA13FBA108A54FF96EF8FE89BB14C80
+  source_page_count: 15
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

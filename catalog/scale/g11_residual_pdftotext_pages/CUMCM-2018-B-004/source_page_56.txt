@@ -1,0 +1,39 @@
+Error=[Error;NEXT,MinNumber,StartTime,StartTime+ProcessTime,0];%记录故障信
+息
+end
+end
+Position=ceil(MinNumber/2);%更新位置
+end
+while ~(Rec(end,6)+Expect(3,MinNumber)+Wash<=28800)
+Rec(end,:)=[];
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+%% 计算
+SUM=size(Rec,1)-size(Error,1);%成料数
+WAIT=(Rec(end,6)*8-size(Rec,1)*sum(Work))/8;%CNC 平均非有效工作时长
+Last=Rec(end,6)+Expect(3,MinNumber)+Wash;%最终完成物料清洗时刻
+%% 计时
+toc
+
+56
+
+

@@ -1,0 +1,32 @@
+% 分 界线 : 上 面 是 命中 点 ， 下 面 是 法 线
+a=X()-X@): b= Y()-YQ):
+©=X@)X@): d= Y2)YO):
+uvw = ([ab; ¢ dN[Z2)-Z(1): ZBYZ2))'s
+uvwCeendrD =
+uvw_abr= Polar.xyz2abr(-uvw);
+uvw_abr(.2) = pi/2-(pi/2-uvw_abr(:2)).*2;
+uvw_abrG3) =
+uvw = -Polarabr2syz(uvw_abr);
+ratio = (-(1-Constant FR_ratio).* Constant.sphere_radius-xyz(:.3))vw(:3):
+ratio(ratio < 0) = NaN; % 同 向 达 不 到 馈 源 舱 的 情况 下 pass
+dst= xyztratio wuvw;
+assertalltabsdst(:.3)+(1-ConstantFR_ratio).*Constantsphersuraidiasj-<-sdrteps)
+isnan(ratio)));
+ratio(sum(dst(:,1:2)#dst(:,1:2),2) > 0.5.20.5) = NaN; % 反射 馈 源 舱 平 面 时 超过 馈
+源 舱 圆 圈 的 情况 下 pass
+ratio(sum(xyz(;,1:2).*%y2(:.1:2).2) 三 0.5.*0.5) = NaN: % 入 射 被 馈 源 舱 遮 挡 的 情况
+下 pass
+ratio(sum(xyz(:.1:2).*xyz(:1:2).2) > 150.4150) = NaN: % 超出 150 口径 圆 面 pass
+zsnantmatio)D)= NaN;
+uvw = ratio. fuvw;
+assert(size(xyz,1) 一 size(wvw.1)),
+end
+probl.m: 问题 1 的 结果 可 视 化 、 检 验
+% 本 文件 原名 probl.m
+Gok<*DEFNU>
+clear
+elear global
+close all
+[LE angle300] = probl_cale():
+elf reset
+33

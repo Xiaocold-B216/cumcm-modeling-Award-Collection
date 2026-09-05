@@ -1,0 +1,64 @@
+[spher_rad, focal_rad angle] = Constant.get_rad_angle();
+
+pspher  = [-spher_rad*cos(angle( 1)) -spher_rad*sin(angle( 1))]:
+
+p_spher_end = [-spher_rad*cos(angle(end)), -spher_rad*sin(angle(end))J;
+
+p_focal [-focal_rad*cos(angle(  1)), -focal_rad*sin(angle(  1));
+
+p_focal_end = [-focal_rad* cos(angle(end)), -focal_rad*sinangle(end))}:
+
+v_sph = [cos(pi/2 tangle(1)) sinpi/2 angle(1))]:
+
+p.S=illups:
+
+p_P= [0-focal_rad];
+
+pP_Q= [0-spher rad+20]:
+
+PT=[0p PC)+2*(p_QC)-P PC
+
+hold(on');
+
+%6 基准 贺 弧
+
+draw_2d_are focal_ and_basespher rad, focal_rad, angle);
+
+%6 焦 径 比 和 R300
+
+standard_distance_tag(angle, p_spher, P_spher end pcal p_focal end, v_sph,
+font_opts);
+
+% 标记 定点
+
+plot(p_S(1), p_S);*K, MarkerSize’, 14, "LineWidih', 2),
+
+plot(p_P(1); p_P(2)K' "MarkerSize', 22, LineWidth', 2);
+
+plot(p_Q(1). p_Q(R)"K' 'MarkerSize', 22, 'LineWidth' 2);
+
+plot(p_T(1), p_T(2),"K, MarkerSize’, 22, "LineWidl, 2);
+
+Plot(0,0;K, MarkerSize', 2, "LineWidih, 2),
+
+text(p_S(1)+10, p_S(2)+30, "EAF, font_opis{ Liend-2});
+
+text(p_S(1)+20, p_S(2), "boldmathSSS, font_opts{:}):
+
+text(p_P(1)+15. p_P(2)+15. "boldmathSPS, font_opisf:}):
+
+textp_QCD+15, p_Q(2)+15. "boldmathSQS. font opts{:}):
+
+text(p_T(1)+15, p_T(2)+10, "boldmathSTS, font_opis{:});
+
+1ext(0+15, 0, "boldmathSCS, font_opts{:});
+
+2% SCPQT 中 轴线
+
+plot([p_S(1), P_TCOD [p_S(2). p_T)}~K', LineWidth', 2);
+
+% 文字 tag
+
+text(p_spher_end(1)-40, p_spher_end(2)-70, "基准 球面
+
+48

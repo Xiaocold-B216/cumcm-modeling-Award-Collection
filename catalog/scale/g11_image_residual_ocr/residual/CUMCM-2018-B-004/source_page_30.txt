@@ -1,0 +1,49 @@
+an
+下
+近
+加 只 RN
+else
+Left(k)=Left(k)-Expect(,MinNumber)-Wash;
+end
+end
+Left(MinNumber)=Work(2)-Wash;
+end
+Position=ceil(MinNumber/2);% 更 新 位 置
+end
+Rec=[RecTempRec];% 记 录 本 次 刀具 分 布 情况 下 的 完整 加 工 情况
+Statistics=[Statistics;0,0];% 统 计 本 次 刀具 分 布 情况 下 的 成 功 加 工 数 和 失败 加 工 数
+for k=1:size(TempRec,1)
+if isnan(sum(TempRec(k,:))) A7
+Statistics(end,2)=Statistics(end,2)+1; 一 NY
+else o/z 由
+Statistics(end,1)=Statistics(end,1)+1;
+end ood
+end
+end As
+end 会
+%9%6 对 所 有 情况 数据 的 分 析 X
+Rec(1)=[]; K
+MaxProduct=max(Statistics(:,1));% 最 大 产量
+CompleteTime=inf;% 产 量 最 大 情况 下 的 最 短 完 成 时 间
+Bestplan-cell(.3;% 产 量 最 大 旦 完成 网 丫 最 得 的 物料 加 工 情 况
+人
+fori=l:size(Rec,2)% 找 出 产量 最 大 情况 :的 入 短 完 成 时 间
+if Statistics(i,1)==MaxProduct
+for Cn
+J =
+if ~isnan(Rec{L,i}j,6))
+i}(j,6)<=CompleteTime
+o 】 ah
+7 end
+下 C-
+含 nd
+a
+end
+fori=1:size(Rec2)% 找 出 产量 最 大 且 完 成 时 间 最 短 的 所 有 方案 并 记录
+if Statistics(i,1)==MaxProduct
+for j=size(Rec{1,i},1):-1:1
+if ~isnan(Rec{1,i}(j,6))
+if Rec{1,i}(j,6)==CompleteTime
+BestPlan=[BestPlan,Rec{1,i}];
+BestKnife=[BestKnife;Order(i,:)];
+30

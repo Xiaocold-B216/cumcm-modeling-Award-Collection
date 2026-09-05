@@ -1,0 +1,65 @@
+附录：
+
+问题 2 程序
+1、按照公司三的评估总费用为：
+#include<stdio.h>
+#include<math.h>
+
+流
+
+void main()
+{
+
+交
+
+double h1,h2,w;
+
+研
+
+double a,b;
+
+for(h1=0;h1<=8;h1+=0.001)
+
+：
+科
+
+double min = 10000;
+
+for(h2=0;h2<=8;h2+=0.001)
+
+号
+
+{
+
+众
+
+if(h1+h2>8)
+continue;
+
+公
+
+w=27.2*sqrt(25+h2*h2)+(sqrt((5-h1+8-h1-h2)*(5-h1+8-h1-h2)+225)+h1)*7.2;
+
+{
+min=w;
+
+微
+
+信
+
+if(min>w)
+
+a=h1;
+b=h2;
+}
+
+}
+printf("%f \n",min);
+printf("%f
+
+%f \n",a,b);
+
+}
+15
+
+

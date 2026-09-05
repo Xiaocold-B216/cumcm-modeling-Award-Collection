@@ -1,0 +1,41 @@
+回味
+EeE
+和
+七 、 附 录
+源 程序 1:
+使 用 软件 : SQL Server 2008 R2
+use Contest;
+-创建 总 表 ----------------------------
+select sd.djh,sd.spbm,sd.sj,sd.sl,sd.je.sd.dtime,sd.syjh,vsd.kh as
+vsd_kh,vsd.spme,vsd.jf,vsd.gzbm,vsd.gzme,vi.kh as vi_kh,vi.csny as vi_csny,vi.xb as vi_xb,vi.djsj as
+vi_disj
+into total
+from sale_detail sd
+left join vip_sale_detail vsd b
+on (sd.djh=vsd.djh and sd.dtime=vsd.dtime and sd je=vsd.je and sd.sj=vsd.sj and sdsfs
+sd.spbm=vsd.spbm and sd.syjh=vsd.syjh) A \
+left join vip_information vi on vsd.kh=vi.kh Z : 1
+-创建 该 商场 会 员 消费 明细 表 ---…----------- 任
+select * into mall_ vip_sale_detail 全
+from total -
+where vsd_kh is not null and vi_kh is not null
+(|
+一声 会员 省 人
+select * into mall_notvip_sale_detail 人
+from total
+where vsd_kh is null and “证
+~
+创建 以 会 员 消 费时 间 为 主 的 ,该 商场 会 员 消费 明细 表 ---------------
+二 信
+vsd.kh,vsdidti sd.spbm,vsd.sl,vsd.sj,vsd.je,vsd.spme,vsd.jf,vsd.syjh,vsd.djh,vsd.gzbm,vsd.gzme,vi.
+kh as os vidjsi
+info yfime mall vip_sale_detail
+& / N sale_detail vsd,vip_information vi
+WII 性 sd.kh=vi.kh
+第 一 间
+购买 力 维度
+select vi_kh as 会 员 卡号 ,count(vi_kh) as 会 员 消费 宗 数 ,SUM(je) as 会 员 消 费 总 金额 ,SUM(sD as
+会 员 购买 数量
+from vtime_mall_vip_sale_detail -- 会 员
+group by vi_kh;
+22

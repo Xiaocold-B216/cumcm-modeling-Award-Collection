@@ -1,0 +1,46 @@
+Eli
+多 二 是
+
+for i=ml+m2+m3+1:m1+m2+m3+m4-1
+AGiD=1+2#r4;
+AGiD=-r4;
+
+AGLiHD=-r4;
+end
+A(m,m)=h+lam_4/derta_x4;
+A(m,m-1)=-lam_4/derta_x4;
+%% 升 横 右 端 项
+for k=2:n+1
+b=zeros(m,1); 一 A
+for i=2:m-1 e \
+b(i, 1)=u(i+1,k-1; 2XG
+end
+b(1,1)=u(2,k-1)+r1*u(1,k);
+b(m1,1)=0; 任
+b(m1+m2,1)=0;
+b(m1+m2+m3,1)=0; X
+b(m,1)=37*h; 多
+%% 追赶 法 求解 方程 @
+bb=diag(A)’; O
+aa=[0,diag(A,-1)']; %%
+c=diag(A,1);
+N=length(bb); 放
+L=zeros(N); Y
+uu0=0;y0=0;aa(1)=0;—"
+LOD-pp(Dnao0) 和
+y(1)=(b(1)-y0*aa( Yo
+oo
+for 所 内 -站
+二 ro
+
+)-y(i-1)*aa(i))/L(i);
+wui)=c(i)/L(i);
+end
+L(N)=bb(N)-aa(N)*uu(N-1);
+YN)=(b(N)-y(N-1)*aa(N))/L(N);
+X(N)=y(N);
+for i=(N-1):-1:1
+x(D=y()-uu(D)*x(i+1);
+end
+
+42

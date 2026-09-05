@@ -1,0 +1,44 @@
+i
+40 工 程 数 学 学 报 第 22 卷 :
+: 数据 的 平均 值 来 刻画 出 整体 的 情况 〈 即 水 文 年 中 的 数据 ) ， 利 用 MATLAB 编程 ， 可 分 别 求 得 ，
+H 一 年 内 干流 中 IV、V 类 水 直 分 比 之 和 Pi 与 总 流量 v 和 排放 量 mm 的 函数 关系 。 以 及 V、V、 劣 ，
+， V 类 水 百分比 之 和 pa 与 v 和 mm 的 函数 关系 。 实 际 情况 中 ， 总 流量 的 变化 很 小 ， 所 以 取 前 10
+年 总 流量 的 平均 值 来 代替 ， 即 v = 9894.1 亿 立 方 米 ， 得 到 简化 的 模型 :
+: p1 = 0.15497m —~ 20.1926 22 = 0.2059m ~ 28.9729 :
+: 3.4.2 满足 函数 关系 约束 下 废水 排放 量 的 极限 值 1
+一 年 内 干流 中 以 、V 类 水 百分比 之 和 要 小 于 20 锅 ， 即 p; = 0.15497m -- 20.1926 < 0.2; 一 年
+内 干流 中 劣 V 类 水 百分比 要 不 大 于 0， 那 么 V、V 、 劣 V 类 水 百分比 之 和 应 该 小 于 等 于 IV、V
+类 水 百分比 之 和 ， 即 py = 0.2059m — 28.9729 < 0.2， 取 两 种 约束 范围 的 交集 ， 得 到 废水 排放 量
+: 的 极限 为 mmez = 131.59 亿 吨 。 |
+， 3.4.3 ”未 来 10 年 内 废水 排放 量 的 预测 值 1
+利用 灰色 GM(L1) 模型 进行 预测 ， 得 到 未 来 10 年 污水 排放 量 的 预测 值 :
+， {303.01, 322.52, 343.29, 365.39, 388.92, 413.96, 440.61, 468.98, 499.18， 531.32} 〈 亿 吨 ) :
+1 3.4.4 未 来 10 年 内 的 污水 处 理 量 的 预测 值
+1 用 排污 量 的 预测 值 减 去 极限 值 ， 得 到 未 来 十 年 的 污水 处 理 量 :
+。 {171.42,190.93,211.7, 233.8, 257.33, 282.37, 309.02, 337.39, 367.59, 399:73} 邱 亿 吨 ) 1
+4 ”模型 的 评价 和 改进 ( 略 )
+| 参考 文献 ;
+H (1] 岳 超 源 . 决策 理论 与 方法 [M]. 北京 :科学 出 版 社 ，2003
+3 (2] 郑 彤 等 , 环境 系统 数学 模型 [M], 北京 ， 化 学 工业 出 版 社 ，2003 ，
+[3j 韩 中 庚 , 数学 建 模 方法 及 其 应 用 [M], 北京 ;高 等 教育 出 版 社 ，2005 H
+: (4) 张 树 京 等 , 时 间 序列 分 析 简 明教 程 [M], 北京 : 清华 大 学 出 版 社 ，2003 ， :
+i An Evaluation and Prediction Model of Water Quality 了
+ZHANG Zhen, ZHANG Chao, ZHANG Hao !
+‘ Instructor: Imstructor Group i
+H ( Tnstitute of Information Engineering, Information Engineering University, PLA, Zhengzhou 450002 )
+: Abstract: The difference of water quality and quantity have an effect on the comprehensive evaluation of water H
+quality. At first an ”S” -like variable-value function dynamically weights the pollution evaluation standards of
+1 identical kinds for different water quality categories. Then, by making an evaluation model based on TOPSIS :
+. and using the analysis method of Grey Correlation, the water quality of Changjiang River is evaluated. Secondly, §
+the main stream is divided into eight parts according to the positions of the seven observation points. All the
+t polluting sources in each part are equal to a continuously stable source in the center of the part. By using ;
+: the one-dimensional water quality model in the stable state and Quality Conservation Law to get the monthly
+pollutant amount in the middle six parts, and by comprehensively comparing the pollutant amount of different 了
+. parts over one year, the distribution area of the main polluting sources can be got. Thirdly, the description of :
+the state of water quality by the yearly undrinkable water percentage is made, and by using of the Grey GM(1,1)
+model and time sequence analysis method, the variation tendency is estimated. Last, in light of developing a 。
+linear regression model of the undrinkable water percentage in relation to the overall How and waste water flow
+in Changjiang River, the limit of pollutant amount under restrictions is resolved. By subtracting the limit from 四
+the estimation value of pollutant amount, the waste water disposal amount can be predicted in ten years. 1
+Keywords: TOPSIS; greycorrelation; one-dimensional water quality model; GM(1,1) model; time sequence B
+analysis; linear regression :

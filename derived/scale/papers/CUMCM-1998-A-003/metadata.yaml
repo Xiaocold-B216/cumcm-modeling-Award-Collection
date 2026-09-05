@@ -1,0 +1,42 @@
+paper_id: CUMCM-1998-A-003
+year: 1998
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q3
+authority_sources:
+- path: 1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：风险投资分析.pdf
+  sha256: 19DA6A21AD3A826D90A072E50FA5FB10605FF97F821011E073598D9FE9C4AA3A
+authority_sha256: 19DA6A21AD3A826D90A072E50FA5FB10605FF97F821011E073598D9FE9C4AA3A
+paper_file_memberships:
+- path: 1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：风险投资分析.pdf
+  role: primary
+  canonical: true
+primary_file: 1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：风险投资分析.pdf
+extraction_inputs:
+- path: catalog/scale/g8_q3_batch_repair/CUMCM-1998-A-003/normalized_body.txt
+  sha256: 424BD4264357F21B8D1F23869B5858BA427F3FEE06B68ECABC5686A2555342D9
+  kind: final_q3_batch_persistence
+extraction_input_sha256: 424BD4264357F21B8D1F23869B5858BA427F3FEE06B68ECABC5686A2555342D9
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q3 Extraction Contract
+  source_page_numbering: 1-based
+  stage: G8-Q3-FORMAL-ARTIFACT-GENERATION
+primary_extraction_backend: final Q3 batch persistence
+page_extraction_backend: final Q3 batch persistence
+page_count: 6
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_final_q3_batch_persistence
+generated_from_frozen_sources: true
+source_pdf_path: 1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：风险投资分析.pdf
+source_pdf_sha256: 19DA6A21AD3A826D90A072E50FA5FB10605FF97F821011E073598D9FE9C4AA3A
+final_batch_persistence_path: catalog/scale/g8_q3_batch_repair/CUMCM-1998-A-003/manifest.json
+final_body_path: catalog/scale/g8_q3_batch_repair/CUMCM-1998-A-003/normalized_body.txt
+source_body_sha256: 424BD4264357F21B8D1F23869B5858BA427F3FEE06B68ECABC5686A2555342D9
+refinement_version: g8-q3-refinement-v1
+refinement_contract_sha256: 7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7
+refinement_evidence_fingerprint: 8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99
+q3_extraction_contract_sha256: 4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F
+revalidation_attempt_id: 20260903T063950668735_29d8de39
+formal_generation_attempt_id: 20260903T071531890631_0e2ef355

@@ -1,0 +1,47 @@
+ERE
+前
+Ne  Re
+S[i] --;// 此 时 若 S 为 正 , 则 说 明 CNC 机 器 经 过 S[j] 秒 后 可 以 加 工 下 一 任务 ;
+/车 $ 为 负 ， 则 说 明 CNC 机 器 已 经 加 工 完毕 ， 等 待 S[ 秘
+}
+begin = 0;
+}
+}
+out(endtime);
+cout<<num<<endl;
+return 0;
+ki
+result2: 我 们 使 用 第 一 组 数据 为 例 #7
+#include<iostream> 一 NY
+#include<cmath> += 由
+#include<ctime>
+#include<stdlib.h>
+#define inf 5000/ 无 穷 大
+using namespace std; As
+int ons = 20, tws = 33, ths = 46; 人
+int pro[2] = {400,378};/ 加 工时 间 ,CNC1=455,CNC2= 2
+intrep[9] = {0,28,31,28,31,28,31,28,31};
+bool type[9] = {0,0,1,0,1,0,1,0,1};
+intput down = 25; @
+intL[2][9][9] = {0}; $O, 9
+double randnum=0; YA
+double breaktime = 0;
+double runtime = 0; 放
+double randuni(){ 一
+return rand()* wagym Yik 1.0);
+}
+class item {//iz 2 Mhbe
+publi 0 编号 ， 进 入 CNC1 时 间 ， 出 CNC1 时 间 ， 进 CNC2 时 间 ， 出 CNC2 时 间
+Eee ;CNC1l,intimel,outtimel,CNC2,intime2,outtime2;
+JS
+Shene
+public:
+int xuhao,NoCNC;/ 错 误 的 物料 序号 ， 当 前 的 CNC 编号
+int occ time,fix_time;// 错 误 开 始 时 间 ， 修 复 时 间
+IS
+error_ error[20];
+int error times = 0;
+item it[500];
+inthold_ CNC[9] = {0};
+int hold_RGV;
+40

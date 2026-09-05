@@ -1,0 +1,46 @@
+Snud
+[EEREEs
+if Time>=Error(i,3) && Time<=Error(i,4) && Error(;5)==0% 故 障 已 发 生
+Error(j5)=1;% 标 记 为 已 处 理
+Left(Error(j2))=Error(li4)-Time;% 将 故障 修复 所 需 时 间 转 换 为 当前 工作 剩余 完成
+时 间
+Situation(Error(j2))=0;% 修 复 完 成 后 取 走 故障 工件
+end
+end
+fori=1:8% 计 算 预 计时 间
+Expect(1,i)=Move(1+abs(Position-ceil(i/2)));
+if Left(i)<=Expect(1,i)
+Expect(2,i)=0;
+else A7
+Expect(2,i)=Left(i)-Expect(L,i); 二 NY
+end 一 \)
+Expect(3,i)=Switch(i); 2XG
+Expect(4,i)=sum(Expect(1:3,i)); ood
+end SS
+[MinNumberj=min(Expect(4,:));% 找 出 下 一 个 目标 As SS
+Time=Time+Expect(1MinNumber);%RGYV 2 六 ROAS
+flag=0; 多
+fori=1:size(Erron1)% 运 动 后 再 次 检查 错误 信息
+if Time>=Error(i,3) && Time<=Error(i,4) && Error(i,5)==0 && MinNumber==Error(i,2)%
+运动 中 原 目标 发 生 了 故障 ®
+Errorl5)=1;% 标 记 为 由 于 O
+onerkratohn 地 aaaearf
+forj=1:8%CNC 的 时 间 扒 进 )
+if Left()-EX pect(1,MinNumber)<0
+Left( -
+alse--”
+(j)=Left(j)-Expect(1,MinNumber);
+2
+oreooomeapaapamaamaoanreaaan
+时
+i 兴 - flag=1;
+N end
+end
+iflag% 由 于 原 目 标 CNC 发 生 故 障 ， 重 启 循环
+continue;
+end
+flag=0;
+fori=l:size(Erron1)% 等 待 中 检查 错误 信息
+if Time<=Error(i,3) && Time+Expect(2,MinNumber)>=Error(i,3) && Error(i,5)==0 &&
+MinNumber==Error(j2)% 等 待 中 原 目标 发 生 了 故障
+32

@@ -1,0 +1,40 @@
+问题 三
+IEIREIEGEIOEEOIREDEE
+function [REP]=
+wrapngyegambaaitpargiaetERaSDeaB
+‘ma,mu,objective,constraint)
+人 alepapmaer
+aanr9
+oa 二
+和 sooa%lsarng endhalienawen
+n 10 ns
+lower_bound = zeros(1,3); % lower bound ofvars
+upper_bound = pi/2*ones(1,3); % upper bound of vars
+eaox armate
+网 和 Conrwphpatayate
+ahunberolGnksperbimenan
+phototongate
+eaxleaterseeaion pear
+En
+olNuatonae
+objective=@fitness; % objective function
+constraint=@constraints; % constraints function
+l
+naleepanides
+fprintffinitializing swarm ..\A)
+w= @(it) ((max_iter - it)~(iw(1)-iw(2))/max_iter + iw(2);
+pm= @(t) (1-it-1)/(max_iter-1)}7(1/mu);
+swarm(1,swarm,_size) = Particle();
+for i=1:swarm_size
+swarm(i)=Particle(lower_bound,upper_bound,objective,constraint);
+eg
+While ~all(swarm(i).isFeasable} && retry<100
+ospandaoi bind Sosdsbsanemn
+or
+调
+加
+REP = Repository(swarm,rep_size,grid_size,alpha beta,gamma};
+IE EEC
+Er
+本
+1

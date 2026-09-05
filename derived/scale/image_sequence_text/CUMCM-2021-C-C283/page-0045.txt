@@ -1,0 +1,46 @@
+5
+25 二 转运 商 的 帮 耗 率
+%1-0
+27 1-te = Datc 为 方
+28 。 第 x 周 的 利 余 库存
+2 。 -= np-zeroa([25]) # 0-24， 未 油 去 当前 一 周 消耗
+30 so] 。28200 + 2
+31 二 当前 周 的 供 贷 量 、 接 站 量
+3 mw ap-zeros([51] ，dtypenint)
+3 * = ap.zeroa[51] ，atyperint)
+34 提 当前 车 著 载 情况
+35 ear = np.zeros([9] ，atyperint)
+36
+37 二 一 一 一 一 菜 略
+38 二 第 4 个 供应 商 约 第 x 周 订 偶 量
+39 4 = ap.zeroa([51，25] ，dtypeint) _
+40 。 第 4 个 供应 商 纳 第 K 册 选择 的 畏 运 商
+和 了 = mp.zaros([51，25] degpemint)
+如
+全 二 一 一 一 一 日 村
+4 c -= ap-zeros([25])
+人 5 工 = ap.zeros([25])
+146 Furestenp. zeros ([251)
+47 True_aserap ,zeros([25])
+as
+人 9
+50 6 2. 数据 视 7
+51 frga)3lrd PE open_vorkbook
+52
+5 booksapen_vorkbook (r* 转运 量 分 析 .xlax
+51 aheet-book .sheetsC) [0]
+35 Zhuanyunase ”ap-array([x,value for x in sheet, col0，start_rosxel，end_rosxe9)])
+5 Zhuanyuntaze = ap-sppena([，,] ，ZhuanyunNase)
+57 1= np.array([£loatGr.value) for x in sheet.col(i,start_rowxel, end_rosz=)))
+55 1 -= np.append(L0], 1)
+50 1fc = np.array([float(x value) for x in sheet.col(2,start rovzei, end_rovz=)])
+€ 1tc = mp-sppena([o] ，1_tc)
+o
+四
+6 bookeopen_sorkboox(r' 供 给 站 分 关 .xlsz
+6 shest=book. shests O [0]
+65 Gongyinglase = np.array([x.valus for x in sheet.col(D, start_rowxs, end_rossesi)
+»
+© Gongyinglaze * np.sppend([’ '], Gongyingiaze)
+o
+65 p = np.array([tloat (.value) for  in shest.col(5, start_rowzel, end_rowx=si)])

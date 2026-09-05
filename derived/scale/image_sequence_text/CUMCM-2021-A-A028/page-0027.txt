@@ -1,0 +1,38 @@
+ES
+eqns = [x==0,y==0, 5==0};
+answer = vpasolve(eqns,[x y zj
+getDgpgia
+Position(1,:) = [1,0,0,-300.5118141,61.61188336],
+fori= 2:length(Datal)
+mu
+¥0 = Datal(2)
+0 = Datal(i,3),
+if (x0==0) && (y0==0)
+eqns= [x==0,y==0,8==0];
+me]
+eqns= [x==0, (y-y0)y0==(2-20)'z0, S==0];
+ityoed
+wm  oa  51
+并
+eqns = [(x-X0)*y0==(y-y0)*x0, (x-x0)*20==(z-20)*x0, $==0];
+-
+ewec pamiveey
+for j = Llength(answer.x)
+L = abs(norm(cross([-answegx(f) answét y() -ansker Z)est) orm(test), %%
+到 直线 的 距离
+if (L<= 150
+Postion(tmp,1)~i,
+“Position(urip,2) = vpa(answer x()8),
+Position(tmp, 3) = vpa(answer.y(j).8).
+Position(tmp,4) = vpa(answer.2G)8);
+Position(tmp,5) = vpa(L.8).
+和
+三
+村
+就
+Cai
+% 利用 附件 1 和 访 的 分 组 信息 实现 分 组 ， 存 放 在 Group_ Diatd 的 前 三 列 里
+ae
+攻
+load('Information4$4 mat).
+[num1,txt],~] = xlsread 附 件 1xlsx,1,A2D22277

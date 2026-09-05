@@ -1,0 +1,41 @@
+， EUPweipei
+1 |
+1 116 工 程 数 学 学 报 第 22 卷 |
+| 5 “其 他 问题
+| DVD 在 线 租赁 网 站 在 需求 预测 、 采 购 和 分 发 方面 所 面 对 的 问题 是 很 多 的 。 本 小 问 要 求 同 学 :
+| 自己 思考 、 提 出 问题 ， 并 解决 问题 。 这 也 是 本 题 的 重要 组 成 部 分 ， 可 供 同 学 充分 发 挥 其 创造 ，
+1 人 性， 特别 是 提出 问题 的 能 力 ， 提 出 的 问题 应 具有 实用 价值 或 理论 价值 ， 并 给 出 建 模 思路 。 例 |
+， 如 ， 有 的 论文 提出 网 站 应 充分 利用 会 员 过 去 租赁 的 历史 数据 从 各 方面 认真 进行 统计 分 析 〈 数 1
+| 据 挖 据 ) ， 并 对 会 员 进行 分 类 处 理 ， 有 的 论文 提出 网 站 对 DVD 应 分 多 次 购买 而 不 是 一 次 性 购 |
+3 买 ， 有 的 论文 提出 网 站 的 短期 利益 与 长 期 利益 应 该 权衡 ， 有 的 论文 讨论 如 果 不 限 定 会 员 每 月 最 i
+: 多 只 租赁 2 次 ， 对 网 站 运营 会 有 什么 影响 ， 等 等 。
+| 6 “关于 论文 的 写作 ，
+， 好 的 写作 技巧 可 为 论文 增色 ， 这 也 是 党 赛 培养 的 能 力 之 一 。 一 般 来 说 ， 论 文 写 作 没 有 固定
+| 形式 ， 关 键 是 简洁 、 清 晰 地 阐 述 思想 、 方 法 和 结果 。 按 照 竞 赛 要 求 ， 摘 要 限定 为 1 页 ， 本 人 认
+为 这 可 以 理解 为 详细 摘要 ， 应 该 包括 对 问题 的 基本 理解 、 建 立 模型 的 关键 假设 、 主 要 的 模型 和
+， 算法 及 其 特点 、 主 要 结论 等 ， 让 人 阅读 完 摘 要 后 对 论文 的 概貌 能 有 基本 全 面 的 了 解 。 有 些 论 文 1
+1 摘要 与 全 篇 论文 几乎 没有 直接 关系 ， 过 于 空 泛 ， 作 为 其 他 人 的 论文 摘要 可 能 也 适用 ， 这 样 的 摘 {
+i EENENFRAD, FRFHE. WXEXPHLEMERRER ARX” HBES “FE H
+1 ER”  CRBEST , fisklr EHREEERY E, XENERE AR. HRRXE ;
+: 用 一 节 列 出 文中 的 所 有 假设 和 数学 符号 ， 这 当然 可 以 ， 但 本 大 觉得 即使 这 样 ， 在 以 后 第 ~- 次 用
+到 它们 时 还 是 应 该 说 明 其 含义 以 增加 论文 的 可 读 性 。 论 文正 文 号 作 应 该 有 一 条 主线 ， 思 路 清
+i 晰 ， 一 些 关 键 性 的 计算 结果 应 该 在 正文 中 给 出 ， 其 他 有 用 的 信息 《包括 源 程序 和 详细 结果 ) 应 :
+: 该 很 有 条 理 地 整理 好 ， 放 到 附录 中 并 在 正文 中 给 出 引用 。
+1 总 的 来 说 ， 本 题 背 景 非常 实际 ， 牵 涉 面 广 ， 可 以 考虑 的 因素 很 多 ， 不 大 可 能 有 惟一 、 精 和
+: 确 、 最 优 的 解决 方案 。 因 此 ， 本 人 党 得 本 题 是 一 道 比较 开放 性 的 题目 ， 基 本 上 符合 “ 宽 无 边 、
+¢ 深 无 底 ” 的 原则 ， 还 有 很 多 问题 可 以 继续 研究 下 去 。
+| ，
+| 参考 文献 ;
+: [1) 中 国运 筹 学 会 . 热烈 祝 锅 于 网 教授 荣获 Franz Edelman 交 加. 运筹 通 讯 ，2002,12(2):51-53 :
+| [2) WE, FER. 优化 建 模 与 LINDO/LINGO 软 件 [M. 北京 清华 大 学 出 版 社 ，2005
+1 加 谢 金星 ， 开 文 训 , 网 络 优化 [M], 北京 ， 消 华 大 学 出 版 社 ，2000
+4 B
+! Mathematical Models for Online DVD Rent Business ;
+， XIE Jin-xing |
+| (Department of Mathematical Sciences， Tsinghua University, Beijing 100084 ) :
+， Abstract: The background for problems B and D in 2005 CUMCM (China Undergraduates Mathematical
+| Contest in Modeling) is Online DVD rent business. This paper briefly introduces and analyzes the mathematical
+H models and methodologies used in the contest answer papers, and points out that they are many issues which E
+{ can be regarded as future research directions in this field. §
+1 Keywords: online DVD rent; mathematical contest in modeling
+|

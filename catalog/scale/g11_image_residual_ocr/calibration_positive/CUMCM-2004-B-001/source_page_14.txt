@@ -1,0 +1,45 @@
+加 | 开口
+机
+本
+® tom w w % w __ ww ES
+和 了
+8 附录 ( 略 )
+参考 文献 :
+[1] 何 仰 赞 ， 温 增 银 . 电力 系统 分 析 (第 三 版 ) [M]. 武汉 : 华中 科技 大 学 出 版 社 ，2003
+[2] 范 金城 ， 梅 长 林 . 数据 分 析 [M]. 北京 :科学 出 版 社 ，2002
+[3] 郑 君 里 ， 应 启 珀 ， 杨 为 理 . 信号 与 系统 〈 第 二 版 》[M]. 北京 ， 高 等 教育 出 版 社 ，2000
+[4] 严 蔚 人 敏 ， 吴 伟 民 . 数据 结构 [M]. 北京 ， 清华 大 学 出 版 社 ，1997
+[5] 王 春 森 . 系统 设计 师 教程 [M]. 北京 ， 清 华 大 学 出 版 社 ，2001
+[6] 张 智 星 等 . 神经 -模糊 和 软 计算 [M]. 西安 交通 大 学 出 版 社 ，2000 -
+[7] 杨 洪 明 ， 段 献 忠 ， 何 仰 杜 . 阻塞 费用 的 计算 和 分 反方 法 [. 电力 自动 化 设备 ，2002;(5):10-12
+一
+A Management Model for Transmission Congestion in Povar Market _
+“\)
+YANG Shuang-hong, LIU Gang, YAN Qi 2 \
+'
+Wuhan University, Wuhan 4300727) 7
+( Y, ! & )
+Abstract: In this paper, on the basis of an open and competitivefmmarKket， model is developed to study the
+management of transmission congestion in an independent power systel 和 irstly, under the assumption of local
+linearization, the approximate formula for the relation of the RS “flow distribution to the machine output is
+derived by multivariate linear regression. Both the models y Re dS ithout constant-term are considered and
+tested. Furthermore, according to the knowledge from power system analysis, we demonstrate that the model
+with the constant-term is more reasonable. Considering the effect of the congestion adjustment, we design two
+rules for calculating congestion cost and make detailed comparison between them. According to the transaction
+rule of the power market and accounting for the computation efficiency as well, we use the recursion strategy
+to figure out a simple and feasible met. Hod 1  the preliminary scheme of output allocation. This article pro-
+poses a four-stage computation strategy for tl  congestion adjustment, which is: congestion check, pre-scheme
+adjustment, margin transmission and load limitation. In the first stage, a group of inequalities are judged; the
+second stage is to program with the objective of minimum congestion cost; in the third stage, our first target
+js the minimum occupancy of tl an the objective is the lowest congestion cost while the occupancy
+remains the same if no less than. In the last stage, assuring the lowest security level the objective is maximum
+output. After simplification, all models are linear except the second one, which is a staircase function maxi-min
+programming se  l constraint condition. Also, we find that the procedure is most efficient if the
+Huffman tea as the decision tree. In this case, only a few simple rules are needed to determine which
+stage ough 人 on instead of doing step by step. Last but not the least, we study the programming
+apedssaa function from the perspective of generalized function, and we propose two simple heuris-
+ti al rithms and other suggestions for the optimization problem whose objective js staircase function. The
+fe ho d aa in this paper are clear and efficient. However, for the lack of the professional knowledge, we
+ht reasonable congestion management method for some current typical patterns of the power market.
+Ke; rds: power congestion management; multivariate linear regression; programming flows by stages; effi-
+cient programming flow of Huffman decision tree; heuristic algorithms

@@ -1,0 +1,39 @@
+data_X_know = datal.drop{gsz_index)
+data_X_unknow = datal.loc[gsz_index,:]
+print{data_X_know.index, "\n', data_X_unknow.index)
+data_y_know = data_y.drop{gsz_index)
+print{data_X_know.shape, data_y_know.shape, data_X_unknow.shape)
+test = pd.concat{[data_y_know, data_X_know],axis = 1)
+test.shape
+from scipy.spatial import distance_matrix
+dis = pd.DataFrame(distance_matrix(data_X_know.values, data_X_unknow.values), index =
+data_X_know.index, columns = data_X_unknow.index)
+dis_group = pd.concat{[data_y_know, dis], axis = 1)
+print(dis_group.shape)
+print{dis_group.columns)
+print(dis_group)
+min_index = dis_group.idxmin()
+print{min_index)
+[*zip{gsz_index, dis_group.loc[min_index[1:], 'OP'])]
+dis_groupby = dis_group.groupby('OP').mean()
+dis_groupby
+by_min_index = dis_groupby.idxmin()
+print{by_min_index)
+dis = pd.DataFrame(distance_matrix(data_X_know.values, data_X_know.values), index =
+data_X_know.index, columns = data_X_know.index)
+dis_group = pd.concat{[data_y_know, dis], axis = 1)
+print(dis_group.shape)
+print{dis_group.columns)
+print(dis_group)
+OP_index = [0foriin range(12)]
+foriin range(1, 12):
+
+OP_index[i] = dis_group[dis_group['OP'] ==i].index
+OP_index
+dis = pd.DataFrame(distance_matrix(data_X_know.loc[OP_index[1],:].values,
+data_X_know.loc[OP_index[1],:].values)).mean().mean()
+print(dis)
+dis = pd.DataFrame(distance_matrix(data_X_know.loc[OP_index[1],:].values,
+data_X_know.loc[OP_index[2],:].values)).mean{).mean()
+
+26

@@ -1,0 +1,46 @@
+dobjwobjvyobjwobxrobjveob
+bjv 人 = -bj
+bjx= max(min{obi x+obv.obju,0bL};
+end
+function obj= updatePbest(obi)
+ifallobj iseasable)
+ifsnan(ob) pBestCost)
+objpBest = obix;
+objpBestcost= objcest
+elseifallobjpBestCost>= bj cost) && any(ob.pBestCost > obj cost)
+objpBest =objx
+obj pBestCost = objcost
+end
+ee
+iFisnanfobjpBestcosy
+ifrand<05
+objpBest=objx
+objpBestcost= objeost
+end
+end
+end
+end
+function obj =applyMutatation(ob pm,objective]
+ifrandcpm
+MobjMitatalpmh;
+Xcost=objectve(x);
+ifXdominates(obi)
+bj
+elseif~obi dominates(X)
+ifrandeos
+bj
+end
+end
+end
+end
+function obj=Mutate(obi,pm)
+nar=numel(obix)
+jerandifi varl):
+despm*(objulj-obiI(});
+bmaxtobjxhduobh0jh':
+beminfobjxtijrdxobjug
+objxtjj=unifmnallbaubl
+end
+functon d = dominates{objcbj1)
+ifallbi iseasable)
+5

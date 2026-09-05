@@ -1,0 +1,44 @@
+回 成 革 动 国
+后
+0
+BRLLT]
+半生 二
+vector<vector<int> > & FeasibleSolve, // 可 行 的 解决 方
+案 ， 是 返回 值
+vector<LoadMessage> & AllLines, // 所 有 路 线
+信息
+vector<vector<int> > & AllBuses, // 所 有 公 汽
+站 信息
+vector<vector<vector<long> > > &RoadCrossInfo) // 任意 两 路 线 的
+交叉 信息
+{
+bool bHaveFound = false;
+vector<int> FeasibleLine(6, 0); 全
+-Ke
+=
+int i, j, k; 二 \
+和 %i
+int nFirstLine = -1;
+int nSecondLine = -1;
+long nCurrValue = -1; 全
+long nCurBridgel = -1;  // 上 行 方向 的 桥接 点 ~
+long nCurBridge2 = -1;  // 下 行 方向 的 桥接 点
+bool IsDirectToBridge =false; 自 // 起 始点 是 否 能 直达 中 转
+点 (ej
+bool IsBridgeDirectToDest = // 中 转 点 是 否 能 直达 目标
+点
+// 搜索 相交 的 两 条 线
+for (i=0; i<ALlBuses[NSTART-1].size(); ++i) // 经 过 起 始点 的 所 有 线路
+{
+oo Joser [il;
+和 经 j<Al1Buses[NEND-1]. size (); ++j) // 经 过 终点 的 所 有 线路
+1 // nSecondLine = AllBuses[NEND-1][j];
+// 两 路 线 的 公有 站 点
+int nLinel = -1;
+int nLine2 = -1;
+if ( nFirstLine < nSecondLine )
+{
+nLinel = nFirstLine;
+nLine2 = nSecondLine;
+}
+48

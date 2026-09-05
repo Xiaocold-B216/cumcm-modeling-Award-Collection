@@ -1,0 +1,37 @@
+EriAE
+让 你
+特征 点
+左 相机 平面
+右 相机 平面
+人 \
+OFL oR
+区
+图 8、 双 相机 成 像 原 理 图 %
+
+基本 原理 如 上 图 所 示 ， 空 间 点 M 和 左 相 机 光 心 Di # ks 此 直线 在 左 相机
+成 像 平面 上 唯一 确定 像 点 mm 。 同时 右 相机 成 像 平面 上 的 尾 司 m 有 唯一 确定 。 反 之 ，
+若 两 相机 位 置 固定 ， 则 由 左右 两 相机 像 点 几 、 殴 2 一 确定 点 的 空间 位 置 。
+
+一 个 简单 的 想法 是 通过 计算 直线 Qimu sodiuma: M， 但 是 因为 无
+法 精确 得 到 2 mr ”这 种 方法 误差 较 大 。 较 好 的 方法 是 利用 投影 矩阵 关系 计算 得 到 ML。
+其 推导 如 下 : O
+
+设 空间 点 M 的 坐标 为 (cz 人 伟 应 的 锡 。 mw 的 坐标 分 别 为 vi)Junvva) 。 左
+右 相 机 的 投影 敌阵 分 别 为 :
+
+a, od Pa Be Oo 红 w ”Pa Pa Ps 6
+PL=gpP。 了 后 Pu PR= pu Ps Pyy Pu >
+多 _ "小 LI Po &, Po Rn Puo
+X6
+06 ¢+
+we 人 二 ， 可 以 得 到 如 下 方程 ;
+NA 从 oO
+e o
+PR €P,,-Pou, Pa-Piour Pa-Ponur u ar Pu 6 .
+8ps-Psv Pie-Piovr PPnvr 0 SP >
+c=¢ Up=¢ *M=SyT
+SP -Phoug Pa- Prjglin Pa-PRaug U Sun -PR * 和 外:
+Pu-Paova PR6- PRiovR 了 PR- PRnvVR 0 和 °
+由 最 小 二 乘法 有
+M=(C"'C)'C'D
+23

@@ -1,0 +1,40 @@
+ETTTTT:
+ifx[:
+printIDinttrfiDl end=
+usappendintGrfiD)
+YSIintcrfiD(ee-D*8+kl+=w 加
+print("™)
+retum us
+excel = xlrdopen_workbook(" 订 单 量规 划 结果 xlsx'v 'b)
+sheet = excelsheet_ by_name'Sheetly)
+AW-[
+BW=[]
+cw-)
+Tpaiu-[2.5.1.73.0.6.4]
+forein range(1, sheet.ncols):
+Aused = []
+B_used ~ ]
+C used=[]
+AN-0
+BN-0
+CN-0
+A=[
+B=
+ca
+fw
+B_wsT
+cw-
+ATrnpzeros(8)
+BT-np.zeros(s)
+CT-np.zeros(s)
+FPgelFP(c)
+print(FP)
+forrin range(1, sheetnrows):
+s = sheetcell value(r, ©)
+ifFLI--A'
+AN
+Aappend((s.r])
+ifFL]-~B
+BN +=s
+Buappend(fs.r])
+全

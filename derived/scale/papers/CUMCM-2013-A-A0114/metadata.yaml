@@ -1,0 +1,46 @@
+paper_id: CUMCM-2013-A-A0114
+year: 2013
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响/A0114.pdf
+  sha256: B9100E7F93C38C9E3A61E81F1DFE978A076493905BFE19F41951CEE69BB2D89A
+authority_sha256: B9100E7F93C38C9E3A61E81F1DFE978A076493905BFE19F41951CEE69BB2D89A
+paper_file_memberships:
+- path: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响/A0114.pdf
+  role: primary
+  canonical: true
+primary_file: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响/A0114.pdf
+extraction_inputs:
+- path: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响/A0114.pdf
+  sha256: B9100E7F93C38C9E3A61E81F1DFE978A076493905BFE19F41951CEE69BB2D89A
+  kind: original
+extraction_input_sha256: B9100E7F93C38C9E3A61E81F1DFE978A076493905BFE19F41951CEE69BB2D89A
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q0/Q1 Native Markdown Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 32
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["4", "5"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2013-A-A0114/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2013-A-A0114/source_page_5.txt"]
+  source_sha256: B9100E7F93C38C9E3A61E81F1DFE978A076493905BFE19F41951CEE69BB2D89A
+  current_body_sha256: 12199B093484E1CC1F8CEE364E9DFB43183E27796C4ED0F4D756B1F1B77ACA2E
+  candidate_body_sha256: 5BB0F0FE5E1602D2B6E0AA4F986DA12D6257BE5451938E9DD09B7E7B7F06CFD0
+  source_page_count: 32
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

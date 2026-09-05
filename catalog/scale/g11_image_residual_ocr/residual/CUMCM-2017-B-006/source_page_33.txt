@@ -1,0 +1,68 @@
+% 平 均
+m_ord=mean_ord./mean(mean_ord);
+m_num=num./mean(num);
+m_limited=limitednum./mean(limitednum);
+m_lof=lof./mean(lof);
+
+% 权 重
+
+W=[0.4833,0.3036,0.2131];
+three_factor=W*[m_ord;m_limited;m_num];
+X_all=[lof\three_factor'];
+
+X_on=X_all(on,:);
+
+X_off=X_all(off,:);
+
+%% 完成 组 ， 价 格 回归
+X=[ones(length(X_on(:,1)),1),X_on(:;,1),X_on(:,1)."2,X_on(:,1).3,...
+
+X_on(:,2),X_on(:,2)."2,X_on(:,2)."3];
+[b_on,~~,~,stats_on]=regress(price(on),X);
+plot3(X_on(:,1),X_on(:,2),price(on),.")
+hold on
+ezsurf('65.9679+6.4501*x+-0.9066*x.22+0.0340*x.73+-2.8345%y+0.9785*y."2+-0.1
+616*y.~2",[min(X_on(:,1)),max(X_on(:,1))-3.5,min(X_on(:,2)),max(X_on(:,2))-1.2])
+hold on
+%% 不 完成 ， 价 格 回归
+X=[ones(length(X_off(,1)),1)X_offC,1),X off 1).225.
+
+X_ off(:,2),X_off(,2).^2,X_off(,1).*X_ off(,2)];
+[b_off,~,~,~,stats_off]=regress(price(off),X);
+plot3(X_off(:,1),X_off(:,2),price(off),"r")
+hold on
+ezsurf('64.8343+3.8219*x+-0.7506*x./2+-2.1090*y+-0.1109*y.*2+1.6097*x.*y',[mi
+n(X_off(:,1)),max(X_off(:,1))-3.5,min(X_off(:,2)),max(X_off(:,2))-1.2])
+hold on
+%% 成 功率
+m_price=price./mean(price);
+
+X_per=[lofthree_factor',m_price];
+X=[ones(length(price),1),X_per(:,1),X_per(:,1)."2,...
+
+X_per(:,2).12,...
+
+X_per(:,2),X_per(:,3).72,X_per(:,3)."3,...
+
+X_per(:,2).*X_per(:,3)];
+
+[b,bint,r,rint,stats]=regress(onoff,X);
+[qz22m 0]
+
+clear all
+
+% 数 据 导入
+
+address_order = xlsread('datal .xlIs','B2:C836');
+
+% price = xlsread('datal.xls','D2:D836");
+
+% onoff = xlsread('datal.xls','E2:E836'");
+
+address_user=xlIsread('data2.x1sx','B2:C1878");
+
+user_limit=xlsread('data2.x1sx','D2:D1878");
+
+% user_credit=xIsread('data2.xlsx','F2:F1878');
+
+33

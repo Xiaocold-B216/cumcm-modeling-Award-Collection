@@ -1,0 +1,67 @@
+交
+
+V1 = f(h1)+f(h2)+g(H1);
+tmp += (V1-q+out)*(V1-q+out);
+
+信
+
+：
+科
+
+公
+
+众
+
+号
+
+}
+if(ans < ansk)
+{
+ansk = ans;
+tt = ansx;
+ss = ansy;
+pppp = q;
+}
+printf("%.2lf %lf
+
+研
+
+}
+if(tmp < ans)
+{
+ans = tmp;
+ansx = i;
+ansy = j;
+ansz = q;
+}
+}
+
+流
+
+double tmp = 0;
+for(int o = 5; o <= 290; o++)
+{
+t = numy[o];
+out = numx[o];
+t /= 1000;
+out /= 1000;
+H = 1.5-(1.5-t)*cos(p2);
+H1 = H+2*tan(p1);
+H2 = H-6*tan(p1);
+h1 = H1-1.5;
+h2 = H2-1.5;
+
+微
+
+}
+printf("答案：%.2lf %lf
+return 0;
+
+total:%lf\n", ansx/100, ansy/10, q);
+total:%lf\n", tt/100, ss/10, pppp);
+
+}
+
+- 20 -
+
+

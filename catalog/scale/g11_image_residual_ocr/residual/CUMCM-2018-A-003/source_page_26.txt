@@ -1,0 +1,46 @@
+回味
+本 辣
+Re
+#include<iostream>
+#include<cmath>
+#define inf 5000/ 无 穷 大
+using namespace std;
+int ons = 18, tws = 32, ths = 46;
+int pro[2] = {455,1821:/ 加 工时 间 ,CNC1=455,CNC2=182
+intrep[9] = {0,27,32,27,32.27,32,27,32};
+booltype[9]; //= {0, 0,0,0, 1,0,1,0,1 }; //{0, 1,1,1,2,1,2,12 };
+int put_down =25;
+int LI2][9][9] = {0}:
+int full = 0,t_full;/0 表示 当前 为 空 车
+int S[9] = {10000.0.0.0.0.0.0.0.0}:/ 加 工 剩 余 时 间 #7
+bool B[9] = {0.0.0.0,0.0.0.0.0};// 是 否 有 就 料 二 NY
+int num = 0:// 成 品 数量 二 \)
+int T[9] = {10000,0} /当前 状态 到 达 其 他 CNC 加 工 台 的 代价 2XG
+void init();
+void print();
+/# 就 近 原则 :六 As
+int min_index(int *T){
+int i=1,num=9; X
+int min ind = i;
+for(; i<num; i++ ){ @
+if(T[i] < T[min_ind]) mm j O
+) AAA
+return min_ind; 放
+) 7
+/等 待 优先 原则 ~
+/int min_index(int *T)
+/ inti=1,nw 2) \a
+/int hy' =0;
+/int as 人 0;
+i 汕 = 0; Wemp = 1， 表 示 可 以 作为 下 一 次 选择
+】 for(; i<num; i++ ){
+MN * {(T[i] < T[min_T_ind]) min_T ind=1;
+/ temp = 0;
+/ if(full == 1 && type[]==1)
+/ temp = 1;
+/ else if(full == 0){
+/ if(type[i]&&BIi] || not(typeli]))
+VA temp =1;
+/
+1/
+26

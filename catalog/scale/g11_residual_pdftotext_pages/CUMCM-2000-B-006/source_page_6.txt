@@ -1,0 +1,93 @@
+第 31 卷第 1 期
+数学的实践与认识
+V o l131 N o 11
+2001 年 1 月
+J an. 2001
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+The O rder and Tran sporta tion of P ipel ines
+D IN G Yong,
+
+XU E Fe i,
+
+ZHAN G Zhen
+
+(Sou thea st U n iversity, N ang jing
+
+W e succeeded in d raw ing up an op tim a l p lan fo r the o rder and tran spo rta tion of
+
+流
+
+Abstract:
+
+210096)
+
+p ip elines by estab lish ing tw o m odels. A d iag ramm a tic m odel is set up fo r the first p rob lem in
+
+交
+
+w h ich there is no b ranch in the track of p ip elines. So lu tion of the p rob lem is then equ iva len t to
+the p lan tha t m in im izes som e a rea of a sp ecia l d iag ram. T he idea of flow in netw o rk help s to set
+up a non 2linea r p rog ramm ing m odel fo r the la st p rob lem w here the track is a tree d iag ram. T he
+
+研
+
+regu la r fo rm of the m odel m akes it conven ien t to find the so lu tion by T he SA S System. T he
+
+：
+科
+
+m odel is a lso u sed to g ive an accu ra te sen sitivity ana lysis fo r the first p rob lem.
+
+一类运输问题的建模
+
+号
+
+费浦生,
+
+赵社峰,
+
+摘要:
+
+1
+
+430072)
+
+公
+众
+
+( 武汉大学, 武汉
+
+李 健
+
+本文介绍了 2000 年全国大学生数学建模竞赛B 题的命题思路, 两种主要的建模与求解方法.
+
+命题的思路
+
+2000 年全国大学生数学建模竞赛的 B 题, 本质上是一类运输问题.
+
+信
+
+运输问题是社会经济生活中经常出现的优化问题. 由于实际问题的多样性, 运输问题
+
+的模型也是各种各样的. 往往涉及到优化领域中的网络优化、线性规划、二次规划、0—1 规
+
+微
+
+划等分支. 有些运输问题还涉及非线性规划、随机优化、排队论、时间表问题、库存问题等运
+筹学的诸多领域.
+最简单的运输问题模型就是线性规划中的标准运输问题, 用单纯形法求解此类特殊问
+
+题的具体实现就是表上作业法[ 1 ]. 它的存储规模小、求解步骤简单, 是实际中常常遇到的一
+类模型和方法.
+B 题命题的主要动机是结合当前西气东输工程的背景, 让参赛学生综合运用网络优化、
+
+线性规划或二次规划和整数规划等方面的知识, 在建模与求解过程中灵活地发挥自身的能
+力. 因此, 题目具有一定的综合性. 但是考虑到竞赛只有三天, 题目叙述不宜过长, 数据不
+宜过多, 竞赛题目对现实的问题作了简化, 主要体现在以下方面.
+1. 输气管网简化为一条主管道 ( 题目第一小题). 这一简化使问题看起来更明朗, 便于
+© 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

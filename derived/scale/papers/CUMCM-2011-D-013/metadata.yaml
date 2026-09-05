@@ -1,0 +1,14 @@
+paper_id: CUMCM-2011-D-013
+year: 2011
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011D：天然肠衣搭配问题 (2).doc
+source_sha256: 2D19468524DDDBEF409012F393460A92B0A9F24CFC01906F63720C13731BE66A
+effective_pdf_path: derived/scale/doc_batch/CUMCM-2011-D-013/source_converted.pdf
+effective_pdf_sha256: E0D00DE3E92B4ED095EDABBB3CF10E359C825D4C37932ACC77A353A379838CF1
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2011-D-013/normalized_body.txt
+authoritative_text_sha256: 2244AAC0E5BFF3D75D1DC47E95054766C4DB5ADDE0E5F5E15987BD10488B2B8D
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

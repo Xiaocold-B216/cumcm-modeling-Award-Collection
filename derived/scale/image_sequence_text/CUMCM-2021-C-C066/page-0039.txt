@@ -1,0 +1,50 @@
+xplot = mp Lnspace(s, 24, 26)
+yy = mp.array(loss_ratio_df{10ss_ratio df[SAHID'] -= 'T'sstr(1s1)].dloc(:,1:]).ravel()
+sub_df = pd.Dataframe(np.array(loss_ratio_d¢f[loss_ratio_df[ "转运 商 ID"] -=
+TastrGitD].oc[:va:])-reshape(-1297)
+yy mean = sub_fmean(axds = 0)
+ystd = sub_ef-std(axts - 9)
+ynean_ltst .append(y mean)
+ostd_lisr .append(y std)
+tscatter(ky y, errgrey'，1abel-vdata')
+Pat-Plot(XLplot，y_mean，colorc'darkorange'，lwclw， apha = 9.9，
+1abelz'aean' )
+Pat.Hill_betueen0x_plot， y mean - 1.° y std， yaean + 1. * y_std, color'darkorange
+apha-a 2
+pa xlabelt "局
+PIE.ylabel(HERIEE(X))
+ple.title(f HERID: Ttstr(is2)])
+pat legend(loc."best”,  scatterpotnts-1, prop-(*size’: 8))
+plt. show()
+apha - np.array(y_mean 1ist) mean(axis - )
+Select_A_ID = select_info[select_info[ "材料 分 类 "] == “"A'][" 供 应 商 ID"]
+select_B_ID - select_info[select_info[ 村 料 分类,] -= ,B:] ,全 应 商 1D]
+select_C_ID = select_info[select_infof' 材 料 分 类 "] == 'C'][" 供 应 商 ID"]
+selct_supplters - puntquetselect_infof "供应 半 1D])
+num_of_a = select_A_ID.shapefe]
+um_of_b = select_8_ID shapefe]
+num_of_c = select_C_ID.shapefe]
+这 高 新 过 表 辣 旺 模 型， 预测 供应 高 供应 误 适 和
+def Gp_reg()
+type_ « FileB[F1lea[" iR10'). sin(select_suppliers)].iloc(4, 1]
+np.randon. seed(1)
+y Verror_of.ttocts, 0
+X = order_volume.iloc(4, :]
+X = mp-array(x[(y < 1000)]).reshape(-3, 1)
+y = mp-anray(y[(y < 1000)]) ravel()
+K - Goy.kern.ReF(1)
+四 = Goy models GPRegression(X, y.reshape(-1, 1), k, normalizer-irue)
+noptinize()
+print(m)
+dy = np-sqrtGlistta['Gaussian_nolse-variance'])fe]) * np.randon.randoa(y.shape)
+# Instantiste a Gausstan Process model
+ernel - C(1tst(al’rbf.vartance' 1){o], (16-3, 163)) * ROF(Lst(al rof. Lengehscale'(o],
+Ges, 1e5))
+kernel = C(0.985, (16:3, 163)) * RBF(e-377， (1e-5, 163)
+& - Gaussianprocesshegressor kernel-kernel, alphady ** 1,
+n_restarts_optintzer-10)
+4 Fit to data using Maxioum Likelihood Estimation of the paransters
+,firox 史
+Bp_dict[type_] .append(gp)
+全 ake the prediction on the neshed x-axts (ask for NGE as well)
+xx = np.atleast_2dnp.lnspace(e，max(xDe]，1898)).T

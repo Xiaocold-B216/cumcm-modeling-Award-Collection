@@ -1,0 +1,70 @@
+for i=1:5
+for j=length(zb_bound{i}(:,1)):-1:1
+ranum=rand(1);
+if ranum<dqp
+zb_bound{i}(j,:)=[];
+end
+end
+end
+qj;
+total_result=[total_result,{result}];
+
+流
+
+end
+
+研
+
+交
+
+%qj.m
+qx;
+res_l=fsolve(@fu,[1500 1500 1500 1500]);
+load -ascii c.txt;
+ca=c;
+oa=res_l(1)*ca(1,:);
+ob=res_l(2)*ca(2,:);
+oc=res_l(3)*ca(3,:);
+od=res_l(4)*ca(4,:);
+ab=ob-oa;
+ac=oc-oa;
+cd=od-oc;
+bd=od-ob;
+a3a=(12/124)*ac+(12/124)*ab;
+a3b=(42/124)*ac+(12/124)*ab;
+a3c=(112/124)*ac+(12/124)*ab;
+a3d=(112/124)*ac+(112/124)*ab;
+a3e=(12/124)*ac+(112/124)*ab;
+oA=oa+a3a;
+oB=oa+a3b;
+oC=oa+a3c;
+oD=oa+a3d;
+oE=oa+a3e;
+A=xj2wl(oA);B=xj2wl(oB);C=xj2wl(oC);D=xj2wl(oD);E=xj2wl(oE);
+[A;B;C;D;E];
+result=[round(wl2xs(A));round(wl2xs(B));round(wl2xs(C));round(wl2xs(D));round(wl2xs(E))
+]
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+数学中国
+www.madio.net
+
+%qx.m
+%求切线主程序
+cd 'qx';
+sa;
+35
+
+

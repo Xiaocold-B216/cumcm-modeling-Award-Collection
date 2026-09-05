@@ -1,0 +1,119 @@
+http://www.mathworks.com/help/techdoc/ref/diff.html,2010 年 9 月 11 日
+[7] GB50253-2003+输油管道工程设计规范(2006 年版)_百度文库,
+http://wenku.baidu.com/view/ba75ff11f18583d049645947.html，2010 年 9 月 11 日
+
+八、附录
+附录一 对 5.2.2 模型求解的原始结果
+Local optimal solution found.
+Objective value:
+Total solver iterations:
+
+282.6973
+68
+
+：
+科
+
+号
+
+Value
+5.660254
+11.66025
+2.169873
+5.000000
+2.169873
+4.901924
+8.000000
+
+微
+
+信
+
+公
+
+众
+
+Variable
+S1
+S2
+S3
+S4
+Y
+X
+Z
+附录三 对 5.3.1 模型求解的原始结果
+Local optimal solution found.
+Objective value:
+Total solver iterations:
+
+流
+
+Reduced Cost
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+
+交
+
+Value
+6.292425
+11.02808
+1.853788
+5.039806
+1.853788
+5.449400
+7.367829
+
+研
+
+Variable
+X1
+X2
+X3
+X4
+Y
+X
+Z
+附录二 对 5.2.3 模型求解的原始结果
+Local optimal solution found.
+Objective value:
+Extended solver steps:
+Total solver iterations:
+
+283.8307
+0
+29
+
+Reduced Cost
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+
+251.9685
+27
+
+Variable
+X1
+X2
+X4
+
+Value
+8.305068
+10.92330
+5.051645
+11
+
+Reduced Cost
+0.000000
+0.000000
+0.000000
+
+

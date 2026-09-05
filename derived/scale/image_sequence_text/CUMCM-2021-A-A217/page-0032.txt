@@ -1,0 +1,30 @@
+assert(WORKING);
+[xyz uvw data, XYZ] = me_integral(WORKING);
+xy7z = verteat(syz{:});
+uvw = verteat(uvwi:):
+xy7 = xyz(1:100:¢nd.);
+avw =uvw(Ll100:end );
+P=plot3(...
+Exyz(CDsYzG.Druvw(G:D]
+szG2)syz(2)HuvwC22
+[syzC3)syzG3)ruvwG.3)1
+eolor = mat2celltrepmattrand(numelp).1)1.3)ones(numelp).D).3)
+[p.Color] = color{:}:
+holdCon').
+X=XYZ(A) Y = XYZ(.2): Z= XYZ(3):
+trisurf(data triangle, X.YZ FaceGolor None').
+axis(equal);
+colormap(‘gray’),
+colorbar():
+ridCon’;
+boxCon'),
+style(fontsize' fontname’);
+fastprint( 图 片 /prob3. 结 果 . 反 射 光线 聚焦 于 焦点 的 示意 图 》
+end
+function [xyz, uvw ratio] = cale_t_fast(t123,X.Y,Z)
+%
+% 寻找 距离 入 射 (xy) 最 近 的 XYZ 坐标 点 ， 并 提取 出 以 该 点 为 顶点 的 所 有 三 角
+形
+% 傅 次 求解 它们 的 t, 2.3
+xyz=t1238 [XYZ:
+32

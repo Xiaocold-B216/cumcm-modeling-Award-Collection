@@ -1,0 +1,43 @@
+Ehis
+asi
+wsn
+else
+{
+nLine2 = nFirstLine;
+nLinel = nSecondLine;
+}
+for (k=0; k<RoadCrossInfo[nLinel-1][nLine2-1].size(); ++k)
+{
+// 桥接 点
+nCurrValue = RoadCrossInfo[nLinel-1][nLine2-1] [k];
+if (nCurrValue >= 10000) 二
+2
+if (npFirstLine == nLinel ) “\
+{ 从 7
+nCurBridge2 = nCurrValue % 10000;
+nCurBridgel = (nCurrValue-nCu 2) //10000;
+} 从 \
+else 全
+-
+nCurBridgel = nCurrVa 10000;
+nCurBridge2 = (nCurrValue-nCurBridgel) / 10000;
+) @
+} 2 外
+else 从
+{
+nCu el = nCurBridge2 = nCurrValue;
+}
+一 一
+=0, b=0, ¢=0, d=0;
+人 和 en
+为 = find (Al1Lines[nFirstLine-1]. LineInfo, NSTART, nCurBridgel, a,
+下 和
+e bool IsBridgeDirectToDest = false;
+if ( IsDirectToBridge )
+{
+IsBridgeDirectToDest
+= find(AllLines[nSecondLine-1].LineInfo, nCurBridge2, NEND, c,
+d);
+}
+if ( IsDirectToBridge && IsBridgeDirectToDest)
+49

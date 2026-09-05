@@ -1,0 +1,88 @@
+cost_now.append(ob3_trace(best_gen, 11)
+
+Vardable « ea.bsard (var_trace([best_gen], :], Fieldo) * WEHUSIERH (DHEHARERE
+
+a_new - vartable[e，: nun_of_a].copy()
+
+eev -= vartablefe, nun_of_a:].copy()
+
+Vtol - (va neu.san() + V_c_new.sum();
+
+eol_listrappend(v_tcl)
+
+prepare = (v_a_new.sun() / 0.6 + vcnew sum() / 6.72)
+
+Lprepare_listrappend(o_prepare)
+
+rinr "库存 总 量 ，，，V_tol)
+
+prdnt(* 原 Ac 总 预备 产能 ，"，(V_a2_previous / 6.6 + V_c2_previous / 8.72)Tbest_gen])
+
+prdnr(" 开 各 产能 "0_prepare)
+
+prdnt(" 用 时 ， "end_tdme - stare_tine, 'B)
+
++ update Vist
+
+V_a_List.append(V_s_new.)
+
+V_c_list.append(v_c_new.)
+
+return [varsable, V_a lizt, v_c_list]
+def plot pie(vesk_1, variable, df A_sl1, df call)
+
+lobal pre_a, pre.C, nouA, nouC
+
+tol_v =- [vartable(e, : mi_of_s].sum0), \
+
+variable[e, num_of_a:].sum()]
+print(
+°SEH-HHATES (ve_1)BHT #05 F(x A_pred Mst suf(ax12-1) veek_ 1 - 11} \n 调 是- 原
+
+HHCE (eel AVHIT S5 B(x_C_pred_1isttun(axtsed)(wesk_3  11) Nn 调 明 -原材料 第 (veek_1) 周 订
+单间 类 :(x_A_pred_lst.sua(axl9z1)[wg 有 ceT] + & C_pred_List.sun(axtsD){week_d - 11})
+
+print()
+
+print(FLMIALS (ueakot 9VT REESR(to1 V{0]) \n BHFCER (vesk 1)HIT RESH(ro1_v(1))
+\nBRHH (week 1TT 单 呈 总额:{sum(tol_v)})
+
+prelA.sppend(x A_pred_list sum(asts-1)(veek_1 - 11)
+
+pre_C.append(C_pred_11st sua(axtscl)[veek_i - 11)
+
+ou_A.appendttal_v[e])
+
+nowLc appendttol-v[1])
+
+sssssssses plot A essteestates
+
+fig = plt ,figuretdpi - 400)
+
+explode (8.8d)rnum_of 3
+
+1abels -select AD
+
+PIt.pie (variable(s, : num_of_3], explode 。 explode，labels 。 labels, autopts"¥1.1F5X")
+
+Pa-ttletf "原材料 在 第 (veek_1) 膨 订 音量 比例
+
+全 plt savefiB(f /ne/P2-2-Aueektveek_1)-png')
+
+plt. show()
+
+ssessesss plot C sssessasses
+
+fig = pIt.sigure(dpt = 400)
+
+explode - (0.04,)"nun_of c
+
+1abels - select_10
+
+PIt.pie (var1able(s, un_of_a:], explade 。 explode, labels 。 labels, autopet-"SL.15K')
+
+站 .title(f "原材料 C 在 第 fweek_i 夺 订单 量 比 例 ")
+
+拉 pltsavefdg(f /ne/P2-2-Cueektveek_i)-png')
+
+plt. show()

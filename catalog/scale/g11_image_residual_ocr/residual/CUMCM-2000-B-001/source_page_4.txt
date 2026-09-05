@@ -1,0 +1,40 @@
+加
+RE T
+62 数学 的 实战 与 认识 1 tien
+说 明 应 将 S， 降 为 0
+* 用 迭代 法 进行 对 调 优化
+改进 的 伏 格 尔 法 给 出 的 初始 值 虽 然 很 接近 最 优 值 , 但 仍 有 不 足 之 处 , 即 可 能 存在 两 个 需
+求 点 , 调换 供应 点 能 使 总 费用 更 小 , 例如 , 需求 点 和 刀 的 供应 点 是 x 和 ?, 费用 分 别 是 C
+Ga 和 CO, 人 ,如果 让 ”供应 ax 供应 六 的 话 , 费用 将 是 CC,a) F #(x, 0), 如 果 :
+CO,a+reo,b<Coa+CO，D)
+则 说 明 对 调 后 总 费用 更 低
+因此 ， 玫 们 可以 有 用 过 代 计 对 任 商人 了 的 做 应 上 机 机 对 刘 天 人
+由 于 一 共 只 有 产 = 7 个 供应 点 , 所 以 两 两 对 调 的 可 行 方案 一 共有 Cj= Ar
+对 调 供应 点 的 方法 是 可 行 的 , 具体 步 又 如 下 : 区 \)
+Stepl 对 于 任意 两 个 供应 点 xi 和 xi 并 1L2,m j= 1, 2A i#j
+1) 找 出 所 有 由 xi 供应 的 需求 点 , 构成 点 集 A= fa ac}  d
+2) 找 出 所 有 由 xi 供应 的 需求 点 , 构成 点 集 B= {b1, ba, XS
+3) 对 A 中 所 有 点 , 如 果 改 用 xi 来 供应 , 将 付出 的 代价 习 夸 辣 量 和 = fa ai
+4) 对 B 中 所 有 点 , 如 果 改 用 xi 来 供应 ， 2 向 量 B = {bi,bi, }
+5) 对 4 和 8 分 别 按 升 序 排序 S
+6) 同时 对 4 和 8 从 前 向 后 遍历 , 如果 w+ LOSaaaaamaanmaa
+对 调 其 供应 者 , 直到 出 现 w+ 5= 0 为 止
+Step2 ”统计 这 cz 轮 对 调 后 的 总 费用 已 蝎 否 比 原来 的 总 费用 F 有 明显 的 进步 , 即 严 -
+F> 0(0 为 一 固定 的 较 小 值 ). 如 村 有 阴 显 的 避 步 ， 则 再 回 Step 1 执行 , 否则 结束 优化
+令 人 振奋 的 是 , 采用 改进 的 最 少 亚 玄 法 和 改进 的 伏 格 尔 法 得 到 问题 一 的 初始 方案 分 别
+采用 这 种 优化 方案 后 , 竞 都 达到 了 相同 的 最 小 费用 : 1279019 万 元
+“全
+参考 文献 : ¥
+和 一 =
+[1] 薛 秀 谦 等 编 车 ， 旦 逢 治 策 中 国 矿业 大 学 出 版 社 , 1998 年
+[2] 赵 新 泽 车 ee 世界 图 书 出 版 社 ，1996 年
+[3] 多 全 中 国 科学 技术 大 学 出 版 社 , 1990 年
+[4] LUCASW RR7 (离散 与 系统 模型 》 国防 科技 大 学 出 版 社 1996 年
+以 >
+NA， TheOrder and Transportation of the Tube Pipe
+YANG Zhi-jiang, L IGuo-xin, ZHANGM in
+(China U niversity ofM ining and Technology, Xuzhou 221008)
+Abstract  In thispaper, through the rational hypothesis, aswell as the principle of equivalent
+transfomation, the problem of order and transportation of tube pipe could be transformed to
+that of the road transportation By using the idea andmethod of combinatorialop tm ization，we
+4 « 1994- 0 8 Chi c Jou | lec nic ru lis] ing H Se. All r ts Se: d. h WW.cn

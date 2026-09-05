@@ -1,0 +1,81 @@
+27. dakaz = (t_ind_A(randvi(1)), 5¢_ind_2(randv2(1)), st_ind_3(randv3(1)),5¢_ind_
+Mrandva(1))，
+
+25. st_ind_S(randvS(1)), 5t_ind_6(randve(1)), st_ind_7(randv7(1)),st_ind_8(ran
+ev)
+
+2 st_ind_g(randve(1)),st_ind_le(randvle(1))，st_ind_lltrandv1))];
+
+50. a1 -data2
+
+31. datat - ques_2_1(2:end, 2:end);
+
+52.b1 = datan(a,:);
+
+35. xn = ques_2_1(1,2:en0);
+
+34. plot(un,b1);
+
+35. title( FASEANE")
+
+36. maabel( 该 数 ;ylabe1( 吸光度)
+
+.legena( 地 区 一 ,地 区 二 ,地 区 三 ,， 地 区 加 ,地 区 五 ,好 区 六 '。 地 区 七 ,地 区 作
+
+35. ， 扫 区 万 "地 区 十 ,地 区 十 一 Location' yportheastoutside');
+
+名
+
+ee
+
+41. = zeros(Length(dataz(1,:)));
+
+42. for 1 = L:lengeh(data2(1, ))
+
+5. for jj = lzlengthtdatazG,2))
+
+aa 本 = h,58 - 00,0;
+
+es. 站 = g1/sun(g1)303 ~ E2sun(g2);
+
+as. Daz = sun(p. (Log1e(p1/a1)))
+
+2 021 = sun(ad.* Log10(a1/p1)));
+
+e. sid = 012 + D21;
+
+名 开 人 3 sid;
+
+EC
+
+ed
+
+1 xsdtffl
+
+2. acer
+
+asread( "附件 2.xlsx')
+
+和 end 和 = a(2iend,2:end);
+
+s. xAREEEHH
+
+6. tiqu column - [3 14 38 48 58 7179 86 89 ...
+
+请 ae 134 152 227 331 618];
+
+op
+
+o. op(:,tiqu_colum) = [1;
+
+10. 8 = y(2iend, );
+
+11. onder - 5;
+
+12. fromelen = 11;
+
+15. s8f = sgolayfilt(Biordervfranelen)i  X56
+
+14. K_deriva = Giff(sef,1); 5G SR—BRT
+
+»

@@ -1,0 +1,80 @@
+10. Fatle( 原始 数据 , )5xlabel( ' 流 数 "ylabel( "大 光度
+
+了 xx shv 标准 正 交 变换
+
+12. Figure();
+
+13. [xsav] = snv(data);
+
+14. plot(x_un, xsnv)
+
+15. title "sh 光 计数 据 , )5xlabe1(' 波 数 ')3y1abe1( “吸光度 ')
+
+6 xx soFmIE
+
+rd
+
+了 11
+
+19. figore();
+
+20. kmklb - sgolayfilt(y_abb’,rd, Fl,kisen(f1,38));
+
+21. plot(x_un,kat1b)
+
+.Hatle( SG 光谱 数 据 ,)5xlabel( ' 流 数 ');ylabel( ' 吸 光度 ')
+
+23. xx 在 56 平 清 的 基础 上 进行 求 导
+
+21. Figure();
+
+25. derivl 。 diff(kntlby1); XSGHIEH—IRS
+
+26. plot(x_wn(1:end-1),k_derivi)
+
+27. title('s6 求 一 防 导 光 计数 据 ');xlabel( ' 波 数 ');ylabel( "肛交 度 ')
+25. Figure(); p
+
+29. k_deriv = diff(kntlby2)1 XSGHIGHIRE
+
+30. plot(x_wn(1:end-2) k_deriv2) sr
+
+31. title('s6 求 一 阶 导 JUHIE)xI5be1( ' 液 数 ');ylabe1( 缀 光度 ')
+2 xx 将 平滑 后 的 数据 进行 PCA 5ITEIE
+
+aa ab
+
+34. [cun_contribution_ratel,F1, contribution rate1]= PCAL(x1);
+35. xsnvI = xsnv(2:6nd, );
+
+36. x2 < xsmva;
+
+37. (cun_contribution_rate2,F2, contribution rate2]- PCAL(X2);
+3 tlb
+
+58. [cun_contribution_rate3,F3, contribution rate3]- PCAl(x3)5
+he. xd = k_deriva’;
+
+41. [cun_contribution_rated,F4, contribution rated]= PCAL(xd);
+42. x5 = k_deriva';
+
+43. [cum_contribution_rates,FS, contribution rates]s PCAL(XS);
+44. xx 将 PCA 提取 出 贡献 率 与 累计 页 献 进行 可 视 化
+
+5. xx = 28; % 看 前 29 个 特征 的 页 献 认 与 累计 页 南 率
+
+45. y1 = contribution rate1(1:x)°160;
+
+47. Figure;bar(y1)
+
+45. hold on
+
+45. yy1 = cun_contribution_rate1(1:xx)*100;
+
+50. plot(l:xxoyyl'r*- ) % 未 经 外 理 数据
+
+51. title( 贡献 率 图 项 妈 数据)
+
+52. xlabel(* ERAAN);ylabel( FARE")
+
+53. Legend(* FRE", REFARE")

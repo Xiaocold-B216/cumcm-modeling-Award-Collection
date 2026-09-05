@@ -1,0 +1,83 @@
+数学中国论文共享
+www.madio.cn
+系为
+ X = x3 = x cos β cos γ + y (sin α sin β cos γ + cos α sin γ ) + z (− cos α sin β cos γ + sin α sin γ )
+
+Y = y3 = x(− cos β sin γ ) + y (− sin α sin β sin γ + cos α cos γ ) + z (cos α sin β sin γ + sin α cos γ )
+ Z = z = x sin β + y (− sin α cos β ) + z cos α cos β
+3
+
+所以三维情况下的坐标旋转矩阵为：
+ cos β cos γ
+R =  − cos β sin γ
+ sin β
+
+sin α sin β cos γ + cos α sin γ
+− sin α sin β sin γ + cos α cos γ
+
+− cos α sin β cos γ + sin α sin γ 
+cos α sin β sin γ + sin α cos γ 
+
+cos α cos β
+
+− sin α cos β
+
+流
+
+非线性方程组的求解
+
+交
+
+n
+n
+有映象 F:D ⊆ R → R 。求解非线性方程组
+
+F(x)=0 ,假定 X* ∈ D 是方程的一个精确解，X k 是 X* 的一个近似，通过 X k 可
+
+研
+
+以定义仿射映像：
+
+：
+科
+
+L k :R n → R n
+
+为 L k (x)=A k (x-x )+F(x ) , 其 中 A k ∈ L(R ) 为 非 奇 异 n 阶 矩 阵 ， 显 然
+k
+
+k
+
+n
+
+L k (x)=F(x k ), 若用线性方程组 L k (x)=A k (x-x k )+F(x k )=0 的解 x=x k+1 作为方程的新
+k +1
+
+= x k − Ak −1 F ( x k ), k = 0,1...... 即为非线性方程的线性化迭代法。
+
+号
+
+近似，即 x
+
+对所有的 k 都取 Ak ≡ A ∈ L( R ) 非奇异 ,于是 x
+
+公
+众
+
+n
+
+k +1
+
+= x k − A−1 F ( x k ), k = 0,1...... ,
+
+微
+
+信
+
+成为 n 维平行弦方法。
+应用 Newton 法解非线性方程组，还可以得到更好的收敛速度和自校正的特
+点，但由于时间限制，我们并没有深入分析下去。
+
+27
+
+

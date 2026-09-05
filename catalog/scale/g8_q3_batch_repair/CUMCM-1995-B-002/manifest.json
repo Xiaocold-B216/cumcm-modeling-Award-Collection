@@ -1,0 +1,62 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-1995-B-002",
+  "source_path": "1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车作业调度的随机性分析.pdf",
+  "source_sha256": "2866722CD8BF834B00BCDE12DB3F275BFC83E0F422B0768C727204F9D27A9EDB",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 3,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 3,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "回味 Gi Cee 数学 的 实 中 与 认识 机 2 此 模型 不 仅 可 以 适用 与 天 车 治 炼 以 之 间 的 最 优 调度 ,并 且 也 宜 于 工作 分 配 , 铁 提 部 门 的 段 场 调度 ,以 及 多 人 台 机 器 多 个 工件 加 工 顺序 问题 。 天 车 作业 调度 的 随机 性 分 析 杜 序 袁 灯 山 杨 黎明 -从 《北京 航 室 航 天 大 学 ,北京 100083) 人 » 指导 教师 :起 杰 民 2 \\ 编者 按 :本 文 对 各 种 随机 数据 对 天 车 的 作业 率 、 天 车 的 调度 和 和 钢 产量 的 影响 j 1 际 和 定量 的 分 析 。 现 将 有 关内 容 摘 录 如 下 。 关键 词 :随机 性 ,作业 率 ,调度 。 4s > 21tee BRERHLAT FiSe S100 K EHHE R= ee y=thr, 由 FOHREL B 7oy, SEERE ABBHAT RBON TT 直 洋 却 直 接 关系 到 A 炉 的 生 产量 ,所 以 主要 矛盾 是 二 ,y。 先 说 明 随机 对 产量 的 影响 ， e 设 +~N(q ,0，3~Noooo) 则 一 个 周期 内 有 zx H Ta ， 当 四 十 y% 十 %< 十 za 时 ,生产 照常 运转 ,而 当 % 十 十 %>2 用 和 时 ,A 要 等 待 B, 那 么 整个 生产 周期 要 延 长。 eg Yi~ Hoboo (i=1,2,3) ~ 则 思 十 罗 十 六 一 ee 二 为 下 4 x; ~ N(ay.0,) (i =1,2) z We ,2 oz)。 所 以 N vt+y+y— x — x, ~ N(3a, — 2a,,03), 其 中 心 一 Vs 二 2 上 且 本 人 页 二 2 94-2008 ( {cademic J ectronic 已 House. A s reservea v y 加 下 Boa Brc 第 26 卷 (1996) 第 1 期 “73 7 avas 分 别 用 均值 来 估计 。 令 n 一 Z55，w 一 J30。 Bltm=—\"2e 党。 如 果 <,y 有 数据 可 查 , 则 可 对 zy 进行 方差 估计 , 便 可 求 出 m 和 os 得 到 m, 求 出 m。 应 用 极 大 似 然 法 估计 ， 对 = 工 六 Cr —o2, o= 13o 一 习 ?， 和 V33 十 2 -从 YY 关机 小 . 即 , 委 小 ,,y 主要 集中 在 均 估 了 过, 则 mn-0, 生 产 周 其 生 有 私 化 。 若 5 比较 大 时 , 则 可 得 xy 比较 分 散 ,mm 很 大 , 钢 产量 就 会 大 大 下 降 ,设计 辐 间 四， 原 产量 为 W, 则 新 周期 为 T'=T+m gar=g H1A0 x s00x 7204W X 人 人 WoOT T THm 并 十 的 o 其 次 考虑 随机 条 件 下 各 天 车 的 作业 率 变化 ET 为 例 了 设 为 一周 期 内 T, 的 作业 时 间 。 因 为 8 一 了 t,+t) + 18t, T B oi BH HEABT t,~ N(3,0),t; ~ N( ~ N(2,0),t; ~ N(2,0),t, ~ N(0. 25,0) - -1 - 则 B~NG6 or-1e -ar 因为 二 人 5 也 很 小 。 取 o 一 二 时 , 则 8 几乎 5tojqy 所 以 随机 性 对 天 车 的 作业 率 影响 不 大 。 as 机 性 对 调度 的 影响 调度 过 程 中 ,如 果 因为 随机 性 使 B 处 装 半 铀 的 时 间 增长 ,就 可 以 导致 A 炉 的 等 待 , 引 起 周期 增长 。 而 随机 性 若 使 B 处 装 半 钢 时 间 缩短 却 并 不 会 导致 周期 的 缩 得。 因而 在 考虑 随机 性 的 情况 下 应 使 天 车 T, 的 运行 稍 作 提前 。 同 样 为 使 辅料 的 添加 顺利 进行 ,也 要 求 T， 运行 稍 作 提前 。T3 控制 了 炉 的 冶 烽 ,由 于 卫 炉 有 用 分 钟 的 等 待 时 间 ，, 所 以 随机 性 对 T, 的 调度 几乎 无 影响 。 综 上 所 述 ,又 考虑 到 调度 方便 ,在 考 上 随 机 性 的 情况 下 ,可 使 Ti,T:,T, 运行 较 理 想 ElE Sigudd 74， 数学 的 实践 与 认识 站 情况 下 稍 作 提 前 。 锁具 装 箱 问题 的 补充 讨论 一 1994 年 全 国 大 学 生 数 学 建 模 竞 赛 题 的 补充 讨论 _ -从 ， REX 李 英 周 万 勇 张 继 生 = \\) (北京 联合 大 学 机 械 工 程 学 院 , 北京 100020) % 编者 按 AFLEFLRARAMAGEARLABRF Lonie, /所 全 大 二 竞赛 的 同学 不 仅 从 培训 订 赛 三 天 的 曙 张 撞 拓 中 华 到 了 计 许 多 不肖 宇 全 内 人 于 的 东西 ， 得 到 了 初步 的 科研 实战 的 锻炼 ， 培 养 了 合作 才 关 的 精神 ， 而 且 许 多 档 虹 和 同学 疙 识 到 三 天 竞赛 活动 的 结 来 不 是 数学 建 模 活动 的 站 束 ， 他 们 中 不 少 人 在 竞 痪 结 ES 行 师 生 结合 的 创造 性 的 数学 建 模 活 动 ， 窜 天 是 继续 对 自己 所 送 的 参赛 题 进行 深入 多 宅 铬 取 健 更 好 的 结果 。 我们 认为 是 值 详 提 个 的 。 这 里 发 表 转 文章 正 是 北京 联合 大 学 机 械 工 程 学 院 钱 生 在 竞赛 活动 后 师 生 结合 继续 对 兑 从 下 进 行 研究 所 取得 的 成 果 的 反映 。 @ 摘要 ”本文 将 镇 具 装 箱 问题 抽象 为 二 部 图 已 68，E), 寺 据 图 论 知识 ， 利用 计算 机 得 出 主 要 结论 ， 锁具 图 G 的 独立 数 *(G) ~ 2940。 风 而 氛 得 ,对 于 任何 一 种 装 箱 方案 ,团体 顾客 的 购买 量 超过 2940 套 锁具 时 ， 就 一 定 会 出 现 互 开 的 情 膏 。 关键 记 2 一 人 1 一 坟 某 厂 生产 各 2， 每 个 锁具 的 钥匙 有 5 个 槽 , 槽 高 从 {1，2,， 3，4，5,6 中 任 取 一 数 。 但 由 于 渤 条 作 及 其 它 原因 ,制造 锁具 时 对 5 个 槽 高 还 有 限制 : 至 少 有 三 个 不 同 的 数 ,中 多 梢 的 视 度 差 不 能 是 5。 这 样 所 生产 出 的 互 不 相同 的 锁具 称 为 一 批 。 同 一 批 中 的 两 人 锁 贞 ”在 当前 工艺 条 件 下 ， 若 二 者 相对 应 的 5 个 槽 的 高 度 中 有 4 个 相同 ， 另 一 槽 的 高 应 差 为 1,， 就 会 出 现 互 开 情形 。 从 顾客 的 利益 出 发 ,都 希 望 \"一 把 钥匙 开 一 把 锁 ”。 但 该 厂 的 销售 部 门 在 产品 的 装 箱 过 程 中 , 只 是 简单 地 将 一 批 产 品 中 的 任意 60 个 锁 具 装 入 一 箱 出 售 。 而 团体 顾客 往往 购买 几 箱 到 几 十 箱 ， 因 而 就 不 可 避免 地 出 现 锁具 互 开 的 情形 。 团体 顾客 对 此 抱怨 尤 深 , 也 因此 影 响 了 该 厂 的 销售 量 。 针对 这 个 问题 ， 需 要 提出 一 个 合理 的 、 可 行 的 锁具 装 箱 方案 ,以 避免 锁 具 互 开 的 情 况 。 2 1994-2008 China Academic Je lectronic Publishing House. All rights reserved. ht ow.cnki.ne",
+  "normalized_text_chars": 3408,
+  "normalized_text_sha256": "C606601F181A1721AF19ED7910B88427102391171906FA48C0A684630AD6D16C",
+  "page_provenance_summary": {
+    "OCR": 3
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "9DEBDA3017F5610BCD62E272F2D247B68DBACB4503B3CD08ED2C62250C2944A0",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B947766462D75A90D0A045B35EB80FC86B7745F85265C7DF6605DCC452C8707E"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "F4982B48FD3BA2B60686E6D43090CE39E4F7FE533BE85DF17347B4C71DAFB352",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "A5F81FDE25D464412A880A9CE19B2A3A29E550D1D87B19BFC7B8F0B74F29FCD9"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "747671CF75244C4502A1200D50694AF42AA5C66501A323799171A39E2518EFB7",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "CAA5696CF99489364F1F33BC63EEB75002EFD2506AB80CCCFA8D0F8A7D9F1187"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

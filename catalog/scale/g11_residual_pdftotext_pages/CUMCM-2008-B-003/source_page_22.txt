@@ -1,0 +1,70 @@
+// 平均每户家庭人口
+double country_people[5] = {4.4, 4.1, 4.08, 4.08, 4.05};
+double city_people[5] = {3.2, 3.13, 3.1, 3.1, 3.09};
+// 生均事业性经费支出
+double other_money[5] = {12394.32, 12147.76, 12122.22, 12565.27, 13136.34};
+
+研
+
+交
+
+流
+
+for (int i = 0; i < 3; ++i)
+{
+if (i == 0)
+{
+cout << "南京某普通高等院校:" << endl;
+fout << "南京某普通高等院校:" << endl;
+}
+else if(i == 1)
+{
+cout << "武汉某普通高等院校" <<endl;
+fout << "武汉某普通高等院校" <<endl;
+}
+else
+{
+cout << "重庆某普通高等院校:" << endl;
+fout << "重庆某普通高等院校:" << endl;
+}
+for (int j = 0; j < 2; ++j)
+{
+if (j == 0)
+{
+cout << "应用数学:" << endl;
+fout << "应用数学:" << endl;
+}
+else
+{
+cout << "计算机与科学技术:" << endl;
+fout << "计算机与科学技术:" << endl;
+}
+for (int z = 0; z < 5; ++z)
+{
+double quanzhongrenjun = city_money[z]*city_per[z] +
+country_money[z]*(1-city_per[z]);
+float tutor_money =
+(quanzhongrenjun/per_gdp[z])*(biaozhun[z]*chengbenxishu*dif[i][z]+shenghuofei[i][z])*sch
+ool_age*special_age[j]*(1.0+interest_rate[z]) - shenghuofei[i][z];
+";
+cout << 2002+z << "年标准学费:" << tutor_money << "
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+数学中国
+www.madio.net
+
+20
+
+

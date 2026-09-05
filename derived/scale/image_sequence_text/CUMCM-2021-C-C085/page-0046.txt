@@ -1,0 +1,40 @@
+CTIETTRTTTIT
+ti=YS[kklfce-D*8+ 订
+xx=inttmin(FPD][k+xx-res[n][xxl, 6000 -9)
+cw=q
+cr=Q
+forxin C:
+ifx[D in C_used:
+continue
+ifx[o] — 0:
+continue
+€_wappend(int(s{0]))
+C_rappend(int(x[1]))
+n=len(C_w)
+res = bag(n, xx C_w. C_w).copy()
+used2 = show(n. xx C w.res. Ce
+CTIK}+~(resfn][xx])
+# prini(used2)
+C_used = (C_used + used2).copy()
+for x in A:
+ifX[0] = 0 or x[1] in A_used:
+continue
+else:
+cho=1
+Fnow=1
+for i in Tpaixu:
+ii
+0
+forkkin range(num +1)
+tt=YSIkk[Ce- D*8+ 订
+证 xj+t<6000 and FP[OJ>F_now:
+cho-i
+F_now-FP[0][i]
+ATIchol+=x[0
+VSfintx[1D][(e - 1) * § + cho] += x[0]
+for x in B:
+ifx[0] ==0 or x[1] in B_used
+continue
+else
+cho=-1
+人 6

@@ -1,0 +1,217 @@
+数
+
+78
+
+学
+
+的
+
+实
+
+践
+
+与
+
+认
+
+识
+
+31 卷
+
+( 右铺) 不再适用, 此时可考虑多增加一些支路变量, 如 y 1 j , y 2 j , …, z 1 j , z 2 j , …之类, 增加约束
+
+条件 y 1 j + y 2 j + …+ z 1 j + z 2 j + …= x ij , 在目标函数中增加相应的铺设费, 具体做法可由下面
+对图二的模型获知, 问题g 建模如下 (m j 是运到 A j 的钢管向第三支路铺设的数目) :
+7
+
+O b j2: m inW =
+
+21
+
+7
+
+21
+
+15
+
+∑∑p x + ∑∑c x + d ∑
+i
+
+ij
+
+ij
+
+i= 1 j = 1
+
+i= 1 j = 1
+
+m 9 (m 9 + 1)
+
++
+
+2
+
++
+
+y i ( y i + 1)
+
+ij
+
+2
+
+i= 2
+
+m 11 (m 11 + 1)
+
+2
+
++
+
+14
+
++
+
+∑z
+i= 1
+
+i
+
+( z i + 1)
+2
+
+m 17 (m 17 + 1)
+
+2
+
+21
+
+500 g ti ≤
+
+∑x ≤ s g t
+ij
+
+i
+
+( i = 1, …, 7)
+
+i
+
+流
+
+s. t.
+
+j= 1
+
+7
+
+∑x = y + z
+ij
+
+j
+
+( j = 1, …, 21 且 j ≠ 9, 11, 17)
+
+j
+
+i= 1
+
+∑x = y + z + m
+ij
+
+j
+
+j
+
+交
+
+7
+
+( j = 9, 11, 17)
+
+j
+
+i= 1
+
+( j = 1, 2, …, 14)
+z 19 + y 20 = 260
+
+z 20 + y 21 = 100,
+
+m 11 + m 17 = 10
+
+y 17 + y 18 = 130,
+
+z 17 + y 19 = 190
+
+x ij , y j , z j , m j ≥ 0
+
+：
+科
+
+m 9 + y 16 = 42,
+
+研
+
+z j + y j + 1 = bj
+
+( i = 1, …, 7, j = 1, …, 21) ,
+
+ti = 0 或 1
+
+( i = 1, …, 7)
+
+运用数学软件 L ingo 5. 0 编程求出:
+3
+
+W 2 = 1. 40633×10 ( 万元)
+
+号
+
+参考文献:
+
+6
+
+姜启源. 《数学模型》
+. 高等教育出版社, 北京, 1996.
+
+[2]
+
+严蔚敏, 吴伟民. 《数据结构》
+. 清华大学出版社, 北京, 1992.
+
+[3]
+
+叶其孝. 《大学生数学建模竞赛辅导教材》
+. 湖南教育出版社, 长沙, 1993.
+
+微
+
+信
+
+公
+众
+
+[1]
+
+O ptim a l Schem e for Purcha sing and
+Tran sporting Steel Tubes
+LU W e i2x in,
+
+L IN H ao ,
+
+( Sichuan U n iversity,
+
+Abstract:
+
+CH EN X iao 2dong
+
+Chengdu
+
+610064)
+
+T he op tim a l schem e in the con struction of the na tu re ga s p ip eline ha s been stud ied
+
+in th is a rticle. W e have set up a quad ra tic p rog ramm ing m odel in w h ich the ob jective function is
+the to ta l exp en se of the con struction.
+
+

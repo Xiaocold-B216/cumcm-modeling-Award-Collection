@@ -1,0 +1,207 @@
+1期
+
+仲银花等:“飞越北极”的数学模型
+
+107
+
+x = OP′
+co su = a co su
+y = OP″
+sin u = b sin u
+y
+x
+
+代入 =
+
+.
+
+2
+
+b
+ay
+b
+=
+tanB . 所以归化纬度与大地纬度的关系为
+2 tanB 得: tan u =
+bx
+a
+a
+b
+tan u =
+tanB
+a
+
+( 3)
+
+( 2) 计算公式的导出
+
+长距离大地主题解算的贝赛尔方法中, 椭球面上两点 P 1 (L 1 , u 1 ) 与 P 2 (L 2 , u 2 ) 间的大地
+a- b
+≈ 01003, 则计算中略去 Α2 项, 于是
+a
+
+dS = a
+
+交
+
+由于地球的扁率 Α=
+
+1- e2 co s2 u d Ρ.
+
+流
+
+线 S 与其辅助球面上大圆弧 Ρ 的微分关系式为 dS = a
+
+1 - 2Αco s2 u d Ρ = a ( 1 - Α+ Αsin 2 u ) d Ρ
+
+( 4)
+
+球面直角极三角形的球面三角公式为 sin u = sin u n co sΡ, 将其代入 ( 4) 得:
+
+S = a △Ρ 1 -
+
+( 5)
+
+：
+科
+
+对 ( 5) 式两端积分得:
+
+1 + co s2Ρ
+dΡ
+2
+
+研
+
+Α+ Αsin 2 u n
+
+dS = a 1 -
+
+Α
+
+Α+
+
+2
+
+1
+2
+a Αsin u n ( sin2Ρ2 4
+
+sin 2 u n +
+
+sin2Ρ1 )
+
+( 6)
+
+由于 u n , Ρ1 , Ρ2 未知, 将此用 u 1 , u 2 和△Ρ 表示, 其中△Ρ= Ρ2 - Ρ1. 由球面三角公式有
+sin u 1 = sin u n co sΡ1
+
+( 7)
+
+号
+
+sin u 2 = sin u n co sΡ2
+
+令 U = ( sin u 1 + sin u 2 ) 2 , V = ( sin u 1 - sin u 2 ) 2 , 可得
+U
+
+2 ( 1 + co s△Ρ)
+
+公
+众
+
+sin 2 u n =
+
+sin 2 u n ( sin2Ρ2 -
+
++
+
+V
+
+( 8)
+
+2 ( 1 - co s△Ρ)
+
+sin2Ρ1 ) = sin △Ρ
+
+U
+
+1 + co s△Ρ
+
+-
+
+V
+
+1 - co s△Ρ
+
+( 9)
+
+△Ρ 是辅助球面上两点的大圆弧长, 有如下近似公式:
+co s△Ρ = sin u 1 sin u 2 + co su 1 co su 2 co s (L 1 - L 2 ).
+
+信
+
+根据对△Ρ 的近似处理, ( 6) 式可简化为如下近似公式:
+S = a △Ρ -
+
+aΑ
+
+aΑ
+
+2
+
+4
+
+△Ρsin 2 u n +
+
+sin 2 u n ( sin2Ρ2 -
+
+sin2Ρ1 )
+
+微
+
+将 ( 8) ( 9) 代入上式得:
+S = a △Ρ aΑ a - b
+
+1
+△Ρ - sin △Ρ
+△Ρ + sin △Ρ
+aΑ
+U +
+V
+4
+1 + co s△Ρ
+1 - co s△Ρ
+
+( 10)
+
+△Ρ- sin △Ρ
+△Ρ+ sin △Ρ
+, N =
+, 则
+1+ co s△Ρ
+1- co s△Ρ
+( 11)
+S = a △Ρ - H (M U - N V )
+对于飞机航线相邻两站点 A i (B i , L i ) , A i+ 1 (B i+ 1 , L i+ 1 ) 之间的航程有如下近似计算公式:
+若令 H =
+
+4
+
+=
+
+4
+
+, M=
+
+Si= -
+
+a Ρ - H (M U + N V ) ,
+
+co sΡ = sin u i sin u i+ 1 + co su i co su i+ 1 co s (L i+ 1 - co sL i ) ,
+2
+U = ( sin u i + sin u i+ 1 ) , V = ( sin u i -
+
+sin u i+ 1 ) 2 ,
+
+

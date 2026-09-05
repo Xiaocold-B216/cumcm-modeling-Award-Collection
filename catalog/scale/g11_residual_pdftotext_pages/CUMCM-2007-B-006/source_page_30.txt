@@ -1,0 +1,188 @@
+end
+end
+fclose(fid);
+for i=1:size(L,1)
+tline=L{i,4};
+t=findstr(tline,'S');
+temp=zeros(1,length(t));
+if strcmp(L{i,3},'来回2') ||
+strcmp(L{i,3},'环行2')
+for j=length(t):-1:1
+
+end
+end
+Lt1=L;
+Lt1{1041,1}='T001';
+Lt1{1041,2}=3;
+Lt1{1041,3}='来回1';
+Lt1{1041,4}=DL{1,1};
+
+temp(length(t)-j+1)=str2double(tline(t(j)+1:
+t(j)+4));
+end
+else
+for j=1:length(t)
+
+Lt1{1043,1}='T002';
+Lt1{1043,2}=3;
+Lt1{1043,3}='环行1';
+Lt1{1043,4}=strcat(DL{2,1},DL{2,1}(6:end));
+
+流
+
+Lt1{1044,1}='T002';
+Lt1{1044,2}=3;
+Lt1{1044,3}='环行2';
+Lt1{1044,4}=strcat(DL{2,1},DL{2,1}(6:end));
+for i=1:1044
+tline=Lt1{i,4};
+t=findstr(tline,'S');
+temp=zeros(1,length(t));
+if strcmp(Lt1{i,3},'来回2') || strcmp(Lt1{i,3},'环行2')
+for j=length(t):-1:1
+
+研
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+ww
+
+temp(j)=str2double(tline(t(j)+1:t(j)+4));
+end
+end
+L2{i,1}=temp;
+end
+for i=1:3957
+if floor(i/10)==0
+Cit{i}=strcat('S000',num2str(i));
+elseif floor(i/100)==0
+Cit{i}=strcat('S00',num2str(i));
+elseif floor(i/1000)==0
+Cit{i}=strcat('S0',num2str(i));
+else
+Cit{i}=strcat('S',num2str(i));
+end
+end
+Cit{3958}='D01：S0567，S0042，S0025';
+Cit{3959}='D02：S1487';
+Cit{3960}='D03：S0303，S0302';
+Cit{3961}='D04：S0566';
+Cit{3962}='D05：S0436，S0438，S0437，S0435';
+Cit{3963}='D06：S0392，S0394，S0393，S0391';
+Cit{3964}='D07：S0386，S0388，S0387，S0385';
+Cit{3965}='D08：S3068，S0617，S0619，S0618，
+S0616';
+Cit{3966}='D09：S1279';
+Cit{3967}='D10：S2057，S0721，S0722，S0720';
+Cit{3968}='D11：S0070，S2361，S3721';
+Cit{3969}='D12：S0609，S0608';
+Cit{3970}='D13：S2633，S0399，S0401，S0400';
+Cit{3971}='D14：S3321，S2535，S2464';
+Cit{3972}='D15：S3329，S2534';
+Cit{3973}='D16：S3506，S0167，S0168';
+Cit{3974}='D17：S0237，S0239，S0238，S0236，
+S0540';
+Cit{3975}='D18：S0668';
+Cit{3976}='D19：S0180，S0181';
+Cit{3977}='D20：S2079，S2933，S1919，S1921，
+S1920';
+Cit{3978}='D21：S0465，S0467，S0466，S0464';
+Cit{3979}='D22：S3457';
+Cit{3980}='D23：S2512';
+Cit{3981}='D24：S0537，S3580';
+Cit{3982}='D25：S0526，S0528，S0527，S0525';
+Cit{3983}='D26：S3045，S0605，S0607';
+Cit{3984}='D27：S0087，S0088，S0086';
+Cit{3985}='D28：S0855，S0856，S0854，S0857';
+Cit{3986}='D29：S0631，S0632，S0630';
+Cit{3987}='D30：S3874，S1426，S1427';
+Cit{3988}='D31：S0211，S0539，S0541，S0540';
+Cit{3989}='D32：S0978，S0497，S0498';
+Cit{3990}='D33：S1894，S1896，S1895';
+Cit{3991}='D34：S1104，S0576，S0578，S0577';
+Cit{3992}='D35：S3010，S0583，S0582';
+Cit{3993}='D36：S3676，S0427，S0061，S0060';
+Cit{3994}='D37：S1961，S2817，S0455，S0456';
+Cit{3995}='D38：S3262，S0622';
+Cit{3996}='D39：S1956，S0289，S0291';
+
+Lt1{1042,1}='T001';
+Lt1{1042,2}=3;
+Lt1{1042,3}='来回2';
+Lt1{1042,4}=DL{1,1};
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+temp(length(t)-j+1)=str2double(tline(t(j)+1:t(j)+4));
+end
+else
+for j=1:length(t)
+temp(j)=str2double(tline(t(j)+1:t(j)+4));
+end
+end
+Lt2{i,1}=temp;
+end
+
+D
+
+微
+
+1.2 直达队列表 Q 与 Q 的建立
+MakeS1.m 第一问
+
+MakeS2.m 第二问
+
+clear S
+S(1:3957,1:3957)={zeros(1,1,'uint16')};
+for i=1:1040
+t=L2{i,1};
+for j=1:length(t)-1
+for k=j+1:length(t)
+temp=S{t(j),t(k)};
+str=L{i,1};
+[n,m]=size(temp);
+if n==1 && temp(1,1)==0
+
+clear S
+S(1:3996,1:3996)={zeros(1,1,'uint16')};
+for i=1:1044
+t=Lt2{i,1};
+for j=1:length(t)-1
+for k=j+1:length(t)
+temp=S{t(j),t(k)};
+[n,m]=size(temp);
+if n==1 && temp(1,1)==0
+temp(n,1)=i;
+if Lt1{i,2}==2
+if (k-j)>40
+temp(n,2)=3;
+elseif (k-j)>20
+temp(n,2)=2;
+else
+temp(n,2)=1;
+
+temp(n,1)=str2double(str(2:end));
+if L{i,2}==2
+if (k-j)>40
+temp(n,2)=3;
+elseif (k-j)>20
+temp(n,2)=2;
+
+28
+
+

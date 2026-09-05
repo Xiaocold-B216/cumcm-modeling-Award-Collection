@@ -1,0 +1,27 @@
+[2026-08-21T01:41:51+08:00] G3-25R run started
+BASELINE_JSON={"formal": 670, "formal_2025": 5, "internal_id": 636, "memberships": 2372, "source_id": 34, "unique": 670}
+TARGET_CLASSIFICATION_JSON={"existing_papers": 0, "new_papers": 7}
+BEFORE_INVOCATION_JSON={"formal": 670, "formal_2025": 5, "internal_id": 636, "memberships": 2372, "source_id": 34, "unique": 670}
+CREATED_PAPERS=7 CREATED_MEMBERSHIPS=7 CREATED_SOURCES=7 REVIEW_CHANGED=1
+AFTER_INVOCATION_JSON={"formal": 677, "formal_2025": 12, "internal_id": 636, "memberships": 2379, "source_id": 41, "unique": 677}
+COMPLETED=2026-08-21T01:41:52+08:00
+[2026-08-21T01:41:59+08:00] G3-25R run started
+BASELINE_JSON={"formal": 670, "formal_2025": 5, "internal_id": 636, "memberships": 2372, "source_id": 34, "unique": 670}
+BEFORE_INVOCATION_JSON={"formal": 677, "formal_2025": 12, "internal_id": 636, "memberships": 2379, "source_id": 41, "unique": 677}
+CREATED_PAPERS=0 CREATED_MEMBERSHIPS=0 CREATED_SOURCES=0 REVIEW_CHANGED=0
+AFTER_INVOCATION_JSON={"formal": 677, "formal_2025": 12, "internal_id": 636, "memberships": 2379, "source_id": 41, "unique": 677}
+COMPLETED=2026-08-21T01:41:59+08:00
+[2026-08-21T01:42:43+08:00] G3-25R run started
+BASELINE_JSON={"formal": 670, "formal_2025": 5, "internal_id": 636, "memberships": 2372, "source_id": 34, "unique": 670}
+TARGET_CLASSIFICATION_JSON={"existing_papers": 0, "new_papers": 7}
+BEFORE_INVOCATION_JSON={"formal": 677, "formal_2025": 12, "internal_id": 636, "memberships": 2379, "source_id": 41, "unique": 677}
+CREATED_PAPERS=0 CREATED_MEMBERSHIPS=0 CREATED_SOURCES=0 REVIEW_CHANGED=0
+AFTER_INVOCATION_JSON={"formal": 677, "formal_2025": 12, "internal_id": 636, "memberships": 2379, "source_id": 41, "unique": 677}
+COMPLETED=2026-08-21T01:42:43+08:00
+[2026-08-21T01:43:37+08:00] G3-25R run started
+BASELINE_JSON={"formal": 670, "formal_2025": 5, "internal_id": 636, "memberships": 2372, "source_id": 34, "unique": 670}
+TARGET_CLASSIFICATION_JSON={"existing_papers": 0, "new_papers": 7}
+BEFORE_INVOCATION_JSON={"formal": 677, "formal_2025": 12, "internal_id": 636, "memberships": 2379, "source_id": 41, "unique": 677}
+CREATED_PAPERS=0 CREATED_MEMBERSHIPS=0 CREATED_SOURCES=0 REVIEW_CHANGED=0
+AFTER_INVOCATION_JSON={"formal": 677, "formal_2025": 12, "internal_id": 636, "memberships": 2379, "source_id": 41, "unique": 677}
+COMPLETED=2026-08-21T01:43:42+08:00

@@ -1,0 +1,1 @@
+回 矶 这 全 关 2 品系 这 x>=tx) { X 一 tx; tx=0; else tX-=X; x=0; } if(y>=ty) - { - 诊 ye SN er0; 2 } ) 5 else y-=y: y=0; 全 } - nm-=tx*mx+ty*my; c-=2*tx*ex+2*ty*cy; ifnm>=0&&c>=0) ° 办 全 attday=day: x=sx[wealattday]}2, ty=sy|wea[attda 后 attday++; 大 if(x>=tx) - L IV 人 W else NY tX-=X; x=0; } if(y>=ty) { VESE ty=0; } 36

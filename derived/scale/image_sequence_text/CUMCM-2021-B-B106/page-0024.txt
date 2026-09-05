@@ -1,0 +1,40 @@
+hold on;
+X-250:1:450;
+¥3-0.0017518 power(x.2)-0.8015°x+96.86:
+Plotxy3,m-);
+hold on
+X250:1:450;
+¥4-0.002512* power(x2)-1 365*x+188.3;
+plot(xy4g").
+legend(Al 乙醇 转化 率 '"'A3 乙醇 转化 率 ''A8 乙醇 转化 率 '"B2 乙醇 转化 率 7
+xlabel( 温 度 PC7
+ylabel( 乙 醇 转 化 率 )
+figure(2);
+X-250:1:450;
+¥5--0.002113*power(x,2)+1.422#-190.8;
+Plot(xyS.1-:
+hold on;
+X-250:1:450;
+Y6--0.0009471*power(x2)0.9244#x-17115
+PloI(xy6,b-);
+hold on
+X-250:1:450,
+Y7-0.0007471Fpower(x,2)-0.2446*x+19.82;
+PIOIY7.m--):
+hold on;
+X-250:1:450;
+¥8-0.0009926*power(x2)-0.4028x+41.33;
+Plot(xy8g");
+legend(Al_C4 烯烃 选择 性 vA3_C4 烯烃 选择 性 'A8_C4 烯烃 选择 性 "B2_C4 烯烃
+选择 性 》
+xlabel( 温 度 eC7:
+ylabel(C4 烯烃 选择 性 小
+附录 5: 问题 二 (控制 变量 组 合 对 照 画 图 Python 程序 )
+import matplotlib.pyplot as plt
+import numpy as np
+# 这 两 行 代码 解决 plt 中 文 显示 的 问题
+
+2
+
+涛 四国 大 学 生 在 线
+Cszm7oe Oo co7

@@ -1,0 +1,43 @@
+values = [0.1,1]# 随 机 设置 需要 优化 的 整 型 和 浮 点 型 ，1: 整 型 ，0.1: 浮 点 型
+# 种 群 初始 化
+boundary=np.zeros((noclus,))
+for j in range(noclus):
+boundary[j] = isinstance(values[j], inty##] Hi & A~ 2 # 4Y
+for 1 in range(noposs):
+if boundary[j]==1:
+poss_sols[i] []] =np.random.randint(low=min_values[j],high=max_values[j])
+else:
+poss_sols[i] [[] =(max_values[j]-min_values[j]) *np.random.rand()+min_values][j]
+poss_sols=poss sols.astype(objecb 朝 为 了 让 整 型 和 浮 点 型 数据 放 在 一 个 数组 里
+poss_sols[:, 1]=poss_sols[:, 1].astype(np.inb# 属 整 型 那 列 数据 变 成 整 型
+##poss_sols[:, 2]=poss_sols[:, 2].astype(np.int)
+global_fitness = np.inf## 正 无 穷 大
+for 1 in range(noposs):
+cur_par_fitness =fitness(poss_sols[i])
+if cur_par_fitness <global_fitness:
+global fitness =cur_par_fitness
+gbest =poss_sols[i]
+# 开始 选 代
+trace=[]
+for it in range(max_iterations):
+for 1 in range(noposs):
+a=2.0-(2.0*it)/(1.0 * max_iterations)
+r =np.random.random()
+A=20%%*-a
+C=20%*
+1=2.0 * np.random.random() - 1.0
+p = np.random.random()
+for j in range(noclus):
+x =poss_sols[i] [j]
+if p<0.5:
+if abs(A) <1:
+_x =gbest[j]
+else :
+rand = np.random.randint(noposs)
+_x=poss_sols[rand][j]
+D =abs(C*_x-x)
+updatedx =_x - A*D
+else :
+_x = gbest[j]
+D =abs(_x-X)
+33

@@ -1,0 +1,78 @@
+Begin
+drop table #vtotal_discount_product_je
+End
+;
+--查询会员消费总金额
+select vmvsd.kh,SUM(je) as 会员消费总金额,ISNULL(vdpj.特价商品消费总金额,0) as 特价商品
+消费总金额
+into #vtotal_discount_product_je
+from vtime_mall_vip_sale_detail vmvsd
+left join #vip_discount_product_je vdpj on vmvsd.kh=vdpj.kh
+group by vmvsd.kh,vdpj.特价商品消费总金额
+select a.*,b.特价商品消费总金额,b.会员消费总金额
+from #RFMT a left join #vtotal_discount_product_je b on a.会员卡号=b.kh
+
+交
+
+;
+
+流
+
+;
+
+select jhl.*,vl.会员生命周期 from jihuolv jhl left join vip_life vl on jhl.会员卡号=vl.会员卡号
+
+研
+
+where vl.会员生命周期 <> '活跃会员'
+;
+--------------------第五问---------------------------
+
+：
+科
+
+--获取单据号
+
+select distinct djh from vtime_mall_vip_sale_detail ;
+--获取商品编码
+
+select distinct spbm from vtime_mall_vip_sale_detail ;
+
+众
+
+源程序 2：
+使用软件：SAS
+
+号
+
+select djh,spbm from vtime_mall_vip_sale_detail;
+
+/*多元线性回归分析*/
+proc reg data =liushi;
+
+公
+
+var jihuo_rate cuxiao_rate F R M T;
+model jihuo_rate = cuxiao_rate F R M T;
+
+信
+
+run;
+
+微
+
+/*因子分析*/
+
+proc factor data=A out=B Nfactor=3 method=prin priors=one
+rotate=varimax simple p=0.8 score outstat=C;
+var R F M T;
+run;
+proc score data=A
+score=C
+out=D;
+var R F M T;
+run;
+
+27
+
+

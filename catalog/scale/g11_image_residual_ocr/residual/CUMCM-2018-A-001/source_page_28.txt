@@ -1,0 +1,39 @@
+回味
+和
+if U 3(ZZ 2, 1501) <= 44
+if U 3(ZZ 2,t 3) <= 47
+temp = 1;
+SIGN(p-5, w-5) = 1;
+break
+end
+end
+77.2 = ZZ_2+1;
+IV = IV+1;
+U 3 = zeros(ZZ_ 2,t 3) ; y
+U3(,1) = 37; 全 <
+U_3(L :) = 80;% 与 外 界 接触 层 z \
+ad = ones (Iv-1, 1)*(-14) ; <
+b4 = ones (IV-1, 1)*(1+2%r4) ; 人行-
+cd = a4;
+end
+II = II+1; S
+IV = 6; “
+77.2=1 +6 + I1 + 36 + IV; 外
+U 3 = zeros(ZZ_ 2,t 3) ;
+U03(,D = 37; @
+U 3(L:) = 30;% 5 外界 接 角 民 人 @
+a2 = ones (II-1， 1)*(-12) ; 和 和 A
+b2 = ones(II-1, 1)#(1+2#r2) ;
+C2 = a2;
+ad = ones (IV-1, 1)*(-r
+b4 = ones (1V-1, 1).+ (132+14) ;
+cd = ad;
+end 2 \v
+for qq = CC
+for L=\1:5
+if ER == 1
+disp(Fad?s 1+5])
+end
+end
+end
+28

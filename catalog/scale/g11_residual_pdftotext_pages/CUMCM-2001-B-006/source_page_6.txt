@@ -1,0 +1,83 @@
+工
+
+80
+
+程
+
+数
+
+学
+
+学
+
+报
+
+第 19 卷
+
+参考文献 :
+[1]
+
+杨 冰 . 实用最优化方法及计算机程序 [ M ] . 哈尔滨船舶工程学院出版社 ,1994
+
+[2]
+
+秦寿康 . 最优化理论和方法 [ M ] . 电子工业出版社 ,1986
+
+[3]
+
+王正民 ,易东云 . 测量数据建模与参数估计 [ M ] . 长沙 : 国防科技大学出版社 ,1997
+
+[4]
+
+胡永孚 . 数学模型 [ M ] . 西安 : 西北工业大学出版社 ,1996
+
+L U Peng ,
+
+ZHAN G Wen2fu ,
+
+Faculty Adviser :
+
+L EI Peng
+
+CAO Tian2lin
+
+流
+
+Buses Dispatching
+
+Abstract :
+
+交
+
+( Missile Institute of Air Force Engineering University , Sanyuan , Shaanxi 713800)
+
+In t his paper , a mat hematical model on buses dispatching is presented wit h t he met hod of perfecting on multi2objects.
+
+研
+
+Firstly , wit h t he data analyses and consideration on feasibility , a typical workday can be divided into five spans : before morning
+rush hour , morning rush hour , t he span between morning rush hour and evening rush hour , evening rush hour and its beyond.
+Three objective functions are introduced : t he average capacity rate , t he degree of t he passengers’waiting , and t he degree of pas2
+
+：
+科
+
+sengers’complain on waiting and crowded , to set up a model of perfecting on t hree objectives. Weighted average met hod is used to
+combine t he t hree functions as one. MA TLAB mat hematical software is employed to work out t he interval of sending buses. Up2go2
+ing buses are sent at respectively 5 ,2 ,4 ,3 ,15 ( minutes) and down2going buses are 10 ,2 ,5 ,3 ,8 ( minutes) . Altoget her , 52 buses are
+needed and 534 buses one a workday. The percent of average capacity is 82. 094 % , and t he percent of t he passengers’complain is
+0. 91 %. The model is proved to be steady t hrough t he test . Lastly shortening t he statistical time on partial area is concluded to be
+an effective way to improve t he dispatching plan t hrough t he analyses on original data.
+
+微
+
+信
+
+公
+众
+
+号
+
+Key words : buses dispatching ; mat hematical model ; multi2objects
+
+

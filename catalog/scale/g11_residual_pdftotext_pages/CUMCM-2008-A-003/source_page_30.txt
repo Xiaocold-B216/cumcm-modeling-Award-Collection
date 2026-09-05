@@ -1,0 +1,67 @@
+end
+end
+end
+zb_bound=[zb_bound,{m}];
+end
+zb_bound(2)=[];
+clear a;clear h;clear i;clear j;clear hh;clear m;
+
+附录四 求取切线程序
+
+%isMatch.m
+%判断向量是否在可行域
+function f=isMatch(r,zb_y)
+zb_r=zb_qx(r);
+a=zb_r(:,1)*10000+zb_r(:,2);
+b=zb_y(:,1)*10000+zb_y(:,2);
+for i=1:length(b)
+if ~ all(a-b(i))
+f=0;return;
+end
+end
+f=1;return;
+
+研
+
+交
+
+流
+
+%qx.m
+%求切线主程序
+bound_zb;
+cd 'qx';
+sa
+
+公
+
+众
+
+号
+
+：
+科
+
+数学中国
+www.madio.net
+
+微
+
+信
+
+%mbFunction.m
+%目标函数
+function f=mbFunction(r)
+f=abs((1/2)*det([r(1),r(2),1;r(3),r(4),1;r(7),r(8),1]))+abs((1/2)*det([r(1),r(2),1;r(5),r(6),1;r(7),r
+(8),1]));
+return;
+%randomDisturb.m
+%生成随机扰动
+%n 为向量维数
+%m 为最大扰动
+function f=randomDisturb(n,Tm,T,Tn,L0,L1)
+m=((L1-L0)/(Tn-Tm))*T+L0-Tm*((L1-L0)/(Tn-Tm));
+a=round((rand(1,n)*2-1)*m);
+28
+
+

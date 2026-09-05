@@ -1,0 +1,45 @@
+Ee
+-
+for (;a2. ys[5] 1=08&a2. ys[6] 1=08&bb!=0;) //R S
+{
+if (z1%2==0)
+{
+z[zl++]=5;bb 一 ;a2. ys[5] 一 ;
+if (bb==0) break;
+z[z1++]=6;bb——; a2. ys[6] 一 ;
+if (bb==0) break;
+}
+else
+aa
+z[z1++]=6;bb—;a2. ys [6]—; 全 从 >
+if (bb==0) break; Lp “由
+z[21++]=5;bb—;a2. ys [5] 一 ; 2XG
+if (bb==0) break; , “了
+} »
+你
+if (a2. ys[6]=-0) 2X
+{ Ke”
+for (;a2. ys[5] 1=08&a2. ys [人 b1=0;)//R 棕
+{
+if(zl%2=-0)
+{ MA ©
+Z Da ;a2. yS [5] 一 ;
+if (bb==0) break;
+++]=3;bb—;a2. ys[3]—;
+¥ ==0) break;
+~
+)'ad
+2 z[z1++]=3;bb—;a2. ys [3]—;
+下 4 if (bb==0) break;
+六 z[z1++]=5;bb—;a2. ys [5]—;
+p<Y if (bb==0) break;
+}
+}
+}
+}
+else if (a2. ys [5] ==0)
+{
+for (;a2. ys[4] !=0&&a2.ys[6]1=0&&bb!1=0;)// 金 S
+{
+if (z1%2==0)
+48

@@ -1,0 +1,42 @@
+ERE
+0
+EEEE
+//
+// 将 同一 路 线 的 上 、 下 行路 线 看 成 两 个 不 同 的 路 线
+// 将 环形 路 线 换算 成 两 个 与 之 等 价 的 单行 路 线
+vector<LoadMessage> AllLines (1040) ;
+vector<vector<int> > AllBuses(3957);
+string strCurrLine ="7;
+string strBusLine = // 公交 线路
+String StrPrice = // 票 价 信息
+string strUpLoad = ””; // 上 行路 线
+string strDownLoad = 人; // 下 行路 线 “
+string strRoundLoad = ""; // 环形 路 线 二 <
+bool ”IsRoundWay” = false; // 判断 当前 读 入 的 路 线 是 否 为 环形 线 \
+和
+for (int nCount=0; nCount<520; ++nCount)
+{
+IsRoundWay = false;
+全
+// 读 入 路 线 各 7
+do {
+getline(fin, strCurrLine,” \n’);
+} while(strCurrLine ==""); 人 @
+AAA
+StrBusLine = strCurrLin
+// 读 入 计 费 标准
+do {
+getline(fin, strCurrLine,” \n');
+} 这 ="");
+o,
+人 和 strCurrLine;
+/ VRAN EATHZ
+Te:
+getline (fin，strCurrLine，ANm ) ;
+} while(strCurrLine == "");
+string temp(strCurrLine, 0, 6);
+// 环形 线路
+if (temp ==“ 环 行 : ”)
+{
+strUpLoad ="
+38

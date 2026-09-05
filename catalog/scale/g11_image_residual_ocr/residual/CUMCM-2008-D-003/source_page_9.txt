@@ -1,0 +1,34 @@
+回 8 昌国
+对 手 平 均 实 力 因素
+球 队 名 称 w 连续 客场 因素 刀 背靠背 因素 9
+一 厅 io | or 05
+[于 放 | omsses | 03 | 04257l9 |
+[| oa | oa 1 |
+[ui oagaobs | 06 or
+一 Ko657obxr | 06 | 05rltsirl
+[KK oolresiiL | 05 | os6rua
+| | omewewe | 05 | 02857rltz6 |
+[6 和 | 00500809 | 0 0aitls |
+CwE [ 0 oa 3
+全 人 | 0o45l2 |os TAN 1 |
+CwE | omwme | 0 |
+TEE | 08502i0 | oa Us
+[和 09io3 | oo 和 SI |
+一 沿 信 | 0il5ere | 09 | Oil
+[有 | 0o46reret | 0o7 | 05ritesrl
+ET oo oa |1
+一 093236782 本 08 | 0
+[者 | 06i25iip TI | ozssru
+一 和 全 | oseowia) 00 | or
+人 toctttto0t | 06 | oO7itssru
+IIRS To 1 |
+[人 776 |] 06 | Oils |
+[aa0l3530 | 065 0425rtz |
+人 表 7 每 个 球 队 各 因素 规范 化 后 数值 表
+4.1.6 丛 因素 权重 的 确定
+通过 引入 每 两 个 因素 对 整 端 指 数 影响 的 程度 大 小 的 比值 得 到 成 对 比较 和 矩 阵 如 下 :
+1 3 5$
+4=|1/$ 1 1
+1/5 1 1
+其 中 4(L2) =5 即 表示 球 队 实力 和 连续 客场 因素 对 弊端 指数 的 影响 之 比 为 31，4(2,3)=1
+9

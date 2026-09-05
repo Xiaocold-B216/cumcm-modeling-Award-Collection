@@ -1,0 +1,38 @@
+g=9.8; $0gA LOEUIE
+V=pi*172*h;%°0E@1ax»y
+Ffeng=0.625*%S*v~2;% cA|
+Ffu=rou*g*Vv;% jA|
+Gfu=m*qg;%, ; +&00A|
+Fshui=374* (vshui/gdH"2* (gdH-h) "2) ~2*2*h; SE+EUEGA | DG 下
+if Ffu-Gfu<0
+continue;
+end
+Ftx (1)=Fshui+Ffeng*cos (alpha) ;
+Fty(l)=Ffeng*sin(alpha);
+Ftz (1)=Ffu-Gfu;
+gs 0102¢ 6
+Vg=1*pi*0.025%2;% 0'UTa»y
+Ggang=10*g;%, O'UOGA|
+Fgfu=rou*g*vg;
+Fshui2=[374* (vshui/gdH"2* (gdH-h-0.5)"2) ~2*1%0.05, 374* (vshui/gdH"2* (gdH-h-1.
+5)^2)^2x*lx0.05,374x (vshui/gdH 2* (gdH-h=-2.5) *2) A2*1%0.05,374* (vshui/gdH 2* (g
+dH-h-3.5)"2)"2*1%0.05] ; SR+EUE@A | DA 下
+for i=1:4
+gama2 (i)=atan (Fty(i)/ (Fshui2 (i) /2+Ftx(i)));
+Ftp=Ftx (i) *cos (gama2 (i))+Fty (i) *sin (gama2 (i)) ;
+thital (i)=atan ((Ftp+Fshui2 (i)*cos(gama2(i)))/ ((Fgfu-Ggang) /2+Ftz(i)));
+Ftx (i+1)=Fshui2 (i)+Ftx (i);
+Fty (i+1)=Fty (i);
+Ftz (i+1)=Fgfu-Ggang+Ftz (i);
+end
+gs .6fez 2 .6
+Vt=1*pi*0.15%2;% 0f°Ta»y
+Vq=mq/7800; $081iCoTa»y
+Gt=100%g;%.01°%; 00C 玉 |
+Gq=mqxgjsOoTiCooc 玉 |
+Ftfu=rou*g*Vt;$ .Of”.i 玉 |
+Fgfu=rou*g*Vq; 300A|Co, jA|
+Fshui3=0+374* (vshui/gdH"2* (gdH-h-4.5)"2) ~2*1%0.3; SB+EUEGA |
+HAO 下
+gama3=atan (Fty(5)/ (Fshui3/2+Ftx (5)));
+36

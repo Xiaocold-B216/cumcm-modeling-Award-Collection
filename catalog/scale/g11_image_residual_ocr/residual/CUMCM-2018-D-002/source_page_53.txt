@@ -1,0 +1,58 @@
+回 吕 这 动 回
+z[z1++]=3;aw—;al. ys[3]—;
+if (aw==alhcsl)break;
+
+}
+
+else
+
+{
+z[z1++]=3;aw—;al. ys[3]—;
+if (aw==alhcsl)break;
+z[z1++]=4;aw—;al. ys[4]—;
+if (aw==alhcsl)break;
+
+}
+
+}
+
+%
+) >
+for (;al. ys[6]!=0&&aw!=alhcsl;al. ys[6]—, aw—) //8. 由
+
+z[z1++]=6; ZXA
+for (;al. ys[1]!=0&&al. ys[3] !=0&&aw!=alhcsl;) / H
+( &
+
+z[z1++]=1;aw—;al. ys [11—; AS)
+
+if (aw==alhcsl) break; 会
+
+2z[z1++]=3;aw--;al.ys[3] 一 ; <
+
+if (aw==alhcsl) break;
+
+}
+if (al. ys[1]==0) O
+{ je
+for (;aw!=alhcs1&kal.ys[3]!=0;aw—, al. ys[3]—)
+z[z1++]=3; 4 )
+}
+else if(al.ys 其
+{ ~
+for (;awl=; sl&&al. ys[1]!=0;aw—, al. ys[1]—)
+_ zlz1++]=1;
+) 2
+/: cfs OO
+A
+SokbRRIRRRARk
+有 局
+al.ys[0]-=aw;
+for (;aw>0;aw—)
+{
+z[z1++]=0;
+}
+if (a2. ys[0]>=bw)
+{
+a2. ys[0]-=bw;
+53

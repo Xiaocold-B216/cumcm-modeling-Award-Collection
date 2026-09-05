@@ -1,0 +1,43 @@
+ERE
+后
+0
+BRLLT]
+: a El
+if ( !bHaveFound )
+{
+pos_1 = pos 2 = -1;
+}
+return bHaveFound;
+}
+// 找 出 两 点 间 是 否 有 连 线 直接 连接
+// 如 果 有 ， 则 返回 所 有 可 能 的 连 线
+全
+bool Direct_or_not (const int NSTART，const int NEND, < 标
+点
+. 人 “二 和
+vector<vector<int> > &FeasibleSolve, / 可 行 的 解
+决 方案 ， 是 返回 值
+vector<LoadMessage> & AllLines, // 所 有 路 线
+信息
+vector<vector<int> > & AllBuses // 所 有 公 汽
+站 信息 7
+vector<vector<vector<int> oadCrossInfo)  // 任意 两 路 线 的
+交叉 信息
+{ [o]
+int i, j ; 2 ee
+i=j=0;
+bool bHaveFound = fa
+vector<int> Possiblel.i ;7V/ 存储 可 能 的 解
+// 搜 起 Rs 目标 站 点 线路 间 是 否 为 同一 线路
+for«(i 11Buses [NSTART-1]. size () ; ++i)
+{
+for (j=0; j<AllBuses[NEND-1].size(); ++j)
+if (AllBuses[NSTART-1][i] == AllBuses[NEND-1][j])
+{
+PossibleLine. push_back (A11Buses [NSTART-1] [i]) ;
+}
+}
+}
+bool bIsDirect 1 = false;
+int nCurLineName = -1; // 可 行路 线 的 编号
+31

@@ -1,0 +1,38 @@
+Fnow —-1
+foriiin Tpaixu:
+i=ii
+t=0
+forkkin range(num + 1
+Et YSIkkl(e- D*8+ 订
+证 xfo]+t<6000 and FPII][>F_now:# 期 望 放 最 多 且 放 得 进去
+chosi
+F_now=FP[1][i]
+BTcho]+=x[0]
+YS[int(x[1D)i(e - D* § + cho] +=x{0]
+for xin C:
+ifx[0] ==0 or x[1]in C_used:
+continue
+else:
+cho=-1
+F now=-1
+foriiin Tpaisu:
+ii 六
+t=0
+forkk if range(num + 1):
+ES[kkllc= 1) * 8 +]
+jifx[olit<6000 and FPI2]I>F_now:
+cho-i
+F_now-FP{2][i]
+CTIchoj+=xlol
+YSIintx[IDDI[Gc - D* 8+ chol += x{0]
+workbook = xlsxwriter Workbook(YS T2.xlsx) # 建立 文件
+worksheet = workbookadd worksheet)  # 建立 shest ， 可 以
+workadd_worksheet(employee") 来 指定 sheet 名 ,但 中 文 名 会 报 UnicodeDecodeErro
+的 错误
+foriin range(num+1:
+worksheet writeGi 0 ID[D)
+fori in range(num +1):
+forjin range(w*8):
+worksheetwrite(i,j+1, YSil[j])
+workbookclose()
+过

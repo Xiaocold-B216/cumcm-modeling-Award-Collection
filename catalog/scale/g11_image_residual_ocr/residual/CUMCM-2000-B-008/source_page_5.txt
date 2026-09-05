@@ -1,0 +1,42 @@
+回 虽 过
+人
+1
+78 数学 的 实践 与 认识 1 tien
+( 右 铺 ) 不 再 适用 , 此 时 可 考虑 多 增加 一 些 支 路 变量 , 如 ?六 ?2 …, zz … 之 类 , 增加 约束
+条 件 ?5+ ?2+ …+ 25+ 23+ 和 = xx 在 目标 函数 中 增加 相应 的 铺设 费 , 具体 做 法 可 由 下 面
+对 图 二 的 模型 获知 , 问题 贡 建 模 如 下 Cn， 是 运 到 4， 的 钢管 向 第 三 支 路 铺设 的 数目 ):
+7 21 7 21 15 14
+0 _ yilpit 1 (zi+ 1)
+Oobjmam = 号 于 pao+ 于 呈 cat {x 2
+MO 二 1 mnorp+ 1)
+mao+ 1] omubmut 1 om co |
+2 2 2
+21
+St 500。， 近 Xy S<s5i*t (= 1,7) “
+2 -RD
+= + G=1,-,21 Hj#9,11,17) M\)
+和 1 Yi Zj ， 了 9 2XG
+7
+xy 十 z;+t m; G=9,11,17) H
+三 1
+2 二 1 多 (G= 1,2,-,14)
+mo+ y16= 42, zl9+ ya= 260 As
+zo+ ya= 100, mu+ mu= 10 o
+?+ ys= 130, 207+ yro= 190
+xiP2jp11 三 0 (= 1771= 1,=21), wt= 0 或 1 (i= 1,,7)
+运用 数学 软件 L ngos 0 编程 求 出 :
+Wi=1 40633X10°(Jijt)
+O 〇
+参考 文献: %
+[1] 姜 启 源 《数学 模型 》 高 等 教育 出 社 , 北京 , 人 96
+[2] 严 蔚 人 敏 ， 吴 伟 民 《数据 结构 纺 大 区 有 版 社 , 北京, 199?
+[3] 叶 其 孝 ORFERFARTPR 付 》 湖南 教育 出 版 社 , 长 沙 , 1993
+—
+2 Wana Scheme for Purchasing and
+下 4 Transporting Steel Tubes
+以 > LU Weirxin， LN Hao, CHEN Xiao-dong
+NA， (Sichuan University， Chengdu ”610064)
+Abstract  The optmal scheme in the construction of the nature gaspipeline has been studied
+in this article Wehave setup a quadratic programm ingmodel in which the objective function is
+the total expense of the construction
+4 @ 1994-2008 Ch cad ournal Elect Publishin e. All rights reserved.  http://www.

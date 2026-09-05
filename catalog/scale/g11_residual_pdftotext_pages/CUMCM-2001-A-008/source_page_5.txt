@@ -1,0 +1,103 @@
+工
+
+58
+
+程
+
+数
+
+学
+
+学
+
+报
+
+第 19 卷
+
+长 , 检查球与血管是否相切 , 若球能从 γ的一端移到另一端时 , 每一步都保持与血管相切 , 则是
+满意 , 否则要修正模型 。
+将检验作为建模的必要的一部分 ,通过检验 ,发现问题 ,修正模型的数据 ,可以使模型从粗
+糙到精致 ,克服建模过程中许多不确定因素 。
+
+感受
+
+6
+
+交
+
+流
+
+有幸参加了今年全国大学生数学建模竞赛的出题和阅卷 ,从中受到很大的教育 ,深深地被
+同学们活跃的思想 、
+组委会的教授们高度认真负责的精神所感动 ,感触颇多 。
+首先感到数学竞赛是个大学校 。把那么多的优秀学生都团结在一起 , 刻苦钻研 , 努力奋
+进 ,朝气蓬勃 ,为广大青年学生树立了榜样 。这不仅有利提高广大青年学生数学修养 、
+科学素
+质 ,更有利树立良好的学风 ,形成浓厚的学术气氛 。
+
+：
+科
+
+研
+
+深感青年学生中蕴藏着巨大的聪明才智 。阅卷中看到很多优秀的论文是在三天之内完成
+的 ,实属不易 。很多想法 ,都是远远超出我们的预料 。他们思想活跃 ,综合运用各科知识能力
+强 ,而且很多新思想与当前发展着的高新科技合拍 。有如此优秀的学生 ,可以相信 ,我国未来
+的科学是充满希望的 ; 深感竞赛组委会专家教授高度负责的精神 。A 题以现在的面目出现 ,
+是在几易其稿以后 ,组委会的专家教授对题目一字一字地研究 , 对数据分析不放过一个小数
+点 ,并亲自演算 ,工作精益求精 ,使我们受益非浅 。
+现在 2001 年全国大学生数学建模竞赛已经结束 ,总结之余 ,我们衷心期望今后在全国专
+家学者以及广大师生的共同关心努力下 ,我国大学生建模水平更上一层楼 。
+
+[ 1]
+[ 2]
+
+号
+
+参考文献 :
+
+应荣超等 . 人下颌下腺淋巴管 、
+血管和腺导管的计算机三维重建技术 [J ] . 解剖学报 ,Vol. 22 ,No . 4 (1991) ,342 - 346
+黄丽丽等 . 放置宫内节育器后子宫内膜螺旋动脉的三维空间形态 [J ] . 中华妇产科杂志 ,Vol. 31 ,No . 9 ( 1996) ,523 -
+
+公
+众
+
+525
+R. Ying. Computer 32Dimensional reconstruction of intraglandular lymph vessels and ductal systems of t he human sub2
+mandibular gland[J ] . Acta Anat ,144 (1992) ,175 - 177
+[ 4 ] 陈凌钧 ,骆岩林 . 等径管道的三维重建 [J ] . 高校应用数学学报 ,Vol. 13 ,增刊 (1998) ,86 - 90
+[ 5 ] 吕 伟 . 有理等距参数曲线及其应用 [J ] . 浙江大学学报 ( 自然科学报) ,增刊 (1993) ,29 - 37
+[ 6 ] Wei L u. Offset2rational parametric plane curves[J ] . Computer Aided Geometric Design , Vol. 12 ,No . 6 (1995) ,601 - 616
+[ 7 ] Wei L u ,Pott mann H. Pipe surface wit h rational spine curve are rational[J ] . Computer Aided Geometric Design ,Vol. 13 ,No .
+7 (1996) ,621 - 628
+[ 8 ] Wei L u. Rational parameterization of quadrics and t heir offsets[J ] . Computing ,Vol. 57 , No . 2 , (1996) ,135 - 147
+[ 9 ] Farouki R. T , Neff C. A. Analytic properties of plane offset curves [J ] . Computer Aided Geometric Design , Vol. 7 , No . 1
+(1990) ,83 - 99
+[ 10 ] Farouki R. T ,Shah S. Real2time CNC interpolators for pyt hagorean hodograph curve[J ] . CA GD ,Vol. 13 ,No . 7 (1996) ,583
+- 600
+[ 11 ] Martin R. R ,Stephenson P. C. Sweeping of t hree dimensional objects[J ] . CA GD ,Vol. 7 , No . 4 (1990) ,223 - 234
+[ 12 ] Elber G ,Lee I. K , Kim M. S. Comparing offset curve approximation met hods [J ] . IEEE Computer Graphics and Applica2
+tions ,Vol. 17 ,No . 3 (1997) ,62 - 71
+
+微
+
+信
+
+[ 3]
+
+The Problem of Reconstruction Blood Vessel
+WAN G Guo2Zhao ,
+
+CHEN Ling2J un
+
+( Department of Mat hematics of Zhejiang University , Hangzhou 310027)
+Abstract In t his article , t he research background of t he problem A in t he CUMCM 2001 as well as its intention and conditions are
+simply stated , some met hods found in t he answer paper to t his problem are introduced.
+Key word Mat hematic model ; Medial axis ; 3D reconstruction
+
+© 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

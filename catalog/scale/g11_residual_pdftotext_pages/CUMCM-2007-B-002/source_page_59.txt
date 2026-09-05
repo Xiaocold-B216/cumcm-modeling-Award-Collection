@@ -1,0 +1,67 @@
+vector<vector<int> > AllBuses(3957+39);
+// 从文件读入公交线路和站点信息，并存入数组。
+AddBusStationsAndLines(AllLines, AllBuses);
+// 将地铁站点信息和地铁线路信息存入数组中。
+AddRailWayStationsAndLines(AllLines, AllBuses);
+// 1044*1044 的矩阵，里面存储相对应的线路之间的重合站点信息
+vector<vector<vector<long> > > RoadCrossInfo;
+
+流
+
+// 任意两条线路间相交间相交顶点信息
+RoadCrossInfo = CalRoadCrossInfo( AllBuses );
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+int nEnd
+
+交
+
+int nStart = -1;
+= -1;
+
+研
+
+ww
+
+for (int i=0; i<200; ++i)
+{
+
+cin >> nStart >> nEnd;
+
+：
+科
+
+cout << "请输入起始站点：" ;
+
+Time_Cost_BusChangeTimes_Pro(nStart,
+RoadCrossInfo);
+
+号
+
+}
+
+微
+
+信
+
+公
+
+众
+
+}
+
+59
+
+nEnd,
+
+AllLines,
+
+AllBuses,
+
+

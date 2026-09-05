@@ -1,0 +1,1 @@
+回 册 二 动 回 四 choose = zeros (2, 2)= for i = 1Z2 for j = 1:2 if 1i =j choose(i,j) = test_1(i) + E_1(i); else choose (i, j) = test_1(i) + 2 * E_1(i); end end i -a, en % ea“ > best = 0; “外 for i = 1:2 (一 temp = choose(i, :) >》max(choose(:，:)); if sum(temp) == 2 best = iy end e end 个 %° 一 一 AL Ye 39

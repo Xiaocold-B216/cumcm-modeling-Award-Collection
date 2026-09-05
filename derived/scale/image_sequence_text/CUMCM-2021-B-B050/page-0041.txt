@@ -1,0 +1,16 @@
+return(:,5),data_return(:,1j.*data_return{:,6)];
+return(:,4),data_return(;,2). *data_return(:,5),data_return(:,2). *data_return(:,6));
+return(,5),data_return(:,3).*data_return(:,6));
+return(;,6),data_return(;,5). *data_return(:,6),data_return(:,13),data_return(;,14));
+[data_return(:,1).*data_return(:,2),data_return(:,1).*data_return(;3));
+—
+ —
+六 3=1
+r 和 ww |
+An” |
+a ——————————————————
+[|
+‘stepwise(xy2,inmodel)
+i
+ELods
+SK MEASEES

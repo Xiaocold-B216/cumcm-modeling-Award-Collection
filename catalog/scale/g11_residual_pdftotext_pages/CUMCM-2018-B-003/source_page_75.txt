@@ -1,0 +1,66 @@
+%初始路径选择
+start=[ones(6,1),perms([2,3,4])];
+
+研
+
+众
+
+号
+
+%RGV 为单个偶数 CNC 上料
+M(2*(i-1)+2,1)=t0;
+t0=t0+T(6);
+b(2*(lj(i)-1)+2)=1;
+c(2*(lj(i)-1)+2)=t0+T(4);
+M(2*(i-1)+2,2)=2*(lj(i)-1)+2;
+
+：
+科
+
+%RGV 为单个奇数 CNC 上料
+M(2*(i-1)+1,1)=t0;
+t0=t0+T(5);
+b(2*(lj(i)-1)+1)=1;
+c(2*(lj(i)-1)+1)=t0+T(4);
+M(2*(i-1)+1,2)=2*(lj(i)-1)+1;
+
+交
+
+流
+
+i=6;clear M
+lj=start(i,:);
+%初始路径移动
+N=8;
+for i=1:4
+%RGV 每一步移动
+dT=[0,T(1:3)];
+d=dT(abs(a-lj(i))+1);
+a=lj(i);
+t0=t0+d;
+
+公
+
+end
+
+微
+
+信
+
+GZ=[];
+BXYQX=100;
+%多步最优
+while t0<=8*3600
+if randi(100)==55%约有百分之一的概率发生故障
+[e,f,g,h,] = oneStep( a,dT,T,t0,c );%a,t0,c 改变为 f,g,h.
+e3 = fStep( f,dT,T,g,h,e )';
+e3 = reshape(e3,64,4);
+[minValue,row] = min(e3);
+[minValue,col] = min(minValue);%由 col 知当前本该移动到哪一位，但该位置其
+实在之前的加工过程中发生故障
+d=dT(abs(a-col)+1);
+t0=t0+d;
+t0
+75
+
+

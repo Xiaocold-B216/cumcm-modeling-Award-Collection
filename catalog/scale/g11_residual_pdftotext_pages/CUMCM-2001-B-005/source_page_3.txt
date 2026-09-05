@@ -1,0 +1,68 @@
+公交车调度问题的数学模型
+
+103
+
+：
+科
+
+研
+
+交
+
+流
+
+建模专辑
+
+号
+
+图1
+
+W kj ( 0 ) =
+
+T kj
+
+∫ u ( t ) dt ;
+j
+
+Kk - 1 j
+
+max h
+
+0 ≤h ≤h
+
+kj
+
+h
+
+s. t .
+
+kj
+
+∑W ( r) ≤ b
+kj
+
+kj
+
+r= h
+
+微
+
+信
+
+公
+众
+
+g 计算第 k 辆车驶到 j 站后 , 在该站实际上车的乘客数 ΔPkj :
+第一步 : 按先到先上车的排队原则 , 确定 j 在站的乘客当第 ( k + 1) 辆车到达时 , 仍要等
+候车辆数的最大值 h kj3 , 为此解如下问题 ( 参看图 2) :
+
+图2
+3
+
+第二步 : 若 h kj = 0 , 说明此时该站上所有候车人全能上车 , 这样 ,
+
+© 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

@@ -1,0 +1,37 @@
+Eiis:
+和 o
+第 31 卷 第 1 其 数学 的 实践 与 认识 Vol31 n. EEEAEE
+2001 年 ! 月 MATHEMATICS N PRACTICE AND THEORY. Jan_2001
+M athematical M odel for Flying Across the North Pole
+ZHON G Shao-jun, LUO Feng-yin, WANG Guo-gang
+(Huanggang Teachers' College, Huanggang 438000)
+全
+Abstract By carefully analysing we give a definite answ er to the question po se 由 稚 w
+Night News that the tme for flying from Beijing to Detroit w ill be four hours sho 有 me
+plane can fly across theNorth Pole A reasonably mathematicalmadel TAG in 5 cases
+that the earth is a sphere or an ellpsoid We also give an algorithm fo1 C y shortest
+distance between two points in a surface (especially in an ellpsoid). Two approximate
+algorithms, constriction ratio method and im itating search ES
+SS
+“飞越 北极 ”的 数学 模型
+1 _ PE 张 本
+区 数 模 教练 组
+( 连 云 湛 VAA 科学 校 ， 连 云 港 222001)
+\ =- 一
+， 7
+编者 按 : ao 算 弧 长 的 方法 , 针对 地 球
+局 率 很 小 的 特点 对 积分 求 疲 长 放出 了 一 个 方便 的 近似 公式 , 使 计算 大 为 简化 , 这 是 本 文 的 一 个 特点 在 处 理
+实际 问题 时 , 在 满 忠 二 定 精度 的 前 提 下 , 合理 地 作 简化 近似 可 以 用 较 少 的 计算 达到 预期 的 目的 本 文 的 另 一
+个 特点 是 对 orexaaxneme wmaamanatog
+摘要 : 亿 入 将。 行 时 间 节约 4 小 时 ”的 问题 , 在 飞行 速度 恒定 的 条 件 下 , 转化 为 计算 飞机 航程 的 问题 根
+所 题目 人 和 和 二 两 个 模型 在 球体 模型 [ 中 , 利用 几何 知识 推出 飞机 航程 和 经 纬度 之 间 的 直接 关系 , 进而
+\Y AI Jy 4. 0504 小 时 在 旋转 椭 球 体 模型 工 中 , 解法 工 利 用 测量 学 中 的 贝 赛 尔 方法 , 给 出 了
+¥y 【St 航程 的 近似 计算 公式 , 算得 飞行 节约 的 时 间 为 4. 041 小 时 解法 开 则 构造 了 一 个 简单 的 弧 长 作为 两 地
+]  Ar e e
+N 村 和 4. 0531 小 时 ”这些 结果 解释 了 原 题 中 “节约 4 小 时 ”的 估 计
+1 问题 的 提出 ( 略 )
+2 模型 的 假设
+1. 不 考虑 地 球 的 自转
+2. 飞机 每 经 相 邻 两 地 的 航程 , 均 以 曲面 上 两 点 间 最 短 距 离 进 行 计 算
+3. 飞机 飞行 中 途 不 需 降 落 加油 , 同时 忽略 升降 时 间
+2 1994-2 h ademic Journal Electr ublishin se. Allri Serv http://ww k

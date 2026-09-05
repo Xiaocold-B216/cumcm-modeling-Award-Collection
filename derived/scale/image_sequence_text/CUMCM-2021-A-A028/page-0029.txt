@@ -1,0 +1,38 @@
+CE
+Group_plus = zeros(1,3);
+for i = 1:length(Group)
+iftmin(ismember(Group )Posion(, 1))>0)
+Group_plus(k,:) = Group(i, );
+k=kely
+nd
+end
+C= zeros(length(Group_plus)3).
+for = length(Group_plus)
+[cump Middlel Middle2 Middle3] = Middle(Group Data(3¥i113)Group, Data(3i-
+1,1:3).Group_Data(3%i-2,1:3));
+Group_Data(3%,4:6) = Middlel;
+Group_Data(3¥i-1,4:6) = Middle2;
+Group Data3#i-246) = Middle3; “2
+CD= cmp, Ac 和
+1 AT
+end ~ 从
+% Group Data  ere Saern 2
+% 后 三 列 为 每 块 反 : 条 下 中 点 从
+avetinformationds4 mat. Posiion, roup TData Group_ plus?;
+A
+. 六 J7
+ENAG
+function [Position_Next,Group_Data_NextDistance_average,Fitness] =
+Move(Positon Group_Data Group_plus)
+we 。 函数 概要
+%6 解 决 问题
+%CUMCM 2021A 第 二 间 逐次 迁 代 的 迭代 函数
+%6 调 用 函数
+%6Length 一 计算 任意 给 定点 到 抛物 而 的 距离 ( 丰 宙 东 高 下 于 0.6 的 利 )
+6rotation 一 计算 旋转 后 的 于 相 掀 而 方程
+%Middle 已 知 三 点 计算 三 贡 点 至 标 ;
+%6 使 用 数据 包
+Group mformation_ 一 包含 当 所 有 主 案 澡 让 估 标 均 位 于 理想 抛物 而 上 时 的
+% 1osijaac_ ， 主 这 节点 坐标 ;
+26Rap-Data 一 反射 单 元 三 节点 三 中 点 坐标 ;
+o 3 group plus 包含 全 部 待 求 主 家 节点 的 反射 单元 编号 组 合 ;

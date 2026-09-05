@@ -1,0 +1,82 @@
+16. plot(x2,y21)
+
+17. hold on;scatter(x2,y21,'b")
+
+18.  hold on;plot(x2,y22)
+
+19. hold on;scatter(x2,y22,'r")
+
+20.  title('A2 催化 剂 组 合 " )
+
+21.  % 后 面 同 理
+
+附录 7
+
+1. 拟 合 催化 剂 组 合 AL 的 Logistic 方程 《剩余 26 组 催化 剂 组 合同 理 ) :
+
+2 function g = population(x,t,pt)
+
+3; g = x(1)./(1+(x(1)/2.07-1)*exp(-x(2)*t));
+
+4. end
+
+5. tt =[256,275,366,325,356];
+
+6. p =p1(:,1) 3;% 乙 醇 转化 率
+
+7. 七 = t-246;
+
+8. x6 = [150,0.15];
+
+9. x=1lsqcurvefit( "population'",x6,t,p)% 使 用 函数 求 得 最 终 的 (xm，r)
+
+10. pe1 =population(x,t,pt);
+
+11.  plot(t+240,p, o',t+240,p01, -r*')
+
+12.  title('Logistic 模型 拟 合 图 )
+
+13. xlabel( 温度" );
+
+14._ ylabel( "乙醇 转化 率 " ) ;
+
+15. legend( "实际 数据 "理论 数据 号
+
+16.、， 作 趋势 预测 图 像 ;
+
+17. t1=250:25:600;
+
+18.  p@2=population(x,t1-240,pt);
+
+19. plot(tl,pe2, '*-')
+
+20. title('Logistic 模型 预测 图 ' )
+
+21. xlabel( 温度 );
+
+22.，_ ylabel( "乙醇 转化 率 ");
+
+附录 8
+
+1 % 附 件 2 散 点 图
+
+2. data=x1sread('C:\Users\HD\Desktop\B\[ffff 2.x1sx");
+
+3; x=data(:,1);
+
+4. yl=data(:,2);
+
+5. y2=data(:,4);
+
+6. plot(x,yl)
+
+7. hold onj;scatter(x,yl,'b")
+
+8. hold on;plot(x,y2)
+
+9. hold onj;scatter(x,y2,'r")
+
+10. xlabel( "时 间 ");
+
+11. 1legend( "乙醇 转化 率 "'，' 乙醇 转化 率 散 点 "54 烯烃 选择 性 "5C4 烯烃 选择 性 散 点
+24

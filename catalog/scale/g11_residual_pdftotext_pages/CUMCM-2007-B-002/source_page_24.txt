@@ -1,0 +1,83 @@
+CurrWay.push_back(nLineName1);
+}
+
+CurrWay.push_back(AllLines[nLineName1-1].LineInfo[FeasibleSolve[i][FeasibleSol
+ve[i].size()-1]]);
+Respond.insert( make_pair(fTotalTime, CurrWay) );
+}
+return Respond;
+
+流
+
+}
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+// 文件输出花费时间
+
+交
+
+void OutPutTimeCal(ofstream & fout,
+
+multimap<float, vector<int> > & FeasibleSolve)
+
+研
+
+ww
+
+{
+
+multimap<float, vector<int> >::iterator iter;
+
+：
+科
+
+iter = FeasibleSolve.begin();
+
+while ( iter != FeasibleSolve.end() )
+{
+
+fout << "用时：" << setw(4) << setfill(' ') << iter->first << " min : ";
+
+号
+
+fout << " S" << setw(4) << setfill('0') << iter->second[0];
+
+众
+
+for (int i=1; i<iter->second.size(); i+=2)
+{
+
+公
+
+fout << " L" << setw(4) << setfill('0') << iter->second[i];
+fout << " S" << setw(4) << iter->second[i+1];
+
+信
+
+}
+
+微
+
+fout << endl;
+iter ++;
+
+}
+
+}
+
+// 计算经过各路线的所花费的费用
+multimap<float, vector<int> > CostCalculate(
+vector<vector<int> > & FeasibleSolve,
+vector<LoadMessage> & AllLines
+)
+{
+
+24
+
+

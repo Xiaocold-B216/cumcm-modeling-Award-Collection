@@ -1,0 +1,43 @@
+Da 口 |
+党 -让
+al. qd[0] —— awv—,Yy [yl++] =0 H
+}
+While (bw!=0)
+{
+for (int i=0;1i<2&&bw!=0&&a2. qd[1]!=0;i++)
+a2. qd[1]—, bw—, y[y1++]=1;
+for (int i=0;1i<bjg&&bw!=0&&a2. qd[0]!=0;i++)
+a2. qd[0]—, bw—, y[y1++]=0;
+}
+x1=0; A7
+ab=sum(al. d1, 2) /2;bb=sum(a2. d1, 2) /2; 一 SS
+aw=sum(al. d1, 2)-ab;bw=sum(a2. d1, 2) -bb; 一 V)
+ajg = (ab¥2/(al.d1[1]==0?1:al.d1[1]))-2; 2XG
+if (ajg<5)ajg=(ab*4/ (al. dl[1]==09?1:al.dl[1]))72; H
+bjg = (bb#2/(a2. d1[1]==0?1:a2.d1[11))-2; , SA
+if (bjg<5)bjg=(bb*4/ (a2. d1[1]==071:a2. d1 [1]))-2;
+while (ab!=0) X
+{ 类 一
+for (int i=0;i<2&&ab!=0&&al. ai )
+al.d1[1]—, ab—, x[x1++]=1;
+for (int i=0; i<ajgbbab!=0&&al. d1[0]!=0;i++)
+al. d1[0]—, ab—, +]=0;
+纵
+While (bb!=0)
+for (int i=0; 过 Rosa2. dl[1]!=0;i++)
+a2. d1[1]>-, bb—, x[x1++]=1;
+for (int) i=0;i<b jg&&bb!=0&&a2. dl [0] !=0;i++)
+一 2 —, bb—, x[x1++]=0;
+) Zu
+mijPGdD
+We: (int i=0;i<2&&aw!=0&&al. d1[1]!=0;i++)
+SA， al. qd[1] 一 , aw—, x[x1++]=1;
+for (int i=0;i<ajg&&aw!=0&&al. d1[0]!=0;i++)
+al. qd[0]—, aw—, x[x1++]=0;
+}
+While (bw!=0)
+{
+for (int i=0;i<2&&bw!=0&&a2. d1[1]!=0;i++)
+a2. dl [1] 一 , bw—, x[x1++]=1;
+for (int i=0;i<bjg&&bw!=0&&a2. dl [0] !=0;i++)
+58

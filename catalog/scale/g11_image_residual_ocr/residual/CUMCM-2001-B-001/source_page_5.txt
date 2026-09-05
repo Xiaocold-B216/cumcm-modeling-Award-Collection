@@ -1,0 +1,41 @@
+回味 汉 回
+建 模 专辑 公交 车 调度 优化 模型 o
+表 1 行车 时 刻 表 ( 部 分 /
+Ta 6
+班次 4 214 2146414Ta4s[a|4aslao
+24 | |500|5ss0|636|721|806|ss |
+2 | | | | 1722jsos|ss|9jio2sunlnssg
+256 | | | | as | |
+2 | | | | 7a6snplssl | |
+2 | | | | Daslsals9ool94lioszlu:acDojaso
+29 | Isaofeoofeaalraolsas] | | | ea7
+30 | | Jew|eas[raalsasloos[oso] | 07 人 7
+u | | nasalzal | [ | FR
+3 | |520| 606|6s0|736|821|9o7| 955|1039a2|1 站 |
+33 L Jenfenlrnlonlomnlywlisdushe 13.01
+(Z) 刻 划 公交 公司 及 顾客 的 满意 程度 : 人
+记 4 为 实际 某 一 行车 方案 中 第 ; 时 段 上 的 平均 每 全 车 的 袁 党 一 显然, 了- 本 “,
+也 -100 一 人 .
+4 pi=y 100 4 9 搬 s
+0, 了 <100, 0, di 三 人
+其 中 9 为 车 辆 收益 载 客 量 。 [e]
+z z [e]
+令 p-t 2 p=t i C 忆 ，
+忆 越 小 时 越 满 意 。(0 <p, P <U)
+0 p =0.8 时 ,PP=0.32,P' =0.54.
+4 模型 的 评价 与 推广 厂
+本 文 是 在 一 定 假 弯 粤 件 下 所 考虑 问题 的 ,具有 一 定 的 实际 推广 意义 ,可 以 用 来 制定 一 些
+良好 条 件 下 的 和 车辆 调度 计划 ,但 对 于 因素 太 多 条件 太 复杂 的 运行 系统 则 需 用 人 工 模拟 与 理论
+分 析 相 个 和 。
+sahif
+站 AR 汽车 运输 工程 [M]. 北京 :人 民 交 通 出 版 社 ,1987
+中 四 大 学 生 数 学 建 模 辅导 教材 [M]. 长 沙 :湖南 教育 出 版 社 ,1997
+The Optimizing Modle on the Dispatch of Buses
+LICheng gong， TUO Xiao-wei, GUO Shang bin
+Teacher: QI Zhong bin
+(Lanzhou Higher Polytechnical College ,Lanzhou 730050)
+Abstralt : This passage discusses the problem of how to determine the timetable of the buses on a certain route under the condition
+of known statistical data of passenger flow at various stops during every time period. Under normal conditions ,bus companics arrange
+the vehicle dispatching timetable on the basis of investigated data with the “succession” method during work days to make a group
+#h 工
+撞 大

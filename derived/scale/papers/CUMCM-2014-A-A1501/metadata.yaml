@@ -1,0 +1,47 @@
+paper_id: CUMCM-2014-A-A1501
+year: 2014
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (5)/A15010142_王子硕_吴鹏飞_陶立.pdf
+  sha256: CA6C94BB50E5B0D982A7D54F154AB68A8E5465BB3858D1274356BFD5381FD2CC
+authority_sha256: CA6C94BB50E5B0D982A7D54F154AB68A8E5465BB3858D1274356BFD5381FD2CC
+paper_file_memberships:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (5)/A15010142_王子硕_吴鹏飞_陶立.pdf
+  role: primary
+  canonical: true
+primary_file: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (5)/A15010142_王子硕_吴鹏飞_陶立.pdf
+extraction_inputs:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (5)/A15010142_王子硕_吴鹏飞_陶立.pdf
+  sha256: CA6C94BB50E5B0D982A7D54F154AB68A8E5465BB3858D1274356BFD5381FD2CC
+  kind: original
+extraction_input_sha256: CA6C94BB50E5B0D982A7D54F154AB68A8E5465BB3858D1274356BFD5381FD2CC
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 32
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_EXISTING_TRUSTED_TEXT_RECONSTRUCTION"]
+  repaired_source_pages: ["11", "32"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_residual_pdftotext_calibration/positive/CUMCM-2014-A-A1501/source_page_11.txt", "catalog/scale/g11_residual_pdftotext_calibration/positive/CUMCM-2014-A-A1501/source_page_32.txt"]
+  source_sha256: CA6C94BB50E5B0D982A7D54F154AB68A8E5465BB3858D1274356BFD5381FD2CC
+  current_body_sha256: 8E902F96A3A702D96E48708C87054D9F33AE3B3B1AB5A0C4B0E7AA493FDA6821
+  candidate_body_sha256: 4002B15ACE1D7F4D4D4840F2E5575F5CEC7E466860D8221FEE92F951BFB75FD5
+  source_page_count: 32
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

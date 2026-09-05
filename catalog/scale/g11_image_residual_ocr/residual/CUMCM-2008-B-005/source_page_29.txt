@@ -1,0 +1,27 @@
+RUN;
+PROC CLUSTER DATA=A METHOD=AVE STD PSEUDO CCC OUTTREE=B;
+VAR X1-X4;
+ID CITY;
+PROC TREE DATA=B HORIZONTAL GRAPHICS;
+RUN;
+聚 类 分 析 的 主要 结果 及 分 析
+Norm
+了 JRIS
+Clusters Joined 1V/Disy
+| [ET 再 | ol | |
+[oo]rk [wa | 2 002 |TG)w]  Jous]
+ 2a [uhifme 2e lp-ofesfo dasf |268| . [o.2509
+| 2| ciaby|\pser ~ [loopeso.fs6 [N[1Y  zsi0] 23[o.2008 |
+| | 四 有 二 和  2foobesfoder T.] | 261| 92637|
+9
+| az ja | Vgo [oses| -| | 于 4 二 aaam|
+和 | 一
+[era | 亲本 | 3|0o22|0896| | | 20| 19| 0.569|
+| ofaur [## | sfoomefoss] | |205| 36| 9591|
+| sc [ca6 | mfocesofose] | | 于 5|176|0.6322 |
+[Tau oz | 5|0o237| or | [152] 34|0.6381|
+| ofau [wk | 800233|0769 0786| 二 3|16.6| 36|0.7044|
+| sfas | 本 天 | afoomsfos ors]ods] 19| 26| 0.7467|
+47 Jas | wfetesrjoefores| 22] 15.8| HL9|0.8338 |
+| sfas fas [ ssfoeorfossfoen] -| 10.8| 148|0.9975|
+26

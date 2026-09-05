@@ -1,0 +1,1 @@
+才 这 Erires >> R=6371000 R = 6371000 >> h=343000 ' ] ES - 343000 § : >> a=pi/60 全 > YI^ 人 】 . BF 外 WW d 0.05 W 10. net >> n=2%pi/ (pi-2%a-2%asi s(a)/ (R+h))) 一 一 - V 站 2 ,证 >> syms RH a b >> sl=4#pik(R+HD) “2 §li = 4xpik (R+H) “2 14

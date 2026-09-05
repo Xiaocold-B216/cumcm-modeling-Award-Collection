@@ -1,0 +1,47 @@
+paper_id: CUMCM-2003-B-005
+year: 2003
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排(1).pdf
+  sha256: 32B3E6759B9C7DEA213340A1A6159CE39859D45DF8C51B3CEC6E3D523A9571DF
+authority_sha256: 32B3E6759B9C7DEA213340A1A6159CE39859D45DF8C51B3CEC6E3D523A9571DF
+paper_file_memberships:
+- path: 2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排(1).pdf
+  role: primary
+  canonical: true
+primary_file: 2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排(1).pdf
+extraction_inputs:
+- path: 2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排(1).pdf
+  sha256: 32B3E6759B9C7DEA213340A1A6159CE39859D45DF8C51B3CEC6E3D523A9571DF
+  kind: original
+extraction_input_sha256: 32B3E6759B9C7DEA213340A1A6159CE39859D45DF8C51B3CEC6E3D523A9571DF
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 7
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-B-005/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-B-005/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-B-005/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-B-005/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-B-005/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-B-005/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2003-B-005/source_page_7.txt"]
+  source_sha256: 32B3E6759B9C7DEA213340A1A6159CE39859D45DF8C51B3CEC6E3D523A9571DF
+  current_body_sha256: 3DD7EB474B8E3D94B78EBAA0E3FE743F6158C9FC7F47686280FBBD4FE3AD55BA
+  candidate_body_sha256: E36F7340C7F24A36BAF15F1F2F58DB9987A7A1FF9E8D1B73C6887E4F612BA177
+  source_page_count: 7
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

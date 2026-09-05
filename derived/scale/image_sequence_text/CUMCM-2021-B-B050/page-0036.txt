@@ -1,0 +1,5 @@
+12. A12B1.m
+plot(T,B12,'r');
+-
+ELods
+SK MEASEES

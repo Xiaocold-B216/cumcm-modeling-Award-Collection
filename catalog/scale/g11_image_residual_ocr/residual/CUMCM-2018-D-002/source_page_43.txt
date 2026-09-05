@@ -1,0 +1,44 @@
+回 8 昌国
+azawr=aw = sum(al.ys7)-abl
+printf(“A2:7) ;
+printf (“ 输 入 各 配置 数量 的 和 (输入 B1、B2、B3、B4、B5、B6 的 和 ， 若 无 则 输
+入 0) :\n”);for(int i=0;i<6;i++)scanf ("%d”, &a2.pz[i]);
+printf( “输入 各 动力 数量 的 和 (输入 汽油 、 柴 油 车 数量 的 和 ， 若 无 则 输入
+0) :\n”) ;for (int i=0;i<2;i++)scanf ("%d”, &a2.d1[i]);
+printf(“ 输 入 各 驱动 数量 的 和 (输入 二 驱 、 四 驱 数 量 ) :\n”);for(int
+i=0;i<2;i++) scanf ("%d”, &a2. qd[i]) ;
+printf(“ 输 入 各 颜色 数量 的 和 【输入 黑色 、 白 色 、 蓝 色 、 棕 色 、 金 色 、R 类 车
+(红色 黄色 之 和 )、\nS 类 车 (银色 灰色 之 和 )、 红 色 、 黄 色 、 银 色 、 灰 色 ) :\n“) ;for (int
+i=0;i<11;i++) scanf ("%d”, &a2. ys[i]) ;
+zbb=bb = sum (a2. ys, 7) /2 H 二
+Zbw=bw = SUm (a2. ys, 7) —bb; -从 >
+hcsf (al. ys[0]+a2. ys[0]) ;// 黑 车 分 组 一 内
+for (int i=0 了 i<hcz [0] i++) // 第 一 次 黑车 2XG
+z[z1++]=0; 6 H
+al. ys[0]-=hcz[0]; X 、
+ab 一 一 hcz [0] 了 ADN
+for (;al. ys[2] 1=0;)// 蓝 、 白 车 X
+人 $
+if (21%2==0) K
+{
+z[z1++]=2;ab—;al. ys[2]5—;
+if (ab==0) break; V4 O
+Z [z1++] =1 ;ab— 2
+if (ab==0) break; | )
+else |
+z[z1++]=1;ab—;al. ys[1]—;
+o if 人
+人 ys[2] 一 ;
+下 ab==0) break;
+}
+AS
+TAN 自 天 Alkrkrkiokokikkkkkkrkkkkkkkkkokiokiok /
+int alhcsl;
+if (a2. ys[0]>=bb)
+{
+alhcsl = hez [1] 一 bb;
+}
+else
+{
+alhcsl = hez[1] - a2.ys[0];
+43

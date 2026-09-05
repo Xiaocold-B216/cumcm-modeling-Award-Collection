@@ -1,0 +1,48 @@
+Else
+pass
+1oss ,append(tem)
+moss=np .array(loss).T.tolist()
+4 天 角 转 运 方案
+data-pd Datakrane (pd.read_excel('92-28.x1sx"))
+Sa -= rdata.columns.tolist()
+for jin range(24):
+1 = CFR01,2,3,8,5,6,7,8), Hk inloss[3])
+tem-pd.DataFrame(d) .sort_values (by="1i%")
+1 = pd.patafrane({ "商家 ':5a[6:12]， 订 单 重 ':np-array(rdata)[]])).sort_values(by-' 订 单
+量 ，ascending = [False])
+92 =。 pd.DataFrame({ "商家 ':53[12:24]， 订 音量 ':np_arraytrdata)[:][12:24])).sort_valuesby- 订单
+量 ，ascending = [False])
+3 。pd.DataFrame({ "商家 ':sa[24:39]， 订 音量 :np.array(rdata)[]])).sort_valuesKby- 订 间
+重 ，ascending = [false])
+new = d1.append(d2)
+new = new. append (43).reset_index(drop-True)
+counts = 0
+tran - 0
+arr = 中
+or ian range(39):
+if new[ "订单 量 '] [1] -= 8
+arr append(8)
+Else
+4F new[ "订单 重 '] [Beeer
+re -= meBE 订单 最 '] fa]-66ee
+comntiF catntl 计
+tran -日
+arn, append(tenl "序号 '] .tolist()[count1])
+于 re 6oee;
+re = re -68e8
+Countl = countl +1
+4 re sc000:
+Countl = countl +1
+else:
+tran - tran + neu[' 订 音量 "][]
+4 tran < 5588:
+arr.append(ten[ 序号 '] .tolist()[count1])
+aaf tran »> cogo:
+tran = nev[ "订单 重 '][]
+arr. append (teal ,序号 '] .tolist()[count1)
+else:
+tran -
+arr.append(tem[ ' 序 生 '] .tolist()[count1])
+new[ "转运 ']=arr
+19 w0
+result = new.copy()

@@ -1,0 +1,46 @@
+下
+总
+mEEER
+fori=1:5
+for j=length(zb_bound{i}(:,1)):-1:1
+ranum=rand(1);
+if ranum<dqp
+zb_bound{i}(,)=[1;
+end
+end
+end
+9qj;
+total_result=[total_result, {result} ];
+end
+本 -次 ，
+o LA
+res_ 二 fsolve(@fu,[1500 1500 1500 1500]); 2XG
+load -ascii c.txt; ood
+ca=c;
+oa=res_l(1)*ca(l,:); As
+ob=res_I(2)*ca(2,:); SN
+oc=res_l(3)*ca(3::); X
+od=res_I(4)*ca(4,’):
+ab=ob-oa;
+ac=0c-0a; @
+cd=od-oc; 9
+bd=od-ob; 4 维
+a3a=(12/124)¥ac+(12/124)*ab;
+a3b=(42/124)*ac+(12/124)*abs~
+a3c=(112/124)*ac+(12/124)*ab;
+a3d=(112/124)*ac+( 112/124)*ab;
+a3e=(12/124)*ac+(11 *aby;
+oA=oa+a3a; 过 YA
+oB=oa+a3b; 2
+oc-oarzse  2
+oD=oa+a3d;
+= 和-
+Ac 0A );:B=xj2wl(0B);C=xj2wl(0C);D=xj2wl(0D);E=xj2wl(0E);
+[A;B;C:DE];
+result=[round(w12xs(A));round(wl2xs(B));round(wl2xs(C));round(wl2xs(D));round(wl2xs(E))
+]
+2%qx.m
+% 求 切线 主 程序
+cd 'gx’;
+sa;
+35

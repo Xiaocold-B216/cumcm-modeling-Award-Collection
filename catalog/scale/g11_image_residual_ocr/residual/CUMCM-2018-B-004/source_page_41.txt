@@ -1,0 +1,47 @@
+Snud
+[EEREEs
+fori=1:7% 刀 有 具 2 的 数量
+Type=nchoosek(1:8,i);% 生 成 所 有 的 组 合 情 况
+forj=1:size(Type,1)% 确 定 一 种 刀具 分 布 情况
+Tool=ones(1,8);
+for k=1:size(Type(j,:),2)
+Tool(Type(j k))=2;
+end
+Order=[Order;Tool];
+Position=1;% 记 录 RGV 的 位 置 ， 取 值 为 1*4
+Left=zeros(1,8);% 记 录 8 台 CNC 当前 工作 剩余 完成 时 间 ， 等 待 时 为 0
+Situation=zeros(18);% 记 录 8 台 CNC 当前 是 否 拥有 工件 ，0 为 无 ，1 为 有
+Time=0;% 系 统 已 运行 时 间 全
+Expect=ones(4,8);% 预 计时 间 ， 第 一 行为 预计 运动 时 间 ， 第 二 行为 预计 GM 加， 第
+三 行为 预计 上 下 料 时 间 ， 第 四 行为 前 三 项 之 和 一 \)
+mghec- 记录
+Now=1;% 当 前 RGV 目标 工序 ， 取 值 仅 为 1 或 2 ond
+while Time<=28800
+for k=1:8% 计 算 预 期 时 间 As
+if Now~=Tool(k)% 排 除非 目标 工序 的 GNC
+Expect(:,k)=inf; K
+continue;
+end
+Expect(1,k)=Move(1+abs(Pgsition-ceil(k/2)));
+Expect(2,k)=Left()il, »  ©
+SA
+Expect(4,k)=sum( 4 全 本
+end
+[~,MinNumbe| nABpecta Rit FHE
+Time=TimetExpekct(1,MinNumberj+Expect(2,MinNumber);% 移 动 至 下 一 个 目标 位
+置 并 等 待
+与 】 Wowaerramenc
+% flag=0;
+N Dorcsatemecsawicssnors
+这 if TempRec(k,1)==MinNumber && isnan(TempRec(k,3))% 同 时 发 生 上 料
+NT
+R < flag=1;
+TempRec(k,3)=Time;
+TempRec(end+1,1)=MinNumber;
+TempRec(end,2)=Time;
+TempRec(end,3:6)=NaN;% 构 建 此 工件 工序 2 ff)id HHEpE
+break;
+end
+end
+ifflag==0% 仅 发 生 上 料
+41

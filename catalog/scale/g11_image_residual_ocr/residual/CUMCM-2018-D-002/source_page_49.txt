@@ -1,0 +1,45 @@
+让
+-
+2[z1++]=4;bb—; a2. ys[4]—;
+if (bb==0) break;
+2[21++]=6;bb—; a2. ys[6]—;
+if (bb==0) break;
+}
+else
+{
+2[21++]=6;bb—; a2. ys[6]—;
+if (bb==0) break;
+2[21++]=4;bb—; a2. ys[4]—;
+if (bb==0) break; y
+-从 >
+) -CN
+if (a2. ys[6] 一 0) 2XG
+1 由-
+for (;a2. ys[4] 1=0&&a2. ys[3] !=0&&pb b1=0 ;)// 金 棕
+向 忆
+I
+if (z1%2==0) X
+{ =
+z [zl++]=4;bb 一 ; 机 一 ;
+if (bb==0) break;
+2[z1++]=3;bb=;a2. ys[3]—;
+if (bb3=0) breaky
+内
+else
+j 中- =3;bb—;a2. ys [3] 一 ;
+一 ¥ b==0) break;
+z[z1++]=4;bb—;a2. ys[4]—;
+2 ) V if (bb==0) break;
+Yp )
+Yo
+Vr
+SA， for(;a2.ys[6]1=0&&bb!=0;a2.ys[6] 一 ,bb--)//S
+z[z1++]=6;
+for(;a2.ys[1]1=0&ka2.ys[3]1=08&&bb1=0))
+{
+z[z1++]=1;bb-—; a2. ys[1]—;
+if (bb==0) break;
+Z [z1++] =3 H bb 一 a2. ys [3] 一
+if (bb==0)break;
+}
+49

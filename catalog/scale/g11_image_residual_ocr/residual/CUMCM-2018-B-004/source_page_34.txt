@@ -1,0 +1,48 @@
+回 成 革 动 国
+宝 这
+村
+ProcessTime=unifrnd(600,1200);% 随 机 生成 人 工 修复 所 需 时 间
+Error=[Error;size(Rec,1), MinNumber,StartTime,StartTime+ProcessTime,0];% 记 录
+故障 信息
+end
+else% 需 要 清洗 的 情况
+Time=Time+Expect(3,MinNumber)+Wash;% 完 成 换 料 与 清洗
+for i=1:8%CNC 的 时 间 推 进
+if Left(i)-Expect(4,MinNumber)-Wash<0
+Left(i)=0;
+else
+Left(i)=Left(i)-Expect(4,MinNumber)-Wash;
+end A7
+end 一 NY
+Left(MinNumber)j=Work-Wash;% 换 料 的 CNC 更 新 剩余 时 间 一 \)
+if unifrnd(0,100)>=99% 生 成 故障 信息 _
+StartTime=Time-Wash+unifrnd(0,Work);% 随 机 生成 故 站
+ProcessTime-uniffndl600.1200) 汉 随机 生成 人 工 修复 需 时 间
+Error=[Error;size(Rec,1),MinNumber,StartTime, artTi n eip ocessTime,01;% 记 录
+故障 信息 全
+end X
+end
+Position=ceil(MinNumber/2);%RGV 位 置 更 新
+end @
+whil (Reclend 3)sExpect(s MinNur#y) ash<=28800)
+Rec(end,:)=[]; AAA
+end
+%% 计算 =
+SUMs=size(Rec,1)-size(Error,1), RF
+we 于 和 ascnc 平均 非 有 效 工 作 时 长
+Last=Rec(end,3)+Ex inNumber)+Wash;% 最 终 完 成 物料 清洗 时 刻
+oa V
+toc 7
+coated MinNumber Move Position Situation Switch Time Wash Work ProcessTime
+S lime;
+F
+L\
+用 于 双 工 序 情况 三 方法 一 第 一 组 的 代码
+Situation3_2Team1.m
+% 情 况 3〈 基 于 情况 2) 下 的 代码
+clear;clc;
+%% 计时
+tic
+%% 输入 不 同 组 别 参数
+Move=[0,20,33,46];% 第 一 组 [0,20,33,46] 第 二 组 [0,23,4159] 第 三 组 [0,18,32,46]
+34

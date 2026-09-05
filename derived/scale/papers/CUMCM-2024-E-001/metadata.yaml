@@ -1,0 +1,30 @@
+paper_id: CUMCM-2024-E-001
+year: 2024
+problem: E
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2024年数学建模国赛真题+优秀论文/2024真题/E题/E题.pdf
+  sha256: D5C9442C261A7EACC7DA3B5B23047B5D8FD9B7C86BD082D782288EE1BB64C4BB
+authority_sha256: D5C9442C261A7EACC7DA3B5B23047B5D8FD9B7C86BD082D782288EE1BB64C4BB
+paper_file_memberships:
+- path: 2024年数学建模国赛真题+优秀论文/2024真题/E题/E题.pdf
+  role: primary
+  canonical: true
+primary_file: 2024年数学建模国赛真题+优秀论文/2024真题/E题/E题.pdf
+extraction_inputs:
+- path: 2024年数学建模国赛真题+优秀论文/2024真题/E题/E题.pdf
+  sha256: D5C9442C261A7EACC7DA3B5B23047B5D8FD9B7C86BD082D782288EE1BB64C4BB
+  kind: original
+extraction_input_sha256: D5C9442C261A7EACC7DA3B5B23047B5D8FD9B7C86BD082D782288EE1BB64C4BB
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q0/Q1 Native Markdown Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 1
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true

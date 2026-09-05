@@ -1,0 +1,44 @@
+十 、 附 录
+附录 1 问题 1 的 MATLAB 程序 和 结果
+% 问题 1 的 程序
+% 从 起 点 22 出 发 ， 终 点 为 12，
+clc, clear all
+%% 构造 权重 珑 阵
+w(l,2)=2;w(2,3)=1;w(2,4)=3;w(2,19)=5;w(3,5)=1;w(3,6)=1;w(4, 21)=1;w(4 23)=4;
+w(5, 7)=2;w(6,8)=2;w(6, 10)=5;w(6, 14)=1;w(8, 17)=1;w(9, 24)=2;w(9, 25)=3;
+w(10,11)=2;w(10, 12)=6;w (11, 13)=2;w(11, 15)=7;w (12, 15) =2;w(13, 16)=2;
+w(15, 18)=2;w(15, 26)=6;w(16, 18)=3;
+w(17,25)=1;w(19, 20)=2;w (20, 22) =2;w(21, 22)=2;
+w(22,23)=1;w(23, 24)=1;w(25, 26)=3;
+w=w ; % MATLABT ELAHZREEZ T =MHFE
+[1i, j, k]=find (w) ;
+b=sparse (i, j, k, 26,26) ; % FisfiaiiipE
+%% 画图
+h = view(biograph(b, [1,” ，ShowArrows ，off ，ShowWeights ，on )) ;
+% ShowArrows=off， 表 示 无 向 图 ，on 表 示 有 向 网
+% ShowWeights=off, 表示 无 权 图 ，on 表 示 赋 权 败
+%% 求 最 短路
+kl=22; % 起 点
+k2=12; % 终点
+[dist, path, pred]=graphshortestpath(b, k1, k2,” directed’, 0)
+% .diectsd 是 有 向 图 或 无 向 图 的 标志 ，
+% directed=0 表 示 无 向 图 ，directed=1 表 示 有 向 图
+% dist= 最 短路 长 度
+% path= 最 短路 径
+% pred= 包 含 前 任 项 点
+%% 将 最 短路 径 染 色 :
+set (h. Nodes (path)，Color , [1 0.4 0.4])
+fowEdges = getedgesbynodeid(h, get (h. Nodes (path)，ID )) ;
+revEdges = getedgesbynodeid(h, get (h. Nodes (fliplr(path))，ID' ));
+edges = [fowEdges;revEdges];
+set (edges，LineColor , [1 0 0]); % 给 最 短路 径 设置 颜色
+set (edges，LineWidth ,1.5); % 给 最 短路 径 设置 宽度
+计算 结果 :
+dist =
+18
+path =
+22 23 24 9 25 26 15 12
+pred =
+Columns 1 through 17
+2 4 2 21 3 3 5 17 24 6 10 15 11
+20

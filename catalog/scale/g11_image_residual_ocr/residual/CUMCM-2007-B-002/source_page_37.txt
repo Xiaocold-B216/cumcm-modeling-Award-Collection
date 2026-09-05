@@ -1,0 +1,43 @@
+ERE
+A
+ee 了
+StrPrice= "";
+bRoundLoad = false;
+}
+int nLineName; // 公交 线路 名
+String strPrice ; // 计 费 信息
+vector<int> LineInfo;  // 线路 信息 , 里 面 存储 的 是 当前 公交 线路
+// 沿线 公 汽 站 点 。
+bool  bRoundLoad; // 判别 是 否 为 环形 路 。
+】;
+合
+#endif 全 人 >
+-个
+全 /一
+10. 2.4( 文 件 名 : ShortPathCalculate. cpp)
+[LA NAAAAAAAAAAAAAAAAAAAAAN Mj 风 AH
+//
+// ”此 程序 计算 最 小 公交 线路
+/
+//， 有 关 要 求 : 用 户 输入 起 始 站 点 和 终点 ,在 满足 换 l 数 丰 超过 某 一 限度 的 情况 下
+// 程序 输出 所 有 可 能 的 行车 路 线 AS
+//
+[AAA[ 久 AMNAUMAAAAAAAAAAAAAAAAA
+O 〇
+#pragma warning(disable: 4786) 5
+#include <map> S
+#include <iostream> )
+#include fstreamie. » ¥
+#include <{strstream>
+#include <{stui 2 \/
+#includ co
+ro 人
+#igre) ide "ULtity. h”
+#il ¢lude “CalculateStandars. h”
+//#ing lude “CalulateWays. h”
+using namespace std;
+void main()
+{
+ifstream fin("1.1 公 汽 线路 信息 . txt”);
+// 经 过 实现 的 计算 ， 总 共有 520 条 公 汽 线路 , 3957 个 公 汽 站 点
+37

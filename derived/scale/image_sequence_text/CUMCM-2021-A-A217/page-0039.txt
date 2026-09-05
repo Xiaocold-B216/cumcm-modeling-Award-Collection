@@ -1,0 +1,35 @@
+motor unit = datamotor higher base(index.:)datamotor lowertindex
+motor_ unit = motor_unit./sqri(sum(motor_unit.*motor_unit.2));
+assert(all(abs(sum(motor_unit *motor_unit.2)-1) < sqrt(eps))):
+motor top = data.motor_higher_base(index.:)t3{:,2}. *motor_unit;
+opt_pdist = opt XYZ-motor top:
+opt_pdist = sqrt(sum(opt_pdist.*opt_pdist 2)):
+raw_pdist = data.main_node_coordinate(indes,’)-data.motor_higher_base(index.);
+raw_pdist = sqri(sum(raw_pdist *raw_pdist.2)):
+assert(max(abs(raw_pdist-opt_pdist)) < sqri(eps)):
+disp(C 下 拉 索 距离 不 变 : 成 功 );
+% 最 优 贴 合 程度
+opL_ABR = Polar.xyz2abr(opt XYZ*W'),
+err= opLABR(:3)-Polarpara(ConstantLf opt_ABR(.2)):
+assert(max(abs(ern) < le-S
+disp( 贴 合 程度 至 多 le-5: 成 功 入
+end
+function plot_ 2d_fiterr(opt_ ABR) %#ok<*DEFNU>
+Lw = Polar.para(Constant.L, opt_ABR(.2));
+err = opt_ABRG3)-Iaw;
+bar(sort(err), K):
+ridCon’;
+styleCfontsize’, fontname’),
+ticks([xticks numel(ern)]);
+fastprint( 图 片 /prob2. 检 验 . 主 网 节点 与 理想 抛物 面 之 间 的 球面 径 向 误差 四
+end
+function plot_2d_main_node_dist(opt_ XYZ, edge, edge_distSQ)
+errdist = opt_XYZ(edge(:,1).)-0pt XYZ(edge(:2).):
+edist = 100* (sqri(sum(errdist *errdist 2)). sqri(edge_distsQ)-1);
+bar(sort(edis), K);
+gridCon);
+styleCfontsize! fontname’),
+ticks([xticks numel(edist)]);
+fastprint( 图 片 /prob2. 检 验 . 主 网 节点 之 间距 离 的 变化 率 (百分比 )7;
+end
+39

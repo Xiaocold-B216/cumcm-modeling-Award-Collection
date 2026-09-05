@@ -1,0 +1,43 @@
+回味
+的
+if U2(ZZ_ 1,t 2) <= 47
+temp = 1;
+break
+end
+end
+if m “= 250
+if temp == 0
+ZZ_1 = 7Z 1 + 1;
+II = m + 1
+U.2 = zeros(ZZ_1t 2);
+U2(:,1) = 37; #7
+U_2(1, :) = 65;% 与 外 界 接触 层 =
+a2 = ones(II-1, 1)*(-12) ; “由
+b2 = ones(II-1, 1)*#(1 + 2#r2) ; 2XG
+C2 = a2;
+continue
+else 4s
+break 全
+i X
+end
+end
+fit_d = m/10;% 单 位 mm 8
+O
+%plot (1:3601,U_2(255， 0 3600 36 48])
+问题 3 源 代 码 : JS
+load datal.mat; ~ ¥
+% 时 间 以 1 为 步 长 增长 罕 间 以 0. 1 为 步 长 增长
+% 温 度 U, 距离 A HY
+77.2 = 554 UV
+t3= NS
+for i=\1:180
+KJ 人 os5;，。 % 散 热 系数
+end
+II = 6; ， % 第 二 层 初 始 厚 度
+IV = 6;  % 第 四 层 初始 厚度
+% 各 层 相应 密度
+el = 300;
+e2 = 862;
+e3 = 74.2;
+e4 = 1.18;
+25

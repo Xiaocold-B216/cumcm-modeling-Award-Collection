@@ -1,0 +1,86 @@
+for j=1:6
+x2(j)=30-6*cos(pi*j/7);y3(j)=6*sin(pi*j/7);
+plot(x2(j),y3(j),'r*'); %给站点作标记
+jstr=int2str(j+26);
+text(x2(j)-0.5,y3(j)-0.8,jstr); %给每个站点标上铁路站号
+end
+
+for j=1:10
+x2(j)=30-6*cos(pi*j/11);y3(j)=-6*sin(pi*j/11);
+plot(x2(j),y3(j),'r*'); %给站点作标记
+
+流
+
+end
+for j=1:3
+
+text(x2(j)-0.5,y3(j)-0.8,jstr); %给每个站点标上铁路站号
+end
+for j=4:10
+
+研
+
+ww
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+jstr=int2str(27-j);
+
+jstr=int2str(43-j);
+
+end
+
+axis([-2 50 -10 10]); %修改坐标轴
+
+hold off;
+
+众
+
+10.2问题一的相关源程序
+
+号
+
+title('地铁示意图'); %注明标题
+
+：
+科
+
+text(x2(j)-0.5,y3(j)-0.8,jstr); %给每个站点标上铁路站号
+
+10.2．1（文件名：CalculateStandars.h）
+
+公
+
+#include <vector>
+#include <map>
+
+#include <fstream>
+
+信
+
+#include "LoadMessage.h"
+#include <string>
+
+微
+
+#include <iomanip>
+
+#include "CalulateWays.h"
+using namespace std;
+
+// 计算经过各路线的所花费的时间
+multimap<float, vector<int> > TimeCalculate(
+vector<vector<int> > & FeasibleSolve,
+vector<LoadMessage> & AllLines
+)
+
+22
+
+

@@ -1,0 +1,117 @@
+{
+  "schema": "g8-q3-batch-provenance-v1",
+  "paper_id": "CUMCM-2002-A-006",
+  "source_sha256": "FA785AA6CF32805C7B7B309F9930D94EB203667EC25951D864B9CD46FDDCA5DA",
+  "pages": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "F6DC4FFC9BBA84B549D19D943CC1A2E27ED8B7C8BC4FAB5AF1FDAED5F79565A7",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "6392CD1A60F7F896B2F0ED831322A1B60D3F9EC28B14D52310D8A8F3BBB97822"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "6F9B2755DF2D985C01D92F10340AEFEA8372E10B2F797388E26EBCC7238A2D91",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "CCC52302BD4D21D545A16E773623CF1182DB323EB884DCAC2E1C0D958D87F231"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "15E0B976A4DB48925E6D7A02A247DA0A89284CAC5ADF576BBDAE4F7523B22944",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "2350CB910AC4772153424FA7B45D6786FECEFDC57BD3B9FEA73481F95FD6A9EC"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "89197778A6A947E3DA0755D82E00C1F954ED3DD673E7DE92A9E53EBF6F745EFB",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "345F5F0D1E1CE314CDE74A113A960B6B5B5B4D34AB1903A4A33F4D411D337B74"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "1D79ACA312E72B9E0C4E276C21C9145106F3F35394BA01C7AE0D175CEA615D01",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "8073C54B6AE0F2BBE8C76D42237BC4CE07F8FA6A098C70155470BE6AEA70D0B6"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "3A3451E0C8B0E0D9A49D322AECC76D511C52785A53352B51726F7E1E28723AB3",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B1121F4D57B9B3D0584F51E0ABA599429443A2D4C93C4342F3F7B5F7BC1D0475"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "E709C0273888E6959603B4D345C2EA63EB9E357CBC13A5C4CD734EFD3D8FF707",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "4386D5FA48D59F6DD643BECF933A614E637689EDC977F8BDA522A9A0B45E4D16"
+    },
+    {
+      "page_number": 8,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "D4F72F3A923A5FD39D81169F5CBADA3FBF17ADCA54AD1AAD91BECC9FC234B2A4",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 8,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "CE8B5AC32F485DD755E631BEC4B7AE0BE33776DE21FE426DE9A4CE0CFF2C18BA"
+    },
+    {
+      "page_number": 9,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "AB44A090FB7736E3A2204A1859DF4DCC249E31F5C00027CC5CEBD399FE9ABBA8",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 9,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "8C6170C1D0CC4D3693689BAA73481683EAADE7E2497E1FC2C3FC177AD96767F0"
+    },
+    {
+      "page_number": 10,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "1CF0FBD0929A4D505C215B642390B6985428549A1CD820FFA999B12E6FFD929F",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 10,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "427D073F9CEBE5A74FE711B26EDC525A064A453C32BBEE9D0E7A3ADBD36B1191"
+    }
+  ]
+}

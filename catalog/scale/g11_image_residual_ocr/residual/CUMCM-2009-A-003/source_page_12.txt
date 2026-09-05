@@ -1,0 +1,55 @@
+dM, (t) 1 d?M,(1) 1 dBM,)
+i(t+ At) = K; (M,(t) 二 一 At 十 万 ' 一 0 (At)2 二 可 一 9 (AbD3 十 …)
+
+进行 离散 化 处 理 ， 依 题 意 ， 令 t = nAt， 上 式 化 为
+
+i((n + 1)At) = K,(M,(nAt) + AM,(nAt) 十 于 A?M, CnAt) 十 = A3M,(nAt) 十 …)
+
+将 公式 : AxMzCnAbD = 285-o(-1TDmCRMz(a — mAb 代 入 ， 得 电动 机 驱动 电流 :
+
+N k
+i((n + TDAbD = Ka wm 人 二 >》 CDmcg M,((n — m)At)
+=0 i=0
+N k (- 人
+=K, Jim,), 2, RTMz(O 一 mAb
+
+其 中 为 前 文 (21) 式 eats 的 Taylor 展开 式 的 阶 数 。 -你 sy>
+
+2) 系统 框图 AN
+
+下 图 是 驱动 电流 控制 系统 的 系统 框图 2XG 人
+
+13
+
+[CO
+
+Mz(t) NA - ] i(t+AT)
+S—O-b——*
+MWT+—=>TEF EIN /
+共有 N 个 微分 器
+图 7 驱动 电流 控制 系统 的 系统 框图
+9
+
+3) 误差 分 析 e/
+
+SEAR,NBOR, EER ZEN  N= oolif, INIERZ  F (HikiES RPRs
+任何 -条 能 产生 时 延误 差 的 人 & 了 这 是 此 模型 最 大 的 优点 ! 但 越 大 ， 计 算 机 控制 系
+统 也 越 复 杂 , 因此 NN 的 选取 放权 白 才 上。 表 3 是 N 的 不 同 取 值 下 利用 计算 机 模拟 得 到
+的 灵 的 大 小 及 程序 运行 时 间 , 鹃 岗 N=2 时 ， 得 到 的 结果 已 经 很 让 人 满意 ， 且 NN 的 继续 增
+大 不 会 带 来 sg 的 明显 改善 ， 但 计算 机 控制 的 复杂 度 却 明 显 增加 ， 因 此 取 N=2.
+
+7 L2—— N 的 变化 关系
+ET
+[名 oz oo |
+IN 请 com oo
+人 区 一 wow 0a5
+[jnozaw oa |
+IIIEEEIIE
+[oo 03 |
+[9 jwoza 114 |
+jw Lao |
+[oomza 2250 |
+[9 jwomza 2750 |
+[9 Jooozm aa |
+
+12

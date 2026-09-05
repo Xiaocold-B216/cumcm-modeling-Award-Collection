@@ -1,0 +1,110 @@
+为保证每个任务至少有一个备选会员，以悲观准则计算时空可抵距离：
+
+r2  j  = max min Dij 
+
+（3.16）
+
+iB
+
+j A
+
+算法具体步骤如下：
+Step1：初始化 j  1 ；
+Step2：选中 a j ，初始化 i  1 ；
+Step3：选中 bi ，若 Dij  min r1 ( j ), r2 ( j ) ，则将 bi 存入 G j , i  i  1 ；否则， i  i  1 ；
+low
+
+Step4：判断 i  B ？若是，进入 Step5；否则，返回 Step3；
+low
+
+Step5： 调用 BET 得 F j
+
+，若 z ji =1 则 Fj  Fj ,ci =ci  1，j  j  1 ，进入 Step9；否则 Step6；
+low
+
+B
+
+B
+
+Step6：选中 bi ，若 Dij  max r1 ( j ), r2 ( j ) ，则将 bi 存入 G j ， i  i  1 ，否则， i  i  1 ；
+up
+
+Step7：判断 i  B ？若是，进入 Step8；否则，返回 Step8；
+Step8：调用 BET 得解 Fj ， F j  F j ， j  j  1 ；
+up
+
+up
+
+Step9：判断 j  A ？若是，结束匹配并输出所有 F j ；否则，返回 Step2。
+（2）多阶段轮盘赌规则
+本规则在充分考虑“具有同一任务开始预订时间的会员属于相同的优先批次”和“同批次内各
+会员选中任务概率依预订配额占比决定”两种情况下，设计批次内完全信息共享任务匹配规则。
+
+
+
+
+
+T 1
+
+分析 G j 各元素 g jn b jn , xb jn , yb jn , cb jn , tb jn , qb jn ，n =1，
+2，
+,G j ，b jn  B 。将会员划分为 G j
+B
+
+B
+
+B
+
+B
+
+B
+
+，
+
+i m
+
+G j   ，…，G j   ， GTj i   G j 。其中相同集合内的会员具有相同的 tiB ，即 i  G j  ，T  m  =tiB 。
+T 2
+
+T m
+
+T m
+
+i 1
+
+基于提出的新定价标准，每个会员选中任务的概率与新标准价格 Ppj 和平台原有价格 Po j 的比值
+
+ 
+
+成正比。通过式（3.17）可计算会员 b jn 在集合 G j 中选中任务 j 的概率 Pr b jn ：
+
+cbBjn
+
+Pr  b jn  = n  G
+
+
+
+j
+
+c
+n 1
+
+B
+b jn
+
+Ppj
+Po j
+
+（3.17）
+
+由此，针对每一批次 T  m  ，均有式（3.18）所示的未选中概率  Pr  m  ：
+k  m n  Tm
+
+ Pr  m  =1    Pr  b kjn 
+k 1 n 1
+
+11
+
+（3.18）
+
+

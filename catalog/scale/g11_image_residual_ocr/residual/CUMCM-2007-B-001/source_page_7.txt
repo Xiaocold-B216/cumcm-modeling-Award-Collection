@@ -1,0 +1,37 @@
+ERiEAE
+Bg
+Siead
+四
+Step2:N=1( 换 乘 一 次 );: 以 $s 为 起 始点 广度 优先 搜索 所 有 在 {A } 上 的 站 点 & ， 返 回 Stepl:
+求 出 t ,Re 。 若 记 =o0, 则 世 =oo; 否则 世 =to +5+tn o #2 =null, 则 屿 =aull;
+否则 fa ={i 全)
+Step3:N=2( 换 乘 两 次 ): 以 $s 为 起 始点 广度 优先 搜索 所 有 在 {A } 上 的 站 点 &% ， 返 回 Step2
+求 出 如 ,Ro 。 若 忆 = 无 穷 , 则 马 =o;， 香 则 已 =t0 +5+t . #5r% —null, W]r2 —null;
+否则 fjfa， 不 } -
+Stepd: N=3( 换 乘 三 次 ): 同 理 。 = 人
+0 ,1 .2 .3 天 、
+steps Win tu = {itsotauta) ， nt ly WR=ro nse
+@@ 模型 求解 及 结果 分 析 :
+用 matlab7.0 编 程 进行 搜索 (程序 见 附录 )， 结果 如 7
+表 1， 以 时 间 为 目标 醒 录 的 某 包 结果
+[TD
+有 Q
+一 Te
+ felelwle [w]a]
+人 ER 区 [OIC ro oo
+说 明 : 袜 表示 在 该 换 乘 次 数 下 不 存在 -条 线路 可 以 到 达 终 点 站 。
+由 答案 可 aT 02 乘 车 的 最 短 时 间 有 较 大 改善 ,而 从 2 次
+到 3 次 ， 4 组 中 只 有 3 组 的 乘 车 时 间 会 减少 ， 并 且 减 少 的 时 间 量 很 小 ， 在 换 乘 2 次 下
+得 到 的 解 关 经 下 分 接近 最 优 解 。 又 综合 考虑 增加 换 车 次 数 会 导致 滋 车 费用 增加 ， 并 且
+频繁 换 盘 有 悖 站 的 一 般 心 理 习惯 ， 所 以 不 再 考虑 换 乘 3 次 以 上 的 乘 车 线路 ， 处 理 较为
+全 再 办 Dj
+按 是 有 共 给 出 满足 不 同 要 求 时 的 乘 车 路 线 :
+表 2: 以 时 间 最 少 和 换 乘 次 数 最 少 为 目标 的 乘 车 路 线
+| | 用 时 最 少 的 乘 车 路 线 换 乘 次 数 最 少 的 乘 车 路 线
+CTSITTIITITT
+CEIEIIIIIIIIIIIEIEIIITIIITN
+irforonssrsi s_ feronsiess
+CI
+TENIIIIITITS
+TI
+7

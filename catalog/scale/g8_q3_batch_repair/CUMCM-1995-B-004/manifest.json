@@ -1,0 +1,62 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-1995-B-004",
+  "source_path": "1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车冶炼炉作业调度的活动网络模型.pdf",
+  "source_sha256": "2D121E84DE317B356CF918B5F3B5B33ABF3B89A7C648A2F340795E6DF1AD00DC",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 3,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 3,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "ElRiEa 5ienti ERERER 第 26 % (1996) 第 1 期 .65， aa 文 天 车 数目 的 讨论 。 3. 由 天 车 一 炉子 作业 运行 图 容易 看 出 ,T1,T2,T3 任 一 时 刻 的 位 置 至 少 相 差 相 邻 两 个 工作 点 间 的 距离 , 且 保 持 顺 序 无 交叉 , 故 绝对 不 会 出 现 天 车 相 挤 事 故 。 4 由 《调度 规则 说 明 书 ?容易 知道 调度 的 基本 原则 和 先后 顺序 ,参照 各 天 车 的 详细 工 序 清单 ,调度 的 安排 便 一 目 了 然 了 。 综 上 所 述 ,我 们 所 提出 的 调度 方案 符合 要 求 。 《四 ) 关于 天 车 数目 的 进一步 讨论 : 注意 到 m(D=n(Gt) = 一 1 时 ,对 应 模型 一 调度 方案 中 的 天 车 T2,T3, 其 作业 率 分 别 61%% 和 58%%, 非 常 接近 , 故 若 m(t) 十 n(t) 之 3, 而 作业 率 又 要 尽量 均衡 的 话 , 一 方面 造成 Tv> ERLEARGO10h0, F7LBREGLBLETRES TXEHEWN TIRREAS SRS OF T RURELIE AAI ) 5 方案 的 复杂 化 。 下 因此 ,我 们 选择 三 台 天 车 相对 独立 运行 的 调度 方案 ,不 仅 在 产量 ， 在 实际 生产 的 管理 中 也 是 合理 的 。 SN 人 N ET 司 __- 天 车 \\ 褒 烽 仿 作业 调度 的 活动 网 络 模型 MY 》 T 外 <”， 张 ” 德 冯 南 (和 站 南京 210096) 导 教 师 : 姚 瑞 波 as 人 凡 s 阳 炉 三 台 天 车 的 作业 活动 构造 成 一 个 活动 网 络 模型 ,对 Taken 所 9 径 法 找 出 达 最 大 钢 产 量 的 调度 方案 增产 到 300 万 呈 / 年 的 各 种 措施 的 产量 ,对 于 全 移 是 可 用 计划 评审 法 讲话 陆 机 入 的 影响 有 入 市 方 和。 观 间 有 关内 容 扩 boT, 甩 ， 1 生 稚 Bia xmnea rm NAN Bi” :Ai( 或 Bj) 治 炼 (2) Tk W> place: Tk 空 着 运 至 place 处 (3) Tk 口 > place: Tk 带 一空 缸 或 槽 运 至 place 处 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnkinet EiEE boa 6， 数学 的 实践 与 认识 机 4) Tk place: Tk # —Z {#si#iZ Z place 处 (5) Tk 和 place: Tk 在 piace 处 吊 起 一 空 槽 或 负 (6) Tk \" place: Tk 在 place 处 带 起 一 满 槽 或 饶 (7) Tk 白 place: Tk 在 Place 处 放下 一 空 模 或 饶 (8) Tk | placey Tk 在 place 处 放下 一 满 柱 或 包 为 使 度 钢 产量 尽 可 能 高 ,A 炉 ,B 炉 轮流 冶炼 完 。 二 从 > 所 以 我 们 考虑 调度 用 3 辆 天 车 ,使 调 度 周期 T= maxtT'/3,To/2}-T'A aa. 吕 从 ] 炉 满 负 荷 生产 ,通过 反复 尝试 和 调整 ,定义 初始 状态 如 下 ， 2 有 A(1) 空 A(2) 已 生产 T,A(3) 已 经 生产 2T > B() 空 B(2) 已 生产 下 ， T1 在 P 空 ,T2 在 A(1) 装 满 半 钢 ,T3 在 B(1) 装 满 原料 A 结束 时 A(CLDA(2)A(3) 状 态 分 别 对 应 周期 开始 时 A2)A > 笛 站 的 状态 ， B(1)B(2) 状 态 对 应 B(2)B(1) 状 态 ， NC 显然 可 以 重新 形成 下 一 个 周期 ,不 断 傅 环 下 去 ,得 到 活 痢 阿 铬 如 下 ， 出 于 这 种 考虑 ,我 们 构造 了 一个 有 向 图 GCV,E], 其 中 下 为 边 集 合 ,第 一 边 sieiEE) 都 代表 了 一 个 生产 于 期 中 的 一 项 工作 vei 的 权 Wi 为 进行 该 项 工作 的 时 间 ; 图 中 每 个 节点 代表 某 一 刻 生 产 淖 展 状态 ,为 了 表示 一 些 了 和 的 先后 弥 关系 ,我 们 引入 了 权重 为 夫 的 一 此 弧 ( 这 些 边 也 被 称 为 虑 零 拒 ), 见 下 图 ,这 笠 攻 从 如其 分 地 表示 了 一 个 周期 的 沉 各 注 : 虚 零 弧 在 图 中 用 虚线 表示 。 吓人 人 (所 有 时 间 才 证 的 全 7 _ 我 们 旨 在 寻找 和 调整 图 中 的 刍 路 经 (critical path] ,使 其 权 和 不 超过 工 ,这 样 就 与 原 先 的 期 望 一 致 了 。 ee 香 序 ,并 且 利 用 数学 软件 对 其 进行 CPM 分 析 . 通过 RAEERETAE WApsR. 在 周期 一 18. 4 的 情 ; 关键 路 径 和 根据 GPM 分 类 乓 各 项 活动 完成 最 早 时 间 和 最 蜡 时 间 ,我们 发 现 依据 这 一 方案 恰好 可 以 在 js 人 必 昌 中 完 总 各 项 工 作 , 并 且 从 一 个 周期 到 下 一 个 周期 过 渡 平 稳 自 然 ,其 中 有 些 任务 完 肝 记 有 各 时 间 ,也 就 是 说 3 辆 车 已 达到 最 优 的 情况 ， \\ 3 EgaE rer Sietd 回 呈 RN 第 26 卷 (1996) 第 1 期 “67 za 四 18.42 AD 18.2 | 18.42:325 | & | 时 ° ol, Em BEy my nb my -从 > ] 、 2 0-05 3 023 4 5 .025-035 6 1 用 只 -| 国 中 rS n nyay TFD>amy sn m—=>30 nMled_ T | 0 ¥ h BC X | 230-18.42 K | 思 早 .， 五 人 a0 5 TeQ T 时 @ < 由 。 3 B2 NM > MRPAP 9 rE=- 3 17] 2 D3 ems-o05 18 2 15 3 16 025~05 MY》 \\ = B(1) 站 一 ====7 i8.42 EN | 2 初 态 ， 终 态 : Hibe T1: 在 P 上 , 空 TCD 上 ,请 T2: 在 A(C2) 上 ，, 满 T3: 在 日 (1) 上 , 满 T3: 在 B(2) 上 , 满 A(1): 刚 生 产 好 A(2): 刚 生产 好 A(2),A(3): 生产 中 A(3),A(1) :生产 中 B(1): 刚 生产 好 B(2): 刚 生产 好 B(2): 生产 中 BG) :生产 中",
+  "normalized_text_chars": 3041,
+  "normalized_text_sha256": "56F3F8251275D7327DDAB0BFD8A697E93A24057A6AE858856DDEDA77D20DA399",
+  "page_provenance_summary": {
+    "OCR": 3
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "78041D5154890BBBE17E49326977659445817245646E33DAAEB6705C5DFF2242",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "FC7C5263A3C0D4EE9484EAA7036707D2A3B38770993034391FC6843AA53E9B18"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "0A1A7ABE843B692D76BDBACFEED0112C3E40F910F3CFBD6639DFDE9DB7FC86F5",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "908F994C1FA5761086B3C7F834F0A92088AF065BA1C99749BEBE8DE6DAF66C4A"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "AC299E17E12CC3C39B60DE6218A00C30DFE819F9342A5F134DC1825642B92E3B",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "082BDCA7BDF77A6F9E3E6ED9520D9E3AF2165F3C246ED4B8F85322A15091A93E"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

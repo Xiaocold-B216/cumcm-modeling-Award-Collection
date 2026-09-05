@@ -1,0 +1,68 @@
+七、附录
+源程序 1：
+使用软件：SQL Server 2008 R2
+use Contest;
+---------------------------创建总表----------------------------select sd.djh,sd.spbm,sd.sj,sd.sl,sd.je,sd.dtime,sd.syjh,vsd.kh as
+vsd_kh,vsd.spmc,vsd.jf,vsd.gzbm,vsd.gzmc,vi.kh as vi_kh,vi.csny as vi_csny,vi.xb as vi_xb,vi.djsj as
+vi_disj
+into total
+from sale_detail sd
+
+流
+
+left join vip_sale_detail vsd
+on (sd.djh=vsd.djh and sd.dtime=vsd.dtime and sd.je=vsd.je and sd.sj=vsd.sj and sd.sl=vsd.sl and
+sd.spbm=vsd.spbm and sd.syjh=vsd.syjh)
+
+交
+
+left join vip_information vi on vsd.kh=vi.kh
+
+研
+
+;
+---------------------创建该商场会员消费明细表------------------from total
+
+：
+科
+
+select * into mall_vip_sale_detail
+where vsd_kh is not null and vi_kh is not null
+;
+
+--------------------创建该商场非会员消费明细表-------------------
+
+号
+
+select * into mall_notvip_sale_detail
+from total
+
+众
+
+where vsd_kh is null and vi_kh is null
+;
+
+select
+
+公
+
+--------------------创建以会员消费时间为主的,该商场会员消费明细表-------------------
+
+信
+
+vsd.kh,vsd.dtime,vsd.spbm,vsd.sl,vsd.sj,vsd.je,vsd.spmc,vsd.jf,vsd.syjh,vsd.djh,vsd.gzbm,vsd.gzmc,vi.
+kh as vi_kh,vi.csny,vi.xb ,vi.djsj
+
+微
+
+into vtime_mall_vip_sale_detail
+from vip_sale_detail vsd,vip_information vi
+where vsd.kh=vi.kh
+----------------------------第一问-----------------------------------------------------------------购买力维度-------------------------------------select vi_kh as 会员卡号,count(vi_kh) as 会员消费宗数,SUM(je) as 会员消费总金额,SUM(sl) as
+会员购买数量
+from vtime_mall_vip_sale_detail --会员
+group by vi_kh;
+
+22
+
+

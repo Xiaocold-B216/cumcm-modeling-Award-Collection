@@ -1,0 +1,36 @@
+Eliig
+让
+if i>=LEN1+1&&i<=LEN2-1
+unknow=lam(2)*(T(n,i+1)-2*T(n,i)+T(n,i-1))/dx(2)*dt/(dx(2)*rho(2)*c(2))+ T(n,i);
+T(n+1,i)=unknow;
+elseif i==LEN2
+unknow=(lam(3)*(T(n,i+1)-T(n,i))/dx(3)+lam(2)*(T(n,i-1)-T(n,i))/dx(2))*...
+dt/(0.5*(dx(2)*rho(2)*¢(2)+dx(3)*tho(3)*c(3)))+T(n,i);
+T(n+1,i)=unknow;
+end
+end
+for i=LEN2+1:LEN3
+if i>=LEN2+1&&i<=LEN3-1 一
+muorinenOoiDamoimIorDooyadymeoreeyRa
+T(n+1,i)=unknow; 一 \)
+elseif i==LEN3 人 一
+unknow=(lam(4)*(T(n,i+ 1)-T(n,i))/dx(4)+lam(3)*(T(n,i-1 Aoctir
+dt/(0.5*(dx(3)*rho(3)*¢(3)+dx(4)*rho(4)*c(4)))+Ti J
+T(n+1,i)=unknow; 他
+end
+end X
+for i=LEN3+1:LEN4 多
+if i>=LEN3+1&&i<=LEN4-1
+unknow=lam(4)*(T(n,i+1)-2*T(n,i)+Tn,i-1))/dx(4)*dt/(dx(4)*tho(4) c(4)+T(n,i);
+T(n+1,i)=unknow; 人 O
+elseifi==LEN4 5A
+unknow=(lam(4)*(T(n,LEN4-1)-T(n,LEN4))/dx(4)-h2*(T(n,LEN4)-Tin))*...
+TAR
+T(n+1,i)=unknow;...
+end As ¥
+end ) V
+end y/}
+T=T(:,LEN4); 2
+T=T(1:500: M
+=
+26

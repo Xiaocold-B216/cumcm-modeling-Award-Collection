@@ -1,0 +1,52 @@
+，
+
+| 区 二 和
+
+，
+
+| 56 工 程 数 学 学 报 第 20 卷 _ 这
+
+| 照 集中 在 一 个 长 形 的 区 域内 。 这 种 由 线 光源 经 抛物 面 育 焦 后 形成 的 长 形 光 , 可 以 防止 驾驶 员
+产生 孩 学 感 , 较 传统 的 点 光源 设计 有 着 显著 的 优点 。 1
+5.3 ” 吊 试 方案 的 评价 ii
+| 1) 在 现实 生活 中 ,由 于 汽车 的 速度 比较 快 ,因此 这 样 在 焦点 前 25 米 处 放 测试 屏 ,并 不 合 hi
+理 ,而 应 该 在 更 远 的 地 方 放置 测试 屏 进 行 测试 ;
+2) 不 仅 要 从 节能 的 角度 考虑 ,还 应 该 考虑 其 他 非常 重要 的 因素 ,比如 在 转弯 时 ,左右 两 1
+| 侧 被 照 亮 的 区 域 是 否 尽 够 大 ; 1
+| 3) 仅 选取 两 点 进行 测试 是 不 合理 的 ,这 是 因为 正 前 方 ( 即 测试 屏 的 竖 直 方向 ) 的 亮度 大 |
+| 小 及 变化 的 剧烈 程度 都 会 对 行车 安全 造成 影响 。 设 想 正 前 方 的 光线 极 强 ,或 者 强度 变化 剧 本
+烈 , 将 会 引起 对 面 的 驾驶 员 感到 刺眼 ,给 交通 安全 带 来 隐患 ,所 以 测试 方案 中 应 该 考察 更 多 和
+| 的 必要 的 点 ; _
+0 |
+| 理论 上 计算 亮 区 是 十 分 困难 的 故 很 有 必要 对 投入 使 用 的 车 灯 进 行 严格 的 实践 负 试 SS 人
+| 2 \ 1
+| 6 “模型 优 缺 点 评价 T 1
+| 本 模型 中 一 个 最 为 关键 的 问题 是 对 光 由 S 射 到 己 后 能 量 误 夏 的 下 和 sa
+| 人 非常 复杂 。 1
+| 原则 上 ,我 们 的 一 整套 处 理 方法 有 广泛 的 适应 性 , 比 姐 反 射 面 般 的 二 次 曲面 或 光源 1
+具有 其 他 形状 时 ,都 可 以 进行 类 似 处 理 。 另 外 ,在 绘制 亮 区 名 硅 ,我 们 实际 上 模拟 了 光线 的 一 由
+次 反射 过 程 ,如 果 程 序 能 进一步 完善 , 则 可 以 非常 方便 地 各 和 仿真 试验 。 人
+| 参考 文献 ; 中
+人 _e |
+| 上 2 2 |
+| [2] 雇 化 诸 , 王 宝 富 .解析 几何 [M] .北京 :科学 出 版 社 人 A |
+| [3] 赵 凯 华 , 钟 锡 华 .光学 [M] .北京 :北京 大 学 出 版 社 二
+| [4 ee 1
+| |
+| —A | Problem of the Headlight Design fit
+i 外 和
+| o ) Voor Chao-ping, XIAO Nan, JIN Lei |
+了 7 Advisor: BAO Yan-hong ]
+| 下 人 of Mathematics, Anhui University Anhui 230039) 人 让
+
+1 “
+| SG- e discuss the optimization problem of the headlight design, ，under a simplified model which takes the reflective
+surface as | SN paraboloid. Firstly, we calculate the coordinates of the reflective points, then we make out the relation between the | 、
+number of N flective points and the variable x which denotes the X-coordinate of the pointed light source. Secondly, using the numeric 1
+integration method we calculated the light intensity of point B and C, then got the optimal length. At last，we drew the bright area by the )
+3 technology of computer-simulation . ， | 上
+1
+Ho
+i
+
+- |

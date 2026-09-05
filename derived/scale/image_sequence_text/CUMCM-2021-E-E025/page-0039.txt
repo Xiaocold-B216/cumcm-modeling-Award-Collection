@@ -1,0 +1,33 @@
+cv=5,scoring=precision_macro'’).mean()
+
+rfitness =  cross_val score(clf, data 4 op _ feature.iloc[:, :-2], data 4 op_feature.iloc[:, -1],
+cv=5,scoring=recall_macro').mean()
+
+ffitness =  cross_val score(clf, data 4 op_feature.iloc[:, :-2], data 4 op feature.iloc[:, -1],
+cv=5,scoring=f1_macro').mean()
+
+afitness = cross_val score(clf, data 4 op feature.iloc[:, :-2], data 4 op feature.iloc[:, -1],
+cv=5,scoring=accuracy').mean()
+
+#OP， 考 虑 class
+
+X train ¢, X test c， y trainc, ytestc = train test split(data_4 nonan feature.iloc[:, -1],
+data 4 nonan feature.iloc[:, -1],
+
+test size=0.25, random_state=0)
+
+cf =RandomForestClassifier(n_estimators=50, max_depth=None, min_samples_split=5, random_state=1)
+
+pfitness = cross val score(clf, data 4 nonan_feature.iloc[:, :-1], data_4 nonan feature.iloc[:, -1],
+cv=5,scoring=precision_macro').mean()
+
+rfitness = cross Val score(clf, data 4 nonan feature.iloc[:, :-1], data 4 nonan_feature.iloc[:, -1],
+cv=5,scoring=recall_macro’).mean()
+
+ffitness = cross_val score(clf, data_4 nonan feature.iloc[:, :-1], data_4 nonan feature.iloc[:, -1],
+cv=5,scoring=f1_macro').mean()
+
+afitness = cross Val score(clf, data 4 nonan feature.iloc[:, :-1], data 4 nonman feature.iloc[:， -1],
+cv=5,scoring=accuracy').mean()
+
+38

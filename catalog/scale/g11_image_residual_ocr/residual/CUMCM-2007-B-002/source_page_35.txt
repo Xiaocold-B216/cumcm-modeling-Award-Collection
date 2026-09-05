@@ -1,0 +1,40 @@
+ERE
+1
+// 二 次 换 乘 的 情况
+bool TwiceBusChange(const int NSTART，const int NEND, // 起 始点 和 目标
+点
+vector<vector<int> > & FeasibleSolve, // 可 行 的 解决 方
+案 ， 是 返回 值
+vector<LoadMessage> & AllLines, // 所 有 路 线
+信息
+vector<vector<int> > & AllBuses, // 所 有 公 汽
+站 信息
+vector<vector<vector<int> > > &RoadCrossInfo) // 任意 两 路 线 的
+交叉 信息 “
+Hoo
+bool bHaveFound = false; “\
+2/ 一
+vector<int> FeasibleLine(9, 0); 从 一
+int nCurLineName = = 二
+int nFirstBusChangeStation = -1; 换 乘 的 车 站 名
+全
+int i, j, k; »
+i=j=k=0; 外
+for (i=0; i<AllBuses[NSTART-1].sizeQ; ++i) // 经 过 起 始 站 点 的 所 有 线
+路 2 外
+狼
+nCurLineName = AllBusesNSTART=1][i];
+j=0;
+int nStart.pos~ -1;
+/A Ran LineInfo[j] != NSTART)
+%
+4 = j;
+人 NV/ // 当前 线路 上 的 所 有 站 点
+for (j=j+1; j<AllLines[nCurLineName-1].LineInfo.size(); ++j)
+{
+nFirstBusChangeStation = AllLines[nCurLineName-1]. LineInfolj];
+vector<vector<int> > temp;
+bool IsConnected
+= OnceBusChange (nFirstBusChangeStation,
+NEND, temp, AllLines, AllBuses, RoadCrossInfo );
+35

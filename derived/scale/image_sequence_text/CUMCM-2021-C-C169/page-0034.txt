@@ -1,0 +1,46 @@
+Viviempt;
+fori=1N
+rL=unifind(0,1);
+iricre
+CrossNo=Crosshos1;
+emp2(Crossiio,J=vi(i);
+i(iezeros(inl;
+end
+end
+ifCrossNo~=0 & modtcrossNo2j=-0
+break
+eleif Crossto==0lmodi(Crossho,2)==1
+wiemp2=[)
+end
+end
+shengyuNo=0;
+fori=1N 3r
+ivallsjr=aerostlnj
+shengyuNo=shengyulio+1; > \
+Viemp3tshengyuNa,j=vlfi.jatvtemp3 FRAHERAMLIL 站
+end :
+end 人
+% 随 机 选择 配对 进行 交叉 操作
+fori=1:Crossio .
+reellonifnalDia"fciassNioata))
+Viempa(=emp2(2,);
+ viemp2(e2,1<1
+jd
+\V 了 人 一 一半 机 配对 结 来， 技 丘 序 2 孝 为 一 对 = 一 -一 一 一- 一- 一
+oriel2GrossNo)
+hie 1==1
+canifndloh;
+2otpj=Brviempatizjv(lajrvempa(oa .小
+V20(1)={1-r3) viempd(iJor3 viempa(ieL);
+temp1=sum(va0(i;)A2);
+temp2=sum 人 v201 .je2j:
+valpjesqnttv2otije2Htempal';
+faujFsqrtvzof1 je2hemp2h
+iFFeasibily(v2(1)==1 & Feasibilty{v2i+1, ==1
+break;
+end
+end
+end
+sisteps end
+Va=iviemp3v2; % 从 并 交叉 部 分 和 利 余 部分
+4

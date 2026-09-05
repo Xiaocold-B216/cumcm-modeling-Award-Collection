@@ -1,0 +1,44 @@
+回味
+人
+禾 数学 的 宝 认识
+第 30 郑 第 1 期 数学 的 实践 与 认识 von30 Nu BERAGE
+2000 年 1 月 MATHEMATICS N PRACTICE AND THEORY Jan 0 me
+By using the algorithm mentioned above, the function has been solved fairly and the op tr
+mum solution has been got 了 this paper two study cases are described For case 1，the inter-
+vals of replacing and checking are 369 and 18 respectively, the loss of unit qualified part is
+4.615 Yuan and itwill be down to 4.405 Yuan if the unequal interval is adopted For case 2,
+under complicated conditions, the intervals of replacing and thecking are 306 and 28 respective-
+ly，the loss of unit qualified part is 9. 268 Yuan and it w il change to 9.047 Yuan when using
+unequal interval These results provide a more advantage proof for the mprovedmodel using
+the unequal interval checking method
+%
+全
+一 \
+2
+一 AAA
+自动 化 车 床 管 体 一
+于 “ 杰 ， 着 爱民 ， 李 溃 SN
+指导 教师 倪 < 勤 改
+(南京 航空 航天 大 学 ， Re
+编者 按 : ”本 文思 路 清晰 , 叙述 简洁 扼要 , 在 处 理 5% 其 他 故障 方面 有 独到 之 处 ”但 问题 二 的 分 析 和 结果 有
+不 足 和 错误
+摘要 : 本 文 讨论 了 系统 的 最 优 维修 策 网 问题 egnomsxnanrsmyen pn
+目标 的 期 望 值 模型 并 利用 计算 机 采 有 并 弛 索 法 求解 得 第 一 种 情况 最 优 解 为 每 生产 18 个 零件 检查 1 次 ，
+当 检查 到 20 次 时 更 换 刀 具 , 这 时 生产 单 本 和 最 代 下 均 妆 用 为 4 人 2 元
+最 后 , 我 们 指出 了 模型 中 一 些 未 考虑 的 因素 分析 了 这 些 因素 可 能 对 模型 产生 的 影响 , 并 提出 了 模型 的
+改进 方案 放
+1 问题 的 提出 人 眙 ) 7 ¥
+2 1 ) V
+(1 \ 2 放任 THUTHMALE 且 相 互 独立
+SN (2) | 作 现 故障 时 无 法 区 分 刀具 故 障 和 其 它 故 障
+村 Hp
+SN 人 其 它 故 障 服从 几何 分 布
+] 人 人 在 次 检查 1 个 地 件
+N 零件 检查 时 间 很 小 , 可 忽略 不 计
+(6) 检查 间隔 是 相等 的
+(7) 假设 随机 变量 和 1X2 是 相互 独立 的 ,1 三 2 的 含义 见 符号 说 明
+3 符号 说 明
+n: 每 生产 二 个 零件 检查 一 次
+m 检查 第 m 次 时 更 换 新 的 刀具
+7: 定期 更 换 刀 有 具 时 已 生产 的 产品 的 总 数 即 刀 有 具 更 换 周期 7= m "mm
+2 1994-2008 Chin demic Journal Electronic Publishing House. All rights reserved.  http://www.cnki.net

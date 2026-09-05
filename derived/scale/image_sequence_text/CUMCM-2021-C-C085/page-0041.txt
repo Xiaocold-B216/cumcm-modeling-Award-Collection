@@ -1,0 +1,35 @@
+while ES
+iD
+iNOWI(]>6000-(FP(O][il FP[1][i] FPL2I[):#434 i
+e=6000-(FPIOJi:FPIIGJ+FPI2JID)
+FPIID+=e
+NOWI 人 --
+j=1
+else:# 排 不 满
+e-NOW[f]
+FPIID+=e
+NOWI--e
+fi-1
+foriin range(3):
+forj in range(8):
+证 FPD 一 0:
+FPIDI=chushi[] Po <
+for j in range(8): 从 1)
+worksheet write(z * 3 + 1. + 1 FR[O]i]) ~ 从 p
+worksheetwrite(z * 3 +2.§+ 1. miD
+worksheet write(z * 3 + FEI210D)
+print(FP) 你
+workbookeloseO 下、 入
+>=1
+EC
+ov
+importrandom
+import numpy as np
+import xlrd
+import xlsxwriter
+excel = xlrdopen_workbook(" 期 望 供 货 量 xlsx" vb)
+sheet = excel.sheet_by_name('Sheetl')
+um=402
+-24
+C-28488
+四

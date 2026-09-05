@@ -1,0 +1,66 @@
+附录二 提取轮廓源程序
+
+研
+
+交
+
+流
+
+%boundary.m
+%提取边界
+data;
+bound=zeros(length(dat(:,1)),length(dat(1,:)));
+for i=1:length(dat(:,1))
+for j=1:length(dat(1,:))
+if dat(i,j)==1
+if dat(i-1,j)==1 & dat(i+1,j)==1 & dat(i,j-1)==1 & dat(i,j+1)==1
+bound(i,j)=0;
+else
+bound(i,j)=1;
+end
+else
+bound(i,j)=0;
+end
+end
+end
+%检测孤立点
+for i=1:length(dat(:,1))
+for j=1:length(dat(1,:))
+if dat(i,j)==1
+if dat(i-1,j)==0 & dat(i+1,j)==0 & dat(i,j-1)==0 & dat(i,j+1)==0 & dat(i1,j+1)==0 & dat(i-1,j-1)==0 & dat(i+1,j+1)==0 &dat(i+1,j-1)==0
+bound(i,j)=0;
+end
+end
+end
+end
+clear i;clear j;
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+数学中国
+www.madio.net
+
+微
+
+附录三 提取轮廓坐标源程序
+%bound_zb.m
+%求轮廓坐标
+boundary;
+zb_bound={};
+h=0;a=bound;
+while h==0
+m=[];
+for i=1:length(a(:,1))
+for j=1:length(a(1,:))
+26
+
+

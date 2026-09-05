@@ -1,0 +1,106 @@
+{
+  "attempt_id": "20260902T162528503373_425d96bb",
+  "batch_attempt_id": "20260902T162528503373_425d96bb",
+  "paper_id": "CUMCM-2003-B-004",
+  "source_path": "2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排A.pdf",
+  "source_sha256": "A8EBEDCF3EA30F488DEBB3A5F2B4BB94FB3218C3A541B1FA375B5828B862C3F2",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 7,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 7,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "回避 二 汉 加 第 20 卷 第 7 其 工程 数学 学 报 Vol. 20 No.7 2003 年 月。 JOURNAL OF ENGINEERING MATHEMATICS pe ?200 文章 编号 :1005-3085(2003)07-0069-07 露天 矿 生产 的 车 辆 安排 于 滩 泊 ， H 川 ， 楚 玉 强 -从 > 指导 教师 : 韩 铁 民 “\\) (东北 大 学 ,沈阳 110004) % 编者 按 : 面 对 问题 既 要 选择 铲 位 ,又 要 考虑 产量 ` 品 位 限制 ,及 车 辆 不 等 竺 繁 5 个 阶段 用 不 同方 法 处 理 , 达 到 了 满意 的 效果 。 文章 精炼 ,论述 浅 有 SS 摘 要 : 如 何 利用 最 小 的 资源 消耗 取得 理想 的 产量 要 求 ,是 本 妇 讨 沦 前 间 辣 邱 是 ,文章 及 用 两 种 方法 一 一 食 心 法 和 线性 规划 建立 模型 ,针对 两 个 目标 进行 欠 村 SC 第 1 阶段 :采用 贪心 法 按 距 离 .产量 .品位 等 慨 东 依 泥 邢 得 是 优 次 加 …… 等 若干 较 优 的 铲 位 ,获得 一 些 铲 位 的 组 合 方案 。 “ssS 第 2 阶段 :对 这 坚 丝 合 潜行 线 汪 规划 :以 车 次 为 变量 ,根据 不 同 目 标 建 立 目标 函数 ,根据 产量 等 条 件 限 制 建立 约 革 方 得 ,然后 求 郑 数 解 ,在 这 些 解 中 取 最 优 者 。 第 3 价 段 :根据 每 条 路 线 上 的 数 再 次 利 肝 贪心 法 进行 具体 的 车 辆 安排 。 关键 词 : oa 分 类 号 : AMS(2000) 90C05 hE 4 deB : 0221.1 文献 标识 码 : A 1 问题 的 分 析 三 变量 说 明 ~ M 。。 卡 革 各 数 (20 辆 ) v y FI E (28 公里 /时 ) L Oo 吨 ) \\: 班次 的 总 时 间 (8 小 时 ) fTa 、 电 铲 的 平均 装 车 时 间 (S 分 钟 ) /LA 卡车 的 平均 印 车 时 间 (3 分 钟 ) N ERE(5A, ABRTER E E TEER E, W3ARTE TEJR2AMEE) j 铲 位 编号 (10 个 ) Di 全 点 ; 与 铲 位 / 之 间 的 距离 。 Ni 印 点 ; 的 产量 要 求 Quj 。 铲 位 7 的 矿石 数量 © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net EisE 70 工 程 数 学 学 报 第 20 卷 Qj F 的 岩石 数量 ， P 铲 位 7 的 矿石 平均 铁 含量 Ki 一 辆 卡车 一 个 班次 内 在 印 点 ; 与 铲 位 / 之 间 可 往返 的 次 数 Xi 印 点 ; 与 铲 位 j 之 则 需要 安排 的 车 次 数 如 果 直 接 从 题 意 出 发 ,安排 运输 路 线 是 比较 困难 的 ,因为 卡车 的 行驶 路 线 可 以 改变 ,但 可 以 通过 求 出 每 条 路 线 的 车 次 数 达到 解决 问题 的 目的 。 铲 车 的 安排 方法 共有 CY% (n 为 铲 位 数 ,m 为 铲 车 数 ) 种 ,计算 复杂 度 较 大 ,可 用 贪心 法 找 出 较 优 的 若干 位 置 , 确 定 较 优 的 安排 方案 ,对 这 些 安排 方案 ,有 如 下 方法 ，< 扩 _ 目标 及 各 个 产量 要 求 .品位 要 求 等 均 为 每 条 路 线 上 车 次 的 一 次 函数 , 故 可 基线 入 规划 求 . EN) 由 已 知 条 件 可 以 得 到 线性 规划 的 目标 函数 约束 方 程 。 对 贪心 法 筛选 过 的 铲 车 安排 方法 分 别 求 出 其 线性 规划 的 最 优 凡生 wmana 优 者 ,可 得 最 优 的 铲 车 安排 和 车 次 ,依据 车 次 安排 每 辆 卡车 。/S \\ 2 模型 的 建立 < X 过 程 一 — 铲 车 安排 - 基于 分 析 , 首 先 得 到 铲 车 安排 方法 共 衣 Clo = 20F , IWREEHE 120 种 组 合 , 耗 时 太 多 ,通过 分 析 , 最 优 解 只 可 能 存在 于 一 些 较 耀 的 组 合 中 ,可 以 采用 贪心 法 获得 这 些 组 合 。 贪心 法 的 思想 是 ;得 次 选择 当前 最 优 的 点 ,如 不 满足 条 件 , 再 选择 次 优点 ,以 此 类 推 通 过 分 析 知 ,卡车 应 先 寺 择 距离 印 点 最 近 的 匀 们 9 才能 以 最 小 的 运 量 获 得 足够 的 产量 , 若 此 匀 全 不 能 产生 要求 再 取 次 近 人 不 能 达到 品位 要 求 ,还 需要 选择 可 以 平衡 品位 的 点 。 JY 如 本 题 的 实例 , 先 选 到 虹 入 矿石 沁 最 近 的 全 位 9, 铲 位 9 可 满足 产量 ,但 无 法 清 足 品位 要 求 ,再 选择 可 均衡 品位 的 最 近 阐 局 一 - 铲 位 3。 同 理 , 移 择 距离 合 装 场 7 的 较 近 铲 位 2, 匀 位 4 ,距离 倒 装 场 厂 较 近 的 铲 倍 1 ,平衡 品位 的 铲 位 1 …… 确定 1,2,3,4,9,10 六 个 最 优点 ,再 从 亚 下 的 四 个 点 时 选取 = 个 即 可 ,经 过 这 种 方法 第 选 后 的 匀 车 安排 方法 为 = 4 种 。 2 活 ,用 线性 规划 逐一 建立 模型 求解 ,下 面 以 将 铲 车 安排 在 1,2,3,4,5， 6,74 本人 和 全民 人 学风) 过 程 S < 线性 规划 求解 车 次 NA_. 十 台 目 标 1 建立 模型 SN RH 慰 函 数 人 Na min Z = 六 Di 气 各 约束 方程 : 1) 各 个 印 点 的 产量 要 求 : DIL-X;=N,(i =1,2,3,4,5) (D) 2) 各 个 印 点 的 品位 要 求 : ElEAE 第 7 其 喜 天 矿 生产 的 车 辆 安排 71 下 限 DL-X,-P;>28.5% 人 4=12.3) (2) 上 限 六 工区 :已 过 30.5% 123) (3) =1 Js1 3) 各 个 铲 位 的 矿石 (岩石 ) 数量 , 即 该 铲 位 允许 的 最 大 矿石 (岩石 ) 开采 量 落石 SL-X,<Q0 = 1,2,3,4,5,6,7) (4) = 5 岩石 DL-Xy < Qyu(i = 12,3,4,5,6,7) 全 (5) 4) 由 于 铲 车 每 次 装载 需 Ta 分 钟 , 故 一 个 班次 内 最 多 可 装载 T/Ta -MASS 六 < T/Ta ( = 1,2,3,4,5,6,7) 2XG (6) 5) [FIE, FHASKERE To 分 钟 , 故 一 个 班次 内 最 kef77 - 480/3 = 160 % 六 去 T/T 0 =1,2,3,4,5) As (7) 6) 由 于 一 辆 卡车 在 外 点 守 与 铲 位 7 <msigKgeo SV re RETE Ta + T 分 钟 , 共 需 Ta + To+2D,;/V 34 X ftkdh —WFE—MHERWTHE K,; = [T/( Ta +To +2D,/V)] 次 ([] 表示 孙 整 ), 则 该 线路 需要 卡车 X,/K; 辆 ,卡车 总 数 最 多 不 能 超过 M = 20 辆 ， e@ 国 o SSXK,<M % (8) 至 此 目标 函数 及 约束 方程 构造 完毕 。 四 于 言 次 数 为 整数 ,此 题 转化 为 对 整数 规划 的 求解 。 题目 中 还 要 求 在 总 ; 向 修 的 情况 下 出 动 最 少 的 卡车 ,在 解 上 述 线性 规划 时 ,如 果 有 多 \\ s a 组 解 满足 总 运 量 最 小 ,需要 可 in Z = >) >) Xi/Ki，, 即 卡车 总 数 最 少 的 解 。 _— | 在 对 筛选 过 和 法 进 行 线性 规 划 后 ,到 发 中 总 运 量 最 小 的 解 ,如 为 题目 所 可 2. 针对 月 标 2 建立 模型 个 黎 的 主要 区 别 是 目标 函数 不 同 ,其 约束 方程 相同 ,只 须 改 变 目标 函数 即 可 。 今 标 函 数 : V N maxZ= 六 六 和 约束 方程 :( 同 目标 1) s o 如 有 多 组 解 满足 最 大 产量 , 依 题目 要 求 取 max Z = > 0) L - Xi, 即 岩 石 产 量 优先 ,如 5 1 果 岩 石 产 量 相同 , 依 题 取 mia Z = >) >) 工 .Di Xi, 即 总 运 量 最 小 的 解 。 =A 过 程 三 一 一 车 辆 安排 选取 最 优 解 中 每 条 路 线 的 车 次 , 即 可 为 每 辆 卡车 安排 行驶 路 线 及 运输 次 数 。 由 © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http:/Wwww.cnki.net EisE 72 工 程 数 学 学 # 第 20 卷 本 > 》 Xy/KW 可 知 共 需 要 多 少 卡车 。 可 再 次 采用 贪心 法 ,使 每 辆 卡车 发 挥 最 大 工效 , 先 安排 p) 固定 路 线 的 卡车 ,然后 安排 改变 路 线 的 卡车 。 以 下面 一 组 解 为 例 , 具 体 说 明 卡 车 的 安排 方法 : 每 条 路 线 上 的 车 次 见 表 1 表 1 [FETTREITRE3TREITYESTEGTFETTRRSTYE9TFE 7 Tolololnlvwlolalolan EB1| 0 |w [0 [w [0 [0 [o [o [o |0 so ooeTo oo sy 3258 | TooloToloT Pa asialalroloelorvoiy 上 一】 .一 由 多 > xu/Ky 求 得 需要 13 辆 卡车 。 同一 通过 [ Xw /KE ] ,使 固定 运行 的 卡车 尽 可 能 地 往返 于 印 位 之 间 , 求 出 每 条 路 线 上 固定 运行 的 卡车 数 , 见 表 2 表 2 p 一 一 二 一 一 1 一 8 | 人 全 1 2 二 2 | 介 才 声 7 一 锌 位 2 、 1 TS 入 倒 装 场 工 一 铲 位 4 1 -一 3 1 4 Za | 1 =5 | Amea—ves | 1 5 了 #w—ver | 1 < 固定 运行 的 卡车 共 7 辆 ,其 它 - 辆 车 需要 改变 工作 路 线 。 此 时 每 条 线 上 剩余 的 车 次 见 表 3 _— 表 3 TREE 7 下 这 7 | 2 二 加 人 -| 5 3 过 2 二 4 5 R 5 3 3 3 加 1 加 4 二 3 8 5 加 5 1 在 改变 路 线 的 6 辆 车 中 : 第 一 辆 :在 1- 2 线路 运输 13 次 ,剩余 时 间 T- 13 (Ta + Tb +2D12/V) = 87 分钟， © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net 加 局 守 汉 加 、 站 第 7 期 露天 矿 生 产 的 车 辆 安排 73 可 以 继续 在 1 - 8 线路 运输 87[(Ta + Tb +2D18/V) = 5 次 。 熏 余 时 间 极 小 ,忽略 ,此 时 1 -8 线路 剩余 车 次 25 -5 = 20。 第 二 辆 :在 1-8 线 路 运输 20 次 ,剩余 时 间 工 -20 (Ta+TD+2D18/V) = 157 分 钟 ， 可 以 继续 在 1 - 10 线路 运输 157/(Ta + Th +2D110/V) = 11 次 。 剩 余 时 间 极 小 ,忽略 ,此 时 工 - 10 线 路 无 剩余 车 次 。 第 三 辆 一 第 六 辆 的 安排 方法 同上 。 按 上 述 方法 , 即 贪心 法 计算 剩余 时 间 , 即 可 得 到 具体 的 车 辆 安排 ,问题 得 解 。 3 ”模型 的 计算 - Aao 目标 1: 三 六 总 运 量 85628 吨公里 ~ 8.6 万 吨公里 总 产量 70378 吨 ~ 7 矿石 产量 38192 吨 ~ 3.8 万 吨 岩石 产量 32186 吨 ~ 3.2 万 呈 一 出 动 7 台 铲 车 ,分别 安 排 在 1,2,3,4,8,9,10 MXAG 出 动 13 辆 卡车 ,安排 如 表 4: N 于 E EaE 1 一 全 5 2 | er 39 3 BRH [一 铲 位 4 37 人 NS ”人 司 装 场 ET 一 铲 位 10 47 5 “ FR / VT E 2 E | 7 279 N ?JE ayas | 5 站 7 | ~ u 3 2 ] V 倒 装 场 了 一 铲 位 4 6 少 ，，。 1 下 4 5 N- 5 RS 加 7 5 加 9 [1 目标 2; 总 产量 103488 吨 ~ 10.3 万 吨 总 运 量 146791 吨公里 ~ 14.7 万 吨公里 矿石 产量 54308 吨 ~ 5.4 万 吨 岩石 产量 49280 吨 4.9 万 吨 加 局 守 汉 加 - 站 74 工 程 数 学 学 报 第 20 卷 出 动 7 台 铲 车 ,分 别 安排 在 1,2,3,4,8,9,10 七 个 铲 位 。 出 动 20 辆 卡车 ,安排 如 表 5 表 5 8 1 加 2 四 3 » 14 了 5 2 5 人 时 7 4 下 s |] 24 一 YE9 | 二 6 [ES 有 EEEEEEEEEDZEE 生 打 居 于 到 天 天 分 石 漏 一 铲 位 9 RS - [ER 全 靶场 二 人 4 一 加 倒 装 与 工 -- 学 位 4 13 WEH — 全 下 SS 29 全 一 一 司 装 马 工 二 全 位 4 了 VSNAN 例 装 场 上 一 铲 位 4 27 SN [RaxanSseaa | 5 [Auamwaa | 3 1 7 | os 4 mRmu—¥Ew 3 有 EDITEXXSUN 和 天 1 #ea—wmi | = 一 7 5 lem ~ 有 : ls 加 Cs 1 1 加 3 沾 ， 2 TS 上 一 N » 1 加 4 模型 的 分 析 运用 贪心 法 ,可 迅速 求 得 铲 车 的 可 能 位 置 ,确定 可 能 取得 最 优 解 的 若干 组 合 ,大 大 减少 了 线性 规划 的 计算 次 数 。 确 定 铲 车 位 置 后 , 列 出 线性 规划 方程 ,用 Lindo 等 工具 求解 ,可 迅 速 得 到 结果 。 对 于 一 些 特殊 情况 ,如 多 数 铲 位 的 优 劣 程度 很 接近 时 ,采用 贪心 法 无 法 准确 地 bi 口 | 第 7 期 露天 矿 生产 的 车 辆 安排 75 确定 较 优 的 铲 位 ,此 时 需要 进行 线性 规划 的 铲 车 安排 方案 数 会 大 大 增加 ,求解 的 时 间 会 较 长 。 在 解 线性 规划 时 ,需要 考虑 多 解 的 情况 , 即 多 种 方案 均 可 取得 最 优 解 ,此 时 需要 根据 题 目 要 求 (岩石 产量 优先 ,总 运 量 最 小 ,卡车 数 最 少 ) 取 得 相应 的 最 优 解 。 模型 优点 使 用 贪心 法 ,迅速 确定 铲 车 的 可 能 位 置 ; 采用 线性 规划 的 思想 ,化 整 为 零 ,使 模型 简化 ,大 大 减少 了 计算 的 复杂 度 ; 模型 缺点 : 对 于 一 些 情况 ,可 能 存在 很 多 较 优点 ,使 用 贪心 法 后 不 能 有 效 的 减少 铲 车 的 安排 方式 ; 解 线性 规划 过 程 中 存在 误差 ,导致 最 后 结果 会 有 细小 偏差 。 ND ° W 参考 文献 : 2 [1] 施 光 燕 , 董 加 礼 .最 优化 方法 [M]. 北京 :高 等 教育 出 版 社 ，1999 [2] 陈 挺 .决策 分 析 [M]. 北京 :科学 出 版 社 ，1987 b [3] Churchman W. Introduction to Operations Rescarch[M]. John Soni'In:,1985 [4] Thomas H Cormen etc. The Introduction to 六 1 Press, 2001 The Arrangement of V ua Exploitation YU Jup-bo， CHUAN Xiao, CHU Yu-qiang Adviger: HAN Tie- min LA tern Universit Nostheastern University) AY 》 Abstract: The main problem 本 in this paper is how to use the minimum amount of resource consumption. First Process, according to the réq Ce distance, production and content，select the best expl. Second Pro- cess，do linear programming to ae mbinations. Third Process，make concrete arrangement by the number of trucks on each route with gréedy method. Keywords: greedy method; linear programming; times of transportation; arrangement of vehicles Z1 2 证 -",
+  "normalized_text_chars": 7822,
+  "normalized_text_sha256": "27AE07AB356D93B0D574A485C8BB1C11AB80C0E679A7D55CF1E344E4ED923C70",
+  "page_provenance_summary": {
+    "OCR": 7
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "FBD024FEDF2321214E0179E8E39683B61800C2D29DC0576609CB3B23265BB0BF",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "5858F7F88FBF2A530286BDD1EDF67C1FCFBB6907AA1ADC0E5C1E94E883EAC4F3"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "8A6A8713AE755D6DA3EB2263F36CE5A65EAF5E7CE4B6602D4A072BEDCE634F31",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "C0CDF45C617EEDCAD666A45F4C4F9C04699AE13B145000E001E9900D917CA4DB"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "FB1C4456E98E000B18551694987E2ACA636E3BC2280920D1C17D046E156E35E9",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B3EC558A46538A9A680AF386A84D7AD6F491F36E397E4014A5691BDD989B9C1F"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "E66E8EE03081FE3951A4E683DBF5AF1D7A8AB4E06BCD7008F393B142AA79CF4B",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "4E3B1D7577C7D52122CCC60D110AEF7CFAB7DC6E922A56BB0EC2331CC39C9425"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "9CA8254EDA9B838DAFD3F701C854C5BC6AAD4F098516AEF25021111DDBF0D7DD",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "68F52F89DF9F2CCE673AEC651F084C144AB1C4ECFA41F314D7E908F2DB11B81C"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "77D5390ADDF3985860D61B6AD7468FDFDBBB403B1EFC0E74F303299FC46C9BCD",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "9F2026B7C9CD31468DDEFEDB645C8646A92A8BD59C63BE80A5DC9AE4B9006CBC"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "E27AFAFC27E153D3E9BB1C3D6316962CAE1DA96678884ED1738A53ED7839A5B8",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "600488DA39A8B5F2DBDBB370451B2CF2891F9509F9B44EC422153ED4ED54A50C"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

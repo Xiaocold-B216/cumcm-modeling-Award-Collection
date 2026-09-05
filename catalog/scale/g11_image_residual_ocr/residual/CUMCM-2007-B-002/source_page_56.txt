@@ -1,0 +1,43 @@
+回 成 革 动 国
+ME 用
+;这 2
+ER
+// 构造 同一 路 线 分 成 的 两 个 路 线 ， 并 把 它们 存 入 容器 中
+LoadMessage currLoad up; // 当前 路 线 的 上 行路 线
+LoadMessage currLoad_down; // 当前 路 线 的 下 行路 线
+currLoad_up. nLineName = StrTolnt ( string(strBusLine, 1, 3) );
+currLoad up. strPrice = strPrice;
+currLoad_up. bRoundLoad = IsRoundWay;
+currLoad_down. nLineName = currLoad _up. nLineName + 520;
+currLoad_down. strPrice = strPrice;
+currLoad_down. bRoundLoad = IsRoundWay;
+o
+]/ 环形 路 全 “ 伏 >
+if ( IsRoundWay ) \)
+2
+RoundRoadCal (strRoundLoad, currLoad up. nLineName， 国志
+currLoad up. LineInfo, currLoad down.Li ) ;
+| 各
+// 非 环形 路 的 二 行路 DA
+if (strUpLoad != "")
+{
+BusRoadCal (strUpLoad, ( currLoad_up. nLineName, AllBuses,
+currLoad up.LineInfo) ; Ve, |
+A
+// 非 环形 路 的 下 各 路 过
+if (strDownLoad q
+1 一 )
+BusR trDownLoad, currLoad_down. nLineName, AllBuses,
+currLoad_downgLinelnfo) ;
+7
+e /is TRI )
+Ye-
+1 // ReverseRoadCal (strUpLoad, currLoad_down. nLineName, AllBuses,
+oh on LineInfo) ;
+}
+AllLines[currLoad up.nLineName-1]  = currLoad up;
+AllLines[currLoad down.nLineName-1] = currLoad down;
+】
+}
+// 将 地 铁 线路 信息 及 地 铁 站 点 信息 存 入 数组 中 。
+56

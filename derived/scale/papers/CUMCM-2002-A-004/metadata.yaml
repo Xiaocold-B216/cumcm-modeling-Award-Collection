@@ -1,0 +1,47 @@
+paper_id: CUMCM-2002-A-004
+year: 2002
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计(1).pdf
+  sha256: 08F6F1C51837E3D9C12D40DD967F15B2C2148E1C1312C08AF6701A52AF748CFD
+authority_sha256: 08F6F1C51837E3D9C12D40DD967F15B2C2148E1C1312C08AF6701A52AF748CFD
+paper_file_memberships:
+- path: 2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计(1).pdf
+  role: primary
+  canonical: true
+primary_file: 2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计(1).pdf
+extraction_inputs:
+- path: 2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计(1).pdf
+  sha256: 08F6F1C51837E3D9C12D40DD967F15B2C2148E1C1312C08AF6701A52AF748CFD
+  kind: original
+extraction_input_sha256: 08F6F1C51837E3D9C12D40DD967F15B2C2148E1C1312C08AF6701A52AF748CFD
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 5
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2002-A-004/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2002-A-004/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2002-A-004/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2002-A-004/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2002-A-004/source_page_5.txt"]
+  source_sha256: 08F6F1C51837E3D9C12D40DD967F15B2C2148E1C1312C08AF6701A52AF748CFD
+  current_body_sha256: C5E68E792BD8B3FE9044861B473563732D50AC88C2B1215031A9694797AC5DE1
+  candidate_body_sha256: 07BB406C148789FD15E3F801826A313BFDC4DB3D65237A86C70791D6CA6D2158
+  source_page_count: 5
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

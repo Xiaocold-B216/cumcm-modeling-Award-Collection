@@ -1,0 +1,45 @@
+附录 2 Python 代码
+将 据 预 处 理 代码
+import numpy as np
+import pandas as pd
+impars math
+datacpd.Dotarrame(pd. read_excel(*Hff1 近 5 年 482 家 供应 商 的 相 减 据 .xlax'  sheet_nane-0))
+datalrpd.DataFrane(pd-read_excel( ' 刚 件 1 近 5 年 492 肖 供应 商 的 相关 多 -xlsX'，sheet_nane<1) )
+data_a = dataloc[data[ "材料 分 类 "] -= "A'] .reset_index(drop=True)
+data_b 。 data_loc[dataf ,材料 分 类 '] “。'B'] .reset_indexfdropeTrue)
+data_e = data .loc[dataf ,材料 分 类 '] “= 'C'].reset_index(drop-True)
+datai_a 。datal .loc[data[ ,村 料 分 类 '] -= 'A'] reset_indexfdrop-True)
+datal_b = datal.loc[data[ ' 诗 料 分 类 "] == '8').reset_index(dropirue)
+datal_c « datal.loc[data[ ' 材 料 分 类 "] "5C"] ,reset_index(drop=True)
+data_a.to_excel ('1 fA.x1ex')
+datab.co_excel(1158.xlsx')
+data_c.to_excel ('i C.x1ex')
+atal_a ta_excell' 供 估 Axlsx')
+daral_b ta_excel(' 供 入 Basx'
+datal_e ta_excel( ', 供 贷 Csx')
+om_actdaral_a -= 0).astype(int).sun(axised)
+num_be(datal_b -< 0).astype(int).sun(axis 1)
+om ctdatal_e -= ).astype(int). sun(axis.1)
+om_a « (240np.array(nun_a)) .tolist()
+nunb  (2ad:partay(hn_0)).<o1155()
+num_c + (240-np.array(nun_c)). tol ist()
+total_a.datal_a.sum(axiss1).to_list()
+total_b-datal_b.sum(axis=1).to_list()
+oral-ccdatal_c sum(axts1) .to list0)
+.4 平 约 人 人 和
+as[]
+b=[]
+ce[]
+for i in range(len(total_a))
+a.append(total a[3]/mum_aft])
+for 4 in range(len(total b))
+append(total_b[i]/mum_b[i])
+for i in range(len(total c))
+cappend(total_c[i]Vnum_c[i])
+data_a = pd.atarrane (pd.read_excel (‘A.xlex", sheet_nane-1))
+datab - pd.Datarrane(pd.read_excel("6.xlax", sheet_nane-1))
+datac = pd.Datarrane(pd.read_excel (‘C.xlex", sheet_nane-1))
+a:np.array(data_a)
+a:p.delete(a, [¢,1], axis-1)
+benp.array(data_b)
+benp.delete(d, [¢,1], axts-1)

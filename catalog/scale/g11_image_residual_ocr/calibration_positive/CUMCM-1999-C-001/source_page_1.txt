@@ -1,0 +1,39 @@
+Big
+和 -让
+人 局 、| 、 和
+第 30 卷 第 1 其 数学 的 实践 与 认识 Vol30 NO 加”
+2000 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan 2000 7
+The Calculation of the M in imum
+Expense for Piling up Gangue
+ZHON G Xiao-yong, DUAN Guo-hui, MA Yu-dong
+(Beijing Institute of Civil Engineering and A rchitecture, Beijing 0MR》
+一
+一 SS
+Abstract Themain purpose of this article is to draw up a reasonable，annu nsiains
+program forpiling up the gangue in the original colliery，and to “une imum expense
+Since there is need to consider several factors such as deposit and loan, rii s of land,
+output of gangue, and the charge for electricity, a huge calculatio kh fld be takenw hich is in-
+possible to accomplish by hand in a short tme Therefore, we are 即 Senake useof comput-
+er to solve the complicated problem by setting up differe at mathemtial models
+A't the end of this article with a resonable sound, sh to theminimnum expense is ob-
+tained from the varied values betw een the tapping ra ee SS e and the natural angle of the
+pile The factorof (Land Law ), which are not invovad 和 the original problem, is also dis-
+cussed in this article
+O 〇
+给 。
+. HL
+1 堆积 模型
+_ AD 陈 ， 伟 ， 孙 东 杰
+已 马 节 于， 人
+1 1 和 指导 教师 : ” 储 理 才
+2 集美 大 学 ， 厦 站
+, ( 学 ， 厦 门 361021)
+\ IND.....censmmmmmsnrss. 并 就 不 同 的 征地 方式 和 煤 古 石 堆 数 进行
+W, 本 小 析 讨论, 得 出 了 合理 的 结论 作者 将 严格 的 数学 论证 与 科学 计算 很 好 地 结合 起 来 , 其 方法 具有 普 凯 性 , 比
+入 二 J 地 过 建立 微分 方程 来 求 得 运 古 车 的 机 械 效率 ; 通过 引进 一 些 重要 参数 来 比较 取 不 同 的 征地 方式 和 堆 数 所
+得 到 的 结论 ; 最 后 还 对 不 同 的 出 奈 率 所 需 的 最 低 费 用 作 了 预测 , 并 结合 实际 对 模型 作出 了 较 客观 的 评价
+摘要 : 。 本文 就 煤矿 堆积 煤 硅 石 费用 问题 建立 数学 模型 , 就 不 同 的 征地 方式 ( 建 矿 初期 一 次 性 征 完 20 年 所
+需 用 地 和 分 批 征地 方式 ) 和 煤 古 石 堆 数 进行 了 分 析 讨 论 , 得 出 结论 : 在 建 矿 初期 一 次 性 征 完 所 需 用 地 , 且 所 有
+煤 古 石 全 堆 成 一 堆 的 方案 是 最 优 的 , 并 就 不 同 的 出 不 率 计算 出 该 最 优 方案 的 总 费用 , 最 后 给 出 对 不 同 的 出 不
+率 处 理 奈 石 的 最 低 年 度 平均 费用 公式
+了?

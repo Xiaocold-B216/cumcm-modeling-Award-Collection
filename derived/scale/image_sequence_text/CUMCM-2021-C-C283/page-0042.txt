@@ -1,0 +1,86 @@
+本
+
+众 货 量 〔a?) ")
+
+入
+
+胃 Re naapis aa 二 而
+
+到
+
+b
+
+人
+
+cdreetog
+
+ee
+
+Le
+
+mm。
+
+i
+
+这 tao
+
+也
+
+v Rosagas
+
+in
+
+8。 xseae sppendtnp cesattatattl poatton)) “5
+
+ir r
+
+人 ea AN
+
+ii
+
+1 \ 穆 大
+
+121 # 第 五 个 模 决 一 一 供 货 玻 动 性
+
+122 间 目 标 ; 给 出 一 个 数列 ， 人
+
+123 daport pandas aa pd .
+
+ihes  mie rAR =)
+
+|
+
+人
+
+127 on 和 件 1 近 5 年 402 家 供应 商 约 祖 关 数据 .xlsx",sheet-naze= "企业 的 订 委 人
+
+as oN pread_ezcel(" 附 件 1 过 5 年 402 家 供应 商 从 相关 数据 ,xlsx* ,aheet-naaew' 供 应 商 的 全
+#RE (20) D
+
+5
+
+党 aaaiaaaaaaaig
+
+0
+
+二
+
+ee
+
+135 datadata.fillna(0)# 这 几 沙 是 为 了 排除 款 产 生 的 订单
+
+ee
+
+es
+
+d
+
+139 result=(])
+
+的
+
+这 we
+
+相
+
+143 result ,append(np.std(data[i] [Position] ,ddof = 1)/np.zean(data[1][position]))

@@ -1,0 +1,80 @@
+--------------------------时间偏好维度---------------------------------------创建截取时间的临时表
+if object_id('tempdb..#cut_time') is not null
+Begin
+drop table #cut_time
+End
+select CONVERT(char(10),dtime,120) as cut_time,* into #cut_time
+from vtime_mall_vip_sale_detail tmvsd
+;
+--2015 冬
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+
+流
+
+from #cut_time ct
+where ct.cut_time between '2015-01-01' and '2015-02-28';
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+where ct.cut_time between '2015-03-01' and '2015-05-31';
+--2015 夏
+
+研
+
+from #cut_time ct
+
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+
+：
+科
+
+from #cut_time ct
+
+where ct.cut_time between '2015-06-01' and '2015-08-31';
+--2015 秋
+
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+from #cut_time ct
+
+号
+
+where ct.cut_time between '2015-09-01' and '2015-11-30';
+--2016 冬
+
+众
+
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+from #cut_time ct
+
+公
+
+where ct.cut_time between '2015-12-01' and '2016-02-29';
+--2016 春
+
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+
+信
+
+from #cut_time ct
+
+where ct.cut_time between '2016-03-01' and '2016-05-31';
+
+微
+
+--2016 夏
+
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+from #cut_time ct
+where ct.cut_time between '2016-06-01' and '2016-08-31';
+--2016 秋
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+from #cut_time ct
+where ct.cut_time between '2016-09-01' and '2016-11-30';
+--2017 冬
+select COUNT(distinct vi_kh) as 人数,COUNT(vi_kh) as 次数
+from #cut_time ct
+23
+
+交
+
+--2015 春
+
+

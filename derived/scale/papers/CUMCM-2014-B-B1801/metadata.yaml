@@ -1,0 +1,36 @@
+paper_id: CUMCM-2014-B-B1801
+year: 2014
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q2
+authority_sources:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌 (4)/B18013004_邓敏娜_宁凯_董婷婷.pdf
+  sha256: 60C5C17610AB269DADFB43510F940289499DD1217D33CAB156F16A24A108D6FF
+authority_sha256: 60C5C17610AB269DADFB43510F940289499DD1217D33CAB156F16A24A108D6FF
+paper_file_memberships:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌 (4)/B18013004_邓敏娜_宁凯_董婷婷.pdf
+  role: primary
+  canonical: true
+primary_file: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌 (4)/B18013004_邓敏娜_宁凯_董婷婷.pdf
+extraction_inputs:
+- path: derived/scale/pdf_ocr/CUMCM-2014-B-B1801.readable.pdf
+  sha256: 1D2385B8BB0DEAEF155B444C378925F23756EA48100EE754CA125BBCB1D673EE
+  kind: g8_q2_ocr_derivative
+extraction_input_sha256: 1D2385B8BB0DEAEF155B444C378925F23756EA48100EE754CA125BBCB1D673EE
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: poppler-pdftotext
+page_count: 26
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+repair_provenance:
+  stage: G8-RM-Q2
+  source_sha256: 60C5C17610AB269DADFB43510F940289499DD1217D33CAB156F16A24A108D6FF
+  derived_sha256: 1D2385B8BB0DEAEF155B444C378925F23756EA48100EE754CA125BBCB1D673EE
+  derivative_file_path: derived/scale/pdf_ocr/CUMCM-2014-B-B1801.readable.pdf
+  source: existing local frozen derivative; no OCR rerun

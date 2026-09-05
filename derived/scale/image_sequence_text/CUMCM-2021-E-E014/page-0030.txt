@@ -1,0 +1,41 @@
+5
+s2. plot(centen(s,1),conteri,2, ii
+53. tae( msREAR);
+=
+ss.
+Se
+acialear
+2. leea(pca pme ， 2)
+3 ppoint = Pi
+站
+s
+5. count = 100; % 定义 光谱 最 大 循环 次 数
+mw- 。 sizetppoinb;
+8. center = ppoint(1:k,:); % 令 光 谱 前 k 个 点 为 初始 中 心 >
+5. uistance_square = zeros(i03
+10. white comt-ro
+站
+四 distance_square(:,1) = sant(ppoint ~ repmat(center(i, ),M,1)).2,2);
+13. strl = ['Center’,num2str(1), =[1;"];
+1e awe(str;.
+RE
+四
+到
+15- anposition = findtdistance_square(i:)-=nintdistance_squarei )));
+19 strl = 【'Center ,num2str(minposition)];
+20. eval([str1,"=[",strl, ";ppoint(i,:)];" );
+ea
+a.
+站
+亲 erl -Center numastr(G]i
+由 valK['center Wew( conumastrG)， 5 = mean( ystrl 0
+5
+>
+santtcenter es -centen 2) -= ©
+四 break
+bo.  ese
+站 canter= ae
+ea
+四
+本
+»

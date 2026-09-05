@@ -1,0 +1,41 @@
+g=9.8;%ÖØÁ¦¼ÓËÙ¶È
+V=pi*1^2*h;%³ÔË®Ìå»ý
+Ffeng=0.625*S*v^2;%·çÁ¦
+Ffu=rou*g*V;%¸¡Á¦
+Gfu=m*g;%¸¡±êÖØÁ¦
+if Ffu-Gfu<0
+continue;
+end
+alpha(1)=atan(Ffeng/(Ffu-Gfu));
+Ft(1)=sqrt(Ffeng^2+(Ffu-Gfu)^2);
+%¸Ö¹Ü²¿·Ö
+Vg=1*pi*0.025^2;%¸Ö¹ÜÌå»ý
+Ggang=10*g;%¸Ö¹ÜÖØÁ¦
+Fgfu=rou*g*Vg;
+for i=1:4
+alpha(i+1)=atan((Ft(i)*sin(alpha(i)))/(Ft(i)*cos(alpha(i))+Fgfu-Ggang));
+Ft(i+1)=Ft(i)*sin(alpha(i))/sin(alpha(i+1));
+thita1(i)=atan(Ft(i)*sin(alpha(i))*1/((Fgfu-Ggang)*1/2+Ft(i)*cos(alpha(i)))
+);
+end
+%¸ÖÍ°²¿·Ö
+Vt=1*pi*0.15^2;%¸ÖÍ°Ìå»ý
+Vq=mq/7800;%ÖØÎïÇòÌå»ý
+Gt=100*g;%¸ÖÍ°²¿·ÖÖØÁ¦
+Gq=mq*g;%ÖØÎïÇòÖØÁ¦
+Ftfu=rou*g*Vt;%¸ÖÍ°¸¡Á¦
+Fqfu=rou*g*Vq;%ÖØÁ¦Çò¸¡Á¦
+gama(1)=atan(Ft(5)*sin(alpha(5))/(Ftfu+Ft(5)*cos(alpha(5))-Gt-Gq+Fqfu));
+Ft2(1)=Ft(5)*sin(alpha(5))/sin(gama(1));
+beta=atan(Ft(5)*sin(alpha(5))*1/((Ftfu-Gt)*1/2+Ft(5)*cos(alpha(5))*1));
+
+%ÃªÁ´²¿·Ö
+mm=0.735;%ÃªÁ´ÖÊÁ¿
+roum=6450;%ÃªÁ´ÃÜ¶È
+Vm=mm/roum;%ÃªÁ´Ìå»ý
+Fmfu=rou*g*Vm;%ÃªÁ´¸¡Á¦
+Gm=mm*g;%ÃªÁ´ÖØÁ¦
+Lm=0.105;%ÃªÁ´³¤¶È
+30
+
+

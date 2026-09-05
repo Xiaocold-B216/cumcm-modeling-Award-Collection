@@ -1,0 +1,77 @@
+if((f2+20000<=W+A)&&(A*N+Z1+Z2+N*(f2+3000)>=F)){
+loop3 = false;
+}
+}
+}while(loop3);//新解结束
+
+研
+
+交
+
+流
+
+df = total(f1)-total(f2); //判断接受新解
+if(df<=0){
+ff = f2;
+T = T-1;
+L = 0;
+loop3 = true;
+}else{
+r = rand.nextDouble();
+System.out.println("r="+r);
+e = Math.exp(-df*20000/T);
+if(r<=e){
+ff = f2;
+T = T-1;
+L = 0;
+loop3 = true;
+}else{
+L++;
+if(L>=ML){
+loop1 = false;
+loop2 = false;
+System.out.println("最有解为："+ff);
+}
+}
+} //接受新解结束
+}while(loop2);
+}while(loop1);
+
+信
+
+}
+
+公
+
+众
+
+号
+
+：
+科
+
+数学中国
+www.madio.net
+//总目标函数
+
+微
+
+public double total(double f){
+double value = 0.0;
+
+value
+mubiao1(f)/6+mubiao2(f)/6+mubiao3(f)/6+mubiao4(f)/4+mubiao5(f)/4;
+return value;
+}
+public double mubiao1(double f){
+double v = 0.0;
+double tf = (f-min)/(max-min);
+
+//进行极值差转化
+
+v = school(f)/tf;
+37
+
+=
+
+

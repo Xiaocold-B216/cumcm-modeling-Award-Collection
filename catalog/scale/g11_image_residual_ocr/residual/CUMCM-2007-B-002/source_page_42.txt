@@ -1,0 +1,44 @@
+回 成 革 动 国
+后
+0
+BRiE]
+回 共 Sakn
+using namespace std;
+float BusPrice(int nLineName, int nDistance,
+vector<{vector<int> > & FeasibleSolve,
+vector{LoadMessage> & AllLines)
+{
+float nEachCost = 0;
+if ( AllLines[nLineName-1].strPrice ==“ 单 一 票 制 1 元 。”)
+{
+nEachCost = 1; 全
+- 丛 ，
+else // 分 段 票 价 路 段 \
+2/ 一
+{
+if (nDistance <= 20)
+nEachCost = 1;
+else if( nDistance <= 40)
+nEachCost = 2;
+全
+else -
+nEachCost = 3;
+}
+[o]
+return nEachCost; 2 (ee
+}
+// 计算 经 过 各 路 线 的 所 花费 的 辐 问
+vector<vector<float> > Ti SS st_Calculate(
+_— vector<{vector<int> > & FeasibleSolve,
+vector<{LoadMessage> & AllLines
+%)7
+C V
+vect 人 > Respond; // 返回 值
+襄 * i=0; i<FeasibleSolve.size(); ++i) // 遍历 每 一 种 方案
+float fTotalTime = 0; // 总 花 时
+float fTotalCost = 0; // 总 花费
+float fCost A =0;
+float fCost B =0;
+float fCost C =0;
+vector<{float> CurrWay; // 行车 路 线
+42

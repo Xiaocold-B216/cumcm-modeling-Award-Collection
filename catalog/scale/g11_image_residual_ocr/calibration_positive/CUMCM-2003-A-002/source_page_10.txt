@@ -1,0 +1,50 @@
+62 .工程 数学 学 报 第 20 % aa
+
+当 大 家 害怕 得 藏 在 家 里 , 见 到 亲人 朋友 连 握手 都 担心 的 时 候 , 是 因为 我 们 对 传染 病 的 传
+播 途径 不 了 解 , 所 以 念 慌 。
+
+当政 府 说 明 已 采取 了 许多 措施 ,而 大 家 看 到 医院 每 日 收治 病人 仍然 不 断 攀 升 的 时 候 , 是
+因为 我 们 不 了 解 传染 病 的 发 展 规律 ,所 以 丽 慌 。
+
+这 一 切 的 您 慌 ,都 是 因为 我 们 不 了 解 疫情 而 带 来 的 。 而 要 全 面 了 解 、 控 制 疫情 ,除了 相
+关 的 医学 知识 外 ,重要 的 问题 之 一 是 建立 恰当 的 数学 模型 。
+
+如 果 在 疫情 一 开始 ,我 们 对 传染 病 的 常用 数学 模型 有 一 定 的 认识 ,了 解 如 何 确定 一 种 传
+染病 的 危害 程度 , 何 时 进行 控制 ,如 何 用 科学 的 观点 ,详细 的 数据 向 民众 解释 ,我 们 就 不 会 因
+为 盲目 而 恐慌 。
+
+如 果 我 们 了 解 基本 传染 病 传播 规律 以 及 相应 模型 的 决定 因素 ,那么 我 们 关 集 活 直 也 可
+以 通过 控制 这 些 因素 以 有 效 控 制 疾病 ,而 不 必 恐 慌 。 一 上
+
+人 从 -人 不 信人
+
+人 天 在 则 上 搜索 下-SARS 迷人, 我 们 可 以 和 明和 了 各 六 本 的 人
+染病 数学 模型 及 其 改进 的 模型 ,也许 这 些 模型 不 一 定 很 符合 ; SARS 村 播 的 实际 情况 ,也
+许 我 们 对 这 些 模 型 中 的 各 种 深奥 的 公式 与 定理 不 太 了 解 。 IT
+NT 而 更 精确 的 模
+型 ,以 利于 我 们 更 好 地 制定 相应 的 应 急 措施 ,有效 NC 障 系统 等 。
+
+SARS 曾 让 我 们 惊慌 失措 ,也 让 我 们 相信 科学 ,认识 与 了 解 科学 。 拥 有 医学 与 数学 等 科
+学 知识 ,我 们 应 该 有 信心 ,流行 病 并 不 可 怕 。
+
+-~ 一- 一- 一- 一 -一 一 一 “A -e------"-"=-"-"-"-"=-"=-=----
+
+{ 上 接 52 页 )
+
+The Mathenaical Moddling and Analysis of SARS
+下
+) V Yi-feng, TIAN Yi, YANG Qian
+y/) Advisor: SHANG Shou 一 ting
+下 4 (Harbin Institute of Technology, Harbin 150001)
+
+SA
+Abs F (RE paper, two mathematical models for the spreading of SARS before and after the control respec-
+tively were established based on the data displayed on the Internet before June 2003 and the classic SEIR model
+for infectious disease ,in which people are defined into several groups reasonably. Each parameters was solved by
+reasonable estimation, method of curve fitting and method of statistical theory. Then the primary analysis is laid
+on the after 一 control - model, solving the equations by Runge — Kutta method , analyzing the specific situations
+in Peking, Inner Mongolia, Guangdong and Hongkong where the SARS was rampant. Finally, the evaluation
+was made about the rationality and practicability of the models ,suggesting the method for further revising of the
+model.
+
+Keywords: differential equation; Runge — Kutta method; method of curve fitting;statistical theory

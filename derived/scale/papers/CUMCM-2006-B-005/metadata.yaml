@@ -1,0 +1,47 @@
+paper_id: CUMCM-2006-B-005
+year: 2006
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006B：艾滋病疗法的评价以及疗效的预测.pdf
+  sha256: CA2C17F10B0CA102C43A36136553E3A5BBB927A78AD5FD6058AE38C3B2565B3C
+authority_sha256: CA2C17F10B0CA102C43A36136553E3A5BBB927A78AD5FD6058AE38C3B2565B3C
+paper_file_memberships:
+- path: 2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006B：艾滋病疗法的评价以及疗效的预测.pdf
+  role: primary
+  canonical: true
+primary_file: 2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006B：艾滋病疗法的评价以及疗效的预测.pdf
+extraction_inputs:
+- path: 2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006B：艾滋病疗法的评价以及疗效的预测.pdf
+  sha256: CA2C17F10B0CA102C43A36136553E3A5BBB927A78AD5FD6058AE38C3B2565B3C
+  kind: original
+extraction_input_sha256: CA2C17F10B0CA102C43A36136553E3A5BBB927A78AD5FD6058AE38C3B2565B3C
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 10
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2006-B-005/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2006-B-005/source_page_10.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2006-B-005/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2006-B-005/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2006-B-005/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2006-B-005/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2006-B-005/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2006-B-005/source_page_7.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2006-B-005/source_page_8.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2006-B-005/source_page_9.txt"]
+  source_sha256: CA2C17F10B0CA102C43A36136553E3A5BBB927A78AD5FD6058AE38C3B2565B3C
+  current_body_sha256: ADDD1EDFB91E65E2F9D4710FAC316BA51CA7E381CA5FB628B3076AB1187DD8A3
+  candidate_body_sha256: 01D90E5DD845D206B93B50D0A4CA4B9BE84B910AB4087EB0AEC51C6D1E91624C
+  source_page_count: 10
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

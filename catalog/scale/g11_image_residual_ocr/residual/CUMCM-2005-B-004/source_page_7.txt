@@ -1,0 +1,35 @@
+.
+第 ?期 范 浩 等 ，DVD 在 线 租 赁 问题 107
+参考 文献 :
+
+[1] 张 志 涌 . 精通 Matlab 6.5 版 [M]. 北京 :北京 航空 航天 大 学 出 版 社 ，2003
+
+[2] 刘 承 平 . 数学 建 模 方法 [M], 北京 :高 等 教育 出 版 社 ，2002
+
+(3] David Romer. Advanced Macroeconomics (2nd edition)[M]. Columbus, Ohio: McGraw-Hill, 2000
+
+[4] Sheldon M. Ross. Stochastic Processes (2nd Edition)[M]. New York: John Wily & Sons, 1995
+
+[5] 李 贤 平 . 概率 论 基 础 (第 二 版 )IM]. 北京 ， 高 等 教育 出 版 柱 ，1997
+
+Online DVD Rental Business
+FAN Hao, XUE Shi-kun, ZHAN Dong-yuan
+Advisor: Wuhan University Instructor Group
+( Wuhan University, Wuhan 430072 )
+
+Abstract: In this article, we set Up a series of mathematical models for DVD online rental service. We assume
+that customers should submit their orders at the beginning of each month; customers who rent DVDs only once
+a month should give them back at the end of the month, while those who rent DVDs twice a month should
+return them at mid-month and place new orders for the next half month. For Problem 1, by putting forward
+and applying a random simulation model, we discover that the minimum purchasing quantities are in direct
+ratio to the required quantities among all kinds of DVDs. For Problem 2, we convert the priority of customers’
+preference for DVDs into satisfaction matrix, develop a 0-1 programming model for the assignment of DVDs, and
+Work out the exact maximum happiness quotient and corresponding scheme of assignment by Lingo. Moreover,
+we design a greedy algorithm to deal with the problem efficiently and satisfactorily. As to Problem 3, we take
+advantage of the conclusions of the former two problems. We decide an appropriately small number of DVDs
+at first. Then, by using the greedy algorithm to assign DVDs, and by keeping the purchasing quantities in
+proportion to the required quantities among all kinds of DVDs, we increase the purchasing quantities step by
+step until 95% customers can be satisfied within one month. Accordingly, we obtain the minimum purchasing
+quantities. Finally, based on economic theory, we put forward a more realistic method to forecast the demand
+of customers dynamically and determine the corresponding purchasing quantities.
+Keywords: binomial distribution; 0-1 integer programming; greedy algorithm; random simulation

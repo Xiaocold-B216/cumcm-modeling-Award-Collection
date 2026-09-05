@@ -1,0 +1,116 @@
+数
+
+58
+
+学
+
+的
+
+实
+
+践
+
+与
+
+认
+
+识
+
+31 卷
+
+中国大学生在数学建模比赛的锻炼中必将大大提高应用数学的能力, 在二十一世纪的人类
+新科技的发展中做出出色的成绩.
+参考文献:
+[1 ]
+
+子言, 基因: 讲述生命的故事 1 经济日报出版社, 2000 年 7 月 1
+
+[ 2 ] M athem atics: F ron tiers and Persp ectives, AM S. P rovidence, 2000. M. A tiyah 前言.
+[ 3 ]
+
+Peng C. K. Bu ldyvev, S. V. Go ldberger, A. L. H avlin, S. Sx io rtino, F. Sim on so, M. A nd Stan ley, H. E.
+L ong 2range co rrelation in nucleo tide sequences, natu re 356: 168～ 170.
+C laverie J M. Com p u tational m ethod s fo r the iden tification of genes in verteb rate genom ic sequence. hum M o l
+
+流
+
+[ 4 ]
+
+Genet, 1997, 6 (10) : 1735～ 1744.
+
+Green P , L ipm an D , H illier L , W aterston R , States D , C lavierie JM. A ncien t con served reg ion s in new gene
+sequences and the p ro tein databases. Science, 1993, 259: 1711～ 1716.
+
+[ 6 ]
+
+K royh A , M ian I S, H an ssler D. A h idden M arkov m odel that find s genes in E. co li DNA , N ucleic A cid s R es,
+1994, 22 (22) : 4768～ 4778.
+
+Gelfand M S, Roytberg M A. P red iction of the exon 2in tron structu re by a dynam ic p rog ramm ing app roach.
+
+研
+
+[7 ]
+
+B io system s, 1993, 30 (1～ 3) : 173～ 182.
+[ 8 ]
+
+交
+
+[ 5 ]
+
+T iw avi S. R am achand ran S, Bhattacharga A , Bhattacgarga S, R am asw am y R. P red iction of p robab le genes by
+
+：
+科
+
+Fou rier analysis of genom ic sequences. com p u t A pp l B io sci, 1997, 13 (3) : 263～ 270.
+[9 ]
+
+F ickett JM , T ung C S. A ssessm en t of p ro tein cod ing m easu res. N ucleic A cid s R es, 1992, 20 (24) : 6441～ 6450.
+
+[ 10 ]
+
+Gu igo R , Knud sen S, D rake N , Sm ith T. P red iction of gene structu re. J M o l B io l, 1992, 226 (1) : 141～ 157.
+
+[ 11 ] Dong S, Searls D B. Gene structu re p red iction by lingu istic m ethod s. Genom ics, 23 (3) : 540～ 551.
+[ 12 ]
+
+Salzberg S. L ocating p ro tein cod ing reg ion s in hum an DNA u sing a decision tree algo rithm. J Com p u t B io l, 2 (3) :
+473～ 485.
+
+[ 14 ]
+
+贺林主编. 解码生命——人类基因组计划和后基因组计划 1 科学出版社, 2000 年.
+
+号
+
+[ 13 ]
+
+ZHAN G Chun 2T ing, L IN Zhe2suai, YNA M ing, ZHAN G R en. A N ovel A pp roach to D istingu ish Betw een
+
+公
+众
+
+In tron 2con tain ing and In tron less Genes Based on Fo rm at of Z Cu rves. J theo r B io l, 1998, 192: 467～ 473.
+
+信
+
+The Structure of D NA Sequence and Sim ple M odel
+M EN G D a 2zh i
+
+微
+
+(D ep a rtm en t of A pp lied M a them a tics, B eijing Po lytechn ic U n iversity, B eijing
+
+Abstract:
+
+100022)
+
+In th is a rticle the scien tific resea rch backg round of the p rob lem A in the CUM CM 2
+
+2000 a s w ell a s its in ten tion and concep tion a re sim p ly sta ted. M o reover, som e excellen t
+m ethod s p ropo sed by the studen ts p a rticip a ting in the con test fo r the an sw er to th is p rob lem a re
+in troduced and review ed.
+
+

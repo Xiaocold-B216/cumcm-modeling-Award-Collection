@@ -1,0 +1,84 @@
+第 30 卷第 1 期
+数学的实践与认识
+V o l130 N o 11
+2000 年 1 月
+J an. 2000
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+B y u sing the a lgo rithm m en tioned above, the function ha s been so lved fa irly and the op ti2
+m um so lu tion ha s been go t. In th is p ap er tw o study ca ses a re described. Fo r ca se 1, the in ter2
+va ls of rep lacing and check ing a re 369 and 18 resp ectively, the lo ss of un it qua lified p a rt is
+41615 Yuan and it w ill be dow n to 41405 Yuan if the unequa l in terva l is adop ted. Fo r ca se 2,
+under com p lica ted cond ition s, the in terva ls of rep lacing and theck ing a re 306 and 28 resp ective2
+ly, the lo ss of un it qua lified p a rt is 91268 Yuan and it w ill change to 91047 Yuan w hen u sing
+unequa l in terva l. T hese resu lts p rovide a m o re advan tage p roof fo r the im p roved m odel u sing
+
+交
+
+自 动 化 车 床 管 理
+
+流
+
+the unequa l in terva l check ing m ethod.
+
+研
+
+于 杰, 蒋爱民, 李荣冰
+指导教师: 倪 勤
+
+编者按:
+
+本文思路清晰, 叙述简洁扼要, 在处理 5% 其他故障方面有独到之处. 但问题二的分析和结果有
+
+不足和错误.
+
+摘要:
+
+210016)
+
+：
+科
+
+( 南京航空航天大学, 南京
+
+本文讨论了系统的最优维修策略问题, 考虑到题目中所涉及的变量大多为随机变量, 我们建立了单
+
+号
+
+目标的期望值模型. 并利用计算机采用穷举搜索法求解得第一种情况最优解为每生产 18 个零件检查 1 次,
+当检查到 20 次时更换刀具, 这时生产单个零件的最低平均费用为 4162 元.
+最后, 我们指出了模型中一些未考虑的因素, 分析了这些因素可能对模型产生的影响, 并提出了模型的
+
+公
+众
+
+改进方案.
+
+1
+
+问题的提出 ( 略)
+
+2
+
+基本假设
+
+信
+
+( 1) 假定生产任一零件出现故障机会均等, 且相互独立
+( 2) 发现故障时无法区分刀具故障和其它故障
+
+微
+
+( 3) 其它故障服从几何分布
+( 4) 每次只检查 1 个零件
+( 5) 零件检查时间很小, 可忽略不计
+( 6) 检查间隔是相等的
+( 7) 假设随机变量 X 1、X 2 是相互独立的, X 1、X 2 的含义见符号说明
+
+3
+
+符号说明
+n: 每生产 n 个零件检查一次
+m : 检查第 m 次时更换新的刀具
+T : 定期更换刀具时已生产的产品的总数即刀具更换周期 T = n ·m
+
+

@@ -1,0 +1,128 @@
+// 构造同一路线分成的两个路线，并把它们存入容器中
+LoadMessage
+
+currLoad_up;
+
+// 当前路线的上行路线
+
+LoadMessage
+
+currLoad_down;
+
+// 当前路线的下行路线
+
+currLoad_up.nLineName
+
+= StrToInt( string(strBusLine, 1, 3) );
+
+currLoad_up.strPrice
+
+= strPrice;
+
+currLoad_up.bRoundLoad
+
+= IsRoundWay;
+
+currLoad_down.nLineName
+
+= currLoad_up.nLineName + 520;
+
+currLoad_down.strPrice
+
+= strPrice;
+
+流
+
+currLoad_down.bRoundLoad = IsRoundWay;
+// 环形路
+
+交
+
+{
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+if ( IsRoundWay )
+
+RoundRoadCal(strRoundLoad, currLoad_up.nLineName, AllBuses,
+
+// 非环形路的上行路
+
+if (strUpLoad != "")
+{
+
+：
+科
+
+}
+
+研
+
+ww
+
+currLoad_up.LineInfo, currLoad_down.LineInfo);
+
+BusRoadCal(strUpLoad,
+currLoad_up.LineInfo);
+
+AllBuses,
+
+currLoad_down.nLineName,
+
+AllBuses,
+
+currLoad_down.nLineName,
+
+AllBuses,
+
+号
+
+}
+
+currLoad_up.nLineName,
+
+众
+
+// 非环形路的下行路
+
+if (strDownLoad != "")
+
+公
+
+{
+
+BusRoadCal(strDownLoad,
+
+currLoad_down.LineInfo);
+
+信
+
+}
+
+else if( !IsRoundWay )
+
+微
+
+{
+
+ReverseRoadCal(strUpLoad,
+
+currLoad_down.LineInfo);
+}
+AllLines[currLoad_up.nLineName-1]
+
+= currLoad_up;
+
+AllLines[currLoad_down.nLineName-1] = currLoad_down;
+}
+}
+// 将地铁线路信息及地铁站点信息存入数组中。
+
+56
+
+

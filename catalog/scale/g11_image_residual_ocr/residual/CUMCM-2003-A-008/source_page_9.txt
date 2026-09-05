@@ -1,0 +1,57 @@
+直人
+28 工程 数学 学报 第 20 卷 —
+性 (Preferential Connectivity) ,也 就 是 说 ,实际 中 每 个 节点 的 度 并 不 都 是 相同 的 ,而 是 存在 一
+些 关 键 节点 ,和 它们 相连 的 节点 数 比 其 他 节点 多 。 可 以 对 这 些 关键 节点 进行 研究 ,比如 ,这
+些 关 键 节点 如 果 患 病 或 者 接种 疫苗 会 对 结果 产生 什么 影响 ;
+
+(2) 在 运用 SWN 模型 时 ,对 于 和 一 个 节点 相连 的 2K 个 节点 ,到 该 节点 的 路 径 权 值 应
+该 是 不 相同 的 , 即 和 某 成 员 有 联系 的 2K 个 成 员 有 亲密 朴 远 的 差别 ,他 们 被 传染 上 SARS 的
+概率 是 不 同 的 。 我 们 可 以 使 节点 与 其 原 邻 居 节 点 之 间 的 路 径 权 值 取 do ,与 非 原 邻居 节点 之
+间 的 路 径 权 值 取 凡 ,自然 的 ,2o> 凡 ;
+参考 文献 :
+
+一
+[1] Wartts, D.J. and Strogatz，S.H，Collective dynamics of "small-world” networks(]] Ra
+
+440-442 全 一 \)
+
+[2] Dietrich Stauffer. Sociophysics: the Sznajd model and its applications[]]. Hare Communica-
+
+tions 146(2002) . 93-98 人
+[3] G. Ch. Sirakoulis. I. Karafyllidis. A. Thanailakis. A cellular AR for the effects of popula-
+
+tion movement and vaccination on epidemic propagation[J] Ecolog cal fodeling, 133(2000), 209-223
+[4] 唐 焕 文 贺 明峰 ,数学 模型 引 论 ( 第 二 版 )[M], 北京 : 和 这 和 2001
+[5] 姜 启 源 数学 模型 (第 二 版 )[M]j , 北京 :高 等 教育 出 版 beg93
+[6] Jan Medlock, Mark Kot, Spreading disease: integro-differe equations old and new[]], Mathematical
+
+Biosciences, 184(2003), 201-222 @
+
+[7] Eco sn 和 on [EB/OL]
+[8] Francesc Comellas. Michael Sampels: Deget ninistic small-world networks[]], Physica A 309(2002),
+
+231-235 2002 4 )
+
+[9] Barrat and Weigr, On  pi of small-world network models[J], Europhysics Journal B, 13
+
+(2000), 547-560. 全
+[10] L. A. N. Amaral"A:Scalas M，Barthe le'my, and H. E. Stanley Classes of small-world networks
+
+[1]. PNAS, -Y RE21(2000) 11149-11152
+[11] M. E. §7 Newm Ys J. Watts, Scaling and percolation in the small-world network model[J].
+
+ron E gacom. 7332-7342
+[12]_ Tangtba M. Read.Matt ]，Keeling，Disease evolution on networks: the role of contact structure[J]，
+
+1 Soc. Lond. B, 270(2003), 699-708
+119 Woo T. Britton, Epidemics: Stochastic models and their statistical analysis[]], Springer Lec-
+ture Notes in Statistics, Vol. 151(2000), Springer, New York
+[14] Damian H. Zanette * . Marcelo Kuperman, Effects of immunization in small-world epidemics[J] Physi-
+
+ca A 309(2002) , 445-452
+[15] Octavio Miramontes. Bartolo Luque. Dynamical small-world behavior in an epidemical model of mobile in-
+
+dividuals(]], Physica D, 168-169(2002) : 379-385
+[16] Romualdo Pastor-Satorras and Alessandro Vespignani, Epidemic Spreading in Scale-Free Networks[]].
+
+Physical Review E, 86(2001), 3200-3203 (下 转 44 页 )

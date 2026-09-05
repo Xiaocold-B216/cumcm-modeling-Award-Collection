@@ -1,0 +1,45 @@
+回味
+多 二 是
+aa(jj,4)=TT4(i);
+aa(jj,1)=(aa(jj,4)+1)/2;
+aa(jj,5)=TT5(i)2;
+aa(jj,6)=VTT2(ii);
+aa(jj,7)=aa(jj,6)+T(5)+T(7-mod(aa(jj,5),2));
+break;
+end
+end
+end
+aa(m+1:m+3,4)=TT4";
+aa(m+1:m+3,2)=VTTI;
+for i=m+1 :m+3 #7
+aa(i,3)=VTT1(i-m)+T(4)+T(7-mod(aa(i,4),2)); 了 NY
+aa(i,1)=(aa(i,4)+1)/2; N 由
+end 2XG
+[m,n]=size(aa);
+for i=l:m
+if abs(aa(i,7)-aa(GZN,6))<100 As
+aa(GZN,5:7)=aa(i,5:7); 人
+本 六 人
+end
+end
+else O
+clear T1 T2 TZ2 TZ1 TT4 A VTT2
+[m,n]=size(aa);
+for i=1:8
+for j=1:m
+if i==aa(j 司 “
+一 IZ2G]Jaa0,7)
+e]
+六
+"K2
+C
+| 1/ forj=1:8
+SA， if j==aa(i,4)
+%aa(i,3)=aa(i,2)+T(6)+T(4);
+TZ1(j,1)=aa(i,3);
+end
+end
+end
+TI=TZI(find(TZ1~=0));
+T2=TZ2(find(TZ2~=0));
+72

@@ -1,0 +1,31 @@
+paper_id: CUMCM-2014-A-A1116
+year: 2014
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (3)/A11168020_郑建国_陶禹诺_严洒洒.pdf
+  sha256: 7DF17E7B53C5630B641E598DD57FBB6FF497553836E4F54DFD50DCD3F94E30B8
+authority_sha256: 7DF17E7B53C5630B641E598DD57FBB6FF497553836E4F54DFD50DCD3F94E30B8
+paper_file_memberships:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (3)/A11168020_郑建国_陶禹诺_严洒洒.pdf
+  role: primary
+  canonical: true
+primary_file: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (3)/A11168020_郑建国_陶禹诺_严洒洒.pdf
+extraction_inputs:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014A：嫦娥三号软着陆轨道设计与控制策略 (3)/A11168020_郑建国_陶禹诺_严洒洒.pdf
+  sha256: 7DF17E7B53C5630B641E598DD57FBB6FF497553836E4F54DFD50DCD3F94E30B8
+  kind: original
+extraction_input_sha256: 7DF17E7B53C5630B641E598DD57FBB6FF497553836E4F54DFD50DCD3F94E30B8
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 39
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

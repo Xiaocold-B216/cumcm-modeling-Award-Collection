@@ -1,0 +1,87 @@
+工
+
+28
+
+6
+
+程
+
+数
+
+学
+
+学
+
+报
+
+第 19 卷
+
+模型的推广
+
+如果考虑中轴线与切片的交点不止一个 ,比如有两个交点 ,仍然可以利用我们的离散模型
+去求解 ,因为不含轴心的切片中一定不含有最大圆 。
+我们对于离散问题讨论较多 ,但对于轴心坐标及半径是实数的情况 ,没有过多的涉及 。问
+题本身是连续的 ,用离散方法去模拟 ,不可避免地会出现误差 。如果知道象素圆的生成算法 ,
+我们就可以运用本模型的思想 ,将模型推广到实数领域 ,从而使模型的精度提高 。
+
+管伟光 . 体视化技术及其应用 [ M ] . 北京 : 电子工业出版社 ,1998
+
+[2]
+
+孙家广 ,扬长贵 . 计算机图形学 [ M ] . 北京 : 清华大学出版社 ,1995
+
+[3]
+
+Kennet h. R. Castleman. 数字图象处理 [ M ] . 北京 : 电子工业出版社 ,1981
+
+交
+
+[1]
+
+流
+
+参考文献 :
+
+L IAO Wu2peng ,
+
+DEN G J un2ye ,
+
+WAN G Dan
+
+Mat hematical Modeling Tutor Group
+
+：
+科
+
+Advisor :
+
+研
+
+3D Reconstruction of Pipel ine Sl ice
+
+( Hohai University , Nanjing 210098 )
+Abstract : This article proves t hat t here exists t he biggest circle on each slice , whose center is on t he pipeline center curve. By con2
+structing t he continuous model and t he discrete one , we are able to determine t he biggest circle on 0. bmp slice , of which radius is
+30 and center coordinate is (0 ,160) . Using t he predetermined condition t hat t he biggest circle should be contained in each slice , we
+
+号
+
+find out all possible coordinates of t he pipeline center curve on corresponding slices. For each slice , basing on t he principle t hat a
+slice which lies on over 29～under 29 layers of t he slice must contain a corresponding section of t he sphere of radius 30 , we filtrate
+t he coordinates of t he pipeline center curve and determine t he more precise one. However , t here are still some coordinates of t he
+
+公
+众
+
+pipeline center curve left to be filtrated , such as slices from 71 to 99 , due to t he information is not enough. Furt her , we use t he
+pointed end property to determine t he coordinates of t he pipeline center curve on ot her slices. The projecting figures on each coordi2
+nate plane are smoot h and fluent . In t he end , by using t he coordinates to reconstruct all t he slices and comparing t he slices wit h t he
+original ones , we found t hat t he error of different pixels is less t han 3 %. The result is satisfied.
+
+微
+
+信
+
+Key words : continuous model ; discrete model ; pointed end property
+
+

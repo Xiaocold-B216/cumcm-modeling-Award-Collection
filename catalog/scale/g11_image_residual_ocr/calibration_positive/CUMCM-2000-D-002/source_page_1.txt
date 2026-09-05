@@ -1,0 +1,40 @@
+回 虽 过
+人
+. " o pi
+第 31 孝 第 1 期 数学 的 实践 与 认识 vol , BEREE
+2001 年 ! 月 MATHEMATICS N PRACTICE AND THEORY. Jan 200 7F
+经 比较 , 两 组 结果 相近 , 说 明 能 够 减少 波源 和 接收 器
+6 对 模型 的 评价
+本 文 所 阐述 的 模型 是 以 探测 山体 空洞 为 目标 , 广泛 地 应 用 于 对 山体 , 坝 体 , 隧洞 等 某 些
+内 部 空洞 定位 问题 2 的 解答 , 拓宽 了 本 模型 的 应 用 范围 对 于 特殊 的 坝 体 , 山体 等 , 利用 本
+模型 的 不 等 距 设置 波源 和 接收 器 , 同样 能 测 出 空洞 的 位 置 , 因而 具有 很 强 的 实用 性
+参考 文献: %
+[1] 南京 地 区 工科 院 校 数 学 协会 建 模 工业 数学 讨论 班 数学 建 模 与 实验 河 海 大 学 出 版 社 , 1996 A7
+[2] 朱 道 元 数学 建 模 精品 案例 东南 大 学 出 版 社 , 1999 由
+[3] 中 国 数学 协会 数学 的 实践 与 认识 1998 2XG
+[4] 庄 天 戈 CT 原理 与 算法 上 海 交 通 大 学 出 版 社 , 1992  ud
+/
+\
+The Optim ization Solutizn RS 0d i Survey
+全
+of the Vacan t H 0 le
+/ \
+L AN Xiang-hua, YANG Shengming, Q N Kun
+O 〇
+N 7 niversity, Nanjing 210097)
+Abstract  In this paper we 人 problem of the vacant hole in survey for
+mountain, land, oo 二 on By smplification, cutting a piece of plane domain，we
+establish themodelon th or equation We solved completely thepositonproblem
+of the vacant hole 了
+一 -一
+2
+Mb 空 湄 | 探测 而 > 性
+空洞 探测 问题 及 有 关 情 况
+谎 - % ， 信 ， 昔 洁 平
+N (东北 电力 学 院 ， 吉 林 132012)
+摘要 : 。 本文 对 2000 网 易 杯 全 国 大 学 生 数 学 建 模 竞赛 (大 专 组 )D 题 的 背景 模型、 算法 及 评阅 情况 作 了 简
+单 介绍
+1 题目 产生 的 背景
+本 题目 来 源 于 吉林 丰满 水 电站 水 库 大 坝 的 检测 与 维修
+这 种 类 型 的 大 坝 每 隔 一 定时 间 就 需 进行 较 全 面 的 维修 为 此 , 首先 就 要 对 坝 的 内 部 结
+3 © 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved  http://www.cnki.net

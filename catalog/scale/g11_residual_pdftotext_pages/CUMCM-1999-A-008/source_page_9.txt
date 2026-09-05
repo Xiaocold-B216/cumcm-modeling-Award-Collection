@@ -1,0 +1,106 @@
+数
+
+24
+
+5
+
+学
+
+的
+
+实
+
+践
+
+与
+
+认
+
+识
+
+30 卷
+
+对模型的评价和改进
+
+本文所阐述的模型是以单位期望效益为目标的更新报酬定理[ 3 ] 的改进与推广. 它广泛
+适用于自动化车床的管理系统, 但只能是单道工序加工单一零件的情况, 却对扩展到多道工
+序和多种零件的复杂车床管理系统产生指导意义. 本文还应用等概率法对等间隔检查方式
+进行了改进, 利用失效概率密度函数使检查间隔符合等概率分布, 使模型更优. 本模型对可
+能发生的故障损失逐一进行了细致的分析求解, 但多目标的模型方程比较繁琐, 于是本模型
+
+参考文献:
+
+研
+
+交
+
+流
+
+选择了用计算机进行了给定范围的穷举比较法来进行求解.
+在假设中我们假设检查零件时如检查到不合格零件, 立即停止生产 ( 即不再产生不合格
+产品) , 而实际中由于检查时间不容忽视, 必然会多产生一些不合格产品, 本模型中并没有考
+虑, 会造成一些误差. 另外本模型没有对故障及维修时间提出具体要求, 即在整个工序中如
+何尽量提高生产效率问题上留下了遗憾.
+
+[1]
+
+茆诗松, 周纪芗. 概率论与数理统计. 中国统计出版社.
+
+[2]
+
+蔡
+
+[3]
+
+沈玉波, 冯敬海. 可修系统的最优检测更新模型. 数学的实践与认识, 1996. 3.
+
+：
+科
+
+俊. 可靠性工程学. 黑龙江科学技术出版社.
+
+号
+
+The O ptim um Check ing and Replac ing M odel for the
+Cutting Tool of the Automa tic M ach ine Tool
+
+公
+众
+
+Q I Zheng 2jun,
+
+R EN Y i,
+
+S I Yong
+
+(D a lian U n iversity of T echno logy, D a lian
+
+Abstract:
+
+116024)
+
+T h rough sta tistica l ana lysis of m o re than 100 tim es b reakdow n of cu tting too ls on
+
+信
+
+the au tom a tic m ach ine too l, the check ing and rep lacing m odel ha s been stud ied fo r cu tting too l
+to m ach ine on ly one p a rt con tinuou sly. In th is p ap er, by u sing of the D in sp ection m ethod fo r
+
+微
+
+the la rge2sca le sam p le situa tion in the p robab ility theo ry, it ha s been p roved tha t the occu rring
+law of cu tting too l′
+s b reakdow n acco rd s w ith the no rm a l d istribu tion. A fter figu ring ou t the
+life 2sp an d istribu tion function of the system p rocess, the m u lti2ob jective function equa tion ha s
+
+been ob ta ined in w h ich the un it exp ected lo ss of the qua lified p a rt is taken a s ob jective and the
+check ing in terva l a s w ell a s the regu la r rep lacem en t in terva l fo r cu tting too l a re va riab les. B y
+m ean s of enum era tion and com p a rison m ethod s to look fo r the so lu tion on the m icrocom p u ter,
+the op tim um check ing in terva l and the op tim um rep lacing stra tegy fo r the cu tting too l have been
+g iven w h ich cou ld b ring ou t the op tim a l econom ic p rofit in the system p rocess. Since the occu r2
+ring law of cu tting too l′
+s b reakdow n acco rd s the no rm a l d istribu tion, the im p roved m odel ha s
+been p resen ted by adop ting the regu la r unequa l in terva l check ing m ethod and the better resu lts
+than these of equa l in terva l check ing m ethod a re ob ta ined.
+
+

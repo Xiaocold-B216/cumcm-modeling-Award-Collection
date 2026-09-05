@@ -1,0 +1,31 @@
+Vm=mm/roum; $A*A 14»y
+Fmfu=rou*g*Vm; $A*A"  [A|
+Gm=mm*qg; $A*A OgA|
+Fshuid=zeros (1,n); $E+EUE®A ID 人 GO 下
+for i=1:n
+Fshuid (i)=0; SE+EUE®A | nA»00OE
+gama4 (i)=atan (Ft2y (i) / (Fshuid (i) /2+Ft2x(i)));
+Ftp=Ft2x(i) *cos (gama4 (i)) +Ft2y (i) *sin(gama4d (i));
+thita2 (i)=atan ((Ftp+Fshuid (i)*cos (gama4 (i))/2)/ ((Fmfu-Gm)/2+Ft2z(i)));
+if thita2(i)<0
+thita2 (i)=thita2(i)+pi;
+end
+Ft2x (i+1l)=Fshuid (1) +Ft2x(1i);
+Ft2y (i+1)=Ft2y (i);
+Ft2z (i+1)=Fmfu-Gm+Ft2z (i);
+end
+H=h+sum(cos (thital)) +cos (beta) +Lm*sum (cos (thita2));% BIEpAzaEa
+if abs (H-gdH)<min
+minh=h;
+min=abs (H-gdH) ;
+minH=H;
+minthital=thital;
+minthita2=thita2;
+minbeta=beta;
+minFt2=Ft2;
+end
+end
+minbeta*180/pi
+minh
+r=Lm*sum(sin (minthita2))+sin (minbeta)+sum(sin (minthital))
+44

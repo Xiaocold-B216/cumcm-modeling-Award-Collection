@@ -1,0 +1,4 @@
+﻿"paper_id","candidate_pdf_path","pdf_exists","pdf_size","pdf_sha256","pdf_readable","page_count","encrypted","pdf_class","audit_status"
+"CUMCM-2011-C-002","D:\cumcm-modeling-Award-Collection\tmp\g8_doc_converter_version_drift\16.0.20326.20112\CUMCM-2011-C-002\source_converted.pdf","1","1217412","055434EA7D58C53E3DAF87B3EDB3C70E08C4FFFA64139CA9984BE44CC645F727","1","42","no","TEXT","PASS"
+"CUMCM-2013-D-001","D:\cumcm-modeling-Award-Collection\tmp\g8_doc_converter_version_drift\16.0.20326.20112\CUMCM-2013-D-001\source_converted.pdf","1","2908069","2D56EA64896981E2B5BCD9F32B8D2D6B6DAEFE67456C193E1FF0FD82A742E261","1","81","no","TEXT","PASS"
+"CUMCM-2014-D-003","D:\cumcm-modeling-Award-Collection\tmp\g8_doc_converter_version_drift\16.0.20326.20112\CUMCM-2014-D-003\source_converted.pdf","1","868969","2633463ACCE3C96C262436C96582085F6830ACC712CE6FD31FFE9D75547EEB69","1","33","no","TEXT","PASS"

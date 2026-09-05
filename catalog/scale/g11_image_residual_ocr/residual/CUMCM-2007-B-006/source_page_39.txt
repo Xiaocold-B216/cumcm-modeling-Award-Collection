@@ -1,0 +1,69 @@
+EiiEaE
+后
+说
+回 具 如 二
+和 了 交流
+Q@sum(roaqs (i,3) :x(i,]))=C@sum(roads(j,1i):x(j,1)));
+@for (C(i) |iteq#N:
+@sum(roads (i,3) :x(i,]))-@sum(roads(j,1i) :x(j,1))=1);
+@for (C(i) |iteq#M:
+@sum(roads (i,3) :x(i,]))-C@sum(roads(j,1i):x(j,1))=-1);
+@for (HL(i,J,k) :x(i,3)+x(],k)>=2*dd(1,7,k));
+@sum (H1:dd)<=2;
+@for (Hl:@bin(dd));
+ENDSUBMODEL
+! 模 型 求解 流程 ，
+CALC:
+@SET ("TERSEO', 1) ; ! 简 洁 输出 报告 ;
+@divert ( "第 二 问 结果 .1og7) 7
+! 一线，
+N=3359;M=1828;
+@solve (OBJ_1,sub_con); 全
+@write ('—%k: ',0BJ LosT, enewline (1) ) 7
+@for (roads(i,3j): 全 <sJ》
+Qifc(x(iv 了)#eq#1: -个
+CGwrite(i,',',3,";",@newline(1)); 会
+1 2
+)
+! 二 线 ，
+N=1557;M=481;
+@solve (OBJ_1,sub_con);
+@write (' =#k: ',0BJ LosT,@newline(1));
+@for (roads(i,3j): 一
+Qifc(x(iv 了)#eq#1: -
+CGwrite(i,',',3,";",@newline(1));
+)i
+)i
+! 三线，
+N=971;M=485; ) ©
+@solve (OBJ_1,sub_con); , O
+@write ('=#: ',0OBJ_LosT,@newline g
+@for (roads(i,3j):
+@ifc(x(i,])#eq#l:
+@uwrite(di,',',3,"';"', Cnew 1) ) 7
+) 7
+)
+! 四 线 ; ~
+N=8;M=73;
+@solve (OBJ_1, = Y.
+@urite ('PU%: #9,0BJ Lo6sT, @newline (1));
+@for (roads (d,j JJ
+Qifc(x(ir) of 人
+CGuwrite(i, ", "%J,";", @newline(1));
+) 7
+)， -
+这
+N=148; 85;
+@solve (OBJ_1,sub_con);
+@write ('Ti#k: ',0BJ_LosT,@newline (1));
+@for (roads(i,j):
+@ifc(x(i,])#eq#l:
+CGwrite(i,',',3,";",@newline(1));
+)i
+)i
+! 六 线 ，
+N=3984;M=3993;
+@solve (OBJ_1,sub_con);
+@urite ('7N#k: ',0BJ_LosT,@newline (1));
+@for (roads (i,3):
+37

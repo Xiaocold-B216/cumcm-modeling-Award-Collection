@@ -1,0 +1,45 @@
+os 、 总 由
+数学 中 国 论文 共 亨
+www. madio. cn L S
+e
+x f 0 00
+Ze|y|=|0 £0 0 0D
+Z.
+1 0 0 1 0
+1
+所 以 可 以 得 到 :
+. X,
+x f 0 00
+Z.|\y|=|0 f O oo 和 (2)
+站 7 ts
+1 0 0 1 0 0 1 o
+参照 附录 中 对 于 旋转 矩阵 的 说 明 ， 我 们 可 以 得 到 -从 >
+. o SS
+sinB Xy _ 内
+Ze =|-singa cosB || ¥, -sp
+cosol cosB || Z, 站 一
+所 以 由 : ¢
+RS
+x| |f 0 00 Hy s
+RT| Yy YY Y,
+Zoy|=|0 f 00 7 1 Ze 7
+1 0 0 1 0 0 ， TS v
+1 4
+可 得 ; 0
+(Zr sinP —Y, sino coSBA T,u'= a, X, +a,Y, +ay,
+(Cr sinp —Y, sinocos SLv=aXy +ayY, +ay,
+TO
+区 = (CI7z0or 二 2 in cosB +a,,a,,) —(vT,a,, +ua,, sina cosB +a,,a,,)
+” (uay, sin y) Valll cosB —ay,a,,)—(va, sin B —ua,, sina cosB 一 ac)
+Y. 一 一 (-u VA 1+Van4 sinB —a,,a,,) — (—VT,a,, +uay, sinf 一 ac)
+" RZ sino cosB —ay,a,,)— (va,, sin B —ua,, sina cos B —a,a,,)
+3 BOUX,~ Y, IUE FIR, FCAZEHESAhR ih
+AN-
+R X, + 了 天
+带 入 可 得 到 二 次 曲线 方程
+[(T,a,, 一 assina cos Bu —(T,a,, —a,, sinct cos B)v +(a,,ay, +a,,a,,)]
+H-(T,ay +ay, sin Bu 十 (Qi Sin B +T,a,,)v—(a,a, +a,a,,)f
+=77[(ay, sinB +a,, sina cos B Ju—(a,, sina cos p +a,, sin p)v—(a,,a,, —a,a,)
+HARK —H
+注意 到 此 处 的 已 是 标 靶 上 圆 上 点 在 光 心 坐标 系 中 忆 方 向 上 的 坐标 。 对 于 本
+6

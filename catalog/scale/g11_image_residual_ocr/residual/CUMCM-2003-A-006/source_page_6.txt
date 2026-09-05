@@ -1,0 +1,54 @@
+口 HRR3] 口 |
+村
+主人
+a
+34 工程 数学 学 报 第 20 卷
+Ia
+2.2.3 模型 求解
+Variable Coefficient Std，Error t — Statistic Prob.
+C —0.001428 0.001497 一 0.954424 0.3413
+RM - RF 0.292576 0.088641 3.300665 0.0012
+D 0.000213 0.002555 3.860554 0.0126
+R — squared 0.766419 Mean dependent var -0.00137
+Adjusted R - squared 0.7763 S.D. dependent var 0.01566
+S.E. of regression 0.015227 Akaike info criterion 一 5.51277
+Sum squared resid 0.036172 Schwarz criterion 一 5.45487
+Log likelihood 441.2653 下 一 statistic 5.549341
+Durbin - Watson stat 1.991851 Prob(F - statistic) .0.004697
+从 表 中 可 以 看 出 :SARS 的 爆发 对 医疗 设备 ,医疗 药物 的 需求 带 来 了 冲击 性 的 影响 , 反 忠 在 医
+疗 版 指数 的 日 收益 上 , 带 来 了 0.0213% 的 额外 日 收益 。 当然, 这 些 收 益 是 由 于 SS 乱 的 , 随 才
+、 、 有 Y
+SARS 的 平息 ,这 个 正 的 效益 也 会 随 之 平息 。 这 全 是 SARS 对 医疗 行业 的 经 济 影 响 SN
+2
+参考 文献  n
+[1] 姜 启 源 , 数学 模型 . 北京 :高 等 教育 出 版 社 ,2002
+[2] 邓 聚 龙 , 郭 洪 . 灰色 理论 .北京 :全 华 出 版 ,2002 )
+0] HER BTAR- ABRR LRASUNLIL GING
+[4] james D.Hamilton. 时 间 序列 分 析 . 北京 :中国 社 会 科学 迎 版 村 SN1999
+/ TS
+The Mathematical Principle Of The Spread Of SARS and Its
+Application On Foreagy g and.Controlling SARS Epidemic
+/
+4 人情 |
+ZOU Yu-ting, “ZHENG Xiao-lian, MIAO Xu-hui
+_Advisor: TAN Zhong
+(Xia en.| niversity, Xiamen, Fujian 361005)
+和 =
+Abstract: It is well kno 人 has a tremendous effect on Chinese society. Based on the statistics related
+to SARS in Beijing/f1 om pril to June in 2003, we modeled the Negative Feedback system of the spreading of
+SARS by introduci 7% concept of Negative Feedback System in electro - circuit and the nature of the SARS
+virus. Mareov 品 b alyzing the practical meanings of the parameters in this system, a complete Time Se-
+quel sr model is presented. It defines the spreading rate as a function of time, and adopts the fminsearch
+fun fonin natlab to give the best parameters. with the object of minimum total difference between the actual
+statist 中 nd computed results. This model well forecasts the spreading trend of SARS, according to which prop-
+er advices can be put forward on controlling policies. Further, curves are drawn that simulate the different devel-
+opment trends as the result of the quarantine carried out five days ahead of or five days later than a series of differ-
+ent dates. Comparison between these curves makes it possible to analyze the impact exerted by the date when the
+sanitary department carried out a quarantine.
+
+Concerning the influence of SARS on economy, 17 representative stocks of medicine industry are chasen in
+order to measure specifically and indirectly the overall trend of this industry in spreading of SARS. Dummy varia-
+tions are introduced to the traditional CAMP model in order to verify the positive effect imposed on medicine in-
+dustry by SARS epidemic, employing OLS technique. This positive effect was reflected by the daily interest cal-
+culated from these stocks. Yet, this impact would be gone when its cause, the SARS epidemic, comes to an end.
+Keywords: SARS epidemic; negative feedback system; time sequences; CAMP model

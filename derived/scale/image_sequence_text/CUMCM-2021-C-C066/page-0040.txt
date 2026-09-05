@@ -1,0 +1,49 @@
+ypred，sigma = gp.predict(x, return_std-True)
+4 plor the function, the prediction and the S5K confidence interval based on
+the NGE
+ar-figuretdpi-aeo)
+4 plt.ervorban(i.ravel(), y, dy, fat-"r., markersize-18，label-'observations')
+PIE.plot(X, y, 'r., markersize-10, label  Observations’)
+pat-plot(xy y_pred, 'b-", label-'prediction’)
+ple. £11(rp. concatenate((x, x[::-111),
+npconcatenate([y_pred - 1.9660 * signa,
+人 pred + 1.9600 。 sigan)(z:-111),
+pha 5， 多 -bece one'，1abel-'95Y confidence interval
+axaabel(' 订 音量 mn *)
+PLElabel(REE (6)°)
+ph-legend(loc='upper left")
+supplier - Flea(1leo[" BERI0").dsin(selece _suppliers)]. dloc(1, 名
+Ple.tiele(s B (eype ) RER (supplier) | MEET AEBIA BHGE")
+pie.shou()
+sussussassssassssesass WIEFIM2-2TL esaessssssasissssasss
+def get_range List(type_, week t = 1):
+4F = lel[filel[' 村 分 类 '] -= type_] Alocl:,2:]
+dm -= df.3locf:y mp.arangetveek_i - 1,249,24) |min(axis = 1
+ax - df-iloc[:， np.arangeleek { -12a8,26)] .max(axis = 1)
+range_ -= listGip(ain, max*1.5))
+range_ - [[4(0], 1[1)+1) for 1 in range_)
+return range_
+aassaeae HE2-2MEE IETC anasssasiuns
+outpue_ise - (]
+def atasunc(Phen, V_a, V_b_¢, CV, NIND):
+Blobal v_a_uist, V_b se, v_c_list
+global V_to1_List, 0_prepare_list
+§loba1 xa_pred_lise, x b_pred_list, x_c_pred_list
+Elobal df A_a11, df 8 1 df Ca
+cbal output_list
+Cerans -和
+CCpurchase = le，
+CCatore -1
+ef error_pred(z， type )
+= mp-array(fgp_dict[type_]i] .predicttzf:，[]，return_stdcTrue) for 1 in
+range(z.shape[]))
+rr-pred = af 0, 1]
+errstd - af， 1, 1]
+prandon_seed(1)
+nor_err = prandon nommalterr_pred，err_std)
+err - np.transpose(nor_err) * ae-2
+四 err - -aeoelrz
+def convert(x type)
+16 type_ = aa
+和 type ee bi 对 axv 1
+于 tp ee

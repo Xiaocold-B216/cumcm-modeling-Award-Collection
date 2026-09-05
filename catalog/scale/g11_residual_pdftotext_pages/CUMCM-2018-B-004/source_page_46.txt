@@ -1,0 +1,69 @@
+end
+Left(Error(i,2))=Error(i,4)-Error(i,3);%将故障修复所需时间转换为当前工作剩余
+完成时间
+Time=Error(i,3);%时间调整至故障发生时
+flag=1;
+end
+end
+
+：
+科
+
+研
+
+交
+
+流
+
+if flag%由于原目标 CNC 发生故障，重启循环
+continue;
+end
+Time=Time+Expect(2,MinNumber);%正常等待
+flag=0;%目标 CNC 是否已有工件，0 为无，1 为有
+for i=size(Rec,1):-1:1%记录本次操作的时刻
+if Rec(i,1)==MinNumber && isnan(Rec(i,3))%同时发生上料和下料
+flag=1;
+Rec(i,3)=Time;%记录下料开始时间
+Rec=[Rec;MinNumber,Time,NaN];%记录上料开始时间
+break;
+end
+end
+if flag==0%仅发生上料
+Rec=[Rec;MinNumber,Time,NaN];
+end
+
+信
+
+公
+
+众
+
+号
+
+if Situation(MinNumber)==0%不用清洗的情况
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber);%完成换料
+for i=1:8%CNC 的时间推进
+if Left(i)-Expect(4,MinNumber)<0
+Left(i)=0;
+else
+Left(i)=Left(i)-Expect(4,MinNumber);
+end
+end
+
+微
+
+Left(MinNumber)=Work;%换料的 CNC 更新剩余时间
+if unifrnd(0,100)>=99%生成故障信息
+StartTime=Time+unifrnd(0,Work);%随机生成故障开始时间（发生在加工时）
+ProcessTime=unifrnd(600,1200);%随机生成人工修复所需时间
+Error=[Error;size(Rec,1),MinNumber,StartTime,StartTime+ProcessTime,0];% 记 录
+故障信息
+end
+else%需要清洗的情况
+Time=Time+Expect(3,MinNumber)+Wash;%完成换料与清洗
+for i=1:8%CNC 的时间推进
+if Left(i)-Expect(4,MinNumber)-Wash<0
+46
+
+

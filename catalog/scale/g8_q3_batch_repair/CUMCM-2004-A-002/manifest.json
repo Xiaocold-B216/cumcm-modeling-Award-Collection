@@ -1,0 +1,117 @@
+{
+  "attempt_id": "20260902T162528503373_425d96bb",
+  "batch_attempt_id": "20260902T162528503373_425d96bb",
+  "paper_id": "CUMCM-2004-A-002",
+  "source_path": "2004年数学建模国赛真题+优秀论文/2004优秀论文/2004A：基于利润最大化的奥运商业网点分布微观经济模型.pdf",
+  "source_sha256": "A9AFF4DFFDE81387E07556BB097E5A807D78414DF8FCDE889CBCEF7C5D70E83E",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 8,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 8,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "el l 7 站 各 第 21 卷 第 7 期 工 程 数 学 学 报 Vol. 21 No. 7 2004 年 1? 月 CHINESE JOURNAL OF ENGINEERING MATHEMATICS Dec. 2004 文章 编号 :1005-3085(2004)07-0057-07 基于 利润 最 大 化 的 奥运 商业 网 点 分 布 微观 经 济 模型 薛 飞 傅 强 谢 鉴 指导 教师 胡 代 强 _ (暨南 大 学 ， 广 州 ”510632) 一 和》 编者 按 :。 本 文 能 从 古 目 所 给 的 数据 正确 地 分 别 对 三 个 场馆 进行 研究 ， 找 出 观众 在 出 行 、 散 步 we 寻 立 满 足 三 个 要 求 的 避 数 规划 模型 ， 并 进行 了 求解。 全 摘 ”要 。 本文 首先 通过 多 元 统计 分 析 发 现 了 统计 数据 中 的 “ 般 具 健 ， 并 讨 沦 了 数据 中 所 摊 国 的 基 4 常 识 丰 “ 笋 之 处 。 在 通过 图 论 的 有 关 知 识 确定 观众 进出 体育 场馆 的 模式 之 后 ， 我 们 建立 了 人 南音 寞 用 的 此 于 成 本 利润 分 析 的 赵 数 规划 模型 。 通 过 Lingo、Matlah 坎 什 的 俩 拟 ， 人 和 有 关 绿 济 理论 拟 合 较 好 ， 可 以 为 2008 全 奥运 会 迷你 超市 的 设置 提供 “ 定 的 参考 。 NS 关键 词 : 多 元 统计 分 析 ， 人 流 导 ， 由 数 总 划 | 分 类 号 : AMS(2650) 90C10 中 国 分 类 号 : 02214 RE A 1 引言 随 着 2008 年 北京 奥运 会 的 日 益 临 近 ， 奥 运 主 场馆 周 于 临时 商业 网 点 一 一 迷你 超市 (MS) 的 设 置 已 成 为 一 项 重要 的 任务 。 本 文 首 5 利 用 假设 检验 证 明了 三 次 调查 所 取得 的 数据 来 白 同一 个 总 体 ， 通 过 SPSS 软 件 对 数据 进行 了 1 包括 均值 、 标 准 差 的 比较 和 不 同 变量 问 柑 关 性 的 考察 ， 找 出 了 顾客 在 出 行 、 就 餐 、 消 费 等 方面 的 规律 。 在 此 基础 上 对 北京 奥运 会 的 迷你 超市 网 点 建设 进行 详细 讨论 ， 包括 和 it 名 环境 的 抽象 和 对 不 同 目的 地 顾客 的 分 类 等 ， 计 算出 了 各 商 区 的 人 流 景 及 顾客 购买 量 的 分 相 。 拉 和 合 考虑 了 顾客 购物 需求 、 迷 你 超市 分 布 均衡 和 商业 赢利 这 三 个 基本 要 求 ， 把 各 商 区 内 NS 点 的 货物 总 供应 量 与 顾客 需求 的 美 值 的 绝对 值 作为 站 点 分 布 是 奉 均衡 的 评价 指标 -运用 整数 规划 的 方法 ， 以 襄 利 坛 大 化 为 目标 ， 满 足 顾客 需求 和 网 点 分 布 均衡 为 约束 条 件 ， eeM 设 优生 ， 为 体育 馆 各 商业 区 提供 了 一 个 可 行 的 MS 网 点 设计 方案 5 引 承 后 设 了 商 区 运营 成 本 等 一 系列 参数 ， 运 用 Lingo 软 件 对 模型 进行 求解， 得 出 了 各 体育 光 8 的 各 商 区 的 MS 网 点 分 布 ， 汇总 结果 如 下 : SN A 区 国家 体育 场 需 要 大 MS 网 点 19 个 ， 需 要 小 MS 网 点 11 个 ; W, B 区 国家 体育 馆 需要 大 MS 网 点 10 个 ， 需 要 小 MS 网 点 8 个 ; NY C 区 国家 游泳 中 心 需要 大 MS 网 点 8 个 ， 需 要 小 MS 网 点 4 个 ; 具体 到 每 个 商 区 需要 的 MS 网 点 数 景 ， 靠 近 人 行道 出 口 处 商 区 设置 的 MS 网 点 数量 要 多 于 远 离 出 口 处 商 区 设置 的 MS 网 点 数 最 。 该 模型 比较 稳定 ， 对 顾客 人 流量 的 分 布 变化 不 敏感 ， 易 于 应 对 实际 情形 中 人 流 景 的 随机 波 动 。 同 时 模型 结果 对 丁 超市 供 货 量 的 依赖 程度 高 ， 而 对 于 顾客 实际 购买 力 的 依赖 较 低 ， 便 于 按 照 经 济 学 中 的 有 关 理 论 进行 调整 。 本 模型 来 白 于 现实 生活 ， 对 具体 商业 区 的 规划 建设 和 选 址 问 题 均 具有 指导 意义 。 2 下 58 工 程 数 学 学 报 第 21 卷 2 ”问题 重 述 〈 略 ) ”3 ”模型 假设 ( 略 ) 4 ”符号 说 明 〈 略 ) 5 ”模型 的 分 析 与 建立 观众 出 行 、 用 餐 、 购 物 等 的 规律 按 题目 所 述 ， 三 次 问卷 调查 的 调查 地 点 和 调查 内容 是 相同 的 。 下 面 进一步 通过 假设 检验 来 判别 三 次 调查 的 样本 是 否 来 自 于 同一 个 总 体 。 把 三 次 调查 所 得 的 数据 合并 ， 并 用 “性 别 \"作为 分 组 变量 来 检验 它 与 \"年龄 \"的 差异 是 否 显 著 ， 得 到 的 渐进 性 显著 检验 忆 值 为 0.167 > 0.05, 故 二 者 的 分 布 相同 ， 差 异 并 不 明显 ， 可 以 认为 三 次 调查 所 访问 样本 来 自 同一 总 体 。 这 样 就 可 以 把 来 自 这 三 次 调查 数据 放 在 一 起 进行 分 析 。 通过 \"性别 \"和 “年 龄 \"这 两 个 控制 变量 对 得 到 的 数据 进行 分 组 ， 我 们 发 现 了 观众 和 在 出 行 \\ 亲 餐 和 购物 等 方面 的 一 些 规律 : 一 站 首先 ， 从 餐饮 方式 来 看 ， 总 体 上 选择 西餐 的 人 数 占 到 了 总 人 数 的 一 汉 sj 多 ， 与 选 择 吃 中 餐 和 在 商场 进餐 的 人 数 之 和 相当 ; 同时 ， 观 众 在 用 餐 方式 上 有 如 证 :思科 中 矢 的 受 访 者 随 着 年 龄 的 增长 而 增多 ， 选 择 西餐 的 受 访 者 却 随 着 年 齿 的 增长 而 减少 ， 移 择 商场 (餐饮 ? 的 受 访 者 则 没有 随 着 年 龄 变化 的 趋势 〈 图 略 、 /A) 而 用 “性 别 \"进行 分 组 时 发 现 各 组 八 群 的 父 饮 佣 好 变动 冬 小 ， Koisie (图 略 ) 。 其 次 ， 从 出 行 方式 来 看 ， 撞 除 只 ,车 \"选项 后 ， 选 择 不 同 出 式 的 受 访 者 比例 基本 相当 。 而 选择 * 私 车 \"的 受 沪 者 只 有 选择 其 他 出 行 方式 人 数 的 一 举 左 右 同时 ， 在 秃 女 受 访 者 样本 总 量 相差 不 大 男性 : 女性 =5549: 5051) 的 情况 下 ， 我 们 可 以 发 现 如 下 规 健 : . 乘 私 车 与 出 租车 的 女性 人 数 是 男性 的 两 们 左右; 。 乘 地 铁 的 男性 多 于 女性 ; %A . 2 这 些 规律 说 明了 女性 较 男 0 同时 其 消费 能 力也 高 于 男性 。 而 把 出 行 方式 按 折 龄 2 分 组 时 ， 并 未 发 现 明显 的 统计 规律 。 此 处 不 再 袭 述 。 再 次 ， 从 非 餐饮 性 消费 来 看 ， 有 将 近 一 半 〈44% ) 的 消费 者 非 餐饮 性 消费 额 在 200 一 300 元 之 间 。 在 0 一 400 元 组 的 范围 内 ， 男 性 受 访 者 所 占 的 比例 随 着 消费 额 的 增加 而 减少 ， 女 性 受 访 者 所 占 的 比例 随 着 消费 额 的 增加 而 增加 。 这 也 进一步 说 明了 \"女性 不 仅 比 男性 要 更 富裕 一 些 ， 受 访 者 中 女 ; 男性 有 更 强 的 购物 欲望 和 能 力 \"的 结论 ， 但 在 400 元 以 上 组 男性 与 女性 所 占 的 比例 基本 相 当 。 当 按 \" 年 龄 \"这 一 控制 变量 对 消费 额 〈 非 餐饮 ) 分 组 时 ， 发 现 消费 额 均值 较 高 的 年 龄 adl 和 0> 50 岁 之 间 。〔〈 图 略 ) 后 进一步 验证 前 文 所 发 现 的 规律 ， 我 们 对 年 龄 、 餐 饮 方式 、 出 行 方式 等 几 个 变量 进行 了 相 析 得 表 1。 从 表 1 中 可 以 看 到 , “年 龄 \"与 \"就餐 方式 \"之 间 的 相关 系数 大 于 \"年 龄 \"与 出行 方 式 \"之 间 的 相 关系 数 ， 并 且 二 者 都 旦 负 相 关 关系 。 由 于 相关 系数 的 显著 性 水 平 为 0.01， 就 餐 方式 与 年 龄 之 间 是 显著 相关 的 ， 而 出 行 方式 与 年 龄 之 间 并 不 显著 相关 。 最 后 我 们 需要 强调 的 一 点 是 ， 在 建 模 过 程 中 我 们 主要 利用 按 “ 出 行 方式 \"分 组 〈 表 2) 和 \"“ 餐 饮 方式 ”分 组 〈 表 略 》 得 到 的 非 餐 饮 性 消费 额 的 均值 。 表 中 ， 消 费 额 〈 非 餐饮 ) 仍 按 题目 所 述 分 为 6 档 : 1) 0 一 100，2) 100 一 200，3) 200 一 300, 4) 300—400, 5) 400 一 500，6) 500 以 上 《元 ) 。 各 餐饮 方式 或 出 行 方式 组 中 所 对 应 的 : 第 7 其 基于 利润 最 大 化 的 奥运 商业 网 点 分 布 微观 经 济 模型 59 均值 (Mean) 越 高 ， 则 该 组 的 消费 额 越 高 。 然 而 ， 我 们 需要 进一步 指出 的 是 ， 当 把 按 出 行 方 式 分 组 的 均值 表 进一步 合并 ， 即 把 “公交 《〈 南 北 ) \"与 “公交 (东西 ) ”合并 为 “公交 ”， 把 “地 铁 (〈 东 ) ”和 \"地铁 〈 西 ) \"合并 为 地铁? 后 ， 我 们 发 现 了 观众 一 些 特殊 的 偏好 : “公交 \"组 对 应 的 非 餐饮 性 消费 额 的 均值 2.59 高 于 “ 私 车 \"组 的 2.53。 这 显然 是 一 个 不 符合 常理 的 结果 ， 因 为 一 般 情况 下 拥有 较 多 物质 财富 的 人 其 购物 能 力也 应 该 较 强 。 也 就 是 说 ， 除 这 三 次 调查 所 选取 的 项 目 〈 年 龄 、 性 别 、 消 费 方式 、 餐 饮 方式 、 非 餐饮 性 消费 额 ) 之 外 ， 可 能 还 有 其 他 因素 在 影响 观众 的 选择 ， 使 他 们 做 出 了 现 有 数据 所 反映 出 的 “ 非 理 性 选择。 但是， 如 果 我 们 进一步 将 “地 铁 ? 和 \"公交 车 合并 为 “低档 交通 工具 ”， 将 “出 租车 ”和 \"“ 私 车 \"合并 作为 “高 档 交通 工具 ”的 话 ， 合并 后 的 结果 还 是 比较 符合 常理 的 〈《 表 3) 。 从 表 1 变量 相关 性 分 析 2 让 | | ew | ofina Pearson Correlation 1 | 03 本 年 龄 Sig. (2-tailed) . 000° .341 N | 40600 | EN 10600 Pearscm Correlation 人 173 = N ) } .004 BAT Sig. (2-tailed) .000 | .700 NA | N 10600 记 ”ip6o 10600 Pearson Correlation | -.006 || s .004 1 出 行 Sig. (2-tailed) .341 .700 . NA _ |.0600 | 10600 10600 NA 玫 2” 非 餐饮 消费 额 葡 出 行 方式 分 组 〈 未 合并 选项 ) 出 行 方式 “| Mean~| N_| std, Deviation 出 租 |_255 2010 1.006 地 铁 〈 东 2.43 2006 .946 地 铁 《 西 ) 2.43 2024 .959 2.52 1828 1.029 2 we 2.66 1774 1.130 Ya 私 车 2.53 958 1.002 下 《4 Tal | 2s1 | 1060 | 10l5 以 表 3” 非 餐饮 消费 额 按 出 行 方式 分 组 (合并 选项 ) TSA， Travel | Mean | N | Std. Deviation 1 7632 1.018 : | 习 | 台 | 到 Tota | 251 | 10600 | 1.015 表 中 , “1 代表“ 低档 交通 工具 \"，“2\" 人 代表“ 高 档 交通 工具 \"。 从 上 表 可 以 看 出 “低档 交通 工 具 \" 非 餐饮 性 消费 额 的 均值 小 于 “高 档 交通 工具 ”。 因 此 ， 如 果 提 供给 我 们 的 调查 数据 已 经 包含 了 实际 调查 的 所 有 项 目的 话 ， 北 京 市 政 管理 委员 会 在 以 后 组 织 类 似 的 调查 时 ， 应 注意 必要 调查 项 目的 完备 ， 以 充分 了 解 观众 的 偏好 和 造成 观众 选择 差异 的 原因 。 ElEE 7 ER 60 [ 程 数 学 学 报 第 21 郑 各 商 区 人 流量 分 布 “ 根据 进出 体育 馆 站 的 地 的 不 同 ， 把 人 流 分 为 不 同 的 类 ， 例 如 ， 把 吃 中 餐 的 归 为 一 类 ， 乘 私 车 的 分 为 一 类 等 等 ， 我 们 共 把 观众 分 为 九 类 〈 和 餐饮 方 式 三 类 和 出 行 方式 六 类 ) ， 据 此 分 别 讨论 各 类 别 观 众 在 不 同 商 区 里 的 分 布 以 及 购买 量 。 把 每 个 体育 场馆 周围 的 道路 情况 归结 为 \"图 ”\"， 图 中 每 个 节点 代表 一 个 Al A2 A3 Ad 商 区 ， 图 中 两 个 节点 相 联 当 且 仪 当 对 大 本 站 2 应 的 两 个 商 区 相 邻 。 由 于 每 个 主场 馆 “% a 周围 的 商 区 都 仅 有 两 条 人 行道 通 向 外 =《 hy 部 〈 一 条 通 向 大 电路 或 成 府 路 ， 另 一 “\\) 条 通 向 中 餐馆 ) ， 每 个 观众 出 体育 馆 1 “72 了 时 都 必然 要 经 过 正 对 人 行道 的 那个 商 起 中 AH AB 区 ， 因 此 ， 所 有 的 观众 都 要 经 过 一 个 ks 或 多 个 商 区 才能 到 达 目 的 地 。 图 1: 况 在 流向 模 图 的 ASA10 表 示 商 区 ) 下 图 所 示 的 是 一 个 有 局 祥 目 的 地 〔 同 一 类 的 观众 洲 向 图 (ED . RERRFLUMRTUEL, §AEHARER 商 医 都 有 两 个 出 口 ， 要 到 达 日 的 地 ， 根 据 最 短路 原则 ， 顾 次 企 体育 馆 内 部 就 会 沿 着 两 条 路 线 /向 左 和 向 上 ) 走出 体育 馆 ， 来 到 达 所 要 求 的 9 个 中 的 过， 定义 出 口 点 为 Al 的 路 线 为 \"线路 一 ， 重 j 为 A6 的 路 线 为 \"线路 - -\"。 线路 一 ， A6 一 A7 一 A8 一 Ag — Al0 — Al 一 A6 SIAT A 人 A3 一 A2 一 Al 一 < 线路 二 Al 3 从 人 A3 一 A4 一 A5 一 A6 一 ED 通过 每 个 商 区 的 人 数 可 以 由 该 商 区 对 应 的 看 台 人 数 与 米 白 前 一 商 区 的 顾客 人 数 之 和 表示 : SG) = 1000 x p% + S(j) 1) 其 中 ， 7 区 为 两 罗 Le， SO) 为 商 区 i 中 以 万 为 目的 地 〈 某 一 类 人 ) MBARR, p% 为 再 区 需 册 稍 目的 地 的 人 数 比 例 ，S() 为 前 一 商 区 j 以 万 为 日 的 地 的 总 人 流 量 。 最 远离 上 的 地 万 〈 图 中 46 点 ) 的 商 区 中 的 人 流量 为 S(0)， 则 有 :53(0) = 10000 x p 色 。 分 析 场 sa 会 发 现 该 商 区 的 人 流 都 会 分 成 两 股 〈 如 图 ， 通 过 46 的 人 流 分 为 向 左 和 向 上 两 个 方 向 六 向 平一 个 商 区 前 进 。 为 了 方便 计算 ， 我 们 这 里 把 8S(0) 分 成 两 半 《〈 各 占 50% ) ， 形 成 两 条 人 流 干道 。 综合 上 述 ， 上 面 的 思想 可 以 推广 为 : 51(0) = 了 xs(O) = £x10000xp%, Si = 5,(0)+10000x p%, Si(2) = Si(1)+10000 x p%, - -- Sa(0) = 了 xS(0) = : x 10000 x p%, Sa(1) = S5(0) +10000 x p%, Sa(2) = Sa(1)+10000x p%, - - 由 于 每 个 观众 在 经 过 几 个 等 质 的 商 区 〈 至 少 题目 中 并 没有 反映 出 不 同 商 区 问 的 芜 异 ) 时 都 有 购买 或 不 购买 的 选择 ， 同 时 观众 数量 庞大 ， 根 据 大 数 定律 ， 观 众 在 各 商 区 购买 或 不 购买 行为 EiiEaE B 第 7 期 其 十 利润 最 人 化 的 类 运 商 业 网 点 分 布 微观 经 济 模型 61 问 的 偶然 离 关 会 相互 抵消 ， 我 们 可 以 认为 每 个 观众 在 某 商 区 购物 的 概 米 是 相同 的 。 同 时 ， 为 了 简化 计算 我 们 假设 每 个 观众 在 一 个 商 区 购买 完 所 有 的 非 餐 饮 性 商品 。 有 了 每 个 人 到 达 目 的 地 所 需要 通过 的 南 区 数 日 〈 也 可 以 认为 是 所 剩 的 网 点 数 )， 我 们 可 以 得 出 在 某 网 点 购买 东西 的 人 数 己 共通 过 的 术 购 买 的 人 数 成 正比 ， 与 剩 下 的 商 区 数目 成 反比 ， B: pry = £280 =WG) 加 其 中 ，P() 为 将 要 在 网 申购 买 南 品 的 人 数 , 柳 () 表 示人 流 中 已 发 生 购买 行为 的 人 数 ， 上 为 比例 系数 ， 其 中 () = T54 PG)- 6 观众 在 经 过 线路 上 多 个 网 点 时 ， 公设 放 过 入 了 线 上 任 记 一个 上 的 要 和 人 的 ， 区 和 们 不 妨 令 : = 1。 AN 根据 计算 人 流 虹 分 流 的 方法 ， 可 以 归纳 得 出 购买 人 数 ， AN po=20 py= HERO p so-effeng 的 其 中 ， 叫 全 表 杰 线路 1 上 在 第 ;个 商 区 的 购买 人 数 、 & 3 . PO= 2 加 ， puy- 2E_2O, ca 的 + 的 ， 其 中 心 们 表示 线路 2 开 在 侦 ?再 区 的 购买 人 数 。 。 ， 仿 下 者 要 并 以 上 方法 给 电源 地 为 国家 体育 馆 〔 鸟 菜 ) 问 个 的 地 为 “中 父 \" 的 人 流 录 统计 。 首先 ， 向 了 中 餐馆 位 于 国家 体育 馆 的 北面 ， 则 从 域 短路 和 多米 说 ， 应 该 选择 Al 点 为 山口 点 ， 同时 可 以 确定 人 流 员 流向 的 路 线 图 为 线路 一 ( 见 图 1)。 其 次 ， 由 题目 可 知 ， 国 家 体育 场 鸟 梨 ) 的 宅 录 为 10000 人 ， 周 图 商 区 为 10 个 ， 两 个 人 行道 的 出 口 分 别 对 应 于 商 区 Al1 和 A6， 看 全 10 个， 每 个 看 台 有 10000 人 。 根 据 对 据 客 信 好 的 原始 调 查 数 据 ， 山 行 乘 从 公共 汽车 四 人 的 won 公共 汽车 《东西 ) 为 17.30%， 出 租 车 为 19.00%， 私 车 为 9.00%， 地 铁 《 菏 ) [为 询 .00%， 地 铁 《两 》 为 19.00 吕 顾客 用 餐 时 ， 去 中 餐馆 ， 丙 父 馆 和 商场 的 百分比 分 别 为 22.5 色 、52.5 名 、25%。 人 以 Al 为 出 口 点 的 人 流 景 和 从 个 商 区 的 购买 人 数 的 统计 表 〈 见 附录 避 略 ) ) 。 同 理 我 们 可 以 给 贡 到 公交 【〈 南 北 ) 、 公 交 《〈 和 东西 ) 、 地 铁 〈 东 ) 、 地 铁 〈 西 ) 、 出 租车 、 私家 车 、 FRTARRLLL EREARGA2, 详细 数据 结果 见 附录 〈 略 ) 。 根据 题 晶 9y 因 运 会 期 站 《 指 某 一 天 ) 每 位 观众 平均 出 行 两 次 ， 一 次 为 进出 场馆 ， 一 次 为 餐 饮 ， 并 且 下 本 拘 梁 取 地 短路 称 。 因 此 ， 从 整体 来 看 ， 鸟 划 的 总 人 流量 可 以 通过 计算 一 天 之 内 经 过 所 有 商 区 的 火 流 录 得 出 ， 我 们 俊 设 观众 两 次 进出 采取 “家 一 场馆 一 餐厅 一 场馆 一 家 \"的 路 线 让 换 居 话说 到 达 交 通 目的 卡 人 流 录 与 到 达 餐 馆 日 的 点 的 人 流 最 应 分 别 乘 2 才能 达到 米 吕 的 效 虹 人 向 机 录 中 才 19 《 略 ) 的 数据 分 别 求 出 Al 到 Al10 的 通过 人 数 则 加 和 为 140 方 人 次 。 累加 同 二 桨 区 不 同日 的 地 观众 的 人 流 晤 并 乘 以 ?以 实现 米 同 的 效果 ， 可 以 分 别 求 出 不 同 南 区 内 米 通过 人 流 的 总 人 次 〔 表 4) 。 由 表 4 可 知 A6 和 Al 一 天 内 经 过 的 人 次 最 多 ， 这 与 它们 在 人 行道 出 品 的 地 理 位 置 有 关 。 通过 附录 表 中 的 数据 我 们 可 以 归纳 出 每 个 商 区 内 到 不 同日 的 地 购买 商品 人 数 ， 如 表 5。 同 理 我 们 可 以 按 同 一 种 方法 可 求 得 其 他 两 个 场馆 的 人 流 分 布 。 ( 略 》 MS 网 点 最 优 赢利 模型 由 于 体育 馆 A、B、C 之 八 商业 网 点 运营 模式 足 互相 独立 的 ， 改 下 面 仪 对 体育 馆 A 建 立 \"MS 网 点 优 天 利 模型 \"， 而 体育 馆 B 和 C 的 模型 可 癌 旺 得 出 ， 这 里 略 去 。 Fpi Ee 62 工 程 数 学 学 报 第 21 着 以 商业 上 的 赢利 为 目标 ， 满 足 顾客 购物 要 求 和 MS 点 分 布 均衡 为 约束 条 件 ， 我 们 对 奥运 主场 馆 A 的 各 商 区 建立 了 下 面 的 \"MS 网 点 最 优 赢利 模型 。 首先 ， 我 们 以 顾客 的 非 餐 饮 消费 额 为 指标 ， 来 区 分 体育 馆 A 的 顾客 的 消费 水 平 。 由 于 各 商 区 顾客 的 消费 水 平 不 同 ， 使 得 各 个 商 区 的 顾客 总 的 购买 能 力 my 大 小 不 一 ， 故 最 优 赢利 MS 网 点 的 分 布 ， 应 使 各 体育 馆 A 的 总 商业 潜在 利益 都 达到 最 大 ， 模 型 的 目标 如 下 : max 全 -cx 三 -exm (3) i=1 表 4 国家 体育 场 人 流量 统计 表 (单位 : 万 人 次 ) _ 全 AT 二 | 人 | | | | [ moli Jn [1010 1009 1uot moo |soar [r90 1097 | 7ao| ln K5 国家 体育 场 【 昌 ) 各 个 有 区 区 殖 人 作 二 二 购物 西餐 | 商场 | 公 竺 | A% | 迪 铁 | 地 锋 和 总 计 和 | 这 | 本 ”| 耻 | 呈 | 二 | 轧 ” _Al 4290 1 438 | 208 3118 | 144 | 158-| 158 | 1680 | 3547 | 13650 和 | 下 | 站 | 十 到 | 6 am| em 卫生 攻 到 世 As ia | ase | mo0 | om | smr | aa0 | on | row EECIEOEOIEIIECIEIEZ 6 | 1e0 [ oom | ssorl[8 [io 57 [oor 古训 2 7 3 | am | rm je ne| | ia 二 z ia EECIIECIEOEGE 名 | 下 交合 ar sy |_o or ws 本 至 本 到 至 EECOEDOEDEIEIECD XE, Nj ald 家 A 的 大 型 MS 网 点 数量， mi 表 示 体 育 馆 A 的 小 型 MS 网 点 数量 ， 世 表示 体 育 馆 A 各 商 区 和 顾客 购买 能 力 。C 表 示 每 个 大 型 MS 网 点 的 运营 成 本 ，c 表 示 每 个 小 型 MS 网 点 的 运 共 成 本 \"| (一 Cx Nj 一 cx nj) 则 表示 了 各 商 区 的 潜在 商业 赢利 额 ，mm 表 示 体 育 馆 A 的 站 点 % 和 到 MS 站 点 分 布 均衡 \"的 要 求 ， 我 们 认为 “均衡 ”意味 着 每 个 MS 点 的 “ 商 团 ? 影 响 范 围 均 匀 上 避免 出 现 某 些 商业 区 MS 站 点 过 于 密集 ， 商 圈 高 度 重 登 而 导致 竞争 激烈 ， 某 些 MS 站 点 分 布 过 于 稀 朴 ， 未 充分 挖 据 市 场 资源 。 所 以 ， 我 们 以 商 区 内 MS 点 的 货物 供应 总 量 与 顾客 需求 之 差 的 绝对 值 作为 是 否 均 衡 的 评价 指标 ， 其 值 越 小 则 该 商 区 MS 站 点 分 布 越 均衡 。 即 : pi-@xNj—gxn|SM (i=12...,m) @ 其 中 的 M 是 “站 点 分 布 均衡 指标 \"的 上 限 。 当 分 布 均衡 指标 小 于 时 AM， 认为 这 个 商 区 站 点 分 布 基 本 均衡 。 同时 ， 为 了 满足 顾客 购物 需求 ,， 还 要 保证 体育 场 的 货物 供应 总 量 不 小 于 顾客 总 需求 ， 即 : yw xQ@+ 放 xg>》 ps ®) i=1 i=1 EiiEaE G 第 7 期 基于 利润 最 大 化 的 奥运 商业 网 点 分 布 微观 经 济 模型 63 其 中 的 @ 表 示 每 个 大 型 MS 点 提 的 货物 供应 量 ，4 表 示 每 个 小 型 MS 点 的 货物 供应 量 。 我 们 用 顾客 购买 能 力 p; 来 近似 描述 顾客 的 需求 ， 对 体育 馆 A 的 商 区 建立 如 下 “网 点 最 优 赢利 模型 \"; max 全 四 -CxN -cxm) i=1 at (N;xQ+nyxq)=S ps = = Ipj—@x Nj—gxn| <M N;€Zn;€2 (i=12...,m) _ N; >0,n; 20 A7 二 \\d 6 ”模型 求解 2 对 于 “MS 网 点 最 优 癌 利 模型 \"， 我 们 合理 假设 每 个 大 型 MS 站 点 的 单 停 碟 为 天 万 元 ， 货物 供应 量 @ 为 120 方 元， 每 个 小 型 MS 站 点 的 单位 成 本 ?为 5 力 元 ， 货 Etiiatg 50 万 元 , “分 布 均 衡 化 上 限 \"指标 M 定 为 1000 元 。 通 过 Lingo 的 计算 ， 得 到 村 应 各 阅 点 MS 企 数 如 表 6。 _A0 #ARA B. C#MS3! ad 让 有 EECSIEIEGETESEOEOEOEOEG sa RNRERE[aT aslaalali Cvmo [o [o{o [5 [a [afola[1] EECIIECIEIEG [E 瑟 本 要 呈 琶 丁酉 可 国生 古国 本 EECIICIICI 3 芝 可 可 可 本 IE 7 “模型 评价 ”一 林村 刷 有关 下 有 关 经 济 学 理论 认为 ， 在 短期 内 ， 供 货 景 的 大 小 可 由 政府 办 观 调 由 或 商家 间 达 成 的 契约 达到 优化 配置 ， 但 消费 者 购买 力 的 变化 并 不 会 太 大 。 而 通过 灵 敏 度 析 发 现 ， 本 模型 的 结果 对 于 供 货 量 的 依赖 程度 高 ， 而 对 于 顾客 实际 购买 力 的 依 转 程 度 则 氏 。 即 ， 模 型 虽然 对 于 某 些 变量 的 依赖 程度 较 大 ， 但 仍 能 够 适应 现实 生活 中 市 场 熏 全 全 化 。 男 一 方面 ， 模 型 对 于 商业 区 的 运营 成 本 未 作 进一步 细 分 ， 可 以 把 运营 成 本 分 本 本 和 可 变 成 本 ， 对 模型 做 更 深入 的 讨论 。 同时 ， 注 意 到 原 题 中 所 附 的 调查 数据 只 有 33 色 的 回收 率 ， 包 含 的 有 效 信息 量 比较 低 。 所 以 如 何 提高 模型 的 稳定 性 ， 对 不 同 偏好 的 顾客 都 适用 ， 是 模型 需要 进一步 讨论 的 问题 。 参考 文献 : 国 卢 纹 贷 . SPSS for Windows 统计 分 析 〈 第 一 版 ) [M]. 北京 : 电子 工业 出 版 社 ，2002 [2) 王 海 忠 , 商 轿 研 究 的 理论 模型 [J]. 市 场 与 人 口 分 析 ，1999;5(3):23-25 [3 云 舟 工作 室 . 数学 建 模 基础 教程 [M]. 北京 : 人 民 邮 电 出 版 社 ，2001 (下 转 108 页 ) 民 BVE a Ra 和 los 工程 数学 学 报 和 其 孝 Optimizing Management of Transmitting-Electricity’s Jam-up in Electricity Market FAN Zhi-qiang， PAN Zi-jun， DAI Yu-chao Advisor: XIAO Hua-yong (Northwestern Polytechnical University, Xiran 710072 ) Abstract: We present the calculating method of jam-up fee, the algorithm of generating sets’ pre-distributing contribution scheme and the model of readjusting the pre-distributing scheme in this paper: Problem 1: Accord- ing to the 32 groups of experimental data we use multiple linear regression to found the linear representations, which are the 6 main lines’ tidal current values with regard to 8 generating sets’ contribution ar Shagr resentations pass significance test by using SAS8 software，Problem 2: Both out-order cezcit oo capacity are calculated according to the difference between liquidation price of pra-distiisuting\\stheme and quoted price corresponding to the contribution of readjusten scheme. T: is proved tka Wan fee equals to the charge's difference between pre-distributing scheme and reradiusted scheme “Pt ME There are two methods can be used to obtain the pre-distributing coaiibation scheme of fask generating set，One method gives the algorithm of maximum load each genrating set can fivich sudér every,interval price. This method has universality and small calculati=g quantity Anothr metiod is to found notlinéar 0-1 programming model by using goal programming. Pioilern 4 After tesiing the pre-distzibuting scheme in problem 3, we know the pre-distributing schermne will tause jazn-up. Considering that the lifies’tidal current should not exceed restricted value, se found single gonl programming model with the target, minimizing jam-up fee. Problem 5: For the load demand 1052.8MW, we obtain the pre-distributing scheme by/using the same method in problem 3. Because this scheme will cause jam-up, we found double objectives programming with one target, minimizing jam-up fee and the other target, minimizing ca which is the percentage of excessive part, tidal current absolute value exceeding restricted value, to the given restricted valué In order to reduce potential safety hazard, we choose the minimum a=5.16% to get our solution. @ Keywords: liquidation price; out-order 区 iin-order capacity; jam-up fee; multiple linear regression; goal programming 一 = ] (上 接 63 页 ) na Microeconomic Integer Programming 1 和 下 for Olympics， Mini Supermarket Allocation 人 XUE Fei, FU Qiang, XIE Jian V¥/, Advisor: HU Dai-giang NY ( Jinan University, Guangzhou 510632 ) Abstract: In this paper, the specific and somewhat specious or paradoxical feature of the data provided is first prudently examined and discriminated by multivariate statistical analysis and common sense. After identified the spectators’ in-and-out pattern in graph theory, simple, straightforward and practical integer programming model, rather than a complicated, theoretical and lofty one, is established to deal with this problem in a profit- versus-cost perspective. As proved again and again by simulation of Lingo and Matlab, the result conforms to reality and relevant economic theory, which could be reasonably serve as one of the realistic plans for the allocation of Mini Supermarket for Olympics 2008 in Peking. Keywords: multivariate statistical analysis; volume of fow of people; integer programming",
+  "normalized_text_chars": 16290,
+  "normalized_text_sha256": "FD63D1261973CFAA7EBCC8297D13A4128EC58D1039C130FCAA83811A5A8C53CD",
+  "page_provenance_summary": {
+    "OCR": 8
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "6B53E5F3876B061343425C704A4686697E475CCB46D5482089F01D1A902CF628",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "5A2ED6056D0D1BAF60A516474CA6BFD19FD07800C1B106D36B2E37D64D56CA36"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "B131DA56176553EE0CE1475C45752CD5FE4069315922E99FAE57A4D1CE93EFD9",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "521FF2D373BDA093620DAC43DA2DF7F011B74B7B9AE19DD16A1763BDECD6B658"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "2A6CA88D280FFDC629CEE39CB34CD18726FFCC6595B856F87B51B7E8B3FE84D6",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "0C2ACB04B55551BBD50FB891EF8732588A3F19969C983FA6CE5DE4F057768242"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "9CD25FD64CE5404B3BEDD860797BE976AFC0F3F0DE394541475BFA68689F6EB2",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "CAF725B3A0665FAD7A35958CD768824AD27B8E53160239DC5634B9659BA7E421"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "6FC68B4F7E5085C09CB72858735568606704EA2992EF3150124E534AB3A4A257",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "4165ACED64506CD70F24A201EDB922F58FD0230C9B128CEBAB3B1DAF14D46D85"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "41157F066277CC717CAD2484468B9DEC7409D3F332D3A768016B86CCC65AEF83",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "21296BB4898458802667061941AEEC4852B41A3D2286ADCDF2432FF073B7EBA0"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "E96425D26969979829E6B736181B22C4912DFE27C84422496E06FBE742D865F7",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "3C07A0455333CFEDFF628085EBF5F7A7C9F97D2D7613380A24E584D9600D17FA"
+    },
+    {
+      "page_number": 8,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "290F969B0F4BAF468057981C094F8089BD86545EB33E1459082B7214D1FC4787",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 8,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "D58507268CE3AE7109BCAA88AB47F38E02650128849CD2207210E8F8AA9F553F"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

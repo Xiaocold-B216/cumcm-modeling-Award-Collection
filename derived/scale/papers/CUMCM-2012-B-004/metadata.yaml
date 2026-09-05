@@ -1,0 +1,33 @@
+paper_id: CUMCM-2012-B-004
+year: 2012
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/20121784.pdf
+  sha256: 4F77564CCFC4B9D56403654EE6993F1AF6C9489DB428C15D4AF8DFC6517E97BE
+authority_sha256: 4F77564CCFC4B9D56403654EE6993F1AF6C9489DB428C15D4AF8DFC6517E97BE
+paper_file_memberships:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/20121784.doc
+  role: primary
+  canonical: false
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/20121784.pdf
+  role: primary
+  canonical: false
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/20121784.pdf
+extraction_inputs:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (3)/20121784.pdf
+  sha256: 4F77564CCFC4B9D56403654EE6993F1AF6C9489DB428C15D4AF8DFC6517E97BE
+  kind: original
+extraction_input_sha256: 4F77564CCFC4B9D56403654EE6993F1AF6C9489DB428C15D4AF8DFC6517E97BE
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q0/Q1 Native Markdown Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 18
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true

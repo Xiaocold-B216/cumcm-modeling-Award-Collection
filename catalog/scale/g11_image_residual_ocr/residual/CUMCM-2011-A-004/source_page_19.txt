@@ -1,0 +1,37 @@
+[c2 d2]=find(data(:, 4)==2) ;
+X2=data(c2, 1) ;
+y2=data(c2, 2) ;
+hold on
+plot (X2, y2,” k¥")
+[c3 d3]=find(data(:, 4)==3) ;
+x3=data(c3, 1) ;
+y3=data(c3, 2) ;
+plot (x3, yY3，cx )
+[c4 d4]=find(data(:,4)==4);
+x4=data(c4, 1) ;
+y4=data(c4, 2) ;
+plot (x4, y4，Yyx )
+[c5 d5]=find(data(:, 4)==5) ;
+x5=data(c5, 1) ;
+y5=data(c5, 2) ;
+plot (x5, y5， gx )
+grid on
+legend( 等 值 线 ， 生 活 区 ,工业 区 贞 区  ， 交 通 区  ， 绿 地 区 ” ) ;
+cu=reshape (z, 301%¥201, 1) ;
+a=reshape (x, 301%201, 1) ;
+b=reshape (y, 301%201, 1) ;
+save cu a b cu % 训 练 神 经 网 络 数据 集
+save dist cl c2 c3 c4 c5 ，% 不 同 区 域
+物 水 玉米 水 水 玉 玉 玉 玉 玉 玉 玉米 水 玉 玉 玉 玉 玉 玉 水 玉 水 玉 玉 玉 玉 玉米 水 玉 玉米 玉米 玉 洲 玉 玉 玉 玉 玉 玉 炒米 水 炒 洲
+% 程 序 功能 :比较 不 同 区 域 污染 指数
+% 建 立 日 期 : 2011/9/9
+% 程 序 员 : Hec1990
+物 水 玉米 水 水 玉 玉 玉 玉 玉 玉 水 玉 水 玉 玉 玉米 水 玉米 水 玉 玉 玉米 玉 洲 玉 玉 玉 玉 米 玉 玉米 玉米 玉米 玉米 玉米 玉 水
+function comp ()
+load datal
+load beij
+for i=1:8
+a(:,1)=(datal (:,i)-beij(i, 1)) /beij(,2);
+end
+As=a(:, 1);Cd=a(:, 2) ;Cr=a(:, 3) ;Cu=a(:, 4) ;Hg=a(:, 5) ;Ni=a(:, 6) ;Pb=a(:, 7) ;Zn=a(:, 8)
+19

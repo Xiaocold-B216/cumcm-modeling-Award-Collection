@@ -1,0 +1,65 @@
+clear ze1 zf1 zg1 zh1
+end
+end
+e3=[];f3=[];g3=[];h3=[];
+for i=1:16
+for j=1:4
+[ze1,zf1,zg1,zh1] = oneStep( f2(i,j),dT,T,g2(i,j),h2(4*(i-1)+j,:) );
+e3=[e3;ze1];f3=[f3;zf1];g3=[g3;zg1];h3=[h3;zh1];
+clear ze1 zf1 zg1 zh1
+end
+end
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+for i=1:4
+e1(i,:)=e1(i,:)+e(i);
+end
+for i=1:4
+for j=1:4
+e2(4*(i-1)+j,:)=e2(4*(i-1)+j,:)+e1(i,j);
+end
+end
+for i=1:4
+for j=1:4
+for k=1:4
+e3(16*(i-1)+4*(j-1)+k,:)=e3(16*(i-1)+4*(j-1)+k,:)+e2(4*(i-1)+j,k);
+end
+end
+end
+
+微
+
+信
+
+公
+
+附录三：xunhuan.m
+function [N,mm] = xunhuan( a,T,lj,t0,b,c )
+%给迭代迈步循环提供函数
+%初始路径移动
+N=8;
+for i=1:4
+%RGV 每一步移动
+dT=[0,T(1:3)];
+d=dT(abs(a-lj(i))+1);
+a=lj(i);
+t0=t0+d;
+%RGV 为单个奇数 CNC 上料
+M(2*(i-1)+1,1)=t0;
+t0=t0+T(5);
+b(2*(lj(i)-1)+1)=1;
+28
+
+

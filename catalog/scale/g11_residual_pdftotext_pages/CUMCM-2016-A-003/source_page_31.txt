@@ -1,0 +1,42 @@
+for i=1:n
+gama(i+1)=atan(Ft2(i)*sin(gama(i))/(Ft2(i)*cos(gama(i))+Fmfu-Gm));
+if gama(i+1)<0
+gama(i+1)=gama(i+1)+pi;
+end
+Ft2(i+1)=Ft2(i)*sin(gama(i))/sin(gama(i+1));
+thita2(i)=atan(Ft2(i)*sin(gama(i))*Lm/((Fmfu-Gm)*Lm/2+Ft2(i)*cos(gama(i))*L
+m));
+if thita2(i)<0
+thita2(i)=thita2(i)+pi;
+end
+end
+H=h+sum(cos(thita1))+cos(beta)+Lm*sum(cos(thita2));
+if abs(H-18)<min
+minh=h;
+min=abs(H-18);
+minH=H;
+minthita1=thita1;
+minthita2=thita2;
+minbeta=beta;
+minFt2=Ft2;
+end
+end
+if minthita2(n)>pi/2%ÅÐ¶ÏÊÇ·ñ´¥µ×
+[r,minh,minbeta,minthita2,minH]=tuodir(n,mq);
+else
+r=Lm*sum(sin(minthita2))+sin(minbeta)+sum(sin(minthita1));
+end
+if minbeta*180/pi>5%¸ÖÍ°Çã½Ç²»³¬¹ý5¶È
+continue;
+end
+if (90-minthita2(n)*180/pi)>16%Ä©¶ËÃªÁ´Óëº£´²¼Ð½Ç²»³¬¹ý16¶È
+continue;
+end
+if abs(minH-18)>0.2
+continue;
+end
+a=36/pi;b=1.5;c=1/20;
+fenshu=a*minbeta+b*minh+c*r;
+31
+
+

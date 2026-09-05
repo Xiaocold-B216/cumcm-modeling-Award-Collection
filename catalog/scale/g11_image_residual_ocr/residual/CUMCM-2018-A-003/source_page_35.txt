@@ -1,0 +1,46 @@
+回味
+IE 地
+3
+cout<<endl;
+}
+for(int ii=1;ii<9sii++){
+for(int jj=03j<100;jj++){
+if(endtime [ii][jj]!=0) {
+cout<<ii<<" : "<<endtimel[ii][jj]<<"";
+cout<<endl;
+}
+}
+}
+for(int ii=1;ii<9;ii++){ %
+for(int jj=03j<2003jj+=2){ 二 NY
+if(endtime2[ii][jj]!=08&&endtime2[ii][jj]!=-1){ 2 \)
+cout<<ii<<" : "<<endtime2[ii][jj]<<" "<<en on
+cout<<endl;
+| 名
+else if(endtime2[ii][jj]==-1){ SN
+了 o
+cout<<ii<<" : 0 "<<endtime2[ii][jj+1]<<"
+"<<endtime2[ii][jj+2];
+jj 0
+cout<<endl; $O, O
+) YA
+}
+} 放
+) AN
+void out(int worse) {Ui exce 结果
+if(worse == -1
+o 人
+My iiii<9:itH){
+和 for(int jj=0jj<1003jj++) {
+他 max_endtimel[ii][jj]= endtimel[ii][jj];
+] N }
+NY ，
+for(int ii=13ii<9;ii++){
+for(int jj=03j<2003jj+=1){
+max_endtime2[ii][jj] = endtime2[ii][jjl;
+}
+}
+for(int i=13i<9;i++){
+max_numml[i] = numm]l[i];
+max_numm?2[i] = numm2[i];
+35

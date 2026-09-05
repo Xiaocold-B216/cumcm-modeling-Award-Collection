@@ -1,0 +1,41 @@
+全
+155 axl = plt-gea0)
+154 ax. set_yaa 15000 .62000)
+155 ax2 = azl.tatasO)
+156 axlplos(range 126).6[1:] ,labele 每 国 成 本 外
+157 azxl.plot(range(1,25),w[1:] ,label=' 每 周 剩余 库存 ')
+158 axi.plot(range(1,26) ,Everyyeex-get[1:] ,labeln' 每 周 进货 ')
+159 axi.plot(range(1, 25), [26200 + 2]+24, label='# f #  ')
+100 ax2-bar(range (1,26), LOSTL1 1:]  Labelet  7 5 H18 & "alphav0.3,boteos=0)
+161 ax2.bar(range (1,25),L0ST(2,1:], 1abel=" & f f % #2 & *,alpha=0.3 , botton=10STe"
+4)
+162 ax2.bar(range(1,25),LOST[3,1:] ,label=， 每 周转 运 商 3 损失 ，,alphar0.3,bottom=LOST+
+1910sT[2.12
+163 ax2.bar(range(1,25) ,LOST[4,1:] ,label=， 每 周转 运 商 4 损失 ，,alphar0.3,bottom=LOST+
+13910sT[2.121+108T[3.12)
+ie4 ax2.aet-ylia(o .200
+I65 leganaQleee .neo “5
+166 plt.xlabel(' 安 排 周 数 ，)》 ~
+0 闪 似
+和 IL
+aa 从 你
+1
+171 plt.ahos() .
+二
+入 仔
+及
+ET
+2 iaport randon
+aa
+4 iaport aatplotlib .pyplot as Pht
+© pie.rcParsas(*font.suns-serit'] » ['Sishes’]
+7
+randon aeea(o)
+9 aaf teat_tuneCeap_praa vaaae):
+10 间 1， 对 象 定义 与 解释
+划 Cost_sccumaiated = np.zeroncl, 251)
+四
+13 二 供应 商 1-50 对 应 的 代号 ， 排 序 顺 序 为 第 一 问 中 评分 高 低
+14 Gongyingmame = [] # 学 特惠 ， 从 1 开始 ， THE
+15 * REMI-BHENRE, RAMENFLEE
+16 zhanayanane = 01

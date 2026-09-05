@@ -1,0 +1,44 @@
+paper_id: CUMCM-2017-B-001
+year: 2017
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q2
+authority_sources:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (3).pdf
+  sha256: 868338C91C96EF687737C15C64C042945F2ED7BCB7D534F7FCF9F84E85426550
+authority_sha256: 868338C91C96EF687737C15C64C042945F2ED7BCB7D534F7FCF9F84E85426550
+paper_file_memberships:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (3).pdf
+  role: primary
+  canonical: true
+primary_file: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (3).pdf
+extraction_inputs:
+- path: derived/scale/pdf_ocr/CUMCM-2017-B-001.readable.pdf
+  sha256: EF200E56DCDF91EC5F9611C85B411BCC29B17AC3866751EEF1FD471637A99C8E
+  kind: g8_q2_ocr_derivative
+extraction_input_sha256: EF200E56DCDF91EC5F9611C85B411BCC29B17AC3866751EEF1FD471637A99C8E
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: poppler-pdftotext
+page_count: 51
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+repair_provenance:
+  stage: G8-Q2-R
+  paper_id: CUMCM-2017-B-001
+  source_file_path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (3).pdf
+  source_sha256: 868338C91C96EF687737C15C64C042945F2ED7BCB7D534F7FCF9F84E85426550
+  derived_file_path: derived/scale/pdf_ocr/CUMCM-2017-B-001.readable.pdf
+  derived_sha256: EF200E56DCDF91EC5F9611C85B411BCC29B17AC3866751EEF1FD471637A99C8E
+  page_count: 51
+  ocr_engine: tesseract.js
+  ocr_engine_version: 7.0.0
+  ocr_languages: chi_sim+eng
+  page_audit_rows: 51
+  unexplained_pages: 0
+  status: PASS

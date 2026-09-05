@@ -1,0 +1,77 @@
+第 31 卷第 1 期
+数学的实践与认识
+V o l131 N o 11
+2001 年 1 月
+J an. 2001
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+The Prohlem on Survey ing of the Vacan t
+Holes and the Relevan t M a tters
+HAN J ie 2p ing
+
+(N o rthea stern E lectric Pow er In stitu te,
+
+In th is p ap er the backg round, m odel, a lgo rithm and som e comm en ts in judg ing of
+
+研
+
+the p robem D in the CUM CM 2000 a re in troduced sim p ly.
+
+讯
+
+：
+科
+
+简
+
+132012)
+
+交
+
+Abstract:
+
+J ilin
+
+流
+
+GU AN X in,
+
+号
+
+第七届全国数学建模教学与应用会议论文集
+将在本刊今年第 5 期发表
+
+公
+众
+
+第七届全国数学建模教学与应用会议于 2000 年 8 月 17 日至 20 日在郑州举行, 来自全国 27 省 ( 市、自
+治区) 205 所院校的代表 283 人出席会议. 这次会议是在教育部高教司和中国工业与应用数学学会的领导
+下, 由全国大学生数学建模竞赛组委会和中国工业与应用数学学会数学模型专业委员会组织、由中国人民
+解放军信息工程大学承办的, 中科院院士、中国数学会副理事长丁伟岳教授出席了会议.
+这次会议是 1986 年第一届会议以来出席人数最多的一次, 特别是 30 岁左右的年轻人占大部分, 而且
+
+信
+
+第一次有中学教师参加, 充分显示出我国从事数学建模教学与应用的队伍在不断壮大
+从 1989 年, 特别是 1994 年以来, 在教育部的领导和指导下, 我国数学建模教学与应用活动取得很大
+
+微
+
+成绩, 具体表现在: 参加过国内外数学建模竞赛的大学生超过四万人, 通过赛前准备、竞赛三天的拼搏和赛
+后继续三个阶段的努力, 他们的能力普遍获得很大提高; 培养出一大批年轻教师; 推动了数学教学改革; 推
+动了中学生数学知识应用活动; 为进一步发展我国的应用数学事业提出了许多值得思考的问题. 这次会议
+也是为明年将在我国召开的第十届国际数学建模教学与应用会议作准备.
+四天的会议安排了多项大会报告和分组报告. 这些报告经整理后将以论文形式在本刊 2001 年第 5 期
+发表. 分为“数学建模与数学教育”
+、
+“ 数学建模教学与竞赛”
+、
+“ 数学建模应用”
+、
+“ 数学建模方法”等专栏.
+
+© 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

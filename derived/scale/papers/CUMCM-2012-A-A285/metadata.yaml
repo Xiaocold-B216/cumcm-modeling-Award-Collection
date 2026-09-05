@@ -1,0 +1,36 @@
+paper_id: CUMCM-2012-A-A285
+year: 2012
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q2
+authority_sources:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/A285.pdf
+  sha256: CA15AFED80D166CDB2F7232C220A2F1B0C6269199F13D48CF852973F19AA78AC
+authority_sha256: CA15AFED80D166CDB2F7232C220A2F1B0C6269199F13D48CF852973F19AA78AC
+paper_file_memberships:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/A285.pdf
+  role: primary
+  canonical: true
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价/A285.pdf
+extraction_inputs:
+- path: derived/scale/pdf_ocr/CUMCM-2012-A-A285.readable.pdf
+  sha256: 32FEB1EF499FC72D45FF36E988DFEC919A8E00F916078DC29114AAEED61B780A
+  kind: g8_q2_ocr_derivative
+extraction_input_sha256: 32FEB1EF499FC72D45FF36E988DFEC919A8E00F916078DC29114AAEED61B780A
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: poppler-pdftotext
+page_count: 41
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+repair_provenance:
+  stage: G8-RM-Q2
+  source_sha256: CA15AFED80D166CDB2F7232C220A2F1B0C6269199F13D48CF852973F19AA78AC
+  derived_sha256: 32FEB1EF499FC72D45FF36E988DFEC919A8E00F916078DC29114AAEED61B780A
+  derivative_file_path: derived/scale/pdf_ocr/CUMCM-2012-A-A285.readable.pdf
+  source: existing local frozen derivative; no OCR rerun

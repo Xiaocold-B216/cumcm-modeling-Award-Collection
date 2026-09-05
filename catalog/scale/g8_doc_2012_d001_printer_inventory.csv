@@ -1,0 +1,3 @@
+name,driver,port,shared,published,inventory_method
+Microsoft Print to PDF,Microsoft Print To PDF,PORTPROMPT:,UNAVAILABLE,UNAVAILABLE,REGISTRY_READ_ONLY_FALLBACK
+OneNote (Desktop),Send to Microsoft OneNote 16 Driver,nul:,UNAVAILABLE,UNAVAILABLE,REGISTRY_READ_ONLY_FALLBACK

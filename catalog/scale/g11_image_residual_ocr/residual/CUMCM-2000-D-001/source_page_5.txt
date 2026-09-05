@@ -1,0 +1,39 @@
+到
+四
+1 其 邹 建 光 等 ; 空洞 探测 >
+ji= 40Xsim (TV4)= 28 3( 米 ) Q1 p7
+人 aoxin Lo SC
+hr 40xamnZopi， UL
+AN
+F £0+P3P4> LO7P2P:> 4 ,所 以 1a3> h2> h> S¢ N% 'R
+28 ( 米 ) 同 理 有 ”ja> ja> jas> 28( 米 ), 即 在 波源 [Xe
+付 近 径 大 米 的 空 站 i 成 , 这 些 空 | SN
+附近 存在 直径 大 于 28 米 的 空间 区 域 ,这 些 空间 区 AAA
+域 是 仪器 的 精度 可 以 探测 到 但 却 因 减 少 波源 和 接 5¢ LAN 呈 ?
+受 器 的 个 数 而 使 波束 线 无 法 达到 的 死 区 , 如 在 这 人 EC 二
+些 区 域 中 有 空洞 存在 , 则 将 被 漏 测 ”AN
+由 对 称 性 分 析 , 在 接受 器 附近 也 存在 类 似 的 3
+情况 三“
+在 PC, 直线 和 Pz， 直线 中 点 附近 20 米 的 地 方 , 也 是 仪器 测量 的 邢 区 , 如 果 存 在 空洞 ，
+也 无 法 探测 到 , 所 以 仅 靠 纵向 探测 装置 是 不 行 的 NS
+要 想 保证 确定 空洞 的 位 置 , 可 分 别 在 RiR， 的 中 点 Rs ReR， 的 中 点 各 设置 1 个 波
+源 , CD 边 对 等 地 安放 了 3 个 接受 器 ， 由 作 图 法 可 知 \ 如 缆 婚 可 解决 理由 1 中 提出 的 困难 , 又
+能 消除 48 边 和 CD 边 附近 的 死 区 , 按 此 设置 使 波源 条 接 受 器 减少 4 对
+7 对 模型 的 评价 和 改进 ®
+ebaRalmeili » 7 Allieioi 然后 通过 简单 计算
+确定 空洞 的 位 置 及 近似 的 洞 径 , 模型 外 驳 , 计算 简单
+方案 2 先 将 任 一 波束 线 上 测 得 的 空 油 总 长 平均 分 配给 所 经 过 的 各 方 格 区 域 , 而 后 对 每
+一 方 格 区 域 所 分 配 的 诸 和 移 油 医 再 求 几何 平均 值 ， 作为 空洞 存在 与 否 的 判 据 , 所 依赖 的 假设
+少 , 结果 合理 可 信
+但 两 方案 均 估 和 于 溯 权 阴 区 , 若 空洞 的 分 布 跨越 多 个 方 格 区 域 , 则 应 寻求 更 为 普遍 的
+模型 与 算法 1
+24 )
+2
+Exploring Cavity
+洽 Z0U Jian-guang, L U Dan-juan, ZENG De-gang
+(Yueyang NomalU niversity, Yueyang 414006)
+Abstract Two schemes were proposed in this paper The method of connecting two points
+with straight line w as adop ted in thd first scheme based on data analysis, the position of cavities
+being found with smaller calculation amount By calculating geom etrical average value of cavity
+size, the position of cavities w as found in the second scheme
+-200 Academic Journa t H i reserved t w.cnki.net

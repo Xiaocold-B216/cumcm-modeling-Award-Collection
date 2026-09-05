@@ -1,0 +1,62 @@
+G=[];
+for i=1:20
+[m(i),m1(i),TMT(i),GZ] = f304( );
+G=[G;GZ];
+clear GZ
+end
+A=[TMT;m1];
+A=A';
+
+交
+
+流
+
+B(1)=A(1,2);
+for i=2:20
+B(i)=B(i-1)+A(i,2);
+end
+
+研
+
+[mm,nn]=size(G);
+C=zeros(1,mm);
+C(B)=1;
+
+号
+
+：
+科
+
+G=[G,C'];
+D=zeros(19,5);
+for i=1:19
+D(i,1)=i+1;
+end
+
+信
+
+公
+
+众
+
+for i=1:19
+[mm,nn]=size(G);
+G=[G(1:B(i),:);D(i,:);G(B(i)+1:mm,:)];
+B=B+1;
+end
+G=[[1,zeros(1,4)];G];
+G(:,5)=[];
+
+微
+
+ZM=[mean(A(:,1)),mean(A(:,2))];
+ZMM=std(A,0,1);
+A=[A;ZM;ZMM];
+附录二十二：f401.m
+function m = f401( T )
+%RGV 当前时间
+t0=0;
+%RGV 当前位置[1,2,3,4]
+89
+
+

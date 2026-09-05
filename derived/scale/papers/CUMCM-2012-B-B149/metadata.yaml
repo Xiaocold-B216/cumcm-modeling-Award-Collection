@@ -1,0 +1,47 @@
+paper_id: CUMCM-2012-B-B149
+year: 2012
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/B149答卷.pdf
+  sha256: 90C31398DACDA50949D10FA75F60E736B124E3947F908667F32FDD5C81F24CE8
+authority_sha256: 90C31398DACDA50949D10FA75F60E736B124E3947F908667F32FDD5C81F24CE8
+paper_file_memberships:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/B149答卷.pdf
+  role: primary
+  canonical: true
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/B149答卷.pdf
+extraction_inputs:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (4)/B149答卷.pdf
+  sha256: 90C31398DACDA50949D10FA75F60E736B124E3947F908667F32FDD5C81F24CE8
+  kind: original
+extraction_input_sha256: 90C31398DACDA50949D10FA75F60E736B124E3947F908667F32FDD5C81F24CE8
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 30
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_EXISTING_TRUSTED_TEXT_RECONSTRUCTION"]
+  repaired_source_pages: ["28"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_residual_pdftotext_calibration/positive/CUMCM-2012-B-B149/source_page_28.txt"]
+  source_sha256: 90C31398DACDA50949D10FA75F60E736B124E3947F908667F32FDD5C81F24CE8
+  current_body_sha256: B390B10902BDD0C7084ABD14422CD69A235169EC9D23400AE61EDBCD4F91E764
+  candidate_body_sha256: EEF3361A4AE791B1B7176AEA0F4A54D95BCFA4D2A66B8DBB38C2AD3FB10E8019
+  source_page_count: 30
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

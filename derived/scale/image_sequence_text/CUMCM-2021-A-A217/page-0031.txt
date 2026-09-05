@@ -1,0 +1,34 @@
+% area = area(-isnan(area));
+6tri_area  tri_area(-isnan(area));
+rec_ratio = sum(tri_area *area)./(150%150°pi);
+if WORKING
+disp(" 工 作 接收 比 : "+mat2strtree_ratio.17))
+else
+disp(" 基 准 接收 比 : "+mat2strtrec_ratio.17))
+end
+end
+function plot_2d_texture( WORKING)
+% 画图
+% 24， 放 大 界面 纹理 ， 工 作 界面 和 基准 态 都 要 绘制
+%
+[xyz ~ data, XYZ] = me_integral WORKING);
+Hi datatriangle(:[13 1])
+plot(reshape(XYZ(tri,1) size(tri))reshape(XYZ(tr, 2)size(tri) K):
+hold on;
+AZz = vertea(syz{:});
+Plol(xyz(:. 1)xy2(:,2) 下 并
+axis equal
+Mim(-90.30]):
+lim([-30.30]),
+styleCfontname’, ‘fontsize");
+if WORKING
+fastprint( 图 片 /prob3. 结 果 . 纹 理 对 比 ( 工 作 态 )7
+else
+fastprint( 图 片 /prob3. 结 果 . 纹 理 对 比 ( 基 准 态 )7,
+end
+end
+function plot_working_illu_3d(WORKING)
+% 画图
+%3d, 体现 出 工作 界面 的 反射 光 聚 焦 于 焦点
+% 这 张 图 只 在 工作 界面 时 绘制 ， 不 在 基准 态 绘制
+31

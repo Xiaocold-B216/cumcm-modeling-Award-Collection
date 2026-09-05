@@ -1,0 +1,40 @@
+ERE
+多
+RE
+vector<{vector<int> > temp;
+OnceBusChange (iter->second,
+NEND, temp, AllLines, AllBuses, RoadCrossInfo );
+int c = temp.size();
+for (int kk=0; kk<temp. size() ; ++kk)
+{
+FeasibleLine[0] = nStart pos ; FeasibleLine[1] = nCurLineName;
+FeasibleLine[2] = m ; FeasibleLine[3] = temp[kk][0];
+FeasibleLine[4] = temp[kk][1]; FeasibleLine[5] = k][2];
+FeasibleLine[6] = temp[kk][3]; FeasibleLine[7] ts 1;
+FeasibleLine[8] = temp[kk][5]; \
+2/ 一
+// int s = temp[kk][1]; 从 一
+// int sl = temp[kk][0];
+// int s2 = temp[kk][1];
+// int s3 = temp[kk][2]; 全
+// int s4 = temp[kk][3]; 人
+// int s5 = temp[kk][4];
+//
+// if (M1Lines[FeasibleLine[4]-1]. LineInfo[FeasibleLine[3]] ==
+3984 && [o]
+// eereomrm ==
+3993 )
+// {
+// =0;
+[/ 一 -7
+人 YVosiesoee push_back ( FeasibleLine ) ;
+%
+ToRailWay. erase ( iter );
+WS~-
+}
+}
+if ( !FeasibleSolve.empty() )
+bHaveFound = true;
+return bHaveFound;
+}
+53

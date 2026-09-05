@@ -1,0 +1,47 @@
+ERE
+本
+7， 参 考 文献
+
+[1] 付 邦 林 . 倾 斜 油 饶 容 量 的 计算 [四 .黑龙江 八 一 农 展 大 学 学 报 ，1981: 43-52
+[2] 刘 玉 娟 ， 陈 应 祖 ， 卢 克 功 . 龙 贝 格 积分 法 及 其 应 用 编程 四 ,重庆 科技 学 院 学 报 ，
+
+2007 (3) :97-100
+[3] 高 恩 强 ， 丰 培 云 . 卧 式 倾斜 安装 圆柱 体 油 饶 不 同 液 面 高 度 时 贮 油 量 的 计算 四 .
+
+山东 冶金 ，1998 (2): 26-28
+[4] 管 于 年 ， 赵 海 . 卧 式 储 油 饶 内 油 品 体积 标定 的 实用 方法 加 .计量 与 测试 技术 ，
+
+2004 (2): 36
+[5] 姜 启 源 ， 数 学 模型 〈 第 三 版 ) [M. 北京 : 高 等 教育 出 版 社 ，2003，59-121
+[6] 施 光 燕 ， 董 加 礼 . 最 优化 方法 [M . 北京 高 等 教育 出 版 社 ，1999, 63-107
+-和 从，
+将 h
+7
+8， 附录 任
+附录 一 : 龙 贝 格 积 分 matlab 程序 汉
+o% 一 一 -一 一 一 一 一 一 全
+function R = romberg(f, a, b, n) K
+format long
+% ROMBERG -- Compute Romberg table integral approximation.
+% o
+% SYNOPSIS: %%
+%  R=romberg(f, a, b, n)
+% PR
+% DESCRIPTION:
+%  Computes the.complete 中 erg table approximation to the integral
+%
+% of ,|
+% 1 7 fx) dx
+下 和
+xsSA
+%p ARAM TERS:
+% | SN The integrand. Assumed to be a function callable as
+% y=1(x)
+% with 'x'in [a, b].
+% a  - Left integration interval endpoint.
+% b -Right integration interval endpoint.
+% n -Maximum level in Romberg table.
+%
+% RETURNS:
+% R  -Romberg table. Represented as an (n+1)-by-(n+1) lower
+-17 -

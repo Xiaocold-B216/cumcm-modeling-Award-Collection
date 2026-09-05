@@ -1,0 +1,38 @@
+TD
+FL
+forrin range(sheet.nrows):
+ID.append(sheet.cell_value(r, 0))
+FLappend(sheet.cell value(r, 1)
+excel = xlrd.open_workbook(* 订 单 量规 划 结果 xlsx' by
+sheet = excelsheet_by_name('Sheet1’)
+AW-[
+BW-[]
+CNw-
+forein range(1, sheet.ncols):
+AN-0
+BN-0
+CN-0
+A=[
+B-[)
+c-q
+forrin range(1, sheet.nrows):
+s =sheet.cell_valuer, c)
+ifFLI--A'
+AN
+Aappend(fs)
+诊 FLI3BL
+BN+<s
+Bappend(lsn)
+ifFLI-C:
+CN+=s
+Cappend([sn)
+AW.append(AN)
+BW.append(BN)
+CW.append(CN)
+workbook = xlsxwriter Workbook(ABC_quanjuxlsx) # 建立 文件
+worksheet = workbookadd worksheet) 六 建立 sheet ， 可 以
+workadd_worksheet(employee) 来 指定 sheet 名 ,但 中 文 名 会 报 UnicodeDecodeErro
+的 错误
+worksheetwrite(l. OA
+worksheel write(2, 0. 'B)
+四

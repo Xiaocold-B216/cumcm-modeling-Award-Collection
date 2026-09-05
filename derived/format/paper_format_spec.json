@@ -1,0 +1,4715 @@
+{
+  "abstract": {
+    "body": {
+      "alignment": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 112,
+        "sample_ratio": 0.8304,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "JUSTIFIED_OR_FULL"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 112,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 111,
+        "sample_ratio": 0.9189,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 110,
+        "sample_ratio": 0.267,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "mm",
+        "value": 8.5
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 112,
+        "sample_ratio": 0.6964,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 111,
+        "sample_ratio": 0.2694,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 12.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 112,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 111,
+        "sample_ratio": 0.2694,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": 1.3
+      },
+      "line_spacing_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 111,
+        "sample_ratio": 0.2694,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 15.6
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 112,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 111,
+        "sample_ratio": 0.2694,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 0.0
+      }
+    },
+    "label": {
+      "alignment": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 115,
+        "sample_ratio": 0.9217,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "CENTER"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 115,
+        "sample_ratio": 0.9565,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 114,
+        "sample_ratio": 0.8158,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "四号"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 115,
+        "sample_ratio": 0.6957,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 114,
+        "sample_ratio": 0.2767,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 14.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 115,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 115,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    }
+  },
+  "appendix": {
+    "body": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 0.4416,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": "LEFT_OR_MIXED"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 76,
+        "sample_ratio": 0.5395,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 77,
+        "sample_ratio": 0.1869,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "mm",
+        "value": 13.0
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 0.6234,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 76,
+        "sample_ratio": 0.1845,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 11.6
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 74,
+        "sample_ratio": 0.1796,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": 1.3
+      },
+      "line_spacing_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 74,
+        "sample_ratio": 0.1796,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 15.6
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 0.9091,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 74,
+        "sample_ratio": 0.1796,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 31.2
+      }
+    },
+    "code": {
+      "alignment": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 61,
+        "sample_ratio": 0.623,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "LEFT"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 61,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 61,
+        "sample_ratio": 0.5738,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 61,
+        "sample_ratio": 0.5738,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 61,
+        "sample_ratio": 0.1481,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 12.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 61,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 60,
+        "sample_ratio": 0.1456,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": 1.4
+      },
+      "line_spacing_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 60,
+        "sample_ratio": 0.1456,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 15.6
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 61,
+        "sample_ratio": 0.9836,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 60,
+        "sample_ratio": 0.1456,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 31.2
+      }
+    },
+    "heading": {
+      "alignment": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 51,
+        "sample_ratio": 0.6078,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "CENTER"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 51,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 50,
+        "sample_ratio": 0.72,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "四号"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 51,
+        "sample_ratio": 0.5882,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 50,
+        "sample_ratio": 0.1214,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 14.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 51,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 51,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    },
+    "title": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 0.4026,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": "JUSTIFIED_OR_FULL"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 0.961,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 76,
+        "sample_ratio": 0.4868,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 0.6234,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 76,
+        "sample_ratio": 0.1845,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 12.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 22,
+        "sample_ratio": 0.0534,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 22,
+        "sample_ratio": 0.0534,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 22,
+        "sample_ratio": 0.0534,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    }
+  },
+  "body": {
+    "alignment": {
+      "confidence": "MEDIUM",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 202,
+      "sample_ratio": 0.3762,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "",
+      "value": "LEFT_OR_MIXED"
+    },
+    "bold": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 202,
+      "sample_ratio": 1.0,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": false
+    },
+    "closest_chinese_size": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 200,
+      "sample_ratio": 0.65,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": "小四"
+    },
+    "first_line_indent_mm": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 202,
+      "sample_ratio": 0.4903,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "mm",
+      "value": 11.2
+    },
+    "font_family": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 201,
+      "sample_ratio": 0.806,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": "SimSun/Song"
+    },
+    "font_size": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 200,
+      "sample_ratio": 0.4854,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "pt",
+      "value": 12.0
+    },
+    "italic": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 202,
+      "sample_ratio": 0.9752,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": false
+    },
+    "line_spacing_multiple": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 200,
+      "sample_ratio": 0.4854,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "",
+      "value": 1.5
+    },
+    "line_spacing_pt": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 200,
+      "sample_ratio": 0.4854,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "pt",
+      "value": 15.8
+    },
+    "numbering_style": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 202,
+      "sample_ratio": 0.9851,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": "none"
+    },
+    "paragraph_spacing_after_pt": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 200,
+      "sample_ratio": 0.4854,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "pt",
+      "value": 31.2
+    }
+  },
+  "corpus_snapshot": {
+    "HEAD": "557724fba6572d4d83dc421feda5b17b13ff8d66",
+    "authoritative_catalog_files": [
+      "catalog/papers.csv",
+      "catalog/paper_files.csv",
+      "catalog/files.csv"
+    ],
+    "authoritative_manifest_files": [
+      "catalog/scale/g8_paper_status.csv"
+    ],
+    "branch": "library-refactor-v1",
+    "corpus_count": 677,
+    "corpus_identity_fingerprint": "C5481E220EAE311395EDCBB49B9E7DB9FE846BC9DA0BD93E6FCBFAE0AA72A7DD",
+    "corpus_identity_fingerprint_end": "C5481E220EAE311395EDCBB49B9E7DB9FE846BC9DA0BD93E6FCBFAE0AA72A7DD",
+    "corpus_sha256_fingerprint": "4FE65A92342D1724E3552D0EBE898E67527A6BCBF6BF13CD367894942BE66504",
+    "corpus_sha256_fingerprint_end": "4FE65A92342D1724E3552D0EBE898E67527A6BCBF6BF13CD367894942BE66504",
+    "drift": {
+      "corpus_drift": 0,
+      "head_end": "557724fba6572d4d83dc421feda5b17b13ff8d66",
+      "identity_drift_count": 0,
+      "membership_drift_count": 0,
+      "operational_evidence_drift_only": 1,
+      "operational_file_changes": [
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-1995-A-007/manifest.json",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-1995-A-007/normalized_body.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-1995-A-007/pages/0001.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-1995-A-007/pages/0002.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/manifest.json",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/normalized_body.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0001.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0002.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0003.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0004.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0005.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0006.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0007.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0008.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0009.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0010.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0011.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0012.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0013.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0014.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0015.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0016.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0017.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0018.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0019.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0020.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0021.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0022.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0023.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0024.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0025.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0026.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0027.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0028.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0029.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0030.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0031.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0032.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0033.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0034.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0035.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0036.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0037.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0038.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0039.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0040.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0041.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0042.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0043.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0044.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0045.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0046.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0047.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0048.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0049.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0050.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0051.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0052.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0053.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0054.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0055.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0056.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0057.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0058.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0059.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0060.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0061.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0062.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0063.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0064.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0065.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0066.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0067.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0068.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0069.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0070.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0071.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0072.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0073.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0074.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0075.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0076.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0077.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0078.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0079.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0080.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0081.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0082.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0083.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0084.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0085.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0086.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0087.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0088.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0089.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0090.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0091.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0092.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0093.txt",
+        "catalog/scale/g8_q3_pilot_extraction_quarantine/current_refinement_invalid/20260902T134704174291_30625ec2/CUMCM-2020-D-003/pages/0094.txt"
+      ],
+      "path_drift_count": 0,
+      "sha_drift_count": 0
+    },
+    "formal_paper_count": 677,
+    "format_analysis_source_count": 412,
+    "parallel": {
+      "detected": true,
+      "stage": "G8-Q3-CONTRACT-REFINEMENT-OCR-TIMEOUT / G8 scale operational evidence",
+      "verdict": "PARALLEL_SAFE_WITH_SNAPSHOT"
+    },
+    "semantic_exclusions": {
+      "PROBLEM_PACKAGE": 5
+    },
+    "side_effects": {
+      "CATALOG_MODIFIED_BY_FORMAT_AUDIT": 0,
+      "DOWNLOAD_RUN": 0,
+      "FORMAL_SET_MODIFIED": 0,
+      "G8_EVIDENCE_MODIFIED_BY_FORMAT_AUDIT": 0,
+      "GIT_OPERATIONS": 0,
+      "NETWORK_ACCESS_USED": 0,
+      "NEW_DEPENDENCY_INSTALLED": 0,
+      "OCR_RESOURCE_CONTENTION_AVOIDED": 1,
+      "SOURCE_PDF_MODIFIED": 0,
+      "SOURCE_PDF_MOVED": 0,
+      "SOURCE_PDF_RENAMED": 0,
+      "TMP_NAMESPACE_ISOLATED": 1
+    },
+    "snapshot_timestamp": "2026-09-02T21:54:06+08:00",
+    "stage": "FORMAT-AUDIT-01",
+    "status": "PASS"
+  },
+  "equation": {
+    "body": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 197,
+        "sample_ratio": 0.5279,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "LEFT_OR_MIXED"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 197,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 195,
+        "sample_ratio": 0.6462,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 196,
+        "sample_ratio": 0.8061,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 195,
+        "sample_ratio": 0.4733,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 11.9
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 197,
+        "sample_ratio": 0.934,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 193,
+        "sample_ratio": 0.4684,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": 1.9
+      },
+      "line_spacing_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 193,
+        "sample_ratio": 0.4684,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 19.6
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 197,
+        "sample_ratio": 0.9949,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 193,
+        "sample_ratio": 0.4684,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 38.0
+      }
+    },
+    "number": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 104,
+        "sample_ratio": 0.3654,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": "RIGHT"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 104,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 104,
+        "sample_ratio": 0.5673,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 104,
+        "sample_ratio": 0.8269,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 104,
+        "sample_ratio": 0.2524,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 11.9
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 104,
+        "sample_ratio": 0.8846,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 74,
+        "sample_ratio": 0.1796,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": 3.7
+      },
+      "line_spacing_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 74,
+        "sample_ratio": 0.1796,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 37.3
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 104,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 74,
+        "sample_ratio": 0.1796,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 0.0
+      }
+    },
+    "variable_italic": {
+      "confidence": "LOW",
+      "notes": "PDF 文本层未提供足够的数学语义，不能据此断言变量斜体规则。",
+      "sample_count": 0,
+      "sample_ratio": 0,
+      "source_type": "INSUFFICIENT_EVIDENCE",
+      "unit": "",
+      "value": "证据不足"
+    }
+  },
+  "evidence_quality": {
+    "confidence_scale": [
+      "HIGH",
+      "MEDIUM",
+      "LOW"
+    ],
+    "eligible_layout_papers": 412,
+    "eligible_typography_papers": 282,
+    "inventory_papers": 677,
+    "visual_pages_rendered": 30
+  },
+  "figure": {
+    "alignment": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 127,
+      "sample_ratio": 0.8661,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": "CENTER"
+    },
+    "bold": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 127,
+      "sample_ratio": 0.9921,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": false
+    },
+    "closest_chinese_size": {
+      "confidence": "MEDIUM",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 125,
+      "sample_ratio": 0.544,
+      "source_type": "RECENT_TREND",
+      "unit": "",
+      "value": "小四"
+    },
+    "first_line_indent_mm": {
+      "confidence": "LOW",
+      "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+      "sample_count": 0,
+      "sample_ratio": 0,
+      "source_type": "INSUFFICIENT_EVIDENCE",
+      "unit": "",
+      "value": "当前数据库证据不足"
+    },
+    "font_family": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 127,
+      "sample_ratio": 0.7244,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": "SimSun/Song"
+    },
+    "font_size": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 125,
+      "sample_ratio": 0.3034,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "pt",
+      "value": 12.0
+    },
+    "italic": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 127,
+      "sample_ratio": 1.0,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": false
+    },
+    "line_spacing_multiple": {
+      "confidence": "LOW",
+      "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+      "sample_count": 27,
+      "sample_ratio": 0.0655,
+      "source_type": "INSUFFICIENT_EVIDENCE",
+      "unit": "",
+      "value": "当前数据库证据不足"
+    },
+    "line_spacing_pt": {
+      "confidence": "LOW",
+      "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+      "sample_count": 27,
+      "sample_ratio": 0.0655,
+      "source_type": "INSUFFICIENT_EVIDENCE",
+      "unit": "",
+      "value": "当前数据库证据不足"
+    },
+    "numbering_style": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 127,
+      "sample_ratio": 0.8898,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": "caption"
+    },
+    "paragraph_spacing_after_pt": {
+      "confidence": "LOW",
+      "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+      "sample_count": 27,
+      "sample_ratio": 0.0655,
+      "source_type": "INSUFFICIENT_EVIDENCE",
+      "unit": "",
+      "value": "当前数据库证据不足"
+    }
+  },
+  "header_footer": {
+    "footer_present": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 412,
+      "sample_ratio": 0.5971,
+      "source_type": "RECENT_TREND",
+      "unit": "",
+      "value": 0
+    },
+    "header_present": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 412,
+      "sample_ratio": 0.6626,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": 0
+    },
+    "page_number_position": {
+      "confidence": "MEDIUM",
+      "notes": "页码位置由边缘纯数字文本启发式识别。",
+      "sample_count": 449,
+      "sample_ratio": 0,
+      "source_type": "OBSERVED",
+      "unit": "",
+      "value": "BOTTOM"
+    },
+    "page_number_present": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 412,
+      "sample_ratio": 0.5534,
+      "source_type": "RECENT_TREND",
+      "unit": "",
+      "value": 0
+    }
+  },
+  "headings": {
+    "level_1": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 200,
+        "sample_ratio": 0.455,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "CENTER"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 200,
+        "sample_ratio": 0.97,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 198,
+        "sample_ratio": 0.3687,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 199,
+        "sample_ratio": 0.809,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 198,
+        "sample_ratio": 0.4806,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 12.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 200,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 127,
+        "sample_ratio": 0.3083,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": 1.9
+      },
+      "line_spacing_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 127,
+        "sample_ratio": 0.3083,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 23.3
+      },
+      "numbering_style": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 200,
+        "sample_ratio": 0.565,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "decimal"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 127,
+        "sample_ratio": 0.3083,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 0.0
+      }
+    },
+    "level_2": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 138,
+        "sample_ratio": 0.5072,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "LEFT"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 138,
+        "sample_ratio": 0.971,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 136,
+        "sample_ratio": 0.7574,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 138,
+        "sample_ratio": 0.7536,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 136,
+        "sample_ratio": 0.3301,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 12.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 138,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 41,
+        "sample_ratio": 0.0995,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 41,
+        "sample_ratio": 0.0995,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 138,
+        "sample_ratio": 0.9783,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "bracket"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 41,
+        "sample_ratio": 0.0995,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    },
+    "level_3": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 100,
+        "sample_ratio": 0.59,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "LEFT"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 100,
+        "sample_ratio": 0.95,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 98,
+        "sample_ratio": 0.8776,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 100,
+        "sample_ratio": 0.69,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 98,
+        "sample_ratio": 0.2379,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 12.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 100,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 13,
+        "sample_ratio": 0.0316,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 13,
+        "sample_ratio": 0.0316,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 100,
+        "sample_ratio": 0.98,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "bracket"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 13,
+        "sample_ratio": 0.0316,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    },
+    "level_4": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 26,
+        "sample_ratio": 0.4615,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "JUSTIFIED_OR_FULL"
+      },
+      "bold": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 26,
+        "sample_ratio": 0.8077,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 25,
+        "sample_ratio": 0.76,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 26,
+        "sample_ratio": 0.6923,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 25,
+        "sample_ratio": 0.0607,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "italic": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 26,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 4,
+        "sample_ratio": 0.0097,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 4,
+        "sample_ratio": 0.0097,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 26,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "bracket"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 4,
+        "sample_ratio": 0.0097,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    }
+  },
+  "keywords": {
+    "body": {
+      "alignment": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 144,
+        "sample_ratio": 0.875,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "JUSTIFIED_OR_FULL"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 144,
+        "sample_ratio": 0.9583,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 142,
+        "sample_ratio": 0.8451,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 144,
+        "sample_ratio": 0.7361,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 142,
+        "sample_ratio": 0.3447,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 12.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 144,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 144,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    },
+    "label": {
+      "alignment": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 144,
+        "sample_ratio": 0.875,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "JUSTIFIED_OR_FULL"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 144,
+        "sample_ratio": 0.9583,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 142,
+        "sample_ratio": 0.8451,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 144,
+        "sample_ratio": 0.7361,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 142,
+        "sample_ratio": 0.3447,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 12.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 144,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 144,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    }
+  },
+  "metadata": {
+    "analysis_method": "full corpus machine analysis + stratified visual inspection",
+    "download_run": 0,
+    "generated_at": "2026-09-02T21:54:06+08:00",
+    "network_access_used": 0,
+    "new_dependency_installed": 0,
+    "ocr_full_document_run": 0,
+    "stage": "FORMAT-AUDIT-01"
+  },
+  "page": {
+    "bottom_margin": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 225,
+      "sample_ratio": 0.3323,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "mm",
+      "value": 19.5
+    },
+    "left_margin": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 225,
+      "sample_ratio": 0.3323,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "mm",
+      "value": 25.0
+    },
+    "orientation": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 412,
+      "sample_ratio": 1.0,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": "PORTRAIT"
+    },
+    "paper_size": {
+      "confidence": "HIGH",
+      "notes": "A4 以 PDF MediaBox/CropBox 近似判断。",
+      "sample_count": 412,
+      "sample_ratio": 0.5461,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "",
+      "value": "A4"
+    },
+    "right_margin": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 225,
+      "sample_ratio": 0.3323,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "mm",
+      "value": 14.0
+    },
+    "top_margin": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 225,
+      "sample_ratio": 0.3323,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "mm",
+      "value": 25.4
+    }
+  },
+  "parallel_safety": {
+    "g8_evidence_modified_by_format_audit": 0,
+    "operational_evidence_drift_only": 1,
+    "parallel_task_detected": true,
+    "parallel_verdict": "PARALLEL_SAFE_WITH_SNAPSHOT",
+    "source_pdf_modified": 0
+  },
+  "recommended_style": {
+    "appendix": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 0.4416,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": "LEFT_OR_MIXED"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 76,
+        "sample_ratio": 0.5395,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 77,
+        "sample_ratio": 0.1869,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "mm",
+        "value": 13.0
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 0.6234,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 76,
+        "sample_ratio": 0.1845,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 11.6
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 74,
+        "sample_ratio": 0.1796,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": 1.3
+      },
+      "line_spacing_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 74,
+        "sample_ratio": 0.1796,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 15.6
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 77,
+        "sample_ratio": 0.9091,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 74,
+        "sample_ratio": 0.1796,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 31.2
+      }
+    },
+    "not_official": true,
+    "page": {
+      "bottom_margin": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 225,
+        "sample_ratio": 0.3323,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "mm",
+        "value": 19.5
+      },
+      "left_margin": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 225,
+        "sample_ratio": 0.3323,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "mm",
+        "value": 25.0
+      },
+      "orientation": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 412,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "PORTRAIT"
+      },
+      "paper_size": {
+        "confidence": "HIGH",
+        "notes": "A4 以 PDF MediaBox/CropBox 近似判断。",
+        "sample_count": 412,
+        "sample_ratio": 0.5461,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": "A4"
+      },
+      "right_margin": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 225,
+        "sample_ratio": 0.3323,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "mm",
+        "value": 14.0
+      },
+      "top_margin": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 225,
+        "sample_ratio": 0.3323,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "mm",
+        "value": 25.4
+      }
+    },
+    "status": "DATABASE_DERIVED_RECOMMENDATION",
+    "style": {
+      "abstract_body": {
+        "alignment": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 112,
+          "sample_ratio": 0.8304,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "JUSTIFIED_OR_FULL"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 112,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 111,
+          "sample_ratio": 0.9189,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 110,
+          "sample_ratio": 0.267,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "mm",
+          "value": 8.5
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 112,
+          "sample_ratio": 0.6964,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 111,
+          "sample_ratio": 0.2694,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 112,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 111,
+          "sample_ratio": 0.2694,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": 1.3
+        },
+        "line_spacing_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 111,
+          "sample_ratio": 0.2694,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 15.6
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 112,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 111,
+          "sample_ratio": 0.2694,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 0.0
+        }
+      },
+      "abstract_label": {
+        "alignment": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 115,
+          "sample_ratio": 0.9217,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "CENTER"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 115,
+          "sample_ratio": 0.9565,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 114,
+          "sample_ratio": 0.8158,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "四号"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 115,
+          "sample_ratio": 0.6957,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 114,
+          "sample_ratio": 0.2767,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 14.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 115,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 115,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "appendix_body": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 77,
+          "sample_ratio": 0.4416,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": "LEFT_OR_MIXED"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 77,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 76,
+          "sample_ratio": 0.5395,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 77,
+          "sample_ratio": 0.1869,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "mm",
+          "value": 13.0
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 77,
+          "sample_ratio": 0.6234,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 76,
+          "sample_ratio": 0.1845,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 11.6
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 77,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 74,
+          "sample_ratio": 0.1796,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": 1.3
+        },
+        "line_spacing_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 74,
+          "sample_ratio": 0.1796,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 15.6
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 77,
+          "sample_ratio": 0.9091,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 74,
+          "sample_ratio": 0.1796,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 31.2
+        }
+      },
+      "appendix_heading": {
+        "alignment": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 51,
+          "sample_ratio": 0.6078,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "CENTER"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 51,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 50,
+          "sample_ratio": 0.72,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "四号"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 51,
+          "sample_ratio": 0.5882,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 50,
+          "sample_ratio": 0.1214,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 14.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 51,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 51,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "appendix_title": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 77,
+          "sample_ratio": 0.4026,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": "JUSTIFIED_OR_FULL"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 77,
+          "sample_ratio": 0.961,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 76,
+          "sample_ratio": 0.4868,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 77,
+          "sample_ratio": 0.6234,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 76,
+          "sample_ratio": 0.1845,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 77,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 22,
+          "sample_ratio": 0.0534,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 22,
+          "sample_ratio": 0.0534,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 77,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 22,
+          "sample_ratio": 0.0534,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "body": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 202,
+          "sample_ratio": 0.3762,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": "LEFT_OR_MIXED"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 202,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 200,
+          "sample_ratio": 0.65,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 202,
+          "sample_ratio": 0.4903,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "mm",
+          "value": 11.2
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 201,
+          "sample_ratio": 0.806,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 200,
+          "sample_ratio": 0.4854,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 202,
+          "sample_ratio": 0.9752,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 200,
+          "sample_ratio": 0.4854,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": 1.5
+        },
+        "line_spacing_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 200,
+          "sample_ratio": 0.4854,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 15.8
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 202,
+          "sample_ratio": 0.9851,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 200,
+          "sample_ratio": 0.4854,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 31.2
+        }
+      },
+      "code": {
+        "alignment": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 61,
+          "sample_ratio": 0.623,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "LEFT"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 61,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 61,
+          "sample_ratio": 0.5738,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 61,
+          "sample_ratio": 0.5738,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 61,
+          "sample_ratio": 0.1481,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 61,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 60,
+          "sample_ratio": 0.1456,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": 1.4
+        },
+        "line_spacing_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 60,
+          "sample_ratio": 0.1456,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 15.6
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 61,
+          "sample_ratio": 0.9836,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 60,
+          "sample_ratio": 0.1456,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 31.2
+        }
+      },
+      "equation": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 197,
+          "sample_ratio": 0.5279,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "LEFT_OR_MIXED"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 197,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 195,
+          "sample_ratio": 0.6462,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 196,
+          "sample_ratio": 0.8061,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 195,
+          "sample_ratio": 0.4733,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 11.9
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 197,
+          "sample_ratio": 0.934,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 193,
+          "sample_ratio": 0.4684,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": 1.9
+        },
+        "line_spacing_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 193,
+          "sample_ratio": 0.4684,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 19.6
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 197,
+          "sample_ratio": 0.9949,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 193,
+          "sample_ratio": 0.4684,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 38.0
+        }
+      },
+      "equation_number": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 104,
+          "sample_ratio": 0.3654,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": "RIGHT"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 104,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 104,
+          "sample_ratio": 0.5673,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 104,
+          "sample_ratio": 0.8269,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 104,
+          "sample_ratio": 0.2524,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 11.9
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 104,
+          "sample_ratio": 0.8846,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 74,
+          "sample_ratio": 0.1796,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": 3.7
+        },
+        "line_spacing_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 74,
+          "sample_ratio": 0.1796,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 37.3
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 104,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 74,
+          "sample_ratio": 0.1796,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 0.0
+        }
+      },
+      "figure_caption": {
+        "alignment": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 127,
+          "sample_ratio": 0.8661,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "CENTER"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 127,
+          "sample_ratio": 0.9921,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 125,
+          "sample_ratio": 0.544,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 127,
+          "sample_ratio": 0.7244,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 125,
+          "sample_ratio": 0.3034,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 127,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 27,
+          "sample_ratio": 0.0655,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 27,
+          "sample_ratio": 0.0655,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 127,
+          "sample_ratio": 0.8898,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "caption"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 27,
+          "sample_ratio": 0.0655,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "heading_1": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 200,
+          "sample_ratio": 0.455,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "CENTER"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 200,
+          "sample_ratio": 0.97,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 198,
+          "sample_ratio": 0.3687,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 199,
+          "sample_ratio": 0.809,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 198,
+          "sample_ratio": 0.4806,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 200,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 127,
+          "sample_ratio": 0.3083,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": 1.9
+        },
+        "line_spacing_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 127,
+          "sample_ratio": 0.3083,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 23.3
+        },
+        "numbering_style": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 200,
+          "sample_ratio": 0.565,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "decimal"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 127,
+          "sample_ratio": 0.3083,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 0.0
+        }
+      },
+      "heading_2": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 138,
+          "sample_ratio": 0.5072,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "LEFT"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 138,
+          "sample_ratio": 0.971,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 136,
+          "sample_ratio": 0.7574,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 138,
+          "sample_ratio": 0.7536,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 136,
+          "sample_ratio": 0.3301,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 138,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 41,
+          "sample_ratio": 0.0995,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 41,
+          "sample_ratio": 0.0995,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 138,
+          "sample_ratio": 0.9783,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "bracket"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 41,
+          "sample_ratio": 0.0995,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "heading_3": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 100,
+          "sample_ratio": 0.59,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "LEFT"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 100,
+          "sample_ratio": 0.95,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 98,
+          "sample_ratio": 0.8776,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 100,
+          "sample_ratio": 0.69,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 98,
+          "sample_ratio": 0.2379,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 100,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 13,
+          "sample_ratio": 0.0316,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 13,
+          "sample_ratio": 0.0316,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 100,
+          "sample_ratio": 0.98,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "bracket"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 13,
+          "sample_ratio": 0.0316,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "heading_4": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 26,
+          "sample_ratio": 0.4615,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "JUSTIFIED_OR_FULL"
+        },
+        "bold": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 26,
+          "sample_ratio": 0.8077,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 25,
+          "sample_ratio": 0.76,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 26,
+          "sample_ratio": 0.6923,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 25,
+          "sample_ratio": 0.0607,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "italic": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 26,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 4,
+          "sample_ratio": 0.0097,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 4,
+          "sample_ratio": 0.0097,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 26,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "bracket"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 4,
+          "sample_ratio": 0.0097,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "keywords_body": {
+        "alignment": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 144,
+          "sample_ratio": 0.875,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "JUSTIFIED_OR_FULL"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 144,
+          "sample_ratio": 0.9583,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 142,
+          "sample_ratio": 0.8451,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 144,
+          "sample_ratio": 0.7361,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 142,
+          "sample_ratio": 0.3447,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 144,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 144,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "keywords_label": {
+        "alignment": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 144,
+          "sample_ratio": 0.875,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "JUSTIFIED_OR_FULL"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 144,
+          "sample_ratio": 0.9583,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 142,
+          "sample_ratio": 0.8451,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 144,
+          "sample_ratio": 0.7361,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 142,
+          "sample_ratio": 0.3447,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 144,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 144,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "reference_body": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 0.4681,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "LEFT"
+        },
+        "bold": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 0.5532,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "MEDIUM",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 47,
+          "sample_ratio": 0.1141,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "mm",
+          "value": 14.8
+        },
+        "font_family": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 0.766,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "MEDIUM",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 47,
+          "sample_ratio": 0.1141,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "MEDIUM",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 47,
+          "sample_ratio": 0.1141,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": 1.3
+        },
+        "line_spacing_pt": {
+          "confidence": "MEDIUM",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 47,
+          "sample_ratio": 0.1141,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 15.6
+        },
+        "numbering_style": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 0.7021,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "MEDIUM",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 47,
+          "sample_ratio": 0.1141,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 31.2
+        }
+      },
+      "reference_label": {
+        "alignment": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 0.6383,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "CENTER"
+        },
+        "bold": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 0.9574,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 0.7021,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "四号"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 0.766,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "MEDIUM",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 47,
+          "sample_ratio": 0.1141,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 14.0
+        },
+        "italic": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 47,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "table_body": {
+        "alignment": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "bold": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "closest_chinese_size": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_size": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "italic": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "table_caption": {
+        "alignment": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 129,
+          "sample_ratio": 0.8295,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "CENTER"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 129,
+          "sample_ratio": 0.9922,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 128,
+          "sample_ratio": 0.5469,
+          "source_type": "RECENT_TREND",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 129,
+          "sample_ratio": 0.7132,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 128,
+          "sample_ratio": 0.3107,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 12.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 129,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 20,
+          "sample_ratio": 0.0485,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 20,
+          "sample_ratio": 0.0485,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 129,
+          "sample_ratio": 0.8372,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "caption"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 20,
+          "sample_ratio": 0.0485,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      },
+      "title": {
+        "alignment": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 191,
+          "sample_ratio": 0.8325,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "CENTER"
+        },
+        "bold": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 191,
+          "sample_ratio": 0.9529,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "closest_chinese_size": {
+          "confidence": "MEDIUM",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 188,
+          "sample_ratio": 0.4415,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "",
+          "value": "小四"
+        },
+        "first_line_indent_mm": {
+          "confidence": "LOW",
+          "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+          "sample_count": 0,
+          "sample_ratio": 0,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "font_family": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 190,
+          "sample_ratio": 0.8158,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "SimSun/Song"
+        },
+        "font_size": {
+          "confidence": "HIGH",
+          "notes": "取可观测样本的中位数；不是官方硬性规定。",
+          "sample_count": 188,
+          "sample_ratio": 0.4563,
+          "source_type": "PRACTICAL_RECOMMENDATION",
+          "unit": "pt",
+          "value": 15.0
+        },
+        "italic": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 191,
+          "sample_ratio": 1.0,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": false
+        },
+        "line_spacing_multiple": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 34,
+          "sample_ratio": 0.0825,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "line_spacing_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 34,
+          "sample_ratio": 0.0825,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        },
+        "numbering_style": {
+          "confidence": "HIGH",
+          "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+          "sample_count": 191,
+          "sample_ratio": 0.9895,
+          "source_type": "DATABASE_CONSENSUS",
+          "unit": "",
+          "value": "none"
+        },
+        "paragraph_spacing_after_pt": {
+          "confidence": "LOW",
+          "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+          "sample_count": 34,
+          "sample_ratio": 0.0825,
+          "source_type": "INSUFFICIENT_EVIDENCE",
+          "unit": "",
+          "value": "当前数据库证据不足"
+        }
+      }
+    }
+  },
+  "references": {
+    "body": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 0.4681,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "LEFT"
+      },
+      "bold": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 0.5532,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "MEDIUM",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 47,
+        "sample_ratio": 0.1141,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "mm",
+        "value": 14.8
+      },
+      "font_family": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 0.766,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "MEDIUM",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 47,
+        "sample_ratio": 0.1141,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 12.0
+      },
+      "italic": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "MEDIUM",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 47,
+        "sample_ratio": 0.1141,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "",
+        "value": 1.3
+      },
+      "line_spacing_pt": {
+        "confidence": "MEDIUM",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 47,
+        "sample_ratio": 0.1141,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 15.6
+      },
+      "numbering_style": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 0.7021,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "MEDIUM",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 47,
+        "sample_ratio": 0.1141,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 31.2
+      }
+    },
+    "label": {
+      "alignment": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 0.6383,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "CENTER"
+      },
+      "bold": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 0.9574,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 0.7021,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "四号"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 0.766,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "MEDIUM",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 47,
+        "sample_ratio": 0.1141,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 14.0
+      },
+      "italic": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 47,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "none"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    }
+  },
+  "table": {
+    "body": {
+      "alignment": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "bold": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "closest_chinese_size": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_size": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "italic": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    },
+    "caption": {
+      "alignment": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 129,
+        "sample_ratio": 0.8295,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "CENTER"
+      },
+      "bold": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 129,
+        "sample_ratio": 0.9922,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "closest_chinese_size": {
+        "confidence": "MEDIUM",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 128,
+        "sample_ratio": 0.5469,
+        "source_type": "RECENT_TREND",
+        "unit": "",
+        "value": "小四"
+      },
+      "first_line_indent_mm": {
+        "confidence": "LOW",
+        "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+        "sample_count": 0,
+        "sample_ratio": 0,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "font_family": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 129,
+        "sample_ratio": 0.7132,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "SimSun/Song"
+      },
+      "font_size": {
+        "confidence": "HIGH",
+        "notes": "取可观测样本的中位数；不是官方硬性规定。",
+        "sample_count": 128,
+        "sample_ratio": 0.3107,
+        "source_type": "PRACTICAL_RECOMMENDATION",
+        "unit": "pt",
+        "value": 12.0
+      },
+      "italic": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 129,
+        "sample_ratio": 1.0,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": false
+      },
+      "line_spacing_multiple": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 20,
+        "sample_ratio": 0.0485,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "line_spacing_pt": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 20,
+        "sample_ratio": 0.0485,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      },
+      "numbering_style": {
+        "confidence": "HIGH",
+        "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+        "sample_count": 129,
+        "sample_ratio": 0.8372,
+        "source_type": "DATABASE_CONSENSUS",
+        "unit": "",
+        "value": "caption"
+      },
+      "paragraph_spacing_after_pt": {
+        "confidence": "LOW",
+        "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+        "sample_count": 20,
+        "sample_ratio": 0.0485,
+        "source_type": "INSUFFICIENT_EVIDENCE",
+        "unit": "",
+        "value": "当前数据库证据不足"
+      }
+    },
+    "three_line_adoption": {
+      "confidence": "LOW",
+      "notes": "仅凭当前文本位置不能可靠判断表格线型。",
+      "sample_count": 0,
+      "sample_ratio": 0,
+      "source_type": "INSUFFICIENT_EVIDENCE",
+      "unit": "",
+      "value": "UNKNOWN"
+    }
+  },
+  "title": {
+    "alignment": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 191,
+      "sample_ratio": 0.8325,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": "CENTER"
+    },
+    "bold": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 191,
+      "sample_ratio": 0.9529,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": false
+    },
+    "closest_chinese_size": {
+      "confidence": "MEDIUM",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 188,
+      "sample_ratio": 0.4415,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "",
+      "value": "小四"
+    },
+    "first_line_indent_mm": {
+      "confidence": "LOW",
+      "notes": "当前数据库证据不足，暂不设置强制推荐值。",
+      "sample_count": 0,
+      "sample_ratio": 0,
+      "source_type": "INSUFFICIENT_EVIDENCE",
+      "unit": "",
+      "value": "当前数据库证据不足"
+    },
+    "font_family": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 190,
+      "sample_ratio": 0.8158,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": "SimSun/Song"
+    },
+    "font_size": {
+      "confidence": "HIGH",
+      "notes": "取可观测样本的中位数；不是官方硬性规定。",
+      "sample_count": 188,
+      "sample_ratio": 0.4563,
+      "source_type": "PRACTICAL_RECOMMENDATION",
+      "unit": "pt",
+      "value": 15.0
+    },
+    "italic": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 191,
+      "sample_ratio": 1.0,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": false
+    },
+    "line_spacing_multiple": {
+      "confidence": "LOW",
+      "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+      "sample_count": 34,
+      "sample_ratio": 0.0825,
+      "source_type": "INSUFFICIENT_EVIDENCE",
+      "unit": "",
+      "value": "当前数据库证据不足"
+    },
+    "line_spacing_pt": {
+      "confidence": "LOW",
+      "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+      "sample_count": 34,
+      "sample_ratio": 0.0825,
+      "source_type": "INSUFFICIENT_EVIDENCE",
+      "unit": "",
+      "value": "当前数据库证据不足"
+    },
+    "numbering_style": {
+      "confidence": "HIGH",
+      "notes": "多数值统计；字体家族若为 SimSun/Song 是文档级字体对象候选，不能替代逐字资源映射。",
+      "sample_count": 191,
+      "sample_ratio": 0.9895,
+      "source_type": "DATABASE_CONSENSUS",
+      "unit": "",
+      "value": "none"
+    },
+    "paragraph_spacing_after_pt": {
+      "confidence": "LOW",
+      "notes": "数值样本覆盖率低于 10%，仅保留 OBSERVED 分位数，不设置推荐值。",
+      "sample_count": 34,
+      "sample_ratio": 0.0825,
+      "source_type": "INSUFFICIENT_EVIDENCE",
+      "unit": "",
+      "value": "当前数据库证据不足"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+数
+
+62
+
+学
+
+的
+
+实
+
+践
+
+与
+
+认
+
+识
+
+31 卷
+
+说明应将 S 7 降为 0.
+3 用迭代法进行对调优化
+改进的伏格尔法给出的初始值虽然很接近最优值, 但仍有不足之处, 即可能存在两个需
+求点, 调换供应点能使总费用更小, 例如, 需求点 a 和 b 的供应点是 x 和 y , 费用分别是 C
+(x , a ) 和 C ( y , b) , 如果让 y 供应 a , x 供应 b 的话, 费用将是 C ( y , a ) 和 r ( x , b) , 如果:
+C ( y , a ) + r ( x , b) < C ( x , a ) + C ( y , b)
+
+流
+
+则说明对调后总费用更低.
+因此, 我们可以采用迭代法对任意两个需求点的供应点两两对调至无法更优.
+由于一共只有 m = 7 个供应点, 所以两两对调的可行方案一共有 C 27 = 21 种, 因此, 两两
+对调供应点的方法是可行的, 具体步骤如下:
+
+交
+
+Step1 对于任意两个供应点 x i 和 x j
+i= 1, 2, …, m j= 1, 2, …, m
+1) 找出所有由 x i 供应的需求点, 构成点集 A = {a 1 , a 2 , c}
+
+i≠ j
+
+研
+
+2) 找出所有由 x j 供应的需求点, 构成点集 B = {b 1 , b 2 , …}
+
+′
+3) 对 A 中所有点, 如果改用 x j 来供应, 将付出的代价构成向量 A ′= {a ′
+1 , a 1 , …}
+′
+4) 对 B 中所有点, 如果改用 x i 来供应, 将付出的代价构成向量 B ′= {b ′
+1 , b 1 , …}
+
+：
+科
+
+5) 对 A ′和 B ′分别按升序排序.
+
+′
+6) 同时对 A ′和 B ′从前向后遍历, 如果 a ′
+i + b i < 0 ( 表示对调供应者将降低总费用) , 则
+′
+对调其供应者, 直到出现 a ′
+i + b i ≥ 0 为止.
+
+′
+
+′
+
+Step2 统计这 C m 轮对调后的总费用 F 是否比原来的总费用 F 有明显的进步, 即 F F > ∆( ∆ 为一固定的较小值). 如果有明显的进步, 则再回 Step 1 执行, 否则结束优化.
+
+号
+
+2
+
+参考文献:
+
+公
+众
+
+令人振奋的是, 采用改进的最小元素法和改进的伏格尔法得到问题一的初始方案分别
+采用这种优化方案后, 竟都达到了相同的最小费用: 1279019 万元.
+( 3) 结果 ( 略)
+
+薛秀谦等编著 . 《运筹学》
+. 中国矿业大学出版社, 1998 年.
+
+[2]
+
+赵新泽著. 《线性规划的新方法和应用》
+. 世界图书出版社, 1996 年.
+
+[3]
+
+王树禾著. 《图论极其算法》
+. 中国科学技术大学出版社, 1990 年.
+
+信
+
+[1]
+
+微
+
+[ 4 ] LU CA S W F 著. 《离散与系统模型》
+. 国防科技大学出版社, 1996 年.
+
+The O rder and Tran sporta tion of the Tube P ipe
+YAN G Zh i2jiang,
+
+L I Guo 2x in,
+
+(Ch ina U n iversity of M in ing and T echno logy,
+
+Abstract:
+
+ZHAN G M in
+Xuzhou
+
+221008)
+
+In th is p ap er, th rough the ra tiona l hypo thesis, a s w ell a s the p rincip le of equ iva len t
+
+tran sfo rm a tion, the p rob lem of o rder and tran spo rta tion of tube p ip e cou ld be tran sfo rm ed to
+tha t of the road tran spo rta tion. B y u sing the idea and m ethod of com b ina to ria l op tim iza tion, w e
+
+

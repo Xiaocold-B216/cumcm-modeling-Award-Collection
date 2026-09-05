@@ -1,0 +1,36 @@
+vz=mm1/7085;
+fll=-1025*vz*g+mm1*g;
+fy(6)=fy(5)-zhunzhongli1(5)-fll;
+fx(6)=fx(5);
+phy(j)=atan(((2*fy(j-1))-zhunzhongli1(j))/(fx(j-1)*2));
+else
+fy(j)=fy(j-1)-zhunzhongli1(j);%准重力的编号从浮标开始为 1
+fx(j)=fx(j-1);
+phy(j)=atan(((2*fy(j-1))-zhunzhongli1(j))/(fx(j-1)*2));
+end
+if fy(j)<0
+break
+end
+end
+flll{k}=fy;
+phy1{k}=phy;
+h1=sin(phy).*l
+H(k)=sum(h1)+h;
+k=k+1;
+phy=[];
+end
+[h_min,u]=min(abs(18-H(:)))
+cshd=0.3+u*0.0001;
+jd=phy1{u};
+yy=0;
+xx=0;
+xx1=[];
+yy1=[];
+yfx=sin(phy1{u}).*l;
+xfx=cos(phy1{u}).*l;
+for i=length(yfx):-1:6
+yy=yy+yfx(i);
+yy1=[yy1,yy];
+xx=xx+xfx(i);
+
+

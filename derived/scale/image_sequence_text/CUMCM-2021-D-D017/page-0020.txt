@@ -1,0 +1,36 @@
+附录
+介绍 : 支撑 材料 的 文件 列表
+问题 1 的 源 代码
+fenduanhanshu.m
+切割 损失 最 小 模型 .Ig4
+满足 用 户 目 标 值 最 优 模型 .lg4
+问题 2 的 源 代码
+main.m
+问题 3 的 源 代码
+main.m
+注 :， m 文件 是 Matlab 程序 ，lg4 是 lingo 文件
+介绍 : lingo 代码 ， 作 用 是 求解 切割 损失 最 小 模型
+model :
+sets:
+r/1..79/3x;ix 为 长 度 为 4 4. 1，……，12.6 米 铁 坯 的 个 数 ;
+endsets
+data:
+1=109;! 1 为 尾 坯 长 度 ;
+d=4.8;! d 为 最 小 长 度 限制 :
+enddata
+min=Gsum(r(i) |i#le#42: (d+0.1% (1-1))*x(1))+@sum(r(i) |i#ge#54: (d+0.1* (1-1)-10
+) *x (ti))2! 损失 最 小 ;
+@sum(r(i): (d+0.1%1-0.1)*x(1))=1;
+Qfor(r:@gin(x)):
+End
+介绍 : lingo 代码 ， 作 用 是 求解 满足 用 户 目标 值 最 优 模型
+model :
+sets:
+r/1 ws 79/ 1X;
+endsets
+data:
+1=109;! 1 为 尾 坯 长 度 ;
+d=4.8;! d 为 最 小 长 度 限制 :
+enddata
+
+20

@@ -1,0 +1,578 @@
+{
+  "conflicts": [
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "page_size",
+      "historical": "UNKNOWN",
+      "modern": "A4",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "orientation",
+      "historical": "UNKNOWN",
+      "modern": "PORTRAIT",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "top_margin_mm",
+      "historical": "UNKNOWN",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "bottom_margin_mm",
+      "historical": "UNKNOWN",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "left_margin_mm",
+      "historical": "UNKNOWN",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "right_margin_mm",
+      "historical": "UNKNOWN",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "title_font",
+      "historical": "SimSun/Song",
+      "modern": "Chinese serif/Song-style appearance (visual only)",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "title_size",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "STABLE_TRADITION",
+      "element": "title_alignment",
+      "historical": "CENTER",
+      "modern": "CENTER",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "abstract_font",
+      "historical": "SimSun/Song",
+      "modern": "Chinese serif/Song-style appearance (visual only)",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "abstract_size",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "body_font",
+      "historical": "SimSun/Song",
+      "modern": "Chinese serif/Song-style appearance (visual only)",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "body_size",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "line_spacing",
+      "historical": "UNKNOWN",
+      "modern": "COMPACT_SINGLE_TO_1_5_LIKE",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "first_line_indent",
+      "historical": "UNKNOWN",
+      "modern": "VISIBLE_FIRST_LINE_INDENT",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "heading_1",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "heading_2",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "heading_3",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "figure_caption",
+      "historical": "UNKNOWN",
+      "modern": "PRESENT",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "table_caption",
+      "historical": "UNKNOWN",
+      "modern": "PRESENT",
+      "modern_observed_papers": 6,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "equation_number",
+      "historical": "UNKNOWN",
+      "modern": "PRESENT",
+      "modern_observed_papers": 6,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "references",
+      "historical": "UNKNOWN",
+      "modern": "PRESENT",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "appendix",
+      "historical": "UNKNOWN",
+      "modern": "PRESENT",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "visual_density",
+      "historical": "UNKNOWN",
+      "modern": "A4_WHITE_PAGE_NARROW_TEXT_BLOCK_WITH_DENSITY_VARIATION",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    }
+  ],
+  "evidence_layers": {
+    "historical": {
+      "meaning": "Frozen long-term format traditions; not recomputed here.",
+      "modified": 0,
+      "source": [
+        "reports/format/CUMCM_PAPER_FORMAT_SPEC.md",
+        "reports/format/CUMCM_PAPER_FORMAT_EVIDENCE.md",
+        "derived/format/paper_format_spec.json",
+        "derived/format/format_audit_snapshot.json",
+        "derived/format/paper_format_inventory.csv",
+        "derived/format/paper_format_observations.csv",
+        "derived/format/paper_format_summary.csv",
+        "derived/format/format_outliers.csv"
+      ],
+      "status": "PASS"
+    },
+    "modern": {
+      "candidate_count": 17,
+      "format_eligible_count": 7,
+      "source": "derived/format/modern/modern_visual_spec.json",
+      "status": "PASS",
+      "visual_reviewed_count": 7
+    },
+    "official_2026": {
+      "available": 0,
+      "network_access_used": 0,
+      "notes": "No project-local, verifiably official 2026 CUMCM format specification was accepted; historical/modern PDFs and non-official documents were not promoted to official evidence.",
+      "source_files": [],
+      "status": "WAITING_FOR_VERIFIED_OFFICIAL_SPEC"
+    }
+  },
+  "final_spec": {
+    "一级标题": {
+      "confidence": "LOW",
+      "historical_value": "15.0",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "Modern evidence is insufficient; retain the frozen historical evidence layer.",
+      "selected_layer": "HISTORICAL",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "15.0"
+    },
+    "三级标题": {
+      "confidence": "LOW",
+      "historical_value": "15.0",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "Modern evidence is insufficient; retain the frozen historical evidence layer.",
+      "selected_layer": "HISTORICAL",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "15.0"
+    },
+    "上边距": {
+      "confidence": "LOW",
+      "historical_value": "UNKNOWN",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No evidence layer supports a value.",
+      "selected_layer": "NONE",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "INSUFFICIENT_EVIDENCE"
+    },
+    "下边距": {
+      "confidence": "LOW",
+      "historical_value": "UNKNOWN",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No evidence layer supports a value.",
+      "selected_layer": "NONE",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "INSUFFICIENT_EVIDENCE"
+    },
+    "二级标题": {
+      "confidence": "LOW",
+      "historical_value": "15.0",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "Modern evidence is insufficient; retain the frozen historical evidence layer.",
+      "selected_layer": "HISTORICAL",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "15.0"
+    },
+    "公式": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "PRESENT",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "PRESENT"
+    },
+    "公式编号": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "PRESENT",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "PRESENT"
+    },
+    "关键词": {
+      "confidence": "LOW",
+      "historical_value": "UNKNOWN",
+      "modern_value": "PRESENT_WHERE_EXTRACTED",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "PRESENT_WHERE_EXTRACTED"
+    },
+    "参考文献": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "PRESENT",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "PRESENT"
+    },
+    "右边距": {
+      "confidence": "LOW",
+      "historical_value": "UNKNOWN",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No evidence layer supports a value.",
+      "selected_layer": "NONE",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "INSUFFICIENT_EVIDENCE"
+    },
+    "图题": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "PRESENT",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "PRESENT"
+    },
+    "左边距": {
+      "confidence": "LOW",
+      "historical_value": "UNKNOWN",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No evidence layer supports a value.",
+      "selected_layer": "NONE",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "INSUFFICIENT_EVIDENCE"
+    },
+    "摘要": {
+      "confidence": "MEDIUM",
+      "historical_value": "SimSun/Song",
+      "modern_value": "Chinese serif/Song-style appearance (visual only)",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "Chinese serif/Song-style appearance (visual only)"
+    },
+    "标题字体": {
+      "confidence": "MEDIUM",
+      "historical_value": "SimSun/Song",
+      "modern_value": "Chinese serif/Song-style appearance (visual only)",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "Chinese serif/Song-style appearance (visual only)"
+    },
+    "标题字号": {
+      "confidence": "LOW",
+      "historical_value": "15.0",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "Modern evidence is insufficient; retain the frozen historical evidence layer.",
+      "selected_layer": "HISTORICAL",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "15.0"
+    },
+    "正文中文字体": {
+      "confidence": "MEDIUM",
+      "historical_value": "SimSun/Song",
+      "modern_value": "Chinese serif/Song-style appearance (visual only)",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "Chinese serif/Song-style appearance (visual only)"
+    },
+    "正文字号": {
+      "confidence": "LOW",
+      "historical_value": "15.0",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "Modern evidence is insufficient; retain the frozen historical evidence layer.",
+      "selected_layer": "HISTORICAL",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "15.0"
+    },
+    "正文西文字体": {
+      "confidence": "MEDIUM",
+      "historical_value": "INSUFFICIENT_EVIDENCE",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No evidence layer supports a value.",
+      "selected_layer": "NONE",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "INSUFFICIENT_EVIDENCE"
+    },
+    "行距": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "COMPACT_SINGLE_TO_1_5_LIKE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "COMPACT_SINGLE_TO_1_5_LIKE"
+    },
+    "表正文": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "BOLD_TOP_BOTTOM_RULES_OBSERVED",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "BOLD_TOP_BOTTOM_RULES_OBSERVED"
+    },
+    "表题": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "PRESENT",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "PRESENT"
+    },
+    "附录": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "PRESENT",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "PRESENT"
+    },
+    "页眉": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No evidence layer supports a value.",
+      "selected_layer": "NONE",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "INSUFFICIENT_EVIDENCE"
+    },
+    "页码": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "PRESENT_BOTTOM_CENTERED",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "PRESENT_BOTTOM_CENTERED"
+    },
+    "页脚": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "INSUFFICIENT_MODERN_EVIDENCE",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No evidence layer supports a value.",
+      "selected_layer": "NONE",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "INSUFFICIENT_EVIDENCE"
+    },
+    "页面尺寸": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "A4",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "A4"
+    },
+    "首行缩进": {
+      "confidence": "MEDIUM",
+      "historical_value": "UNKNOWN",
+      "modern_value": "VISIBLE_FIRST_LINE_INDENT",
+      "notes": "2026 official overlay is pending; recommendations are not a substitute for the official submission rule.",
+      "official_requirement_type": "NOT_AVAILABLE",
+      "official_value": "PENDING",
+      "precedence_reason": "No verified 2026 official value is available; modern sample is the newest direct visual evidence.",
+      "selected_layer": "MODERN",
+      "unit": "mm_or_pt_or_categorical",
+      "value": "VISIBLE_FIRST_LINE_INDENT"
+    }
+  },
+  "insufficient_evidence": [
+    "2026 official requirements",
+    "three-line table exact borders",
+    "universal recent CUMCM prevalence",
+    "precise page-limit/submission-file rules"
+  ],
+  "metadata": {
+    "generated_at": "2026-09-03T13:36:30+08:00",
+    "modern_full_document_ocr_run": 0,
+    "network_access_used": 0,
+    "official_2026_spec_available": 0,
+    "official_overlay_status": "PENDING",
+    "single_source_of_truth": "derived/format/cumcm_format_synthesis_2026.json",
+    "stage": "FORMAT-AUDIT-MODERN-01",
+    "status": "PASS"
+  },
+  "provenance": {
+    "governance_state_modified": 0,
+    "historical_summary": "derived/format/paper_format_summary.csv",
+    "modern_inventory": "derived/format/modern/modern_visual_subset_inventory.csv",
+    "modern_observations": "derived/format/modern/modern_visual_observations.csv",
+    "modern_summary": "derived/format/modern/modern_visual_summary.csv",
+    "source_pdfs_modified": 0
+  },
+  "superseded_practices": []
+}

@@ -1,0 +1,38 @@
+EEAE
+Sier
+模型 对 应 的 关系 曲线 凸 。
+1.) purequadratic 模型 : 包含 线性 项 和 纯 二 次 项
+y,= AL +Ba, +Bd,; +Bai+pd HE (=123,4)
+2.) quadratic 模型 : 包含 线性 项 和 完全 二 次 项
+y,=By+Ba,+ Pud, + fad, + fai+ fdire 0=123,4)
+3.) interaction 模型 : 包含 线性 项 和 纯 交 互 项
+yi=B+Ba;+pd; +pad +e (j=1234)
+4.) linear 模型 ， 只 包含 线性 项
+yi=Bt+Ba;+pd;+e OU=123,4) -从 >
+(二 ) 模型 的 求解 ， z )
+用 MATLAB 统计 工具 箱 中 的 rstool 命令 来 处 理 ， 每 个 演 &i) E 对 应 可 输
+出 四 个 交互 式 画 面 , 其 中 每 个 交互 式 画面 都 在 图 左面 提供 了 阿 个 下拉 式 菜单 ， 以
+便 我 们 选择 不 同 的 子 模型 来 分 析 曲 线 。 将 每 种 治疗 方案 承 A 模 了 输出 的 回电 系
+本 、 _ . VAN
+数 8 和 剩余 标准 差 s 分 别 列 入 表 5 一 表 8 中 ; 太
+2
+表 5 治疗 方案 一 与 CD44 光 语 的 模型 输出
+Te ee
+RE] 5 | OO OO 中 OU | OO | 0
+Quadntie | 2977 00027 ART | OO00L | -00000 | -000L | 093
+Peneia | 2907 | 008 oo | oo | | | oo
+her | 65 | WE | on
+站 CD4 浓度 的 模型 输出
+子 模型 名 称 》 1 s
+名称, AY |
+RE | 0ses | na | oo anal | Tai
+ad To | 0054 | -0002 | ooo0r | -00004 | 00 | 035
+Raw | oo | oona oo | | | oz
+UN Ta [oo lo | | | oz
+表 7 治疗 方案 三 与 CD4 浓度 的 模型 输出
+To AT ee leTeT
+Ri | oo | oo nana | Ta
+Quadmte | 2302 | 00207 | 00031 | OO00y | OO002 | OO | 220
+Peneia | 2734 | 0003 | 00 | oo | | | Ta
+me | oa | oo oo | | |
+9

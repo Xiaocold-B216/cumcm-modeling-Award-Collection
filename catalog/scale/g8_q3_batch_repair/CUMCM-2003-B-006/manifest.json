@@ -1,0 +1,106 @@
+{
+  "attempt_id": "20260902T162528503373_425d96bb",
+  "batch_attempt_id": "20260902T162528503373_425d96bb",
+  "paper_id": "CUMCM-2003-B-006",
+  "source_path": "2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003B：露天矿生产的车辆安排 (2).pdf",
+  "source_sha256": "C74FDA2CAA006A8E7C1B6DAED017029A4E24032C9FEFE8F415A328FE44E38EAF",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 7,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 7,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "EisE 第 20 卷 第 7 期 工 程 数 学 学 报 Vol.20 No.8 2003 年 2 月 JOURNAL OF ENGINEERING MATHEMATICS Dec. 2003 文章 编号 :1005-3085(2003)07-0063-06 司 2 露天 矿 生产 的 车 辆 安排 丁 余 良 ， 胡 海 林 ， BEE - 众 ， 指导 教师 学 新 秀 » W (南京 归 电 学 院 ,南京 210003) 2 编者 安 : 本 文 模型 完 革 正确 倪 述 演 想 严格 ,求解 方法 可 行 , 结 果 准 确 ,对 4 是 一 篇 优秀 沦 文 。 此 外 本 文 还 讨论 了 有 关 几 种 等 待 的 情况 将 未 完全 多 决 ,但 已 属 不 易 。 缺 点 是 本 文 不 太 精 炼 , 此 处 已 作 删 节 . Q N 搞 要 : 本 文 研究 了 露天 矿 生产 的 车 辆 安排 最 优化 问题 。 利 用 二 要 月 标 法 将 多 目标 最 优化 问题 转化 为 单 目标 最 优化 问题 ,根据 主要 目标 (总 运 量 ) 列 出 最 小 费 图 函 数 S 将 次 要 目标 最 小 卡车 数 转化 为 约束 条 件 ,然后 逐步 简化 ,将 非 线性 规划 转化 为 线性 整数 规则 ,并 通过 SAS 软件 编程 遍历 120 个 线性 规划 子 问题 ,经 过 比较 得 出 最 优 和 解 ,最 后 在 最 优 解 基础 上 运用 贪心 算法 求 出 所 用 的 最 少 卡车 数 并 给 出 了 一 个 班次 的 运输 方案 。 对 于 问题 一 E 得 到 最 小 总 运 量 为 85628. 62 吨公里 ,此 时 7 台电 铲 分 列 放 在 第 1,2,3,4,8.9 10 匀 训 / 中 村 车 最 风 为 13 辆 。 对 于 问题 二 ,利用 类 似 于 问题 一 的 解法 ， 在 充分 利用 现 有 卡车 和 铲 车 的 条 但 Daa 求 得 最 大 的 产量 为 103334 吨 ,20 辆 车 完全 利用 ,相应 的 铲 点 为 :1,2,3,4,8,9,10。 最 小 运 #% 147792.26 吨公里 ,相应 的 岩石 产量 为 49280 吨 ,矿石 产量 为 54054 吨 。 ae- NoTnenaENAT LUHBUAERRRSFRESR 为 解决 等 待 问题 提供 站 恨 好 的 方法 。 关键 词 : 主要 目标 ROHE 转移 时 间 差 分 类 号 : so 天 中 图 分 类 号 : 0221.2 文献 标识 码 : A ef 1 sion) 2 ”模型 假设 ( 略 ) 3 符号 说 明 ( 略 ) 题 爷 1 个 多 目标 最 优化 问题 。 优 化 目标 有 两 个 ,最 小 运输 量 和 最 少 卡车 数 ,两 个 目标 在 :二 帮 度 上 是 相互 影响 的 。 在 运输 成 本 中 ,总 运 量 是 主要 决定 因素 ,把 总 运 量 作为 主要 目 标 ,将 卡车 数 转化 成 约束 条 件 ,使 卡车 总 数 不 大 于 20, 得 到 改进 模型 。 根 据 多 目标 的 主要 目 标 法 的 有 效 解 理论 ,在 此 最 优 解 集 上 求 最 少 卡车 数 的 有 效 解 或 弱 有 效 解 。 另 外 ,由 于 电 铲 和 印 点 只 能 同时 为 一 辆 卡车 服务 , 若 此 时 还 存在 其 他 卡车 在 该 铲 点 或 印 点 需要 服务 ,就 出 现 等 待 情况 ,在 解决 时 应 吉 免 该 情况 发 生 。 在 装 石 料 时 若 一 条 路 线 中 卡车 数 超 过 一 定 值 时 ,必然 会 出 现 等 待 。 为 了 方便 讨论 ,我 们 按 矿石 漏 , 个 装 场 L, 倒 装 场 1 ,岩石 漏 , 岩 场 的 顺序 将 它 EisE 64 工 程 数 学 学 报 第 20 卷 们 依次 记 作 印 点 Di,D，…:Ds, 装 点 Si,S，…-Sio。 于 是 ,每 条 S-Di-~S 路 线 的 运行 周期 为 T( 访 =3+5+]204( 站 ,其 中 di 为 S 与 D 之 间 的 距离 (km),o 为 卡车 速度 (km/ b。 由 于 每 装 一 次 车 的 平均 时 间 为 Smin( 大 于 印 车 时 间 3min) ,那么 每 条 路 线 上 可 容纳 的 最 大 车 辆 数 w(i 7) = [ 工人) ]。 此 外 ,每 辆 车 一 个 班次 工作 480min, 则 一 辆 车 在 相应 的 = ， [480 路 线 上 运输 次 数 的 上 界 为 MEG) = [地 80 7 ]。 5 “模型 的 建立 及 求解 -从 > 5.1 模型 准备 7 °\\) ERORR Z S6 h LATED ECER B) MATOE 我 们 用 标 志 数 c, RABE n 辆 车 是 否 被 利用 。 当 第 辆 车 被 和 月 时 w = ,否则 cg 命题 (第 a 辆 车 是 耕 补 和 用 的 标志 数 o， = Jtog( 吕 XSD) = 1.2，…，20， 其 中 风 (i 是 第 ， 辆 车 从 S; BID, 的 运输 次 数 ,Jiag 为 符号 国 数 -。 命题 2 第 i 个 铲 点 是 否 有 铲 车 的 标志 数 忆 = ha 5.2 问题 一 的 模型 N 对 于 问题 1 和 问题 2, 都 必须 满足 ; 1) 各 铲 点 向 所 有 印 点 提供 的 岩石 和 矿 而 总 量 应 分 别 不 大 于 该 铲 点 矿石 数量 & 和 兰 石 数量 w , 即 为 模型 了 中 的 (D 式 。 人 由 2) 由 所 有 匀 点 向 各 印 点 运输 前 看 料 总 和 应 不 小 于 印 点 所 和 需 石料 的 下 限 , 即 为 模型 了 中 的 (2) 式 。 3) 0 和 在 人， 人 和 人 有 工 中 的 (3) 式 。 1 4) 由 于 铲 车 数量 为 7, 记 以 要 求 利用 的 铲 点 数 不 超 过 7 个 , 即 为 模型 工 中 的 (4) 式 。 5) BOPIPENETRT WARE 1 560, 6) 每 信 逢 点 的 也 作 次 数 不 大 于 160 次 , 即 为 模型 工 中 的 (6) 式 。 二 [所 光 , 可 得 问题 一 的 基本 模型 MO N% 汉人 F=1543 3 S1Y,(005)d(5))] WR o min 3 cv 这 里 c。= flag(2 ZY,(ij)n =1,2,,20 s.t. 1543 3v,(:,) < k3154Z 5,(1,7) <yi=1,2,-,10 (1) 1503 £Y,:,5) >MD; j=1,2,,5 (2) 号 昌 Yi (局 28.5% < 5 一 一 一 所 30.5% ,j = 1,2,3; (3) EEND EisE < 遇 一 芝 天 5 一 Zn<Tm = flag(3,3Y,())i =1,2,-,10; (4) E3v,(,)=% i=1,2,-,10; (5) EEV,()S160 j=1.2,.5 (9) h; € 10,1}5¢, € (0,1),i = 1,2,++,10;n = 1,2 ,20 (7) Y,(i,j) € NU {0};7 = 12 20ii = 1,2,-,1035 = 1,2,…,5 (8) 5.3 模型 的 求解 2 模型 工 是 双 目标 规划 ,运输 总 量 为 线性 函数 ,所 需 卡车 数 是 非 续 性 的, 并 定 不 嘎 续 * 沈 法 用 一 般 的 非 线性 规划 求解 。 根 据 多 目标 规划 中 的 主要 日 标 法 ,将 运输 总 基 设 为 寺 台 目标 ,最 少 卡 计数 设 为 次 要 目标 ,将 次 要 目标 转化 为 约 来 条 件 ,从 而 合 得 模 型] 条 花 为 音 目 标 规划 问 题 。 由 前 面 的 讨论 ,将 最 少 乓 车 数 针 化 为 约束 条 镍 后 ,可 以 求 出 最 优 刨 于 是 ,化 简 后 的 改 进 模型 为 模型 ， As min f = ttE FICEGo x ogRE (0D,(2),(3),(5),(6),(7),(8) md 0 5 \\ 号 =7, h;= flag( 入 全 yi) 三 12， ,10; (4) $e,<20. = flag(25¥,(i53)n =1,2,,20. (9) 由 于 排 时 计划 无 效 ,等 待 问题 很 大 某 本 上 解决 ,我 们 这 里 深入 讨论 一 个 班次 内 所 有 卡 车 来 回 于 第 让 个 铲 点 和 第 ) 个 印 点 次 数 的 让 界 M(; ,7 ,由 于 每 条 路 线 卡 车 的 运行 周期 是 一 定 的 , 且 相 邻 两 车 间隔 不 必 于 -5 分 钟 ,因而 在 整 条 路 线 上 的 车 次 也 是 一 定 的 ,加 之 受到 相应 铲 点 岩石 和 矿石 最 大 产量 和 上 界 ) MG 全 wx MEGi,),[p(i,j) /1541} o) r 68 71 72 68 84 87 70]17 y// 61 68 64 68 70 81 66 84 87 80 EN 68 64 68 71 81 68 64 70 81 = (M(i,j)ioxs 81 71 70 68 72 75 68 74 80 81 i 汶 - 81 71 84 68 74 80 68 74 76 81 23 480 3 o00D ={ 7 43 MPEG = TCD] 于 是 , 芋 Y,(i 1 S MGLJ),Vi= 1,2，…，5. 得 到 最 终 求解 模型 模型 耳 。 minf=1505 S1CE)V,(LD) XdGDT, se(D……(9) 同 模型 了 $Y,(00) < MGi). =1,2,+,10,j = 1,2,-,5. (10) 根据 以 上 的 改进 模型 ,为 了 便于 求解 ,暂时 不 考虑 约束 条 件 (9) ,由 5h=7 按 铲 点 位 置 EisE 66 I 程 数学 学 报 第 20 % 分 成 120 个 子 问题 ,将 全 Y,(i 7) 看 作 一 个 变量 ,一 共 50 个 变量 。 每 个 子 问题 恰好 是 整数 线性 规划 ,利用 SAS 软件 对 每 个 子 问题 分 别 求解 ,经 过 比较 得 到 最 优 解 :最 小 总 运 量 为 = 556.03 x 154 =85628.62 吨公里 。 此 时 5,6,7 三 个 铲 点 没有 运输 量 , 恰 好 满足 铲 车 数量 的 约 东 ,主要 目标 已 经 解决 。 在 此 基础 上 ,分 析 车 辆 分 配方 案 , 使 所 用 卡车 数量 最 少 。 若 总 Yi 三 ME(i7, 则 安排 一 辆 卡车 在 一 个 班次 内 只 行驶 S; - D, 路线 。 但 当 号 Y， (iJ) 不 是 ME(i ,7 的 整数 倍 时 ,必然 还 要 其 他 卡车 将 剩余 的 石料 运输 完 , 其 车 次 为 Z(i， )=mod( E ¥,(1,7), ME(:,1)). BEEEEEEEREBZNTSEYR 这 里 运用 了 贪心 算法 D] ,具体 算法 如 下 : 二 人 NY (1) 将 剩余 车 次 矩阵 Zone 中 非 元 素 对 应 运 第 时 间 辕 期 二 险工 反 5 从 大 刘 外 排序; (2) 首先 尽 可 能 多 运输 Tiax5 中 最 大 元 素 所 对 应 的 路 线 , 但 忆 能 超过 班 的 总 工作 时 间 , 如 有 时 间 琵 余 ,中 转移 到 Tiexs 次 大 元 素 对 应 的 路 线 , 选 择 甘 中 不 超 寺 班 次 总 工作 时 间 的 最 大 路 妇 ;运输 后 就 在 Tioxs 中 减 去 已 运输 的 次 数 ; ; SS \\ (3) 依 此 策略 直至 一 辆 卡车 的 工作 时 间 排 满 为 止 ; WA (4) 车 Zioxs 中 还 存在 非 零 元 素 就 返回 (1) , 按 ) 水 重复 ,直至 剩余 车 次 矩阵 Zioxs 中 元 素 都 为 零 , 结 束 。 经 过 调整 并 且 考 虑 到 转移 时 间 差 ,我 们 得 到 第 二 间 所 需 最 小 车 辆 数 为 13 辆 ,其 安排 如 表 1。 定理 1 在 该 问题 中 所 利用 的 最 少 的 车 辆 数 为 13 辆 。 证 明 在 最 优 解 中 ,我 们 将 运 内 避 期 Zi 局 和 运输 计划 安排 车 次 Nioxs 相 乘 并 求 和 得 出 在 此 方案 下 的 理想 工作 时 间 总 和 bj 5)3 5 T(1.1)% Ni 7 = 6038.976 分 钟 ,每 辆 卡 车 的 有 效 工作 时 间 都 是 铭 0 分 钟 , 所 需 卡 车 数 7 = total /480 = 12.5813 辆 ,所 以 所 需 卡 车 数 必然 大 于 12 辆 。 而 表 1 中 已 笃 吕 了 13 辆 车 的 可 行 运输 方案 ,所 以 命题 成 立 。 __ 人 二。 m —akmenrs NT 史 7 下 本 天 区 辣 生 天 本 天 本 天 本 世 SR | 有 [区 Ia ya | 一 针 加 本 基本 基本 天 可 大 TEN 和 下 晤 可 其 中 ,134) 表 示 第 3 辆 卡车 在 铲 点 2 与 印 点 1 之 间 共 运输 了 13 车 次 ,其 他 类 似 。 5.4 转移 时 间 差 在 以 上 的 讨论 中 ,我 们 均 没 有 考虑 当 一 辆 卡车 从 一 条 路 线 转 移 到 另 一 条 路 线 上 的 时 间 差 。 时 间 差 的 产生 主要 是 在 运输 过 程 中 ,这 辆 车 无 需 再 回 到 原来 的 铲 点 ,而 是 直接 到 另 一 条 路 线 上 相应 的 铲 点 ,由 于 两 条 路 线 的 不 同 ,造成 了 卡车 在 转移 过 程 中 的 转移 时 间 差 。 不 妨 设 EisE 下 站 第 7 期 露天 矿 生产 的 车 辆 安排 67 (5 为 一 条 从 S, BID, 的 运输 路 线 ,那么 当 一 辆 卡车 从 路 线 转移 到 路 线 时 ,其 转移 时 间 差 0 oa once 结论 :根据 最 优 结果 进行 分 配 车 次 ,考虑 转移 时 间 差 ,其 时 间 的 总 量 必然 比 原来 的 理想 时 间 总 和 6038.976 大 。 5.5 等 待 问题 的 讨论 ap 机 于 对 任何 多 于 两 困 车 的 计 兴 都 可 转化 为 两 辆 车 的 情况 ,所 以 ,在 此 代 这 这 人 天 全 六 和 等 待 的 情况 。 根 据 卡 车 出 现 等 待 的 位 置 对 等 待 情况 进行 分 类 ; =-\\ /, aa SS/ 一 AN NALA 人 a o D2 A D148D2 A2 0 再 SC os 全 s2 % X = 图 中 :AB 表示 装 货 时 间 段 (5min) ,CD 表示 却 货 时 间 段 (3min),S1jS2 汪 示 两 辆 卡车 ,tiyta 分 别 表示 两 辆 卡车 开始 在 AA 点 装 货 的 时 间 ,tclG) 表 示 时 间 段 AI(2) - Bl1(2) - C,,T 表 示 一 团 所 用 的 时 间 ; 对 于 图 一 ,Marimod( ta - t,) ,mod (tt- tayT)| 表 示 这 两 辆 车 在 运行 时 间 围 上 的 时 间 间 也 。 辣 1. 在 铲 点 处 产生 等 待 .如 果 有 两 辆 车 在 同 旦 条 路 线 上 运行 ,那么 它们 的 运行 可 以 用 图 一 表示 ， 只 有 当 Mar mod( 6) ,号 绚 ( 汐 - 5,T)1<5 时 ,两 车 才 会 在 装点 发 生 等 待 。 如 果 这 两 车 在 不 同 的 路 线 上 但 是 在 风 一 个 匀 点 装 货运 行 ,如 图 二 , 则 只 有 当 以 下 三 式 0< mod (1= 11, T1)<5,0< mod(s 5, maz (1y,02)< £ <480 联 立 有 解 的 时 候 ,两 车 才 会 产生 等 待 \\= 2. 印 点 处 产生 等 待 5 线 似 于 1 的 讨论 ,可 以 分 为 两 种 情况 : 当 两 辆 车 在 同一 条 路 线 上 面 志和 Maz {mod(t5 - 1,),mod(e; — £2, T)| <3, (HHEE CD); 当 mRELDE EETR(H 2), AAEUT Z2 rat<mod(z — 13, T1) <3+ tar, 多 站 aa-oma TS 问题 2, 基 于 问题 1 的 约束 条 件 , 求 最 大 产量 且 运 输 量 最 小 ,可 得 出 模型 如 下 寞 型 T : max 户 = 1543 5v,(1.5) min £= 1543 51(3 ¥,(,0) x djD)1s. 4 0D……G10) 同 模型 胃 。 采用 类 似 于 问题 1 的 解法 ,首先 不 考虑 约束 条 件 (9) , 按 铲 点 分 布 不 同 , 共 分 为 Ci = 120 个 整数 线性 规划 子 问题 , 求 出 其 产量 最 大 的 解 。 然 后 ,将 最 大 产量 作为 一 个 约束 条 件 ， 并 考虑 岩石 产量 优先 ,再 次 利用 SAS 求解 最 小 运 量 。 求 得 总 产量 671 车 次 ,10. 3334 万 吨 ， 总 运 量 为 147792.26 吨公里 ,其 中 岩石 产量 为 320 车 次 ,49280 吨 ;矿石 产量 为 351 产量 ， bi 口 | 更 68 工 程 数学 学 报 第 20 着 PIPE 54054 吨 ;卡车 数量 为 20 辆 。 类 似 于 问题 1 ,采用 贪心 算法 ,并 且 考虑 转移 时 间 差 , 求 出 安排 如 表 2: 表 2 问题 2 一 班次 的 运输 方案 w[efa fefe bs [e [e C C R 10¢5)10, 4(3)371a: E [E | + | b 0 3 32015320s 0 1 着 ) Jao05ow 醉 其 和 天 有 本 本 基 EN 且 下 下 必 OK ETIE3E 和 天 本 阳 式 从 已 | |， 。|。 下 | 一 6 ”模型 的 评价 与 改进 XS 本 文 对 建立 的 两 个 基本 模型 逐步 简化 求解 ,将 了 目 标 用 主要 目标 法 转化 为 单 目 标 规划 , 非 线性 规划 转化 为 线性 规划 ,利用 SAS 罗 件 的 整数 规划 求解 ,模型 简单 ,适用 性 强 ， 容易 编程 实现 求解 ,并 且 能 够 很 好 的 解决 问题 的 整 束 党 由 于 模型 的 简单 化 ,就 避免 不 了 很 多 的 重复 操作 ,将 原 问 题 分 成 120 个 简单 的 整数 规划 的 子 问题 ,为 了 求 得 最 优 解 ,必须 遍 历 这 120 个 问题 , 求 出 各 个 子 问题 的 最 优 解 ,再 进行 比较 ,时 间 开 销 很 大 ;但 是 ,在 求解 过 程 中 ,我 们 发 现 很 多 情况 其 实 是 不 符合 要 求 的 ,这 样 可 以 将 那些 对 产量 上 限 很 不 敏感 的 鲜 点 不 予 考虑 ,作出 适当 的 简化 。 4 参考 文献 : < [1] 林 负 云 等 .多 目标 优化 的 与 论 [M] . 长 春 : 吉林 教育 出 版 社 ,1992 [2] 倪 勤 . SAS 最 优化 软件 速成 [WM] . 北京 : 科学 出 版 社 ，1998 [3] 王晓东 , 六 [M] . 北京 : 电子 工业 出 版 社 ,2001 Zr 下 Arrangement for an Opencast Iron Mine 以 > DING Yu-liang， HU Hai-lin, GUO Li-jun TAN， Advisor:LI Xin-xiu (Nanjing University of Posts and Telecommunications,Nanjing,210003) Abstract: In this paper，we study the optimization problem of the truck arrangement for an opencast iron mine. We use the primary - object method to transform the multi - object optimization problem to a single - object opti- mization problem. Based on the primary object (the total transportation load) ，we setup a minimal transportation load function, and use the secondary object as a regulation, then we simplify the cost function, and transform the non — linear programming problem to the linear programming problem. (下 转 114 页 ) EisE - p Se 114 I 程 数 学 学 报 第 20 % [2] 宋 济 .知识 助 我 登 上 领 奖 台 [J]. 游泳 ,2002;4:27 一 28 [3] 彭 援 军 . 毛泽东 畅游 九江 [J] .游泳 ,2002;4:28 -28 [4] 史 力 生 . 用 数字 直接 模拟 层 流 [J] ,长沙 铁 道学 院 学 报 ,1994;12(2):43 一 54 [5] 杨波 , 程 亮 , 陈 晶 , 李 亮 , 吴 莎 . 抢 渡 长 江 最 佳 路 线 的 探讨 [J] .数学 通讯 ,2002;24:42 - 43 The Application of Mathematic Model in the Competition of Crossing the Changjiang River CHEN Li, PAN Hai-li, GUO Ling = 和 从》 Instructor: CHEN Tac 和 W (Nanchang Univ=rsity, Nenchang ss0047)/ = Abstract: This papcs establishes the aptimal model for crossing issue. Ar 人 六 results are present- ed on the firs: rwe sesticrs given in the article. We also analyze the mdin ressonfor the percentages different of people who can succeed in reaching the opposite bank in 1934 and in %) gives the necessary requirements for those who can reach the destination successfully. In 200: — mal speed of those successful competitors was 1.43m/s. In the process of analyzing the latter problems, the idea‘that adjusting the competitor's flat — out direction as current changes is brought forward to establish MedAINI and Model I. Model IV provides an ideal crossing way in the case that one can adjust his flat — out direction at any time as current changes and gives a rela- tively rational distribution function of water speed. By analyzing water speed on the foundation of the real condi- tion ，we get a more rational oo mrof water speed and build Model V .The LINGO and MATHE- MATICA software are used in proceedifigd ctthe optimized answer. By the end, the modelsesablished in this paper can be spread to other fields such er space flight and navigation. Keywords:the competition T= the Changjiang River; optimal route (上 接 68 页 | 一 ¥ 4 \\V Abstract; 2 software，we traverse all the 120 linear programming sub problems, and get the most optimum Solui sed on the solution we use the greedy algorithm to get the least truck number and the plan routine，For problem one, we figure out that the minimal total transportation load is 85628. 62 1] 和英 人 aate seven forklifts are placed in the lst2nd,3rd， 4th,8th,9¢h forklifts position， 13truckes are nceded en two, we use the similar solution to problem one, and make a full use of the present resource，we get a maximal production quantity is 103334 ton, 20 trucks are used, and forklifts are placed in the 1st, 2nd, 3rd, 4th, 8th, 9th, 10th forklifts position. The minimal transportation load is 147792.26 ton * km, the quantity of rocks is 49280 ton, the quantity of ore is 54054 ton Furthermore, we analyze the time when two trucks would wait in the same line, and the cost of time for a truck moving from one transportation routine to another. Keywords: primary — object method, greedy algorithm the time difference of transfer. 2 © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http:Wwww.cnkinet",
+  "normalized_text_chars": 12079,
+  "normalized_text_sha256": "E627976D42464EF8BF52E41750A2CE096F7AF90E078F077099F03A21AF48654E",
+  "page_provenance_summary": {
+    "OCR": 7
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "EFCC502AC3B37CDF030CFC78C18E2CBDD69EC6460DB37D9850F0CAC6EFA7F2B4",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "D86E86A50BB358E42BF7EAE48B1E92AA1CA67ED5E9029F16DC8393C42F61263C"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "2C858B45C8286DA0BBA1DFF668CB9D7B57379CE0413EA31427788B19CDDD178F",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "3C20E9B6C461258055CD7DF995BE2152315A6C9DCFF41A971E450BA628FC0440"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "F8FBEE0327CDD0165F791C0BA520F796932B247DB030C0D4CEE1D269C467A20A",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "CFCD0ABC4485A7996197FD9DFA7ED94345B278AAE3992E5333B75D33E6EE5AD3"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "5D6614C1790B39029EF8838F015BCFCEAFE195E2F24A37D541EA1DCA74A3C2CF",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "D8FE7C8155D846BCB4C86406FED30C5278530FD83317F45751FCDDBE9B207ED0"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "9DAFC1CED67CA84DC4FD6C2546C0D14205776E6DFF9292C84AECD22AA3730C8C",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "34C6969ADB3A851740ABBBD7A087E05836E0550F35DE73249751450DB34770FA"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "8B1484ED713D4FE5A7EA8CED8855689E5805CCE93FB6F1ADAADA70B82C947C41",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "FD4D9C99B8AB951EB8A82EC1BF6B520A60E8A9C6BF8D4AD4ADE53387306A87A5"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "C21E0F054EB069D958AE1F0FA0C684BC6A47B58A11168DE0AFEF74A0C33B6952",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "776B4CF14546514F45732E842590BF511F2904C9554E68F04D7AAE7B88F6C848"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

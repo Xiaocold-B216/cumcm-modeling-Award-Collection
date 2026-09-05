@@ -1,0 +1,110 @@
+工
+
+74
+
+程
+
+数
+
+学
+
+学
+
+报
+
+第 19 卷
+
+参考文献 :
+[1]
+
+徐光辉 . 随机服务系统 ( 第二版) [ M ] . 北京 : 科学出版社 ,1986
+
+[2]
+
+周义仓 ,赫孝良 . 数学建模实验 [ M ] . 西安 : 西安交通大学出版社 ,1999
+
+[3]
+
+李 涛 ,贺勇军 ,刘志俭 . Matlab 工具箱应用指南 —
+—
+—应用数学篇 [ M ] . 北京 : 电子工业出版社 ,2000
+
+The Optimum Mathematical Model on the Bus Dispatch
+YAO Wei2peng ,
+Adviser :
+
+WAN G Yan2hui
+
+L IU Hong2wei
+
+流
+
+BO Li2jun ,
+
+( XiDian University , Xi’
+an 710071)
+
+交
+
+Abstract :This paper presents an optimal met hod of peak curve according to t he Fisher algorit hm of serial specimen clustering. We
+conclude 5 uphill passenger2flow peak ranges : 5 :0026 :00 , 6 :0029 :00 , 9 :00216 :00 , 16 :00218 :00 , 18 :00223 :00 , and 5 downhill
+passenger2flow peak ranges : 5 :0027 :00 , 7 :0029 :00 , 9 :00216 :00 , 16 :00219 :00 , 19 :00223 :00.
+
+研
+
+Then , under t he peak ranges , two algorit hm models , Ⅰand Ⅱ, are established. Comparing t he calculated results of t he fore2
+going models , we conclude : model Ⅰ is applied to two interval high peaks , and model Ⅱ is applied to t hree ot hers. Wit h t he
+smoot h met hod between every two time2sections , we make t he bus time schedule of two starting stations , and get 47 needed buses
+
+：
+科
+
+at least . In t his scheme , passengers’satisfaction rate is 9812 % , and t he bus ccompany’s is 76123 %.
+By t he end , we set a random optimum model by t he t heory of random service system , and give t he probability sensitivity and
+error analysis. Furt her , we get a better scheme for collecting operation data.
+
+号
+
+Key words : serial specimen culstering ; passenger2flow ; peak ; bus number ; smoot h met hod ; random service
+
+( 上接 53 页)
+
+公
+众
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DIN G Feng2ping ,
+Adviser :
+
+ZHOU Li2feng ,
+
+L I Xiao2peng
+
+Mat hematical Modeling Tutor Group
+
+( Zhejiang University of Technology , Zhejiang Hangzhou 310032 , China)
+
+微
+
+信
+
+Reestabl ishment of three dimensional blood vessel
+
+Abstract : The reestablishment of t he t hree dimensional blood vessel is presented in t he article. According to t he information given
+
+by t he problem , 100 pieces of sliced sheet of blood vessel are inputted into t he program and transformed into data matrixes. Then
+
+t hree steps are given to reestablish t he blood vessel. Firstly , t he radius of t he blood vessel is obtained by searching t he biggest in2
+scribed circle of t he sliced sheet and here two solutions are given by using tangent met hod and t he biggest overlay. Secondly , t he
+track of t he centre of t he scrolling ball is hunted by grid met hod , Monte Carlo met hod and non - linear optimization met hod respec2
+
+tively. Thirdly , t he projection of t he central axes is positioned precisely on t hree planes. At last verifying of t he reestablished blood
+vessel and error analysis are carried out to test t he precision of t he model.
+Key words : reestablishment of t hree dimensional image ; track ; overlay
+
+© 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

@@ -1,0 +1,39 @@
+回避 党 动 回
+106 工程 数学 学 报 第 19
+运行 ) 可 记录 : 上 行 方向 所 需 车 辆 数 (up- bus) ,下 行 方向 所 需 车 辆 数 (down- bus) 。
+为 保证 每 个 始 发 站 每 天 早 发 车 前 与 晚 收 车 后 的 车 辆 状态 都 不 变 , 给 定 的 发 车 间隔 有 下 列
+两 种 :
+4 上行 与 下 行 方向 发 车 时 间 间 隔 相同 :
+人 岂 owerm | overm | cpow | ec Tom Jup. bus] down bms
+.22) | 0006 | oo | 06p5 | 0274 | bo | 2 | 2
+423) | 00488 | 016 | 04l40 | 0l0 | 3 | 2 | 2
+433) | 0106 | 03l94 | 04031 | oa | 30 | 1 | 5
+5.2.9 | 0057 | 0136 | 0339 | 0148 | 29 | 2 22
+(5.33) | 0104 | 0358 | 03l50 | 0266 | 265 | 15 相 -US
+(5.2.4) | 0.156 | 0136 | 03301 | 02007 | 280 | 22 二 人
+1622) | 00364 | 0.162 | 03414 | 01803 | 299 相 Jp22 | 、22
+(633) | 0.1344 | 03704 | 02547 | 02532 | 24041 -15
+&¢ J
+83. 上 行 与 下 行 方向 早 高 峰 和 晚 高 峰 时 间 间 隔 对 换 , 如 人 局
+(4.3,2) 表示 ; 上 行为 (4.3,2) ,下 行为 (4,2. 3 失忆)
+OP 吕 overws | ourm | cp _ow [4 Zeil T Tom | 由 bus] down bm
+432) | oose | 0133 | 04026 | el 村 30 | 4 | 1
+@2.y | 0.0860 | 02547 | 0407 | -02688 | 331 | 15 | 45
+[53 | 0052 | 00842 | 05672 | 02255 | 385 | 35 | 15
+[32) | 0050 | ol | 03a4l | 0l834 | 2 | 4 | 1
+(523) | 0105 | 0293 同 37o09| 0a2586 | 2 | 1 | 4
+53.9 | 0.1204 | 03585M coal | 02646 | 265 | 15 | 15
+065.42) | 00922 | 029D24b 7 0 | 0236 | 280 | 5 | 1
+(632) | 00528 ja 0a2z0 | 02793 | 0ls4l | 26 | 4 | 1
+从 以 上 各 种 方案 的 Hi 滞 RmFRM 4 中 的 (5,2,3) 较 优 (黑体 ) 。
+最 后 ,特别 要 捍 肥 阐 是 访问 题 的 基本 数据 和 参数 由 北京 市 地 铁 研究 所 康 海燕 同志 提供 ，
+全 生生 和 学 和 本 生 沈 友 在 此 对 但 们 下
+7
+下 4 A Mathematical Model of Bus Scheduling
+以 S- TAN Zeguang， JIANG Qryuan
+NA， (Tsinghua University Beijing 100084)
+Abstract: In this paper the background of the problem and idea of mathematical modeling are given. A specific
+mathemctical model and correponding numerical results are presented.
+Key words : bus scheduling ; mathematical model
+#% 工
+撞 大

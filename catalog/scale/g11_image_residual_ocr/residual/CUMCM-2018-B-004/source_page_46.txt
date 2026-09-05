@@ -1,0 +1,46 @@
+回 玫 SA
+end
+Left(Error(j2))=Errorli4)-Error(;3);% 将 故障 修复 所 需 时 间 转 换 为 当前 工作 剩余
+
+完成 时 间
+Time=Error(;3);% 时 间 调 整 至 故障 发 生 时
+flag=1;
+end
+end
+iflag% 由 于 原 目 标 CNC 发 生 故 障 ， 重 启 循环
+continue;
+end
+Time=Time+Expect(2,MinNumber);% 正 常 等 待
+flag=0;% 目 标 CNC 是 否 已 有 工件 ，0 为 无 ，1 为 有 A7
+fori=size(Rec1):-1:1% 记 录 本 次 操作 的 时 刻 一 NY
+if Rec(i,1)==MinNumber && ”0 \)
+flag=1; 所
+Recli3)=Time;% 记 录 下 料 开 始 时 间 ood
+Rec=[RecMinNumberTime,NaN];% 记 录 上 料 开 始 B 而
+break; US \ \
+end 人
+. 这
+ifflag==0% 仅 发 生 上 料
+Rec=[Rec;MinNumber,Time,NaN];
+end @
+if on
+Situation(MinNumbenj=1  ¢ A
+Time=Time+Expect(3,MinN dmber 5 完成 换 料
+for i=1:8%CNC 上
+if Left(i)-Expec ¥ nNumber)<0
+Left(i)=0;
+else
+“% 中 Reeeaamnaamben
+2
+人 只 人 CNC 更 新 剩余 时 间
+| /, nifrnd(0,100)>=99% 生 成 故障 信息
+SA， StartTime=Time+unifrnd(0,Work);% 随 机 生成 故障 开始 时 间 〈 发 生 在 加 工时 )
+ProcessTime=unifrnd(600,1200);% 随 机 生成 人 工 修复 所 需 时 间
+Error=[Error;size(Rec,1), MinNumber,StartTime,StartTime+ProcessTime,0];% 记 录
+故障 信息
+end
+else% 需 要 清洗 的 情况
+Time=Time+Expect(3,MinNumber)+Wash;% 完 成 换 料 与 清洗
+for i=1:8%CNC 的 时 间 推 进
+if Left(i)-Expect(4,MinNumber)-Wash<0
+46

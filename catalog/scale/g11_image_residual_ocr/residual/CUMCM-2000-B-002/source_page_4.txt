@@ -1,0 +1,33 @@
+加
+RE T
+82 数学 的 实战 与 认识 1 tien
+离 4n4p4na4ua 比 S， 更 近 ,但 这 几 段 管道 的 总 需求 不 能 使 gs 的 供给 达到 饱和 , 所 以 由 8s
+而 不 是 8 来 供应 4 1,4 p4 nd 同 理由 于 84 距 4 io4n4up 比 $: 远 ,所 以 由 8: 而 不 是 8
+来 供应 4 10,4 11,4 12 所 以 4 1,4 由 5Ss 和 8 共同 供应
+根据 上 述 模型 , 我 们 可 以 求 出 各 段 所 用 的 费用 , 相 加 便 得 到 右 半 部 分 费用 的 最 小 值 为
+到 cow =- 306972 6
+而 在 前 面 求 得 的 线性 规划 问题 的 最 优 解 中 ,8,,S2S; 的 供给 量 已 经 达到 饱和 , 这 说 明
+左 半 部 分 的 需求 量 比 供给 量 大 , 需要 由 右 半 部 分 来 补充 , 补充 量 为 445 单位 通辽 观察 可 以
+发 现在 右 半 部 分 的 工厂 中 ,$* 距离 这 些 点 是 最 近 的 ， 而 且 在 供给 左 半 部 分 砂 欠 评分 后 其 供
+给 量 也 不 会 达到 饱和 加 \)
+这 样 图 的 左 半 部 分 4， 到 4 加 上 工厂 5 下 似 原 大 图 模型 的
+小 模型 , 但 已 经 不 存在 不 生产 的 工厂 , 因为 右 半 部 分 已 经 可 以 求 到 最短 汪 对 在 边 继续 进行
+优化 ， SA 人
+类 似 前 述 对 大 图 进行 优化 的 方法 ， 我 们 固定 ww, 依旧 求 租 绑 性 规划 , 得 出 到 各 4 ， 点 的 运
+输 费 用 : 934628, 再 加 上 沿 管道 的 运输 费用 46725, 得 到 总 费 用 288326.
+了 人 人 以 这 个 值 为 初 值 ，
+继续 进行 优化 , 我 们 采取 了 模拟 退火 算法 来 优化 , 得 便 电 标 间 数值 为 : Cos 上 = 1278198
+参考 文献 :
+O
+[1] 钱 颂 迪 ， 薛 华 成 《运筹 学 》 清华 大 学 j 版 社 F 上 京 , 1990
+[2] 盛 昭 瀚 , 曹 忻 RrAAA o RERE HAL, T095, 1992
+[3] 陈 宝 林 《最 优化 理论 和 算法 》 es 1989
+[4] 杨 冰 TIRE 哈尔滨 船舶 工程 学 院 出 版 社 ， 哈 尔 滨 ，1994.
+M odel 1) Grdone and Transportation of Pipeline
+2X Y « GUO Shi-qiang, WANG Jia
+下 4 (DalianM aritmeUniversity，Dalian 116026)
+\/
+SN
+] %e. By analysing of the graph, we gave a nonlinear op tinum modelof question one, and
+N e solve the question one in two ways
+D  ©1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.  htip://www.cnki.net

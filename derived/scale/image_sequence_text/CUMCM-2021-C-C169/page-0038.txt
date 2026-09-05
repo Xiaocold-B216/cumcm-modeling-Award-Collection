@@ -1,0 +1,44 @@
+5
+WEEK2(ij)=WEEK2(ij}+sum(~ismember(data1(ij*n).0));
+if ~isnan(ratio2(ij*n))
+1
+和
+&
+sa
+本
+aver_ratio2=sum_ratio2./WEEK2;
+boi
+ape
+% SUM=zeros(50,24); WEEK=zer0s(50,24);
+rratr
+1 aa
+% forn=1:10 5
+% SUM(Nj= SUM(i jl+data2(i,n®j); 法 一 CT
+% \WEEK(1j)=WEEK(ij}+~ismember(data2(i,n*}),0); “/. 人 外
+P & 六
+加
+end 过 4
+fea . K
+Erawlia
+Z 一
+om 人 人 入
+L—4 ]
+REs
+VC
+上 MAXDjj= data2(i,n"j);
+if data2(i,n*j>MAX(ij)
+MAX(ij)=data2(i,n*j}
+"
+p
+o
+而
+si
+.
+5
+MAX(i isnan(MAX(i, }}}=1e-4;
+o
+人
+X=2er0s(50,24);AA=zeros(24,50);K=zeros(24,1);q=zeros(24,1);
+可 这
+f=ones(S0,1);
+可

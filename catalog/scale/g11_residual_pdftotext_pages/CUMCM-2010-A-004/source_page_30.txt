@@ -1,0 +1,82 @@
+程序 1 数值积分求球冠体体积程序主要代码
+double qiuguan(double h)
+{
+double a = 1000, R = 1625, y = h;
+double Ra = R - a;
+double n = 1000;
+
+/*迭代 100000 次*/
+
+double temp = (y + 1500.0) / n;
+y = -1500;
+double out = 0;
+for (int i = 0; i < n; i++)
+
+流
+
+{
+double r = sqrt(R * R - y * y);
+double L = 2.0 * sqrt(r * r - Ra * Ra);
+
+交
+
+out += (r * r * acos(Ra / r) - L * Ra / 2.0 ) * temp;
+y += temp;
+
+研
+
+}
+return( out / 1e6);
+
+：
+科
+
+}
+
+程序 2：罐容表标定值打印程序
+#include <stdio.h>
+
+double qiuguan(double h)
+
+众
+
+{
+
+号
+
+#include <math.h>
+
+double a = 1000, R = 1625, y = h;
+
+公
+
+double Ra = R - a;
+double n = 1000;
+
+/*迭代 100000 次*/
+
+double temp = (y + 1500.0) / n;
+
+信
+
+y = -1500;
+
+double out = 0;
+
+微
+
+for (int i = 0; i < n; i++)
+{
+double r = sqrt(R * R - y * y);
+double L = 2.0 * sqrt(r * r - Ra * Ra);
+out += (r * r * acos(Ra / r) - L * Ra / 2.0 ) * temp;
+y += temp;
+}
+return( out / 1e6);
+
+}
+
+int main()
+30
+
+

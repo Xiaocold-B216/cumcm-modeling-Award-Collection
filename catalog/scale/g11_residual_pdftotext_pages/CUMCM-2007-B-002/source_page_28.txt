@@ -1,0 +1,91 @@
+fout_Time << "起始点：" << nStart << endl;
+fout_Time << "目标点：" << nEnd
+
+<< endl;
+
+fout_Time << "###############################################" << endl;
+fout_Time << "直达情况下: " << endl;
+fout_Time << "总共有：" << FeasibleSolve_0.size() << " 种" << endl;
+OutPutTimeCal(fout_Time, Time_0);
+fout_Time << "###############################################" << endl;
+fout_Time << "一次换乘下：" << endl;
+fout_Time << "总共有：" << FeasibleSolve_1.size() << " 种" << endl;
+OutPutTimeCal(fout_Time, Time_1);
+fout_Time << "###############################################" << endl;
+
+流
+
+fout_Time << "二次换乘下：" << endl;
+fout_Time << "总共有：" << FeasibleSolve_2.size() << " 种" << endl;
+
+交
+
+ofstream fout_BusChange( (strPartName+"转乘.txt").c_str() );
+
+研
+
+ww
+
+/*
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+OutPutTimeCal(fout_Time, Time_2);
+
+multimap<float, vector<int> > BusT_0 = CostCalculate( FeasibleSolve_0, AllLines );
+
+：
+科
+
+multimap<float, vector<int> > BusT_1 = CostCalculate( FeasibleSolve_1, AllLines );
+multimap<float, vector<int> > BusT_2 = CostCalculate( FeasibleSolve_2, AllLines );
+
+fout_BusChange << "起始点：" << nStart << endl;
+<< endl;
+
+号
+
+fout_BusChange << "目标点：" << nEnd
+
+fout_BusChange << "###############################################" << endl;
+
+众
+
+fout_BusChange << "直达情况下: " << endl;
+
+fout_BusChange << "总共有：" << FeasibleSolve_0.size() << " 种" << endl;
+
+公
+
+OutPutCostCal(fout_BusChange, BusT_0);
+
+fout_BusChange << "###############################################" << endl;
+fout_BusChange << "一次换乘下：" << endl;
+
+信
+
+fout_BusChange << "总共有：" << FeasibleSolve_1.size() << " 种" << endl;
+
+OutPutCostCal(fout_BusChange, BusT_1);
+
+微
+
+fout_BusChange << "###############################################" << endl;
+fout_BusChange << "二次换乘下：" << endl;
+fout_BusChange << "总共有：" << FeasibleSolve_2.size() << " 种" << endl;
+
+OutPutCostCal(fout_BusChange, BusT_2);
+
+*/
+/*
+ofstream fout ("换乘二次的解决方案.txt");
+ofstream fout1("测试费用.txt");
+
+28
+
+

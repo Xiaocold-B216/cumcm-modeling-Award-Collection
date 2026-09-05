@@ -1,0 +1,115 @@
+数
+
+30
+
+6
+
+学
+
+的
+
+实
+
+践
+
+与
+
+认
+
+识
+
+31 卷
+
+模型的优缺点及改进方向
+优点:
+
+① 基因特征这种非线性系统很难用数学方程表达出来, 而且可利用的样本有限, 以至
+于传统的分类识别方法显得无效, 神经网络从其良好的学习功能和很强的非线性计算能力,
+为分类提供了一种新方法;
+② 传统的分类方法是一种模型驱动方法, 大部分统计模型基于线性回归, 而神经网络
+用数据驱动方式来解决分类问题, 它通过样本学习逼近实际系统模型的能力很强;
+
+交
+
+流
+
+③ 由于 B P 网络的信息分布性, 各输入变量对输出变量的影响在对样本学习时已自动
+记下, 并由整个网络的内部表达而表现出来, 从而省略了通常建模前所需的对各变量的相关
+分析;
+④ B P 网络有更多的可调变量 ( 各权值、阀值) , 故网络可以以更复杂的方式逼近系统的
+外部特征. B P 模型的不足之处在于存储于各权上的知识人们无法理解, 所建立的模型难以
+
+：
+科
+
+研
+
+用解析方式表达出来.
+改进方向:
+① 样本集如何处理, 更能改善网络的学习效果, 提高识别精度;
+② 研究网络的结构及诸参数与分类效果的关系;
+③ 如何根据样本集的选择网络学习参数, 以提高网络的收敛速度;
+
+④ 研究适用于分类识别问题的神经网络的闭环结构, 利用反馈信息, 提高网络预测的
+精度.
+
+号
+
+参考文献:
+
+建 1 神经网络控制 1 机械工业出版社, 19981
+
+王永骥, 徐
+
+[2]
+
+Funahash i K J 1 the A pp ron im ate R ealization of Con tinuou s M app ing by N eu ral N etw o rk s1N eu tral N etw o rk s, 1989,
+(2).
+
+[3]
+
+R um elhart D E, M oclell J L. Parallel D istribu ted P rocessing: Exp lo ration in the M icro structu re of cogn ition. M IT
+
+公
+众
+
+[1]
+
+P ress, L ondon, 1996.
+[4]
+[5]
+[6]
+
+信
+
+[7]
+
+袁曾任 1 人工神经网络及其应用 1 清华大学出版社, 19991
+陈 明 1 神经网络模型 1 大连理工大学出版社, 19951
+楼顺天, 施 阳 1 基于M A TLAB 的系统分析与设计——神经网络 1 西安电子科技大学出版社, 19991
+王士同, 陈剑天 1 问题求解的人工智能神经网络方法 1 气象出版社, 19951
+胡守仁 1 神经网络应用技术 1 国防科技大学出版社, 19931
+
+微
+
+[8]
+
+A M odel for D NA Sequence Cluster ing Problem
+FEN G T ao ,
+
+KAN G Zhe 2w en,
+
+HAN X iao 2jun
+
+(D a lian U n iversity of T echno logy, D a lian
+Abstract:
+
+116024)
+
+T h is p ap er p resen ts a m ethod app lying a rtificia l neu ra l netw o rk (NN ) to DNA
+
+clu stering p rob lem. F irst w e u se the p robab ility sta tistics m ethod to ex tract the cha racters from
+the 20 a rtificia l DNA sequences w ho se ca tego ries a re know n. T hu s w e can get the cha racter
+vecto rs of the DNA sequences and inp u t them a s sam p les in to B P neu ron NN fo r lea rn ing. W e
+
+

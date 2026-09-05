@@ -1,0 +1,47 @@
+paper_id: CUMCM-2010-C-002
+year: 2010
+problem: C
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010C：输油管的布置.pdf
+  sha256: 59A9FEB40E7440F2AE910AA3B77B6C97E7F1DE601AFBE61FC44E2D557679ECD5
+authority_sha256: 59A9FEB40E7440F2AE910AA3B77B6C97E7F1DE601AFBE61FC44E2D557679ECD5
+paper_file_memberships:
+- path: 2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010C：输油管的布置.pdf
+  role: primary
+  canonical: true
+primary_file: 2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010C：输油管的布置.pdf
+extraction_inputs:
+- path: 2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010C：输油管的布置.pdf
+  sha256: 59A9FEB40E7440F2AE910AA3B77B6C97E7F1DE601AFBE61FC44E2D557679ECD5
+  kind: original
+extraction_input_sha256: 59A9FEB40E7440F2AE910AA3B77B6C97E7F1DE601AFBE61FC44E2D557679ECD5
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 14
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_10.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_11.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_12.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_13.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_14.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_7.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_8.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2010-C-002/source_page_9.txt"]
+  source_sha256: 59A9FEB40E7440F2AE910AA3B77B6C97E7F1DE601AFBE61FC44E2D557679ECD5
+  current_body_sha256: AFADC221D3B36031871D02FAF4394D17AD1E515A07164276A28C26483ED2E350
+  candidate_body_sha256: 95C4AA5A5D02467DAD7C99A23F1DC5998A71C3736D06C130882376ECAA9A85DB
+  source_page_count: 14
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

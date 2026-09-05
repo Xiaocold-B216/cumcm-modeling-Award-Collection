@@ -1,0 +1,41 @@
+回 大 车 油 国
+66 数学 的 实践 与 认识 1 tien
+7 15
+mi 和 copy 二 DC D+ or zuor 2 D]
+| Cn47TEE(T)
+21
+500x; 三 SSsrn j= 1,2,,7
+7
+> 7 = 5903
+1 全 1 ，
+当 dU)> 10, Yy= Y zat bi ,其 中 Uno4)EEO)
+= CODEE(CT) 一
+B)st 、 ? 多
+Hd U)= 0 时 , 2 wo zz 其 中 do4) €E(T)T A7
+= 全 由
+当 d! d)= 0 时 ， pRY = z 如 其 中 dj49 € coZS
+0=zy=wij, “:,4,) EE(T)  ud
+xi= 0,1, i= 1,2,,7
+yiz0, i=1,2, < … ,21
+参考 文献 ; X
+一
+[1] 甘 应 爱 , 田 丰 等 著 . 运筹 学 . 清华 大 学 出 版 社 , 北京 , 1994 K
+[2] 袁 亚 湘 , 孙 文 瑜 著 . 最 优化 理论 与 方法 . 科学 出 版 社 , 北京 , 199
+[3] 人 徐 俊明 著 . 图 论 及 其 应 用 . 中 国 科学 技术 大 学 出 版 社 , 合肥 , 1997
+O 〇
+人 LA °
+AAA .
+The Strategy of co 给 and Transporting Steel Tubes
+DUAN x 一 YU Chang-sheng， WU Jian-de
+essGrorfthw 6stern PolytechnicalU niversity，Xian 710072)
+Abstraet， NT pipelines are in line-shape, we provide a nonlinear programm ing
+mo y/A problem. Since there are not too much variables, most of the constraints are
+os goal function is quadratic, one can get satisfactory strategies quickly by using
+\ the software L ingo. W ith the softwareM atlab, for each plantwe get the curve that reflects the
+W, 和 ae ce of the variation of its steel tubes price to the total cost Comparing these curves, we
+SN em ine forwhich plant, the variation of its’ steel tubes'price has the serbus influence to the
+tal cost Asto the influences of the variations of the upper bound of the output of the steel
+tube to the total cost and the strategy of ordering and transporting, we treat the problem in a
+similarway In the case themain pipelines are in tree-shape，we assign a direction to each edge
+of the tree and establish amodel sinilar to the model in the line-shape case
+2 © 1994-2008 China Acade Journal Electronic Publishing House. All rights reserved 'www.cnki.net

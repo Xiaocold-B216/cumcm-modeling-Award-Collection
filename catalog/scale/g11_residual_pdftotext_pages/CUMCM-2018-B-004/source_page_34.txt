@@ -1,0 +1,66 @@
+ProcessTime=unifrnd(600,1200);%随机生成人工修复所需时间
+Error=[Error;size(Rec,1),MinNumber,StartTime,StartTime+ProcessTime,0];% 记 录
+故障信息
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+else%需要清洗的情况
+Time=Time+Expect(3,MinNumber)+Wash;%完成换料与清洗
+for i=1:8%CNC 的时间推进
+if Left(i)-Expect(4,MinNumber)-Wash<0
+Left(i)=0;
+else
+Left(i)=Left(i)-Expect(4,MinNumber)-Wash;
+end
+end
+Left(MinNumber)=Work-Wash;%换料的 CNC 更新剩余时间
+if unifrnd(0,100)>=99%生成故障信息
+StartTime=Time-Wash+unifrnd(0,Work);%随机生成故障开始时间（发生在加工时）
+ProcessTime=unifrnd(600,1200);%随机生成人工修复所需时间
+Error=[Error;size(Rec,1),MinNumber,StartTime,StartTime+ProcessTime,0];% 记 录
+故障信息
+end
+end
+Position=ceil(MinNumber/2);%RGV 位置更新
+end
+while ~(Rec(end,3)+Expect(3,MinNumber)+Wash<=28800)
+Rec(end,:)=[];
+end
+%% 计算
+SUM=size(Rec,1)-size(Error,1);%成料数
+WAIT=(Rec(end,3)*8-size(Rec,1)*Work)/8;%CNC 平均非有效工作时长
+Last=Rec(end,3)+Expect(3,MinNumber)+Wash;%最终完成物料清洗时刻
+%% 计时
+toc
+clear Expect flag i Left MinNumber Move Position Situation Switch Time Wash Work ProcessTime
+StartTime;
+memory
+用于双工序情况三方法一第一组的代码
+Situation3_2Team1.m
+%情况 3（基于情况 2）下的代码
+clear;clc;
+%% 计时
+tic
+%% 输入不同组别参数
+Move=[0,20,33,46];%第一组[0,20,33,46] 第二组[0,23,41,59] 第三组[0,18,32,46]
+34
+
+

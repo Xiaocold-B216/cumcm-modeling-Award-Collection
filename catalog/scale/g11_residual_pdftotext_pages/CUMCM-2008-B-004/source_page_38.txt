@@ -1,0 +1,80 @@
+private static final double W = 21793.2;
+private static final int ML = 100;
+private static final double Z1 = 1035431.7;
+private static final double Z2 = 18629153.18;
+private static final double A = 6650.53;
+
+交
+
+流
+
+private int T = 0;
+private int L = 0;
+private double ff = 0.0;
+private double f1 = 0.0;
+private double f2 = 0.0;
+private double df = 0.0;
+private double e = 0.0;
+private double fuhao = 0.0;
+private double randmax = 500;
+private double r = 0.0;
+
+号
+
+rand = new Random();
+
+：
+科
+
+数学中国
+www.madio.net
+
+public void init(){
+T = 20000;
+ff = 6431.0;
+
+}
+
+研
+
+private boolean loop1 = true;
+private boolean loop2 = true;
+private boolean loop3 = true;
+private Random rand = null;
+
+众
+
+public void Simulation(){
+init();
+
+公
+
+do{
+
+微
+
+信
+
+do{
+
+if(T == 0){
+//如果 T=0 时，退出程序
+loop1 = false;
+System.out.println("最优解为："+ff+"温度为："+T);
+break;
+}
+do{
+
+//生成新解
+f1 = ff;
+r = rand.nextDouble();
+fuhao = rand.nextDouble();
+if(fuhao<=0.5){
+f2 = ff-randmax*r;
+}else{
+f2 = ff+randmax*r;
+}
+if(f2>=4000.0&&f2<=10000){
+36
+
+

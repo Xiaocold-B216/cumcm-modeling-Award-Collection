@@ -1,0 +1,32 @@
+main_node_coordinate % 主 索 节点 的 坐标 ，XYZ
+motor lower % 促 动 器 下 端点 的 坐标 ，XYZ
+motor_higher_ base % 促 动 器 上 端点 的 坐标 ，XYZ (基准 态 )
+triangle 9% 三 角形 反射 面板 的 顶点 序号 ，string 转 序数
+edge % 不 重复 的 连 边 项 点 序号 ， 按 照 左 小 右 大 表示 ， 格 式 是 序数
+end
+methods
+function d = Data
+main_node = readtable( 数据 /1. 主 索 节点 坐标 和 编号 .csv)
+dmain_node_code = string(main_node{:,1});
+dmain_node_coordinate = main_nodef:,2:end};
+motor = readtable( 数据 /2， 促 动 器 上 下 端点 坐标 和 编号 .csV);
+assert(all(d.main_node_code == string(motor{:,1}))):
+dmotor lower = motor{: 2:4};
+dmotor_higher_base = motor{: S:end}:
+triangle = readtable( 数据 B. 反 射 面板 的 顶点 编号 .csv);
+dtriangle = string(triangle{:.1});
+d.check)
+d=d.convert_node_id();
+dedge = d.get_edges();
+end
+function ¢ = get_edges(d)
+tri = d triangle;
+= [uiCL2):tri(:2:3jtriG:[L3]):
+e(e1)7e(2),0) = e(e(1)7e(2)(2,11
+©= unique(e,Tows):
+assert(size(e.1) == 6525);
+assert(-any(e(:1) == €.2):
+end
+function check(d)
+asser(isstring(d.main_node_code));
+42

@@ -1,0 +1,40 @@
+附录
+提 和 撒 瑚 和 和 乔 午 弄 出 题 上
+#install. packages(" factoextra")## 可 视 化 包
+#install. packages(" fpc")
+library(factoextra)
+library(fpc)
+library(cluster)
+library("stats")
+mydata=read.csv("data.csv")
+# 数 据 预 处 理
+is.na(mydata)# 查 看 数据 是 否 有 缺失 值
+sumfisna(mydata))j# 缺 失 值 的 个 数
+datal=mydata[c(-201.-136.-64),]# 出 除 异 常 值 ( 离 群 点 )
+data=datal[-1]# 赋 除 第 一 列
+std.data=as.matrix(scale(data))j# 数 据 标 准 化
+者 和 撒 表 搬 和 搬 乔 玫 家 说 确 定 最 佳 聚 类 数目
+才 ]. 肘 部 法 则
+fviz_nbclust(std.data, kmeans,method ="wss" k.max = 10)
+HH2P EIRRERE
+# 玫 取 2 到 10， 评 估 玉
+K<2:10
+round <- 10 # 每 次 迁 代 10 IK, 避免 局 部 最 优
+Tst <- sapply(K, function (1){
+print(paste( "K="1))
+mean(sapply(] :round, function (r){
+print(paste( "Round” ,r))
+result <- kmeans(std.data, 1)
+stats <- cluster.stats(dist(std.data), result$cluster)
+stats$avg.silwidth
+b)]
+D
+plot(K:rsbtype= .main= ' 轮 廓 系数 与 KK 的 关系 ' ,ylab= ' 轮 廓 系数 ')
+规 3. 间 隔 统计 量
+stat_gap <- clusGap(std.data, kmeans, nstart = 25, K.max = 10, B =5)
+fviz gap_stat(stat_gap)
+HHHHHHHHHHHHHHA# means TR
+km_result=kmeans(std.data,centers=3,iter.max=10)
+# 提 取 类 标签 并 且 与 原始 数据 进行 合并
+dd=cbind(data, cluster =km_result$cluster)
+27

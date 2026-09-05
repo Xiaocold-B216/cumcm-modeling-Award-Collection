@@ -1,0 +1,9 @@
+{
+  "historical_poppler_version_evidence": true,
+  "historical_runtime_path_evidence": true,
+  "historical_source": "TeX Live 2026 Windows runtime; historical Q3/G6 tooling explicitly bound D:\\texlive\\2026\\bin\\windows\\pdftotext.exe",
+  "historical_package_version": "TeX Live 2026",
+  "historical_download_url": "https://mirrors.pku.edu.cn/ctan/systems/texlive/tlnet",
+  "historical_binary_sha_available": false,
+  "binary_identity_claim": "Not established; future acceptance remains subject to the frozen semantic replay."
+}

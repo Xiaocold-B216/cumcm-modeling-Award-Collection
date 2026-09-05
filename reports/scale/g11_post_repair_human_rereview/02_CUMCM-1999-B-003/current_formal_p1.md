@@ -1,0 +1,109 @@
+# Current Formal Excerpt — CUMCM-1999-B-003 — source page 1
+
+- Current body: `derived/scale/papers/CUMCM-1999-B-003/paper.md`
+- Current body SHA256: `5AF0061C03FA255BA04B35F28021E9090E4CDF772FF87BCB7E617B6A4A634CF9`
+- Current page segment SHA256: `2C1A77CF165B637D17E4FE9F221CD661874F28CABE6EF33ECFED08CD2EF83133`
+- Extraction method: `STRICT_SOURCE_PAGE_MARKER_BOUNDARY`
+- Repair route: `DOC_EXISTING_EXTRACTION_RECONSTRUCTION`
+- Repair layer: `G11_MARKER_ONLY_PAGE_LOCAL_FORMAL_BODY`
+- Repair page audit: `catalog/scale/g11_multi_route_formal_repair_pages.csv`
+
+The block between the delimiters below is copied from the current `paper.md` substring. No human wording, OCR, rendering, or extraction was added in this stage.
+
+<!-- BEGIN EXACT CURRENT PAPER.MD SUBSTRING -->
+<!-- source_page: 1 -->
+
+第 30 卷第 1 期
+数学的实践与认识
+V o l130 N o 11
+2000 年 1 月
+J an. 2000
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+法需要的仅仅是求关于三个变量的 n 2 个不等式是否有解, 可以用穷举的办法来解决, 不需
+要用优化方法来解题.
+参考文献:
+周承高, 廖
+
+[2]
+
+张培强. 《M A TLAB 语言》
+. 中国科技大学出版社, 1995. 11.
+
+园.《优化方法及应用程序设计》
+. 中国铁道出版社, 1989.
+
+[3]
+
+刘来福, 曾文艺.《数学模型与数学建模》
+. 北京师范大学出版社, 1997, 8.
+
+流
+
+[1]
+
+CH EN Gang,
+
+GU O Cheng 2liang,
+
+交
+
+L oca tion Arrangem en t M odel of D r ill ing W ell
+W U T ing 2b in
+116024)
+
+研
+
+(D a lian U n iversity of T echno logy, D a lian
+
+T he key idea of th is p ap er is to determ ine the inva rian ts w ith resp ect to coo rd ina te
+
+：
+科
+
+Abstract:
+
+tran sfo rm a tion s. Fo r the first p rob lem , the au tho rs find tha t a ll the ′
+w ells′can be m oved in to a
+sing le g rid, and the d istance from each w ell to the nea rest crunode is a con stan t, therefo r the
+question is g rea tly sim p lified. Fo r the second question, since the Euclidean d istance betw een
+tw o w ells is con stan t under coo rd ina tes tran sfo rm a tion s, a series of necessa ry cond ition s a re ob 2
+ta ined to conclude w hether the a ll g iven w ells can be u sed. Fu rtherm o re, a op tim iza tion m odel
+
+号
+
+is estab lished to get a necessa ry and sufficien t cond ition. T he a rithem etic of the second questino
+fits the th ird question a s w ell. W e can u se the sam e m ethod to trea t the th ird question a s in the
+
+微
+
+信
+
+公
+众
+
+second one.
+
+钻 井 布 局
+
+徐胜阳, 陈思多, 金 豪
+指导教师: 数学建模教练组
+( 武汉汽车工业大学, 武汉
+
+编者按:
+
+430070)
+
+本文对前两问的解答采用了正确的穷举算法, 得到了正确的结果. 对问题三的解答有特点: 第
+
+一, 给出了一个好用的充分条件: Π i, j , D ij ≤Ε; 第二, 通过算法给出了求 n 个像点的最小外接圆的方法, 该圆
+的半径即可作为判别 n 个源点是否可用的条件. 此处反应出作者们较强的创造性.
+
+摘要:
+
+本文将旧井的利用问题归结为 0- 1 规划问题, 由此建立了目标函数. 提出映射原理, 将旧井的位置
+
+映射到一个单位网格中, 从而大大地简化了模型的求解. 应用映射原理和穷举方法, 求解出有方向约束条件
+下的可利用点为 4 个, 经过转化, 推广到无方向约束条件下的可利用问题, 解得 6 个点可利用. 研究了目标成
+立的充分条件, 给出了三种特殊情形下的判定方法. 提出了中垂线上的二分逼近法.
+<!-- END EXACT CURRENT PAPER.MD SUBSTRING -->

@@ -1,0 +1,34 @@
+P_x= [-L300.*cos(angle300) -L300.*sinangle300)
+% 抛物 线
+plot(-Lw.*cos(angle), -Lw ssintangle) -k "LineWidth', 2);
+plot(p_x(D),P_x(2) "KMarkerSize, 22); % 300 口径 点
+plotfp_PCDP_x(CDL [p_P(2) p_x(2)]. sk，LineWidth, 2); % 焦点 连 线
+plot(fp_x(D p_x(1)]. [p_T(2) p_x(2)]. sk，LineWidth, 2); % 准 线 连 线
+text(p_x(1), p_T(2)-20, vboldmathsx=30012S. font_opts{:});
+% 格式
+axis(equal);
+set(gea, Visible', off);
+% ylim([-300, 200]);
+style(fontsize, fontname’);
+% fastprint( 图 片 /prob1. 结 果 .2D 剖面 最 优 抛物 线 四
+end
+prob2.m: 问题 2 的 结果 可 视 化 、 检 验
+% 本 文件 原名 prob2.m
+le
+ef
+clear
+mg(default);
+close all
+clear(global);
+data = Data();
+[fval, opt_X, opt_XYZ, opt_Lz, opt_ABR, index, W, Winv .
+edge, edge_distSQ, motor_hi, motor unit motor_distSQ] = prob2_calc():
+close all
+XIsx_output(opt_XYZ opt_Lz, index, Winv)
+disp(" 问 题 2 最 小 误差 平方 和 : "+fval);
+retum
+elf reset
+ermplot_3d(data, opt XYZ, opt_ABR, index):
+elf reset
+plot_3d_lzldata opt XYZ, opt_Lz, index):
+36

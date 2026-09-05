@@ -1,0 +1,40 @@
+Torrin range(1 sheet nrows):
+war0
+for ¢ in range(2.sheetneols:
+s-sheet.cell value(r, ¢)
+i 认 FLII 一 A'
+ss10.6
+iFLI--'B:
+5-5/0.66
+iFLI--C:
+ss10.72
+val.append(s)
+GHL.append(tuple(val))
+Imdi—4
+lmdr=4# 灵 敏 度 分 析 ， 往 前 看 Imd-1 周 修改 这 个 Ir
+def GetObj(name, C):
+ObiL= np.zeros(w)
+now_Obj-0
+forjin name
+forzin range(w):
+oObiLEI += GHLIEz
+forz in range(w-1, 1-1):
+for kk in range(ImdLlmdr-+1
+print(kk)
+#print(kk)
+if ObjL{z]-C<0;
+证 z-kk>23:
+continue
+证 zkk<0:
+continue
+x=C-ObjLEZ]
+证 ObjLIz-kkj-C>0
+ifx<ObiLIz-kkl-C:
+ObiLIz -kk-=x
+ObjLIz}+=x
+else:
+y=ObiLIz-kk-C
+ObiLIz-kk -=y
+ObjL[z] YY
+forzin range(w):
+E

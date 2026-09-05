@@ -1,0 +1,47 @@
+回 成 革 动 国
+二
+村
+Left(i)=0;
+else
+Left(i)=Left(i)-Expect(4,MinNumber)-Wash;
+end
+end
+Left(MinNumber)j=Work-Wash;% 换 料 的 CNC 更 新 剩余 时 间
+if unifrnd(0,100)>=99% 生 成 故障 信息
+StartTime=Time-Wash+unifrnd(0,Work);% 随 机 生成 故障 开始 时 间 ( 发 生 在 加 工时 )
+ProcessTime=unifrnd(600,1200);% 随 机 生成 人 工 修复 所 需 时 间
+Error=[Error;size(Rec,1), MinNumber,StartTime,StartTime+ProcessTime,0];% 记 录
+故障 信息
+end A7
+end 一 NY
+Position=ceil(MinNumber/2);%RGV 位 置 更 新 2 \)
+end
+while ~(Rec(end,3)+Expect(3,MinNumber)+Wash<=28800) p ood
+Rec(end,:)=[]; SS
+end As NS
+%% 计算 人
+SUM=size(Rec1)-size(Erron1);% 成 料 数 A X
+WAIT=(Rec(end,3)*8-size(Rec,1)*Work)/8;%CNC 平均 FERCTf 时 长
+Last=Rec(end,3)+Expect(3,MinNumber)+Wash;% 最 终 完 成 物料 清洗 时 刻
+%9% 计时 O
+toc AZ O 〇
+clear Expect flag i Left MinNumber Jr Situation Switch Time Wash Work ProcessTime
+StartTime; JY )
+memory 放
+oa
+Simplify_Situation3 电 Teamdl.m
+% 情 况 3 (FkT aa
+clear;clc; 7,
+2 和
+tie, NA
+和 司 组 别 参数
+Move=[0,20,33,46];%5—41[0,20,33,46] 第 二 组 [0,23,41,59] 第 三 组 [0,18,32,46]
+Work=[400,378];% 第 一 组 [400,378] 第 二 组 [280,500] 第 三 组 [455,182]
+Switch=repmat([28,31],1,4);% 第 一 组 [28,31] 第 二 组 [30,35] 第 三 组 [27,32]
+Wash=25;% 第 一 组 25 第 二 组 30 第 三 组 25
+%% 预 设 系 统 情况
+Tool=[12,12,12,12];% 预 设 刀 有 具 分 布 情况 ， 是 情况 2 下 的 最 优 方 案
+Position=1;% 记 录 RGV 的 位 置 ， 取 值 为 1*4
+Left=zeros(18);% 记 录 8 台 CNC 当前 工作 剩余 完成 时 间 ， 等 待 时 为 0
+Situation=zeros(18);% 记 录 8 台 CNC 当前 是 否 拥有 工件 ，0 为 无 ，1 为 有
+47

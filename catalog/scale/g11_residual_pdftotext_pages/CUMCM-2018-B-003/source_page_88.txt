@@ -1,0 +1,63 @@
+%一道工序的修复时间，随机，10,15,20 的 20 组随机
+clc,clear
+G=[];
+for i=1:20
+[m(i),m1(i),TMT(i),GZ] = f302( );
+G=[G;GZ];
+clear GZ
+end
+A=[TMT;m1];
+A=A';
+
+研
+
+交
+
+流
+
+B(1)=A(1,2);
+for i=2:20
+B(i)=B(i-1)+A(i,2);
+end
+
+：
+科
+
+[mm,nn]=size(G);
+C=zeros(1,mm);
+C(B)=1;
+
+众
+
+号
+
+G=[G,C'];
+D=zeros(19,5);
+for i=1:19
+D(i,1)=i+1;
+end
+
+信
+
+公
+
+for i=1:19
+[mm,nn]=size(G);
+G=[G(1:B(i),:);D(i,:);G(B(i)+1:mm,:)];
+B=B+1;
+end
+G=[[1,zeros(1,4)];G];
+
+微
+
+G(:,5)=[];
+
+ZM=[mean(A(:,1)),mean(A(:,2))];
+ZMM=std(A,0,1);
+A=[A;ZM;ZMM];
+附录二十一：Ques304.m
+%两道工序的修复时间，随机，10,15,20 的 20 组随机
+clc,clear
+88
+
+

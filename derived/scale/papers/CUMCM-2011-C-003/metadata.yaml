@@ -1,0 +1,14 @@
+paper_id: CUMCM-2011-C-003
+year: 2011
+problem: C
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011C：企业退休职工养老金制度的改革 (2).doc
+source_sha256: CB99F5DD56122680A0797E642C8ED3463B12B388DBDA96E2F42A9345EE623696
+effective_pdf_path: derived/scale/doc_batch/CUMCM-2011-C-003/source_converted.pdf
+effective_pdf_sha256: 43E6F2FFCF11E26323BAD64452D8923C0A1898EEACDEAC867B9A113B397FA83B
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2011-C-003/normalized_body.txt
+authoritative_text_sha256: 184B4EBE112616D1EB50BE5468519888C1DC6BF76C4CC6CB30F31F8029ECA76C
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

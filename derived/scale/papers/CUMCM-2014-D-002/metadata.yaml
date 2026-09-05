@@ -1,0 +1,14 @@
+paper_id: CUMCM-2014-D-002
+year: 2014
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014D：储药槽的设计 (2)/储药柜的设计.doc
+source_sha256: 0F96568C1507DC18820F68592A9A6DA83C3FE6842CF007A17567C219BEBA841E
+effective_pdf_path: derived/scale/doc_batch/CUMCM-2014-D-002/source_converted.pdf
+effective_pdf_sha256: EC483F99582A1ED0BDA10F423374BC49ADE8A16AEF1FC8A658334BAF252715E7
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2014-D-002/normalized_body.txt
+authoritative_text_sha256: 4B516950FA5B4EC8B2415444A98ED0EF26EC90BDA055A86DC90A19D450CDD676
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

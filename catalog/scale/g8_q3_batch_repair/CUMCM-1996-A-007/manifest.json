@@ -1,0 +1,62 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-1996-A-007",
+  "source_path": "1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996A：最优捕鱼策略问题答卷评述.pdf",
+  "source_sha256": "2BD383B1BB38E93EC34C70DA8269EE0E7A883EEC93133823016B2E35DBEC6126",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 3,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 3,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "[ERfiahE] C aEE JI 月 数学 的 实践 与 认识 AmeR 最 优 捕 鱼 策略 问题 答卷 评述 刘 来 福 (北京 师范 大 学 ， 北 京 100875) 资源 和 环境 的 合理 开发 和 保护 是 国民 经 济 发 展 中 的 一 个 十 分 重要 问题 . 特别 是 可 再 生 资 源 的 持续 开发 和 利用 的 问题 已 经 二 一 个 全 世界 关注 热点 话题 渔业 的 可 持续 开 的 问题 是 应 用 数学 来 研究 资源 的 利用 的 一 个 成 功 的 例子 . se 全 是 在 这 个 背景 下 提出 来 的 , 客人 大 家 了 镍 训 何 半 学 应 用 于 把 和 的 合理 开发 和 利用 . . A 人 这 个 问题 是 来 自 关于 渔业 资源 开发 利用 的 研究 工作， 际 情况 对 问题 进行 了 适当 的 加 工 和 简化 . 数据 也 是 实际 的 观测 数据 , 类 优 的 问题 我 曾经 在 《大 学 生 数 学 建 模 输 导 材料 》 一 书 中 做 过 介绍 . 与 之 比较 , 题目 中 给 出 的 鱼 跨 的 种 必 的 死亡 过 程 是 连续 的 .集中 的 季节 性 的 产 外 表明 售 殖 是 离 芝 约 ， oa 因此 笃 类 种 群 在 年 龄 上 可 以 理 和 鞠 高 攻 亚 化 的 ri 为 是 非 线性 的 而 渔业 捕捞 作业 只 在 鱼 类 生长 过 程 的 部 分 时 间 进行 应 该 说 这 些 都 使 得 我 们 所 讨论 的 问题 更 接近 于 渔业 生产 的 实际 .当然 也 增加 了 问题 的 复杂 性 最 后 得 到 的 目标 函数 (通常 称 之 为 产 最 努力 量 (捕捞 强 度 ) 函数 ) 人 俩 用 解析 的 方法 是 很 难 进行 分 析 的 .必须 要 掌握 计算 机 编程 的 技巧 来 解 决 这 ee 第 一 问 昌 然 复杂 但 比较 规范 难度 并 不 很 高 :第 二 同 中 的 “五 年 后 鱼 客 的 生产 能 帮 不 能 受到 太 大 的 破坏 \" 的 提 法 较 前 多 了 一 些 天 活性 . 0 这 次 训 赛 多 数 同 学 都 般 这 个 下、 从 答卷 上 看 ， 同 学 们 做 题 是 努力 的 ， 也 很 认 。。 真 有些 管 卷 是 本 村 怖 秀 的 也 有 不 少 的 答卷 存在 着 这 样 或 那样 的 问题 . 其 中 多 数 发 和 0 1 rs 这 个 概念 题目 中 交代 的 十 分 清楚 ， 它 是 单位 时 间 捕 描 量 与 鱼 群 条 数 成 正比 时 的 此 鲍 系 数 . 如 果 用 数学 语言 来 表示 就 是 ， 只 考虑 捕 柳 对 种 群 变化 的 影响 RIEE,t+ B) 这 腿 时 间 内 鱼 半 种 群 由 拉 持 产生 的 变化 量 MFH 为 Yt) - Nt At ] 章 亿 时 亲本 拉 榜 量 是 [Y() - Ntt + ADJ/AL 当 它 与 鱼 群 的 大 小 成 正比 时 应 该 有 关系 \\ [NG - N(t + At)]/At = gN(t) 这 个 关系 应 该 对 任何 的 时 间 间隔 At 都 成 立 . 于 是 , 令 At — 0 就 得 到 方程 UN/d = -aN， 捕 摘 强度 系数 应 该 理解 为 满 下 这 个 关系 的 县 4. 如 果 直 接 把 它 理解 为 捕捞 的 百 分 紊 是 不 恰当 的 . EEE ErEEE 1 期 刘 来 福 : 最 优 捕 鱼 策略 问题 答卷 评述 19 2. 关于 鱼 类 的 “季节 性 集中 繁殖 \" 问题 ， 应 该 说 这 里 对 这 种 鱼 类 的 繁殖 行为 的 特征 已 经 交代 清楚 了 ， 问 题 中 还 特别 指出 它 的 生物 学 背景 ， 钥 鳃 ， 以 便于 大 家 通过 查阅 文献 资料 得 出 更 具体 的 印象 ， 为 了 用 数学 语言 描述 这 种 繁殖 行为 应 该 通过 假设 对 上 述 特征 给 出 更 明显 确 叙述 . 题目 中 说 产 久 罗 化 期 是 一 年 的 最 后 四 个 月 ， 而 且 是 集中 产 卵 ， 那 么 假设 产 卵 均匀 地 分 布 在 丫 四 个 月 的 期 间 内 是 不 合适 的 .因为 从 我 们 的 生物 学 常识 也 可 以 知道 鱼 的 产 卵 繁殖 与 鸡 的 产 卵 灌 殖 不 同 ， 再 仔细 分 析 一 下 就 发 现 ， 如 果 在 四 个 月 均匀 地 产 卵 ， 那 么 这 种 鱼 类 应 该 每 1. 分 钟 产 一 个 路 ， 显 然 这 不 符合 鱼 类 的 生物 学 实际 的 . 有 的 队 假设 产 久 的 过 程 从 正 态 分 布 ， 在 方差 很 小 的 前 提 下 ， 这 的 的 ， 但 大 大 增加 了 问题 的 难度 . 在 不 失 生物 学 的 真实 的 前 提 下 ， es 设 应 该 是 假设 鱼 玫 的 个 体 在 后 四 个 月 的 第 一 天 集中 一 次 产 卵 ，. 多 有 使 用 启 风 个 月 的 平 均 鱼 群 量 来 计算 产 外 的 总 数 . et 杂 . / 3. 议论 比较 多 的 是 “自然 死亡 率 为 0.8(1/ 年 ) we 比较 复杂 的 概 念 . 因为 它 既 不 是 简单 的 百分比 率 又 不 是 简单 的 变化 的 地 刘 ) 实际 上 它 是 百分比 率 的 变 化 速率 . 它 的 具体 含义 与 前 面 的 捕捞 强度 的 琶 登 昆 》 数 的 . 由 于 在 这 个 种 群 变化 的 模型 中 ， 时 间 是 以 变量 的 束 式 比 杠 的， 这 个 最 是 有 量 闫 的 它 的 量 网 单位 必须 是 1/ 时 间 ， 它 应 该 至 解 为 鱼 谤 是 以 每 年 死 f- 百 分 之 人 十 的 速度 减少 .由 于 死亡 现象 是 在 任意 时 刻 瞬 时 发 生 汐 ， 它 所 导致 的 结果 并 不 是 在 -年 内 恰好 死亡 百 分 之 八 十 .因此 它 不 同 于 每 年 死亡 百 分 之 八 十 的 说 法 ， 后 一 全 谨 法 经 常用 于 离 区 模型 的 参数 ， 这 时 时 间 是 以 轩 定 间隔 (通常 为 单位 时 间 ， 如 ， 第 ) 5 它 不 是 模型 中 的 变量 .因此 这 时 的 死亡 率 仅仅 是 一 个 简单 的 百分率 ， 是 一 个 无 量 纲 的 量 ， 否 出 将 无 法 保持 模型 中 量 纲 的 平衡 . 因 上 不 让 人 是 不 本 内 这 个 概念 已 经 多 次 出 现在 数学 模型 的 孝 二 在 介绍 生物 种 群 增长 的 数学 模型 时 ， 它 作为 指数 增长 模型 中 的 唯一 的 一 人 和 要 的 参数 ， 一 般 都 被 称 为 此 “增长 率 \" 或 “自然 增长 率 \". 我 们 这 里 只 是 有 了 人 wm 量 纲 单位 的 使 用 实际 上 已 经 标志 出 简单 的 百分率 与 百 分 率 的 杰 4 Z 别 . 下 区 于 新 出 了 所 讨论 的 鱼 分 四 个 年 龄 组 ， 并 没有 指明 四 龄 以 上 的 鱼 如 何 对 待 ， 我 可 以 俱 设 这 种 鱼 只 活 到 四 秀 ， 以 后 它 就 死 兵 了 . 也 可 以 假设 四 各 以 后 的 鱼 仍然 可 能 活 ] 计 /者 j 生 这 两 个 假设 下 模型 没有 太 大 的 差异 .只 是 后 者 的 分 析 计算 过 程 稍 复杂 一 些 ， 计 算 \\ 的 结果 也 只 是 稍 有 区 别 . 对 间 题 的 正确 理解 ， 在 建 模 过 程 中 是 非常 重要 的 ， 它 直接 地 影响 到 所 建 的 模型 是 否 正确 地 反映 了 实际 情况 ， 特 别 对 捕捞 强度 系数 和 自然 死亡 率 的 不 同 的 理解 会 导致 计算 结果 的 明显 差 措 .尽管 在 这 次 改 卷 的 过 程 中 我 们 尽量 降低 了 它们 对 答卷 成 绩 的 影响 在 我 们 解决 实际 问题 时 ， 必 须要 给 予 足 够 的 重视 . 四 而 和 癌 四 20 数学 的 实 上 路 与 认 识 第 27 郑 - BLATRA A BARR RAE SE EYI BERL A BEORAARER, BR 一 个 与 捕捞 强度 系数 (或 捕捞 努力 量 ) 有 关 的 离散 模型 .模型 的 参数 应 该 由 各 年 龄 组 的 鱼 群 在 年 内 动态 的 连续 模型 估算 出 来 . 由 这 个 模型 就 可 以 得 到 由 于 捕捞 而 获得 的 渔 获 年 产量 (依赖 于 捕捞 努力 量 的 函数 ) 模型 ， 这 个 函数 就 是 优化 的 目标 函数 ， 可 持续 捕捞 应 该 在 离散 模型 的 平衡 解 处 发 生 ， 因 此 模型 的 平衡 解 的 迭代 关系 就 给 出 了 优化 问题 的 约束 条 件 ， 进一步 分 析 表 明 ， 它 可 以 化 为 单 参数 (努力 量 ) 函数 的 极 值 问题 ， 编 程 在 计 算 机 上 不 难得 到 问题 的 答案 : 二 龄 组 的 捕捞 强度 为 7.29/ 年 ， 捕 捞 率 为 89.79%; 四 龄 组 的 捕捞 强度 为 17.36/ 年 ， 捕 捞 率 为 95.6%; 最 优 可 持续 捕捞 量 38.87 万 吨 ， 可 持续 捕 捞 的 鱼 群 大 小 (条 数 ) : 一 龄 119 x 100， 二 龄 537 x 100， 三 龄 241 x 10t， 四 龄 84) IF 问题 的 第 二 问 的 灵活 处 理 之 处 在 于 处 理 如 何 实现 五 年 后 保持 鱼 群 的 生产 能 力 不 受 到 太 大 的 破坏 ， 以 及 如 何 使 用 题目 所 要 求 的 固定 努力 量 的 捕捞 0 . 群 并 不 是 可 持续 捕捞 的 鱼 群 ,为 了 在 五 年 内 既得 到 最 大 的 收益 5 芝 不 破 坏 鱼 群 的 生产 能 力 . 从 数学 上 说 应 该 是 五 年 后 鱼 群 尽量 接近 可 持续 捕捞 鱼 求 的 条 入 来 达 产 党 最 高 . 至 于 如 何 实现 尽量 接近 可 持续 捕捞 种 群 ， 生生 不 如 果 把 不 破坏 生产 力 处 理 为 使 鱼 群 回 到 初始 状态 ， Sa 益 最 太 芍 . 对 于 捕捞 方式 ， 题目 只 要 求 以 甸 定 努力 量 的 方式 捕捞 ， 豆 以 是 震 五 宇内 以 同样 的 强度 实现 固定 努力 量 的 捕捞 ， 也 可 以 在 不 局 的 年 份 以 不 同 的 强度 实现 固定 努力 量 的 捕捞 . 可 以 发 挥 每 个 队 的 创造 能 力 . 0 Y < © 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnkinet",
+  "normalized_text_chars": 4765,
+  "normalized_text_sha256": "922BF563E32981358AB7BB0B5CE5A92FC187BD64F69143C98D5DD9E271601841",
+  "page_provenance_summary": {
+    "OCR": 3
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "A03F2F795DB13890054C573A488846DB8EC9762090A88228EB6FC918ADF823B7",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "888E48C99B26A4877FF824EF3B4B8095357FA3599A18EADDF250DE0F2E20E029"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "EA44793EFBE1990B943E518AD7C2261885D15290CD43CC2C21DB91E7D56D1AB4",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "C4E81BF72A9926079EC902CCEF01F17E7D314156DB37D3C3D5C1182067C763E6"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "E3D0DCFA7C8E44AF87D186994F271B2C6C6AF1B19109D2EA1955D35CDEBF1CA9",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "1056A8D02EF3216648DD706C1A657611BA74545DCD4B6C6834995A0EACD45103"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

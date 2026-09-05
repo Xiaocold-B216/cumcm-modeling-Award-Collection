@@ -1,0 +1,72 @@
+d1(i)=sqrt(d1(i));
+d2(i)=sqrt(d2(i));
+
+流
+
+end
+d1
+d2
+for i=1:5
+c(i)=d2(i)/(d1(i)+d2(i));
+end
+c
+q=[72 82 101 39 55];
+q1=q/sum(q)
+cc=sum(c.*q1)
+
+研
+
+A1=[1 1.5 2
+0.5 1 1.5
+0.4 0.5 1];
+A2=[1 2 2.5
+2/3 1 2
+0.5 2/3 1];
+for i=1:3
+for j=1:3
+b1(i,j)=A1(i,j)/sum(A1(:,j));
+b2(i,j)=A2(i,j)/sum(A2(:,j));
+end
+end
+for i=1:3
+w1(i)=sum(b1(i,:));
+w2(i)=sum(b2(i,:));
+end
+for i=1:3
+w1(i)=w1(i)/sum(w1);
+%权重向量 xw2(i)=w2(i)/sum(w2);
+%权重向量 x+
+end
+for i=1:3
+m(i)=1/sum(A1(:,i));
+k(i)=1/sum(A2(:,i));
+end
+m1=sum(m);
+k1=sum(k);
+m=sqrt(m1); %m
+k=sqrt(k1); %k
+w3_=k.*w1;
+
+交
+
+附录三：
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+数学中国
+www.madio.net
+
+22
+
+

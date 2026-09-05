@@ -1,0 +1,106 @@
+{
+  "attempt_id": "20260902T164512681737_b126fa93",
+  "batch_attempt_id": "20260902T164512681737_b126fa93",
+  "paper_id": "CUMCM-2007-B-010",
+  "source_path": "2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《最优公交线路选择》.pdf",
+  "source_sha256": "32BE976B8094E5BDA8BB005BCB2EB20561DD017364CDCC56DA49D62A467917D3",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 7,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 7,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "下 回 员 过 治 加 了 学 和 中国 WWW. mddTO. LE 人 E mEEE : 本 增刊 2 工 程 数 学 学 报 Vol Supp.2 明 2 CHINESE JOURNAL OF ENGINEERING MATHEMATICS co 文章 编号 :1005-3085(2007)08-0103-07 转 | 区 E 最 优 公交 线路 选择 村 郝 晓 乔 ， 李 ， 煜 ， 兰 名 荣 轴 指导 教师 : 贺 棚 国 本 (北京 邮电 大 学 ， 北 京 100876) RIR: 未 文 在 建立 了 公交 网 络 图 的 基础 上 ， 分 别 建立 了 基于 占 搜 索 的 目 标 优化 模型 与 东 于 线 策 5 化 术 国 量 型 ， 前 者 可 由 改进 的 .Dijte 算法 求解 ， 而 后 者 为 依 换 乘 次 数 增加 的 递归 算法 。 最 优 前 计算 结果 国 ， 反映 了 本文 模型 的 有 北 往 与 作者 较 强 的 编程 能 力 。 节点 拆 分 是 本 文 的 一 个 亮点 ， 鹿 上 处理 后 便 将 换 乘 时 间 纳 从 到 了 一 个 经 册 的 最 短路 问题 中 。 另 处， 对 地 铁 线路 的 处 理 也 有 其 独到 之 处 。 H 长 短处 的 比较 不 国 处 充 分， 是 本 文 最 大 的 缺 认 亏 到 针对 公交 线 族 选择 问题， 考虑 到 公交 系统 的 两 个 基本 要 素 一 站 点 与 线 时 分 别 建立 了 基于 吉 搜 索 的 多 目 国标 优化 模 借 和 基于 线 搜索 的 双 目 标 优化 模型 。 前 者 通过 建立 有 向 图 茜 开 , 闻 拖 为 图 中 的 节点 ， 将 票 价 、 时 间 、 换 乘 这 3 种 信息 转化 为 节点 癌 的 权 值 ,产后 掖 是 名 时 、 省 国 、 这 三 个 目标 的 三 种 不 同 优先 次 序 逐 Tid 分 别 寻找 最 重 路 径 ， 给 出 了 三 组 不 同 的 骨 答 、 0 将 时 间 与 二 金钱 作为 目标 建立 于 双 目 标的 优化 模型 ， 第 天 问 分 此 0， 疡 种 情况 求解 ， 第 二 问 分 为 借助 地 铁 和 是 木 借 助 地 铁 西 种 情况 求解 ， / | 词 : 点 搜索 ; 线 搜索 ， 双 目标 优化 ! 条 目标 优化 AT 广 是 AMS(2000) 90C29 % o21 o£ 文献 标识 码 : A 问题 分 析 区 Dr 1， 问题 一 -人 抽象， y + 让 千本 香 过 类 块 十 直 志 汪 0 全 主打 好 站 点 问 的 最 佳 路 径 ， 将 公 汽 站 点 抽象 为 结 点 ， 将 公 汽 线路 抽象 缕 线 路 各 站 点 的 有 | 斋 全 构 造 一 公交 网 络 有 向 图 ， 用 边 二 的 权 值 反映 行驶 时 间 换 乘 时 间 从 等 信息 ,而 将 录 最 佳 路 入 问题 转化 为 求解 图 中 起 姑 节 点 与 目的 地 节 志 间 的 最 短路 径 懒得 建 立 放 于 全 独 索 的 多 目标 优化 模型 ， 运 用 改进 的 Da 中 没 合作 节点 的 引入 ; 目下 风月 DA ， 则 将 该 站 点 对 应 的 节点 拆 分 成 多 个 等 价 节点 ， 等 价 { TAA FO3 £T % k B 应 的 节 有 区 加 站 申通 过 该 站 点 的 线路 数目 相同 。 用 等 从 节点 之 间 的 权 值 大 小 反 遇 换 条 时 间 和 标价 等 江 本 网 ~ 二 机 示 好 铁 站 点 ， 用 节点 间 的 有 向 边 表示 地 铁 谢恩 路 吾 人 汽 线路 _ 秋 可 以 在 图 中 用 节点 表示 地 铁 站 点 ， ) 有 向 边 表示 地 钦 线 呆滞 全 隐 方 沿用 边 上 的 权 但 反 映 行 时 间 、 换 时 间 和 到 价 等 信息 ， 人 EN 二 值 不 一 样 : £ biAEA 所 以 也 要 把 站 区 地 T 和 TI EISA D 邱 Di 抽风 和 和 从 记 吉 .7 Re 和 D18 7) 换 乘 ,这 可 以 分 为 以 和 和 和 大 在 了 有 AKC 情况 ， 人 RE 3 RS 本 4 RE SR 二 人 “本村 和 四 朴 3 村 检 省 四 语 二 加 ev AN 8 中 岂 . ARX\\ 1 SS 人 H 为 “穿越 因 0 e N 地 愧 和 和 党 2 YX 优化 模型， 运 7¥ :加 anaz 有 车 cs bt bal 7 .3 RATN 9 B ) 人 1 有 向 组 成 的 集合 目的 地 书 点 族 i o 的 权 值 弛 B 1 EiaE a HORE: Sehormsninig 105 本 3 | : 目标 函数 ， Min = Z Con +oga) 决策 变量 ; 的 3 了 = fahai ia ap), 5ES, 件 : Vians;€T&iskj, apsy, 时 Viii tusy €TL fi-g|=1, ay=1, 2 模型 求解 和 Dikstra 算法 的 改进 ， 应 用 传统 的 Dijkstrd 算法 求 ; 和 法 求解 ， 算 法 时 间 长 ， 时 间 复杂 2)， 站 训 数 n 很 大 时 ， 运 行 时 间 长 。 针 对 时 间 复 杂 度 的 改进 ， 同时 要 更 好 的 请 中 多 由 人 化 到 时 我 们 提出 基于 优先 队列 改进 的 Diikstra 算法 。 在 C++ 程序 g 中 ， 我 们 弛 二 权 认 来 现 轩 进行 每 次 结 点 扩展 时 ， 根 据 价格 时间、 换 乘 的 优先 级 进行 扩展 ， 筑 法 短 策 急 杂 度 Ragz 站， 站 点 数 n 越 帮 , 优 越 性 越 明显 。 PASS 本 模型 运用 改进 的 Diikstra 昔 法 求解 ， 得 到 三 组 解 。 他 们 是 根据 查 独 很 的 3 种 共同 需求 sa 总 计 耗 时 尽量 少 \\ 总 计 票 价 尽量 少 ( 按 照 3 种 需 末 侈 优先 腹 违 减 硕 序 排 \\)19 日 二 oem 人 避 ) 将 图 中 所 有 节目 (等 价 节点 除外 ) 间 板 值 ;5 赋 什 分 Qy 将 等 价 节点 同 权 值 al WROK 潭 轩 运行 改进 的 Dijksteg 算法 ; 2) 如 果 待 探测 的 不 同 节点 权 值 炭 加 相同 ， 则 优先 敌 民 这 计 硅 时 绞 少 的 节点 ; 8) 如果 总 计 业 时 也 相同 ， 册 优先 考虑 总 计 票 人 较 上 的 节 丰 : 到， 如果 总 计 票 价 还 相同 ， 则 认 允 最 信和 有 多 条 司 邮 直 最 佳 路 径 的 节点 序列 开 以 及 由 痪 光 点 序列 到 公 汽 线路 的 映射 芒 三 Fulsa,sa,-) 反 短路 径 的 乘坐 线路 和 换 乘 节 点 。 区 沿 计 本 时 尽量 少 - 换 乘 次 数 司 量 gp= 总 计 票 人 祥 量 少 ”与 “总 计 票 从 尽量 少 - 换 乘 次数 尽量 刁 训 计 耗 时 尽量 少 ”的 步 了 与 上 类 例 ， 在 此 不 效 述 。 2.2 问题 二 2.2 行 8 大 yv B « 2 sn USRONCHHN, t=5 公 窜 换 氏 公 汽 其 中 的 步行 时 间 ， 6, ~2 国庆 a 铁 平均 时 ，t = 4 地铁 换 科 地铁 其 中 的 步行 时 间 ,地 = BORRAVCEIHN, t = 7 。 地铁 换 乘 公 泡 其 中 的 步行 时 间 ， 均 ~ 本 ATRRRECHON, b2 =6 AVRRBIEHSITEL ty = : .2.2 ”图 形 改动 二 | a 性 g 。 其 中 用 数字 标号 的 节点 表示 公 汽 站 TAR 旧闻 于 标号 的 站 点 、<( 避 地铁 相 入 拓 的 部 分 。 节 点 问 的 权 值 以 所 时 间 冉 值 人 或 目的 地 节点 ， 修 改 之 后 的 图 形 如 图 2: 祖 志 果 竹 接 部 分 所 包含 的 节点 不 是 起 始 节 点 5 证 了 EN ‘a -] EN ; 四 回 岂 车 动 加 本 . :二 EEEER | : | 1 Brn , ma Ars T\\ be: 25 |25 本 (9 是 起 失 节 点 图 人 乘 珊 公 汽 ， 其 间 并 没 | 3 公 旧 全 A \\ jles { 届 权 为 如 }= 6。 & TEABRLN ta1 = 7。 ; RBA OH BIAL 25 : CS 加 i NS 瑟 如 图 3， 过 公 汽 和 次 汽 ， 其 问 并 没 | AR 2 rLs 没有 节点 2 到 节 人 SN E | 入 人 上 4 | Xr ° B LA 已 国 模型 ， is， JIS- 二 换季 次 数 不 直 这 训 % ORAN, TA 人 和 NS 浊 讽 - (A,B) 27 由 上 间 最 快 的 让 < E. o 数学 中 国 www.madio. net Es a 邦联 面 等， 最 优 公交 路线 选择 107 wazn E 6 2 X 全 人 的 隐语 记 Sar Sa={81Z4, 天 工人 和 所 有 路 径 中 ，ZAx + Zyn 最 小 者 PbbogtBece 3 换 冬 丙 次 g 关 参 寻找 了 ax， 以 及 可 到 达 中 的 所 有 车 次 Le，za = lc £0). A 寻找 84， 以 及 车 站 集合 Sa = fs|2!8 € Za}， 从 这 些 车 站 出 发 ， 乘 从 Ly 可 达 终 要 XcSs,, Ves, 2y, 40M, FRA-X-¥ : E, ; ， ， 一 X 一 Y 二 妃 都 为 可 到 达 和 Zax + Zxy + Zyp 最 小 者 ， 即 为 所 求 路 径 。 i » 3.2 问题 二 用 们 分 别 求 出 借助 地 铁 和 不 借助 ad 借助 地 铁 时 的 最 优 解 ， 并 从 这 两 者 中 gy- L REGEY 相生 > lkg 区 本 A ZaB +ky x 34 kp x MEPUB)={ ZactZ5s +hy x 3 44%8, H=1, 外 AH Zax HZxy 和 Zrya +hyx3 8 ky=2. 了 3 和 人 第 三 目标 MinQ 二 时 Ni 为 换 乘 次 数 ，/ 为 穿越 地 铁 的 次 致 。 2. 借助 地 铁 的 模型 ~ & NOaEEs . A @ 1 Zapt 3 + 6+T+kyx8, A¢X&BRY, { be ¢ 和 本 灌 xy +Zvp + B6+T+kax8, AeX &BEY, ”Min 一 民 到 民 5 +/ 6+4+kx8, A¢X&BEeY, | Txy + 6+44kx8, AcX&BEY, 和 由 各 点 4e y 表示 起 点 从 镍 站 点 。TXY 表示 和 地铁， 经 最 人 or Si N 5 村 | A 二 - XI 办 的 表 下 对 表格 做 一 些 简单 的 说 明 。 方案 1 为 “ 换 往生 的 最 后 ， 我 们 给 出 此 愿 的 完整 解答 。 以 下 对 和 村 时 尽量 少 -总 计 村 人 尽量 少 ”方案 ?3 为 “总 计 科 时 尽量 和 WRARUR 证 标价 尽量 少 ”， 方案 3 为 “总 计 票 从 尽 重 少 - 扫 村 次 类 尽 最 少 总 计 困 用 全 - | Tiieie | RS- 本 ; NE ERE ? 1 t B- Lmhasireei i5 3 更 Rn 机 人 5 1 二 生生 AN E E iie CC e | 一 | 一 [aaoslraeol | - | | 汪汪 ERY ss ET NT | | CE 区 IECO 国 jl | | N “三 AS4 |53496 |1 al YALS » 和 CEacaE F) A 人 IC 二 一 司 国 本 区 河 国 as 区 可 本 让 “本 大国 司 = B | 王 | | E | 本 = 回 虽 车 癌 回 数学 中 国 www.madio. net TD 用 st : sieg Ni: wazn 一 部 晓 妖 等 ， 最 优 悦 最 优 公交 路 线 选 择 100 | 二 表 2， 问题 二 的 解答 3 国 回 轿 四 CE E sn [5 [ FoTn Tin]| -十 二 考 文 献 : [1] 闭 启 源 ， 谢 金星， 叶 公 数学 模型 第 三 版 JiM] 北京 ;而 0 三 版 JIM]. 等 教育 出 版 村 ，2003 we 朝明 ， 王 淹 . 数据 结构 (C++ 版 JIMj. 北京 ， 清华 大 学 出 版 福 ，2005 - 锥 7 H . 人 记 Optimal Solutions to the Bus Path Selecti N ; HAO Xiao-lei, LIYu, LAN Ming-ying s: 人 Advisor: HE Zu-guo \" (Beijing University of Posts-and Telecommunications, 00876) | :项 2 人， NU 关 bstract: Considering the fact.that the bus path selsction prdbiem B the tafic system indlude two basic ments, stops and lines, we develop the multi-objective optimizafiofi' model based on spots searching and the ble-objective optimization model based on line searching ,Fo the Wirst model, we conclude three groups of lutions, basing on three goals, time saving, money saving and the jeast transfers, but with different priorities. | n task one, we convert the price, the tiime, and transfery.to weighted value in order to establish a graph, and m acquire the optimal path for three goals with different,priorities. In task two, we not only add subway 人 ghted values into the graph, but a new 5 将 called the near-subway stop is also introduced for subway lyses. In model two, based on two goals, the iine\\and the price we set transfers as a restriction. In task we find all solutions when people make transfers Once, twice or do not, and then get the best of them. In | two, we take two conditions into|fonsideratjons. One is fiat by-subway which resemble or even is the same | e situation in the task one The her) by-subway in which the near-by stop concept is used to solve the aa spot searching,Jiné Séarching; double-goal optimization; multi-goal optimization 本 “AI AL © | AL 作 E ? N X% 村 好 所 铺 站 SA A rvhh YA gi 4is: 号 ¥ % . 了 和 村 ¥ a 2 站 suNaNAEa p. EETRE JR ER 全 HBAKE : Ta ABEE RE - 本 4 生生 全 王 生生 [ 人 & 了 所 AANEs 于 人 丰 E SS 1 Rs 四 i ES -本 | 本",
+  "normalized_text_chars": 7154,
+  "normalized_text_sha256": "810A1D3ABDF53337BDB653BE41FA95F04B911AEA6BF2D9EE253B80AFF7E17234",
+  "page_provenance_summary": {
+    "OCR": 7
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "DE36297BEEA818574D291C8A6A03149C995E69DD44EBAA15B99152874662FBC6",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "9296D723A2D30AFB7536ED40980790CF090DF1FA363FE864F8D854505A94D8B7"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "380D2219221B35DB89754A99752409FE75DE3C600E460F6F353B2D85C62E78FF",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "6DE87FF040DB729909F4210CA199212978BC6C46E646360FD990D8FAC9633778"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "E0CB00C347CA0C9516F6DB0997DCC68669B9593825830575F043946BE08E1563",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B09F6F2ECE83B8ED3854F9B85403CFF3808C5D58C35755275BFC225844B546DE"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "50BD65354A76D30223FAFB144FFD9DC3DC950301DE93A359A41C88FAAFAFD6C7",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "87FE9939C70153A88A160CC308BBB23F062061C528CC1D695FEBAD0D00483D57"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "63180E5C33A7E2EF4D62318910EB6B2662319CBFAC26B9F140C426C4375A2B9E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "3B7A72CEE0F4B1B23EB9D61B85206BF50246687B0418F3219834257D1AE1B95A"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "1A01029C48363DE7606A10E78F3CB00BAC143CCA1DFF18951B0D46B57BFED941",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "04996117F10CEF740D61D860881E8184BB9B32AA319D87FE79E4AE3EAC925021"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "545AE95B59FE547A5852E0D86C9F3D329041864099DCDF13CFD46938AD11977F",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B2AC0CE4F02B46C935077B3D140510F412A852E183A12F2C2E639887CD0E604D"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

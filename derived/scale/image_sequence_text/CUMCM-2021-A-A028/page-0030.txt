@@ -1,0 +1,42 @@
+”6 输入 变量
+96positon 一 前 一 次 主 案 节 点 位 置
+Group_Data 一 各 反射 单元 三 节点 和 三 中 点 的 坐标
+% (Group_ Data(3%-23%i,) 对 应 Group_plus(i) 处 所 示 反 射 单元 )
+% 《Group_Data(:13) MEESHTNERTRLI)
+% 《Group_Data(:13) MERSHAEN=2DALI)
+iGroup plus— BALBHRIETANENPTHSME,
+6 输出 变量
+9Gposiion_ Next 移动 后 主 案 节 点 位 置
+%iGroupData_Next 一 一 移动 后 各 反射 单元 三 节点 和 三 中 点 符 标
+%GFitness 各 主 家 节点 移动 距 宛 和
+%6p6 。 计算 各 主 案 节 点 调节 的 距离
+%6 志 给 化
+LMid = zros(length(Group, Data)1); % 编 号 i 的 中 点 到 抛物 而 的 距离
+Point_avenge = zerostength(Posiionl) “651%  (EFEAWTOER “全 二 |
+MoveMat = zeros(length(Positon),1); % 主 案 节 点 移动 知 陆 “< 入
+L_Posiion = seros(length(Position),1) % 主 过 节点 到 球 必 全 各自 Er 1
+Point =zeroslengthPosition) 6 6 在 FHE0R DLRTALE
+为 顶点 的 反 身 单元 编号) ES
+GHERG |R SHRHOER—)_ *
+for i = 1:length(Group_Data) “ \d
+L_Mid(i) = da js .67
+end N ;
+comERRY 点 作为 顶点 的 反射 单元 编号
+| fori = 1lengin(Position)
+1]  find(Group_plus == Posiion(D
+Poin(i LiengthGa) =at
+end
+oaHEMEE AT EBE
+fori = lengthpoin
+Index = find(Point(i,’) ~= 0);
+forj = Llength(index)
+% Point_average(i)=
+Point_average(i}+0.5.%(L._Mid(3*Point(i))*L. Mid(3*Point(i)-1 +L Mid(3*Poinf(ij)-
+2)(3length(index);
+L_tmp = zeros(3,1),
+L_Mid_tmp = zeros(3,1);
+L_tmp(1) = norm(Group_Data(3*Point(i,j)4:6) - Position(i,2:4)); % 第 -
+个 点 至 索 节点 眶 离
+L_tmp(2) = norm(Group_Data(3*Point(i)-1.46) - Position(i2:4);  %6% —4
+REEATAER
+L_tmp(3) = norm(Group_Data(3*Point(i,j)}-2,4:6) - Position(i,2:4)),  %% —

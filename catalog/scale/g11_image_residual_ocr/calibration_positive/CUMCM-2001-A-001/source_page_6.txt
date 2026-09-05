@@ -1,0 +1,40 @@
+REE
+S
+Hi 寺
+46 工 程 数学 学 报 第 19 BEE
+一 和
+参考 文献 :
+(1] B 鸭 . 何 地 洪 , 赵 吴 彤 等 编著 .Methernatica 应 用 指南 [ M]. 人 民 上 邮电 出 版 杜 ,1999 年 10 月 第 一 版
+[2] 这 步 青 等 编著 .实用 徽 分 几何 引 论 [M] 北京 :科学 出 版 柱 ,1986 年 11 月 版
+[3] 谭 浩 强 编著 -C 程序 设计 [M] .北京 清华 大 学 出 版 社 ,1991 年 7 月 版
+[4] REK 数学 模型 [M] , 商 等 教育 出 版 社 ,2001 年 1 月 版
+[5] 和 白 其 雪 主 编 . 数 学 建 模 案例 分 析 [M] ,2001 年 1 月 版
+[6] 直 功 炎 编 著 . 数 学 模型 讲义 [MO].1999 年 4 月 版
+Re-construction of Vessel in Three Dimension
+LIU Hai-dong, CHEN Lu， JIANG Hao
+The rutor: LU Qin-he
+《Suzhou University, Suzhou 215006, P.R. China) 人
+-从 >
+Abstract; The re - construction of vessel in three dimension will be discussed in this essay. We first show the Tollawing proposition.
+Proposition  Let C be a curve along which the venter of a ball moves，wf)  secuon sliced f£6m the AN) vessel by the plane Z
+=t. and ut the boundary of at (0=<<1=<99). Let CC be the intersection pomt of 2 - plane Z = i (0s5i<599), then
+there are a line segment with two end points P{*?, PS (P{)E€dats 2 is the middle pome cf
+the jine segment fs
+P{*! P§*" and two parallel tangent lines which touch @w'*! only at P{, P§'" 5 CO<x<s99)，
+On the basis of the proposition shown above, C*'' (0=<<i<<99) and the diamete 心 8 vessel D= 59 ,123B pixel have been Jound，
+The squstion of C msunulared by coordinate da of 100 intersccuon RSitag
+Z(t)= —0.207806- 0.610303¢ + 0.206455:2 o/vtassas I3
++0.000517774¢* 一 B. 394241977754047% toseer
++6 133353112035975 ~ 10™%2% ~ 1. 6673218267444805 ¥ 10- It7
+»(e) = 158.211 + 1.86595¢ ~ 0. 26679B¢% 十 0.0141407t>
+~0.000325412¢* + 3.043275597680807  10~%¢
+BOHECCES ©
+zf r) =t
+On the ground of that equation, the smdotedve hree dimension js figured out, and at the same time, the 40 sections sliced
+Jrem the sitmulated vessel are also Fo de-iit, matching the original vessel it the average rate hs much ns 96. 8024% -
+Key words: tangent lines; polynami 全
+_—
+ 7
+下 4
+e-
+人 一 一 一

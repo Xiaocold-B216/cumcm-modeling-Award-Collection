@@ -1,0 +1,45 @@
+回 玫 SA
+Work=[400,378];% 第 一 组 [400,378] 第 二 组 [280,500] 第 三 组 [455,182]
+Switch=repmat([28,31],1,4);% 第 一 组 [28,31] 第 二 组 [30,35] 第 三 组 [27,32]
+Wash=25;% 第 一 组 25 第 二 组 30 第 三 组 25
+%% 预 设 系 统 情况
+Tool=[12,1212,12];% 预 设 刀 具 分 布 情况 ， 是 情况 2 下 的 最 优 方案
+Position=1;% 记 录 RGV 的 位 置 ， 取 值 为 1*4
+Left=zeros(18);% 记 录 8 台 CNC 当前 工作 剩余 完成 时 间 ， 等 待 时 为 0
+Situation=zeros(18);% 记 录 8 台 CNC 当前 是 否 拥有 工件 ，0 为 无 ，1 为 有
+Time=0;% 系 统 已 运行 时 间
+Expect=ones(4,8);% 预 计时 间 ， 第 一 行为 预计 运动 时 间 ， 第 二 行为 预计 等 待 时 间 ， 第 三 行为 预
+计 上 下 料 时 间 ， 第 四 行为 前 三 项 之 和
+Now=1;% 当 前 RGV 目标 工序 ， 取 值 仅 为 1 或 2 A7
+Error=[];% 记 录 故 障 信息 一 NY
+Rec=[];% 记 录 每 个 工件 的 上 下 料 信 息 一 \)
+%% 遍历 所 有 刀具 分 布 情况 2XG
+while Time<=28800 ood
+fori=1:size(Erron1)% 检 查 错 误 信 息
+if Time>=Error(i,3) && Time<=Error(i,4) && Error(i,5)==0% REE KAE
+Errorlj5)=1;% 标 记 为 已 处 理 \/
+Co
+时 间 4 W\
+Situation(Error(j2))=0;% 修 复 完 成 后 取 走 故障 工件
+end @
+end / O 〇
+fori=1:8% 计 算 预 期 时 间
+计 Now~=Tool(i)% 排 除非 目 - 序 良 CNC
+Penbnn 下 二
+continue; A nd
+oo
+Expect(1,i +abs(Position-ceil(i/2)));
+ifle 1
+Oo
+人 中
+| N d
+N Expect(3,i)=Switch(i);
+Expect(4,i)=sum(Expect(1:3,i));
+end
+[MinNumberj=min(Expect(4,:));% 找 出 下 一 个 目标
+Time=Time+Expect(1MinNumber);% 移 动 至 下 一 个 目标 位 置
+flag=0;
+fori=1:size(Erron1)% 运 动 后 再 次 检查 错误 信息
+if Time>=Error(i,3) && Time<=Error(i,4) && Error(i,5)==0 && MinNumber==Error(i,2)%
+运动 中 原 目标 发 生 了 故障
+35

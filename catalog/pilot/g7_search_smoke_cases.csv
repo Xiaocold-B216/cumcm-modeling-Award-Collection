@@ -1,0 +1,38 @@
+﻿case_id,query,query_type,expected_count,actual_count,status,notes
+EXACT-CUMCM-2015-A-001,CUMCM-2015-A-001,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-A-003,CUMCM-2015-A-003,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-A-004,CUMCM-2015-A-004,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-A-005,CUMCM-2015-A-005,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-A-006,CUMCM-2015-A-006,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-A-007,CUMCM-2015-A-007,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-A-008,CUMCM-2015-A-008,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-B-001,CUMCM-2015-B-001,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-B-002,CUMCM-2015-B-002,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-B-003,CUMCM-2015-B-003,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-B-004,CUMCM-2015-B-004,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-B-006,CUMCM-2015-B-006,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-C-002,CUMCM-2015-C-002,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-C-005,CUMCM-2015-C-005,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2015-D-003,CUMCM-2015-D-003,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2025-A-A066,CUMCM-2025-A-A066,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2025-A-A196,CUMCM-2025-A-A196,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2025-B-B060,CUMCM-2025-B-B060,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2025-C-C023,CUMCM-2025-C-C023,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2025-C-C132,CUMCM-2025-C-C132,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2025-D-D037,CUMCM-2025-D-D037,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+EXACT-CUMCM-2025-E-E030,CUMCM-2025-E-E030,exact_paper_id,1,1,PASS,eligible Paper ID exact lookup
+YEAR-2015,2015,year,15,15,PASS,eligible year filter
+YEAR-2025,2025,year,7,7,PASS,eligible year filter
+PROBLEM-A,A,problem,9,9,PASS,exact problem filter
+PROBLEM-B,B,problem,6,6,PASS,exact problem filter
+PROBLEM-C,C,problem,4,4,PASS,exact problem filter
+PROBLEM-D,D,problem,2,2,PASS,exact problem filter
+PROBLEM-E,E,problem,1,1,PASS,exact problem filter
+KNOWLEDGE-CARD,Knowledge Card,section_heading,22,22,PASS,deterministic searchable section heading
+MISSING-QUERY,query-that-does-not-exist,missing,0,0,PASS,nonexistent query
+EXCLUDED-CUMCM-2015-D-002,CUMCM-2015-D-002,excluded_entity,0,0,PASS,Problem Package must not leak into Paper index
+EXCLUDED-CUMCM-2025-A-001,CUMCM-2025-A-001,excluded_entity,0,0,PASS,Problem Package must not leak into Paper index
+EXCLUDED-CUMCM-2025-B-001,CUMCM-2025-B-001,excluded_entity,0,0,PASS,Problem Package must not leak into Paper index
+EXCLUDED-CUMCM-2025-C-001,CUMCM-2025-C-001,excluded_entity,0,0,PASS,Problem Package must not leak into Paper index
+EXCLUDED-CUMCM-2025-D-001,CUMCM-2025-D-001,excluded_entity,0,0,PASS,Problem Package must not leak into Paper index
+EXCLUDED-CUMCM-2025-E-001,CUMCM-2025-E-001,excluded_entity,0,0,PASS,Problem Package must not leak into Paper index

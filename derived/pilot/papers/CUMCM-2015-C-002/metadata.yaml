@@ -1,0 +1,30 @@
+paper_id: CUMCM-2015-C-002
+year: 2015
+problem: C
+subject_type: PAPER
+artifact_eligible: true
+authority_sources:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015C：月上柳梢头，人约黄昏后 (4).pdf
+  sha256: A26039C0098CE1FB1B2C4ABE97617293B85C9A8E1B5B600DF697801B1E5C6504
+authority_sha256: A26039C0098CE1FB1B2C4ABE97617293B85C9A8E1B5B600DF697801B1E5C6504
+paper_file_memberships:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015C：月上柳梢头，人约黄昏后 (4).pdf
+  role: primary
+  canonical: true
+primary_file: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015C：月上柳梢头，人约黄昏后 (4).pdf
+extraction_inputs:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015C：月上柳梢头，人约黄昏后 (4).pdf
+  sha256: A26039C0098CE1FB1B2C4ABE97617293B85C9A8E1B5B600DF697801B1E5C6504
+  kind: original
+extraction_input_sha256: A26039C0098CE1FB1B2C4ABE97617293B85C9A8E1B5B600DF697801B1E5C6504
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G6-00G
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 25
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

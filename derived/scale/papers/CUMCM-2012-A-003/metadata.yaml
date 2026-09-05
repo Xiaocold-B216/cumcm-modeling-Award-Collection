@@ -1,0 +1,14 @@
+paper_id: CUMCM-2012-A-003
+year: 2012
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (4).doc
+source_sha256: 519FA35E0C76A094FFD89C38269F9BC1A9D1C491A8A675EF324F22705B28F1D5
+effective_pdf_path: derived/scale/doc_batch/CUMCM-2012-A-003/source_converted.pdf
+effective_pdf_sha256: C40455E13E66A460C39DAE91E660AF11E2BE0F61C1F03DB321571CEEDC4ED207
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2012-A-003/normalized_body.txt
+authoritative_text_sha256: 610F0A5D50127AC7FE481AE7E899A70F9D6F6CE906F4CE1EA63D708CF52EB122
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

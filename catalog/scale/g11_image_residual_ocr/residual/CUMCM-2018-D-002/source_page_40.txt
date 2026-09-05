@@ -1,0 +1,37 @@
+回 成 革 动 国
+生 这
+附录 二 :
+2.1 装配 顺序 的 C 语言 代码 加
+装配 顺序 的 5 语言 代码 Fe
+#include <iostream> 人 \N
+#include 《algorithm> 2XG
+#include <stdio.h> H
+#include <string.h>
+#include <stdlib.h> X
+using namespace std; As
+char pp[2][3] = {"A1”,"A2"}; 和 RK
+int ppsl[10];
+char pz[6][3] = {"B1”,"B2”, "B3”, "B4”, "B5”, "B6"} ;
+int pzsl1[10]; ©
+char dl[2] [5] = {" 汽 油 ^, “gemy  ©
+int dlsl[10] ;
+char qd[2] [5] = { 二 驱 下 加 驱 ) ;
+int qdsl[10] ; SN
+char ys[11] [5] = 人 黑色 ”， 他 本 人 “棕色 “， “人 金色“ “RS “红色 “ “黄色 7
+银色 “灰色 人 一 一
+int ysslL11j];
+yssl[ 26 ) V
+int z[1000 人 和
+int y[1000]; tyl;
+人 x1;
+int 'w[1000];int wl;
+int v[1000];int v1;
+struct Al
+{
+int pz[6];
+int d1[2];
+int qd[2];
+int ys[9];
+};
+struct A2
+40

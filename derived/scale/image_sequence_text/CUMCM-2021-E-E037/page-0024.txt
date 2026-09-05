@@ -1,0 +1,38 @@
+score = silhouette_score{datal, cluster.labels_)
+
+scores.append(score)
+print(scores)
+plt.figure( 育 类 数量 的 轮廓 系数 )
+plt.plot{range(2, 8), scores, '-0')
+plt.show()
+cluster = KMeans{n_clusters = 3).fit{datal)
+pd.Series(cluster.labels_).value_counts().sort_index()
+plt.figure()
+plt.scatter(data2[:,0], data2[:1], c = cluster.labels_)
+plt.show()
+colors = {A":'r, 'B 'g!, 'C: 'b!, De
+colors=['r', 'g", 'b']
+plt.figure(' 附件 一 分 类 图 ,figsize = (5, 3) dpi = 300)
+plt.xticks(range(0, 10000, 1000), rotation = 45, fontsize = 5)
+plt.yticks(fontsize = 5)
+plt.xlabel( 波 段 , fontsize = 5)
+plt.ylabel(' 吸 光度 , fontsize = 5)
+foriin range(data0.shape[0]):
+
+plt.plot{data0.columns, data0.ilocli,:], ¢ = colors[cluster.labels_[i]], linewidth = 0.5)
+plt.grid(True)
+plt.show()
+二 、 问 题 二 Python 源 代码
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.rcParams['font.sans-serif] = ['SimHei'] # 用 来 正常 显示 中 文 标签
+plt.rcParams['axes.unicode_minus'] = False # 用 来 正常 显示 负 号
+data0 = pd.read_csv(P./ 附 件 / 附 件 2.csv, index_col = 0)
+data0.shape
+data0.head()
+data0.describe([0.01, 0.25, 0.75, 0.99]).T
+data0.info()
+data0.iloc[:, 1:].isnull{).any().any()
+
+24

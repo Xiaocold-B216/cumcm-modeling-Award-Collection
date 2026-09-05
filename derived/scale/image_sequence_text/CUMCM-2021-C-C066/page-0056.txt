@@ -1,0 +1,45 @@
+def atnfunc(Phen, V_a, V_b V_c, CV, NIND):
+global V_a_lst, V_b_list, v_c_ltst
+global V_tol_list, 0_prepare_list
+globl x_a_pred_list, x_b_pred_list, x_c_pred_list
+global df_A_all，df_8_all，df_C_all
+global output_list
+Ctrans - 1,
+Cpurchase = 160,
+Catore = 1
+def error_pred(z, type)
+a « np.array([gp_dict{type_][1].predict(z(:, [1]], return_stdsTrve) for 1 各
+range(z.shape(1))])
+err_pred af: 8, 1]
+err_std =- af， 1, ¢]
+prandon_seed(1)
+or_err = np.randon.noraal(ere_pred, err_std)
+err = np.transposetnar_err) * le-2
+def convert(x, type_)
+if type_ ne ax 1.2
+type_ -= Mb: 和 = xv1.1
+if type -ex
+za = phen[:，e:num_of_a]
+ab - phen[:，num_of_ ai nus_of-a + fumof b]
+ac -= Phen(:, num_of_a + num_ofb:]
+errora &error_pred(z_, 人)
+esrors = envor_pred(z_b, "8')
+erforc  ervor_pred(z_c, 'C')
+X.30, x.60, X_cO 。 2.a + errorA, 2.b + errorB， 2.c + emrorC
+X = nphstack([x_30, x59, x_co])
+x.a = comvert(x_3, 'a")
+xb = comvert(x bo, 'b")
+Me -= comert(xco, 'c')
+ constratnt 5
+ea = max(np.ones_1ike(V_a)"0.9, 2.82°164"V_a/(V_a “0.6 + V_b *0.66 + V.c * 0.72))
+eb = max(np.ones_1ike(V_b)"0.9, 2.82°164"V_b/(V_a “0.6 + V_b -8.66 + V.c * 8.72))
+ee = max(np.ones_1ke(V_c)"0.9, 2.82°164°V_c/(V_a “0.6 + VLb -8.66 + V.c * 8.72))
+ constratnt 2 ~ 4
+Va2 va (1- ea) + x.asun(axisel)
+ba  Vb (1 - eb) + x bsun(axisel)
+ea = ve 0 -ec + x_cosun(axisel)
+Output - (wa ea 6) + (beb*e66) + (Vc * ec ve72)
+ourpur_list-append(ourput)
+和 = CLtrans ，x.sumlaxis-1) + C_purchase * (x_a.sua(axiss1) + x_b.sua(axise1) +
+x_c.sun(axds.1))
+#= f.reshape(-1, 1)

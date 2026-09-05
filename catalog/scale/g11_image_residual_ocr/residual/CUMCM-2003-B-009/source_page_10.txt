@@ -1,0 +1,42 @@
+100 工 程 数 学 学 报 第 20 卷
+有 的 队 没 有 验证 解 的 可 行 性 只 是 简单 的 取 整 ,从 而 导致 得 出 的 不 是 可 行 解 。 这 种 算法 的 优点
+是 速度 较 快 ,但 算法 的 通用 性 要 略 差 一 些 , 调 整 过 程 不 容易 程序 化 。
+
+解 第 一 阶段 规划 时 比较 多 的 是 采用 Lingo 软件 ,但 由 于 采用 版 本 的 不 同 , 算 法 上 也 不 大
+相同 。 使 用 的 其 他 软件 还 有 Lindo, Matlab，SAS，Excel ,等 等 。
+
+第 二 阶段 规划 是 一 个 装 箱 问题 ,普遍 采用 的 是 启发 式 方法 ,也 有 一 些 队 采 用 分 枝 定 界 法 、
+动态 规划 法 等 ,效果 相差 不 大 。 个 别论 文明 确 指出 了 这 是 一 个 装 箱 问题 ,并 采用 了 装 箱 问 题 的
+一 些 经 典 的 启发 式 方法 ,如 NF 算法 、FF 算法 .BFD 算法 等 。 也 有 一 些 队 采用 遗传 算法 、 模 拟
+退火 法 \ 层 次 分 析 法 ,等 等 。 由 于 解 题 速度 和 结果 相差 都 较 大 ,这 方面 没有 太 理想 的 答卷 。
+
+入 7 二 和 全 人 和 了 人 计 下
+据 具体 分 析 ( 局 部 优化 ) ,用 "八字 形 运输 法 "和 "穿梭 运输 法 ”, 得 到 了 车 辆 严格 等 竺 第 件 下
+的 一 个 结果 (他 们 称 之 为 "完全 可 行 的 解 ")。 和 有 所
+一 忆 一 一 Pi 折 谓 穿梭 运输 法 ，, 即 车 辆 行驶 路 线 分 别 为 :Pr 已 3XKe Pi。 应
+让 仆仆 2 作 让
+方法 只 是 依据 文中 数据 具体 进行 分 析 , 以 逻辑 分 析 为 主 来 得 l 时 , 酒 一 种 根据 具体 数据 来
+“ 凑 " 结 果 的 味道 ,缺少 一 般 性 ,很 难 有 好 的 一 般 的 模型 和 解法 "另外 ,得 到 的 也 只 是 一 个 可
+行 解 ， 误 差 是 否 很 大 不 得 而 知 。 WO
+说 明 由 于 随机 因素 影响 " 排 时 无 效 "， 实 际 中 并 不 需要 - | 格 的 排 时 计划 。 八 字形 运输 法
+严重 限制 生产 ,效率 很 低 , 只 是 一 个 纯粹 理论 上 的 讨论 ;并 且 ,两 个 电 铲 向 一 个 印 点 的 运 量 一
+定 要 相等 ( 满 车 运输 条 件 ) ,对 矿 石光 蕊 局 位 难 以 保证 。 穿梭 运输 法 属 排 时 法 的 变种 ,无论
+条 和 全 划一 和 和 人 人 所 以 在 实际 问题
+面前 ,这 种 方法 不 能 说 是 有 效 的 。
+
+风流 今年 上 次 可 休 上 人 不错 和 和 和 之 了 不
+大 。 但 是 也 许 是 时 间 的 原因 ， 提 汪 的 答卷 不 多 。
+
+—
+pEIM: ) \"a
+7/
+[1] se 网 络 优化 LM] .北京 :清华 大 学 出 版 社 ,2003
+N%
+疝 交 me Model and Commentary of Truck Planning for
+NY an Opencast Iron Mine
+FANG Pei-chen, LI Lei
+(Jilin University, Changchun 130025)
+Summary:This paper bases on the information from the marking process of CUMCM -~ 2003 Problem B: Truck
+Planning for an Opencast Iron Mine, to discuss some critical issues in the checkup process of CUMCM - 2003
+Problem B and to give a basic solution model for the problem. At the same time, we present the background of
+the problem and many other solution methods.

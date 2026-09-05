@@ -1,0 +1,134 @@
+paper_id=CUMCM-2022-E-E014
+page_number=12
+page_classification=MIDDLE_PAGE_FROM_FROZEN_PAGE_COUNT
+source_path=2022年数学建模国赛真题+优秀论文/2022年国赛优秀论文E题E014/8122239.jpg
+source_sha256=DFA068914E29070A744E23D89E0A2AF25027025A945BF5B8F9C04756FB00EAA8
+persisted_page_text_path=NOT_AVAILABLE_FOR_THIS_STRATUM
+
+=== PERSISTED PAGE TEXT (READ-ONLY EXISTING EVIDENCE) ===
+[No page-local persisted text is available; no new extraction was run.]
+
+=== FORMAL ARTIFACT CONTEXT WINDOW ===
+mm
+be ao | xm | ae | om oo
+Pa | am | we [ ow | |
+Pa aas | um | zs oo | oo |
+be sm | sw om | oo
+bl ss | ao | as | om | io |
+[w [ 上 so | we | ow [ io
+bm o@ T am | ae | wm [ rooow |
+Emal on | | om [ rooow |
+Coo [ us | ao | sem | oo | oo |
+
+表 7 "参数 调整 法 "计算 的 生产 计划 《物料 6004010256)》
+
+从 表格 中 可 以 看 出 ， 库 存量 持续 为 正 ， 缺 货 量 就 能 保持 是 0， 那 么 服务 水 平
+将 得 到 极 大 保障 。
+
+所 有 6 种 物料 第 101-110 周 的 计算 结果 见 支撑 材料 * 第 -2 天 -6 种 物料 的
+101-~110 周 生 产 计划 数 、 实 际 需求 量 、 库 存量 、 缺 货 量 和 服务 水 平 .xlsx"。
+
+同样 的 方法 ， 计 算 6 种 物料 第 101-177 周 的 计算 结果 -
+
+所 有 6 种 物料 第 101-177 周 的 计算 结果 见 支撑 材料 "第 2 -6 种 物料 的
+101-177 周 生 产 计划 数 、 实 际 需 求 量 、 库 存量 、 铀 货 量 和 服务 水 平 .xlsx"。
+
+接 下 来 ， 考 查 6 种 物料 的 综合 结果 :
+
+日
+
+## Logical image page 13
+
+<!-- source_page_kind: image_sequence -->
+<!-- logical_page_number: 13 -->
+<!-- source_image_path: 2022年数学建模国赛真题+优秀论文/2022年国赛优秀论文E题E014/8122263.jpg -->
+<!-- source_image_sha256: ED8B26ED6FD2FD8F3AFAE663F5E5DA6ED7F090895796F4049F4A169B595C8A9D -->
+<!-- ocr_backend: tesseract.js 7.0.0 -->
+
+人 平均 库存 量 | 平均 缺 货 量 / | 平均 服务 水
+[ao| 4 | ass | am | om | oo
+[omozss | nm | na | sm | om | om
+[ore| 2 | 2 | oo | oo |
+aols| ns | | am | im | |
+
+表 8 “参数 调整 法 "计算 的 综合 结果
+
+计算 结果 发 现 :
+
+1.6 种 物料 的 平均 服务 水 平 都 超过 859%6， 达 到 要 求 。
+
+2. 平均 库存 量 均 大 于 0， 而 且 物 料 6004021055 的 平均 库存 量 高 达 近 200 件
+/ 周 ， 有 很 大 的 压缩 空间 。
+
+3. 绝 大 多 数 情况 下 , 服务 水 平均 为 10096, 在 适 到 实际 需求 数量 突然 增加 时 ，
+生产 计划 跟 不 上 ， 于 是 会 出 现 1 周 或 连续 2 周平 均 服务 水 平 绞 低 的 情况 。 例 如 ，
+物料 6004020900 在 第 146、147 周 、 第 167 周 出 现 服务 水 平 较 低 ， 均 是 因为 上 一
+周 出 现 需 求 量 至 少 增加 10 件 的 差 值 ”
+二 寿 三 三 三 三 三 三
+
+SEEEEEEEEEE
+村
+
+图 4 物料 6004020900 在 第 146、147 周 、 第 167 周 出 现 服务 水 平 较 低
+4.3 问题 3 的 模型
+4.3.1 调整 生产 计划 一 强化 参数 法 《利于 提高 服务 水 平 )
+
+如 果 为 了 满足 服务 水 平 ， 可 以 加 大 生产 计划 ， 浆 端 是 很 可 能 造成 库存 量 大 ,
+增加 成 本 ， 反之 ， 如 果 为 了 降低 库存 成 本 ， 减 少 生产 计划 ” 移 端 是 很 可 能 造成 库
+存 不 足 ， 缺 货 量 增加 ， 引 起 服务 水 平 下 降 。
+
+《一 ) 强化 参数 法 〈 利 于 提高 服务 水 平 )
+
+为 了 避免 因 需 求 量 激增 而 生产 计划 跟 不 上 的 现象 , 在 使 用 三 次 指数 平滑 预测
+法 时 ， 注 意 时 刻 调整 参数 ， 而 不 是 针对 某 一 物料 统一 采用 相同 的 参数 u， 具 体
+地 ， 观 察 最 近 的 两 次 数据 ， 按 照 下 面 的 表格 选择 参数 :
+
+## Logical image page 14
+
+<!-- source_page_kind: image_sequence -->
+<!-- logical_page_number: 14 -->
+<!-- source_image_path: 2022年数学建模国赛真题+优秀论文/2022年国赛优秀论文E题E014/8122265.jpg -->
+<!-- source_image_sha256: 2181280D0BF95342CF553B94FEBACA2294741E83F429D05DDBD8F717049BF9C6 -->
+<!-- ocr_backend: tesseract.js 7.0.0 -->
+
+广 tw  [ swam 调 |
+面 对 上 周 需求 量 数据 从 0 突然 激增 到 很 大
+的 数 时 ,需要 快速 、 大 幅度 地 预测 , 不 仅 能
+超过 上 周 实际 需求 量 ， 还 要 能 预 留 出 富余
+来 应 对 本 周 的 实际 需求 量 ， 以 保障 服务 水
+平 不 会 连续 2 周 都 出 现 低 质量 情况 ，
+EEC
+面 对 需 求 数量 稳定 变化 不 大 的 情况 ， 预 测
+值 也 稳定 地 随 之 变化 ， 不 会 积压 过 多 的 库
+存量 。
+[EEC CI
+es
+面 对 需 求 数 量 突然 减 小 ， 为 了 留 有 一 定 储
+[ee-100) 备 ， 所 以 下 降幅 度 相 对 激增 时 的 增加 幅度
+来 得 缓 二 些 :
+表 9 "强化 参数 法 "的 参数 选择 参考 值
+43.2 调整 生产 计划 一 一 联合 调整 法 〈 利 于 降低 库存 量 )
+为 了 尽 可 能 地 降低 库存 量 成 本 ， 将 生产 计划 C, 进 行 以 下 调整 :
+Cj-KtQ, 如 果 wu-KtQu>0
+0， 和 否则
+、 如 果 《〔 本 周 预测 需求 量 + 上 周 缺 货 量 ) 高 于 上 周 库存 量 ， 则 本 周 生 产
+Jr 一 天 ,+@Q,， 如 果 《〈 本 周 预测 需求 量 + 上 周 缺 货 量 ) 低 于 上 周 库存 量 ， 则 本 周
+生产 为 0。
+按照 这 样 的 调整 方案 ， 尽 可 能 减少 本 周 库存 量 ， 降 低 成 本 。
+43.3 调整 生产 计划 前 后 效果 对 比
+在 先后 使 用 "强化 参数 法 "和 "联合 调整 法 "之 后 ， 对 之 前 的 6 种 物料 重新 计算
+生产 计划 、 库 存量 、 缺 货 量 、 服 务 水 平 ， 综 合 结果 如 下 :
+Pl lr- hl d
+oAt 件
+Lo | is | lo | so | ow | oo [rooome]
+
+## Logical image page 15
+
+<!-- source_page_kind: image_sequence -->
+<!-- logical_page_number: 15 -->
+<!-- source_image_path: 2022年数学建模国赛真题+优秀论文/2022年国赛优秀论文E题E014/8122267.jpg -->
+<!-- source_image_sha256: B935B44028FA13B23617E598C0AE21D23F17CD29A3D4E46B0D6F470760090D6A -->
+<!-- ocr_backend: tesseract
+
+=== HUMAN REVIEW NOTE ===
+This file prepares evidence only. It is not a human review decision.

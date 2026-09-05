@@ -1,0 +1,68 @@
+aa(6,3)=aa(6,2)+T(6)+T(4);
+aa(2,6)=tQ(i)+T(6);
+aa(2,7)=tQ(i)+T(6)+T(7)+T(5);
+tQ(i)=tQ(i)+T(6)+T(7);
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+交
+研
+
+：
+科
+
+end
+d=dT(abs(QQ(i,2)-QQ(i,3))+1);
+tQ(i)=tQ(i)+d;
+for j=1:4
+if QQ(i,3)==aa(j,1)
+if tQ(i)<aa(j,3)
+aa(7,2)=aa(j,3);
+aa(3,3)=aa(7,2);
+aa(7,3)=aa(7,2)+T(6)+T(4);
+aa(3,6)=aa(j,3)+T(6);
+aa(3,7)=aa(j,3)+T(6)+T(7)+T(5);
+tQ(i)=aa(j,3)+T(6)+T(7);
+else
+aa(7,2)=tQ(i);
+aa(3,3)=aa(7,2);
+aa(7,3)=aa(7,2)+T(6)+T(4);
+aa(3,6)=tQ(i)+T(6);
+aa(3,7)=tQ(i)+T(6)+T(7)+T(5);
+tQ(i)=tQ(i)+T(6)+T(7);
+end
+end
+end
+d=dT(abs(QQ(i,4)-QQ(i,3))+1);
+tQ(i)=tQ(i)+d;
+for j=1:4
+if QQ(i,4)==aa(j,1)
+if tQ(i)<aa(j,3)
+aa(8,2)=aa(j,3);
+aa(4,3)=aa(8,2);
+aa(8,3)=aa(8,2)+T(6)+T(4);
+aa(4,6)=aa(j,3)+T(6);
+aa(4,7)=aa(j,3)+T(6)+T(7)+T(5);
+tQ(i)=aa(j,3)+T(6)+T(7);
+else
+aa(8,2)=tQ(i);
+aa(4,3)=aa(8,2);
+aa(8,3)=aa(8,2)+T(6)+T(4);
+aa(4,6)=tQ(i)+T(6);
+
+流
+
+end
+
+50
+
+

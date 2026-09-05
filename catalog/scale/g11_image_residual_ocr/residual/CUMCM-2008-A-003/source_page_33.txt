@@ -1,0 +1,44 @@
+回避
+.
+best=r;zx=mbFunction(r);
+while T>=Tn
+k=k+1;
+h=0;
+while h==0
+hh=0;
+while hh==0
+rl=r+randomDisturb(l,Tm,T,Tn,LO,L1);
+if isMatch(rl,zb_y)
+hh=1;
+end
+end% 挑 动产 生 一 个 新 可 行 解 #7
+E=mbFunction(rl); 全 NY
+dE=E-mbFunction(r); _ 一 \)
+if dE<=0 2XG
+r=rl;
+h=1;
+else As
+p=exp(-dE/T); N
+if p>=rand(1) DA
+r=rl;
+h=T
+end oO
+end O
+if mod(k,10)==0 A
+T=0.9*T;T
+end PR¢
+if E<zx 一
+cause
+end
+end 到 ) V
+end y/}
+= 从 多
+mbFuncti on(bes
+clear relear Tn;clear dE;clear hiclear hh;clear k;clear l;clear p;clear rl;
+Cd 和
+附录 五 其 圆心 坐标 程序
+%qx.m
+% 求 切线 主 程序
+bound_zb;
+%cd 'qx’;
+31

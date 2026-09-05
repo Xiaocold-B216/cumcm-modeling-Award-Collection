@@ -1,0 +1,179 @@
+附录
+1.0 排序函数
+T_SORT.m
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+ww
+
+流
+
+function [ A ] = T_SORT( A ,n , p )
+% T_SORT( A ,n , p )
+% A 根据第n行排序
+% p=1升序 ，2 降
+% powered_BY_*
+SIZE=size(A);
+if p==1
+[xx,idx]=sort(A(n,:));
+for i=1:SIZE(1)
+A(i,:)=A(i,idx);
+end
+elseif p==2
+[xx,idx]=sort(A(n,:),'descend');
+for i=1:SIZE(1)
+A(i,:)=A(i,idx);
+end
+end
+
+1.1 数据读取程序段
+
+ChangeData.m 第二问
+
+%读取数据
+clear L a
+fid = fopen('B2007data/1.1 公汽线路信
+息.txt','r');
+i=1;
+while 1
+tline = fgetl(fid);
+if ~ischar(tline), break, end
+if strcmp(tline,'')
+continue
+end
+if strcmp(tline(1),'L')
+str=tline;
+continue
+elseif strcmp(tline,'END')
+break
+end
+
+fid = fopen('B2007data/2.1 地铁T1线换乘公汽信息.txt','r');
+i=1;
+while 1
+tline = fgetl(fid);
+if ~ischar(tline),
+break,
+end
+if strcmp(tline,'')
+continue
+end
+if strcmp(tline(1),'D')
+D{i,1}=tline(5:end);
+i=i+1;
+end
+end
+fclose(fid);
+fid = fopen('B2007data/2.2 地铁T2线换乘公汽信息.txt','r');
+while 1
+tline = fgetl(fid);
+if ~ischar(tline),
+break,
+end
+if strcmp(tline,'')
+continue
+end
+if strcmp(tline(1),'D')
+D{i,1}=tline(5:end);
+i=i+1;
+end
+end
+fclose(fid);
+tx=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,
+23,24,25,...
+26,12,27,28,29,30,31,32,18,33,34,35,36,37,38,39]+3957;
+DL{1,1}='';
+DL{2,1}='';
+for j=1:23
+DL{1,1}=strcat(DL{1,1},'S',num2str(tx(j)));
+end
+for j=24:41
+DL{2,1}=strcat(DL{2,1},'S',num2str(tx(j)));
+end
+DL{2,1}=strcat(DL{2,1},'S',num2str(tx(24)));
+for i=1:1040
+for j=1:41
+tline=D{j,1};
+t=findstr(tline,'S');
+for k=1:length(t)
+L{i,4}=regexprep(L{i,4},
+strcat('S',tline(t(k)+1:t(k)+4)),...
+strcat('S',num2str(tx(j))));
+end
+
+：
+科
+
+号
+
+众
+
+if strcmp(tline,'单一票制1元。')
+P=1;
+continue
+elseif strcmp(tline,'分段计价。')
+P=2;
+continue
+end
+
+研
+
+ReadData.m%第一问
+
+微
+
+信
+
+公
+
+if strcmp(tline(1:2),'上行')
+L{i,1}=str;
+L{i,2}=P;
+L{i,3}='上行';
+L{i,4}=tline(4:end);
+i=i+1;
+continue
+elseif strcmp(tline(1:2),'下行')
+L{i,1}=str;
+L{i,2}=P;
+L{i,3}='下行';
+L{i,4}=tline(4:end);
+i=i+1;
+continue
+elseif strcmp(tline(1:2),'环行')
+L{i,1}=str;
+L{i,2}=P;
+L{i,3}='环行1';
+
+L{i,4}=strcat(tline(4:end),tline(10:end));
+i=i+1;
+%计算来回
+L{i,1}=str;
+L{i,2}=P;
+L{i,3}='环行2';
+L{i,4}=strcat(tline(4:end),tline(10:end));
+i=i+1;
+continue
+elseif strcmp(tline(1),'S')
+L{i,1}=str;
+L{i,2}=P;
+L{i,3}='来回1';
+L{i,4}=tline;
+i=i+1;
+%计算来回
+L{i,1}=str;
+L{i,2}=P;
+L{i,3}='来回2';
+L{i,4}=tline;
+i=i+1;
+continue
+
+27
+
+

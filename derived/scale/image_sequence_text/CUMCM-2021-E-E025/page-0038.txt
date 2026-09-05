@@ -1,0 +1,43 @@
+#Class, %RE OP
+X train ¢, X test ¢, y_train c, y_test_ c = train_test_split(pd.concat([data_4_nonan_feature.iloc[:, :-2],
+data 4 nonan feature.iloc[:, -1]],axis=1),
+data 4 nonan feature.iloc[:，
+-2],test_size=0.25, random state=0)
+cf =RandomForestClassifier(n_estimators=50, max_depth=None, min_samples_split=5, random_state=1)
+pfitness = cross val_score(clf, pd.concat([data_4 nonan _feature.iloc[:, :-2], data_4_nonan_feature.iloc[:,
+-1]],axis=1), data 4 nonan feature.iloc[:, -2], cv=5,scoring=precision_macro').mean()
+rfitness = cross_Val Score(clf，pd.concat([data 4 nonan feature.iloc[:，:-2]，data 4 nonan feature.iloc[:，
+-]]],axis=1), data 4 nonan feature.iloc[:, -2], cv=5,scoring=recall macro').mean()
+ffitness = cross_val_score(clf, pd.concat([data_4 nonan feature.iloc[:，:-2]，data 4 nonan_feature.iloc[:,
+-]]],axis=1), data 4 nonan_ feature.iloc[:, -2], cv=5,scoring=f macro).mean0
+afitness = cross_Val score(clf，pd.concat([data 4 nonan feature.iloc[:，:-2]，data 4 nonan_feature.iloc[:,
+-]]],axis=1), data 4 nonan feature.iloc[:, -2], cv=5,scoring=accuracy').mean()
+clf fit(pd.concat([data_4 nonan_feature.iloc[:, :-2]， data 4 nonan feature.iloc[:，
+-1]],axis=1),data_4_nonan_feature.iloc[:, -2])
+pred =clf .predict(data 20)
+HH# Class 预测 模型 ,不 用 op 列
+# 特征 提取
+data_4 class_feature = extract feature(data_4-class, 50)#class 非 空
+# Class 非 空 ， 不 考虑 OP，Class 预测 模型
+X train c,X test c,y_train c,y test ¢ =train_test split(data 4 class feature.iloc[:, :-2],
+data_4_class feature.iloc[:, -2],
+test_size=0.25, random_state=0)
+clf =RandomForestClassifier(n_estimators=50, max_depth=None,min_samples_split=5, random_state=1)
+pfitness = cross_val score(clf, data_4_class_feature.iloc[:, :-2], data 4 class_feature.iloc[:, -2],
+cv=5,scoring=precision_macro'’).mean()
+rfitness = cross_val score(clf, data 4 class_feature.iloc[:, :-2], data 4 class feature.iloc[:， -2],
+cv=5,scoring=recall_macro').mean()
+ffitness = cross val score(clf, data 4 class_feature.iloc[:, :-2], data 4 class feature.iloc[:, -2],
+cv=5,scoring=f1_macro').mean()
+afitness = cross_val score(clf, data 4 class feature.iloc[:, :-2], data 4 class feature.iloc[:, -2],
+cv=5,scoring=accuracy').mean()
+#op 预测 模型 ,不 用 Class 列
+# 特征 提取
+data_4 op_feature = extract_feature(data_ 4_op, 20)#OP 非 空
+# OP 非 空 ， 不 考虑 Class，OP 预测 模型
+X train o,X test o,y_train o,y_test o=train test_split(data 4 op_feature.iloc[:, :-2],
+data 4 op_ feature.iloc[:， -]]，
+test size=0.25, random_state=0)
+clf =RandomForestClassifier(n_estimators=50, max_depth=None, min_samples_split=5, random_state=1)
+pfitness = cross_val score(clf, data 4 op_feature.iloc[:, :-2], data 4 op_feature.iloc[:, -1],
+37

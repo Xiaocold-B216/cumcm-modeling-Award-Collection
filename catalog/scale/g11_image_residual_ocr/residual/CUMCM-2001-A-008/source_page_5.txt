@@ -1,0 +1,51 @@
+回 叶 这
+ARETY
+w at
+58 工程 数学 学 报 第 19 T
+长 ,检查 球 与 血管 是 否 相 切 , 若 球 能 从 Y 的 一 端 移 到 另 一 端 时 ,每 一 步 都 保持 与 血管 相 切 , 则 是
+满意 ,否则 要 修正 模型 。
+将 检验 作为 建 模 的 必要 的 一 部 分 ,通过 检验 ,发 现 问题 ,修正 模型 的 数据 ,可 以 使 模型 从 粗
+糙 到 精致 , 珊 服 建 模 过 程 中 许多 不 确定 因素 。
+6 感受
+有 幸 参加 了 今年 全 国 大 学 生 数 学 建 模 竞赛 的 出 题 和 阅卷 ,从 中 受到 很 大 的 教育 , 深 深 地 被
+同学 们 活跃 的 思想 ` 组 委 会 的 教授 们 高 度 认真 负 责 的 精神 所 感动 ,感触 顺 多 。 号 扩 _
+首先 感到 数学 竞赛 是 个 大 学 校 。 把 那么 多 的 优秀 学 生 都 团结 在 一 起 , 刻 音 VLNS A
+进 ,朝气 蓬勃 ,为 广大 青年 学 生 树 立 了 榜样 。 这 不 仅 有 利 提高 广大 青年 学 抄 学 (科学 素
+质 ,更 有 利 树立 良好 的 学 风 ,形成 浓厚 的 学 术 气 氛 。 [>
+深 感 青年 学 生 中 蕴藏 着 巨大 的 聪明 才智 。 阅 卷 中 看 到 很 多 优秀 《次 和 是 在 三 天 之 内 完成
+的 , 实 属 不 易 。 很 多 想法 ,都 是 远 远 超 出 我 们 的 预料 。 他 们 思 起 滞 攻 ,综合 运用 各 科 知 识 能 力
+1 Li SI 四 上 四 N 2
+强 ,而 且 很 多 新 思想 与 当前 发 展 着 欧 高 新 科技 合拍 。 有 如 此 并 AAE ,可 以 相信 ,我 国 未 来
+的 科学 是 充满 希望 的 ; REBRRAURELRURHEARY 情 神 上 A 题 以 现在 的 面目 出 现 ，
+是 在 几 易 其 稿 以 后 ,组 委 会 的 专家 教授 对 题目 一 字 孙 吉大 完 ,对 数据 分 析 不 放 过 一 个 小 数
+点 ,并 亲自 演算 ,工作 精益 求 精 ,使 我 们 受益 非 浅 。 人
+现在 2001 年 全 国 大 学 生 数 学 建 模 竞赛 已 经 结束 ,总 结 之 余 ,我 们 衷心 期 望 今后 在 全 国 专
+家 学 者 以 及 广大 师 生 的 共同 关心 努力 下 ,我 国 大 学 生 建 模 水 平 更 上 一 层 楼 。
+AZ [e]
+参考 文献 : A
+[ 1] WEskss, NFFIRIEL JL Fe A f 路 机 三 维 重 建 技术 [] .解剖 学 报 ,Vol. 22 ,No.4(1991) .342 - 346
+[ 2] 黄 丽 丽 等 .放置 宫 内 节育 器 后 子宫 内 膜 早 旋 动 脉 将 三 维 空间 形态 [J]. 中 华 妇 产 科 杂 志 ,Vol. 31 ,No.9(1996) ,523 -
+525 =7
+[3] R. Ying. Computer :om 让 TAREion of intraglandular lymph vessels and ductal systems of the human sub-
+mandibular gland[J]. Acta Anat 1 (1992) .175 - 177
+[ 4]  e lr J YERARY ). 高 校 应 用 数学 学 报 ,Vol. 13 ,增刊 (1998) ,86 - 90
+[ 5] 吕 ， 伟 .有 理 等 距 参 数 旱 绕 及 其 应 用 [J]. 浙江 大 学 学 报 (自然 科学 报 ) ,增刊 (1993) ,29 - 37
+[ 6] Wei Lu.Offserratio ric plane curves[J]. Computer Aided Geometric Design , Vol. 12 ,No.6(1995) ,601 - 616
+[7] WeiLu,Pottmann H. Pipe Surface with rational spine curve are rational[J ]. Computer Aided Geometric Design ,Vol. 13,No.
+7(1996) wl 628
+[8] Wei Liy ¢/ parameterization of quadrics and their offsets[J ]. Computing ,Vol. 57, No.2,(1996) ,135 - 147
+[9] Farouki RyT, Neft C. A. Analytic properties of plane offset curves[J ]. Computer Aided Geometric Design ,Vol. 7,No. 1
+1(1990) 183 -199
+§9 Farouki R. T Shah S. Reartime CNC interpolators for pythagorean hodograph curve[J ]. CAGD ,Vol. 13 No. 7(1996) ,583
+0
+UN R.R ,Stephenson P. C. Sweeping of three dimensional objects[J]. CA GD ,Vol. 7, No.4(1990) ,223 - 234
+[12] ‘Hber G.Lee I. K,Kim M. S. Comparing offset curve approximation methods[J]. IEEE Computer Graphics and Applicar
+tions ,Vol. 17 ,No.3(1997) ,62 - 71
+The Problem of Reconstruction Blood Vessel
+WANG Guor Zhao ， CHEN LingJun
+(Department of Mathematics of Zhgjiang University ，Hangzhou 310027)
+Abstract Im this article , the research background of the problem A in the CUMCM 2001 as well as its intention and conditions are
+simply stated, some methods found in the answer paper to this problem are introduced.
+Key word Mathematic model ; Medial axis; 3D reconstruction
+) 用 开
+模 大

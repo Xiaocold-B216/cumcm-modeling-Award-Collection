@@ -1,0 +1,14 @@
+paper_id: CUMCM-2012-C-004
+year: 2012
+problem: C
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (1)/基于逐步回归的脑卒中发病环境因素分析及干预模型.doc
+source_sha256: A610CEEE3C902F85C0FC590467868550F5CB9D52ECD57E21747EF890671CBDD7
+effective_pdf_path: derived/scale/doc_batch/CUMCM-2012-C-004/source_converted.pdf
+effective_pdf_sha256: C2B4E0DA5C7AE5F7FCA6FADE85B00EB1588DA12FA3BF8F8B4523D1C4423B9F1D
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2012-C-004/normalized_body.txt
+authoritative_text_sha256: 66A45E6123D21FC5DF478C8DD1FE6907A258C7ADB60650F494099EC9133F3058
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

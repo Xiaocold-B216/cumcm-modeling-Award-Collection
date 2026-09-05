@@ -1,0 +1,50 @@
+A_8(-39,4)
+fori=45:49
+
+data_return(i,1) = 50;data_return(i,2) = 50;
+
+data_return(i,3) = 1;data_return(i,4) = 0.01;data_return(i,5) = 2.1;
+
+data_return(i,6) = A_9(1-44,1);data_return(;,7) = A_9(i-44,2);data_return(i§) =
+A_9(i-44,4);
+
+data_return(i,1) = 50;data_return(i,2) = 50;
+
+data_return(i,3) = 1;data_return(i,4) = 0.05;data_return(i,5) = 2.1;
+
+data_return(i,6) = A_10(i-49,1);data_return(i,7) = A_10(i-49,2);data_return(i,8) =
+A_10(i-49,4);
+fori=55:59
+
+data_return(i,1) = 50,data_return(i,2) = 0;
+
+data_return(i,3) = 0;data_return(i,4) = 0.01;data_return(i,5) = 1.68;
+
+data_return(i,6) = A_11(i-54,1);data_return(i,7) = A_11(i-54,2);data_return(i,8) =
+A_11(i-54,4);
+fori=60:64
+
+data_return(i,1) = 50;data_return(i,2) = 50;
+
+data_return(i,3) = L;data_return(i,4) = 0.01;data_return(i,5) = 1.68;
+
+data_return(i,6) = A_12(i-59,1);data_return(i,7) = A_12(i-59,2);data_return(i,8) =
+A_12(i-59,4);
+
+data_return(i,1) = 67;data_return(i,2) = 33;
+
+data_return(i,3) = 0.5;data_return(i,4) = 0.01;data_return(i,5) = 1.68;
+
+data_return(i,6) = A_13(i-64,1);data_return(i,7) = A_13(i-64,2);data_return(;,8) =
+A_13(i-64,4);
+
+data_return(i,1) = 33;data_returni,2) = 67;
+
+data_return(i,3) = 2;data_return(i,4) = 0.01;data_return(i,5) = 1.68;
+
+ES ENENE ET
+A_14(-69,4);
+fori=75:79
+
+Y
+K MEAZE]

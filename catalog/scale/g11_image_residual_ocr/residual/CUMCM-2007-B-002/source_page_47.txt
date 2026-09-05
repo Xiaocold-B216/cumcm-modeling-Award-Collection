@@ -1,0 +1,40 @@
+ERE
+v u
+EEEE
+}
+if (IsDirectTo 1 && Line[i] == NSECOND)
+{
+pos 2 = i;
+bHaveFound = true;
+break;
+}
+}
+if ( !bHaveFound )
+{ 全
+pos_1 = pos_2.= -1; “ <
+} =
+return bHaveFound;
+|
+// 找 出 两 点 间 是 否 有 连 线 直接 连接 全
+// 如 果 有 ， 则 返回 所 有 可 能 的 连 线 7
+bool Direct_or_not (const int NSTART, const int NEND; // 起 始点 和 目标
+点 @
+0 > &ReasibleSolve, // 可 行 的 解
+决 方案 ， 是 返回 值 5
+vector<LoadMessag & AllLines, // 所 有 路 线
+信息
+vect or<int> > & AllBuses, // 所 有 公 汽
+站 信息 ~
+rvector<{vector<long> > > &RoadCrossInfo) // 任意 两 路 线 的
+交叉 信息 “%, 了
+( YL
+mt
+Jj=0
+\b/
+01 bHaveFound = false;
+return bHaveFound;
+}
+// 一 次 换 乘 的 情况
+bool OnceBusChange (const int NSTART，const int NEND, // 起 始点 和 目标
+点
+47

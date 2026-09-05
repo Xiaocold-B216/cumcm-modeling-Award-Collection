@@ -1,0 +1,113 @@
+流
+
+分别用某一过程乘车的次数，花费时间，花费金钱对图 G 的边赋权。我们需要从与
+
+交
+
+国 o.
+中 di
+学 ma
+数 w.
+
+地铁两邻的 119 个公交站中，选择两站za ，zb 作为公交换地铁，地铁换公交的中转站，
+
+研
+
+ww
+
+使得目标函数值最小。
+于是，分别对应换乘次数最少、时间最省和交通花费最小化三个目标建立三阶段动
+态规划模型。
+
+：
+科
+
+设 n 为换乘总次数，Dα , Dβ 分别为与Sz a 与Sz b 相邻的地铁站。nα,β 为从Dα 到 Dβ 的最
+少换乘次数，TzDa z b 为从za 到zb 的最短耗时，MzDa z b 为从za 到zb 的最少费用。
+
+s.t.
+
+n
+
+号
+
+（4） 换乘次数最小化模型：
+Min
+
+wL r ,i = wL r ,z 1 ＝wL r ,z 1 = wL r ,z 2 ＝wL r ,z 2 = ⋯ = wL r a ,z a−1 = wL r a ,z a =
+1
+
+1
+
+2
+
+2
+
+b
+
+b
+
+众
+
+wL r ,z b ＝wL r ,z b +1 = ⋯ = wL r
+
+k +1
+
+3
+
+,z k = w L r
+
+k +1
+
+,j = 1；
+
+ne
+
+公
+
+n=a-b+k+2+nα,β
+
+t
+
+信
+
+Sz a , Sz b ∈ H；
+
+微
+
+（5） 时间最小化模型：
+Tiz a + TzDa z b + Tz b j
+
+Min
+s.t.
+
+wL r ,i = wL r ,z 1 ＝wL r ,z 1 = wL r ,z 2 ＝wL r ,z 2 = ⋯ = wL r a ,z a−1 = wL r a ,z a =
+1
+
+1
+
+2
+
+wL r ,z b ＝wL r ,z b +1 = ⋯ = wL r
+b
+
+b
+
+2
+
+3
+
+k +1
+
+,z k = w L r
+
+Sz a , Sz b ∈ H
+（6） 花费最省模型：
+
+8
+
+k +1
+
+,j = 1；
+
+

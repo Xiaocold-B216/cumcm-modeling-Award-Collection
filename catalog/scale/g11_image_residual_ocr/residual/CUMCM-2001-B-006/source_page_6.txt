@@ -1,0 +1,34 @@
+回 叶 这
+EU
+|
+四
+入
+80 工程 数学 学 报 第 19 T
+参考 文献 :
+[1] 杨 普 . 实 用 最 优化 方法 及 计算 机 程序 [M]. 哈尔滨 船舶 工程 学 院 出 版 社 ,1994
+[2] 秦 寿 康 . 最 优化 理论 和 方法 [M]. 电子 工业 出 版 社 ,1986
+[3] 王 正 民 , 易 东 云 .测量 数据 建 模 与 参数 估计 [M]. 长 沙 :国防 科技 大 学 出 版 社 ,1997
+[4] 胡 永 胖 . 数学 模型 [M] .西安 :西北 工业 大 学 出 版 社 ,1996
+Buses Dispatching
+P
+LU Peng, ZHANG Werrfu, LEI Peng - A7
+o
+Faculty Adviser: CAO Tiarrlin 由
+(Missile Institute of Air Force Engineering University , Sanyuan , so 人
+Abstract : In this paper , a mathematical model on buses dispatching is presented with t kw hod of 上 on multi-objects.
+Firstly , with the data analyses and consideration on feasibility , a typical workday cad’be ivided into five spans: before morning
+rush hour , morning rush hour , the span between morning rush hour and evening rush hour, evéning rush hour and its beyond.
+Three objective functions are introduced : the average capacity rate ,the degreeiof the passengers’ waiting , and the degree of pas-
+SS
+sengers” complain on waiting and crowded , to set up a model of perfecting on thrgegbjectives. Weighted average method is used to
+combine the three functions as one. MATLAB mathematical software is emplofed to work out the interval of sending buses. Up-go-
+ing buses are sent at respectively 5,2 ,4 ,3 ,15 (minutes) and dowrr going buse aré'10 ,2 ,5 .3 8 (minutes) . Altogether , 52 buses are
+needed and 534 buses one a workday. The percent of average capacity is 82. 094 % , and the percent of the passengers’ complain is
+0.91%. The model is proved to be steady through the test. Lastly shortening the statistical time on partial area is concluded to be
+an effective way to improve the dispatching plan 33M ie analyE on original data.
+Key vords : buses dispatehing : mathematical modgh Junobjects
+MAY 》
+一 )
+2
+5) 7
+1994-2006 China Academic Jour lectronic Publishing House ights reserved.  http://www.cnki.n

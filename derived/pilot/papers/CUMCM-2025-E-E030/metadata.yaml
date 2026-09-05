@@ -1,0 +1,30 @@
+paper_id: CUMCM-2025-E-E030
+year: 2025
+problem: E
+subject_type: PAPER
+artifact_eligible: true
+authority_sources:
+- path: 2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/E030.pdf
+  sha256: 7270DACAB35167E998141D5D34C34D12A912B3620249A892697211F24D009E0D
+authority_sha256: 7270DACAB35167E998141D5D34C34D12A912B3620249A892697211F24D009E0D
+paper_file_memberships:
+- path: 2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/E030.pdf
+  role: primary
+  canonical: true
+primary_file: 2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/E030.pdf
+extraction_inputs:
+- path: derived/pilot/pdf_ocr/2025/E030.readable.pdf
+  sha256: 3273B00F67A4A4BB0B5137807B9506A7D784AF3910231FC534ADD9CC0E75DE5B
+  kind: g5_ocr_readable_derivative
+extraction_input_sha256: 3273B00F67A4A4BB0B5137807B9506A7D784AF3910231FC534ADD9CC0E75DE5B
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G6-00G
+primary_extraction_backend: hybrid
+page_extraction_backend: poppler-pdftotext
+page_count: 36
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

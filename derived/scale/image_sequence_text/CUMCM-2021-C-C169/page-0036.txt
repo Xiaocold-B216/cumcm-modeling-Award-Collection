@@ -1,0 +1,42 @@
+如 行 两 人 进化 司 二 这 行 适 友 度 评价
+or
+=Trgetocvl
+end
+% 根 据 适应 度 排序
+Ri-sontfvadh;
+viev;
+Wk(1:20,; C 20 个 为 优秀 个 体
+Et
+mmatg=mintwf
+mma2ttj=maxtwt
+mimin(,=mml;
+mmax(zJemm2;
+iabstmma-mm2jc=000001
+break
+end <
+二 .去 友
+汪 aa 7
+b=wf1. 沙 ，% 最 大 函数 值 对 应 的 变量 什 v S—
+toc L\N
+之
+Wi
+TREERT Te |Wo|BESnERRSE|
+ETTTET
+-sizetoF
+由
+s1:0;
+forjetn
+Sataglxlih
+end
+i=st;
+end
+wRz RIE 52
+Seatdtoh;
+% 计 算 z 的 局 部 密度 Dz
+Rsz
+0
+foristm
+foretim
+reabs(eli2):
+区
+%

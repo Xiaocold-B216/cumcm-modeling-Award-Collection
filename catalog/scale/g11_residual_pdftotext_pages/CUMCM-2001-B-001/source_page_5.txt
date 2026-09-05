@@ -1,0 +1,271 @@
+建模专辑
+
+公交车调度优化模型
+行车时刻表 ( 部分)
+
+表1
+圈数
+班次
+
+1
+A 13
+
+99
+
+2
+
+3
+
+4
+
+5
+
+A0
+
+A 13
+
+A0
+
+A 13
+
+A0
+
+A 13
+
+5 :00
+
+5 :50
+
+6 :36
+
+7 :21
+
+8 :06
+
+8 :51
+
+25
+
+7 :22
+
+8 :08
+
+8 :54
+
+26
+
+7 :24
+
+8 :10
+
+27
+
+7 :26
+
+8 :12
+
+8 :57
+9 :00
+
+9 :45 10 :32 11 :16 12 :02 12 :50
+
+24
+
+A 13
+
+A0
+
+A 13
+
+A0
+
+9 :40 10 :25 11 :11 11 :56
+
+7 :28
+
+8 :14
+
+6 :00
+
+6 :44
+
+7 :30
+
+8 :16
+
+30
+
+6 :02
+
+6 :46
+
+7 :32
+
+8 :18
+
+9 :05
+
+9 :50
+
+31
+
+6 :04
+
+6 :48
+
+7 :34
+
+6 :06
+
+6 :50
+
+7 :36
+
+8 :21
+
+9 :07
+
+9 :55 10 :39 11 :22 12 :12
+
+6 :08
+
+6 :52
+
+7 :38
+
+8 :24
+
+9 :10 10 :00 10 :46 11 :30 12 :17 13 :01
+
+5 :10
+
+32
+
+5 :20
+
+33
+
+刻划公交公司及顾客的满意程度 :
+
+研
+
+( 三)
+
+记 qi 为实际某一行车方案中第 i 时段上的平均每辆车的载客量 , 显然 , qi =
+令 pi =
+
+100
+0,
+
+,
+
+qi > 100
+
+q 3 - qi
+
+,
+
+qi Φ100 ,
+
+：
+科
+
+qi - 100
+
+p′
+i =
+
+q
+
+3
+
+2 :07
+
+流
+
+29
+
+交
+
+28
+
+A0
+
+6
+
+,
+
+0,
+
+qi < q
+
+qi Ε q
+
+( i)
+Q′
+。
+Ai
+
+3
+
+3
+
+号
+
+其中 q 3 为车辆收益载客量 。
+1 m
+1 m
+令 p=
+6 p i , p′=
+6 p′
+分别反映了顾客和公交公司的不满意程度 , 即当 p ,
+i , 则 p , p′
+
+m i
+m i
+p′
+越小时越满意 。( 0 Φ p , p′Φ1)
+
+4
+
+公
+众
+
+按本文中所制定的时刻表来计算得出当 p 3 = 0 . 8 时 , p = 0 . 32 , p′= 0 . 54 .
+
+模型的评价与推广
+
+信
+
+本文是在一定的假设条件下所考虑问题的 , 具有一定的实际推广意义 , 可以用来制定一些
+良好条件下的车辆调度计划 , 但对于因素太多 、
+条件太复杂的运行系统则需用人工模拟与理论
+分析相结合的方法综合考虑 。
+参考文献 :
+
+李维斌著 1 汽车运输工程 [ M ] 1 北京 : 人民交通出版社 ,1987
+
+[2]
+
+叶其孝编 1 大学生数学建模辅导教材 [ M ] 1 长沙 : 湖南教育出版社 ,1997
+
+微
+[1]
+
+The Optimizing Modle on the Dispatch of Buses
+L I Cheng2gong ,
+
+TUO Xiao2wei ,
+
+Teacher :
+
+GUO Shang2bin
+
+Q I Zhong2bin
+
+(Lanzhou Higher Polytechnical College ,Lanzhou 730050)
+Abstralt : This passage discusses t he problem of how to determine t he timetable of t he buses on a certain route under t he condition
+of known statistical data of passenger flow at various stops during every time period. Under normal conditions ,bus companies arrange
+t he vehicle dispatching timetable on t he basis of investigated data wit h t he“succession”met hod during work days to make a group
+
+

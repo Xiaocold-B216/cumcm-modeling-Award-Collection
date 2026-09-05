@@ -1,0 +1,41 @@
+Horilatl
+ifyu(D>358
+aryuGDw0.85:
+end
+end
+fori=140m+1
+ifyuG)>358
+OryuGwo9:
+end
+end
+forilantl
+ifyu(D>179
+yaGDryuG)w0.85;
+end
+end
+fori=140m1
+ifyuD>179
+yaGDryuGDw09;
+end
+end
+fori=lntl
+ifyu(i)<0
+yaGro;
+end
+nd
+lswriteCfulua.xls,11sheet]’DI)
+PloCtnyte Lnyu(l m)y)
+et 物料 编码 60040102567
+考 end( 实 际 值 ,预测 值 7
+In=l
+result[an+l)bn+ Den+1 站
+for i=1kn yshu(i)-polyval(result;
+str=char((BLin2str(n+)]);
+lswiteCjeguo xisyshu().'1037215t)
+end
+ifryshu<0
+yshu=0;
+end
+yshu
+yan
+24

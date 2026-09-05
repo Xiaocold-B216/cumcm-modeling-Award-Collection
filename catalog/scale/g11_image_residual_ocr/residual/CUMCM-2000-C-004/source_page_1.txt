@@ -1,0 +1,43 @@
+回 虽 过
+由:
+， 才学 的 风 睫 局 认 识 相
+第 31 着 第 1 其 数学 的 实践 与 认识 von3l No BERAGE
+2001 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan 200lem mw
+S 模型 的 评价 ( 略 )
+参考 文献:
+[1] 姜 启 源 . 数学 模型 (第 二 版 ). 北京 : 高 等 教育 出 版 社 , 1993-
+[2] 同济 大 学 数学 教研 室 . 高 等 数学 (第 四 版 ). 北京 : 高 等 教育 出 版 社 , 1996.
+[3] 武汉 测绘 学 院 控制 测量 教研 室 等 . 控制 测量 学 (下 册 ). 北京 : 测绘 出 版 社 , 1995.
+[4] 和 孔 祥 元 , 梅 是 义 . 控制 测量 学 . 北京 : 测绘 出 版 社 , 1995.
+[5] 杨 于 , 梅 是 义 . 控制 测量 学 北京: 测绘 出 版 社 , 1995. 加
+-’ 人 Se
+一 让
+The mathematicalM odels of Flying over ti orth Pole
+ZHONG Yin-hua, LIL i-jun, TRAK 、
+(L ianyungang College of Chem ical Technology, Aeh 222001)
+7 “一
+Abstract This paper intends to explain the prob Ke flight tine by four hours,
+which is converted into the problem of the flight diétan e in a constant flying speed U nder
+these conditions, two mathematical models are established (1) In the spherical model, the
+direct relation betw een the flight distance andgthe latitude and longitude are clarified by app lying
+the know ledge of geometry For t od el of revolving ellpsoid, the Bessel Theory is app lied
+to work out the approximate 0 which the flight tme is calculated for saving 4. 041
+hours (2) A smple curve is constit LN hich is adopted as the approximate flight distance
+By the application of in ion, 2 fpmulae，approximate and accurate, are established so the
+flight tine save 4.0535 MT hours，respectively The calculation results explain the
+problem of flight tme ¥
+—
+六
+4, 飞 越 北极
+N 何 永 强 ， 陆 新 根 ， 沈 重 欢
+已 光志
+WR 指导 老师 。 数 模 组
+N (浙江 万 里 学 院 ， 宁 波 315101)
+编者 按 : 若 将 地 球 视 作 旋转 椭 球 , 飞机 的 航线 应 为 长 、 短 半 轴 分 别 为 6388 和 6367 千 米 的 则 圆 旋转 而 得 的
+旋转 椭 球 面 上 过 给 定 两 点 的 短程 线 即 测 地 线 本 文 应 用 微分 几何 知识 , 给 出 了 测 地 线 满足 的 微分 方程 , 并 借
+助 数学 软件 求 得 多 数 航线 段 的 长 度 该 方法 有 一 定 的 特点 , 是 可 取 的 我们 选取 了 论文 的 这 一 部 分 内 容 , T
+以 发 表 若 使 计算 更 加 精确 , 应 将 地 理 纬度 转化 为 归 化 纬度 ( 详 见 本 期 《飞越 北极 的 数学 计算 模型 》 一 文 ).
+摘要 : 本文 对 “飞机 从 北京 出 发 .飞越 北极 直达 底特律 的 所 需 时 间 , 可 比 原 航线 节省 多 少时 间 ”的 问题 进行
+讨论 , 并 将 航线 选择 归结 为 寻求 曲面 上 的 最 短 弧
+应 用 “曲面 上 最 短 弧 为 测 地 线 "的 事实 进行 了 讨论 模型 (一 ) 假设 地 球 是 球体 , 我 们 可 通过 单位 向 量 的
+2 © 1994-2008 China Academic Journal Electronic Publ g Hous 11i SeTV tp://www.cn

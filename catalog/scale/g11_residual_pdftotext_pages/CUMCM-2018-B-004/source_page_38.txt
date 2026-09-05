@@ -1,0 +1,69 @@
+if flag==0%放置待加工工序 2 的工件
+Rec(NEXT,4)=MinNumber;
+Rec(NEXT,5)=Time;
+end
+Now=1;%此时目标工序重新变为工序 1
+Situation(MinNumber)=1;
+
+研
+
+交
+
+流
+
+Time=Time+Expect(3,MinNumber)+Wash;%完成换料
+for k=1:8
+if Left(k)-Expect(4,MinNumber)-Wash<0
+Left(k)=0;
+else
+Left(k)=Left(k)-Expect(4,MinNumber)-Wash;
+end
+end
+Left(MinNumber)=Work(2)-Wash;
+if unifrnd(0,100)>=99%生成故障信息
+StartTime=Time-Wash+unifrnd(0,Work(2));%随机生成故障开始时间（发生在加工
+时）
+
+：
+科
+
+ProcessTime=unifrnd(600,1200);%随机生成人工修复所需时间
+Error=[Error;NEXT,MinNumber,StartTime,StartTime+ProcessTime,0];%记录故障信
+息
+end
+end
+
+Position=ceil(MinNumber/2);%更新位置
+
+微
+
+信
+
+公
+
+众
+
+号
+
+end
+while ~(Rec(end,6)+Expect(3,MinNumber)+Wash<=28800)
+Rec(end,:)=[];
+end
+%% 计算
+SUM=size(Rec,1)-size(Error,1);%成料数
+WAIT=(Rec(end,6)*8-size(Rec,1)*sum(Work))/8;%CNC 平均非有效工作时长
+Last=Rec(end,6)+Expect(3,MinNumber)+Wash;%最终完成物料清洗时刻
+%% 计时
+toc
+clear CompleteTime Expect flag i j k Left MaxProduct MinNumber Move NEXT Now Order Position
+Situation Switch TempRec Time Tool Type Wash Work ProcessTime StartTime;
+memory
+用于情况一方法二第一组的代码
+Simplify_Situation1Team1.m
+%情况 1 下的简化模型代码
+clear;clc;
+%% 计时
+tic
+38
+
+

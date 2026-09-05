@@ -1,0 +1,61 @@
+交
+研
+
+：
+科
+
+%% 差分格式的系数矩阵
+A=zeros(m1+m2+m3+m4,m1+m2+m3+m4);
+for i=1:m1-1
+A(i,i)=1+2*r1;
+A(i,i+1)=-r1;
+if i>=2
+A(i,i-1)=-r1;
+end
+end
+A(m1,m1)=(lam_1/derta_x1+lam_2/derta_x2);
+A(m1,m1-1)=-lam_1/derta_x1;
+A(m1,m1+1)=-lam_2/derta_x2;
+
+流
+
+u=zeros(m+1,n+1);%定义四层耦合介质温度分布矩阵
+%% 初始条件和边界条件
+u(:,1)=37;%初始条件
+u(1,:)=65;%边界条件
+
+公
+
+众
+
+号
+
+for i=m1+1:m1+m2-1
+A(i,i)=1+2*r2;
+A(i,i+1)=-r2;
+A(i,i-1)=-r2;
+end
+A(m1+m2,m1+m2)=(lam_2/derta_x2+lam_3/derta_x3);
+A(m1+m2,m1+m2-1)=-lam_2/derta_x2;
+A(m1+m2,m1+m2+1)=-lam_3/derta_x3;
+
+微
+
+信
+
+for i=m1+m2+1:m1+m2+m3-1
+A(i,i)=1+2*r3;
+A(i,i+1)=-r3;
+A(i,i-1)=-r3;
+end
+A(m1+m2+m3,m1+m2+m3)=(lam_3/derta_x3+lam_4/derta_x4);
+A(m1+m2+m3,m1+m2+m3-1)=-lam_3/derta_x3;
+A(m1+m2+m3,m1+m2+m3+1)=-lam_4/derta_x4;
+for i=m1+m2+m3+1:m1+m2+m3+m4-1
+A(i,i)=1+2*r4;
+A(i,i-1)=-r4;
+A(i,i+1)=-r4;
+end
+38
+
+

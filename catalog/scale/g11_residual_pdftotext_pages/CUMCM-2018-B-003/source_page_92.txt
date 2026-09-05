@@ -1,0 +1,64 @@
+P=8*T(4)/(T(4)+T(5));
+%固定刀具
+D=[1,2,1,2,1,2,1,2];
+%RGV 当前时间
+t0=0;
+%RGV 当前位置[1,2,3,4]
+a=1;
+%CNC 预计加工完成时间
+b=zeros(1,8);
+
+信
+
+公
+
+众
+
+号
+
+研
+
+：
+科
+
+%初始路径
+newstart=start';
+newstart=newstart(:);
+for i=1:24
+if newstart(i,1)==1
+newstart(i,2)=0;
+newstart(i,3)=newstart(i,2)+T(6)+T(4);
+newstart(i,4)=2*(newstart(i,1)-1)+1;
+else
+d=dT(abs(newstart(i)-newstart(i-1))+1);
+newstart(i,2)=newstart(i-1,2)+T(6)+d;
+newstart(i,3)=newstart(i,2)+T(6)+T(4);
+newstart(i,4)=2*(newstart(i,1)-1)+1;
+end
+end
+N=4;i=6;
+aa=newstart(4*i-3:4*i,:);
+t0=aa(4,2)+T(6);
+
+交
+
+流
+
+%初始路径选择
+start=[ones(6,1),perms([2,3,4])];
+
+微
+
+aa=[aa;aa];
+QQ=perms([1,2,3,4]);
+for i=1:24
+d=dT(abs(aa(4,1)-QQ(i,1))+1);
+tQ(i)=t0+d;
+for j=1:4
+if QQ(i,1)==aa(j,1)
+if tQ(i)<aa(j,3)
+tQ(i)=aa(j,3)+T(6)+T(7);
+else
+92
+
+

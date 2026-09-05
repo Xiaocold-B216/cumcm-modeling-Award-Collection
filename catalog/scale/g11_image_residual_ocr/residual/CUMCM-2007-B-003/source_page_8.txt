@@ -1,0 +1,29 @@
+Ei
+z o
+放生 你
+第 一 阶段 第 二 阶段 第 三 阶段
+Se。 s,,
+zy.>2
+J
+=
+分 别 用 某 一 过 程 乘 车 的 次 数 ， 花 费时 间 ， 花 费 金钱 对 图 G 0 过 风 权 5
+地 铁 两 邻 的 119 个 公交 站 中 ”选择 两 站 2 ， 男 作为 人 ie 大 je，
+使 得 目标 函数 值 最 小 。 A
+FAE, SYBIRTATRKHL BA FOASTAE 2 < IE——
+态 规划 模型 。 NS
+B n BHRBIE Do DAIHNS,, 5 人 ee nu 为 从 D 到 De 的 最
+少 换 乘 次 数 ，TP， 为 ,到 zf 的 最 短 耗 时 ， 0 庆 oa
+(4) 换 乘 次 数 最 小 化 模型 -
+Min ) ?9
+s.t. WLpi = WL,,21 TWL,z = 3 =…= wa = wa =
+Yoz 一 wbazoia = 了 人 =w, j=1
+n=a-b+k+2+n,5 ¥
+SS 是 】 Y
+下 和
+(5)a 关上 最 小 化 模型
+mm {T., 十 T2 十 T,.;}
+s.t. WLpi = WL,,21 TWL,z = Wi,,.2 二 wiiza =…=wa = wa =
+rm 一 Weozptl 二 人 二 Wi zk = Wu J =1;
+S,..S,, €H
+(6) 花费 最 省 模型 ;
+8

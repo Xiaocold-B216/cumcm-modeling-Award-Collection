@@ -1,0 +1,66 @@
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+for i=1:7%刀具 2 的数量
+Type=nchoosek(1:8,i);%生成所有的组合情况
+for j=1:size(Type,1)%确定一种刀具分布情况
+Tool=ones(1,8);
+for k=1:size(Type(j,:),2)
+Tool(Type(j,k))=2;
+end
+Order=[Order;Tool];
+Position=1;%记录 RGV 的位置，取值为 1~4
+Left=zeros(1,8);%记录 8 台 CNC 当前工作剩余完成时间，等待时为 0
+Situation=zeros(1,8);%记录 8 台 CNC 当前是否拥有工件，0 为无，1 为有
+Time=0;%系统已运行时间
+Expect=ones(4,8);%预计时间，第一行为预计运动时间，第二行为预计等待时间，第
+三行为预计上下料时间，第四行为前三项之和
+TempRec=[];%临时记录某一种刀具分布情况下的完整加工情况
+Now=1;%当前 RGV 目标工序，取值仅为 1 或 2
+while Time<=28800
+for k=1:8%计算预期时间
+if Now~=Tool(k)%排除非目标工序的 CNC
+Expect(:,k)=inf;
+continue;
+end
+Expect(1,k)=Move(1+abs(Position-ceil(k/2)));
+Expect(2,k)=Left(k);
+Expect(3,k)=Switch(k);
+Expect(4,k)=sum(Expect(1:3,k));
+end
+[~,MinNumber]=min(Expect(4,:));%找出下一个目标
+Time=Time+Expect(1,MinNumber)+Expect(2,MinNumber);%移动至下一个目标位
+置并等待
+if Now==1%当前目标是工序 1 的 CNC
+flag=0;
+for k=size(TempRec,1):-1:1%记录本次操作时刻
+if TempRec(k,1)==MinNumber && isnan(TempRec(k,3))%同时发生上料
+和下料
+flag=1;
+TempRec(k,3)=Time;
+TempRec(end+1,1)=MinNumber;
+TempRec(end,2)=Time;
+TempRec(end,3:6)=NaN;%构建此工件工序 2 的记录矩阵
+break;
+end
+end
+if flag==0%仅发生上料
+41
+
+

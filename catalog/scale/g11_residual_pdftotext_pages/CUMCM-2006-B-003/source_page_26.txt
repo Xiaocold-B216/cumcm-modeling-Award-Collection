@@ -1,0 +1,73 @@
+data2=(data1(ss,:));
+x1=data1(:,3);
+x2=x1.^2;
+x3=data1(:,4);
+x4=x3.^2;
+x5=x1.*x3;
+y=data1(:,5);
+xx=[x1,x2,x3,x4,x5];
+x=[x1,x3];
+rstool(x,y,'purequadratic');
+
+流
+
+8.1.3 问题二方差分析的程序代码
+n=size(data201);
+
+交
+
+k=1;
+for i=1:n(1)
+
+研
+
+if data201(i,4)>=22&data201(i,4)<=26
+data20(k,:)=data201(i,:);
+k=k+1;
+
+：
+科
+
+end
+end
+data20;
+n2=size(data20);
+
+号
+
+%for j=1:4
+for i=1:n2(1)
+
+众
+
+k=1;
+if data20(i,2)==1
+
+公
+
+data21(k,:)=data20(i,:);
+k=k+1;
+end
+
+信
+
+end
+
+微
+
+X1=data21;
+
+clear data21;
+k=1;
+
+for i=1:n2(1)
+if data20(i,2)==2
+data21(k,:)=data20(i,:);
+k=k+1;
+end
+end
+X2=data21;
+
+24
+
+

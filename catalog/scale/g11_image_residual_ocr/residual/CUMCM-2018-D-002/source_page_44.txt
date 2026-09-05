@@ -1,0 +1,45 @@
+是
+-r
+for (;al. ys[5]!=0&&al. ys[4] !=0&&ab!=alhcsl;)//R. &%
+{
+if (z1%2==0)
+{
+z[z1++]=5;ab—;al. ys[5]—;
+if (ab==alhcsl)break;
+z[z1++]=4;ab—;al. ys[4]—;
+if (ab==alhcsl)break;
+}
+else
+{ 全
+z[z1++]=4;ab—;al. ys[4]—; -从 >
+if(ab==alhcsl)break; 一 一 \)
+z[z1++]=5;ab—;al. ys[5]—; 2XG
+if(ab==alhcsl)break; p J
+)} Q )
+) 任
+if (al. ys[4]==0) RS
+{
+for (;al. ys[5]!=0&&al. ys[6] !=0&&ab>alhcsl;)//R. S 车
+{ O
+if (z1%2==0) O
+从
+z[z1++]=5;ab=—;alcys[5]—;
+if (ab=5 alhcsl)break;
+z[z1++ ab— ;al. ys[6]—;
+co) break;
+}
+V
+7%
+下 4. [z1++]=6;ab——;al. ys[6]—;
+了 if (ab==alhcsl)break;
+| /, z[z1++]=5;ab—;al. ys[5]—;
+SA， if (ab==alhcsl) break;
+}
+}
+if (al. ys[6]==0)
+{
+for (;al.ys[5]!=0&&al. ys[3]!1=0&&ab>alhcsl;)//R、 棕 车
+{
+if (z1%2==0)
+{
+44

@@ -1,0 +1,90 @@
+if ( IsConnected )
+{
+int m = temp[0][0];
+int n = temp[0][1];
+int d = AllLines[n-1].LineInfo[m];
+for (k=0; k<temp.size(); ++k)
+{
+FeasibleLine[0] = nStart_pos; FeasibleLine[1] = nCurLineName;
+FeasibleLine[2] = j
+
+; FeasibleLine[3] = temp[k][0];
+
+流
+
+FeasibleLine[4] = temp[k][1]; FeasibleLine[5] = temp[k][2];
+FeasibleLine[6] = temp[k][3]; FeasibleLine[7] = temp[k][4];
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+FeasibleLine[8] = temp[k][5];
+
+FeasibleSolve.push_back( FeasibleLine );
+
+研
+
+ww
+
+}
+
+}
+
+}
+
+：
+科
+
+}
+
+cout << FeasibleSolve.size() << endl;
+if ( !FeasibleSolve.empty() )
+
+众
+
+return bHaveFound;
+
+号
+
+bHaveFound = true;
+
+公
+
+}
+
+10.2.3 (文件名：LoadMessage.h)
+#ifndef
+
+ROADMESSAGE_H
+
+信
+
+#define
+
+ROADMESSAGE_H
+
+微
+
+#include <string>
+
+#include <vector>
+using namespace std;
+// 线路信息
+class LoadMessage
+{
+public:
+LoadMessage()
+{
+nLineName
+
+= -1;
+
+36
+
+

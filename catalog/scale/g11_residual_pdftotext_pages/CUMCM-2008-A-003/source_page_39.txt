@@ -1,0 +1,62 @@
+流
+交
+
+研
+
+k=k+1;
+h=0;
+while h==0
+hh=0;
+while hh==0
+r1=r+randomDisturb(l,Tm,T,Tn,L0,L1);
+if isMatch(r1,zb_y)
+hh=1;
+end
+end%扰动产生一个新可行解
+E=mbFunction(r1);
+dE=E-mbFunction(r);
+if dE<=0
+r=r1;
+h=1;
+else
+p=exp(-dE/T);
+if p>=rand(1)
+r=r1;
+h=1;
+end
+h=1;
+end
+if mod(k,10)==0
+T=0.9*T;T;
+end
+if E<zx
+zx=E;best=r;
+end
+end
+
+公
+
+众
+
+号
+
+：
+科
+
+数学中国
+www.madio.net
+
+微
+
+信
+
+end
+best
+mbFunction(best)
+clear E;clear T;clear Tn;clear dE;clear h;clear hh;clear k;clear l;clear p;clear r1;clear L0;clear
+L1;clear Tm;clear r;clear zb_y;clear zx;
+cd '..'
+
+37
+
+

@@ -1,0 +1,38 @@
+回 叶 这
+EU
+|
+四
+入
+28 工程 数学 学 报 第 19 T
+划 开 |
+6 模型 的 推广
+如 果 考 虑 中 轴线 与 切片 的 交点 不 止 一 个 ,比如 有 两 个 交点 ,仍然 可 以 利用 我 们 的 离散 模型
+去 求解 ,因为 不 含 轴 心 的 切片 中 一 定 不 含有 最 大 圆 。
+我 们 对 于 离散 问题 讨论 较 多 ,但 对 于 轴 心 坐标 及 半径 是 实数 的 情况 ,没有 过 多 的 涉及 。 问
+题 本 身 是 连续 的 ,用 离散 方法 去 模拟 ,不 可 避免 地 会 出 现 误差 。 如 果 知 道 象 素 圆 的 生成 算法 ，
+我 们 就 可 以 运用 本 模型 的 思想 ,将 模型 推广 到 实数 领域 ,从 而 使 模型 的 精度 提高 。
+全
+参考 文献 : P= <sJ》
+[1] 管 伟 光 . 体 视 化 技术 及 其 应 用 [M]. 北 京 :电子 工业 出 版 社 ,1998 = 蛋
+[2] 和 孙 家 广 ,扬长 贵 .计算 机 图 形 学 [M]. 北京 :清华 大 学 出 版 社 ,1995 e 王
+[3] Kenneth. R. Castleman. 数字 图 象 处 理 !M1. 北 京 :电子 工业 出 版 社 ,1981
+. 。 1。 Si
+3D Reconstruction of Pipeline e
+\ A SN
+LIAO Wurpeng，DENGJurye 二 WANGDan
+Advisor: Mathematical oem
+( Hohai University , Nanjing 21009
+Abstract : This article proves that there exists the biggest circle on each slice whbse center ison the pipeline center curve. By con-
+structing the continuous model and the discrete one , we are able to determine the biggest circle on 0. bmp slice , of which radius is
+30 and center coordinate is (0,160) . Using the predetermined éndition that the biggest circle should be contained in each slice , we
+find out all possible coordinates of the pipeline -他 gon corfedponding slices. For each slice , basing on the principle that a
+slice which lies on over 29 一 under 29 layers of the Slicé JSt contain a corresponding section of the sphere of radius 30 ,we filtrate
+the coordinates of the pipeline center curve and defermine 由 more precise one，However , there are still some coordinates of the
+pipeline center curve left to be rmt eli’és slices from 71 to 99 ,due to the information is not enough. Further , we use the
+pointed end property to determine the cdordindtesF the pipeline center curve on other slices，The projecting figures on each coordi-
+nate plane are smooth and fluent. In the 于 | using the coordinates to reconstruct all the slices and comparing the slices with the
+original ones , we found tht the-erfor of different pixels is less than 3 %. The result is satisfied.
+Key words : continuous "3 全 model ; pointed end property
+为
+所
+4 © 1994-2006 China Academic Journal El ic Publishing Hou: All rights reserved. htt W nki.nef

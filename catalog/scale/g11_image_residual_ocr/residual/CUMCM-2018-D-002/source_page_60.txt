@@ -1,0 +1,44 @@
+你
+elseiflalys[8]I)
+z[i]=8, al. ys[8]—;
+}
+if (z[i]==6)
+{
+if (al. ys[9]1=0)
+z[i]1=9, al. ys[9]—;
+else if(al.ys[10]1=0)
+z[i1=10, al. ys[10]—;
+}
+) o
+for (;bb!=0; i++, bb 一 ) 二 从 >
+A
+if (z[1]==5) %
+| wj
+if (a2. ys[7]1=0) S>
+z[i]1=7, a2. ys[7] 一 ; ADN
+else if(a2.ys[8]!=0) &
+z[i]=8, a2. ys[8]—; K
+}
+if (z[1]==6)
+{ O
+if(a2 rs[9]!-0) 凡 ] 9
+2[11=9, a2. da
+else if (a2. ys[10] 1=0
+z[il= 0,82. ys 10] 一 ;
+”局
+1 )
+for (;aw!=0 j t+ 一
+2z 这
+@r
+9 if (al. ys[7]1=0)
+13/ z[i1=7, al. ys[7] 一 ;
+SA， else if(al. ys [8] 1=0)
+z[i]=8, al. ys[8]-—;
+}
+if (z[1]==6)
+{
+if (al. ys[9]!=0)
+z[i]=9, al. ys[9]-—;
+else if(al.ys[10]!=0)
+z[i]=10, al. ys[10]—;
+60

@@ -1,0 +1,33 @@
+十 、 附 录
+10.1 主要 计算 程序 : 基于 MATLAB R2019a 开发
+10.1. 1 主要 计算 程序
+prob1_calc.m: 问题 1 的 求解 核心 算法
+function [Lf angle300] = probl_eale0
+% 问题 1 的 核心 计算 部 分
+%% 积分 给 出 最 优 焦距
+% 并 且 与 Constant 中 固定 的 焦距 做 比较
+waming(ofr,.MATLAB:integral:MaxIntervalCountReached':
+‘warning(off "MATLAB:integral: MinStepSize').
+angle_min = acos(150/Constant sphere_radius);
+LE= fzero(@(Lbint_dL(LE, angle_min), [100, 400]);
+disp(" 问 题 1 最 优 焦 距 LE "+mat2ste(LE17));
+disp(" 问 题 1 最 小 误差 平方 积分 : "+mat2strinf CIXDE atiBiLniingif7)
+assert(abs(int_dL(Lf, angle_min) < sqri(eps)):
+assert(Lf == Constant.Lf);
+[~ ~ angle] = Constant.get_rad_angle(),
+£= @(angle)abs(Polar para(Lf, angle)*cos(angle))-150;
+angle300 = frero(f, [pi/2, angleend)]);
+assert(abs(f(angle300) <= sqri(eps));
+end
+function v = int_I(L, angle_min)
+v = integral(@f, angle_min, pi/2),
+function err = f(angle)
+[L, ~] = Polarpara(Lf angle);
+em = (L-Constant.sphere_radius).*(L-Constant sphere_radius);
+radius = Constant.sphere_radius.*cos(angle);
+erm = erm.*(2.*pi.*radius);
+end
+end
+function v = int_dL(L, angle_min)
+v ~ integral(@f, angle_min, pi/2).
+21

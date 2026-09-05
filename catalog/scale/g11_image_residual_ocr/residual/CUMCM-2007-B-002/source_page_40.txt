@@ -1,0 +1,42 @@
+回 成 革 动 国
+二
+ER
+wsn
+// 非 环形 路 的 上 行路
+if (strUpLoad != "")
+{
+BusRoadCal (strUpLoad, currLoad _up. nLineName, AllBuses,
+currLoad up.LineInfo) ;
+}
+// 非 环形 路 的 下 行路
+if (strDownLoad != "")
+{
+BusRoadCal (strDownLoad, currLoad_down. nLineName, AllBuses,
+currLoad_down. LineInfo) ; “
+- 欠 >
+a
+else if ( !IsRoundWay ) \
+{ 72
+ReverseRoadCal (strUpLoad, currLoad_down. nLine AllBuses,
+currLoad_down. LineInfo) ;
+}
+全
+Al1LinesfcurrLoad_up. nLineName=1] 二 = up;
+AllLines[currLoad down. nLineName-1] = ad_down;
+}
+o p fa
+// 520%520 的 矩阵， 里 面 存 储 避 的 线路 它 间 的 重合 站 点 信息
+vector<vector<int> > (520) ;
+vector<vector<vector<int> > 0 ossInfo(520，vTemp) ;
+// 任意 两 条 线路 间 相 页 点 信息
+RoadCrossInfo.= CalRoa rossInfo( AllBuses );
+int =y Yy
+int 下 4 一 1;
+(int 村 =0; i<200; ++i)
+cout 《《“ 请 输入 起 始 站 点 : ” ;
+cin >>nStart >> nEnd;
+Time_Cost_BusChangeTimes_Pro (nStart， nEnd, AllLines, AllBuses,
+RoadCrossInfo) ;
+}
+}
+40

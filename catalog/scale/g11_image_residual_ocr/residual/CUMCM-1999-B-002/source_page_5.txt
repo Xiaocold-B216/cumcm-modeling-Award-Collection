@@ -1,0 +1,40 @@
+ExE
+1 期 朱 振 波 等 : 针 间 布局 的 设计
+可 利用 旧 井 数 为 6, 旧 井 点 分 别 为 : P， Po, Pa, Ps, Po, HEEEEEEEEE
+me HEEEEHBENN
+3.3 问题 (3) 的 求解 REENIEEEEE
+1 假定 网 格 的 横向 和 纵向 是 固定 的 EEEEEEEEEE
+情况 一 : 选 定 两 点 距离 为 网 格 距离 | | 193
+定理 5 设 坐 标 为 (ou 已 的 点 PsF lw ETTTT TT T  F]
+示 已 有 的 个 旧 井 位 , 则 Per
+PP, 全 部 可 被 和 用 emaxD (PP)s2ze [| | 可
+证 明 先 证 充分 性 , 把 所 有 点 都 移 到 以 P, 为 中 | [二 | 下 JS |
+心 的 边 长 为 4e 的 正方 形 内 , 方法 如 下 : CTTTA TET T]
+%pi= (a,b), Sith A
+a=minf{a- [ai], 1+ [w]- ai} bi=min{b- )
+[bi], 1+ [b:]- bi} X
+这 是 因为 六 (PPD=maxfle- ol G- As
+再 令 Pi= Po UAELE W€{1, ,n}, jo€{1, g 凡生 5
+ar me
+取 点 0= (cut €byt 日 构造 网 格 No, 则 六 (P0 V<eli= 2 和 让, 由 定理 1 Pu
+忆 , 全 部 可 被 利用 ; 否则 , 存在 1D (PsO)= D (PL,0)> 则
+ar y)! 少 囊 / Cit 9> 6
+不 妨 设 -Cut 9> 6 那么 of- wFBGFIED (PPD=D (PP> 26 与 古 设 矛盾
+再 证 必要 性 , 由 定理 2 立即 可 得 )
+算法 容易 实施 , 略 去 丁 -
+情况 二 : 选 定 两 点 距 疯 ; WE
+首先 , 任意 两 点 之 间 的 罗 民 网 格 距离 不 能 大 于 2e 即 若 加 3&.P(P,。 P)> 26 则 由 定理 2，
+P, …,P, 不 可 能 多 部 被 利用
+显然 ,z 介 点 : … 记 全 部 可 被 利用 的 充 要 条 件 是 平面 上 存在 一 点 P, 满足
+axD( ; 作 为 了 缩小 搜索 范围, 减 小 运算 量 , 我 们 给 出 下 面 的 局 部 搜索 定理
+Ca 全 部 可 被 利用 的 充分 必要 条 件 是 :
+W, A_ 3aP euUB|o(P,P) <q Efimah(P,P) se
+Ni 充分 性
+设 条 件 成 立 , 则 , P,WAE P(P, P)) SemaxP(p,P) se 取 定 网 格 N " 由 定理 3,P，
+Pa…, P， 可 以 被 利用
+必要 性
+设 存在 某 网 格 N ，, 使 得 Pi,, Ps, …, Py 都 是 可 被 利用 , 则 由 定理 3
+PP,Pi) <€i= 1, 2
+PEUPIop) se mp,P) Se
+编程 思想 如 下 :
+4 1994-2008 Chin al ic Journ lectronic Publ House. All rights r ed， http://www.c et

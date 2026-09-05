@@ -1,0 +1,49 @@
+加 ;和
+asi
+—
+where ct.cut_time between '2016-12-01" and '2017-02-28';
+--2017 春
+select COUNT(distinct vi_kh) as 人 数 ,COUNTCvi_kh) as 次 数
+位 om #cut_time ct
+where ctcut_time between '2017-03-01 and '2017-05-31";
+--2017 夏
+select COUNT(distinct vi_kh) as 人 数 ,COUNTCvi_kh) as 次 数
+位 om #cut_time ct
+where ctcut_time between '2017-06-01" and '2017-08-31";
+--2017 秋
+select COUNT(distinct vi_kh) as 人 数 ,COUNTCvi_kh) as 次 数
+位 om #cut_time ct b
+where ct.cut_time between '2017-09-01" and '2017-11-30"; 二 <
+--2018 冬 \
+本 机 - 本 2 一
+
+select COUNT(distinct vi_kh) as 人 数 ,COUNTCvi_kh) as 次 数
+位 om #cut_time ct 人行-
+where ctcut_time between '2017-12-01' and '2018-02-28': 任
+en
+select SUM(je) as 商品 消费 总 金额 fom vtime_mall_vi ail;
+select SUM(je) as 特价 商品 消费 总 金额
+from vtime_mall_vip_sale_detail vmvsd °)
+left join product_information pdi on vmy&d, sppm=pdispbm
+where pdi.splm like '% 特 %' or on or pdi.splm like "%{2%'
+-高 价 商品 消 二
+-- 售 价 为 以 上 为 高 价 商品
+select SUM(je) as FdiL ELi 总 金额
+from vtime_mall_vip{sale «detail vmvsd
+where 2 局
+
+LA
+na
+入 -购买 力 维度 -ee
+
+daiy 每 日 非 会 员 消费 金额 临时 表
+让 4 和 SECidotempdb.#notvip_ total jen is not null
+Begin
+drop table #notvip_total je
+End
+select CONVERT(char(10),dtime,120) as date, SUM(je) as 非 会 员 消费 总 金额 into #notvip_total_je
+from total t
+where
+vsd_kh is null and tvi_kh is null -- 限 定 非 会 员
+group by CONVERT(char(10),dtime,120)
+24

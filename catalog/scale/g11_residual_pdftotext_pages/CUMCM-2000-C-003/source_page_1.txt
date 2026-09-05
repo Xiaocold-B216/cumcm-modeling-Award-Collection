@@ -1,0 +1,90 @@
+第 31 卷第 1 期
+数学的实践与认识
+V o l131 N o 11
+2001 年 1 月
+J an. 2001
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+M a thema tica l M odel for Fly ing Across the North Pole
+ZHON G Shao 2jun,
+
+LU O Feng 2y in,
+
+W AN G Guo 2gang
+
+(H uanggang T eachers′Co llege, H uanggang
+
+B y ca refu lly ana lysing w e g ive a defin ite an sw er to the question po sed in Yang Zi
+
+流
+
+Abstract:
+
+438000)
+
+N igh t N ew s tha t the tim e fo r flying from B eijing to D etro it w ill be fou r hou rs sho rter if the
+
+交
+
+p lane can fly acro ss the N o rth Po le. A rea sonab ly m a them a tica l m adel is fram ed in bo th ca ses
+tha t the ea rth is a sp here o r an ellip so id. W e a lso g ive an a lgo rithm fo r find ing the sho rtest
+d istance betw een tw o po in ts in a su rface ( esp ecia lly in an ellip so id ).
+
+Tw o app rox im a te
+
+：
+科
+
+研
+
+a lgo rithm s, con striction ra tio m ethod and im ita ting sea rch m ethod, a re added.
+
+“飞越北极”
+的数学模型
+
+号
+
+仲银花, 李利军, 张 琴
+指导老师: 数模教练组
+222001)
+
+公
+众
+
+( 连云港化工高等专科学校, 连云港
+
+编者按:
+
+本文对视地球为椭球的情况采用了测量学中的贝塞尔方法和用积分计算弧长的方法, 针对地球
+
+扁率很小的特点对积分求弧长给出了一个方便的近似公式, 使计算大为简化, 这是本文的一个特点. 在处理
+实际问题时, 在满足一定精度的前提下, 合理地作简化近似可以用较少的计算达到预期的目的. 本文的另一
+个特点是对大地纬度和归化纬度的关系交待很清楚, 反映了同学查阅背景材料是出色的.
+本文将“飞行时间节约 4 小时”的问题, 在飞行速度恒定的条件下, 转化为计算飞机航程的问题. 根
+
+信
+
+摘要:
+
+据题目的要求建立两个模型. 在球体模型g 中, 利用几何知识推出飞机航程和经纬度之间的直接关系, 进而
+
+微
+
+算得飞行节约的时间为 410504 小时. 在旋转椭球体模型g 中, 解法g 利用测量学中的贝赛尔方法, 给出了
+飞机航程的近似计算公式, 算得飞行节约的时间为 41041 小时. 解法g 则构造了一个简单的弧长作为两地
+间的近似航程, 利用积分给出了弧长的精确计算公式和近似计算公式, 算得飞行节约的时间分别为 410535
+小时和 410531 小时. 这些结果解释了原题中“节约 4 小时”
+的估计.
+
+1
+
+问题的提出 ( 略)
+
+2
+
+模型的假设
+11 不考虑地球的自转.
+21 飞机每经相邻两地的航程, 均以曲面上两点间最短距离进行计算.
+31 飞机飞行中途不需降落加油, 同时忽略升降时间.
+
+

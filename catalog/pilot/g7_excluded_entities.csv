@@ -1,0 +1,7 @@
+﻿paper_id,subject_type,artifact_eligible,exclusion_reason,eligibility_source
+CUMCM-2015-D-002,PROBLEM_PACKAGE,0,"Formal 2015 D problem statement package with official attachments, not a contestant paper body; retain identity/memberships but exclude from Paper-level G6 artifacts.",catalog/pilot/g6_artifact_eligibility.csv
+CUMCM-2025-A-001,PROBLEM_PACKAGE,0,"Official 2025 A-E competition problem package, not a contestant paper body; retain G3 identity but exclude from Paper-level G6 artifacts.",catalog/pilot/g6_artifact_eligibility.csv
+CUMCM-2025-B-001,PROBLEM_PACKAGE,0,"Official 2025 A-E competition problem package, not a contestant paper body; retain G3 identity but exclude from Paper-level G6 artifacts.",catalog/pilot/g6_artifact_eligibility.csv
+CUMCM-2025-C-001,PROBLEM_PACKAGE,0,"Official 2025 A-E competition problem package, not a contestant paper body; retain G3 identity but exclude from Paper-level G6 artifacts.",catalog/pilot/g6_artifact_eligibility.csv
+CUMCM-2025-D-001,PROBLEM_PACKAGE,0,"Official 2025 A-E competition problem package, not a contestant paper body; retain G3 identity but exclude from Paper-level G6 artifacts.",catalog/pilot/g6_artifact_eligibility.csv
+CUMCM-2025-E-001,PROBLEM_PACKAGE,0,"Official 2025 A-E competition problem package, not a contestant paper body; retain G3 identity but exclude from Paper-level G6 artifacts.",catalog/pilot/g6_artifact_eligibility.csv

@@ -1,0 +1,47 @@
+paper_id: CUMCM-2018-A-003
+year: 2018
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018A：基于多原则比较和蒙特卡洛模拟的 RGV 动态调度模型.pdf
+  sha256: FF5FEA82381FC3877F8FEA031CD47426B54759284A9EFE2FBC26873CEE585689
+authority_sha256: FF5FEA82381FC3877F8FEA031CD47426B54759284A9EFE2FBC26873CEE585689
+paper_file_memberships:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018A：基于多原则比较和蒙特卡洛模拟的 RGV 动态调度模型.pdf
+  role: primary
+  canonical: true
+primary_file: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018A：基于多原则比较和蒙特卡洛模拟的 RGV 动态调度模型.pdf
+extraction_inputs:
+- path: 2018年数学建模国赛真题+优秀论文/2018年优秀论文/2018A：基于多原则比较和蒙特卡洛模拟的 RGV 动态调度模型.pdf
+  sha256: FF5FEA82381FC3877F8FEA031CD47426B54759284A9EFE2FBC26873CEE585689
+  kind: original
+extraction_input_sha256: FF5FEA82381FC3877F8FEA031CD47426B54759284A9EFE2FBC26873CEE585689
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 45
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_10.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_11.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_12.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_13.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_14.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_15.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_16.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_17.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_18.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_19.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_20.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_21.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_22.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_23.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_24.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_25.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_26.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_27.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_28.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_29.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_30.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_31.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_32.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_33.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_34.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_35.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_36.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_37.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_38.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_39.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_40.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_41.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_42.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_43.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_44.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_45.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_7.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_8.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2018-A-003/source_page_9.txt"]
+  source_sha256: FF5FEA82381FC3877F8FEA031CD47426B54759284A9EFE2FBC26873CEE585689
+  current_body_sha256: 37DAD783C37D97CD906D94EB1FD1BFC1220F429E4DDF7DAF53BFF9F8E27E1EC2
+  candidate_body_sha256: 6EB45F2899E055AF8443A1910846D00E5DF5F39E36B91F2B4C957B0710E47229
+  source_page_count: 45
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

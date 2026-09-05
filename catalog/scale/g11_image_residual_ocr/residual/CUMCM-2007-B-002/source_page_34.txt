@@ -1,0 +1,36 @@
+回 成 革 动 国
+有
+时
+和
+nLinel = nSecondLine;
+}
+for (k=0; k<RoadCrossInfo[nLinel-1][nLine2-1].size(); ++k)
+{
+nCurBridge = RoadCrossInfolnLinel-1][nLine2-1] [k];
+int a=0, b=0, c=0 d=0;
+bool IsDirectToBridge
+= find(Al1Lines[nFirstLine-1]. LineInfo, NSTART, nCurBridge, a,
+b) ;
+全
+bool IsBridgeDirectToDest = false; “ <
+o,
+if ( IsDirectToBridge ) 全
+{
+IsBridgeDirectToDest
+= find(Al1Lines[nSecondLine-1]. L , “nCurBridge, NEND, c,
+} 全
+if ( IsDirectToBridge && IsBridgeDirectToDest)
+{ (|
+FeasibleLingl0] # a; FeasibleLine[1] = nFirstLine;
+FeasibleLin b; FeasibleLine[3] = ci
+FeasibleLi SecondLine; FeasibleLine[5] = d;
+oj push_back(FeasibleLine) ;
+人 VWoraiae = false;
+LA— = false;
+|
+// cout《 FeasibleSolve. size() << endl;
+if ( !FeasibleSolve.empty() )
+bHaveFound = true;
+return bHaveFound;
+}
+34

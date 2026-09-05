@@ -1,0 +1,86 @@
+55
+
+3a4 vol - scsoo
+
+35 捍 当前 周 的 供 贫 量 、 接 站 量
+
+36 a = amp.zaroa([77] dtypemine)
+
+37 * ap-zeros([177] deypenine)
+
+38 二 SHERRNE
+
+39 ear = ap-zaros([9] degpemine)
+
+10
+
+ae ws
+
+42 二 EALRERHERAT RE
+
+全 d = ap.zeros([177，26] deypesine)
+
+44 二 第 4 个 供应 交 的 第 K 周 选择 的 转运 商
+
+全 ] = np.zeros([177，28] deypesine)
+
+4
+
+人 目标
+
+45C = ap.zaroa([265])
+
+9 L = ap-zeros([25])
+
+50
+
+51 Everyuesk_got = ap-zeros([251)
+
+52105T = np.zeros([9，25])
+
+5
+
+Boam2 KERA
+
+55 tros mrd isport open_vorkbook
+
+s6
+
+37 book=open_sorkbook (x'4t %  f. xlex')
+
+5 aheat book .ahaatsC to]
+
+5 Zhuanyuntade = ap. array(lx. value for x in shest.col(0,start_rovxe1, end_rove=o)))
+
+60 Zhgaayuntsse = mp.sppend([’ *1. Zhusnyun¥aze)
+
+61 1 = ap. array([flost (z. value) for x tn shest.col(1, start_vouxe1, endrovz=5)])
+
+6 1 ap.sppend(10]. 1)
+
+6 1_te = np. array(£loat (x.value) for x in shest.col(2,start_sovee1, ond_rovx=9)))
+
+64 1tc = np.append(0], 1£c)
+
+&
+
+66 vookopen_vorkbook (x f # H 4- xlex')
+
+67 shost=book. shests() [ol
+
+65 Gongyiagiase = mp.array([x.value for x in sheot.col(0, stare_xovel, end_rourc
+7D)
+
+69 GongyingNase 。ap.append([，，] ，GongyingNaae)
+
+T0 = marray([tloat (rwalae) for x tn shest.col(S, start_xovEel, end_rowxs1TT)))
+
+1 P = ap.append([o] ，P)
+
+T2 Pte = np.array([£lont (x.value) for x in shost.col(6, start_rovE=l, end_rowxsiTT)e
+»
+
+到 Pte = mp.append((0], p.te)
+
+T5 Golass = np.array([inttx valae) for x in shest.col(11, start_roveel, end._rourc:
+7D])

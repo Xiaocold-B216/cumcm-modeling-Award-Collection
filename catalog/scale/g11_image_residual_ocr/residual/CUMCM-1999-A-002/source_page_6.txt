@@ -1,0 +1,42 @@
+Eiis:
+RE
+第 30 卷 第 1 其 数学 的 实践 与 认识 Vol30 NO 加”
+2000 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan 2000.
+Abstract 了 the article, theoptmum tactics of the regular check to working procedures and the
+replacement of cutting tools in the course of continipus componentprocessing by automatic lathes
+has been disscussed
+For question one, the optm um modelof average management cost used for regular check and
+adjustm ent of component has been made out by applying the theory of management cost and
+method of probability statistics, the best designed interval of check and cutting tools replacem ent
+in theworking procedure has been obtained
+For question two,based on question one, the objective functions has been established, and the
+optm um tactics of the best designed interval of check and thd replacem ent of os has
+been obtained considering the average loss brought about by unqualified products at the i 让
+of check and the average loss of machine stop for being m isregarded as existi rodg)
+The autom atic checking and adjusting system the breakdow n oo has been
+designed by using autom atic devices, and the algorithm flow chart has AR the
+loss ofm achine stop for beingm isregarded as existing breakdow n Way be avoided, and the ben-
+efit of working procedure would be increased
+RS
+自 动 化 车 管理
+石 做 “ 柯 友 ， 方 庆
+< 佛 卫 教师。 数 模 组
+4
+Gsr 学 ， 武 汉 430033)
+A' = 一 7
+编者 按 : ”该 文思 路 正确 ， 1 面 , 对 问题 一 给 出 了 正确 的 模型 和 结果 , 并 对 检查 方式 、 灵敏度 分 析 , 误
+差分 析 进 行 了 详细 过 论 本 文 列 -特色 是 进行 了 计算 机 模拟 , 这 对 许多 类 似 的 问题 都 行 之 有 效 本 文 缺 点 是
+对 问题 二 的 模型
+摘要 : 他 o 中 wonmarraeweamanonaaonoaananrrems
+损失 最 守 的 一 个 优化 冰 题 , 并 提供 了 有 效 算法 对 问题 一 , 得 到 检查 间隔 T- 18, 定期 换 刀 间隔 了 = 342, 相应
+的 齐 ( 作 j 损失 费用 C= 4. 75 元 的 最 优 解 , 并 用 蒙特 卡 罗 法 对 结果 进行 了 模拟 检验 对 问题 二 , 得 到 检
+E0  oe T 定 期 换 万 间隔 站 = 242, 单个 零件 期 望 损失 费用 C= 7. 22 元 对 问题 三 , 我 们 采用 新 的 改进 方
+¥y 使 单个 零件 期 望 损 失 费 用 降 为 5. 34 元 本 文 还 对 变 检查 间隔 参数 灵敏 性 , 误差 分 析 等 进行 了 讨论
+Na 的 重 述 ( 略 )
+2 问题 的 分 析
+由 于 刀具 损坏 等 原因 会 使 工序 出 现 故障 , 工序 出 现 故障 是 完全 随机 的 工作 人 员 通 过 检
+查 零 件 来 确定 工序 是 否 出 现 故障 , 并 且 计划 在 刀具 加 工 一 定 件数 的 零 件 后 定期 更 新 刀具
+因此 , 给 定 检查 间隔 , 对 零件 作 检查 , 当 发 现 零件 不 合格 时 则 认为 工序 发 生 了 故障 并 立
+即 进行 停机 检查 , 若 实际 存 在 故障 则 进行 修理 , 无 故障 则 继续 生产 ; 当 检 查 发 现 零件 合格 则
+人工 涉 设备 的 工作 当 到 了 定期 更 换 刀 有 具 时 刻 , 即使 设备 未 出 现 故障 , 也 进行 刀具 更 新
+6 -2 ina Ac ic Journ ectronic lishing Hou ll right erve tp://w nki.nef

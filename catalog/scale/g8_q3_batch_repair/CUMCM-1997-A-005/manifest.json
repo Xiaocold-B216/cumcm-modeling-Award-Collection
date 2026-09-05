@@ -1,0 +1,117 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-1997-A-005",
+  "source_path": "1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件的参数设计(3).pdf",
+  "source_sha256": "C818B5A11DDDFF5E9DD8BCBF596074200C0B2B4AEDDBAA74F7E944CDD817DCC6",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 8,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 8,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "回 ji 避 拓 殉 5 d 人 Ea 第 28 卷 第 1 期 数学 的 实践 与 认识 Vol. 28 No. 1 1998 年 1 月 MATHEMATICS IN PRACTICE AND THEORY Jan., 1998 零件 的 参数 设计 间 令 建 ” 黄 OB 汪 细 人 敏 指导 教师 : 丁 旺 才 (兰州 铁道 学 院 ， 兰 州 730070) 编者 按 。 本 文 用 田口 玄 -- 的 三 次 设计 方法 解 闪 件 的 参数 设计 问题 ， 通 过 统计 分 析 调 整 参数 信 记 基本 达到 较 优 解 ， 文 字 清 晰 . 一 7 >》 摘 要 ”本文 对 等 件 的 参数 设计 问题 进行 了 分 析 , 提出 了 质量 特性 的 全 微分 形式 ， 从 而 根据 零件 参 N 分 布 函数 求 得 质量 符 性 的 分 布 冰 数 ， 并 求 出 了 总 质量 损失 ， 这 种 方法 也 适用 于 质量 损失 阴 数 为 不 过 续 最 数 形 式 的 情况 本 文 对 等 伯 参 的 设计 方法 做 了 进一步 探 让 本 本 弄 为 望 有 特 人 的 幼 设计， 允 洒 模型 的 求解 首先 进行 改善 信 咯 比 的 设计 ， 然 后 进行 目标 值 的 修正 ， 最 后 进行 容 盖 设计 } ERSEATIARY 小 对 旺 中 的 分 离 器 参数 进行 的 再 设计 ， 使 总 费用 从 万 设 计 的 3, 085, 700 STREEED) 498，398 元 ， 所 用 方法 基于 数理 统计 理论 ， 得 到 的 结果 合理 ， 本 文 还 讨论 了 模型 的 优 张 此 失 出 了 一 & 的 零件 允 数 设计 方法 , \\ 人 NS —. F@EN 路 | 号 二 、 符 B 谤 曙 有 [二 站 zoisl2r7 零件 参数 变量 ; 6 所 荆 最 失 ， Xustaen 零件 参数 标定 值 ，。 c 成本， Al27 ， 零件 参数 容 益 ， , 产 品 参数 ( 即 产品 质量 特性 ) ”8 有 凡 全 。 产品 质量 竺 性 目标 值 (1.50): Lerr 参数 设计 是 产品 设计 的 核心 ， 它 在 系统 设计 之 后 进行 .该 问题 目的 是 要 选择 系统 中 所 有 参数 的 最 佳 水 平 组 合 ， 的 使 所 设计 的 产品 质量 特性 ， 波动 小 ， 稳 定性 好 1 统计 待 性 该 问题 是 针对 批 基 生 产 的 声 剖 进 行 分 析 ， 由 于 x, G=12…,7) 的 随机 波动 ， 使 ， 产生 波动 ， 从 而 偏离 目标 值 ， 产 生 质 基 损失 ,7 所 以 该 问题 要 用 概率 统计 的 理论 方法 进行 分 析 设计 2 非 线性 效应 与 参数 标定 值 设计 通常 产品 质量 特 们 参数 的 水 平 (标定 值 ) 之 问 是 非 线性 关系 ， 本 问题 亦 然 例如 在 图 -中 ， 若 参数 * 取水 平 x,, 由 于 波动 Ax, 引起 ， 的 波动 范围 为 ay , 通过 参数 设计 ， 著 将 水 平 xi BEVCE x., 此 时 对 于 同样 的 波动 范围 Ax,Y 的 波动 范围 缩小 为 as. 易 见 ay5<axi 可 见 ， 只 要 合理 地 适 择 参数 的 水 平 ， 在 参数 的 波动 范围 不 变 的 条 件 下 因而 不 增加 成 本 ), 就 可 大 大 减少 四 质 斌 符 性 的 波动 邦 围 ， 提 高 了 产品 的 稳定 性 ， 若 区 赎 统 的 设计 方法 ， 单 人 提高 零件 的 质量 ， 把。 Aj 上 一 一 =s= c 等 员 改 为 4 等 品 ， 此 时 参数 的 波动 范围 由 ” 中 AX 缩小 为 Ax,, 而 质量 特性 v 在 水 平 x, 处 相 An 上 二 1 应 的 波动 范围 变 为 Am, BIA Av,>av [5 1 所 以 并 非 由 4 等 品 组 装 起 来 的 产品 就 一 定 是 一 级 11 1 产品 ， 参 数 设计 就 是 要 利用 这 种 非 线性 效应 ， 导 1 | 找 参数 的 最 佳 水 平 (标定 值 ) 组 合 , 。 1 . 六 3 向 1 回 ji 9 pp En 1 其 间 令 建 等 ， 零 件 的 参数 设计 4 好 3 客 关 设计 ， 容 差 大 小 对 质量 竺 性 Y 的 影 向 可 在 图 1 中 表明 ， 著 缩小 Ax, 则 Ay 也 缩小 容 差 设计 的 思路 是 : 根据 各 参数 的 波动 对 产品 质量 特性 影响 的 大 小 ， 从 经 济 角 度 考虑 有 无 必要 对 影响 大 的 参数 给 予 较 小 的 窜 差 ， 以 便 进一步 减少 质量 符 性 的 波动 ， 减 少 质量 扣 失 ， 但 这 样 会 使 产品 的 成 本 有 所 提高 ， 因 此 ， 要 寻找 使 总 费用 最 小 的 容 差 设计 方案 ， 使 所 设计 的 产品 质量 竺 性 ， 波动 小 ， 移 定性 和 好， 四 、 术 型 的 建立 及 求解 根据 对 本 题 的 分 析 我 们 的 设计 目标 是 设计 一 组 参数 标定 值 x,(=12,-.1 及 其 容 郑 Aii=12 使 得 ; N E(y) = Wo， o(y) = c2 越 小 越 好 -从 >》 以 上 即 为 望 上 特性 的 参数 设计 . = 个 1 质量 特性 y 的 全 微分 及 质量 损失 -AN 要 计算 质量 折 失 需 知道 ， 的 分 布 函数 。 由 于 本 题 y = (zt za,… a7) 是 一 较 复 杂 鸣 经验 公 式 ， 所 以 尽管 已 知 si=12\"…,7 的 分 布 函 效 ， 但 无 法 直 楼 推出 ， 的 分 布 般 数 ”|j 一 如 果 各 人 导数 存在 是 连 ， 则 我 们 用 全 微分 原 殖 能 多 4 下。 《SC ) 弛 > 你 机 ， 这 些 信 导 玫 我 们 可 有 用 Mathncoticn HEFRAR. SERTREMERIEINT xxav xc 各 届 波 动 时 对 y 信 这 动 的 贡献 系数 ， 当 一 组 标定 值 xi G=i2.-7) 确定 以 后 , 我们 近似 的 认为 这 些 贡 献 系数 是 -- 些 常数 ， 则 iu 与 Ari G=lav- 7) 有 关 ， 由 于 后 者 为 正 态 分 布 ， 则 也 可 认为 ty 是 正 态 分 布 这 样 也 从 另 一 方面 说 明了 假设 4 % 我 们 可 以 由 Ar G=1) 的 方 类 来 得 0 前方 和 放 的 。 C 和 (一 | o (2) : () 于 是 ， 对 于 正太 分 布 的 y NT 一 =Y=100 0) ®) D(y) =o* 他 -|] 信 即 y 5 ， 《7 = 工 5 y TU = Some ®) 3 诗风 吉本 N C(0% ly-wl<ol . Q) = { 1000，01< 忆 -zl< 03 (9) 9600， 必 一 > 0.3 求 得 总 的 质量 损失 ， Q = Jowrow= 1000 /rotw+ 9000 /ro 01<ly-wl <05 ly—10l 203 n 本 Ch= 48 数学 的 实践 与 认识 28 % 若 总 成 本 为 c, 则 总 费用 为 _ F=0+C ® 根据 以 上 算法 求 得 的 原 设计 值 下 的 结果 为 ， 正 品 率 ， 12.55%, 次 曲率 62.31% 费 曲率。 25.14%, 总 的 质量 损失 @=2,885,700 (元 ); 总 成 本 : €=200,000 (元 ); 总 费用 ， F=3,085,700 (元 ); 2. 标定 值 Xiti=1,2,3…,7) 选 优 设计 : 标定 值 选择 的 好 坏 ， 直 接 影响 了 Y 的 受 力 大 小 ， 为 了 反映 各 零件 参数 对 质量 特性 Y 的 影响 ， 我 们 引入 信 品 比 和 灵敏 度 这 两 个 统计 指标 进行 了 分 析 ， 分 两 段 进行 亿 信 嗓 比分 析 :寻找 使 信 噪 比 达到 最 大 ， 邑 稳定 性 最 好 的 最 佳 水 平 组 合 . (b) 灵敏 度 分 析 :寻找 与 信 嘛 比 无 关 ， 灵 敏 度 显 著 的 可 控 因素 — 称 为 调整 因素 ， 并 进行 调整 作 业 ， 使 最 佳 条 件 下 质量 特性 的 期 望 信 趋 近 目 标 值 yo 一 我 们 利用 正 交 表 的 内 外 表 直 积 法 进行 求解. NaD (1) ATRERERSER 一 所 谓 可 控 因 素 ， 系 指 在 技术 上 已 指定 ， 并 且 能 够 进行 选择 和 控制 的 质量 因素 ， 人 局 记 Ga 趟 的 变量 ， 可 熔 因 素 有 7 个 2 X1, X2,X3,X4, X5, X6, X7. 同一 所 谓 误 差 因素 ， 系 指使 系统 质量 产生 没 动 的 原因 的 总 和 ， 即 所 有 波动 的 愿 固 ”有 时 地 多 之 为 于 扰 . 为 了 区 分 可 控 因 素 和 误差 因素 我们 利用 在 英文 字母 的 右边 加 来 光 未 浊 上 过 ， 和 如 2 表示 X 因素 是 误差 因素 . 0 误差 因素 有 7 个 ， AziG=12.…,7 办 (2) 确定 可 控 困 素 水 平 二 我 们 考虑 用 原 没 计 的 参数 证 作为 可 榨 因素 的 第 二 水 平 , /各 到 、 第 三 水 平 采用 等 关 数 列 来 风 定 ， 并 且 其 券 尽 基 到 得 大 此 ， 以 便 使 研究 的 范围 更 广 些 。 我 们 所 殉 定 的 第 二 水 予 :为 ， TI1 二 0.1P2=0.3,7s 二 0.1,74 二 0.1,zs=1.5,Te 二 16,zy 一 0.75 : SACTRES—, SAT, BETRRRATR ( 见 表 3), 此 为 7 因素 水 平 [mk 才 1 上 水 下 1 | 0075 | 85 | oags | 0075 | 1.125 | 12 | [本 ?ao [ ooa|lals llors| [AT 3 | 0125 es | 0125 | 0125 | 1.875 | 20 | 0935 | (8) 内 设计 玉 安排 可 控 因素 的 让 交 事 称 为 内 表 ， 相 应 的 设计 称 为 内 设计 ， 我 们 选用 正 交 表 L36(3°) 作为 内 表 进行 内 设计 . 表 头 设计 为 V WZEd [2[oTals evfefof10fnlulu] . LEgx [x [x[x [xx 1 Wi As 涂 列 ， 内 表 见 表 2 (4) SNELY 下 误差 因素 和 信号 因素 的 正 交 表 称 为 外 表 ， 相 应 的 设计 称 为 外 设计 、 对 于 外 设计 ， 我 们 仍 进 用 . Lan(0) ERHUHT. NAK—RUE, RAHE ao,- ,Arr 共 7 个 误差 因素 依次 排列 在 正 交 表 10001%) 中 的 第 一 列 ， …, 第 七 列 ， 其 余 为 空 列 ， (5) HHRRE, 信 噪 比 的 计算 公式 (附录 咯 ). (6) 内 表 的 统计 分 析 回 ji 二 :2 二 回 共 RN 1 期 间 令 建 等 ， 和 零件 的 参数 设计 49 # 2 内 表 及 信 品 比 数据 要 ET 7.293358 一 0.667325 一 7.809498 一 0.944386 [aorzaos| ezotao| 7 | -aasoar| aaa | [o [—sovm [ io eaaa | ar | -toerao | | oosos | EEC | 15 | wsesame | 10 | asmovss | [aaa ia | voraor | 1o | vrrsasss | a0, |omaem ] [ioazess | 如 | loaza5 区 | dosloel | a [wovomr| o i5aais6| 26 | oosso | a7 | Ta497 29 | oomonn] [2 | aatzml | 30 5a0854 | o1 |wommmmer | 9 -aaooog 记 本 EEC 内 表 的 统计 分 析 对 象 是 信 噪 比 , 它 是 衡量 内 表 中 方案 稳健 性 的 指标 . 我 们 首先 计算 出 每 e (zi xy 共 7 个 因素 ) 各 水 平 (三 个 水 平 ) 下 信 噪 比 的 合计 值 及 平均 值 ， 结 果 见 表 5 榴 后 计算 各 种 波动 平方 和 与 自由 度 . ’y 二 总 波动 = £, 36 36 ( 6 3 sw- 六 = -at = = AS 雪 3 外 让 具 FT 人 [TI To ] [is -aa sarar | 4 -asozl| [aa euaomlts | 7 -ootea| es | oowess | 5[ Zosouss | 10 | OECD [sse iD | T5 | ua | ae [ooorms | [3 -aaa | aaseae| o1 | osmes | 93 | osmes | [aaaszaie aa [ -oemoos | 55 | oomimws | 5 | oamoos | 然后 , WEREREEDT BATR ( 见 表 5). 从 方差 分 析 表 可 以 看 出 ，xe 高 度 显 著 , 因素 xxr 显著 ， 已 2 天 8， 丰 4 大 of 下 表 4 HESTRDE VELs Tea EECEIZIICIEITINEOICIEECCTI 人 也 | ar | 130g85 | iosi4e [aaes7 | 125206| 62000 | 957r3 | EECIIEICNECCGIEEZISREECCIEECN TS [Te T T T [ ] (7). 确定 参数 组 合 ， (a) 本 题 中 >srszwzs 因 束 不 显著 ， 所 以 其 水 平 可 自由 选取 ， 显著 因 素 和 高 度 显著 因素 *,=7 和 xs 的 水 平 必须 由 信 曲 比 来 选 到 ， 从 而 得 到 一 组 满足 稳健 性 的 参数 ( 见 表 6). 将 这 一 组 满足 稳健 性 的 参数 标定 值 代入 经 验 公式 得 到 了 =0.71 (b) 再 利用 不 显著 因素 求 (一 致 性 ) 参数 组 合 . 用 于 满足 稳健 性 的 参数 组 合 对 应 的 输出 特性 与 目标 值 相差 太 大 ( 偏 移 过 多 ), 我 们 必须 进行 校正 ， 通 过 调整 对 信 唆 比 影响 不 显著 ， 但 对 灵敏 度 影响 显著 的 因素 的 参数 值 ， 使 输出 特性 接近 目标 值 . 50 数学 的 实 距 与 认 识 28 % 表 5 参数 设计 表 内 表 的 方差 分 析 [本 [7T7T [aaa asaoe [am ras [ia oa [za | 2 [aoeo[ [ro [| ass 2 [aaaoz[aaa] [到 sara [isoam| ar [aas ] = [ssaos|eglasae[ -人 RD [zhelsl — -让 表 2 PTRETETRETETETz] [AeF [3T2 1a [s [o To [1d (e) ATHERMORBER RATEERHAGE. FEUHHL TRRHIEACSRAT. 计 作 =A2 4 的 无 偏 估计 为 22=(Ssm-Vej/n 因此 ， 我 们 利用 类 似 求 信 噪 比 的 方法 ， 得 到 沁 敏 席 的 估 攻 全 人 4 = 10lcg [1/n(Sm 一 v.)] \\ MTIRBIRFHIE (如 表 7). 以 雪 同 _F D orTaTadr rerr re [rooo [ —raowes | aramr | seens | Zawan | 7ione0 | “mer | “ior | rrewer| To [wo [u [we lw [w [w [w [ w] [oaeis | Cteer | wom[oion | iens | woes | owr | tows | 2759 | Tw [w w w 1 | w | m | w | [| -ao | 7ros | eson | —asn om | -ao | 5 | -oo [es os -an -aaa ri | -oo aaoi aa ie 我 们 把 可 控 央 素 分 成 以 下 几 个 类 ( 见 表 8) \\ MAA 表 ”8 可 控 因 素 分 类 表 9 ES TREET RS | RRER SAL Teae [er raser /1/ [| | 家] SN | 二 7 和 | 上 | 六 上天 时 | 不 | 区 要 家 | 。 | 辣 - 浊 和 | 直 | | 六 | 二 旺 半 | 豆 村 本家] [o [ 5% | ras | wewms| [x| 5% | B% | memx] 由 于 通过 参数 设计 得 到 的 一 组 水 平 组 合 代入 * 的 表达 式 所 得 Y 值 与 目标 值 相差 过 大 ， 我 们 应 该 mATRER Xa,XaXs 来 调整 , 值 使 其 更 接近 于 目标 值 1.50, BRA ¥ 随 xa,Xsxs 的 变化 关系 9. 我 们 也 利用 Mathematica 软件 画 出 y 值 随 x>,xs,xs 的 变化 关系 曲线 (如 图 2 一 分 994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net 回 ji 过 要 Chae 1 期 闽 令 建 等 : 零件 的 参数 设计 51 3 AEBRT 通过 以 上 调整 得 到 一 组 最 佳 组 合 下 的 >;G=12,…,7) 的 标定 值 ， 在 此 标定 值 下 ety)=yo- 我 们 应 该 找到 一 组 零件 质量 等 级 的 组 合 使 总 的 费用 最 小 ， 因 随 零 件 质量 等 级 的 不 同 ， 生 产 成 本 也 不 同 ， 所 以 提 高 零件 质量 未 必 能 减少 总 费用 ， 而 应 该 提高 那些 对 产品 质量 波动 影响 较 显著 的 零件 的 质量 等 级 ， 即 给 这 些 零件 以 较 小 的 容 差 范围 ， 而 对 那些 对 产品 影响 甚 小 的 零件 ， 给 以 较 大 的 容 差 范围 ， 以 降低 生产 成 本 . 通过 上 面 的 分 析 我 们 知道 ， 应 当 首先 确定 xj G=12,… ,7) 中 哪些 零件 的 窜 差 对 产品 影响 较 大 ， 这 就 是 容 差 设计 因此 我 们 应 使 xx,xs 的 值 减 小 ， x。 的 值 增 大 ， 从 而 使 ， 值 增 大 , 通过 计算 我 们 得 到 了 一 组 标定 值 x; 的 最 佳 水 平 组 合 X,=0.075,X,20.225,X,=0.125, ¥120.125, X, = 1.621,X4=20,X7=0.565 全 人 0) 给 出 误差 因素 水 平 表 AS 以 最 佳 条 件 si=0.075,zs=0.225is=0.125i4=0.125vzs=1.6206rize=20,zy=0.565 定 估 kaei 最 低 等 级 作为 零件 质量 特性 的 波动 范围 ， 可 得 到 如 下 的 误 关 因 素 水 平 表 ( 表 10). © 表 10 窜 郑 设计 水 平 表 ， 二 [- 环 [Two TSN | IT [oums [onn | Lae 内 二 ass | A¥2| 0075 | 0225 | 0izs | 0.135 ]1.020600 30 | 0.565 上 水平 3 | 007875 | 0.2475 0.1375 | 0.1375 > 73 | 22 | 0.59325 | orem | ozars [ugrs | 必 疾 (2) RINET L aslat9) HIERRIATABEI s 依次 排 在 正 交 表 的 1 一 7 列 ， 由 y 的 经 验 公交 y=Jtzuz2car) 计算 旦 痊 出 特性 ， 及 Ay=y-yo,y 及 sy 的 计算 可 用 语言 编程 实现 ， 其 结 果 见 表 11. (9) 方才 分 析 0 因 读 设计 中 误 关 水 平等 间 晤 ， 故 可 用 正 交 多 遇 未 的 回归 理论 进行 方 益 分 析 ， 根据 波动 平方 和 的 分 析 公式 36 n s 这 人 oo w+ 六 i= i=1 该 式 说 明 总 波动 来 自 两 个 方 y 第 一 是 均值 偏 移 波动 玩 _ 第 二 是 以 了 三 Ywi-9) 若 sw 表示 第 一 波动 ， 5# 表示 因素 波动 ， 则 . 2 l/ = X% Sp=Sn+Y S+S. < 人 Ww 网 钛 我们 将 因 素 的 波动 下 可 以 分 解 为 一 次 该 动 5 和 一次 波动 5 ， 证 我 们 给 出 计算 各 自 波动 的 平方 和 及 自由 度 的 公式 总 波动 ， 呈 = >>(w- 15)*; 均值 偏 移 波 动 ， sw. X; 因素 的 一 次 项 波动 Szie= (—1x Ty+0x Tp £ 1x Ty)2/(rA%s), (r=12,\\%s=2) Frie=1, X 因素 的 二 次 项 波动 ， Szig=(1xTi~2xTo+1xT3)*/(rA%), (r=12,)%=6) Fzig=1 H 回 Uuisa 回 几 找 训 和 授 二 的 回 共 RN 52 数学 的 实践 与 认 识 28 卷 对 以 上 调整 方案 总 成 本 的 计算 和 模型 前 面部 分 给 定 标定 值 时 的 求解 方法 完全 相同 通过 对 以 下 调 整 方案 的 比较 我 们 得 出 了 此 问题 的 最 优 解 . 调整 方案 为 : ”xs (B 等 ) rs (5 等) xs (3 等 ) 综 上 ， 我 们 得 出 再 设计 后 的 结果 如 下 : FREME X1=0.075,X,=0.025,X3=0.125,X 4=0.125, Xs=1.621,Xe=20,X7=0.565. 容 差 等 级 分 别 取 B,c,B， B,C,B,B 得 出 正品 率 :， 82.62%, 次 品 率 : 17.38%, 总 成 本 : 295000 元 ， 损 失 费 : 1738000 元 ， 总 费用 ， 468800, 元 . 表 11 最 佳 条 件 下 的 输出 特性 值 [本 [rm [&9] v [全 | ww [8ST rw |] [aas | 3 | -aa -oz | 4 | oowwm] [| -oz | o | osoro | 7 | -oo | es | -oz 个 [ass| |iaaam | aa | az aaonm SSV EECIEICOIREOETIIIEIEIGN 和 [aa aaa | 19 oszser| 2 Gasoo 小 [o [—oseonso | aaaaa | ar | owwor 2 3 | [“2o |wzouso | ao | altezas | au | -aas RS -or [as oms | os |osos| 3 Te 5 下 Taeicso] 为 了 进行 方差 分 析 我 们 首先 给 出 方 次 分 析 的 辅助 圾 总 12 smwrmmegan) [El a Jolm MT [r [ oas | aas 十 -ia iaeor | 19785 | oers | oo | [ [osws | 02100 | —ooro | o16s0 | —vwmms | 03ss ET UT [12635 | oeomo | 1as1s | —yeoeo | —vrowo | —naor | —ozums | 二 re ce LT | 方 关 分 析 表 见 表 13, 由 表 可 知道 误 到 X4, Xs 显著 ; % 13 罕 关 的 方 关 分 析 玫 DTTALPD TY Te To [me aaa [ | [二 aaam | aaaalamaahaos ae fewn | | | | [二 ju lt | | 了 ZhaoasTr 人 | aa | aaa 网 aa — — Se aaa | Too aaao| aaa ai 他 Fa F N W s |oss0m0 | | oowomo | aaooss | oaes | w00] SA， [zelaaozslil — T | | 四 | 1 | o18278 | | 1.48644 | | 0.05982 | | 556 | [sw|aamasl il | | | |” 一 一 二 六 aa 下 [Taaa [elaaar [aasTalos — [ | ] 994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net 二 术 EEE 1 其 间 令 建 等 :零件 的 参数 设计 53 (9) 容 关 的 确定 由 方 关 分 析 表 上 看 出 ， 只 有 XXX xs 的 容 卷 对 质量 损失 有 影响 。 又 ,xs 的 容 差 是 不 可 调 的 ， 因 此 只 有 调整 xsX,,xs 的 容 卷 。 其 可 行 的 调整 方法 有 如 下 几 种 ( 表 14 ) # 14 | 后 [党 [| 三 [x] | KWg [c| c ec| Le ae Fe a [c] ° waors [5] 5 | -从 >》 [L4| ec = 5 | \\) [2]3 [4] 2XG 五 、 模型 人 缺点 及 一 般 办 件 参数 设计 步 H (CD HOERY SRIHRICRGG H OFOB Ir, 4iRT ) (2) BURBIAGRBASHE STHONEMRAE, TTBSIEAITRHG, H T RRkkas) 县 不 连续 的 问题 ， ，_。_G) 零件 的 参数 设计 采用 “新 概念 \" 设计 ， 肥 设计 阶段 蕊 过 动 大 ， 价 格 低 康 的 零件 ， 通 过 调 监 如 找 它们 最 佳 水 平 组 合 ， 设 计 出 信 忘 可 和 的 产品 因此 对 灸 汉 洒 这 笠 的 发 展 中 国家 来 说 ， 这 是 一 个 重要 的 质量 管理 方法 ; A BHTRRERBIG SHSERBAEARARIOSALILR, SRRR 计 方案 ; (5》 本文 所 采用 的 方法 可 以 大 规模 地 在 我 国 各 行 各 业 的 参数 设计 中 采用 一 般 零 伯 参 数 设计 步 匡 略 ) LA se 从 参考 文献 [1] 韩 之 俊 等 ， 质 量 工程 学 一 线 外 , 线 内 医 - 科学 出 版 社 ， 北 京 ， 1991. 四 坦 之 俊 等 ， 质 量 工程 学 ， 张 京 理工 大 学 出 版 福 ， 北 京 ， 1991. [3] “ 盛 琶 等 编 ， 福 率 论 与 数理 幼 it, § 等 教育 出 版 社 ， 北 京 ， 1989. 国志 应 ， 数 学 分 析 , 高 等 教育 出 版 社 ， 北 京 ， 1995. _— zy 站 \\% #% < 了 了 于 我 和 贿 组 工作 中 的 斑 乱 本 刊 第 二 十 七 关 第 三 期 发表 的 “新 中 国 数学 会 的 始末 \"一 文中 误 反 1] 让 |” 下 有 妆 刚 、 杨 人 、 关 生 直 和 我 “ze 个。 行 ) 训 印 为 “… THI. BALC 关 夺 阁 和 张 友 余 ， …， 符 此 更 正 ， 感 潮 作 者 张 友 余 先生 指出 这 一 错误 ， 并 明确 指出 “我 指 的 是 放 志 坚 先 生 ， 此 外 ， 该 文 pz8s 合 16 行 中 “… 刘 杜 年 tog4-1967)，…\" 应 为 “… 刘 晋 年 (1904 一 1967)，",
+  "normalized_text_chars": 12169,
+  "normalized_text_sha256": "9951A8F7A147DA14E44205CB1143D9873E9B708FF85667980CC60747C8F55718",
+  "page_provenance_summary": {
+    "OCR": 8
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "6F15014D245D41A17E76337B768A14338FC3402C902F9F025CAA6856B0B81283",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "20ED04B86BF3116049BAC94BF23ABA2FD465CE052DBA6F2C23091A39FE0E6BBE"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "C72DA1938BA855440F63A5CFD974D64BD6FAC9A9ECDA2C3833EC73A2409642C5",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "55F080DE58ECFF7CFFC8BBE83CA811E184FE574D96CAF9459FBE558E5A30A636"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "584E85E8C9815175117036477F0160E7E02F3E39992ABD90FC8EF45E0C64FCE4",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "86E269C4F0A1FD6115BC675C05EEA12F33D396BF41A6E92100697014818C2C20"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "F59AFFA617CCAA35D865F3318EB26BBBA8E6C991E844DCB95F3627B1FC52BD86",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "E32882482AD881DCE9E848EDC392C4C31C6B0AE8305DAE1080BC54E80874E2B2"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "8C76EDA21263C6600567698B7E84BCE6912A22CFE4D80FD6C3FCB533CE1E491D",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "03DB22B9D68D4EECBB071005F2613601A8570C54F4DA1D0496AF5B09F90A7305"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "56C5FCE631209E26B8A367C5B94AF56434231157B59BD831772908D4A7F35CC6",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "375B91B4EB0B2FF04EE7B3050262D0BD3F0A30711B7A182D09956EA0D140086E"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "B2ADA429C4C86C268FF449307542A3E799BDC215F30077C9AC5DACA5C5D071F7",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "397A2F2032B2726CA9C794F56914705FCA09AD2DBFDCE925D3B762FBFA5662CC"
+    },
+    {
+      "page_number": 8,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "01CC7FBBDA8F7EA58D2C7ACE23C3FF4D15D0516BC3459992F9AC59D511F14B36",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 8,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "BA79700D62F1DB38774430A8B69770BDA8AB46E2D812BA07282A42E7B5D9EC22"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

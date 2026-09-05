@@ -1,0 +1,39 @@
+@ DVD 总 数 的 约束
+100
+ay =b;,
+i=1
+@ Rhr& ARR R BERBK BRAT  23
+20
+》 za = 30;. :
+j=1
+2) “模型 建立
+按照 以 二 分析， 我 们 建立 了 下 列 0-1 规划 模 才
+100 20
+maxW = yy》 cj2g
+i=1j=1
+100
+Z wi =bis ji=12.-.20,
+20
+otd Sag=3,  i=1,2-,100,
+j=1
+zi; €{0,1}, i=1,2--,100; j=1,2---20,
+o; €{0, 1}, i=1,2,---,100.
+3) ”模型 求解
+利用 Lingo 软件 我 们 很 快 就 求 出 了 问题 的 解 岂 得 到 了 前 30 位 会 员 DVD 分 发 策略 如 表 1。
+表 1: 前 30 位 会员 DVD 分 发 策略 表
+E ET
+Co | bug porr, Du | co oor. Di po
+Co | Da pay Da |cor boot Door Di
+Co | Das Do pb | cg oor, Dog owo
+Ci | par noa ay bone Dr po
+Dam | Das Dior bug | co | ooo, Dog Di
+Ci Das Da pne | col | ooo, Dong Do
+Gy pr Di bao | on Dion Dor Don
+Co bum ooa, pn cam | Don Doz oms
+ETIIITNCTRGCZIICIETICZT
+Go pao puapayr | boo, Do7 Do
+Go | Das polr Da | no bos, Do Do
+CI
+Cs Das por pig | on [Dos Doy Di
+Ci pas ie py | cam 5na Dne Do
+Go | par por, pa | cum pos oorr, Do

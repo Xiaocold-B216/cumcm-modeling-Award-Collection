@@ -1,0 +1,44 @@
+paper_id: CUMCM-2006-A-006
+year: 2006
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q2
+authority_sources:
+- path: 2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006A：出版社的资源优化配置.pdf
+  sha256: 008CC60DF63D109D4991406BB85DC92D31003FB52AFA11A105AA42EA86C929E4
+authority_sha256: 008CC60DF63D109D4991406BB85DC92D31003FB52AFA11A105AA42EA86C929E4
+paper_file_memberships:
+- path: 2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006A：出版社的资源优化配置.pdf
+  role: primary
+  canonical: true
+primary_file: 2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006A：出版社的资源优化配置.pdf
+extraction_inputs:
+- path: derived/scale/pdf_ocr/CUMCM-2006-A-006.readable.pdf
+  sha256: 913F2B508A55CBB008205B559AD84470FD501AEF8955F26C37381C290898E048
+  kind: g8_q2_ocr_derivative
+extraction_input_sha256: 913F2B508A55CBB008205B559AD84470FD501AEF8955F26C37381C290898E048
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: poppler-pdftotext
+page_count: 22
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+repair_provenance:
+  stage: G8-Q2-R
+  paper_id: CUMCM-2006-A-006
+  source_file_path: 2006年数学建模国赛真题+优秀论文/2006年优秀论文/2006A：出版社的资源优化配置.pdf
+  source_sha256: 008CC60DF63D109D4991406BB85DC92D31003FB52AFA11A105AA42EA86C929E4
+  derived_file_path: derived/scale/pdf_ocr/CUMCM-2006-A-006.readable.pdf
+  derived_sha256: 913F2B508A55CBB008205B559AD84470FD501AEF8955F26C37381C290898E048
+  page_count: 22
+  ocr_engine: tesseract.js
+  ocr_engine_version: 7.0.0
+  ocr_languages: chi_sim+eng
+  page_audit_rows: 22
+  unexplained_pages: 0
+  status: PASS

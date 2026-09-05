@@ -1,0 +1,46 @@
+a
+108 4f Greek] >= Guorkvesksark(i)
+109 44 Gaean[i] > 2600:
+10 aa， 如 = Gaeani] + 1.3 + np.randos.norsal(0, 500)
+m aae:
+2 az = Gaean[i] 。1.3 + np.randos.norsal(0, 200)
+113 sesxC = 0
+m at gwesk[i] >= Guaskaark(1]
+us 3 Grean(s] > 2500:
+De aa， 菩 = Gaeani] 。1.3 + np.randos.norzal(0, 500)
+ur aae:
+s 4ls, ¥1 = Gaeani] + 1.3 + np.randos.norsal(0, 200)
+il9 lae
+10 Continue # mext 1
+121 Teve_uselx] t= 1
+m Furestlx) = 1
+123
+124 pp = np.randos.norzal(pli], pfell, 1)
+125 aa ”PP + ds， ]
+126 for § in range@1, 9):
+127 if carly] + st] <= 6o00，
+Das 3 问 =
+129 ear[J] += sa
+130 LOsT[j ,x]+= 84] snp.randos norzalALI(3, ]), 1£elI0a, ¥11, D)
+Da1 brege
+132 11 = ap.randos Brsaltltjta， K]. 1felils, 器]， 1
+15
+134 0
+135
+1a6 6 * 0] 1 Gabez(a]
+137 4 0 >= 28200。2:
+as broak
+19 Gueek + 1
+10 Everyseex-get [x]=aus(t/ Gabc2)
+1 ct = aas(s 。Gabel)
+142 Lo = sost(s - t / Gabed)
+143
+4 an
+145 。 s SRABREE. BEE
+146  s "np.zeros([51] deypesint)
+7 ¢= np-zeroa([51] deype=int)
+148 。。 e YHERRME
+149 car = np.zeros([s), deype=ine)
+150
+151
+152 # 4 绘制 轩 表

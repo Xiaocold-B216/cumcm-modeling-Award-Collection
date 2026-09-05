@@ -1,0 +1,48 @@
+for j=1:eval(['length(G',num2str(i),")'])
+eval(['Group',num2str(i),'=','[Group',num2str(i),",a{','G',num2str(i),'G)",'} 1.5']);
+end
+end
+price_new=price;
+% 组 内 每 个 成 员 定价
+P=find(group_amount>1);
+for i=P
+num_order=[];Pe020_group=[];
+sum_length(i)=0;
+[gprice{i}]=pre_price(mean_ord(a{i}),num(a{i}),limitednum(a{i}),lof(a{i}));
+fix_price(i)=0.3*sum(gprice{i});
+group_dis=[];
+for u=1:(length(a{i}))
+for w=1:(length(a{i}))
+if u~=w
+group_dis(u,w)=geodistance(address_order(a{i}(u),:),address_order(a{i}(w),:),6);
+else
+group_dis(u,w)=inf;
+end
+end
+end
+ave_address_order(1)=mean(address_order(a{i}(w),1));%H":(»
+ave_address_order(2)=mean(address_order(a{i}(w),2));
+for g=1:length(address_user)
+P20_group(g)=geodistance(address_user(g,:),ave_address_order,6);
+end
+people_clo=address_user(find(P20_group==min(P20_group)),:);
+% 选 择 最 近 的 一 个 任务 先 开 始
+for u=1:(length(a{i}))
+Pe020_group(u)=geodistance(people_clo,address_order(a{i}(u),:),6);
+end
+% num_order(1)=find(Peo20_group==min(Pe020_group));
+sum_length(i)=(sum_length(i)+min(Peo20_group));
+% for u=1:(length(a{i})-1)
+% num_order(u+t1)=find(num_order(u)=min(group_dis(num_order(u),:)));
+% group_dis
+% end
+[~.I]=sort(address_order(a{i},1));
+for u=1:(length(a{i})-1)
+sum_length(i)=sum_length(i)+group_dis(I(u),I(u+1));
+end
+% 原 始 距离
+Sum_length_org()=sum(Peo2O_group);
+flu_price(i)=0.7*sum(gprice{i})*(sum_length(i)/sum_length_org(i));
+new_price(i)=flu_price(i)+fix_price(i);
+end
+39

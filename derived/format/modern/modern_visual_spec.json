@@ -1,0 +1,545 @@
+{
+  "abstract": {
+    "alignment": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "JUSTIFIED_OR_FULL",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "font": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "Chinese serif/Song-style appearance (visual only)",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "size_pt": {
+      "confidence": "LOW",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "UNKNOWN",
+      "sample_count": 0,
+      "sample_ratio": 0.0
+    }
+  },
+  "appendix": {
+    "present": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "PRESENT",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    }
+  },
+  "body": {
+    "alignment": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "JUSTIFIED_OR_FULL",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "first_line_indent_mm": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "VISIBLE_FIRST_LINE_INDENT",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "font": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "Chinese serif/Song-style appearance (visual only)",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "line_spacing": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "COMPACT_SINGLE_TO_1_5_LIKE",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "size_pt": {
+      "confidence": "LOW",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "UNKNOWN",
+      "sample_count": 0,
+      "sample_ratio": 0.0
+    }
+  },
+  "comparison_with_historical": [
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "page_size",
+      "historical": "UNKNOWN",
+      "modern": "A4",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "orientation",
+      "historical": "UNKNOWN",
+      "modern": "PORTRAIT",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "top_margin_mm",
+      "historical": "UNKNOWN",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "bottom_margin_mm",
+      "historical": "UNKNOWN",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "left_margin_mm",
+      "historical": "UNKNOWN",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "right_margin_mm",
+      "historical": "UNKNOWN",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "title_font",
+      "historical": "SimSun/Song",
+      "modern": "Chinese serif/Song-style appearance (visual only)",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "title_size",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "STABLE_TRADITION",
+      "element": "title_alignment",
+      "historical": "CENTER",
+      "modern": "CENTER",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "abstract_font",
+      "historical": "SimSun/Song",
+      "modern": "Chinese serif/Song-style appearance (visual only)",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "abstract_size",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "body_font",
+      "historical": "SimSun/Song",
+      "modern": "Chinese serif/Song-style appearance (visual only)",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "body_size",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "line_spacing",
+      "historical": "UNKNOWN",
+      "modern": "COMPACT_SINGLE_TO_1_5_LIKE",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "first_line_indent",
+      "historical": "UNKNOWN",
+      "modern": "VISIBLE_FIRST_LINE_INDENT",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "heading_1",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "heading_2",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "INSUFFICIENT_MODERN_EVIDENCE",
+      "element": "heading_3",
+      "historical": "15.0",
+      "modern": "UNKNOWN",
+      "modern_observed_papers": 0,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "figure_caption",
+      "historical": "UNKNOWN",
+      "modern": "PRESENT",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "table_caption",
+      "historical": "UNKNOWN",
+      "modern": "PRESENT",
+      "modern_observed_papers": 6,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "equation_number",
+      "historical": "UNKNOWN",
+      "modern": "PRESENT",
+      "modern_observed_papers": 6,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "references",
+      "historical": "UNKNOWN",
+      "modern": "PRESENT",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "appendix",
+      "historical": "UNKNOWN",
+      "modern": "PRESENT",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    },
+    {
+      "classification": "MODERN_VARIATION",
+      "element": "visual_density",
+      "historical": "UNKNOWN",
+      "modern": "A4_WHITE_PAGE_NARROW_TEXT_BLOCK_WITH_DENSITY_VARIATION",
+      "modern_observed_papers": 7,
+      "notes": "Modern evidence is kept separate from Historical; classification is descriptive, not an official compliance judgment."
+    }
+  ],
+  "equation": {
+    "equation_present": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "PRESENT",
+      "sample_count": 6,
+      "sample_ratio": 0.8571
+    },
+    "numbering_present": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "PRESENT",
+      "sample_count": 6,
+      "sample_ratio": 0.8571
+    }
+  },
+  "figure": {
+    "caption_present": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "PRESENT",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    }
+  },
+  "header_footer": {
+    "footer_present": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "NOT_CONFIRMED",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "header_present": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "NOT_CONFIRMED",
+      "sample_count": 7,
+      "sample_ratio": 0.8571
+    },
+    "page_number_present": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "PRESENT_BOTTOM_CENTERED",
+      "sample_count": 7,
+      "sample_ratio": 0.8571
+    }
+  },
+  "headings": {
+    "heading_1": {
+      "font": {
+        "confidence": "MEDIUM",
+        "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+        "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+        "observed_value": "Chinese serif/Song-style appearance (visual only)",
+        "sample_count": 7,
+        "sample_ratio": 1.0
+      },
+      "size_pt": {
+        "confidence": "LOW",
+        "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+        "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+        "observed_value": "UNKNOWN",
+        "sample_count": 0,
+        "sample_ratio": 0.0
+      }
+    },
+    "heading_2": {
+      "size_pt": {
+        "confidence": "LOW",
+        "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+        "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+        "observed_value": "UNKNOWN",
+        "sample_count": 0,
+        "sample_ratio": 0.0
+      }
+    },
+    "heading_3": {
+      "size_pt": {
+        "confidence": "LOW",
+        "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+        "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+        "observed_value": "UNKNOWN",
+        "sample_count": 0,
+        "sample_ratio": 0.0
+      }
+    }
+  },
+  "keywords": {
+    "confidence": "MEDIUM",
+    "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+    "notes": "Keyword presence is recorded per inventory; exact punctuation and placement require page-level review.",
+    "observed_value": "Present where extracted; not every PDF exposes a stable label",
+    "sample_count": 7,
+    "sample_ratio": 1.0
+  },
+  "metadata": {
+    "generated_at": "2026-09-03T13:36:30+08:00",
+    "historical_layer_untouched": true,
+    "layer": "MODERN_CUMCM_VISUAL_SUBSET",
+    "modern_full_document_ocr_run": 0,
+    "network_access_used": 0,
+    "official_overlay_status": "PENDING",
+    "single_source_of_truth": "derived/format/cumcm_format_synthesis_2026.json",
+    "stage": "FORMAT-AUDIT-MODERN-01"
+  },
+  "page": {
+    "bottom_margin_mm": {
+      "confidence": "LOW",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "UNKNOWN",
+      "sample_count": 0,
+      "sample_ratio": 0.0
+    },
+    "left_margin_mm": {
+      "confidence": "LOW",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "UNKNOWN",
+      "sample_count": 0,
+      "sample_ratio": 0.0
+    },
+    "orientation": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "PORTRAIT",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "page_size": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "A4",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "right_margin_mm": {
+      "confidence": "LOW",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "UNKNOWN",
+      "sample_count": 0,
+      "sample_ratio": 0.0
+    },
+    "top_margin_mm": {
+      "confidence": "LOW",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "UNKNOWN",
+      "sample_count": 0,
+      "sample_ratio": 0.0
+    },
+    "visual_density": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "A4_WHITE_PAGE_NARROW_TEXT_BLOCK_WITH_DENSITY_VARIATION",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    }
+  },
+  "references": {
+    "entry_count": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "0",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "present": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "PRESENT",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    }
+  },
+  "sample": {
+    "candidate_identity_count": 17,
+    "format_eligible_count": 7,
+    "paper_ids": [
+      "CUMCM-2025-A-A066",
+      "CUMCM-2025-A-A196",
+      "CUMCM-2025-B-B060",
+      "CUMCM-2025-C-C023",
+      "CUMCM-2025-C-C132",
+      "CUMCM-2025-D-D037",
+      "CUMCM-2025-E-E030"
+    ],
+    "selection_note": "The current project contains 5 2024 problem statements, 5 2025 problem statements, and 7 2025 award-paper PDFs; only the last seven meet Modern Visual Subset admission.",
+    "target_years": [
+      2024,
+      2025
+    ],
+    "visual_reviewed_pages": 83,
+    "visual_reviewed_papers": 7,
+    "years": [
+      2025
+    ]
+  },
+  "table": {
+    "caption_present": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "PRESENT",
+      "sample_count": 6,
+      "sample_ratio": 0.8571
+    },
+    "three_line_table": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "BOLD_TOP_BOTTOM_RULES_OBSERVED",
+      "sample_count": 6,
+      "sample_ratio": 0.7143
+    }
+  },
+  "title": {
+    "alignment": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "CENTER",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "bold": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "TRUE",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "font": {
+      "confidence": "MEDIUM",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "Chinese serif/Song-style appearance (visual only)",
+      "sample_count": 7,
+      "sample_ratio": 1.0
+    },
+    "size_pt": {
+      "confidence": "LOW",
+      "modern_shift": "NOT_ASSESSED_WITHOUT_OFFICIAL_SPEC",
+      "notes": "Per-paper modes from the current database's format-eligible modern sample; sample is recent and small, not a national prevalence estimate. Current sample is 2025-focused and not a universal rule.",
+      "observed_value": "UNKNOWN",
+      "sample_count": 0,
+      "sample_ratio": 0.0
+    }
+  },
+  "visual_style": {
+    "confidence": "MEDIUM",
+    "modern_shift": "MODERN_VARIATION",
+    "notes": "Based on manually reviewed rendered pages for all seven eligible papers; exact fonts, sizes, border semantics and official requirements are not asserted. Source watermarks are recorded as artifacts, not recommendations.",
+    "observed_value": "A4 portrait academic-report layout: centered bold first-page title/abstract, narrow compact body text, numbered hierarchy, centered numbered equations, captioned figures/tables, and boxed code/supporting-material appendices.",
+    "sample_count": 7,
+    "sample_ratio": 1.0
+  }
+}

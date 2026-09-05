@@ -1,0 +1,39 @@
+回 成 寺 动 回
+你
+拉 角 , 称 为 进 动 角 , 这 是 绕 2 轴 旋 转 的 角 ; 2 和 2z 轴 间 的 夹 角 中 是 第 三 个 欧 拉 角 ，
+称 为 章 动 角 ， 这 是 绕 节 点 旋转 的 角 。
+利用 欧 拉 角 可 将 旋转 答 阵 表示 成 6， 中， 下 的 函数 如 下 :
+R=
+cos W cos 8 sin W cos 0 一 Sin 0
+—sin W cos @ + cos Wsin 0 sin ®  cos W cos @ +sin Wsin 0 sin®  cos 0 sin ®
+sin Wsin @ + cos Wsin 0 cos ® —cos Wsin ® +sin Wsin 0 cos ® cos 0 cos ®
+这 样 ， 共 有 6 个 独立 的 外 部 参数 ， 即 R 中 的 3 ANEKRIAM 0, @, WHIT HY
+3 个 元 素 Tx, Ty, Tz. [1]
+由 此 ， 我 们 建立 了 由 6 个 未 知 量 6， 中， 下 ，Tx，Ty，7T2 构成 的 非 线性 方程 ，
+联 立 方程 组 (1.1) (1.3): 人
+X X rl1*Xw+r2*Yw+r3*Zw+ Tx 全 SS
+一 =-= 一 ”一 “ \
+和 Z r7xXw+r8xYw+19*Zw+ Tz 一
+pRaon 2XG 3)
+Y _ r4*Xw+r5*Yw+r6*Zw+Ty p r )
+该 方程 组 由 6 个 未 知 量 8， 中， 时，Tx，Ty，TZz 三 浇 方 程 组 构成 ， 可 以 求
+得 非 线性 方程 组 的 解 。 将 4 ，p， 的 本 代入 USND，(1.3) 可 得 如 下
+方程 组 : X
+[cos Wcos 0—+Xyyi4 sinWcos 0 HE 0 )*Zwi 十 Tx] * =
+[(=sin W cos ® + cos Wsin 0 sin 9) * Xwi 十
+O
+(cos UT cos 中 + sin 你 二 * 了 wi 十 (cos 0 sin 9) * Ywi 才
+(cos 0 NK Zwi +Ty} *X; “=1,2,3,4;,5);
+[cos war 加 8 * Ywi 十 (一 sin 0) * Zy; + Tx] * 入 一
+y/) Vvsnos corwan 0 cos @) * Xwi 十
+( C NS 0 cos 中 ) * Ywi + (cos 0 c0s @) * Zy; + Tz | * X;
+DN- (i=1,2,3,4,5);
+PRRE E  RL FRAL SUSERE R 51.
+由 上 述 步 又 代替 模型 二 中 的 两 级 标定 法 ， 得 到 变换 矩阵 R 与 T， 在 利用 此 R 和 1T
+利用 模型 二 的 方法 进行 圆心 的 求解 。
+模型 四 、 基 于 模型 二 改进 的 最 优化 模型 ;
+对 于 模型 二 中 ， 对 收敛 的 两 点 进行 处 理 ， 我 们 假定 离 正确 的 对 应 点 越 近 ，
+两 点 之 间 的 空间 欧式 距离 就 越 小 以 此 , 我 们 建立 了 基于 模型 二 改进 的 最 优化 搜
+索 模 型;
+Min dxy) = |Ga ,yi ,Go yz)|;
+9

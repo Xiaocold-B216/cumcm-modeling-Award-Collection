@@ -1,0 +1,33 @@
+马 :二
+是 u
+EEEE
+title( 驱动 电流 随时 间 变 化 函数 ” ) ;
+3 附 表 中 数据 误差 的 分 析 的 程序 fun3. m
+clciclear;
+nl=514;n2=257;% 主 轴 的 转速 变化
+I=48 ;% 等 效 的 转动 惯量
+A=xlsread(F:N\Documents and Settings\Administrator\ 桌 面
+\shumo\A2009data. xls’ ) H
+a=A(:, 1) ;% 捏 矩
+b=A(:，2) ;% 转 速
+c=A(:, 3) ;% 时 间
+d=b.#*(2xpi/60) ;% 角 速度 2
+e=a. *d; 二 <
+f=e.#0. 01; 加 \
+g=sum (f) ;% 能 量 综合 所
+disp( 加 驱动 电流 消耗 的 总 能 量 :“) ;
+8
+nnl=nlxk2#pi/60;nn2=n2#2#pi/60; 任
+h=I#(nn1"2-nn2"2) /2; S
+disp (/FE% Lfils OF
+h |
+disB 入 /能 是 有 : ))
+hh=h-g @
+disp( 误差 百分比 是 :，) ; d .
+88%
+WWW 10. Pet
+一 一
+AL
+Ne
+SSV/
+15

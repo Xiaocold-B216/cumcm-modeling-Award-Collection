@@ -1,0 +1,37 @@
+回 叶 这
+EU
+|
+EEEE
+入
+100 工程 数学 学 报 第 19 T
+of buses "file in and out "during aperation period while we have mainly doue the research on the uneven variation of the passenger
+flow in time and space ,the research on the laws of how to dispatch buses and we have established a target planning model which has
+realized the dispatching plan of "some early and some late”and when there are more ,when there are fewer . Under the circum
+stances of ensuring certain banefits and the satisfaction of passengers ,the overall operating time of the buses in operation has been
+made the shortest ,the dispatching timetable has been got ,while the number for the least buses is 42 and the ratio of satisfaction be-
+tween passengers and bus companies is 0.48 :0. 46
+Key words :Bus Dispatching; Passenger Flow ; Target- Planning
+和 %
+o <sJ》
+° W
+(上 接 曙 页 ) 2XG
+Optimization of Dispatching Buse S )
+FU Changjian Yang Carxia Qin Mi SS
+Advisr: “CHEN Jin'mi
+全
+(SiChuan University , Chenlgdu610064)
+AS
+Abstract :is to find out the best way to dispatch buses. We set a optimized model whose target function is the profit of bus comr
+pany. At the same time , it guarantee the proportion that the passengers waiting for their buses more than 10 min (or 5 min)in the
+total is less than qd given before. First , every station s nonparameter distribution function about the number of passengers is fitted by
+method of least squares. We use a simple method to_estimate tha at least 43 buses are needed ,and then , we use Maple to get the
+optimal solution refer to it. It shows the best pa d patching buses in different conditions of the number of passengers. It can
+help bus companny to get the top profit , meamvhile jj assengers may not wait for their busforalong time. In the end , we evalur
+CA
+ate and popularize the model , and point out the effective ) to improve it.
+Key words : dispatching buses ; optimized“fodel ; mathod of least squares
+] NA
+一 -一 j
+% ]
+所
+2 © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved.  http:/www.cnk

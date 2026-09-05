@@ -1,0 +1,68 @@
+Left(i)=0;
+else
+Left(i)=Left(i)-Expect(4,MinNumber)-Wash;
+end
+
+研
+
+交
+
+流
+
+end
+Left(MinNumber)=Work-Wash;%换料的 CNC 更新剩余时间
+if unifrnd(0,100)>=99%生成故障信息
+StartTime=Time-Wash+unifrnd(0,Work);%随机生成故障开始时间（发生在加工时）
+ProcessTime=unifrnd(600,1200);%随机生成人工修复所需时间
+Error=[Error;size(Rec,1),MinNumber,StartTime,StartTime+ProcessTime,0];% 记 录
+故障信息
+end
+end
+Position=ceil(MinNumber/2);%RGV 位置更新
+end
+while ~(Rec(end,3)+Expect(3,MinNumber)+Wash<=28800)
+Rec(end,:)=[];
+end
+
+众
+
+号
+
+：
+科
+
+%% 计算
+SUM=size(Rec,1)-size(Error,1);%成料数
+WAIT=(Rec(end,3)*8-size(Rec,1)*Work)/8;%CNC 平均非有效工作时长
+Last=Rec(end,3)+Expect(3,MinNumber)+Wash;%最终完成物料清洗时刻
+%% 计时
+toc
+clear Expect flag i Left MinNumber Move Position Situation Switch Time Wash Work ProcessTime
+StartTime;
+memory
+
+微
+
+信
+
+公
+
+用于双工序情况三方法二第一组的代码
+Simplify_Situation3_2Team1.m
+%情况 3（基于情况 2）下的简化模型代码
+clear;clc;
+%% 计时
+tic
+%% 输入不同组别参数
+Move=[0,20,33,46];%第一组[0,20,33,46] 第二组[0,23,41,59] 第三组[0,18,32,46]
+Work=[400,378];%第一组[400,378] 第二组[280,500] 第三组[455,182]
+Switch=repmat([28,31],1,4);%第一组[28,31] 第二组[30,35] 第三组[27,32]
+Wash=25;%第一组 25 第二组 30 第三组 25
+%% 预设系统情况
+Tool=[1,2,1,2,1,2,1,2];%预设刀具分布情况，是情况 2 下的最优方案
+Position=1;%记录 RGV 的位置，取值为 1~4
+Left=zeros(1,8);%记录 8 台 CNC 当前工作剩余完成时间，等待时为 0
+Situation=zeros(1,8);%记录 8 台 CNC 当前是否拥有工件，0 为无，1 为有
+47
+
+

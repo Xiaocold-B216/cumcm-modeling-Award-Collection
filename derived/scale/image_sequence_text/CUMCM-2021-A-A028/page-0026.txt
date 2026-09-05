@@ -1,0 +1,30 @@
+EREERSTETTCT
+% 论 如 何 把 下 玉 四 个 条 数 半 起 来 ，Question2 只 要 续 这 个 就 能 直接 续 出 来
+Find_PQT
+Find_Group
+Group_Position
+Move_Test
+EE2FEE (UFA rotionm)
+% 生 成 旋转 抛物 而
+msxy 厂
+= 0466*300.4+0.484:
+h=300.410.484;
+alpha =36.795;
+beta = 78.169,
+alpha_rad = alpha*pi/10;
+beta_rad = beta*pi/1 0;
+Mat_alpha = fotz(alpha),
+Mat_beta = rory(90-beta),
+5= 2(02Mpy 2diph);
+fe5t= Mat_alpha*Mat beta®[0,0,300.4] ;
+A= inv(Mat_beta) inv(Mat_alpha)*(x.2]'s
+5= AGHAQY 24/p+AQY 24iph),
+save(’s mat,'s)
+F 2FEE__(XFA Find PQTm)
+% 把 点 从 球 上 投影 到 旋转 抛物 而 下
+[Datal.~] = xlsread(Bff 1x15%,1,B202227),
+rotation
+Solution = zeros(3¥length(Datal14);
+test = [49 39885 -36.94843 -294.49236
+Position = zeros(length(Data)5);
+Position all  zeros(length(Datal)4)

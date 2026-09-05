@@ -1,0 +1,88 @@
+第 30 卷第 1 期
+数学的实践与认识
+V o l130 N o 11
+2000 年 1 月
+J an. 2000
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+The Proof s of the Upper Bound for O ptim a l
+Kn ife- Replacem en t Per iod and the L ower Bound
+for Check Per iod
+
+223800)
+
+交
+
+(Suqian teach ing tra in ing schoo l, Suqian
+
+流
+
+M IN M eng 2b in
+
+A s to the question ( 1) of p rob lem A in CM CM - 99, th is a rticle a t first u ses the ob 2
+
+Abstract:
+
+jective function to ob ta in a sufficien t cond ition under w h ich the op tim a l so lu tion to kn ife2re2
+
+研
+
+p lacem en t p eriod T is less than Λ and the low er bound fo r op tim a l check p eriod under genera l
+circum stances, and then p roves tha t the op tim a l so lu tion to the kn ife2rep lacem en t p eriod in
+
+：
+科
+
+question ( 1) is less than 551, w h ile the one to check p eriod is g rea ter than 7.
+kn ife2rep lacem en t p eriod; check p eriod; op tim a l so lu tion
+
+Keywords:
+
+号
+
+煤矸石堆积经费问题的几点讨论
+
+摘要:
+
+公
+众
+
+王如云,
+
+朱永忠,
+
+( 河海大学数理系, 南京
+
+丁根宏
+210098)
+
+本文讨论了土地征用策略, 分别在不考虑银行存、贷款利率和考虑银行存、贷款利率时的分堆情况,
+
+以及在考虑银行存、贷款利率时平均单位体积的矸石处理经费与安息角, 出矸率的关系.
+
+信
+
+关键词:
+
+策略; 安息角; 出矸率
+
+微
+
+模型假设
+11 原煤年产量理解为包括矸石的产量
+21 年度征地方案理解为每年年初最多征地一次
+31 运矸车在上升过程中效率的降低是均匀的
+41 设运矸车在运行过程中所受的摩擦力和重力忽略不计, 只考虑运矸车内矸石的势
+
+能, 并且运矸车的运行是匀速的, 做的有效功全部转化为矸石的势能
+51 征地费于当时付出, 电费于当年内付出, 不可拖欠
+
+1
+
+几个基本量
+在题图中 A —S B OD 是棱锥部分, A —B CD 是圆锥部分, 由实际情况, 矸石堆要堆积稳
+© 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

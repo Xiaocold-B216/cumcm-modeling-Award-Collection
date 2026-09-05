@@ -1,0 +1,83 @@
+回 成 革 动 国
+所
+吉
+Fa ie，
+半生 二
+wsn
+if t3(k3,1)>1040
+sd d d
+U2{x,2}=(t1(kl,3)+t2 (k2,3)+t3(k3,3)) *2.5+8+2;
+U2{x,10}=3;
+else
+sd d 9
+U2{x,2}=2.5*%t1 (k1,3)+2.5%t2 (k2,3) +3*t3 (k3,3) +11+2;
+U2{x,10}=3+t3(k3,2);
+end
+else
+if t3(k3,1)>1040
+sd g d
+U2{x,2}=2.5*%t1 (k1,3)+3*t2 (k2,3)+2.5%t3 (k3,3) +13+2;
+U2{x,10}=6+t2(k2,2);
+else
+sad g g
+U2{x,2}=2.5*%t1 (k1,3) +3*t2 (k2,3) +3*t3 (k3,3) +12+2;
+U2{x,10}=3+t2 (k2,2)+t3 (k3,2) ;
+end
+end o
+else
+if t2(k2,1)>1040 全 <sJ》
+if t3(k3,1)>1040 =vsNN
+Sed d 由
+U2{x,2}=3*t1(k1,3)+2.5%t2(k2,3)+2.5%t3 (k3,3) +
+U2{x,10}=t1(k1,2)+3;
+7
+sg dig S
+U2{xy2}=3xtl (k1,3)+2.5%t2 (k2,3) +3*t3 (x3/8) ¥13+3;
+U2{x,10}=3+t1(k1,2)+t3 (k3,2); Q SN
+end MA
+else
+if t3(k3,1)>1040 A
+%gg d -
+U2{x,2}=3*t1 (k1,3) +3*t2(k2,3) 3(k3,3)+11+3;
+U2{x,10}=3+t1(k1,2)+t2(k2,2)+
+else
+sg gg
+U2{x,2}=3*t1 (k1,3) +3*t2(k2,3) +3*t3(k3,3) +10+3;
+EEE A eAs SNE 4
+end 分 7 O
+end
+end 0
+人
+U2{x,4 二 Ci t () } ?各 转 丫 点 _
+oztxy 5 TEL{tl 81，1) 1) 本 不 辆 1
+U2(x, 6)=EtI(E5(k2,1), 1};
+s 是 否 始 ee
+一 )
+i (k2,1)<=1040
+kk=1:1040
+上 eta
+o if Lt2{kk,1}(1,1)==t(i)
+7, temp=1;
+break
+< 人
+end
+p) end
+] // end
+AN U2{xv,7}=Lt1{t3(k3,1)，117s 车 辆 3
+s 始 发 站 数
+if t3(k3,1)<=1040
+for kk=1:1040
+if stremp(Ltl{kk,1},U2(x,7})
+if Lt2{kk,1)(1,1)==-t()
+temp=temp+1;
+break
+end
+end
+end
+end
+U2{x,8)}=temp;
+s 人 流量
+U2{x, 9}=sum(Time (t (3),:))-...
+sum(Time (:,t(3)))=...
+sum (Time (:,t(i)))+...
+33

@@ -1,0 +1,74 @@
+if(f<0||f>1.0){
+}else if(f>=0&&f<=0.3){
+v = f;
+}else{
+v=Math.sqrt(f);
+}
+return v;
+}
+//社会利益目标
+
+交
+
+流
+
+public double shechang(double f){
+double v = 0.0;
+double temp = 0.0;
+double r = 0.0;
+
+for(int i=0;i<size;i++){
+temp = Math.pow(1+rate[i], size-i);
+temp = (shenghuo[i]+f)/temp;
+v = v+temp;
+}
+r = (124328.25-v)/(111219.11+v);
+return r;
+
+：
+科
+
+数学中国
+www.madio.net
+号
+
+}
+
+研
+
+double shenghuo[] = {6029.88,6510.94,7182.1,8606.55};
+double rate[] = {0.0198,0.0198,0.0225,0.0252};
+
+//个人利益目标
+
+众
+
+public double peoplechang(double f){
+double v = 0.0;
+
+公
+
+double temp = 0.0;
+double r = 0.0;
+
+微
+
+信
+
+double shenghuo[] = {6029.88,6510.94,7182.1,8606.55};
+double rate[] = {0.0198,0.0198,0.0225,0.0252};
+
+for(int i=0;i<size;i++){
+temp = Math.pow(1+rate[i], size-i);
+temp = (shenghuo[i]+f)/temp;
+v = v+temp;
+}
+r = (235547.36-v)/(v+53985.68);
+r = 2*r/5;
+return r;
+
+}
+
+34
+
+

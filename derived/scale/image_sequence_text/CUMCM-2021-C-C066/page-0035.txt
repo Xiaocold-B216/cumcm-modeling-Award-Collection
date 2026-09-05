@@ -1,0 +1,49 @@
+问题 一 代码
+inport. numpy as mp
+import pandas as pd
+import matplotlib-pyplot as plt
+imporr math
+from sklearn iaport prepracessing
+4 法
+def cate(aata):
+seo
+for iin data:
+ee
+四
+ae
+和 ath logG)
+return 5/(-nath log(len(data)))
+def get_beta(data, a-ie2)
+nane-data. coluans.to_11st()
+el namete]
+beca-]
+or iin nane:
+tnp-array (data(4)) reshape(s,1) %
+din_nax_scaler = preprocessing imwaxscaler()
+X_ninmax = nin_nax_scaler.fie_transforn(t)
+beta.sppend(cale(x_ minmax reshape(s,a). neshape(s, ))
+return beta
+tdata - pd Databrane(pdiread excell’ £I51x15)
+beca = get_beta(tdata,as3c9)
+op-
+haneeB
+beta[s])/(3- (beta[s]tbetare]vbeta[7]))
+con. ppend(a)
+a-np.array(cdatal* (1-50'1) con(0]enp.array (tdatal "平均 间 卫 关 路 '])*con[i]+np.array(tdata "平均 和
+续 供 人 天 数 '])*con[2]
+print(con)  SRREAEHRIERERI
+stopsts
+def tapsistdatal，weight-None ar462):
+拉 归 一 化
+© = np.anraydataa[" 供 货 点 生平 均 优 贡 量 ( 供 人 总 重 /全 估计 数 ) ,稳定 性 (累加 (RER-TAR
+《2 "，" 供 代入 此"'， 汪 中 比例 《在 28% 浊 各 内 "连续 性 ']]) reshape(a,6)
+dm_max_scaler = preprocessing .MyaxScaler 人 )
+data = pd.OataFrame(nin_nax_scaler.fic_transforn(t))
+« 最 估 最 和 方案
+Z = pa.Datarrane([dsta.nin(), data.max()], index-[*AITHN", ERNN'])
+二 下 高
+eight = entropyweighrtdatal) 1f wetght is None else np-array(vedghe)
+Resul = data.copy()
+Result[" 正 理 相 栋 *] = np ,sqrt(((data - Z.1oc[' 正 理解 ']) *。2 * welght). sun(axiz-1))
+ResuTE[* AUHK"] = np ,sqrt(((data - Z.1oc[ AEHN"]) * 2 * welght).sun(axis=1))
++ BamaT

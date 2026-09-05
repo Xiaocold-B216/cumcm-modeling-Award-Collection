@@ -1,0 +1,46 @@
+Torj=1n0b)
+= nspace(emin() cmax()ob grid_sze+1);
+Grid()18 = Fnf dl;
+Grid(U8 = [cl ingl
+end
+end
+function leader = SelectLeader{obj)
+61= ob swarm Grdinde;
+oc = unique(sl;
+N= zerostsizefoclh;
+fork= Liength(0C)
+NI = lengih(find(G1==0C(1);
+end
+P=exp(objbetarN;
+=pjsam 人 ph:
+si= RepostoryRoulettewheelselectionfph
+sc=0C(s;
+SCM =findfGesch:
+smi=mandi engthtscMj
+sm= ScMsmi);
+Ieader=objswarmkmh;
+end
+funcion o =DeleteOneRepMiemebr(abi)
+Gielobjswarm.Gridindex;
+OCunique(sl;
+Nezeros(sze(OCT):
+for keLength(0C)
+N)=length(find(G1==0C(K)}
+end
+Pexp(obi gamma“h);
+P=pfsum(P);
+scisRepositoryRouletteWheelselecton(Pl;
+se=oc(sl;
+SCM=fnd(Gl==scl;
+micrandifl lengthtscMji
+smescM(smil;
+objswarmism=();
+end
+funcion obj = update(ob]swarm)
+swarm =Partile.updateDominaton(swarm;
+objswarm = [ob swarm swarm(-{swarm isDominated]);
+objswarm = ParticleupdateDominationtobjswarmh
+objswarm =objswam 人 lobjswarmisDominatedj)
+objGrid=objeridlh
+ori Hengthtobjswarmh
+人

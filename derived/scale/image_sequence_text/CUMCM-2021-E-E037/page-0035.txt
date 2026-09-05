@@ -1,0 +1,47 @@
+resB, resC=1], []
+foriin resBC:
+
+ifi[1] =='B":
+
+resB.append(i[0])
+else:
+resC.append(i[0])
+
+print{resBC)
+print(resB, len{resB))
+print({resC, len{resC))
+colors = ["r", "g", "b", "c", "m", "y", "navy", "purple", "gold", "gray", "orange", "lime", "pink",
+"tomato", "khaki", "azure", "linen", "rose", |
+plt.figure(' 附 件 四 Class', figsize = (5, 3), dpi = 300)
+plt.xticks(range(0, 10000, 1000), rotation = 45, fontsize = 5)
+plt.yticks({fontsize = 5)
+plt.xlabel( 波 段 ,fontsize = 5)
+plt.ylabel(' 吸 光度 , fontsize = 5)
+plt.grid(True)
+fori in range(data0.shape[0]):
+
+plt.plot{data0.columns[2:], data0.iloc[i,2:], color = colors[int{data0.ilocli,1])], linewidth = 0.5)
+plt.show()
+best_LLE_clf_n_components, best_LLE_clf_n_neighbors = 20, 40
+best_params_={'C': 2.438775510204082, 'gamma': 18.420699693267164}
+print(f'n_components = {best_LLE_clf_n_components}, n_neighbors =
+{best_LLE_clf_n_neighbors}')
+# print(f'best_params_ = {grid.best_params_}')
+lle = LocallyLinearEmbedding(n_components = best_LLE_clf_n_components
+
+, n_neighbors = best_LLE_clf_n_neighbors
+, method ='modified').fit{(dataBCD.iloc[;,2:])  # LLE 降 维
+dataBCD_lle = lle.transform(dataBCD.iloc[:,2:]) # 获取 降 维 后 的 数据
+dataBCD_lle = pd.DataFrame(dataBCD_lle, index = dataBCD.index) #
+转换 为 DataFrame
+print{dataBCD_lle)
+X_know = dataBCD_lle[{(dataBCD['Class'] == 'B') | (dataBCD['Class'] =="'C')]
+X_unknow = dataBCD_lle[(dataBCD['Class'] == 'D')]
+y_know = dataBCD.loc[{dataBCD['Class'] =='B') | (dataBCD['Class'] == 'C'),'Class']
+print{(X_know.shape, X_unknow.shape, y_know.shape)
+Xtrain, Xtest, Ytrain, Ytest = train_test_split{X_know, y_know, test_size = 0.3) # 分 离 出 测试
+集 和 训练 集
+cf = SVC(C = best_params_['C'], kernel = rrbf，gamma = best_params_['gamma'],
+decision_function_shape ='ovr', cache_size = 5000 # MB
+).fit(Xtrain, Ytrain)
+35

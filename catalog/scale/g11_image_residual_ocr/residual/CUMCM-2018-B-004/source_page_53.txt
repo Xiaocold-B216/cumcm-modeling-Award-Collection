@@ -1,0 +1,48 @@
+回 成 革 动 国
+RE 0
+加 只 RN
+Left(Error(j2))=Error(li4)-Time;% 将 故障 修复 所 需 时 间 转 换 为 当前 工作 剩余 完成
+时 间
+Situation(Error(j2))=0;% 修 复 完 成 后 取 走 故障 工件
+end
+end
+fori=1:8% 计 算 预期 时 间
+if Now~=Tool()% 排 除非 目标 工序 的 CNC
+Expect(:,i)=inf;
+continue;
+end
+Expect(1,i)=Move(1+abs(Position-ceil(i/2)));
+if Left(i)<=Expect(1,i) A7
+Expect(2,i)=0; 二 NY
+else 一 \)
+Expect(2,i)=Left(i)-Expect(L,i); 2XG
+end ood
+Expect(3,i)=Switch(i);
+Expect(4,i)=sum(Expect(1:3,i)); As
+end 2\ 7
+FoureonamaatrX
+Time=Time+Expect(1MinNumber);% 移 动 至 下 一 介 慎 标 位 置
+flag=0;
+fori=1:size(Erron1)% 运 动 后 再 次 检查 错误 信息
+if Time>=Error(i,3) && TO r(i,4) && Error(i,5)==0 && MinNumber==Error(i,2)%
+运动 中 原 目标 发 生 了 故障 AAA
+Errorlj5)=1;% 标 记 为 马 处 理
+Situation(Erroit 区 =0;% 修 复 完 成 后 取 走 故障 工件
+forj=1:8%CNC 的 时 间 牙 进
+if Left(j- Expect(1,MinNumber)<0
+有 六
+else
+7 Left(j)=Left(j)-Expect(1,MinNumber);
+下 C-
+含 nd
+| // Left(Error(j2))=Error(i4)-Time;% 将 故障 修复 所 需 时间 转 换 为 当前 工作 剩余 完成
+训
+flag=1;
+end
+end
+iflag% 由 于 原 目 标 CNC 发 生 故 障 ， 重 启 循环
+continue;
+end
+flag=0;
+fori=1:size(Errop1)% 等 待 中 检查 错误 信息
+53

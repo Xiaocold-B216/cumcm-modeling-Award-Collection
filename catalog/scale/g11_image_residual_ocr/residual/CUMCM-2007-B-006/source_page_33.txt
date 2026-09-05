@@ -1,0 +1,80 @@
+回 成 革 动 国
+MU 作
+本
+二 Fa ar
+半生 二
+wsn
+temp=0;
+for kk=1:1040
+if str2double (L{kk,1} (2:end))==U2(x,6)
+if L2{kk,1}(1,1)==t(i)
+temp=1;
+break
+end
+end
+end
+U2 (xy 7) =t3 (k3，1) 28 车 辆 3
+s 始 发 站 数
+for kk=1:1040
+if str2double(L{kk,1) (2:end))==U2(x,7)
+if L2{kk,1}(1,1)==t(j)
+temp=temp+1;
+break
+end
+end
+end
+U2 (x,8) =temp; 全
+# 人 流量 =4Vy<Jy
+U2 (%, 9) =sum (Time (t (3),:))-... AN
+SintfTime(:,t(O)))-... 由
+sum(Time (:,t(i)))+... 全
+sum (Time (t (i),:)); 2
+s 费 用 了
+U2 (xj110) =t1 (k1,2) +t2 (k2，2) +t3 (k3，2) ;
+x=x+1;
+end
+end
+end
+end 全
+end 人
+end
+end
+1.4 邻接 搜索 程序 段 问题 二 求解
+N="50087"; U
+M='53676"; / O
+gs 映射
+if stremp(N(1),'s')
+for i=1:41
+t=findstr (D{i,1},N);
+if ~isempty (t)
+N=tx (i);
+break
+end
+end _—
+if ischar (N)
+N=str2double (N(2;e >
+end o
+end
+if strcmp (M( 7,
+for i=1:41 /0 4
+tafindstr(D(L51),M) ;
+Q RN fisempty(t)
+yp，
+1
+NA
+-人 N
+if ischar (M)
+M=str2double (M(2:end)) ;
+end
+end
+s 直达
+if Time (N,M)~=0
+temp=S{N,M};
+for i=l:size(temp,1)
+if temp(i,1)>1040
+disp (strcat (' 直 达 地 铁 为 : "LItlftemp (1,1),1}))
+else
+disp (strcat (' 直 达 汽 车 为 : "LItlftemp (i,1),1}))
+end
+end
+31

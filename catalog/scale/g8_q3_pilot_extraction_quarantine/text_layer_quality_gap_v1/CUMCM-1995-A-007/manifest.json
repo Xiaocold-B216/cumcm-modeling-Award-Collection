@@ -1,0 +1,21 @@
+{
+  "paper_id": "CUMCM-1995-A-007",
+  "source_path": "1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：飞行管理问题答卷评述.pdf",
+  "source_sha256": "54A11CF48AE68C35804EF9F44320C3EA2CCBD828CFE8B8946DFDE07C2D87A75E",
+  "page_count": 2,
+  "pdf_text_page_count": 2,
+  "ocr_page_count": 0,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "[Image: KSPX1] ���������� [Image: I0] [Image: I1] [Image: KSPX1] ���������� [Image: I2] [Image: I1]",
+  "normalized_text_chars": 99,
+  "normalized_text_sha256": "F580CAE5DE03743B94F86B0E4053C6F0B33D0C957F7A8D4380B2C2A9D3E0828E",
+  "page_provenance_summary": {
+    "PDF_TEXT_LAYER": 2
+  },
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID"
+}

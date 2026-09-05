@@ -1,0 +1,71 @@
+if a(i,j)==1
+break;
+end
+end
+if a(i,j)==1
+break;
+end
+
+研
+
+交
+
+流
+
+end
+if i==768 & j==1024
+h=1;
+break;
+else
+hh=0;
+while hh==0
+a(i,j)=0;
+m=[m;i,j];
+if a(i+1,j)==1
+i=i+1;
+elseif a(i-1,j)==1
+i=i-1;
+elseif a(i,j+1)==1
+j=j+1;
+elseif a(i,j-1)==1
+j=j-1;
+elseif a(i-1,j-1)==1
+i=i-1;j=j-1;
+elseif a(i-1,j+1)==1
+i=i-1;j=j+1;
+elseif a(i+1,j-1)==1
+i=i+1;j=j-1;
+elseif a(i+1,j+1)==1
+i=i+1;j=j+1;
+else
+hh=1;
+end
+end
+end
+for i=1:length(a(:,1))
+for j=1:length(a(1,:))
+if a(i,j)==1
+if a(i-1,j)==0 & a(i+1,j)==0 & a(i,j-1)==0 & a(i,j+1)==0 & a(i-1,j+1)==0
+& a(i-1,j-1)==0 & a(i+1,j+1)==0 & a(i+1,j-1)==0
+a(i,j)=0;
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+数学中国
+www.madio.net
+
+27
+
+

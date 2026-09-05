@@ -1,0 +1,53 @@
+"sese ，
+,saag，
+sa89
+,ses6',，
+,saae，
+seza，
+see7，
+sz273，
+,sg2
+和 所
+ile8 。pd.read_excel(' 阴 件 1 近 5 年 482 家 供应 闪 的 相关 数据 .xlsx'，sheet_nane “企业 的 订 仙 量 (ny》 *)
+ilel = pd.read_excel(' 阴 件 1 近 5 年 482 家 供应 认 的 相关 数据 .xlsx'，sheet_nane = “供应 高 的 供 换 量 (az) ，)
+JESOS——
+For supplier in select_suppliers:
+PIt. figure(Figsize-(10, 5), dpi = 400)
+DJw =
+X np.tiletnp.arange(1,25)，(1.19)).T
+X.plot = np.linspace(1, 24, 26)
+y np.array(#ler[file1(" RERID'] -。 supplier] .dloc(:,2:1).ravel()
+descrip = pd-Dataframe(np_array(filel[filel[ "供应 商 ID'] =-
+supplier] .ic[ :2:]).reshape(-1,24)).describe()
+y mean = descrip. loc 'nean’,]
+std -= deserip.locf'std'
+plt.scatten(x, y, c='grey’, label-'data’)
+PLE.PLOt(X plot, y_nean, colon='darkorange’, luslu, alpha ='8.9,
+Tabel-"nean’)
+PLE.F111 betueen(X_plot, y_nean - 1.5y.std, y_mean + 1. * y_std, color'darkorange’,
+alpha-o.2)
+Ptxlabel(vdata')
+PLE.ylabel(“target)
+PLE.title(£E HI0: (supplier))
+Pt legend(loc-"best", scatterpoints-1, prop-(size’: 有)
+PIE. saveig(F"/ing/ IID_{supplier)’)
+PI. show()
+问题 二 订货 方案 模型
+impork numpy as mp
+mpork Beatpy as ea 4 导入 geatpy 库
+import tine
+impors pandas as pd
+fron matplotlib iaport pyplor as plt
+from rqdm import tqdm
+from sKlearn. gaussian_process impart GaussianprocessRegressor
+from sKlearn. gaussian_process. kernels import RBF，Constantkernel a5 C
+import Gpy
+import warnings
+warnings .filtervarnings('ignore')
+select_suppltens = [sla8
+5229"，
+"sa61"，
+,saqa，
+"SS1，
+sea'，
+"sa95，

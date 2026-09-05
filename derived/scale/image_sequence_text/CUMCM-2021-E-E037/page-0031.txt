@@ -1,0 +1,74 @@
+print{datad_X.shape, data4_jw.shape)
+
+data3_X_know = data3_jw.loc[index_14,:]
+
+data3_X_unknow = data3_jw.loc[gsz_index,]
+
+print{data3_X_know.index, "\n', data3_X_unknow.index)
+
+data3_y_know = data_y.drop(gsz_index)
+
+print{data3_X_know.shape, data3_y_know.shape, data3_X_unknow.shape)
+
+print{data3_X_know, data3_X_unknow)
+
+datad_X_know = datad_jw.loc[index_14,:]
+
+datad_X_unknow = data4_jw.loc[gsz_index,:]
+
+print{datad_X_know.index, "\n', datad_X_unknow.index)
+
+datad_y_know = data_y.drop(gsz_index)
+
+print{datad_X_know.shape, data4_y_know.shape, datad_X_unknow.shape)
+
+from scipy.spatial import distance_matrix
+
+dis3 = pd.DataFrame(distance_matrix(data3_X_know.values, data3_X_unknow.alues), index =
+
+data3_X_know.index, columns = data3_X_unknow.index)
+
+dis3_group = pd.concat([data3_y_know, dis3], axis = 1)
+
+print{dis3_group.shape)
+
+print{dis3_group.columns)
+
+print({dis3_group)
+
+dis4 = pd.DataFrame(distance_matrix(datad_X_know.values, data4_X_unknow.values), index =
+
+datad_X_know.index, columns = datad_X_unknow.index)
+
+dis4_group = pd.concat{[datad_y_know, dis4], axis = 1)
+
+print{dis4_group.shape)
+
+print({dis4_group.columns)
+
+print(dis4_group)
+
+print{dis3_group.shape, type(dis3_group))
+
+min_index3 = dis3_group.idxmin()
+
+print{min_index3)
+
+print{[*zip{gsz_index, dis3_group.loc[min_index3[1:], 'OP'])])
+
+min_index4 = dis4_group.idxmin()
+
+print{min_index4)
+
+print{[*zip{gsz_index, dis4_group.loc[min_index4[1:], 'OP'])])
+
+四 、 问 题 四 Python 源 代码
+
+import numpy as np
+
+import pandas as pd
+
+import matplotlib.pyplot as plt
+
+plt.rcParams['font.sans-serif] = ['SimHei'] # 用 来 正常 显示 中 文 标签
+31

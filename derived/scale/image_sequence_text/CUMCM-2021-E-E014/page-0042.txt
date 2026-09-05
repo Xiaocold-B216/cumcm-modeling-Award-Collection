@@ -1,0 +1,80 @@
+10.8 ya:end 3
+
+11. order = 5;
+
+12. franelen = 11;
+
+sef - sgolayfilt(Biorderyfranelen);  XSG
+
+1 se = mapstd(sg); 数据 标准 化
+
+15. y_tiu = sgFA(:, tiqu_column);
+
+16. sg1(:, tiqu_column) = [];
+
+17. se [sgfaiop];
+
+18. % classificationtearner 此 处 油 用 分 类 器 工具 条
+
+:好 数据
+
+clcielear
+
+asread(, 附 什 2.xlsx')5
+
+tendj1)3 = a2:endy2xend);
+
+s. x 提 取 而 要 中 别 药材
+
+6 tiqu_colm - [314 38 48 58 71 79 86 89 ...
+
+， 110 134 152 227 331 618];
+
+5. op = y(1,);
+
+5. op(:, tiau_cotum) = (1;
+
+10.8 - y(2iend, ); i
+
+11.81 - mapsta(s); 台所 标准 化
+
+12. y_tiqu = B1(;, tiqu.cotumn);
+
+13. 81(:, tiqu_columm) = [1;
+
+14. 81° (B1;00];
+
+15. % classificationLearner 此 处 调用 分 类 器 工具 箱
+和 题 三
+
+xd 红外 56diff1
+
+caciclear
+
+axasread( "附件 3.xlsx'，, 近 红外 "5
+
+4. a= a%ix = a(3iend,1)jy - a(2iend, 2iend);
+
+s. XARRESHEH
+
+5. tiqu_column = [4 15 22 30 34 45 74 114 178 209];
+
+op -yi
+
+5. op(:, tiqu_columm) = [];
+
+9. 8~ y(2iend,);
+
+10. order - 5;
+
+11. ranelen -= 11;
+
+12. 5g7 = seolayfilt(Biorderyfranelen);  %56
+
+15. k deriva = diff(sgf1) 56 数据 的 一 阶 求 导
+
+1 se derivli
+
+15. se = mapstd(sgf1) 下 据 标准 化
+
+四

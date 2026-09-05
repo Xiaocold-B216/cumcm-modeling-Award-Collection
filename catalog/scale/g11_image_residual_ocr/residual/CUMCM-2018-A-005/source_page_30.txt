@@ -1,0 +1,44 @@
+Eliig
+史记
+LEN3=LEN2+x(3)/dx(3);
+LEN4=LEN3+x(4)/dx(4);
+T=zeros(tt/dt, LEN4);
+T(1,)=37;
+hl=ahl;h2=ah2; % 设 置 对 流 交 换 系 数
+for n=1:tt/dt-1
+unknow=(h1*(Tout-T(n,1))-lam(1)*(T(n,1)-T(n,2))/dx(1))*dt/(0.5*dx(1)*rho(1)*c(1))}+T(n,1);
+T(n+1,1)=unknow;
+for i=2:LEN1
+if >=2&&i<=LEN1-1 一
+wuorantoiamoanIoDadtDadmooayRa
+T(n+1,i)=unknow; 一 \)
+elseif i==LEN1 人 一
+unknow=(lam(2)*(T(n,i+ 1)-T(n,i))/dx(2)+lam(1)*(T(n,i-1 Aoctir
+dt/(0.5*(dx(1)*rho(1)*¢(1)+dx(2)*tho(2)*c(2)))+Ti J
+T(n+1,i)=unknow; 他
+end
+end X
+for i=LEN1+1:LEN2 多
+if i>=LEN1+1&&i<=LEN2-1
+unknow=lam(2)*(T(n,i+1)-2*T(n,i)+T,i-1))/dx(2)*dt/(dx(2)*ho(2) *c(2)+T(n,i);
+T(n+1,i)=unknow; 人 O
+elseifi==LEN2 YA
+unknow=(lam(3)*(T(n,i+ 1)-T(m,i))/dx(3)+lam(2)*(T(n,i-1)-T(n,i))/dx(2))*...
+d/(0.5%(dx(2)H o@ 2)+dx(3)*tho(3)*c(3)))+ T(n,i);
+To 于 |
+end 一 -和
+end ) V
+for i=LEN2#I“LEN
+New
+ , unkhow=lam(3)*(T(n,i+1)-2*T(n,iy+ T(n,i-1))/dx(3)*d¥(dx(3)*rho(3)*c(3)+ T(n,i);
+SS
+Sifi==LEN3
+unknow=(lam(4)*(T(n,i+1)-T(n,i))/dx(4)+lam(3)*(T(n,i-1)-T(n,i))/dx(3))*...
+dt/(0.5*(dx(3)*rho(3)*¢(3)+dx(4)*rho(4)*c(4)))+T(n,i);
+T(n+1,i)=unknow;
+end
+end
+for i=LEN3+1:LEN4
+if i>=LEN3+1&&i<=LEN4-1
+unknow=lam(4)*(T(n,i+1)-2*T(n,i)+ T(n,i-1))/dx(4)*dt/(dx(4)*rho(4)*c(4))+ T(n,i);
+30

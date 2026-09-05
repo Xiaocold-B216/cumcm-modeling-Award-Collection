@@ -1,0 +1,257 @@
+{
+  "counts": {
+    "2024_candidates": 5,
+    "2024_confirmed_excellent": 0,
+    "2024_format_eligible": 0,
+    "2025_candidates": 12,
+    "2025_confirmed_excellent": 7,
+    "2025_format_eligible": 7,
+    "candidate_identities": 17,
+    "governance_ineligible_but_format_eligible": 7,
+    "pdf_unreadable": 0,
+    "problem_statement_exclusions": 10,
+    "sample_size": 7,
+    "source_missing": 0,
+    "visual_review_coverage": 1.0,
+    "visual_reviewed_papers": 7
+  },
+  "generated_at": "2026-09-03T13:36:30+08:00",
+  "historical_freeze": {
+    "hashes_end": {
+      "derived/format/format_audit_snapshot.json": "7447C3C39F24449C5A175EE549A9FA94D620369489E429D18D64869F8883A00D",
+      "derived/format/format_outliers.csv": "A887EF39F706E662A22BC8FE8AFB068B540265B01C62451C1827887B847875C2",
+      "derived/format/paper_format_inventory.csv": "2E43C4A9AE841FDABA54929555B35E980E702EC77DAA86DEE96659B0B65E7499",
+      "derived/format/paper_format_observations.csv": "50C306E7A818912DED3C0A3C6F32D6AFA8760E7F72FF04D7F06C9DF52020563B",
+      "derived/format/paper_format_spec.json": "21E08EC56F0A4DE70F6ACA50826C3F7ED74EAC1C33BDB55BE1CD6981E3603E96",
+      "derived/format/paper_format_summary.csv": "A805B054CD3E70D7822EDA06A43B2586B11D23712170083101A312BFBC8F9F4F",
+      "reports/format/CUMCM_PAPER_FORMAT_EVIDENCE.md": "C3FE58FB3FE0C9911B8FC29FD1B55F3685BA0E4C467AB8E84BA1A57F7654A0B0",
+      "reports/format/CUMCM_PAPER_FORMAT_SPEC.md": "5101F52F3873FE6537CCF802F7DACDA5A58DB1D8799926BB278B1B87ACA16667"
+    },
+    "hashes_start": {
+      "derived/format/format_audit_snapshot.json": "7447C3C39F24449C5A175EE549A9FA94D620369489E429D18D64869F8883A00D",
+      "derived/format/format_outliers.csv": "A887EF39F706E662A22BC8FE8AFB068B540265B01C62451C1827887B847875C2",
+      "derived/format/paper_format_inventory.csv": "2E43C4A9AE841FDABA54929555B35E980E702EC77DAA86DEE96659B0B65E7499",
+      "derived/format/paper_format_observations.csv": "50C306E7A818912DED3C0A3C6F32D6AFA8760E7F72FF04D7F06C9DF52020563B",
+      "derived/format/paper_format_spec.json": "21E08EC56F0A4DE70F6ACA50826C3F7ED74EAC1C33BDB55BE1CD6981E3603E96",
+      "derived/format/paper_format_summary.csv": "A805B054CD3E70D7822EDA06A43B2586B11D23712170083101A312BFBC8F9F4F",
+      "reports/format/CUMCM_PAPER_FORMAT_EVIDENCE.md": "C3FE58FB3FE0C9911B8FC29FD1B55F3685BA0E4C467AB8E84BA1A57F7654A0B0",
+      "reports/format/CUMCM_PAPER_FORMAT_SPEC.md": "5101F52F3873FE6537CCF802F7DACDA5A58DB1D8799926BB278B1B87ACA16667"
+    },
+    "modified": 0,
+    "status": "PASS"
+  },
+  "modern_corpus_drift": 0,
+  "modern_full_document_ocr_run": 0,
+  "network_access_used": 0,
+  "official_overlay": {
+    "available": 0,
+    "network_access_used": 0,
+    "notes": "No project-local, verifiably official 2026 CUMCM format specification was accepted; historical/modern PDFs and non-official documents were not promoted to official evidence.",
+    "source_files": [],
+    "status": "WAITING_FOR_VERIFIED_OFFICIAL_SPEC"
+  },
+  "parallel_stage": {
+    "g8_evidence_modified": 0,
+    "governance_status_modified": 0,
+    "parallel_task_detected": 1,
+    "verdict": "G8 state was read only; source PDFs and modern identity membership did not drift."
+  },
+  "selected_paper_ids": [
+    "CUMCM-2024-A-001",
+    "CUMCM-2024-B-001",
+    "CUMCM-2024-C-001",
+    "CUMCM-2024-D-001",
+    "CUMCM-2024-E-001",
+    "CUMCM-2025-A-001",
+    "CUMCM-2025-A-A066",
+    "CUMCM-2025-A-A196",
+    "CUMCM-2025-B-001",
+    "CUMCM-2025-B-B060",
+    "CUMCM-2025-C-001",
+    "CUMCM-2025-C-C023",
+    "CUMCM-2025-C-C132",
+    "CUMCM-2025-D-001",
+    "CUMCM-2025-D-D037",
+    "CUMCM-2025-E-001",
+    "CUMCM-2025-E-E030"
+  ],
+  "selected_papers": [
+    {
+      "excellent_paper_identity_confirmed": 0,
+      "format_observation_eligibility": 0,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership; current source path is a problem-statement package",
+      "paper_id": "CUMCM-2024-A-001",
+      "source_path": "2024年数学建模国赛真题+优秀论文/2024真题/A题/A题.pdf",
+      "source_sha256_end": "7ECE8C6D2B876781E5219091C38980E1321FFD1D56604CBE36CD867EDB7A1933",
+      "source_sha256_start": "7ECE8C6D2B876781E5219091C38980E1321FFD1D56604CBE36CD867EDB7A1933",
+      "year": "2024"
+    },
+    {
+      "excellent_paper_identity_confirmed": 0,
+      "format_observation_eligibility": 0,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership; current source path is a problem-statement package",
+      "paper_id": "CUMCM-2024-B-001",
+      "source_path": "2024年数学建模国赛真题+优秀论文/2024真题/B题/B题.pdf",
+      "source_sha256_end": "F54529DD15D729B046E248EA41033B4F66EF68333BE2BEE912B0C54EAFD227AB",
+      "source_sha256_start": "F54529DD15D729B046E248EA41033B4F66EF68333BE2BEE912B0C54EAFD227AB",
+      "year": "2024"
+    },
+    {
+      "excellent_paper_identity_confirmed": 0,
+      "format_observation_eligibility": 0,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership; current source path is a problem-statement package",
+      "paper_id": "CUMCM-2024-C-001",
+      "source_path": "2024年数学建模国赛真题+优秀论文/2024真题/C题/C题.pdf",
+      "source_sha256_end": "C7B5E58BFF4189B8AFBA5505F7BFF7D4F08280FC291C51EF3F46134EBBF74F9A",
+      "source_sha256_start": "C7B5E58BFF4189B8AFBA5505F7BFF7D4F08280FC291C51EF3F46134EBBF74F9A",
+      "year": "2024"
+    },
+    {
+      "excellent_paper_identity_confirmed": 0,
+      "format_observation_eligibility": 0,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership; current source path is a problem-statement package",
+      "paper_id": "CUMCM-2024-D-001",
+      "source_path": "2024年数学建模国赛真题+优秀论文/2024真题/D题/D题.pdf",
+      "source_sha256_end": "8F30BDB312715167CD4CEAF87604DFD12E688D802E32E310322057AEB9D66CB0",
+      "source_sha256_start": "8F30BDB312715167CD4CEAF87604DFD12E688D802E32E310322057AEB9D66CB0",
+      "year": "2024"
+    },
+    {
+      "excellent_paper_identity_confirmed": 0,
+      "format_observation_eligibility": 0,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership; current source path is a problem-statement package",
+      "paper_id": "CUMCM-2024-E-001",
+      "source_path": "2024年数学建模国赛真题+优秀论文/2024真题/E题/E题.pdf",
+      "source_sha256_end": "D5C9442C261A7EACC7DA3B5B23047B5D8FD9B7C86BD082D782288EE1BB64C4BB",
+      "source_sha256_start": "D5C9442C261A7EACC7DA3B5B23047B5D8FD9B7C86BD082D782288EE1BB64C4BB",
+      "year": "2024"
+    },
+    {
+      "excellent_paper_identity_confirmed": 0,
+      "format_observation_eligibility": 0,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership; current source path is a problem-statement package",
+      "paper_id": "CUMCM-2025-A-001",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/A题/A题.pdf",
+      "source_sha256_end": "A37F6AAD30B16EA09DA9CB320CE194B12D3A28874008CF9FF19549F6C6079447",
+      "source_sha256_start": "A37F6AAD30B16EA09DA9CB320CE194B12D3A28874008CF9FF19549F6C6079447",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 1,
+      "format_observation_eligibility": 1,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership + filename suffix matching the non-canonical award-paper identity",
+      "paper_id": "CUMCM-2025-A-A066",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A066.pdf",
+      "source_sha256_end": "9C14EAB19304FE45A36E45A965FA740E2636690630ECD8528335D4E4AEC3E2D4",
+      "source_sha256_start": "9C14EAB19304FE45A36E45A965FA740E2636690630ECD8528335D4E4AEC3E2D4",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 1,
+      "format_observation_eligibility": 1,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership + filename suffix matching the non-canonical award-paper identity",
+      "paper_id": "CUMCM-2025-A-A196",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A196.pdf",
+      "source_sha256_end": "B5FB5FE4B2D06998BC85BB9276CF16AFC1755913D91F18C01D5209F8F13ADA92",
+      "source_sha256_start": "B5FB5FE4B2D06998BC85BB9276CF16AFC1755913D91F18C01D5209F8F13ADA92",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 0,
+      "format_observation_eligibility": 0,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership; current source path is a problem-statement package",
+      "paper_id": "CUMCM-2025-B-001",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/B题/B题.pdf",
+      "source_sha256_end": "B0B2CE649282C2D7063AF3C30AC9C0D931512DC86014D3147BC765D8F1C8CF87",
+      "source_sha256_start": "B0B2CE649282C2D7063AF3C30AC9C0D931512DC86014D3147BC765D8F1C8CF87",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 1,
+      "format_observation_eligibility": 1,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership + filename suffix matching the non-canonical award-paper identity",
+      "paper_id": "CUMCM-2025-B-B060",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/B060.pdf",
+      "source_sha256_end": "17C1B7E255DCBB8E8AC34C0A750E39D7DF1EE4A5ED0D0323B46388F168090330",
+      "source_sha256_start": "17C1B7E255DCBB8E8AC34C0A750E39D7DF1EE4A5ED0D0323B46388F168090330",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 0,
+      "format_observation_eligibility": 0,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership; current source path is a problem-statement package",
+      "paper_id": "CUMCM-2025-C-001",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/C题/C题.pdf",
+      "source_sha256_end": "D54400F4BB9920C0D37F15F5B6BC161AA281C4B32C03C063EFDEB739716EAC08",
+      "source_sha256_start": "D54400F4BB9920C0D37F15F5B6BC161AA281C4B32C03C063EFDEB739716EAC08",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 1,
+      "format_observation_eligibility": 1,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership + filename suffix matching the non-canonical award-paper identity",
+      "paper_id": "CUMCM-2025-C-C023",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C023.pdf",
+      "source_sha256_end": "515FD73059B427606FFD099781A124D34BAC3306BEE87C61D47259622351EB17",
+      "source_sha256_start": "515FD73059B427606FFD099781A124D34BAC3306BEE87C61D47259622351EB17",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 1,
+      "format_observation_eligibility": 1,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership + filename suffix matching the non-canonical award-paper identity",
+      "paper_id": "CUMCM-2025-C-C132",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C132.pdf",
+      "source_sha256_end": "08EC307CDC65A673E6838E2E3D00B2337DA414E7891284617E10F370E5F246B5",
+      "source_sha256_start": "08EC307CDC65A673E6838E2E3D00B2337DA414E7891284617E10F370E5F246B5",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 0,
+      "format_observation_eligibility": 0,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership; current source path is a problem-statement package",
+      "paper_id": "CUMCM-2025-D-001",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/D题.pdf",
+      "source_sha256_end": "280D690A1F78F5FF0889760592BF30DE903AC5144ED8491D59AE744E560C4AA8",
+      "source_sha256_start": "280D690A1F78F5FF0889760592BF30DE903AC5144ED8491D59AE744E560C4AA8",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 1,
+      "format_observation_eligibility": 1,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership + filename suffix matching the non-canonical award-paper identity",
+      "paper_id": "CUMCM-2025-D-D037",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/D037.pdf",
+      "source_sha256_end": "BDBED46FF5D5841AF82FA6441C8AB3D83A62658672857E445DEADFD8DAD1F0AC",
+      "source_sha256_start": "BDBED46FF5D5841AF82FA6441C8AB3D83A62658672857E445DEADFD8DAD1F0AC",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 0,
+      "format_observation_eligibility": 0,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership; current source path is a problem-statement package",
+      "paper_id": "CUMCM-2025-E-001",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/E题.pdf",
+      "source_sha256_end": "1E6ECC6D75D2AAA0EAE3DC961704FD17F1CD452A51490C80855A9F799CE1A958",
+      "source_sha256_start": "1E6ECC6D75D2AAA0EAE3DC961704FD17F1CD452A51490C80855A9F799CE1A958",
+      "year": "2025"
+    },
+    {
+      "excellent_paper_identity_confirmed": 1,
+      "format_observation_eligibility": 1,
+      "identity_evidence": "catalog papers.csv identity + canonical primary membership + filename suffix matching the non-canonical award-paper identity",
+      "paper_id": "CUMCM-2025-E-E030",
+      "source_path": "2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/E030.pdf",
+      "source_sha256_end": "7270DACAB35167E998141D5D34C34D12A912B3620249A892697211F24D009E0D",
+      "source_sha256_start": "7270DACAB35167E998141D5D34C34D12A912B3620249A892697211F24D009E0D",
+      "year": "2025"
+    }
+  ],
+  "source_integrity": {
+    "git_operations": 0,
+    "source_pdf_modified": 0,
+    "source_pdf_moved": 0,
+    "source_pdf_renamed": 0
+  },
+  "stage": "FORMAT-AUDIT-MODERN-01"
+}

@@ -1,0 +1,45 @@
+pltreParams[fontsans-serif] = [SimHei
+pltreParams[axesunicode_ minus] = False
+pltfigure0
+# 对 比 条 形 图
+# 输入 统计 数据
+#B1 B2 B3 B4 B6 乙醇 转化 率
+quality] = np.amay([250,275.300,350,400]);  # B1 B2
+quality2 = np.amay([250,275,300,325,350400]);  # B3 B4 B6
+number BI = [1.43.4,6.7,19.3.43.6];
+number B2 = [2.8,44,62,16.245.1];
+mamber_B3 = [0.4,0.6,1.1.3.3,6.0.211);
+namber_B4 = [0.5,1.1,3.0.6.19.633.5];
+umber_B6 = [28,7.5,12.6,159.27.0.63.2];
+#B1 B2 B3 B4 B6 C4 烯烃 选择 率
+namber_B1_1 = [6.32.8.25.12.28.25.97.41.08]:
+mamber_B2_1 = [3.26,4.97.9.32.22.88.38.7
+namber_B3_1 = [2.85.5.35.7.61.7.74.13.81.21.21]:
+namber_B4_1 = [6.62,6.62,5.05,8.33,13.1.21.45];
+mamber_B6_1 = [4.5.4.79.8.77.16.06.22.41.30.48]:
+# 使 用 plot 函数 绽 制 乙醇 转化 率 图 像
+pltplot(qualitylnumber Blcolor=Tightgrey,linestyle=-"label-B1_ 乙 醇 转 化 率 ，
+100mg)
+pit plot(quality] number. B2.color-violet。 linestyle="-"label-"B2_ 乙醇 转 化
+#,200mg)
+pltplot(quality2.number_B3,color~"orange’, linestyle="label-"B3_ 乙醇 转 化
+率 ;20mg)
+plt.plot(quality2 numberB4,color="b' linestyle=:vlabel-B4 乙醇 转化 率 .50mg)
+pltplot(quality2number_B6,color-orange， linestyle=:label-B6 乙 醇 转 化
+率 ,150mg)
+# 使 用 bar 函数 绘制 C4 烯烃 选择 性 图 像
+pltbartqualitylnumber_B1_Lwidth=s.color-ishterey.label-B1_C4 烯烃 的 选择
+性 ,100mg)
+pltbar(qualityl +5.number_B2_1width-=5,color=violet hatch="xxx’, label-B2_C4 燃
+烃 的 选择 性 ,200mg)
+pltbartquality2+10mnumber_B3_l.width=scolor-orange'hatch= label-B3 C4 声
+烃 的 选择 性 .20mg)
+pltbar(quality2-+15,number_B4_1width-=S color="b'label"B4_C4 # 燃 的 选择
+性 ,50mg)
+pltbar(quality2-+20,number_B6_1width=5,color-orange" label~"B6_C4 烯烃 的 选择
+性 .150mg)
+
+5
+
+四国 大 学 生 在 线
+K MEAZE]

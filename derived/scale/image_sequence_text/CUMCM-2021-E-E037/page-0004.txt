@@ -1,0 +1,29 @@
+四 、 符 号 说 明
+符号 定义 符号 定义
+Vi 光谱 波 数 Ai 吸光 度
+Tilm, n] 特征 区 间 B PAREEE
+A 特征 值 矩 阵 S@) BONi KRTRIRBRRL
+7, 特征 向 量 X, 曲线 计 间 的 欧 氏 距离
+五 、 模 型 建立 与 求解
+5.1 问题 一 模型 建立 与 求解
+5.1.1 数据 预 处 理
+对 于 问题 一 ， 首 先 对 附件 一 中 的 数据 进行 检查 ,使 用 Python 编程 处 理 检 查
+以 下 数据 异常 情况 :
+1. 是 否 存在 缺失 值
+2. 是 否 存在 异常 值
+3. 是 否 存在 大 量 重 复 值
+经 计算 ， 在 附件 1 中 未 发 现 缺失 值 ， 但 有 3 组 数据 异常 ， 也 未 发 现 重复 值 ，
+数据 完整 性 好 。
+表 1 附件 1 数据 描述 性 统计 结果
+[ew [ee [we [oe |oas [e [e |o|
+[| | oswr | omss | oo | oo | aa | oarns |
+[ao | oa | oa | omss | ooss | oa | arm | oa |
+“os| maoom | oaon | oses | owss | ooss | owes | azm | oa |
+“oss| waoom | oass | oo | omss | ooss | ouss | ars | omo |
+“oss | waoom | oass | oso | omss | ooss | ouss | arn | om0 |
+[| 二
+[0 | oous |
+[| | oa | oo | aao | soms | omeo | aous | oous |
+[| omes | ooms | ooms | omer | aouws | oo |
+“om | wacom | oows | omes | ooms | ooms | omer | aows | ooms |
+4

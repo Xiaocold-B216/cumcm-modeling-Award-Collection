@@ -1,0 +1,55 @@
+sas,
+saae
+2
+30
+5
+309
+sl26
+sa
+056
+se
+306
+ae7
+2
+sae7
+st
+sa65
+031
+sos
+sa6t
+saa6
+st
+so55
+sa
+sse
+sa
+sale
+086
+sa
+era
+so7
+23
+"5292]
+gp_dict = {
+|
+MD
+e
+AR
+Lossssssssassessessbstssssassbes S  t——
+Select fo  pd.read xcel( P2-ALKAR Hiox')
+ee = pd .read_excel0" 用 件 1 SISIEAOKRERENARM, clex’, sheet rane = ,企业 的 订 黄 量 (ny) )
+£1261 < pd read_excel" 用 件 1 近 5 年 492 家 供应 的 相关 所 -xlsx'， sheet_naae =“ 供应 的 供 侨 重 (n?) ")
+1oss_ratio_df « pd ,read _excel( "附件 2 近 5 年 8 家 转运 商 的 相关 数据 ,xsx")
+Ared ldec =- pi.resdexcel(02-2WAR xlsx', tndex = False).to_mmpy()
+pred-146t - pd.rend_Sxcel(“F2-IBAR.1ex, index < False) to_numpy()
+MPredLHst = pread_exce1p2-26 风 时-XsX' index  False) to_nompy()
+osesseseseseeseesse ——
+order_volume = file8[file8[" 供 应 商 ID'] .isin(select_suppliers)].iloc[:,2:]
+Supply_volume = 和 lel[filel[ "供应 商 ID'] .isin(select_suppliers)] .iloc[:,2:]
+oo 由- my aa - onder wildyyorden yelmms
+Tamaisu y_std_1tst = 11, 11
+98 CEaAMIUAR, HNAKHREFANTIILE sase
+for 1in rangeCloss.rtlo_ofshaps[a]):
+ne faretfiesize-08， 呈 )，dpi - 400)
+了
+mp.tdleoparanget25),(L.6)).

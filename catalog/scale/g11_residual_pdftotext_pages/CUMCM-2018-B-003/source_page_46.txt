@@ -1,0 +1,65 @@
+end
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+for i=1:m
+for j=i+1:m
+if aa(i,5)==aa(j,5)
+aa(i,7)=aa(j,6);
+break;
+end
+end
+end
+[m,n]=size(aa);
+QQ=max(aa(:,7));
+end
+
+：
+科
+
+研
+
+交
+
+bb=[];
+for i=1:m
+if aa(i,7)==0;
+bb=[bb,i];
+end
+end
+aa(bb,:)=[];
+[m,n]=size(aa);
+
+流
+
+[m,n]=size(aa);
+aa(m-2:m,:)=[];
+[m,n]=size(aa);
+for i=m:-1:m-15
+d=dT(abs(ceil(aa(i,5)/2)-1)+1);%移动
+if aa(i,7)+T(6)+T(7)+d>8*3600
+aa(i,7)=0;
+end
+end
+
+附录十二：Ques201.m
+%两道工序的 4,4 模型求解结果
+clc,clear
+%第一组作业参数
+T=[20,33,46,400,378,28,31,25];
+%第二组作业参数
+%T=[23,41,59,280,500,30,35,30];
+%第三组作业参数
+%T=[18,32,46,455,182,27,32,25];
+46
+
+

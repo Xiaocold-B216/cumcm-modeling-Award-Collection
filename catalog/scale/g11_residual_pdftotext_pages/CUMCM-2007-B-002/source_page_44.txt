@@ -1,0 +1,86 @@
+if (C_1 != C_2)
+fCost_C = BusPrice(C, C_2-C_1, FeasibleSolve, AllLines);
+else
+fCost_C = 0;
+fTotalTime = Time_A + Time_B + Time_C + fTime_A_B + fTime_B_C;
+fTotalCost = fCost_A + fCost_B + fCost_C;
+int nA_1 = AllLines[A-1].LineInfo[A_1];
+int nA_2 = AllLines[A-1].LineInfo[A_2];
+
+流
+
+int nB_1 = AllLines[B-1].LineInfo[B_1];
+int nB_2 = AllLines[B-1].LineInfo[B_2];
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+交
+
+int nC_1 = AllLines[C-1].LineInfo[C_1];
+int nC_2 = AllLines[C-1].LineInfo[C_2];
+
+研
+
+ww
+
+CurrWay.push_back(nA_1); CurrWay.push_back(A); CurrWay.push_back(nA_2);
+CurrWay.push_back(nB_1); CurrWay.push_back(B); CurrWay.push_back(nB_2);
+
+：
+科
+
+CurrWay.push_back(nC_1); CurrWay.push_back(C); CurrWay.push_back(nC_2);
+CurrWay.push_back(fTotalTime);
+CurrWay.push_back(fTotalCost);
+
+}
+
+号
+
+Respond.push_back( CurrWay );
+
+众
+
+return Respond;
+
+公
+
+}
+
+// 文件输出花费时间
+
+{
+
+信
+
+void OutPutTime_Cost_Cal(ofstream & fout,
+
+vector<vector<float> > & FeasibleSolve)
+
+微
+
+for (int i=0; i<FeasibleSolve.size(); ++i)
+{
+
+for (int j=0; j<FeasibleSolve[i].size(); ++j)
+{
+fout << setw(3) << left << setfill(' ') << FeasibleSolve[i][j] << "
+}
+if (FeasibleSolve[i][3] == 3984 &&
+FeasibleSolve[i][5] == 3993 &&
+FeasibleSolve[i][2] == 87
+
+&&
+
+FeasibleSolve[i][6] == 3676)
+
+44
+
+";
+
+

@@ -1,0 +1,134 @@
+工
+
+40
+
+程
+
+数
+
+学
+
+学
+
+报
+
+第 19 卷
+
+有效数据 。我们用误差分析方法二 , 对调整后的轴线对第 30 , 40 , 50 , 60 , 70 层分析 , 与调整前
+比较的如下 :
+表1
+调整前
+调整后
+
+模型修正前后误差比较表
+
+Δ( 30)
+
+Δ( 40)
+
+Δ( 50)
+
+Δ( 60)
+
+Δ( 70)
+
+5. 7 %
+
+6. 5 %
+
+7. 1 %
+
+6. 8 %
+
+6. 5 %
+
+3. 2 %
+
+2. 5 %
+
+2. 7 %
+
+3. 0 %
+
+3. 2 %
+
+流
+
+模型的优缺点分析
+1) 模型不能够对半径变化的情况适应 , 这是因为我们的理论根据就是等径管道的几何
+特性 。
+2 ) 模型的优点是对轴线扭曲比较大的情况 , 通过旋转剖面方向 , 可以寻找到较好的截面
+进行求解 。
+
+交
+
+通过向切片所在面投影 , 由轴线计算截面 , 不仅能计算误差 , 还是一条修正轴线的好
+的途径 。
+4 ) 误差分析的方法 ( 一) 虽不能够测出误差的绝对值 , 但是通过抽取随机点使计算简单 ,
+速度快 , 适用于比较几条轴心线的优劣 。
+
+：
+科
+
+研
+
+3)
+
+参考文献 :
+[1]
+
+张韵华 . Mat hematica 符号计算系统实用教程 [ M ] . 合肥 : 中国科学技术大学 ,1998
+
+[2]
+
+李尚志 . 数学实验 [ M ] . 北京 : 高等教育出版社 ,1996
+
+[3]
+
+关履泰 . 计算机辅助几何图形设计 [ M ] . 北京 : 高等教育出版社 ,1999
+程正兴 . 数据拟合 [ M ] . 西安 : 西安交通大学出版社 ,1986
+
+[5]
+
+Barhill R E ,Riesenfeld R F. Computer Aided Geometric Design[ M ] . Academic Press New York ,1974
+
+[6]
+
+陈凌钧 ,骆岩林 . 等径管道的三维重建 [J ] . 高校应用数学学报 . Vol. 13 Ser A Suppl. 1998 ,87 - 90
+
+号
+
+[4]
+
+公
+众
+
+3D Rebuilding of Vessel
+
+XU Jin , L IU Xue2feng ,
+
+BA I Rong2gang
+
+Adviser : DOU Dou
+
+( University of Science and Technology of China , Hefei 230026)
+
+Given a problem of 3D rebuilding of vessel ,we consider vessel wit h constant radius and have built a model to calculate
+
+信
+
+Abstract :
+
+t he axis and radium of vessel . In t his model we deal wit h each slice and get t he inscribed circle wit h maximum radium , whose center
+
+微
+
+is just on t he axis of vessel , and it ’
+s radium just vessel’
+s radium.
+In t his model ,we have introduced two efficient way to analyse t he error . We find t hat error increases when t he angle between
+
+t he axis and t he slice decreases. To handle t his problem , we cut t he vessel in different direction. The result is good.
+Key words : vessel ; 3D rebuilding ; constant radius
+
+

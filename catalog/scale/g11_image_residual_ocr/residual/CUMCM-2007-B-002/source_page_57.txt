@@ -1,0 +1,42 @@
+回 成 革 动 国
+后
+0
+BRLLT]
+回 共 Sakn
+void AddRailWayStationsAndLines (vector{LoadMessage> & AllLines,
+vector<vector<int> > & AllBuses)
+{
+// T1 线路
+for (int i=1; i<24; ++i)
+{
+AllLines[1040]. LineInfo. push_back (3957 + i);
+AllLines[1041]. LineInfo. push_back (3957 + 24 - i);
+Al1Buses[3956+i]. push_back (1041) ;
+Al1Buses[3956+i]. push_back (1042) ;
+} 全
+>
+ifstream fin( 地铁 线 路 了 2 信息 . txt”); \
+. 2/ 一
+int nValue = -1; 从 一
+for (i=3956+24; 1<3996; ++i)
+{
+AllBuses[i]. push_back (1043) ; 全
+AllBuses[i]. push_back(1044) ; 人
+}
+Al1Buses[3956+12]. push_back (1043) ; °)
+Al1Buses[3956+12]. push_back 4 [o]
+Al1Buses[3956+18]. push_back
+Al1Buses[3956+18]. push_back (1044)
+vector<int> temp_1;
+vector<int> temp_2;-
+// T2 ) V
+for«(i 8; ++i)
+{
+fin nValue;
+1 // mp_1. push_back ( 3957+nValue );
+int nLSize = temp l.size();
+AllLines[1042]. LineInfo. resize ( nLSize#x2，-1 ) ;
+AllLines[1043]. LineInfo. resize ( nLSize*2, -1 );
+for (i=0; i<nLSize; ++i)
+{
+57

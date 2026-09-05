@@ -1,0 +1,68 @@
+交
+
+流
+
+Work=[400,378];%第一组[400,378] 第二组[280,500] 第三组[455,182]
+Switch=repmat([28,31],1,4);%第一组[28,31] 第二组[30,35] 第三组[27,32]
+Wash=25;%第一组 25 第二组 30 第三组 25
+%% 预设系统情况
+Tool=[1,2,1,2,1,2,1,2];%预设刀具分布情况，是情况 2 下的最优方案
+Position=1;%记录 RGV 的位置，取值为 1~4
+Left=zeros(1,8);%记录 8 台 CNC 当前工作剩余完成时间，等待时为 0
+Situation=zeros(1,8);%记录 8 台 CNC 当前是否拥有工件，0 为无，1 为有
+Time=0;%系统已运行时间
+Expect=ones(4,8);%预计时间，第一行为预计运动时间，第二行为预计等待时间，第三行为预
+计上下料时间，第四行为前三项之和
+Now=1;%当前 RGV 目标工序，取值仅为 1 或 2
+Error=[];%记录故障信息
+Rec=[];%记录每个工件的上下料信息
+%% 遍历所有刀具分布情况
+while Time<=28800
+
+：
+科
+
+研
+
+for i=1:size(Error,1)%检查错误信息
+if Time>=Error(i,3) && Time<=Error(i,4) && Error(i,5)==0%故障已发生
+Error(i,5)=1;%标记为已处理
+Left(Error(i,2))=Error(i,4)-Time;%将故障修复所需时间转换为当前工作剩余完成
+时间
+Situation(Error(i,2))=0;%修复完成后取走故障工件
+end
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+for i=1:8%计算预期时间
+if Now~=Tool(i)%排除非目标工序的 CNC
+Expect(:,i)=inf;
+continue;
+end
+Expect(1,i)=Move(1+abs(Position-ceil(i/2)));
+if Left(i)<=Expect(1,i)
+Expect(2,i)=0;
+else
+Expect(2,i)=Left(i)-Expect(1,i);
+end
+Expect(3,i)=Switch(i);
+Expect(4,i)=sum(Expect(1:3,i));
+end
+[~,MinNumber]=min(Expect(4,:));%找出下一个目标
+Time=Time+Expect(1,MinNumber);%移动至下一个目标位置
+flag=0;
+for i=1:size(Error,1)%运动后再次检查错误信息
+if Time>=Error(i,3) && Time<=Error(i,4) && Error(i,5)==0 && MinNumber==Error(i,2)%
+运动中原目标发生了故障
+35
+
+

@@ -1,0 +1,98 @@
+号
+
+：
+科
+
+%write txt
+fid1 =fopen('Time.txt','w');
+fid2 =fopen('roads.txt','w');
+for i=1:3957
+for j=1:3957
+if TT(i,j)~=0 && i~=j
+fprintf(fid1,'%5.1f\n',TT(i,j));
+fprintf(fid2,'%d,%d\n',i,j);
+end
+end
+% fprintf(fid2,'\n');
+% fprintf(fid1,'\n');
+end
+fclose(fid1);
+fclose(fid2);
+
+研
+
+1.7 LINGO 程序数据创建程序
+数据文件创建（运行顺序）（运行顺序：附录 1.1~1.4）
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+ww
+
+流
+
+!五线;
+N=148;M=485;
+@solve(sub_lost,sub_con);
+@write('五线：',OBJ_LosT,@newline(1));
+@for(roads(i,j):
+@ifc(x(i,j)#eq#1:
+@write(i,',',j,';',@newline(1));
+);
+);
+!六线;
+N=87;M=3676;
+@solve(sub_lost,sub_con);
+@write('六线：',OBJ_LosT,@newline(1));
+@for(roads(i,j):
+@ifc(x(i,j)#eq#1:
+@write(i,',',j,';',@newline(1));
+);
+);
+endcalc
+END
+
+众
+
+1.8 问题二 LINGO 求解程序（Lingo 版本 10.0）
+
+微
+
+信
+
+公
+
+数据文件通过附录 1.9MATLAB 程序创建（运行顺序：附录 1.1~1.4）
+MODEL:
+sets:
+C/1..3996/:;
+roads(C,C)/@file('roads2.txt')/:W,Z,X;
+H1(C,C,C)/@file('dd.txt')/:dd;
+endsets
+data:
+w=@file('Time2.txt');
+Z=@file('Z.txt');
+enddata
+!目标段;
+SUBMODEL OBJ_1:
+[OBJ_LosT]min=
+@sum(roads:w*x)!乘车时间;
+
++@sum(roads:Z*x)!等待时间T1;
++2*(@sum(roads:x)-1)!Ta;
++4*@sum(roads|z#eq#2:x)!Tb;
+-4*@sum(H1:dd)!Tc;
++4*@sum(roads(i,j)|i#eq#N #and# j#eq#M #and# Z(i,j)#eq#2:x(i,j))!Td;
+;
+ENDSUBMODEL
+!约束段;
+SUBMODEL SUB_CON:
+@for(C(i)|i#ne#N #and# i#ne#M:
+36
+
+

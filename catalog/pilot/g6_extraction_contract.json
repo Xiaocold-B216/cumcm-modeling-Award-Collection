@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "stage": "G6-00G",
+  "contract_name": "Q2 Hybrid Page Extraction Fallback Contract",
+  "q0_q1": {
+    "input": "original PDF",
+    "backend": "pdf-inspector",
+    "output": "native Markdown"
+  },
+  "q2": {
+    "input": "G5 readable PDF",
+    "whole_document_completeness_reference": "pdf-inspector extract_text",
+    "page_scoped_fallback": "pdftotext -f N -l N -enc UTF-8 input.pdf -",
+    "fallback_scope": "one source page at a time; Poppler is not the global/default extractor",
+    "deterministic_wrapper": "hybrid page audit and page-class wrapper"
+  },
+  "page_classes": [
+    "TEXT_PAGE",
+    "VERIFIED_BLANK_PAGE",
+    "IMAGE_ONLY_CONTENT_PAGE",
+    "UNEXPLAINED_PAGE"
+  ],
+  "source_page_numbering": "1-based",
+  "pdf_inspector_version": "1.15.0",
+  "poppler_version": "25.02.0",
+  "ocr_in_g6": "forbidden",
+  "whole_document_artificial_page_splitting": "forbidden",
+  "garbled_flag_is_diagnostic_only": true,
+  "final_gate": "unresolved_garbled_pages_zero",
+  "final_page_classes": [
+    "TEXT_PAGE",
+    "VERIFIED_BLANK_PAGE",
+    "IMAGE_ONLY_CONTENT_PAGE"
+  ],
+  "q2_page_qa": {
+    "garbled_flag_is_diagnostic_only": true,
+    "final_gate": "unresolved_garbled_pages_zero",
+    "scope": "targeted review of existing Poppler GARBLED flags only"
+  }
+}

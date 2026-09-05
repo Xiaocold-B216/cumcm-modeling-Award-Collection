@@ -1,0 +1,34 @@
+sparse(...
+reshape([11 12}[].1)....
+reshape[J IL[1.1).
+reshape(2.* ferrdist -errdist}[].1)....
+namelCX)numeledisD),，
+-sparse(
+reshape([11 12J{J,1)....
+reshape([J IL{J.1)..
+reshape(2.*ferrdist -erndist] [11)..
+numel(X),numel(edist)
+上
+motor_hi_new =motor_hi+Lz *motor_unit;
+errdist = XYZ-motor_hi_new;
+edist = sum(errdist. *errdist, 2);
+ceq = edist-motor_distSQ;
+J= repmat((1:numel(edist).. 1, 4);
+geeq = sparsed...
+reshape(1:mumel(X).[1.1)...
+restiape()).1)..
+reshape(2 *ferrdist -sum(errdist *motor_unit,2)L[},1).
+numel(X),mumel(edist):
+end
+function [SSE, dSSE] = constr_test_ceq(X, constraints)
+[-ceq.~gceq] = constraints(X);
+SSE = ceq*ceq;
+SSE = full(2*goeq®eeq);
+end
+function [SSE, dSSE] = constr_test_c(X, constraints)
+[sg = constraints(X);
+SSE =c*e;
+SSE = full(2*gete)
+end
+function f testkit(data, objective, constraints)
+25

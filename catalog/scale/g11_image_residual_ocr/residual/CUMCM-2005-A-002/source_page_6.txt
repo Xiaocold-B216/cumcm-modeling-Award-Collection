@@ -1,0 +1,38 @@
+:
+|
+64 工 各 数 学 学 报 第 22 卷 : |
+通过 观察 统计 图 3 和 图 4， 订 以 发 现 污染 类 II 与 III 的 线 图 虽 现 出 此 消 彼 长 的 走向 并 且 很 像 |
+一 只 蝴蝶 结 ， 具 有 极 强 的 共 线性 ， 如 果 把 两 者 相合 并 就 会 显示 出 非常 平稳 的 走势 ， 我 们 称 之 为 ，
+， “缓冲 区 ”。 进 一 步 地 ， 将 II 与 III 类 合并 ，IV 与 V 类 合并 后 作 图 ， 则 可 以 看 出 ，I 类 水 质
+与 劣 V 类 水 质 ， 合 并 后 的 I、III 类 与 合并 后 的 IV、V 类 水 质 同 样 显 示 出 了 比较 明显 的 共 线 1 |
+性 。 其 中 ， 缓 冲 区 的 作用 在 过 去 10 年 中 至 关 重 要 。 随 着 时 间 的 推移 ， 废 水 排放 量 的 增多 ， 在 近 4
+: 几 年 中 工 类 水 锐 减 ， 到 2004 年 几乎 消失 ， 而 缓冲 区 中 的 水 〈 即 I 类 和 III 类 水 ) 却 保持 相对 较 人
+; 平缓 的 变化 趋势 ， 与 此 同时 ，IV 类 水 及 劣 V 类 水 百分比 会 急剧 升 高 ，V 类 水 相对 比较 平缓 。 即 ; |
+优质 水 消失 ， 污 染 严重 的 水 剧 增 ， 这 就 是 我 们 说 的 “两 极 性 ”。 由 此 ， 我 们 得 到 如 下 结论 ， ;
+， 1) 长 江 10 年 内 主要 特点 ;II 类 ，III 类 水 具有 缓冲 性 。
+2) 长 江 后 10 年 主要 特点 , 工 类 ， 劣 V 类 水 具有 两 极 性 。 ，
+， 然后 我 们 比较 了 Logistic 模型 、 线 性 回归 模型 在 预测 长 江水 质 发 展 趋势 方面 的 优 劣 并 对 两 :
+1 个 模型 分 别 进 行 了 综合 检验 。 最 后 得 出 了 对 长 江 未 来 10 年 水 质 发 展 趋势 估计 〈2005~ 2014) 不 1 |
+: ARAAN BRBMESL (%) ， 遂 过 对 回归 模型 进行 控制 ， 保 证 了 一 年 中 长 江 劣 V 类 水 消 :
+; RIOBEFR H95%, I HAHITFIE V 类 和 V 类 水 的 比例 在 20 多 以 内 。 限 寸 篇幅， 不 再 详 : |
+细 说 明 。 ，
+7 ”结束 语 |
+水 资源 是 人 类 赖 以 生存 的 重要 自然 资源 ， 从 检测 数据 评价 结果 及 预测 结果 来 看 ， 长 江水 资
+源 的 保护 问题 已 迫在眉睫 ， 刻 不 容 缓 。 和
+参考 文献 : ，
+: 11) 何 晓 群 , 应 用 回归 分 析 [M] 北京 ,中国 人民 火 学 出 版 社 ，2001 !
+. [2) 刘 兰 芬 ， 张 祥 伟 ,， 夏 军 . 河流 水 环境 容 章 预测 方法 研究 加]. 水 利 学 报 ，1998,7:16-20
+1 [8) 姜 启 源 . 数学 模型 (第 三 版 )[IM], 北京 ， 高 等 教育 山 版 社 ，2003 : |
+Prediction and Control of Water Quality of the Changjiang
+| River Based on the Regressive Method
+， LU Liang，LIU Rui，ZHANG Qi
+Advisor LIU Baodong ，
+( School of Mathematics and System Sciences, Shandong University, JINAN 250100 ) : |
+Abstract: To predict and assess water quality of recent two years of the Changjiang River, frequency and stan-
+| dardized methods are used in this paper. Further, the time-space characteristic of the known main contaminants ; |
+: CODwm and NHg-N is analyzed, one dimension water quality model is adopted to estimate the distribution of : |
+H main pollutant sources. At last, the two classification characteristic of water quality based on the data of recent 了 |
+ten years is discussed, and methods to forecast and control the future water quality are given and compared. ¢ |
+2 Keywords: pollutant sources; contaminant; water quality; statistics; prediction 了
+人
+1 i

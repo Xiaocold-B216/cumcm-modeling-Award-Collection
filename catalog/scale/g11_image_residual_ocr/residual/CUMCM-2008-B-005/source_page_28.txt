@@ -1,0 +1,55 @@
+Begid]
+
+ERh| sou| wmm|  eE] me
+E  TEX) T X
+EN | moa| wmer|  wwe| mwor
+[| 30
+
+内 蒙古 自
+| sm  ww) mm
+EECTREEIIRREEITIREUIG
+ETEKIREIIKIREIIIIEEIE
+ET
+[0
+ENGREIGREEZIRESI IN
+EECEEIREETEIEEIT 居 和
+EECIREISEIRRRCIEIREEIESAN
+ETEIEERIEEIREEDIETI
+mg | ae ao au 下 天
+EECRIEEEOEEETXGEEOEG
+
+广西 壮族 \ gg 68
+
+自治 区
+Gwd | wn| mep|T wee| inm
+
+可
+ESEIETEESEIECIGEISCRED
+ES
+| Re we  mma) on
+\ a=
+
+[1 | owe|  mew| 机 到
+ERYREIIRECITCIREEIEI 生生
+ET
+说
+
+Geo NA 5861. 48 1238. 84
+
+ER
+
+Hrimd
+
+尔 自治 区
+
+〈 聚 类 程序 ,采用 类 间 平 均 距 离 法 )
+
+DATA A;
+
+INPUT CITYS X1-X4;
+
+CARDS;
+
+pnoc PRINT DATA=A;
+
+25

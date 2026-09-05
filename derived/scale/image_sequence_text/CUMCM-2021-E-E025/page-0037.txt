@@ -1,0 +1,41 @@
+quantile_low_list.append(np.quantile(tem_data, 0.75, axis=1)) # 下 四 分 位 数
+quantile_mid_list.append(np.quantile(tem_data, 0.5, axis=1)) # 中 位 数
+quantile_high_list.append(np.quantile(tem_data, 0.25, axis=1)) # 上 四 分 位 数
+sk_list.append(st.skew(tem_data, axis=1)) # 计算 偏 度
+k_list.append(st.kurtosis(tem_data, axis=1)) # 计算 峰 度
+data_ = pd.DataFrame()
+for iin range(L-1):
+tem_data = pd.DataFrame([mean_list[i], std_list[i], quantile_low_list[i], quantile mid_list[i],
+quantile_high _list[i], sk_list[i], k_list[i]],
+index=['mean '+str(i), 'std '+str(i), 'quantile low '+str(i),
+'quantile_mid_'+str(i),
+'quantile_high '+str(d), 'sk_'+str(i), 上 +strG)])
+data_ =pd.concat([data_, tem_data])
+data_ = pd.DataFrame(data_.values.T, index=data_.columns, columns=data_.index)
+data_['Class'] = data[ Class']
+data [OP] = data[OP ]
+data.to_excel(Q4 feature 20.xlsx', encoding='ANSI')
+return data
+## Class 预测 模型
+data_4 class_feature = extract feature(data_4-class, 20)#class 非 空
+# Class 非 空 ， 不 考虑 OP，Class 预测 模型
+X train c,X test c,y_train c,y test ¢ =train_test split(data 4 class feature.iloc[:, :-2],
+data_4_class feature.iloc[:, -2],
+test_size=0.25, random_state=0)
+clf =RandmForestClassifier(n_estimators=50, max_depth=None,min_samples_split=5, random_state=1)
+pfitness = cross_val score(clf, data_4_class_feature.iloc[:, :-2], data 4 class_feature.iloc[:, -2],
+cv=5,scoring=precision_macro').mean()
+rfitness = cross_val score(clf, data 4 class_feature.iloc[:, :-2], data 4 class feature.iloc[:， -2],
+cv=5,scoring=recall_macro’).mean()
+ffitness = cross val score(clf, data 4 class_feature.iloc[:, :-2], data 4 class_feature.iloc[:, -2]，
+cv=5,scoring=f1_macro').mean()
+afitness = cross_val score(clf, data 4 class feature.iloc[:, :-2], data 4 class feature.iloc[:, -2]，
+cv=5,scoring=accuracy').mean()
+data_20 = pd.read_excel(Q4-21 填 表 sx)
+data_20 = pd.read_excel(Q4-21 填 表 局 sx)
+clf .fit(data 4 class_ feature.iloc[:, :-2], data 4 class_feature.iloc[:, -2])
+pred=clf .predict(data 20)
+#Class 预测 模型 ， 用 op 列
+# Class 和 OP 均 为 非 空 情形 ， 可 以 相互 参考
+data_4 nonan_feature = extract_feature(data_4 nonan, 20)# 全 部 数据 都 不 是 空
+36

@@ -1,0 +1,32 @@
+源 程 序 说 明 :
+1. 本 文 所 有 代码 ， 均 在 Jupyter Notebook 中 编写 ， 编 写 完成 后 复制 进 word 文档 。
+2. 由 于 所 给 数据 均 为 xlsx 文档 ， 用 python 读 入 较 慢 ， 为 加 快 程序 运行 速度 ， 提 高 效率 ， 我
+们 先 将 其 另存 为 csv 格式 ， 再 在 程序 中 读 入 。
+一 、 问 题 一 Python 源 代码
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.rcParams['font.sans-serif] = ['SimHei']
+plt.rcParams['axes.unicode_minus'] = False
+data0 = pd.read_csv(P./ 附 件 / 附 件 1.csv, index_col = 0)
+data0.shape
+data0.head()
+data0.describe()
+data0.info()
+data0.isnull{).any().any()
+def my_plot(x):
+plt.plot{x.index, x.values, linewidth = 0.5)
+def PlotSpectrum(data, str0):
+fontsize = 5
+plt.figure(stro, figsize = (5, 3), dpi = 300)
+plt.xticks(range(0, 4001, 500), rotation = 45, fontsize = 5)
+plt.yticks(fontsize = fontsize)
+plt.xlabel( 波 段 , fontsize = 6)
+plt.ylabelt 吸 光度 fontsize = 6)
+plt.grid(True)
+data.aggllambda x: my_plot(x), axis = 1)
+plt.show()
+PlotSpectrum(data0，' 附 件 一 光谱 数据 曲线 图 ')
+def box(x):
+small = x.mean() - 3 * x.std()
+22

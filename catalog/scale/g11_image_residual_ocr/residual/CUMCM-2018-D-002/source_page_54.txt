@@ -1,0 +1,53 @@
+是
+for(Gbbl0by
+
+Z [z1++] =0 了
+
+}
+else
+{
+bw—=a2. ys [0] H
+for ( 了 a2. ys [0] 1=0 了 a2. ys [0] 一 )
+Z [z1++] =0 了
+for (;a2. ys[2] 1=0;)// 蓝 、 白 车
+{
+
+if (z1%2==0)
+
+{ o
+z[z1++]=2;bw—;a2. ys [2]—; 全 从 >
+if (bw==0) break; 一 一 \)
+z[z1++]=1;bw—;a2. ys[1]—; 2XG
+if (bw==0) break; / H
+
+} X
+
+else ADN
+
+{ e
+z[z1++]=1;bw—;a2. ys[1]- DA
+if (bw==0) break 了
+z[z1++]=2;bw—;a2. ys[2]—;
+if (bw==0) break 了 O
+
+} [e]
+
+人
+[FRFRRRARARARARIRIARRAFIAAAARIARK 晚 上 的
+及 2 站 kkk 耕 水 下 水 水 水 水 末末 水 水 水 水 玉 水 水 水 业 冰 /
+for(;a2. ys[5] 4 ys[4]!=0&&bw!=0;)//R 金
+if T5 )
+“4 z[z1++]=5;bw—;a2. ys [5]—;
+下 La (bw==0)break;
+人 z[z1++]=4;bw—;a2. ys [4]—;
+| N if (bw==0) break 了
+AN
+else
+{
+z [z1++] =4 了 bw— 了 a2. ys [4] 一
+if (bw==0) break;
+z[z1++]=5;bw—;a2. ys[5]—;
+if (bw==0) break H
+}
+}
+54

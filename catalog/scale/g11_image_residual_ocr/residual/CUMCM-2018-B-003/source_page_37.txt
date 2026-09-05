@@ -1,0 +1,48 @@
+加
+u
+ER
+end
+end
+d=dT(abs(QQ(1,4)-QQ(1,3))+1);
+tQO=tQGO)+d;
+for j=1:4
+if QQ(i,4)==aa(j,1)
+if tQ(i)<aa(j,3)
+tQ(i)=aa(j,3)+ T(6)+T(7);
+else
+tQM)=tQ)+T(6)+T(7);
+end
+. 六
+end y
+end _ “外
+[tQmin,tQind]=min(tQ); 2XG
+aa(5:8,1)=QQ(tQind,:)"; ood
+aa(1:4,5)=QQ(tQind,:)";
+i=tQind; As
+d=dT(abs(aa(4,1)-QQ(,1))+1); S
+WO 六 人
+for j=1:4
+if QQ(i, 1)==aa(j,1)
+if tQ(i)<aa(j,3) ®
+aa(5,2)=aa(j,3); O
+aa(1,3)=aa(5,2); LA
+aa(5,3)=aa(5,2)+T(6)+¥T(4);
+RN
+aa(],7)-aa(j,3)NT(GJFT(7)+T(9);
+tQG=aa(i3)#T(OHT(C7):
+else
+22HE
+)=aa(5,2);
+asaaomm
+NA、 a 训 1.60)=-tQG)HT(6);
+1 了 /aa(7)-tQ(DHT(OJHT(OJHT(S);
+SA， tQ()=tQ()+T(6)+T(7);
+end
+end
+end
+d=dT(abs(QQ(1,2)-QQ(1,1))+1);
+tQO=tQGO)+d;
+for j=1:4
+if QQ(i,2)==aa(j,1)
+if tQ(i)<aa(j,3)
+37

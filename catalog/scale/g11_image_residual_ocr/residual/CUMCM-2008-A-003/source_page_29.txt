@@ -1,0 +1,47 @@
+回味
+和
+if a(ij)==1
+break;
+end
+end
+if a(ij)==1
+break;
+end
+end
+if i==768 & j==1024
+h=1;
+break;
+else #7
+hh=0; = NY
+while hh==0 一 \)
+a(i,)=0; 2XG
+m=[m;i,jl;
+if a(i+1,j)=—1
+记过 1; As
+elseif a(i-1,j)==1 sS
+六
+elseif a(ij+1)==1
+和 FT
+elseif a(ij-1)==1 A
+这 j-1 9
+elseifaki-lj-D==1 4 维
+=iAy=-1;
+elseif ai-1,j+
+号 和
+elseif a(it1,j-1 市
+il:j 语 -1;
+cl V D==1
+TB
+1
+Wh hh=1;
+end
+激
+end
+for i=1:length(a(:, 1))
+for j=1:length(a(1,:))
+if a(ij)==1
+if a(i-1,))==0 & a(i+1,j)==0 & a(i,j-1)==0 & a(i,j+1)==0 & a(i-1,j+1)==0
+& a(i-1j-1)==0 & a(i+1,j+1)=—0 & a(i+L,j-1)==0
+a(i,j)=0;
+end
+27

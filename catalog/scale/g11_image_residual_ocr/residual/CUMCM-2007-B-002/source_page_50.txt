@@ -1,0 +1,44 @@
+马 :二
+u
+EeE
+{
+FeasibleLine[0] = a; FeasibleLine[1] = nFirstLine;
+FeasibleLine[2] = b; FeasibleLine[3] = ci
+FeasibleLine[4] = nSecondLine; FeasibleLine[5] = di;
+FeasibleSolve. push back (FeasibleLine) ;
+}
+IsDirectToBridge = false;
+IsBridgeDirectToDest = false;
+}
+} 全
+全
+:人 v
+. . 2/ 一
+if ( !FeasibleSolve.empty() )
+bHaveFound = true;
+return bHaveFound; A
+} 全
+全
+op 多 和 mn
+//
+// 三 次 换 乘 的 情况 @
+// A [¢]
+// 由 于 第 一 问 解 是 第 二 题解 的 一 音 多 ersoomonmom
+//
+bool TwiceBusChange (cons NSTART, const int NEND, // 起 始点 和 目标
+点
+eecyor ector<int> > & FeasibleSolve, // 可 行 的 解决 方
+案 ， 是 返回 值
+人 aaaessaee & AllLines, // 所 有 路 线
+信息 为
+下 4 vector<vector<int> > & AllBuses, // 所 有 公 汽
+村 = AS
+1 // N| vector<vector<vector<long> > > &RoadCrossInfo) // 任意 两 路 线 的
+ZREE
+{
+bool bHaveFound = false;
+vector<int> FeasibleLine(9, 0);
+int nCurLineName = -1;
+int nFirstBusChangeStation = -1; // 第 一 次 换 乘 的 车 站 名
+int i, j, k;
+50

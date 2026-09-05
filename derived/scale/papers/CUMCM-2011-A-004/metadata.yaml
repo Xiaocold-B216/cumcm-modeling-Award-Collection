@@ -1,0 +1,47 @@
+paper_id: CUMCM-2011-A-004
+year: 2011
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（1）.pdf
+  sha256: 72719EF517A3254F0BD852882843C1310882D092883DA60C3B5F88542953E157
+authority_sha256: 72719EF517A3254F0BD852882843C1310882D092883DA60C3B5F88542953E157
+paper_file_memberships:
+- path: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（1）.pdf
+  role: primary
+  canonical: true
+primary_file: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（1）.pdf
+extraction_inputs:
+- path: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（1）.pdf
+  sha256: 72719EF517A3254F0BD852882843C1310882D092883DA60C3B5F88542953E157
+  kind: original
+extraction_input_sha256: 72719EF517A3254F0BD852882843C1310882D092883DA60C3B5F88542953E157
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 24
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["19"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2011-A-004/source_page_19.txt"]
+  source_sha256: 72719EF517A3254F0BD852882843C1310882D092883DA60C3B5F88542953E157
+  current_body_sha256: F8EE11E4CF4087FB74CCE470CE19967BA3B5F2439AD8D6E764A25E23D4A1056C
+  candidate_body_sha256: 1F76CAFC57D789D4CE3F9C02A07FC1598082AEF94E9A29933FC55F47AD7667EE
+  source_page_count: 24
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

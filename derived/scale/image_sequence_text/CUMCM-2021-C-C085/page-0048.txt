@@ -1,0 +1,37 @@
+A m BC_YS.p) ]
+mport random |
+import numpy as np
+import xlrd
+import xlsxwriter
+excel = slrdopen_workbook(" 期 望 供 货 量 xlsx", mb
+sheet = excel.sheet_by_name('Sheetl')
+um=402
+24
+CC-28488
+ID-0
+FL “2
+forrin range(sheet.nrows): AP IV
+
+ID.append(sheet.cell_value(r, 0)) 从
+FLappend(sheet.cell value(r, 1) SR
+excel = xlrd.open workbook("YS_T2xlsx", ib)
+sheet = ra .
+ANW-[
+BW-0 ?一 1/ ~N 外
+cy 一 |BS
+[ee
+BN-0
+CN-0
+A=
+B-(l
+c=n
+forrin mnge(l sheetnrows):
+s = sheet.cell value(r, ¢)
+ifFLII--A:
+AN
+ALappend([sr])
+ifFLII--B':
+BN +-s
+Bappend([sn)
+认 FLI--'C
+四

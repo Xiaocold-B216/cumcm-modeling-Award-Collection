@@ -1,0 +1,97 @@
+{
+multimap<float, vector<int> > Respond;
+
+// 返回值
+
+for (int i=0; i<FeasibleSolve.size(); ++i)
+
+// 遍历每一种方案
+
+{
+float fTotalTime = 0;
+
+// 总花时
+// 行车路线
+
+vector<int> CurrWay;
+int nLineName = FeasibleSolve[i][1];
+
+// 第一段路
+
+流
+
+fTotalTime = 3.0*(FeasibleSolve[i][2] - FeasibleSolve[i][0]);
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+int a = FeasibleSolve[i][2];
+
+交
+
+int b = FeasibleSolve[i][0];
+
+CurrWay.push_back(nLineName);
+
+：
+科
+
+if (FeasibleSolve[i].size() == 3)
+
+研
+
+ww
+
+CurrWay.push_back(AllLines[nLineName-1].LineInfo[FeasibleSolve[i][0]]);
+
+{
+
+CurrWay.push_back(AllLines[nLineName-1].LineInfo[FeasibleSolve[i][2]]);
+
+continue;
+
+众
+
+}
+
+号
+
+Respond.insert( make_pair(fTotalTime, CurrWay) );
+
+公
+
+int nLineName1 = -1;
+
+for (int j=3; j<FeasibleSolve[i].size(); j+=3) // 计算剩余每一段路花费的时
+
+信
+
+间
+
+{
+
+微
+
+float fEachTime = 0;
+fEachTime
+
+= 3.0*(FeasibleSolve[i][j+2] - FeasibleSolve[i][j]); // 乘车
+
+用时
+
+fEachTime += 5.0;
+
+// 换乘时间
+
+fTotalTime+= fEachTime;
+nLineName1 = FeasibleSolve[i][j+1];
+
+CurrWay.push_back(AllLines[nLineName1-1].LineInfo[FeasibleSolve[i][j]]);
+
+23
+
+

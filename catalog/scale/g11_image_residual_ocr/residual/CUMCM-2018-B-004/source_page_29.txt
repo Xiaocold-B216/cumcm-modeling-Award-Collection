@@ -1,0 +1,48 @@
+—
+下
+二 二
+回 共 RE
+break;
+end
+end
+放 flag==0% 仅 发 生 上 料
+TempRec(end+1,1)=MinNumber;
+TempRec(end,2)=Time;
+TempRec(end,3:6)=NaN;
+end
+if Situation(MinNumber)j==1% 换 料 时 取 下 了 一 个 已 经 完成 工序 1 的 工件
+Now=2;% 下 一 道 目 标 工序 发 生变 化
+NEXT=k;% 记 录 此 工件 的 序号
+end A7
+Situation(MinNumber)=1; 二 NY
+Time=Time+Expect(3,MinNumber);% 完 成 换 料 一 \)
+for k=1:8 2XG
+if Left(k)-Expect(4,MinNumber)<0 ood
+Left(k)=0;
+else A
+ee R :
+end 全
+end
+Left(MinNumber)=Work(1);
+else% 当 前 目标 是 工序 2 的 ONG
+flag=0; O
+cars
+if TempRec(k,4)==MinNumber && isnan(TempRec(k,6))% 取 下 已 完成 工
+件 SN 一
+~r TempRec(k,6)=Time;
+TempRec(NEXT,4)=MinNumber;
+一 ) V TempRec(NEXT,5)=Time;
+7 break;
+下 4 end
+p) end
+| // §- ifflag==0% 放 置 待 加 工 工序 2 的 工件
+SA， TempRec(NEXT,4)=MinNumber;
+TempRec(NEXT,5)=Time;
+end
+Now=1;% 此 时 目标 工序 重新 变 为 工序 1
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber)j+Wash;% 完 成 换 料
+for k=1:8
+if Left(k)-Expect(4, MinNumber)-Wash<0
+Left(k)=0;
+29

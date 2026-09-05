@@ -1,0 +1,40 @@
+1 1 附录 一 : 数据 处 理 及 问题 1 代码 R
+1] 2 澳 录 一: 决策 国人 码 R
+] WR=: 取 类 分 析 代码 R
+AHRD: 问题 3 代码 R
+SHRE: WOBRBR
+HRA: 问题 4 检验 代码 R
+附录 一 数据 处 理 及 问题 1 代码
+Yy -readtable'CNUsers\86182WDesktopWdata tst"header = TskipNul = T)
+# 成 分 数据 缺失 值 填补
+Tibrary(zCompositions)
+library(compositions)
+library (DirichletReg)
+y_bianhan <-
+multRepl(y.label-0,dl-¢(0.0.8.0.11,0.21,0.21,0,0.17.0.11,0.11,0.97,0.07.0.03.0.23,0.11))
+write esv(y_bianhan file = "C:/Users/86182/Desktop/datacsv")
+¥3 一 readtable'CNUsers\86182NDesktopWdatatxtheader=TskipKul = T)
+¥3_bianhan <
+‘multRepl(y3.label=0,dI=c(0.0.8,0.11,0.21,0.21,0,0.17.0.11,0.11,0.97,0.07.0.03.0.230.11))
+write.csv(y3_bianhan,file = "C:/Users/86182/Desktop/data.csv")
+# 成 分 数据 求 均值 及 clr 变 换
+gaojia <- y_bianhan[1:18,]
+mean(acomp(gaojia))
+gianbei <- y_bianhan[19:67.]
+‘mean(acomp(gianbei))
+X_gacjia0 <- mean(acomp(x_gacjia0))
+x_gaojial <- mean(acomp(x_gaojial))
+_gianbei0 <- mean(acomp(x_gianbei0))
+x_gianbeil <- mean(acomp(x_gianbeil))
+el <-elr(y_bianhan)
+©2 < olr(y3 _bianhan)
+write esve2.file = "C:/Users/86182/Deskiop/data.csv")
+#dirichlet 回归
+¥_chuli <- read.table("C:\Users\\86182\\Desktop! data.tst" header = TskipNul = T)
+ <- read.table("C:\\Users!\86182 Desktop!\data.txt" header = T,skipNul = T)
+fenghuadata <- cbind(y_chuli.x)
+fenghuadataSy <- DR_data(y_chuli[1:14])
+resl <- DirichReg(y ~ emblazonry + class + color + weathering, fenghuadata)
+summary(res1)
+# 预 测
+II

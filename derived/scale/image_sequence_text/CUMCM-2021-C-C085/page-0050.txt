@@ -1,0 +1,38 @@
+n-402
+=24
+C-28488
+maxl-Ce2
+ID-
+FL
+GHL-[]
+Seln-{]
+JEGUO-np.zeros((a.w))
+for  in range(1 sheet nrows):
+ID.append(sheet.cell_value(s, 0))
+FLappend(sheet cell_value(r, 1))
+forrin range(1 sheet nrows):
+val-[)
+for ¢ in range(2.sheetncols):
+s-sheet.cell value(r, ¢)
+val.append(s)
+GHL.append(tuple(val))
+def DOIT(PX):
+now_Tag=0
+for Lin PX:
+isED]
+jp
+now_Tag+=1/L[3]
+JEGUO[][il+~1#/L{3]
+print(now_Tag)
+证 _name_ 一 ” main “
+PX=0
+namelist—{]
+foriin range(n):
+namelist.append(i)
+foriin range(w):
+ifIen(PX)>max
+PX-PX[:maxl].copy()
+forj in range(len(PX)):
+PXIO]+=0.2# 存 储 成 本
+forj in namelist:# 或 者 in namelist range(n) 改 成 固定 哪 几 家 供应 商
+0

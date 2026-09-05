@@ -1,0 +1,40 @@
+回避
+.
+k=k+1;
+h=0;
+while h==0
+hh=0;
+while hh==0
+rl=r+randomDisturb(l,Tm,T,Tn,LO,L1);
+if isMatch(rl,zb_y)
+hh=1;
+end
+end% 挑 动产 生 一 个 新 可 行 解
+E=mbFunction(rl);
+dE=E-mbFunction(r); #7
+if dE<=0 全 NY
+o
+r=rl; _ \)
+h=1; 2XG
+else Hr
+p=exp(-dE/T);
+if p>=rand(1) As
+r=rl; 和
+人 汉
+end
+h=1;
+end oO
+if mod(k,10)==0 O
+T=0.9*T;T; A
+end
+if E<zx PR¢
+zx=E;best=r; 一
+om
+end
+end 到 ) V
+best y/}
+nbstonl 人
+rr ar Tn;clear dE;clear h;clear hh;clear k;clear l;clear p;clear rl;clear LO;clear
+Li;clea & ;elear riclear zb_y;clear zx;
+cd TN
+37

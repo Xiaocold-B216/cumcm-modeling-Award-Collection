@@ -1,0 +1,69 @@
+polarplot(0.0,'K', MarkerSize’, 22, LineWidth, 2);
+
+text(p_S(110.20, p_S(2), "boldmathSSs, font_opts{:}):
+
+text(p_P(1)+0.12, p_P(2)-18, "boldmathSPS' font_opts{:});
+
+text(p_Q(1)+0.08, p_Q(2)-23, "boldmath$QS, font_opts{:});
+
+text(p_T(1)+0.06, p_T(2)-18. "boldmathSTS. font_opts{:}):
+
+1ex1(0.15, -30, "boldmathSCS’, font_opts{:}):
+
+% SCPQT 中 轴线
+
+polarplot([p_S(1), p_T(D], [p_S(2). p_T(2)}~~K: "LineWidth', 2);
+
+% 计算 抛物 线
+
+LE=2%(p_Q2)-p_P2)):
+
+工 = Polarpara(Lf angle):
+
+xangle =。 fzero(@(anglejabs(Polarpara(LE anglej*costangle)-150， [pi2*1.01.
+angle(end)]):
+
+XL = Polarpara(LE xangle);
+
+theta = linspace(-xangle, xangle-pi, 150);
+
+r= Polarpara(LL, thetapi):
+
+1(2:2:end) = spher rad;
+
+polarplot(reshape(theta,2.[]). reshape(s2.[]), -K. linewidih', 2, ‘color’, [0.7, 0.7, 0.7));
+
+polarplot([0 0], [0 p_T(2)],"’, "inewidth, 2);
+
+‘polarplot(linspace(0.-xangle pi. 100), repmat(60.1,100), *K', Tinewidth', 2);
+
+text((-xangle*pi) 2:0.05, 90, "boldmath$ omegaS', font_opts{:}):
+
+polarplot(angle +pi, L, - K', ‘LineWidth', 2):
+
+polarplot(xangle +pi, xL "K', "MarkerSize’, 22);
+
+polarplot(-xangle, xL,"K, MarkerSize’, 22);
+
+polarplot(-[xangle xangle], [-p_S(2) spher_rad], "K’, linewidd, 2);
+
+polarplot([xangle xangle]+pi [-p_S(2) spher_rad], "&', Tinewidth', 2);
+
+% polarplot(-p_x(1), p_x(2),"K, "MarkerSize', 22);
+
+set(gea RAxisLocation' 0);
+
+Him([0, p_T)]:
+
+% 极 坐标
+
+styleCfontksize fontname’),
+
+fastprint(, 图 片 /prob1. 示 意图 2 极 坐标 下 的 omega 角 与 球面 径 向 误差 平方 积分 和
+style.m: 为 输出 图 片 统一 文字 大 小 和 字体
+
+% 本 文件 原名 stylem
+
+function style(varargin)
+
+52

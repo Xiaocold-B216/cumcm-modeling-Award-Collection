@@ -1,0 +1,31 @@
+一 点 为 Gu (zxogrzr)， 则 IlGuGu|
+IGoGzl=V(Gzr 一 各 十 人 一 的 二 Cr 一 苔 G2)
+人
+AN
+axis | AN
+LN
+Ta
+图 16 照明 区 域 基准 球面 的 几何 关系
+在 图 16 中 ，m 为 理想 抛物 面 顶 点 到 基准 球面 球 心 的 距离 。 理 想 抛物 面 预 点 到 理
+想 抛物 面 的 距离 最 大 值 根据 余弦 定理 可 以 得 出
+1GoG| ee = VRP + 727 — 200830°Rry =155.5806 G3)
+由 于 抛物 面 上 的 点 都 满足
+IlGuculslcucol。 Gd)
+根据 式 (33)， 结 合 附件 1 可 以 得 出 革 语 GZ 的 编号 .。
+在 抛物 面 内 ， 某 点 Grakzrirozz) 与 理想 抛物 面 顶点 的 距离 IlGoGz| 一 由， 对 应 一
+个 rm。 得 到 每 二 个 Cr 对 应 的 地 个 促 动 器 的 伸缩 量 等 于 基准 球面 上 一 点 到 球 心 距离 尽
+与 该 点 在 扼 物 面 上 所 对 应 的 rw 的 差 值 ， 即 径 向 伸缩 量 为
+Ar 一 | 及 一 mi| 3%)
+3) 计算 促 动 器 调节 后 主 索 节 点 的 坐标
+在 基准 球面 上 ， 某 一 点 Gu (zwyeszu) 在 球 坐标 系 下 的 参数 为
+人 一 Vze 十 go 十 2
+= 2
+buTEE o G6)
+cn
+ou 一 arctan Tw
+GEFE, WRABHDERT SETE, WOE LOSEG 的 坐标 为
+Z,/ = rasinfycosay;
+Ypd = rasinfysinay, G7)
+二 macosbu
+4) 建立 单 目标 优化 模型 《与 问题 一 类 似 )
+1

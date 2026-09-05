@@ -1,0 +1,36 @@
+八 、 附 录
+人 、 Dev-C++ 程 序
+1. 最 优 切 割 方案 程序
+#include <stdio.h>
+#include <math.h>
+int main(} {
+double 5,N=8.5,Nmin=8,Nmax=9,Cmin=4.8,Cmax=12.6;
+printft" 请 输入 “ 预 切割 钢坯 长 度 : S” LLES+HELRBA");
+scanf("%If\n",&s);
+printf("TEIEHMEKE: s=%If\n",S);
+double e =N - Nmin;
+double f = §/N;
+intF = 0;
+F = (int)f;
+double g = S-F*N;
+float E = F*e;
+double Imax = g+E,Imin = g-E;
+if(Imin>Oif
+if(S>(Nmax+Cmin)){
+if(Imax<Nmin){
+printf(" 切 割 次 数 : 2 ( 需 进行 离线 二 次 切割 jn
+double r1= Nmax + fmod(Imin,(Cmax-Nmax}},F1 = 1;
+printft" 首 次 线 切 后 第 一 类 钢坯 长 度 为 : %f 的 钢坯 有 :1 B\n", r1);
+double f2 = Imin/(Cmax-Nmax},r2 = Cmax;
+int F2 = 0;
+F2 = (intjf2;
+printf(" 首 次 线 切 后 第 二 类 钢坯 长 度 为 : %lf 的 钢坯 有 %d B\n"r2,F2);
+double r3 = Nmax;
+int F3 = F-F1-F2;
+printf(" 首 次 线 切 后 第 三 类 钢坯 长 度 为 : %lf 的 钢坯 有 %d 段 \n"r3,F3);
+printft" 最 优 方案 切割 后 所 有 尾 坯 切割 损失 最 小 值 : %fn"lImin);
+double r= Nmax;
+printft" 将 1 段 第 一 类 、 %d 段 第 二 类 钢 坏 进行 二 次 离线 切割 成 长 度 为 %lf 的 合格 钢坯
+\n",F2,r);
+printf("#: 第 二 次 离线 切割 后 最 终 得 到 %d 段 长 度 为 : %lf 的 合格 钢坯 ， 切 割 损 失 共 :  %f 米 。
+“Frlmin);

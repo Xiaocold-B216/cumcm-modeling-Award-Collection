@@ -1,0 +1,44 @@
+atas x dimension: 67 4
+人
+Fit method: kernelpls
+imer oF Comgonerta’considered: 4
+VALIOATION: msEp
+CrosavaTdated.using 10 randon segnents.
+(Intercept) 1 comps 2 comps 3 comps
+ev 0 209
+adjcv p 0.45 0.1470 0.1381 0.1365
+cv  omn
+ie
+TRAINING: % variance explained
+全 sr 2 cnc 3 camps 4 coms
+x Tems dom fems
+R
+20 FiAA TARD —ReE AR
+从 回归 结果 可 以 看 出 ， 主 成 分 个 数 为 3 时 ,模型 在 经 CV 交叉 验证 后 得 到 的 RMSEP
+综合 最 小 , 同时 3 个 主 成 分 对 各 变量 的 累计 贡献 已 经 达到 93%6， 因 此 将 信 景 小 二 乘 加
+归 的 主 成 分 个 数 设 定 为 3。
+主 成 分 个 数 确定 后 计算 得 到 信 最 小 二 乘 回 归 系 数 如 下 图 17, PbO、K30、BaO 和 SrO
+回归 系数 分 别 为 00134、-0.1582、-0.0288、-0.0206。
+group
+H
+8
+党
+了
+-人
+10 15 20 25 30 35 40
+variable
+图 21; 偏 最 小 二 乘 回归 系数
+将 表单 3 中 PbO、Kx0、Bao 和 SrO 化 学 成 分 数据 带 入 信 最 小 二 乘 回 归 模 型 ， 预 负
+得 到 不 同文 物 的 预测 值 ， 如 果 预 负 人 接近 1， 则 为 高 甸 下 玛 ， 预 负 值 接近 0， 则 为 负
+丈 病 。 预 测 结果 见 下 表 17。
+表 17; 表单 3 未 知 玻 斑 文物 的 类 型 预测
+E [ 7
+Al 1.0408 高 钾
+A2 0.0177 铅 饥
+A3 0.0980 wa
+Ad4 0.1898 铅 钢
+A5 0.2558 加 饥
+A6 0.9615 高 钾
+A7 0.9631 高 钾
+A8 0.1122 LEN
+~1y

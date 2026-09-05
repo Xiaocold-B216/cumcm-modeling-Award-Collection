@@ -1,0 +1,47 @@
+Eiis:
+人
+3 Fly 22% 7 人 了
+第 31 卷 第 1 其 数学 的 实践 与 认识 UN
+200! 年 ! 月 MATHEMATRS N PRACTICE AND THEORY Jan 2004
+employ the BP (back propagation) algorithm to train NN by use of the Neural Network
+Toolbox inMA TLAB software package In thispaper, two three-story NN are created to input
+the extracted DNA character vectors as samples into them. A fter the training, characters are
+extracted from the 20 unclassified artificial sequence samp les and 182 natural sequence samp les
+to fom the character vectors as input of the two NN for clustering The results shows: the
+clusteringmethod presented in this paper can classify the DNA sequences in quite high accuracy
+and precison It is quite feasible to apply the artificial neural network to DNA sequence
+clustering
+a
+a’ 人 >
+N 本 一
+DNA 分 类 模 型 \
+2XG
+杨 健 王 驰 ， 杨 勇 H
+指导 老师 王 鸣
+(北京 大 学 ， 北 京 100871) As
+1 )
+编者 按 : ”本文 将 DNA 序列 的 碱 基 的 组 合 看 作 " 文 章 ” 的 半 ssonarsamm
+层 分 类 的 方法 进行 分 类 从 理论 上 说 , 这 -方法 可 以 提取 较 刀 的 转 和 , 而 且 分 类 也 较 精细 这 一 模型 有 一 定
+创造 性 , 分 析 问 题 比较 精细 而 贴近 实际 , 思路 清楚 , 氢 述 通顺 简练
+摘要 : 本 模型 充分 利用 了 所 给 数据 的 特点 , 运用 统计 、 最 优化 等 数学 方法 , 从 已 知 样本 序列 中 提炼 出 能 较
+好 代表 两 类 特征 的 关键 字符 串 , 据 此 提 if Ba ws 的 对 任 给 DNA 序列 进行 分 类 首先 , 从 已
+知 样本 序列 中 用 广度 优先 法 选 出 所 有 £y 的 字符 娃 , 并 计算 其 标准 化 频率 及 分 散 度 然后, 利用 样本 数
+据 结合 最 小 -乘法 确定 两 类 字符 中 各 站 靖 儿 先 函数 , 并 且 逐 步 优 化 其 参数 使 之 达到 稳定 , 提高 了 可 信 度
+最 后 , 根据 优先 级 函数 找 出 关键 词 , 然后 确定 权 数 , 用 层次 分 析 法 对 未 知 样本 进行 分 类 , 并 定 出 显著 水 平 , 从
+而 得 到 了 一 个 比较 通用 的 分 类 裔 潜 ”经 过 检验 , 此 方法 对 21 一 40 号 待 测 样本 进行 了 很 好 的 分 类 , 对 后 面 的
+182 个 DNA PR TEenas
+1 问题 的 重 述 Tj
+2 全 ) y
+(O 0 类 样本 21 一 40 中 既 不 属于 A 类 也 不 属于 B 类 的 样本 百分比 不 超过 5%.
+(2) 假设 | eyword 的 重要 性 与 5 和 * 有 确定 的 关系 , 且 只 与 1 和 s* 有 关 ( 2s 定义 见 下 ).
+1 类 特征 的 字符 串 在 DNA 序列 中 是 均匀 分 布 的
+As
+N) \N
+Ja 的 分 析
+从 所 给 的 DNA 序列 观察 发 现 , 很 多 字符 串 重 复出 现 的 频率 很 高 , 而 且 有 些 字符 串 在 A
+类 和 B 类 中 出 现 的 次 数 有 很 明显 的 差距 , 这 暗示 把 某 些 字符 串 作为 A ,B 两 类 的 一 个 分 类 标
+准 所 以 应 对 A`B 两 类 已 知 样本 做 统计 分 析 , 找 出 其 中 可 能 代表 该 类 特征 的 字符 串 ”因为
+每 个 字符 串 重要 性 可 能 不 一 样 , 所 以 对 这 些 字 串 的 重要 性 排序 , 选 出 最 能 代表 该 类 特征 的 一
+部 分 字 串 ”然后 用 这 些 字 串 作 为 标准 判断 验证 A ,B 两 类 , 看 所 选 的 标准 的 准确 性 , 最 后 用
+于 任何 一 个 DNA 序列 的 分 类
+2 4-2008 China demic J al Electronic Publishing Hous ]l rights reserved. http://www.cn

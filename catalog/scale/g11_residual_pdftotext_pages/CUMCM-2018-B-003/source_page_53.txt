@@ -1,0 +1,64 @@
+aa(1,1)=start(1);
+aa(1,2)=t0;
+t0=t0+T(6);
+aa(1,3)=t0+T(4);
+aa(1,4)=1;
+
+交
+研
+：
+科
+
+微
+
+信
+
+公
+
+众
+
+号
+
+aa=[aa;aa];
+aa(1:3,5)=aa(1:3,1);
+for i=1:3
+d=dT(abs(aa(i,5)-a)+1);
+a=aa(i,5);
+t0=t0+d;
+t0=max(t0,aa(i,3));%上料开始
+aa(i,3)=t0;
+t0=t0+T(6);%上料结束
+aa(i,6)=t0;
+t0=t0+T(7);
+aa(i,7)=t0+T(5);
+end
+aa(4:6,2)=aa(1:3,3);
+aa(4:6,3)=aa(4:6,2)+T(6)+T(4);
+aa(1:3,5)=aa(1:3,5)*2;
+%F203
+
+流
+
+for i=2:3
+d=dT(abs(start(i)-start(i-1))+1);
+t0=t0+d;
+aa(i,1)=start(i);
+aa(i,2)=t0;
+t0=t0+T(6);
+aa(i,3)=t0+T(4);
+end
+aa(2,4)=3;
+aa(3,4)=7;
+a=4;
+
+for i=1:8
+for j=4:6
+if i==aa(j,4)
+T1(i,1)=aa(j,3);
+end
+end
+end
+for i=1:8
+53
+
+

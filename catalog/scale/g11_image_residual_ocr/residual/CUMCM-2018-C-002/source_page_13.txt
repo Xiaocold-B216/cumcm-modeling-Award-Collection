@@ -1,0 +1,45 @@
+回味
+隐 人
+马尔 科 夫 转移 状态 概率 矩阵 求解 matlab 代码
+clc, clear, format rat
+a=x1sread (’ C:\Users\yang\Desktop\C 题 \ 活 跃 状 态 矩 阵 . xlsx ) ;
+[r, c]=size(a) ;
+a=a ;aca(:) ; % 把 矩阵 a 逐 行 展开 成 一 个 行 向 量
+for i=1:2
+for j=1:2
+f(i, j)=length(findstr([i jj,a)); % 统 计 子 字符 串 "i 的 个 数
+end
+end
+ni=sum(f, 2) ; %H-HEIERE © HATH
+phat=f. /repmat (ni, 1, size(f,2)); 4% 求 状态 转移 的 频率 #7
+format 。 % 恢 复 到 短小 数 的 显示 格式 kw
+74 v
+fpgrowth 主 函 数 代码
+import fp_growth py3 as fpg
+import pandas as pd As
+import datetime 会
+itemName=" 商品 名 称 ” X
+start=datetime. datetime. now()
+data=pd. read_excel (’ C:/Users/yang/Desktop/C 题 /fpgrowth 建 模 数
+据 .xlsx ) O
+dataSet, itemSet=[], [] e V 4 @
+itemSet. append(data ie
+for i in range(l,len(data) 准 “
+if data[ 会 员 消费 编 三 ` ] [ij==data[ 会 员 消 费 编 码 " ] [i-J :
+itemSet. ea [iD)
+if i==len(data)-1:
+dal ppend(itemSet)
+else., » \\al
+人 append(itemSet)
+i temSet=[]
+六 itemSet. append (datalitemName] [i])
+1 // if i==len(data)-1:
+NA dataSet. append(itemSet)
+end=datetime. datetime. now()
+readDataTs=(end-start). seconds
+if _name ==” main ”:
+start=datetime. datetime. now()
+调用 find frequent_itemsets () 生成 频繁 项
+@:param minimum Support 表示 设置 的 最 小 支持 度 ， 即 若 支 持 度 大 于 等 于
+inimum_support, 保存 此 频繁 项 ， 否 则 删除
+13

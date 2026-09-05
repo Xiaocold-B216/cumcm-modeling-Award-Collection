@@ -1,0 +1,38 @@
+EiiEsaE
+本 辣
+e
+T=skinT(113,8.344);
+% 绘 制 稳 态 时 的 温度 分 布 截面 图 ，
+T=T(end,:);
+plot(x,T, LineWidth',1.5),hold on;
+plot([0.0006,0.0006],[37,751,'r:', Line Width',1.5),hold on;
+plot([0.0066,0.0066],[37,751,'r:', Line Width',1.5),hold on;
+plot(10.0102,0.0102],[37,75],'r:', Line Width',1.5),hold on;
+axis([0,0.0152,37,75])
+o
+-从 >
+\ 梧 Br 一 10 全 SS
+问题 二 程序 : AZ \
+| 程序 编号 “| 72-1 | 文件 名 称 | Que2.m | 说 明 。j 厌 解约 束 条 件 临界 什
+clear, clc
+for d2 = 10:0.5:25 As
+T = skinT02(d2); X
+if T(end) >= 47 多
+continue
+elseif T(55%60)>= 44
+continue ©
+O
+else
+disp(['d2 = ,num2str(d2),is ok.]
+end
+end 折
+一
+figure
+hold on 一 V
+plot(skinT02(17.5)/in’y.Line Width',2)
+plot([0,3600],[- “LineWidth,2)
+plot([0 3600) [47 47],k+', LineWidth',2)
+plot( Spa 49],':", LineWidth',2)
+axis([0/3600 36.5 47.5])
+hold off
+28

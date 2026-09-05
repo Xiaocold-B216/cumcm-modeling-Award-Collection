@@ -1,0 +1,39 @@
+队 普 次 讯 buswwx cqvip com]
+90 工程 数 学 学 报 第 2! 关
+预报 负荷 需求 为 1052.8MW 时 分 配 预 案 、 阻 塞 检验 结果 及 最 终 出 力 分 配方 案 分 别 如 表 6，
+表 7， 表 8 所 示 。
+表 3 ”分配 预 案
+mrTTaTafeTaTarTrra
+广 遇 GE | 次 | nw0 | w0 [s |m [mi|
+SR | | 有 | w0| s | |w |_s |9
+mioo m [w |on |w [as |m | w | w
+RAR om |  u |s [ws|w [w|a| =
+SR CR | w | 6 | 0 | 105| 0 | | oa
+清算 价 (元 ) 303 EUAw，
+表 4 阻塞 检验 结果 = \)
+fa\ LA
+[Ta Te
+RE |w | w | woll th | w
+marrt | Twr | onoum | osms | mabh | ET
+二 saon | ao | oo 上 Saoess | 155 | oa
+2 wet
+机 组 出 力 〈 兆 瓦 》 [153,86,87, 228, 90.1124, 152, 95.3222, 60.1,117]
+允许 疏 坡 值 ( 兆 瓦 )  7[38,15,48,19.5,27,30,21,27)
+实际 怜 坡 值 〈 兆 瓦 ) |183,15,48,10.11,27,-29.69,-21,27]
+潮流 限 值 ( 兆 瓦 )_-: [165,150,160,155,132,162]
+实际 潮流 分 布 ( 光 所 ) 下 | [165,150,155.26,124.51,131.51,159.53]
+清算 价 厂 495
+阻塞 费用 (元 ) 3183.1
+“ ERM2 (元 ) 47155
+S 下 、 < 表 6 ”分配 预案
+1 N
+saraTrTaTHT TS
+Wh |m [w [w | w [ w  a w
+sj | a | an |o0s 二 | or
+say | | wo | we |om [oo | ws | wn | wo
+清算 价 356 .
+表 7 ”阻塞 检验
+[TaTTTTTT
+pe |w | w [w | w | w w
+mwrh | tma | nr | wes | e | ss | ros
+wri | sw | am | ww | am | o

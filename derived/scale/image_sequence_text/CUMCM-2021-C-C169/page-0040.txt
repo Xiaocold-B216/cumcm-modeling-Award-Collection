@@ -1,0 +1,39 @@
+f datali,n*j>MAX(ij)
+MAXtijj=datatinyjj
+本
+wid
+加
+击
+nd
+ra
+MnanlMAxD le 人
+P
+opts = spreadsheetimportOptions( NumVariables", 1);
+psheetz'sheatt
+popatahange= vB2.8255
+optsvariableNames= VarName2 <
+arsarabeTypes = cateorcal
+Ionof ae
+classify= readtable("D:\MATLAB2020a\bin\#> 24. *REB WO
+|
+= iy
+dassiy_doublecablezaravariun(@doble clasiy):
+2=121.11); =1 -
+=[0.6 0.660.72); \ N
+aamos | s
+ES aa
+epsheetvsheatl
+optsDaRange - A2A2S"
+opeMrableNamesz'D”
+% opts VariableTypes = "string";
+opt=setaroptlopts nD， Whitespacefuiev "presenuei
+optsssearcptlopts DrEmpafelRuen auto
+%%str= readtablef"D:\MATLAB2020a\bin\ 最 少 24 家 供应 商 数据 提取 .xlsx", opts, "UseExcel"，
+dearope
+stable2areayla
+suppler=doublelerasetetrrs 二
+X=zeros(24,24);
+as scre;
+incon=4;
+A=1./b{classify_double);
+©

@@ -1,0 +1,85 @@
+©
+
+6 p = np.appendClo]. p)
+
+T0 p_te = ap-arrayt[tloat (x.value) for x in shost. col(6, start_roveel, end_rouze61)))
+
+T1 pte = np-appanat[o] p_te)
+
+四
+
+T5 eclass = np.srray ([int (x.value) for x in shest.col(11, stare_xome1, end_rowxe5i)c
+»
+
+T4 Gelass = np.sppend((°)., Gelase)
+
+T5 Gabet = np.array([£iost (x.value) for x in sheet co1(3，start_rosrn1，end_rosxr6D 人
+»
+
+T6 Gabel = np.append((0], Gabe)
+
+他 Gabez = 要 array([tloat (x.value) for x in sheet. col(4.start_rosxel，end_rosre5D 人
+»
+
+各 Gabez = mappena([D Gabe)
+
+加
+
+50 seaskaark = ap Larrayt[iloat (rwalae) tor x in shest colt7，atart_roszel， endLrosnr
+5D)
+
+S1 evasraark = np-appena(IO] ，Gvesksark)
+
+四
+
+55 evorkseskmark = np.arrayt[tloat (x.value) tor x in aheat 二 (aaft is 全
+nd_rowxe50))
+
+81 everkvesksark =” mp .appenako] ，Gvorkweskaari)
+
+的
+
+86 ¢ 周期 随机 初始 化
+
+§7 emeer "crest + Grorkvaskasti
+
+8 Greok = Guaskyastyph Ginby
+
+w
+
+0 Guewn = np.array([£16at (x.value) tor x in sheet col(10，atart_rosxel， end_rosz
+1
+
+91 Geomn = ap append([o] ，caean)
+
+四
+
+55 Everyeeak_gatcap zerost[25])
+
+4 L05Tonp. zeros((5.251)
+
+的
+
+w
+
+o7 #3. 食 心 过 程 ， 对 每 一 周 来 记
+
+人 for tn rangect, 26)
+
+后 9 = scr - 28200
+
+100
+
+0 for it in rangect. SD:
+
+w0 4 Gernasta) == 0:
+
+10a 5 Grownl11>2500
+
+io4 ai， 各 = Gaemn(41+1.3 + ap-randoz mor=al(0, 500)
+
+105 ae
+
+os als, 各 = Geemals] + 1.3 + mrandos aoraalto，200)
+
+aor ae

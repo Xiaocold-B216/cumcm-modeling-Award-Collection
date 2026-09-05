@@ -1,0 +1,150 @@
+{
+  "attempt_id": "20260902T164512681737_b126fa93",
+  "batch_attempt_id": "20260902T164512681737_b126fa93",
+  "paper_id": "CUMCM-2007-C-003",
+  "source_path": "2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007C：《手机“套餐”优惠几何》.pdf",
+  "source_sha256": "51EDA109051E851263C8B822DAD787C52304894582EBC131240EC9F61A804F6F",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 11,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 11,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "ween l| . - » — 2007 年 12 月 证 学 报 fol. = CHINESE JOURNAL OF ENGINEERING MATHEMATICS Se 2 章 缚 虽 :1005-3085(2007)08-0121-10 RE - 3 4 手机 “套餐 ”优惠 几何 印 “ 华 ， 宋 杰 远 ， 马 延 峰 指导 教师 丁 “ 梅 ， 李 ，” 丽 ， 李 晓 晓 ， 董 海燕 司 (山东 电力 高 等 专科 学 校 ， 济 南 250002) 胜 省 过 文 上 用 线性 规划 和 空间 解析 几何 的 方法 ， 结 合 图 形 具 体 的 结 本 7 国 出 了 各 种 “套餐 ”方案 的 评价 准则 和 方法 。 运 用 对 比分 析 的 方法 ， 指 出 “被 叫 竺 关 E” 中 陶 尖 的 玄机 最 出 后 结合 实际 情况 ， 给 出 了 设计 手机 痊 费 方案 应 该 省 虑 到 的 价格 、 产 品 、 促 本 等 鱼 守 利 阮 到 58 先 将 各 “ 亦 委 \" 因 须 转化 为 优惠 率 ， 然 后 通过 求解 规划 问题 的 方法 设计 了 一 个 台 理 的 手机 资费 方案 记 手 机 灾民 凡 优 环 ， 线 性 规划 ， 边 际 分 折 号 : AMS(2000) 65K03 中 图 分 类 号 0221 文献 标识 码 : 站 or 问题 的 提出 入 于 “套餐 ”的 花样 琳琅 满目 ,7 消费 者 无 所 适 从 ,/ 同 时 运营 商 们 有 时 也 并 不 知道 哪些 套餐 特 谷 客户 的 需求 ， 叫 些 套餐 真正 能 给 运 Se 我 们 参 限 中 国 移动 公司 现行 的 秆 准 和 北京 的 全 球 通 “ 畅 听 99 海 前“ 全球 通 68 套 餐 ”方案 ， 需 要 分 析 说 明 以 四 个 问题 困 且 这 两 种 “套餐 ”方案 的 资费 计 算 方法 ， 针 对 不 同 通话 量 需求 的 用 户 ; 说 明 各 种 “大 有 访 案 所 适用 的 用 户 玫 MeE 2) HRIRAHE RAEIHTRAR E, SERIER, LRHE “ERT 方案 与 现 和 费 标准 作 分 析 、 评价 ; ) ) 评价 “ 划 ” 方案 ; CA Te 并 设计 居 个 “套餐 ”方案 。 权 弄 的 假说 IN 和 统计 得 到 1) 和 的 通话 量 可 以 通过 以 往 的 经 验 和 统计 得 到 用 户 超出 和 不 超出 免费 通话 时 间 的 概 均 为 112 用 户 拨打 和 接听 电话 的 概率 均 为 1/20， 人 定 地 选择 定价 较 低 的 套餐 ) ah， 消费 者 不 发 生 品 牌 转换 行为， | ) 是 企业 在 给 出 套餐 定价 时 没有 相互 沟通 ， 独 立定 从 1 AN 1 问题 的 分 析 与 解决 FREE 二 和 s i 和 WaS 下 “ 杜 餐 ”适用 群 组 ， SS ， ee 本 本 EEAE 和 = 5el 和 AERRN, < 560， 60), z > 560, 全 SS < 2000 e\\ _ 0 000), z > 2000. A H B A 0 =1894.3, z; = 和 的 用 户 ， 不 选 大 Do 1500 的 用 户 分 别 网 0 和 移 择 适合 自己 的 1 ghies 0<2< 区 1666.67、z > 用 户 可 以 按 此 了 去 > i 县 时 用 本 神学/ 分 钟 ) ， 4 世 用 户 每 月 的 2 0ts +07t ww 和 - 本 0, | 二 回 成 过 动 回 q 数学 中 国 www. madio. net HEW TH fe g 本 本 E 199 40.1¢,, 并 nn SGE gs. 149 +0.3(t, ~- 500) 壮志 二 全 车 ， t <500, t3 > 500, 网 1 二 02( 一 500) 十 03(ta - 500), ¢, > 500， 刀 > 500， 299 + 0.1t,, 3 20040 t <1000, t; < 1000, 二 ¥yo= 15(ty ~ 1000) + 0.lt， 所 > 1000， t; < 1000, 3 39940.25(t, — 1000), 1 399 + 0.15(t, 一 1000) + 0.25(t 一 1000)， >1000, t > 1000. i1 f y=Y, W -人 =\\SS b 0:4t, +0.6t, = 49, ty <140, t; \\ -局 0.05t; 4 0.66 = 0, t>140, < 和 i : 0.4ty +0.3t = 0; f<14 140, 49 + 0.05¢; + 0:25t, =0, 121 站 > 140, 加 行 资费 与 套 父 4 的 基本 包月 费 相 等 哮 ; or ty 和 长 途 通话 时 间 ta 之 各 次 y> 芭 得 到 村 ¢ ° SA 7 ” 49 > 0.4t) +0 O t; <140, t; <140, 2 E. 了 ti>140, t<140, ， E. 020 13ta, 图 <140， 刀 > 140， TS s AHERTTTE, 与 长进 通话 时 间 @ 满足 40 六 0.46 十 0.6ta 时 ， 不 订 制 “套餐 \"个 击 其 他 博 况 出 订 ”合适 其 余 三 种 套餐 结论 类 似 可 得 回 。 r o: 江 二 本 上 科 利 用 细作 用 店 历 由 通话 量 来 分 析 的 “套餐 ”的 资费 计 用 户 确实 可 以 通过 以 往 站 上 人 坝 来 选 兹 运 谷 认 已 的 变 父 ， 而 运 痢 商 则 必需 对 用 户 消费 历史 从 RPU 进行 精确 分 析 ， 才 能 际 枪 朋 丰 获得 忱 杞 的 同时 ， 得 到 业务 收入 的 净 增 。 &.8 3 &s WERSERGHES iepde§ DSS 过 际 分 析 法 ”评价 次 #TEng RS is 纯 的 价格 竞争 ， 利 用 价 着 电 日 益 成 熟 和 训 争 的 全 加 充分 ， 电 信 运 营 企业 握 弃 单纯 人 二 Rh， 价格 睹 视 是 指 企业 在 出 售 完全 一 样 的 或 经 过 差异 化 的 同类 产 品 2 三 对 不 同 的 价格 。 2 0 本 函 数 ， 就 能 够 求 得 厂商 利润 最 大 的 解 = 街 量 完全 竞争 上 商 可 BAIT tbm A 于 全 天 节 贡 二 汪 地 本 天 大 二 轴 p 的 就 和 二 人 。 为 达 天 用 的 最 大 化 人 月 本 册 中 人 的 全 多 之 进 测 时 间 ， 并 不 有 RAEARUAOLE, 和 SRE 和 Ce 全 洒 全 和 全 “人 AR AN 人 回 成 过 动 回 q 数学 中 国 www. madio. net HEW TH fe g 本 本 E 199 40.1¢,, 并 nn SGE gs. 149 +0.3(t, ~- 500) 壮志 二 全 车 ， t <500, t3 > 500, 网 1 二 02( 一 500) 十 03(ta - 500), ¢, > 500， 刀 > 500， 299 + 0.1t,, 3 20040 t <1000, t; < 1000, 二 ¥yo= 15(ty ~ 1000) + 0.lt， 所 > 1000， t; < 1000, 3 39940.25(t, — 1000), 1 399 + 0.15(t, 一 1000) + 0.25(t 一 1000)， >1000, t > 1000. i1 f y=Y, W -人 =\\SS b 0:4t, +0.6t, = 49, ty <140, t; \\ -局 0.05t; 4 0.66 = 0, t>140, < 和 i : 0.4ty +0.3t = 0; f<14 140, 49 + 0.05¢; + 0:25t, =0, 121 站 > 140, 加 行 资费 与 套 父 4 的 基本 包月 费 相 等 哮 ; or ty 和 长 途 通话 时 间 ta 之 各 次 y> 芭 得 到 村 ¢ ° SA 7 ” 49 > 0.4t) +0 O t; <140, t; <140, 2 E. 了 ti>140, t<140, ， E. 020 13ta, 图 <140， 刀 > 140， TS s AHERTTTE, 与 长进 通话 时 间 @ 满足 40 六 0.46 十 0.6ta 时 ， 不 订 制 “套餐 \"个 击 其 他 博 况 出 订 ”合适 其 余 三 种 套餐 结论 类 似 可 得 回 。 r o: 江 二 本 上 科 利 用 细作 用 店 历 由 通话 量 来 分 析 的 “套餐 ”的 资费 计 用 户 确实 可 以 通过 以 往 站 上 人 坝 来 选 兹 运 谷 认 已 的 变 父 ， 而 运 痢 商 则 必需 对 用 户 消费 历史 从 RPU 进行 精确 分 析 ， 才 能 际 枪 朋 丰 获得 忱 杞 的 同时 ， 得 到 业务 收入 的 净 增 。 &.8 3 &s WERSERGHES iepde§ DSS 过 际 分 析 法 ”评价 次 #TEng RS is 纯 的 价格 竞争 ， 利 用 价 着 电 日 益 成 熟 和 训 争 的 全 加 充分 ， 电 信 运 营 企业 握 弃 单纯 人 二 Rh， 价格 睹 视 是 指 企业 在 出 售 完全 一 样 的 或 经 过 差异 化 的 同类 产 品 2 三 对 不 同 的 价格 。 2 0 本 函 数 ， 就 能 够 求 得 厂商 利润 最 大 的 解 = 街 量 完全 竞争 上 商 可 BAIT tbm A 于 全 天 节 贡 二 汪 地 本 天 大 二 轴 p 的 就 和 二 人 。 为 达 天 用 的 最 大 化 人 月 本 册 中 人 的 全 多 之 进 测 时 间 ， 并 不 有 RAEARUAOLE, 和 SRE 和 Ce 全 洒 全 和 全 “人 AR AN 人 国 y 3 加 下 刀 9 元 、 1397C. 199 ,, B76, 0:27GLL%40.15 7, AAA, SEANK3v 潭 向 A5592 : 汪 B b, {- o“Y. 全 a \\) 区 Xe SS 本 ysS 浊 \\ Q pit 3 INLC 本 0 亲王 。 MR 为 边际 \" 语 商 带 米 收 益 \\m : 区 Re 2 总 本 和 本 2 0 0 加 区 进一步 引 叶 六 当 过 较 低 人 hhk 8 Ak ER\" NA 7 这 说 朋 宁 通论 分 析 R 在 运 用- 话 红 有 所 站 的 d Eei 1 二 3 数学 中 国 ww. madio net RD 本 EAEE c BES: T0 125 “是 b _— h “$oT 09 奢 餐 * 的 p ARAR(7) was 国 大 居 包 售 主 \"分 作 二 209 网 行 主 o 分 人 厢 | lo | am mar os |em T475 国 起 出 委 餐 本 地 主 \" 资 党 (元 /分 钟 ) 和 | 0.626 且 现行 本 地 主 \" 坎 渴 (元 /分 外) ER = rrYY 4 人 人 [04 [ om | o3 |A - dad [oa | oa | oo Lpe ERPALRAXR ( 郊 /分 村) ， | 。 双生 本地 枚 吕 资 多 (元 /分 名 7 本 _sats < 2 PE VE. E BE mARRER Ct/ak) ~d eaRAgRXN T| xass 07 y QUW) ] os 8) “纳什 - 伯 特 兰 马 丛 ”模型 估算 成 本 打 及 广 在 不 同 的 “ 套 矢 \" 之 癌 转 换 会 给 运营 商 和 客居 请 交 各 来 一 系列 的 转换 成 本 支出 ， 因 此 区 细 争 者 产品 的 价格 一 降 再 降 : 7 客户 依然 能 够 保证 对 原 有 癌 牌 的 重复 购买 ， 这 种 现象 我 们 将 称 志 为 “顾客 锁定 ”。 拥 有 顾客 希 定 能 力 的 企业 可 以 堵 得 起 出 边际 成 本 以 上 的 超 儿 利润， 因 疡 推出 的 套餐 往往 出 现 某 种 程度 的 我 天 用 降 从 或 优 声 。 由 于 影响 转换 成 本 的 主要 因素 是 不 观测 的 《如 客户 搜寻 普 代 套餐 时 精品 杀 力 的 支出 ， 与 原 有 套餐 解除 关系 时 情绪 上 的 感知 和 这 些 只 能 被 看 作 人 们 情 下 上 的 效用 扫 失 ， 不 能 用 具体 的 数据 来 精确 计量 。 区 而 利用 “纳什 - 伯 特 兰 到 关公 杭 型 构造 转 扔 成 本 估算 函 数 ， 可 以 把 不 可 观测 的 变量 与 可 以 的 市 场 价格 和 市 场 份额 人 喘 系 起 来 ， 把 转换 成 本 作为 市 场 价格 和 市 场 份额 的 和 ”解决 欢 成 本 的 计量 问题 加 纳什 . 伯 特 兰 均 得 模 并 7 萝 到 市 场 候 首 丙 利 不 轻 ， 它 们 之 问 的 转换 成 本 为 零 ， 基 下 可 以 相互 普 代 ， 候 定 消费 者 理性 选择 定 本 次 从 的 硅 父 ， 如 果 两 种 大 父 定 价 相同 那么 就 不 会 发生 消费 者 品牌 转换 行为， 尘 和 党 是 固 近 刻 有 的 市 场 份 驰 ， 假 定 每 种 套 矢 各 分 得 市 场 总 需求 的 一 半 。 RRE H 9 = Q(p)， 每 种 套餐 面临 的 需求 函数 N QU)，P<zi er alpors) ={ $Q@), Pi=Pir ¢, 也 0, Pi > Pi» foi: ERREAN o WHRAHTR o- 因此 博 蛮 的 支出 函数 和 可 (ouD)= paai(Pii P4) —caai(PinPs) — = (eg 二 9 prege £ B 沟通 ， 可 以 观测 到 另 一 套餐 的 定价 ;只 是 在 自 : 枚 同时 选择 他 们 的 价格 ， 估 设 7 直流 的 一 个 ， 开 么 对 任意 记 88 预期 对 手机 的 定价 。 如 果 (phr}) 是 该 博弈 的 个 纳什 均衡 解 多 了 二 了 in — EigE BEri . L : 了 下 的 解 oo 过 到 重油 都 为 堆 。 在 现实 中 t y PHERFIER 11¢ RAEALRY Q, 的 Py 和 P5， 转 换 成 过 到 大 均 得 到 的 效用 . 汪 5 全 二 过 人 5 ZN fit) gHr= B 的 客户 为 ea E MAX 村 g p) { An lo E o ] 斋 区 Z E Da J 和 en Csp. 启示 会 被 对 方 控 按 走 的 前 提 下 省 价格 时 不 公 以 估算 双 弃 央 有 客户 ， 友 之 #. 91 - 了 F- 数学 中 国 www. madio. net 和 印 华 等 ， 手 机 “ 奕 餐 \" 优惠 几何 过 —| 蜂 允 于 请 足 这 条 属性 的 一 组 均衡 价格 六 5 C% 二 H.(Py, Pa) 我 们 有 下 面 的 结论 ; p 从 证 的 可 和 Go，4 大 和 和 定 的 最 价 7, 0 B ReReeaeneaa HERRIER 4 各 4， 有 BRUEZNRTN P, 必须 清 中 本 Ra= PaGa 2 (Py ~T)(Qu + Qa). 晤 套餐 制定 的 最 高 价 要 满足 这 样 的 约 来。 已 套 人 的 让 B 套 父 你 降低 价格 押 取 4 套餐 的 客户 来 增加 利润 5 会 继续 安 于 现状 ， 不 会 对 4 套餐 的 定价 行为 作出 反应 ， 亦 然 ， » Qa=Q4Ti Qp =Qp, 因此 可 以 唯一 确定 一 组 均衡 价格 > 国 时 坟 -Ca+cakos+zoar (on+ogajG@ SS 0 RENCIN0 际 正 每 种 套餐 的 转换 成 本 航 并 不 枯 同 ， 可 以 假设 下 四 有 丙 个 不 等 式 又 可 以 表达 为 办 人 8 » ~) X Ra = PaQa — Cia< Cou’> (PyTu) @ + Qs), 由 下 5= 有 Oo 一 CaA er 所 se +G 司 ; 际 呈 时， 可 得 二 > 人 @ ~ ~ o _5 _ PsQp—Gis26s S PyGa-Cia=C 7 三方 4 二 2 PiQA 一 Ca 一 CaA 四 “5 人 3 “全 免 ” 就 优惠 四? 提交 动 公司 207 年 5 月 光 提出 的 从 于 遂 裤 全 免费 计划 \"方案 ”此 方案 十 月 B07c, 未 地 被 叫 免 费 ， 其 他 损 目 昌 费 均 同 现行 的 资费 标准 ， 另 外 要 求 用 户 至 少 在 网 -年 。 各 加 全 免费 计划 灾 的 特权 : | 单 向 收费 h 按照 此 计划 ， 每 月 的 基本 费 为 50 元 ， 本 地 接听 电话 已 经 全 部 免 各 折 时 间 沽 少时 间 限 抽 ， 仅 计算 打 电话 的 费用 。 使 北京 全 球 通 千 户 迪 来 真正 意义 科 度 的 上 次 服 务 ， 庆 if 何 套餐 。 由 于 不 需要 选择 套餐 ， 不 需要 仔 组 计算 资费 简单 消 吐 ，“ 目 大 相 客户 理 名 、 记 忆 ， 此 计划 相 比 以 前 的 夺 和 ， 最 大 的 不 同 就 是 没有 套餐 的 门 检 让 本 县 交 生成 为 现实 ， 尤 其 对 于 以 本 地 通话 为 主 的 客户 ， 优 惠 可 达到 、 站 在， 受益 确实 证 风光 收费 ， 成 为 可 能 铺设 了 一 条 希望 之 路 ， 让 客户 看 到 了 “ 单 向 收费 ”的 项 和 玉宇 定 意义 下 的 “双方 共 赢 ” 。 对 移动 公司 来 讲 ，“ 单 癌 履 吧 可 以 增加 客户 群 ， 提 高 的 业务 量 。 限制 代 员 客户 。 “ 坡 思 全 免 计划 RitGRAZARR, hadligmaiic on. 辣 话费 故 额 不 超过 50 元 ， 而 50 元 的 月 租 费 ， 无 形 之 中 形成 J (18: 对 “ 畅 听 99 套 餐 ”客户 意义 不 大 。 “大 均 ”设计 考虑 价格 因素 二 史 最 * 因素 ,全 球 通用 户 的 范围 很 广 ， 用 户 的 历史 最 是 对 顾客 还 是 对 移动 公司 价格 是 最 直接 史 | 量 最 多 也 最 稳定 ， 号 码 、 大 和 等 更 的 频 匀 人 对 资 娄 也 不 太 在 意 。 玫 户 多 为 自 2 | 0 ElkizaAE B; a a8 | 而 | 求 最 高， [10} PERIMERAN, WLLii /; RUBERALA. 的 客 从 而 获 利 ， 习 能 在 几 个 特定 地 区 王浆 ， 客户 理解 各 项 SAS °\\ 3 二 \\8 re 是 价格 。 他 们 到 服务 项 | 而 民 移 动 公司 排出 SS 由“ R, 有效 区 殉 \" % o 和 接听 电话 的 概 鸯 惠 费 率 限制 MA 时 3 着 [Bee , 六 可 <- 7 N 全息 一 = 一 了 13 % 六 ,15689: 2 T 4 0.15689 389 | 04 0.1213101 1328 计 AS SR 和 人 5 回 品读 动 回 数学 中 国 www.madio. net 旺 二 曙 村 = WEW T qegg 优惠 几何 129 as 区 < 0. 4 33463， ar < 0.2834191， zii 芭 0.1788111， zsl < 0.4456034, 区 5 T12 S02576538, 了 1 <0.2146050, rz15 < 0.156892. 算 结果 为 区 二 011， z2l 一 0.16， rn = 0.3794642， zl = 0.505, zl = 0.62625, ’ =00L 22=005, 23=01, 2;=012, z5=015] Zj=0, F=1,--,5, Zyz = 05573655, za = 0，j = 1,3,45， r5=0, z5=05260651 Z5s = 0.4075, z55 = 0.37375, 5 z55 = 0.37375 3 内: Ke 了 高 、 中 、 低 淹 用 户 我 全 役 计 的 套 父 都 有 不 同 长度 的 免费 本 地 通 放电 条 ， 定制 套餐 金额 成 正比 的 ”这 种 结果 是 符合 套 从 设计 中 对 于 低 册 用 户 的 “ 僵 门 档 进入 策 指 辐 而 且 低 端 用 户 一 般 可 以 接受 69 元 的 套餐 定制 ， 但 比 起 中 痪 端 用 且 和 于 所 得 的 优惠 比 局 于 相对 的 以 高 通话 方式 进入 刘 洒 于 高 并 用 户 ， 则 得 到 的 多 让 :对 向 低 六 用 记 较 看 。 在 三 定 程度 上 上 可 以 培养 高 册 用 户 的 在 风电 诚 度 。 中 高 内 用 户 池 和 洽 资 费 部 有 不 同 程度 的 优 箱 合 了 全 球 通用 户 的 消费 心理 ， 能 够 更 好 的 吸收 中 高 端 讯 育 , 提高 用 户 的 满意 度 。 的 计算 结果 仍 有 不 足 ， 比 如 没有 体现 出 对 于 被 吧 下 DR& 数 据 业务 方面 的 优惠 :但 由 在 外 地 工作 ， 因 此 希望 能 在 儿 个 特定 地 区 给 予 沽 洲 上 isK。， 也 有 一 些 全 球 通用 户 认 郁 不 同 困 鞭 上 要 素 应 该 间 容 ， 比 如 漫游 和 短信 包月 的 级 合 打折 。 量 对 于 运营 商 来 讲 也 要 有 一 定 程度 的 芍 利 ， 从 放 Y d 用 户 转 网 记 便 ， 因 此 在 制定 移动 通信 资费 而 成 刘 多 关注 如 何 降低 离 网 素 ， 从 而 降低 运营 成 本 。 志 王 汞 新 用 户 所 消耗 的 成 本 是 保持 YY 吏 有 用 户 的 5 倍 ， 如 果 用 户 的 流失 率 降低 5%: 其 及 能 增长 25%~80%。 因 此 人 训 的 “忠诚 就 是 企业 的 效益 ， 从 而 提高 高 喘 用 户 的 忠诚 度 严重 要 的 。 所 以 我 们 在 保证 会 蒙受 损失 的 情况 下 ”应 该 给 用 户 最 大 程度 的 优惠 。 可 给 出 以 下 标准 如 发 3 历 不 了 中 表 3: 新 设计 _ v 超出 套餐 部 17951 国 内 IP 届 : 分 本 地 主 叫 本 地 被 叫 包 钨 数据 。 | REER ANNA (元 /分 钟 ) | 资 览 (元 /分 钟 ) | 业务 GPRS 流量 | 《分 钟 ) 吓人 资 蜗 (元 / r] oe 人 “生机 本 项 到 攻守 站 大吉 有 各 : Emm 1 C w | xm | 5 司 二 与 数 理 统 计 [MG PIARKEIRL 2000 NM 请 华 大 学 志 二 柱 ，300 全 波 ， 到 高 有 运 委 学 型 与 方法 加 全 分 析 国 WP 、 3 本 家 - 2 SEE 回 岂 车 双 加 本 a C: 区 2 “人 下 版 2002 济 配 管 现 学 院 ， 改 革 上 人 国 辐 lephone 本 -而 0002) SS NSSY ER ee ga round heory in the plan of 6d ai or and the principle for 8 hi 的 二 lly, according to the 和 Pan po c SN ,证 汉王 志和 o y 3 R7, © 外 W -加 /人 办 放 本 站 一 : 卫 3 4 p e 3 本 这 了 了 2 4",
+  "normalized_text_chars": 10279,
+  "normalized_text_sha256": "FFF112D7B16E831EE2493E2F92EDB33562365047A9E06B050622B5FC53966948",
+  "page_provenance_summary": {
+    "OCR": 11
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "AA200B3E45F640041E5AEE62702820D7F595FB9146AC1835B07DFE65E1AFA1C4",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "08F7880A4D99DBD3E78516C4050D0AD693E2287C312C15CF6FA7B021AD1AE430"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "A4AD71A9FFBF8ED400BD655EE5F8059FD708CAC3549F6CAEC84327009BC6FCE8",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "11D2BC16F3B4488FF52CF5E845800D3B22749F904776A754B02E4F35C717BDBB"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "F10DD65C6F8389427C0B8EB3233668B9811853821AF5F8B0660E9350BD30FD3E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "5E72CB37B0AF3845DFDB7C441848DEF1A35F9AC36BF8281E0E57C0900CD191F9"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "F10DD65C6F8389427C0B8EB3233668B9811853821AF5F8B0660E9350BD30FD3E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "5E72CB37B0AF3845DFDB7C441848DEF1A35F9AC36BF8281E0E57C0900CD191F9"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "C66328759E1CE454F38DC232A5D90D01351890A2FFB0CD25572176231CE57D86",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "42096DC45BB60FC0723968CA4718122AF23C06C641450A470F0F6EB56CF479A4"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "8C91C6A70E08C5A1E60A50DF1FC2964F7A4F368EF4976BB695FF672D1232E9E0",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "893DB178FF414987FBA8F4BB4E27D9E43F20394491F3CBCCB1A2E62E2C31D00C"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "74B978858A59E2A32DB274EBF8331C7F1C29EC758A974060EA780337A062476B",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "0C3768E96A54E1B07F3C4304D7F0E362210E7007B4F27B887E4B47ABF319274D"
+    },
+    {
+      "page_number": 8,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "195ECB5DAF51C89C205BE757D74175121A8D6CF409493D91EE180E26AD0986FD",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 8,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "53E05B554F431C53B3DD1FEAD11D83E5885D17B190142BED54DDB75E5CDF341C"
+    },
+    {
+      "page_number": 9,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "7CA1093F82017050562DF8224C7F36966FBC33F736A6CFF283BA083DBA704DCC",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 9,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "D6E44153E84B1BA2526875D5003189EDF9132B6F34E51DFBA901AB5344CD453B"
+    },
+    {
+      "page_number": 10,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "EF5A19D62E50FA276985DA0BADBBBC1AF0239FC935D2D3F37586F467DC88F719",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 10,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "45C2EE7DFD7B5F4917389E53F5A81680F80A2028EDFC3B06313949AB39D9FEE7"
+    },
+    {
+      "page_number": 11,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "C117C6D5BFB0C80AED00BA7E481E60133911C9CF3673FD331B5D8F06DC7E7548",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 11,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "E148AB9FBA06B4B667E2FAA4873F353E0F559FEA8E1F04DBADFD73DB45C4357F"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

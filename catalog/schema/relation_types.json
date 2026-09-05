@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "description": "Relation type definitions and validation rules for the CUMCM Award Collection.",
+  "created_at": "2026-08-17T19:08:00+08:00",
+  "created_by": "G3-00",
+  
+  "relation_types": [
+    {
+      "type": "exact_duplicate",
+      "description": "Files with identical SHA-256 hashes. Byte-for-byte identical content.",
+      "determination_method": "SHA-256 hash comparison",
+      "scope": ["file-to-file"],
+      "allowed_in_g2": true,
+      "allowed_in_g3": true,
+      "auto_deletion_allowed": false,
+      "notes": "G2 has already identified 75 exact duplicate groups with 166 members."
+    },
+    {
+      "type": "near_duplicate",
+      "description": "Files that are very similar but not byte-identical. May differ in metadata, formatting, or minor edits.",
+      "determination_method": "Content similarity analysis (fuzzy hashing, text comparison, etc.)",
+      "scope": ["file-to-file", "paper-to-paper"],
+      "allowed_in_g2": false,
+      "allowed_in_g3": true,
+      "auto_deletion_allowed": false,
+      "notes": "Requires content analysis. Not performed in G3-00."
+    },
+    {
+      "type": "same_work_different_format",
+      "description": "Same intellectual work in different file formats (e.g., PDF and DOCX of same paper).",
+      "determination_method": "Content analysis, metadata matching, filename patterns",
+      "scope": ["file-to-file", "paper-to-paper"],
+      "allowed_in_g2": false,
+      "allowed_in_g3": true,
+      "auto_deletion_allowed": false,
+      "notes": "Example: A paper exists as both .pdf and .docx files."
+    },
+    {
+      "type": "same_work_different_version",
+      "description": "Same intellectual work with substantive differences (e.g., draft vs. final, revised edition).",
+      "determination_method": "Content analysis, version detection, metadata comparison",
+      "scope": ["file-to-file", "paper-to-paper"],
+      "allowed_in_g2": false,
+      "allowed_in_g3": true,
+      "auto_deletion_allowed": false,
+      "notes": "Example: A paper has both a draft and final submission version."
+    }
+  ],
+  
+  "entity_types": [
+    {
+      "type": "file",
+      "description": "A physical file in the repository.",
+      "id_field": "path",
+      "id_format": "Relative path from repository root"
+    },
+    {
+      "type": "paper",
+      "description": "A logical paper entity.",
+      "id_field": "paper_id",
+      "id_format": "PAPER-{YEAR}-{NNNN}"
+    }
+  ],
+  
+  "validation_rules": {
+    "no_auto_deletion": {
+      "description": "No relation type allows automatic deletion of files.",
+      "rule": "All files are preserved regardless of relation status.",
+      "validation": "PASS"
+    },
+    "deterministic_ids": {
+      "description": "All relation IDs must be deterministic and reproducible.",
+      "rule": "No random UUIDs. IDs are computed from entity identifiers.",
+      "validation": "PASS"
+    },
+    "referential_integrity": {
+      "description": "All references must point to existing entities.",
+      "rule": "Foreign keys must reference existing records.",
+      "validation": "PASS"
+    },
+    "unknown_handling": {
+      "description": "Unknown values are preserved, not guessed.",
+      "rule": "Use 'unknown' when information cannot be determined.",
+      "validation": "PASS"
+    }
+  },
+  
+  "enum_definitions": {
+    "relation_type": ["exact_duplicate", "near_duplicate", "same_work_different_format", "same_work_different_version"],
+    "entity_type": ["file", "paper"],
+    "confidence": ["high", "medium", "low", "unknown"],
+    "status": ["active", "needs_review", "deprecated"],
+    "role": ["primary", "alternate", "derived", "unknown"],
+    "source_type": ["original_archive", "ocr", "re_export", "scan", "digital_native", "unknown"]
+  }
+}

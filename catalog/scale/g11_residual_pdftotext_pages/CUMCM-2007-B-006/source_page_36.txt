@@ -1,0 +1,156 @@
+sum(Time(t(i),:));
+x=x+1;
+end
+end
+end
+end
+end
+end
+end
+
+Fang_Sort2.m 第一问转乘 2 次
+
+clear Ux
+[n,m]=size(U);
+t=zeros(1,n);
+t1=[10^(5*5) 10^(5*4) 10^(5*3) 10^(5*2)
+10^(5*1)];
+for i=1:n
+t(i)=t(i)+U(i,1)*t1(1);
+t(i)=t(i)+U(i,2)*t1(2);
+t(i)=t(i)+t1(2)-U(i,6)*t1(3);
+t(i)=t(i)+U(i,7)*t1(4);
+t(i)=t(i)+U(i,8)*t1(5);
+end
+[t2,ix]=sort(t);
+t3=1;
+for i=1:n
+if t3>=2 && Ux(t3-1,4)==U(ix(i),4)
+&& Ux(t3-1,5)==U(ix(i),5)
+continue
+end
+Ux(t3,:)=U(ix(i),:);
+t3=t3+1;
+end
+
+clear Ux
+[n,m]=size(U2);
+t=zeros(1,n);
+t1=[10^(5*5) 10^(5*4) 10^(5*3) 10^(5*2) 10^(5*1)];
+for i=1:n
+t(i)=t(i)+U2(i,1)*t1(1);
+t(i)=t(i)+U2(i,2)*t1(2);
+t(i)=t(i)+t1(2)-U2(i,8)*t1(3);
+t(i)=t(i)+U2(i,9)*t1(4);
+t(i)=t(i)+U2(i,10)*t1(5);
+end
+[t2,ix]=sort(t);
+t3=1;
+for i=1:n
+if t3>=2 && Ux(t3-1,5)==U2(ix(i),5) && ...
+Ux(t3-1,6)==U2(ix(i),6) && ...
+Ux(t3-1,7)==U2(ix(i),7)
+continue
+end
+Ux(t3,:)=U2(ix(i),:);
+t3=t3+1;
+end
+
+研
+
+Fang_Sort4.m 第二问转乘 2 次
+clear Ux
+[n,m]=size(U2);
+t=zeros(1,n);
+t1=[10^(5*5) 10^(5*4) 10^(5*3) 10^(5*2) 10^(5*1)];
+for i=1:n
+t(i)=t(i)+U2{i,1}*t1(1);
+t(i)=t(i)+double(U2{i,2})*t1(2);
+t(i)=t(i)+t1(2)-U2{i,8}*t1(3);
+t(i)=t(i)+U2{i,9}*t1(4);
+t(i)=t(i)+double(U2{i,10})*t1(5);
+end
+[t2,ix]=sort(t);
+t3=1;
+for i=1:n
+if t3>=2 &&...
+strcmp(Ux{t3-1,5},U2{ix(i),5}) &&...
+strcmp(Ux{t3-1,6},U2{ix(i),6}) &&...
+strcmp(Ux{t3-1,7},U2{ix(i),7})
+continue
+end
+for j=1:m
+Ux{t3,j}=U2{ix(i),j};
+end
+t3=t3+1;
+end
+
+信
+
+公
+
+众
+
+号
+
+clear Ux
+[n,m]=size(U);
+t=zeros(1,n,'double');
+t1=[10^(5*5) 10^(5*4) 10^(5*3) 10^(5*2)
+10^(5*1)];
+for i=1:n
+t(i)=t(i)+U{i,1}*t1(1);
+t(i)=t(i)+double(U{i,2})*t1(2);
+t(i)=t(i)+t1(2)-U{i,6}*t1(3);
+t(i)=t(i)+U{i,7}*t1(4);
+t(i)=t(i)+double(U{i,8})*t1(5);
+end
+[t2,ix]=sort(t);
+t3=1;
+for i=1:n
+if t3>=2 &&...
+
+：
+科
+
+Fang_Sort3.m第二问转乘1次
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+ww
+
+流
+
+1.5 分层序列法排序程序段
+Fang_Sort1.m 第一问转乘 1 次
+
+strcmp(Ux{t3-1,4},U{ix(i),4}) &&...
+
+微
+
+strcmp(Ux{t3-1,5},U{ix(i),5})
+continue
+end
+for j=1:m
+Ux{t3,j}=U{ix(i),j};
+end
+t3=t3+1;
+end
+
+1.6 问题一 LINGO 求解程序（Lingo 版本 10.0）
+数据文件通过附录 1.7MATLAB 程序创建（运行顺序：附录 1.1~1.4）
+MODEL:
+sets:
+C/1..3957/:;
+roads(C,C)/@file('roads.txt')/:W,X;
+endsets
+data:
+34
+
+

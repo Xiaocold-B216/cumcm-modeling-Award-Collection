@@ -1,0 +1,73 @@
+sf = seolayfilt(Biorderyfranelen);  %SG
+
+13. k_deriva = diff(sgf2) xsG 数据 的 一 阶 求 导
+1 se = deriv25
+
+15. se -mapstd(sgfa) 数据 标准 化
+
+15. y_tiqu sef1(:tiqu_column);
+
+17. sg1(:, tiqu_column) = [];
+
+16. sf = [sgfliop];
+
+15. train - sgf1(:,1:200); XLAPEBAA
+20. test = sgfi(:,2015e00); XEARFHAL
+21. sim = test(end,5); 用 内
+
+22. test(end, ) -0
+
+23. % classificationtearner 此 外 调用 分 类 器 工具 箱
+20. % save('data2 .mat'，trainedhodell )
+
+25. load dataz
+
+26. yuce - trainedodel1 predictFen(test);
+
+27. yucel 。[158345857;857511;4;11;25931578; .。.% 这 是 用 模型 得 到 的 预测 OP
+07831439;719143916523513758533.，
+
+25. 15;17310;10312;4;751237373165251731156)
+
+30. plot(1:45,yuce, 'o')
+
+31. hold on
+
+32. plotGl4s,sim XERRTE SREA
+1. wtgas
+
+2 ar
+
+3. a= scead(CHHfE 3.Adsx, EAN);
+rend,1D)5y = a(2:end 2iend);
+
+5. XRREEHEH
+
+5. tiqu_column - [4 15 22 38 31 45 74 114 170 209];
+
+7. op -yl
+
+5. op(:, tiqu_colusm) = [1;
+
+o. 8 = y(2iend, );
+
+10. order = 5;
+
+11. franelen = 11;
+
+12. sef = sgolayfilt(8,order, franelen);  %SG
+
+13. k deriva = diFF(s85,2); xsG SHT—BIRE
+1 se - K_derivz;
+
+15. sgfl = mapstd(sgr1); 数据 标准 化
+
+16. y_tiqu 。 sef1(:vtiqu_column);
+
+17. sefa(:tiqu_colum) - [1;
+
+1 sf = [sgfliop];
+
+15. tratn = sgfi(:,1:200); XAPERA
+20. test = sgfi(:,2015e0a); XEAFHALA
+21. sin = test(end, ); xtn

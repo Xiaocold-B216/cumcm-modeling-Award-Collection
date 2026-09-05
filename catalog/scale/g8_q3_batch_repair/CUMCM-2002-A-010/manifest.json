@@ -1,0 +1,62 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-2002-A-010",
+  "source_path": "2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：关于_车灯线光源的优化设计_问题的光学思路.pdf",
+  "source_sha256": "16DCD597E798C80E8E319B2B83D346F91C7EE0C24D99C49E486B2AF636DC017D",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 3,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 3,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "更 二 三 虹 1 第 2 疮 第 5 其 工程 数学 学 报 waaomas 200? 年 明月 JOURNAL OF ENCINEERING MATHEMATICS Mr 2003 ——————————— 文章 编号 :1005-3085(2003)05-0071-03 关于 “车 灯 线 光源 的 优化 设计 ”问题 前 光学 思路 外 《上海 市 数 光 填 术 研究 所 ,上 海 200233) 2 摘 ee 行 象 散光 束 分 析 ,讨论 了 车 灯 线 光源 的 优化 设计 问题 的 解 题 思路 。 关键 词 : 线 光源 ;抛物 面 反射 镜 As 分 类 号 :AMS(2000) 49K35;78A55 中 图 分 类 号 :0224;029; Ma . 文献 标识 码 :A 了 全 ——— 是 抛物 面 反射 镜 , 且 为 镜面 反射 , PR 是 在 焦点 忆 上 的 线 光源 ,4BC 是 测量 照度 的 屏 ,要 求 在 满足 所 给 的 条 件 下 计 算出 线 光源 长 度 和 屏 上 的 照度 分 布 , 并 进行 相关 讨论 。 问题 中 的 光线 传播 可 用 图 ee 播 理论 来 讨论 ; 屏 上 的 照度 可 用 图 2 周末 北 度 学 的 光束 来 讨论 4 最 后 综合 出 答案 。 人 人 面积 称 为 光亮 度 ,本 题 的 线 闫 温 上 各 点 的 同方 向 上 的 光 亮度 者 假定 相同 题目 中 的 线 吕 源 应 该 和 其 他 光源 一 样 的 六 人 下 (和 二 和 记 放生 人 (和 从 定律 ) 即 宅 的 发 光 强 度 7 与 其 方位 角 $ 的 余 疙 成 正比 ， 5 1 = 1oa CO 图 1 反射 路 线 全 [要 少 直 来 亮度 都 均匀 相同 ,如果 把 它们 看 成 是 由 一 个 个 点 光源 串 成 的 一 条 直线 , 且 发 光 强度 全 最 ,为 cos # 售 ;而 如 果 所 有 发 光 点 进 到 眼睛 里 的 光 和 正面 看 时 一 样 的 多 ,结果 就 比 正 面 看 时 要 亮 , 为 1/ cos # 倍 ,而 大 阳 这 个 光 球 看 起 来 也 会 边 上 比 中 间 亮 得 多 ,这 些 都 是 不 符合 实际 的 。 因 此 本 题 屏 上 的 昭 庆 公式 应 该 都 乘 上 sin w。 另 一 方面 ,经 过 理想 化 处 理 以 后 的 问题 总 是 与 实际 情况 会 有 不 少 的 出 和 人 ,光学 实际 灯 管 ,加工 装配 误差 等 都 使 其 偏离 理 想 情形 。 而 本 是 主要 是 数学 讨论 ,所 以 PR 线 光 源 最 好 假定 为 实际 生活 中 不 存在 的 透明 光源 ,如 果 线 光源 挡 交 了 ,在 图 1 上 的 刀 和 (点 就 会 正好 是 处 于 整个 屏 面 上 照度 突然 小 很 多 的 一 段 线 上 ,使 本 是 更 Bw 外 72 工 程 数 学 学 报 第 20 卷 要 求 的 线 光源 长 度 与 屏 上 的 照度 分 布 的 关系 有 影响 ,不 利于 较 好 的 数学 讨论 。 三 点 向 0 点 发 射 的 光束 称 同心 光束 , 它 遵循 平方 反比 定律 , 即 点 光源 关于 垂直 照射 面 上 的 照度 与 到 该 面 的 距离 平方 成 反比 。 因 此 本 题 屏 上 的 照度 公式 上 应 该 乘 以 (PQ)-” , 它 的 反 射 光 在 反射 点 0 附近 照度 也 应 与 此 相同 ( 见 图 2) 。 c 在 反射 点 Q 处 用 几何 光学 中 关于 光线 反射 定 AR 律 的 方程 :B = A—2n(A\"n), XE 4 为 人 射 光 向 P / (2 量 ,有 为 反射 光 向 量 ,n 为 反射 面 上 人 射 点 处 的 单位 pe 区 法 向 量 ,(4”n) 为 4 与 n 的 标 积 * 用 这 个 公 均 可 以 \\ # 计算 本 题 的 光线 传播 问题 。 V <R Q 点 向 C 点 发 身 的 光头 是 象 数 光束 还 是 近似 地 ° cp ) 作为 平行 区 丙 要 眼 据 计 算 的 结果 来 选取 。 当 一 个 发 光 图 2 4 PRIPILN 04 距离 很 远 时 , 它 昭 镜片 上 一 般 者 会 产生 图 3 的 情况 /为 raar 得 清晰, 图 3 用 透镜 来 表示 反射 情形 )。 如 果 发 光 点 己 在 光 轴 04 这 焦 线 和 弧 矢 焦 线 就 不 分 离 ,它们 或 者 合成 一 个 焦点 ,或 者 如 本 题目 中 所 产生 的 平生 关 , 如 果 发 光 点 P RAEE 光 轴 04 ,结果 或 者 是 图 JERTTRARAEARLGRING 者 如 本 题 中 它们 离 光学 系 统 部 非常 过 ,其 至 近似 为 没有 依 线 的 平行 来 .本题 的 组 关 源 纺 可 训 光 机 04 的 中 高 是 半 个 线 光源 的 长 度 ,好 在 最 远 发 光 点 离开 光 轴 不 远 ,因此 可 以 从 线 深 源 的 一 端 向 抛物 面 反射 镜 边界 作 几 条 光线 (如 图 3) ,并 计算 出 反射 光线 的 相交 情况 ,看 两 条 焦 线 是 否 离开 光学 系统 很 远 ,或 者 几 平 没有 .如果 是 这 样 ,0 点 向 C 点 发 射 的 光束 就 可 以 近似 地 作为 平行 光束 ,否则 就 是 杀 区 光束 ， 就 需要 考虑 屏 上 的 光 班 形状 。 妙 被 照 屏 ABC 上 的 照度 与 ho 0 光线 人 射 角 ( 屏 面 的 亚 乡 -es 1 04 与 0C 的 夹 角 )8 的 余 弦 成 SS 正 此 ,过 是 归 诬 的 余下 法则 ( 丈 | < 一 为 布 给 定律 )。 因 此 本 晤 屏 开 的 NT 照度 公式 应 该 —7 了 c asy TU 2 送信 个 ， 眶 加 原理 , 即 , 准 屏 舍 记得 到 的 总 焦 % BIE 4 TRE F RR, 线 # AR . TRE E , ER 线 相同 照度 点 连 成 曲线 , 称 为 图 3 几 条 光线 反射 图 等 照度 线 。 至 于 PR 线 光源 直接 射 到 屏 上 的 光 在 这 里 可 忽略 不 计 , 因 为 直射 光 与 反射 光 在 屏 上 的 照 度 之 比 (PQ/ 到 六 ~ 10\"*, 太 小 了 。 另 外 ,如 果 在 屏 上 的 照度 的 公式 上 乘 ( PO)- ,就 是 将 抛物 面 反射 镜 看 成 漫 射 反光 面 , 与 镜面 反射 的 题 意 不 符 。 解 题 基本 的 方法 是 先 算出 从 一 点 己 到 一 点 Q ,再 到 一 点 C 的 屏 上 照度 的 关系 然后 再 对 所 有 的 P 和 0 计算 成 总 照度 这 种 方法 具有 通用 仁 , 但 是 只 有 最 终 的 结果 ,不 好 做 出 阶段 性 的 正 误 判断 。 EisE i i 第 5 期 关于 \"车 灯 线 光源 的 优化 设计 ”问题 的 光学 思路 73 利用 本 题 的 特点 ,也 可 以 先 从 一 点 已 出 发 ,经 过 抛物 面 反射 镜 上 所 有 可 能 的 0 点 ,到达 屏 上 C 点 ,再 对 相应 的 照度 进行 套 加 ,组 成 分 照度 。 然 后 ,再 把 对 所 有 已 点 所 对 应 的 分 照度 和 玛 加 。 这 种 方法 的 好 处 是 在 计算 分 照度 时 就 可 以 知道 是 否 有 大 的 差错 。 比 如 对 应 于 严 点 ,在 屏 上 的 分 照度 所 显示 的 光斑 的 半径 应 该 是 抛物 面 反射 镜 开口 半径 36 毫米 ,对 于 其 他 的 己 点 也 不 应 该 有 大 的 出 人 ,如 果 差 得 很 大 , 则 计算 错 了 。 按 照 这 种 设想 ,可 以 直接 得 到 走 计 到 C 点 时 所 需要 的 线 光 源 粗略 长 度 上 ,得 到 了 上 ~ 3.12 毫米 . 即 1EFO = 2* 42140。 古 为 线 光源 上 一 点 发 的 光 被 抛物 面 反射 镜 反 射 时 ,会 象 探照灯 一 样 的 把 苇 东 上 是 平行 的 光 下 射 到 另 一 边 的 屏 上 ,而 屏 上 光斑 的 半径 如 果 与 36 毫米 差 不 太 多 的 话 , 则 比 起 4C 20 专员 4， 所 以 取 这 样 的 近似 是 合理 的 , 姑 果 最 终 得 烈 的 了 与 此 闪 得 很 多 则 是 计算 错 了 2 ss 当然 如 果 先 戏 一 点 0 ,并 对 所 有 尸 点 进行 计算 ,再 对 所 有 @ 进行 计 ;如 果 许 镜 的 结果 是 正 碗 的 ,方法 如 果 能 够 做 到 较 方便 一 些 , 则 也 是 一 个 方法 。 7 ) J 参考 文献 : X [1 王 之 江 .光学 技术 手册 (上 册 ) .机 械 工业 出 版 社 ,1994 ,pl < An Optical Thinking About the Problem of ou for Linear Headlight Source” TANG Wu (Shanghai my Laser Tectiology ，Shanghai 200233) Abstract: In this paper，the thinking to solve the 2 design for linear headlight source is discussed by using optical meth- ods that contain Lambert's (cosine) law'af light Source., the vector equation of ray reflection law，the illumination distribution，the homo- centric beam and the sstigmatic beam - is of approsimate paralll beam etc. Keywords: Linear light 2 -~---------- 和 <- ---------------- (上 接 93 页 ) ] | Optimum Design on Lottery Schemes Y XI Yue, DOU Wen, GAO Yun-ging Advisor: ZHANG Zhi-qiang : - : (Southeast University, Naning 210096) pre o 2 ECobability of each prize item and the setting of the prize item and the prize were researched ，and the effects on rationality of thelohtery scheme caused by lottery attraction for lottery fans were also discussed. Two problems were analyzed，Jn first problem, the as ve gven. Rationality of each scheme was numbered by faint general method and was measured by giving the coefficients to effect on the rational factors, and the result showed that the schemes 26 and 27 are the best schemes, which their rational factor are 0. 5300 and 0.6414. Then the stability of the model was analyzed.. In secondary problem, about 29 schemes in the first problem, the ration- ality of each scheme was computed by linear optimization, which their best rationa] factor and setting of best prize item were computed by Lingo software. In the final, the other factors about the model were more discussed and some kind advice was brought forward to mansge- ment and lotery fan. Keywords: probability; distribution and setting of the bonus; the attraction; the rationality of the Lottery schemes; Fuzzy Evaluation .",
+  "normalized_text_chars": 5690,
+  "normalized_text_sha256": "E2EF1C0838CF70630BFAEA5F2910574FC296ABF4A148084B3209E5F0DBBC25A2",
+  "page_provenance_summary": {
+    "OCR": 3
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "F44BD43CAA73A70DEEE87F56E738ED69B624FF08198B36136EF88A74320FF4B0",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "F7B369512C21DCBDF4AFF48AC05A704EBE3871000B521DB8F29F2B74E6F4BA63"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "EF99B7E0EF9F1F1EBD69507B91CA37250C4D965B959321CCCA3B6111AB264E7E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "DC07AF07B7E81AC8354C0F0DF84F3099C18444FF53464601EAE86E6042E092E1"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "F76C6DE4DD18B87D02D45CF422054925835101EF3042F7DB56E24CEA521CE1F3",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "89322C4B6F09075A02C74739BA7F7DAB2603ABB1E0F876DA1C2C202CB9F7CC08"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

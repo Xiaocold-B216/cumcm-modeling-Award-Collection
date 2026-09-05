@@ -1,0 +1,78 @@
+前 和 撒 搬 搬 者 和 弄 和 和 刑天 条 阐 题 :
+
+import pandas as pd
+
+import numpy as np
+
+import matplotlib.pyplot as plt
+
+import seaborn as Sns
+
+import statsmodels
+
+import xgboost as xgb
+
+import time
+
+import math
+
+import lightgbm as lgb
+
+from sklearn.model_selection import train_test_split # 划分 数据 集
+
+from sklearn.svm import SVC
+
+from sklearn import metrics  # 引入 包含 数据 验证 方法 的 包
+
+from sklearn.model_selection import GridSearchCV
+
+from sklearn.model_selection import cross_val_score
+
+from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
+
+from sklearn.ensemble import RandomForestClassifier
+
+from sklearn import ensemble
+
+from sklearn.neural network import MLPClassifier
+
+几 读 入 原始 数据
+
+data =pd.read_csv(Q2_feature 20icsVD
+
+dataa =pdreadiexeel(YUCEAfeature' 20.xlsx)
+
+feature. data = data[~data[ OP|.isna()] # 正则 方式 除去 空 标签 值 (sheetl)
+
+X =feature_data.iloc[:, :-1]
+
+Y =feature_data.iloc[:, -1]
+
+# 数 据 集 划分
+
+X_train, X_test, y_train, y_test = train_test_splitCX, Y, test_size=0.2, random_state=0) # 数据 集 划分
+
+#SVC
+
+tuned_parameters = [fkermel: (linear’, 'rbf’, 'sigmoid'), 'C': np.logspace(-3, 3, 13), 'gamma’: np.logspace(-3,
+3,13)}] # 备 选 参数 列表
+
+opt_clf = GridSearchCV(SVC(), tuned_parameters)
+
+opt_clf.fit(x_train, y_train)
+
+print(opt_clf.best_params )
+
+final clf= SVC(C=3.1622776601683795, kernel=rbf, gamma=0.01, decision_function_shape="ovr')
+
+final clf= SVC(C=3.1622776601683795, kernel=rbf', gamma=0.01, decision_function_shape='ovr')
+
+pfitness = cross_val_score(final_clf, X, Y, cv=5,scoring=precision_macro').mean()
+
+rfitness = cross_val_score(final_clf, X, Y, cv=5,scoring=Trecall_macro').mean()
+
+ffitness = cross_val_score(final_clf, X, Y, cv=5,scoring=1{1_macro’).mean()
+
+afitness = cross_val_score(final_clf, X, Y, cv=>5,scoring=accuracy').mean()
+
+29

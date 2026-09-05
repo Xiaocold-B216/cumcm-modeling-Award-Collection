@@ -1,0 +1,21 @@
+B_7(-108,4);
+L |
+data_return(i,8) = log(data_return(i,8));
+mean_data = mean(data_return(:,));
+std_data = std(data_return(,);
+data_return(j,i) = (data_return(j,i)-mean_data)/std_data;
+
+LE 所 kw |
+data_retumtoT6% 读 取 自 交 量 数据 拓 阵
+YI-data_retum(:7j*data_retum( 8% 污 取 因 变 量 数据 短 阵
+ET
+iodel=16)。。% 进 入 模型 的 变量 为 前 7 个
+stepwise(x,yl,inmodel) 。% 逐 步 回归
+betassoluyl) ylasso 可 间 也 可 以 用 交 画 归
+
+| < 区 汪 -Rn |
+rcorW。% 查 看 自 变 最 数 据 卸 阵 的 相关 系数 窍 了
+
+s
+路 MEASERL
+OXS. 11706.90V. co7

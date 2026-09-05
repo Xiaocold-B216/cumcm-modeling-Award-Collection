@@ -1,0 +1,94 @@
+# G11 Targeted Visual Diagnostic Manual Decision Transcription
+
+## Stage result
+
+- `STATUS=BLOCKED`
+- `BRANCH=library-refactor-v1`
+- `HEAD=557724fba6572d4d83dc421feda5b17b13ff8d66`
+- `TRANSCRIPTION_ATTEMPT_ID=g11-targeted-visual-manual-decision-transcription-b59b693f24c4d51f`
+- `TARGETED_VISUAL_ATTEMPT_ID=g11-targeted-visual-diagnostic-ab46dea43f4ccbcd`
+- `MANUAL_DECISION_SOURCE=USER_EXPLICIT_HUMAN_VISUAL_REVIEW`
+
+## Blocking evidence
+
+The user supplied the human decision that all 53 rendered pages are `SUBSTANTIVE_CONTENT`. Before transcribing it, the task contract requires the legal completed `review_status` value to be read from the Review Guide. The current guide explicitly says that rows begin as `PENDING`, but it does not define a completed value such as `REVIEWED`, `COMPLETED`, or `DONE`.
+
+Because the completion enum is unspecified, this stage fails closed with `BLOCKER=REVIEW_STATUS_ENUM_UNSPECIFIED`. No value was invented and no decision row was changed.
+
+## Frozen decision-sheet check
+
+- Decision rows before=`53`; unique `paper_id + source_page` keys=`53`.
+- Pending rows before=`53`.
+- Decision sheet SHA256 before/after=`25AC5D7D871B4E89FD8BFEDB89BEC7DCF21A885D99C5FB6D72C03FC011C4536B`.
+- `SOURCE_VISUAL_CLASSIFICATION_MODIFICATION_COUNT=0`.
+- `REVIEWER_COMMENT_MODIFICATION_COUNT=0`.
+- `REVIEW_STATUS_MODIFICATION_COUNT=0`.
+- `OTHER_COLUMN_MODIFICATION_COUNT=0`.
+
+The user decision has therefore not yet been applied to the CSV. Counts after the blocked attempt remain pending=`53`, substantive=`0`, legitimate noncontent=`0`, unclear=`0`.
+
+## Provenance and safety
+
+`MANUAL_DECISION_SOURCE=USER_EXPLICIT_HUMAN_VISUAL_REVIEW` records the stated origin. `AUTOMATED_VISUAL_CLASSIFICATION_RUN=0` and `CODEX_INDEPENDENT_VISUAL_JUDGMENT=0`. Codex only transcribed after a valid completion enum could be established; that prerequisite was not met.
+
+No original G11 decision, formal artifact, index, eligibility, backlog, source, or packet was modified. No OCR, PDF rendering, extraction, approval, G9, G10, G12, network access, or dependency installation occurred.
+
+## Outputs
+
+- `catalog/scale/g11_targeted_visual_manual_transcription_result.json`
+- `reports/scale/G11_TARGETED_VISUAL_MANUAL_TRANSCRIPTION.md`
+
+## Next
+
+Specify the completed review-status enum in `reports/scale/G11_TARGETED_VISUAL_DIAGNOSTIC_REVIEW_GUIDE.md`, then rerun this transcription stage. Do not run approval before the 53 rows are actually transcribed and validated.
+
+```text
+STAGE=G11-TARGETED-VISUAL-DIAGNOSTIC-MANUAL-DECISION-TRANSCRIPTION
+STATUS=BLOCKED
+MANUAL_DECISION_SOURCE=USER_EXPLICIT_HUMAN_VISUAL_REVIEW
+DECISION_ROW_COUNT_BEFORE=53
+DECISION_ROW_COUNT_AFTER=53
+DECISION_UNIQUE_PAPER_PAGE_COUNT_AFTER=53
+TARGETED_VISUAL_PENDING_COUNT_BEFORE=53
+TARGETED_VISUAL_PENDING_COUNT_AFTER=53
+TARGETED_VISUAL_SUBSTANTIVE_COUNT=0
+TARGETED_VISUAL_LEGITIMATE_NONCONTENT_COUNT=0
+TARGETED_VISUAL_UNCLEAR_COUNT=0
+COMPLETED_REVIEW_STATUS_VALUE=
+REVIEW_STATUS_ENUM_SPECIFIED_IN_GUIDE=0
+DECISION_SHEET_SHA256_BEFORE=25AC5D7D871B4E89FD8BFEDB89BEC7DCF21A885D99C5FB6D72C03FC011C4536B
+DECISION_SHEET_SHA256_AFTER=25AC5D7D871B4E89FD8BFEDB89BEC7DCF21A885D99C5FB6D72C03FC011C4536B
+AUTOMATED_VISUAL_CLASSIFICATION_RUN=0
+CODEX_INDEPENDENT_VISUAL_JUDGMENT=0
+G11_ORIGINAL_DECISION_MODIFICATION_COUNT=0
+FORMAL_DATA_MODIFICATION_COUNT=0
+FORMAL_ARTIFACT_CONTENT_MODIFICATION_COUNT=0
+FORMAL_ARTIFACTS_MODIFIED=0
+FORMAL_INDEX_MODIFICATION_COUNT=0
+IDENTITY_MODIFICATION_COUNT=0
+MEMBERSHIP_MODIFICATION_COUNT=0
+FORMAL_ELIGIBILITY_MODIFIED=0
+BACKLOG_MODIFICATION_COUNT=0
+ORIGINAL_FILES_MODIFIED=0
+OCR_RUN=0
+Q3_OCR_RUN=0
+PDF_RENDER_RUN=0
+PDF_INSPECTOR_EXTRACTION_RUN=0
+PDFTOTEXT_EXTRACTION_RUN=0
+EXTRACTION_RUN=0
+BODY_RECONSTRUCTION_RUN=0
+ARTIFACT_REGENERATION_RUN=0
+REVIEW_PACKET_REGENERATION_RUN=0
+G9_REBUILD_RUN=0
+G10_REBUILD_RUN=0
+G12_RUN=0
+NETWORK_ACCESS_USED=0
+DOWNLOAD_RUN=0
+NEW_DEPENDENCY_INSTALLED=0
+WORD_RUN=0
+WORD_COM_RUN=0
+DOC_CONVERSION_RUN=0
+GIT_OPERATIONS=0
+BLOCKER=REVIEW_STATUS_ENUM_UNSPECIFIED
+NEXT=REVIEW_STATUS_ENUM_SPECIFICATION_REQUIRED
+```

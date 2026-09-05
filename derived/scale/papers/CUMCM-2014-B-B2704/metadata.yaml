@@ -1,0 +1,31 @@
+paper_id: CUMCM-2014-B-B2704
+year: 2014
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌/B27042017_吴俊锋_谭翔飞_庄重.pdf
+  sha256: 4B7F3A2DE5FC6AAA17E1C35B33B59AAFA63021963D53BD6F694493D453C44F54
+authority_sha256: 4B7F3A2DE5FC6AAA17E1C35B33B59AAFA63021963D53BD6F694493D453C44F54
+paper_file_memberships:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌/B27042017_吴俊锋_谭翔飞_庄重.pdf
+  role: primary
+  canonical: true
+primary_file: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌/B27042017_吴俊锋_谭翔飞_庄重.pdf
+extraction_inputs:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014B：创意平板折叠桌/B27042017_吴俊锋_谭翔飞_庄重.pdf
+  sha256: 4B7F3A2DE5FC6AAA17E1C35B33B59AAFA63021963D53BD6F694493D453C44F54
+  kind: original
+extraction_input_sha256: 4B7F3A2DE5FC6AAA17E1C35B33B59AAFA63021963D53BD6F694493D453C44F54
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 25
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

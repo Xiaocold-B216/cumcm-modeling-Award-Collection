@@ -1,0 +1,12 @@
+{
+  "attempt_id": "20260905T052426168683Z_557724fba657",
+  "stage": "G9-INDEX-REFRESH-AFTER-G11-REPAIR",
+  "phase": "PHASE_7_FINAL_GATE",
+  "status": "PASS",
+  "started_at": "2026-09-05T05:24:26.168667Z",
+  "updated_at": "2026-09-05T05:25:03.363234Z",
+  "formal_index_csv": "catalog/scale/g9_paper_index.csv",
+  "formal_index_jsonl": "catalog/scale/g9_paper_index.jsonl",
+  "post_refresh_index_csv_sha256": "2E22999E3B44508652F3BB27F3B13B3A6222EC998D26F37FEE6A5D8E4EE75939",
+  "post_refresh_index_jsonl_sha256": "60DEDA60A2B1EFAB1098EB044C205D6F6F8C70FE64140D751C54879D8FC8EE4A"
+}

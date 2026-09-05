@@ -1,0 +1,47 @@
+paper_id: CUMCM-2007-B-012
+year: 2007
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《公交线路的综合选择》.pdf
+  sha256: 14A15A05719CD6E28F81FCCD62C92ECC929776345A587DA5FF72A7E1E60F4EFD
+authority_sha256: 14A15A05719CD6E28F81FCCD62C92ECC929776345A587DA5FF72A7E1E60F4EFD
+paper_file_memberships:
+- path: 2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《公交线路的综合选择》.pdf
+  role: primary
+  canonical: true
+primary_file: 2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《公交线路的综合选择》.pdf
+extraction_inputs:
+- path: 2007年数学建模国赛真题+优秀论文/2007年优秀论文/2007B：《公交线路的综合选择》.pdf
+  sha256: 14A15A05719CD6E28F81FCCD62C92ECC929776345A587DA5FF72A7E1E60F4EFD
+  kind: original
+extraction_input_sha256: 14A15A05719CD6E28F81FCCD62C92ECC929776345A587DA5FF72A7E1E60F4EFD
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 18
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_10.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_11.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_12.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_13.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_14.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_15.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_16.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_17.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_18.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_7.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_8.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2007-B-012/source_page_9.txt"]
+  source_sha256: 14A15A05719CD6E28F81FCCD62C92ECC929776345A587DA5FF72A7E1E60F4EFD
+  current_body_sha256: 14D8528FC968004FC8DD14B575D262C98BD939F9297B9AEDD7B708CE050FC0AD
+  candidate_body_sha256: 39D29160679274A65B40E08A15A3C0B584C86016923889DE56AB25C2D6E2AF08
+  source_page_count: 18
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

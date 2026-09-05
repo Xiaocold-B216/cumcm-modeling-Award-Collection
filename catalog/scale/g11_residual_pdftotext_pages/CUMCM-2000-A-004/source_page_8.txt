@@ -1,0 +1,108 @@
+1期
+
+韩轶平等: DNA 序列的分类
+
+45
+
+51 反复学习样本, 到权重值稳定收敛.
+61 代入待分类样本, 分类.
+
+用上述算法所得到的结果与普通的分类模型没有区别. 事实上当权值稳定收敛后, S =
+a 3 na + b3 n t + c 3 ng 就是特征空间的一张 ( 超) 平面, 从这一点来说, 人工神经网络模型与
+一般的距离分类模型得到的结果没有两样. 考虑到人工神经网络模型还存在结果对初值有
+
+6
+
+流
+
+较强敏感性, 缺乏选择理想步长的准则和收敛性等问题, 在一定的时间内, 我们无法较好的
+解决这些问题, 所以我们也没有作进一步讨论.
+
+算法的稳定性
+
+交
+
+前面比较算法的时候, 曾多次提到分类算法的稳定性问题. 分类算法的稳定性是除了
+算法的成功率之外的另一较重要的指标. 所谓分类算法的稳定性, 是指算法在样本发生了
+轻微变化时作出正确判别的能力. 对于本题, 是指算法在样本序列发生了轻微的碱基缺失,
+
+：
+科
+
+研
+
+错位, 错排情况时作出正确判别的能力. 因为本题要求我们研究的是DNA 序列粗粒化和模
+型化的问题, 所以分类时是对序列的整体特征进行区分. 局部碱基的组成变化应该对算法
+的分类结果没有影响. 我们所提出的几个模型均较好的满足了这一点.
+参考文献:
+
+孙乃恩, 孙东旭, 朱德煦. 《分子遗传学》1 南京大学出版社, 19961
+
+[2]
+
+白其峥 1《数学建模案例分析》1 海洋出版社, 20001
+
+[3]
+
+潘德惠 1《数学模型的统计方法》1 辽宁科学技术出版社, 19861
+
+[4]
+
+阎平凡, 黄端旭 1《人工神经网络》1 安徽教育出版社, 19911
+
+[5]
+
+李振刚 1《分子遗传学概论》1 中国科学技术大学出版社, 19901
+
+号
+
+[1]
+
+19961
+
+公
+众
+
+[ 6 ] D uane H an selm an 1B ruce L ittlefield《M astering M A TLAB: a com p rehen sive tu to rial and reference 》
+1 P ren tice H all,
+
+微
+
+信
+
+Cla ssif ica tion of D NA Sequences
+
+Abstract:
+
+HAN Y i2p ing,
+
+YU H ang,
+
+(Zhejiang U n iv. ,
+
+H angzhou
+
+L IU W e i
+310027)
+
+T h is p ap er p ropo ses severa l m ethod s fo r the cla ssifica tion of DNA sequences. W e
+
+no ticed tha t d ifferen t sequences have d ifferen t a lka li rad ica ls and therefo re set up m odels u sing
+Euclidean d istance, M aha lanob is d istance and F isher p rincip le. W e a lso no ticed tha t d ifferen t
+sequences have d ifferen t p erm u ta tion s of a lka li rad ica ls and an a lgo rithm u sing rela tivity
+ana lysis is p ropo sed.
+
+Fu rther w e d iscu ssed a rela tivity ana lysis a lgo rithm w ith feed 2back
+
+m echan ism. A s to the na tu ra l and a rtificia l da ta g iven ou r a lgo rithm s w o rk w ell and fine resu lts
+a re g iven.
+
+A t la st severa l o ther comm on a lgo rithm s a re com p a red, esp ecia lly on their
+
+stab ilities.
+
+© 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

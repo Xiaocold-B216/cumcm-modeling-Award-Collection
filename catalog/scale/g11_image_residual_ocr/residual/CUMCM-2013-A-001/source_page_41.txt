@@ -1,0 +1,42 @@
+%% 其 中 改道 的 概率 分 别 是 P(L2]=.1LP(2,1T)=.3,P(2,3]=.1LP(3,2]=.29%9%6%
+%9%69%69%69%6%9%6%9%9%969%69%%6% 其 中 PGj 指 从 i 车 道 改 道 j 车 道 的 概
+率 %9%69%69%6%6969%69696969%696969%%
+9%96969696969696969%6969696969696969696969%696969696969696969696969696969696969696969696%0
+%%%%%% %%% %%% %%% %%% %
+for j=3:road_length
+if
+(road_next(1,)>0)&&(road_next(2,j)==0)&&(road_next(1,-1)|[road_next(1,j-2)| [road_next(1
+max(j-3,1))) % 一 道 到 二 道
+temp = rand(1);
+if(temp>0.9)
+road_next(2,j)=1;
+road_next(1,)=0;
+end
+for k=j:min(j+3,road_length)
+if(road_next(2,k)>0)
+road_next(2,k)=min(road_next(2,k),1);
+end
+end
+end
+if
+(road_next(2,)>0)&&(road_next(1,j)==0)&&(road_next(2,j-1)| [road_next(2,j-2)| [road_next(2
+max(j-3,1))) -9% 三 道 到 三 道
+temp = rand(1);
+if(temp>0.85)
+road_next(1,j)=1;
+road_next(2,j)=0;
+end
+for k=j:min(j+3,road_length)
+if(road_next(1,k)>0)
+road_next(1,k)=min(road_next(1,k),1);
+end
+end
+end
+if
+(road_next(2,)>0)&&(road_next(3,j)==0)&&(road_next(2,j-1)| [road_next(2,j-2)| [road_next(2
+max(j-3,1))) % 二 道 到 三 道
+temp = rand(1);
+if(temp>0.9)
+road_next(3,j)=1;
+road_next(2,j)=0;
+7

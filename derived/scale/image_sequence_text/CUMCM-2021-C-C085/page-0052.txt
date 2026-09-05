@@ -1,0 +1,29 @@
+FAE 11 Solve_erfenans T. |
+~ 本 1 TESTERT |
+importnumpy as np |
+import xlrd
+n=402
+w=24
+ID-[ “2
+FL-[ »
+GHL~[] IN
+NIL ~ 从 7
+excel = xlrd.open_workbook(" 期 望 供 货 量 .xlsx" 着
+sheet = excelsheet_by mame(SheetIJ 和
+forrin range(sheet.nrows); = d
+Depeicl 区 0)
+[ 2 FD)
+piie- rows):
+for ein range(2,sheetncols):
+s=sheet.cell value(r, ¢)
+让 FLII=-A'
+5=5/0.6
+ifFLII--B':
+10.66
+ifFLII 一 C:
+S=s/0.72
+valLappend(s)
+GHLappend(tupls(vaD)
+def GetObj(nameC):
+ObiL. = np.zeros(w)
+2

@@ -1,0 +1,42 @@
+paper_id: CUMCM-1997-B-006
+year: 1997
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q3
+authority_sources:
+- path: 1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：最优切割次序模型.pdf
+  sha256: BD6929A9EBF341C312D580736A7254D358909CFA1ABF93B8BCD80912E067F606
+authority_sha256: BD6929A9EBF341C312D580736A7254D358909CFA1ABF93B8BCD80912E067F606
+paper_file_memberships:
+- path: 1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：最优切割次序模型.pdf
+  role: primary
+  canonical: true
+primary_file: 1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：最优切割次序模型.pdf
+extraction_inputs:
+- path: catalog/scale/g8_q3_batch_repair/CUMCM-1997-B-006/normalized_body.txt
+  sha256: 8B994EA74A3F6AFC3647DC814C86AB97E2B4D8B02CC89D46F594F508F0AA7352
+  kind: final_q3_batch_persistence
+extraction_input_sha256: 8B994EA74A3F6AFC3647DC814C86AB97E2B4D8B02CC89D46F594F508F0AA7352
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q3 Extraction Contract
+  source_page_numbering: 1-based
+  stage: G8-Q3-FORMAL-ARTIFACT-GENERATION
+primary_extraction_backend: final Q3 batch persistence
+page_extraction_backend: final Q3 batch persistence
+page_count: 7
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_final_q3_batch_persistence
+generated_from_frozen_sources: true
+source_pdf_path: 1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：最优切割次序模型.pdf
+source_pdf_sha256: BD6929A9EBF341C312D580736A7254D358909CFA1ABF93B8BCD80912E067F606
+final_batch_persistence_path: catalog/scale/g8_q3_batch_repair/CUMCM-1997-B-006/manifest.json
+final_body_path: catalog/scale/g8_q3_batch_repair/CUMCM-1997-B-006/normalized_body.txt
+source_body_sha256: 8B994EA74A3F6AFC3647DC814C86AB97E2B4D8B02CC89D46F594F508F0AA7352
+refinement_version: g8-q3-refinement-v1
+refinement_contract_sha256: 7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7
+refinement_evidence_fingerprint: 8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99
+q3_extraction_contract_sha256: 4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F
+revalidation_attempt_id: 20260903T063950668735_29d8de39
+formal_generation_attempt_id: 20260903T071531890631_0e2ef355

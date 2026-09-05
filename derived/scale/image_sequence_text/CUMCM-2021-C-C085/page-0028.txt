@@ -1,0 +1,39 @@
+importxlrd
+import xlsxwriter
+excel -xlndepen workbook CFF 1 近 s 年 402 家 供应 商 的 相关 数据 xlsc xb)
+sheet excelsheet by name( 企 业 的 订货 量 cm ) )
+I-0
+FL-
+for r in range(sheet nrows):
+ID append(shet cel valuet,0)
+FL.append(sheet.cell_value(r, 1))
+Aw-[ Je “2
+Bw-[ ~
+Cw-0 和 人 \
+aa STRAE
+去 SN
+BN-
+cNro 2
+forrin rangs( shect - .
+FLI--'A:
+办 内
+FLE-B
+ee
+ifFL[r]=C:
+Ce=shet cell_vaus(,)
+AW append(AN)
+BW.append®N)
+CWappend(CN)
+workbook -xlsowriler WorkbookC1T  ixisx) # 建立 文件
+worksheet ~ workbook add worksheel) # 建立 sheet， 可 以 wonkadd_wonlahesfenployee) 来 指
+定 sheet 名 ， 但 中 文 名 会 报 UnicodeDecodeErro 的 错误
+adsheetwrietl Onam
+osheetwriel2 0, B)
+Workshestwrite(3,0,°C7)
+foriin range(en(AW):
+worksheet writ(0, itl i+1)
+worksheet wite(, i+1, AWD)
+worksheet write(2, i+1, BW[i])
+osheetwrileG itlCWED
+okbeokalose0
+四

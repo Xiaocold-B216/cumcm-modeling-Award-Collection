@@ -1,0 +1,32 @@
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+result3.append((x,y,n,supportCountX,supportCountY,supportX,supportY,c
+onfidence))
+break
+result3=pd.DataFrame(list(result3))
+result3.columns = ['X','Y','X 商品个数
+','supportCountX','supportCountY','supportX','supportY','confidence']
+result3.to_excel('C:/Users/yang/Desktop/fpgrowthResult.xlsx')
+end=datetime.datetime.now()
+calTs=(end-start).seconds
+
+15
+
+

@@ -1,0 +1,41 @@
+说
+FE]
+Dr
+66 数学 的 实践 与 认识 后 oa
+选择 一 口 旧 井 , 使 各 旧 井 到 它 的 最 远 距 离 最 小 , 以 这 口 井 为 坐标 原点 和 旋转 中 心 设 旋
+转 了 某 一 角度 6 后 , 各 井 按 旋 转 后 的 新 坐标 映射 到 以 (- 0. 5, 0. 5) 与 (0. 5, 0.5) 为 对 角 顶 点
+的 正方 形 内 , 它们 的 映射 象 为 己 i= 1 2, …, 半 则 我 们 有
+定理 3 3 1 存在 一 个 角度 gs [0, rw2], 使 得 旋转 6 角 后 , 各 旧 并 的 映射 象 P",P*，
+…,P "被 一 判决 圆 全 部 覆盖
+计算 可 利用 井 数 在 问题 二 中 已 有 详细 讨论 , 我 们 建立 的 模型 与 算法 均 可 用
+例如 由 定理 2. 2. 1 可 知 , 若 对 两 旧 井 a, b, 不 存在 整数 m ,使 得 |4- 1 放 于 克 | 码 26 成
+立 , 则 ao, 中 最 多 只 能 利用 一 口 井 因此 该 定理 可 作为 判别 口 井 均 可 利用 的 一 珀 必要 条 件
+让 人 本 > - < Jdg
+对 于 该 问题 , 我 们 认为 有 效 的 一 个 充 要 条 件 是 难 找 的 , FA %0 S  REA 未 他 计 算 来
+下 一 PDF NT
+it 2 人
+4 模型 结论 改进 方向 及 建议 ( 略 ) J
+参考 文献 4 ‘
+[1] 姜 启 源 数学 模型 .高 等 教育 出 版 社 , 北京 , 1993 全
+[2] 叶 其 学 . 大 学 生 数学 建 模 竞 赛 辅导 教材 . 湖南 教育 出 版 社 , 长 网
+[3] 朱 道 元 . 数学 建 模 精品 . 东南 大 学 出 版 社 , 南京 , 1999
+O 〇
+The ML athemat}6y odel of Borehole Layout
+HU Hai-yang, -/CHEN Jian, LU Xin
+(Po niversity，N anjing 210093)
+Abstract  In 下 begin our research of mathematicalmodel of borehole layout w ith
+an eye to we 是 analyze step by step the effeciency, flexibility and complexity of all
+ae6 gmethods Atlastwegeta relativity bettermethod to make out the number
+of (gr can be utilized under different circum ferences
+thesfirst question, after the demonstration of an overall research model, precise local
+站 fdel and a graphizalmodle，and after the discussion of the flexibility and comp lexity of various
+] // leulating methods, we come to the answer ramedy, that only four used boredho les can be ut
+人 Nk atmost, numbered 2,4,5,and 10
+To the second question, we offer an overall research model, a precise bocalmodel as well
+as a revolving vectormodel In particular, we give a theoretical demonstration of the localmod-
+el The answerwe get is thatonly 6 used boreholes can be utilized atmost, numbered 1, 6, 7, 8,
+9,and 11 and that the net w ill revolve 44.37 w ith a coordinate (0.47,0.67).
+To the third question, in order to judge w hether all of the given boreholes can be used, we
+enum erate the ample requirements and the compulsory requirements together w ith the approri-
+ately effective calculating m ethod
+4 © 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.  http.://www.cnki.net

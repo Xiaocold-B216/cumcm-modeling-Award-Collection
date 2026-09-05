@@ -1,0 +1,78 @@
+%从起点 18 出发，终点为 11，
+clc,clear all
+%% 构造权重矩阵
+w(1,2)=2;w(2,3)=1;w(2,4)=3;w(2,19)=5;w(3,5)=1;w(3,6)=1;w(4,17)=11;w(4,21)=1;
+w(5,7)=2;w(6,8)=2;w(6,10)=5;w(6,14)=1;w(8,17)=1;
+w(10,11)=2;w(10,12)=6;w(11,13)=2;w(11,18)=9;w(12,18)=4;w(13,16)=2;
+w(16,18)=3;w(17,18)=12;w(17,20)=10;
+w(17,21)=10;w(19,20)=2;w(20,21)=4;
+
+w=w' % MATLAB 工具箱要求数据是下三角矩阵
+[i,j,k]=find(w)
+b=sparse(i,j,k,26,26) % 构造稀疏矩阵
+%% 画图
+h = view(biograph(b,[],'ShowArrows','off','ShowWeights','on'));
+% ShowArrows=off，表示无向图，on 表示有向图
+% ShowWeights=off,表示无权图，on 表示赋权图
+%% 求最短路
+k1=18; % 起点
+k2=11; % 终点
+[dist,path,pred]=graphshortestpath(b,k1,k2,'directed',0)
+% directed 是有向图或无向图的标志，
+% directed=0 表示无向图，directed=1 表示有向图
+% dist=最短路长度
+% path=最短路径
+% pred=包含前任顶点
+%% 将最短路径染色：
+set(h.Nodes(path),'Color',[1 0.4 0.4])
+fowEdges = getedgesbynodeid(h,get(h.Nodes(path),'ID'));
+revEdges = getedgesbynodeid(h,get(h.Nodes(fliplr(path)),'ID'));
+edges = [fowEdges;revEdges];
+set(edges,'LineColor',[1 0 0]); % 给最短路径设置颜色
+set(edges,'LineWidth',1.5);
+% 给最短路径设置宽度
+path =
+18
+
+16
+
+13
+
+11
+
+pred =
+1 至 19 列
+2
+16
+
+6
+
+3
+NaN
+
+6
+18
+
+2
+18
+
+3
+0
+
+10
+2
+42
+
+5
+
+17
+
+NaN
+
+11
+
+13
+
+18
+
+

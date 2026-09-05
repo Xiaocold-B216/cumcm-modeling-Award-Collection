@@ -1,0 +1,46 @@
+ER
+aa(6,2)=aa(j,3);
+aa(2,3)=aa(6,2);
+aa(6,3)=aa(6,2)+T(6)+T(4);
+aa(2,6)=aa(j,3)+T(6);
+aa(2,7)=aa(j,3)+ T(6)+T(7)+T(5);
+tQ(i)=aa(j,3)+T(6)+T(7);
+else
+aa(6,2)=tQ(i);
+aa(2,3)=aa(6,2);
+aa(6,3)=aa(6,2)+T(6)+T(4);
+aa(2,6)=tQ(i)+T(6);
+aa(2,7)=tQ()+T(6)+T(7)+T(5); #
+tQM)=tQM)+T(6)+T(7); 全 NY
+end _ “由
+end 2XG
+end ood
+d=dT(abs(QQ(1,2)-QQ(1,3))+1);
+tQO=tQGO)+d; As
+for j=1:4 了
+if QQ(i,3)==aa(j,1) X
+if tQ(i)<aa(j,3)
+aa(7,2)=aa(j,3);
+aa(3,3)=aa(7,2); °
+2a(7,3)2a(7 21TE) B4)s O
+oa
+aa(3,7)=aa(j,3)+ T(6)+T(T)+I(5);
+SO
+else 江
+aa(7,2)EtQG); ¥
+aa(3,3)xaa(7,2);
+a oa
+Zogono
+\ Ya —tQ(i)+T(6)+T(7)+T(5);
+人 “1tGOGD=tQG)+T(OJHT(O7);
+Ve )=tQUFT(6)+T(7)
+oha)
+end
+d=dT(abs(QQ(1,4)-QQ(1,3))+1);
+tQO=tQGO)+d;
+for j=1:4
+if QQ(i,4)==aa(j,1)
+if tQ(i)<aa(j,3)
+aa(8,2)=aa(j,3);
+aa(4,3)=aa(8,2);
+38

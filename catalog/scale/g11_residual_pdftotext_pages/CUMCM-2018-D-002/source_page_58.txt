@@ -1,0 +1,67 @@
+a1.qd[0]--,aw--,y[yl++]=0;
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+xl=0;
+ab=sum(a1.dl,2)/2;bb=sum(a2.dl,2)/2;
+aw=sum(a1.dl,2)-ab;bw=sum(a2.dl,2)-bb;
+ajg = (ab*2/(a1.dl[1]==0?1:a1.dl[1]))-2;
+if(ajg<5)ajg=(ab*4/(a1.dl[1]==0?1:a1.dl[1]))-2;
+bjg = (bb*2/(a2.dl[1]==0?1:a2.dl[1]))-2;
+if(bjg<5)bjg=(bb*4/(a2.dl[1]==0?1:a2.dl[1]))-2;
+while(ab!=0)
+{
+for(int i=0;i<2&&ab!=0&&a1.dl[1]!=0;i++)
+a1.dl[1]--,ab--,x[xl++]=1;
+for(int i=0;i<ajg&&ab!=0&&a1.dl[0]!=0;i++)
+a1.dl[0]--,ab--,x[xl++]=0;
+}
+while(bb!=0)
+{
+for(int i=0;i<2&&bb!=0&&a2.dl[1]!=0;i++)
+a2.dl[1]--,bb--,x[xl++]=1;
+for(int i=0;i<bjg&&bb!=0&&a2.dl[0]!=0;i++)
+a2.dl[0]--,bb--,x[xl++]=0;
+}
+while(aw!=0)
+{
+for(int i=0;i<2&&aw!=0&&a1.dl[1]!=0;i++)
+a1.qd[1]--,aw--,x[xl++]=1;
+for(int i=0;i<ajg&&aw!=0&&a1.dl[0]!=0;i++)
+a1.qd[0]--,aw--,x[xl++]=0;
+}
+while(bw!=0)
+{
+for(int i=0;i<2&&bw!=0&&a2.dl[1]!=0;i++)
+a2.dl[1]--,bw--,x[xl++]=1;
+for(int i=0;i<bjg&&bw!=0&&a2.dl[0]!=0;i++)
+
+流
+
+}
+while(bw!=0)
+{
+for(int i=0;i<2&&bw!=0&&a2.qd[1]!=0;i++)
+a2.qd[1]--,bw--,y[yl++]=1;
+for(int i=0;i<bjg&&bw!=0&&a2.qd[0]!=0;i++)
+a2.qd[0]--,bw--,y[yl++]=0;
+}
+
+58
+
+

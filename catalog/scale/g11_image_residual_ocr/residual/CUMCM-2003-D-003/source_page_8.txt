@@ -1,0 +1,41 @@
+是 刘
+122 工程 数学 学 报 第 20 卷 7
+II
+义 。 例 如 : 皮 划 艇 比赛 和 飞机 降落 的 分 析 等 问题 。 此 外 还 能 对 一 些 远洋 航行 的 船只 的 路 线
+规划 问题 给 予 指导 ， 使 船只 能 在 最 短 的 时 间 内 到 达 目 的 地 。
+参考 文献 :
+[1 王 沫 然 . MATLAB6， 0 与 科学 计算 [M]. 北京 ; 电子 工业 出 版 社 ，2001
+[2] 。 薛 嘉 庆 ， 最 优化 原理 与 方法 [M]， 东北 : 治 金工 业 出 版 社 ，1991
+{3] 。 陈 传 弄 ， 金 柱 临 ， 朱 学 炎 ， 欧 阳光 中 . 数学 分 析 [M]， 北京 ; 高 等 教育 出 版 社 ，1990
+[4] ” 谭 举 强 ，C 语言 程序 设计 [M], 北京 : 清华 大 学 出 版 社 ，1999
+一
+-多 >
+Mathematical Model of Swimming Across the Epu
+全 /一
+LI Xiang-zhen， HE Xiu-zhen， ZHU Rong-h 一
+Advisor: CHEN Xue-juan
+(Jimei University Xiamen Chi 他 )
+X
+Abstract: This paper establishes a common mathematical model 人 es a strategy to swim across the river
+in the shortest time. The model divides the river into several segments and set the consumed time in swimming as
+a target function. The restriction is that the distance in the horizontal direction should be the horizontal distance
+between the jumping - off point and the destination” O 〇
+For the most common situation, or of the swimmer, as the angle of the swimmer's di-
+Tection against the bank and V as the velocity of thestream. Denote y as the vertical distance between the swim-
+mer and the bank,and take U,6 "> of y and denoted as U(y) and 8(y). All the above could be sum-
+11460 1
+min T -|
+marized as: | 6 ) + Up
+2 沙 有 Te = 1100
+In resolvi blem this paper assumes that U be invariable, which means the swimmer would swim
+with the oo the competition. The width of the river is divided into little segments. Denote
+过 ya yand in every segment [ 3; ,yi+1] :the angle of the swimmeris0(i = 1,2，
+人 认 e velocity could be expressed as: Vi(y) = py +eg= 12 一 1)7E[yysnD
+na
+Lagrange conditional extremum theory and dichotomy are used to solve the above problem. VC+ +is also
+used in realizing the method, What's more the division y,,2,**,, will highly affect the final result,the more
+segments are divided the better result could be get. Under the assumption of question No. 4 this paper gets the fol-
+lowing results:
+The number of  |Best time: The number of  |Best time: The number of  |Best time:
+L_— 3 — [eof4781[ 9 '[883.2587] 160 _ |881.6882]
+Keywords: decomposition of movement; Lagrange conditional extremum thery; optimization

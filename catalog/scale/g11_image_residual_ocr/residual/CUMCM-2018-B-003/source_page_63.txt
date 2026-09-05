@@ -1,0 +1,46 @@
+EEEE
+cmin=t0;
+end
+GZN=N-8;
+GZBH=M(GZN,2);
+GZSI=M(GZN,1)+T(6-mod(GZBH,2))+randi(T(4));
+GZZZ=GZSJ+600+randi(600);
+GZ=[GZ;GZN,GZBH,GZSJ,GZZZ] ;
+t0=t0-d;
+a=aaa;
+if t0 <GZSJ
+t0=t0-+d;
+a=col; A7
+end y NY
+M(GZN,1)=999999; o7 由
+M(GZN,3)=GZZZ; 2XG
+c(2x(i-1)+cind)=GZZZ; ， ood
+N=N-1; SS
+BXYQX=2%(i-1)+cind; AS) NS
+else p
+[e,f,g,h,] = oneStep( a,dT,T,t0,c );%a,t0,c sKe
+e3 = fStep( f,dT,T,gh,e ); 人 |
+e3 = Teshape(e3,64,4);
+[minValue,row] = min(e3); o
+Fnvanuecol = min(min 3 % 由 col 知 当前 该 移动 到 哪 一 位
+d=dT(abs(a-col)+1); 人
+t0=t0+d;
+t0 放
+a=col; A nd
+h Y
+i=a;
+op YA&&0>c(2¥(1-1)+2)
+Snindmin(e2-1y De2:
+人 0;cind=1;
+8 ¢(2%(i-1)+cind)y=cmin+T(4+cind)+T(4);
+137 elseif t0<c(2*(i-1)+1)&&L0<c(2%(i-1)+2)
+1 [emin,cind]=min([c(2*(i-1)+1)+T(5),c(2*(i-1 +2)+T(6)]);
+cmin=cmin-T(4+cind);
+¢(2*(i-1)+cind)y=cmin+T(4+cind)+ T(4);
+else
+[emin,cind]=min([c(2*(i-1)+1),c(2*(i-1)+2)]);
+cmin=t0;
+¢(2*(i-1)+cind)y=cmin+T(4+cind)+ T(4);
+end
+M(N, 1)=cmin;
+63

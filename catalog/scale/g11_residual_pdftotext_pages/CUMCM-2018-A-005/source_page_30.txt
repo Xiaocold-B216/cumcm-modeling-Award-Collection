@@ -1,0 +1,78 @@
+LEN3=LEN2+x(3)/dx(3);
+LEN4=LEN3+x(4)/dx(4);
+T=zeros(tt/dt,LEN4);
+T(1,:)=37;
+h1=ah1;h2=ah2; %设置对流交换系数
+for n=1:tt/dt-1
+unknow=(h1*(Tout-T(n,1))-lam(1)*(T(n,1)-T(n,2))/dx(1))*dt/(0.5*dx(1)*rho(1)*c(1))+T(n,1);
+T(n+1,1)=unknow;
+for i=2:LEN1
+if i>=2&&i<=LEN1-1
+
+流
+
+unknow=lam(1)*(T(n,i+1)-2*T(n,i)+T(n,i-1))/dx(1)*dt/(dx(1)*rho(1)*c(1))+T(n,i);
+T(n+1,i)=unknow;
+
+交
+
+elseif i==LEN1
+
+unknow=(lam(2)*(T(n,i+1)-T(n,i))/dx(2)+lam(1)*(T(n,i-1)-T(n,i))/dx(1))*...
+
+研
+
+dt/(0.5*(dx(1)*rho(1)*c(1)+dx(2)*rho(2)*c(2)))+T(n,i);
+T(n+1,i)=unknow;
+end
+for i=LEN1+1:LEN2
+if i>=LEN1+1&&i<=LEN2-1
+
+：
+科
+
+end
+
+unknow=lam(2)*(T(n,i+1)-2*T(n,i)+T(n,i-1))/dx(2)*dt/(dx(2)*rho(2)*c(2))+T(n,i);
+elseif i==LEN2
+
+号
+
+T(n+1,i)=unknow;
+
+unknow=(lam(3)*(T(n,i+1)-T(n,i))/dx(3)+lam(2)*(T(n,i-1)-T(n,i))/dx(2))*...
+
+众
+
+dt/(0.5*(dx(2)*rho(2)*c(2)+dx(3)*rho(3)*c(3)))+T(n,i);
+end
+end
+
+公
+
+T(n+1,i)=unknow;
+
+信
+
+for i=LEN2+1:LEN3
+
+if i>=LEN2+1&&i<=LEN3-1
+
+微
+
+unknow=lam(3)*(T(n,i+1)-2*T(n,i)+T(n,i-1))/dx(3)*dt/(dx(3)*rho(3)*c(3))+T(n,i);
+T(n+1,i)=unknow;
+
+elseif i==LEN3
+unknow=(lam(4)*(T(n,i+1)-T(n,i))/dx(4)+lam(3)*(T(n,i-1)-T(n,i))/dx(3))*...
+dt/(0.5*(dx(3)*rho(3)*c(3)+dx(4)*rho(4)*c(4)))+T(n,i);
+T(n+1,i)=unknow;
+end
+
+end
+for i=LEN3+1:LEN4
+if i>=LEN3+1&&i<=LEN4-1
+unknow=lam(4)*(T(n,i+1)-2*T(n,i)+T(n,i-1))/dx(4)*dt/(dx(4)*rho(4)*c(4))+T(n,i);
+30
+
+

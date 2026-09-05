@@ -1,0 +1,93 @@
+void AddRailWayStationsAndLines(vector<LoadMessage>
+
+&
+
+AllLines,
+
+vector<vector<int> > &
+
+AllBuses)
+
+{
+// T1 线路
+for (int i=1; i<24; ++i)
+{
+AllLines[1040].LineInfo.push_back(3957 + i);
+AllLines[1041].LineInfo.push_back(3957 + 24 - i);
+AllBuses[3956+i].push_back(1041);
+AllBuses[3956+i].push_back(1042);
+
+流
+
+}
+
+nValue = -1;
+
+交
+
+int
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+ifstream fin("地铁线路 T2 信息.txt");
+
+研
+
+{
+
+ww
+
+for (i=3956+24; i<3996; ++i)
+
+AllBuses[i].push_back(1043);
+
+：
+科
+
+AllBuses[i].push_back(1044);
+
+}
+
+AllBuses[3956+12].push_back(1043);
+AllBuses[3956+12].push_back(1044);
+
+号
+
+AllBuses[3956+18].push_back(1043);
+
+众
+
+AllBuses[3956+18].push_back(1044);
+vector<int> temp_1;
+
+公
+
+vector<int> temp_2;
+// T2 线路
+
+信
+
+for (i=0; i<18; ++i)
+{
+
+微
+
+fin >> nValue;
+
+temp_1.push_back( 3957+nValue );
+
+}
+int nLSize = temp_1.size();
+AllLines[1042].LineInfo.resize( nLSize*2, -1 );
+AllLines[1043].LineInfo.resize( nLSize*2, -1 );
+for (i=0; i<nLSize; ++i)
+{
+
+57
+
+

@@ -1,0 +1,86 @@
+a
+
+@ B-D
+
+el ccD
+
+62 for 4 tn angs(A_offer. shapa(0]):
+
+的 A.appendCrate(h_otfor A_suz,0))
+
+64 for + in xange(B.otfor. shape (0]):
+
+©  BLappend(rate(B_ofter .B_sus.1))
+
+6 for + in xange(C.offor. shape(0]):
+
+7 C.oppend(rate(C_ofter,C_sus.1))
+
+局
+
+69 Print 有
+
+0 print (四 )
+
+了 Print《C)
+
+n
+
+HORZARA——EREE, ERE-RARARERTAL
+
+T eHA BE-ARA, HESMEERAERERNR “2
+
+7 asport pandas as pd ~
+
+aa 闸 涩
+
+7 saport muspy aa mp K 人 A S—
+
+了 9 tros collections taport Counter ~
+
+80 at = pd.read_excolC“Hf1 近 5 笠 402 家 供 wo eat-nane= & 71 Fo
+*() D
+
+SIdfs = paread_excel(* 附 件 1 5 laxr ,sheet_nasev 供应 商 的 +
+做 偶 量 (a*) D
+
+。 信件
+
+© teap -Latt 3
+
+4 us [2:]]
+
+5
+
+Se
+
+Sr datardeltaytezp
+
+datardata £411na 0)
+
+0
+
+oresaltcnp- cax(datav values, axiset)
+
+1 Print (resalt)
+
+o
+
+四
+
+94 第 四 个 楼 次 一 一 交 偶 准确 度
+
+外 e 目 标 : 给 出 一 个 数列 ， 对 应 每 个 供应 商 的 次 偶 准 确 度 扒 标
+
+9 iaport pandas as pd
+
+o7 xnport satplotlib-pyPlot as PIt
+
+5 hpert nupy aa ap
+
+9 fron callections iaport Counter
+
+100 at "Pd.resd_excel(" 拓 件 1 近 5 年 402 肖 供应 商 约 宦 关 数据 ,xlsx” ,sheet-nasew &% BT fre
+王 (a)
+
+101 atl "Pd.read_excel(" 附 件 1 过 5 年 402 家 供应 商 的 相关 数据 .xlsxv，sheet_nasew 供应 商 的 +

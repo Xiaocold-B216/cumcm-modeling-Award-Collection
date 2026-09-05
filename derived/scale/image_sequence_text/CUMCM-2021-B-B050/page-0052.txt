@@ -1,0 +1,22 @@
+问题 三 :
+支撑 材料 清单 :
+1、mlcsv
+2. ml_x.mat
+和
+人
+(以 上 无 代码 ， 详 见 支撑 材料 )
+二 二
+function [y1] = myNeuralNetworkFunction(x1)
+%MYNEURALNETWORKFUNCTION neural network simulation function.
+TITEERSSOEEOET .
+% [y1) = myNeuralNetworkFunction(x1) takes these arguments:
+% y= Qxl matrix, output #1
+% where Q is the number of samples.
+x1_step1.xoffset = [10;0;0.005;0.3;250];
+二
+[0.0105263157894737,0.01;44.4444444444444;1.11111111111111;0.01);
+x1_steplymin =-1;
+bl = [0.2069225685469777698;0.14502692987513710055;-
+0.095270236561843940626;-1.7155229121641566437;-1.1857678492289629446);
+p
+K MEAZE]

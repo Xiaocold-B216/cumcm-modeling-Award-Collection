@@ -1,0 +1,43 @@
+Taian[RSSLYI EAILYCWPE
+o% 输入 变量 有 三 个 ，
+% xx 需要 将 指标 正 向 化 处 理 对 应 的 原始 列 向 量
+Ghiyper “指标 的 类 型 《0， 极 小 型 ，1: 中 间 型 ， 2， 区 间 型 )
+% 正在 处 理 的 是 原始 拓 阵 的 列 数
+和 % pesit y 表示 + 正 向 化 后 的 列 向 重
+itype 一 0 %6 此 情况 为 极 小 型
+disp([ 第 num2sG) 列 是 极 小 型 ， 正 在 正 向 化 ] )
+Posity -maxGy) -Y %6 此 正 向 化 函数 不 唯一
+disp([ 第 num2srG) 列 极 小 型 正 向 化 处 理 完成 ])
+elscifiype 一 1 %6 此 情况 为 中 间 型
+disP([ 第 ' num2strGi) ' 列 是 中 间 型 ])
+best input 请 答 入 最 侍 的 于 一 个 值 ，
+M = max(abs(y-best)),
+posit_y 1- abs(y-best) / M;
+isp([ num2sG) 列 中 间 型 下 向 化 处 理 完成 ])
+hseifgpe ~ 2 % 此 情况 为 区 间 开
+di 第 num2srG) 列 是 区 间 型 ])
+ainput( 请 输入 区 间 的 下 界 ，
+b= input( 请 输入 区 间 的 上 界 ， 入
+xsiz 人 Ge1) %6x 的 行 数
+M=maxfamingymaxy-b)，
+Posiy zerost xD 砚 初 失 代 BGS x 全 为 0
+ri lrx
+jsj=a
+Feat ya
+一 的 >b
+posit_y(i) = 1-(Y(D-bM
+he
+posit_y() = 1;
+end
+end
+disp([ 第 ' num2str(i) 'FIX  IE FARAL SERR) )
+he
+disp( 没 有 这 种 类 型 的 指标 ， 请 检查 Type 向 量 中 是 否 有 除了 1、2、3 之 外 的 其 他 值
+nd
+End
+learele6 清 空 工作 区
+tc6 计 算 运行 时 间
+ioad Ymatse 导 入 供应 商 指标
+we 第 二 步 ， 判 晰 是 否 需要 正 向 化
+[n_Y;m_Y] = size(Y),
+24

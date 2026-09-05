@@ -1,0 +1,28 @@
+4 对 应 YSum 最 大 值 ，0336 对 应 YMax 最 小 值
+clearvars
+le
+YMax = zeros(l,1200);
+YSum = z¢ros(1,1200),
+Theta_i zeros(1,1200),
+fori=1:1200
+syms theta
+R=3004;
+X=0466%R -0.6-+0.001% ;
+aR =R-0466R;
+tho = 2.4x (1cos(theta),
+¥ = sarirho"2+aR"2-2%aR hocos(iheta)),
+T= tho sin(theta),
+deltaTheta = abs(double(solve(r-150 theta);
+Theta iD) = delaTheta;
+‘Theta = abs(deltaTheta)0.05:2%pi-abs(delaTheta),  *IRHIE Theta 0.05°
+Rho = 2ex /(1-cos(Theta))
+2 = abs(R-5qri(Rho."2+aR 2-2.#aR *Rho,*cos(Theta)):
+YMaxD = max(Y2);
+YSumGD) = sum(Y2.*29pi*R sqr(RHO2+aR 2-
+2#R *Rho.¥cos(Theta)) *abs(Rho siigTEEia))
+max(Y2)
+ad
+Index Max = find(YMax == max(YMax));
+PL=0466%-06.+ 0.001%Index Max;  %pl HEHBAT BBIRNHAE
+Index Sum ~ find(¥Sum -= min(abs(YSum)))
+$2=0466%R -06+ 0.001¥Index Sum;  %p2 满足 其 与 原 球 面 所 成 体积 最 小 的 依 距

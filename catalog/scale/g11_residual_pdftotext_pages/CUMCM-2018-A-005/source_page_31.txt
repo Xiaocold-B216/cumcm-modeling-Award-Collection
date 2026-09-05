@@ -1,0 +1,35 @@
+T(n+1,i)=unknow;
+elseif i==LEN4
+unknow=(lam(4)*(T(n,LEN4-1)-T(n,LEN4))/dx(4)-h2*(T(n,LEN4)-Tin))*...
+dt/(0.5*dx(4)*rho(4)*c(4))+T(n,LEN4);
+T(n+1,i)=unknow;
+end
+end
+end
+T=T(:,LEN4);
+T=T(1:200:tt/dt,1);
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+end
+
+31
+
+

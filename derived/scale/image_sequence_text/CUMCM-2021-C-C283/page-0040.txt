@@ -1,0 +1,45 @@
+如
+16 tozp = np.array (resp)
+17 teap1 = ap.array(tesp1)
+四
+19 bool_smterpteo
+20 bool_st=tespit=0
+2
+22 bool_s_countenp. sus (bool_=., axts=1)
+23 bool_si_countnp. sus (bool_s1 ,axtsmt)
+2
+和 5 resules(bool_=1_count)/(bood_=_count)
+26 print (rasut)
+27
+和
+2 8 第 二 个 楼 顽 一 一 产品 占有 率
+30 # 目 标 : 给 出 三 个 数列 ， 对 应 三 种 原材料 各 个 供应 商 的 产品 占有 率 |
+31 xspore Pandae as pd
+32 iaport satplotlib -pyPlot aa plt
+33 laport nuspy aa ap
+34 tros collections inport Counter
+35 dt1 = Pd.read-excel(" 附 件 1 E544025  1 W # #1 XH Foxt, aeet_ngaen' 供 应 商 的 +
+BRE (ay D
+37 ah_boolnatlf" 村 料 分 类 "外
+38 athcatl[dth_bool
+9
+40 atB_boel-da 各 人 村 并 分类 rr
+11 agpeatifess boot]
+四
+人 4£C 和 aa1[" 村 衬 分 类 "vcv
+4 atccatl[atc_bool
+的
+16 def every_vek_total_offex(é)
+和 tep = af(af. cotumma(2:1)
+45 etum tesp.values,mp. sus(tesp. values, axis=0)
+人
+50 ALotfer ,Asusrevery_sesk_total_offer(at 有
+5 BLotfer,B_susmevery_vesk_total_offer(4fB)
+8 Cotfer.C_auseavexy_vesk_total offer(atc)
+5
+54 def rate(otter,sus,m)
+55  pesstionsoftor(ali=0
+s6
+到。 return np.zeanCoffer (n] [position] /sus (position))
+5
+50 iD

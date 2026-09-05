@@ -1,0 +1,51 @@
+{
+  "attempt_id": "20260902T154312483513_34beff4e",
+  "batch_attempt_id": "20260902T154312483513_34beff4e",
+  "paper_id": "CUMCM-1995-A-008",
+  "source_path": "1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：空中防撞系统的设计.pdf",
+  "source_sha256": "08E67D226D2780023FD8E24D091F081C68FA0DE68868691EAB08BA0D88BBC89F",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 2,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 2,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "回味 的 第 26 卷 (1996) 第 1 期 . 19。 站 空中 防 撞 系 统 的 设计 黄 春 峰 贷 红 玲 刘 伟 (中 国 科学 技术 大 学 ,合肥 2300267 指导 教师 : 于 清 娟 编者 按 :本 文 用 相对 运动 的 观点 建立 飞机 两 末 不 机 指 的 约束 条 件 , 将 问题 归结 为 一 个 非 #7 SHALRIELRET r LA R HR LE FRRSR R, TE RRRA RA SS #. 全 关键 词 : 非 线性 规划 ,惩罚 函数 ,最 优 解 2G \\ ' 一 \\ 符 号 约定 余 己 为 第 ; 架 飞 机 坐标 ; 2 为 第 : 架 飞 机 方向 角 ; 六 为 人 疡 亲 距 ， 2 为 P 与 入 轴 的 夹 角 ;， \"为 飞机 飞行 速度 。 儿 二 、 问 题 的 分 析 与 求解 @ @ 1. 设计 目标 $, A 要 设计 的 防 撞 系 统 中 ,为 确保 飞机 不 必 生 /应 满足 如 下 条 件 : (D) 安全 距离 要 求 1Pj>8 所 (2) 飞机 偏离 航向 不 应 大 远 ,要 求 | 区 下 <30° 根据 上 述 条 件 及 题目 的 要 求 ' 防 撞 系 统 的 目标 是 达到 总 航向 的 改变 最 小 。 即 min | > Ab 上 上 前 旧 村 是 和 们 于 检 的 信 措 。 1 af 『 2. ma 根据 档 刺 运 动 诛 理 已 相对 P, 的 速度 方向 为 (wx(cosb — cosd) ，yCsinb 一 sing))) N- PABIE P, 的 位 置 为 (oj + sCcosd, — costy) b, + wiCsind, — sind))) E 和 由 有 IPP| = /COD 一 (a} + b) + 4lsin — 一 aysin 和 二 十 bocos ate) + d4l*sin® 2 0 一 ! 一 4 由 上 可 知 ,P, 与 P, 若 相 撞 仅 有 三 种 可 能 ， 1 TOO) 一 64 但 这 与 初始 条 件 不 符 , 故 无 须 考虑 3 回味 Sigudd 20， 数学 的 实践 与 认识 站 2 fd 一 64 人 os| | < H 30 < 1, =— rysin(0; 一 生生 /as 2 < 一 Los 所 以 当 fG) 满 足 (2) 或 (3) 时 ,P, 与 P, 相 撞 , 否 则 不 相 挤 。 通过 上 述 问题 分 析 , 可 以 看 出 这 个 模型 的 总 目标 就 是 确定 等 个 可 调 的 方 襄 角 , 使 它 在 不 违反 判 据 |r cos(9 十 号 |28 所 规定 的 限制 下 ,实现 前 太子 只 宗 - 因 此 从 本 质 上 这 是 一 个 非 线性 规划 问题 。 A7 二 SS 3. 非 线性 规划 法 解决 问 是 2 \\ ARLAE RITHA 5247 , B0E SRIUR (6 5k f FAR (4 ond min CO) = 3)|A0)] 任 区 e 1Ab < 下 X |Pyt)| >38 0<t <luw/v 全 用 惩罚 函数 法 可 将 其 作为 无 约束 极 值 问题 求生 也 即 求 Gainh(0) 一 人 (9 十 Mc(b) M 是 一 个 很 大 的 常数 因子 ,c(0) 在 9 满 有 人 条 件 时 为 0， 否则 为 正 值 ,这 样 .h(0) 的 极 值 通常 只 能 在 满足 约束 条 件 处 取得 ,并 且 外 fb) 的 极 值 。 取 ec(6) 一 cb(9) 十 cr(b) S 和 | reo|4 一 人 | wd 二 8 一 | -eale 一 5 川 3 一 7) <160 V'2 2 2 ee Ja IIA01I <x/6 0 | 让 人 sn 二 /6 我 们 昌 关 发 加 速 法 求 极 值 ( 详 见 文献) 由 手中 发 恩 速 法 求 出 的 是 局 部 最 优 解 ,为 尽量 求 出 全 局 最 优 解 ,为 尽量 求 出 全 局 最 优 解 ,我 们 明 用 组 不 同 的 初 值 代入 , 求 出 极 小 值 , 再 从 中 选 出 最 优 者 。 取 刚 进入 的 飞机 左 偏 1 度 为 初始 值 , 得 出 一 个 解 为 第 三 架 飞机 左 偏 约 2. 68 度 ,第 六 架 飞机 左 偏 约 0. 94 度 ,总 改变 角 为 约 3. 629693 度 。 即 各 机 新 方向 角 为 243,236,223. 18. 159,230,52.94。 3 el",
+  "normalized_text_chars": 1986,
+  "normalized_text_sha256": "7A8B7B1B1A0D3FA568DCB825ECE2B55691B67827EBB6FEAC243ABE1FCC0254D9",
+  "page_provenance_summary": {
+    "OCR": 2
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "B849A408AEC491F2D309AE0D578A9B8159BB1FB67FE0377040365151CC6CFF9C",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "91D928149DBD2D4BBFC73858AB2086BAFBCBFA0DD86C686A40EE5B5E2AAA690F"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "E650E80ADBDE4FD15AE3B1CB6AE2D5321839F3D06673EF1E1A6FD039B5A0698C",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "02FCE033DAF0A391EF521B53747A5237D05B41E9BD113C8D81BFC8724889AC99"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

@@ -1,0 +1,96 @@
+multimap<float, vector<int> > Respond;
+
+// 返回值
+
+for (int i=0; i<FeasibleSolve.size(); ++i)
+
+// 遍历每一种方案
+
+{
+int nTotalCost = 0;
+vector<int> CurrWay;
+
+// 行车路线
+
+int nFirstLineName = FeasibleSolve[i][1];
+
+流
+
+CurrWay.push_back( AllLines[ nFirstLineName-1 ].LineInfo[ FeasibleSolve[i][0] ]);
+for (int j=0; j<FeasibleSolve[i].size(); j+=3) // 每一段路
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+{
+
+交
+
+int nEachCost = 0;
+
+ww
+
+nLineName = FeasibleSolve[i][j+1];
+
+研
+
+int nLineName = -1;
+
+// 单一票价路段
+
+{
+
+nEachCost = 1;
+
+}
+
+else
+
+// 分段票价路段
+
+号
+
+{
+
+：
+科
+
+if ( AllLines[nLineName-1].strPrice == "单一票制1元。" )
+
+众
+
+int nDistance = FeasibleSolve[i][j+2]-FeasibleSolve[i][j];
+if (nDistance <= 20)
+
+公
+
+nEachCost = 1;
+
+信
+
+else if( nDistance <= 40)
+nEachCost = 2;
+
+else
+
+nEachCost = 3;
+
+微
+
+}
+
+nTotalCost += nEachCost;
+CurrWay.push_back( nLineName );
+
+CurrWay.push_back( AllLines[ nLineName-1 ].LineInfo[ FeasibleSolve[i][j+2] ]);
+}
+Respond.insert( make_pair(nTotalCost, CurrWay) );
+}
+
+25
+
+

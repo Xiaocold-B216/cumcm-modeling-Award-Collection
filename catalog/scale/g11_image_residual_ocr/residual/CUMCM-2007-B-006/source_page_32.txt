@@ -1,0 +1,79 @@
+回 成 革 动 国
+全
+本
+Fa ie，
+半生 二
+wsn
+1.3 邻接 搜索 程序 段 问题 一 求解
+N=87;
+M=3676;
+s 直达
+if Time (N,M)~=0
+temp=S{N,M};
+for i=l:size(temp,1)
+disp(streat (' 直 达 车 为 :L'vnum2str(temp (i,1))))
+end
+return
+end
+clear U U2
+s 一 次 转车
+t=1:39577
+T2=Time (N, :) .*Time (:,M)';
+if sum(T2)~=0
+x=1;
+t=t (T2~=0) ; a
+for i=1l:length(t)
+t1=S(N,t(i)}; 全 A7
+t2=5{t(i),M}; 全
+tl=double (tj 人 由
+t2=double (t2)7 一
+for j=l:size(tl,1)
+for k=l:size(t2,1) 了
+U(x, 1) =178 转 站 次 数
+U(x,2)=(t1(3,3)+t2 (k73))x3+5+375 总 时 间
+U(x,3)=t (i) ;ss 转 站 点
+U(x,4:5)=(t1(3,1) t2(k,1)];2%40
+s 是 否 婚 发 站 一
+temp=0; 全
+for k1=1:1040
+if str2double(L{kl,1}(2:end))==U(x,
+if L2{k1,1}(1,1)==t(i)
+temp=1;
+break
+end O
+end 2 O
+end
+U(x,6)=temp;
+U(x,7)=-sum(Time (:,t (i)) .
+sum (Time (t (i), :)) ; 3 AJLHEL
+U(x,8)=tl(],2) +t2(2) ;s 费 用
+x=x+1;
+end
+end
+end _—
+return
+end
+s 二 次 转车 2
+t=1:3957;
+x=1; 7,
+for i=1:3957 <
+if Tdme(N, 1) 全 0
+j=1:39
+W, ime (3,M) ~=0 && Time (i,3)~=0
+tl=S(N,i};
+NA， £2=5(i,3};
+t3=5(3,M};
+tl=double (t1);
+t2=double (t2) ;
+t3=double (t3) ;
+for kl=l:size(tl,1)
+for k2=1:size(t2,1)
+for k3=l:size(t3,1)
+U2 (xy 1) =27% 转 站 次 数
+sg 总 时 间
+U2(x,2)=(t1(kl,3)+t2 (k2,3)+t3(k3,3)) *3+10+3;
+U2 (xy 3) =t (1) ;8 转 站 点
+U2(x,4)=t () 7s 转 站 点
+U2(x,5:6)=[t1(kl,1) t2(k2,1)]7s 车 辆 1,2
+s 是 否 始 发
+30

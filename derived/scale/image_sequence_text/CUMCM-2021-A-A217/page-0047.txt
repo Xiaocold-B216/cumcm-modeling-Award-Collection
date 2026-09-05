@@ -1,0 +1,34 @@
+sin(alpha) cos(alpha) 0
+0 01
+上
+wsz=[
+cos(pil2-beta) 0 -sin(pi/2-beta)
+0 1 0
+Sin(pi/2-beta) 0  cos(pi/2-beta)
+下
+wxz_inv=[
+os(pil2-beta) 0sin(pil2-beta)
+0 1 0
+-sin(pil2-beta) 0 cos(pi/2-beta)
+上
+WwWxzeWxy:
+Winv = Wxy_inveWxz_ inv:
+assert(all(all(abs(W* Winv-eye(3)) < epsO)):
+end
+end
+end
+10.1. 3 画图 程序
+Tum* 与 示意 图 有 关 的 常量 定义
+% 本 文件 原名 ilum
+classdef illu
+properties(Constant)
+P_S = [0 150]; % 被 观测 点 的 方位
+end
+end
+ilu1. m* 剖面 直角 坐标 示意 图
+% 本 文件 原名 iulm
+font_opts = {'Vertical Alignment’, 'middle’, Horizontal Alignment, ‘center’, "FontSize’, 10,
+Interpreter’, atex 3
+close all
+hold on
+47

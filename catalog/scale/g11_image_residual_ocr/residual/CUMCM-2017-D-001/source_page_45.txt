@@ -1,0 +1,19 @@
+% 改 变 中 间 点 的 程序
+% 从 起 点 17 出 发 ， 终 点 为 2，
+cle,clear all
+%% 构造 权重 矩阵
+w(L2)=2;w(2.3)=1;w(2,4)=3;w(2,19)=5;w(3,5)=1;w(4,.17)=11;w(4.21)=1;
+w(5,7)=2;
+w(17,20)=10;w(17,21)=10;w(19,20)=2;w(20,21)=4;
+w(3,17)=4;
+w=w'  % MATLAB T. BAfEREHH2 F =MAEFE
+[i3,k]=find(w)
+b=sparse(i,j,k,26,26) % 构造 稀疏 矩阵
+%% 画图
+h = view(biograph(b,[],ShowArrows',off,,ShowWeights',,on ));
+% ShowArrows=off, 表示 无 向 图 ， on 表示 有 向 图
+% ShowWeights=o 任 表示 无 权 图 ，on 表示 赋 权 图
+%% ，。 求 最 短路
+kl=17; % 起 点
+k2=2; % 终点
+45

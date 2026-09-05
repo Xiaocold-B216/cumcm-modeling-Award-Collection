@@ -1,0 +1,65 @@
+T[j] = L[pos][j] + rep[j] + B[j]*put_down ;
+if((S[j]-L[pos][j]) > 0)
+T[j] += (S[j]-L[pos][j])*inf;
+//移动 T + 上下料 T + 清洗 T + 假设不会提前过去等待
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+}
+/**********选择过程***********/
+next_pos = min_index(T);//选择代价最小的
+if(T[next_pos] < inf) //若过去无需等待，则选择。
+{
+for(int i=1;i<9;i++){
+S[i] -= T[next_pos];//选择后，在这一过程中,RGV 无法做其他工作，所以
+下一次选择经过 T[next_pos]时间
+//此时若 S 为正，则说明 CNC 机器经过 S[i]秒后可以加工下一任务;
+//若 S 为负，则说明 CNC 机器已经加工完毕，等待|S[i]|秒
+}
+S[next_pos] = pro - B[next_pos]*put_down;
+time+=T[next_pos];//时间需要延长这个过程的时间
+endtime[next_pos][numm[next_pos]]=time-B[next_pos]*put_down-rep[next_pos];
+numm[next_pos]++;
+num+= B[next_pos];
+pos = next_pos;
+B[next_pos] = 1;
+begin = 1;
+}
+else{
+time++;
+for(int i=1;i<9;i++){
+S[i] --;//此时若 S 为正，则说明 CNC 机器经过 S[i]秒后可以加工下一任务;
+//若 S 为负，则说明 CNC 机器已经加工完毕，等待|S[i]|秒
+}
+begin = 0;
+}
+}
+out(endtime);
+cout<<num<<endl;
+return 0;
+}
+
+Case2:
+由于不同组的的代码和操作之间有很多相似之处，故以下以 group3 为例子:
+首先通过遍历各种布局，并且使用对应策略求解出当前策略、当前布局下所生产的货物数。
+选取最优布局。:
+25
+
+

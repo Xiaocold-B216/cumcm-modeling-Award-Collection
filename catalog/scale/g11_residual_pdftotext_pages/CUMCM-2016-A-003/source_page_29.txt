@@ -1,0 +1,44 @@
+if i<n&&abs(H-18)<min
+minh=h;
+minH=H;
+minthita1=thita1;
+minthita2=thita2;
+minbeta=beta;
+mini=i;
+end
+end
+r=Lm*sum(sin(minthita2))+sin(minbeta)+sum(sin(minthita1));
+end
+
+附录三：问题二优化程序
+n=210;%ÃªÁ´¸ÕÌå¸öÊý
+kxmq=[];
+kxh=[];
+kxr=[];
+kxbeta=[];
+zfenshu=[];
+for mq=1800:4100%¶¨¸ÖÇòÖÊÁ¿
+mq
+min=inf;
+minh=0;
+minH=0;
+minbeta=0;
+minthita1=zeros(1,4);
+minthita2=zeros(1,n)+pi/2;
+minFt2=zeros(1,n+1);
+for h=0:0.01:2
+Ft=zeros(1,5);%¸Ö¹Ü²¿·ÖµÄ¸÷À-Á¦
+alpha=zeros(1,5);%¸Ö¹Ü²¿·Ö¸÷À-Á¦µÄ·½Ïò
+thita1=zeros(1,4);%¸÷¸Ö¹ÜµÄ·½Ïò
+beta=0;%¸ÖÍ°µÄ·½Ïò
+Ft2=zeros(1,n+1);%ÃªÁ´²¿·ÖµÄ¸÷À-Á¦
+gama=zeros(1,n+1);%ÃªÁ´²¿·Ö¸÷À-Á¦µÄ·½Ïò
+thita2=zeros(1,n)+pi/2;%¸÷ÃªÁ´µÄ·½Ïò
+%¸¡±ê²¿·Ö
+v=36;%·çËÙ
+S=2*(2-h);
+m=1000;%¸¡±êÖÊÁ¿
+rou=1025;%º£Ë®ÃÜ¶È
+29
+
+

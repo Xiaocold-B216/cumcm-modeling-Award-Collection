@@ -1,0 +1,42 @@
+回味
+攻
+八 、 附录
+8.1 程序 代码 ;
+8.1.1 问题 一 的 程序 代码
+注 : 程序 中 datal 为 附件 1 数据 的 矩阵 表示 ， 由 于 篇 幅 过 大 ， 在 此 略 去
+n=size (datal) H
+[ra, ir]=sort(datal(:,2));
+W=[ra, ir];
+k=1; 二
+for i=1:n(1)
+% if (datal(i,?2)<=1)&datal (i,3)>75&datal (i, 3)<=150 -从 ，
+if (datal(i,2)<=1)&datal (i,3)>150 o/ \
+% if (datal(i,?2)<=1)&datal (i, 3) >=0kdatal (i, 3) <=T5
+s(k)=i;
+k=k+1;
+end
+end
+s
+M=datal (s’ 四 2)
+j=0;
+for i=2:n(1) @@
+if datal(i, 1)-datal (i-1, DO @9
+J=itl;
+end
+end
+n2=size ) H
+k=1; 一
+for i=1:n2(1) v
+for j=12a(1)
+j, D==M(i, 1)
+S ) =j H
+k=k+1;
+d
+end
+SS ，
+data2= (datal (ss, 0) H
+x1=data2 (, 2) H
+x2=x1."2;
+y=data2(:, 3);
+X= [x1, x2] H
+20

@@ -1,0 +1,12 @@
+姜 -一 一
+r
+"t
+
+请
+户 ecz1sj1 ~ -|
+BETA2(1,:)=mu(n+L:end)-mu(L:n)./sig(1:n)* BETA([2:end),:). *sig(n+Liend); % 原 始 数
+BETA2([2:n+1],:)=(L./sig(l:njj*sigtn+l:end)j.*BETA([2:end]:) % 计 算 原 始 自 变量
+
+a
+路 四 国 大 学 生 在 绪
+Cszm7oe Oo co7

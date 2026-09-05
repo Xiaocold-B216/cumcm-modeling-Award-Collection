@@ -1,0 +1,63 @@
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+S[next_pos] = pro[0] ;
+else if(type[next_pos] == 1 && full==1) S[next_pos] = pro[1] B[next_pos]*put_down;
+time+=T[next_pos];//时间需要延长这个过程的时间
+if(type[next_pos] == 0){
+endtime1[next_pos][numm1[next_pos]]=time - rep[next_pos];
+numm1[next_pos]++;
+}
+if(type[next_pos] == 1&&full==1){
+endtime2[next_pos][numm2[next_pos]]=pos;
+numm2[next_pos]++;
+endtime2[next_pos][numm2[next_pos]]=time-B[next_pos]*put_downrep[next_pos];
+numm2[next_pos]++;
+}
+else if(type[next_pos] == 1&&full==0){
+endtime2[next_pos][numm2[next_pos]]=-1;
+numm2[next_pos]++;
+endtime2[next_pos][numm2[next_pos]]=pos;
+numm2[next_pos]++;
+endtime2[next_pos][numm2[next_pos]]=time-B[next_pos]*put_downrep[next_pos];
+numm2[next_pos]++;
+}
+P[pos][next_pos]++;//将边存入
+num+= B[next_pos]*type[next_pos];
+pos = next_pos;//小车到达
+t_full = full;
+full = B[next_pos] * not(type[next_pos]);//若 CNC1 有半孰料
+if(type[next_pos] == 0) B[next_pos] = 1;//CNC1 类型都会变为有加工产品
+else B[next_pos] = t_full; //经过 CNC1 装半数料后哦
+begin = 1;
+}
+else{
+time++;
+for(int i=1;i<9;i++){
+S[i] --;//此时若 S 为正，则说明 CNC 机器经过 S[i]秒后可以加工下一任务;
+//若 S 为负，则说明 CNC 机器已经加工完毕，等待|S[i]|秒
+}
+begin = 0;
+}
+}
+if(num>max_num){
+out(-1);
+33
+
+

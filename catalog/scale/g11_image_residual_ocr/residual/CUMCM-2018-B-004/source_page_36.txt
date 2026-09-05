@@ -1,0 +1,47 @@
+回 成 革 动 国
+RE 0
+加 只 RN
+Error(j5)=1;% 标 记 为 已 处 理
+Situation(Error(j2))=0;% 修 复 完 成 后 取 走 故障 工件
+for j=1:8%CNC 的 时 间 推 进
+if Left(j)-Expect(1,MinNumber)<0
+Left(j)=0;
+else
+Left(j)=Left(j)-Expect(1,MinNumber);
+end
+end
+Left(Error(j2))=Error(li4)-Time;% 将 故障 修复 所 需 时 间 转 换 为 当前 工作 剩余 完成
+时 间
+flag=1; 人
+» -从 >
+end 一 \)
+iflag% 由 于 原 目 标 CNC 发 生 故 障 ， 重 启 循环 2XG
+continue; ood
+end
+flag=0; As
+fori=1:size(Errop1)% 等 待 中 检查 错误 信息 ~ ,
+if Time<=Error(i,3) && Time+Expect(2,Min Wu iber)>=Error(i,3) && Error(i,5)==0 &&
+MinNumber==Errorli2)% 等 待 中 原 目 标 发 生 了 故障 4 SS
+Error(j5)=1;% 标 记 为 已 处 理
+Situation(Errorlij2))=0;% 修 复 完成 后 取 走 故 障 工件
+for j=1:8%CNC 的 时 间 推 刘 O
+if enter 下 ae
+Left(j)=0;
+else =
+Left( or
+ead_
+end
+到 hi 四 上 -are anertayoo6 大 了 往复 所 宕 时 间 转 区 为 当前 工作 利信
+完成 时 为
+Roomwaaan
+六 ag=1;
+a
+放 flag% 由 于 原 目 标 CNC 发 生 故 障 ， 重 启 循环
+continue;
+end
+Time=Time+Expect(2,MinNumber);% 正 常 等 待
+放 Now==1% 当 前 目标 是 工序 1 的 CNC
+flag=0;
+for k=size(Rec1):-1:1% 记 录 本 次 操作 时 刻
+if Rec(k,1)==MinNumber && isnan(Reclk,3))% 同 时 发 生 上 料 和 下 料
+36

@@ -1,0 +1,45 @@
+:
+站 加
+可
+a
+Cha
+44 工程 数学 学 报 第 20 卷 Te
+ggrs
+参考 文献 :
+[1] 姜 启 源 . 数学 模型 [M]. 北京 :高 等 教育 出 版 社 ,1993
+[2] 赵 达 纲 , 朱 迎 善 . 应 用 随机 过 程 [Mj, 北京 :机 械 工 业 出 版 社 ,1993
+[3] 疗 新 等 ,Matlab 神经 网 络 应 用 设计 [M] , 北京 :科学 出 版 社 ,2000
+[4] Shi Yaolin，Stochastic dynamic model of SARS spreading[]] .www science.com,2003;9
+The Study of the Spread of SARS
+一
+XIAO Hong-jiang， WU Tong， LI Ming-ke 一 SS
+Advisor: HE Zu-guo 人 由
+=
+(Beijing University of Posts and Telecommunications, Beijing 大 AN
+Abstract: This article compares the model in the attachment 1 ,and exa ns ts ethod lled "Half - [mitation —
+Circulation - Calculation” . The advantage of the model is itsease ,its high| pi the aspect of imitation ,and
+3
+its reasonable change of the value of "K".At the same time, we SAVA hat its main drawback is that it de-
+pends on the data excessively and is not able to predict the sir latio 也 for, longer time. In the second question, we
+bring up four models which are based on four different core metheds: (1) he model based on differential and dif-
+ference equation; (2) the controling — model based on filter; (3) the model of neural network; (4) the simulation
+model based on Branching Process. In Model 2 ,we conclude that SARS will last 99 days in Beijing; the earlier it
+is controlled, the better it will become;and SARS 让 品 cbreak out preodically. In the third question ,we are en-
+lighted by the ”consequense function” in sp 人 we bring in three different influential functions to draw out
+"an influential model of the foreign visitors 护 4 ce draw a conclusion that the city of Beijing will lose 1 ,382 ，
+110 foreign visitors due to SARSaFEinally ，we give a short composition to be printed on the local newspapers.
+Keywords: filter; neural network Te process
+(上 接 28 页 ) ”一 y
+oo the SARS Epidemic Considering Self-cure
+下 4 LI Bei，XU Haixuan， GUO Jiajia
+¥ ( Dalian University of Technology, Dalian 116024, China )
+V¥/,
+Ai this paper, a SEIuliR (susceptible, exposed, unisolated infectious, isolated infectious, recovered)
+model with self-cure is built to model the SARS epidemic. The problem is solved with two methods: one is ordi-
+nary differential equation which we then come to a conclusion that self-cure indeed exists in the SARS transmis-
+sion; the other is computer simulation based on the small-work network which we also absorb the basic ideas of
+the Sznajd and the cellular automation model, and then we discuss some parameters and the effects of vaccina-
+tion. At last we analyze the epidemic situation in Beijing and estimate the results if control measures are taken 5
+days later or earlier.
+Keywords: SARS; Self-cure; ordinary differential equation; Small-World Network; the Sznajd model; the cellu-
+lar automation model; simulation

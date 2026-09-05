@@ -1,0 +1,30 @@
+paper_id: CUMCM-2015-D-003
+year: 2015
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+authority_sources:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015D：众筹筑屋规划方案设计 (3).pdf
+  sha256: 74203B2E3B6EBF7FBEFCA0AA82E360C4967474A6D1AF70E1CE569110ED4531E3
+authority_sha256: 74203B2E3B6EBF7FBEFCA0AA82E360C4967474A6D1AF70E1CE569110ED4531E3
+paper_file_memberships:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015D：众筹筑屋规划方案设计 (3).pdf
+  role: primary
+  canonical: true
+primary_file: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015D：众筹筑屋规划方案设计 (3).pdf
+extraction_inputs:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015D：众筹筑屋规划方案设计 (3).pdf
+  sha256: 74203B2E3B6EBF7FBEFCA0AA82E360C4967474A6D1AF70E1CE569110ED4531E3
+  kind: original
+extraction_input_sha256: 74203B2E3B6EBF7FBEFCA0AA82E360C4967474A6D1AF70E1CE569110ED4531E3
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G6-00G
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 21
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

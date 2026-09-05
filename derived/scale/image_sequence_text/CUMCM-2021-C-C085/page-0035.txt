@@ -1,0 +1,39 @@
+se
+¥=ObjLfz-1]-C
+ObjLz-1]-=y
+ObjL{z] +=y
+forzin range(w):
+now_Obj + max(C - ObjL[z]. 0)
+#now_Obj += (C - ObjL{z])
+retum now_Obj
+if_name_=="_main_":
+fori in range(n):
+DP[-77777777
+Sell-[
+fori in range(1,50):
+Sel2=T(1, Z Sell).copy()
+Sel3-Sell+Sel2
+Sell-Sel3.copy()
+#2,= get_new_Z(Sell).copy()
+Seln.append(Sell)
+SI = Sell
+DPfi-1] = GetObj(Sell).
+Fprint(Sell)
+#print(DP[S0])
+#93980.45454545454
+for iin range(1,50):
+Sell = Selnfi - 1].copy()
+ZD = get_new_Z(Sell).copy()
+Sel2 = Sell.copy()
+forrin range(50 -让
+Sone =T(1, Z2. Sel2) copy0)
+Semp = Sel2 + Sone
+Sel2 = Semp.copy()
+result = GetObj(Sel2)
+if DP[r+i]result:
+SIrril-Sel2
+DPIrril-result
+workbook = xlsxwriter Workbook( 供应 商 规划 结果 .xlsx) # 建立 文件
+worksheet workbook.add worksheet)  # 建立 sheet ， 可 以
+workadd_worksheet(employee) 来 指定 sheet 名 ， 但 中 文 名 会 报 UnicodeDecodeErro 的 错
+35

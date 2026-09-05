@@ -1,0 +1,39 @@
+dfTDOITENJ
+now_Tag-0
+for Lin PX:
+i=LD]
+j=LI
+now_Tag+=1/L[3]
+JEGUO[]fil+~1#/L{3]
+print(now_Tag)
+if _name_ 一 ”main “
+PX=0
+namelist=[228, 360, 139, 329, 107, 307, 281, 339, 328, 274, 355, 138, 142, 130,
+150,394, 351, 305, 267, 306, 193, 36, 283, 347, 246, 30, 364]
+# 上 面 的 数据 来 自 表 格 供应 商 规划 结果 .xlsx 里 第 一 个 变 成 0 的 行 ， 为 从 0 开
+始 序号
+foriin range(w):
+ANWW=WLIJC
+iflen(PX)>maxl:
+PX-PX[:maxl].copy()
+forj in range(len(PX)):
+PXIO]+=OFit 存 储 成 末
+forj in namelist: #8¢ # in namelist range(n) 改 成 固定 哪 几 家 供应 商
+now_GH=int(GHLE][i])
+Anow GH- 一 定 范围 超出
+forkin range(now_GH):
+val=[]
+ifFLG—A"
+#4=06
+jg-12
+证 FL--B'
+zh-0.66
+jg-11
+证 FL-C
+7h=0.72
+jg-1
+if K>GHL[j][i]:
+Wdd=0.001
+else:
+wdd-1
+加

@@ -1,0 +1,49 @@
+Eiig
+E
+
+1 期 林 论 盎 “ 钻 间 布 局 "问题 评述 9 mm
+它 的 顶点 中 找 距 离 最 大 的 两 点 和 “最 分 散 ” 的 三 点 如 用 穷 举 法 , 至 多 求 O () 个 外 接 圆 半
+径
+
+以 上 是 关于 坐标 轴 方 向 给 定 的 一 些 结果 对 于 坐标 轴 方 向 不 给 定 , 即 转角 9 未 知 的 情
+形 , 不 少 答卷 作 了 不 同 程度 的 探索 其 中 分 析 得 最 为 深入 的 结果 可 参见 本 期 上 发 表 的 优秀 论
+文
+6 进一步 研究 的 问题
+
+通过 这 一 道 题 目的 竞赛 , 开阔 了 思路 , 引出 了 许多 值得 研究 的 问题 你
+
+(D 对 问题 3)， 目前 只 就 从 标 负 方 向 已 给 定 的 情形 得 到 较 简 明 且 易于 世人 忆 < 作
+坐标 轴 方 向 不 定 (转角 9 未 知 ) 的 情形 较 难 ， 涉及 较 多 关于 整 点 分 布 的 悼 质 , 值得 深入 研究
+
+(2) 关 于 问题 0 中 数值 解法 的 搜索 步 长 选择 , 不 少 答卷 进行 了 误 论 外 于 例子 中 所 有 数
+据 只 有 两 位 小 数 , 以 0. 01 为 步 长 一 定 可 以 搜索 到 最 优 解 ， 二 但 对 问题 2), 要 对 角度
+进行 搜索 (0 二 ae 怠 ), 步 长 和 搜索 点 者 是 有 理 数 (以 了 为 看 户 世 来 看 ) 如 果 最 优 的 9 为 天
+理 数 , 会 不 会 搜索 不 到 最 优 解 昵 ? \/ N
+
+(3) 有 些 答卷 将 问题 1) 转化 为 一 个 组 合 问题 蔷 -未 治 种 特殊 图 的 最 大 团 虽然 求 一 般
+图 的 最 大 团 是 x P 一 完全 问题 ， 但 对 此 题 构造 的 特殊 图 , 求 最 大 团 未 必 是 难题 如 果 能 得 出
+好 的 纯 组 合算 法 是 很 有 意义 的
+
+(4) 在 几何 方法 中 , 根据 定理 3 的 条 件 找 获 盖 ”个 点 的 最 小 圆 域 , 能 否 找到 更 有 效 的 算
+法 ? AP ©
+
+Ore 三 模 距 离 (rectilinear 距离 ).
+
+(6) 在 实际 问题 中 , 网 格 N 的 格子 可 以 不 是 单位 正方 形 , 而 是 边 长 有 一 定 限制 的 矩形
+应 如 何 推广 我 们 的 模型
+
+钻井 布局 问题 是 一 着 机 而 过 址 Locatpm) 问题 , 不 仅 要 选择 网 格 参照 点 的 位 置
+(0 ,而 且 要 选择 倾斜 角 % 旬 它 的 深入 研究 必 将 对 选 址 理论 的 发 展 产生 影响
+
+4,)¥
+“Jp Comm entary on the Layout Problem
+上 of Exploratory W ells
+R L N Yixun
+(Deparment of M athematics, Zhengzhou U niversity, Zhengzhou 450052)
+
+Abstract This paper presents a review on problem B of the CUM CM '99: the layout problem
+
+of exploratory wells, inwhich the background, models, different app roaches and further stud-
+
+ies are summarized
+3 @ 1994-2008 China Ac Journal Electronic Publishing House. All rights reserved. http://www.cnkinei

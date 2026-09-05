@@ -1,0 +1,43 @@
+p4=lu./bei;p4p=sum(p4)/n;p4m=max(p4);
+p4z=sqrt((p4p^2+p4m^2)/2)
+p5=yuan./bei;p5p=sum(p5)/n;p5m=max(p5);
+p5z=sqrt((p5p^2+p5m^2)/2)
+9.4 lingo求解污染源位置
+model:
+sets:
+cai/1..319/:x,y,m,k;
+endsets
+data:
+x=@ole('data.xls');
+y=@ole('data.xls');
+m=@ole('data.xls');
+@ole('data1.xls')=k;
+enddata
+@for(cai(i):k(i)=@sum(cai(j):((x(i)-x(j))^2+(y(i)-y(j))^2)*m(j)));
+end
+9.5 重金属污染物的传播特征
+x= load('x.dat');
+y= load('y.dat');
+subplot(2,1,1)
+plot(x,yuansu)
+ylabel('yuan');
+xlabel('图6 浓度随x值的变化趋势');
+subplot(2,1,2)
+plot(y,yuansu)
+ylabel('yuan');
+xlabel('图7 浓度随y值的变化趋势');
+9.6 线性污染源位置求解
+A= load('shujukuai.dat');
+x=A(:,1);y=A(:,2);z=A(:,4);
+plot(x,y)
+scatter(x,y)%散点图
+ylabel('y');
+xlabel('图1 城市主干道路区取样点及拟合结果')
+hold on
+x1=[0:25021];
+y1=[0:16290/25021:16290];
+plot(x1,y1)
+
+19
+
+

@@ -1,0 +1,101 @@
+第 31 卷第 1 期
+数学的实践与认识
+V o l131 N o 11
+2001 年 1 月
+J an. 2001
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+任意选出比较多的 ( 为了保证较高的准确性) , 利用 keyw o rd 作为分类标准, 然后利用本文
+提供的加权系数的确定方法就可以定出一个具体的定量标准. 具有一定实用价值.
+参考文献:
+涛, 贺勇军等. M A TLAB 工具箱应用指南——应用数学篇. 电子工业出版社 1
+
+李
+
+[2]
+
+袁亚湘. 最优化方法. 科学出版社 1
+
+[3]
+
+张乃孝, 裘宗燕. 数据结构——c+ + 与面向对象的途径. 高教出版社 1
+
+[4]
+
+汪仁官. 概率论引论. 北京大学出版社 1
+
+[5]
+
+陈家鼎, 孙山泽等. 数理统计学讲义. 高教出版社 1
+
+交
+
+流
+
+[1]
+
+The Group ing of D NA Sequences M odel
+W AN G Ch i,
+
+100871)
+
+：
+科
+
+(Pek ing U n iversity, B eijing
+
+Abstract:
+
+YAN G Yong
+
+研
+
+YAN G J ian,
+
+In th is p ap er, a m ethod to cla ssify the DNA sequences is p ropo sed. M a them a tica l
+
+m ethod s such a s sta tistics and op tim iza tion a re u sed to bu ild the m odel. T he da ta is ana lysed
+sufficien tly and the “critica l w o rd s ”is go t, w h ich can rep resen t the cha racteristics of each
+g roup. A cco rd ing to th is, a quan tita tive standa rd fo r g roup ing is b rough t fo rw a rd. T h is m odel
+
+号
+
+can p rop erly cla ssify the g iven da ta th rough testing. F irst, the string s w h ich app ea r rep ea ted ly
+(ca lled w o rd s) in the g iven da ta a re scanned ou t. T he standa rd frequency and d isp ersion fo r
+
+公
+众
+
+each w o rd a re ca lcu la ted. Second, u sing the L ea st Squa res m ethod, the p rio rity function is
+fixed. T h rough stepw ise op tim iza tion, the coefficien ts a re m ade stab le. T h ird, the key w o rd s
+a re selected ou t and ca lcu la te the w eigh t acco rd ing to the p rio rity function. A t la st, u sing the
+
+“ana lyse h iera rchy p rocess”, the undeterm ined da ta is cla ssified. T h is m ethod can cla ssify the
+undeterm ined da ta (N o. 21—N o. 40 ) fa irly w ell, it can a lso g ive good resu lt fo r the la st 182
+
+微
+
+信
+
+sequences.
+
+D NA 序 列 的 分 类
+韩轶平, 余 杭, 刘 威
+指导老师: 杨启帆
+( 浙江大学, 杭州
+
+编者按:
+
+310027)
+
+本文借助于计算机符号处理的能力来把握序列中不同碱基的丰度特征, 从而进行了利用数理统计方法
+
+的分类研究. 而后引入相关度分类判别算法及反馈机制来比较碱基的相对位置, 在既定方向上颇具新意地把工作
+推向深入. 不足之处在于, 未能使用相关度工具对各类样本分别进行分析; 此外,“纯数学”必须与其他学科紧密结
+合才会有优秀的建模工作, 本文虽然对编码氨基酸的三联体进行初步探讨, 着墨处自是轻淡许多.
+
+© 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

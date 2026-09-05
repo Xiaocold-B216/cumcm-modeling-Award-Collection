@@ -1,0 +1,57 @@
+gdH=20;%'2] ph°L *EiqE
+
+mm=0.18%28.12;%A*A OEA;
+
+Lm=0.18;%A%A *nJE
+
+mq=2950; $00T1iCOORA,
+
+n=180;%AA" 0la 6By
+
+alpha=0;% 'cIoO8E®A+TopAMDYC
+
+min=inf;
+
+minh=0;
+
+minH=0;
+
+minbeta=0;
+
+minthital=zeros(1,4);
+
+minthita2=zeros(1,n)+pi/2;
+
+mingama2=zeros(1,4);
+
+mingama3=0;
+
+mingamad=zeros(l,n);
+
+for h=0:0.0001:2
+Ftx=zeros (1,5);%,0'0%; -OpA, +A-A|pAX ORAL
+Fty=zeros (1,5);%,0'0%; -OpA, +A-A|pAyY .ORAL
+Ftz=zeros (1,5);%,0'0%; -OpA, +A-A|pAz OAE
+thital=zeros(1,4);%. + 0!Upk io08z0apidhC
+gama2=zeros (1,4);% ,+ 0'0 %I600X0YALT90°08X0apAMDYC
+beta=0;%,0f °pi 4:1308 20apADYC
+gama3=0;%, 01° -LT60UXOYETT96° 0ex0apAkDLC
+Ft2x=zeros (1,n) ;&A%A"2; -OpA +A-A|nAxX -OAg
+Ft2y=zeros (1,n);%$A*A"?; -OpA +A-A|pAyY .OA
+Ft2z=zeros(l,n);%A*A"?; -OpA +A-A|pAzZ OA
+thita2=zeros (1,n);2A%A" +A 20pi T608204nAMDYC
+gamad=zeros (1,n);%A%A"  +A 40 I600X0YET 196°08xXOANAMDIC
+当 .i+e22 0
+S=2x* (2-h) 7
+m=1000;%, ;+60RA;
+rou=1025; %$°£EQAUIE
+g=9.8; $0gA | WOEUIE
+V=pi*172%h;%°0E@Ia»y
+Ffeng=0.625*S*v~2;% ‘cA|
+Ffu=rou*g*v;%, {A]
+Gfu=m*qg;% it+eOC 玉 |
+
+Fshui=374* (vshui/gdH^2x (gdH-h)^2)^2x2xhy SE+EUE@A | pA»UOE
+if Ffu-Gfu<0
+continue;
+42

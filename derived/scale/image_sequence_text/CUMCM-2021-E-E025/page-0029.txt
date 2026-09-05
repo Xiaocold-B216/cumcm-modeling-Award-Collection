@@ -1,0 +1,48 @@
+ipwrite.csv(dd."D:/ 桌 面 文件 / 建 模 /问题 1 数据 玫 -means+ 标 签 .csv')
+# 查 看 每 一 类 的 数目
+table(km_result$cluster)
+失 坦 行 可 视 化 展示
+fviz_cluster(km_result, data = std.data,
+
+palette = c¢("#2E9FDF", "#00AFBB", "#E7B800"),
+
+ellipse.type ="euclid",
+
+star.plot = TRUE,
+
+repel = TRUE,
+
+ggtheme =theme_minimal()
+)
+HHHHHHHHHHHHHHHHHHHHPCA 降 维
+rm1=cor(std.data)
+rsl=eigen(rm1)
+val=rs]$values
+(Standard_deviation=sqrt(val))
+# 计 算 方 差 贡献 率 和 累积 贡献 率 ;
+(Proportion_of Variance=val/sum(val))
+(Cumulative_Proportion=cumsum (Proportion_of Variance))
+HIEA E 2),
+par(mar=c(6,6,2,2))
+plot(rs1$values,type="b",cex=1,cex.lab=1cex.axis=1,lty=2,lwd=2,
+
+xlab = " 主 成 匣 编 号 册 lab=' 特 征 值 ( 主 成 分 方差 ))
+# 提 取 结 果 中 的 特征 向 量 (也 称 为 Loadings. 载 荷 矩 阵 )，
+U=as.matrix(rs1 $vectors)
+# 进 行 短 阵 乘法 ， 获 得 PC score;
+PC=std.data %*% U
+pe_data =PC[,1:3]#£8 3 个 主 成 分
+pc_data = data.frame(pc_data)
+ipwrite.csv(pc_data."D:/ 桌 面 文件 / 建 模 /问题 1 数据 /PCA_data.csv)
+提前 稻 措 者 蜡 弄 和 次 根 类
+Tesult=dist(std.datamethod=' euclidean )
+he_result=hclust(d=result,method="ward.D2")
+cluster=cutree(hc_result, k = 3)# 提 取 类 标签
+dd=cbind(data, cluster = cluster)
+ipwrite .csv(dd."D:/ 桌 面 文件 / 建 模 /问题 1 数据 /Ward+ 标 签 .csv)
+# 查 看 每 一 类 的 数目
+table(cluster)
+fviz_dend(he_resultk=3,cex=0.5,
+k_colors=c("#2ESFDF","#00AFBB","#E7B800"),
+color_labels by k=TRUE,rect = TRUE,ang=-1)
+28

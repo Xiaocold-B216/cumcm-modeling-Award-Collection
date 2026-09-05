@@ -1,0 +1,90 @@
+第 30 卷第 1 期
+数学的实践与认识
+V o l130 N o 11
+2000 年 1 月
+J an. 2000
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+The M anagem en t of Automa tic La the
+YU J ie,
+
+J IAN G A i2m in,
+
+L I Rong 2b ing
+
+(N an jing U n iversity of A eronau tics and A stronau tics, N an jing
+
+O p tim a l m a in tenance po licy p rob lem in a system is d iscu ssed and ana lysed in th is
+
+流
+
+Abstract:
+
+210016)
+
+p ap er. D ue to the random va riab le concerned, one ob jective m a them a tica l m odel of exp ecta tion
+
+交
+
+va lue is develop ed. B y u sing enum era tive sea rch m ethod, w e ob ta in op tim a l po licy. T he p rocess
+is checked once every p roducing 18 p a rts. W hen the p rocess is checked 20 tim es, the kn ife ha s
+to be changed. A cco rd ing to th is po licy, the average m in im a l co st fo r p roducing a p a rt is
+
+研
+
+4162g.
+
+F ina lly, w e po in t ou t som e facto rs no t to be con sidered in the m odel, and ana lyse the influ 2
+
+：
+科
+
+ence of these facto rs. M oveover, som e m od ifica tion is p ropo sed.
+
+车 床 管 理 优 化 模 型
+
+公
+众
+
+号
+
+张继伟, 韩方华, 顾利龙
+指导教师: 夏亚峰
+
+编者按:
+
+( 甘肃工业大学, 兰州
+
+730050)
+
+本文的特色在于利用管理成本理论, 得到了由四个部分组成的单位工件成本的表达式, 及最优检
+
+查周期所满足的方程, 作者特别细致地注意到由检查滞后而引起的成本部分, 继而在定期更换刀具及考虑到
+其他非刀具因素故障情况下对成本公式作了修正, 并用搜索法求得了最优解.
+本文讨论了自动化车床连续加工零件工序定期检查和刀具更换的最优策略.
+
+信
+
+摘要:
+
+针对问题一, 应用管理成本理论结合概率统计方法, 建立定期检查调节零件的平均管理成本的优化设计
+
+微
+
+模型, 通过计算机求解、模拟, 得到工序设计效益最好的检查间隔和刀具更换间隔. 针对问题二, 在问题一的
+基础上, 利用概率知识调整了检查间隔中的不合格品数带来的平均损失, 同时加上了因工序正常而误认为有
+故障停机产生的平均损失, 然后建立起目标函数, 得到工序设计效益最好的检查间隔和刀具更换策略. 对于
+工序故障采用自动检查装置, 设计出了自动检查调节系统, 并给出了算法框图, 有效地避免工序正常而误认
+为有故障停机损失, 提高工序效益.
+
+1
+
+问题的重述 ( 略)
+
+2
+
+模型的假设
+11 工序出现故障是完全随机的, 生产任一零件时出现故障的机会相同;
+21 累积的 100 次刀具故障记录中每一个记录是刀具完成的零件数, 其中有一个不合格
+
+

@@ -1,0 +1,44 @@
+F(6)=F2*sin(gama2-theta2)-F3*sin(theta2-gama3);
+F(7)=F3*sin(gama3-theta3)-F4*sin(theta3-gama4);
+F(8)=F4*sin(gama4-theta4)-F5*sin(theta4-gama5);
+%4 个钢管水平受力平衡
+F(9)=F2*sin(gama2)-Fwind;
+F(10)=F3*sin(gama3)-Fwind;
+F(11)=F4*sin(gama4)-Fwind;
+F(12)=F5*sin(gama5)-Fwind;
+%4 个钢管竖直受力平衡
+F(13)=F1*cos(gama1)+10*g-F2*cos(gama2)-floatage_pipe;
+F(14)=F2*cos(gama2)+10*g-F3*cos(gama3)-floatage_pipe;
+F(15)=F3*cos(gama3)+10*g-F4*cos(gama4)-floatage_pipe;
+F(16)=F4*cos(gama4)+10*g-F5*cos(gama5)-floatage_pipe;
+F(17)=F5*cos(gama5)+1000*g-pi*d*p*g;%浮标竖直受力
+F(18)=y1+cos(beta)+cos(theta1)+cos(theta2)+cos(theta3)+cos(theta4)+d-H;%水深
+F(19)=2*(2-d)*0.625*Vwind*Vwind-Fwind;%风力
+附件 10：问题 3 中，各点水速相同、水流与风同向时，锚链长度、型号、重物
+球质量的 Matlab 求解程序
+function question3_junyunshuili %水力与风力同向
+clc
+clear
+tic
+global Mball sigma maolian H G BETA ALPH1 D RR A
+SIGMA=[3.2,7,12.5,19.5,28.12];
+G=[];BETA=[];ALPH1=[];D=[];RR=[];A=[];XX=[];THETA=[];
+H=20;
+for xinghao=5:5
+sigma=SIGMA(xinghao);
+for maolian=21.1:0.1:22
+for Mball=4000:1:4002
+[x,fval,exitflag,r,Unuse]=fun;
+if
+(Unuse==0&x(2)>0.279)|x(3)>1.8|x(3)<0|x(13)>0.087|exitflag<1|(Unuse=
+=1&x(2)<0)%只选取阿发 1 小于 16°，浮标深度小于 1.5 米，β小于 5
+度的解
+continue
+elseif Unuse==0%代表没有落在地面的锚链
+ALPH1=[ALPH1;x(2)];G=[G;Mball];BETA=[BETA;x(13)];D=[D;x(3)];R
+R=[RR;r];A=[A;sigma,maolian,Mball];XX=[XX,[Unuse;x]];THETA=[TH
+ETA,x(12:15)];
+else%代表有落在地面的锚链
+39
+
+

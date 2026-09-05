@@ -1,0 +1,68 @@
+}
+rand = randuni();
+K=0;
+for(int i=1; i<9; i++ ){
+K = K+ 1.0*temp[i]/n;
+if(K>rand) return i;
+}
+return 1;
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+int main(){
+init1();
+print();
+srand(time(NULL));
+int repeat = 100000;
+while(repeat--){
+int time = 0;
+int pos = 1,next_pos = 0;//小车起始位置
+bool begin = 0;
+init2();
+while(time<3600*8){
+/**********评估过程***********/
+for(int j=1;j<9;j++){
+T[j] = L[full][pos][j] + rep[j] + B[j]*type[j]*put_down ;
+if((S[j]-L[full][pos][j]) > 0){
+T[j] += inf;
+}
+
+流
+
+}
+
+公
+
+if(full == 0 && B[j]==0 && type[j]) {
+T[j] += inf;
+}
+
+微
+
+信
+
+}
+/**********选择过程***********/
+next_pos = min_index(T,pos);//选择代价最小的
+if(T[next_pos] < inf) //若过去无需等待，并且当前小车状态允许过去，则选择
+{
+for(int i=1;i<9;i++){
+S[i] -= T[next_pos];//选择后，在这一过程中,RGV 无法做其他工作，所以
+下一次选择经过 T[next_pos]时间
+//此时若 S 为正，则说明 CNC 机器经过 S[i]秒后可以加工下一任务;
+//若 S 为负，则说明 CNC 机器已经加工完毕，等待|S[i]|秒
+}
+//若是 CNC1 S = pro1,而 CNC2 S = pro2*full - put_down*B
+if(type[next_pos] == 0)
+32
+
+

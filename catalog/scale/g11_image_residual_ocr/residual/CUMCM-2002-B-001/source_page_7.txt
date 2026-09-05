@@ -1,0 +1,43 @@
+|
+本
+i 3
+| 80 ”工程 数学 学 报 第 20 卷 和
+| 理论 参考 。 我 们 从 概率 学 的 角度 出 发 ,对 这 个 问题 进行 简单 的 分 析 。 下
+| 从 长 期 来 看 ,购买 彩票 的 回报 期 望 必 然 是 负 值 , 也 就 是 说 购买 彩票 并 不 是 投资 。 虽 然 每 |
+| 次 总 有 一 些 幸 运 儿 诞 生 , 但 是 这 必然 是 以 更 多 的 人 气 本 为 代价 的 。 与 股票 和 其 他 投资 相 比 ， il
+: 购买 彩票 盈利 的 可 能 性 要 小 得 多 。 所 以 ,理智 的 办 法 是 把 购买 彩票 看 成 一 种 娱乐 的 方式 , 沉 人
+汤 其 中 就 不 是 智者 所 为 了 。
+| 虽然 报纸 杂志 上 有 很 多 介绍 购买 彩票 技巧 的 文章 ,但 是 大 多 数 没有 确切 的 理论 依据 可 |
+| 言 , 其 中 所 论述 的 种 种 "技巧 "并 没有 什么 科学 道理 。 那 么 购买 彩票 时 到 底 有 没有 什么 确定
+j 规律 可 循 呢 ? 没有 。 当 你 购买 彩票 时 , 摆 在 你 面前 的 每 一 张 彩票 都 可 能 是 你 梦 襟 以 求 的 大 人
+1 奖 ,但 更 可 能 什么 奖 寿 没有。 1
+i 如 果 有 几 种 不 同 的 彩票 要 你 选择 ,你 该 怎么 办 昵 ? 风险 和 收益 是 一 对 双胞胎 ,风险 越 大
+| 的 彩票 ,收益 往往 也 就 越 高 。 这 往往 是 令 大 多 数 彩民 拿 不 定 主意 的 地 方 。 我 们 给 您 的 建议 人
+| 是 根据 自己 的 经 济 承受 能 力 和 您 对 于 中 奖金 额 的 期 望 来 选择 彩票 。 杀人 六 |
+如 果 经 济 条 件 允 许 而 您 对 高 项 奖 又 很 感 兴趣 时 ,您 可 以 只 关心 这 些 彩 票 座 的 高 项 奖 ， 人
+| 2 和 和 和 和 全 可 作 人 和 人 四 全 着 全 人 梳 大介 屯 区 上 是 把 彩票 人
+i 当成 一 种 娱乐 的 话 , 就 可 以 选择 一 些 中 奖 概率 比较 大 的 彩票 ,如 7/30 全 人 人
+| 到 意外 惊喜 的 可 能 会 比较 大 。 当 然 不 同 的 奖金 比例 和 金额 对 得 奖 概率 和 关中 |
+j 选择 彩票 时 应 该 综合 考虑 这 些 因素 。 人
+| 希望 我 们 的 文章 可 以 对 您 有 所 帮助 ! AS) 1
+e 下
+站 六 |
+] [1] 姜 启 源 著 .数学 模型 (第 二 版 )[M] .北京 :高 等 教育 出 版 社 ,1993 |
+! (21 郑 看 里 等 著 . 信 号 与 系统 (第 二 版 )[M] .北京 :高 等 教育 出 版 社 ,2000 |
+j [3] 《运筹 学 ?教材 编写 组 编 .运筹 学 (修订 版 )[M] ALR 华 大 党 出 版 社 ,1990 让
+14] 有 -关公 到 与 认识 ,第 32 卷 第 3 期 (2002) ,396-399 本 本
+MY 》 |
+全 of Lottery Project | 让
+LIU 与 和 WANG Jin, WANG Yuan-yuan . 人
+_— Advisor: HE Zu-guo |
+(Bejj 这 ” of Posts and Telecommunications, Beijing 100876) 和
+| bp 和 |
+Abstract: We of the lottery project to be its evaluation standard. The attraction can be divided into two aspects. One | o
+1 jia from the the other is from the winning probability. We use the utility function in economics to synthesize the two |
+| aspects SR ，each aspect of the attraction can also be synthesized by every single grade of prize or winning probability . | 3
+， The attraction of & single grade is the prize or the winning probability "s increasing and upwards bulgy function. We use the transfer func- | :
+| tion 2 Filter. We calculate the weight by analytie hierarcby process and entropy method, and then finish the evaluation 站
+| (project 5 要 are better) . In problem 2，we establish a dynamic optimization model and work out the optimized lottery project. |
+了 Keywords: attraction; analytic hierarchy process; weight decision by entropy; utility function; tranafer function |
+， 和
+|

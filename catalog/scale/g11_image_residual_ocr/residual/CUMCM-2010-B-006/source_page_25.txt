@@ -1,0 +1,44 @@
+马 :二
+号
+神经 网 络 的 合理 性 。 但 是 本 模型 的 缺点 在 于 : 碍 于 世博 会 自身 特点 ， 用 于 BP 神 经
+网 络 学 习 的 样本 数量 不 够 充足 ， 因 此 学 习 不 足 ， 误 差 稍 大 。 如 果 增 加 BP 神 经 网 络
+的 学 习 样 本 数量 ， 会 得 到 更 好 的 效果 。
+
+对 于 模型 的 优化 改进 方面 ， 如 果 在 样本 数据 更 为 充足 的 情况 下 ， 可 以 考虑 利
+用 控制 变量 法 来 评估 各 个 标准 对 上 海 世博 会 文化 影响 力 的 作用 大 小 , 以 此 更 加 深
+入 的 探讨 这 一 问题 ， 为 今后 同类 型 活动 的 举办 提供 依据 与 帮助 。
+
+参考 文献
+=
+[1] 不 详 , 世博 会 ， http:Jamc hudong con/wiki /AEANBI9GHEKSDIATEYS)
+BC%9A，2010. 9. 12 7 一 W
+[2] 中 国 现 代 化 战略 研究 课题 组 ， 文化 现代 化 的 野 响 力 评 价 ，
+http://cn. chinagate. cn/reports/whxdh/2009-01/24/¢onte 82808_2. ht
+m, 2010.9.11
+[3] 中 国 现 代 化 战略 研究 课题 组 ， xx 影响 力 评价 ，
+http://cn. chinagate. en/reports/whxdh/2009= 24/content_17182808_2. ht
+m, 2010.9.11
+N
+[4] 中 国 现代 化 战略 研究 课题 组 、 中 国 科学 计 坝 芒 化 研究 中 心 , 中 国 现代 化 报告
+2009 ,
+http://cn. chinagate. on/reports/whidh/2009-01/24/content 17182808 2. ht
+m, 2010,.9.12 从 ~
+[5] an 文化 现代 化 的 影响 力 评价 ，
+http://cn. chinagate. ports/whxdh/2009-01/24/content 17182808_2. ht
+m, 2010.9.12 人
+[6] 刘 开 第 < 等 7 W 隶属 度 定 义 中 隐 含 的 问题 ，
+http://www. sys€ 时 <Gom/qjkan/manage/wenzZhang/xtgc-00-20%281%29-110. pf
+，2010. | 7
+[7] 吴 和 各 估 化 广 法 221 页 ， 机 械 工 业 出 版 社 ，2003
+[8 号 狼 、 这 筹 学 与 最 优化 方法 ，216 页 ， 机 械 工业 出 版 社 ，2003
+全 7 辣 而 华 ， 模糊 综合 评价 的 数学 建 模 方 法 简介 ，
+https A/www. ilib. cn/Article. aspx?AIT=QCode&AT=scxdh200620004&A=scxdh20
+0620004 ， 2010. 09. 12
+[10] 马 文 彬 ， 校 园 环 境 质 量 的 模糊 综合 评价 方法 ，
+http://www. docin. com/p-63264100. htm1，2010. 9. 12
+[11] 不 详 , 人 工 神经 网 络 ，
+http://www. hudong. com/wikiV%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD
+%91%E7%BB%9C，2010. 9. 12
+[12] 不 详 , 人 工 神经 网 络 ，
+http://baike.baidu. com/view/19743. htm 2010, 9, 12
+23

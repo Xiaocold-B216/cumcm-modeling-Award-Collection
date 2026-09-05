@@ -1,0 +1,42 @@
+加
+u
+Efes
+[13] 不 详 , 聚 类 分 析 , http://baike. baidu. con/view/903740. htm?fr=ala0 1 1,
+2010.9.12
+附录
+附录 一 模糊 综合 分 析 程 序
+disp( 请 输入 判断 矩阵 An 阶 ) ) ; -
+A=input C A="); A7
+[n, n] =size (A); SN
+x=ones (n, 100) ; 2
+y=ones (n, 100) ; 了
+m=zeros a, 100) 了
+m(1)=max (x (:, 1)) ;
+y(:， 1)=x(:， 1);
+x(:,2)=A%y(:,1); DA
+m(2)=max (x(:,2)); K
+y(:,2)=x(:,2)/m(2);
+p=0.0001; i=2; k=abs (m(2) -m(1)) ;
+while lop °
+i=i+1; &, 2
+x (iD=Aky(:， iD) ;
+m(i)=max (x(:, i));
+y(:, D)=x(:,1)/m(i) ) 一
+k=abs (mn(i)-m(i-1)) ; ¥
+end ——
+a=sum (y (:, 0):)
+w=y (:, 及 Y
+t=m(Q) 1| 从
+disp C 枫 间 是 9 ;disp(w) ;
+合生 pad ) ;disp(b ;
+人 % 以 下 是 一 致 性 检验
+CI=(t-n)/(n-1);R1=[0 0 0.520.891.121.261.361.411.461.491.521.54
+1.56 1.58 1.59];
+CR=CL/RI (n) ;
+if CR<0. 10
+disp( 此 矩阵 的 一 致 性 可 以 接受 ! ) ;
+disp(CI=' ) ;disp(CD);
+disp( CR=' ) ;disp(CR) ;
+else
+disp( 此 矩阵 的 一 致 性 不 可 以 接受 ! ) ;
+24

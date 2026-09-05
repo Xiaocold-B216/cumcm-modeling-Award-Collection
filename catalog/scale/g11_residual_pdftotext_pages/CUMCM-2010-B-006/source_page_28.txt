@@ -1,0 +1,62 @@
+}
+return 0;
+}
+附录三 BP 神经网络程序
+
+流
+
+P=[
+0.698 0.244 0.604 0.500;
+0.799 0.254 0.463 0.324;
+0.480 0.484 0.425 0.005;
+0.327 0.607 0.459 0.771;
+0.323 0.837 0.987 0.908
+]';
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+T = [0.22 0.08 0.06 0.42 0.08 ];
+net=newff(minmax(P),[2,1],{'tansig','purelin'},'traingdm')
+inputWeights=net.IW{1,1}
+inputbias=net.b{1}
+layerWeights=net.LW{2,1}
+layerbias=net.b{2}
+net.trainParam.show = 50;
+net.trainParam.lr = 0.05;
+net.trainParam.mc = 0.9;
+net.trainParam.epochs = 1000;
+net.trainParam.goal = 1e-3;
+[net,tr]=train(net,P,T);
+
+微
+
+信
+
+公
+
+for i=0.0:0.01:1.0
+X = [0.601;i;0.412;0.771];
+R = sim(net, X);
+plot(i, R)
+hold on;
+end
+hold off;
+
+附录四 聚类分析代码
+datin = [0.18 0.11 0.09 0.42 0.04 0.15]';
+[N M] = size(datin);
+R=zeros(N,N);
+max=0;
+for i = 1:N
+26
+
+

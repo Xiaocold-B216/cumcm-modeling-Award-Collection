@@ -1,0 +1,46 @@
+EEEE
+aaa=a;
+a=col;
+N=N+1;
+i=a;
+if 10>c(2%(i-1)+1)&&t0>c(2*(i-1)+2)
+9%[cmin,cind]=min([c(2*(i-1)+1),c(2*(i-1)+2)]);
+cmin=t0;cind=1;
+elseif t0<c(2%(i-1)+1)&&t0<c(2*(i-1)+2)
+[cmin,cind]=min([c(2*(i-1)+1)}+T(5).c(2*(i-1)+2)+T(6)]);
+cmin=cmin-T(4+cind);
+else
+[emin,cind]=min([c(2*(i-1)+1),c(2*(i-1)+2)]); #
+cmin=t0; - NY
+end _ 一 \)
+GZN=N-8; 2XG
+GZBH=M(GZN,2); ， ood
+GZSI=M(GZN,1)+T(6-mod(GZBH,2))+randi(T(4));". »
+Er
+GZZZ=-GZSJ+1200; Q
+GZ=[GZ;GZN,GZBH,GZS),GZZZ] ; X
+t0=t0-d;
+a=aaa;
+if t0 <GZSJ ®
+10=t0-+d; O
+a=col; %%
+end
+MGZND 22009 生 二
+M(GZN,3)=GZZZ; 人
+cxGljraadcgzz
+N=N-1;
+BXY -Ra
+else | 力
+Cs adTTt0,c );%a,t0,c 改变 为 fgh.
+V8- Step( £.dT,T,gh.e )
+| /人 e3=reshape(e3,64,4);
+1 inValue,row] = min(e3);
+[minValue,col] = min(minValue);% Hi col 知 当前 该 移动 到 哪 一 位
+d=dT(abs(a-col)+1);
+t0=t0+d;
+t0
+a=col;
+N=N+1;
+i=a;
+if 10>c(2%(i-1)+1)&&t0>c(2*(i-1)+2)
+76

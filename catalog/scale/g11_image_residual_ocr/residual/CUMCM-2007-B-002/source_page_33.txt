@@ -1,0 +1,46 @@
+ERE
+和
+RE
+案 ， 是 返回 值
+vector<LoadMessage> & AllLines, // 所 有 路 线
+信息
+vector<vector<int> > & AllBuses, // 所 有 公 汽
+站 信息
+vector<vector<vector<int> > > &RoadCrossInfo) // 任意 两 路 线 的
+交叉 信息
+{
+bool bHaveFound = false;
+vector<int> FeasibleLine(6, 0);
+全
+int i, j, k; - <
+i=j=k=0; 二 “\
+和
+int nFirstLine = -1; 从 一
+int nSecondLine = -1;
+int nCurBridge = -1;
+:
+bool IsDirectToBridge = false; 人 // 起 始点 是 否 能 直达 中 转
+点 R
+bool IsBridgeDirectToDest = false; // 中 转 点 是 否 能 直达 目标
+点 @
+2 外
+// 搜索 相交 的 两 条 线路 3
+for (i=0; i<Al1Buses[NSTART-1].size(); ++i) // 经 过 起 始点 的 所 有 线路
+{
+nFirstLine = oo [il;
+—~
+for (j=0 司 j uses[NEND-1]. size() ; ++j) // 经 过 终点 的 所 有 线路
+2 训
+ondLine = AllBuses[NEND-1][j];
+X% // 两 路 线 的 公有 站 点
+t nLinel = -1;
+1 // int nLine2 = -1;
+if ( nFirstLine < nSecondLine )
+{
+nLinel = nFirstLine;
+nLine2 = nSecondLine;
+}
+else
+{
+nLine2 = nFirstLine;
+33

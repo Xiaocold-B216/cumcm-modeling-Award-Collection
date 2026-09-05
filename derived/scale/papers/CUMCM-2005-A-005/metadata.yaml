@@ -1,0 +1,47 @@
+paper_id: CUMCM-2005-A-005
+year: 2005
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：长江水质的评价预测模型.pdf
+  sha256: 95E931005A51089948CBEDDB05C879D2396ACD60599E3BFFF3FD14C1D99CAE9C
+authority_sha256: 95E931005A51089948CBEDDB05C879D2396ACD60599E3BFFF3FD14C1D99CAE9C
+paper_file_memberships:
+- path: 2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：长江水质的评价预测模型.pdf
+  role: primary
+  canonical: true
+primary_file: 2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：长江水质的评价预测模型.pdf
+extraction_inputs:
+- path: 2005年数学建模国赛真题+优秀论文/2005年国赛优秀论文/2005A：长江水质的评价预测模型.pdf
+  sha256: 95E931005A51089948CBEDDB05C879D2396ACD60599E3BFFF3FD14C1D99CAE9C
+  kind: original
+extraction_input_sha256: 95E931005A51089948CBEDDB05C879D2396ACD60599E3BFFF3FD14C1D99CAE9C
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 6
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2005-A-005/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2005-A-005/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2005-A-005/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2005-A-005/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2005-A-005/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2005-A-005/source_page_6.txt"]
+  source_sha256: 95E931005A51089948CBEDDB05C879D2396ACD60599E3BFFF3FD14C1D99CAE9C
+  current_body_sha256: 8362FE7380CCA45AF2FBEA8AD77A30CC94A134F27B286975A5E3769450B3AA7C
+  candidate_body_sha256: D881EA71BFA78A907D6A1B11B11E59224F1D5EC8806FE325641EF47000E32E30
+  source_page_count: 6
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

@@ -1,0 +1,44 @@
+paper_id: CUMCM-2011-A-006
+year: 2011
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q2
+authority_sources:
+- path: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（4）.pdf
+  sha256: 2582B807804D7C7439C506F7EE2AF21F85C13832FB317512FC6ED80AA13AF3FC
+authority_sha256: 2582B807804D7C7439C506F7EE2AF21F85C13832FB317512FC6ED80AA13AF3FC
+paper_file_memberships:
+- path: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（4）.pdf
+  role: primary
+  canonical: true
+primary_file: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（4）.pdf
+extraction_inputs:
+- path: derived/scale/pdf_ocr/CUMCM-2011-A-006.readable.pdf
+  sha256: F3E5441C822CE7F2434E46551BE3D313101E3D13C88178DD17B5818BB1B3676B
+  kind: g8_q2_ocr_derivative
+extraction_input_sha256: F3E5441C822CE7F2434E46551BE3D313101E3D13C88178DD17B5818BB1B3676B
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: poppler-pdftotext
+page_count: 25
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+repair_provenance:
+  stage: G8-Q2-R
+  paper_id: CUMCM-2011-A-006
+  source_file_path: 2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（4）.pdf
+  source_sha256: 2582B807804D7C7439C506F7EE2AF21F85C13832FB317512FC6ED80AA13AF3FC
+  derived_file_path: derived/scale/pdf_ocr/CUMCM-2011-A-006.readable.pdf
+  derived_sha256: F3E5441C822CE7F2434E46551BE3D313101E3D13C88178DD17B5818BB1B3676B
+  page_count: 25
+  ocr_engine: tesseract.js
+  ocr_engine_version: 7.0.0
+  ocr_languages: chi_sim+eng
+  page_audit_rows: 25
+  unexplained_pages: 0
+  status: PASS

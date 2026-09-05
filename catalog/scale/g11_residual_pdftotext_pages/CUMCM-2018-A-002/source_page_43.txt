@@ -1,0 +1,44 @@
+u(2:m+1,k)=x';
+
+研
+
+交
+
+q=optimum1+optimum2;
+[p e]=min(optimum1);
+fprintf('l2 最小成本最低时介质 II、介质 IV、总厚度：\n')
+fprintf(' 12=%.1f\n',optimum1(e))
+fprintf(' 14=%.1f\n',optimum2(e))
+fprintf(' 12+l4=%.1f\n\n',q(e))
+
+流
+
+end
+if u(m+1,1800)<=47&u(m+1,1501)<=44%控制条件
+optimum1=[optimum1 l2*1000];
+optimum2=[optimum2 l4*1000];
+end
+end
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+fprintf('l2+l4 最小厚度最小时介质 II、介质 IV、总厚度：\n')
+fprintf(' 12=%.1f %.1f\n',optimum1(1),optimum1(2))
+fprintf(' 14=%.1f %.1f\n',optimum2(1),optimum2(2))
+fprintf(' 12+l4=%.1f %.1f\n',q(1),q(2))
+
+43
+
+

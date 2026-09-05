@@ -1,5 +1,8 @@
-stage=G8-DOC-BATCH-CONVERSION-REPAIR
+stage=G8-DOC-SINGLE-CONVERSION-REPAIR-SWITCH-TYPE-FIX
 word_com_run=0
 doc_conversion_run=0
+targeted_repair_attempt_count=0
+powershell_51_switch_false_runtime_test_pass=1
+powershell_51_switch_true_runtime_test_pass=1
 next=USER_RUN_TARGETED_REPAIR
-2026-08-28T23:51:14.7738130+08:00 STATUS=BLOCKED target=CUMCM-2012-D-001 error=HISTORICAL_RETRY_STATE_NOT_EXHAUSTED
+2026-09-01T20:58:03.8368295+08:00 STATUS=PARTIAL target=CUMCM-2012-D-001 attempt_a=EXPORT_ERROR attempt_b_run=1 attempt_b_error=EXPORT_ERROR candidate=0 orphan=

@@ -1,0 +1,25 @@
+|
+
+142 I 程 数 学 学 报 第 22 卷 |
+对 误差 。 试 想 ， 实 际 降雨 量 为 0.01 mm， 而 预报 值 为 0.02 mm 与 实际 降雨 量 为 10.01 mm， 预
+报 值 为 10.02 mm， 它 们 的 误差 带 给 公众 的 感受 难道 是 一 样 的 吗 ?
+: 4) 在 考虑 等 级 问题 中 ， 只 有 极 少数 参赛 队 考 虑 了 不 同等 级 的 降 十 量 的 误 报 对 公众 的 不 同 |
+影响 ， 而 考虑 不 同时 段 对 公众 的 影响 的 参赛 队 就 更 少 了 。 有 一 个 参赛 队 考虑 用 层次 分 析 法 进行 ，
+3 处 理 ， 这 是 很 好 的 想法 ， 可 惜 未 能 深入 下 去 ， 给 出 相应 的 抢 阵 及 计算 结果 ， 给 人 以 虎 头 蛇 尾 的
+感觉 |
+， 多 考 文献 :
+) [1] 叶 其 学 主编 , 大 学 生 数 学 建 模 竞赛 辅导 教材 (二 )[M]. 长 沙 ， 湖南 教育 出 版 柱 ，1997 站
+i [2) WAE, HaER, Fi HMQERMALRMRNS HIZ). 数学 的 实践 与 认识 ，1997,27(4);327-334
+
+[3] Hardy R L. Multiquadric equations of topography and other irregular surfaces{J]. Journal of Geophysical 3
+b Research, 1971,76(8):1905-1915 3
+j Rain Quantity Forecasting Evaluation Model
+: Based on Interpolation :
+i TAN Yong-ji, CAI Zhi-jie . ;
+| ( School of Mathematical Sciences, Fudan University, Shanghai 200433 )
+3 Abstract: In this paper, we study the problem of evaluating different methods of rain quantity forecasting. 5
+和 We describe some interpolate methods for scattering data and the method to estimate the error. We set up an
+1 evaluating criterion to consider the public reaction on the forecasting. We also made some comments on the g
+3 contest articles. 1
+了 Keywords: interpolation for scattering data; error analysis 9
+| |

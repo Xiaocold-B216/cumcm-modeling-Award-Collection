@@ -1,0 +1,70 @@
+clear data21;
+k=1;
+for i=1:n2(1)
+if data20(i,2)==3
+data21(k,:)=data20(i,:);
+k=k+1;
+end
+end
+X3=data21;
+clear data21;
+
+流
+
+k=1;
+for i=1:n2(1)
+if data20(i,2)==4
+
+交
+
+data21(k,:)=data20(i,:);
+k=k+1;
+
+研
+
+end
+end
+
+：
+科
+
+X4=data21;
+n3=size(data21)
+%s(j)=
+sum(data21(:,5))/n3(1)
+group=[ones(140,1);
+ones(155,1)*2;
+
+众
+
+ones(140,1)*3;
+
+号
+
+X=[X1(:,5);X2(:,5);X3(:,5);X4(:,5)];
+
+公
+
+ones(151,1)*4];
+anova1(X,group)
+
+信
+
+8.1.3 问题三的程序代码
+
+微
+
+[ra,ir]=sort(data201(:,2));
+D=[ra,ir];
+for k=1:4
+j(k)=0;
+for i=1:5036
+if D(i,1)==k
+j(k)=j(k)+1;
+end
+end
+end
+
+25
+
+

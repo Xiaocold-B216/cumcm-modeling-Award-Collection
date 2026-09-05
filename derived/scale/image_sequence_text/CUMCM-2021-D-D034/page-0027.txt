@@ -1,0 +1,36 @@
+printf(" 首 次 切割 后 长 度 为 : %lf 的 钢坯 有 %d B\n",NmaxF);
+Imin = S-r-F*Nmax;
+}
+printf(" 最 优 方 案 切割 后 所 有 尾 坯 切 割 损失 最 小 值 : %f\n",Imin);
+}
+printf("Imin = %f\nimax = %f",Imin,Imax) ;
+return 0;
+}
+2.1 调整 后 的 切割 方案 1 程序
+#include <stdio.h>
+#include <math.h>
+int main(} {
+double 5,N=9.5,Nmin=9,Nmax=10,Cmin=4.8,Cmax=12.6;
+printft" 请 输入 “ 预 切割 钢坯 长 度 : S 以 逗号 + 回 车 结束 输入 :");
+scanf("%If\n",&s);
+printf("TEIEMEKE: s=%If\n",S);
+double e =N - Nmin;
+double f = SAN;
+intF = 0;
+F = (int)f;
+double g = S-F*N;
+float E = F*e;
+double Imax = g+E,Imin = g-E;
+double L = 1.6;
+if(Imin < 0){
+Imin = Imin+L;
+}
+if(Imin>Oif
+if(S>(Nmax+Cmin)){
+if(Imax<(Nmin+L)){
+printf(" 切 割 次 数 : 2 ( 需 进行 离线 二 次 切割 )Nn");
+double r1= Nmax + fmod(Imin,{Cmax-Nmax}},F1 = 1;
+printft" 首 次 线 切 后 第 一 类 钢坯 长 度 为 : %f 的 钢坯 有 :1 B\n", r1);
+double f2 = Imin/(Cmax-Nmax},r2 = Cmax;
+int F2 = 0;
+F2 = (intjf2;

@@ -1,0 +1,43 @@
+杞 所
+和
+wsn
+strDownLoad = "";
+strRoundLoad = string(strCurrLine, 6, strCurrLine.length());
+IsRoundWay  = true;
+}
+// 下 行 线路 不 是 上 行 线路 的 逆 方 向
+else if( temp ==“ 上 行 : ”)
+{
+strUpLoad = string(strCurrLine, 6, strCurrLine.length());
+strRoundLoad = ””;
+// 读 入 下 行路 线
+do 1{ 多
+getline (fin，strCurrLine，Nn ) ; 二 A7
+} while(strCurrLine == ""); ZX \)
+一
+StrDownLoad = string(strCurrLine, 6, strCurrLine. Chefr”
+代
+/大 下 行 线路 是 上 行 线路 的 逆 方 向
+else DA
+{ 全
+StrUpLoad = strCurrLine; K
+strDownLoad 一人;
+strRoundLoad = ””; O
+的
+// 构造 同一 路 线 分 成 的 两 全 路 线 汉 并 把 它们 存 入 容器 中
+LoadMessage S currLoad up; // 当前 路 线 的 上 行路 线
+LoadMessage 一 currLoad_down; // 当前 路 线 的 下 行路 线
+—r
+currLoad Sup.nLineName = StrTolnt ( string(strBusLine, 1, 3) );
+CUIET Te = strPrice;
+o bRoundLoad = IsRoundWay;
+3 N nLineName = currLoad _up. nLineName + 520;
+1 // rrLoad down. strPrice = strPrice;
+SA， currLoad_down. bRoundLoad = IsRoundWay;
+// 环形 路
+if ( IsRoundWay )
+{
+RoundRoadCal (strRoundLoad, currLoad up.nLineName, AllBuses,
+currLoad_up. LineInfo, currLoad down.LineInfo) ;
+}
+39

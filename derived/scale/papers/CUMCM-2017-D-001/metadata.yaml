@@ -1,0 +1,47 @@
+paper_id: CUMCM-2017-D-001
+year: 2017
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (2).pdf
+  sha256: 2876DA7516A25484B0C09B89235496AA4D5E1D3957AF6D1CF4D8B21C61FAF65B
+authority_sha256: 2876DA7516A25484B0C09B89235496AA4D5E1D3957AF6D1CF4D8B21C61FAF65B
+paper_file_memberships:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (2).pdf
+  role: primary
+  canonical: true
+primary_file: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (2).pdf
+extraction_inputs:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017D：巡检线路的排班 (2).pdf
+  sha256: 2876DA7516A25484B0C09B89235496AA4D5E1D3957AF6D1CF4D8B21C61FAF65B
+  kind: original
+extraction_input_sha256: 2876DA7516A25484B0C09B89235496AA4D5E1D3957AF6D1CF4D8B21C61FAF65B
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 48
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["20", "21", "23", "25", "39", "42", "43", "45"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-D-001/source_page_20.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-D-001/source_page_21.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-D-001/source_page_23.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-D-001/source_page_25.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-D-001/source_page_39.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-D-001/source_page_42.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-D-001/source_page_43.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-D-001/source_page_45.txt"]
+  source_sha256: 2876DA7516A25484B0C09B89235496AA4D5E1D3957AF6D1CF4D8B21C61FAF65B
+  current_body_sha256: BE3440FFD664B1BA745D8A478A365EA6815647327DE200D9AEB476FE70EFC071
+  candidate_body_sha256: 9591EFE6851C9BF7B5B50CEBF8106990F7D66CE23D20699F42E0D8A40D6C430B
+  source_page_count: 48
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

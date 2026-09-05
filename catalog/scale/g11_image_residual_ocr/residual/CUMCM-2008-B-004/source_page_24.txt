@@ -1,0 +1,33 @@
+o
+0
+Bri
+选择 初始 学 费 F0
+确定 初始 温度 T0
+当前 学 费 Fi=F0
+当前 温度 Ti=TO
+败
+从 Fi 的 邻 域 中 随机 选 N
+取 一 个 解 Fj
+j 满 足 约束 条 人 梧
+件 全 syD
+=
+/一
+Y
+THFAE=RFD-F)
+N
+从 人
+和，
+忆 >
+ee
+6 了 |
+WVWE 瑟 BaoJne
+RY
+二 一
+一 一 Y
+AL
+EC]
+War
+得 到 最 优 解 N
+Ce
+图 10 模拟 退火 算法 流程 图
+22

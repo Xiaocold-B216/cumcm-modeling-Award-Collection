@@ -1,0 +1,13 @@
+print(dis_group.shape)
+print{dis_group.columns)
+print(dis_group)
+min_index = dis_group.idxmin()
+print{min_index)
+res = [*zip(OP_null_index, dis_group.loc[min_index[1:], 'OP")]
+res
+dictl = {i: [] foriin range(17)}
+foriin range(len(res)):
+dict1[res[i][1]].append(res[i][0])
+foriin dictl.keys():
+print(i, dict1[i], len{dict1[i]))
+37

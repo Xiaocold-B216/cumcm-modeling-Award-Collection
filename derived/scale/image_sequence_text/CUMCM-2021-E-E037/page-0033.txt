@@ -1,0 +1,43 @@
+data0['Class'].fillna('D', inplace = True)
+data0['OP'].fillina(o, inplace = True)
+data0
+Colors ={'A":'r','B": 'g','C":'b', 'D' : 'y'}
+plt.figuref' 附 件 四 Class', figsize = (5, 3), dpi = 300)
+plt.xticks{range(0, 10000, 1000), rotation = 45, fontsize = 5)
+plt.yticks(fontsize = 5)
+plt.xlabel( 波 段 ,fontsize = 5)
+plt.ylabel(' 吸 光度 , fontsize = 5)
+foriin range(data0.shape[0]):
+
+if data0.iloc[i,0] !='D':
+
+plt.plot{data0.columns([2:], data0.iloc[i,2:], ¢ = colors[data0.iloc[i,0]], linewidth = 0.5)
+
+plt.grid(True)
+plt.show()
+colors ={'A":'r','B": 'g','C":'b', 'D' : 'y'}
+plt.figuref' 附 件 四 Class', figsize = (5, 3), dpi = 300)
+plt.xticks{range(0, 10000, 1000), rotation = 45, fontsize = 5)
+plt.yticks(fontsize = 5)
+plt.xlabel( 波 段 ,fontsize = 5)
+plt.ylabel(' 吸 光度 , fontsize = 5)
+foriin range(data0.shape[0]):
+
+if data0.iloc[i,0] == 'B' or data0.iloc[i,0] =='C":
+
+plt.plot{data0.columns([2:], data0.iloc[i,2:], ¢ = colors[data0.iloc[i,0]], linewidth = 0.5)
+plt.grid(True)
+plt.show()
+data_X = dataBCD.iloc[:, 2:]
+data_Class = dataBCD.iloc[:, 0]
+max_min = data_X.agg(lambda x: x.max() - x.min())
+print{max_min.describe())
+datal = data_X.loc[:,max_min > max_min.mean() + 0 * max_min.std({)]
+print{data_X.shape, datal.shape)
+datal
+data_Class_know = datal.drop(BC_index)
+data_Class_unknow = datal.loc[BC_index,:]
+print{data_Class_know.index, "\n', data_Class_unknow.index)
+from scipy.spatial import distance_matrix
+dis_C = pd.DataFrame(distance_matrix(data_Class_know.values, data_Class_unknow.values),
+33

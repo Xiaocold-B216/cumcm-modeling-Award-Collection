@@ -1,0 +1,42 @@
+附录 四 问题 3 代码
+斋 表 单 3 类 型 划分
+mydata-read table("clipboard”, header = T, sep ="t)
+‘mydata pls <- plsr(group ~K20+PbO+Ba0+Sr0,data-mydata, 4, validation = "CV")
+‘summary(mydata pls)
+‘mydata.pls <- plsr(group ~K20+PbO+Ba0+$rO data-mydata, 3, validation = "CV")
+as matrix(coef(mydata.pls))
+as matrix(mydata)].-1]%*%as matrix(coef(mydata.pls))
+yuce=as matrix(read.table("clipboard", header = F, sep = 7)
+predict(mydata.pls,yuce)
+#j# 表 单 3 TE BORAR5y
+‘mydata-read table("clipboard”, header = T, sep = AP)
+mydata.pls <- plsr(subgroup -SiO2+K2O+CaO+BaO+SnO2
+data-mydata, 5, validation ~"CV")
+summary(mydata.pls)
+mydata.pls <- plsr(subgroup -SiO2+K2O+CaO+BaO+SnO2.data-mydata, 2, validation =
+"CVD
+yuce=as matrix(read table("clipboard" header = F, sep = At)
+predicttmydataplsyuce)
+#j# 表 单 3 铅 钢 玻 璃 亚 类 划分
+mydata-read table("clipboard”, header = T, sep ="t)
+mydata.pls <- plsr(subgroup ~Na20+Fe203+Cu0O+P205,data-mydata, 4, validation = "CV
+summary(mydata.pls)
+mydata.pls < plsr(subgroup ~Na20-+Fe203+CuO+P205,data-mydata, 2, validation = "CV")
+yuce=as. matrix(read.table("clipboard", header ~ F sep = 7)
+predict(mydata.pls.yuce)
+附录 五 热力 图 代码 〈R 语言 )
+mydata<-read table("clipboard" header=T)
+library(corrplot)
+cor<-cor(mydata)
+cormplot(cor,method-"square")
+col2 <- colorRampPalette(c("#FFFFFF","white" "#000000")alpha = TRUE)
+cormplot(cor, order ~ "helust”.method = "square",
+
+tlcol="black" tlcex = 0.8)
+cormplot(cor, order = "helust",col = col2(100).method = "color",
+
+tlcol="black" tlcex = 0.8.¢l.pos = "r" clratio = 0.2,
+
+insig = "blank" addgrid.col-"white")
+
+¥

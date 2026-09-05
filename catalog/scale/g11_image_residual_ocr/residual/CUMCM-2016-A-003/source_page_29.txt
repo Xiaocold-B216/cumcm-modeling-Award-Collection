@@ -1,0 +1,41 @@
+if i<n&&abs (H-18)<min
+minh=h;
+minH=H;
+minthital=thital;
+minthita2=thita2;
+minbeta=beta;
+mini=i;
+end
+end
+r=Lm*sum(sin (minthita2))+sin (minbeta)+sum(sin(minthital));
+end
+附录 三 : 问题 二 优化 程序
+n=210;%A%*A" 01a ofy
+kxmg=[];
+kxh=[];
+kxr=[];
+kxbeta=[];
+zfenshu=[];
+for mg=1800:4100%7"  OCOORA;
+mg
+min=inf;
+minh=0;
+minH=0;
+minbeta=0;
+minthital=zeros(1,4);
+minthita2=zeros(1,n)+pi/2;
+minFt2=zeros (1,n+1);
+for h=0:0.01:2
+Ft=zeros(1,5);%.0'0?; -OpA +A-A;
+alpha=zeros(1l,5);% 0'0?; -0 <A-A|pA TO
+thital=zeros(1,4);% + 0'UpA .To
+beta=0;%, 0I°pA .TO
+Ft2=zeros (1,n+1);%$A%A"2; -OpA +A-A|
+gama=zeros (1,n+1) ; $A*A"?; -O +A-A|pA TO
+thita2=zeros(l,n)+pi/2;% +A%A DA ETO
+s .ite2z
+v=36;% cEU
+S=2*(2-h) ;
+m=1000;%, ;+&0RA;
+rou=1025; $°£E@AUIE
+29

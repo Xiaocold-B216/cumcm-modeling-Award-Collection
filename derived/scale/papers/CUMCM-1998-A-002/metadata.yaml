@@ -1,0 +1,42 @@
+paper_id: CUMCM-1998-A-002
+year: 1998
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q3
+authority_sources:
+- path: 1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：资本市场的最佳投资组合.pdf
+  sha256: 6C5D2FE4B42FEEE9FA3A8479355304469E5A450A9E296B335A253C265AA9A368
+authority_sha256: 6C5D2FE4B42FEEE9FA3A8479355304469E5A450A9E296B335A253C265AA9A368
+paper_file_memberships:
+- path: 1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：资本市场的最佳投资组合.pdf
+  role: primary
+  canonical: true
+primary_file: 1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：资本市场的最佳投资组合.pdf
+extraction_inputs:
+- path: catalog/scale/g8_q3_batch_repair/CUMCM-1998-A-002/normalized_body.txt
+  sha256: 0D87F8916FEBFFA4AEF794B06CF0B8B8486521F1F80028C496A00A8B43A26615
+  kind: final_q3_batch_persistence
+extraction_input_sha256: 0D87F8916FEBFFA4AEF794B06CF0B8B8486521F1F80028C496A00A8B43A26615
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q3 Extraction Contract
+  source_page_numbering: 1-based
+  stage: G8-Q3-FORMAL-ARTIFACT-GENERATION
+primary_extraction_backend: final Q3 batch persistence
+page_extraction_backend: final Q3 batch persistence
+page_count: 8
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_final_q3_batch_persistence
+generated_from_frozen_sources: true
+source_pdf_path: 1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：资本市场的最佳投资组合.pdf
+source_pdf_sha256: 6C5D2FE4B42FEEE9FA3A8479355304469E5A450A9E296B335A253C265AA9A368
+final_batch_persistence_path: catalog/scale/g8_q3_batch_repair/CUMCM-1998-A-002/manifest.json
+final_body_path: catalog/scale/g8_q3_batch_repair/CUMCM-1998-A-002/normalized_body.txt
+source_body_sha256: 0D87F8916FEBFFA4AEF794B06CF0B8B8486521F1F80028C496A00A8B43A26615
+refinement_version: g8-q3-refinement-v1
+refinement_contract_sha256: 7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7
+refinement_evidence_fingerprint: 8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99
+q3_extraction_contract_sha256: 4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F
+revalidation_attempt_id: 20260903T063950668735_29d8de39
+formal_generation_attempt_id: 20260903T071531890631_0e2ef355

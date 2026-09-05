@@ -1,0 +1,40 @@
+minH=0;
+minbeta=0;
+minthital=zeros(1,4);
+minthita2=zeros(1l,n)+pi/2;
+minFt2=zeros (1,n+l);
+for h=0:0.0001:2
+Ft=zeros(1,5);%.0'0?; .OH 人 -人 -及 |
+alpha=zeros(1,5);%.0'02; -0 +A-A|pA .ETO
+thital=zeros(1,4);% + 0'UpA TO
+beta=0;%,0T° pi .2To
+Ft2=zeros(l,n+1l);3A%A"2; -OpA +A-A|
+gama=zeros (1,n+1);$A*A"?; -O +A-A|pA TO
+thita2=zeros(1l,n)+pi/2;% +A%A DA TO
+.ite22 .0
+v=24;% cEU
+S=2*(2-h);
+m=1000;%, j+&0BA;
+rou=1025; $°£E@AUIE
+g=9.8; %0gA | HOEUIE
+V=pi*172%h;%°0E@Ia»y
+Ffeng=0.625*S*v"2;% CcA!
+Ffu=rou*g*Vv;%, jA|
+Gfu=m*qg;%, j+&00A;
+if Ffu-Gfu<0
+continue;
+end
+alpha (1)=atan (Ffeng/ (Ffu-Gfu)) ;
+Ft (1)=sqrt (Ffeng”2+ (Ffu-Gfu) "2);
+%,010%; 0
+Vg=1*pi*0.025%2;% 0'Uia»y
+Ggang=10*g;%, O'UOGA|
+Fgfu=rou*g*vg;
+for i=1:4
+alpha(it+l)=atan((Ft(i)*sin(alpha(i)))/(Ft(i)*cos (alpha(i))+Fgfu-Ggang));
+Ft (i+1l)=Ft(i) *sin(alpha(i))/sin(alpha (i+1));
+thital (i)=atan(Ft (i)*sin(alpha(i))*1/((Fgfu-Ggang) *1/2+Ft (i) *cos (alpha(i)))
+)
+end
+$,01°2¢ 0
+25

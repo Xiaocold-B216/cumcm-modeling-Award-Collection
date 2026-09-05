@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-08-19T13:27:59+08:00",
+  "version": 1,
+  "issue_codes": [
+    {
+      "description": "Text encoding problems",
+      "code": "ENCODING_ISSUE",
+      "severity": "medium"
+    },
+    {
+      "description": "Required fonts not embedded",
+      "code": "MISSING_FONTS",
+      "severity": "low"
+    },
+    {
+      "description": "PDF structure corruption",
+      "code": "CORRUPTED_STRUCTURE",
+      "severity": "high"
+    },
+    {
+      "description": "Blank or empty pages",
+      "code": "EMPTY_PAGES",
+      "severity": "low"
+    },
+    {
+      "description": "Image resolution below threshold",
+      "code": "LOW_RESOLUTION",
+      "severity": "medium"
+    },
+    {
+      "description": "No searchable text layer",
+      "code": "MISSING_TEXT_LAYER",
+      "severity": "medium"
+    },
+    {
+      "description": "Multi-column or complex layout",
+      "code": "COMPLEX_LAYOUT",
+      "severity": "low"
+    },
+    {
+      "description": "File size exceeds 50MB",
+      "code": "LARGE_FILE_SIZE",
+      "severity": "low"
+    },
+    {
+      "description": "Password-protected PDF",
+      "code": "PROTECTED_PDF",
+      "severity": "high"
+    },
+    {
+      "description": "Missing or incorrect metadata",
+      "code": "METADATA_ISSUE",
+      "severity": "low"
+    }
+  ]
+}

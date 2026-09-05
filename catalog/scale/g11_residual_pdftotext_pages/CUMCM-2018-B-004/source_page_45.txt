@@ -1,0 +1,73 @@
+Situation(Error(i,2))=0;%修复完成后取走故障工件
+end
+end
+for i=1:8%计算预计时间
+Expect(1,i)=Move(1+abs(Position-ceil(i/2)));
+Expect(2,i)=Left(i);
+Expect(3,i)=Switch(i);
+Expect(4,i)=sum(Expect(1:3,i));
+end
+
+流
+
+[~,MinNumber]=min(Expect(4,:));%找出下一个目标
+Time=Time+Expect(1,MinNumber);%RGV 移动至下一个目标位置
+flag=0;
+
+：
+科
+
+研
+
+交
+
+for i=1:size(Error,1)%运动后再次检查错误信息
+if Time>=Error(i,3) && Time<=Error(i,4) && Error(i,5)==0 && MinNumber==Error(i,2)%
+运动中原目标发生了故障
+Error(i,5)=1;%标记为已处理
+Situation(Error(i,2))=0;%修复完成后取走故障工件
+for j=1:8%CNC 的时间推进
+if Left(j)-Expect(1,MinNumber)<0
+Left(j)=0;
+else
+Left(j)=Left(j)-Expect(1,MinNumber);
+end
+end
+时间
+end
+
+众
+
+flag=1;
+
+号
+
+Left(Error(i,2))=Error(i,4)-Time;%将故障修复所需时间转换为当前工作剩余完成
+
+信
+
+公
+
+end
+if flag%由于原目标 CNC 发生故障，重启循环
+continue;
+end
+flag=0;
+
+微
+
+for i=1:size(Error,1)%等待中检查错误信息
+if Time<=Error(i,3) && Time+Expect(2,MinNumber)>=Error(i,3) && Error(i,5)==0 &&
+
+MinNumber==Error(i,2)%等待中原目标发生了故障
+Error(i,5)=1;%标记为已处理
+Situation(Error(i,2))=0;%修复完成后取走故障工件
+for j=1:8%CNC 的时间推进
+if Left(j)-(Error(i,3)-Time)<0
+Left(j)=0;
+else
+Left(j)=Left(j)-(Error(i,3)-Time);
+end
+45
+
+

@@ -1,0 +1,37 @@
+回 叶 这
+人
+5
+46 工程 数学 学 报 第 19 T
+参考 文献 :
+[1] 杨 钰 , 何 旭 洪 , 赵 吴 彤 等 编著 . Mathematica 应 用 指南 [M]. 人 民 邮 电 出 版 社 ,1999 年 10 月 第 一 版
+[2] 苏 步 青 等 编著 . 实用 微分 几何 引 论 [LM] . 北京 :科学 出 版 社 ,1986 年 11 月 版
+[3] 谭 浩 强 编著 . C 程序 设计 [M]. 北京 :清华 大 学 出 版 社 ,1991 年 7 月 版
+[4] “ 姜 启 源 . 数学 模型 [M] . 高 等 教育 出 版 社 ,2001 年 1 月 版
+[5] 白 其 峥 主编 . 数学 建 模 案例 分 析 [M].2001 年 1 月 版
+[6] 雷 功 炎 编著 . 数学 模型 讲义 [M].1999 年 4 月 版
+Re-construction of Vessel in Taree Dimension _
+-从 >
+LIDU Hardonz，CHEN Lu，JIANG Hao 全 W
+The tutor: LU Qirhe 2XG
+(Suzhou University , Suzhou 215006 , P. R，China) H
+Abstract : The re - construction of vessel in three dimension will be discussed in this esay. st show the following proposition.
+Proposition  Let C be a curve along which the center of a ball moves, oa 本 m the original vessel by the plane Z
+=i,and Dof the boundary of of0 <i <99). Let C'” be the intersectionpoint of C with the plane Z=i(0 <i <99) , then
+there are a line segment with two end points PP 人， P{”, (PP €dw¥ < <2) such that CT) is the middle point of
+the line segment x
+Pf P{¥ and two parallel tangent lines which touch 3” only at P{”, P{’respectively (0 <i <99)
+On the basis of the proposition shown above , C'* (0 <i <09) and the diameter of the vessel D=59.1238 pixel have been found.
+The equation of C is simulated by coordinate data of 100 interséétion points :
+X(1) = - 0.207806 - 0 206455 1> £0. 0144935 *
++0.000517774* - 8.394241977754047 X10°¢1°
++6. 133353112035975 X10  p X10°10¢
+Y(1) =158.211+ 14 ©0.266798 17 +0.0141407 于
+- S Ty X10 -51
+- 9.899171274615063 x10- 915
+2(1) = ie 下
+On the ground of that equation.ythe-simulated vessel in three dimension is figured out , and at the same time , the 40 sections sliced
+from the simulated vessel 人 out ,matching the original vessel at the average rate as much as 96. 8024 %.
+Key words : % polynomial fit
+1do
+四  1ntom ts ei seo Ars. mo 医 对
+1994-2006 China Academic Journal Electronic Publishing All rights reserve http://ww ki.net

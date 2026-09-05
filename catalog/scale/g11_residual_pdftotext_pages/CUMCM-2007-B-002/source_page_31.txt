@@ -1,0 +1,102 @@
+if ( !bHaveFound )
+{
+pos_1 = pos_2 = -1;
+}
+return bHaveFound;
+}
+// 找出两点间是否有连线直接连接
+
+bool Direct_or_not(const int NSTART, const int NEND,
+
+// 起始点和目标
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+点
+
+决方案，是返回值
+
+研
+
+ww
+
+vector<LoadMessage> & AllLines,
+
+交
+
+vector<vector<int> > &FeasibleSolve,
+
+信息
+
+流
+
+// 如果有，则返回所有可能的连线
+
+：
+科
+
+vector<vector<int> > & AllBuses,
+
+站信息
+
+vector<vector<vector<int> > > &RoadCrossInfo)
+
+交叉信息
+{
+
+int i, j ;
+
+号
+
+i = j = 0;
+
+众
+
+bool bHaveFound = false;
+
+公
+
+vector<int> PossibleLine; // 存储可能的解
+
+// 搜寻各自经过起始站点、目标站点线路间是否为同一线路
+
+信
+
+for (i=0; i<AllBuses[NSTART-1].size(); ++i)
+{
+
+微
+
+for (j=0; j<AllBuses[NEND-1].size(); ++j)
+{
+
+if (AllBuses[NSTART-1][i] == AllBuses[NEND-1][j])
+{
+PossibleLine.push_back(AllBuses[NSTART-1][i]);
+}
+}
+
+}
+bool bIsDirect_1
+int
+
+= false;
+
+nCurLineName = -1;
+
+// 可行路线的编号
+
+31
+
+// 可行的解
+
+// 所有路线
+// 所有公汽
+// 任意两路线的
+
+

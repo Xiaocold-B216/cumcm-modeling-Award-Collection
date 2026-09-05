@@ -1,0 +1,47 @@
+ERE
+和
+Ne  Re
+type[next_pos]*B[next_pos]*put_down -ITep[next pos];
+hold_CNC[next pos] = hold_RGYV;
+it[ hold RGV ].intime2 = time - type[next_pos]*B[next_pos]*put_down -
+rep[next_pos];
+it[ hold_ RGV ].CNC2 = next pos;
+hold RGV = 0;
+}
+else{
+/在 CNN1
+if(type[next_pos] == 0){
+if(B[next_pos] == 1){
+hold_RGV = hold_CNCl[next_pos]; #7
+hold_CNCl[next_pos] = 0; 一 NY
+it[hold_RGV].outtimel = time - rep[next 区 治 \)
+/不 管内 部 有 无 半熟 品 ， 都 会 产生 新 的 :
+numit++;
+hold_ CNC[next pos] = numit; As
+it[numit]. CNC1 = next_pos; 人
+it[numitl.intimel = time - rep| 人
+}
+else{
+/对 于 CNC2， 仅 仅 拿 下 来 做 清洗
+it[ hold/CNE(next (pos] ].outtime2 = time -
+type[next_pos]*B[next Er _pos];
+hold_ CNC[ éxt_pos] =0;
+} 放
+) 7
+displayO: -7
+num+= B[next_pos]*type[next_pos];
+二 pos Re
+2 1= full;
+人 B[next pos] * not(type[next pos])W 若 CNC1 有 半 识 料
+SN (type[next_pos] == 0) B[next_pos] = 1;//CNC1 类 型 都 会 变 为 有 加 工 产品
+| // else B[next_pos] = t_full; /经 过 CNC1 装 半数 料 后 哦
+SA， for(int j=1;j<9;j++) cout<<B[j] <<"";
+cout<<endl;
+ifbreak(next_pos,time);
+begin = 1;
+cout<<full<<endl;
+ki
+else{
+time++;
+for(int i=1;i<9;i++){
+44

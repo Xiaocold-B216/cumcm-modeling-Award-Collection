@@ -1,0 +1,45 @@
+回味
+多 二 是
+if i==aa(j,5)*2
+TZ2(i,1)=aa(j,7);
+end
+end
+end
+for i=l:m
+for j=1:8
+if j==aa(i,4)
+%aa(i,3)=aa(i,2)+T(6)+T(4);
+TZ1(j,1)=aa(i,3);
+end #7
+end y NY
+end 一 \)
+TI=TZI(find(TZ1~=0)); 2XG
+T2=TZ2(find(TZ2~=0));
+UTT=aa(.,6); 任
+SFlength(UTT); S
+for ijk=1:SI X
+if UTT(ijk)>100000
+UTT(jk)=0;
+end O
+end O
+[nmn,nmi]=max(UTT); %%
+clear UTT SI ijk
+0
+从
+[ T6VTTLAIIZITT 51=1201( T1,T2,T3,00,dT,T );
+t0=T6;% 当 前 时 让
+for 要 1h'a
+j j=m:-1 2 1
+人 下 每 ma-ean
+SN aa(jj,3)=VTTI(ii);
+V¥Y/, aa(jj,5)=TT5(ii);
+SA， aa(jj,6)=VTT2(ii);
+aa(jj,7)=aa(jj,6)+T(5)+T(7);
+break;
+end
+end
+end
+aa(m+1:m+4,1)=TT4";
+aa(m+1:m+4,4)=TT4"*2-1;
+aa(m+1:m+4,2)=VTTI;
+86

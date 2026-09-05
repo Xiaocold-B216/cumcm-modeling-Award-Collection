@@ -1,0 +1,38 @@
+回 大 车 油 国
+区
+第 30 卷 第 1 期 数学 的 实践 与 认识 voL30 N BERAEE
+2000 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan —
+The Proofs of the Upper Bound for Optimal
+Kn ife-Replacement Period and the L ower Bound
+for Check Period
+M N M eng-bin -
+=
+(Suqian teaching training school，Suqian 223800) 全 W
+2G
+Abstract Asto the question (1) of problem A in CMCM- 99,this arti 站 es the ob-
+jective function to obtain a sufficient condition under which the 1 solution to knife-re-
+placement period T is less than NA and the lower bound for op al h eek period under general
+circum stances, and then proves that the optmal solution to t nife-rép lacem ent period in
+question (1) is less than 551, while the one to check Key ater than 7
+Keywords  knife-rep lacement period; check period; on pinal solution
+\
+o
+Ps 、|、
+煤 古 石 堆积 经 费 问题 的 几 点 讨论
+ANT 》
+如 云 ， 朱 永忠 ， 丁 根 宏
+¥ ( 河 海 大 学 数理 系 ， 南 京 210098)
+一 -一
+摘要 : 本文 讨 话 导 - 感 征用 策略 , 分 别 在 不 考虑 银行 存 贷款 利率 和 考虑 银行 存 、 贷款 利率 时 的 分 堆 情况 ，
+xu 贷 雪 利 率 时 平均 单位 体积 的 古 石 处 理 经 费 与 安息 角 , 出 不 率 的 关系
+关键 记 f 第 赂 : 安息 角 : 出 研 率
+kV/
+全
+] CT
+N : 年 度 征地 方案 理解 为 每 年 年 初 最 多 征地 一 次
+3. 运 古 车 在 上 升 过 程 中 效率 的 降低 是 均匀 的
+4. 设 运 古 车 在 运行 过 程 中 所 受 的 摩擦 力 和 重力 忽略 不 计 , 只 考虑 运 古 车 内 夺 石 的 势
+能 , 并 且 运 古 车 的 运行 是 匀速 的 , 做 的 有 效 功 全 部 转化 为 古 石 的 势能
+5. 征地 费 于 当时 付出 , 电费 于 当年 内 付出 , 不 可 拖欠
+1 几 个 基本 量
+在 题 图 中 4 一 98OD 是 棱锥 部 分 ,4 一 3 CD 是 圆锥 部 分 , 由 实际 情况 , 古 石 堆 要 堆积 稳

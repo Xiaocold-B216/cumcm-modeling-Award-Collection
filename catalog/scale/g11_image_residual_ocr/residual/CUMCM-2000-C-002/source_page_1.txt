@@ -1,0 +1,39 @@
+加
+第 31 卷 第 1 其 数学 的 实践 与 认识 Vol31 NO 国 =
+2001 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan_2001
+Abstract Asto the problem of the tine needed for an airp lane to start from Beijing, fly over
+arctic pole, and reach Detroit, this article discusses how much tine can be saved in the models
+that established in the article in comparison w ith the original flight route And it summarizes
+selection of the flight route for searching the shortest arc in the surface Discussion is based on
+the fact that the shortest arc on surface is geodesic Model 1 is on the assumption that the
+Earth is a sphere It can be solved by the relation betw een inner-product and included angle of
+two unit vectors Model2 ison the assumption that the Earth is a revolving ellpsoid It can be
+solved by the geodesic equation in differential geometry, which turns latitude of theE; into
+thatof ellpsoid For the 4pairs of special points, their latitudes or longitudes < 从;
+calculate geodesic, so we replace geodesic w ith ellpse arc，and use softwareM an to
+obtain the length 74
+航程 计算 的 全
+N\e
+EG S | SS
+(复旦 大 学 辐 上 海 400433)
+人 os
+摘要 : 。 本文 对 飞机 航线 飞行 距离 计 斤 尘 模型 进行 了 概述 , 并 对 2000 年 全 国 大 学 生 数学 建 模 竞赛 的 C
+题 答 卷 进行 了 评述
+\ =- 一
+假定 飞机 保持 飞行 高 席 !j F 且 作 匀速 飞行 , 忽略 起 飞 、 降落 和 地 球 自转 和 公转 的 影响 ，
+C 题 可 以 归结 为 求 飞越 通 过 指定 各 点 的 球面 或 旋转 椭 球 面 上 的 短程 线 (或 测 地 线 ) 的 航线 与
+飞越 直接 连结 北 训 上 衬 .10 干 米 至 底特律 上 空 10 千 米 的 经 过 北极 圈 的 新 航线 的 时 间 差 又
+hr 千 米 /小 时 的 匀速 飞行 , 问题 又 可 归结 为 求 相 应 的 航程 差
+CA
+1 人
+< 隔 直 角 标 系 如 下 : 以 球 心 为 原点 ,= 轴 指 向 北极 ,x 轴 通 过 赤道 上 经 度 为 0 和 180" 的
+Tie 二 may 指向 0 y 轴 重 直 于 x 轴 和 = 轴 , 构成 右手 坐标 系
+忆 在 半径 一 6381 (TK) 的 球面 上 建立 球面 坐标 系 (9 6 , 由 于 航线 在 北半球 , 我 们 取 9 和
+北纬 度 一 致 , 6 和 东经 度 一 致 因此 航线 上 某 处 的 地 理 坐 标 为 , 0), 可 用 以 下 方法 得 到 对 应
+的 球面 坐标 (9 9 :
+9 广义 /180
+. {: IARS
+360 - /为 西 经
+6= 8 XTX180
+应 有
+3 © 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved 1tp.//WWW.CRKi.ne

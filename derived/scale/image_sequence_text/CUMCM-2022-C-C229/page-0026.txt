@@ -1,0 +1,13 @@
+附录 六 问题 4 检验 代码
+gaojia-as matrix(read table("clipboard”, header = F, sep = AD)
+pl=cor(gacjia)
+PIlupper.i(p] diag-FALSE)]-0
+x=as matrix(as.vector(p))
+X[which(x!=0)]
+qianbeias.matrix(read.table("clipboard”, header = F, sep ="t)
+p2-cor(gianbei)
+P2[tupper.tri(p2 diag-FALSE)]-0
+yeasmatrix(as.vector(p2))
+Yiwhich(y!=0)]
+wileox test(x.y.paired = T)
+vi

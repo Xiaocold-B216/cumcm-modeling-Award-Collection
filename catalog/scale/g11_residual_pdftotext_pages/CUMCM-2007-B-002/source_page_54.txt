@@ -1,0 +1,123 @@
+10.3.3(文件名：DataPreProcess.h)
+#include <vector>
+#include <iostream>
+#include <string>
+#include "LoadMessage.h"
+#include "Utility.h"
+
+// 将公汽线路信息及公汽站点信息存入数组中。
+AllLines,
+
+vector<vector<int> > &
+
+AllBuses)
+
+= " ";
+
+string strBusLine
+
+= "";
+
+string strPrice
+
+= "";
+
+string strUpLoad = "";
+
+= "";
+
+string strRoundLoad
+
+= "";
+
+IsRoundWay
+
+// 票价信息
+
+// 上行路线
+
+// 下行路线
+// 环形路线
+
+= false; // 判断当前读入的路线是否为环形路线
+
+众
+
+bool
+
+// 公交线路
+
+号
+
+string strDownLoad
+
+研
+
+string strCurrLine
+
+：
+科
+
+ww
+
+ifstream fin("1.1 公汽线路信息.txt");
+
+for(int nCount=0; nCount<520; ++nCount)
+
+公
+
+{
+
+IsRoundWay
+
+//
+
+微
+
+//
+//
+
+if (c == 2)
+{
+
+//
+//
+
+= false;
+
+int c = AllLines[1403].LineInfo.size();
+
+信
+
+//
+
+交
+
+{
+
+&
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+void AddBusStationsAndLines(vector<LoadMessage>
+
+流
+
+using namespace std;
+
+c = c;
+}
+// 读入路线名
+do {
+getline(fin, strCurrLine,'\n');
+} while(strCurrLine == "");
+strBusLine = strCurrLine;
+
+54
+
+

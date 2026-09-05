@@ -1,0 +1,46 @@
+第 7 期 王 颖 等 ，DVD 租赁 优化 方案 79
+综合 上 述 分析 ， 可 以 得 到 该 问题 的 模型 为
+6 1000 100
+max 11 x 1000 乞 2mo :好
+一 1 j=1
+1000
+2 zySm， j=1,2,---,100
+=1 1000
+st 人 0< )) 2i; <3,4=1,2,---,1000
+zi; 一 0 或 1]，  i=1,2,---,1000, j=1,2,---,100.
+根据 上 述 模型 ， 我 们 使 用 Lingo 软件 进行 求解 ， 结 果 如 下 :目标 函数 的 最 大 值 为 89.13%%; 没
+有 得 到 DVD 人 数 为 0， 得 到 1 张 DVD 人 数 为 6， 得 到 2 张 DVD 人 数 为 54， 得 到 3 张 DVD 人 数
+为 940;， WESHIK0%, 0.6%, 5.4%, 94%.
+表 4: 前 30 位 会 员 获 得 DVD 的 情况
+ELECTRO 本 EEC
+Cooo | Dog dj 【Di [Dog 3 | Conlg | Das 9) | Duet ay buwr
+EECEIIIETIICZIZNETTENICIE
+EECETKEOIETIICIIENIEIOCEEIIZ
+cooo [ Daor ay | Do cy | Do | co | Dasteo | Deray Dig G)
+Coos | DT | ooo GD | Doss @| cao | Do 0 | Dao co Do (9
+Cooo [ Dure (>| poss  |"oowe #| commt | Dos @_| ow0 5_| puss 1
+coor[ Duos co) | bias » | DB) | corma | Das 9) oves cy | owst 1
+Cooos | Dunt c&| DO | | corma Dim Gy | Der | Doog
+Cooe pa CU Do) | D100 @_| coree | Di Dot Gy | Dore 1
+Cooo | D0ss (®| oco (1>_| Doss @| coas | poms (1> | oos &>”| posr )
+CO | Dosa (1_| oes Gy | Doug | Goae | DG | Dee Ga) | pan 0
+ECIEIEEINONIEIEEIIONEIIOIECTIZ
+EECZEIEZEIETISIECTIEIIEITE
+Coo | pom @ | busz »_| Dom ©_| coos | bias & | owo @)_| bose (1
+coos [ pors >_| poee & | poss @_| com | ooor @)_| wez t>_| puse ®
+经 计算 ， 前 30 位 会 员 的 标准 满意 度 为 92.0%， 获 得 3 张 DVD 的 比率 为 93.3%， 也 就 是 93.3%% 的
+会 员 能 够 得 到 他 想 看 的 DVD。
+
+3) 问题 三 模型 的 建立 以 及 求解
+
+为 了 利用 题目 中 表 2 给 出 的 数据 ， 给 出 一 种 合理 的 购买 方案 ， 我 们 分 两 次 完成 购买 方案 。
+
+第 一 阶段 购买 方案 设 Vi=@is, Wailoo) 表示 针对 第 ;个 会 员 的 需求 所 选取 的 购 :
+
+示 个 会 ;
+买方 案 ， 其 中 人 人 会 员 购买 第 了 种 DVD 因为 有 60% 的 会 员 每 月 会 租
+0 表示 不 为 第 ;个 会 员 购买 第 了 种 DVD
+
+赁 DVD 两 次 ， 而 另外 40 色 的 会 员 每 月 只 租赁 一 次 ， 因 此 我 们 假设 一 月 会 有 两 次 订单 ， 其 中 题
+目 所 给 出 的 表 2 作为 第 一 次 订单 ， 首 先 利 用 表 2 的 数据 给 出 第 一 阶段 购买 方案 。 在 购买 中 ， 保
+证 95 色 的 会 员 得 到 他 想 看 的 DVD， 即 95 色 的 会 员 得 到 他 订单 中 的 3 张 ， 同 时 要 使 他 们 的 满意 度

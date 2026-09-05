@@ -1,0 +1,5 @@
+query_id,query,purpose,uses_d044
+Q1,"""CUMCM 2012 D 优秀论文""",broad competition archive discovery,0
+Q2,"""2012 数学建模 D题 优秀论文""",higher-education archive discovery,0
+Q3,"""机器人避障 2012 数学建模 优秀论文""",problem-title constrained discovery,0
+Q4,"""本文主要是对机器人在一个平面区域内的通过不同障碍物到指定目标点进行研究，首先通过机器人与障碍物的最小""",distinctive-text verification search,0

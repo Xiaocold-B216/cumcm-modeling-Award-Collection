@@ -1,0 +1,29 @@
+P= Group_Daa(3*i-2,13);
+Q=Growp_Data(3¥i-11:3)
+T= Group_Data(3%-0,13),
+S_Project() = ProjectArea®Q.T):
+end
+S_All= sum(S_Project);
+eight = S_Project / sum(S_Project)
+问题 3 子 贡 数 ， (XfA Mddiemk)
+Tinetion ICPQTNPQNQTNTPI= Middle®Q.T)
+6PQT 为 同一 小 反 里面 上 三 个 主 家 结 点
+%CPQT 为 小 反射 面 球 心
+%MPQ MQT MTP 为 三 直 边 中 点
+9%NPQ NQT NTP 为 三 贺 弧 中 点
+R=3004;
+syms cx cy cz% 国 心 坐标
+o=fexey czls
+eqns = [sum(P-€)"2)==R/2 sum((Q-6) 2)-=R"2 sum((T-c) 2)=-R"2];
+_a = vpasolve(eqms.[-500,500;-500,500;100,-300]),
+CPQT = double((ypac_a.cx(1)) vpa(e_a.cy(1) vpa(e_ac()]:
+MPQ = (B5Q)2:
+NT -orTD2;
+MTP= CT+P)2;
+KPQ = Rilsum((MPQ-CPQT)"2)) 0.5;
+KQT = R(sum((MQT-CPQT) 2)y0.5;
+KTP = Rsum((MTP-CPQT)"2))0.5;
+NPQ = CPQT+KPQ(MPQ-CPQT),
+NQT = CPQT+kQT*MQT-CPQT)
+NTP = CPQT+KTPHMTP-CPQT),
+end

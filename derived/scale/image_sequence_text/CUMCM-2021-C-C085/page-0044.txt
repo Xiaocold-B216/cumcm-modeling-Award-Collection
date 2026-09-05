@@ -1,0 +1,49 @@
+TFLE—C
+CN+=s
+Caappend(fs.r])
+
+AW.append(AN)
+BW.append(BN)
+CW.append(CN)
+foriin range(len(A)):
+while A[§][0]>6000:
+fork in Tpaixu:
+
+if FPIO][K]>10
+AIiIOL-=FPIOJIN
+YSIintAIIIIDDIGe- D* 8+ K] += FP[0](k]
+FPIO][K]-0
+break
+
+foriin range(len(B)):
+while Bi[oj>6000:
+fork in Tpaixu:
+
+证 FPIIK>10:
+BO-=EPEUJIk
+YSfintBIEHJGe - 1)* 8 +k] += FP[1]K]
+FP[1][K]-0
+break
+
+fori in range(len(C)):
+while C[i][0}>6000:
+fork in Tpaixu:
+
+证 FPI2JIkJ>10:
+CLilI0)--FP2](k]
+YS[int(CHIMDIICe - 1)* § +K] += FP2][k]
+FP2][K]-0
+break
+
+for k in Tpaixu
+
+ik
+
+=0
+
+for Kk in range(num + 1)
+CYS[RK][(e- 1)* 8 +i]
+
+xx = int(min(int (FP[0]{K]).6000-1))
+
+“

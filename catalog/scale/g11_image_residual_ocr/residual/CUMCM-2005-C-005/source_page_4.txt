@@ -1,0 +1,45 @@
+.
+] 136 IB 数 学 学 报 第 22 卷 : |
+， - _ 四
+其 中 表 2 表 3 中 的 i disl, i.dis2 分 别 为 第 一 种 预报 方法 的 第 ; 个 时 段 和 第 二 种 方法 的 第 ; 个 |
+时 段 ( = 12,3,4) 的 误差 ，Msssall 所 含 四 个 值 为 4 个 时 段 所 有 实测 值 不 等 于 0 的 点 总 体 的 相 : |
+对 误差 值 ，Msssall0 所 含 四 个 值 为 四 个 时 段 所 有 实测 值 等 于 0 的 点 总 体 的 绝对 误差 值 。avg 对 |
+应 4 个 时 段 误 差 的 平均 值 。 由 表 2 可 以 看 出 在 用 第 一 种 预报 方法 预报 的 降雨 量 在 第 一 时 段 时 的 : |
+误差 为 0.80954， 相 应 的 在 表 3 里 可 以 得 到 用 第 二 种 预报 方法 预报 的 在 同一 时 段 的 降雨 的 误差 ; |
+为 0.8112， 因 为 误 莹 越 小 越 好 ， 所 以 方法 一 是 比较 准 的 预报 方法 。 癌 理 ， 在 其 它 时 段 方法 一 ; |
+都 比方 法 二 好 。 与 此 疝 时 ， 在 表 2 和 表 3 里 ， 误 差 对 时 段 的 平均 值 也 是 方法 一 小 于 方法 二 的 ， |
+即 0.68581 < 0.6986。 同 样 可 分 析 各 观测 站 观测 数据 为 零 时 的 两 种 预报 方法 的 预报 值 的 准确 程 |
+度 见 表 2 表 3 Msssall0 所 对 应 的 数据 。 所 以 对 问题 一 不 管 是 哪个 时 段 或 实际 降雨 量 是 否 为 0， 第 |
+. 一 种 预报 方法 都 是 最 好 的 雨量 预测 方法 。 |
+3.3 ”问题 二 的 误差 值 的 计算 及 结果 分 析 ， |
+. 通过 简单 的 计算 机 程序 我 们 可 以 按 公式 (4) 计 算出 问题 二 考虑 了 公众 的 满意 度 以 后 的 修正 评 |
+由 ， 结 : i |
+价 模型 ， 得 到 结果 见 表 4 网 |
+ET |
+第 一 时 间 段 0.2765 ， |
+: 第 二 时 间 航 | 。 0.2312  | 。 0.2628 | |
+ET |
+第 四 时 间 段 0.2641
+， 平均 值 “| 【0.2614 | 0.2676 ，
+， 分 析 结 果 我 们 发 现 不 管 使 用 方法 二 还 是 方法 二 ， 两 者 都 所 产生 的 误差 相差 不 大 ， 比 较 两 者 |
+的 误差 值 ， 第 二 种 预报 方法 的 在 第 一 个 时 段 和 第 四 个 时 段 产生 的 误差 比方 法 一 小 ， 说 明 在 这 两 |
+1 个 时 段 方法 二 预报 的 效果 更 另 公 众 满意 ， 但 是 在 二 ， 三 两 时 段 比方 法 一 的 误差 大 〈 见 表 第 二 行 |
+和 第 三 行 ) ， 说 明 方法 一 在 这 两 个 时 段 预报 效果 令 公众 比较 满意 ， 因 此 仅 从 表面 看 不 出 是 哪个 : |
+: 方法 好 ， 于 是 列 出 了 平均 值 ， 以 此 来 衡量 最 终 是 哪个 方法 误差 小 ， 从 总 体 上 令 公众 感到 满意 的 |
+次 数 多 。 由 表 4 最 后 一 行 可 见方 法 一 的 平均 误差 小 ， 说 明 总 体 上 方法 一 的 预报 效果 能 更 令 公众 : |
+满意 。 |
+参考 文献 人
+[1) 姜 启 源 . 数学 模型 [M]. 北京 ， 高 等 教育 出 版 社 ，1992
+人 | 陈 杜 英 ， 起 振 国 . 短期 气候 预测 评估 方法 和 业务 初 估 [], 应 用 气象 学 报 ，1998,19(2):178-185 ;
+Evaluation of Rainfall Forecast Methods | |
+CHEN Yun, SONG Jie, BIAN Chao ，
+( Nanjing University of Information Science and Technology Nanjing 210044 ) |
+. Abstract: In this paper we has made mathematical model to evaluate the rainfall forecast methods scientifically. . |
+
+According to given points of grid we take interpolation and get the prediction value of two kinds of methods. :
+
+: Combining the data of surveying that the question offers and considering public satisfying degree, we set up
+
+relative error model to compare the value of two kinds of method errors, and estimate the accuracy of two kinds |
+of methods. ，
+Keywords; interpolation; relative error; degree of satisfaction ， H

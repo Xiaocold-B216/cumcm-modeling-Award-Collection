@@ -1,0 +1,46 @@
+回 成 革 动 国
+忆
+5
+S
+运行 结果 :
+¢t “C:\Program Files\Visual C+-\Bin\Debug\jk.exe" -|x|
+nin=244.528404 四
+Ix2=-8 .000000
+y2=0.000000
+ly1=7.000000
+Press any key to continue。
+——————— }
+将 循环 因子 的 步 长 降低 之 后 ， 进 一 步 精 确 求解 值 为 :
+#include”stdio. h” A7
+#include”math. h” 全 Se
+， o\N\
+main () 一 )
+{ double x2, y2, yl, w, a,b,c,min=1000; 2XG
+for (x2=-9;x2<=-7;x2+=0. 001) H
+for (y1=6;y1<=8;y1+=0. 001)
+for (y2=0;y2<=1;y2+=0. 001) As
+( SN
+w=5. 6*sqrt ((x2+15)% (x2+15) + (y2-5) %(v2 5)) +6. Oxsqrt ((x2*%x2) +(y1-y2)
+*(y1-y2))+26. 0%sqrt (25+(8-y1) F (8-yI)T. 2%y2;
+if (min>w)
+1
+min=w; O
+a=x2; %
+b=y2;
+c=yl; =<
+_Y
+) ” 一 一 ”
+printf ("minz% x2=%f \ny2=%f \nyl1=%f\n”,min, a, b, c) ;
+oo
+\L
+下
+(] *t “C:\Program Files\Visual C++\Bin\Debug\3. exe”
+1E
+1in=244.386494 全
+tx2=-8 .239009
+v2=0.120000
+lyl=7.2370008 全
+Press any key to continue v
+半 有 Eee
+2、 按 照 公 司 一 的 评估 的 总 费用 为 ;
+17

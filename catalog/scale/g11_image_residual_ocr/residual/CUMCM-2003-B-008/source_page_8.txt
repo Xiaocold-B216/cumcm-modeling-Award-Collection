@@ -1,0 +1,59 @@
+:
+本 吕
+中
+142 工程 数学 学 报 第 20 卷 7
+PNGUPRPRRPPPPRRUU
+生 数 学 建 模 竞赛 的 题 型 和 方法 ,在 我 院 举办 了 预赛 ,参赛 队 达到 了 38 个 , 收 到 了 预期 的 效
+果 , 达 到 了 提前 练兵 的 目的 。
+
+4) 加 强 学 术 交流 ,举办 全 国盛 会 。 为 了 加 强 我 院 的 数学 建 模 教学 工作 ,吸收 全 国 兄弟 院 校
+的 教学 经 验 ,加 强 学 术 交 流 。 今 年 8 月 ,由 我 院 和 大 连理 工大 学 承办 了 中 国 工业 与 应 用 数学 学
+会 数学 模型 专业 委员 会 和 全 国 大 学 生 数学 建 模 竞赛 组 委 会 的 “第 八 届 全 国 数学 建 模 教学 与 应
+用 会 议 ”全国 的 400 多 名 代表 欢聚 一 党 ,开展 了 广泛 的 学 术 交 流 ,我 们 从 中 获 益 非 浅 。
+
+5 结论
+
+全 国 大 学 生 数学 建 模 竞赛 活动 已 成 为 全 国 高 等 学 校 中 规模 最 大 的 课外 种 技 活动 ,直接
+” = | 、 人 MURc h
+影响 和 推动 着 全 国 高 等 教育 ,特别 是 数学 科学 与 素质 教育 的 发 展 。 我 院 学 员 通 过 矢 加 这 项
+
+全
+竞赛 活动 ,能 够 提高 他 们 的 综合 素质 ,将 对 我 院 创办 综合 性 院 校 . 培 差 高 素质 罕 殴 人 才 产 生
+— " £4
+积极 深远 的 影响 。 门 5
+， 。 ， AAS ,，/
+Enhance Student $S Synthesized Quality DY A I'd rticipating the
+. . 人
+Mathematical Contest 54 eli g
+'A 一
+Ji 惟
+FENG Jie， HU Guang-xu, UANG Li-wei
+(Dalian Naval Academy,Dalian 116018)
+o
+Abstract; The good prizes are awarded althorigh first participating the Mathematical Contest in Modeling. Some
+experiences and measures are summed in this pi SN student’s Synthesized Quality in five ways is enhanccd
+by participating the contest. Some experien s and neasures are described for improving this year’s scores.
+Keywords: mathematical AN quality;creative thought;computer applications
+一
+一 -一
+
+(上 接 89 页 }
+
+Optmizayjpn Dekign for Vehicle Arrangement Plan of Strip Mine
+
+人
+下 LONG Jian-cheng， XU Peng， YUAN Yue-ming
+SA Advisor: Wang Bing-tuan
+
+R (Beijing JiaoTong University, Beijing 100044)
+Abstract; In this paper, the thinking to solve the problem of optimal design is discussed by summing up the factors of vehicle ar-
+rangement plan of strip mine, analyzing the restriction conditions of the vehicle arrangement problem comprehensively, setting
+up the mathematical model base on integral programming, arranging the beginning setting of the excavator by using linear pro-
+gramming which simplifies the model reasonably and accelerating the solution of the model. In consideration of the utilization rate
+which can hardly near to 1 for the sake of promoting the practically applied possibility of the model’s optimized solution and in-
+creasing the flexibility of vebicle arrangement, the maximum rate of utilization is established; While the minimum rate of utiliza-
+tion is set up given that the excavator must be guaranteed to have certain utilization due to the high expenses of the equipments.
+This model is of high quality of practicability and generalizing from the result of calculating.
+Keywords: vehicle arrangement; strip mine; integral programming; optimization design
+
+.

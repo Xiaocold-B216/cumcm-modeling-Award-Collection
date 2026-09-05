@@ -1,0 +1,46 @@
+obal wallst vb_list veclist
+global V to1_list，，0_prepare_11st
+人 obal xCo_pred_List, xb pred_ lst，x_c_pred_ldst
+lobal df A_a11, df .8 1， df Cal1
+Baobal x ALall，x_ 8Lall, x.Call
+hanD 。 998; s 各 个体 数目
+ea indt = np.tletnparray(a.9a lea)，NInD) 。 2
+Vb_intt - mp.dletnp.anray(e .sa * lea)，NIvD) 。 2
+Veindt - np.diletnp.array(e .sa * lea)，NIvD) * 2
+Varllse wellse vc list =- (V.a_tnit], (Vb_inte], [V_c_init]
+4F_A_a11 。 pd -DataFrape([[]] * len(select A_ID), index-select_A_iD).T
+af-B_all = pd.DataFrane([[]] * len(select_8_iD), index-select_8_iD).T
+4F.C_a11 = pd.DataFranet[[]] * len(select_C_iD), index-select_C_iD).T
+xxA_all - pd.Dataframet[[]] * len(selece AID), dndexcselect A1D).T
+Ye_al1 - Pd.Darafrane([[]] * len(select 6_I0), index-select 8_10).1
+3CCall - pd.Datarrane(([1] * len(select C_10), index-select_C_i0).1
+V_tol_tist, 0_prepare_list = [1, [1
+oa_pred_listy x_b_pred_list, xc_pred list 。 [1, [1, []
+for weelc 4 in range(s, N + 1
+ SNLIL a +S  —
+variable = run_slgorstha(veek 1)
+plot_pie(veek_1, variable)
+return [df_Aaal，df .aall，df_c_all， x a_pred lists Xb pred_list, x_clpred ltst,
+V_tel_list, 0_prepare list
+af .Al1，df 8_al1, 6F C_all, x_a pred 1est, x_b_pred list x_c_pred list, \_tol list,
+0_prepare_1ist - pred.tweeks (1-34)
+ME
+Hperc umpy 35.1
+Hg geatpy as ea 4  AgestpyF
+inpoht time
+inport pandas as pd
+imporr matplotlib.pyplot as Pt
+costatet =
+6
+.66，
+)
+esssaaoeassesssssae 号 和 牙 据 aosesssessssssoo900099s8ss40o0ot
+data = pd read_excel "第 一 间 结 时-xlsx')
+cost_trans = pread_excel ' 玫 件 2 近 5 年 8 肖 转 运 商 的 相关 数据 .xlsx')
+upper_id = data[" 代 应 商 1D
+score = datal "后 得分 指数 .to_nunpy()
+pred_volume = data[ "平均 供 作 重 ( 供 货 闪 重 / 供 货 计数 ) '] ,to_numpy()
+output_volume list - []
+for i in range(len pred_volune)):
+eurput_velume = pred_volumeti] / cost_dietrdata[ "材料 分 类 0]
+output_volume_11st.append(output_volume)

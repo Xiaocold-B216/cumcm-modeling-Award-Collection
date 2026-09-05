@@ -1,0 +1,106 @@
+第 30 卷第 1 期
+数学的实践与认识
+V o l130 N o 11
+2000 年 1 月
+J an. 2000
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+n
+
++ ∞
+
++
+
+∫
+u
+
+g (x ) d x [
+
+∑0. 98
+
+j- 1
+
++ 0. 98n ( n t + k + f ( u -
+
+3
+
+0. 02 ( j t + a + f ( j s -
+
+( 0. 98 ( j ( s - 1) + j - 1) )
+
+j= 1
+
+( 0. 98 ( u - n ) + n ) ) ) ]
+
+模型求解及结果
+
+4
+
+流
+
+我们对 s 从 1 至 100, u 从 100 至 600 用穷举法进行搜索, 比较 F ( s, u ) 的值, 求得最优解
+为: s= 54, u = 304, 此时目标函数值为 9137681, 若限定 u 为 s 的整数倍, 则最优解为: s = 51,
+u = 306, 此时目标函数值为 9140044.
+
+考虑其它故障的情况
+
+研
+
+交
+
+若考虑其它故障, 我们将上述模型中的假设 1 改为: 其它故障与刀具故障的发生相互独
+立, 其它故障服从区间 [ 0, 22800 ] 上的均匀分布. 此时模型依然具有下列形式:
+E (F )
+m in F ( s, u ) =
+E (N )
+其中, E ( F ) 与 E (N ) 的表达式只需遍历其它故障的发生、刀具故障的发生以及第一次检查
+
+：
+科
+
+出不合格品这三个事件的所有情况即可推导出, 由于其形式相当复杂, 我们不在此列出.
+类似于前面的模型, 我们可以求出在考虑其它故障的情况下, 最优解为: s = 40 u = 314,
+此时目标函数值为 9157354.
+
+号
+
+M a thema tica l M odel of Automa tic M anag ing of La the
+Q IU Zhong 2hua
+
+公
+众
+
+YAN G Zhen 2hua,
+
+(N an jing U n iversity of Po sts & T elecomm un ica tion s, N an jing
+
+Abstract:
+
+210003)
+
+In th is p ap er, w e estab lish the m a them a ica l m odel of p rob lem A of 1999 Ch inese
+
+U nderg radua te M a them a tica l Con test in M odeling —— au tom a tic m anag ing of la the. T hen w e
+
+微
+
+信
+
+g ive the so lu tion of th is m odel.
+
+刀具问题的仿真及灵敏度分析
+赵桂芹,
+
+周 林
+
+( 东南大学, 南京
+
+摘要:
+
+210096)
+
+本文通过计算机模拟仿真, 搜索到了 CM CM - 99A 题中换刀间隔与检查间隔的近似最优解及单位
+
+正品最小费用, 并对 p 1 ( 好刀生产正品的概率) , p 2 ( 坏刀生产正品的概率) , k, f, d 进行了灵敏度分析, 得出 u
+( 换刀间隔) 是最重要的优化参数的结论.
+
+

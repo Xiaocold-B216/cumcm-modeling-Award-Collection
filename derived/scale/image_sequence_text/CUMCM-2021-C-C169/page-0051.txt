@@ -1,0 +1,34 @@
+10. data_to_indicator.m
+
+11. deviation.fig
+
+12. economical.mat
+
+13. economical_plan.m
+
+14. max_capacity.m
+
+15. max_capacity_eco.mat
+
+16. min_supplierm
+
+17. multiple_target_eco.m
+
+18. multiple_target_eco.mat
+
+19. multiple_target_trans.m
+
+20. Q3_visual fig
+
+21. transfer_plan.m
+
+22. visuallfig
+
+23. visual2ie
+
+24. 前 50 家 供应 商 数据 提取 .xlsx
+
+25. 指标 选取 .xlsx
+
+26. 最 少 24 家 供应 商 数 据 提取 .xlsx
+号

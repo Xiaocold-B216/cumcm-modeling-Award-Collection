@@ -1,0 +1,33 @@
+: [EE25R hitp: Avww. cqvip.com]
+. 112 1 程 数 学 党 .) 第 22 兰
+由 于 各 类 DVD 的 受 次 迎 程度 对 其 购买 呈 具 有 较 强 的 绕 响 力 ， 所 以 各 类 DVD 的 受 欢迎 程度 ;
+的 比例 图 也 可 以 给 网 站 在 购买 各 种 DVD IHRAt B 8CE, Jh #536 DVD 受 次 迎 程度 比 ，
+j 例 图 如 图 1。
+各 半 DWD 受 欢迎 程度 比 训 图 _____
+由 欢迎 可 度
+， 0 080 | |
+0.050 性 :生生 全 ERE_-K RER -
+; 0.00 HEadElREEE EEEEE -EEE
+0030 | 本 让
+1 0.020 ”国生 全 和 全 全 |
+i 国 DEELE  EREB 上
+000 5x E HBEYORBEEABELELTFHL
+| Do E 2 E GAEBIRERLSE :
+H Ld ] £a .) « by e) Sa A 人
+1 \] 号 hy If W yy yy ，
+， 和 |
+j 图 1: 各 类 DVD 爱 欢 迎 程度 比例 图
+: 参考 文献
+国 费 培 之 等 . 数学 模型 实用 教程 [M], 成 都 ， 岂 川 人 学 出 版 补 ，1998 和 全
+: [2] 朱德 通 , 莉 优 化 模型 与 实验 [M]. 上海: 同济 人 学 出 版 术 ，2003 人
+: [3) 卢 开 海 . 单 月 林 、 多 日 标 与 整数 舱 划 [M]. 北京 : 少 华 大 学 出 版 福 ，1999 作 4
+| DVD On-line Rents
+; HUANG Mei, LI Zhong, BAI Hai-jun ;
+Advisor: FU Wei
+(Emei School Southwest Jiaotong University Emeishan City 614202)
+Abstract: Aimed at the problem of renting DVD on-line，0-1 planning mathematical model is established. |
+By using Lingo software the problem of assigning DVD has been solved reasonably， Specially，for problem |
+3, a double-object linear programming model is approached, then processed to the single-object problem by 1 |
+: weighting treatment, the better results are obtained. !
+Keywords: degree of satisfaction; on-line rents H
+本

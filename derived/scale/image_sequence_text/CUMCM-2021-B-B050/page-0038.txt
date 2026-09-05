@@ -1,0 +1,19 @@
+A_3(i-10,4);
+本
+A_4(i-17,4);
+fg ———————————————————————
+A_5(i-23,4);
+fg  ———————————]
+A_6(i-29,4);
+上 hs |
+A_7(-38,4)
+fm 7 一生 |
+A_8(i-39,4);
+[aa 4 TUWUDDIF Ce |
+
+data_return(i,6) = A_9(i-44,1);data_return(i,7) = A_9(i-44,2);data_return(i,8) =
+A_9(i-44,4);
+
+#
+ELods
+SK MEASEES

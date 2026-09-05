@@ -1,0 +1,67 @@
+aa(4,7)=tQ(i)+T(6)+T(7)+T(5);
+tQ(i)=tQ(i)+T(6)+T(7);
+end
+end
+end
+
+交
+
+流
+
+while t0<8*3600
+[m,n]=size(aa);
+T1=aa(m-3:m,[1,3]);%一道工序结束时间
+T2=aa(m-7:m-4,[5,7]);%二道工序结束时间
+T1=sortrows(T1,1);
+T2=sortrows(T2,1);
+T1(:,1)=[];
+T2(:,1)=[];
+[Tmin,T3]=max(T2);%当前位置；
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+[ T6,VTT1,VTT2,TT4,TT5 ] = f201( T1,T2,T3,t0,dT,T );
+t0=T6;%当前时间
+for ii=1:4
+for jj=1:4
+if TT4(ii)==aa(m-4+jj,1)
+aa(m-4+jj,3)=VTT1(ii);
+aa(m-4+jj,5)=TT5(ii);
+aa(m-4+jj,6)=VTT2(ii);
+aa(m-4+jj,7)=aa(m-4+jj,6)+T(5)+T(7);
+end
+if TT5(ii)==aa(m-8+jj,5)
+aa(m-8+jj,7)=VTT2(ii);
+end
+end
+end
+aa(m+1:m+4,1)=TT4';
+aa(m+1:m+4,2)=VTT1;
+aa(m+1:m+4,3)=aa(m+1:m+4,2)+T(4)+T(6);
+aa(m+1:m+4,4)=aa(m+1:m+4,1)*2-1;
+
+end
+
+[m,n]=size(aa);
+aa(m-3:m,:)=[];
+[m,n]=size(aa);
+for i=m:-1:m-15
+d=dT(abs(aa(i,5)-1)+1);%移动
+if aa(i,7)+T(6)+T(7)+d>8*3600
+aa(i,7)=0;
+51
+
+

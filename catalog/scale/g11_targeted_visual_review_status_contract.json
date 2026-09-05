@@ -1,0 +1,80 @@
+{
+  "stage": "G11-TARGETED-VISUAL-REVIEW-STATUS-CONTRACT",
+  "status": "PASS",
+  "contract_version": "g11-targeted-visual-review-status-v1",
+  "repo_branch": "library-refactor-v1",
+  "repo_head": "557724fba6572d4d83dc421feda5b17b13ff8d66",
+  "contract_attempt_id": "g11-targeted-visual-review-status-contract-25ac5d7d871b4e89",
+  "created_from_blocked_attempt": "g11-targeted-visual-manual-decision-transcription-b59b693f24c4d51f",
+  "review_status_enum_specified": 1,
+  "review_status_allowed_values": [
+    "PENDING",
+    "REVIEWED"
+  ],
+  "pending_value": "PENDING",
+  "completed_value": "REVIEWED",
+  "classification_allowed_values": [
+    "PENDING",
+    "SUBSTANTIVE_CONTENT",
+    "LEGITIMATE_NONCONTENT",
+    "UNCLEAR"
+  ],
+  "field_semantics": {
+    "review_status": {
+      "PENDING": "尚未完成人工审核",
+      "REVIEWED": "已由真人完成审核"
+    },
+    "source_visual_classification": "PENDING before transcription; after human visual review, one of SUBSTANTIVE_CONTENT, LEGITIMATE_NONCONTENT, or UNCLEAR.",
+    "independence": "review_status records review completion, while source_visual_classification records the source-page content classification; the fields are independent."
+  },
+  "decision_sheet_path": "catalog/scale/g11_targeted_visual_diagnostic_decisions.csv",
+  "decision_row_count_read_only": 53,
+  "targeted_visual_pending_count_read_only": 53,
+  "decision_sheet_sha256_before": "25AC5D7D871B4E89FD8BFEDB89BEC7DCF21A885D99C5FB6D72C03FC011C4536B",
+  "decision_sheet_sha256_after": "25AC5D7D871B4E89FD8BFEDB89BEC7DCF21A885D99C5FB6D72C03FC011C4536B",
+  "decision_sheet_hash_unchanged": 1,
+  "targeted_visual_decision_modification_count": 0,
+  "g11_original_decision_modification_count": 0,
+  "formal_data_modification_count": 0,
+  "formal_artifact_content_modification_count": 0,
+  "formal_artifacts_modified": 0,
+  "formal_index_modification_count": 0,
+  "identity_modification_count": 0,
+  "membership_modification_count": 0,
+  "formal_eligibility_modified": 0,
+  "backlog_modification_count": 0,
+  "original_files_modified": 0,
+  "ocr_run": 0,
+  "q3_ocr_run": 0,
+  "pdf_render_run": 0,
+  "pdf_inspector_extraction_run": 0,
+  "pdftotext_extraction_run": 0,
+  "extraction_run": 0,
+  "body_reconstruction_run": 0,
+  "artifact_regeneration_run": 0,
+  "review_packet_regeneration_run": 0,
+  "g9_rebuild_run": 0,
+  "g10_rebuild_run": 0,
+  "g12_run": 0,
+  "network_access_used": 0,
+  "download_run": 0,
+  "new_dependency_installed": 0,
+  "word_run": 0,
+  "word_com_run": 0,
+  "doc_conversion_run": 0,
+  "git_operations": 0,
+  "outputs": [
+    "reports/scale/G11_TARGETED_VISUAL_DIAGNOSTIC_REVIEW_GUIDE.md",
+    "catalog/scale/g11_targeted_visual_review_status_contract.json",
+    "reports/scale/G11_TARGETED_VISUAL_REVIEW_STATUS_CONTRACT.md"
+  ],
+  "validation": [
+    "Review Guide explicitly specifies review_status=PENDING for not-yet-reviewed rows and review_status=REVIEWED after human visual review.",
+    "review_status and source_visual_classification are explicitly separate fields.",
+    "Target decision sheet was read-only and its SHA256 is unchanged.",
+    "No Word, OCR, extraction, rendering, batch, index, artifact, eligibility, network, dependency, or Git operation was run."
+  ],
+  "issues": [],
+  "blocker": "NONE",
+  "next": "G11-TARGETED-VISUAL-DIAGNOSTIC-MANUAL-DECISION-TRANSCRIPTION-RESUME"
+}

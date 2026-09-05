@@ -1,0 +1,44 @@
+是
+z[z1++]=5;ab—;al. ys[5]—;
+if (ab==alhcsl)break;
+z[z1++]=3;ab—;al. ys[3]—;
+if (ab==alhcsl)break;
+}
+else
+{
+z[z1++]=3;ab—;al. ys[3]—;
+if (ab==alhcsl)break;
+z[z1++]=5;ab—;al. ys[5]—;
+if (ab==alhcsl)break;
+} 全
+-次 )
+) 2XG
+else if(al.ys[5]==0) H
+( X
+for (;al. ys[4] !=0&&al. ys[6] ouopan 人 le jj/ 稚 、S 车
+{ 2
+if (z1%2==0) RK
+{
+Z [z1++] =4;ab——;al. ys [4] 一
+if (ab==alhcsl) breakj,
+z[z1++]=6;ab>=; al. ys[6]—;
+2
+) IT7
+else 放
+{ )
+alz1] 其 ys[6] 一 ;
+f(ab==alhcsl)break;
+2 本
+X%* (ab==alhcsl)break;
+}
+r (al. ys[6]1==0)
+{
+for (;al.ys[4] !=0&&al. ys[3]!=0&&ab>alhcsl;)// 金 、 棕 车
+{
+if (z1%2==0)
+{
+z[z1++]=4;ab—;al. ys[4]—;
+if (ab==alhcsl) break;
+z[z1++]=3;ab—;al. ys[3]—;
+if (ab==alhcsl)break;
+45

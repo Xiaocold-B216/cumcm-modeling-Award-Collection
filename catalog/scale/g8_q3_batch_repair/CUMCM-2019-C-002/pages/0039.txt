@@ -1,0 +1,1 @@
+版 权 归 全 国 大 学 生 数 学 建 模 竞 赛 所 有 ， 如 有 侵权 请 联系 删除 0 function y = earning2(x) % 第 四 问 子 函数 5S， 出 租车 收费 计算 ， 输 入 里 程 x 计算 收费 y Base=13;% 基 础 收费 al=2.3; a2=2.3*1.5; if x<=3 y=Base; elseif x>3&&x<=15 y=Base+al *(x-3); else y=Base+al*12+a2*(x-15); end end Ho % \ 外 % ° “= 这 Y& ! 39

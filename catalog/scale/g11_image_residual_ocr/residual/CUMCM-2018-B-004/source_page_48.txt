@@ -1,0 +1,48 @@
+下
+总
+加 只 RN
+Time=0;% 系 统 已 运行 时 间
+Expect=ones(4,8);% 预 计时 间 ， 第 一 行为 预计 运动 时 间 ， 第 二 行为 预计 等 待 时 间 ， 第 三 行为 预
+计 上 下 料 时 间 ， 第 四 行为 前 三 项 之 和
+Now=1;% 当 前 RGV 目标 工序 ， 取 值 仅 为 1 或 2
+Error=[];% 记 录 故 障 信息
+Rec=[];% 记 录 每 个 工件 的 上 下 料 信息
+%% 遍历 所 有 刀具 分 布 情况
+while Time<=28800
+fori=1:size(Erron1)% 检 查 错 误 信 息
+if Time>=Error(i,3) && Time<=Error(i,4) && Error(;5)==0% 故 障 已 发 生
+Error(j5)=1;% 标 记 为 已 处 理
+efEron, 2)-rro  Time  AFHER8  T T)524 1 A%
+时 间 一 SS
+Situation(Error(i2)=0% 修 复 完成 后 取 走 故障 工作  _ \
+end 2XG
+end ood
+fori=1:8% 计 算 预期 时 间
+if Now~=Tool()% 排 除非 目标 工序 的 CNC As
+Expect(:,i)=inf; 会
+continue; X
+end
+Expect(1,i)=Move(1+abs(Position-ceil(i/2)));
+Expect(2,i)=Left(i); ®
+Expect(3,i)=Switch(i); O
+corernn 有 从
+end
+0
+Time=Time+Expect(1,Mi 至 hber);% 移 动 至 下 一 个 目标 位 置
+flag=0; _—
+for i=1:size(Err -区 运动 后 再 次 检查 错误 信息
+if 五 m > 中 ,3) && Time<=Error(i,4) && Error(i,5)==0 && MinNumber==Error(i,2)%
+运动 人 故障
+让 (5)=1;% 标 记 为 已 处 理
+他 Situation(Error(i2))=0;% 修 复 完成 后 取 走 故障 工件
+| N for j=1:8%CNC 的 时 间 推 进
+N if Left(j)-Expect(1,MinNumber)<0
+Left(j)=0;
+else
+Left(j)=Left(j)-Expect(1,MinNumber);
+end
+end
+Left(Error(j2))=Error(i4)-Time;% 将 故障 修复 所 需 时间 转 换 为 当前 工作 剩余 完成
+时 间
+flag=1;
+48

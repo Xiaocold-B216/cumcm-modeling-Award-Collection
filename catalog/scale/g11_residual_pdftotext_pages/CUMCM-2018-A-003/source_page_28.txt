@@ -1,0 +1,74 @@
+//
+//
+////
+////
+//
+//
+//}
+
+if(temp[max_ind] < temp[i]) max_ind = i;
+}
+cout<<"so chose："<<max_ind<<endl;
+if(S[min_S_ind] < 0) return min_S_ind;
+return max_ind;
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+int main(){
+num=0;
+for(int i1=0;i1<2;i1++)
+for(int i2=0;i2<2;i2++)
+for(int i3=0;i3<2;i3++)
+for(int i4=0;i4<2;i4++)
+for(int i5=0;i5<2;i5++)
+for(int i6=0;i6<2;i6++)
+for(int i7=0;i7<2;i7++)
+for(int i8=0;i8<2;i8++){
+type[1] = i1; type[2] = i2; type[3] = i3;
+type[4] = i4;
+type[5] = i5;
+type[6] = i6; type[7] = i7; type[8] = i8;
+init();
+int time = 0;
+int pos = 0,next_pos = 0;//小车起始位置
+bool begin = 0;
+while(time<3600*8){
+/**********评估过程***********/
+for(int j=1;j<9;j++){
+T[j] = L[full][pos][j] + rep[j] + B[j]*type[j]*put_down ;
+if((S[j]-L[full][pos][j]) > 0){
+T[j] += inf;
+}
+if(full == 0 && B[j]==0 && type[j]) {
+T[j] += inf;
+}
+//移动 T + 上下料 T + 清洗 T + 假设不会提前过去等待 + 假设不会空着手去
+到空的 CNC2 中
+}
+/**********选择过程***********/
+next_pos = min_index(T);//选择代价最小的
+if(T[next_pos] < inf) //若过去无需等待，并且当前小车状态允许过去，则选择
+{
+for(int i=1;i<9;i++){
+S[i] -= T[next_pos];//选择后，在这一过程中,RGV 无法做其他工作，所以
+下一次选择经过 T[next_pos]时间
+28
+
+

@@ -1,0 +1,150 @@
+拉角，称为进动角，这是绕 Z 轴旋转的角；Z 和 z 轴间的夹角Φ是第三个欧拉角，
+称为章动角，这是绕节点旋转的角。
+利用欧拉角可将旋转矩阵表示成θ，Φ，Ψ的函数如下：
+R=
+cos Ψ cos θ
+
+sin Ψ cos θ
+
+sin θ
+
+sin Ψ cos Φ
+
+cos Ψ sin θ sin Φ
+
+cos Ψ cos Φ
+
+sin Ψ sin θ sin Φ
+
+cos θ sin Φ
+
+sin Ψ sin Φ
+
+cos Ψ sin θ cos Φ
+
+cos Ψ sin Φ
+
+sin Ψ sin θ cos Φ
+
+cos θ cos Φ
+
+研
+
+交
+
+流
+
+这样，共有 6 个独立的外部参数，即 R 中的 3 个欧拉角θ，Φ，Ψ和 T 中的
+3 个元素 Tx,Ty,Tz。[1]
+由此，我们建立了由 6 个未知量θ，Φ，Ψ，Tx, Ty，Tz 构成的非线性方程,
+联立方程组（1.1）（1.3）：
+X x r1 Xw r2 Yw r3 Zw Tx
+（1.1）
+λ z r7 Xw r8 Yw r9 Zw Tz
+X r1 Xw r2 Yw r3 Zw Tx
+（1.3）
+Y r4 Xw r5 Yw r6 Zw Ty
+该方程组由 6 个未知量θ，Φ，Ψ，Tx, Ty，Tz 十个方程组构成，可以求
+得非线性方程组的解。将θ，Φ，Ψ的函数代入方程组（1.1），
+（1.3）可得如下
+方程组：
+
+：
+科
+
+数学中国
+www.madio.net
+cos Ψ cos θ X
+
+sin Ψ cos θ Y
+
+sin Ψ cos Φ
+
+cos Ψ sin θ sin Φ
+
+sin Ψ sin θ sin Φ
+
+号
+
+cos Ψ cos Φ
+
+Z
+
+Ty
+
+X
+
+众
+
+cos θ sin Φ
+
+信
+
+公
+
+cos Ψ cos θ X
+
+Y
+
+Y
+
+Tx
+
+Y
+
+X
+
+cos θ sin Φ
+
+Y
+
+(i=1,2,3,4,5);
+
+sin θ
+
+cos Ψ sin θ cos Φ
+
+sin Ψ sin θ cos Φ
+
+Z
+
+Z
+
+TX
+
+λ
+
+X
+
+cos θ cos Φ
+
+Z
+
+TZ
+
+X
+
+微
+
+cos Ψ sin Φ
+
+sin Ψ cos θ Y
+
+sin Ψ sin Φ
+
+sin θ
+
+(i=1,2,3,4,5);
+对上述非线性方程组进行求解最后得到变换矩阵 R 与 T。
+由上述步骤代替模型二中的两级标定法，得到变换矩阵 R 与 T，在利用此 R 和 T
+利用模型二的方法进行圆心的求解。
+模型四、基于模型二改进的最优化模型：
+对于模型二中，对收敛的两点进行处理，我们假定离正确的对应点越近，
+两点之间的空间欧式距离就越小，以此，我们建立了基于模型二改进的最优化搜
+索模型：
+Min d x, y
+
+x ", y " , x ", y " ;
+9
+
+

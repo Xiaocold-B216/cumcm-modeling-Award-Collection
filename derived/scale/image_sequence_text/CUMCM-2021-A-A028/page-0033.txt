@@ -1,0 +1,34 @@
+3
+Besis
+¥O=M2)
+20=M@).
+ee
+|
+本
+RE
+eqns = [x==0, (y-y0)y0==(z-20)'z0, S=-0]
+oo”
+os
+-
+w Sen SOTS Giels
+-
+aaa
+ns
+-boot
+下 人
+2
+Len = norm([x0,y0,20])-norm([ X0,Y0,20]);
+0
+ay
+画
+可
+iend
+% 第 三 问 球面 画图 函数
+Sies
+区
+直击
+En
+ao
+theta_deg = theta*180/pi;
+ki
+ES

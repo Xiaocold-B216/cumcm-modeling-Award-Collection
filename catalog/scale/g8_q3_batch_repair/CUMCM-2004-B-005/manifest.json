@@ -1,0 +1,95 @@
+{
+  "attempt_id": "20260902T162528503373_425d96bb",
+  "batch_attempt_id": "20260902T162528503373_425d96bb",
+  "paper_id": "CUMCM-2004-B-005",
+  "source_path": "2004年数学建模国赛真题+优秀论文/2004优秀论文/2004B：电路模拟方法在数学建模中的应用.pdf",
+  "source_sha256": "76B3F2C54167AC1F3A176F4771160B14FA1D7DE5013674031B08470EEBAAF598",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 6,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 6,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "2 放生 第 21 众 第 7 其 工 程 数 学 学 报 Vol. 21 No. 7 2004 年 12 月 CHINESE JOURNAL OF ENGINEERING MATHEMATICS Dec. 2004 文章 编号 :1005-3085(2004)07-0043-06 电路 模拟 方法 在 数学 建 模 中 的 应 用 风 愉 宇 ， 谢 必 克 ， 毛 燕 杰 指导 教师 : 清华 大 学 指导 小 组 (清华 人 学 电 了 工程 系 ， 北 京 100084) <=A_ A 编者 按 : CHS SRRRBULS UoAIE, RMRLHHRR. HRE IALRA UN 时 比 为 电流 中 ， 通 过 电阻 设置 近 制 电流 鞭 ， 并 通过 计算 电 附 上 的 电 内 而 准确 计算 出 区 的 请 . 摘要 : 和 首先 绢 道路 折 拉 结 构 所 取出 相应 电路 结构 ， 在 委 条 导线 《代表 道路 )》 上 设置 、 个 较 大 的 控制 电 隐 和 流动 规律 ， 使 电流 和 人 流 “ 样 按 定 比例 选择 可 行 的 道路 ， 同 5 放生 条 名 线 中 联合 较 小 的 兄 伴 电 也 ， 根 所 该 电 阻 上 的 电 卜 可 求 得 该 商 区 的 人 流下 上 淡 并 特 。 关键 词 : 拓扑 结构 ， 电 路 模拟 ， 沾 红 流 二， 人 流 恕 ， 北 线性 规划 分 类 号 : AMS(E000) 860C37 中 国营 类 导 : O221.2 标识 1 方法 和 概述 2 为 了 预测 2008 华 北京 奥运 会 体育 场馆 周 肝 商 区 的 消费 需求 情况 ， 我 们 首先 分 析 了 模拟 运动 会 的 观众 调查 问卷 ， 准 确 估 计 了 2008 人 年 北京 奥运 会 时 ， 到 达 奥 运 场馆 附近 各 个 车 站 的 观众 数 景 ， 务 个 餐饮 中 心 的 观众 数量 ， 以 及 这 些 观 众 的 消费 水 平和 路 径 选 择 规律 。 根 据 这 些 数据 和 规 律 就 可 以 将 分 析 人 流 的 问题 转化 为 一 5; 析 电 流 电 厅 的 电路 问题 。 由 道路 护 扑 结构 图 提取 电路 图 的 方法 和 此 骤 如 下 : 1 节点 的 设置 JY )) HATRATL TE, 心 都 作为 电路 的 节 所 。 2 ”电流 源 的 设置 YL 一 电流 源 代表 车 站 、 和 看台、 饮 贷 地 点 等 人 流 的 出 发 地 和 目的 地 ， 电 流 源 的 大 小 相应 地 代表 出 发 的 人 流 呆 或 消费 流 硕 二 区 及 会 聚 于 目的 地 的 人 流 或 消费 流 央 。 电 流 源 的 方向 均 与 人 流 方向 一 致 ， 电光 为 下 于 地 的 电流 站 于 的 地 的 电源 的 人 和 和 和 当 实 际 问题 由 存 人 流 的 出 发 地 时 ， 点 当 采 用 香 加 原理 ， 利 用 电路 模型 分 别 计算 各 个 出 发 地 的 及 流 华南 区 积 昧 的 人 流 是 或 消费 流 景 ， 最 后 稚 加 得 到 商 区 总 的 人 流 果 和 消费 流 尿 。 3, 电 阳 和 导 我 的 设置 R iRb ， 人 在 可 以 直接 连通 的 节 具 之 问 用 导线 连接 ， 代 表 道路 。 在 每 个 导线 上 串联 两 个 碍 舍 为 不 同 数 呆 级 的 电 取 。 其 中 大 电 阳 的 设置 是 为 了 控制 人 流 的 移动 规律 ， 其 大 小 基本 和 人 流 可 能 选择 该 道路 的 概率 成 反比 。 不 妨 称 该 电阻 为 控制 出 阳 。 小 电阻 的 设置 是 为 了 反映 消费 员 或 人 流 只 与 电流 大 小 之 剖 的 比例 系数 。 这 样 通过 测 景 由 阳 上 的 电 奈 降 就 可 以 直 接 得 到 消费 或 人 流 录 。 不 妨 称 该 电 阳 为 采样 电 阳 。 2 ”合理 性 论证 ” “在 用 电路 模型 分 析 人 流 问题 时 ， 最 关键 的 问题 足 要 保证 每 条 道路 上 实际 经 过 的 人 流 员 与 电 路 模型 中 对 应 导线 上 的 电流 虹 对 应 相等 。 下 面 分 两 步 论证 这 一 点 。 1 当 只 有 一 个 人 流 的 出 发 地 和 多 个 人 流 的 自 的 地 时 : E ee wEE 4 工 程 数 学 学 # 第 21 卷 由 于 一 个 出 发 地 出 发 的 人 流通 过 某 条 特定 道路 的 概率 是 一 定 的 ， 那 么 通过 调整 各 个 道路 的 控制 电阻 的 大 小 ， 总 可 以 使 各 个 导线 上 的 电流 量 与 道路 上 实际 经 过 的 人 流量 相同 。 一 般 而 译 ， 由 于 事先 并 不 知道 每 条 道路 上 实际 人 流量 的 大 小 ， 这 时 取 各 个 道路 的 对 应 控制 电 阳 与 人 流通 过 该 条 道路 的 概率 成 反比 。 ， ，， ，，…- 1 2 _ 当 有 多 个 人 流 的 出 发 地 和 多 个 人 流 的 目的 地 时 : 不 同 的 出 发 地 出 发 的 人 流通 过 某 条 特定 道路 的 概率 是 不 同 的 ， 但 是 一 条 道路 具有 一 个 对 应 的 控制 电阻 控制 电流 流动 ， 也 就 是 说 它 对 不 同 电流 源 产生 的 电流 的 作用 却 是 相同 的 。 这 种 情况 下 载 无 法 保证 各 个 导线 上 的 电流 最 与 道路 上 实际 经 过 的 人 流量 相 同 。 考虑 到 人 流 流 动 与 电流 流动 者 满足 线性 矢 加 原理 。 可 以 将 有 多 个 人 流 的 出 发 天 问题 分 角 为 多 个 只 有 一 个 人 流 的 出 发 地 的 问题 。 分 别 计算 了 各 个 山 发 地 的 人 流 在 商 区 科 迪 的 从 流 最 吉 消 费 流量 ， 地 后 发 加 得 到 商 区 总 的 人 流量 和 消费 流量 。 i\\) 3 ”实际 运用 ZA 下 面 运用 这 个 方法 米 处 理 实际 问题 : 和 根据 2008 年 北京 运 会 的 人 际 地 图 ， 吾 以 的 和 往 到 依 化 图 好 加 JE 下 [NS E LT 冯 人 下 cor yt 县 me r— 图 fil IT ~ 1 图 1: 2008 年 北京 奥运 会 简化 地 图 为 了 和 从 和 归 ， Js aaaansanaamu 那么 有 人 流通 过 的 道路 的 对 应 控 制 电 阳 应 区 RAPE HH 所 国人 这 由 大 下 人 融 级 居 以 此 保证 电流 的 流动 也 符合 最 短路 径 规则 。 | 7 神 握 上 文 挡 述 的 方法 以 及 人 流 的 流动 规律 的 假设 ， 可 以 由 简化 图 得 到 图 2 所 站 的 电路 图 。 利 用 这 个 电路 图 具体 计算 由 私 车 车 站 (图 1) 出 发 的 人 流 到 达 各 个 体育 场馆 的 过 程 中 ， 各 个 商 区 可 时 的 消费 总 最 。 已 经 得 到 的 基本 数据 有 ; 私 车 菩 站 出 发 的 人 流 共 有 22000 廊 元 的 消费 冲 录 ， 每 个 体育 场馆 的 看 台 接收 的 人 流 均 有 275 万 元 的 消费 总 录 。 人 流 每 经 过 一 个 商 区 就 在 该 商 区 消 费 其 币 余 的 消费 能 力 的 一 半 。 根 据 这 些 数据 得 到 电路 图 中 和 个 控制 电 阳 ， 采 样 电 取 以 及 电流 源 的 参数 。 ， 1 主要 道路 上 电 阳 设置 参见 表 1 以 及 图 2。 表 1 主要 道路 的 电阻 设置 出 发 地 Kcl Kc3 Kbl Kb5 Ral ,Ra6， Rb3 Rb6 Rc2 BRc4 私 车 OFF OFF OFF OFF 05K OFF 05K 05K 0.5K 0.5K o4 © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.ne 本 oe 第 7 期 电路 模拟 方法 在 数学 建 模 中 的 应 用 45 Ee p | 本 1] | fra—y | | ES 1 149 9 RE= | 1 | ~mmaE 人 | ~—TT N4 | | CE 上 人 | 本 24- | | | Bo i 一 o | US 让 开 和 | 图 2: 人 对 于 控制 电 阳 ，OFF 表 示 断 路 〈 一 般 取 1000M 欧 姆 》 ，ON 表 示 通 路 〔 一 般 取 1K 欧 姆 ) 对 于 采样 电阻， 数值 表示 该 电阻 对 应 商 区 税 寻 的 消费 量 的 比例 系数 。 例 如 0.5K 表 示 积 昧 了 通过 该 商 区 的 总 消费 流量 的 50 吧 。 作 / FATMUORE: ERHEHHNHCRIN0S, T. 个 商 区 系数 为 0.25， 依 次 类 扒 。 2 人 家中 辐 的 调和 2 和 图 2 单位 K 欧 姆 ) SN 7 代表 商 区 的 电阻 设置 Ral ”Rala2| Ra23 Re3ad 。 Ra4a5 Re5a6 Rab 0.5¢ -0.25 0.125 0.0625 0.03125 0.015625 OFF Rb2b! | /Rb3 Rb3b4 Rb4b5 Rb5b6 Rb6 Rblb6 y oa 0.5 0.25 0.125 0.25 0.5 0.25 和 人 Ra7a8 Ra8a9 “Ragal0 Ralal0 Rblb2 p) 5015625 ”0.03125 0.0625 0.125 0.25 0.125 13/ Relc2 Rec2 Rc2e3 Rec3cd Red Reled NY 0.25 0.5 0.25 0.25 0.5 0.25 i 3 从 个 山 发 点 和 目的 地 的 电流 源 的 设置 对 于 没有 对 半分 的 商 区 ， 其 对 应 电流 源 大 小 为 2755mA 《代表 275 方 元 的 消费 总 最) 。 对 于 已 经 对 半分 的 南 区 ， 其 对 半分 后 的 两 个 对 应 电流 源 大 小 为 137.5mA〈 代 表 137.5 万 元 的 消费 总 最 ) 。 对 于 私 车 车 站 本 身 ， 其 对 应 电流 源 大 小 为 22000mA (代表 22000 万 元 的 消费 总 量 ) 。 其 他 车 站 和 饮食 地 点 对 应 电流 源 为 0mA。 将 这 些 参数 设置 好 之 后 ， 使 用 Pspice 工 具 模拟 电路 ， 得 到 结果 见 图 3， 图 4， 图 5。 图 3 为 C 区 附近 商 区 的 消费 领 ， 图 中 代表 商 区 的 电 阳 两 端的 电压 壮 (单位 V) 为 该 商 反 的 的 消费 额 〈 单 位 请 二 o 46 [ 程 数 学 学 报 各 2] 着 万 元 ) 。 例 如 电阻 Rc2 两 端 电压 为 275V， 说 明 在 商 区 C2 的 消费 额 为 275 万 元 。 图 4 为 A 区 附近 商 区 的 消费 额 。 图 5 为 B 区 附近 商 区 的 消费 额 。 大 一 | C 4 su 各 mw | 人 | YewEeG | 9 次 上 | | 雁 Tord4mn 下 jemA } | 1 Ge < 证 wp ngm ma 站 ~ > cm of. EEEReo 2 | | 上 本 | -| am 怎 | ~ n ” | | | 四 民力 人 全 和 最 后 总 结 出 由 “ 私 车 \"到 体育 场 的 过 了 个 而 区 产生 的 消费 李 见 表 3 (单位 广元) 表 3_ 由\" 私 村 \"到 体育 场 的 过 程 中 在 各 个 商 区 产生 的 消费 额 商 K AL A A3 A4 A5 A6 AT7 A8 A9 Al0 消费 1375 300 js 4 13 4 13 43 121 309 #ilx HB2 B3 B4 B5 B6 CI C2 C3 C4 消费 51.56 | 10313 550 10313 51.56 275 68,76 275 68.76 275 4 7 比较 拉 玫 党 算得 到 的 结果 : ( 见 表 4) < 表 4_ 数学 计算 的 结果 进行 比较 SA 商 kS AL A2 AS A4 A5 A6 AT AS8 Ag Al0 Ka 13155 39 1l1 4 1 4 1 4 121 309 人 NA 消费 51.56 103.13 550 103.13 51.56 275 68,76 275 68.76 275 上 面 两 组 结果 完全 相等 ， 这 说 明 电 路 模型 中 确实 保证 了 各 个 导线 上 的 电流 只 与 道路 上 实际 经 过 的 人 流量 相同 。 4 优点 电路 模型 分 析 计算 人 流 问题 的 主要 优势 是 大 大 简化 了 运算 过 程 ， 只 要 将 人 流 或 消费 流 对 以 的 各 个 电流 源 的 值 计 算 准 确 ， 将 各 个 控制 电 阳 设置 好 ， 就 可 以 通过 采样 电 阳 上 得 到 的 电压 值 得 ERiEAE 人 本 ErY 第 7 期 电路 模拟 方法 在 数学 建 模 中 的 应 用 47 [7] ak - ss 总 ie 尘 | 和 - 7 - Re { 1 个 : 本 得 好 Se - 从 Cr 全 < IE SN » 全 G. 全 二 \" Is ， 明 c1 a] ce 11] 1 J aman N 2% We - ~ | EN we \\ { | 四 图 4; 仿真 结果 (2) @ LA 站 - 四 A-—() 号 me CS 上 [人 1000MEG 图 5: 仿真 结果 (3) 用 4 © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net 加 器 间 7 Bres 48 [L 程 数 学 学 报 第 21 益 到 该 道路 上 积累 的 人 流 最 或 消费 流 旦 。 相 比 于 直接 的 数学 计算 ， 这 大 大 降低 了 数学 的 运算 是 。 修改 简单 ， 便 于 重复 计算 。 一 般 的 数学 计算 中 ， 当 人 流 的 总 景 发 生变 化 时 或 者 人 流 的 出 发 地 点 发 生变 化 时 ， 需 要 完全 重新 计算 一 遍 。 但 是 在 电路 模型 中 只 要 适当 修改 电流 源 的 大 小 就 可 以 完成 新 的 一 次 计算 。 可 以 更 趴 实 地 反应 消费 晤 的 积累 。 由 于 实际 情况 中 ， 人 流 经 过 各 个 商 区 的 过 程 中 ， 人 在 每 个 商 区 的 消费 晤 的 分 布 可 能 非常 复杂 ， 采 用 直接 数学 计算 会 使 算法 过 于 繁琐 ， 一 般 只 能 近似 计 算 。 而 采用 电路 模型 计算 ， 只 要 适当 修改 各 个 采样 电阻 的 阻 值 ， 使 其 满足 人 流 在 各 个 南 区 消费 比例 的 分 布 就 可 以 计算 得 到 准确 结果 。 < 可 以 更 真实 地 反应 人 流 流动 情况 。 在 实际 情况 中 ， 人 流 并 不 完全 选 搓 地 短 路 答 届 此 时 采用 真 接 数学 计算 已 经 非常 困难 ， 往 往 也 只 能 采用 近似 计算 的 方法 。 但 是 在 电路 模型 中 心 只要 适当 修改 各 个 控制 电阻 的 大 小 ， 就 能 合理 的 控制 人 流 流动 规律 。 2G \\) 5 缺点 1 [ 才 中 隐 术 开 中 丰 能 一 次 由 时 计算 多 个 人 流 册 地 站 次 的 全 送 路 工 积累 的 人 流 及 和 消 费 流量， 这 在 一 定 程 度 荆 演 高 了 运算 的 工作 是 。 对 于 有 绞 多 BAiY 动 过程 ， 较 多 的 人 流出 发 地 的 情况 起 只 能 分 别 计算 每 个 过 程 ， 每 个 出 发 地 的 人 流 在 各 个 道路 上 积 崇 的 人 流 呆 和 消费 流 量 ， 再 绾 加 求 得 总 有。 儿 6 总结 电路 理论 是 一 套 相当 成 熟 和 完整 的 理论 ， 因 此 利用 电路 模型 分 析 人 流 ， 物 流 等 问题 可 以 大 大 简化 分 析 过 程 和 计算 的 复杂 度 。 当 然 ， 要 将 一 个 物流 问题 转换 为 电路 模型， 必须 要 保证 道路 与 电路 的 拓扑 结构 一 致 ， 物 流 与 电流 的 流动 规律 一 致 ， 至 今 还 没有 较为 成 熟 的 方法 米 完成 这 种 问题 的 转换 。 我 们 提出 的 方法 也 还 有 全 的 提高 和 完善 。 Circuit oo Method in Mathematical Modeling 一 SHIYiyu, XIEBike, MAO Yanjie Instructor: Tsinghua Instructor Group 2 ] 1 ee ro MA (Tsinghua University Beijing 100084 ) Ab 0 we put forward a circuit simulation method to esitmate the consumption distribution of the Business around the gymnasiums in Beijing for 2008 Olympic Games. First we obtain the circuit {striicture from the topology of the roads under certain rules. Then a large resistance (Control Resistance) is put oneach connecting wire. The resistances are used to control the current distribution, making it exacly the ‘same as the distribution of consumers. In series with each Control Resistance, a much smaller resistance (Sampling Resistance) is added. The consumption in each business area can be evaluated according to the voltage on these resistances.",
+  "normalized_text_chars": 8162,
+  "normalized_text_sha256": "315BBC968E9D69655660D6BF2E34C695233DE96F6EDE788320A01EB95FD119A3",
+  "page_provenance_summary": {
+    "OCR": 6
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "CCAF7FF6331748366A5B2E8BF7ECF62EB31A6497707C3CE654C3495945A76A89",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "E5180316C3EE7D7219226369886579D8B357F62A22235C0F42E963856C5AE41E"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "6EB6617F4666102F1A2205213B6B68DC5D9921BF23E4F3E57DB01EEE333B41AA",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "0E5ACBFE5028A6DA68F9C789FE1B8754AD2D87F77227F1B03F423D1F4543DD84"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "D08AEB7E0F909C58D524BD867A52BB1CAF42A56DA1F8D73724F3B6846CB85D26",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "1532170E809A2CBE98861BAA03C3942D9797353D4BE8C4B72939E836C5A88900"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "33BDA303571796BD1EC6BE63F08E09BE3A1C03F7B068604750E5B9EF8EAEFEDB",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "3B7EDD914821DAFF3C21B913ECB3D12CA314FAB42A1AA8099DE32D959EACB55B"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "DA432DEB993FEA75E63B9710BC314696807AE09B991392673643A7A7F108DEDE",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B9F6D9744FE7B5F50C183FDC43475333D1F778C90FA6502C030017A85E97D491"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "58D4E0EB6BB9A6A3DC62ED9EF1493C17E8292F79035440111500DE6173CC3E1C",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "5C12379A19C9CEA86CEB10EBC4174FDC4BC7F769E74544CD9EA93114A56D3A95"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

@@ -1,0 +1,33 @@
+paper_id: CUMCM-2013-A-003
+year: 2013
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (4)/5486.pdf
+  sha256: 101D2841EB0AB8FF28AF6936C36F28C5BCB0256E83BEA7F2E319DEA6056FB4EC
+authority_sha256: 101D2841EB0AB8FF28AF6936C36F28C5BCB0256E83BEA7F2E319DEA6056FB4EC
+paper_file_memberships:
+- path: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (4)/5486.docx
+  role: primary
+  canonical: false
+- path: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (4)/5486.pdf
+  role: primary
+  canonical: false
+primary_file: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (4)/5486.pdf
+extraction_inputs:
+- path: 2013年数学建模国赛真题+优秀论文/2013A：车道被占用对城市道路通行能力的影响 (4)/5486.pdf
+  sha256: 101D2841EB0AB8FF28AF6936C36F28C5BCB0256E83BEA7F2E319DEA6056FB4EC
+  kind: original
+extraction_input_sha256: 101D2841EB0AB8FF28AF6936C36F28C5BCB0256E83BEA7F2E319DEA6056FB4EC
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q0/Q1 Native Markdown Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 35
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true

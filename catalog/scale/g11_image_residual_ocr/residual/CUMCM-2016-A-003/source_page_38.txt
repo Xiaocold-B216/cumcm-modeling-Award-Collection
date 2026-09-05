@@ -1,0 +1,42 @@
+附录 八 第 三 问 优化 设计
+mlcdq=[0.078 0.105 0.12 0.15 0.18];
+mlz1=[0.078*3.2 0.105*7 0.12*12.5 0.15%¥19.5 0.18*28.12];
+kx1=[];
+kxn=[];
+kxmg=[];
+kxh=[];
+kxbeta=[];
+kxt=[1;
+kxn=[];
+zfenshu=[1];
+kxthita2=[];
+for 1=1:5
+Im=mlcd(1) ;
+mm=mlzl(1);
+for n=100:20:280
+n
+for mg=2000:50:4500
+v=36;% cEU
+vshui=1.5; $E@A+EUIE
+gdH=20;%'@] AoE *EigE
+alpha=0;% -gLOOEE®A+TOnAYDYC
+min=inf;
+minh=0;
+minH=0;
+minbeta=0;
+minthital=zeros(1,4);
+minthita2=zeros(1,n)+pi/2;
+mingama2=zeros (1,4);
+mingama3=0;
+mingamad=zeros(1,n);
+for h=0:0.01:2
+Ftx=zeros(1,5);% 0'0U%; -OpA +A-A|pAx ORAL
+Fty=zeros(1,5);% 0'0?; -OpA +A-A|pAy .ORAL
+Ftz=zeros(1,5);% 0'0U?; -OpA +A-A|pAz ORAL
+thital=zeros(1,4);% .= .Gin %T00&20anAkbhC
+gama2=zeros (1,4);%. + 0'U sI160UXOYEITT0°0&x0apAdLC
+beta=0;%,01°pA 1100820apAtdsC
+gama3=0;% 0I° 160UX0YEIIT0° 0&x0apAbisC
+Ft2x=zeros (l,n);%A%*A"2; -OpA +A-A|pAx OA
+Ft2y=zeros(l,n);%A%A"2; -OpA +A-A|pAY GO
+38

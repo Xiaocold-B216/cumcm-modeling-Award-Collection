@@ -1,0 +1,43 @@
+else:
+result = pd.merge(result,new,ons ,商家
+print(result)
+问题 三 订货 方案 模型
+iaport numpy as mp
+import Beatpy as ea 4 导入 geatpy 库
+inport time
+import pandas as pd
+impors natplotlib.pyplot as Pt
+Fron tadn mport tqdm
+prea-D
+prec - 0)
+oa = 0)
+nowc = 11
+cost_pre = [)
+cost_now = [}
+MA_pred_11st = pd.read_excel ('72-20% R.xlsx', indexcfalse) .to_nuapy ()
+Ac_pred_lst = pd read_excel(P2-2C 结 果 .xlsx'， indexcFalse) to_nuapy 人
+selece_info = pdread_excel("P2-1 优 化 结 时 .sx )
+sellect A_ID - select_infofselect_infof "材料 分 类 "] -- "AJ{"WEHI]
+Select_8_ID = select_infofselect_info[ "材料 分 类,] == “8 于 商 10
+sellece_C_ID - select_info[select_infof ,其 类,]-- 'C I(A2 H10')
+num_of_a = select_A_ID.shapere
+num_of_b = select_8_ID .shapef]
+am_of-e ~ select_C_iD.shape[e]
+sedect_sippliers  pd.uniaue(select_infol* (ID'])
+人 - pd.resd_excel(*H1xlsx’, sheet_nane = ,企业 的 订货 量 (my *)
+和 el = pdread_excel(" 闪 从 1.xlsx'，sheet_nane = “全 应 商 的 供 全 量 @) 1)
+order_volune = 和 1e8[filee[ 供应 南 ID"] dsin(select_supplters)]. loc(:,2:]
+supply_volume - 和 1e1[file1[ "供应 识 10"] .1sin(select_suppliers)].iloc[:,23]
+ervar_of = (supply_voluse - order_volune)/order_volume
+def Bet_range list(type_， veek_i-1)
+of = select_info[select_info[ "村 料 分 类 '] -= type_] .iloc[:，2:]
+nm = df.dioc[:， np.arangetweek_i - 1, 240, 2)] min(axis-1)
+nax_ = df 4loc(:, np.arange(veek 1 - 1, 249, 24)) .maxtaxis-
+af bpe_ -ar
+range_ = list(zip(ain_, max_ 1.5))
+af type -Ca
+range_ = List(zip(ain_, max_ 。 .9))
+range_ = [iel, i00] + 2] for din range_]
+return range_
+def ainfunctphen V_a, V_c, cy， NIND):
+abal week_i, x_A_pred_list, x_C_pred_list

@@ -1,0 +1,34 @@
+并
+一 一
+}
+for (;bw!=0; i++, bw—)
+{
+if (z[i]==6)
+{
+if (a2. ys[7]1=0)
+z[i]=7, a2. ys[7]—;
+else if (a2.ys[8]!=0)
+z[i]=8, a2. ys[8]—;
+}
+if (z[i]==6) y
+-和 从，
+if(a2. ys[9]!=0) 一 \
+z[i]=9, a2. ys[9]—; 2XG
+else if(a2.ys[10]!=0) / H
+z[i]=10, a2. ys[10]—; S;
+} p
+fprintf (fp, “分 析 的 第 %d 日 的 装配 顺序 表 Sm sg) ;// 给 每 天 的 数据 命名
+fprintf (fp, “品牌 \t 配置 \t 动力 \t 驱动 闻 颜 色 \t 喷涂 线 \n“) ;
+for (int i=0;i<zl;i++)
+{ O
+fprintf (fp, A Hp ©
+“%sNt%sNt%sNt%sNt%sNtC%dNn“， 大 向 pz[wlil], d1[x[i]], ad[y[il], ys[=z[i]], i
+%2+1) ; Z ”和
+//cout<L(”, Na 7<KLK”, "<KLKendl ;
+}
+1 lose (fp) 让
+fclose (fp) ;
+return 0;, ) V
+] Z
+™
+61

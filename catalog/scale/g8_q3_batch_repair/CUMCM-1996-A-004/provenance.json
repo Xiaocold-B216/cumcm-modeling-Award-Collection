@@ -1,0 +1,51 @@
+{
+  "schema": "g8-q3-batch-provenance-v1",
+  "paper_id": "CUMCM-1996-A-004",
+  "source_sha256": "F8951880E2DB4B2D1BFAC0CFF6C502795695EAAA2389FEBC870D5D0401662064",
+  "pages": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "AF5AA0AC32CC354DFE63F02046643FB6B7FBB1F58CCA02D1D7CC5D82DF93A02C",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "8FA91074DBEC826B2413F0640CE82EEC206AC9F1685C9FD5EB914A0BDD25E98E"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "4676772F9C1ABAA10516E7773F94BFD71CBD154AB82B69514441ACA7399ABBD5",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "2884D8D34AFA3EF9F156D1855083BFF604B5FC59DEDB76DF965D033F5AD87404"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "2EB54FE8D80D0F146ADC7EC6020F7A3B1DFA29492F0CAFB49D5D4B65CB15932C",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "7CE20A7C21ED5E9298D1FED2B8CAB58B403047DDD77AEA68B14F9BA12F9172FD"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "2862686BC220D622413F9BBAC5E8490498BB32F9268E756917FE8584FC000E04",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B9F741F02A962157FBA6C2BE4C0BF002C8371D9D77E872B16E2685B55B0226F0"
+    }
+  ]
+}

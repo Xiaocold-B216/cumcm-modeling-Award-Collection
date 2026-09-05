@@ -1,0 +1,74 @@
+{
+  "stage": "G8-DOC-CUMCM-2012-D-001-EXTERNAL-REACQUISITION-DECISION",
+  "logical_identity": "CUMCM-2012-D-001",
+  "network_authorization_required": true,
+  "download_root": "tmp/g8_doc_2012_d001_external_reacquisition/{candidate_id}/",
+  "allowed_download_extensions": [
+    ".pdf",
+    ".doc",
+    ".docx"
+  ],
+  "prohibited_download_extensions": [
+    ".exe",
+    ".msi",
+    ".js",
+    ".scr",
+    ".bat",
+    ".cmd",
+    ".ps1"
+  ],
+  "max_first_round_candidate_urls": 10,
+  "source_trust_hierarchy": {
+    "tier_1": [
+      "official CUMCM/competition archive",
+      "officially affiliated site",
+      "author or adviser university official domain"
+    ],
+    "tier_2": [
+      "university resource repository",
+      "university teacher page",
+      "stable educational archive"
+    ],
+    "tier_3": [
+      "personal blog",
+      "forum attachment",
+      "unverified file-sharing or repost"
+    ]
+  },
+  "identity_classes": [
+    "EXACT_IDENTITY_CONFIRMED",
+    "HIGH_CONFIDENCE_SAME_PAPER",
+    "LIKELY_SAME_PAPER",
+    "AMBIGUOUS",
+    "DIFFERENT_PAPER"
+  ],
+  "exact_identity_rule": "Require multiple independent features: title/authors when available, abstract, section sequence, distinctive text, tables/figures, and references. Filename/problem/year alone is insufficient.",
+  "provenance_required": [
+    "candidate_id",
+    "source_url",
+    "source_domain",
+    "source_tier",
+    "retrieved_at",
+    "filename",
+    "format",
+    "size",
+    "sha256",
+    "http_content_type",
+    "http_last_modified",
+    "http_etag",
+    "identity_status",
+    "identity_evidence"
+  ],
+  "pdf_acceptance_gate": [
+    "readable non-encrypted PDF",
+    "positive page count",
+    "no unexplained pages",
+    "page accounting match",
+    "content sanity pass",
+    "identity verification pass",
+    "complete provenance"
+  ],
+  "relationship_on_acceptance": "REACQUIRED_ALTERNATE_SOURCE; original DOC remains immutable",
+  "no_automatic_artifact_promotion": true,
+  "network_behavior": "Only a separately user-authorized next stage may search public pages or download candidates."
+}

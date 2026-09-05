@@ -1,0 +1,105 @@
+1期
+
+汤诗杰等: DNA 序列的分类模型
+
+25
+
+由以上数据可以看出, 我们构造的目标函数具有较好的区分度. 对于A 组, 目标函数值
+都大于零; 而对 B 组, 目标函数值都小于零. 也就是说, 用这种方法, 对 A 、
+B 组样本的区分
+率已达到了 100%. 正如前面所说, 这种方法综合了序列中的许多信息. 因此, 我们完全可
+以采用这个标准来区分 C 组. 表 5 是对 C 组区分的结果.
+对 20 个未标明分类的人工序列的分类结果为:
+B 类: 21, 24, 26, 28, 31, 32, 33, 38, 40
+同样的, 我们利用这种方法对所给的 182 个自然序列进行了分类, 结果如下所示 ( 略).
+
+5
+
+流
+
+A 类: 22, 23, 25, 27, 29, 30, 34, 35, 36, 37, 39
+
+模型的评价及推广
+
+交
+
+在我们的模型基础上提出的分类方法可以很好的验证已知的 20 个序列, 并且很好的完
+成了对未知类型序列的分类. 我们认为这种模型, 同时考虑了序列中元素的局部性质和序
+列的全局性质, 具有相当的实际背景. 当我们知道分类标准的更多信息时, 我们可以很方便
+
+：
+科
+
+研
+
+的调整模型中的参数, 使之符合新的情况, 具有很好的自学习性. 但这个模型比较复杂, 在
+实际计算中参数选择需要花费大量计算时间进行搜索.
+我们在模型中使用的基于信息流的方法中, 如果选取更为合适的熵函数, 一定可以使它
+更加符合实际情况; 在三种方法综合的时候, 所取的权值也是可以采用更为有效的方法选
+取, 如应用层次分析法; 还可以选取其他分类方法加入. 这些都是本模型可以改进的地方.
+参考文献:
+
+姜启源. 数学模型 ( 第二版). 高等教育出版社, 19921
+
+[2]
+
+刘郁强等 1 序列空间方法 1 广东科技出版社, 19961
+
+[3]
+
+刘祖洞 1 遗传学 ( 第二版 1 高等教育出版社, 19911
+
+[4]
+
+姜
+
+[5]
+
+王玲玲等 1 常用统计方法 1 华东师范大学出版社, 19941
+
+[6]
+
+陆
+
+号
+
+[1]
+
+公
+众
+
+丹, 钱玉美 1 信息理论与编码 1 中国科学技术大学出版社, 19921
+璇 1 应用统计 1 清华大学出版社, 19991
+
+微
+
+信
+
+The Cla ssif ied M odel for D NA Sequences
+TAN G Sh i2jie,
+
+ZHOU L iang,
+
+W AN G X iao 2ling
+
+(U n iversity of Science and T echno logy of Ch ina, H efei 230026)
+
+Abstract:
+
+C la ssifying the DNA sequences is a p ractice p rob lem in b io logy.
+
+In th is p ap er, a
+
+m a them a tics m odel is estab lished fo r the cla ssifying of DNA sequences. Since there a re bo th
+loca lity and g loba lity in the DNA sequences, w e d iscu ss the criterion abou t w hether the
+cla ssified m ethod is good o r no t. T ha t is w hether the m ethod ba ses on a ll p rop erties tha t the
+DNA sequences have.
+So a cla ssified m ethod w ith a sing le standa rd is no t enough fo r the p rob lem. H ere is a
+syn thesis m ethod on th ree d ifferen t cla ssified w ays. T he th ree w ays ba se on va ried p rop erty
+tha t DNA sequences have. T he first is the frequency of occu rrences of the elem en t in the DNA
+
+© 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

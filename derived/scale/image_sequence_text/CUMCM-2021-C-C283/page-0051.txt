@@ -1,0 +1,46 @@
+51
+此 Geesk = Gask + Grorkwesksark
+9  Geeek = Gesk.astype(int)
+or
+9  Gaean = np.array([float(x.value) for x in shest.col(10, start_rouxei, «
+end_rowx=51)])
+9  Gsean = np.append([0]. Gzesn)
+100
+101 Everyveek got = np.zeros([251)
+102 L0ST = ap.zeroa([9，25])
+108 。。 Everyueok_choosek=np. zeros ([251)
+104 。。 Everyrask_chooseC = ap.zeros([25])
+105
+108
+107 。 e3 ASHE, HE-AXD
+108 eRAKER,
+109 for k in range@t, 26):
+110 0 = sx - 1) - 28200
+11
+2 chooseh = 0
+us Choosec = 0
+4
+us for 1 im range@1, 51)
+De 4 1<50 and 0.98#Gacors[41<Gscors1+1] and Gabei[1)<Gabeilis1):
+ur continue
+is 过 sclasarJr= 07)
+9 aa， 的] cdeanri]w(aup_praatap.randoa .aorsal(0.2，0.5))
+20 lest
+121 3 Guesk Ci] >= Guorkveskmark[s]
+122 4l5, k) = Grean[s)e(sup_praz+np. randos. norsal 0.2, 0.8))
+123 af Gweek[i] >= veskeark[i]:
+124 ii = Grean[s]e(sup_praz+np. randos. norsal(0.2，0.5))
+125 aae:
+16 continue ® next
+127
+Tas 3 Gabel[i]e1.2
+120 hooaehtr1
+130 o11t cabel[iloed
+131 hooaectr1
+132
+1a3 Pp = np-randos norsal(pli), p.telsl. 1)
+134 aa = pp 。 dla, ®]
+135
+196 for § in rangeG1，9):
+1a7 3 car0] + alt] <= 6000
+Das 3 加 =

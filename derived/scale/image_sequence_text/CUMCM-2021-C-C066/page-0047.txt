@@ -1,0 +1,54 @@
+itnv - eavrankdng(objJv，CVv，maxorins) 4 要 据 目标 画 数 大 小 分 本 党 应 度 人
+二 记录
+best_ind 。 np.angaax(Fienv) # 计算 当代 总 全 个 体 的 库
+obJ_tracefgen,8]-np.sum(ObjJv)/Objw,shape[e] * 记 好 当代 天 寻 的 目标 阴 雹 信
+bj trace[geny1]-0bJVfbest_ind] # 这 录 当 代位 赂 最 优 个 休 目 本 数 人
+var_trace(gen, ]-Chron(best_ind, :] # 记 录 当 代 答 群 最 优 个 人 的 末 色 信
+sse nneennr 进化 完成 -cccnnnnnenntsestd
+end_tine =- tine.tine() * 结 划 计时
+F4g - plt. figure(Figsize - (19,29)，dpl -aa8)
+ea. trcplot(abi_trace, [[BIHEFHERBLE, “HOIRRLMEERBKE 1]) » 2HER
+Pr.shov()
+99s9880848488809e88 给 出 结果 asses9sssss8489909904
+best_gen - np.argmax(obj_trace[:，[1]])
+print(* RILHE IBKL *, ob)_trace[best_gen, 11)
+artable = ea.bs2rd (var_tracel(best_gen], ©1, Fleldo) # 解码 得 到 表现 型 《 即 对 应 的 病变 重信
+print( RIMHERTRIA: *)
+material_dict - ('a':0, '8':0, 'C'10)
+For iin range(vardable. shape[1])
+和 vartable(s, 1] «= 1:
+praTE('x'estr(i)e'=" vartable(o, 1], ,原材料 类 出 :vdataf "材料 分 类 '] [1]
+materdal_dictfdataf ,材料 分 类 '][i] += 1
+prang( "共计 择 个 数 ， "ystr(vardablefeh:] sum)))
+print( ,用 时 ， "end_time - start_tine, 'B')
+print (atertal_dict)
+o
+ssassseseessssvasese B2-1 HR: BIINHWER ssrossopsaiibsonshond
+select_tdx = [4 for i in range(variable. shape(1]) if vardablef, 1]  11;
+select_suppliers = supplier_id[select_idx]
+df_ouk - Filea(filed[*KERID']. dsin(Select suppliers) ].reset_index(drop - True)
+fout ta_excel("P2-1 全 化 结果 . 观 汉 Jsdndgx False)
+assa8888838 人 4 的 训 0
+问题 二 转运 横 型
+inparE numpy as mp
+impopt pandas as pd
+import matplotlib.pyplot as Plt
+import re
+import math
+from scipy.stats import exponnorn
+from fitter nport Fitter
+4 各 转运 商 的 可 失事 进行 颈 信
+data=pd.Oatakrane(pd. read_excel(*2.x1sx'))
+anp-array(data)
+anp .delere(a，8，axis-1)
+less = 1
+or j in range(s):
+和 = Fitten(np. array(al3]. tolist )), distributdons-expomnorn’)
+£.4550.
+Ja/(f: 人 itted_paran['exponnera'][e]*f.fitted_paran['expomnerm'] [2 )
+count = 日
+tm = [)
+while count < 24:
+= expomnorm.rus(k, sizec)
+af my 9 and re5;
+ten.append(Float(r))

@@ -1,0 +1,40 @@
+OFTHS
+[1=%d
+区
+58 数学 的 实 上 距 与 认识 人 sa
+中 国 大 学 生 在 数学 建 模 比赛 的 锻炼 中 必 将 大 大 提高 应 用 数学 的 能 力 , 在 二 十 一 世纪 的 人 类
+新 科技 的 发 展 中 做 出 出 色 的 成 绩
+参考 文献 :
+[1] 子 言 ,基因 : 讲述 生命 的 故事 . 经 济 日 报 出 版 社 , 2000 年 7 月 .
+[2] Mathematics Frontiers and Perspectives AM S Providence, 2000 M. A tiyah 前 言
+[3] PengC K Buldyvev, S V. Goldberger, A. L. Havlin, S Sxbrtino, F. Sinonso, M. And Stanley, H. 下
+Long-range correlation in nucleotide sequences, nature 356: 168~ 170 y
+[4] Claverie JM. Computational methods for the identification of genes in vertebrate genom <HE y Mol
+Genet, 1997, 6(10): 1735~ 1744 二 sss
+[5] Green P, LimanD，HillierL，Waterston R, States D，Clavierie JM，Ancient consefved SN new gene
+sequences and the protein databases Science，1993,259: 1711~ 1716 y
+[6] KroyhA, Mian IS, HansslerD. A hidden M arkov model that finds genes in E 和 Res.
+1994, 22(22): 4768~ 4778 )
+[7] Gelfand M S，Roytberg M A，Prediction of the exon-intron struct SN nam ic programm ing approach
+Biosystens, 1993, 30(1~ 3): 173~ 182 X 和 N
+[8] TiwaviS Ramachandran S, Bhattacharga A, Bhattacgarga Se asw&myR，Predicton of probable genes by
+Fourier analysis of genom ic sequences comput CR 263~270
+[9] FickettM, Tung C S Assessent of protein coding measufes NucleicA cids Res, 1992,20(24): 6441~ 6450
+[10] Guigo R, Knudsen S, DrakeN, Smith T Prediction of gene s ruture JMolBbl. 1992, 226(1): 141~ 157
+[11] Dong S，Searls D B. Gene structure prediction by linguistic methods Genom ics, 23(3): 540~ 551
+[12] Salzberg S Locating protein coding regions in huriah DNA using a decision tree algorithm. J ComputBibl 2(3):
+473~ 485 { V4 @
+[13] 锅 林 主编 解码 生命 一 -人 类 基因 给 主 有 和 胡 ) 周 基因 组 计划 . 科学 出 版 社 , 2000 年
+[14] ZHANG Chun-Ting，LN Zhe-suai AAA \ g. ZHANG Ren A Novel Approach to Distinguish Betw een
+Intron-containing and TS on Fomat of Z Curves J theor Biol, 1998, 192: 467- 473
+人
+The 叫 Ye of DNA Sequence and SinpleM odel
+r=4
+2 MENGDa-zhi
+\/ 入 和. liedM athematics, Beijing PolytechnicU niversity，Beijing 100022)
+Re
+4A bstract  In this article the scientific research background of the problem A in the CUMCM -
+NY: as well as its intention and conception are smply stated Moreover, some excellent
+methods proposed by the studentsparticipating in the contest for the answer to thisproblem are
+introduced and review ed
+D  ©1994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http:Wwww.cn

@@ -1,0 +1,14 @@
+paper_id: CUMCM-2012-B-007
+year: 2012
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/10121505.doc
+source_sha256: F34850D4339E358C6A8C548224CEC919AFAA1B0F4ADB660A81114C20D717015F
+effective_pdf_path: derived/scale/doc_batch/CUMCM-2012-B-007/source_converted.pdf
+effective_pdf_sha256: 547312CD5D3F57EB29292892142E79DE98B75C19C1D526ACB69B9EE834A3AA21
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2012-B-007/normalized_body.txt
+authoritative_text_sha256: 5FA66154AE4C96FF0D33F44E5A856DBA9CFA470EAA60AF13E3449ABA714B541C
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

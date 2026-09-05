@@ -1,0 +1,18 @@
+mow_ON +— max(C - ObjL[z], 0)
+#now_Obj += (C - ObjL{z])
+retum now_Obj
+证 _name_ 一” main
+1-10000
+£-50000
+foriin range(n):
+NL.append(i)
+while ler
+mid ~int((1 +1)/2)
+Crmid
+tag-GetObj(NL.C)
+iftag 一 0:
+ans=mid
+T-mid
+else:
+mid
+print(ans)

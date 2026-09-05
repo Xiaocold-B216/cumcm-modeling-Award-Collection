@@ -1,0 +1,42 @@
+paper_id: CUMCM-1997-B-001
+year: 1997
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q3
+authority_sources:
+- path: 1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：截断切割中的最优排列问题.pdf
+  sha256: 2793EE6AB8C7BCB22E969586CDFA8FA3F859F1B96775092C90372077188DA7F3
+authority_sha256: 2793EE6AB8C7BCB22E969586CDFA8FA3F859F1B96775092C90372077188DA7F3
+paper_file_memberships:
+- path: 1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：截断切割中的最优排列问题.pdf
+  role: primary
+  canonical: true
+primary_file: 1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：截断切割中的最优排列问题.pdf
+extraction_inputs:
+- path: catalog/scale/g8_q3_batch_repair/CUMCM-1997-B-001/normalized_body.txt
+  sha256: 2129B52A6E5B17E9A1381082072606682B6ACC2D8E7E7832C741FEF82FC2DA15
+  kind: final_q3_batch_persistence
+extraction_input_sha256: 2129B52A6E5B17E9A1381082072606682B6ACC2D8E7E7832C741FEF82FC2DA15
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q3 Extraction Contract
+  source_page_numbering: 1-based
+  stage: G8-Q3-FORMAL-ARTIFACT-GENERATION
+primary_extraction_backend: final Q3 batch persistence
+page_extraction_backend: final Q3 batch persistence
+page_count: 3
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_final_q3_batch_persistence
+generated_from_frozen_sources: true
+source_pdf_path: 1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：截断切割中的最优排列问题.pdf
+source_pdf_sha256: 2793EE6AB8C7BCB22E969586CDFA8FA3F859F1B96775092C90372077188DA7F3
+final_batch_persistence_path: catalog/scale/g8_q3_batch_repair/CUMCM-1997-B-001/manifest.json
+final_body_path: catalog/scale/g8_q3_batch_repair/CUMCM-1997-B-001/normalized_body.txt
+source_body_sha256: 2129B52A6E5B17E9A1381082072606682B6ACC2D8E7E7832C741FEF82FC2DA15
+refinement_version: g8-q3-refinement-v1
+refinement_contract_sha256: 7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7
+refinement_evidence_fingerprint: 8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99
+q3_extraction_contract_sha256: 4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F
+revalidation_attempt_id: 20260903T063950668735_29d8de39
+formal_generation_attempt_id: 20260903T071531890631_0e2ef355

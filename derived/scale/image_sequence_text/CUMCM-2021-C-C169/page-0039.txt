@@ -1,0 +1,40 @@
+二
+ay
+党
+aa
+全
+ub=ones(1,50);
+=
+x=intlinprog(fintcon,-A,b,[1[1,Ib,ub;
+AA()=A;
+本
+Es
+as
+友
+本
+人
+qjzQ'
+Xejh=x;
+..
+这
+oo 轴
+3
+ktAIx(Ba
+R
+Kiid)=k;
+A
+ali1)=Q;
+MX
+»
+‘supplier=max(sum(X)});
+ET EEI 天 到
+gp
+data=xlsread( 最 少 24 家 供应 商 数据 提取 .xlsx,2,C2:IH25 小
+o
+4
+tid
+Se
+7,
+MAX(ij)= data(i,n*j};
+i
+5

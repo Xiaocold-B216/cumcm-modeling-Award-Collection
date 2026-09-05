@@ -1,0 +1,31 @@
+﻿sample_order,paper_id,year,problem,stratum,identity_status,continuity_status,text_legibility_status,ocr_fidelity_status,math_content_status,table_status,end_matter_status,metadata_status,overall_severity,reviewer_comment,review_status
+1,CUMCM-2020-B-005,2020,B,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,抽样页1/25/50与论文身份及主题一致，正文主体连续；OCR基本保留主要语义，但代码、运算符和个别字符存在局部误识别/空格化。,REVIEWED
+2,CUMCM-2020-B-002,2020,B,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,历史timeout样本首/中/末页均能与源页面对应，104页末页存在且未见明显截断或重复拼接；OCR主体可读，但代码页存在少量变量名、括号、运算符及字符误识别。,REVIEWED
+3,CUMCM-2010-A-006,2010,A,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,page_A/page_C与论文内容相符，OCR基本可读但存在局部字符和公式/代码符号误识别。page_B（第74页）仅见二维码/水印等非正文内容，与VERIFIED_BLANK_SOURCE_PAGE一致，且无page-local persisted text，空白页处理正确。,REVIEWED
+4,CUMCM-2010-B-001,2010,B,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,page_A/page_C与论文主题和页序基本一致，OCR主体可读但有局部字符、数字和符号误识别。page_B（第1页）无实质论文正文，与VERIFIED_BLANK_SOURCE_PAGE处理一致。,REVIEWED
+5,CUMCM-2020-D-003,2020,D,Q3_OCR_DERIVED,PASS,PASS,MAJOR,MAJOR,MAJOR,PASS,PASS,PASS,MAJOR,长篇OCR样本首/中/末页均存在并与源页面主题一致，未见明显页序错乱或末尾截断；正文和代码主体可辨，但中后部代码/符号存在局部OCR误识别。关键变量、坐标或运算符部分被改写并影响模型含义。,REVIEWED
+6,CUMCM-1992-A-004,1992,A,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,3个抽样页与论文内容连续，正文可辨，表格/公式位置与源页面大体对应；OCR存在扫描件常见的汉字、希腊字母和数学符号误识别，但未见整段丢失或错页。,REVIEWED
+7,CUMCM-1993-B-002,1993,B,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,首/中/末页与对应论文内容一致，正文和公式仍能辨认；OCR对部分数学符号、矩阵/公式字符和个别汉字存在误识别，但未见明显大段缺失、重复拼接或尾部截断。,REVIEWED
+8,CUMCM-1995-B-004,1995,B,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,抽样页与天车调度论文内容和页序一致，正文、调度说明及图示位置可对应；OCR存在若干字母、符号、数字和版面识别误差，但主要语义仍可追踪。,REVIEWED
+9,CUMCM-1996-B-002,1996,B,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,抽样页与洗衣机节水模型论文相符，正文、表格和模型段落连续；OCR有扫描件常见的字符/公式符号误识别，但整体可读，未见大段缺失或末页异常。,REVIEWED
+10,CUMCM-1997-B-001,1997,B,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,首/中/末页与目标论文相符，文本结构连续，公式和正文均有对应内容；OCR存在少量字符、标点及数学符号误识别，但暂未见改变整段模型含义的明显错误。,REVIEWED
+11,CUMCM-1998-A-004,1998,A,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,抽样页与投资/风险模型论文内容一致，正文和表格/公式基本可对应；OCR有局部字母、数字及公式符号误识别，但未见明显页序、截断或整段内容缺失。,REVIEWED
+12,CUMCM-2002-A-014,2002,A,Q3_OCR_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,首/中/末页均与论文内容相符，正文、公式和尾部内容连续；OCR存在局部字符及数学符号误识别，但主要语义仍可辨，未见明显大段遗漏。,REVIEWED
+13,CUMCM-2011-D-001,2011,D,DOC_REMEDIATED,PASS,PASS,MINOR,MINOR,MINOR,PASS,PASS,PASS,MINOR,DOC修复样本首/中/末页与转换后正文一致，主要段落和代码存在；中间页公式附近可见少量乱码/替代符号，可能来自公式转换，但未见大段正文丢失或页序异常。,REVIEWED
+14,CUMCM-2012-D-001,2012,D,DOC_REMEDIATED,PASS,PASS,MINOR,PASS,MINOR,MINOR,PASS,PASS,MINOR,机器人避障论文的正文、表格/图示和末页程序均与源页面对应；artifact中部分图像以占位标记呈现，文本和代码主体仍存在。,REVIEWED
+15,CUMCM-2013-D-001,2013,D,DOC_REMEDIATED,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,首/中/末页与公共自行车论文身份、正文、数据表和程序内容相符，未见明显大段缺失、错页、截断或严重乱码；抽样范围内未发现影响主要语义的实质问题。,REVIEWED
+16,CUMCM-2014-D-003,2014,D,DOC_REMEDIATED,PASS,PASS,PASS,PASS,MINOR,PASS,PASS,PASS,MINOR,首/中/末页与目标论文一致，正文、规格数据和程序内容连续；文本总体清晰，个别代码/符号格式存在轻微转换差异，但未见大段内容缺失。,REVIEWED
+17,CUMCM-2011-A-003,2011,A,DOC_REMEDIATED,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,首/中/末页与重金属污染分析论文一致，正文、统计结果和数值数据均有对应内容，未见明显错页、截断、乱码或关键内容缺失。,REVIEWED
+18,CUMCM-2012-B-007,2012,B,DOC_REMEDIATED,PASS,PASS,PASS,PASS,MINOR,PASS,PASS,PASS,MINOR,首/中/末页与论文内容相符，正文、参数数据及末页程序存在且连续；局部代码/数学符号的文本化格式有轻微差异，但未见大段丢失。,REVIEWED
+19,CUMCM-1999-B-003,1999,B,OTHER_FORMAL_DERIVED,PASS,MAJOR,MAJOR,MAJOR,MAJOR,MAJOR,MAJOR,PASS,MAJOR,源页面明显包含实质正文、图形/数学内容，但三个artifact excerpt基本只剩# Extracted Paper和source_page页标记，没有对应正文文本。按G11“重要章节/大段内容缺失”定义，回查该governed-duplicate artifact的正文生成/绑定是否为空。,REVIEWED
+20,CUMCM-2008-C-004,2008,C,OTHER_FORMAL_DERIVED,PASS,MAJOR,MAJOR,MAJOR,MAJOR,PASS,MAJOR,PASS,MAJOR,源页面包含连续正文和公式/模型内容，但artifact excerpt仅有页码标记，未提供对应正文，存在明显实质内容缺失。建议检查formal artifact是否生成了空正文。,REVIEWED
+21,CUMCM-2022-E-E014,2022,E,OTHER_FORMAL_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,MINOR,PASS,PASS,MINOR,multi-membership样本的图片序列与论文身份一致，artifact中存在对应OCR正文；首/中/末页主要内容可追踪，但表格和程序页存在一定OCR/版式损失。未见整篇内容为空或明显错配。,REVIEWED
+22,CUMCM-2021-C-C085,2021,C,OTHER_FORMAL_DERIVED,PASS,PASS,MINOR,MINOR,MINOR,MINOR,PASS,PASS,MINOR,multi-membership图片序列与目标论文一致，artifact中能找到首/中/末页对应文本/代码内容；代码和表格页存在字符及格式误识别，但主体语义仍可追踪。,REVIEWED
+23,CUMCM-1992-A-003,1992,A,OTHER_FORMAL_DERIVED,PASS,MAJOR,MAJOR,MAJOR,MAJOR,PASS,MAJOR,PASS,MAJOR,源页面有连续正文和大量公式，但artifact excerpt只包含source_page标记，没有实际论文文本。属于明显大段内容缺失，建议回查formal artifact正文是否为空。,REVIEWED
+24,CUMCM-1993-B-001,1993,B,OTHER_FORMAL_DERIVED,PASS,MAJOR,MAJOR,MAJOR,MAJOR,MAJOR,MAJOR,PASS,MAJOR,源页面可见正文和表格/排名数据，但artifact excerpt仅有页码标记，实际正文为空，无法完成内容连续性、文字可读性和表格内容核验。,REVIEWED
+25,CUMCM-1996-B-001,1996,B,OTHER_FORMAL_DERIVED,PASS,MAJOR,MAJOR,MAJOR,MAJOR,PASS,MAJOR,PASS,MAJOR,源页面包含完整正文与公式，但artifact excerpt没有对应文本，仅保留source_page标记。属于实质正文缺失，而非轻微OCR错误。,REVIEWED
+26,CUMCM-1997-A-008,1997,A,OTHER_FORMAL_DERIVED,PASS,MAJOR,MAJOR,MAJOR,MAJOR,PASS,MAJOR,PASS,MAJOR,源页面包含正文和数学公式，artifact excerpt基本为空，仅有source_page标记；抽样内容无法在formal artifact中找到对应文本。,REVIEWED
+27,CUMCM-1998-A-007,1998,A,OTHER_FORMAL_DERIVED,PASS,MAJOR,MAJOR,MAJOR,MAJOR,MAJOR,MAJOR,PASS,MAJOR,源页面可见正文、公式及数据表，而artifact excerpt只有页标记、没有实质文本，存在明显正文/表格内容缺失。,REVIEWED
+28,CUMCM-2000-A-005,2000,A,OTHER_FORMAL_DERIVED,PASS,MAJOR,MAJOR,MAJOR,MAJOR,PASS,MAJOR,PASS,MAJOR,DNA分类论文源页面包含正文、流程图和公式，但artifact excerpt仅有source_page标记，没有对应正文，属于明显内容缺失。,REVIEWED
+29,CUMCM-2001-A-001,2001,A,OTHER_FORMAL_DERIVED,PASS,MAJOR,MAJOR,MAJOR,MAJOR,PASS,MAJOR,PASS,MAJOR,源页面包含正文、图形及英文尾页内容，但artifact excerpt没有实际论文文本，仅有页标记，按G11标准属于material missing section。,REVIEWED
+30,CUMCM-2002-B-005,2002,B,OTHER_FORMAL_DERIVED,PASS,MAJOR,MAJOR,MAJOR,MAJOR,PASS,MAJOR,PASS,MAJOR,源页面包含彩票模型正文和公式，artifact excerpt只保留页标记、没有实质文本，存在明显大段正文缺失。,REVIEWED

@@ -1,0 +1,66 @@
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+流
+
+交
+
+int full = 0,t_full;//0 表示当前为空车
+int S[9] = {10000,0,0,0,0,0,0,0,0};//加工剩余时间
+bool B[9] = {0,0,0,0,0,0,0,0,0};//是否有孰料
+int num = 0;//成品数量
+int T[9] = {10000,0} ;//当前状态到达其他 CNC 加工台的代价
+//就近原则；
+int min_index(int *T){
+int i=1,num=9;
+int min_ind = i;
+for(; i<num; i++ ){
+if(T[i] < T[min_ind]) min_ind = i;
+}
+return min_ind;
+}
+void display(){
+cout<<"编号：";
+for(int i=1;i<9;i++)
+{
+cout<<hold_CNC[i]<<" ";
+}
+cout<<endl<<" 船"<<hold_RGV<<" 任务序号：";
+cout<<numit<<endl;
+}
+void ifbreak(int next_pos,int time){
+randnum = randuni();
+breaktime = 600 + 600*randuni();
+runtime = randuni()*pro[next_pos];
+//发生故障
+if(randnum<0.01){
+S[next_pos] = runtime+breaktime;//加工剩余时间
+B[next_pos] = 0;//是否有孰料
+cout<<next_pos<<" break!!"<<hold_CNC[next_pos] <<endl;
+cout<<"now:"<<time<<" : " ;
+for(int j=1;j<9;j++) cout<<S[j] <<" ";
+cout<<endl<<"B: ";
+for(int j=1;j<9;j++) cout<<B[j] <<" ";
+cout<<endl;
+error[error_times].xuhao = hold_CNC[next_pos];
+error[error_times].NoCNC = next_pos;
+error[error_times].occ_time = runtime + time;
+error[error_times++].fix_time = time+runtime +breaktime;
+}
+}
+int main(){
+42
+
+

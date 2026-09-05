@@ -1,0 +1,86 @@
+86
+
+76 eclass = mp.appena([']，cclass)
+
+人 Gabel 。 np.array([float(x.value) for x in sheet.col(3，start_rosxel，end_rosxt-
+177))
+
+了 8 Gabel = np.append ([0], Gabe1)
+
+70 Gabe2 = mp.array([float(x.value) for x in sheet.col(d,start_rowx=i, end_rowx=iTT)«
+»
+
+80 Gabez = np.append([1], Gabe2)
+
+st
+
+82 Guoskzark = np.array([float(x.value) for x in sheet.col(7, start_rowx=1, end_rovre
+177))
+
+88 Guosksark = ap.appena( [0] ，Gveeksark)
+
+84 Guorkseskzark = np.array([float (x.value) for x in sheet.col(9, start_rowsel, 人
+na_rosx=177)])
+
+是 Guorkveekzark = np.append([0], Guorkveekzark)
+
+s6
+
+S7 Guesk = Guesk » Grorkveskasrk
+
+55 Graek = Grask.astype(int)
+
+s0
+
+9 caean = np.array([float(x.value) for x in sheet.col(10, start_rovx=1, endirovsc
+77))
+
+91 Gaoan = np.append([0], Gean)
+
+@
+
+99 Productivity=np. zeros([251)
+
+4 Cost_accurulatedsnp, zexos ([3,25])
+
+o
+
+% Furestenp. Zeros ([261)
+
+97 True_usornp .zeros ((261)
+
+os
+
+9 ol%) 咀 全 过程 ， 对 每 一 周 来 记
+
+100 for k in range(1, 26)
+
+101 wz] 。 sx-1]/2 # 每 周 消耗 读 用 库存 产能 的 一 半
+
+102 productivtty[x]=s[x-D/2
+
+108 tor 4 ia ranget, 171):
+
+104 4 Gelass(4) == 0:
+
+105 di， 外 = Gean[1)(1.30np. randoz .nor=al(0.2, 0.6))
+
+106 aae:
+
+107 34 Groex[4) >= Guorkvaokmark(s):
+
+108 at， 名 = Gaesn[4]e(1.3+np. randos.norssl (0.2, 0.5))
+
+109 esesxC = 0
+
+0 aa4 gwesx[i] >= Gueokmark(s]
+
+m 4l1, %) 。 Grean[1]+(1.3vap. randos aoraal(0.2，0.5))
+
+112 alsa:
+
+113 continue # next 1
+
+m True_ase [+=1
+
+5 Furest [rw

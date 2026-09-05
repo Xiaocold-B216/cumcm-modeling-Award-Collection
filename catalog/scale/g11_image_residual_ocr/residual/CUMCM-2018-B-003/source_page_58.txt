@@ -1,0 +1,46 @@
+回味
+多 二 是
+. )
+end
+aa(m+1:m+3,4)=TT4",
+aa(m+1:m+3,2)=VTTI;
+for i=m+1:m+3
+aa(i,3)=VTT1(i-m)+T(4)+T(7-mod(aa(i,4),2));
+end
+clear T1 T2
+while t0<8*3600
+[m,n]=size(aa);
+fori=1:8
+for j=1:m #7
+if i==aa(j,5) 一 NY
+. . o
+T2(i,1)=aa(j.7); N 内
+end -
+end
+end X
+for i=l:m & j
+for j=1:8 “
+if j==aa(i,4)
+TI10,D=aa(i,3);
+1 end O
+en [e]
+end %%
+a=ceil(TT5(3)/2); =<
+T3=ceil(TT5(3)/2); N
+~
+[ T6,VTTLVTT T5 1=1205( T1,T2,T3,10,dT,T );
+t0=T6;% 当 前 时
+[m,n]= 0
+for IN
+入 rjj=m:-1:1
+TitTT46) 一 aadj,4)
+SA， aa(jj,3)=VTTI(ii);
+aa(jj,4)=TT4(i);
+aa(jj,5)=TT5(i);
+aa(jj,6)=VTT2(ii);
+aa(jj,7)=aa({j,6)+T(5)+ T(7-mod(aa(jj.5).2));
+break;
+end
+end
+end
+58

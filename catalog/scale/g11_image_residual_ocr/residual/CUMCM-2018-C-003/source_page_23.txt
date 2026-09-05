@@ -1,0 +1,90 @@
+回避 过
+和
+HF T
+Ra
+
+一 -时间 偏 好 维度 --------------------------------------
+
+-- 创 建 截取 时 间 的 临时 表
+
+证 object_ id(tempdb.#cut_timen is not null
+
+Begin
+
+drop table #cut_time
+
+End
+
+select CONVERT(char(10),dtime,120) as cut_time,* into #cut_time
+
+from vtime_mall_vip_sale_detail tmvsd
+
+--2015 &
+
+select COUNT(distinct vi_kh) as 人 数 ,COUNTCvi_kh) as 次 数
+
+位 om #cut_time ct b
+
+where ct.cut_time between '2015-01-01" and '2015-02-28"; 二 <
+
+--2015 春 一 \
+
+select COUNT(distinct vi_kh) as 人 数 ,COUNTCvi_kh) as 次 数 1
+
+位 om #cut_time ct 人行-
+
+where ctcut_time between '2015-03-01' and '2015-05-31";
+
+--2015 夏
+
+select COUNT(distinct vi_kh) as 人 数 ,COUNTUvi_kh) as 7%%
+
+位 om #cut_time ct -
+
+where ct.cut_time between '2015-06-01" and '2015-08-31";
+
+--2015 秋
+
+select COUNT(distinct vi_kh) as 人 数 ,COUNT( 信 kh) as 次 数
+
+from #cut_time ct [o]
+
+where ct.cut_time between no: 1-30';
+
+--2016 冬
+
+select COUNT(distinct vi_kh) 数 ,COUNTCvi_kh) as 次 数
+
+位 om #cut_time ct
+
+where ct.cut_time between 2015 朋 2-01 and '2016-02-29';
+
+--2016 春
+
+select oo 用 as 人 数 ,COUNTCvi_kh) as 次 数
+
+from #cutgti
+
+where ch- 2016-03-01" and '2016-05-31";
+
+olec COPNT(distinet vi_kh) as 人 数 ,COUNTCvi_kh) as 次 数
+
+fromigfcut_time ct
+
+where ct.cut_time between '2016-06-01' and '2016-08-31':
+
+--2016 秋
+
+select COUNT(distinct vi_kh) as 人 数 ,COUNTCvi_kh) as 次 数
+
+位 om #cut_time ct
+
+where ct.cut_time between '2016-09-01' and '2016-11-30";
+
+--2017 冬
+
+select COUNT(distinct vi_kh) as 人 数 ,COUNTCvi_kh) as 次 数
+
+位 om #cut_time ct
+
+23

@@ -1,0 +1,12 @@
+[2026-08-21T22:52:18+08:00] G6-00F run started
+RUN_STATUS=BLOCKED
+API=extract_text_in_regions PAGE_FILTER_INDEX_BASE=0-based SOURCE_PAGE_NUMBERING=1-based
+REPRESENTATIVE_EXPERIMENT=[{"api_page": 0, "source_page": 1, "process_page_count": 86, "process_markdown_chars": 0, "positioned_items": 0, "positioned_actual_chars": 0, "markdown_pages": 1, "markdown_chars": 0, "region_chars": 2059, "region_needs_ocr": false}, {"api_page": 43, "source_page": 44, "process_page_count": 86, "process_markdown_chars": 0, "positioned_items": 1, "positioned_actual_chars": 0, "markdown_pages": 1, "markdown_chars": 0, "region_chars": 683, "region_needs_ocr": false}, {"api_page": 85, "source_page": 86, "process_page_count": 86, "process_markdown_chars": 0, "positioned_items": 1, "positioned_actual_chars": 0, "markdown_pages": 1, "markdown_chars": 0, "region_chars": 77, "region_needs_ocr": false}]
+PAGE_AUDIT_ROWS=516 WHOLE_DOCUMENT_TEXT_CHARS=742965 PAGE_JOINED_TEXT_CHARS=635631
+COMPLETED=2026-08-21T22:53:43+08:00
+[2026-08-21T22:55:03+08:00] G6-00F run started
+RUN_STATUS=BLOCKED
+API=extract_text_in_regions PAGE_FILTER_INDEX_BASE=0-based SOURCE_PAGE_NUMBERING=1-based
+REPRESENTATIVE_EXPERIMENT=[{"api_page": 0, "source_page": 1, "process_page_count": 86, "process_markdown_chars": 0, "positioned_items": 0, "positioned_actual_chars": 0, "markdown_pages": 1, "markdown_chars": 0, "region_chars": 2059, "region_needs_ocr": false}, {"api_page": 43, "source_page": 44, "process_page_count": 86, "process_markdown_chars": 0, "positioned_items": 1, "positioned_actual_chars": 0, "markdown_pages": 1, "markdown_chars": 0, "region_chars": 683, "region_needs_ocr": false}, {"api_page": 85, "source_page": 86, "process_page_count": 86, "process_markdown_chars": 0, "positioned_items": 1, "positioned_actual_chars": 0, "markdown_pages": 1, "markdown_chars": 0, "region_chars": 77, "region_needs_ocr": false}]
+PAGE_AUDIT_ROWS=516 WHOLE_DOCUMENT_TEXT_CHARS=742965 PAGE_JOINED_TEXT_CHARS=635631
+COMPLETED=2026-08-21T22:56:31+08:00

@@ -1,0 +1,33 @@
+opL ABR = Polar.xyz2abr(opt XYZ*W'):
+end
+function [SSE, dSSE_dXYZ] = obj_SSE(X. W, N_nodes)
+% 目标 函数
+% 球面 径 向 投影 Dw《 理 想 拢 物 面 ) 和 主 网 节点 实际 投影 位 置 L 之 间 的 误差 平
+方 和
+%
+[XYZ, Lz] ~unpack(X, N_nodes);
+[abr ~ db, dr] = Polar.xyz2abr(XYZ*W');
+[Lw, ~ dangle] = Polarpara(ConstantLf abr(:.2.1):
+err = Lw-abr(;3);
+SSE = err*err;
+SSE_dXYZ = 2.¥err* (dangle.*db-dr);
+dSSE_dXYZ = dSSE_dNYZ*W;
+ASSE_AXYZ = [dSSE_AXYZ(); zeros(size(L2))ly
+end
+function [¢.ceq,ge.goeq] = constraints(..
+Y
+edge, edge distSQ, .
+motor_hi, motor_unit, motor distSQ, N_nodes)
+%
+% 约束 条 件 〈 二 次 型 )
+% 条 件 1: 保持 主 网 节点 之 间 的 连接 索 的 距离 保持 固定
+% 条 件 2: 保持 主 网 节点 与 相应 的 促 动 器 之 间 的 距离 〈 下 拉 索 ) 保持 固定
+[XYZ, Lz] =anpackCX. N_nodes);
+errdist = XYZ(edge(:,1))-XYZ(edge(:2),):
+edist = sum(errdist *errdist.2);
+©= [edist-edge_distSQ*(1.0007+1.0007); edge_distSQ*(0.9993%0.9993)-cdist]:
+11 = sub2ind(size(XYZ), repmat(edge(:.1).1,3). repmat(1:3.numel(edist). 1)):
+12 = sub2ind(size(XYZ), repmat(edge(.2).1.3). repmat(1:3.numel(edist).1)):
+J= repmat(1:numel(edist)., 1, 3);
+E
+24

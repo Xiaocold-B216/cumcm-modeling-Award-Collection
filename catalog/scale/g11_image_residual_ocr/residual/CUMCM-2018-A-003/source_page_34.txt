@@ -1,0 +1,48 @@
+回味
+.
+print();
+}
+else if(num<max_num){
+out(max_num-num);
+}
+}
+print();
+return 0;
+}
+void init1(){
+/生成 矩阵 工
+for(int k=0;k<2;k++){ 从
+for(int i=13i<9;i++) { 二 NY
+for(int j=1;j<95++){ _ 由
+/计算 步 长 2
+LIDD] = abs((+1)/2 - (i+1)/2) ;
+这 LIdDD] == D LIGDD] = ons; X
+else if(L[K][i][j] == 2) LIK][i][j] = tws; As
+else if(L[K][i][j] = 3) LIkJIiD] = ths]
+AM 人
+ifl—=1 && typelil—=type[i) 项 fil[j1=inf;
+}
+} O
+) 5 ©
+人
+void init2(){
+full = 0,t_full=0;//0 二
+for(int i=13i<9;i++) { \
+so 于
+BDI = aa
+T[i] 0;/ 当 前 状态 到 达 其 他 CNC 加 工 台 的 代价
+所 让 = 0; // 将 任务 量 置 零
+RE:
+N 1
+SN
+1 入 Geass
+for(int i=13i<0;i++)
+for(int j=1;j<9;j++)
+P[i][j1=0;
+}
+void print(){
+cout<<"RHIRRERIAIAIIIMAX:  "<<max_num<<endl;
+for(int i=03i<9;i++) {
+for(int j=0;j<9;j++)
+cout<<max_P[i][j]<<",";
+34

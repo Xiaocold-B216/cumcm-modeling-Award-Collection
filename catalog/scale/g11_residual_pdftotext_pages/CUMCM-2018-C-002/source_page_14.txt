@@ -1,0 +1,70 @@
+：
+科
+
+研
+
+交
+
+流
+
+@:param include_support 表 示 返 回 结 果 是 否 包 含 支 持 度 ， 若
+include_support=True ， 返 回 结 果 中 包 含 itemset 和 support ， 否 则 只 返 回
+itemset
+'''
+frequent_itemsets
+=
+fpg.find_frequent_itemsets(dataSet,
+minimum_support=49, include_support=True)
+#
+print(type(frequent_itemsets)) # print type
+result,itemNum=[],[]
+for itemset, support in frequent_itemsets:
+# 将 generator 结果存
+入 list
+result.append((itemset, support))
+itemNum.append(len(itemset))
+result = sorted(result, key=lambda i: i[0]) # 排序后输出
+itemNum=pd.Series(itemNum)
+itemNumMax=itemNum.max()
+result2=[]
+for i in range(itemNumMax):#
+result2.append([])
+for itemset, support in result:
+result2[len(itemset)-1].append((itemset, support))
+
+微
+
+信
+
+公
+
+众
+
+号
+
+result3=[]
+for i in range(1,itemNumMax):
+for j in range(len(result2[i])):
+for k in range(i+1):
+y=result2[i][j][0][k]
+x=''
+xx=[]
+n=0
+for item in result2[i][j][0]:
+if item!=y:
+xx.append(item)
+x+=item+','
+n+=1
+x=x[:-1]
+for t in range(len(result2[i-1])):
+if xx==result2[i-1][t][0]:
+
+confidence=result2[i][j][1]/result2[i-1][t][1]
+supportCountX=result2[i-1][t][1]
+supportCountY=result2[i][j][1]
+supportX=result2[i-1][t][1]/len(dataSet)
+supportY=result2[i][j][1]/len(dataSet)
+
+14
+
+

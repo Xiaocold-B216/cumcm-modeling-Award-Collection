@@ -1,0 +1,27 @@
+{
+  "STAGE": "G8-Q3-BATCH-REVALIDATE-UNDER-FROZEN-CONTRACT",
+  "STATUS": "PLANNED",
+  "target_count": 128,
+  "target_source": "catalog/scale/g8_q3_batch_repair/",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "batch_replay_required": 0,
+  "ocr_replay_page_count": 0,
+  "body_reconstruction_required": 0,
+  "batch_persistence_deleted_count": 0,
+  "checks": [
+    "source SHA",
+    "page count",
+    "authoritative page hashes",
+    "OCR provenance",
+    "page text quality",
+    "body hash",
+    "body quality",
+    "binary-matrix-aware sanity",
+    "collision gate",
+    "provenance",
+    "persistence structure"
+  ],
+  "policy": "Do not replace persisted contract SHA fields directly; validate all 128 identities before any rebinding."
+}

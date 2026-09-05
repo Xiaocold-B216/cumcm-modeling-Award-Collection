@@ -1,0 +1,70 @@
+break;
+end
+end
+GZBH=aa(m-8+AA,5)*2;
+for i=m-7:m-4
+if aa(i,5)==AA
+GZN=i;
+GZSJ=aa(i,6)+T(7)+randi(T(5));
+GZZZ=GZSJ+600+BBQ;
+aa(i,7)=GZZZ;
+aa(i,6)=999999;
+end
+end
+
+交
+
+end
+GZ=[GZ;GZN,GZBH,GZSJ,GZZZ] ;
+
+研
+
+end
+
+众
+
+号
+
+：
+科
+
+end
+if t0<GZZZ
+clear T2 T1 TT4 TT5 VTT1 VTT2
+[m,n]=size(aa);
+for i=1:8
+for j=1:m
+if i==aa(j,5)*2
+T2(i,1)=aa(j,7);
+end
+end
+end
+
+微
+
+信
+
+公
+
+for i=1:m
+for j=1:8
+if j==aa(i,4)
+T1(j,1)=aa(i,3);
+end
+end
+end
+UTT=aa(:,6);
+SI=length(UTT);
+for ijk=1:SI
+if UTT(ijk)>100000
+UTT(ijk)=0;
+end
+end
+[nmn,nmi]=max(UTT);
+83
+
+流
+
+else
+
+

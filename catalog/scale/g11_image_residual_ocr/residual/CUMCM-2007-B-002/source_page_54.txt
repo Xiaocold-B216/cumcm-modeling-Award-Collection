@@ -1,0 +1,42 @@
+回 成 革 动 国
+后
+0
+BRiE]
+四
+10. 3. 3 (文件 名 : DataPreProcess.h)
+#include <vector>
+#include <iostream>
+#include <string>
+#include “LoadMessage.h”
+#include “Utility.h”
+using namespace std;
+全
+// 将 公 汽 线路 信息 及 公 汽 站 点 信息 存 入 数 组 中 。 二 <
+void AddBusStationsAndLines(vector<LoadMessage> & AllLines, 二 \
+vector<vector<int> > & AllBuses) /
+{
+ifstream fin("1.1 AR&EHEE. txt”); A
+string strCurrLine ="7;
+全
+全
+String StrBusLine ="" // ARE
+string strPrice = // 票 价 信息
+string strUpLoad = ”; // 上 行路 线
+string strDownLoad = ""; 2 // 下 硬 路 线
+string strRoundLoad = ""; ran
+bool  IsRoundWay ”= false; /判断 当前 读 入 的 路 线 是 否 为 环形 路 线
+for (int nCount=0; nC ; ++nCount)
+{ 一
+IsRoundW. 访 ”
+o,
+// i y 11Lines[1403]. LineInfo. size() ;
+// N
+/ if (e==2)
+// c = ci
+// }
+// 读 入 路 线 名
+do {
+getline (fin，strCurrLine，ANm ) ;
+} while(strCurrLine == "");
+strBusLine = strCurrLine;
+54

@@ -1,0 +1,150 @@
+{
+  "stage": "G8-DOC-CUMCM-2012-D-001-TOOLING-DECISION",
+  "status": "PASS",
+  "target_paper_id": "CUMCM-2012-D-001",
+  "source_sha256": "D93A9A6A9DE012927F8A5D4B36E1768CA3F6AFFB6952673F40FE2740D4032766",
+  "source_size": 1146880,
+  "source_ole_signature": "D0CF11E0A1B11AE1",
+  "historical_batch_attempt_count": 2,
+  "historical_batch_export_failure_count": 2,
+  "targeted_export_attempt_count": 2,
+  "targeted_export_failure_count": 2,
+  "targeted_repair_attempt_limit": 2,
+  "targeted_repair_exhausted": 1,
+  "direct_word_export_route_status": "CLOSED",
+  "targeted_repair_baseline_export_still_allowed": 0,
+  "attempt_a_result": "EXPORT_ERROR",
+  "attempt_b_result": "EXPORT_ERROR",
+  "hresult_available": 0,
+  "hresult": "",
+  "target_structural_outlier": "UNDETERMINED",
+  "structural_outlier_fields": "NO_COMPARABLE_SUCCESS_DIAGNOSTIC_EVIDENCE",
+  "diagnostics": {
+    "words_count": 5831,
+    "characters_count": 15816,
+    "paragraphs_count": 1023,
+    "sections_count": 2,
+    "tables_count": 8,
+    "inline_shapes_count": 253,
+    "shapes_count": 0,
+    "fields_count": 238,
+    "compatibility_mode": 11,
+    "protection_type": -1
+  },
+  "tool_inventory_completed": 1,
+  "tools": [
+    {
+      "tool_name": "Microsoft Word",
+      "installed": 1,
+      "version": "16.0.20326.20112",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+      "already_approved_for_doc_conversion": 1,
+      "assessment": "approved converter family; direct ExportAsFixedFormat route exhausted for this target"
+    },
+    {
+      "tool_name": "LibreOffice/soffice",
+      "installed": 0,
+      "version": "",
+      "path": "",
+      "already_approved_for_doc_conversion": 0,
+      "assessment": "not installed"
+    },
+    {
+      "tool_name": "pandoc",
+      "installed": 0,
+      "version": "",
+      "path": "",
+      "already_approved_for_doc_conversion": 0,
+      "assessment": "not installed"
+    },
+    {
+      "tool_name": "antiword",
+      "installed": 0,
+      "version": "",
+      "path": "",
+      "already_approved_for_doc_conversion": 0,
+      "assessment": "not installed"
+    },
+    {
+      "tool_name": "catdoc",
+      "installed": 0,
+      "version": "",
+      "path": "",
+      "already_approved_for_doc_conversion": 0,
+      "assessment": "not installed"
+    },
+    {
+      "tool_name": "wvText/wvWare",
+      "installed": 0,
+      "version": "",
+      "path": "",
+      "already_approved_for_doc_conversion": 0,
+      "assessment": "not installed"
+    },
+    {
+      "tool_name": "unoconv",
+      "installed": 0,
+      "version": "",
+      "path": "",
+      "already_approved_for_doc_conversion": 0,
+      "assessment": "not installed"
+    }
+  ],
+  "alternative_routes": [
+    {
+      "option": "A",
+      "route": "Word DOC -> isolated DOCX -> new Word session -> PDF",
+      "classification": "PREFERRED",
+      "reason": "rebuilds legacy DOC representation while retaining approved Word family; requires a separate semantic validation contract"
+    },
+    {
+      "option": "B",
+      "route": "Word DOC -> isolated RTF -> PDF",
+      "classification": "SECONDARY",
+      "reason": "higher field, inline-shape, formula, and layout fidelity risk than DOCX"
+    },
+    {
+      "option": "C",
+      "route": "LibreOffice/soffice",
+      "classification": "REJECTED",
+      "reason": "not installed and not approved"
+    },
+    {
+      "option": "D",
+      "route": "Direct text parser",
+      "classification": "REJECTED",
+      "reason": "not installed; cannot establish governed PDF/layout preservation for 253 inline shapes and 238 fields"
+    },
+    {
+      "option": "E",
+      "route": "Reacquisition",
+      "classification": "SECONDARY",
+      "reason": "requires later external provenance, identity, and semantic-equivalence review; no network used here"
+    },
+    {
+      "option": "F",
+      "route": "Manual interactive repair/export",
+      "classification": "LAST_RESORT",
+      "reason": "requires a separately approved, fully logged manual contract"
+    }
+  ],
+  "preferred_route": "WORD_DOC_TO_ISOLATED_DOCX_TO_PDF",
+  "new_remediation_contract_required": 1,
+  "contract_name": "G8-DOC-CUMCM-2012-D-001-DOCX-INTERMEDIATE-PILOT",
+  "53_bookkeeping_fixed": 1,
+  "53_exhausted_rerun_fail_closed": 1,
+  "successful_batch_rows_preserved": 13,
+  "successful_batch_rows_reconverted": 0,
+  "doc_contract_approved": 1,
+  "eligible": 453,
+  "ineligible": 189,
+  "artifact_sets": 308,
+  "primary_artifacts": 924,
+  "doc_manual_backlog": 17,
+  "q3_manual_backlog": 128,
+  "word_com_run": 0,
+  "doc_conversion_run": 0,
+  "new_dependency_installed": 0,
+  "network_access_used": 0,
+  "git_operations": 0
+}

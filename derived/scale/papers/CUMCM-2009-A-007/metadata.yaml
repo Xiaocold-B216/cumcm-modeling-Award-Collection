@@ -1,0 +1,47 @@
+paper_id: CUMCM-2009-A-007
+year: 2009
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009A：联合制动器试验台电流控制方法的实现及改进.pdf
+  sha256: 059F98140D4B67DB0EB9B7BFB1A4268A3386116EDE96D569757D8F1173018EFE
+authority_sha256: 059F98140D4B67DB0EB9B7BFB1A4268A3386116EDE96D569757D8F1173018EFE
+paper_file_memberships:
+- path: 2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009A：联合制动器试验台电流控制方法的实现及改进.pdf
+  role: primary
+  canonical: true
+primary_file: 2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009A：联合制动器试验台电流控制方法的实现及改进.pdf
+extraction_inputs:
+- path: 2009年数学建模国赛真题+优秀论文/2009年优秀论文/2009A：联合制动器试验台电流控制方法的实现及改进.pdf
+  sha256: 059F98140D4B67DB0EB9B7BFB1A4268A3386116EDE96D569757D8F1173018EFE
+  kind: original
+extraction_input_sha256: 059F98140D4B67DB0EB9B7BFB1A4268A3386116EDE96D569757D8F1173018EFE
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 15
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_10.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_11.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_12.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_13.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_14.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_15.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_7.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_8.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2009-A-007/source_page_9.txt"]
+  source_sha256: 059F98140D4B67DB0EB9B7BFB1A4268A3386116EDE96D569757D8F1173018EFE
+  current_body_sha256: FBB25C5B485A8F16529C31BC57C4643ACBB05DC3CEABCEEE71C9B19242CDCD1B
+  candidate_body_sha256: 4262672E2C71650F9A9241CE196F87F0F9D7B01FE2BAA0D36A923DA85B63F9DF
+  source_page_count: 15
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

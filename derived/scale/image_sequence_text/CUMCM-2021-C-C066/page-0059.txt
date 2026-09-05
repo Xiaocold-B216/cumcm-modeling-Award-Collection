@@ -1,0 +1,56 @@
+问题 四 转运 模型
+import numpy as mp
+inmport pandas as pd
+mport marplotlib-pyplot as Pt
+import re
+import math
+fron scipy.stats inport expommora
+fron fitter impart Fitter
+4 对 各 转运 商 的 报 失 素 进行 预 人
+data-pd.DataFrage(pd-read_excelt'2.xsx' ))
+anp_array(data)
+anp .delere(a，9，axisc1)
+loss = 品
+for in range(®):
+¥ < Fitter(np.array(ar] ,tolist()) distributions-expomora’)
+直人)
+Ha/(f. 人 tted_paran['exponnera'][e]*f.fitted_paran['expomnerm' 2)
+comnt =
+te = [)
+htle count < 2a:
+= exponnorm.rvs(k, sizest)
+ye and res
+em .append(floattry)
+oont = counttl
+ase
+pass
+1oss .append(rem)
+mossrnp.array(loss) .Ttolisr 仙
+4 孙 骨 转运 方 |
+rdataapd DataFESNE(pd-gead axcel( "7Users/yongJuhaoyDesktop/ 第 四 间 结 果 1 .xlsx"))
+sa = rdata. coluans. tolist ()
+for 3 4n range(za):
+G=OFT100,2,3,4,5,6,7,81, Hk imoss(])
+en-pd.DataFrame(d) sort_values(by=H%")
+91 = Pd.Dakafranet{ 商家 559[9136]， 订 音量 "np.arraytrdata) (1)(0:3361))-sort_values by="iT #
+量 ，ascending = [False])
+2 = pd.Datafrane({ "商家 "sa[136:262]， 订 音量 ':np.array(rdata) 0
+la6:262])7 :sort_valuesby-' 订 间 重 ,ascending = [False])
+43 = pd.Dataframet{ 商家 "5a[262:369]， 订 间 量 'znp.array(rdata)[]
+262:369])7 .sort_values(by-' 订 音量 ,ascending = [False])
+new = 中.append(d2)
+new = new.append (63). reset_index(drop-True)
+counta = 日
+tran =
+ar - 口
+or 4 in range(369):
+4 new 订单 量 "] 1] -= 6
+arr.append (9)
+ass
+4 nev[ "订单 量 '] 04] > 6000:
+re = nev[ "订单 量 '] [1] -6888
+countl = countl +1
+ran = o
+arappend(ten[" 序 时 "] .tolist() countl])
+1 re >6a00:
+re re 008

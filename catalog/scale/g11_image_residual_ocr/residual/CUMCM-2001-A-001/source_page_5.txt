@@ -1,0 +1,46 @@
+口 | 9 ] 口 ]
+人
+sEen MEHA=REE 让 2
+区 wazn
+一 站
+-从
+站
+2
+4 二
+人
+人
+/
+X
+4 5
+H4
+
+个 图, 然后 在 这 240 4~F60 JA_E BESLIR 7200 4, 45  JB FA RIBLBD SRBO A 5  42 KE
+
+正比 ,然后 把 这 些 点 向 十 = (MHR oOBR , IG HX EE T oO  09 EBI(30<
+
+i<69), @HH ILEHHFGSig 以 上 。
+以 上 三 种 方法 对 并 型 的 控 验 证 实 , ER IL B 10 38C45 0 5F 58 I F 0) IFJ HE LO— B, AT
+
+可 以 说 明 本 文 所 忆 We
+
+7 模型 灾 进 与  A
+
+本 模型 实际 在 综合 考虑 了 护 各 的 可 突现 性 和 运算 量 的 大 小 后 ,采用 改进 的 切线 法 来
+
+求 出 中 轿 线 与 每 外 截面 的 交点 位 置 以 及 管道 半径 ,如 果 在 程序 中 增 大 搜索 范围 则 所 得 的 结果
+
+AAAN5 、 dae Ea
+
+LEHHK ALEMERR.
+
+WU。 AUh RITE LURMERY KRMER EKRT ME, BAF —ATRAE 0%
+Ta 每 一 个 鹤 面 图 象 2= ; ,判断 这 个 半径 为 Ru 的 阿 是 否 可 以 完全 含 于 截面 图 象 中 。 如 果
+下 了 各 入 用 全 本 可 此 国 . 玫 各 于 站 和 Re 增 大 172pixel ,否则 将 Ro 减 小 1/2bixel。 直
+
+jj 对 某 一 个 Ru, 当 Ry 增 大 L/2pixel 时 至 少 有 一 个 圆 不 能 完全 含 于 所 有 的 截面 图 象 中 , 则 将 这
+
+个 Ru 作为 管道 半径 。 用 这 种 方法 建 模 也 是 比较 合理 的 ,但 计算 量 较 大 ,留待 以 后 进行 具体 计
+
+算 。
+
+- 和

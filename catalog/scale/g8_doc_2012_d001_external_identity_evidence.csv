@@ -1,0 +1,9 @@
+candidate_id,evidence_type,expected,observed,result
+candidate_001,SNIPPET_1_MATCH,本文主要是对机器人在一个平面区域内的通过不同障碍物到指定目标点进行研究，首先通过机器人与障碍物的最小安全距离对不同障碍物的禁区进行了划分见图1，把障碍物划分为有顶点和无顶点两大类。然后证明了机器人在障,no normalized exact match,NO_MATCH
+candidate_001,SNIPPET_2_MATCH,问题一对于起点和目标点的的路线先用拉绳子的方法确定了可能的最短路线，然后用穷举法确定最佳路径。机器人的行进又分单目标点和多目标点两种情况。,no normalized exact match,NO_MATCH
+candidate_001,SNIPPET_3_MATCH,针对单目标点问题，先对只进行一次转弯的过程建立了基本线圆组合结构的解法即模型一。然后对多次转弯问题中的直线路径与圆弧路径的不同的位置关系推导出了计算模型即模型二。对O-A是基本的线圆组合，直接用模型一,no normalized exact match,NO_MATCH
+candidate_001,SNIPPET_4_MATCH,针对多目标点问题，由于机器人不能直线转向，所以在经过目标点时，应该提前转向，且中间目标点应该在转弯弧上。因此先建立优化模型（模型三）对进行中间目标点处转弯圆弧圆心搜索求解。求出中间目标点转弯圆心后，用,no normalized exact match,NO_MATCH
+candidate_001,SNIPPET_5_MATCH,对于问题二，在问题一求出的最短路的基础上，根据转弯半径和速度的关系，在问题一求出的最短路径的模型的基础上，进行路线优化，建立以最短时间为目标的非线性规划模型，求解得最短时间为94.22825秒，转弯半,no normalized exact match,NO_MATCH
+candidate_001,SNIPPET_6_MATCH,关键词：基本线圆组合 拉绳子法 穷举法 非线性规划 中间目标点转弯圆心,no normalized exact match,NO_MATCH
+candidate_001,METADATA_CONTRADICTION,"2012 target, title/authors unavailable",2022 journal paper: 基于线性规划下的机器人最优避障路径模型; 王梦甜、张巍、陈晓友,DIFFERENT_PAPER
+candidate_001,SECTION_STRUCTURE,compatible with source-derived fingerprint,2022 journal structure (引言/环境建模/模型求解/总结与展望),INCOMPATIBLE

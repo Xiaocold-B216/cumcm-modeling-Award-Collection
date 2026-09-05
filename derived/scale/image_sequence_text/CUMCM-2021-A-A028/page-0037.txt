@@ -1,0 +1,36 @@
+WAP=PA
+Je = dot(cross(vAB,vAP),cross(vAB,vAC)),
+vBC=CB;
+VBP= PB;
+VBA=AB;
+Ja = doteross(VBC,vBP)cross(VBCABA))
+VCA=A-C;
+vcP-PC;
+VCB = BC
+Tb = dot(eross(vCA,VCP)cross(vCAVCB)),
+if (Ja>0 && Jb>0 && Je>0)
+ya-
+ae
+y=0;
+end
+el = eross(vI2vlp);
+%¢2 = cross(v23,12p)
+%63 = crossv31.v3p)
+9%d = [dot(e],e2)dot(c2,e3)dot(c3.c f
+%  Hd0)0 &LA2P0)
+% ye1
+%% elseifl-any(d))
+ec yz
+6 &seiffsum(d ==[000))==2)
+%% y=12;
+Yo ese
+% y=o,
+%  end
+end
+F3FEE:(XA: ProjctWeightm)
+% REFEOEELORIRE
+clearvars
+dle
+Tosd(Group,Information)
+S_Project = zeros(length(Group_plus).1);
+fori = 1length(Group_plus)

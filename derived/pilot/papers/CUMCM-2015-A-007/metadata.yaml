@@ -1,0 +1,30 @@
+paper_id: CUMCM-2015-A-007
+year: 2015
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+authority_sources:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (1).pdf
+  sha256: F3D4B18A4D728686016DC5452CD59D787744190141D355AF865F2892AD34BC6D
+authority_sha256: F3D4B18A4D728686016DC5452CD59D787744190141D355AF865F2892AD34BC6D
+paper_file_memberships:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (1).pdf
+  role: primary
+  canonical: true
+primary_file: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (1).pdf
+extraction_inputs:
+- path: 2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (1).pdf
+  sha256: F3D4B18A4D728686016DC5452CD59D787744190141D355AF865F2892AD34BC6D
+  kind: original
+extraction_input_sha256: F3D4B18A4D728686016DC5452CD59D787744190141D355AF865F2892AD34BC6D
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G6-00G
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 32
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

@@ -1,0 +1,35 @@
+加
+ee
+第 31 孝 第 1 期 数学 的 实践 与 认识 vol , BEREE
+2001 年 1 月 MATHEMATJCS N PRACTICE AND THEORY Jan 0
+的 费用 最 少 的 原则
+由 于 Zw E {0,1} ,模型 开 的 可 行 解 是 由 0 和 1 排 成 的 序列 , 用 遗传 算法 求解 也 是 很 方
+便 的 还 可 以 有 其 它 的 方法 总 之 , 这 个 问题 的 建 模 和 解法 可 以 是 多 种 多 样 的
+参考 文献 :
+[1] 全 玉 森 数学 规划 的 原理 和 方法 “华中 工学 院 出 版 社 , 1985
+[2] 刘 家 壮 , 徐 源 网 络 最 优化 高 等 教育 出 版 社 , 1991.
+[3] 南亚 湘 , 孙 文 玲 ， 最 优化 理论 与 方法 “科学 出 版 社 , 1997 二
+[4] “ 费 浦 生 , 郑 慧 娆 , 陈 ”和希 “分支 定 界 法 及 其 自 组 织 异 步 并 行 实现 ”武汉 大 学 学 报 (自然 科学 版 ), 1993 全 or
+M odeling a Kind of Transportation 了
+FEIPu-sheng, ZHAO sfe
+(W uhan U niversity, w 六
+1
+Abstraet Thispaper introduces themotivitions oHe B of CUM(M '2000 Two models
+and solving methods are also presented
+o]
+Qf °
+关于 “钢管 讶 购 和 运输 ?的 评注
+j 一 丁 颁 康
+一 ” (上 海 海运 学 院 ， 上 海 “200135)
+摘要 : Rereaerraneaonarrmamaroroowems 的 作
+个 各
+so0 重 易 杯 全 国 大 学 生 数 学 建 模 竞赛 B 题 : “钢管 订购 和 运输 "是 一 道 离散 优化 的 问
+1 是 / 它 的 目标 是 针对 两 种 不 同 的 天 然 气 输送 管道 的 铺设 要 求 , 制定 使 总 费用 最 小 的 钢管 订
+购 运 箱 计划 此 外 , 还 须 求 出 在 前 一 种 铺设 要 求 下 , 哪 一 家 钢 厂 钢管 销 价 的 变化 以 及 产量 上
+限 的 变化 对 购 运 方案 和 总 费用 的 影响 最 大
+在 本 文中 , 我 们 根据 阅卷 情况 , 简 述 一 些 本 题 求解 中 值得 注意 的 问题
+1 关于 订购 和 运输 单价 的 计算
+要 制定 出 使 总 费用 最 小 的 订购 和 运输 计划 , 首先 需要 计算 出 单位 长 度 的 钢管 从 各 钢 厂
+Si(= 12…7) 到 需 铺设 的 主管 道 ( 问 题 一 ) 或 树 形 图 (问题 三 ) 上 各 枢 钮 点 47 0= 1 2…15
+或 产 1 2,…21) 的 最 小 费用 cyw (如 果 采 用 运输 问题 模型 或 者 网 络 最 小 费用 流 模型 , 更 需
+3 @ 1994-2008 China Academic J E ic Publishing House. All rights res: t ww.cnki.net

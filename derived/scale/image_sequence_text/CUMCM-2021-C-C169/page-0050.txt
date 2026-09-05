@@ -1,0 +1,44 @@
+eaasiWdoubless2
+MAX(J=MAX)°0.9
+ele if cassify_double==3
+MAX(=MAXG10.8;
+end
+end
+end
+end
+E
+planszeros(s0,48);
+fori=1:50
+planf-ceilrand"MAX(1);
+end
+fori<2as
+frones(s0.1;
+forke1:50
+H)=1k2) ofclassiy_double(i;
+end
+frones(50.1;
+inteon=50;
+Veones(150);
+Asdiaglol
+AIAonest1.50j:
+-zerost51.1
+8(51,1)=48000;
+forj=1:50
+BH1-MAKG2}09"plani1)
+end
+iaerostl.soh
+xeintingrog-tintcon AB[LILIb;
+plan()c
+end
+plan=ceilplan);
+附录 二 : 支持 材料 文件 列表
+1 MOPSOWmopsom
+2. MOPSO\Particle.m
+3. MOPSO\Repository.m
+4. RAGA_PPCE\Feasibility.m
+5. RAGA_PPCE\RAGA.M
+6. RAGA_PPCE\RAGA_PPCE.m
+7. RAGA_PPCE\Targetm
+8， 附 件 A、 附 件 B 一 一 求解 结果 \ 附 件 A 订购 方案 数据 结果 lsx
+9 附件 A、 附 件 B 一 一 求解 结果 \ 附 件 B 转运 方案 数据 结果 xlsx
+so

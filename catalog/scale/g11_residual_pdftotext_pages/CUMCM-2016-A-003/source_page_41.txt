@@ -1,0 +1,44 @@
+minthita1=thita1;
+minthita2=thita2;
+minbeta=beta;
+minFt2=Ft2;
+end
+end
+if minthita2(n)>pi/2%ÅÐ¶ÏÊÇ·ñ´¥µ×
+[r,minh,minbeta,minthita1,minthita2,minH]=tuodir2(n,mq,v,vshui,gdH);
+else
+r=Lm*sum(sin(minthita2))+sin(minbeta)+sum(sin(minthita1));
+end
+if minbeta*180/pi>5%¸ÖÍ°Çã½Ç²»³¬¹ý5¶È
+continue;
+end
+if (90-minthita2(n)*180/pi)>16%Ä©¶ËÃªÁ´Óëº£´²¼Ð½Ç²»³¬¹ý16¶È
+continue;
+end
+if abs(minH-gdH)>0.2
+continue;
+end
+a=36/pi;b=1.5;c=1/20;
+fenshu=a*minbeta+b*minh+c*r;
+kxn=[kxn n];
+kxmq=[kxmq mq];
+kxl=[kxl l];
+kxh=[kxh minh];
+kxbeta=[kxbeta minbeta];
+kxr=[kxr r];
+zfenshu=[zfenshu fenshu];
+end
+end
+end
+[fenshu,i]=max(-zfenshu);
+fenshu
+kxmq(i)
+kxl(i)
+kxn(i)
+
+附录 9 第三问不同情况分析计算
+v=12;%·çËÙ
+vshui=1.5;%Ë®Á÷ËÙ¶È
+41
+
+

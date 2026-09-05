@@ -1,0 +1,76 @@
+工
+
+66
+
+程
+
+数
+
+学
+
+学
+
+报
+
+第 19 卷
+
+参考文献 :
+[1]
+
+钱
+
+湔 . 运筹学 [ M ] . 北京 : 科学出版社 ,2000
+
+[2]
+
+肖
+
+雁 ,符
+
+卓 ,李育安 . 带软时间窗口的车辆路径问题及其应用前景探讨 [J ] . 中国运筹学会第六届学术交流会论文
+
+集 ,下卷 ,634 - 638
+
+Study on the Schedul ing Problem
+L IU Chao2hui ,
+
+Instructor :
+
+MA Yi
+
+WU Meng2da
+
+流
+
+DON G Qiang ,
+
+( National University of Defence Technology , ChangSha 410073)
+
+交
+
+Abstract : As it ’
+s a vehicle2scheduling problem wit h soft time windows , we established two multiple objective programming mod2
+els to satisfy different practical conditions : double2parking2lot model and single2parking2lot model. The main objective of t he former
+
+研
+
+was to match t he capacity of passengers holding wit h t he real demand , while t he objective of t he latter was to minimize t he average
+inconvenience of passengers and t he cost of transit companies. Bot h of t he two models considered for benefits of bot h passengers and
+companies. By using t he met hod of step2by2step time , we simulated t he practical procedure and drew two dispatching plans : static
+dispatching and dynamic dispatching.
+
+微
+
+信
+
+公
+众
+
+号
+
+：
+科
+
+Key words : scheduling ; step2by2step time ; dispatching plans
+
+

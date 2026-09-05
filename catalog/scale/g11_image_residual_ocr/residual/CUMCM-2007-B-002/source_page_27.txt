@@ -1,0 +1,45 @@
+杞 所
+Efes
+wsn
+char char_2[20];
+itoa( nStart, char 1, 10 );
+itoa( nEnd , char 2, 10 );
+string * pStr_1 = new string(char 1);
+string * pStr 2 = new string(char 2);
+string strPartName = ”("+ * pStr_1+"="+ * pStr 2+")";
+ofstream fout Cost ( (strPartName+“ 费 用 . txt”).c_str() );
+ofstream fout_Time( (strPartName+“ 用 时 . txt”).c_str() ); #7
+o NY
+vector<vector<int> > FeasibleSolve 0; // 直达 一 一 \)
+vector<vector<int> > FeasibleSolve 1; // 一 次 转 乘 2
+vector<vector<int> > FeasibleSolve 2; // 二 次 转 乘
+SS
+
+Direct or not ( nStart，nEnd FeasibleSolve 0, ou RoadCrossInfo) ;
+OnceBusChange UnStart，nEnd，FeasibleSolve_1， Hee Al1Buses, RoadCrossInfo);
+TwiceBusChange (nStart, nEnd, YY es, AllBuses, RoadCrossInfo) ;
+multimap<float, vector<int> > Cost 0 =CostCalculate ( FeasibleSolve 0, AllLines);
+multimap<{float, vector<int>> Cost 1 FCostCalculate ( FeasibleSolve 1, AllLines);
+multimap<{float, vector<int> 3323 =C6stCalculate (FeasibleSolve 2，Al1Lines ) ;
+multimap<float， oo TimeCalculate( FeasibleSolve 0，Al11Lines ) ;
+multimap<float, vector<int> »” #ed = TimeCalculate (FeasibleSolve 1, AllLines ) ;
+multimap<float, S =TimeCalculate (FeasibleSolve 2, AllLines );
+fout _Cost << < 起 始点 ; ¥ nStart << endl;
+fout _Cost << 祭 点 : “《《 nEnd  << endl;
+fout_Costr<< A << endl;
+fou %, “直达 情况 下 : 7 << endl;
+aa ” << FeasibleSolve 0.size() 《< 种 ”《《 endl;
+
+W [tPutCostCal (fout Cost, Cost 0);
+
+1 New 《《 THEHHERITHERRIHEHE RBE HE R t H  B ” 《< end] ;
+
+TS “<“ 一 次 换 乘 下 : “《《 endl ;
+fout Cost《《“ 总 共有 : ” << FeasibleSolve 1.size() << ” Ff” << endl;
+OutPutCostCal (fout_Cost, Cost 1);
+fout_Cost << "HEHHHRUHHTRIBHIHERRIBEEHERSHERI BBBIIEIE” 《< end];
+fout Cost《《“ 二 次 换 乘 下 : ” < endl;
+fout Cost《《“ 总 共有 : ” << FeasibleSolve 2.size() 《(” 种 ”< endl;
+OutPutCostCal (fout_ Cost，Cost 2) ;
+
+27

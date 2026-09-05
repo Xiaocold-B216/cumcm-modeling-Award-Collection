@@ -1,0 +1,43 @@
+人
+名 distance_square(: ”sumt(ppoint - repmat(center(d,:),N,1))."2,2);
+12. strl = [“Center',num2ste(4), =(1;'1;
+名 eval(str);
+ed
+15
+人
+7 minposition = find(distance_square(i, :)=-min(distance_square(i,:)));
+1s stri = [center onumastrninpasition)]i
+名 eval([str1, =[",str, ippoint(i2)]37])5
+20. end
+名
+2. fori-1k
+2 strl - [Center ynunastrGi)];
+2 eval(['center_ New( unumastr(i)， os) = mean(",strl,",1);"1);
+5 ed
+名
+27. 3f syn(sun((center_New - center) .2)) ==@
+2s break
+2 ae
+ia conter - center. New
+end
+四
+有 eco
+30. end
+35.
+36. for ak
+7.1- emste(d);
+8。。 dsp([ "第 ,IT ERAIAR: ])
+35. disp(eval([ Center’,11))
+0. end X EAMRARDRLHE
+4
+42. hold on
+aor ak
+strl = [center onumastr(]
+45.  plot(eval([str1,(:,1)']),eval([str1, "(:,2)°]), .", Markersize’,15, "colo
+srand rand rand]);
+6 evaltT'n = boundary(，strli (:,1),",5t01,"(5,2),0.00; )5
+enpty(kn)
+中 eval(['plot(*str1, (Distrl 075
+0， ase
+s0. eval(['plot( strly (kn,1),strl,  (kn,2))3 1);
+x

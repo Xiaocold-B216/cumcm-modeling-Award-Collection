@@ -1,0 +1,67 @@
+end
+break;
+end
+end
+end
+end
+BestPlan(1)=[];
+REC=BestPlan{1,end};%挑选一个最佳方案
+while ~(REC(end,6)+Expect(3,MinNumber)+Wash<=28800)
+REC(end,:)=[];
+end
+
+：
+科
+
+研
+
+交
+
+流
+
+%% 计算
+SUM=size(REC,1);%成料数
+WAIT=(REC(end,6)*8-size(REC,1)*sum(Work))/8;%CNC 平均非有效工作时长
+Last=REC(end,6)+Expect(3,MinNumber)+Wash;%最终完成物料清洗时刻
+%% 计时
+toc
+clear CompleteTime Expect flag i j k Left MaxProduct MinNumber Move NEXT Now Order Position
+Situation Switch TempRec Time Tool Type Wash Work;
+memory
+用于单工序情况三方法一第一组的代码
+Situation3_1Team1.m
+
+微
+
+信
+
+公
+
+众
+
+号
+
+%情况 3（基于情况 1）下的代码
+clear;clc;
+%% 计时
+tic
+%% 输入不同组别参数
+Move=[0,20,33,46];%第一组[0,20,33,46] 第二组[0,23,41,59] 第三组[0,18,32,46]
+Work=560;%第一组 560 第二组 580 第三组 545
+Switch=repmat([28,31],1,4);%第一组[28,31] 第二组[30,35] 第三组[27,32]
+Wash=25;%第一组 25 第二组 30 第三组 25
+%% 预设系统情况
+Position=1;%记录 RGV 的位置，取值为 1~4
+Left=zeros(1,8);%记录 8 台 CNC 当前工作剩余完成时间，等待时为 0
+Situation=zeros(1,8);%记录 8 台 CNC 当前是否拥有工件，0 为无，1 为有
+Time=0;%系统已运行时间
+Expect=ones(4,8);%预计时间，第一行为预计运动时间，第二行为预计等待时间，第三行为预
+计上下料时间，第四行为前三项之和
+Rec=[];%记录每个工件的上下料信息
+Error=[];%记录故障信息
+%% 系统开始运行
+while Time<=28800
+for i=1:size(Error,1)%检查错误信息
+31
+
+

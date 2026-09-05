@@ -1,0 +1,37 @@
+ES
+Opree=0
+EhBeats
+ TTY
+(2) 对 于 公交 公司 :由 于 在 效用 函数 中 使 用 每 班车 都 尽 可 能 取得 最 大 收益 的 贪心 算法 ，
+使 公司 也 取得 了 相当 于 当 尖 总 收入 (全 天 车 票 收 入 ) 的 60% 的 利润 。
+唯一 的 不 足 可 能 是 需要 车 辆 过 多 ,而 造成 这 一 问题 的 瓶颈 在 于 高 峰 时 段 的 用 车 量 。 我 们
+将 在 模型 2 的 基础 上 ,在 模型 扩展 中 用 加 人 机 动车 的 方法 来 处 理 这 个 问题 。
+5 基于 计算 机 模拟 的 模型 二 ( 咯 )
+6 模型 优 缺点 讨论
+优点 :{1) 把 各 个 车 站 的 时 刻 均 转换 为 起 点 站 的 时 刻 ,便于 对 某 一 班车 的 人 数 变 化 情况 进
+行 讨 论 和 处 理 。 _
+(2) 救 用 函数 便于 利用 计算 机 进行 递 推 和 搜索 以 求 得 最 大 值 ,从 而 得 到 较 好 的 时 刻 安 排 。
+【3) 将 公交 车 的 调度 转化 成 了 对 一 条 曲线 包围 面积 的 划分 。 五 个 模型 二 用 祖 电 直观 的
+特点 。 As
+缺点 :(1) 所 有 的 车 区 为 从 头 到 尾 开 完全 程 ,没有 沙 及 到 利用 只 开 某 二 区 记 的 机 动车 来 天
+轻 某 些 大 车 站 的 压力 ,以 使 车 上 的 满载 率 较 平均 。
+(2) 上 下 行 是 单独 考虑 的 ,所 以 不 能 对 所 需 车 辆 数 进行 调节 。
+XS
+参考 文献 ; As \
+[1) 理 永 班 , 评 文 辣 . 救 学 模型 [M]. 上 海 :复旦 大 学 出 版 桂 _1997
+[2] 蓉 启 慑 ,数学 模型 [ M]. 北京 : 商 等 教育 出 版 福 ,1993 了 =
+[3] 雷 功 炎 . 获 学 祸 型 讲义 [M] .北京 ,北京 大 学 出 版 社 ,t999 /性
+[4] 里 新 由, 吴 新 垣 随机 模型 与 计算 机 模拟 [M]. 北 京 :电子 工业 出 版 社 ,1990
+[5] 《运筹 学 ?教材 编写 组 ,运筹 学 [M] .北京 ;清华 大 学 出 版 福 ,1999
+o
+Solution oO f the Problem on Bus Dispatch
+ZHANG Y SN ZHANG Ch， YAN Qi-gi
+Advisor: SONG Bao-rui
+( TO Universtty，Shanghai 200030)
+点 bstract: Based on a chart of a% of a bus bne ，a mathematical model 1s established to determine the bus schedule in the
+interest of both passengers and the bus company. The efficient data processing methods, ineluding the graphic intuition, are pre-
+sented in this paper.
+Key words: < bus dispatch
+LS%
+e-
+—

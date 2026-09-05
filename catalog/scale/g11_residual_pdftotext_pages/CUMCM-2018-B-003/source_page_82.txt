@@ -1,0 +1,67 @@
+aa(4,7)=aa(j,3)+T(6)+T(7)+T(5);
+tQ(i)=aa(j,3)+T(6)+T(7);
+else
+aa(8,2)=tQ(i);
+aa(4,3)=aa(8,2);
+aa(8,3)=aa(8,2)+T(6)+T(4);
+aa(4,6)=tQ(i)+T(6);
+aa(4,7)=tQ(i)+T(6)+T(7)+T(5);
+tQ(i)=tQ(i)+T(6)+T(7);
+end
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+end
+t0=tQ(i);
+UTT=aa(:,6);
+SI=length(UTT);
+for ijk=1:SI
+if UTT(ijk)>100000
+UTT(ijk)=0;
+end
+end
+[nmn,nmi]=max(UTT);
+clear UTT SI ijk
+a=aa(nmi,5);
+GZ=[];
+BXYQX=100;
+GZZZ=0;
+while t0<8*3600
+if randi(100)>55.5&&randi(100)<63.5
+if randi(6)==4%约有百分之一的概率发生故障
+%BBQ=randi(600);BBQ=0;BBQ=300;BBQ=600;
+BBQ=600;%随机************************************
+AA=randi(8);
+AAA=ceil(AA/4);%1 表示第一道工序故障，2 表示第二道工序故障
+AA=AA-4*(AAA-1);%第 AAA 道工序的第 AA 个元件故障
+[m,n]=size(aa);
+if AAA==1
+GZBH=aa(m-4+AA,4);
+for i=m-3:m
+if aa(i,1)==AA
+GZN=i;
+GZSJ=aa(i,2)+T(6)+randi(T(4));
+GZZZ=GZSJ+600+BBQ;
+aa(i,3)=GZZZ;
+aa(i,2)=999999;
+82
+
+

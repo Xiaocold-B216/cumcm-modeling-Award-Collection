@@ -1,0 +1,47 @@
+ERE
+和
+回 只 RN
+S[next_pos] = pro[0] ;
+else 这 type[next pos] == 1 && full==1) S[next pos] = pro[l] -
+Blnext_pos]*put_down;
+time+=T[next_pos];/ 时 间 需 要 延长 这 个 过 程 的 时 间
+if(type[next_pos] == 0){
+endtimel[next_pos][numm]I[next_pos]]=time - rep[next_pos];
+numml[next_pos]++;
+}
+if(type[next_pos] == 1&&full==1){
+endtime2[next_pos][numm2[next_pos]]=pos;
+numm?2[next_pos]++;
+endtime2[next_pos][numm2[next_pos]]=time-B[next ooY
+rep[next_pos]; 一 SS
+numm2[next_pos]++; 2 \)
+ki
+else if(type[next_pos] 一 1&&full==0){ ood
+endtime2[next_pos][numm2[next_pos] 辣
+numm2[next_ pos]++; US \ \
+endtime2[next_pos][numm2[next pos}]=pos;
+numm?2[next_pos]++; 人 R
+endtime2[next_pos][numm?][; xipos]|-time-B[next _pos]*put_down-
+rep[next_pos];
+numm2[next_pos}++; 店
+} Oy °©
+P[pos][next_pos]++;//fFI4{F,
+num+= B[next 人
+pos = next_posy 下 车 到 达
+t full = full;
+full =B[next: 办 not(type[next_ pos]);/ 若 CNC1 有 半熟 料
+了 ==0) B[next_pos] = 1;//CNC1 类 型 都 会 变 为 有 加 工 产品
+_. else B[next pos]=t full; /经 过 CNC1 装 半数 料 后 哦
+2
+SN
+| /, time++;
+SA， for(int i=1;i<9;i++){
+S[i] --;// 此 时 若 S 为 正 , 则 说 明 CNC 机 器 经 过 S[j] 秒 后 可 以 加 工 下 一 任务 ;
+/ 若 $ 为 负 ， 则 说 明 CNC 机 器 已 经 加 工 完 毕 ， 等 待 S 跨 | 秒
+}
+begin = 0;
+}
+}
+if(num>max_num){
+out(-1);
+33

@@ -1,0 +1,41 @@
+马 :二
+u 3
+CLyes
+}
+return 0;
+}
+附录 三 BP 神经 网 络 程序
+P=[
+0. 698 0. 244 0.604 0.500;
+0.799 0.254 0. 463 0.324;
+0. 480 0. 484 0. 425 0.005;
+0.327 0.607 0.459 0.771;
+0.323 0.837 0.987 0.908 局
+这 -你
+T= [0.22 0.08 0.06 0.42 0.08 ]; 2
+net=newff (minmax (P), [2, 1], {’ tansig’, purelin’},’ traing dn’y
+inputWeights=net. IW{1, 1}
+inputbias=net. b{l}
+layerWeights=net. LW{2, 1}
+layerbias=net. b{2} DA
+net. trainParam. show = 50;
+net. trainParam. 1Ir = 0.05;
+net. trainParam.mc = 0.9; °
+net. trainParam. epochs = 10004 @
+net. trainParam. goal = le-
+[net, tr]=train(net, P, T);
+for i=0.0:0.01:1.0 一
+X = [0.601;i;0. gj 771] ;
+R = sim(net, X) ;
+plot (i, 9
+S ¥
+end 多多
+中 ff;
+TS
+尽 聚 类 分 析 代码
+datin = [0.18 0.11 0.09 0.42 0.04 0.15] ;
+[NM = size(datin);
+R=zeros (N, N) ;
+max=0;
+for i = 1:N
+26

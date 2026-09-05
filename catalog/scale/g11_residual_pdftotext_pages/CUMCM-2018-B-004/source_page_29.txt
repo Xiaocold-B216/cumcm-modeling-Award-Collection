@@ -1,0 +1,71 @@
+break;
+end
+
+：
+科
+
+研
+
+交
+
+流
+
+end
+if flag==0%仅发生上料
+TempRec(end+1,1)=MinNumber;
+TempRec(end,2)=Time;
+TempRec(end,3:6)=NaN;
+end
+if Situation(MinNumber)==1%换料时取下了一个已经完成工序 1 的工件
+Now=2;%下一道目标工序发生变化
+NEXT=k;%记录此工件的序号
+end
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber);%完成换料
+for k=1:8
+if Left(k)-Expect(4,MinNumber)<0
+Left(k)=0;
+else
+Left(k)=Left(k)-Expect(4,MinNumber);
+end
+end
+Left(MinNumber)=Work(1);
+else%当前目标是工序 2 的 CNC
+flag=0;
+
+号
+
+for k=size(TempRec,1):-1:1%记录本次操作时刻
+if TempRec(k,4)==MinNumber && isnan(TempRec(k,6))%取下已完成工
+
+众
+
+件
+
+微
+
+信
+
+公
+
+flag=1;
+TempRec(k,6)=Time;
+TempRec(NEXT,4)=MinNumber;
+TempRec(NEXT,5)=Time;
+break;
+
+end
+end
+if flag==0%放置待加工工序 2 的工件
+TempRec(NEXT,4)=MinNumber;
+TempRec(NEXT,5)=Time;
+end
+Now=1;%此时目标工序重新变为工序 1
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber)+Wash;%完成换料
+for k=1:8
+if Left(k)-Expect(4,MinNumber)-Wash<0
+Left(k)=0;
+29
+
+

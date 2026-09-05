@@ -1,0 +1,4 @@
+file_path,source_sha256,pdf_type,page_count,machine_routing,visual_review_reason,pages_needing_ocr,has_encoding_issues,is_complex_layout,confidence
+2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (5).pdf,8ED079BEE1EAC8D7C76D3B08C45EA17648BD7A3C9564C51BFD7A749330B7FE88,mixed,26,MIXED_TEXT_OCR_REVIEW,pdf_type=mixed,[26],False,False,0.7625000476837158
+2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (6).pdf,61471733A48208E30A4521BEFA637ABB1EEB706A4F30DFA5EF6133804454FF47,mixed,26,MIXED_TEXT_OCR_REVIEW,pdf_type=mixed,[26],False,False,0.7625000476837158
+2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (1).pdf,76F00F79B88EFAA3AD273C472A8E6C31496F81D65D5A80675B241F8D14C58787,mixed,32,MIXED_TEXT_OCR_REVIEW,pdf_type=mixed,"[1, 2, 3, 4, 6, 9, 10, 11, 18, 19]",False,False,0.7250000238418579

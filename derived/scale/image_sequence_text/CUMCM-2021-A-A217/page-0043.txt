@@ -1,0 +1,35 @@
+assert(numel(d.main_node_code) = 2226);
+assert(size(d.main_node_coordinate,1) == 2226);
+assert(size(dmain_node_coordinate2) = 3);
+assert(ismatrix(d motor_lower));
+assert(ismatrix(d motor_higher_base));
+assert(size(dmotor_Tower,1) 一 2226);
+assert(size(d.motor_lower.2) 一 3);
+assert(size(dmotor_higher base,1) 一 2226);
+assert(size(d.motor_higher_base2) = 3);
+asser(isstring(d triangle))
+assert(size(d.triangle,1) = 4300);
+assert(size(d triangle.2) 一 3)
+end
+function d = convert_node_id(d)
+% 先 给 主 节点 排序 ,确定 一 企 顺序 查 技 表 abe(i)， 并且 有 index(D) 一 [ 原
+位 ]
+[abe index] = sort(d.main_node_code):
+% 再 给 triangle 拌 序 ， 确 定 一 个 顺序 表 xyz0)， 并 且 有 index20) 一 [tri
+原 位 ]
+[RSz index2] = sort(d.triangle(:)):
+i-n
+indexed = zeros(size(xy7));
+for i = lnumeltabe)
+while abe(i) == xyz0)
+indexed(j) = index(i):
+jjrl
+ifj > numel(xyz)
+break
+end
+end
+nd
+indexed(index2) = indexed;
+indexed = reshape(indexed, [J. 3);
+assert(all(all(d.main_node_code(indexed) = dtriangle)))
+43

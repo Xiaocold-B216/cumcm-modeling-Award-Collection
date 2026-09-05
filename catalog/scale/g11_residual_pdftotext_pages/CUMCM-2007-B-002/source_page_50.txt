@@ -1,0 +1,111 @@
+{
+FeasibleLine[0] = a; FeasibleLine[1] = nFirstLine;
+FeasibleLine[2] = b; FeasibleLine[3] = c;
+FeasibleLine[4] = nSecondLine; FeasibleLine[5] = d;
+FeasibleSolve.push_back(FeasibleLine);
+}
+IsDirectToBridge
+
+= false;
+
+IsBridgeDirectToDest = false;
+}
+
+流
+
+}
+}
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+交
+
+if ( !FeasibleSolve.empty() )
+bHaveFound = true;
+
+研
+
+ww
+
+}
+
+：
+科
+
+return bHaveFound;
+
+//////////////////////////////////////////////////////////////////////////
+//
+
+// 二次换乘的情况
+//
+
+号
+
+// 由于第一问解是第二题解的一部分，所以在这里只需求出通过地铁站转乘的情况。
+//
+
+众
+
+bool TwiceBusChange(const int NSTART, const int NEND,
+点
+
+公
+
+vector<vector<int> > & FeasibleSolve,
+
+案，是返回值
+
+信
+
+信息
+
+微
+
+站信息
+
+// 起始点和目标
+// 可行的解决方
+
+vector<LoadMessage> & AllLines,
+
+// 所有路线
+
+vector<vector<int> > & AllBuses,
+
+// 所有公汽
+
+vector<vector<vector<long> > > &RoadCrossInfo) // 任意两路线的
+
+交叉信息
+
+{
+
+bool
+
+bHaveFound = false;
+
+vector<int>
+
+FeasibleLine(9, 0);
+
+int
+
+nCurLineName = -1;
+
+int
+
+nFirstBusChangeStation = -1;
+
+int i, j, k;
+
+50
+
+// 第一次换乘的车站名
+
+

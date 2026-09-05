@@ -1,0 +1,86 @@
+}
+10.3.2(文件名：CalulateWays.h)
+#include <map>
+#include <iostream>
+#include <vector>
+#include "LoadMessage.h"
+#include <fstream>
+#include <queue>
+
+int bbbbbb ;
+
+交
+
+int aaaaaa ;
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+流
+
+using namespace std;
+
+研
+
+ww
+
+// 判断一条线上两点间是否是上下层次关系，如果是，确定位置
+
+bool find(vector<int> &Line, const int NFIRST, const int NSECOND,
+
+if (NFIRST == NSECOND)
+{
+
+int i = 0;
+
+：
+科
+
+int &pos_1, int &pos_2)
+
+{
+
+++i;
+
+公
+
+}
+
+众
+
+{
+
+号
+
+while (Line[i] != NFIRST)
+
+pos_1 = pos_2 = i;
+
+信
+
+return true;
+
+微
+
+}
+
+bool bHaveFound
+
+= false;
+
+bool IsDirectTo_1 = false;
+for (int i=0; i<Line.size(); ++i)
+{
+if (Line[i] == NFIRST)
+{
+IsDirectTo_1 = true;
+pos_1 = i;
+continue;
+
+46
+
+

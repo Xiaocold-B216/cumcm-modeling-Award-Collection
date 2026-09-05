@@ -1,0 +1,38 @@
+YS-np zeros((mum= Lw§11))
+ID
+FL
+forrin range(sheet nrows):
+ID.append(sheet cell value(s, 0))
+FLappend(sheet.cell value(r. 1)
+def getFP(o):
+excel = xlrd.open_workbook(" 转 运 分 配 值 .xlsx", 'rb)
+sheet = exeelsheet_by_ name 人 Sheetl7
+FPJZ-0
+forjin range(3):
+val=0
+foriin range(8):
+valappend(int(sheet.cell_value((e-1)*3+j+1i+1)))
+FPIZappend((val))
+retum FPJZ
+def bagnewv)
+res={[-1 for j in range(c+1)] for  in range(n*1)]
+forj in range(c+1):
+res[O[-0
+foriin range(Ln:1):
+for] in range(1.c+1):
+res[i]f] -resi1][]
+ifjw(ie1] and res[D]<res[i-Df-w[-DJ+vE-1]:
+res[ilfi]-resfi1][-wli-1]]+v[i-1]
+retum ms
+def show(n.c.w.res.r.cc K):
+w=[)
+iresfn][e]<-0:
+retum []
+printCRAHHI2, resfnllel)
+sx-[False fori in range()]
+je
+fori in range(n.0.-1):# 此 次 应 从 大 到 小 否则 出 错
+ifres[ilfi>res[-H[
+Xi-1]-True
+Jwli-1]
+«

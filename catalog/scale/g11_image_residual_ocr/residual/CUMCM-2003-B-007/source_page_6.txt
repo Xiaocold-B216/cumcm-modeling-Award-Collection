@@ -1,0 +1,43 @@
+ES
+EliAl
+EY
+2
+mEEsE
+68 工程 数 学 学 报 第 20 着 并
+ae
+54054 吨 ; 卡 车 数量 为 20 辆 。
+类 似 于 问题 1 ,采用 贪心 算法 ,并且 考 虑 转移 时 间 差 , 求 出 安排 如 表 2:
+表 2 问题 2 一 班次 的 运输 方案
+本 玫 本 天 区 油 蝶
+40)18
+3
+104o10( 4»37a4
+p ese fi) 0 | 0 | 0 fwe
+T0 w o [e] 0  magam
+4 23(7)500) 19。9 7) N7
+4400D) (5) 7(6) _ \ SN
+27 is
+| 一
+学 J
+6 模型 的 评价 与 改进
+本 文 对 建立 的 两 个 基本 模型 逐步 简化 求解 ,将 多 本 要 目标 法 转化 为 单 目
+标 规划 , 非 线性 规划 转化 为 线性 规划 ,利用 SAS 软 f 的 歼 数 规划 求解 ,模型 简单 ,适用 性 强 ，
+容易 编程 实现 求解 ,并 且 能 够 很 好 的 解决 问题 的 整 痢 约束 。 由 于 模型 的 简单 化 ,就 避免 不 了
+很 多 的 重复 操作 ,将 原 问 题 分 成 120 个 简单 的 整数 规划 的 子 问题 ,为 了 求 得 最 优 解 ,必须 痪
+历 这 120 个 问题 , 求 出 各 个 子 问题 的 最 优 解 ,再 进行 比较 ,时 间 开销 很 大 ;但 是 ,在 求解 过 程
+中 ,我们 发 现 很 多 情况 其 实 是 不 符 食用 求 移 , 这 和 可 以 将 那些 对 产量 上 限 很 不 敏感 的 匀 点 不
+耶 考 虑 ,作出 适当 的 简化 。 AAA
+参考 文献 ; N 二
+_—
+[1] 0 avlity 长 春 , 吉林 教育 出 版 社 ,1992
+[2] f#R&. 0 速成 [M] , 北京 , 科学 出 版 社 ，1998
+[3] KK [M]. 北京 : 电子 工业 出 版 社 ,2001
+洽 Truck Arrangement for an Opencast Iron Mine
+DING Yu-liang, HU Hai-lin, GUO Li-jun
+Advisor: L1 Xin-xiu
+(Nanjing University of Posts and Telecommunications, Nanjing,210003)
+Abstract: In this paper, we study the optimization problem of the truck arrangement for an opencast iron mine.
+We use the primary — object method to transform the multi - object optimization problem to a single 一 object opti-
+mization problem. Based on the primary object (the total transportation load) we setup a minimal transportation
+load function. and use the secondary object as a regulation. then we simplify the cost function, and transform the
+non 一 linear programming problem to the linear programming problem. (下 转 114 页 )

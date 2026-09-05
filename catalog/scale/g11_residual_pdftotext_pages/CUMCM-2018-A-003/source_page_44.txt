@@ -1,0 +1,74 @@
+-
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+type[next_pos]*B[next_pos]*put_down - rep[next_pos];
+hold_CNC[next_pos] = hold_RGV;
+it[ hold_RGV ].intime2 = time - type[next_pos]*B[next_pos]*put_down
+rep[next_pos];
+it[ hold_RGV ].CNC2 = next_pos;
+hold_RGV = 0;
+}
+else{
+//在 CNN1
+if(type[next_pos] == 0){
+if(B[next_pos] == 1){
+hold_RGV = hold_CNC[next_pos];
+hold_CNC[next_pos] = 0;
+it[hold_RGV].outtime1 = time - rep[next_pos];
+}
+//不管内部有无半熟品，都会产生新的:
+numit++;
+hold_CNC[next_pos] = numit;
+it[numit].CNC1 = next_pos;
+it[numit].intime1 = time - rep[next_pos];
+}
+else{
+//对于 CNC2，仅仅拿下来做清洗
+it[
+hold_CNC[next_pos]
+].outtime2
+=
+time
+type[next_pos]*B[next_pos]*put_down - rep[next_pos];
+hold_CNC[next_pos] = 0;
+}
+}
+display();
+num+= B[next_pos]*type[next_pos];
+pos = next_pos;//小车到达
+t_full = full;
+full = B[next_pos] * not(type[next_pos]);//若 CNC1 有半孰料
+if(type[next_pos] == 0) B[next_pos] = 1;//CNC1 类型都会变为有加工产品
+else B[next_pos] = t_full; //经过 CNC1 装半数料后哦
+for(int j=1;j<9;j++) cout<<B[j] <<" ";
+cout<<endl;
+ifbreak(next_pos,time);
+begin = 1;
+cout<<full<<endl;
+}
+else{
+time++;
+for(int i=1;i<9;i++){
+44
+
+-
+
+

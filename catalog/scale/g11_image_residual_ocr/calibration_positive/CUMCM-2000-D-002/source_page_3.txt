@@ -1,0 +1,31 @@
+说
+和
+ik
+第 31 卷 第 1 期 数学 的 实践 与 认识 Vol.31 NO
+2001 年 1 月 MATHEMATJCS N PRACTICE AND THEORY Jan lm
+The Prohlem on Surveying of the Vacant
+Holes and the RelevantMatters
+GUAN Xin， HAN Jie-ping
+(Northeastern Electric Pow er Institute, Jilin 132012) 4
+o
+o SB
+Abstract  In this paper the background, model, algorithm and some comments in 本 of
+the probem D in the CUM CM 2000 are introduced smply
+一 一 一 一 站 一 一 SSN
+简讯 RS
+第 七 届 全 国 数学 奸 模 孝 学 与 应 用 会 议论 文集
+将 在 用 今年 第 5 期 发 表
+第 七 届 全 国 数学 建 模 教学 | 三 会 于 2000 年 8 月 17 日 至 20 日 在 郑州 举行 ,来 自 全 国 27 省 (市 、 自
+治 区 )205 所 院 校 的 代表 283 ER 议 这 次 会 议 是 在 教育 部 高 教 司 和 中 国 工 业 与 应 用 数学 学 会 的 领导
+下 , 由 全 国 大 学 生 数 学 建 模 藩 赛 组 委 会 和 中 国 工业 与 应 用 数学 学 会 数学 模型 专业 委员 会 组 织 由 中 国人 民
+和 仆人
+这 次 会 议题 198gj 年 第 一 届 会 议 以 来 出 席 人 数 最 多 的 一 次 , 特别 是 30 岁 左右 的 年 轻 人 占 大 部 分 , 而 且
+第 一 次 f SAign. 充分 显示 出 我 国 从事 数 学 建 模 教学 与 应 用 的 队伍 在 不 断 壮大
+SN 1989 所 别 是 1994 年 以 来 , 在 教育 部 的 领导 和 指导 下 , 我 国 数学 建 模 教 学 与 应 用 活动 取得 很 大
+和 现在 : 参加 过 国内 外 数学 建 模 竞赛 的 大 学 生 超 过 四 万 人 , 通过 赛 前 准备 竞赛 三 天 的 拼搏 和 赛
+V Rhon 个 阶段 的 努力 , 他 们 的 能 力 普 遍 获 得 很 大 提高 ; 培养 出 一 大 批 年 轻 教 师 ; 推动 了 数学 教学 改革 ; 推
+动 网 j 学 生 数学 知识 应 用 活动 ; 为 进一步 发 展 我 国 的 应 用 数学 事业 提出 了 许多 值得 思考 的 问题 这 次 会 议
+也 是 为 明年 将 在 我 国 召开 的 第 十 届 国 际 数学 建 模 教 学 与 应 用 会 议 作 准备
+四 天 的 会 议 安排 了 多 项 大 会 报告 和 分 组 报告 这 些 报告 经 整理 后 将 以 论文 形式 在 本 刊 2001 年 第 5 期
+发 表 分 为 “数学 建 模 与 数学 教育 ^“ 数学 建 模 教学 与 竞赛 ”“ 数学 建 模 应 用 ““ 数学 建 模 方法 "等 专栏
+3

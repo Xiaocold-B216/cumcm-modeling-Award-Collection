@@ -1,0 +1,71 @@
+boxCon');
+% fastprint( 图 片 /prob1. 结 果 .3D 最 优 挑 物 面 高 低 差 ( 径 向 高 度 )》;
+end
+function illu2d(Lf angle300) % 横向 剖面 最 优 示意 图
+
+font_opts = frVerticalAlignment, 'middle’, ‘Horizontal Alignment’ ‘center', "FontSize’,
+13, Tnterpreter’, latex’};
+
+elfreset’);
+
+hold on
+
+[spher_rad, focal_rad angle] = Constant.get_rad_angle();
+
+P_S =inup_S:
+
+PP= IO -focal_rad]:
+
+_Q =[0-focal_rad-0.5Lf];
+
+P_T=[0-focal_rad-Lf];
+
+holdCon'):.
+
+% 基准 圆 弧
+
+plot(-spher radscos(angle)-spher radsin(angle) ', LineWidih', 2);
+
+% 焦 面 圆 弧
+
+plot(-focal_rad*cos(angle),-focal_rad*sin(angle), K', LineWiddh', 2);
+
+% 标记 定点
+
+plot(p_S(1), p_S(2).*K., MarkerSize, 14LineWidth, 2);
+
+Plot(p.P(1), p_P2)"K, "MarkerSize', 22, "LineWidth', 2);
+
+Plot(p_Q(1), p_ Q(2)."K' MarkerSize', 22, "LineWidth', 2).
+
+plot(p.T(1), p_T(2),"K. MarkerSize’, 22, LineWidtl', 2);
+
+Plot(0.0,:K, MarkerSize’, 22, LineWidth, 2);
+
+text(p_S(1)+20, p_S(2), "boldmathSSS. font_opts{:});
+
+text(p_P(1)+15. p_P(2)+18, "boldmathSPS' font_opts{:});
+
+fext(p_Q(1)+15., p_Q(2)*18, "boldmath$SQS. font_opts{:}):
+
+text(p_T(1)-18, p_T(2)+18, "boldmathSTS, font_opts{:}):
+
+1€x1(0+20, 0, "boldmathSCS, font_opts{:}):
+
+% SCPQT 中 轩 线
+
+plot(fp SG) P_TCDT [p_S(2). p_T)}K:, LineWiddh', 2);
+
+% 淮 线
+
+Plot(p_T(1)+[-300 300], p_T(2)+[0 0], "K’ "LineWidth', 2);
+
+plot(p_T(1)+[0 30 30], p_T(2)+[30 30 0], "K’, LineWidth, 2 %  2
+
+% 计算 抛物 线
+
+Lw = Polarpara(Lf angle);
+
+1.300 = Polarpara(L; angle300);
+
+35

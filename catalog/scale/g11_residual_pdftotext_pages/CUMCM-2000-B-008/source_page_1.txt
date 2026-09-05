@@ -1,0 +1,88 @@
+第 31 卷第 1 期
+数学的实践与认识
+V o l131 N o 11
+2001 年 1 月
+J an. 2001
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+d istance netw o rk to a supp ly 2dem and tran spo rta tion p rice tab le. B a sed on th is, w e con structed
+th ree m odels: the linea r 2co st 2netw o rk 2flow m odel, the develop ed linea r 2co st 2netw o rk 2flow
+m odel and the non 2linea r2co st 2netw o rk 2flow m odel. B y generlizing the trad itiona l m in im um 2
+co st 2m ax im um 2flow a lgo rithm , w e so lved the non 2linea r 2co st 2netw o rk 2flow m odel. W e a lso
+gave the tru th p roving and the com p lex ity2ana lysis to ou r a lgo rithm.
+
+成都 610064)
+
+研
+
+( 四川大学,
+
+交
+
+陆维新, 林 皓, 陈晓东
+指导老师: 周 杰
+
+流
+
+订购和运输钢管的最优方案
+
+编者按:
+
+该文建立了用于天燃气管道铺设的钢管订购和运输总费用最省的二次规划模型. 总费用作为目
+
+：
+科
+
+标函数, 钢管生产厂的产量限制等作为约束条件. 所建模型通过定性分析与使用L ingo 软件求解获得了满
+意的方案, 并且计算量大大减少了. 整篇文章理由描述充分, 层次清楚, 洞察力强而篇幅较短.
+
+摘要:
+
+本文研究铺设天燃气钢管的最优方案问题. 我们建立了一个以总费用为目标函数的二次规划模型.
+
+问题的重述与分析 ( 略)
+
+2
+
+模型的假设与符号说明
+
+公
+众
+
+1) 基本假设:
+
+号
+
+1
+
+①要铺设的管道侧有公路, 可运送所需钢管;
+②钢管在运输中由铁路运转为公路运时不计换车费用;
+③所需钢管均由 S i ( i= 1, …, 7) 钢厂提供;
+
+信
+
+④假设运送的钢管路途中没有损耗.
+2) 符号说明 ( i= 1, 2, …, 7, j = 1, 2, …, 15) :
+
+s i: 钢厂 S i 的最大生产能力;
+
+微
+
+p i: 钢厂 S i 的出厂钢管单位价格 ( 单位: 万元) ;
+d : 公路上一单位钢管的每公里运费 (d = 0. 1 万元) ;
+e : 铁路上一单位钢管的运费 ( 分段函数见表 1) ;
+c ij : 1 单位钢管从钢厂 S i 运到 A j 的最小费用 ( 单位: 万元) ;
+bj : 从 A j 到 A j + 1 之间的距离 ( 单位: 千米) ;
+x ij : 钢厂 S i 运到 A j 的钢管数;
+y j : 运到 A j 地的钢管向左铺设的数目;
+z j : 运到 A j 地的钢管向右铺设的数目;
+t i: =
+
+1,
+0,
+
+钢厂 S i 提供钢管
+
+;
+钢厂 S i 不提供钢管
+
+

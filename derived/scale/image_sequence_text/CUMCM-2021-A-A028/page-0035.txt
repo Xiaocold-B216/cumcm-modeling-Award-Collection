@@ -1,0 +1,34 @@
+0
+到
+2
+Ra
+Receive = zeros(length(Group_plus),1),
+pri
+全 gag 二
+Race Sieotiekioe ie
+S_Projeet = zeros(length(Group_plus),1);
+VI1 = zeros(length(Group_plus),3);
+V2 = zeroslength(Group_plus)3);
+V3 = zeros(length(Group_plus),3);
+fori= 1:length(Group_plus)
+P=Group_Data(3%-2,1:3);
+Q=Group_Data(3%-1,1:3),
+T=Group_Data(3%-0,1:3);
+[S_Project(i),V1(i,)).V2(i,)J V3(i,))] = ProjectArea(PQ.T)
+-
+S_All = sum(S_Project),
+R E
+和
+‘plot3 (Position(: 2)Position(:,3) Position(;4).r)
+te
+Eriaan
+POB(VIC1)VIG2)VIC3)D)
+ioaCv2C.DV2C.2)V2C.3Xb
+BoatacINGG2VaC3Mp9
+RE
+non Co 有
+% 蒙 特 卡 治
+function [Receive,S_wp,S] = Monte_Carlo(Group_Data,Group_plus,n)
+N = [-49.3194000000000 -36.8890000000000 -294018700000000];
+%N =Datal(132,).%/EMLRER
+O = (1-0.466)*N;*s{f BaftA b.

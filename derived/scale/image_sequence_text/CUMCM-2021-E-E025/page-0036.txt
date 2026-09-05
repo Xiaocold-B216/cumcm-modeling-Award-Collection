@@ -1,0 +1,42 @@
+MLP .fitCX, Y)
+pred=MLP .predict(dataa)
+搬 稻 和 抽 乔 开放 了 间 题 4， 昌 包 同 问题 2
+并 读 入 原始 数据
+data_4=Ppd.read_excel( 附 件 4xlsx)
+data = pd.DataFrame()
+for iin range(L-1):
+tem_data =pd.DataFrame([mean_list[i], std_list[i], quantile low_list[i], quantile mid list[i],
+quantile_high list[i], sk_list[i], k_list[i]],
+index=['mean_'+str(i), 'std "+str(i), 'quantile_low_'"+str(1),
+'quantile_mid_'+str(i),
+'quantile_high '+str(i), 'sk_'+str(i), k_'+str(@)])
+data = pd.concat([data, tem_data])
+data = pd.DataFrame(data.values.T, index=data.columns, columns=data.index)
+#data['OP'] = data_2['OP']
+data.to_excel(YUCE_feature 100.xlsx', encoding='ANSI')
+HHFHERREL
+def extract_feature(data, w):
+mean_list=[ # 均值
+std list=[] # 标准 差
+quantile_low list=1[] # 下 四 分 位
+quantile mid list=[] # fi%k
+quantile_high list=[] # 上 四 分 位
+sk list=[] # 偏 度
+k list=[] # U&gpE
+L = math.ceil(data.shape[1] / w) + 1
+data = data.reset_index(drop=True)
+for iin range(1,L):
+if i==L):
+tem_data = data.iloc[s, 3 +w * (i- 1):] # 提取 数据
+mean_list.append(np.mean(tem_data, axis=1)) # 均值
+std_list.append(np.std(tem_data, axis=1)) # 标准 差
+quantile_low_list.append(np.quantile(tem_data, 0.75, axis=1)) # 下 四 分 位 数
+quantile_mid_list.append(np.quantile(tem_data, 0.5, axis=1)) # 中 位 数
+quantile_high_list.append(np.quantile(tem_data, 0.25, axis=1)) # 上 四 分 位 数
+sk_list.append(st.skew(tem_data, axis=1)) # 计算 偏 度
+k_list.append(st.kurtosis(tem_data, axis=1)) 共计 算 峰 度
+else:
+tem_data = data.iloc[s, 3+w * (i- 1): 3+w *i] 基 提 取 数 据
+mean_list.append(np.mean(tem_data, axis=1)) # 均值
+std_list.append(np.std(tem_data, axis=1)) # 标准 差
+35

@@ -1,0 +1,87 @@
+aobal v_s2_previaus, v_c2_previous
+
+有 obal Ctrans, C_store
+
+def erron_pred(z, type )
+
+rr le-4
+
+phenf:，xnum_of 让
+
+ae = phen[: mum_of 3
+
+errora 。 error_pred(z_3, 'A')
+
+errorc = error_pred(z_c 'C)
+
+wa (za yerrora) /8.6
+
+We = (ze yerrerc) 18.72
+
+op-hstack([xay xc)
+
+constraint 4
+
+ac = (2.82。 ed 1 1 8 (2.82 * le4 * 1/
+
+constraint 2 ~
+
+ea va E1.6 + xa.sum(axtset)
+
+We ds
+
+Ta somlaxds-)
+
+ea -camlads-) a
+
++ -ctrans xsmlaxs) :cstoev waitvel 下
+
+和 reshape(- 1) .
+
+o constratnt 1
+
+ma =- mp.abst(v_az / 8.6 + V_c2 /8.72) = (V_a2_previous / 8.6 + V_c2_previous / .72))
+
+ma = cmareshape(-1 1)
+
+retum [fj Vaz_, ci
+def run_algordtha(V_a list ve list weak:
+
+ea
+
+上 lobal V_o2_previous_1iat, V_c2_previous_list
+
+有 obal C_trans，c_store
+
+aa_previous V_c2_previous - vaa_previous lstfweekci - 1], V_c2_previous_Mse(ueck_1 -
+了
+
+eaeennnnenneennnnennvennnnr 殉 给 设 时 ceonsonnennnsnnnnnnnnennnnnnrn
+
+tol_nan = num_of_a + num_of <
+
+2.a -Bet_range_list('A'，week_i) & B—i ANERTME
+
+De -Bet_range SE('C', week 1) # B—ENERTH
+
+日 。 [Il 11] 。 tol_nam # B—TERERUR, 1EFLFHBOLN, OERTEE
+
+= 0 vtol_nom
+
+ranges = mp.vstack([2_3, z_c]).T # 生成 交 重 的 东 轩 乱 孟 ， 全 得 第 一 行为 所 有 半 提 变量 的 下 界 ， 第 二 和
+为 上 办
+
+borders = np.vstack(8).1 。  ERLIEH
+
+VarTypes « np,array(D) + 读 提 变量 的 类 型，6 表 示 过 续 ，1 表 示 离 做
+
+eenrrnnrnnnnnrrrcercercrr 扫 色 体 细 设置 -earrerrnnnnnnnarv
+
+Encodtng =,B6， # 86G* 表 示 采 用 二 过 制 / 格 守 纺 码
+
+codes = [8，] 。tol_nug *# 决 复 变 的 名 方 式 ， 设 置 两 个 9 表示 两 个 凑 撮 变量 均 使 用 二 进 制 扩 码
+
+prectsions « [5，] ”tol_num & 半 复 变 量 的 色情 度 ， 表 示 二 进 宙 全 友 市 角 玛 后 能 表示 的 泊 所 变量 的 精度 可
+过 到 小 后 6 人
+
+scates = [e，] 。tol_num 9 表示 采用 算术 贡 度 ，1 表示 采 用 对 数 刘 度

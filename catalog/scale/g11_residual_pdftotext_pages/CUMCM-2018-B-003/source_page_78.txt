@@ -1,0 +1,65 @@
+MM(i,2)=NaN;
+MM(i,3)=NaN;
+end
+end
+TMT=m-m1;
+end
+
+交
+：
+科
+
+众
+
+%CNC 预计加工完成时间
+b=zeros(1,8);
+
+号
+
+%RGV 当前时间
+t0=0;
+%RGV 当前位置[1,2,3,4]
+a=1;
+
+研
+
+dT=[0,T(1:3)];
+P=8*T(4)/(T(4)+T(5));
+%固定刀具
+D=[1,2,1,2,1,2,1,2];
+
+流
+
+附录十九：f303.m
+function [m,m1,TMT,GZ] = f303( )
+%第一组作业参数
+%1 T=[20,33,46,400,378,28,31,25];
+%第二组作业参数
+%2 T=[23,41,59,280,500,30,35,30];
+%第三组作业参数
+T=[18,32,46,455,182,27,32,25];
+
+信
+
+公
+
+%初始路径选择
+start=[ones(6,1),perms([2,3,4])];
+
+微
+
+%初始路径
+newstart=start';
+newstart=newstart(:);
+for i=1:24
+if newstart(i,1)==1
+newstart(i,2)=0;
+newstart(i,3)=newstart(i,2)+T(6)+T(4);
+newstart(i,4)=2*(newstart(i,1)-1)+1;
+else
+d=dT(abs(newstart(i)-newstart(i-1))+1);
+newstart(i,2)=newstart(i-1,2)+T(6)+d;
+newstart(i,3)=newstart(i,2)+T(6)+T(4);
+78
+
+

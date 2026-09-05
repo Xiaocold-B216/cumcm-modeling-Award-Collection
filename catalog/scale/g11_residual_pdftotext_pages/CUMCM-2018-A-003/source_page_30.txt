@@ -1,0 +1,70 @@
+if(k==1 && type[i]==type[j])
+
+L[k][i][j]=inf;
+
+}
+}
+}
+full = 0,t_full=0;//0 表示当前为空车
+for(int i=1;i<9;i++){
+S[i] = 0;//加工剩余时间
+B[i] = 0;//是否有孰料
+T[i] = 0;//当前状态到达其他 CNC 加工台的代价
+}
+num = 0;//成品数量
+
+：
+科
+
+研
+
+交
+
+流
+
+}
+void print(){
+for(int k=0;k<2;k++){
+for(int i=1;i<9;i++){
+for(int j=1;j<9;j++){
+cout<<L[k][i][j]<<" ";
+}
+cout<<endl;
+}
+cout<<endl<<endl;
+}
+}
+
+众
+
+号
+
+下面根据之前选择好的最优布局，我们进行蒙特卡洛学习算法，试试机器能不能找到更优的
+解。
+
+微
+
+信
+
+公
+
+#include<iostream>
+#include<cmath>
+#include<ctime>
+#include<stdlib.h>
+#define inf 5000//无穷大
+using namespace std;
+int ons = 18, tws = 32, ths = 46;
+int pro[2] = {455,182};//加工时间,CNC1=455,CNC2=182
+int rep[9] = {0,27,32,27,32,27,32,27,32};
+bool type[9] = {0, 1, 0, 1, 0, 1, 0, 0, 0 }; //{0, 1,1,1, 2,1,2,1,2 };
+int put_down = 25;
+int L[2][9][9] = {0};
+int endtime1[9][100]={0}; //记录时间
+int endtime2[9][200]={0};
+int numm1[9]={0};
+int numm2[9]={0};
+
+30
+
+

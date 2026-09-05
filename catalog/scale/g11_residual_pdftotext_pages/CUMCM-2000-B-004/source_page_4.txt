@@ -1,0 +1,160 @@
+数
+
+66
+7
+
+m in
+
+Λ
+
+15
+
+∑∑c y + 2
+ij
+
+学
+
+ij
+
+i= 1 j = 1
+
+的
+
+∑
+
+实
+
+践
+
+与
+
+认
+
+识
+
+31 卷
+
+[ z ij ( z ij - 1) + (w i, j - z ij ) (w i, j - z ij - 1) ]
+
+(A i , A j ) ∈E ( T )
+
+21
+
+500x i Φ
+
+∑y Φ s x ,
+ij
+
+i
+
+j = 1, 2, …, 7
+
+i
+
+j= 1
+
+7
+
+21
+
+∑∑y = 5903
+ij
+
+i= 1 j = 1
+
+7
+
+当 d (A j ) > 1 时, ∑y ij =
+i= 1
+
+∑
+
+z jk + (w h , j -
+
+z h j ) , 其中 (A h , A j ) ∈ E ( T )
+
+(A j , A k ) ∈E ( T )
+
+7
+
+(B ) s. t
+
+i= 1
+
+7
+
+i= 1
+
+(A i , A j ) ∈ E ( T )
+i = 1, 2, …, 7
+i = 1, 2, …, 7; j = 1, 2, …, 21
+
+研
+
+0 Φ z ij Φ w i, j ,
+x i = 0, 1,
+y ij Ε 0,
+
+交
+
+当 d - (A j ) = 0 时, ∑y ij = z jk , 其中 (A j , A k ) ∈ E ( T )
+
+流
+
+当 d + (A j ) = 0 时, ∑y j 1 = w k , j - z k j , 其中 (A k , A j ) ∈ E ( T )
+
+：
+科
+
+参考文献:
+甘应爱, 田丰等著 1 运筹学 1 清华大学出版社, 北京, 1994.
+
+[2]
+
+袁亚湘, 孙文瑜著 1 最优化理论与方法 1 科学出版社, 北京, 1997.
+
+[3]
+
+徐俊明著 1 图论及其应用 1 中国科学技术大学出版社, 合肥, 1997.
+
+号
+
+[1]
+
+The Stra tegy of O rder ing and Tran sporting Steel Tubes
+
+公
+众
+
+DU AN X iao 2jun,
+
+YU Chang 2sheng,
+
+(N o rthw estern Po lytechn ica l U n iversity, X i′
+an
+
+Abstract:
+
+W U J ian 2de
+710072)
+
+In the ca se the p ip elines a re in line 2shap e, w e p rovide a non linea r p rog ramm ing
+
+信
+
+m odel fo r the p rob lem. Since there a re no t too m uch va riab les, m o st of the con stra in ts a re
+linea r, and the goa l function is quad ra tic, one can get sa tisfacto ry stra teg ies qu ick ly by u sing
+
+微
+
+the softw a re L ingo. W ith the softw a re M a tlab, fo r each p lan t w e get the cu rve tha t reflects the
+influence of the va ria tion of its′steel tubes′p rice to the to ta l co st. Com p a ring these cu rves, w e
+
+determ ine fo r w h ich p lan t, the va ria tion of its′steel tubes′
+p rice ha s the seriou s influence to the
+to ta l co st. A s to the influences of the va ria tion s of the upp er bound of the ou tp u t of the steel
+tube to the to ta l co st and the stra tegy of o rdering and tran spo rting, w e trea t the p rob lem in a
+sim ila r w ay. In the ca se the m a in p ip elines a re in tree 2shap e, w e a ssign a d irection to each edge
+of the tree and estab lish a m odel sim ila r to the m odel in the line 2shap e ca se.
+
+

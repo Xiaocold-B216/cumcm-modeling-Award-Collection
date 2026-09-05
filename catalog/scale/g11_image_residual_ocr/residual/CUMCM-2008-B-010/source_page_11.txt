@@ -1,0 +1,25 @@
+中
+u 7
+全 和 间
+定义 学 习 的 目标 函数 为 : ( 均 方差 法 )
+J= 21(d 一 yD)” = :Zi ei
+同时 BP 算法 通过 下 列 公式 来 调整 权 值 ， 使 目标 函数 最 小 ;最速 下 降 法 )
+w(ttD=w(D-Y 允 其 中 ，Y 为 学 习 率 ，
+具体 分 析 每 一 层 神经 网 络 ， 可 以 得 到 次
+二 SS
+wPtrD=wiPOY 了 2
+ij H~
+wetrD= wmY 取 任
+J
+基于 以 下 公式 f / 含 差 逐 雌 屎 传 : X
+一 jayelaott in{;
+P  orou am oul?
+avm [MU 加 号 ao oinf®
+aw® = Tiz a) 化 和 了 CD) Hin® aw®
+1 ) 了 了
+TS _
+基于 BP 的 神经 网 络 分 析 模 ti 上 丽 训练 过 程 可 用 如 下 流程 图 表示 : 这 里 我 们 设 定 要 求
+误差 为 se= 105 ~ > |
+区
+就
+11

@@ -1,0 +1,18 @@
+82 模型 的 缺点
+对 于 问题 4， 不 同 玻璃 类 型 的 化 学 成 分 之 间 的 关联 关系 ， 采 用 Pearson 相关 系数 。
+但 Pearson 相关 系数 只 能 度量 变量 之 间 的 线性 相关 关系 ， 在 使 用 之 前 未 进行 线性 相关 关
+系 检验 。
+83 模型 的 展望
+对 于 问题 2， 分 析 不 同 玻璃 之 间 的 分 类 规律 时 ， 由 于 两 种 类 型 玻璃 样本 量 不 是 很 接
+近 ,， 因此 后 续 可 以 考虑 不 平衡 样本 分 类 模型 ， 通 过 对 训练 集 样 本 重 采样 或 方法 修正 来 进
+去 分 类 。 对 于 问题 4， 考 虑 其 他 相关 系数 方法 来 度量 化 学 成 分 之 间 的 关联 关系 ， 例 如 灰
+色 关联 分 析 ， 最 大 距离 相关 系数 、 互 信息 等
+九 、 参 考 文献
+[1] 赵 志 强 , 新 疆 巴 里 坤 石子 沟 遗 直 群 出 土 玻璃 珠 的 成 分 体系 与 制作 工艺 研究 [D] 西
+北大 学 , 2016.
+(2] 安家 瑶 . 玻璃 器 史话 [M]. 北京 : 社会 科学 文献 出 版 社 , 2011: 7-11
+[3] Pawlowsky-Glahn V. Buccianti A. Compositional Data Analysis: Theory and Applica -
+tions [M]. Wiley 2011.
+[4] Pawlowsky-Glahn V, Egozeue J J, Tolosana-Delgado R. Modeling and Analysis of
+Compositional DatalM]. Wiley 2015.
+EPAS

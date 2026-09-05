@@ -1,0 +1,48 @@
+end
+if ~isempty(M)
+LM)=(];
+end
+if Q(1)==0
+O=[];
+else
+O=i;
+end
+if length(L)>3
+L=L(1:3);
+end
+eval(['a{',num2str(i),'}="'[L,0]']);
+end
+end
+%% 整理 打包 数据 并 画图
+% 打包 图
+for i=1:length(a)
+group_amount(i)=length(a{i});
+end
+for i=1:max(group_amount)
+eval(['Group',num2str(i),'=[]',";']);
+eval(['G',num2str(i),'=find(",'group_amount','==''1",");']);
+for j=1:eval(['length(G',num2str(i),")'])
+eval(['Group',num2str(i),'=,'[Group',num2str(i),",a{','G',num2str(i),'G)",'} 1.5']);
+if i>1
+plot(address_order(eval(['a{','G',num2str(i),'(j)",'}']),1),address_order(eval(['a{','G',nu
+m2str(i),'()','}']),2), LineWidth'4,...
+'Color',[159/255 158/255 156/255]);
+hold on
+end
+end
+end
+% 按 百分比 分 类 画 散 点 图
+fl=find(percent<=0.4);
+f2=find(((percent<=0.7)+(percent>0.4))==2);
+f3=find(0.7<percent);
+plot(address_order(f2,1),address_order(f2,2),'.",'Color',[79/255 129/255
+189/255],'MarkerSize',15)
+hold on
+plot(address_order(fl,1),address_order(f1,2),"",'Color',[155/255 187/255
+89/255],'MarkerSize',15)
+hold on
+plot(address_order(f3,1),address_order(f3,2),"",'Color',[192/255 80/255
+77/255], MarkerSize',15)
+hold on
+®w  ]
+36

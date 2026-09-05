@@ -1,0 +1,42 @@
+{
+  "description": "PDF Audit Schema for CUMCM Award Collection",
+  "created_at": "2026-08-19T13:27:41+08:00",
+  "schema_version": 1,
+  "machine_routing": {
+    "description": "Intermediate routing state",
+    "values": [
+      "NATIVE_TEXT_REVIEW",
+      "MIXED_TEXT_OCR_REVIEW",
+      "SCAN_VISUAL_REVIEW",
+      "IMAGE_VISUAL_REVIEW",
+      "ENCODING_REVIEW",
+      "OPEN_FAIL_REVIEW"
+    ]
+  },
+  "pdf_type": {
+    "values": [
+      "text_based",
+      "scanned",
+      "image_based",
+      "mixed"
+    ],
+    "source": "pdf-inspector classify_pdf",
+    "description": "Machine-detected PDF structure type"
+  },
+  "page_numbering": {
+    "base": 1,
+    "normalization": "All page references use 1-based indexing"
+  },
+  "created_by": "G4-00",
+  "quality_class": {
+    "description": "Project-level PDF quality grade (NOT directly mapped from pdf_type)",
+    "values": {
+      "Q0": "Excellent native PDF",
+      "Q2": "Clear scanned PDF",
+      "Q4": "Low-resolution PDF",
+      "Q1": "Normal usable PDF",
+      "Q3": "Scanned PDF with quality defects",
+      "Q5": "Severe defect / quarantine"
+    }
+  }
+}

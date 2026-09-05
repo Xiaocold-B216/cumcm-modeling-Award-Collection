@@ -1,0 +1,43 @@
+RE
+ob28200;
+baerostl 2
+Eub=MAXC
+而 -1
+四
+x=intlinprog(fintcon,-A,b, [111Ib,ub);
+ie
+ia
+ent
+ed
+seo
+Xe
+ie
+raarw
+x=intlinprog(fintcon,-A,5,,1, b,ubl;
+o;
+ra24
+Int 了
+nd
+aaa
+Xe
+end
+end
+enoorgg;
+[ET na| he 本 | 。 varpenm | ws[ wank |
+Eeeardosal
+Iadeconomiaalmat
+data=xlsread( 附 件 2 近 5 年 8 家 转运 商 的 相关 数据 xsx,1,B2:1G9
+=zerosla'240j)x=zerosl8,24jy=zerosl8,24);
+ora
+yj=datati
+124
+Horjal24
+ER
+YY
+wd
+id
+md
+ratio=y/10;
+ratio{ratio==0)=0.0324;
+ratolato<00011:0001;
+con-192，

@@ -1,0 +1,42 @@
+[Elkgis:
+Bet  T)
+第 30 卷 第 1 其 数学 的 实践 与 认识 Vol30 NO 加”
+2000 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan 2000 7
+即 : 当 出 环 率 小 于 11% 时 , 每 年 100 万 元 是 够 用 的 ; 当 出 古 率 为 11% 时 , 年 度 最 低 经 费 为
+100 404 万 元 !
+Ss 模型 的 分 析 与 评价
+此 模型 首先 确定 了 总 费用 对 出 奈 率 和 堆 数 的 函数 关系 , 通过 三 维 图 形 的 比较 确定 了 最
+优 推 积 煤 古 石 的 堆 数 和 征地 方式 此 模型 经 过 多 次 选择 , 最 优 方案 的 准确 性 较 高 , 计算 较 简
+单 , 较为 完满 地 解决 了 原始 问题 ; 缺点 是 实际 中 存 贷款 利率 并 不 相等 , 地 价 的 增长 率 , 出 在 率
+] 下 p 小 土 二 RD 坏 强 | ez “
+也 并 非 恒定 , 此 模型 未 将 这 些 因素 考 虑 进去 , 在 实际 应 用 中 会 受到 一 定 的 限制 从 >》
+一
+参考 文献 = W
+人 /一
+[1] 姜 启 源 . 数学 模型 (第 二 版 ). 高 等 教育 出 版 社 , 北京 , 1993
+[2] 张萌 华 .M athematica 符号 计算 系统 实用 教程 . 中 国 科学 技术 大 学 册 版 社 ZJE, 1998)
+[3] 同济 大 学 数学 教研 室 . 高 等 数学 (第 四 版 ). 高 等 教育 出 版 社 , 北京 , 1996 XSA
+| Si
+MathematicalM odel of Wi Gangue
+1
+兴
+ZHAO Yirrong， CHEN Wel SUN Dong-jie
+(Uinei niversity) Gimen 361021)
+人
+Synopsis Thispaper discusses the SN iture of heap ing up gangue in coalfield and analyzes
+different land-purchase S the heap ing-up number, from which it comes to a conclusion as
+follow s The least os ded only in the case that all land are purchased once at the
+beginning of coal extract 村， that all the ganguemetals are piled in one heap. Also, for the
+different gangueprodiiction rate, a mathematial way of figuring out the total expenditure m en-
+toned above is gi t but not least, based on the different gangue production rate, a fomu-
+la 7 访 0 h? low est annual average expenditure is accordingly provided
+1K%
+3
+R 煤 夺 石 堆积 问题 的 解答 及 引出 的 思考
+贾 晓 峰 ， 唐 云 ”
+(1 太原 理工 大 学 应 用 数学 系 ， 太 原 030024)
+(2. 清华 大 学 数学 科学 系 ， 北 京 100084)
+摘要 :本文 首 先 给 出 煤 古 石 堆积 问题 的 参考 答案 , 其 次 介绍 学 生 答卷 中 由 于 对 出 环 率 及 征地 方式 的 理解
+不 同 而 导出 的 不 同 解答 , 最 后 从 学 生 答卷 中 发 现 到 的 缺点 和 错误 提出 一 些 在 数学 建 模 教学 中 值得 思考 的 问
+题 和 建议
+3 994-2 hin ademic Journal Electronic Publishing Hous ghts reserv http://www.cnki.n

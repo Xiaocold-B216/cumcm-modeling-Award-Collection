@@ -1,0 +1,62 @@
+132 ' I 程 数 学 学 # 第 22 卷 : |
+
+5 ”模型 的 评价 ，
+
+; 通过 用 “最 邻近 点 插值 法 ”及 “ 反 距 离 加 权 平 均 法 ”建立 两 种 预报 算法 模型 ， 对 观测 站 的 |
+
+降雨 量 进行 预报 ， 并 且 用 “预报 绝对 误差 平方 和 的 方 根 ”、“ 预 报 绝对 误差 的 期 望 ”及 “预报 : |
+
+绝对 误差 的 方差 ”三 项 指标 对 两 种 雨量 预报 准确 性 进行 了 评价 。 对 于 问题 二 ， 我 们 建立 了 公众 : |
+满意 度 函 数 ， 并 求 出 了 两 种 预报 方法 四 个 时 间 段 的 预报 的 公众 满意 度 ， 得 到 较 满意 的 结论 。 |
+
+我 们 所 用 的 两 种 算法 各 有 特点 。 其 中 “最 邻近 点 插值 法 ”算法 简单 直观 ， 计 算 量 小 ， 由 于
+
+进行 数据 处 理 时 用 到 的 数据 量 小 ， 只 用 了 2491 个 预报 点 中 的 91 个 点 的 数据 ， 可 能 产生 较 大 的 误 |
+
+差 。 对 于 数据 量 大 ， 对 预测 精度 要 求 不 是 太 高 ， 预 报 值 随时 间 变 化 比较 快 时 ， 用 这 种 快速 算法
+
+: 不 失 为 一 种 有 意义 的 算法 。“ 反 距离 加 权 平 均 法 ”基本 避免 了 算法 1 的 缺点 ， 它 充分 考虑 了 观 |
+
+测 站 邻近 点 对 观测 站 预报 值 的 影响 。 同 时 ， 认 为 预报 点 对 观测 站 预报 值 的 影响 随 距离 增 大 而 减 ;
+
+: 小 。 由 于 数据 量 大 ， 计 算 速 度 比较 慢 ， 需 要 较 多 的 计算 时 间 。 ; |
+
+虽然 本 愿 第 一 种 算法 ， 即 “最 邻近 点 插值 法 ”， 得 出 的 结果 较 好 ， 但 这 是 具体 问题 的 特殊 |
+
+性 所 造成 的 《因为 从 地 理 知识 可 知 ， 被 预报 位 置 在 为 江苏 、 上 海 、 浙 江 的 沿海 城市 ， 这 些 位 1
+
+置 夏季 降雨 量 极 不 均匀 ， 在 这 种 情况 下 ， 最 邻近 点 插值 法 效果 较 好 ) 。 通 常 算法 2 会 得 出 比 算 ; |
+
+‘ 法 1 更 合理 的 结果 ， 对 于 更 一 般 的 情况 ， 算 法 2 更 有 效 。 :
+
+: 参考 文献 ; | |
+
+， [1] 姜 启 源 , 数学 模型 (第 二 版 )[M]. 北京 ， 高 等 教育 出 版 社 ，1993,8 { |
+
+[2) 赵 静 ， 但 琦 . 数学 建 模 与 数学 实验 [M]. 北京 ， 高 等 教育 出 版 社 ， 施 普 林 格 出 版 社 ，2000,it !
+
+: (3] 盛 骤 等 . 概率 论 与 数理 统计 [M], 北京 ,高 等 教育 出 版 社 ，2001,12 |
+
+: [4] 李 丽 ， 王 振 令 , MATLAB 工 程 计算 及 应 用 [M], 北京 ; 人 民 邮 电 出 版 社 ，2001,9 |
+
+- The Evaluation Model of the Rainfall Forecast Method |
+
+WU Li-bing， LEI Zhong-bo， WANG Cnui :
+
+Advisor: ZHOU Guo-peng |
+
+; (Xianning College, HuBei Xianning 437005) |
+
+。 Abstract: Two rainfall forecast models, “nearest point interpolation method”and “anti-distance weighted { |
+
+average method” , were proposed in this paper. And the rainfall forecasts of the observation stations were § ,
+
+: given. Three indices were used to evaluate the given rainfall forecast methods, The satisfiable degree function : 1
+
+Was Presented to evaluate to personnel satisfied degree. As a result, the satisfiable degree values of the given 7 i
+
+! methods were also greater than 95%. 1 |
+
+Keywords: nearest point interpolation method; anti-distance weighted average method; satisfiable degree : ，
+
+function :

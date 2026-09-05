@@ -1,0 +1,40 @@
+Eliid
+- u 出
+EeE
+G=[];
+for i=1:20
+[m(i),m1(3i), TMT(i),GZ] = £304( );
+G=[G;GZ];
+clear GZ
+end
+A=[TMT;ml];
+A=A'
+B(1)=A(1,2);
+for i=2:20 %
+B(i)=B(i-1)+A(,2); 一 NY
+end MX 全 \)
+[mm,nn]=size(G);
+C=zeros(1,mm);
+CB)=1; As
+G=[G,CT; X
+D=zeros(19,5);
+for i=1:19
+D(i,1)=i+1; 0
+end $O, O
+fori=1:19 A
+[mm,nn]=size(G);
+EDWoagm
+B=B+1; 一
+en
+ceoogja| V
+7
+G(:,5)= J 下 4
+ZM3fim SntA 2.D)mean(A(:,2))];
+ZMM=std(A,0,1);
+A=[A;ZM;ZMM];
+附录 二 十 二 : f40l.m
+function m = f401( T )
+%RGV 当前 时 间
+10=0;
+%RGV 当前 位 置 [1.2.3,4]
+89

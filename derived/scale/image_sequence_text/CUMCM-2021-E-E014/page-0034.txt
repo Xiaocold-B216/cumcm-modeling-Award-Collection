@@ -1,0 +1,45 @@
+0 end
+S0.  plot(center(:,1),center(:,2), 'ke );
+名
+52. title( 56 处 理 后 进行 一 阶 导数 据 药材 分 类
+53. end
+50. -= zeros(size(Centert, 1),1);
+S5. for 11 = Lisize(Center1,1)
+S6. cc。 FAnd(FAG:,1)mCenter1(i1,1));
+ai = cc
+55. end
+55. a2 - zeros(size(Center2, 1),1);
+5o. for ii = Lsize(Center2,1)
+B1. cez = find(F4(:52)==Center2(iil,2))
+可。 评 length(cc2)--1
+B. aam) - cc2
+aase
+5 at) -cc20D5
+6 aaal -cc2(2)5
+end
+end
+56. az-unique(a2)ja2-[aziaaal]i
+70. 3 = zeros(size(Center3, 1),1);
+71. for 112 = 1:size(Center3,1)
+72. ca - find(FAG:,1)eCenter3(iiz, 1);
+ai 5
+74. end
+75. 34 = zeros (size(Centert,1),1);
+76. for ii =- 1:size(Centerd,1)
+77. cea = Hnd(FAG:, 1)=Ceontera(113,1);
+ai) -cc
+75. end
+50. a5 + zeros(size(Centers, 1),1);
+81. for 14 = 1:size(Centers,1)
+cs - FAnA(FAG,1)-Centers(114,1);
+53. as(ita) = ces;
+end
+55. 26 -zeros(size(F41) 5
+6. aa 。[alia2iaaia4ia5];
+57. aa = sort(as, 1, ‘descend’);
+55. for j = 1:length(an)
+ss.  as@a) "1
+50. end
+o1
+92. as1 ind(a6 mr 0);
+»

@@ -1,0 +1,43 @@
+回 成 革 动 国
+后
+0
+BRLLT]
+四
+Teturn Respond;
+}
+// 文件 输出 费用
+void OutPutCostCal (ofstream & fout,
+multimap<float, vector<int> > & FeasibleSolve)
+{
+multimap<float, vector<int> >::iterator iter;
+iter = FeasibleSolve.begin();
+全
+while ( iter != FeasibleSolve.end() ) “ <
+a
+CA \
+fout 《《“ 费 用 : 7 Ksetw(d) 《《 setfillC  ) « “有 一 的
+fout << ” 8” << setw(4) <<setfill(07) « We ;
+for (int i=1; i<iter->second.size(); i+=
+{ 全
+fout <<.” L” << setw(4) << setfil <<iter—»second[i];
+fout << ” §” KCsetw(4) << iter—>second[i+1];
+} [o]
+XIA 。
+fout << endl;
+iter ++;
+}
+} 一 一
+// 综合 处 理 时 间 ， 有 we 并 将 结果 分 别 存 入 文件 中 。
+void Time 06sUBusChangeTimes_Pro
+4
+int nStart, int nEnd, // 起 始点 和 目标
+vector<LoadMessage> & AllLines, // 所 有 路 线
+信息
+vector<vector<int> > & AllBuses, // 所 有 公 汽
+站 信息
+vector<vector<vector<int> > > &RoadCrossInfo /任意 两 路 线 的
+交叉 信息
+)
+{
+char char_1[20];
+26

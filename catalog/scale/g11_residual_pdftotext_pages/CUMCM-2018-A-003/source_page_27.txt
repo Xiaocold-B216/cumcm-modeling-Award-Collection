@@ -1,0 +1,83 @@
+：
+科
+
+研
+
+交
+
+流
+
+//
+if( S[i] < S[min_S_ind] && temp){
+//
+//if(full == 1 && type[i] == 1 || full == 0) //若车上有半熟料，则必须去 CNC2，
+空车则去等的最久的 CNC1 或 满 CNC2
+////
+if(type[i]&&B[i] || not(type[i]))
+////
+min_S_ind = i;
+//
+if(full == 1 && type[i]==1)
+//
+min_S_ind = i;
+//
+else if(full == 0){
+//
+if(type[i]&&B[i] || not(type[i]))
+//
+min_S_ind = i;
+//
+}
+//
+//
+}
+// }
+//
+// if(S[min_S_ind] < 0) return min_S_ind;
+// return min_T_ind;
+//
+//}
+
+微
+
+信
+
+公
+
+众
+
+号
+
+////优先原则
+//int min_index(int *T){
+// int temp[9];
+// int max_ind = 1;
+// int num = 9;
+//// cout<<"S: ";
+//// for(int i=1; i<num; i++ ){
+////
+cout<<S[i]<<" ";
+//// }
+//// cout<<endl<<"T: ";
+//// for(int i=1; i<num; i++ ){
+////
+cout<<T[i]<<" ";
+//// }
+//// cout<<endl<<"temp: ";
+// for(int i=1; i<num; i++ ){
+//
+//
+if(T[i] < inf)//确保 S<0,并且 T 是时间代价
+//
+temp[i] = (-S[i] + T[i]) / T[i];//等待时间越长，优先级越高； 代价越小，优先
+级越高。
+//
+else temp[i] = -1;
+////
+cout<<temp[i]<<" ";
+// }
+//
+// for(int i=1; i<num; i++ ){
+27
+
+

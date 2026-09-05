@@ -1,0 +1,113 @@
+案，是返回值
+vector<LoadMessage> & AllLines,
+
+// 所有路线
+
+vector<vector<int> > & AllBuses,
+
+// 所有公汽
+
+信息
+站信息
+vector<vector<vector<int> > > &RoadCrossInfo)
+
+// 任意两路线的
+
+交叉信息
+{
+bHaveFound = false;
+
+vector<int>
+
+FeasibleLine(6, 0);
+
+流
+
+bool
+
+int i, j, k;
+
+int nFirstLine
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+i = j = k = 0;
+
+= -1;
+
+= -1;
+
+bool IsDirectToBridge
+点
+
+= false;
+
+：
+科
+
+int nCurBridge
+
+研
+
+ww
+
+int nSecondLine = -1;
+
+bool IsBridgeDirectToDest = false;
+点
+
+号
+
+// 搜索相交的两条线路
+
+for (i=0; i<AllBuses[NSTART-1].size(); ++i)
+
+// 中转点是否能直达目标
+
+// 经过起始点的所有线路
+
+众
+
+{
+
+// 起始点是否能直达中转
+
+公
+
+nFirstLine = AllBuses[NSTART-1][i];
+
+for (j=0; j<AllBuses[NEND-1].size(); ++j)
+{
+
+// 经过终点的所有线路
+
+信
+
+nSecondLine = AllBuses[NEND-1][j];
+
+// 两路线的公有站点
+
+微
+
+int nLine1 = -1;
+int nLine2 = -1;
+
+if ( nFirstLine < nSecondLine )
+{
+nLine1 = nFirstLine;
+nLine2 = nSecondLine;
+}
+else
+{
+nLine2 = nFirstLine;
+
+33
+
+

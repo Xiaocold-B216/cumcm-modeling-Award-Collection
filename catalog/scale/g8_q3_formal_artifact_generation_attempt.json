@@ -1,0 +1,22 @@
+{
+  "stage": "G8-Q3-FORMAL-ARTIFACT-GENERATION",
+  "attempt_id": "20260903T071531890631_0e2ef355",
+  "status": "PASS",
+  "current_gate": "PHASE_3_FINAL_QA",
+  "source_batch_attempt_id": "20260902T181812821882_f3ed3664",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39",
+  "target_count": 128,
+  "completed_count": 128,
+  "failed_count": 0,
+  "staged_set_count": 128,
+  "staged_primary_artifact_count": 384,
+  "promoted_set_count": 128,
+  "formal_artifact_registry_updated": 1,
+  "q3_backlog_state_updated": 1,
+  "ocr_run": 0,
+  "pdf_render_run": 0,
+  "pdf_extraction_run": 0,
+  "body_reconstruction_run": 0,
+  "g9_run": 0,
+  "updated_at": "2026-09-03T07:15:40.899+00:00"
+}

@@ -1,0 +1,44 @@
+村
+if (a2. ys [4]==0)
+{
+for (;a2. ys[5]1=0&&a2. ys[6] !=0&&bw!=0;)//R S
+{
+if (z1%2==0)
+{
+z[z1++]=5;bw—;a2. ys[5]—;
+if (bw==0) break;
+z[z1++]=6;bw—;a2. ys[6]—;
+if (bw==0) break;
+} P
+else -从 >
+( AN
+z[z1++]=6;bw—;a2. ys [6] 一 ; 2XG
+if (bw==0) break; p 路
+z[z1++]=5;bw—;a2. ys[5]—; X
+if (bw==0) break; ADN
+} e
+X
+if (a2. ys[6]==0)
+{
+for (;a2. ys[5] !=0&&a2, ys[3]!=0&&bw!=0;) //R 棕
+2
+if (z1%2==0)
+(ATV
+++]=5;bw--;a2.ys[5] 一 ;
+w==0) break;
+= h 7 ++]=3;bw——;a2. ys[3]—;
+) V if (bw==0) break;
+2X else
+Yo
+人 z[z1++]=3;bw—;a2. ys[3]—;
+| /; if (bw==0) break;
+SA， z[z1++]=5;bw—;a2. ys[5]—;
+if (bw==0) break;
+}
+}
+}
+}
+else if(a2.ys[5]==0)
+{
+for (;a2.ys[4] !=0&&a2. ys[6] !=0&&bw!=0;)// 金 S
+55

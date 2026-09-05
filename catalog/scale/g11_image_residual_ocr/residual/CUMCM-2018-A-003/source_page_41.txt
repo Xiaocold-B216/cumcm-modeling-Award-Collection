@@ -1,0 +1,47 @@
+回味
+.
+int numit = 0;
+void init(){
+for(int k=0;k<2:k++){
+for(int i=1;i<9;i++){
+for(int j=1;j<95++){
+/计算 步 长
+LIqDD] = abs(G+1)/2 - (i+1)/2) ;
+if(L[Kk][i][j] == 1) LIK][i][j] = ons;
+else if(L[k][i][j] == 2) LIk][i][j] = tws;
+else if(L[K][i][j] == 3) L{K][i][j] = ths;
+/满载 时 不 能 去 到 相同 类 型 的 机 器
+ifk==-1&& typelil—type[i]))  LIK][i][j]=inf: “
+-从 >
+人
+) 2G
+一
+void print(){
+for(int k=0;k<2;k++){ 任
+for(int i=13i<9;i++){ S
+for(int j=1;j<95j++){ X
+cout<<L[K][i][j]<<" ";
+}
+cout<<endl; @
+) PP ©
+cout<<endl<<endl; %%
+}
+wu 旋
+void outcome(){ 一
+cout<<" 物 料 : es<endl; ¥
+for(int i=1;i<ntinit;i+=+) {
+cout camaaneen
+ra ttimel>0){
+Ronanereathaes
+1 {it[i].outtime2>0)
+cout<<it[i].outtime2;
+NA
+cout<<endl;
+}
+cout<<" 这 八 小 时 出 现 的 故障 有 : "<<endl;
+for(int i=0;i<error_times;i++){
+cout<<error[i].xuhao<<" "<<error[i]. NoCNC<<" "<<error[i].occ_time<<"
+"<<error[i].fix_time<<endl;
+}
+}
+41

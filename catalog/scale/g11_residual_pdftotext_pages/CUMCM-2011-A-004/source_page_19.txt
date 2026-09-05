@@ -1,0 +1,41 @@
+[c2 d2]=find(data(:,4)==2);
+x2=data(c2,1);
+y2=data(c2,2);
+hold on
+plot(x2,y2,'k*')
+[c3 d3]=find(data(:,4)==3);
+x3=data(c3,1);
+y3=data(c3,2);
+plot(x3,y3,'c*')
+[c4 d4]=find(data(:,4)==4);
+x4=data(c4,1);
+y4=data(c4,2);
+plot(x4,y4,'y*')
+[c5 d5]=find(data(:,4)==5);
+x5=data(c5,1);
+y5=data(c5,2);
+plot(x5,y5,'g*')
+grid on
+legend('等值线','生活区','工业区','山区','交通区','绿地区');
+cu=reshape(z,301*201,1);
+a=reshape(x,301*201,1);
+b=reshape(y,301*201,1);
+save cu a b cu %训练神经网络数据集
+save dist c1 c2 c3 c4 c5
+%不同区域
+%************************************************
+%程序功能：比较不同区域污染指数
+%建立日期：2011/9/9
+%程序员：Hec1990
+%************************************************
+function comp()
+load data1
+load beij
+for i=1:8
+a(:,i)=(data1(:,i)-beij(i,1))/beij(i,2);
+end
+As=a(:,1);Cd=a(:,2);Cr=a(:,3);Cu=a(:,4);Hg=a(:,5);Ni=a(:,6);Pb=a(:,7);Zn=a(:,8)
+;
+19
+
+

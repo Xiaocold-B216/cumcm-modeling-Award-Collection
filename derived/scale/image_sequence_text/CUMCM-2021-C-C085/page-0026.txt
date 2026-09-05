@@ -1,0 +1,42 @@
+CD
+hse% 自 己 输入 权重
+disp 对 应 输入 每 一 列 的 权重 ])
+input 你 需要 答 入 num2stm_Y) ,个 权 数 。 ,请 以 行 向 量 的 形式 答 入 这 num2sttm_YD 个 权
+重 : 了;
+end
+ae
+w=ones(lm_Y) /Im_Y;% 默 认 相同 权重
+md
+ie 第 四 步 ， 计 竺 与 最 大 值 的 距离 和 最 小 值 的 中 询 ， 并 算出 得 分
+D_P- amtlZ -repmatmax(ZJn YI) ^2] * repmatwn_YD) ,2) ^05， % D+ 与 最 大 值 的 距离 向 量
+D N -sum(Z- repmatmin(ZDn_ YID) ^2] *repmattwn_YD) 2 ^05;  %D- 与 最 小 值 的 距离 向 量
+S-D NJ(D_PtD N)。。 % 未 归 一 化 的 得 分
+disp( 最 后 的 得 分 为 ，
+stand_S =/sum(S)
+[sorted_S,index] = sort(stand_S /descend)
+function [W] ~ weight_shang(Z) \'
+% 计算 有 n 个 样本 ，m 个 指标 的 样本 所 对 应 的 的 粮 权
+% 其 中 Zrnym 的 矩阵 〔 要 经 过 正 向 化 和 标准 化 处 理 ， 且 元 素 电 不 存在 负数 )
+%686 计算 炳 权
+[nm] = size(Z),
+D= zeros(lam). % HHbIRAF15 QAMHYT r
+Join 机
+ij
+GD 261sum(Z(.D): 9 计算 概率 答 阵 的 元 素 介
+6 注意 。P 有 可 能 为 0， 故 分 情况 讨论 《此 时 计算 ntpjep 时 ，Matlab 会 返回 NaN)
+ipG 一 0)
+0 下
+le
+《PiogtpG))ogth,
+end
+ed
+«()= sum(e(.):
+DGOD =- 1-e(0:% 计算 信息 效用 值
+end
+WD Jsum®), % 将 信息 效用 值 归 一 化 ， 得 到 权重 1%m 的 行 向 量
+dispCHEL: ):
+ori=lm
+disp(e(@);
+end
+end
+26

@@ -1,0 +1,76 @@
+， FET7Ei hup Twcqvip om]
+
+1 84 工 程 数 学 学 报 ， 第 92 着 :
+
+4 ”模型 的 优 缺 点 :
+
+; 优点 1D 我 们 建立 了 一 个 随机 模型 ， 引 入 了 数学 期 望 ， 较 好 的 解决 了 会 员 对 DVD 需求 数
+
+量 的 预测 ， 使 模型 得 到 简化 ， 进 而 能 够 在 计算 机 上 得 到 满意 的 解 。 ;
+
+; 2) 对 于 满意 度 的 表示 ， 我 们 采取 了 将 表 2 中 的 偏爱 程度 取 倒数 ， 使 得 会 员 满 普度 的 描述 有
+
+依据 ， 避 免 了 线性 取 值 带 来 的 较 大 误差 。 显 得 比较 合理 。 ，
+
+1 3) 本 模型 在 随机 分 布 的 基础 上 ， 建 立 关 于 DVD 分 配 情况 的 矩阵 ， 以 及 各 会 员 的 满意 度 矩
+
+: 阵 ， 使 得 问题 的 描述 比较 清晰 。 . :
+
+， 和， 问题 三 我 们 采用 在 Excel 工作 表 上 作业 方式 ， 这 样 减少 数据 的 导入 、 导 出 ， 并 且 统 计
+
+3 出 每 种 DVD 网 站 需要 购买 的 均值 和 网 站 需要 购买 的 最 大 值 ， 在 此 基础 上 进行 分 配 ， 并 且 与 问
+
+题 二 分 配 结果 进行 比较 ， 在 三 种 方案 的 比较 下 ， 我 们 选取 以 均值 方式 购买 每 种 DVD 的 方案 。
+
+: 缺点 在 进行 问题 三 的 求解 时 ， 我 们 仅 选取 前 600 位 客户 作为 分 析 对 象 ， 这 样 虽然 避免 大
+
+1 的 计算 量 ， 但 是 使 结果 的 误差 变 大 。 而 且 ， 表 2 所 给 出 的 仅仅 是 一 个 网 站 某 一 次 会 员 订 单 的 数
+
+| 据 ， 由 于 数据 量 不 够 充足 ， 使 得 我 们 所 求 的 数学 期 望 就 显得 有 些 粗 略 。 在 实际 中 ， 租 赁 分 配 又
+
+是 一 个 复杂 的 数学 问题 ， 存 在 着 大 量 的 不 确定 性 ， 例 如 ， 网 站 会 员 数 目 、 会 员 对 不 同 DVD 的
+
+偏爱 度 、 会 员 的 租赁 时 间 、 租 赁 的 DVD 的 数 具 以 及 归还 的 时 间 等 等 ， 所 以 我 们 的 模型 就 会 有 :
+
+一 定 程度 的 偏差。 ，
+
+| 参考 文献
+
+[1] 田 铮 ， 肖 华 勇 , 随机 数学 基础 [M]. 北京 ， 高 等 教育 出 版 社 ，2005
+
+3 [2] 刘 金 兰 ， 朱 晓 杨 . 顾客 满意 度 指标 重要 性 测量 的 主 成 分 分 析 与 多 元 回 妇 方法 可 . 天 津 大 学 学 报 ，2004,16(2):159- :
+
+上 163 ，
+
+i [3] 姜 启 源 ， 谢 金星 ， 叶 俊 . 数学 模型 [M]. 北京 : 高 等 教育 出 版 社 ，2004
+
+国 吴 祈 宗 . 运筹 学 与 最 优化 方法 [M]. 北京 ， 机 械 工业 出 版 社 ，2003
+
+: [5] 李 继 成 , 数学 实验 [M]; 西安 ;西安 交通 大 学 出 版 补 ，2003
+
+; [6] 麻 志 裔 ( 译 ). C 语 半 解 析 教 程 [IM]. 北京 ， 机 械 工业 出 版 福 ，2000
+
+: A Optimal Scheme of Renting DVD Online '
+
+' WANG Ying, GAO De-hong, SHI Heng i
+
+Advisor: SUN Hao
+
+1 ( Northwestern Polytechnical University，Xiran, Shaanxi 710072 ) :
+
+P Abstract: It will be a trend to renting DVD online during information age. A random model for problem 1 H
+shows that the ramdom variable of the number of renting DVDs satisfies binomial distribution. The number of
+
+; DVDs purchased by net manager ia calculated under some probability. A integer programming model of problem :
+2, in which the objective function is the maximum degree satisfaction of clients, is given. The optimal solution :
+of this integer programming model ia derived by Lingo 5.0. And the distribution scheme of the first 30 clients :
+is given. Considering that DVDs are recycled for the twice rent of 60% the clients, the two-steps strategy of 2
+
+purclase scheme for which a bi-object integer programmming is found, is discribed for problem 3. The result of
+problem 3 is shown in Table 6 and Table 7. A new model of purchase and distribution scheme of renting DVD
+
+5 online is also discussed in the last part of this paper. :
+Keywords: binomial distribution; integer programming; bi-objective programming; degree satisfaction; proba- ;
+bility
+
+|

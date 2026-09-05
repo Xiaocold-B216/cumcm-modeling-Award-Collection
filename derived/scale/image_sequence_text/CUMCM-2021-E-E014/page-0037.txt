@@ -1,0 +1,41 @@
+cs findtFs(:51D)=rcenterstii4,1))
+0
+5 end
+6.a6 = zeros(size(Fs,1),1);
+alia2jaaiadja5];
+.oa = sort(aa,1, rdescend
+aa for j = :lengthtaa)
+5 aa0)) 1
+5
+ido6 -9
+93. 26 -aa
+1 cyclear
+2. a- xsread(Hif 1xdsn);
+3. ques1.1 =- a(:,2:emd);
+4. data2 = [308 193 356 136 272 95;130 268 356 191 272 95];
+s. data
+dotal = ques_11(2iend, );
+7. b1 - datan(an,);
+es Y
+9。， phokGxcnnvbl);。 xs6 处 理 后 是 行 三 附 导数 据 药材 分 类 后 提取 符 生 数据
+10. titte( —mamamEsA")
+1. xlabel(iH) iytabel (FEE)
+12. Tegend( Hpi 尖 类 前 二 ， 关 别 三 "类别 加 ,类别 五 ,， 类 别 六 ')
+所
+和
+15.11 -zeros(lengthtdataz1 )));
+16. for = lengthtdata2(1,:))
+or 3 = 1:length(doto2(1,:))
+1e. 本 = bb)
+四 站 = Ba/son(g1)791 = B2/sun(g2);
+2 Daz 。 sun(pl.*(logl8(p1/91)))5
+名 pz1 = sun(ql.*(logl8(q1/p1)))5
+22 sid = 012 + 021;
+名 DG = sad
+ed
+25. end
+问题 二 :
+1 eaciealear
+2. x 将 问题 二 数据 提取 到 工作 区
+asread( 附 什 2.xlsx')
+6

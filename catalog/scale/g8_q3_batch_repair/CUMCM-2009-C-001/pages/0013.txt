@@ -1,0 +1,1 @@
+opdes 附录 : 问题 1 程序 >> syms a h R >> a0=asin((Resin(pi/2+a))/ (R+h)) ” ] -外 《二 asin(R#kcos (a)/ (R+h)) >> Q=2%(pi/2-a-a0) S YI^ YA Q = ° . d We t WWW 10. ne >> 1=0% (R+h) 一 一 -7 评 8 二 R#cos (a) / (R+h) ) ) * (R+h) >> n=(2pi* (R+h))/1 n = 2xpi/ (pi-2xa-2xasin (Recos (a) / (R+h))) 13

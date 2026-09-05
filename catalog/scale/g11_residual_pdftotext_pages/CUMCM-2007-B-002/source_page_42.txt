@@ -1,0 +1,112 @@
+using namespace std;
+float BusPrice(int nLineName, int nDistance,
+vector<vector<int> > & FeasibleSolve,
+vector<LoadMessage> & AllLines)
+{
+float nEachCost = 0;
+if ( AllLines[nLineName-1].strPrice == "单一票制 1 元。" )
+{
+}
+
+交
+
+{
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+// 分段票价路段
+
+else
+
+if (nDistance <= 20)
+
+研
+
+ww
+
+nEachCost = 1;
+
+else if( nDistance <= 40)
+
+：
+科
+
+nEachCost = 2;
+
+else
+
+nEachCost = 3;
+}
+
+return nEachCost;
+
+号
+
+}
+
+流
+
+nEachCost = 1;
+
+众
+
+// 计算经过各路线的所花费的时间
+
+信
+
+{
+
+公
+
+vector<vector<float> > Time_Cost_Calculate(
+
+vector<vector<int> > & FeasibleSolve,
+vector<LoadMessage>
+
+)
+
+vector<vector<float> > Respond;
+
+微
+
+& AllLines
+
+// 返回值
+
+for (int i=0; i<FeasibleSolve.size(); ++i)
+
+// 遍历每一种方案
+
+{
+float fTotalTime = 0;
+
+// 总花时
+
+float fTotalCost = 0;
+
+// 总花费
+
+float fCost_A
+
+= 0;
+
+float fCost_B
+
+= 0;
+
+float fCost_C
+
+= 0;
+
+vector<float> CurrWay;
+
+// 行车路线
+
+42
+
+

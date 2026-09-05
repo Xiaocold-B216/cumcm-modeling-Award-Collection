@@ -1,0 +1,42 @@
+ERE
+EeE
+和
+Begin
+drop table #wtotal discount product je
+End
+-- 查 询 会 员 消费 总 金额
+select vmvsd.kh,SUM(je) as 会 员 消费 总 金额 JISNULL(vdpj. 特 价 商品 消费 总 金额 ,0) as 特价 商品
+消费 总 金额
+into #vtotal_discount_product_je
+from vtime_mall vip_sale_detail vmvsd
+left join #vip_discount_product_je vdpj on vmvsd.kh=vdpj.kh
+group by vmvsd.kh,vdpj. 特 价 商品 消费 总 金额
+. 全
+select a*,b. 特 价 商品 消费 总 金额 ,b. 会 员 消 费 总 金额 -从 ，
+from #RFMT a left join #vtotal_discount_ product jeb on a. 会 员 卡号 -bdkh _ A \
+select jhl*,vl. 会 员 生命 周期 from jihuolv jhl left join vip_life vl on jh Hyeton
+where vl. 会 员 生命 周 期 <> ' 活 跃 会 员 ' JeN
+二 第 五 问 -ee 、
+-- 获 取 单 据 号 “
+select distinct djh from vtime mall vip_sale_detail ; 外
+-- 获 取 商 品 编码
+select distinct spbm from vtime_mall_vip_sale_dejgil ;
+select djh.spbm from H Y [o]
+源 程序 2:
+使 用 软件 ，SAS
+/多 元 线性 回归 分 析 */
+proc reg data =liushi__»
+var jihuo_rate cuxia MT;
+model jihuo_raf 中信 FRMT;
+run; Yo
+/ 雪 因 吨 纷 术 *
+a out=B Nfactor=3 method=prin priors=one
+rotate=varimax simple p=0.8 score outstat=C;
+varRF MT;
+run;
+proc score data=A
+score=C
+out=D;
+varRF MT;
+run;
+27

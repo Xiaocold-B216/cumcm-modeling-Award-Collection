@@ -1,0 +1,67 @@
+c(2*(lj(i)-1)+1)=t0+T(4);
+M(2*(i-1)+1,2)=2*(lj(i)-1)+1;
+%RGV 为单个偶数 CNC 上料
+M(2*(i-1)+2,1)=t0;
+t0=t0+T(6);
+b(2*(lj(i)-1)+2)=1;
+c(2*(lj(i)-1)+2)=t0+T(4);
+M(2*(i-1)+2,2)=2*(lj(i)-1)+2;
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+%多步最优
+while t0<=8*3600
+[e,f,g,h,] = oneStep( a,dT,T,t0,c );%a,t0,c 改变为 f,g,h.
+e3 = fStep( f,dT,T,g,h,e )';
+e3 = reshape(e3,64,4);
+[minValue,row] = min(e3);
+[minValue,col] = min(minValue);
+d=dT(abs(a-col)+1);
+t0=t0+d;
+t0
+a=col;
+N=N+1;
+i=a;
+if t0>c(2*(i-1)+1)&&t0>c(2*(i-1)+2)
+%[cmin,cind]=min([c(2*(i-1)+1),c(2*(i-1)+2)]);
+cmin=t0;cind=1;
+c(2*(i-1)+cind)=cmin+T(4+cind)+T(4);
+elseif t0<c(2*(i-1)+1)&&t0<c(2*(i-1)+2)
+[cmin,cind]=min([c(2*(i-1)+1)+T(5),c(2*(i-1)+2)+T(6)]);
+cmin=cmin-T(4+cind);
+c(2*(i-1)+cind)=cmin+T(4+cind)+T(4);
+else
+[cmin,cind]=min([c(2*(i-1)+1),c(2*(i-1)+2)]);
+cmin=t0;
+c(2*(i-1)+cind)=cmin+T(4+cind)+T(4);
+end
+M(N,1)=cmin;
+M(N,2)=2*(i-1)+cind;
+for i=length(M(:,2))-1:-1:1
+if M(i,2)==2*(a-1)+cind
+M(i,3)=cmin;
+break;
+end
+
+流
+
+end
+
+29
+
+

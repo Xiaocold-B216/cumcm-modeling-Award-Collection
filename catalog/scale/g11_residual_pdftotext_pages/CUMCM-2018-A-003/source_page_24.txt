@@ -1,0 +1,72 @@
+int min_ind = i;
+for(; i<num; i++ ){
+if(T[i] < T[min_ind]) min_ind = i;
+}
+return min_ind;
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+}
+//FIFO 原则
+//int min_index(int *T){
+// int i=1,num=9;
+// int min_T_ind = i;
+// int min_S_ind = i;
+//
+// for(; i<num; i++ ){
+//
+if(T[i] < T[min_T_ind]) min_T_ind = i;
+//
+if(S[i] < S[min_S_ind]) min_S_ind = i;
+// }
+//
+// if(S[min_S_ind] < 0) return min_S_ind;
+// return min_T_ind;
+//}
+//HRRN 原则
+//int min_index(int *T){
+// int temp[9];
+// int max_ind = 1;
+// int num = 9;
+// for(int i=1; i<num; i++ ){
+//
+if(T[i] < inf)//确保 S<0,并且 T 是时间代价
+//
+temp[i] = (-S[i] + T[i]) / T[i];//等待时间越长，优先级越高； 代价越小，优先
+级越高。
+//
+else temp[i] = -1;
+// }
+// for(int i=1; i<num; i++ ){
+//
+if(temp[max_ind] < temp[i]) max_ind = i;
+// }
+// return max_ind;
+//}
+int main(){
+int time = 0;
+int pos = 0,next_pos = 0;//小车起始位置
+bool begin = 0;
+while(time<3600*8){
+/**********评估过程***********/
+for(int j=1;j<9;j++){
+24
+
+

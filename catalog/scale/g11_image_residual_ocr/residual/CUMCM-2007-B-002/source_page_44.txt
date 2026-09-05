@@ -1,0 +1,42 @@
+Eii
+和
+和
+if (C1!=C2)
+fCost_C = BusPrice(C, C 2-C 1，FeasibleSolve，Al1Lines) ;
+else
+fCost C = 0;
+fTotalTime = Time A + Time B + Time C + fTime A B + fTime B C;
+fTotalCost = fCost A + fCost B + fCost Ci
+int nA_1 = AllLines[A-1].LineInfo[A 1];
+int nA 2 = AllLines[A-1].LineInfo[A 2];
+int nB_1 = AllLines[B-1].LineInfo[B 1]; #7
+int nB 2 = AllLines[B-1].LineInfo[B 2]; “ A7
+int nC_1 = AllLines[C-1].LineInfo[C 1]; 2XG
+int nC 2 = AIILines[G=l].LineInfo[C 2];
+SS
+CurrWay. push_back (nA 1) CurrWay. ah ;
+CurrWay. push_back(nB_1); CurrWay. 是 你 UrrWay. push_back CnB_2) ;
+CurrWay.push-back (nC_1) ; CurrWay. push | CurrWay. push_back (nC_2) ;
+CurrWay. push_back (fTotalTime) ; 洒
+CurrWay. push_back(fTotalCost) ;
+o
+Respond. push_back ( 和 O 〇
+】
+return Respond; S
+) 站
+一
+// 文件 输出 花费 时
+void OutPutTi 中 & fout,
+7, vector<vector<float> > & FeasibleSolve)
+| 下
+3 (inti=0; i<FeasibleSolve.size(); ++i)
+VY/,
+1S% for (int j=0; j<FeasibleSolvelil.size(); ++j)
+{
+fout << setw(3) << left <<setfill(C ’) << FeasibleSolve[il[j] <<” 7;
+}
+if (FeasibleSolve[i][3] == 3984 &&
+FeasibleSolve[i][5] == 3993 &&
+FeasibleSolve[i][2] == 87 &&
+FeasibleSolve[i][6] == 3676)
+44

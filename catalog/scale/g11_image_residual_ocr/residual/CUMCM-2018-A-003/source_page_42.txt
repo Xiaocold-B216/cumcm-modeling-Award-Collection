@@ -1,0 +1,47 @@
+ERE
+和
+Ne  Re
+int full = 0,t_full;//0 表示 当前 为 空 车
+int S[9] = {10000,0,0,0,0,0,0.0.01:VW 加 工 剩余 时 间
+bool B[9] = {0,0,0,0,0,0,0,0,0};/ 是 否 有 熟 料
+intnum = 0;// 成 品 数量
+intT[9] = {10000,0} /当前 状态 到 达 其 他 CNC 加 工 台 的 代价
+/就 近 原 则 ;
+int min_index(int *T){
+int i=1,num=9;
+int min_ind =1i;
+for(; i<num; i++ ){
+if(T[i] < T[min_ind]) min_ind = i;
+oo
+return min_ind; 一 NY
+) AN
+void display(){ 2XG
+cout<<" 编 号 : ";
+for(int i=1;i<9;i++)
+Cao 种
+cout<<hold_ CNC[il]<<”"; 人
+aa
+cout<<endl<<" 船 "<<hold_ RGV<<" 任务 序号 :
+cout<<numit<<endl;
+void ifbreak(int next_pos,int time){ $O, |
+randnum = randuni(); %A
+breaktime = 600 + 600*randuni();
+runtime = randuni()*pro| [1 ext_pos];
+/发 生 故 障 下
+if(randnum<0.01){__~ ¥
+S[next_pos] = ime+breaktime 加 工 剩余 时 间
+Blnex 了
+sm _pos<<" break!!"<<hold_CNC[next_pos] <<endl;
+Sul ow:"<<time<<":";
+人 for(int j=1;j<9;j++) cout<<S[j] <<"";
+| /, NE
+SA， for(int j=1;j<9:j++) cout<<B[j] <<"";
+cout<<endl;
+error[error_times].xuhao = hold_CNC[next_pos];
+error[error_times].NoCNC = next_pos;
+errorferror_times].occ_time = runtime + time;
+error[error_times++].fix_time = time+runtime +breaktime;
+}
+}
+int main(){
+42

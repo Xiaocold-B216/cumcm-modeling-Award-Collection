@@ -1,0 +1,65 @@
+{
+  "contract_version": "g8-image-sequence-v2",
+  "paper_id": "CUMCM-2014-B-B1604",
+  "source_sha256s": [
+    "D9FFC1EFFC70BFACDBB9B741215EEC0032F75B47858AA84CF8D801CC64204781",
+    "5A2B71DC9829B3E0FA2FE135126A30D28A1C90FE71C1E5EDC211FCAFF391E872",
+    "A18DB8218086EDCD1790C06676E78AACD72F46AAF2509062E1A30907DBF4BB14",
+    "0C5319D2A42F3C43456CE3BEAC6F3EFEF403801BC2C11DA273DC49B34D25E82A",
+    "9DE75648923D274A6893FC76F9E142952D81171FB5ECFE7812DEC1625E7200BA",
+    "C32A0BF31CB82A1227C99CEE23CD862D16B4BFC8FCE3931B7AC936B4CB9998A0",
+    "A1DCDA4DF3E4BDD254D1DABE09E1962744E055B551D41549EB7244AB93E09129",
+    "EA71886F74FB6506E5C9A833A9E3CEE9693326BADE862EDF642214D69DFE9402"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "path": "D:\\cumcm-modeling-Award-Collection\\2014年数学建模国赛真题+优秀论文\\2014优秀论文\\2014B：创意平板折叠桌 (3)\\B16046004_程双泽_李君昌_陈凌勤\\w1-1-1.jpg",
+      "text": "-30\n-加 ;\n的 4 | : N\\\n.60 ， 本\n3 EY\n30 “s 4\n5 Aoy\n2 30\n呈 2\n15 0\n» -0\n1 3 E",
+      "text_sha256": "E4EFFAFDE54A962DFDCE63696B43435522E097C0C5A6625B0E88710C756F3C98"
+    },
+    {
+      "page": 2,
+      "path": "D:\\cumcm-modeling-Award-Collection\\2014年数学建模国赛真题+优秀论文\\2014优秀论文\\2014B：创意平板折叠桌 (3)\\B16046004_程双泽_李君昌_陈凌勤\\w1-1.jpg",
+      "text": "-30\n-35 % 3\n-和 |\n-45 f\n本 f ae\n| -\n二 号 30\n-人 5\nRE 汪 2\n五 15\n30 ”1",
+      "text_sha256": "B32AF38B1D0D6C2C4EE6E1902C14803D645B12FCFE35D8DCCA41BBCDCC21399A"
+    },
+    {
+      "page": 3,
+      "path": "D:\\cumcm-modeling-Award-Collection\\2014年数学建模国赛真题+优秀论文\\2014优秀论文\\2014B：创意平板折叠桌 (3)\\B16046004_程双泽_李君昌_陈凌勤\\w1_2.jpg",
+      "text": "Vi 和\n六 他 和\n\n1 Un 人\n人 人\n便便 全 俩 全\n【IN",
+      "text_sha256": "70941672E188B38DAC33A6123BCAA13CDEBB744322E908CCE16FD27A575FE743"
+    },
+    {
+      "page": 4,
+      "path": "D:\\cumcm-modeling-Award-Collection\\2014年数学建模国赛真题+优秀论文\\2014优秀论文\\2014B：创意平板折叠桌 (3)\\B16046004_程双泽_李君昌_陈凌勤\\w2.jpg",
+      "text": "内\nTI",
+      "text_sha256": "7C08172568A15626171C641635A3B930B66346758C3F0EC34E646361D10D8F49"
+    },
+    {
+      "page": 5,
+      "path": "D:\\cumcm-modeling-Award-Collection\\2014年数学建模国赛真题+优秀论文\\2014优秀论文\\2014B：创意平板折叠桌 (3)\\B16046004_程双泽_李君昌_陈凌勤\\w3_1.jpg",
+      "text": "-",
+      "text_sha256": "3973E022E93220F9212C18D0D0C543AE7C309E46640DA93A4A0314DE999F5112"
+    },
+    {
+      "page": 6,
+      "path": "D:\\cumcm-modeling-Award-Collection\\2014年数学建模国赛真题+优秀论文\\2014优秀论文\\2014B：创意平板折叠桌 (3)\\B16046004_程双泽_李君昌_陈凌勤\\w3_2.jpg",
+      "text": "汪汪 攻 Ny 9 们 出 让\n和 Be EEr B\n代入  E 册 太\n， | 4 / | 外 | | 1 让 人",
+      "text_sha256": "040CB4F6BEE80F8A53D0556872F2DE0F3C22C01DD475DF9929B3F217B5B657FC"
+    },
+    {
+      "page": 7,
+      "path": "D:\\cumcm-modeling-Award-Collection\\2014年数学建模国赛真题+优秀论文\\2014优秀论文\\2014B：创意平板折叠桌 (3)\\B16046004_程双泽_李君昌_陈凌勤\\w3_3.jpg",
+      "text": "人\n人\n处 上",
+      "text_sha256": "C9F07B076B52492DBC87B43AF67AE1C99D5FA8A6BB4D9FBED968D28DD8202580"
+    },
+    {
+      "page": 8,
+      "path": "D:\\cumcm-modeling-Award-Collection\\2014年数学建模国赛真题+优秀论文\\2014优秀论文\\2014B：创意平板折叠桌 (3)\\B16046004_程双泽_李君昌_陈凌勤\\w3_4.jpg",
+      "text": "网 人\n|",
+      "text_sha256": "7F4D8E1475EFE0779DB0E236F8C2BA15C1E0035DDCF00F7EA6F09CEA8AE34AD3"
+    }
+  ],
+  "page_count": 8
+}

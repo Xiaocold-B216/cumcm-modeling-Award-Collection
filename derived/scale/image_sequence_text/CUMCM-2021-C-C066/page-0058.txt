@@ -1,0 +1,54 @@
+Variable = ea.bs2rd (Chron, FieldD) # 311iFHEHiY
+# cvl = np.zeros((MIND, 1)) & 初 妈 化 一 个 CV 算 阵 CEHBRAMEHERTRESRAS. BANBITR
+为 B， 税 认为 所 有 个 休 旦 可行 骨 个 体 >
+cv -= mp.zeros((NIND，615))
+objw， CV = aimfuncz(vartable，cv，NIND)
+atnv - eavranking(0bJv，CV，maxormins) 4 横 所 目标 函数 大 小 全 过 应 度 从
+best_ind = np,argmax(FitnV) # SHRAIALMEDTS
+开始 过 化
+or Ben in tqdatrange(haxGEN)，leaveFalse):
+Selch = chron[ea.selecting(selectstyle，Fitnv，NIND - 1)，:] # AF
+Selch - ea.reconbin(recstyle, Selch, pe) 重组
+Selch 。 ea.nutate(nutstyle, Encoding, Selch, pa) & %5
+二 把 父 代入 贡 个 体 与 子 代 的 杂 色 体 进行 合并 ， 得 到 新 一 代 和 时
+Chron = np-vstackt[chron[best_ind，:]，Selch])
+Phen - eavbs2rd (Chrom，Fie1dD) & 对 入 苦行 名 到 (二 渤 刘 转 十 寺 抽 )
+objw，cY =。 admfunc2(phen，cV，NIND) * RBEMEEIEEL
+Fatny = eavranking(Objv，CV，maxoradns) & 根 交 目 标 画 数 大 小 分 本 应 席 从
+二 记录
+best_ind 。np.argmax(FitnV) # 计算 当代 最 优 个 体 的 序 全
+b3_trace(gen, ©] = mp.sua(objv) / objy-shapefe] & 兴 寻 当代 入 大 的 中标 函 玫 人
+obj eracefgen，1] -objv[best_ind] “记录 当代 科 君 最 优 个体 目 杯 函 于
+var_trace(gen, :] - Chroa[best_ind，:] & 记录 当代 种 赂 最 全 个 体 的 代 旬 休
+进化 完成
+end_tine - tine.tine() 。 结 素 计时
+ea.trcplot(obj_trace，[[ "种 群 个 体 平均 目标 男 数 值 '， "种 群 最 优 个 体 下 标 函 数值"]) 人参 所 必 全
+print( "用时 ， "end_time - stare_tine, '5')
+vononnneennnnneennnnnnenn 欠 出 结果 ocean- SN-
+best_gen - np.angaax(obj_tracel:, [1]])
+prnt( RIEHEHAFRKM: *, ob)_tracebest_gen, 11)
+variable = ea.bsrd (var_trace{ [best.genly :], Fieldo) 4 WRATKALY (DHEHERERE)
+W= vartable
+La Wb, 了 cr- Wzy ctol mmAL WE:, tol mun AtolnumA + tolnum 8], ML， tolnumA +
+tol_nun_8:1
+TWia= Wa.neshape((¢_trans. shape(1], 8))
+WCb = Wb.reshape((+_transs.shape(1], 8))
+Wic + Wc.reshaped (¢_transC. shape(1], 8))
+assign A - dice(zip(select AID, [np.argnax(_ali, :]) + 1 for in
+range(f_transA.shape[1])]))
+assiBn_8 = dict(zip(select_8_ID，np_argnaxtwLb[i， :]) + 1 for i in
+range(f_trans8.shape[1])]))
+assiBn_c = dict(2tp(select_C_ID，[np-argmaxtLe[i， :]) + 1 for in
+range(f_transc.shape[])]))
+prdmt(" 归 材料 A 代 应 商 对 应 的 转运 商 10:Nn' ，asstgn_A)
+prnt( ,原材料 8 供 应 吝 对 应 的 转运 高 ID: nm'，assign_8)
+print( BHHCRERHEOHERIDN, assign C)
+retum (assign_A, assign 8, sssign C]
+pd.DataFrame(np-array(output_list)*1.4，index 。 [£'Heek(1)’ for 1 Sn range(1, 25)], coluans =
+产能])-pPlotbar(alpha = 0.7, Flgsize - (12,5)
+Pt .axhline(2.82*1e4，linestylec'dashed'，c = “black’, label - “期 名 产能 ')
+Ptirle( "扩大 产能 后 :预期 24 肝 产能
+Pt legend()
+Pt ylabel( "立方 米 ，)
+Pr:shov()
+output_df.to_excel'p4-2 分 本 结果 .xlsx')

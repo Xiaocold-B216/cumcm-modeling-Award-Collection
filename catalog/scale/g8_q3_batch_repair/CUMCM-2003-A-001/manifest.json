@@ -1,0 +1,95 @@
+{
+  "attempt_id": "20260902T162528503373_425d96bb",
+  "batch_attempt_id": "20260902T162528503373_425d96bb",
+  "paper_id": "CUMCM-2003-A-001",
+  "source_path": "2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：SARS传播的数学原理及预测与控制 (2).pdf",
+  "source_sha256": "10DC3713D196BF397E9DD4993CD968E15E0E86D9E3D3FC880920F45BE1447472",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 6,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 6,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "EisE - 第 20 养 第 7 期 工 程 数 学 学 报 Vol.20 No.7 203 年 1 月 JOURNAL OF ENGINEERING MATHEMATICS De 2003 文章 编号 :1005-3085(2003)07-0029-06 了 SARS 传播 的 数学 原理 及 预测 与 控制 邹 字 庭 ， 郑 晓 练 ， 缪 烛 取 -从 > 指导 教师 : 谭 忠 名 由 (厦门 大 学 ,福建 厦门 361003) 2 编者 按 : 本 文 建立 了 SARS 传播 的 兵 有 负 反馈 的 关 分 方程 做 型 。 GERYS'S 1 疾病 采取 吉 效 拼 制 境 旋 的 肥大 ,并 劝 标 淮 差 趋 于 稳定 来 判定 数 据 氢 合 的 合理 性 ,是 本 文 的 突出 优 Ro 文章 将 这 一方 法 用 了 北京 ,广州 ,山西 和 香 潘 , 均 区 得 较 好 数 昌 摘要: 众 所 局 知 ,SARS 对 中 国 社会 带 来 了 重大 的 影响 。 RATUNEHOR 4 月 到 6 月 有 关 SARS 的 数据 为 参考 资料 ,就 病毒 的 实际 传播 特征 引 和 人 了 电子 线路 申 的 仙 反 馈 的 概念 ,建立 了 SARS 传播 的 负 反馈 系统 ,并 在 分 析 该 系统 参数 实际 意义 的 情况 下 4 建 计 时间 序 列 的 模型 。 该 模型 将 传 浊 率 定义 为 时 间 的 函数 ,以 拟 合 数据 和 实际 数据 之 间 的 总 残 差 最 小 为 目标 ,利用 matlab 中 的 fminsearch 函 数 模拟 得 到 最 优 的 模型 参数 。 该 模型 可 以 较 好 的 预测 SARS 的 发 展 趋 势 , 且 可 以 就 此 趋势 提出 如 何 控制 SARS 传播 的 措施 。 的 于 将 计生 丰 日 期 提前 或 滞后 5 天 实施 隔离 政策 所 引 起 SARS 发 展 趋 势 变化 的 曲线 H 人 在 SARS 对 经 济 影响 的 这 人 何 问 题 虽 j 本 文 适当 选取 医疗 业 具 有 代表 性 的 17 支 股票 ,构造 了 医 疗 板块 指数 ,以 此 测 装 医 冯 4 的 经 济 表现 。 在 传统 的 CAPM 模型 中 ,我 们 引入 了 虚拟 变量 ,利用 LS 技术 进行 估计 分 可 从 证 ARS 这 一 事件 对 医药 业 的 经 济 影响 是 正 影 响 。 该 影响 反映 在 医 疗 版 指数 的 日 收益 上 ,但 戈 作 影响 是 由 SARS 引起 的 ,会 随 着 SARS 的 结束 而 结束 。 关键 词 : SARS; 负 反馈 系统 ;时 间 序列 模型 ;资本 资产 定价 模型 分 类 号 : AMS(2000) 2 中 图 分 类 号 : O212.3 文献 标识 码 : A of Mg 1 spinewoan 下 &1 假设 与 符号 说 明 1 1 多 数据 是 可 靠 的 ;2) 病 人 处 于 潜伏 期 时 不 传染 他 人 ;3) 采 取 的 所 有 控制 措施 对 于 阻 人 用 的。 T: 到 第 n 天 为 止 累计 确诊 的 病人 数 ;Du: 到 第 n 天 为 止 累计 的 死亡 人 数 ;S,: 第 n 天 的 疑似 病人 数 ;Cn: 到 第 n 天 为 止 治愈 病人 数 ;d: 死亡 率 ;g: 治 愈 率 ;St :新 并 响 人 与 新 增 疑似 病人 的 比值 ;So :疑似 病人 转化 为 正常 人 的 比率 ;Ko: 区 域内 的 自 反馈 参量 ;Fu: 反馈 变量 ;Krf: 反 馈 系数 。 1.2 现在 我 们 分 析 问 题 并 建立 相应 的 数学 模型 ; 社会 的 反应 往往 是 一 个 渐变 的 过 程 ,会 随 疫情 的 变化 而 变化 ,是 一 个 负 反馈 过 程 ,比如 ， bi 口 | 尖 30 工 程 数学 学报 第 20 卷 当 疫情 严重 时 人 们 会 自觉 地 减少 与 他 人 接触 ,相反 的 当 疫 情 不 显 著 时 人 们 会 放松 警惕 而 增 加 与 他 人 接触 的 机 会 。 为 此 我 们 建立 如 下 负 反 馈 系 统 (图 1)。 将 实际 情况 与 控制 力度 的 关 系 通过 反馈 系数 实现 自动 调节 ,这 样 就 能 及 时 采取 控制 措施 ,使 得 病情 传播 速度 迅速 减 小 ， 以 求 最 后 达到 消灭 病情 的 目的 。 在 以 上 系统 中 ， @ A 是 开 环 增益 (Open Loop Gain) ,表示 基本 % 放大 器 的 放大 倍率 , 即 为 输出 信号 与 输入 信号 的 比 值 。 在 研究 SARS 传播 的 模型 中 ,我们 将 此 定义 为 的 TRy SARS 病毒 在 未 受 控制 情况 下 的 自然 传播 速度 , 即 HND 病毒 的 基本 传播 率 。@Kf 是 反馈 网 络 中 的 反馈 系 E 多 让 数 , 即 反馈 信号 与 输出 信号 的 比值 。 在 该 模型 中 我 们 将 它 官 义 为 各 禾 反 应 由 素 的 总 和 ,通过 负 反 馈 可 以 减 小 病毒 传播 速度 。@@ 笨 人 信和 号 X 2 ® 输出 信号 Xo 定义 为 上 时 间 后 社会 上 SARS WisHEL. 争 通过 以 上 未 统 ,我 们 得 到 次 量 A,Kf 与 输入 信号 (XAK4 并 输出 信号 (Xo) 以 及 反馈 信 号 Xi 之 问 的 关系 ; SN Xe=A'X, (日 ，Xr=KrX0 (2),1X=%X+X, (3) 定义 闭环 增益 (Closed;Loop 0 F, 表 示 对 调 节 元 件 灵敏 度 的 折 中 ,并 将 式 (D(2)3) 代 入 则 Xo A X Xr Xo A 人 可 7 A=F 由 上 式 分 析 得 到 : A OXRMAK K<0 时 ,系统 是 负 反馈 的 ,这 正 是 我 们 需要 的 系统 。 这 样 社会 上 病毒 传播 过 ar 纺 参 数 自我 调节 为 ; X 一 X 1=X 1 一 KrT ~Ad—=X| @ 当 反馈 系数 Kr>0 B 8 Ki 不 可 能 是 正 值 , 除 非 丈 理 :SRRS 的 方法 是 错误 的 。 对 于 这 个 系统 来 说 ,可 以 不 考虑 这 种 情况 。 人 an SARS 传播 模型 ， AN 际 量 为 SARS 确诊 病人 数 , 因 此 Xi 就 为 fi,Xo 为 fivT 表示 到 第 n 0 \\ 是 化 时间 ,以 天 为 单位 。 上 eswreuemawareaast NY 有 该 区 域内 的 自 反馈 参量 为 Ko, 表 示 该 地 区 在 未 采取 控制 措施 时 SARS 的 传播 能 力 。 日 设 该 地 区 反馈 量 F, 的 变化 率 为 私 , 即 每 增加 一 个 病人 引起 反馈 量 F。 的 变化 量 。 不 表示 该 地 区 的 病情 控制 情况 。 由 此 ,建立 以 下 时 间 序 列 模型 ， 有 = 天 o+ 太 (+S) (1) Ly=1,% F,-1,= C,=(D,=D,-1) @ D,e1=D,+d(I,=D,~C,) (3) Sui=8,+ (1,11~1,)°8,-5,S, (4) 更 过 1 第 7 期 SARS 传播 的 数学 原理 及 预测 与 控制 31 Cor1=Cotg-(L,~I,-1) (5) 其 中 式 (1) 表 示 反 馈 量 是 自 反馈 参量 和 人 为 控制 后 的 反馈 参量 的 和 ; 式 (2) 表 示 确 诊 病 人 总 数 的 变化 情况 ; 式 (3) 表 示 死 亡 人 数 的 变化 情况 ; 式 (4) 表 示 疑 似 病例 数量 的 变化 情况 式 (5) 表 示 治 僵 病 人 数 的 变化 情况 。 如 果 病 情 得 到 控制 , 距 病 人 不 再 增加 ,那么 反馈 量 应 该 是 0, 易 得 必须 为 负数 。 所 以 LimF,~0 Limly~1, LinD,,=D, LimS,.~0 1.3 问题 的 求解 | 名。 | 设 实际 数据 为 Ia, 拟 全 数据 为 ], 则 我 们 确 | 40 [一 -从 > 全 沁 证 参 数 的 目标 是 使 总 残 关 最 小 , 即 : minE ~ §,\\ 2 和 Ts (0 -Toj?s 我 们 用 medeb 中 的 fminsearch 本 数 | 1 一 一 来 求解 ,得 到 总 残 差 最 小 时 的 参数 ao, 并 由 模 | 0 AM 向 型 中 式 (1)、(2) 选 代 求 当 1, 发 展 适 势 的 临 线 。 取 一 用 实际 数据 重 不 同 各 参数 以 及 最 小 总 残 差 便 不 A Flo t, SUBE — A0RE RART LLA 8 R, TRA BUARIE 22A N 0 B 是 否 已 经 足够 。 数 据 量 从 10 天 变化 到 64 K , FESIHLNHLIE 2 所 示 ， 将 标准 差 接近 平稳 状态 的 数据 量 取 值 区 间 抽 出 : 《| SS EAER] B [ 2 [ 5 [ % [5 [ ® [ » [ 3 [ 3 TRL HIRAS) 25 KULLBIIBRC RBE. Hit, TUANBALRT SARS 发 展 趋势 线 只 要 取 其 从 4 月 1 8 因 篇 幅 有 限 删除 具体 计算 程序 。 取 前 25 天 数据 拟 合 出 的 各 发 展 曲线 落 图 3 基 示 - - smios \\ PP MO-01725 L S—— 了 - — 2 人 人 Fe AP CEEEEE - / NS = f ] NA AN S1-0 99698 2 M Re 2f so Sr | / Le $00012 / mW 为 ® 而 页 的 ”为 的 9 EREREIIECIEIEIECIRECE 图 3 发 展 曲 线 图 4 广州 该 曲线 图 不 仅 描绘 出 25 天 的 发 展 情况 ,而 且 通过 预测 描绘 出 25 天 以 后 的 发 展 情况 。 对 比 25 天 后 预测 数据 和 实际 数据 ;全 对 于 累计 确诊 病人 数 ,它们 之 间 的 标准 差 稳定 在 13， EEAE 32 工 程 数学 学 报 i 第 20 % 586 附近 ,因此 两 者 是 十 分 易 合 的 。@@ 对 于 疑似 病人 数 ,由 于 疑似 病例 的 判断 受 主 观 因素 的 影响 , 拟 合 情 况 不 如 其 他 两 条 曲线 。@@ 对 于 死亡 病人 数 ,吻合 程度 依然 比较 高 ,误差 产生 的 原因 可 能 是 个 人 的 免疫 能 力 不 同 这 个 原因 无 法 在 定义 的 反馈 系数 中 体现 出 来 。 由 此 可 以 看 出 以 上 的 预测 十 分 成 功 。 银 为 验证 该 方法 的 有 效 性 , 我 们 分 别 计算 了 广州 ,山西 和 香港 的 累积 确诊 病例 发 展 趋势， 得 到 的 预测 数据 和 实际 数据 吻合 程度 很 高 , 可 见 该 方法 是 十 分 有 效 的 。 具 体 见 图 4 一 6: 1.4 对 卫生 部 门 措施 的 评论 A) 对 发 展 趋势 曲线 的 影响 ; - 人 人 讼 > EN us 三 由 ， 5 w 2 2 Hat | / 0 2 te 加 f 二 ) | os 站 大 ” 了 1 吕 | AR 人 EEC 浊 SS - 2 图 5 ® 图 6 香港 图 7 体现 了 从 不 同时 间 点 开始 提 将 径 汪 后 5 天 实施 隔离 政策 ,得 到 的 总 患 病人 数 随 日 期 的 发 展 变化 ,如 图 中 取 了 OD、@、GyG@ 四 个 时 间 点 。 原 始 数 据 反 遇 的 总 患 病人 数 的 曲线 为 (, 若 所 早 5 天 采取 隔离 政策 , 则 对 应 四 企 时 间 点 的 总 患 病人 数 的 曲线 分 别 为 侣 \\ 因 ,内 、 从 ,车 推迟 5 天 ， 则 对 应 四 个 时 间 点 的 总 患 病 只 数 的 曲线 分 别 为 名、 回 \\ 人 o\\ 办 。 从 图 中 可 以 很 明显 地 看 到 从 任 一 给 定时 刻 起 提前 5 天 采 职 政策 比 正常 情况 下 可 减少 一 定 的 患 病 者 ,而 滞后 5 天 则 会 增加 患 病 者 ， HHRRSARTROLH \\STAR STERRRAL. 外 对 各 策 论 妆 的 影响 :( 图 8 中 的 每 一 对 点 对 应 统一 的 模 坐 标 ) 由 第 7 天 第 8 天 第 9 天 第 10 天 第 11 天 沐 后 5 天 1.899 1.837 1.767 1.692 1.613 前 5 天 0.62 0.653 0.689 0.727 0.766 Y,wi {E 第 12 天 第 13 天 第 14 天 第 15 天 第 16 天 以 > WESK 1.532 1.452 1.376 1.306 1.245 提前 5 天 0.803 0.839 0.87 0.898 0.921 TAN， 影响 值 第 17 天 第 18 天 第 19 天 第 20 天 第 21 天 滞后 5 天 1.192 1.149 1.114 1.086 1.065 提前 5 天 0.939 0.954 0.966 0.974 0.981 影响 值 第 22 天 第 23 天 第 24 天 第 25 天 第 26 天 澡 后 5 天 1.048 1.036 1.026 1.019 1.014 提前 5 天 0.986 0.99 0.993 0.995 0.996 影响 值 第 27 天 第 28 天 第 29 天 第 30 天 第 31 天 滞后 5 天 1.011 1.008 1.006 1.004 1.003 提前 5 天 0.997 0.998 0.999 0.999 0.999 上 表 为 从 第 5 个 时 间 点 即 第 5 天 开始 考虑 提前 和 汪 后 5 天 采取 隔离 措施 带 来 的 总 确诊 人 数 的 影响 ,影响 值 以 影响 后 的 总 确诊 人 数 与 无 影响 下 的 总 确诊 人 数 的 比值 表示 。 由 上 表 EEE Bwt 第 7 其 SARS 传播 的 数学 原理 及 预测 与 控制 33 和 图 7- 8 可 见 , 越 里 实施 明 离 政策 ,最 后 总 确诊 病例 数 就 越 少 ,而 且 新 增 病人 数 就 越 快 接近 0, 这 意味 着 SARS 病情 越 早 得 以 控制 。 2 SARS 对 经 济 影响 的 数学 模型 分 析 与 建立 SARS 对 国民 经 济 的 各 方面 均 带 来 冲击 ,并 给 国民 经 济 带 来 重大 损失 ,但 同时 SARS 也 给 某 些 行业 ,如 医疗 业 带 来 正面 的 影响 。 下 面 构建 带 虚 拟 变量 的 CAPM 模型 实证 检验 o 0 1 i 有 : 从 7 ow 本 2 :> | | NG \\ rrgerree 本 四 DR - 信 人 和 四 和 三 . Gow 和 路 图 7 对 发 展 趋势 曲线 的 影响 图 8 提前 或 淆 后 5 天 的 总 确诊 病人 数 SARS 是 否 给 医疗 业 带 来 影响 和 多 大 程度 的 影响 。 行 业 的 股票 指数 在 一 定 程度 上 反映 了 束 个 行业 在 大 经 济 环境 下 的 业绩 表 医 /模型 的 数据 的 获取 从 http: /www, moneywise com. en/downspi. htm 取得 ,选取 的 时 间 恬 欣 2002 年 9 月 2 号 到 2003 年 6 月 30 号 。 选 取 的 股票 为 :万 东 医 疗 ,浙江 医药 ,得 贡 医 药 ,南京 医药 , 重 抗 医药 ,上 海 医药 ,华东 医药 ,三 九 医药 , 广 济 药 业 , 金 陵 药 业 ,新 华 制 药 , 襄 科 药 业 ,四 环 药 业 , 东 北 药 ,ST 海 药 , 便 和 制药 ,云南 白药 。 定义 : P, 为 第 i 只 股票 第 { 髓 的 收盘 价格 ;Pw 为 深圳 成 指 的 第 上 日 的 收盘 价 ;rg, 医 疗 股指 的 日 收益 ;rw 市 场 描 数 将 下 收益 率 。 构 建 医疗 业 板块 的 股票 指数 :以 等 权重 法 计算 医疗 业 股 BHRE SERPRARN RETARENR 只 体 下 民 为 y Z * PE Pu S 7 名 机 - op 一 已 P 建立 模 WwH- re=rp),=at Blry=r), +ID, te, TAN， D- t 处 于 2002 年 9 月 2 号 到 2003 年 2 月 11 号 1 (处 于 2002 年 2 月 11 号 到 SARS 结束 以 后 其 中 D, 为 虚拟 变量 , 当 有 SARS 影响 时 D, 为 1, 无 影响 则 为 0。 由 于 SARS 开始 的 日 期 为 2003 年 2 月 11 日 ,因此 采集 的 数据 时 往 前 至 2002 年 9 月 2 号 往 后 到 2003 年 6 月 30 号 。 wjB,Y 为 待 估计 系数 ,其 中 :a 为 截 距 项 ;jp 即 为 CAPM 中 的 “B\" 系 数 ,用 以 衡量 个 股 (板块 ) 的 系统 风险 ;7 为 分 析 的 重点 ,如 果 y 统计 上 显著 异 于 零 , 则 说 明 SARS 对 医疗 业 发 生 了 显著 影响 ,并 且 影响 程度 为 Yist 为 扰动 项 ;rr 为 无 风险 利率 ,在 本 模型 中 用 银行 3 月 期 存款 利率 测度 ;rw 为 市 场 指数 收益 ,本 模型 中 用 深圳 成 份 指数 测度 。 EisE 卫生 二 :之 。 34 工 程 数学 学报 第 20 % ——————————————————————————————————————— 2.2.3 模型 求解 Variable Coefficient Std，Error t- Statistic Prob. C 一 0.001428 0.001497 一 0.954424 0.3413 RM-RF 0.292576 0.088641 3.300665 0.0012 D 0.000213 0.002555 3.860554 0.0126 R- squared 0.766419 Mean dependent var 一 0.00137 Adjusted R - squared 0.7763 S.D. dependent var 0.01566 S.E. of regression 0.015227 Alkaike info criterion 一 5.51277 Sum squared resid 0.036172 Schwarz criterion 一 5.45487 Log likelihood 441,2653 下 一 statistic 5.549341 Durbin ~- Warson stat 1.991851 Prob(F - statistic) 0.004697 N '4 从 表 中 可 以 看 出 :SARS RYB RXTBIF4 , ESTEMATRAK T ohit HEA0 映 在 医 疗 版 指数 的 日 收益 上 , 带 来 了 0.0213% 的 额外 日 收益 。 当 然 ,这 些 收益 是 由 于 SARS 来 95 随 着 SARS 的 平息 ,这 个 正 的 效益 也 会 随 之 平息 。 这 便 是 0 \\ 参考 文献 H- [1] 姜 启 源 . 数学 伐 型 . 北京 :而 等 收 育 出 版 社 ,2002 [2] 邓 聚 龙 , 郭 洪 . 灰色 理论 .北京 :全 华 出 版 ,2002 a [3] wwmeE. BFLE -线形 部 分 .北京 :高 等 教育 出 版 社 ,1929S 6 [4] James D,Hamilton. 时 间 序 列 分 析 . 北京 :中国 社会 科学 出 踪 补 ,1999 A 内 . 加 \\ The Mathematical Principle Of The Spread Of SARS and Its Application On Forcasting and Controlling SARS Epidemic OA ZOU Yu-ting,/ ZHENG Xiao-lian， MIAO Xu-hui /A dvisdh : TAN Zhong ( 本 University, Xiamen, Fujian 361005) Abstract: It is well known that 3 a tremendous effect on Chinese society. Based on the statistics related to SARS in Beijing from-Apil to June in 2003, we modeled the Negative Feedback system of the spreading of SARS by introducingith pt of Negative Feedback System in electro - circuit and the nature of the SARS virus. Moreover oa the practical meanings of the parameters in this system, a complete Time Se- quences So is presented. It defines the spreading rate as a function of time, and adopts the fminsearch function ih 1 give the best parameters，with the object of minimum toral difference between the actual statistics andcompted results. This model well forecasts the spreading trend of SARS, according to which prop- erad ices con be put forward on controllng poicis. Further, curves are drawn that simulate the different devel- ] enr sepids as the result of the quarantine carried out five days ahead of or five days later than a series of differ- t dilfes. Comparison between these curves makes it possible to analyze the impact exerted by the date when the nitary department carried out a quarantine. Concerning the influence of SARS on economy, 17 representative stocks of medicine industry are chosen in order to measure specifically and indirectly the overall trend of this industry in spreading of SARS. Dummy varia- tions are introduced to the traditional CAMP model in order to verify the positive effect imposed on medicine in- dustry by SARS epidemic, employing OLS technique. This positive effect was reflected by the daily interest cal- culated from these stocks. Yet, this impact would be gone when its cause, the SARS epidemic, comes to an end. Keywords: SARS epidemic; negative feedback system; time sequences; CAMP model",
+  "normalized_text_chars": 10653,
+  "normalized_text_sha256": "29B91DABE92945EDC05706930D73139FFB9140F6CFE59E058B0BAB20F830D973",
+  "page_provenance_summary": {
+    "OCR": 6
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "1E17832656213882BE6C4D9C10102D0ED42A22924809D0E5137B5CBE2539A964",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "F52D7886C9D74E83CC1F8CB95244E5E4028C3F8D1E82BF0C10EB12732371E43A"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "A1496589E5FC5D87504191EFCF76B80EB5AF8372B69AC0BC33F831F347DA50B1",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "739138D627CFC4DFF33146F178BB0445DA91EDF56B9FC832940728468117B349"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "CF17C157719D8FBF6E92337DC370FC9794044056EDF1E8DEEE5D2C78F6105016",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "BBFC115862E08CFEC3C8CB02B072362D1CB84B4149E223F0B62546ACF5FB1DCA"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "59AF59BEEFAB66D075E24A5A35FC0469A9893374267A9144BD317FB70B75058C",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "D57B49CF37D41CDF162F3474B43CD079DBE5D51A4775CD3262937D368ED083F9"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "48BA60EBE7BE6DFF211DFE3A852EA95965489503A51293F8A52AF6C00C9247C6",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "89C235177E3333729D7063F817A28F64CFD94574B29A41407BE3D982CB818D1B"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "62B5BDADD4CE35E9DE7ECD5473CFB56FF328C01ACE6C01B1D4F9C3B93FB0372A",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "EFBC071836697B24DB3BB1BC9E84AEB14C8DF7CB11F9D359D15647B5CCE7C280"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

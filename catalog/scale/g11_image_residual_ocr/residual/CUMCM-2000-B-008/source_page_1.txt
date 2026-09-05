@@ -1,0 +1,40 @@
+回 大 车 油 国
+后
+第 31 卷 第 1 其 数学 的 实践 与 认识 Vol31 和
+2001 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan_2001
+distance network to a supply-demand transportation price table Based on this, we constructed
+three models: the linear-cost-network-flow model, the developed linear-cost-network-flow
+model and the non-linear-cost-network-flow model By generlizing the traditional m ininum-
+costmaximum-flow algorithm, we solved the non-linear-cost-network-flow model We also
+gave the truth proving and the comp lexity-analysis to our algorithm.
+一
+订购 和 运输 钢管 的 最 优 方案 -7RVy
+一
+陆 维 新 ， 林 插 ， 陈晓东 2XG \)
+指导 老师 。 周 杰 W
+(四 川 大 学 ， 成 都 610068) 处
+VA
+编者 按 : NS -次 规划 模型 总 费用 作为 目
+标 函 数 , 钢管 生产 厂 的 产量 限制 等 作为 约束 条 件 5 软件 求解 获得 了 满
+意 的 方案 , 并 且 计算 量 大 大 减少 了 整 篇 文章 理由 描述 充分 , 层次 汽 楚 , 洞察 力 强 而 篇 幅 较 短
+摘要 : 本文 研究 铺设 天 燃气 钢管 的 最 优 方案 问题 我 们 建立 用 -水 以 总 费用 为 目标 函数 的 二 次 规划 模型
+1 问题 的 重 述 与 分 析 ( 略 ) p e。
+2 模型 的 假设 与 符号 说 明 A
+1) 基本 假设 : T=
+巴 要 铺设 的 管道 侧 有 PT 送 所 需 钢管 ;
+@@ 钢 管 在 运输 中 由 铁路 到 转 为 公路 运 时 不 计 换 车 费用 ;
+@@ 所 需 钢管 由 BaC- 1 …, 7) 钢 厂 提供 ;
+RN
+2) \V 入 8 (到 1 2, ,7,7= 1,2,…,，15):
+er
+NA BTSs ,的 出 三 钢管 单位 价格 (单位 : 万 元 );
+] < j 伙 路 上 一 单位 钢管 的 每 公里 运费 (4= Q 1 万 元 );
+NAN 铁路 上 一 单位 钢管 的 运费 (分 段 函数 见 表 1);
+ci 工 单位 钢管 从 钢 厂 S, 运 到 4， 的 最 小 费用 (单位 : 万 元 );
+太 从 47 到 4 六 :之 间 的 距离 (单位 : 千 米 );
+xz 钢 厂 9 运 到 4， 的 钢管 数 ;
+3 运 到 4， 地 的 钢管 向 左 铺设 的 数目 ;
+zj 运 到 4， 地 的 钢管 向 右 铺设 的 数目 ;
+， 才 钢 厂 $ ,提供 钢管
+“ 0， 钢 厂 $, 不 提供 钢管
+2 ©1 008 China Academic Journal Electronic ishing Hous ghts res d. pP:Wwww.c

@@ -1,0 +1,26 @@
+回 员 讨 汉 回
+后
+pr pie
+BRLLT]
+四
+1， 附件 一
+程序 :
+model: “
+min=7.2*% (((13-2*h-m)"2+225) ~0.5+h) +28.7* (m"2+25) ~0.5; 二 <
+h<5; \
+e
+m<8;
+end :
+全
+-
+结果 : 外
+Local optimal solution found af) iteration: 53
+Objective value: % [o] 282.6973
+abl Value Reduced Cost
+H 1.853787 -0.6132680E-07
+_— M 0.6321706 0.000000
+局 ) \/ Row Slack or Surplus Dual Price
+MA 1 282.6973 -1.000000
+V4 4 2 3.146213 0.000000
+e 3 7.367829 0.000000
+1

@@ -1,0 +1,1 @@
+村 呈 ” 让 else { tX-=X; x=0; } if(y>=ty) { yY 一 fy; ty=0; } else 全 H ty 一 y; SN y=0; °9= 丛 - nm-=tx*mx-+ty*my; c-=2*tx*ex+2%ty*cy; 这 nm>=0&&c>=0) 4s dfs(attday,now,nm,c,x,y,1); 全 attday=day: tx=sx[wealattday]]*2; ty=sy|wea[attday]]*2; o attday++; ° if(x>=tx) %A t X=tX; tx=0; 和 1 X Xo Sa N ty=0; } else ty 一 y; y=0; } 31

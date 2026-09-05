@@ -1,0 +1,40 @@
+是 刘
+114 工程 数学 学 报 第 20 着 oa
+[2] 宋 济 .知识 助 我 登 上 领 奖 台 [Jj. 游泳 ,2002;4:27 一 28
+[3] BRE. 毛泽东 畅游 九江 [J]. 游 瀛 ,2002;4:28 - 28
+[4] 史 力 生 .用 数字 直接 模拟 层 流 [J] ,长 沙 铁道 学 院 学 报 ,1994;12(2):43 - 54
+[5] 杨波 , 程 亮 , 陈 晶 , 李 亮 , 吴 菊 . 抢 滤 长 江 最 佳 路 线 的 探讨 [J] .数学 通讯 ,2002;24:42 一 43
+The Application of Mathematic Model in the Competition
+of Crossing the Changjiang River
+CHEN Li, PAN Hai-li, GUO Ling 一
+Instructor; CHEN Tao 全 人 本
+(Nanchang University, Nanchang 330047) 一 W
+2
+Abstract: This paper establishes the optimal model for crossing issue. At the re are present-
+ed on the first two questions given in the article. We also analyze the main ES the percentages different of
+people who can succeed in reaching the opposite bank in 1934 and in 2 the necessary requirements
+for those who can reach the destination successfully. In 2002 the an speed of those successful competitors
+was 1.43m/s. In the process of analyzing the latter problems, Ne that adjusting the competitor’s flat - out
+direction as current changes is brought forward to establish Model iT and Model 区， Model 内 provides an ideal
+crossing way in the case that one can adjust his flat ~- out direction at any time as current changes and gives a rela-
+tively rational distribution function of water speed. By Stalyring water speed on the foundation of the real condi-
+tion, we get a more rational distribution fu ion 人 water speed and build Model V. The LINGO and MATHE-
+MATICA software are used in proceeding to gort  Sprimized answer. By the end, the models established in this
+paper can be spread to other fields s air — flight, space flight and navigation.
+Keywords: the competition of h River; optimal route
+一 一 人
+(上 接 68 列 ) V
+Ko
+
+2 SAS software，we traverse all the 120 linear programming sub — problems, and get the most
+opti ‘solh ion. Based on the solution we use the greedy algorithm to get the least truck number and the plan
+for Ne routine. For problem one，we figure out that the minimal total transportation load is 85628. 62
+ton * kmythe seven forklifts are placed in the 1st,2nd,3rd，4th,8th,9th forklifts position, 13trucks are needed.
+For problem two, we use the similar solution to problem one, and make a full use of the present resource, we get
+a maximal production quantity is 103334 ton, 20 trucks are used, and forklifts are placed in the 1st, 2nd, 3rd,
+4th, 8th, 9th,10th forklifts position. The minimal transportation load is 147792.26 ton * km, the quantity of
+rocks is 49280 ton, the quantity of ore is 54054 ton
+
+Furthermore, we analyze the time when two trucks would wait in the same line, and the cost of time for a
+truck moving from one transportation routine to another.
+Keywords: primary - object method. greedy algorithm ,the time difference of transfer.

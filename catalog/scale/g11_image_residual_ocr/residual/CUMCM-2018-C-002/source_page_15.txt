@@ -1,0 +1,28 @@
+回味
+
+县
+
+中 基
+result3. append((x, y, n, supportCountX, supportCountY, supportX, sSupportY, c
+onfidence))
+
+break
+resul t3=pd. DataFrame (1ist (result3))
+result3. columns = [X， YX 商品 个 数
+”， SupportCountX ， SupportCountY ，supportX ，supportY ，confidence' ]
+result3. to_excel( C:/Users/yang/Desktop/fpgrowthResult. xlsx )
+end=datetime. datetime. now()
+calTs=(end-start). seconds
+全
+AN )J
+“W
+Z3
+外
+-
+ee
+% °
+一
+AL
+YX
+e
+15

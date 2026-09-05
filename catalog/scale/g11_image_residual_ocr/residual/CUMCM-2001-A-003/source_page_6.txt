@@ -1,0 +1,38 @@
+ES
+Opree=0
+臣
+人
+34 工 尾数 学 学 报 第 19; 国生
+变换 平面 上 ,把 样品 图 样 fx ,y) 放 到 输 人 平面 上 ,在 紧 智博 立 叶 变换 面 后面 的 场 为 ;
+Flu,v)T(u,v)
+={ Glu,v) I+ 1IF(u,v)Flu,v)G{u,vdexpl — iau]
++ Flu.uv)G"{u,v)expliau ]
+其 中 Faa) 为 Frz,y) 谱 函数 47 系 统 的 第 二 个 透镜 在 输出 平面 产生 F(z ,z)TUa,z) 的 傅
+立 叶 变换 。 由 三 项 的 相位 ,我们 可 以 得 到 三 东 光 不 同 的 传播 方向 。 从 而 可 以 得 到 这 三 项 经 透镜
+情 立 叶 变 换 后 在 输出 平面 的 位 置 .而 Fax,z)G” (az) 的 和 傅立叶 变换 正 是 我 们 所 需要 的 样品
+图 样 7(z= ,>) 和 模版 图 样 g(z,y) 的 相关 变换 .用 CCD(Charge Coupled Device) 来 扫描 相关 平
+面 , 即 可 精确 的 得 到 相关 尖峰 的 位 置 . 这 种 用 光学 原理 实现 上 述 相关 操作 的 方法 ,避免 将 实验
+中 得 到 的 切片 图 样 厅 人 计算 机 中 时 所 造成 的 图 象 信息 的 丢失 ,从 而 大 大 提高 了 结果 的 精确 程
+度 。
+参考 文献 : 全 从 >
+[1] SkFE. Jummube S. 近代 光学 信息 处 理 [M] 北京 :北京 大 学 出 版 杜 .1998 = W
+[2] RML4, Gh4BE. 光学 [M] 北京 :北京 大 学 出 版 社 ,1984 2
+Three-dimensional reconstruction of blood 全 from a
+， SOS
+2D correlation analysis “人 elsslices
+HU in XIANG 是 Xiang
+Adviser: WANG/Luo-peng
+(Department of Physics, Peking 2 100871，PR China)
+Abstract: The concept of correlation has been widely used in image processing to idenufy and locate similar parts jn different im-
+ages. In this report we utilized FFT and iFFT t cgl celuio peratons on a set of 2D blood vessel shees to recoustruct the spatial
+shapes of the vessel body and jrs axes 本 of the blood vessel was determined and used to draw the 3D scructures of
+the vessel and its axes via MathCAD We' ve d; foes from the computer generated figure and the result well fit the given slice
+bitmaps. We also analyzed both the strong and weak p) ts of our method and presented a briel discussion on how to make a 3D re-
+constroction by metheds n modern & ptical information prcessing instead of pure math and computational means.
+Key words: del 3 tructian ; J PT
+y + model; reconstruction; =
+和 =
+7 人
+1K%
+证
+EEC -一

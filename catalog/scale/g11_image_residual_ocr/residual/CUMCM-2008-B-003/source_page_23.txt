@@ -1,0 +1,44 @@
+EREAE
+EEE
+fout <<2002+z << "年 标准 学 费 :" << tutor money <<" "
+float max_money = country_money[z]*country_people[z]*(1-city per[z]) 十
+city_money[z]*city_people[z]*city_per[z];
+cout << "上 限 学 费 :" << max_money <<" "
+fout << "上 限 学 费 :" << max_money <<" "
+float min_money = (other_money[z]*difi][z] +
+shenghuofei[i][z])*(quanzhongrenjun/per_gdp[z])*special_age[j]-shenghuofei[i][z];
+cout << "下 限 学 费 :" << min_money << endl;
+fout << "下 限 学 费 :" << min_money << endl;
+}
+}
+cout << endl; A7
+| : 必 v
+return 0; 2XG \
+一
+，
+(2) 不 考虑 区 域 差 异 、 7 学 费 和 下 限 学 费 的 VC++ 程 序 。
+#include <iostream> 二
+#include <fstréam> ' 4
+using namespace std; @
+人
+int main() /2
+{
+ofstream fout("b.txt"); i
+/ 中 等 偏 下 户 城镇 居民 入
+double aa .96, 5377.25, 6024.1, 6710.58, 7554.16};
+/ 农村 居民 人 均 纯
+double coun AN = {2476, 2622, 2936, 3255, 3587};
+// 城镇 本
+\ig/s -
+double 站 ={0.65, 0.65, 0.65, 0.65, 0.65
+NATS
+矶 bm 生产 总 值
+dieper sdp[5l ={8184, 9101, 10561, 14040, 16084};
+/ 成 本 系数
+double chengbenxishu = 1.1;
+/ 学 历 系数
+double school age =1;
+/ 专业 系数
+double special_age =1;
+/ 生 均 生活 、 学 习 费
+21

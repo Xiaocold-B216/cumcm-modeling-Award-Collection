@@ -1,0 +1,25 @@
+% Map Minimum and Maximum Input Processing Function
+functiony= mapminmax_apply(x,settings)
+yY= bsxfun(@minus,x,settings.xoffset);
+y = bsxfun(@times,y,settings.gain);
+y = bsxfun(@plus,y,settings.ymin);
+function a = tansig_apply(n,~)
+a=2./(1+exp(2*n)- 1;
+% Map Minimum and Maximum Output Reverse-Processing Function
+function x = mapminmax_reverse(y,settings)
+x = bsxfun(@minus,y,settings.ymin);
+x = bsxfun(@rdivide,xsettings.gain);
+x = bsxfun(@plus x, settings.xoffset);
+6+_real_sim.m
+% x3 = [0.01,0.02,0.05,0.005);
+% x5 = [250,275,300,325,350);
+xl = [200,50,67,33);
+X2 = [200,50,0,67,33];
+x4 = [1.68,0.9,0.3,2.1];
+X5 = [250,275,300,325,350,400,450];
+z=[];loc=[];
+foril=1:length(x1)
+
+%
+
+K MEAZE]

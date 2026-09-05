@@ -1,0 +1,30 @@
+综 上 式 子 可 得 : RG_, % p 2C (26)
+0, 0, ox
+> 了 和 PK  Oy
+式 中 ， 及 为 延 洁 系 数 ， 即 尺 -1+C4 2 (27)
+0.H O0H
+延 滞 系数 及 代表 污染 物 运 移 时 由 于 发 生 了 水 一 气 及 水 一 固体 颗粒 之 间 的 物质 交
+换 而 产生 的 延 洁 作 用 。
+则 土壤 中 污染 物 的 总 浓度 ，@Q, =C, +C, +q,
+由 污染 源 排放 出 的 该 重金 属 的 总 量 为 ， 人 = | [Poasd (11)
+由 质量 守恒 可 得 出 ，@ =O +O，, 即 ，
+[[cCeyrrA)-cCcpDpc+r[ [q-ndsdt =["[ [ pydsar (12)
+HE E F B Gauss AXh: [g-ds = [ [divgdo— (18)
+则 式 子 (12) 可 以 转换 成
+Cxayut+A1)~C(x,3.1) bo $ _ w
+[ j| Slera)-Clni, ou Jaido=[ [ asa 10)
+有 5C _ fim Clont+A)=Clxy) lim | kdiv(gradc)dt (5)
+Bl Ai 一 0 At At—0 At
+oC 一
+故 式 子 (14) 即 可 转换 成 1 国 妆 2 Jaivido sr- 站 wwe (16)
+[ec -
+化 简 得 : I1[ 5 po ffaviaor-r (17)
+根据 A. Fick 扩 散 微 分 方程 式 中
+3 ac (18)
+ot oX oY ozZ oX 7 6Z
+其 中 ;为 气体 浓度 ，t 为 时 间 ， 耻 ,加 ,可 为 xy z 方 向 风速 ; 大, 尖 江 为 xm
+方向 上 的 扩散 系数 。
+假设 重金 属 污染 物 在 无 风 条 件 下 扩散 ， 此 时 有 ，
+2 (19)
+6 0 ”py 6z
+13

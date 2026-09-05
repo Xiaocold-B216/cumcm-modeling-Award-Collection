@@ -1,0 +1,40 @@
+for i=4:-1:1
+XZ=XG+Lxsin (minthital (i));
+x=xq:0.0001:xz;
+y=yq+cot (minthital (i))* (x-xq) ;
+yg=yq+cot (minthital (i))* (xz-xq) ;
+XQ=XZ;
+plot (xy 'LineWidth',2);
+hold on
+plot(xq,yq,'."','color','r', 'LineWidth', 50)
+end
+line([0,22],10,0], 'color', 'k', 'LineWidth',2);hold on;
+line([0,22],[18,18], 'color','k', 'LineWidth',2) ;hold on
+line([xg-1,xq+1], [yq,yq], 'LineWidth',2);hold on
+line ([xg9-1,x9-1], [yq,yg+2], 'LineWidth',2) ;hold on
+line([xg-1,xg+1], [yg+2,yqg+2], 'LineWidth',2) ;hold on
+line ([xg+l,xq+1l], [yq,yg+2], 'LineWidth',2) ;hold on
+axis ([0 30 -2 20])
+ylabel ('#%a°£ 2 BIE(m)');
+xlabel ('A8A®pA%aAs (m) 小
+hold off
+附录 六 ， 三维 模型 制图
+n=140;
+xq=0;
+ya=0;
+zq=0;
+Lm=0.18;
+L=1;
+$minthital=minthital(5:8);
+$minthita2=minthita2(211:420);
+$minbeta=minbeta (2) ;
+for i=n:-1:1%A%A"
+xz=xq+Lm*sin (minthita2 (i)) *cos (gama4 (i));
+x=xq:0.001:xz;
+y=ygttan (gama4 (i)) * (x-xq) ;
+yg=yg+tan (gama4 (i)) * (xz-xq) ;
+z=zqg+ (x-xq) ./cos (gama4 (1)) . *cos (minthita2 (i));
+zg=zq+ (xz-xq) ./cos (gama4 (i)) .xcos (minthita2 (i));
+XQ=XZ;
+plot3(x,y,z, 'LineWidth',2);
+34

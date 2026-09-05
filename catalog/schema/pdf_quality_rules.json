@@ -1,0 +1,61 @@
+{
+  "rules": [
+    {
+      "condition": "pdf_type == text_based AND no critical issues",
+      "routing": "NATIVE_TEXT_REVIEW",
+      "potential_quality": [
+        "Q0",
+        "Q1"
+      ],
+      "name": "Text-based native"
+    },
+    {
+      "condition": "pdf_type == text_based AND has critical issues",
+      "routing": "ENCODING_REVIEW",
+      "potential_quality": [
+        "Q1",
+        "Q3"
+      ],
+      "name": "Text-based with issues"
+    },
+    {
+      "condition": "pdf_type == mixed",
+      "routing": "MIXED_TEXT_OCR_REVIEW",
+      "potential_quality": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "name": "Mixed PDF"
+    },
+    {
+      "condition": "pdf_type == scanned",
+      "routing": "SCAN_VISUAL_REVIEW",
+      "potential_quality": [
+        "Q2",
+        "Q3"
+      ],
+      "name": "Scanned PDF"
+    },
+    {
+      "condition": "pdf_type == image_based",
+      "routing": "IMAGE_VISUAL_REVIEW",
+      "potential_quality": [
+        "Q3",
+        "Q4"
+      ],
+      "name": "Image-based PDF"
+    },
+    {
+      "condition": "open_error",
+      "routing": "OPEN_FAIL_REVIEW",
+      "potential_quality": [
+        "Q5"
+      ],
+      "name": "Open failure"
+    }
+  ],
+  "created_at": "2026-08-19T13:27:59+08:00",
+  "version": 1,
+  "note": "pdf_type does NOT directly determine final Q class"
+}

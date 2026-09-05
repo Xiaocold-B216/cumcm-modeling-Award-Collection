@@ -1,0 +1,42 @@
+ERE
+RE
+wsn
+fout _Time 《《“ 起 始点 : ” << nStart << endl;
+fout Time “《《“ 目 标点 : ” << nEnd 《< endl;
+fout Time << "HEHHHBHHHERBIHERERIBEEHERERER BBBRIIEIE” 《< end];
+fout Time “《“ 直 达 情 况 下 : ” <C endl;
+fout Time 《《“ 总 共有 : ” << FeasibleSolve 0.size() 《“(” 种 ”< endl;
+OutPutTimeCal (fout Time，Time_0) ;
+fout_Time << "HEHHHBHHHERBIHERERIBEEHERERER BBBRIIEIE” 《< end];
+fout Time “《《“ 一 次 换 乘 下 : ” < endl;
+fout Time 《《“ 总 共有 : ” << FeasibleSolve 1.size() 《(” 种 ”< endl;
+OutPutTimeCal (fout Time, Time 1) ;
+fout_Time << "HEHHHHEHERHIHEHTHRIBHERERIHERUBREBEERERIIIINE” 《< end];
+fout Time “《《“ 二 次 换 乘 下 : ” < endl; A7
+fout Time 《《“ 总 共有 :: ”《《 FeasibleSolve 2.size() <<” Ff” << endl; NY
+OutPutTimeCal (fout Time, Time 2); 2G \)
+H~
+/% ofstream fout BusChange( (strPartNamet“ 转 乘 .txt ) . 人
+multimap<{float, vector<int> > BusT 0 = CostCalcul ANR AllLines ) ;
+multimap<{float, vector<int> > BusT 1= CostCal oulate (FeasibleSolve 1, AllLines ) ;
+multimap<{float, vector<int> > BusT 2 = AllLines ) ;
+Le
+fout_BusChange “《《“ 起 始点 : MA% nStart(«< endl;
+fout_BusChange “《“ 目 标点 : << endl;
+fout_BusChange << EPRI£ A —— << endl;
+fout_BusChange << ” EL 异 见 下 ”<“< endl;
+fout BusChange << ”4ik 有 jj 《《 FeasibleSolve 0. size() ”种 ”《“《 endl;
+OutputCostCaLtout_ Bus ange, BusT 0) ;
+fout_BusChan CHESHEHERHHREHEHE R  S  H  B ” 《< end] ;
+fout_BusCl oo 人 sm ” << endl;
+fou 0 < “总 共有 :“《《 FeasibleSolve 1.size() <<” ff” << endl;
+oo (fout_BusChange，BusT_1) ;
+SU ange 《《 HEHEHHHEEREEHIREHHRIHEERERERHERHES BRSREHIER” 《< end] ;
+1 BOsChange <“ 二 次 换 乘 下 :“《《 endl;
+Te < “总 共有 :“《《 FeasibleSolve 2.size() <<7 ff” << endl;
+OutPutCostCal (fout_BusChange，BusT 2) ;
+*/
+/%
+ofstream fout (“ 换 乘 二 次 的 解决 方案 .txt ”) ;
+ofstream fout1( “测试 费 用 .txt ) ;
+28

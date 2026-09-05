@@ -1,0 +1,45 @@
+CRNTS
+Cappend(fsn)
+
+AW.append(AN)
+
+BW.append(BN)
+
+CW.append(CN)
+workbook = xlsxwriter Workbook( 转 运 ABCxlsx) # 建立 文件
+worksheet = workbookadd worksheet)  # 建 立 sheet ， 可 以
+workadd_worksheet(employee) 来 指定 sheet 名 ,但 中 文 名 会 报 UnicodeDecodeErro
+的 错误
+worksheet write(1, 0, 'A")
+worksheet write(2. 0. 'B')
+worksheet write(3, 0, 'C')
+k1
+fori in range(len(AW)):
+
+worksheetwrite(0.i+ 1, "Ttstro)
+
+kt=1
+
+ifk 一 9:
+
+Ke1
+
+werksheetwriteCl i+1, AW[i])
+
+worksheet white(2, i+1, BWIil)
+
+worksheet write(3, i+1, CWIil)
+workbook close()
+介绍 : 对 确定 的 供 货 商 偶 心 求解 供 货 量 分 配 的 规划 ， 相 比 T2 修改 了 目标 函数 ，
+输入 : 期 望 供 货 量 .xlsx; 和 输出 表格 : 订单 量规 划 结 果 .xlsx
+importrandom
+import numpy as np
+import xlrd
+import xlsxwriter
+def takeCB(elem):
+
+retum elem[0]
+excel = xlrdopen_workbook(" 期 望 供 货 量 xlsx" vb
+sheet ~ excelsheet_by_name(Sheetl’)
+
+人

@@ -1,0 +1,27 @@
+第 7 期 昔 中 康 ， 长 江水 质 综合 评价 与 预测 的 数学 模型 75
+可 能 还 有 很 多 好 的 答卷 和 很 好 的 做 法 没有 看 到 ， 这 里 讲 的 不 一 定 全 面 。 因 此 ， 也 希望 有 更 多 的
+同行 和 学 生 一 起 来 讨论 、 交 流 和 研究 相关 的 问题 ， 本 人 的 E-mail: zhghan@163.com 。
+
+致谢 对 会 国 组 委 会 的 专家 、 中 国 发 展 研究 院 的 章 琦 教授 、 华 东 师 大 的 陆 健 健 教授 和 《长 江 年 鉴 》 编
+辑 部 、 水 利 部 中 国 水 环境 研究 院 信息 中 心 和 水 质 研究 所 的 有 关 专 家 ， 以 及 多 年 给 予 我 关心 和 帮助 的 同行
+们 一 并 表示 衷心 的 感谢 。 ， -
+参考 文献 ;
+[1] 虽 超 源 . 决策 理论 与 方法 [M], 北京 ， 科 学 出 版 社 ，2003
+[2] 郭 亚军 , 综合 评价 理论 与 方法 [M], 北京 ， 科 学 出 版 社 ，2002
+[3] 韩 中 庚 . 数学 建 模 方 法 及 其 应 用 [M]. 北京 ， 高 等 教育 出 版 社 ，2005
+[4] 韩 中 庚 . 招聘 公务 员 问题 的 优化 模 列 与 评述 加 , 工程 数学 学 报 ，2004,21(7):147-154
+[5] 韩 中 庚 . 研究 生 录取 问题 的 优化 模型 与 评述 中 数学 的 实践 与 认识 ，2005,35(Y):126-135
+{6] 国家 环保 总 局 , 长 江 流域 水 质 检测 数据 [R/OBU. http://ww2.sepa.gov.cn/apps/Queryqgzdwaterenv jsp
+
+The Mathematical Model of Water Quality Comprehensive
+Evaluation and Prediction of the Yangtze River
+HAN Zhong-geng
+
+( Institute of Information Engineering, Information Engineering University, PLA, zhengzhou 450002 )
+Abstract: In this paper, according to the problem A of 2005 HIGHER EDUCATION PRESS CUP CUMCM,
+the motivation and background of the problem of water quality evaluation and prediction of the Yangtze River are
+introduced. Then the practicable solution methods and its results of the problem are given. Finally, according
+to the grading papers process, the comprehensive comments of the outline of grading, the solution methods and
+the existing problems are given.
+Keywords: water quality of the Yangtze Rive; water quality class ification; comprehensive evaluation and
+prediction; water quality model

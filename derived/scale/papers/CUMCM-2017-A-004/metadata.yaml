@@ -1,0 +1,44 @@
+paper_id: CUMCM-2017-A-004
+year: 2017
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q2
+authority_sources:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017A：CT系统参数标定及成像  (1).pdf
+  sha256: 6A72506FA1F46C21B5F9A35B5B40D85C2B3B8742B16C7724624DF65049538CBF
+authority_sha256: 6A72506FA1F46C21B5F9A35B5B40D85C2B3B8742B16C7724624DF65049538CBF
+paper_file_memberships:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017A：CT系统参数标定及成像  (1).pdf
+  role: primary
+  canonical: true
+primary_file: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017A：CT系统参数标定及成像  (1).pdf
+extraction_inputs:
+- path: derived/scale/pdf_ocr/CUMCM-2017-A-004.readable.pdf
+  sha256: 9AC6499E48FEE0FCF7A751AF599BC1D9B90447BF7FB3DE2489CFE537D7B8B6A1
+  kind: g8_q2_ocr_derivative
+extraction_input_sha256: 9AC6499E48FEE0FCF7A751AF599BC1D9B90447BF7FB3DE2489CFE537D7B8B6A1
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: poppler-pdftotext
+page_count: 47
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+repair_provenance:
+  stage: G8-Q2-R
+  paper_id: CUMCM-2017-A-004
+  source_file_path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017A：CT系统参数标定及成像  (1).pdf
+  source_sha256: 6A72506FA1F46C21B5F9A35B5B40D85C2B3B8742B16C7724624DF65049538CBF
+  derived_file_path: derived/scale/pdf_ocr/CUMCM-2017-A-004.readable.pdf
+  derived_sha256: 9AC6499E48FEE0FCF7A751AF599BC1D9B90447BF7FB3DE2489CFE537D7B8B6A1
+  page_count: 47
+  ocr_engine: tesseract.js
+  ocr_engine_version: 7.0.0
+  ocr_languages: chi_sim+eng
+  page_audit_rows: 47
+  unexplained_pages: 0
+  status: PASS

@@ -1,0 +1,71 @@
+cout<<endl;
+}
+for(int ii=1;ii<9;ii++){
+for(int jj=0;jj<100;jj++){
+if(endtime1[ii][jj]!=0){
+cout<<ii<<" : "<<endtime1[ii][jj]<<" ";
+cout<<endl;
+}
+
+交
+
+流
+
+}
+}
+for(int ii=1;ii<9;ii++){
+for(int jj=0;jj<200;jj+=2){
+if(endtime2[ii][jj]!=0&&endtime2[ii][jj]!=-1){
+
+研
+
+cout<<ii<<" : "<<endtime2[ii][jj]<<" "<<endtime2[ii][jj+1]<<" ";
+cout<<endl;
+
+：
+科
+
+}
+else if(endtime2[ii][jj]==-1){
+
+微
+
+信
+
+公
+
+众
+
+号
+
+cout<<ii<<"
+:
+"<<endtime2[ii][jj]<<"
+"<<endtime2[ii][jj+2];
+jj++;
+cout<<endl;
+}
+}
+}
+}
+void out(int worse){//输出 excel 中结果
+if(worse == -1){
+max_num = num;
+for(int ii=1;ii<9;ii++){
+for(int jj=0;jj<100;jj++){
+max_endtime1[ii][jj] = endtime1[ii][jj];
+}
+}
+for(int ii=1;ii<9;ii++){
+for(int jj=0;jj<200;jj+=1){
+max_endtime2[ii][jj] = endtime2[ii][jj];
+}
+}
+for(int i=1;i<9;i++){
+max_numm1[i] = numm1[i];
+max_numm2[i] = numm2[i];
+35
+
+"<<endtime2[ii][jj+1]<<"
+
+

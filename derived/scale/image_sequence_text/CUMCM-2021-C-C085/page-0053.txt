@@ -1,0 +1,40 @@
+mow_ObF0
+for jin name:
+forzin range(w):
+oObiLE += GHLIE]
+"forzin range(L.w):# 往 前 看 一 周
+if ObJL{z]>0 and ObijLIz-1j<0
+oObiLE-=ObjLz-1
+ObiLE] “max(ObiL{z]0)"
+forzin range(w-1, 1.-1):
+让 ObjLIzj-C<0:# 第 一 周
+x=C-ObjLI
+让 ObiLIz-1-C>0:
+证 x<ObjLIz-1]-C;
+ObiLz - 1]-=x
+ObiLIzj+=x
+else:
+Y-ObjL{z-1]-C
+ObjLfz-1]-=y
+ObjL{z] +=y
+让 ObjLIzj-C<0:# 第 二 周
+x=C-ObjLI 可
+if ObjL[2-2]-C>0:
+if $<OBJL[22]-C:
+ObjL{z - 2]-=x
+ObjL{z}+=x
+else:
+y-ObjL{z-2}-C
+ObjLiz-2]=y
+ObjL{z] +=y
+z=1
+ifObjLIz] - C <0:
+x=C-ObiLE]
+ifObjLIz- 1]-C>0:
+ifx < ObjLz-1]- C
+ObjLiz- 1]-=x
+ObjLfz] +=x
+else:
+¥=ObjLz-1]-C
+ObjLz-1]-=y.
+5

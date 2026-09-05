@@ -1,0 +1,64 @@
+A=xj2wl(oA);B=xj2wl(oB);C=xj2wl(oC);D=xj2wl(oD);E=xj2wl(oE);
+[A;B;C;D;E]
+[round(wl2xs(A));round(wl2xs(B));round(wl2xs(C));round(wl2xs(D));round(wl2xs(E))]
+
+附录六 计算精度误差程序
+
+研
+
+交
+
+流
+
+%jdwc.m
+%计算精度误差
+bound_zb;
+qj;
+wc=[];
+jl=[];
+jlj=[];
+nzb=[];
+yx=[oA;oB;oC;oE;oD];
+for i=1:5
+for j=1:length(zb_bound{i}(:,1))
+h=-oa*inv([xs2wl([zb_bound{i}(j,2),zb_bound{i}(j,1)]),1577;ab;ac]);
+nzb=-h(1)*[xs2wl([zb_bound{i}(j,2),zb_bound{i}(j,1)]),1577];
+jl=norm(nzb-yx(i,:));
+jlj=[jlj;jl];
+end
+wc=[wc;mean(jlj),std(jlj)];
+jlj=[];
+end
+wc
+wc(:,1)-12*3.78
+wc(:,2)./wc(:,1)
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+数学中国
+www.madio.net
+
+微
+
+附录七 稳定性模拟程序
+注：以下程序是在前面附录的基础上修改或增加而来的，为避免重复，这里只有修
+改过的程序，其他相关程序请参照前面附录
+%wdx.m
+bound_zb;
+dqp=0.3;
+wdx_zb=zb_bound;
+total_result={};
+for cs=1:10
+zb_bound=wdx_zb;
+34
+
+

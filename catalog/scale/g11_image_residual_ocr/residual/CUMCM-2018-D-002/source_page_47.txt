@@ -1,0 +1,44 @@
+和
+-
+else
+{
+bb—=a2. ys [0]
+for ( ;a2. yS [0] 1=0;a2. ys [0] 一 )
+zZ [z1++] =0;
+for (;a2. ys[2] !=0;)// 蓝 、 白 车
+{
+if (z1%2==0)
+{
+z[z1++]=2;bb——;a2. ys[2]—;
+if (bb==0) break; y
+z[z1++]=1;bb—;a2. yS [1]1—; -从 >
+if (bb==0) break; Lp “由
+} 3 g
+else / 了
+{ X
+z[z1++]=1;ab—;a2. ys[1]—; ADN
+if (bb==0) break; SN
+z [z1++] =2; ab 一 ;a2. yS [2] -RS
+if (bb==0) break;
+}
+} O
+At He H 天 的
+有 2 水 于 水 水 于 水 六 于 冰冰 水 玉 冰 水 玉 于 冰冰 水 炒 炒米 于 冰 求 rerooreororr/
+for (;a2. ys[5] 1=0&&a2. ys [4] 1=08&bb!=0;) //R 金
+{
+if oo
+{ 一 7
+[ ]=5;bb 一 ;a2. ys [5] 一 ;
+o WeH break;
+AN z[z1++]=4;bb—;a2. ys[4]—;
+下 4 if (bb==0)break;
+Sa else
+NY «
+乙 [z1++] =4 和 bb 一 a2. yS [4] 一 ，
+if (bb==0)break;
+z[z14+]=5;bb—;a2. ys[6]—;
+if (bb==0)break;
+}
+}
+if (a2. ys [4]==0)
+47

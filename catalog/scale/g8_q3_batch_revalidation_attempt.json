@@ -1,0 +1,15 @@
+{
+  "stage": "G8-Q3-BATCH-REVALIDATE-UNDER-FROZEN-CONTRACT",
+  "attempt_id": "20260903T063950668735_29d8de39",
+  "status": "PASS",
+  "current_paper_id": "",
+  "completed_count": 128,
+  "failed_count": 0,
+  "current_gate": "PHASE_3_FINAL_GATE",
+  "updated_at": "2026-09-03T06:40:01.432+00:00",
+  "source_batch_attempt_id": "20260902T181812821882_f3ed3664",
+  "binding_update_allowed": 1,
+  "ocr_run": 0,
+  "pdf_render_run": 0,
+  "body_reconstruction_run": 0
+}

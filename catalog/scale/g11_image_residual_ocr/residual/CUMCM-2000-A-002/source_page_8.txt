@@ -1,0 +1,39 @@
+BliE
+和
+1 期 吕 人 金 翅 等 :DNA 序列 分 类 的 数学 模型 asa
+变 短 , 但 是 由 随机 信号 在 各 方向 上 的 平均 性 , 总 体 前 进 方向 并 未 受到 影响 , 故我 们 只 提取 方
+向 而 忽略 距离 作为 特征 信息
+我 们 从 不 同 角度 , 提取 序列 整体 上 和 局 部 之 间 的 特征 , 建立 了 以 上 三 种 数学 模型 三 种
+模型 各 有 优 劣 , 但 他 们 在 特征 提取 , 模式 识别 和 分 类 上 的 都 具有 一 定 的 普 适 性 和 优越 性
+参考 文献:
+[1] 郝 柏 林 , 刘 寄 星 理论 物理 与 生命 科学 上 海 科学 技术 出 版 社
+[2] 金 冬 燕 , 金 ” 奇 , 侯 云 德 核酸 和 和 蛋白质 的 化 学 合成 与 序列 分 析 科学 出 版 社 #7
+一
+一 SS
+<Z
+The M athematical M odels on the Classir a tion
+of The DNA Sequence
+LU Tin-chi, MA Xiao-long, 4 ang
+(The U niversity of Science and Technolo 和 Hefei 230026)
+J \S
+Abstract  This paper dealsw ith the problem of how to classity the DNA sequences from three
+different angles and accordingly establishes three kinds of models
+Firstly, on the point of biological backeiound and geometrical symmetry, we established a
+descriptive model of 3-dmensio: d % curve on the DNA sequence, by which we got a
+rudin entary mathem aticalmodel-Cajeul dsmodel Through the integration of themodel function,
+we have acquired the classification results of the DNA sequences from 1 to 20, and found them
+identical to the cr 让 iven by the problem. Then we classified the latter 20DNA
+sequences )
+Then, on the.view-of 中 neural networks, a second model - The A rtificial neural
+networks 全 和 We chosen three kinds of basic networks, which well fit into
+the classifi tion at last And by the same tine,we proposed the mprovementof theBP network,
+and. gain comparatively ideal classification results by varius training programmes
+also, id the results identical to what we have got by Calculus model
+\ g end,we endowed A,C, G, T with geometrical meaning: A indicates right,while C as
+有 9 asup,Tasleft We got amobile curve from each sequence with the points of theplain
+As according to the controlling of theDNA sequence By follow ing the feature of themoving
+人 NS themodel function was established By thewayweacquired the classification results of
+the latter 20DNA sequences and found them practically identical to the results of the two above
+models (One of results differently showed in this model is regarded as indivisible) This model
+containsmore information, and ismore stable
+> -2008 China Academic Journal Electronic Publish: Se 1lrights t ki.ne

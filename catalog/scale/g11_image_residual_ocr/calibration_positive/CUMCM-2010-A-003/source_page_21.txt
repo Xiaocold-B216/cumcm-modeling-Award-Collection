@@ -1,0 +1,39 @@
+回避
+本
+double tmp = 0;
+for(int o = 5; o <= 290; o++)
+{
+t = numy[o];
+out = numx[o];
+t /= 1000;
+out /= 1000;
+H = 1.5-(1.5-t) *cos (p2) ;
+H1 = H+2%tan(pl) ;
+H2 = H-6*tan(pl) ;
+hl = HI-1.5;
+一 . 人
+h2 = H2-1.5; _ >
+V1 = f(h1)+f (h2) +g (H1) ; 全 “\
+tmp += (V1-q+out)* (Vl-g+out) ; 人行-
+}
+if (tmp < ans) AR
+{
+ans = tmp; 全
+ansx = i; 了
+ansy = j;
+ansz = q;
+J °
+} 人 @
+%
+if(ans < ansk)
+{
+ansk = al
+tte=ansx;
+S ，
+-7 叫 信
+7
+ro %1f total:%1f\n”, ansx/100, ansy/10, q);
+1 / f( 答案: %. 21f %1f total:%1f\n”, tt/100, ss/10, pppp);
+eturn 0;
+}
+-20 -

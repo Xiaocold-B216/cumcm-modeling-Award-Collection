@@ -1,0 +1,45 @@
+回味
+多 二 是
+附录 二 提取 轮廓 源 程序
+%boundary.m
+% 提 取 边 界
+data;
+bound=zeros(length(dat(:,1)),length(dat(1,:)));
+for i=1:length(dat(:,1))
+for j=1:length(dat(1,:))
+if dat(ij)==1
+if dat(i-1j)==1 & dat(i+1,j)==1 & dat(ij-1)==1 & dat(i,j+1)==1
+bound(i,j)=0; 一
+else 四 从
+bound(i,j)=1; ° SS
+end 2XG
+else ood
+bound(i,j)=0;
+end 全
+end As
+end X
+% 检 测 孤立 点  4
+for i=1:length(dat(:,1))
+for j=1:lenigth(dat(1,3))
+if dat(ij)==1 9
+if dat(i-1)=0 & dd 在 )- 丰 gsdatGj-D 一 0 & dat(ij+1)==0 & dat(i-
+1,j+1)==0 & dat(i21 j-1)=£0 & daf(i+]45 人 £0 &dat(i+1j-1)==0
+” 噶 =0 消
+end -
+end ¥
+end ——
+wd |
+clear i;clear j; y/) 站
+Kx
+SVM
+0
+%bound_zb.m
+% 求 轮廓 坐标
+boundary;
+zb_bound={};
+h=0;a=bound;
+while h==0
+m=[];
+for i=1:length(a(:,1))
+for j=1:length(a(1,:))
+26

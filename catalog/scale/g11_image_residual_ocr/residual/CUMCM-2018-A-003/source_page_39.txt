@@ -1,0 +1,47 @@
+ERE
+ARET
+Ne  Re
+int time = 0;
+int pos = 0,next_pos = 0;/ 小 车 起 始 位 置
+bool begin = 0;
+while(time<3600*8){
+/ 兴 束 素 水 束 求 束 求 事理 平 人  E kkddokok /
+for(int j=1;j<9;j++){
+T[j] = Lipos]j] + rep[j] + B[j]*put_down ;
+if(S]-LIposliD)> 0)
+T(j] += (S[j}-Llpos][j])¥inf;
+/移动 T+ 上 下 料 T+ 清洗 T+ 假设 不 会 提前 过 去 等 待
+aa 全
+next_pos = min_index(T);/ 选 择 代价 最 小 的 -从 >
+iTnext_pos] < inf) // 若 过 去 无 需 等 待 ， 则 选择 。 2 \)
+{
+for(int i=1;i<9;i++){ 由 一
+S[] -= TInext_pos];/ 选 择 后 ， 在 这 一 过 程 中 各 与 y 无 法 做 其 他 工作 ， 所 以
+下 一 次 选择 经 过 T[next_pos] 时 间
+/此 时 若 S 为 正 ， 则 说 明 CNC 机 器 经 过 /8 四 秒 后 可 以 加 工 下 一 任务 ;
+/ 潜 $ 为 负 ， 则 说 明 ro [下 完毕， 等 待 S 四 各
+} AS
+S[next_pos] = pro - B[next_pos]*put_down;
+time+=T[next_pos];// 时 间 需 要 延长 这 个 过 程 的 时 间
+endtime[next Po 人 iext_pos]]=time-B[next_pos]*put_down-rep[next_pos];
+numm[next_pos]++;
+cout<<time-B[next_pos] *put-down<<" : "<<pos<<"->"<<next_pos<<endl;
+cout<<mow: fime<<"S:";
+for(int j=1;j<93j% B out<<Sfj] <<"
+coutssendl7 ]
+| Ye _pos];
+与 pos=hexf pos;
+MA _pos] = 1;
+aa Epos);
+SA (B[next_pos] 一 0){
+| // error[next_pos][numm[next_pos]]=1;
+SA， breakBeT[numBR] = time;
+breakEnT[numBR] = time+breaktime;
+breakPos[numBR] = next_pos;
+numBR++;
+}
+ki
+else{
+time++;
+for(int i=1;i<9;i++){
+39

@@ -1,0 +1,29 @@
+{
+  "schema": "g8-q3-batch-provenance-v1",
+  "paper_id": "CUMCM-1995-A-007",
+  "source_sha256": "54A11CF48AE68C35804EF9F44320C3EA2CCBD828CFE8B8946DFDE07C2D87A75E",
+  "pages": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "92CAFD1EB893C61899FEF2A096AD69E04E90EE8615C8A8140641ECB05F899E30",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "45F189856729FDED4FDFA63276625FEFF6CFE38FCB8AF70036348EE556FD6691"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "920F6860CAA370DFED3F893E373A1F22CA5B99C847C0EF6A60CED3C8AB0E74C7",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "A4AADEF2D4FD25799FFFFE2B7ECC68058A285BD5F8DDFAF007D0B4F0D5BCED39"
+    }
+  ]
+}

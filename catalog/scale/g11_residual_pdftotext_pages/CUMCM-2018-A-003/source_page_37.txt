@@ -1,0 +1,65 @@
+subplot(212)
+plot(t,wei,'-^')
+axis([0 10000 0.5 4.5])
+xlabel('当前时间 t');
+ylabel('RGV 所在位置');
+title('case2 的 RGV 调度轨迹')
+
+Case3:
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+result1:
+由于不同组数据间代码较为相似，我们使用第一组数据为例：
+#include<iostream>
+#include<ctime>
+#include<stdlib.h>
+using namespace std;
+#define inf 5000//无穷大
+int pro = 560;//加工时间
+int rep[9] = {0,28,31,28,31,28,31,28,31};
+int put_down = 25;
+int L[9][9] = {
+0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 20, 20, 33, 33, 46, 46,
+0, 0, 0, 20, 20, 33, 33, 46, 46,
+0, 20, 20, 0, 0, 20, 20, 33, 33,
+0, 20, 20, 0, 0, 20, 20, 33, 33,
+0, 33, 33, 20, 20, 0, 0, 20, 20,
+0, 33, 33, 20, 20, 0, 0, 20, 20,
+0, 46, 46, 33, 33, 20, 20, 0, 0,
+0, 46, 46, 33, 33, 20, 20, 0, 0};
+int S[9] = {0,0,0,0,0,0,0,0,0};//加工剩余时间
+bool B[9] = {0,0,0,0,0,0,0,0,0};//是否有孰料
+int num = 0;//成品数量
+int T[9] ;//当前状态到达其他 CNC 加工台的代价
+int endtime[9][10000]={0}; //记录时间
+int error[9][1000]={0};
+int numm[9]={0};
+int breakNo[100],breakBeT[100],breakEnT[100],breakPos[100],numBR = 0; //记录故障
+void out(int endtime[9][10000]){
+for(int ii=1;ii<8;ii++){
+numm[1]+=numm[ii+1];
+}
+cout<<"ALL"<<numm[1]<<endl<<endl;
+for(int ii=1;ii<9;ii++){
+37
+
+

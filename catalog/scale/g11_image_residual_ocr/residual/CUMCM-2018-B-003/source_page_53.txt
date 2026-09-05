@@ -1,0 +1,45 @@
+回味
+多 二 是
+aa(1,1)=start(1);
+aa(1,2)=t0;
+t0=t0+T(6);
+aa(1,3)=t0+T(4);
+aa(1,4)=1;
+for i=2:3
+d=dT(abs(start(i)-start(i-1))+1);
+t0=t0+d;
+aa(i,1)=start(i);
+aa(i,2)=t0;
+t0=t0+T(6); #
+aa(i,3)=t0+T(4); 僵 NY
+end 一 \)
+aa(2,4)=3; 2
+aa(3,4)=7;
+a=4; X
+aa=[aa;aa]; 人 锅
+aa(1:3,5)=aa(1:3,1); X
+for i=1:3
+d=dT(abs(aa(i,5)-a)+1);
+a=aa(i,5); o
+t0=t0+d; 4 O
+t0=max(t0,aa(i3));% 上 料 开 始 YA
+aa(i,3)=t0;
+O0TORERERY
+aa(i,6)=t0; 一
+tr-t0HTOI; 一 ¥
+aa(i,7)=t0+T(5);
+end 到 ) V
+aa(4:6,2)=a 2 ;
+aa(4:6,3 shear
+aa(l:3, 5)=aa( :3,5)*2;
+“人
+\
+for i=1:8
+for j=4:6
+if i==aa(j,4)
+T1(G,1)=aa(j,3);
+end
+end
+end
+for i=1:8
+53

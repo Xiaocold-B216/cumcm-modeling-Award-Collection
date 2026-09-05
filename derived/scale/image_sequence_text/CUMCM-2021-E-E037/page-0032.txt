@@ -1,0 +1,47 @@
+plt.rcParams['axes.unicode_minus'] = False # 用 来 正常 显示 负 号
+data0 = pd.read_csv(r./ 附 件 / 附 件 4.csv', index_col = 0)
+data0.shape
+data0.head()
+print{dataO['OP"].isnull{).any(), data0['Class'].isnull().any())
+data0.describe([0.01, 0.25, 0.75, 0.99]).T
+data0.info()
+data0.iloc[:,2:].isnull{).any().any()
+data0.iloc[:,0].value_counts().sort_index()
+data0.iloc[:,1].value_counts().sort_index()
+print{dataO['OP"].isnull{).sum(), dataO['Class'].isnull{).sum())
+OP_null_index = dataO[data0['OP'].isnull{)].index
+Class_null_index = dataO[data0['Class'].isnull{)].index
+print{OP_null_index, '\n', Class_null_index)
+public_index = []
+foriin OP_null_index:
+
+if i in Class_null_index:
+
+public_index.append(i)
+
+public_index
+def my_plot(x):
+
+plt.plot{x.index, x.values, linewidth = 0.5)
+def PlotSpectrum(data, str0):
+
+fontsize = 5
+
+plt.figure(stro, figsize = (5, 3), dpi = 300)
+
+plt.xticks(range(0, 8001, 500), rotation = 45, fontsize = 5)
+
+plt.yticks(fontsize = fontsize)
+
+plt.xlabel( 波 段 , fontsize = 6)
+
+plt.ylabel( 吸 光度 fontsize = 6)
+
+plt.grid{True)
+
+data.agg(lambda x: my_plot(x), axis = 1)
+
+plt.show()
+Plotspectrum(data0.iloc[:,2:]，' 附 件 四 光谱 数据 曲线 图
+
+32

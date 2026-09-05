@@ -1,0 +1,38 @@
+3、reglm,m
+% 多 重 线性 回归 分 析 或 广义 线性 回归 分 析
+请  ——]
+% reglm(yX)， 产 生 线性 回归 分 析 的 方差 分 析 表 和 参数 估计 结果 ， 并 以 表格 形
+式 显示 在 屏幕 上 . 参
+% 。 数 X 是 自 变 量 观 测 值 矩 阵 ， 它 是 mn 行 p 列 的 抢 阵 . y 是 因 变 量 观测 值 向 量 ，
+它 是 mn 行 1 列 的 列 向 量 .
+上 一 一 一 王
+% stats = reglm(yX)， 还 返回 一 个 包括 了 回归 分 析 的 所 有 诊断 统计 量 的 结构 体 |
+变量 stats.
+R—————————————]
+%  stats=regim(y,X,model), 用 可 选 的 model 参数 来 控制 回归 模型 的 类 型 .model|
+是 一 个 字符 串 ，
+六 ”一
+error( 至 少 需要 两 个 输入 参数 小
+加 ”和 ww |
+p=size(X,2);  %X 的 列 数 ， 即 变量 个 数
+if nargin <3 | | isempty(model).
+model = 'linear’; % model 参数 的 默认 值
+
+局 IE |
+SR
+5 生成 变量 标签 varnames
+ifnargin <41| isempty(varnames)
+
+varnamel = strcat({'X'},num2str([1:p]'));
+
+varnames = makevarnames(varnamel,modelj;  % 默认 的 变量 标签
+区 ”76 an|
+三 aa Cr |
+
+error(varnames 必须 是 字符 矩阵 或 字符 串 元 胞 数组 小
+IE = mm |
+error('. 变 量 标签 数 与 X MFIEA—F);
+EN
+@
+® 四国 大 学 生 在 绪 -
+Cszm7oe Oo co7

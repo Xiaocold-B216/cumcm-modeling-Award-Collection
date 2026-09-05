@@ -1,0 +1,45 @@
+回味
+多
+end
+end
+[m,n]=size(aa);
+aa(m-2:m,:)=[];
+[m,n]=size(aa);
+for i=m:-1:m-15
+d=dT(abs(ceil(aa(i,5)/2)-1)+1);%H7)
+if aa(i,7)+T(6)+T(7)+d>8*3600
+aa(i,7)=0;
+end #7
+end 二 NY
+-Z “NM
+bb={; 2
+for i=1:m
+if aa(i,7)==0;
+bb=[bb,il; As
+end &
+oa 六 人
+aa(bb,:)=[];
+[m,n]=size(aa);
+for i=1 N O
+ori=1:m
+for j=i+1:m %%
+if aa(i,5)==aa(j,5)
+2G7 06 人
+break; 一
+1 end _—~ ¥
+en
+end 到 ) V
+masize
+coal 人
+end NS
+W 兴 >
+附录 二 S Ques201.m
+% 两 道 工序 的 4,4 模型 求解 结果
+clc,clear
+% 第 一 组 作业 参数
+T=[20,33,46,400,378,28,31,25];
+% 第 二 组 作业 参数
+%T=[23,41,59,280,500,30,35,30];
+% 第 三 组 作业 参数
+%T=[18,32,46,455,182,27,32,25];
+46

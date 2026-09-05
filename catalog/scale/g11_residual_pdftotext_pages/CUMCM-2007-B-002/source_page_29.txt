@@ -1,0 +1,91 @@
+for (int j=0; j<200; ++j)
+{
+vector<vector<int> > FeasibleLine;
+
+cout << "请输入起始站点和目标站点：" ;
+cin
+
+>> nStart >> nEnd;
+
+fout << "#############################################" << endl;
+fout << "起始站点：" << nStart << endl;
+
+//
+
+<< endl;
+
+流
+
+fout << "目标站点：" << nEnd
+
+Direct_or_not(nStart, nEnd, FeasibleSolve, AllLines, AllBuses,
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+RoadCrossInfo);
+
+OnceBusChange(nStart, nEnd, FeasibleSolve, AllLines, AllBuses,
+
+//
+
+研
+
+ww
+
+RoadCrossInfo);
+
+TwiceBusChange(nStart, nEnd, FeasibleSolve, AllLines, AllBuses,
+
+：
+科
+
+RoadCrossInfo);
+
+multimap<float, vector<int> > SolveList = CostCalculate( FeasibleLine,
+AllLines );
+
+号
+
+OutPutCostCal(fout1, SolveList);
+
+众
+
+fout << "连线情况有 " << FeasibleLine.size() << " 种：" << endl;
+
+公
+
+// 输出线路
+
+for (int i=0; i<FeasibleLine.size(); ++i)
+{
+
+信
+
+for (int k=0; k<FeasibleLine[i].size(); ++k)
+
+微
+
+{
+
+fout << FeasibleLine[i][k] << " ";
+
+}
+fout << endl;
+}
+
+}
+*/
+}
+10.2.2（文件名：CalulateWays.h）
+#include <map>
+
+29
+
+

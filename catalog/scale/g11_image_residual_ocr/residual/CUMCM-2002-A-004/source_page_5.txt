@@ -1,0 +1,42 @@
+YY
+直 证 辣
+第 5 其 赛程 安排 中 的 数学 问题 133 |
+比赛 相隔 场次 数 只 有 了 ,4; _ : :
+. 2) 赛程 的 编制 方法 能 够 推广 到 任意 数 ”的 情况 ; 人
+: 3) 对 衡量 赛程 优 劣 的 其 它 指标 的 讨论 比较 充分 。 和
+顺便 指出 ,其 它 指标 的 讨论 是 开放 性 的 ,只 要 能 合理 地 衡量 赛程 的 优 劣 就 行 ,如 有 的 队 1
+at |
+] 用 da = 有 全 一 一 (其 中 5 为 cy 的 平均 值 ) 表示 平均 相对 离 差 ,d 越 小 越 | ，
+| 好 ;有 的 队 考虑 到 比赛 场次 靠 后 的 队 比 场次 靠 前 的 队 获 得 的 信息 要 多 ,于 是 引 和 人 所 谓 平均 信 下
+max( S4,) - max(S4,) -1 人
+| BEf= 一 一 一 一 一 (其 中 SA; = > ov ,ov 为 ; 队 的 第 / 场 比赛 ) ,/ 越 小 ,各 队 获 |
+1 得 的 信息 越 接近 。 当 然 , 如 果 能 得 到 所 定义 指标 的 最 优 值 , 从 而 可 以 衡量 你 编排 的 方案 是 否 1
+达到 了 这 个 最 优 值 (正如 本 文 (1)(6) 作 的 那样 ) ,就 更 好 了 。 < H
+! 这 个 古 目 涉及 的 是 单 循环 赛 ,并 且 只 有 一 块 场地 (或 同时 只 能 举行 一 场 比赛 人 比较 简 | 人
+| 单 ,复杂 一 些 的 情况 有 : 单 循 环 赛 , 有 多 块 场地 (或 同时 可 举行 多 场 比赛 ); 双 循 环 赛 , 即 两 队 ] 隐
+| 主客 场 各 赛 一 次 ,安排 赛程 时 除 间隔 场次 外 ,要 考虑 主客 场 因 素 。 另 处 优 桥 牌 比 赛 那样 ,不 人
+仅 对 手 要 轮换 , 牌 局 也 要 轮换 的 赛程 安排 就 更 复杂 一 些 。 由 |
+， £ ，
+| The Mathematical Problems for Match Scheduling i
+VS NS 人
+，
+， JIANC Qi-yuan <SV 让
+(Tsinghua University, Beijing 10008: 和 上
+1 /发 1
+: Abstract: The general results for the contest title of match scheduling with the found problems in judging students’ paper are presented . 二
+H Also, some problems for further study are offered. |
+; Keywords: match scheduling; number of breaks between two adjacent games of one player 和
+CA |
+| (bm 从 1
+了 了 5555 村 要 =
+， AS Design for Lineal Light 人
+|
+} oa CAI Rui-chu,  SUN Hong |
+: visor:  LIANG Man-fa, ~HONG Yi (chief) |
+Jeky China University of Technology, Guangzhou, 510640) 人
+1 2]/ | 本 证
+: Abstract: In r s chci model for lineal light is presented and the intensity distribution is exactly caleulated. We divide the |
+lineal Light into point lig the revoluting paraboloid into tiny flat mirrors. By analytical calculation, the differential unit model ia de- |
+velopedy NAY § 10 the Fellecton Luws. Through numerical simulation, we conclude that the optimized length of lineal light in the specific |
+; desig co 9 ~4. 02mm. |
+: ANN erical simulation lineal light; optimization design |

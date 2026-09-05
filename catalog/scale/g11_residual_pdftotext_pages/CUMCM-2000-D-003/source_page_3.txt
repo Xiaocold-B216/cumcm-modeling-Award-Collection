@@ -1,0 +1,94 @@
+第 31 卷第 1 期
+数学的实践与认识
+V o l131 N o 11
+2001 年 1 月
+J an. 2001
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+经比较, 两组结果相近, 说明能够减少波源和接收器.
+
+6
+
+对模型的评价
+
+本文所阐述的模型是以探测山体空洞为目标, 广泛地应用于对山体、坝体、隧洞等某些
+内部空洞定位. 问题 2 的解答, 拓宽了本模型的应用范围. 对于特殊的坝体、山体等, 利用本
+模型的不等距设置波源和接收器, 同样能测出空洞的位置, 因而具有很强的实用性.
+
+流
+
+参考文献:
+南京地区工科院校数学协会建模工业数学讨论班. 数学建模与实验. 河海大学出版社, 1996.
+
+[2]
+
+朱道元. 数学建模精品案例. 东南大学出版社, 1999.
+
+[3]
+
+中国数学协会. 数学的实践与认识. 1998.
+
+[4]
+
+庄天戈. CT 原理与算法. 上海交通大学出版社, 1992.
+
+研
+
+交
+
+[1]
+
+：
+科
+
+The O ptim iza tion Solution M ethod in Survey
+of the Vacan t Hole
+L IAN X iang 2hua,
+
+YAN G Sheng 2m ing, Q IN Kun
+
+Abstract:
+
+210097)
+
+号
+
+(N an jing N o rm a l U n iversity, N an jing
+
+In th is p ap er, w e d iscu ss the po sition p rob lem of the vacan t ho le in su rvey fo r
+
+公
+众
+
+m oun ta in, land, tunnel and so on. B y sim p lifica tion, cu tting a p iece of p lane dom a in, w e
+estab lish the m odel on the system of linea r equa tion. W e so lved com p letely the po sition p rob lem
+
+空洞探测问题及有关情况
+
+微
+
+信
+
+of the vacan t ho le.
+
+关 信,
+
+韩洁平
+
+( 东北电力学院, 吉林
+
+摘要:
+
+132012)
+
+本文对 2000 网易杯全国大学生数学建模竞赛 ( 大专组)D 题的背景、模型、算法及评阅情况作了简
+
+单介绍.
+
+1
+
+题目产生的背景
+本题目来源于吉林丰满水电站水库大坝的检测与维修.
+这种类型的大坝每隔一定时间就需进行较全面的维修. 为此, 首先就要对坝的内部结
+
+

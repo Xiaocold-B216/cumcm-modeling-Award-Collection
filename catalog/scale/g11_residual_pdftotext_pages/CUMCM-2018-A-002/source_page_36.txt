@@ -1,0 +1,64 @@
+%% 绘制不同时刻不同厚度温度分布图
+x=1:1:m+1;
+t=1:1:t+1;
+surf(t,x,u)
+shading interp
+xlabel('t')
+ylabel('x')
+zlabel('u')
+
+流
+
+u=round(u,2);
+xlswrite('不同时间不同厚度下的温度分布.xlsx',u)% 生成温度分布的 excle 文件
+
+：
+科
+
+研
+
+交
+
+%% 四个临界面下的部分温度分布表
+U=zeros(5401,4);
+U(:,1)=u(m1+1,:)';
+U(:,2)=u(m1+m2+1,:)';
+U(:,3)=u(m1+m2+m3+1,:)';
+U(:,4)=u(m1+m2+m3+m4+1,:)';
+
+微
+
+信
+
+公
+
+众
+
+figure
+subplot(2,2,1)
+plot(U(:,1),'r')
+xlabel('t');ylabel('u');
+title('临界面 I')
+axis([0 5400 30 80])
+subplot(2,2,2)
+plot(U(:,2),'r')
+xlabel('t');ylabel('u');
+title('临界面 II')
+axis([0 5400 30 80])
+subplot(2,2,3)
+plot(U(:,3),'r')
+title('临界面 III')
+axis([0 5400 30 80])
+xlabel('t');ylabel('u');
+subplot(2,2,4)
+plot(U(:,4),'r')
+title('临界面 IV')
+
+号
+
+xlswrite('problem1.xlsx',U)% 存 储 生 成 四 个 临 界 面 下 的 部 分 温 度 分 布 表 于
+problem1
+
+36
+
+

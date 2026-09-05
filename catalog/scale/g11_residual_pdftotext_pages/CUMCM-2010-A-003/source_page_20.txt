@@ -1,0 +1,68 @@
++2*r*r*r*atan(0.625*x/(r*sqrt(2.25-x*x)))/3+2.0289;
+return ans;
+}
+
+流
+
+double g(double x)
+{
+double
+ans
+=
+4*PI*R*R-(R*R*(R-x+8*tan(p1))*asin((R-x+8*tan(p1))/R)+R*R*sqrt(2*R*(x
+-8*tan(p1))-(x-8*tan(p1))*(x-8*tan(p1)))-R*R*(R-x)*asin((R-x)/R)-R*R*
+sqrt(2*R*x-x*x)-pow((2*R*(x-8*tan(p1))-(x-8*tan(p1))*(x-8*tan(p1))),1.
+5)/3+pow((2*R*x-x*x), 1.5)/3)/tan(p1);
+return ans;
+}
+
+研
+
+交
+
+int main()
+{
+double H1, V1, H, H2, h1, h2;
+double out, s, t, ans, ansx, ansy, ansz, tt, ss, pppp;
+
+：
+科
+
+double numx[1024], numy[1024], left[1024];
+
+信
+
+公
+
+众
+
+号
+
+freopen("in2.txt", "r", stdin);
+freopen("out1.txt", "w", stdout);
+numx[0] = 0;
+int k = 1;
+while(scanf("%lf %lf", &numx[k], &numy[k]) == 2)
+{
+numx[k] += numx[k-1];
+k++;
+}
+printf("%d\n", k);
+
+微
+
+double ansk = 100000000;
+//此处先采用大范围大步长、再使用小范围小步长
+for(int qq = 5850; qq <= 5950; qq++)
+{
+double q = (double)qq/100;
+ans = 100000000;
+for(int j = 40; j <= 60; j++)
+{
+for(int i = 190; i <= 220; i++)
+{
+p1 = (double)i/18000*PI; //角度
+p2 = (double)j/1800*PI;
+- 19 -
+
+

@@ -1,0 +1,41 @@
+回 员 半 治国
+u 3
+CLTae
+T, = Min {min 十 Tez 十 To3 十 .十 Tenerl 十 5s K}
+izy Z1Z2 Z2Z3 Zkj
+5 Wi = Weazi 一 Wieaza = Wi,,2, 一 WUiazz 一 人 一 wrotear = We 一
+Ti =3y(Cm 一 Cr) pc12.k
+2 2 Ce) 2
+T," =3x (Co 一 cr
+Te 一 3 > (Ge — Ce
+C 史 为 公交 经 由 线路 L, 到 达 S, 站 时 已 经 经 过 的 站 数 :Cz" = Ziwr el 二
+(3) 花费 最 省 模型 -从 >
+，: Ly Lr Lr Lr
+Mi= Min {m +M,72 十 Mz 2 十 … 十 Me ] 2XG \
+人 < LA
+5 WL, pi - Wibazi TWL, WiL,,2, TWL,2, 一 NS k Wi 一
+1 EL 采用 单 有 cn 人 £20
+P P P 一 1
+Lrp _b/ 六 一] Lr
+MP ，= 了 2 2
+p—1%p Ne p-1
+AS
+3 Csp -Co > 40
+P p-1
+Mrl， 0 @
+1z1 zkj O
+模型 求解 : IA
+将 各 路 线 抽象 为 有 向 弧 线 亿 iL2 吧 :La)( 区 分 上 下 行 )， 站 点 抽象 为 弧 线 上 的 节点
+(S1S， ……S)， 表述 公约 全 六 的 的 天 于 人 为 1 表示 经 过 ， 为 0 表示
+不 经 过 。 ~ 小
+本 -， 放 了 人 X /. _
+将 该 城市 所 有 公安 线路 与 公交 站 点 转化 为 下 列 元 素 为 0，1 的 数 表
+< 二
+NAWYS
+[pi 1
+|
+基于 广度 优先 算法 的 最 短路 径 求 法 :
+首先 搜索 合理 的 方案 。 公 交 线 路 的 设计 应 该 满足 至 多 乘 车 3 次 就 到 达 目 的 地 , 和 否则
+就 说 明 公 交 线 路 的 设计 存在 问题 。 用 以 下 步骤 搜索 3 次 乘 车 次 数 以 内 的 线路 选择 方案 :
+1J) 看 是 否 存在 Lk € {Ly, Ly …Lm] 使 得 wki = wkj = 1 如 果 存在 ,， 则 说 明 有 可 能 只 要 乘
+4

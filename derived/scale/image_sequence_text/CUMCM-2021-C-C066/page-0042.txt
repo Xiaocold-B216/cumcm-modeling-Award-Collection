@@ -1,0 +1,96 @@
+select_8_ID = filel[filel[ "材料 分 类 '] -= "8'J["RARID']
+
+select C_10 -= Hilel[filel[ "材料 分 类 "] == 'C"][" 供 应 训 ID
+
+mam_of_a = select_A_ID.shape[e]
+
+nun_of_b = select_B_ID.shapefe]
+
+mam_of_c = select_C_ID-shape[e]
+
+tol_y = [variablefe，: nun_of a].sum(), \
+
+variablefe，nun_of asnum_of_a + nun_of_b] .sum()，\
+variable[e，num_of_a + nun_of_b:] ,sun(]
+
+prdnt(f "原材料 A 在 第 fweek_i) 夺 订单 总 额 ftol_v[9]》 \m\
+
+原材料 B 在 第 fweek_ty 周 订 音量 总 闫 ftol_v[1]】 NM
+
+原材料 C 在 第 fweek_iy 周 订单 量 关 闫 ftol_v[2]}】 NmN
+
+AN
+
+原材料 第 fweek_3 于 订单 生意 闫 :fsumttol_v))
+
+0 A BsaIARRIRSS
+
+#1g = plt.figuretdpi =- 488)
+
+二 和 = plt .各 Bure( 人 gstze 。(7,7))
+
+explode = (6.84, )*num_of_a
+
+labels = select AD
+
+PLE.ple(variable(s, : num_of_a]，explode - explode, labels - labels, autopcts'XL.1f3X")
+
+Pht .title(f "原材料 A 在 第 fweek 1) HT £RILN)
+
+全 plt.savefig(F" ./1ng/P2-2-Avcek(veek_1).png")
+
+tshow()
+
+1 B ssssssssssss
+
+#1g = plt.Figure(dpl « 00)
+
+二 fig = plt.figure(Figsize = (7,7))
+
+explode = (0.04,) num_of b
+
+labels - select_B_ID
+
+PLE.ple(vartable(s, nun_of_3:nUm-of asnun_of b], explode - explode, labels - labels,
+autopet="1.100%°)
+
+PL. title(FURH HORE B (ueek )IE £RILH)
+
+ plt.saVerSRls"/dng/Pa-2-Bueek(ueek_L).png")
+
+ple.showt)
+
+so plot C sasssasssias
+
+#1g -plt.figuretdpi - 488)
+
+二 fig = plt. figure(Figsize = (7,7))
+
+explode = (6.84, )*num_of_c
+
+1abels = select_C_ID
+
+PLt.pie(variable(s, nun_of_asnun_of b:], esplode = explode, labels = labels,
+utopct 1
+
+at.title(f "原材料 在 第 fweek_i 周 订单 量 比例
+
+PLE.save1g(F" /dmB/P2-2-Cweekfweek_i png')
+
+Pt-show()
+
+df_A -= pd.Datafrane(dict(zip(select_A_ID，variable[e，:; num_of_a]))，index=
+[frweekfweek_ij7])
+
+df_B = pd.Datarrane(dict (21p(select_8_ID, variable(s, nun_of asnum_of_a + nun_of_b])),
+Andexs[ Weck{week_1)'])
+
+46.C 。 pd.Datarrane(dict (21p(select_CI0, vartable(s, nun_of a + num_of b:1)), index-
+[ Heek{veek_1)'])
+
+df_A_all -= pd.concat([df_A_all，df_A])
+
+af-_B_all - pdconcat([df_8_all，df_B])
+
+fc_all -= pd.concat([df_C_all，df-C])
+def run_slgorithn(ueek_1)

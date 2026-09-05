@@ -1,0 +1,85 @@
+第 30 卷第 1 期
+数学的实践与认识
+V o l130 N o 11
+2000 年 1 月
+J an. 2000
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+
+The Ca lcula tion of the M in im um
+Expen se for P il ing up Gangue
+ZHON G X iao 2yong,
+
+DU AN Guo 2hu i,
+
+M A Yu 2dong
+
+Abstract:
+
+100044)
+
+流
+
+(B eijing In stitu te of C ivil Eng ineering and A rch itectu re, B eijing
+
+T he m a in p u rpo se of th is a rticle is to d raw up a rea sonab le, annua l land 2p u rcha sing
+
+交
+
+p rog ram fo r p iling up the gangue in the o rig ina l co lliery, and to ca lcu la te its m in im um exp en se.
+Since there is need to con sider severa l facto rs such a s depo sit and loan, rising p rices of land,
+ou tp u t of gangue, and the cha rge fo r electricity, a huge ca lcu la tion shou ld be taken w h ich is im 2
+
+研
+
+po ssib le to accom p lish by hand in a sho rt tim e. T herefo re, w e a re go ing to m ake u se of com p u t2
+er to so lve the com p lica ted p rob lem by setting up d ifferen t m a them a tica l m odels.
+
+：
+科
+
+A t the end of th is a rticle w ith a resonab le sound so lu tion to the m in im um exp en se is ob 2
+ta ined from the va ried va lues betw een the tapp ing ra te of gangue and the na tu ra l ang le of the
+, w h ich a re no t invo lved in the o rig ina l p rob lem , is a lso d is2
+p ile. T he facto r of《L and L aw 》
+
+号
+
+cu ssed in th is a rticle.
+
+公
+众
+
+煤矸石堆积模型
+
+信
+
+赵易蓉, 陈 伟, 孙东杰
+指导教师: 储理才
+
+微
+
+编者按:
+
+( 集美大学, 厦门
+
+361021)
+
+本文对于煤矿堆积煤矸石的费用问题建立起数学模型, 并就不同的征地方式和煤矸石堆数进行
+
+了分析讨论, 得出了合理的结论. 作者将严格的数学论证与科学计算很好地结合起来, 其方法具有普遍性, 比
+如, 通过建立微分方程来求得运矸车的机械效率; 通过引进一些重要参数来比较取不同的征地方式和堆数所
+得到的结论; 最后还对不同的出矸率所需的最低费用作了预测, 并结合实际对模型作出了较客观的评价.
+
+摘要:
+
+本文就煤矿堆积煤矸石费用问题建立数学模型, 就不同的征地方式 ( 建矿初期一次性征完 20 年所
+
+需用地和分批征地方式) 和煤矸石堆数进行了分析讨论, 得出结论: 在建矿初期一次性征完所需用地, 且所有
+煤矸石全堆成一堆的方案是最优的, 并就不同的出矸率计算出该最优方案的总费用, 最后给出对不同的出矸
+率处理矸石的最低年度平均费用公式.
+
+© 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

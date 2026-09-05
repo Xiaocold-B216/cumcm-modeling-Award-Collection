@@ -1,0 +1,47 @@
+四
+34 数学 的 实践 与 认识 1 着。
+类 B 类 的 keyword 基本 没有 重复 , 有 很 好 的 区 分 度 Keywords 见 表 1
+表 1 选择 的 关键 字
+A 组 B 组
+关键 字 出 现 次 数 分 散 度 关键 字 出 现 次 数 分 散 度
+agga 32 9 taa 50 10
+ga 109 10 ttta 52 10
+ggegg 28 7 aa 119 10
+ggc 69 9 tat 148 10
+ggaggc 11 8 at 131
+aa 115 8 ttaa 34 edUAs
+agg 65 4 tatt 36 Py SN
+ggaa 34 10 ta 62. \¥
+ggegga 17 10 att .2 10
+a 318 10 a 32 H 10
+[< 80 10 ttat S 2 10
+- 42 10 attt 10
+ggagg 26 9 tta 105k 10
+gga 93 10 ttt 颂 58 10
+gg 198 10 7 “ 552 7
+g 425 10 祷 _ 193 10
+AS
+图 2 为 每 个 word 的 优先 级 对 分 散 度 、 标准 化 频率 的 图 象 其 中 keyword 用 圈 标 出 从
+图 中 看 出 , 用 逐步 优选 法 求 出 的 keyword 确实 分 别 代表 了 A、B 类 的 重要 特征
+ee 9
+or YA 全 用
+HR ! 人 n 0 : 1 本
+J 人 1 罗 E SEE SRER E ia SRENAN
+人 人
+| 和
+6 了 本 人
+- | | 上
+|
+本
+| 2 人 全
+岂 2
+Te ， MSN 一
+1don rn RN
+图 2
+图 3 为 逐步 优选 法 的 流程 图 需要 注意 的 是 ,word 的 / 矿 值 不 仅 是 提取 keyword 的 标准 ，
+而 且 也 反映 了 每 个 keyword 的 重要 程度 , 这 对 于 以 后 的 基因 分 类 标准 也 具有 重要 的 价值
+(2) 加 权 系 数 的 确定
+现在 来 提取 A 类 和 B 类 基因 序列 的 主要 特征 以 便 提 出 分 类 标准
+对 于 某 条 基因 序列 P ,我们 假定 它 相 对 于 每 一 类 的 权 值 D 只 与 此 类 keyword 7E P h
+的 出 现 次 数 ! 和 keyword 的 优先 级 ( 即 广 ) 有 关 , 我 们 希望 找到 这 个 关系
+0 Academic Jour ai tsT d WW i.nef

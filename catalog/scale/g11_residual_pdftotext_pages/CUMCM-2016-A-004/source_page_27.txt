@@ -1,0 +1,36 @@
+附录
+附录一 问题一程序
+clear,clc
+zhunzhongli1=[];
+cd=[0.078 0.105 0.12 0.15 0.18];%锚链长度
+zl=[3.2,7,12.5,19.5,28.12];%锚链单位长度质量
+m=[1000 10 10 10 10 100];
+mm1=1200;%重物球的质量
+for j=1:(22.05/0.105)
+m1=7*0.105;
+m=[m,m1];
+end
+l=[1,1,1,1,1];
+for jj=1:(22.05/0.105)
+l=[l,0.105];
+end
+g=9.80665;
+for i=1:length(m)
+if i==1
+zhunzhongli=m(i)*g;
+zhunzhongli1=[zhunzhongli1,zhunzhongli];
+elseif i<=5&&i>=2
+v1=0.025^2*pi*1;%钢管体积
+zhunzhongli=-1025*g*v1+m(i)*g;%重力加速度 g=9.8
+zhunzhongli1=[zhunzhongli1,zhunzhongli];
+elseif i==6
+v2=0.15^2*pi*1;
+zhunzhongli=-1025*g*v2+m(i)*g;
+zhunzhongli1=[zhunzhongli1,zhunzhongli];
+elseif i>=7
+zl=7*0.105;
+v3=zl./7850;
+zhunzhongli=-1025*g*v3+m(i)*g;
+zhunzhongli1=[zhunzhongli1,zhunzhongli];
+
+

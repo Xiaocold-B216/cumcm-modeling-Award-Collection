@@ -1,0 +1,84 @@
+第 30 卷第 1 期
+数学的实践与认识
+V o l130 N o 11
+2000 年 1 月
+J an. 2000
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+ing m ethod, g rap h theo ry m ethod, sigh t m ethod and op era tion 2in 2g rap h m eh tod. Fo r the g iven nu 2
+m erica l exam p les, the ob ta ined so lu tion to p rob lem ( 1) is 4 and the ava ilab le o ld d rilling s a re P 2 ,
+P 4 , P 5 , P 10; the so lu tion to p rob lem ( 2 ) is 6 and the ava ilab le o ld d rilling s a re P 1 , P 6 , P 7 , P 8 , P 9 ,
+P 11. F ina lly, fo r p rob lem ( 3 ) , th is p ap er g ives a sufficien t and necessa ry cond ition fo r n o ld
+
+林诒勋
+
+摘要:
+
+本文评述 1999 年全国大学生数学建模竞赛赛题“钻井布局”, 就背景、模型、解法途径及进一步研究
+
+：
+科
+
+等方面作出总结.
+
+1
+
+450052)
+
+研
+
+( 郑州大学数学系, 郑州
+
+交
+
+“钻井布局”
+问题评述
+
+流
+
+d rilling s being ava ilab le.
+
+问题来源
+
+80 年代一位地质工程师在从事一项研究中与笔者讨论过此题的原型, 当时研究的情况
+
+号
+
+比较复杂, 如网格的纵横间隔可以选择, 但不能太小, 转角也有限制, 尽可能利用全部旧井.
+本题就是从中提取出来的一个形式比较简明的问题. 后来又经过组委会几位同志的精心设
+计, 才得到专科组的两小题和本科组的三小题 ( 赛题参见前面的介绍).
+数值例子的数据不是真实的. 由于此题原先是入选为 D 题 ( 专科组) 的, 希望计算上容
+
+公
+众
+
+易些, 故意使某些点的坐标的小数部分比较密集. 这样就造成了一个缺陷: 数据对计算方案
+的不敏感性.
+笔者在评阅工作过程中, 受到一些优秀答卷的启发, 并听取了评阅专家的讨论意见, 对
+
+信
+
+这道赛题的认识有很大的提高. 现在谈一些看法, 供大家参考.
+
+2
+
+基本概念
+
+微
+
+解此题不需要专门的知识, 方法是初等的, 但一些基本概念要清楚. 一些好的答卷都是
+由于把握住这些概念; 而大部分答卷中的错误都是源于这些方面的疏忽.
+( 1) 取整运算
+研究网格点与其它点的关系必然要用取整运算. 常用的有如下两种:
+[ x ]= 不大于 x 的最大整数 ( x 的整数部分) ,
+
+1
+] ( x 按四舍五入规则的取整).
+2
+前者相当于计算机中的函数 IN T , 后者相当于函数 ROU ND ( 对非负数而言). 此外, 有时还
+r (x ) = [ x +
+
+会用到上取整 (ceiling ) 和下取整 ( floo r ). 这里 [ x ] 相当于下取整. 我们可以分别表示按下取
+整及四舍五入取整的小数部分为
+{x } = x - [ x ], f ( x ) = g x - r ( x ) g.
+
+

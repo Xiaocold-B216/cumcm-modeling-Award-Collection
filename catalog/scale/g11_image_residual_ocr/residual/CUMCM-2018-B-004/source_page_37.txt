@@ -1,0 +1,49 @@
+—
+下
+二 二
+回 共 RE
+flag=1;
+Rec(k,3)=Time;
+Rec(end+1,1)=MinNumber;
+Rec(end,2)=Time;
+Rec(end,3:6)=NaN;% 构 建 此 工件 工序 2 c SA
+break;
+end
+end
+放 flag==0% 仅 发 生 上 料
+Rec(end+1,1)=MinNumber;
+Rec(end,2)=Time;
+Rec(end,3:6)=NaN; A7
+end 一 NY
+ffsituation(MinNumbenj-=1% 换 料 时 取 下 了 一 个 已 经 完成 工 庄 3 的 工 和 )
+Now=2;% 下 一 道 目 标 工序 发 生变 化 3
+NEXT=k;% 记 录 此 工件 的 序号 ood
+end
+Situation(MinNumber)=1; As
+Time=Time+Expect(3,MinNumber);% 完 成 换 料 全
+Te X
+if Left(k)-Expect(4,MinNumber)<0
+Left(k)=0;
+else [o)
+Fe EGR inNumber);
+w
+end
+和
+SN
+if unifrnd(0,100)>=99% 守 成 故障 信息
+Seraaesyne 航 和 naoworayyw 随 生成 了 开始 昌 (发 生 在 加 工时 )
+ProcEsTime=unifrnd(600,1200);% 随 机 生成 人 工 修复 所 需 时 间
+o Rowinwumbersanmmesanmmnetprocssmmeola 记 录
+和
+六 8 认 目 标 是 工序 2 的 CNC
+AS
+SA， for k=size(Rec1):-1:1% 记 录 本 次 操作 时 刻
+if Rec(k,4)==MinNumber && isnan(Rec(k,6))% 取 下 已 完成 工件
+flag=1;
+Rec(k,6)=Time;
+Rec(NEXT,4)=MinNumber;
+Rec(NEXT,5)=Time;
+break;
+end
+end
+37

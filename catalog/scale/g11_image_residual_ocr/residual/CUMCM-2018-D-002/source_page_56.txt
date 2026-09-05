@@ -1,0 +1,45 @@
+各
+-
+if (z1%2==0)
+{
+z[z1++]=4;bw—;a2. ys[4]—;
+if (bw==0) break;
+z[21++]=6;bw—;a2. ys[6]—;
+if (bw==0) break;
+}
+else
+{
+z[21++]=6;bw—;a2. ys[6]—;
+if (bw==0) break; y
+z[z1++]=4;bw—;a2. ys[4]—; 一 从 >
+if (bw==0) break; 一 一 \)
+} 2
+.人 一
+if(a2. ys[6]==0) SS
+> 全
+for (;a2. ys[4] !=0&&a2. ys[3]1=0&&bw!=0;) //& 棕
+{
+if (z1%2==0)
+{
+z[z1++]=4;bwzr;a2. ys[4]—;
+if (bw e. )breaks
+Z 人 ;a2.ys[3] 一 ;
+if (bw==0) break;
+FY<K
+一 -也
+z[z1++]=3;bw—;a2. ys[3]—;
+y/ ) V if (bw==0) break;
+// z[z1++]=4;bw—;a2. ys[4]—;
+下 4 if (bw==0) break;
+}
+A
+NY »
+}
+for (;a2. ys[6]!=0&&bw!=0;a2. ys[6]-—, bw—) //S
+z[z1++]=6;
+for (;a2. ys[1]!1=0&&a2. ys[3] !=0&&kbw!=0;)
+{
+z[z1++]=1;bw—;a2. ys[1]—;
+if (bw==0) break;
+z[21++]=3;bw—;a2. ys[3]—;
+56

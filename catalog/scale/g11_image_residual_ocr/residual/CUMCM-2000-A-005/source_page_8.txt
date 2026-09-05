@@ -1,0 +1,46 @@
+已 二
+和 -让
+人 局 、| 、 和
+第 31 卷 第 1 其 数学 的 实践 与 认识 Vol31 NO 国 =
+2001 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan 200 7F
+任意 选 出 比较 多 的 (为 了 保证 较 高 的 准确 性 ), 利用 keyword 作为 分 类 标准 , 然后 利用 本 文
+提供 的 加 权 系 数 的 确定 方法 就 可 以 定 出 一 个 具体 的 定量 标准 具有 一 定 实用 价值
+参考 文献
+[1] 李 涛 , 贺 勇 军 等 MATLAB 工具 箱 应 用 指南 一 一 应 用 数学 篇 电子 工业 出 版 社 .
+[2] 豆 亚 湘 最 优化 方法 科学 出 版 社
+[3] 张 妃 孝 , 玫 宗 燕 数据 结构 一 e+ + 与 面向 对 象 的 途径 “高教 出 版 社 .
+[4] 汪 仁 官 概率 论 引 论 北京 大 学 出 版 社 . 二
+5] 陈 家 易 , 孙 山 泽 等 数理 统计 学 讲义 高 教 出 版 社 .
+[5] 陈 家 易 , 孙 山 泽 等 数理 统计 学 讲义 高 教 出 版 字 ~ 人 本
+一 W
+ve
+. 本
+The Grouping of DNA Sequences
+. 、 SS
+YANG Jian, WANG Chi, 机 Kong
+(Peking U niversity, K
+了 o
+X -
+Abstract 了 this paper, amethod to classify the os is proposed M athem atical
+methods such as statistics and op tm ization are used to build the model The data is analysed
+sufficiently and the“critical words”is got,gvhich can represent the characteristics of each
+group. According to this, a quantijgtive tandard, for group ing is brought forward  Thismodel
+can properly classify the given da foth ough testing First the stringsw hich appear repeatedly
+(called words) in the given data afe [全 局 out The standard frequency and dispersion for
+each word are calculat nd，using the Least Squares method, the priority function is
+fixed Through stepw 四 tinizatid n, the coefficients are made stable Third, the key words
+are selected out and ce eweight according to the priority function A't last, using the
+“analyse hierarchy-process”’, the undetem ined data is classified This method can classify the
+undetem ined data;( 21—No. 40) fairly well, it can also give good result for the last 182
+“%, V/
+X%
+以 > DNA 序列 的 分 类
+人 韩 轶 平 ， 余 杭 ， 刘 威
+1=)
+指导 老师 杨 启明
+(浙江 大 学 ， 杭 州 ”310027)
+编者 按 : 本文 借助 于 计算 机 符号 处 理 的 能 力 来 把 握 序 列 中 不 同 碱 基 的 丰 度 特征 , 从 而 进行 了 利用 数理 统计 方法
+的 分 类 研究 而 后 引入 相关 度 分 类 判别 算法 及 反馈 机 制 来 比较 碱 基 的 相对 位 置 , 在 既定 方向 上 颇具 新 意 地 把 工作
+推 向 深入 不 足 之 处 在 于 , 未 能 使 用 相关 度 工 具 对 各 类 样本 分 别 进行 分 析 ; 此 外 “ 纯 数 学 "必须 与 其 他 学 科 紧 密 结
+合 才 会 有 优秀 的 建 模 工 作 , 本 文 虽然 对 编码 氨基 酸 的 三 联 体 进行 初步 探讨 , 着 墨 处 自 是 轻 淡 许 多
+3 1994-2008 China Academic Journal Electronic Publishing House. All rights reserv http://www.cnki.net

@@ -1,0 +1,41 @@
+回味
+多 二 是
+.
+a=l;
+%CNC 当前 工作 状态
+b=zeros(1,8);
+%CNC 预计 加 工 完 成 时 间
+c=zeros(1,8);
+% 初 始 路 径 选择
+start=[ones(6,1),perms([2,3,4])];
+i=6;clear M
+li=start(i,:); #7
+% 初 始 路 径 移 动 ks
+No LA
+dT=[0,T(1:3)]; 2XG
+for i=1:4
+%RGV 每 一 步 移 动
+d=dT(abs(a-ljGD)+D; As
+a=li(i; S
+t0=t0+d; K
+%RGV 为 单个 奇数 CNC 上 料
+M(2*(i-1)+1,1)=t0; °
+t0=t0+T(5); O
+b(C*(jGD)-D+D=1; %%
+c*(lj(i)-1)+1)=t0+T(4);
+本
+%RGV 为 单个 偶数 CNC 人 正 =
+M(2*(i-1)+2,1)=t0;
+{0=t0+T(6); 了 V
+bR*(j -jz 二 1;
+c*(lj 0+T(4);
+MG DT22)-2*0iG-D+2;
+end | =
+% 多 步 最 优
+while t0<=8*3600
+[e,f,g,h,] = oneStep( a,dT,T,t0,c );%a,t0,c 改变 为 fgh.
+e3 = fStep(fdTLTghe)'
+e3 =reshape(e3,64,4);
+[minValue,row] = min(e3);
+[minValue,col] = min(minValue);
+90

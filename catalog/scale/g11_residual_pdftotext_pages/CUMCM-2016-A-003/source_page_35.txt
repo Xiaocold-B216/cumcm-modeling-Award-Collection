@@ -1,0 +1,47 @@
+hold on
+end
+grid on
+hold off
+
+附录 7 三 维考虑沉底函数
+function [ r,minh,minbeta,minthita1,minthita2,minH ] =
+tuodir2( n,mq,v,vshui,gdH )
+%UNTITLED11 Summary of this function goes here
+%
+
+Detailed explanation goes here
+
+mm=0.735;%ÃªÁ´ÖÊÁ¿
+Lm=0.105;%ÃªÁ´³¤¶È
+alpha=0;%·çÏòÓëË®Á÷ÏòµÄ¼Ð½Ç
+min=inf;
+minh=0;
+minH=0;
+minbeta=0;
+minthita1=zeros(1,4);
+minthita2=zeros(1,n)+pi/2;
+mingama2=zeros(1,4);
+mingama3=0;
+mingama4=zeros(1,n);
+
+for h=0:0.01:2
+Ftx=zeros(1,5);%¸Ö¹Ü²¿·ÖµÄ¸÷À-Á¦µÄX·ÖÁ¿
+Fty=zeros(1,5);%¸Ö¹Ü²¿·ÖµÄ¸÷À-Á¦µÄY·ÖÁ¿
+Ftz=zeros(1,5);%¸Ö¹Ü²¿·ÖµÄ¸÷À-Á¦µÄZ·ÖÁ¿
+thita1=zeros(1,4);%¸÷¸Ö¹ÜµÄ·½ÏòÓëZÖáµÄ¼Ð½Ç
+gama2=zeros(1,4);%¸÷¸Ö¹Ü·½ÏòÔÚXOYÉÏÍ¶Ó°ÓëXÖáµÄ¼Ð½Ç
+beta=0;%¸ÖÍ°µÄ·½ÏòÓëZÖáµÄ¼Ð½Ç
+gama3=0;%¸ÖÍ°·½ÏòÔÚXOYÉÏÍ¶Ó°ÓëXÖáµÄ¼Ð½Ç
+Ft2x=zeros(1,n);%ÃªÁ´²¿·ÖµÄ¸÷À-Á¦µÄX·ÖÁ¿
+Ft2y=zeros(1,n);%ÃªÁ´²¿·ÖµÄ¸÷À-Á¦µÄY·ÖÁ¿
+Ft2z=zeros(1,n);%ÃªÁ´²¿·ÖµÄ¸÷À-Á¦µÄZ·ÖÁ¿
+thita2=zeros(1,n)+pi/2;%ÃªÁ´¸÷Á´½ÚµÄ·½ÏòÓëZÖáµÄ¼Ð½Ç
+gama4=zeros(1,n);%ÃªÁ´¸÷Á´½Ú·½ÏòÔÚXOYÉÏÍ¶Ó°ÓëXÖáµÄ¼Ð½Ç
+
+%¸¡±ê²¿·Ö
+S=2*(2-h);
+m=1000;%¸¡±êÖÊÁ¿
+rou=1025;%º£Ë®ÃÜ¶È
+35
+
+

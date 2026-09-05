@@ -1,0 +1,110 @@
+流
+
+for j = 1:N
+R(i,j)=sum(abs(datin(i,:)-datin(j,:)));
+if max<R(i,j)
+max=R(i,j);
+end
+end
+end
+for i = 1:N
+for j = 1:N
+R(i,j)=1-R(i,j)/max;
+end
+end
+
+交
+
+附录五 数据来源
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+关键字搜索结果数目(条)
+关键字
+Google(
+Yahoo(E Bing(
+搜索项目
+Baidu(C)
+E)
+)
+C)
+2880000 12200
+2010 南 非 世 界 5150000
+54000000
+World Cup South Africa
+杯
+0
+0
+0
+2006 德 国 世 界 4840000
+3360000 15800
+32300000
+World Cup Germany
+杯
+0
+0
+0
+2010 上 海 世 博 8520000 10000000
+12500
+7630000
+Expo Shanghai
+会
+0
+0
+0
+2005 爱 知 世 博
+18600
+6900000 660000 137000
+Expo Aichi
+会
+0
+2008 北 京 奥 运 3260000
+42800000 8930000 61000
+Olympics Beijing
+会
+0
+2004 雅 典 奥 运 1610000
+6620000 6320000 59400
+Olympics Athens
+0
+会
+注：检索日期为 2010 年 9 月 10 日，后数据可能有所变动。
+来源网站：整理自 http://www.google.com,
+http://www.baidu.com,
+http://www.yahoo.com/,
+http://cn.bing.com/
+2010 南非 2006 德国 2010 上 海 2005 爱 知 2008 北 京 2004 雅 典
+世界杯
+世界杯 世博会
+世博会
+奥运会
+奥运会
+代表时刻
+4%
+5.32%
+13.8%
+40.54%
+*
+收视率
+来源：http://ad.cctv.com/special/news/20100504/104287.shtml
+http://news.sina.com.cn/c/2008-08-13/160216111036.shtml
+http://finance.sina.com.cn/x/20020702/227706.html
+http://blog.sina.com.cn/s/blog_4c022340010007v4.html
+27
+
+26.5%
+
+

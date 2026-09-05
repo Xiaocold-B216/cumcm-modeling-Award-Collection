@@ -1,0 +1,34 @@
+0.4
+0.3 \ f
+|
+入 0.2 Y i |
+请 :时
+| a
+01 昌 ， 交 /
+:
+AL ERA
+0.0
+& & 2 &
+波段
+图 5 附件 1 分 类 后 光谱 曲线 图
+s1ET 一
+5. 2 问题 二 模型 建立 与 求解
+5.2.1 数据 预 处 理
+对 于 问题 二 ， 首 先 对 附件 二 数据 进行 前 期 处 理 和 检查 :
+1. 是 否 存 在 缺失 值 。
+2 是 否 存在 异常 值 。
+3. 是 否 存在 大 量 重 复 值 。
+
+表 3 附件 2 数据 描述 性 统计 结果
+EECOIECOEEICIRCOIECOIEIEOIECOECI
+有 EECIREIIEEIEEIEIEEEEZ
+EECOEEOIEEOEEOIEOIEEIEZO
+EECOEEIEC
+EEC
+EECOREZIECZIRZIREEEE
+EECOECORCOEZOIEIIEZIEEEE
+EECOEEG
+EECOECORCIETOIECIIECOEEOEE
+EECIOEIIECOEIOIECEIEZOIEEIEEG
+
+9

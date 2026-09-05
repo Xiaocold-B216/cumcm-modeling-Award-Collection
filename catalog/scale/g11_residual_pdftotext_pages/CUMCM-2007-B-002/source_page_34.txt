@@ -1,0 +1,92 @@
+nLine1 = nSecondLine;
+}
+for (k=0; k<RoadCrossInfo[nLine1-1][nLine2-1].size(); ++k)
+{
+nCurBridge
+int
+
+= RoadCrossInfo[nLine1-1][nLine2-1][k];
+
+a = 0, b = 0, c = 0, d =0;
+
+bool IsDirectToBridge
+= find(AllLines[nFirstLine-1].LineInfo, NSTART, nCurBridge, a,
+
+流
+
+b);
+bool IsBridgeDirectToDest = false;
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+交
+
+if ( IsDirectToBridge )
+{
+
+研
+
+ww
+
+d);
+
+IsBridgeDirectToDest
+
+= find(AllLines[nSecondLine-1].LineInfo, nCurBridge, NEND, c,
+
+：
+科
+
+}
+
+if ( IsDirectToBridge && IsBridgeDirectToDest)
+{
+
+FeasibleLine[0] = a; FeasibleLine[1] = nFirstLine;
+
+号
+
+FeasibleLine[2] = b; FeasibleLine[3] = c;
+
+众
+
+FeasibleLine[4] = nSecondLine; FeasibleLine[5] = d;
+FeasibleSolve.push_back(FeasibleLine);
+
+公
+
+}
+
+信
+
+IsDirectToBridge
+
+= false;
+
+IsBridgeDirectToDest = false;
+
+}
+
+微
+
+}
+
+}
+
+//
+
+cout << FeasibleSolve.size() << endl;
+if ( !FeasibleSolve.empty() )
+bHaveFound = true;
+return bHaveFound;
+
+}
+
+34
+
+

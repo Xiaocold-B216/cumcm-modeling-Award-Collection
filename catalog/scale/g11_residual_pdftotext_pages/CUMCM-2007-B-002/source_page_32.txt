@@ -1,0 +1,109 @@
+int
+
+nStart_pos
+
+= -1;
+
+// 起始点在可行线路中的位置
+
+int
+
+nEnd_pos
+
+= -1;
+
+// 目标点在可行线路中的位置
+
+vector<int>
+
+FeasibleLine(3, 0);
+
+for (i=0; i<PossibleLine.size(); ++i)
+{
+nCurLineName = PossibleLine[i];
+for (j=0; j<AllLines[ nCurLineName-1 ].LineInfo.size(); ++j)
+{
+if (AllLines[nCurLineName-1].LineInfo[j] == NSTART)
+
+流
+
+{
+bIsDirect_1 = true;
+= j;
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+nStart_pos
+
+交
+
+continue;
+
+}
+
+研
+
+ww
+
+if (bIsDirect_1 &&
+
+：
+科
+
+AllLines[nCurLineName-1].LineInfo[j] == NEND)
+
+{
+
+bHaveFound = true;
+nEnd_pos
+
+= j;
+
+FeasibleLine[0] = nStart_pos;
+
+号
+
+FeasibleLine[1] = nCurLineName;
+
+众
+
+FeasibleLine[2] = nEnd_pos;
+
+公
+
+FeasibleSolve.push_back( FeasibleLine );
+break;
+
+}
+
+信
+
+}
+
+微
+
+bIsDirect_1 = false;
+
+}
+return bHaveFound;
+
+}
+
+// 一次换乘的情况
+bool OnceBusChange(const int NSTART, const int NEND,
+
+// 起始点和目标
+
+点
+vector<vector<int> > & FeasibleSolve,
+
+32
+
+// 可行的解决方
+
+

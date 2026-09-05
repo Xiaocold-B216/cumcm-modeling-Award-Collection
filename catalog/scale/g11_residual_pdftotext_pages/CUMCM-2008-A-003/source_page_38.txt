@@ -1,0 +1,68 @@
+交
+研
+
+%fu.m
+function f=fu(l)
+load -ascii c.txt;
+oa=l(1)*c(1,:);
+ob=l(2)*c(2,:);
+oc=l(3)*c(3,:);
+od=l(4)*c(4,:);
+ab=ob-oa;
+ac=oc-oa;
+cd=od-oc;
+bd=od-ob;
+f(1)=dot(ab,ac);
+f(2)=dot(ac,cd);
+f(3)=dot(cd,bd);
+f(4)=dot(ab,bd);
+f(5)=norm(ab)-468.72;
+f(6)=norm(ac)-468.72;
+f(7)=norm(cd)-468.72;
+f(8)=norm(bd)-468.72;
+return;
+
+流
+
+%best=[143 285 539 240 177 685 537 613];
+zb0=[best(2) best(1);best(4) best(3);best(6) best(5);best(8) best(7)];
+zb_x=[];
+for i=1:length(zb0(:,1))
+zb_x=[zb_x;wl2xj(xs2wl(zb0(i,:)))];
+end
+save c.txt zb_x -ascii
+clear zb0;
+
+公
+
+众
+
+号
+
+：
+科
+
+数学中国
+www.madio.net
+
+微
+
+信
+
+%sa.m
+%模拟退火算法
+r=[143,285,539,240,177,685,537,613];%初始解
+zb_y=[zb_bound{1};zb_bound{2};zb_bound{3};zb_bound{4};zb_bound{5}];
+Tm=5;
+T=Tm;%初始温度
+Tn=1;%最低温度
+E=[];%能量
+dE=[];%能量差
+k=0;%迭代次数
+l=length(r);
+L0=3;L1=1;%随机扰动范围随温度变化，最大和最小范围
+best=r;zx=mbFunction(r);
+while T>=Tn
+36
+
+

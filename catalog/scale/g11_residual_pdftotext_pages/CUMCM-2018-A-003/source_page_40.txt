@@ -1,0 +1,66 @@
+S[i] --;//此时若 S 为正，则说明 CNC 机器经过 S[i]秒后可以加工下一任务;
+//若 S 为负，则说明 CNC 机器已经加工完毕，等待|S[i]|秒
+}
+begin = 0;
+}
+}
+out(endtime);
+cout<<num<<endl;
+return 0;
+}
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+result2: 我们使用第一组数据为例
+#include<iostream>
+#include<cmath>
+#include<ctime>
+#include<stdlib.h>
+#define inf 5000//无穷大
+using namespace std;
+int ons = 20, tws = 33, ths = 46;
+int pro[2] = {400,378};//加工时间,CNC1=455,CNC2=182
+int rep[9] = {0,28,31,28,31,28,31,28,31};
+bool type[9] = {0,0,1,0,1,0,1,0,1};
+int put_down = 25;
+int L[2][9][9] = {0};
+double randnum=0;
+double breaktime = 0;
+double runtime = 0;
+double randuni(){
+return rand()*1.0/(RAND_MAX*1.0);
+}
+class item{//运送的物料类
+public: //CNC1 编号，进入 CNC1 时间，出 CNC1 时间，进 CNC2 时间，出 CNC2 时间
+int xuhao,CNC1,intime1,outtime1,CNC2,intime2,outtime2;
+};
+class error_{//错误类
+public:
+int xuhao,NoCNC;//错误的物料序号，当前的 CNC 编号
+int occ_time,fix_time;//错误开始时间，修复时间
+};
+error_ error[20];
+int error_times = 0;
+item it[500];
+int hold_CNC[9] = {0};
+int hold_RGV;
+40
+
+

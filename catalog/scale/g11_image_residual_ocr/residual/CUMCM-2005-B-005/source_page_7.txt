@@ -1,0 +1,43 @@
+S
+CI S S SA  S |
+， 表 5: 均值 方法 得 到 的 购买 方案
+5vb | bvin | bvbs | Bvs | bvibs | vbs | Bubs | ovor | DVD VD [DVD :
+CE [ w | w [w [m [o [ » [u [ ® | =» ;
+; DVD | DvDit | DVDI2 | DVDI3 | DVD14 | DVD15 | DVD16 | DVDI7 | DVDI8 | DVDI9 | DVD20 :
+merl ® | » [ w [ w [ » [ » [ w [ »] »| = {
+DVD wii | Bvbs | pvpa| pa | Bvos | Dvpa | bvo | Da | Dvpa | VD
+CE ，
+WE w | w | » [ » [ w  w [ » | w [ » | =
+: bvb | viar | Drpa | vbss | bvbar DVD | vbs | EVD EVD vb DVD
+WE ® w [ w [w [ w» w | » [ 7 [ »| w :
+DB | Dvos: | Dvoss | vhes | bvbs | vbas | Bvoss | bvow | DVD | bvps DVD
+wii w | w [» [ » [ » w [» [7[ a| w |
+: ovo | Bvper | Bvbes | vb | vbaa | Bvows | Bvbas | bvoer | bvos | Dvpe | DVD
+wx3w [w [ w [w |w| ® [a [w [ # | w
+bvb vb | wp | bvbs| bvor | wp | ovbis | vb | avpre ivpm | 5vng
+WE w [w [ » [ » [# | w [ » [w | » | »
+va | Dvosi | Dvpss | via | vbe: | vos | bvbss | bvber | bvoss | pvoss | bvow
+; wisl o | » [ a |5 [ w [ » |w [ » »=
+DyD | bvous | Dvoss | Dvoss | bvosi | bvovs | Bvoss | ve | Dvbos | Bvbw | DVP
+| WE w | w | w |» [ % [ » [w [# [ » | »
+{ 基于 上 述 两 种 方法 ， 可 以 得 到 网 站 购买 DVD 的 数量 ， 在 此 基础 上 ， 利 用 问题 二 中 的 分
+: 配 DVD 的 模型 ， 可 以 得 到 相应 的 分 配方 案 。
+对 于 上 述 两 种 购买 方案 ， 与 原 有 DVD 拥有 的 数量 相 比 ， 哪 一 种 方案 更 好 呢 ? 我 们 可 以 从
+， 三 个 方面 比较 这 三 种 购买 方案 的 优 劣 性 《〈 疯 表 6) 。 ，
+R6 第 一 次 订单 三 种 方案 优 省 性 的 比较 :
+: 问题 二 中 的 原来 拥有 量 | 问题 三 第 一 种 方法 得 到 | 问题 三 均值 方法 得 到 |
+， 分 配方 案 购买 量 分 配方 案 购买 量 分 配方 案
+标准 消 塌 度 99.38%
+BMkDVD 的 k 半 |  ewn  |  tew  |  owew
+mEovomen | ar | | ome ;
+; 从 表 6 可 以 看 到 ， 均 值 方法 得 到 的 购买 方案 在 分 配 过 程 中 ， 标 准 满意 度 、 获 得 3 张 DVD 的
+比例 以 及 购买 DVD 的 总 数 都 比较 好 一 些 。 假 设 前 600 个 人 进行 了 第 二 次 租赁 ， 表 ?7 给 出 了 在 三
+种 不 同 购买 量 的 情形 下 600 人 分 配 的 结果 比较 。 .
+: 表 7: 600AHKITH ZAFEAK MHIL4 :
+， 问题 二 中 的 原来 拥有 量 | 问题 三 第 一 种 方法 得 到 | 问题 三 均值 方法 得 到 :
+| 分 配方 案 购买 量 分 配方 案 购买 量 分 配方 案
+三
+， WAMKDVD wek | 6L88% | 10 | 9983% ，
+mEovoask | am |  wwm | ome
+| 4) “问题 四 的 求解 1
+|

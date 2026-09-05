@@ -1,0 +1,60 @@
+本 四 轿 Enp 和 wine
+| 100 工 程 数 学 学 报 第 22 郑 |
+] 量 为 +oo 的 有 向 边 ， 费 用 都 是 0， 其 他 边 <z,y> 的 费用 都 是 (z 一 急 。 所 以 |
+
+| cost 一 > f(®,y) * cost(z,y) 4 | |
+<z,y>€ E,capacity(z,y) <+oo 4 '
+
+1 = > f(@,y)*(z —y) .
+
+] <,y>€E capacity(z,y) <+oo IH
+
+= 每 一 类 订单 选取 的 数量 x 该 类 订单 的 收益 = 总 收益 . - ，
+
+， 正 因为 是 最 大 流 而 满足 了 题目 的 所 有 限制 ， 而 又 因为 是 在 达到 最 大 流 情 况 下 的 最 小 费用 ， 人
+了 也 就 是 总 收益 的 相反 数 最 小 ， 取 一 下 相反 数 即 得 是 总 收益 最 大 ， 最 优 性 得 证 。 所 以 这 样 构造 出 浊
+的 图 论 模型 取得 最 小 费用 最 大 流 时 的 流量 正 对 应 了 在 满足 题目 限制 的 情况 下 一 个 最 优 的 选取 方 了
+
+了 案 ， 而 所 得 的 最 小 费用 的 相反 数 就 等 于 最 大 的 收益 。 上
+了 6， 模型 的 总 结 和 推广 二
+i 对 于 本 文 问题 二 所 对 应 的 一 个 标准 的 最 小 费用 最 大 流 的 模型 是 显而易见 的 ， 但 是 对 于 士 述 |
+的 这 个 问题 ， 看 似 与 网 络 流风 马 牛 不 相 及 ， 但 在 我 们 透 过 问题 的 描述 而 分 析 清 楚 其 本 质 后 ， 通 是
+
+了 过 巧妙 的 构造 出 一 个 图 论 模型 ， 使 得 再 一 次 将 问题 转化 到 了 一 个 容易 解决 的 最 小 费用 最 大 流 问
+题 。 可 以 想见 ， 如 果 不 用 上 述 的 网 络 流 模型 而 采用 最 朴素 的 枚 举 法 来 枚 举 每 份 订单 是 拘 采 纳 ， 3
+汪 这 样 共有 2” 种 不 同方 法 ， 然 后 对 每 种 方法 检查 是 否 符合 限制 从 而 得 出 符合 限制 的 最 优 解 ， 算 E
+i 法 的 时 间 复 杂 度 是 指数 级 ;而 通过 网 络 流 模型 的 建立 ， 问 题 就 能 在 多 项 式 复杂 度 的 时 间 内 高 效
+地 解决。 ，
+
+4 现在 ， 网 络 流 算法 的 理论 研究 已 经 非常 成 熟 ， 随 着 低 阶 算法 的 提出 ， 对 于 数 千 万 节点 的 网
+
+络 ， 计 算 机 也 可 以 在 可 行 的 时 间 内 计算 完成 。 因 此 ， 过 去 需要 用 连续 模型 来 处 理 的 问题 ， 现 在 -
+
+已 经 可 以 用 这 种 离散 模型 更 加 精确 地 解决 。
+
+1 参考 文献 ， :
+
+4 [1] Thomas H. Cormemn, Charles E. Leiserson. Introduction to Algorithms (Second Edtion)[M]. Massachusetts, k
+-局 U.S. The MIT Press, 2002 . . 2
+. [2] 刘 汝 佳 ， 黄 亮 , 算法 艺术 与 信息 学 竞赛 [M], 北京 : 清华 大 学 出 版 社 ，2004 Eo
+局 [3] 吴 文 虎 ， 王 建 德 . 图 论 的 算法 与 程序 设计 [M]. 北京 ， 清华 大 学 出 版 社 ，1997 _
+
+i Modeling and Solving Processes of the DVD Hire Problems 二 |
+
+| WANG Cheng, WEN Ye, YU Yin-tao g
+
+4 Advisor: SONG Bao-rui 1
+， {School of Electronic and Electric Engineering，Shanghai Jiaotong University Shanghai 200030)
+
+2 Abstract: In this paper, we discuss the problems and their solutions of the online service of DVD disk hire. 上 1
+Using model 2, we find out the optimal distribution program of DVD disk to maximize the satisfaction level of
+customers, and using model 3, we also fine out the optimal distribution program of DVD disk to minimize the 是 |
+全 cost under the constraint conditions that a certain satisfaction rate must be reached. We use model 5 to extend !
+
+省 the results to much more general cases.
+
+We design different network flow models for above problems, which are problems of optimization with 4
+
+二 different constraint conditions, and use minimum cost maximum flow methad to solve them by computer. :
+
+E Keywords: mathematical model; network; minimum cost maximum flow

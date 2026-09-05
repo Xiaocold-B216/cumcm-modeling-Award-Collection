@@ -1,0 +1,37 @@
+mportrandom
+import numpy as np
+import xlrd
+import xlsxwriter
+excel = xlrd.open_workbook(" 期 望 供 货 量 xlsx" rb)
+sheet = excelsheet_by name 人 Sheetl7
+n-402
+w-24
+C-28488
+DP=np.zeros(n)
+S-[Jm
+ID-0
+FL
+GHL-[]
+seln=[]
+10pS0~[228,360,139,107,150,339,281,274,328,130,307,329,138.355,267,305,193,351,142.34
+7,246,283,364,30.39,363,366,54.345.79,293,217,243,265.6,122,394,306,200,373.2,36,188,12
+5.4.77.291.73.207.209]
+forrin range(sheet nrows):
+ID.append(sheet cell_value(r, 0)).
+FLappend(sheet cell_value(s, 1))
+forrin range(1, sheet.nrows):
+val=[]
+for ¢ in range(2.shect ncols):
+s-sheet cell value(s, ©)
+if FL{r==A"
+55/0.6
+IfFL{r]==B"
+10.66
+证 FLI=-C:
+sa10.72
+val.append(s)
+GHL.append(tuple(val))
+Zenp.ones(24)
+def T(k Zname):
+name2-[]
+了 2

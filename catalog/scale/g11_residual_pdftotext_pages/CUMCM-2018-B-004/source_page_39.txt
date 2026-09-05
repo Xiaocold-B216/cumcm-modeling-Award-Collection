@@ -1,0 +1,67 @@
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+%% 输入不同组别参数
+Move=[0,20,33,46];%第一组[0,20,33,46] 第二组[0,23,41,59] 第三组[0,18,32,46]
+Work=560;%第一组 560 第二组 580 第三组 545
+Switch=repmat([28,31],1,4);%第一组[28,31] 第二组[30,35] 第三组[27,32]
+Wash=25;%第一组 25 第二组 30 第三组 25
+%% 预设系统情况
+Position=1;%记录 RGV 的位置，取值为 1~4
+Left=zeros(1,8);%记录 8 台 CNC 当前工作剩余完成时间，等待时为 0
+Situation=zeros(1,8);%记录 8 台 CNC 当前是否拥有工件，0 为无，1 为有
+Time=0;%系统已运行时间
+Expect=ones(4,8);%预计时间，第一行为预计运动时间，第二行为预计等待时间，第三行为预
+计上下料时间，第四行为前三项之和
+Rec=[];%记录每个工件的上下料信息
+%% 系统开始运行
+while Time<=28800
+for i=1:8%计算预计时间
+Expect(1,i)=Move(1+abs(Position-ceil(i/2)));
+Expect(2,i)=Left(i);
+Expect(3,i)=Switch(i);
+Expect(4,i)=sum(Expect(1:3,i));
+end
+[~,MinNumber]=min(Expect(4,:));%找出下一个目标
+Time=Time+Expect(1,MinNumber)+Expect(2,MinNumber);%RGV 移动至下一个目标位置并
+等待
+flag=0;%目标 CNC 是否已有工件，0 为无，1 为有
+for i=size(Rec,1):-1:1%记录本次操作的时刻
+if Rec(i,1)==MinNumber && isnan(Rec(i,3))%同时发生上料和下料
+flag=1;
+Rec(i,3)=Time;%记录下料开始时间
+Rec=[Rec;MinNumber,Time,NaN];%记录上料开始时间
+break;
+end
+end
+
+微
+
+if flag==0%仅发生上料
+Rec=[Rec;MinNumber,Time,NaN];
+end
+if Situation(MinNumber)==0%不用清洗的情况
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber);%完成换料
+for i=1:8%CNC 的时间推进
+if Left(i)-Expect(4,MinNumber)<0
+Left(i)=0;
+else
+Left(i)=Left(i)-Expect(4,MinNumber);
+39
+
+

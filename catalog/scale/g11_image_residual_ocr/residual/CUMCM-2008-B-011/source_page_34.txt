@@ -1,0 +1,30 @@
+回味
+人  BREAE
+if x(i,2)==1
+b(1)=b(1)+y(i);
+d(1)=d(1)+1;
+end
+if x(i,2)==2
+b(2)=b(2)+y(i);
+d(2)=d(2) y
+2)=d(2)+1;
+H
+end Z \
+if x(i,2)==3
+b(3)=b(3)+y(i); 全
+MZ d(B)sd(3] -,
+S j
+ee
+end Ve) d .
+if x(i,1
+WHW 10. met
+if x(i,2)==1
+人 i0);
+24 AN
+Y&
+证
+b(5)=b(5)+y(i);
+d(5)=d(5)+1;
+end
+if x(i,2)==3
+34

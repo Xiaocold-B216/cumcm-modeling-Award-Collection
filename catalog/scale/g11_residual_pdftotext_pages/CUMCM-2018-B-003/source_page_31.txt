@@ -1,0 +1,65 @@
+t0=t0+T(5);
+b(2*(lj(i)-1)+1)=1;
+c(2*(lj(i)-1)+1)=t0+T(4);
+%RGV 为单个偶数 CNC 上料
+t0=t0+T(6);
+b(2*(lj(i)-1)+2)=1;
+c(2*(lj(i)-1)+2)=t0+T(4);
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+[e,f,g,h] = oneStep( a,dT,T,t0,c );%a,t0,c 改变为 f,g,h.
+e1=[];f1=[];g1=[];h1=[];
+for i=1:4
+[ze1,zf1,zg1,zh1] = oneStep( f(i),dT,T,g(i),h(i,:) );
+e1=[e1;ze1];f1=[f1;zf1];g1=[g1;zg1];h1=[h1;zh1];
+clear ze1 zf1 zg1 zh1
+end
+e2=[];f2=[];g2=[];h2=[];
+for i=1:4
+for j=1:4
+[ze1,zf1,zg1,zh1] = oneStep( f1(i,j),dT,T,g1(i,j),h1(4*(i-1)+j,:) );
+e2=[e2;ze1];f2=[f2;zf1];g2=[g2;zg1];h2=[h2;zh1];
+clear ze1 zf1 zg1 zh1
+end
+end
+e3=[];f3=[];g3=[];h3=[];
+for i=1:16
+for j=1:4
+[ze1,zf1,zg1,zh1] = oneStep( f2(i,j),dT,T,g2(i,j),h2(4*(i-1)+j,:) );
+e3=[e3;ze1];f3=[f3;zf1];g3=[g3;zg1];h3=[h3;zh1];
+clear ze1 zf1 zg1 zh1
+end
+end
+e4=[];f4=[];g4=[];h4=[];
+for i=1:64
+for j=1:4
+[ze1,zf1,zg1,zh1] = oneStep( f3(i,j),dT,T,g3(i,j),h3(4*(i-1)+j,:) );
+e4=[e4;ze1];f4=[f4;zf1];g4=[g4;zg1];h4=[h4;zh1];
+clear ze1 zf1 zg1 zh1
+end
+end
+e5=[];f5=[];g5=[];h5=[];
+for i=1:256
+for j=1:4
+31
+
+

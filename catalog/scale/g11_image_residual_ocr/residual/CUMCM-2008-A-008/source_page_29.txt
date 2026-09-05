@@ -1,0 +1,30 @@
+加 出 条 动 回
+数学 中 国 论文 共享 adly
+www. madio. cn 外 全
+系 为
+X =x, =xcosP cosyY+J(sinosinB cosYy+cososiny)+z(-coso sinB cosY+sino siny)
+Y =y, =x(-cosB siny)+ y(—sina sin B siny +cosocosy)+z(cososinB siny+sina cosy)
+Z =z, =xsin + y(—sina cos B)+ z cosa cos p
+所 以 三 维 情况 下 的 坐标 旋转 矩阵 为 :
+cosB cosY  sinosinf cosY+cososiny -cososinB cosy+singa siny
+及 =|-cosBsiny -sinasinBsiny +cosocosY cosasinB siny +sino cosy
+sinB —sina cosB cosacosP
+非 线性 方程 组 的 求解 -从
+Re -SN
+有 了 映 象 EDSR 一 人 。 求 解 非 线性 方程 组 2 \
+FC9-0 ,假定 X*s D 是 方程 的 一 个 精确 解 ，X' 是 X* os 区 可
+以 定义 仿 射 映像 :
+LeR" -> R" X
+1 二
+为 COTAsCex JrFGK ) ,其 中 As rd 非 奇 异 n 阶 和 矩阵 ， 显 然
+瑟 COTFC ) 着 用 线性 方程 组 CO-AsGCx TCD 的 解 xxS 作为 方程 的 新
+k+l -大 一 1 k o
+近似 ， 即 zx 一 和 ee
+对 所 有 的 都 取 舟 =4s7(R) 和 奇异 于 是 xm = 区 一 4 E= 0
+成 为 n 维 平行 弦 方 法 。 j hnd
+0 Novn 13 147 :方程 组 ， 还 可 以 得 到 更 好 的 收敛 速度 和 自 校正 的 特
+点 ， = ， 我 们 并 没有 深入 分 析 下 去 。
+Al
+YX
+汕
+27

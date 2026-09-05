@@ -1,0 +1,84 @@
+第 31 卷第 1 期
+数学的实践与认识
+V o l131 N o 11
+2001 年 1 月
+J an. 2001
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+Abstract:
+
+A s to the p rob lem of the tim e needed fo r an a irp lane to sta rt from B eijing, fly over
+
+a rctic po le, and reach D etro it, th is a rticle d iscu sses how m uch tim e can be saved in the m odels
+tha t estab lished in the a rticle in com p a rison w ith the o rig ina l fligh t rou te. A nd it summ a rizes
+selection of the fligh t rou te fo r sea rch ing the sho rtest a rc in the su rface. D iscu ssion is ba sed on
+the fact tha t the sho rtest a rc on su rface is geodesic. M odel 1 is on the a ssum p tion tha t the
+Ea rth is a sp here. It can be so lved by the rela tion betw een inner2p roduct and included ang le of
+tw o un it vecto rs. M odel 2 is on the a ssum p tion tha t the Ea rth is a revo lving ellip so id. It can be
+
+流
+
+so lved by the geodesic equa tion in d ifferen tia l geom etry, w h ich tu rn s la titude of the Ea rth in to
+tha t of ellip so id. Fo r the 4 p a irs of sp ecia l po in ts, their la titudes o r long itudes a re too clo se to
+ca lcu la te geodesic, so w e rep lace geodesic w ith ellip se a rc, and u se softw a re M a them a tica to
+
+研
+
+交
+
+ob ta in the leng th.
+
+：
+科
+
+航程计算的数学模型
+谭永基
+
+( 复旦大学, 上海
+
+本文对飞机航线飞行距离计算的数学模型进行了概述, 并对 2000 年全国大学生数学建模竞赛的C
+
+公
+众
+
+题答卷进行了评述.
+
+号
+
+摘要:
+
+400433)
+
+假定飞机保持飞行高度 10 千米作匀速飞行, 忽略起飞、降落和地球自转和公转的影响,
+C 题可以归结为求飞越通过指定各点的球面或旋转椭球面上的短程线 ( 或测地线) 的航线与
+飞越直接连结北京上空 10 千米至底特律上空 10 千米的经过北极圈的新航线的时间差. 又
+
+信
+
+由于假设飞机作时速为 980 千米g
+小时的匀速飞行, 问题又可归结为求相应的航程差.
+
+1
+
+地球为球体的情形
+
+微
+
+取直角坐标系如下: 以球心为原点, z 轴指向北极, x 轴通过赤道上经度为 0°
+和 180°
+的
+
+两点, 正向指向 0°
+, y 轴垂直于 x 轴和 z 轴, 构成右手坐标系.
+在半径 r = 6381 ( 千米) 的球面上建立球面坐标系 ( Υ, Η) , 由于航线在北半球, 我们取 Υ和
+北纬度一致, Η和东经度一致. 因此航线上某处的地理坐标为 (f , l ) , 可用以下方法得到对应
+的球面坐标 ( Υ, Η) :
+Υ= f × Πg
+180
+l , l 为东经
+Η°=
+360 - l , l 为西经
+Η= Η°× Πg
+180
+应有
+
+

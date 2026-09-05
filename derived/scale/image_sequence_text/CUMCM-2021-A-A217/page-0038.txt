@@ -1,0 +1,38 @@
+11= readtable(resultxlsX,Sheet' 理 想 报 物 面 顶 点 坐标 ?
+12= readtable(result xlsX,Sheet' 调 整 后 主 索 节 点 编号 及 坐标
+昌 =readtable(resultxlsX'Sheet' 促 动 器 顶端 伸缩 量 )
+[W.~] ~ Polarcompose_rotate(Constantalpha Constant beta):
+% 抛物 面 项 端 W 旋转 后 的 取 值 Lw 要 与 focal_rad+LD2 一 样
+ABR = Polar.xyz2abr(t1 {1,13}*W');
+emr= ABRG)(1-Constant FR._ratio)*Constant.sphere_radius +Constant L{12);
+disp(" 检 查 ; 抛物 面 项 端 旋转 后 是 否 是 focal_rad+LD2 AUILECHIBRR 2): "rerm);
+assert(abs(em) < eps);
+% 重新 构建 index
+Taw_code = readtable(' 数 据 /1. 主 索 节点 坐标 和 编号 .csv)
+raw_code -raw codex
+index_code = string(2x__);
+index = cellfun(@(s)any(s 一 index_code) raw_code):
+assert(all(string(raw_code(index)) 一 index_code));
+disp( 构 建 index 成 功 小
+%0.6
+assert(all(3(:2}<0.6));
+assert@l(3{:.2}>-0.6)):
+disp(Lz 没有 超过 寸 66: 成 功 和
+%007
+data ~ Data();
+edge = data.edge(all(index(data.edge) 2).:): % 过 滤 节 点 之 间 的 连 边
+index2(index) = lsum(index): % 构建 过 滤 之 后 的 新 的 节点 下 标 顺 序
+edge = index2(edge): 9% 使 用 新 的 节点 下 标 对 连 边 节点 序号 重 定向
+assert(all(all(edge))): % 连 边 节点 序号 不 能 有 空 泡
+raw_XYZ = datamain node_coordinate(indes..);
+opLXYZ =02:243;
+raw_edist = raw_XYZ(edge(:.1).}raw XYZ(edge(:2).:
+raw_edist = sqri(sum(raw_edist *raw_edist.2)):
+opt_edist = opt. XYZ(edge(-1).)-0pt XYZ(edge(:2).:
+opt_edist = sqri(sum(opt._edist.*opt_edist.2));
+ratio  (opt_edist raw _edist)*100-100;
+assert(all(ratio<0.07));
+assert(allratio-0.07)):
+disp( 节 点 之 间 的 距离 变化 率 没有 超过 土 0.07%6: 成 功 洲
+% motor 距离 (下 拉 索 )
+38

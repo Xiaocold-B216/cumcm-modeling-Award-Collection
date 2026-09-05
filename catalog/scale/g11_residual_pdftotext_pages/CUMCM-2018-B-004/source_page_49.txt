@@ -1,0 +1,70 @@
+end
+end
+if flag%由于原目标 CNC 发生故障，重启循环
+continue;
+end
+flag=0;
+
+研
+
+交
+
+流
+
+for i=1:size(Error,1)%等待中检查错误信息
+if Time<=Error(i,3) && Time+Expect(2,MinNumber)>=Error(i,3) && Error(i,5)==0 &&
+MinNumber==Error(i,2)%等待中原目标发生了故障
+Error(i,5)=1;%标记为已处理
+Situation(Error(i,2))=0;%修复完成后取走故障工件
+for j=1:8%CNC 的时间推进
+if Left(j)-(Error(i,3)-Time)<0
+Left(j)=0;
+else
+Left(j)=Left(j)-(Error(i,3)-Time);
+end
+end
+Left(Error(i,2))=Error(i,4)-Error(i,3);%将故障修复所需时间转换为当前工作剩余
+
+：
+科
+
+完成时间
+
+Time=Error(i,3);%时间调整至故障发生时
+flag=1;
+end
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+if flag%由于原目标 CNC 发生故障，重启循环
+continue;
+end
+Time=Time+Expect(2,MinNumber);%正常等待
+if Now==1%当前目标是工序 1 的 CNC
+flag=0;
+for k=size(Rec,1):-1:1%记录本次操作时刻
+if Rec(k,1)==MinNumber && isnan(Rec(k,3))%同时发生上料和下料
+flag=1;
+Rec(k,3)=Time;
+Rec(end+1,1)=MinNumber;
+Rec(end,2)=Time;
+Rec(end,3:6)=NaN;%构建此工件工序 2 的记录矩阵
+break;
+end
+end
+if flag==0%仅发生上料
+Rec(end+1,1)=MinNumber;
+Rec(end,2)=Time;
+Rec(end,3:6)=NaN;
+49
+
+

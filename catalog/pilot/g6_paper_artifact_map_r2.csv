@@ -1,0 +1,29 @@
+﻿paper_id,year,problem,subject_type,artifact_eligible,artifact_exclusion_reason,member_file_count,primary_file,artifact_generation_mode,expected_primary_artifacts
+CUMCM-2015-A-001,2015,A,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (4).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-A-003,2015,A,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (2).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-A-004,2015,A,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (6).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-A-005,2015,A,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (5).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-A-006,2015,A,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (7).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-A-007,2015,A,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (1).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-A-008,2015,A,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015A：太阳影子定位 (3).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-B-001,2015,B,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (5).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-B-002,2015,B,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (2).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-B-003,2015,B,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (1).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-B-004,2015,B,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (4).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-B-006,2015,B,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015B：互联网+_时代的出租车资源配置 (3).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-C-002,2015,C,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015C：月上柳梢头，人约黄昏后 (4).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-C-005,2015,C,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015C：月上柳梢头，人约黄昏后 (3).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2015-D-002,2015,D,PROBLEM_PACKAGE,0,"Formal 2015 D problem statement package with official attachments, not a contestant paper body; retain identity/memberships but exclude from Paper-level G6 artifacts.",3,2015年数学建模国赛真题+优秀论文/2015年赛题/2015年国赛D题.doc,EXCLUDED_NON_PAPER,0
+CUMCM-2015-D-003,2015,D,PAPER,1,,1,2015年数学建模国赛真题+优秀论文/2015年优秀论文/2015D：众筹筑屋规划方案设计 (3).pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2025-A-001,2025,A,PROBLEM_PACKAGE,0,"Official 2025 A-E competition problem package, not a contestant paper body; retain G3 identity but exclude from Paper-level G6 artifacts.",1,2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/A题/A题.pdf,EXCLUDED_NON_PAPER,0
+CUMCM-2025-A-A066,2025,A,PAPER,1,,1,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A066.pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2025-A-A196,2025,A,PAPER,1,,1,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/A196.pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2025-B-001,2025,B,PROBLEM_PACKAGE,0,"Official 2025 A-E competition problem package, not a contestant paper body; retain G3 identity but exclude from Paper-level G6 artifacts.",1,2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/B题/B题.pdf,EXCLUDED_NON_PAPER,0
+CUMCM-2025-B-B060,2025,B,PAPER,1,,1,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/B060.pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2025-C-001,2025,C,PROBLEM_PACKAGE,0,"Official 2025 A-E competition problem package, not a contestant paper body; retain G3 identity but exclude from Paper-level G6 artifacts.",1,2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/C题/C题.pdf,EXCLUDED_NON_PAPER,0
+CUMCM-2025-C-C023,2025,C,PAPER,1,,1,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C023.pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2025-C-C132,2025,C,PAPER,1,,1,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/C132.pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2025-D-001,2025,D,PROBLEM_PACKAGE,0,"Official 2025 A-E competition problem package, not a contestant paper body; retain G3 identity but exclude from Paper-level G6 artifacts.",1,2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/D题/D题.pdf,EXCLUDED_NON_PAPER,0
+CUMCM-2025-D-D037,2025,D,PAPER,1,,1,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/D037.pdf,one_paper_level_artifact_set_from_memberships,3
+CUMCM-2025-E-001,2025,E,PROBLEM_PACKAGE,0,"Official 2025 A-E competition problem package, not a contestant paper body; retain G3 identity but exclude from Paper-level G6 artifacts.",1,2025年数学建模国赛真题+优秀论文/2025年数学建模国赛真题！/E题/E题.pdf,EXCLUDED_NON_PAPER,0
+CUMCM-2025-E-E030,2025,E,PAPER,1,,1,2025年数学建模国赛真题+优秀论文/2025数学建模国赛优秀论文/E030.pdf,one_paper_level_artifact_set_from_memberships,3

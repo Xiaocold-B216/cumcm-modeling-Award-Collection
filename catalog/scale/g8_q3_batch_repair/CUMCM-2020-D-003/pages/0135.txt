@@ -1,0 +1,1 @@
+EiaE 风月 机 回 呈 NS wase % 旋转 ca= cos(pi/2+pi/2+pi/2) sa=sin(pi/2+pi/2+pi/2) A = [ca-sasacal: X= [9:1); 9(.2)T; Y = AX; 2Y= Y(L)+al0(1); Y(2,)-a10(1)+a10(2)+al0(L): f ”rr OA ay AN 步 % 绘图 SN plot(Y(L,), Y(2.), LineWidth 2) 所 title( 工 件 2 完整 轮廓 线 修正 后 图 小 SS 工件 2 完整 轮廓 线 修正 司 钨 N 2 -4 -6 -8 -10 -12 -14 -16 I ( 8 ABR Wa 5 0 5 10 15 135

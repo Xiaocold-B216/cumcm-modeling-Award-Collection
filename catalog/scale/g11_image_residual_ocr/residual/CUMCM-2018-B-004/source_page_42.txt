@@ -1,0 +1,49 @@
+回 8 昌国
+后
+站 全 入
+TempRec(end+1,1)=MinNumber;
+TempRec(end,2)=Time;
+TempRec(end,3:6)=NaN;
+end
+if Situation(MinNumber)j==1% 换 料 时 取 下 了 一 个 已 经 完成 工序 1 的 工件
+Now=2;% 下 一 道 目 标 工序 发 生变 化
+NEXT=k;% 记 录 此 工件 的 序号
+end
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber);% 完 成 换 料
+for k=1:8
+if Left(k)-Expect(4,MinNumber)<0 A7
+Left(k)=0; “ NY
+o
+else 2XG \)
+Left(k)=Left(k)-Expect(4,MinNumber);
+end ood
+end
+Left(MinNumber)=Work(1); As
+else% 当 前 目标 是 工序 2 的 CNC Q
+frag-0; A BA
+for k=size(TempRec1):-1:1% 记 录 14 操作 上 刻
+if TempRec(k,4)==MinNumber && isnan(TempRec(k,6))% 取 下 已 完成 工
+件 @
+flag=1; /L » ©
+AR
+TempRe€( -winwumber
+人
+—
+brea »
+一 -54
+~ 让 Romegearrramrf
+7 TempRec(NEXT,4)=MinNumber;
+下 4 TempRec(NEXT,5)=Time;
+p) end
+13/ 4 Now=1% 此 时 目标 工序 重新 变 为 工序 1
+SA， Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber)j+Wash;% 完 成 换 料
+for k=1:8
+if Left(k)-Expect(4, MinNumber)-Wash<0
+Left(k)=0;
+else
+Left(k)=Left(k)-Expect(4,MinNumber)-Wash;
+end
+end
+42

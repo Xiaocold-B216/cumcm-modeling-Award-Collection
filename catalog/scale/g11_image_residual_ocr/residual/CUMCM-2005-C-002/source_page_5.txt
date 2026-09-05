@@ -1,0 +1,27 @@
+;
+126 工 程 数 学 学 报 第 22 卷 :
+4 ”模型 的 评价
+模型 一 从 数学 的 角度 来 评价 两 种 预报 方式 的 好 坏 ， 模 型 二 从 人 们 对 气象 预报 的 感受 来 评价 :
+两 种 预报 方式 的 好 坏 通过 三 种 指标 P+、P-、P 的 值 来 衡量 两 种 预报 方式 在 漏 报 或 少 报 、 虚
+报 或 多 报 方面 的 好 坏 做 出 评价 。P+ 为 负 值 ， 说 明 第 一 种 方法 预报 在 漏 报 或 少 报 方面 要 优 于 第
+] 二 种 方法 。 而 P- 有 正 有 负 说 明 第 一 种 方法 预报 在 虚报 或 多 报 方面 要 与 第 二 种 方法 相当 ; 书 的 :
+值 均 为 负 说 明 第 1 种 预报 方法 要 好 于 第 2 种 预报 方法 。 :
+; 我 们 的 两 个 模型 从 不 同 的 角度 对 两 种 预报 方法 作出 了 评价 ， 综 合 对 二 种 预报 方法 评价 的 结
+果 ， 我 们 认为 第 一 种 预报 方法 要 略 好 于 第 二 种 预报 方法 。 ;
+; 参考 文献 ; 1
+: 全 莓 定 宝 ， 陈 阳泉 . 高 等 应 用 数学 问题 的 Matiab 求 解 [M]. 北京 :清华 大 学 出 版 社 ，2004 。
+四 孔 玉 寿 ， 齐 东 华 , 现代 天 气 预 报 技术 [M]. 北京 ， 气象 出 版 社 ，2005
+The Models to Evaluate the Forecast Methods of
+Precipitation Rain Fall ，
+HP Jin, HE Wei， WANG Jian-ming
+: Advisor: LUO Jian  - :
+li (PLA University of Science and Technology, Nanjing 211101) :
+Abstract: In this paper the forecasting data on every observation point were obtained by five different interpo-
+) lation methods, then two models were established to evaluate the forecast methods via different points of view. ;
+: ‘The model I was based on the sum of the square errors between the forecast data and the measuring data. The 了
+: model II was based on the people’s different receptivity to the forecast precision. The people’s nonsymmetric ，
+i receptivity to the forecast error grades and the different effect of the forecast errors in different period of time :
+和 on the people’s action were involved in this model and some indexes of the people’s dissatisfaction were also ‘
+: established. The same results were obtained from these two models were that the first forecast method is better !
+: than the second one. 1
+Keywords: interpolation; sum of the square errors; symmetry; weight number :

@@ -1,0 +1,67 @@
+z=[c;c;c;c];
+for i=1:4
+e(i)=dT(abs(a-i)+1);%可能移动时间
+f(i)=i;%位置
+g(i)=t0+e(i);%移动后当前时间
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+if g(i)>c(2*(i-1)+1)&&g(i)>c(2*(i-1)+2)
+%[cmin,cind]=min([c(2*(i-1)+1)+28+T(7),c(2*(i-1)+2)+31+T(7)]);
+cind=1;
+z(i,2*(i-1)+cind)=g(i)+T(5)+T(4);
+h(i)=0;%其余 CNC 等待时间
+for j=1:8
+if c(j)<g(i)+T(5)+T(7)&&j~=2*(i-1)+1
+h(i)=h(i)+g(i)+T(5)+T(7)-c(j);
+end
+end
+else
+[cmin,cind]=min([c(2*(i-1)+1)+T(5)+T(7),c(2*(i-1)+2)+T(6)+T(7)]);
+z(i,2*(i-1)+cind)=z(i,2*(i-1)+cind)+T(4+cind)+T(4);
+h(i)=0;%其余 CNC 等待时间
+for j=1:8
+if c(j)<cmin&&c(j)~=cmin-T(7)-T(4+cind)
+h(i)=h(i)+cmin-c(j);
+end
+end
+end
+
+众
+
+end
+end
+
+微
+
+信
+
+公
+
+附录二：fStep.m
+function e3 = fStep( f,dT,T,g,h,e )
+%多步最优
+%实践解得发现瞻望四步迈一步已可解得全局最优解
+e1=[];f1=[];g1=[];h1=[];
+for i=1:4
+[ze1,zf1,zg1,zh1] = oneStep( f(i),dT,T,g(i),h(i,:) );
+e1=[e1;ze1];f1=[f1;zf1];g1=[g1;zg1];h1=[h1;zh1];
+clear ze1 zf1 zg1 zh1
+end
+e2=[];f2=[];g2=[];h2=[];
+for i=1:4
+for j=1:4
+[ze1,zf1,zg1,zh1] = oneStep( f1(i,j),dT,T,g1(i,j),h1(4*(i-1)+j,:) );
+e2=[e2;ze1];f2=[f2;zf1];g2=[g2;zg1];h2=[h2;zh1];
+27
+
+

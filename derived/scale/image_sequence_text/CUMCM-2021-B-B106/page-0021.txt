@@ -1,0 +1,35 @@
+优化 算法 等 智能 算法 进行 求解 。
+粒子 群 优化 算法 求全 局 最 优 解 伪 代码 如 下
+1 功能 ， 粒子 群 优化 算法 伪 代 碍
+/说 明 ， 本 例 以 求解 问题 最 大 值 为 目标
+/ 才 数 ， N 为 群体 规模
+Procedure PSO
+for each particle i
+Initialize velocity 17 and position Xi for particle i
+Evaluate particle iand set pBesti = Xi
+end for
+‘gBest = min {pBesti}
+‘while not stop
+fori=ltoN
+Update the velocity and position of particle /
+Evaluate particle 1
+if CD > fit (pBestr)
+pBesti = Xi;
+iFfit (pBesti) > fit (gBest)
+‘gBest= pBesti;
+end for
+end while
+print gBest
+end procedure
+参考 文献
+[1] 刘 嘉 . 炼 厂 混合 C4 与 乙醇 制 丙烯 反应 研究 [D]. 西北 大 学 , 2011.
+[2] 重洋 王 霜 , 李 法 社 ， 隋 猛 , 王 文 超 . 拟 合 系数 定常 回归 法 分 析 生物 柴油 酯 化
+反应 影响 因素 的 数学 模型 中 中 国 油 腊 , 2019. 44(10): 66-70.
+[3] 吕 绍 沛 乙醇 偶合 制备 丁 醉 及 C_4 烯烃 [D] 大 连理 工大 学 , 2018.
+[4] 王 碧 灿 ， 李 法 社 ， 倪 样 峙 ， 王 霜 , 隋 狐 . 棕榈 酸 异 成 酯 的 制备 及 西化 反应 复合
+影响 因素 的 数学 模型 四. 中 国 和 粮 泪 学 报 , 2020. 35011): 67-71.
+[5] 何 晓 群 , 刘 文 婴 . 应 用 回归 分 析 [M]. 北京 : 中 国人 民 大 学 出 版 社 , 2019: 71-73,
+207-208.
+了
+党 四 国 大 学 生 在 线
+as 7oe Oo cx7

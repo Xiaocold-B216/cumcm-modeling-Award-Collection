@@ -1,0 +1,47 @@
+paper_id: CUMCM-2001-B-007
+year: 2001
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：公交车调度问题的研究.pdf
+  sha256: 044F8116300A68D7DD1EB481A9F8C2A2717981DE03A8463C5233D038054A6CBD
+authority_sha256: 044F8116300A68D7DD1EB481A9F8C2A2717981DE03A8463C5233D038054A6CBD
+paper_file_memberships:
+- path: 2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：公交车调度问题的研究.pdf
+  role: primary
+  canonical: true
+primary_file: 2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：公交车调度问题的研究.pdf
+extraction_inputs:
+- path: 2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001B：公交车调度问题的研究.pdf
+  sha256: 044F8116300A68D7DD1EB481A9F8C2A2717981DE03A8463C5233D038054A6CBD
+  kind: original
+extraction_input_sha256: 044F8116300A68D7DD1EB481A9F8C2A2717981DE03A8463C5233D038054A6CBD
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 8
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7", "8"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2001-B-007/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2001-B-007/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2001-B-007/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2001-B-007/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2001-B-007/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2001-B-007/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2001-B-007/source_page_7.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2001-B-007/source_page_8.txt"]
+  source_sha256: 044F8116300A68D7DD1EB481A9F8C2A2717981DE03A8463C5233D038054A6CBD
+  current_body_sha256: D51F20A18BC2199B25F80BECBA854EC01E9BC11B09CE8899B5D7D0D45F96974B
+  candidate_body_sha256: 3615F517D935C70D69F0698145B3E08B93086AE6D7A6128007FD9A7AF4DE60E8
+  source_page_count: 8
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

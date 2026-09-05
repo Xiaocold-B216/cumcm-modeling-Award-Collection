@@ -1,0 +1,42 @@
+回 ; 二
+四
+和
+Id.last_date,
+datediff(day,last_date,'2018-1-15") as R,
+COUNT(vmvsd.vi_kh) as F,
+sum(je) as M,
+MAX(je) as T
+into #REMT
+from vtime _mall_vip_sale_detail vimvsd.#last_date 1d
+where vmvsd.vi_kh=Id.vi_kh
+group by vmvsd.vi_kh,last_date
+-- 提 取 没 有 消费 记录 的 会 员 卡 号
+select vi.kh,vi.csny,vi.xb.vi.djsj b
+from vip_information vi - <sD
+left join vtime_mall vip_sale_detail vmvsd on vikh=vmvsd.vi_kh 一 -个
+where vmvsd.vi_kh is null 3 1
+-第 三 问 -----------------------------------
+-- 创 建 RFMT 模型 临时 表
+if object_id('tempdb. #frofire!) is not null S
+Begin -
+drop table #frofire
+End
+， (|
+select vmvsd.kh.SUM(pdi.sj-pdi.hsjj) Fe) 关 int@¥#frofire
+from vtime_mall vip_sale_detail 0A
+left join product_information pdi on vim¥sd.spbm=pdi.spbm
+group by vmvsd.kh
+select * from #RFMT a left joi re b on a. 会 员 卡 号 =b.kh
+一 一”
+-创建 特价 釉 史 于 局
+这 object 诅 ( 风 bdb,#vip_discount_ product jen is not null
+Begin
+7 ip_discount_product_je
+select vimvsd.kh,SUM(je) as 特价 商品 消费 总 金额 into #vip_discount_product je
+from vtime_mall vip_sale_detail vmvsd
+left join product_information pdi on vmvsd.spbm=pdi.spbm
+where pdisplm like '% 特 %' or pdi.splm like '% 折 %' or pdisplm like % 促 %6'
+group by vmvsd.kh
+-- 创 建 会 员 特价 商品 消费 金额 表
+让 object id(tempdb..#wtotal discount product je) is not null
+26

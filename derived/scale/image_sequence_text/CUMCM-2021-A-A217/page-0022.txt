@@ -1,0 +1,35 @@
+function derr = Wangle)
+[L dL] = Polarpara(Lf angle);
+derr =2*dL.*(L-Constant sphere_radius);
+radius = Constant.sphere._radius.*cos(angle):
+derr = derr*(2.*pi.*radius);
+end
+end
+prob2_calc.m: 问题 2 的 求解 核心 算法
+function [fval, opt_X, opt_XYZ, opt_Lz opt_ABR, index W Winv,
+edge, edge_distSQ. motor hi motor unit motor distSQ] = prob2_cale()
+elfreset’;
+‘mg(default);
+clear global
+% 初始 化 数据 集
+data = Data();
+% 初始 化 旋转 变换 矩阵
+[W, Winy] = Polar.compose_rotate(Constant.alpha, Constant beta);
+% 选择 300 口径 内 的 节点
+人 angle300] = probl_calc();
+mnain XYZ = data.main_node_coordinate;
+main_ ABR = Polar.xyz2abr(main_XYZ*W');
+index = main_ABR(:.2) >= pi-angle300;
+N_nodes = sum(index).
+main XYZ =main_XYZ(index, :: % 过 滤 主 网 节点
+edge = data.edge(all(index(data.edge).2),:); % 过 小节 点 之 间 的 连 边
+index2(index) = 1:sum(index): % 构建 过 滤 之 后 的 新 的 节点 下 标 顺序
+edge = index2(edge); 9% 使 用 新 的 节点 下 标 对 连 边 节点 序号 重 定向
+assert(all(all(edge))): % 连 边 节点 序号 不 能 有 空 泡
+% 初始 化 邻 边 长 度
+edge_distSQ = main XYZ(edgeC:D):)-main XYZ(edge(:2).):
+edge_distSQ = sum(edge_distSQ.*edge distSQ.2);
+% 促 动 器 预 处 理
+motor hi = datamotor higher base(index, :);
+motor lo = datamotor lowertindex 小
+22

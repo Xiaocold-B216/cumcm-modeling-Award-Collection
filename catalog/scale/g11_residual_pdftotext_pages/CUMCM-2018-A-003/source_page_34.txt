@@ -1,0 +1,70 @@
+print();
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+}
+print();
+return 0;
+}
+void init1(){
+//生成矩阵 L
+for(int k=0;k<2;k++){
+for(int i=1;i<9;i++){
+for(int j=1;j<9;j++){
+//计算步长
+L[k][i][j] = abs((j+1)/2 - (i+1)/2) ;
+if(L[k][i][j] == 1) L[k][i][j] = ons;
+else if(L[k][i][j] == 2) L[k][i][j] = tws;
+else if(L[k][i][j] == 3) L[k][i][j] = ths;
+//满载时不能去到相同类型的机器
+if(k==1 && type[i]==type[j])
+L[k][i][j]=inf;
+}
+}
+}
+}
+void init2(){
+full = 0,t_full=0;//0 表示当前为空车
+for(int i=1;i<9;i++){
+S[i] = 0;//加工剩余时间
+B[i] = 0;//是否有孰料
+T[i] = 0;//当前状态到达其他 CNC 加工台的代价
+numm1[i] = 0; //将任务量置零
+numm2[i] = 0;
+}
+num = 0;//成品数量
+for(int i=1;i<9;i++)
+for(int j=1;j<9;j++)
+P[i][j]=0;
+}
+void print(){
+cout<<"*************MAX："<<max_num<<endl;
+for(int i=0;i<9;i++){
+for(int j=0;j<9;j++)
+cout<<max_P[i][j]<<",";
+
+流
+
+}
+else if(num<max_num){
+out(max_num-num);
+}
+
+34
+
+

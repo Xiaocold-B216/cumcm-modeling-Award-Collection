@@ -1,0 +1,84 @@
+ERE
+号 由
+1
+
+plot (data2(:, 3), data2(:,5),".")
+
+hold off
+
+xxn %date when cd4 reach max(cd4)
+
+xxn2 %date when hiv reach min(hiv)
+
+figure(3);
+
+bx1=datal (:, 2) ;bx2=bx1. "2;by=datal (:, 3) ;
+
+bX=[ones (size (bx1), 1), bx1, bx2];
+
+bx=[bx1, bx2];
+
+%stepwise (bx, by)
+
+[b4, bint4, r4, rint4, s4]=regress (by, bX) ;%regress of cd4 with no sort 二
+
+xx=-10:80; 二 <
+
+yy1=b4 (1) +b4 (2) #xx+b4 (3) *xx. 2; 全 \
+
+和
+
+bxl=datal(:,4) ;bx2=bx1. 2;by=datal(:,5)*#50; 从 一
+
+bX=[ones (size (bx1), 1), bx1, bx2];
+
+bx=[bx1, bx2];
+
+%stepwise (bx, by) P
+
+[b5, bint5, r5, rint5, s5]=regress (by, bX) ;%regress iMwith no sort
+
+yy2=b5 (1) +b5 (2) #xx+b5 (3) *xx. 2;
+
+%plot (xx, yyl, XX, yy2, bx1, by, ” . ” )
+
+plot (xx, yy1, xx, yy2) 和 @
+
+grid 4 (ej
+
+text(60, 320，\leftarrow HIV ) ; 和 和 A
+
+text(61, 103，\leftarrow CD4 ) ;
+
+title CHIV and CD4 ) ;
+
+xlabel( date(week) ) ;
+
+ylabel( HIV#*50 or=(D4 )y
+
+yyn=max (yy1)
+
+xxn3=(sqrt (b4A2) Romoyene ;
+
+yyn=min 小
+
+xxn4=(sq s (3)*#(b5(1)-yyn))-b5(2))/(2#xb5(3) ) ;
+
+X
+
+8.1.2 问题 二 回归 分 析 的 程序 代码
+
+size(data201) ;
+
+[ra, ir]=sort (data201(:,2));
+
+D=[ra, ir];
+
+for k=1:4
+
+j(k)=0;
+
+for i=1:5036
+
+if D(i, 1)==k
+22

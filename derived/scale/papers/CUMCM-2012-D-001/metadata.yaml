@@ -1,0 +1,16 @@
+paper_id: CUMCM-2012-D-001
+year: 2012
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (2).doc
+source_sha256: D93A9A6A9DE012927F8A5D4B36E1768CA3F6AFFB6952673F40FE2740D4032766
+effective_pdf_path: tmp/g8_doc_2012_d001_manual_print_to_pdf/CUMCM-2012-D-001/manual_print_candidate.pdf
+effective_pdf_sha256: CBE28049A80C0B900CF82A0BE06492A906D56B39F27819D6F94C67C6FF349399
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2012-D-001/normalized_body.txt
+authoritative_text_sha256: DBCAD2B1FE50827672E67CBCDE43BA0D80731D2A5C2ECCA9DFC21F73DF2F80EE
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME
+repair_provenance: ORIGINAL_SOURCE_TO_DERIVED_DOCX_TO_GOVERNED_MANUAL_RENDER_PDF
+derived_docx_sha256: B948CA41387ABC408724B1D64286830B54B12198A33C54D8BE684661CA8937DC

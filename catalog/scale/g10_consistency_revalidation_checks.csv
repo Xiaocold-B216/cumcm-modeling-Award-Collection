@@ -1,0 +1,97 @@
+check_id,check_group,description,expected,actual,status,evidence
+G10-R001,baseline,branch matches frozen repository baseline,library-refactor-v1,library-refactor-v1,PASS,direct .git/HEAD ref read
+G10-R002,baseline,HEAD matches frozen repository baseline,557724fba6572d4d83dc421feda5b17b13ff8d66,557724fba6572d4d83dc421feda5b17b13ff8d66,PASS,direct branch ref read
+G10-R003,upstream,G9 refresh result is PASS for the declared attempt,1,1,PASS,catalog/scale/g9_index_refresh_after_g11_repair_result.json
+G10-R004,sha,current G9 CSV SHA matches frozen refreshed SHA,2E22999E3B44508652F3BB27F3B13B3A6222EC998D26F37FEE6A5D8E4EE75939,2E22999E3B44508652F3BB27F3B13B3A6222EC998D26F37FEE6A5D8E4EE75939,PASS,catalog/scale/g9_paper_index.csv
+G10-R005,sha,current G9 JSONL SHA matches frozen refreshed SHA,60DEDA60A2B1EFAB1098EB044C205D6F6F8C70FE64140D751C54879D8FC8EE4A,60DEDA60A2B1EFAB1098EB044C205D6F6F8C70FE64140D751C54879D8FC8EE4A,PASS,catalog/scale/g9_paper_index.jsonl
+G10-R006,cardinality,formal identity count,642,642,PASS,catalog/scale/g8_artifact_eligibility.csv
+G10-R007,cardinality,eligible identity count,453,453,PASS,catalog/scale/g8_artifact_eligibility.csv
+G10-R008,cardinality,ineligible identity count,189,189,PASS,catalog/scale/g8_artifact_eligibility.csv
+G10-R009,cardinality,artifact set count,453,453,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R010,cardinality,primary artifact count,1359,1359,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R011,cardinality,G9 index record count,453,453,PASS,catalog/scale/g9_paper_index.csv
+G10-R012,eligibility,eligible identities with artifacts,453,453,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R013,eligibility,eligible identities without artifacts,0,0,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R014,eligibility,ineligible identities with formal artifacts,0,0,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R015,eligibility,eligible identities indexed,453,453,PASS,catalog/scale/g9_paper_index.csv
+G10-R016,eligibility,eligible identities not indexed,0,0,PASS,catalog/scale/g9_paper_index.csv
+G10-R017,eligibility,ineligible identities indexed,0,0,PASS,catalog/scale/g9_paper_index.csv
+G10-R018,problem_package,PROBLEM_PACKAGE formal artifact count,0,0,PASS,catalog/scale/g8_artifact_eligibility.csv
+G10-R019,problem_package,PROBLEM_PACKAGE index record count,0,0,PASS,catalog/scale/g9_paper_index.csv
+G10-R020,artifact_binding,artifact set identity bindings pass,453,453,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R021,artifact_binding,artifact set identity binding mismatches,0,0,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R022,artifact_cardinality,primary artifact paths checked,1359,1359,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R023,artifact_cardinality,primary artifact paths exist,1359,1359,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R024,artifact_cardinality,primary artifact paths missing,0,0,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R025,artifact_hash,primary artifact hashes checked,1359,1359,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R026,artifact_hash,primary artifact hashes match,1359,1359,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R027,artifact_hash,primary artifact hash mismatches,0,0,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R028,body_hash,formal body paths checked,453,453,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R029,body_hash,formal body paths exist,453,453,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R030,body_hash,formal body path missing,0,0,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R031,body_hash,formal body hashes checked,453,453,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R032,body_hash,formal body hashes match,453,453,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R033,body_hash,formal body hash mismatches,0,0,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R034,index_binding,G9 artifact bindings pass,453,453,PASS,catalog/scale/g9_paper_index.csv
+G10-R035,index_binding,G9 artifact binding mismatches,0,0,PASS,catalog/scale/g9_paper_index.csv
+G10-R036,index_projection,CSV/JSONL projection matches,1,1,PASS,catalog/scale/g9_paper_index.jsonl
+G10-R037,index_projection,index ordering contract passes,1,1,PASS,catalog/scale/g9_paper_index.csv
+G10-R038,identity_binding,G9 identity bindings pass,453,453,PASS,catalog/scale/g9_index_refresh_after_g11_repair_validation.csv
+G10-R039,identity_binding,G9 identity binding mismatches,0,0,PASS,catalog/scale/g9_index_refresh_after_g11_repair_validation.csv
+G10-R040,membership_binding,G9 membership bindings pass,453,453,PASS,catalog/scale/g9_index_refresh_after_g11_repair_validation.csv
+G10-R041,membership_binding,G9 membership binding mismatches,0,0,PASS,catalog/scale/g9_index_refresh_after_g11_repair_validation.csv
+G10-R042,source,source memberships checked,2381,2381,PASS,catalog/paper_files.csv
+G10-R043,source,unique physical source files rehashed,2381,2381,PASS,catalog/files.csv
+G10-R044,source,physical source hashes match,2381,2381,PASS,catalog/files.csv
+G10-R045,source,physical source hash mismatches,0,0,PASS,catalog/files.csv
+G10-R046,source,source paths missing,0,0,PASS,catalog/files.csv
+G10-R047,membership,formal artifacts without membership,0,0,PASS,catalog/paper_files.csv
+G10-R048,membership,index records without membership,0,0,PASS,catalog/paper_files.csv
+G10-R049,membership,memberships with invalid identity,0,0,PASS,catalog/paper_files.csv
+G10-R050,membership,memberships with invalid source,0,0,PASS,catalog/files.csv
+G10-R051,repair_targets,repair target identity count,246,246,PASS,catalog/scale/g11_repair_g9_refresh_input.csv
+G10-R052,repair_targets,repair targets present in current artifact registry,246,246,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R053,repair_targets,repair targets present in current G9 index,246,246,PASS,catalog/scale/g9_paper_index.csv
+G10-R054,repair_targets,repair target artifact bindings pass,246,246,PASS,catalog/scale/g11_multi_route_formal_repair_targets.csv
+G10-R055,repair_targets,repair target index bindings pass,246,246,PASS,catalog/scale/g11_multi_route_formal_repair_targets.csv
+G10-R056,marker_scope,marker-only repair target identity count,245,245,PASS,catalog/scale/g11_marker_only_final_repair_targets.csv
+G10-R057,marker_scope,post-repair defective marker-only segments,0,0,PASS,catalog/scale/g11_marker_only_final_scope_manifest.csv
+G10-R058,marker_scope,final scope manifest rows,3033,3033,PASS,catalog/scale/g11_marker_only_final_scope_manifest.csv
+G10-R059,marker_scope,final confirmed defective pages,3031,3031,PASS,catalog/scale/g11_marker_only_final_scope_manifest.csv
+G10-R060,marker_scope,final legitimate noncontent pages,2,2,PASS,catalog/scale/g11_marker_only_final_scope_manifest.csv
+G10-R061,marker_scope,final unresolved pages,0,0,PASS,catalog/scale/g11_marker_only_final_scope_manifest.csv
+G10-R062,marker_repair,defective pages checked,3031,3031,PASS,catalog/scale/g11_multi_route_formal_repair_pages.csv
+G10-R063,marker_repair,defective page repair pass,3031,3031,PASS,catalog/scale/g11_multi_route_formal_repair_pages.csv
+G10-R064,marker_repair,defective page repair fail,0,0,PASS,catalog/scale/g11_multi_route_formal_repair_pages.csv
+G10-R065,legitimate_pages,legitimate pages checked,2,2,PASS,catalog/scale/g11_marker_only_final_scope_manifest.csv
+G10-R066,legitimate_pages,legitimate pages preserved,2,2,PASS,catalog/scale/g9_paper_index.csv
+G10-R067,legitimate_pages,legitimate pages with inserted content,0,0,PASS,catalog/scale/g9_paper_index.csv
+G10-R068,marker_sequence,marker sequence target identities,245,245,PASS,catalog/scale/g11_marker_only_final_scope_manifest.csv
+G10-R069,marker_sequence,marker sequence pass,245,245,PASS,catalog/scale/g9_paper_index.csv
+G10-R070,marker_sequence,marker sequence mismatch,0,0,PASS,catalog/scale/g9_paper_index.csv
+G10-R071,q3,CUMCM-2020-D-003 repair binding,1,1,PASS,catalog/scale/g11_multi_route_formal_repair_targets.csv
+G10-R072,q3,CUMCM-2020-D-003 repair provenance,1,1,PASS,catalog/scale/g11_multi_route_formal_repair_pages.csv
+G10-R073,q3,CUMCM-2020-D-003 unaffected page changes,0,0,PASS,catalog/scale/g11_repair_g9_refresh_input.csv
+G10-R074,provenance,repair target provenance checked,246,246,PASS,catalog/scale/g11_multi_route_formal_repair_targets.csv
+G10-R075,provenance,repair target provenance pass,246,246,PASS,catalog/scale/g11_multi_route_formal_repair_targets.csv
+G10-R076,provenance,repair target provenance fail,0,0,PASS,catalog/scale/g11_multi_route_formal_repair_targets.csv
+G10-R077,non_target,non-target artifact sets,207,207,PASS,catalog/scale/.g9_index_refresh_after_g11_repair_staging/20260905T052426168683Z_557724fba657/backup/g9_paper_index.csv
+G10-R078,non_target,non-target current bindings pass,207,207,PASS,catalog/scale/.g9_index_refresh_after_g11_repair_staging/20260905T052426168683Z_557724fba657/backup/g9_paper_index.csv
+G10-R079,non_target,non-target content changes,0,0,PASS,catalog/scale/.g9_index_refresh_after_g11_repair_staging/20260905T052426168683Z_557724fba657/backup/g9_paper_index.csv
+G10-R080,non_target,non-target metadata changes,0,0,PASS,catalog/scale/.g9_index_refresh_after_g11_repair_staging/20260905T052426168683Z_557724fba657/backup/g9_paper_index.csv
+G10-R081,registry,registry artifact set count,453,453,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R082,registry,registry primary artifact count,1359,1359,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R083,registry,registry body hash matches index,453,453,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R084,registry,registry primary hashes match,1359,1359,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R085,registry,registry broken paths,0,0,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R086,registry,registry orphan artifacts,0,0,PASS,derived/scale/papers
+G10-R087,duplicates,governed current body duplicate groups,4,4,PASS,catalog/scale/.g9_index_refresh_after_g11_repair_staging/20260905T052426168683Z_557724fba657/backup/g9_paper_index.csv
+G10-R088,duplicates,unexpected body duplicate groups,0,0,PASS,catalog/scale/.g9_index_refresh_after_g11_repair_staging/20260905T052426168683Z_557724fba657/backup/g9_paper_index.csv
+G10-R089,duplicates,repair-target unexpected body collisions,0,0,PASS,catalog/scale/.g9_index_refresh_after_g11_repair_staging/20260905T052426168683Z_557724fba657/backup/g9_paper_index.csv
+G10-R090,duplicates,unexpected primary artifact hash collisions,0,0,PASS,catalog/scale/g8_artifact_manifest.csv
+G10-R091,backlog,DOC manual backlog,0,0,PASS,catalog/scale/g8_manual_backlog.csv
+G10-R092,backlog,Q3 manual backlog,0,0,PASS,catalog/scale/g8_q3_manual_backlog.csv
+G10-R093,backlog,total manual backlog,0,0,PASS,catalog/scale/g8_manual_backlog.csv
+G10-R094,decisions,original G11 decision modification count,0,0,PASS,catalog/scale/g11_major_defect_root_cause_triage_result.json
+G10-R095,decisions,targeted visual decision sheet unchanged from approved state,1,1,PASS,catalog/scale/g11_targeted_visual_diagnostic_approval_result.json
+G10-R096,decisions,final visual decision sheet unchanged from approved state,1,1,PASS,catalog/scale/g11_marker_only_final_visual_scope_approval_result.json

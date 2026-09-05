@@ -1,0 +1,120 @@
+i = j = k = 0;
+for (i=0; i<AllBuses[NSTART-1].size(); ++i)
+
+// 经过起始站点的所有线
+
+路
+{
+nCurLineName = AllBuses[NSTART-1][i];
+
+// 当前路线名
+
+for (j=1040; j<1044; ++j)
+{
+map<int, int> ToRailWay;
+IsExist = false;
+
+流
+
+bool
+
+for (k=0; k<RoadCrossInfo[nCurLineName-1][j].size(); ++k)
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+{
+
+交
+
+if ( RoadCrossInfo[nCurLineName-1][j][k] >= 10000)
+{
+
+long nSecond
+
+= nValue % 10000;
+
+long nFirst
+
+= (nValue-nSecond) / 10000;
+
+研
+
+= RoadCrossInfo[nCurLineName-1][j][k];
+
+：
+科
+
+ww
+
+long nValue
+
+ToRailWay.insert( make_pair(nFirst, nSecond) );
+if (nFirst==87 && nSecond==3984)
+{
+
+众
+
+}
+
+号
+
+int y=0;
+
+IsExist = true;
+
+公
+
+}
+
+}
+
+信
+
+map<int, int>::iterator iter;
+
+微
+
+//
+
+//////////////////////////////////////////////////////////////////////////
+
+//
+
+int nSize_ = ToRailWay.size();
+
+//
+
+iter = ToRailWay.begin();
+
+//
+
+cout << "####################" << endl;
+
+//
+
+while (iter != ToRailWay.end())
+
+//
+
+{
+
+//
+
+cout << iter->first << " " << iter->second << endl;
+
+//
+
+iter ++;
+
+//
+
+}
+
+51
+
+

@@ -1,0 +1,75 @@
+可
+
+157 ax2.bar(rangea(1，25)，LOsT[5，1:] lasbel=' B 2 ASHA", alpha=0.3, bottosscr
+L0STU, 1:) + LOSTE2, 1:) + LOSTI3, 1:1+L0STES, 1:1)
+
+158 #ax2.set_y1sa(0, 200)
+
+159 232. logend (loces, ncol=1)
+
+160 pie.xlabel( HAH
+
+161 ax1.logend (loce0, neol=1)
+
+162 pit.grid(linestylest:*, color=k®)
+
+168 plr .title(' 每 周 成 本 ， 和 进 贫 ， 库 存 随 周 数 变 化
+
+164
+
+165 ple.aboxO)
+
+168
+
+167 azl = plt.gcaO)
+
+165 arl aet_yllm(15000 ，60000)
+
+169 az2 = axl_tedax()
+
+7 arl.plot(rangs(l，25)，Productivity[l:] ，label=' 每 于 产能 _
+
+171 azl.Plot(rsngeC1，25) ，Eweryveek_get [1:] ，labeln ,每 周 获得 产能 人
+
+172 ar2.bar(range(1，25)，Coat_accuzulated[0。1:] ，label' 每 周 \ 洒 多 成 二 多 Elplaag EL 全
+boteoz=0)
+
+178 ax2.bar(range(1, 25). Cost_accusulated(t, 1:), lavel=' ABAWH4 , lphas0.3, 全
+bottossCost_sccumulated o, 1:1) )
+
+174 ax2.bar(range(1, 25). Cost_accusulated(2, 1:), label='# FCH K&+", alphas0.3, 全
+bottor=Cost_accurulated[0, 1:1p0oat_accutulatedt, 1:1)
+
+1
+
+176 ldarap- linspace (3,24.8, deypaniae)
+
+177
+
+1
+
+179 of EGG ,Pradactavatylaa):
+
+180amitext (471,§+1000, 12t(3) , color=+b)
+
+151 A
+
+182 for 1.3 in =ip(lis, Everyvask_got(1s))
+
+IS azl.text (tr1 .jy1000，int(]) color="darkorange”)
+
+154
+
+155 ax2. logond (locea, ncole1)
+
+186 Pt.xlabel(' 安 徘 周 数 人
+
+187 axl logend (loce3, neole1)
+
+155 ax2.20t_y112(0, 60000)
+
+189 splt.grid linestylont:t, coloratit)
+
+190 Plt.tatleK'" 每 周 成 本 ， 产 能 隐 周 数 变 化
+
+191 pit.shosO)

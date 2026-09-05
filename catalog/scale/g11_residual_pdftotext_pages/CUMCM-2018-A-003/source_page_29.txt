@@ -1,0 +1,66 @@
+//此时若 S 为正，则说明 CNC 机器经过 S[i]秒后可以加工下一任务;
+//若 S 为负，则说明 CNC 机器已经加工完毕，等待|S[i]|秒
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+}
+//若是 CNC1 S = pro1,而 CNC2 S = pro2*full - put_down*B
+if(type[next_pos] == 0)
+S[next_pos] = pro[0] ;
+else if(type[next_pos] == 1 && full==1) S[next_pos] = pro[1] B[next_pos]*put_down;
+time+=T[next_pos];//时间需要延长这个过程的时间
+num+= B[next_pos]*type[next_pos];
+pos = next_pos;//小车到达
+t_full = full;
+full = B[next_pos] * not(type[next_pos]);//若 CNC1 有半孰料
+if(type[next_pos] == 0) B[next_pos] = 1;//CNC1 类型都会变为有加工产品
+else B[next_pos] = t_full; //经过 CNC1 装半数料后哦
+begin = 1;
+}
+else{
+time++;
+for(int i=1;i<9;i++){
+S[i] --;//此时若 S 为正，则说明 CNC 机器经过 S[i]秒后可以加工下一任务;
+//若 S 为负，则说明 CNC 机器已经加工完毕，等待|S[i]|秒
+}
+begin = 0;
+}
+}
+//i1...i8，分别代表各个 CNC 机器的类型，若 ik=1 表示第 k 个机器为类型 2
+cout<<i1<<" "<<i2<<" "<<i3<<" "<<i4<<" "<<i5<<" "<<i6<<" "<<i7<<" "<<i8<<"布局下，
+最大数为："<<num<<endl;
+//cout<<num<<endl;
+}
+return 0;
+}
+void init(){
+//生成矩阵 L
+for(int k=0;k<2;k++){
+for(int i=1;i<9;i++){
+for(int j=1;j<9;j++){
+//计算步长
+L[k][i][j] = abs((j+1)/2 - (i+1)/2) ;
+if(L[k][i][j] == 1) L[k][i][j] = ons;
+else if(L[k][i][j] == 2) L[k][i][j] = tws;
+else if(L[k][i][j] == 3) L[k][i][j] = ths;
+//满载时不能去到相同类型的机器
+29
+
+

@@ -1,0 +1,31 @@
+paper_id: CUMCM-2017-B-003
+year: 2017
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (7).pdf
+  sha256: A357968F2A177BD3E9C43082D2EE60B4B38259E9CC8DA363F5070A7E1F0B2625
+authority_sha256: A357968F2A177BD3E9C43082D2EE60B4B38259E9CC8DA363F5070A7E1F0B2625
+paper_file_memberships:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (7).pdf
+  role: primary
+  canonical: true
+primary_file: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (7).pdf
+extraction_inputs:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (7).pdf
+  sha256: A357968F2A177BD3E9C43082D2EE60B4B38259E9CC8DA363F5070A7E1F0B2625
+  kind: original
+extraction_input_sha256: A357968F2A177BD3E9C43082D2EE60B4B38259E9CC8DA363F5070A7E1F0B2625
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 25
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

@@ -1,0 +1,14 @@
+paper_id: CUMCM-2013-D-001
+year: 2013
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2013年数学建模国赛真题+优秀论文/2013D：城市公共自行车服务系统运行状况和效率分析/论文.doc
+source_sha256: 955CC7179247EDA8AD6EBB74CFD1233D514D9F80A809B0C2EB244BEACABAFDEA
+effective_pdf_path: derived/scale/doc_contract_pilot_interactive/CUMCM-2013-D-001/source_converted.pdf
+effective_pdf_sha256: 3C560062FFD7F9F4E855926AD051346D4FC2366C0052D80159836E1A007812A4
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2013-D-001/normalized_body.txt
+authoritative_text_sha256: F7E87C7B24702B2F81782A7D77D30312048F8799354229FCB591069AF2A842D1
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

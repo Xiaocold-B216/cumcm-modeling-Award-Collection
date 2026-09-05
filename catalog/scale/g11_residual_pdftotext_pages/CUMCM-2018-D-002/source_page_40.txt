@@ -1,0 +1,114 @@
+A2
+
+B6
+
+汽油
+
+二驱
+
+白色
+
+C1
+
+458
+
+A2
+
+B6
+
+汽油
+
+二驱
+
+白色
+
+C2
+
+459
+
+A2
+
+B6
+
+汽油
+
+二驱
+
+白色
+
+C1
+
+460
+
+A2
+
+B6
+
+汽油
+
+二驱
+
+白色
+
+C2
+
+：
+科
+
+交
+
+研
+
+附录二：
+2.1 装配顺序的 C 语言代码
+装配顺序的 C 语言代码
+#include <iostream>
+#include <algorithm>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+using namespace std;
+
+流
+
+457
+
+公
+
+众
+
+号
+
+char pp[2][3] = {"A1","A2"};
+int ppsl[10];
+char pz[6][3] = {"B1","B2","B3","B4","B5","B6"};
+int pzsl[10];
+char dl[2][5] = {"汽油","柴油"};
+int dlsl[10];
+char qd[2][5] = {"二驱","四驱"};
+int qdsl[10];
+char ys[11][5] = {"黑色","白色","蓝色","棕色","金色","R","S","红色","黄色","
+银色","灰色"};
+int yssl[11];
+
+微
+
+信
+
+int z[1000];int zl;
+int y[1000];int yl;
+int x[1000];int xl;
+int w[1000];int wl;
+int v[1000];int vl;
+struct A1
+{
+int pz[6];
+int dl[2];
+int qd[2];
+int ys[9];
+};
+struct A2
+
+40
+
+

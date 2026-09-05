@@ -1,0 +1,41 @@
+回 成 革 动 国
+后
+0
+BRLLT]
+半生 二
+CurrWay. push_back (nLineNamel) ;
+}
+CurrWay. push_back (Al1Lines[nLineNamel-1]. LineInfo[FeasibleSolve[i] [FeasibleSol
+velil.size()-111);
+Respond. insert ( make pair(fTotalTime, CurrWay) );
+}
+return Respond;
+} 全
+>
+// 文件 输出 花费 时 间 二 \
+void OutPutTimeCal (ofstream & fout, 全
+multimap<{float, vector<int> >& FeasibleSol
+{
+multimap<{float, vector<int> >::iterator iter;
+iter = FeasibleSolve.begin(); 全
+全
+while ( iter != FeasibleSolve.end() )
+{
+fout 《《“ 用 时 :“ 愉 人 setw(4) << SENIC 让 《Citer->first ”min :“;
+(ej
+fout << ” §” 《< setw(4 £i11(C0") << iter->second[0];
+for (int i=1; i >second. size(); i+=2)
+{
+foutadC 一 《4 setw(4) << setfill(C0") << iter—>second[il;
+fout \'a << setw(4) << iter—>second[i+1];
+v/
+Kx.
+证
+}
+// 计算 经 过 各 路 线 的 所 花费 的 费用
+multimap<float, vector<int> > CostCalculate(
+vector<vector<int> > & FeasibleSolve,
+vector<{LoadMessage> & AllLines
+)
+{
+24

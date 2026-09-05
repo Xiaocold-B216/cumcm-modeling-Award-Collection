@@ -1,0 +1,46 @@
+﻿[2026-08-18T21:07:52+08:00] [INFO] G3-01R6 Source Metadata Field Reconciliation started
+[2026-08-18T21:07:52+08:00] [INFO] Repository root: D:\cumcm-modeling-Award-Collection
+[2026-08-18T21:07:52+08:00] [INFO] Step 1: Reading machine facts...
+[2026-08-18T21:07:52+08:00] [INFO] Papers: 670
+[2026-08-18T21:07:52+08:00] [INFO] Paper Files: 2372
+[2026-08-18T21:07:52+08:00] [INFO] Sources: 34
+[2026-08-18T21:07:52+08:00] [INFO] Review: 261
+[2026-08-18T21:07:52+08:00] [INFO] Step 2: Analyzing papers.csv schema...
+[2026-08-18T21:07:52+08:00] [INFO] Papers schema columns: paper_id, year, problem_code, title, authors, institution, award, status, created_at, updated_at
+[2026-08-18T21:07:52+08:00] [INFO] Papers schema has source_identifier: False
+[2026-08-18T21:07:52+08:00] [INFO] Step 3: Analyzing sources.csv...
+[2026-08-18T21:07:52+08:00] [INFO] Source-ID Suffix Papers: 34
+[2026-08-18T21:07:52+08:00] [INFO] Source Rows: 34
+[2026-08-18T21:07:52+08:00] [INFO] Unique Source Identifiers: 33
+[2026-08-18T21:07:52+08:00] [INFO] Duplicate Source Identifier groups: 2
+[2026-08-18T21:07:52+08:00] [INFO] Step 4: Analyzing 33/34 discrepancy...
+[2026-08-18T21:07:52+08:00] [INFO] Source-ID Papers: 34
+[2026-08-18T21:07:52+08:00] [INFO] Papers with Source Identifier Field (unique): 33
+[2026-08-18T21:07:52+08:00] [INFO] Papers with Source Row: 34
+[2026-08-18T21:07:52+08:00] [INFO] Root Cause: PAPERS_WITH_SOURCE_IDENTIFIER_FIELD_AFTER was incorrectly defined as unique source_identifier count in sources.csv (33), but should be source row count (34). The 33 count is due to duplicate E014 source_identifier in sources.csv (from 2021 and 2022).
+[2026-08-18T21:07:52+08:00] [INFO] Step 5: Analyzing 14鈫?3 change...
+[2026-08-18T21:07:52+08:00] [INFO] Papers with Source Identifier Field Before: 14
+[2026-08-18T21:07:52+08:00] [INFO] Papers with Source Identifier Field After: 33
+[2026-08-18T21:07:52+08:00] [INFO] Root Cause: R5 added 20 source rows for papers with source-ID suffixes but without source rows. Before R5, sources.csv had 14 rows with 14 unique source identifiers. After R5, sources.csv has 34 rows with 33 unique source identifiers (due to duplicate E014).
+[2026-08-18T21:07:52+08:00] [INFO] Step 6: Verifying source metadata completeness...
+[2026-08-18T21:07:52+08:00] [INFO] Source Identifier Metadata Missing: 0
+[2026-08-18T21:07:52+08:00] [INFO] Source Row Missing: 0
+[2026-08-18T21:07:52+08:00] [INFO] Source Identifier Mismatch: 0
+[2026-08-18T21:07:52+08:00] [INFO] Source Row Mismatch: 0
+[2026-08-18T21:07:52+08:00] [INFO] Source Metadata Review: 0
+[2026-08-18T21:07:52+08:00] [INFO] Source Metadata Unexplained: 0
+[2026-08-18T21:07:52+08:00] [INFO] Source Metadata Complete: True
+[2026-08-18T21:07:52+08:00] [INFO] Step 7: Checking if R5 modified papers.csv...
+[2026-08-18T21:07:52+08:00] [INFO] R5 Papers CSV Actually Modified: False
+[2026-08-18T21:07:52+08:00] [INFO] Step 8: Calculating other statistics...
+[2026-08-18T21:07:53+08:00] [INFO] Formal Papers: 670
+[2026-08-18T21:07:53+08:00] [INFO] Unique Paper IDs: 670
+[2026-08-18T21:07:53+08:00] [INFO] Duplicate Paper IDs: 0
+[2026-08-18T21:07:53+08:00] [INFO] Source-ID Papers: 34
+[2026-08-18T21:07:53+08:00] [INFO] Internal-ID Papers: 636
+[2026-08-18T21:07:53+08:00] [INFO] Papers with Source Row: 34
+[2026-08-18T21:07:53+08:00] [INFO] Membership Integrity: PASS
+[2026-08-18T21:07:53+08:00] [INFO] Source Integrity: PASS
+[2026-08-18T21:07:53+08:00] [INFO] Step 9: Generating reports...
+[2026-08-18T21:07:53+08:00] [INFO] Written G3-01R6 report to D:\cumcm-modeling-Award-Collection\reports\G3_01R6_source_metadata_reconciliation.md
+[2026-08-18T21:07:53+08:00] [INFO] Written updated G3-01 report to D:\cumcm-modeling-Award-Collection\reports\G3_01_paper_identity.md

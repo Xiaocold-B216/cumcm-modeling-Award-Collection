@@ -1,0 +1,40 @@
+p4=1lu. /bei;p4p=sum(p4) /n; p4m=max (p4) ;
+pdz=sqrt ((pdp 2+pdm”2) /2)
+p5=yuan. /bei;p5p=sum(p5) /n;p5m=max (p5) ;
+p5z=sqrt ((pbp 2+p5m 2)7/2)
+9.4 1ingo 求 解 污染 源 位 置
+model :
+sets:
+cai/l..319/:x,y,mk;
+endsets
+data:
+x=@ole ( data. xls ) ;
+y=@ole ( data. xls ) ;
+m=oole( data.xls ) ;
+@ole( datal. x1s’)=k;
+enddata
+@for (cai (i) :k(Gi)=@sum(cai(j):(CXG)-x(Gj)) 2+C(G)-y(Gj)) 2)#xm(j))) ;
+end
+9.5 重金 属 污染 物 的 传播 特征
+x= load( x.dat’);
+y= load( y.dat’);
+subplot (2, 1, 1)
+plot (x, yuansu)
+ylabel ( yuan ) ;
+xlabel( 图 6 浓度 随 x 值 的 变化 趋势 ) ;
+Subplot (2, 1,2)
+plot (y, yuansu)
+ylabel (" yuan’) ;
+xlabel ( 图 7 浓度 随 y 值 的 变化 趋势 ) ;
+9.6 线性 污染 源 位 置 求解
+A= load( shujukuai. dat ) ;
+X=A(:，1) ;y=A(:，2) ;Z=A(:，4) ;
+plot (x, y)
+scatter (x, y)% 表 点 图
+ylabelCy ) ;
+xlabel( 图 1 城市 主干 道路 区 取样 点 及 拟 合 结果 )
+hold on
+xl=[0:25021] ;
+yl=[0:16290/25021:16290] ;
+plot (xl, yl)
+19

@@ -1,0 +1,43 @@
+00-0.534*R-ddF(e):
+o000-det;
+0000-IV(i);
+dirtz2;
+end
+end
+end
+aa=1-sum(sum(000>0.0007)) numel(000):
+disp(FEAE IT I7 £5E  JRARSEE : )
+disp(o)
+disp( 焦 点 距离 原点 长 度 为 :
+disp(00)
+disp( 促 动 器 最 大 伸缩 量 为 : )
+disp(cc)
+disp( 将 基础 球面 调节 至 理想 抛物 面 节点 间距 离 最 大 变化 幅度 : )
+disp(w)
+disp( 所 有 节点 间距 离 整 体 变化 幅度 : 7
+disp(0000)
+disp( 节 点 间距 离 变 化 幅度 合格 率 : )
+disp(aa)
+X3diC.1);
+¥3-di(.2),
+23-di(:.3);
+scatterd(3,y3.23,37*1'g)
+hold on
+XIETDIGJ
+VISFIING2)
+Z1FINE3)
+seatterd(x1yl.21,15.%)
+figure
+XI-FJINCD;
+VISFIG2)
+Z1-FING3)
+tr = delaunay(x1.y1);
+trimeshttrLxLy1zD:
+colormap winter
+hidden of
+holdon
+SET
+SETTNIG2:
+ZFIG3)
+scatter3(x.y.2,1.)
+30

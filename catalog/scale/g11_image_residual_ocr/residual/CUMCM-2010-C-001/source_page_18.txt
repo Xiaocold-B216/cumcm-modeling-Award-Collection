@@ -1,0 +1,39 @@
+e
+可
+S
+运行 结果 :
+ee —.
+EFAE 2-2 NEZTH min=275.134305 / 元
+hi=1.836880T1
+th2 -0.668000T 加
+2、 按 照 公 司 一 评估 总 费用 为 :
+2
+一 -|
+c“C:MPrograa Files\Visual C+HBinVDebugVa exze” = [ofx
+Inin=280.177202 / B
+hi=1.844900 | 一
+h2=0.650000
+press any key to continue,
+|
+问题 3 程序 :
+1、 按 照 公司 三 评估 总 费用 为 ; 四
+#include”stdio. h” O
+#include”math. h” %
+main ()
+{ double x2,y2,yl,w, a,b,c;min=1000;
+for 2
+torgLoylcaurDj
+for (y2=0;y2<=8;y2+=1)
+7 这
+Lp rt ((x2+15)% (x2+15) + (y2-5) % (y2-5)) 6. O*sqrt ( (x2#x2) + (y1-y2)
+So Oksqrt (25+(8-y1) * (8-y1)) +7. 2%y2;
+SA w)
+R min=w;
+a=x2;
+b=y2;
+c=yl;
+}
+}
+printf (“min=%f \nx2=%f \ny2=%f \nyl1=%f\n”,min, a, b,c) ;
+}
+16

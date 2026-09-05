@@ -1,0 +1,67 @@
+}
+else
+{
+printf("数据错误\n");
+}
+}
+}
+}
+}
+if(x>=50)//如果余数 x 大于最低要求的 50 辆
+{hcz[0]=q;hcz[1]=x;hcz[2]=e;hcz[3]=r;}
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+}
+int sum(int *p,int i)
+{
+int s=0;
+while(i--)
+s+=p[i];
+return s;
+}
+int main(int argc, char *argv[])
+{
+int twt;
+printf("请输入需要连续分析的天数（文件创建在 D 盘）\n（要连续分析 7 天的数
+据则输入 7）\n");
+scanf("%d",&twt);
+FILE *fp;
+fp = fopen("D:\\schedule.xls", "a+");//创建表到 D 盘的 EXCEL
+setbuf(stdin,NULL);
+for(int q=1;q<=twt;q++)
+{
+int zab,zbb,zaw,zbw;
+zl=0;
+int ab,bb,aw,bw;
+printf("A1 型号的数据:\n");
+printf("输入各配置数量的和（输入 B1、B2、B3、B4、B5、B6 的和，若无则输
+入 0）:\n");for(int i=0;i<6;i++)scanf("%d",&a1.pz[i]);
+printf("输入各动力数量的和 (输入汽油、柴油车数量的和，若无则 输 入
+0):\n");for(int i=0;i<2;i++)scanf("%d",&a1.dl[i]);
+printf(" 输 入 各 驱 动 数 量 的 和 （ 输 入 二 驱 、 四 驱 数 量 ） :\n");for(int
+i=0;i<2;i++)scanf("%d",&a1.qd[i]);
+printf("输入各颜色数量的和（输入黑色、白色、蓝色、棕色、金色、R 类车
+（红色黄色之和）、\nS 类车（银色灰色之和）、红色、黄色、银色、灰色）:\n");for(int
+i=0;i<11;i++)scanf("%d",&a1.ys[i]);
+zab=ab = sum(a1.ys,7)/2;
+42
+
+

@@ -1,0 +1,47 @@
+:
+口 | ] 口
+可
+3
+S
+120 T B 数学 学 报 第 19 卷
+上
+解 得 , ri = 115.291609, zy = 112.974413, 3 二 132,.269187，-zd = 4639.464791, P, =
+117.366858
+根据 以 上 的 求解 ,只 需 将 问题 二 最 优 方 案 中 第 三 年 的 奖学金 数 乘 以 1.2 即 可 得 到 本 方案
+的 最 佳 使 用 情况 。
+利用 Marlab 软件 求解 (程序 略 )M= 35000 万 元 ,= = 10 年 基金 使 用 最 优 方 案 :( 单 位 :万
+元 )
+每 年 奖学金 :P=124,754224
+xy=122.548353, z,=120.085307, r;=140.594542, =,=113.415882,
+z5=111.410493, r,=106.524666, r;=104.641126, z3=102.537989,
+zg=100.041948, rp,=23978.199695
+6 ”模型 评价 -从
+本 模型 有 以 下 优点 : o\\
+1) 模型 在 建立 过 程 中 充分 考虑 到 学 校 基金 的 特殊 性 ,得 出 最 性 页 分 机 太 时 、
+2) 利用 Mat lab 软件 编程 进行 求解 ,所 得 结果 误差 小 ,数据 准确 合理 5
+3) 利用 优化 组 合法 ,分 组 比较 ,得 出 一 段 年 眼 内 最 大 的 录 多 利率 |
+4) 该 模型 实用 性 强 ,对 现实 有 很 强 的 指导 意义 。 XS
+5) 购买 国库 券 时 ,证 明了 发 行 日 期 对 利率 的 影响 很 4 以 想 略 不 计 ,使 问题 简化 。
+『 “<
+参考 文献 ; X
+[1] 效 启 浙 ， 数 学 态 型 (第 二 版 )[M]， 高 等 教育 出 版 社 ， 1993 58 第 ,2 版
+[2] BIE®. MATLABS.3 应 用 指南 [LM], 人 民有 邮电 出 版 社 1999 年 1 月 第 I 版
+附录 ( 略 ) 9
+Q/ °
+Optical S¢ me for Using Funds
+hao-meng, ZHAQ Yu-ging, XU Pin
+eacher:  XIA Jiang-shan
+itute of naval service, Tianjin 300450)
+Abstract: The mathemateal fodel of the funds depost scheme was proposed in this paper. For fund M ia io be used for n
+years First fond M can “9 奖 - n parts . We assume one of rhem is {the number ts more than or equal to IT and less than or
+equal ton 》 Tb junic 是 years. only when the sum of the capital and interest eqoals t the amounr of scholarship ar thar year
+ac the expiratiér doposi { nnmberis less than or eqoal to n— 1) aceording to the optimal iunds deposit scheme. Moreover, when
+the sum of se equals to the sum of M and che scholarship af that year at the expiration of deposit The amounc of
+scha ni an cas the largssc grant.
+sledlaging this muthemancal model, Optimal funds deposit scheme was found. For n equals io 10 years and M equals ©
+] JR
+5000) tent thousand yusns, Optimal fands deposir scheme was found. when we can choose mg depoalt cr purchase nation bond，The
+problem that purchase nation bond is converted into deposst in the same tme. combined guestion one we could found the oprimal
+funds deposit scheme when nm equal to 10 years and M equal S000 ten thousand yusns In the third schoal anmversary, the analyss
+method. abour the amount of scholarship 20% rmore than other years and the solmng method are same as the former.
+Key words: funds; mathematical; opticd scheme

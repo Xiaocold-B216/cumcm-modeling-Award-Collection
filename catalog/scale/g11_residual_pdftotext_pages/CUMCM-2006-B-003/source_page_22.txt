@@ -1,0 +1,65 @@
+八、 附录
+8.1
+
+程序代码：
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+8.1.1 问题一的程序代码
+注：程序中 data1 为附件 1 数据的矩阵表示，由于篇幅过大，在此略去
+n=size(data1);
+[ra,ir]=sort(data1(:,2));
+W=[ra,ir];
+k=1;
+for i=1:n(1)
+% if (data1(i,2)<=1)&data1(i,3)>75&data1(i,3)<=150
+if (data1(i,2)<=1)&data1(i,3)>150
+% if (data1(i,2)<=1)&data1(i,3)>=0&data1(i,3)<=75
+s(k)=i;
+k=k+1;
+end
+end
+s';
+M=data1(s',:);
+j=0;
+for i=2:n(1)
+if data1(i,1)-data1(i-1,1)==1
+j=j+1;
+end
+end
+n2=size(M);
+k=1;
+for i=1:n2(1)
+for j=1:n(1)
+if data1(j,1)==M(i,1)
+ss(k)=j;
+k=k+1;
+end
+end
+end
+ss;
+data2=(data1(ss,:));
+x1=data2(:,2);
+x2=x1.^2;
+y=data2(:,3);
+x=[x1,x2];
+20
+
+

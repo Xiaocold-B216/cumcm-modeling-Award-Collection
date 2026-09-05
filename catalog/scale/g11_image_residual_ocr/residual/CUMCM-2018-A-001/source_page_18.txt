@@ -1,0 +1,46 @@
+ERg
+- u v
+mEiE
+9 参考 文献
+
+[1] 姚 端正 、 粱 家宝. 《数学 物理 方法 》 [MI. P105 科学 出 版 社 . 2010 年 3 月 第 三 版 ， IV. 0411. 1
+
+[2] 潘 斌 . 热 防护 服装 热 传 递 数学 建 模 及 参数 决定 反问 题 [D]. 浙江 理工 大 学 . 2016. 12. 28
+
+[3] 卢 琳 珍 、 徐 定 华 、 徐 映 红 ， 纺 织 学 报 [NJ]. 应 用 三 层 热 防护 服 热 传 递 改进 模型 的 皮肤 烧伤 度 预 测
+
+2018 年 1 月
+
+[4] 赖 军 、 张 梦 莹 、 张 华 、 李 俊 纺织 学 报 [N]. 消防 服 衣 下 空气 层 的 作用 与 测定 方法 研究 进展 2017
+
+年 6 月
+
+[5] 彭 芳 麟 . 《计算 物理 基础 》 [MI. P330 高 等 教育 出 版 社 。 北京 .2010 年 1 月 第 1 版 . 2013. 12
+
+[6] 史 策 . 咸阳 师范 学 院 学 报 IN]. 热传导 方程 有 限 差 分 法 的 MATLAB 实现 . 1672-2914 (2009) 04-
+
+0027-03
+
+全
+
+[7] 余 跃 . 纺织 材料 热 湿 传递 数学 建 模 及 其 设计 反问 题 [D]， 浙 江 理工 大 学 . 2015. 1 其 20 »
+
+[8] E.ONOFRE. S.PETRUSIC. G.BEDEK. D.DUPONT, and D.SOULAT. 13"AUTEX \ ford  Textile
+
+Conference[N]. “STUDY OF HEAT TRANSFER THROUGH MULTILAYER 多 smls RE USED IN
+
+FIREFIGHTER PROTECTIVE CLOTHING”. May22"to24"2013 了
+
+[9] Crank-Nicolson 方法 SN
+
+https://zh. wikipedia. org/wiki/WE5%85W8BNE5WS5%BOXE5%85%RDRNBCXS8D E5%BO%BCHETHAT%I 1%E
+
+5%B0%94%E6%A3%AE%E6%96%B9%E6%B3%95 X"
+
+O
+锥
+~ 一
+y/) 人
+YX
+e-
+18

@@ -1,0 +1,47 @@
+Bgae
+后
+站 全 入
+for k=1:8
+if Left(k)-Expect(4,MinNumber)<0
+Left(k)=0;
+else
+Left(k)=Left(k)-Expect(4,MinNumber);
+end
+end
+Left(MinNumber)=Work(1);
+if unifrnd(0,100)>=99% 生 成 故障 信息
+StartTime=Time+unifrnd(0,Work(1));% 随 机 生成 故障 开始 时 间 〈 发 生 在 加 工时 )
+ProcessTime=unifrnd(600,1200);% 随 机 生成 人 工 修复 所 需 时 间
+Eror-{Erore(Re3 MInNumer arTime statTime frocessTIEX 记 录
+故障 信息 一 SS
+end 二 \)
+else% 当 前 目标 是 工序 2 的 CNC 2XG
+flag=0; ood
+for k=size(Rec1):-1:1% 记 录 本 次 操作 时 刻 JS》
+if Rec(k,4)==MinNumber && isnan(Rec(k,6))% 取 Re 二 [ 件
+flag=1; SN
+Rec(k,6)=Time; X
+Rec(NEXT,4)=MinNumber;
+Rec(NEXT,5)=Time;
+break; @
+end $O, O
+2
+ifflag==0% 放 置 待 加 工 工序 2 的 玉 件
+Rec(NEXT,4)=MinNumber;
+Rec(NEXT,5)=T We
+end 一 ~ ]
+Now=1;% 此 上 示 工序 重新 变 为 工序 1
+Situati 2
+epnannonomoaep
+人 |
+VY/, §- Left(k)=0;
+SA， else
+Left(k)=Left(k)-Expect(4,MinNumber)-Wash;
+end
+end
+Left(MinNumber)=Work(2)-Wash;
+if unifrnd(0,100)>=99% 生 成 故障 信息
+StartTime=Time-Wash+unifrnd(0,Work(2));% 随 机 生成 故障 开始 时 间 ( 发 生 在 加 工
+时 )
+ProcessTime=unifrnd(600,1200);% 随 机 生成 人 工 修复 所 需 时 间
+55

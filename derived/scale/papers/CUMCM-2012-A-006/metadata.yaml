@@ -1,0 +1,31 @@
+paper_id: CUMCM-2012-A-006
+year: 2012
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (2).pdf
+  sha256: 7234E4BF2D7FC31811AB427D220CA427A48B95B37D549A9302CBE21EE1A9CB16
+authority_sha256: 7234E4BF2D7FC31811AB427D220CA427A48B95B37D549A9302CBE21EE1A9CB16
+paper_file_memberships:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (2).pdf
+  role: primary
+  canonical: true
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (2).pdf
+extraction_inputs:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012A：葡萄酒的评价 (2).pdf
+  sha256: 7234E4BF2D7FC31811AB427D220CA427A48B95B37D549A9302CBE21EE1A9CB16
+  kind: original
+extraction_input_sha256: 7234E4BF2D7FC31811AB427D220CA427A48B95B37D549A9302CBE21EE1A9CB16
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 36
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

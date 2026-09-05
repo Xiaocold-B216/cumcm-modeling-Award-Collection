@@ -1,0 +1,38 @@
+ES
+口 H9RR3 ] 口
+号- 这
+四
+建 模 专辑 基金 存储 方案 本
+5 2 aa 一 人 = IT,2… 于 一
+2 n
+mr = 《1+20%) (Dom, + 了 mA9
+z, >0 (i =1,2n)
+m, >0 (i =1,2+n)
+六 Slmt Sim,
+了 (i =1,2,4m)
+具体 计算 和 分 析 类 似 问题 二 ，
+模型 补充
+1) 为 了 简化 模型 ,本 文 文 首 作 了 一 个 假设 :不 考虑 国库 券 可 以 买卖 的 情况 . 我 国 在 九 十 年 代
+前 ,不 多 许 私人 国库 券 交 易 , 现 在 放 开 后 ,国库 券 可 以 在 证 券 交易 所 进 右 委 卖 ,作为 一 种 期
+ATRERILS, FUESRABEELT UTBRAR 2) \N
+2) 文 首 有 一 假设 := 年 内 ,各 项 利率 没有 浮动 ,事实 上 ,当前 我 国 经 济 发展 很 快 , 国 家 各 项 经 济
+政策 包括 银行 利率 很 难保 证 在 10 年 内 不 变 , 但 利率 的 温 动 对 校 基金 会 开始 决策 来 说 是 个
+不 确定 的 因数 ,认为 其 没有 浮动 ,也 是 出 于 简化 覃 型 的 沽 虑 、 J 厂
+3) 在 解决 第 二 个 问题 和 第 三 个 问题 时 ,可 运用 决策 硅 的 算法 ， 虽 竺 出 最 保守 决策 所 得 的 最 优
+值 要 高 于 风险 决策 最 优 值 的 期 望 值 ,从 而 建议 采取 保守 雇 策 ,实际 上 ,保守 决策 在 实施 过 程
+中 是 可 以 进一步 优化 的 .
+参考 文献 多
+[1] 效 让 入 ,数学 建 模 [M] .北京 :高 等 教育 出 版 社 .1993-B(2000 重印 》
+[2] 线 奋 过, 薛 华 成 . 运 姆 学 [M] .北京 :清华 大 学 出版 社 ,1999
+凡 A ©
+1 am 可 for Depositing Fund
+PAN Guo-xiang, LIU Zhi-bin, LI Hao
+] Directors;  WANG Chuan-wei etc.
+Cone of Corps of Engineers，PLA， Xuzhou 221004 China)
+Abstrsct: This arncle pots Joryjard and proves the optimal solution to despoistting fund in five ycars on the basis of the thought of
+Degister agorithmil， duces and proves the general expression of the maximal interest in n years thraugh mathematical indue-
+tion . Ginally solv N7 d by the mode of linear Progremming according to the moat risky and the most conservative condition
+and & A jlatrer one to a general algarithm.
+wer programming; optimal solution
+NS- 、
+R

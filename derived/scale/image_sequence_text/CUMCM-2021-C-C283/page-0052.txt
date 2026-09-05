@@ -1,0 +1,83 @@
+130 ar] ta
+10 LosTU X) + st] 。ap.randoa noraalt10G4， ¥1), 1£el3l, kt
+了 ,了
+
+141 broak
+
+102 11 = np. randos morsal1I(4, W], 1tel3le, ©11. 1)
+
+143
+
+4
+
+us Ga 。s0
+
+146
+
+ur [av 0 / Gabe2(s)
+
+Ts aa >= 28200 。 2
+
+1 re
+
+150 sesk += 1
+
+151 Everyseck_gotli) = sus(t / Gabe2)
+
+152 ea = aunCs + Gabel)
+
+155 0 = sas((s - v) / cabe2)
+
+154 Cost_accuzulated[0] [x] = sus(s(np. shere(Gabel == 1.2)] /0.6)
+
+155 Cost_accuzulated(1](k] = sus(s(np. shere(Gabe1 == 1.1)]/0.66)
+
+156 coat_aceunulated 2] [x] = sun(snp .shere(Gabel == 1)] /0.72)
+
+157
+
+15 * cloan
+
+150 PERARBRE. BUE
+
+160 5 = np.zeros ([51). despe=int)
+
+161 t+ = np.zexos ((51], deype=in)
+
+162 vEEERAYE
+
+ls car = ap. zeros ([8], diypesint)
+
+164 Everyrosk_chooseA [K]=chaose
+
+165 Everyeek_chooseClx]=chooseC
+
+166
+
+167
+
+168 axt "plt.gca0)
+
+169 axiser_ylis(15000, 62000)
+
+10 ax2 "axl.tsinx()
+
+171 axtplot(range(t, 26), Cl1:], lsbele'&AM%")
+
+172 。。 axl.plot(range(1，25)，s[1:] labelef  # &/ #°)
+
+173 axi.plot(range(1, 25), Everyuesk_got[i:], ，label= 每 周 进货 人
+
+94 axiplot(range(i, 25), [26200 » 2)e24, labele'HEK #)
+
+IT5 ax2.bar(range(i, 26. LOSTLL, 1:1, label='& M#&W1H4", alpha=0.3. bottozc
+0)
+
+16 ax2.bar(range(1, 26). LOSTL2, 1:1, label='# f # &W28 &°. alphas0.3, bottonc
+105TC1, 1:1)
+
+Mr7 ax2bar(range(i, 26, LOSTL3, 1:1, label='4 #£W3H &°, alpha=0.3, bottozc
+0sT[1，1:] + LosT[2，15)
+
+8 ax2.bar(range(l，25)，L0sT[4，13] ，labelr， 每 用 转运 商 4 损失 ，，alphar0.3，bottoat
+LosT[L，13] + LOSTEZ, 1:] + LosT[3，15)

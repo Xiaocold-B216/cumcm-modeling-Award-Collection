@@ -1,0 +1,75 @@
+ld.last_date,
+datediff(day,last_date,'2018-1-15') as R,
+COUNT(vmvsd.vi_kh) as F,
+sum(je) as M,
+MAX(je) as T
+into #RFMT
+from vtime_mall_vip_sale_detail vmvsd,#last_date ld
+where vmvsd.vi_kh=ld.vi_kh
+group by vmvsd.vi_kh,last_date
+;
+--提取没有消费记录的会员卡号
+
+流
+
+select vi.kh,vi.csny,vi.xb,vi.djsj
+from vip_information vi
+where vmvsd.vi_kh is null
+
+研
+
+-----------------------------第三问------------------------------------创建 RFMT 模型临时表
+
+drop table #frofire
+End
+;
+
+：
+科
+
+if object_id('tempdb..#frofire') is not null
+Begin
+
+交
+
+left join vtime_mall_vip_sale_detail vmvsd on vi.kh=vmvsd.vi_kh
+
+select vmvsd.kh,SUM(pdi.sj-pdi.hsjj) as 总利润 into #frofire
+
+号
+
+from vtime_mall_vip_sale_detail vmvsd
+group by vmvsd.kh
+
+众
+
+left join product_information pdi on vmvsd.spbm=pdi.spbm
+select * from #RFMT a left join #frofire b on a.会员卡号=b.kh
+
+公
+
+----------------------------第四问-------------------------创建特价商品临时表
+
+信
+
+if object_id('tempdb..#vip_discount_product_je') is not null
+Begin
+
+微
+
+drop table #vip_discount_product_je
+
+End
+;
+
+select vmvsd.kh,SUM(je) as 特价商品消费总金额 into #vip_discount_product_je
+from vtime_mall_vip_sale_detail vmvsd
+left join product_information pdi on vmvsd.spbm=pdi.spbm
+where pdi.splm like '%特%' or pdi.splm like '%折%' or pdi.splm like '%促%'
+group by vmvsd.kh
+;
+--创建会员特价商品消费金额表
+if object_id('tempdb..#vtotal_discount_product_je') is not null
+26
+
+

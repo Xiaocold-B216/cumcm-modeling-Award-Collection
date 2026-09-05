@@ -1,0 +1,41 @@
+Xhezeros(192,28)
+forj<1.24
+o=zeros(1192)
+ub=repmat(6000,1,192)
+Aszeros(8 192)
+Aeqezeros(24,192);
+rasratiol);
+ra=repmat(ra’,1,24);
+GX();
+Foot
+oricl8
+forn=1192
+fmod(n.g)=i
+Alni=t;
+ee
+end
+end
+end
+fori=124
+AD
+end
+Horil24
+forn=1192
+if ceil(n/8)==i
+jneqlinjal;
+end
+end
+end
+Berepmat(6000,,1);
+eq 下
+jieguosintiinprog(£intcon,A,8 Aeq,Beqlb,ub);
+XX(: j)=jieguo;
+end
+Target=zeros(24,192);
+forie120
+forj 上 1:24% 供 应 商
+Tareettl8r 人 hl.8vj-X8v(j1.8v
+end
+end
+Target(find(Target=0))=nan;
+人

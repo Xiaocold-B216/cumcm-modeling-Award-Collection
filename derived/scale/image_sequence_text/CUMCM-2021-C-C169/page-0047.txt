@@ -1,0 +1,41 @@
+3
+end
+end
+end
+| | ma] xen] meotonm | 说明] 定义 wepesew 关 |
+classdef Reposiory
+properties
+rep_size
+Grid
+nd se
+alpha
+bea
+amma
+end
+methods
+funcion ob =Repositry(swarm,rep_sie,gid_izealphabeta gamina)
+ifnargin>0
+objrep_size = rep_sze;
+sworm = Prtce updateDominaton(swarm);
+objswarm = swarm{“{swarmsDominated]);
+obygrd_size=grid_size;
+djalphazoipha;
+obi beta =beta;
+objeamma = gamma;
+objGridobjenid
+Hori= ilengthtobjswarmj
+objswarm()=objwarmii pdateGridindes{obj Gridh;
+end
+end
+end
+functon Grid = gridob)
+CC= vertcat(objswarm.cost;
+emin=min(C.,1);
+emax= max(C/1.1)
+de=cmax-cmin;
+min=amin-objalpha * dc
+max=cmax+objalpha dc
+n0b)= sizelC2)
+empry_gridl=;
+empty_griauB = ;
+nd = repmat(empty_gridn05}1);

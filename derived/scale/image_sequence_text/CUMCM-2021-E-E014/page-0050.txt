@@ -1,0 +1,41 @@
+1. x 交 附件 国 class 数据 (A、B、 上 分 别 转 接 成 1，2，37
+2. caciclear
+xlsread( "附件 4.xlsx' 5
+4 = a(2iend,3)iy = a(2xendy4zend);
+s. XARREEHEH
+5. tiqu_colusn = find(isnan(x));
+7. tiqu_columnl - Find(~isnan(x));
+5. op=x;
+op (tiqu_colum)-(1;
+10. order - 5;
+11. franelen = 11;
+12. sgr = sgolayfilt(y’,order, framelen);  XS6
+15. k deriva = diff(sgf2) xs6 数据 的 二 阶 求 导
+sm vderiv2;
+15. sefl = mapstd(sgf1)5 数据 标准 化
+16. y_tiau = sgf1(:, tau_columnt);
+17. y_tiqu = y_tiqu';
+15. sf2 = [op,y_tiqul; \
+15. xclassificationLearner XEREHRBTR
+20. % save(" trainedhode1z.mat”, ‘traineaade12”) ||
+21. train - sgr(1310,1; KAKR
+load trainedhode12
+23. test 3 sgR(Uend,); x 的 验 集
+20. 旋 testt itastz = test(:,2:end);
+25. yFit = trainedodel? predictFen(testa);
+Polength(test1);
+27. plot(ux,testl, "0'); hold on
+25. plotax,yfit, )
+25. legend( 真实 值 '， 检 验 预 测 全 YRERATIIE
+je. sen - sg
+31. sin - sgFA((94 169 148 278 308 330 347],:)5
+32. yfitl - trainedhodel2.predictFcn(sin);
+1. x 将 附件 四 class 数据 〔A、B、C 分 别 转换 成 1，2，3)
+caciclear
+3. a= xisread(CHifF a.x1sx');
+4. x = a(2iend,2)iy = a(2:end,zend);
+s. XAREEEHEH
+5. tiqu_column - Find(isnan(x));
+7. tiqu_columnt - Find(~isnan(x));
+op =
+®

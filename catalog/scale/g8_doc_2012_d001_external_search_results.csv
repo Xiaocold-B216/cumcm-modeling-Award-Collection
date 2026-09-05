@@ -1,0 +1,6 @@
+query_id,url,source_domain,page_title,apparent_format,source_tier,pre_download_rejected,rationale
+Q1,https://books.google.com/books/about/%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AB%9E%E8%B5%9B%E6%B9%96%E5%8D%97.html?id=aH99oAEACAAJ,books.google.com,全国大学生数学建模竞赛湖南赛区优秀论文集: 2012,HTML,TIER_3,1,Bibliographic record only; no candidate paper file.
+Q2,https://mooc1.chaoxing.com/course-ans/courseportal/mobile/protal?clazzId=0&courseId=222840037,mooc1.chaoxing.com,江西财经大学课程资料页,DOC,TIER_2,1,"2012D attachment is the competition problem statement, not a submitted paper."
+Q3,https://pdf.hanspub.org/MOS20220400000_43364559.pdf,pdf.hanspub.org,基于线性规划下的机器人最优避障路径模型,PDF,TIER_3,0,Exact numeric/model clue justified isolated content screening; publication metadata was not treated as target identity.
+Q4,https://www.daowen.com/lilun/2079534.html,www.daowen.com,数学建模案例：模型建立与求解,HTML,TIER_3,1,"Later teaching/book excerpt, not a source file and no independent target-paper provenance."
+Q3,https://www.hanspub.org/download/page_download?filename=mos20220400000_43364559.pdf,www.hanspub.org,"Modeling and Simulation, 2022, 11(4), 1083-1095",PDF,TIER_3,1,Duplicate landing URL for the same downloaded binary; not counted as a second candidate.

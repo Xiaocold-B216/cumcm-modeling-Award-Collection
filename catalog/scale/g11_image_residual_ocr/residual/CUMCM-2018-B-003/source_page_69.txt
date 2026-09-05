@@ -1,0 +1,48 @@
+下
+本
+站
+for ijk=1:SI
+if UTT(ijk)>100000
+UTT(jk)=0;
+end
+end
+[nmn,nmi]=max(UTT);
+clear UTT SI ijk
+a=aa(nmi,5);
+GZ=[];
+BXYQX=100;
+GZZZ=0;
+while t0<8*3600 次
+if randi(100)>55.5&&randi(100)<63.5 ae NY
+ifrandi(8)==4% 约 有 百 分 之 一 的 概率 发 生 故 障 _ “由
+AA=randi(8);
+AAA=ceil(AA/4);%1 表示 第 一 道 工序 故障 ，2 he
+AA=AA-4*(AAA-1);% 第 AAA 道 工 序 的 第 A 从 水 元 伴 履 障
+[m,n]=size(aa); US SS
+这 AAA 一 1 S
+GZBH=aa(m-4+AA,4); X
+for i=m-3:m
+if aa(i,1)==AA
+GZN=i; ®
+oo
+GZZZ=GZSI+600+randi(600);
+aa(i,3)=C 172:
+人
+DTeak 3
+一 end 】
+e]
+2 ] 记
+Leean
+下 T i=m-7:m-4
+SN if aa(i,5)==AA
+V¥Y/, GZN=i;
+SA， GZSJ=aa(i,6)HT(7)+randi(T(S));
+GZZZ=GZSJ+600+randi(600);
+aa(i,7)=GZZZ;
+aa(i,6)=999999;
+end
+end
+end
+GZ=[GZ;GZN,GZBH,GZS),GZZZ] ;
+end
+69

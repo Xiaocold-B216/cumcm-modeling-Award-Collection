@@ -1,0 +1,48 @@
+% 函数 微分 正确 性 检查
+
+人 = objective;
+
+fori= 110
+index = randi(numel(data) 4*3).
+ratio = linspace(0.1, 10.0, 20);
+dif_ =armyfun(@(rderr_difr index), ratio);
+ana_~ amayfun(@(rderr_ana(r, indexh, ratio);
+disp(" 信 品 比 : "fnormtdiff -ana_)norm(ana 六
+plot(ratio, diff -ana );
+hold on
+
+end
+
+£=@(X)constr_test_ceq(X, constraints);
+
+fori= 1:10
+index = randi(numel(data));
+ratio = linspace(0.1, 10.0, 20);
+ana_~ arrayfun(@(r)derr_ana(r, index), ratio):
+dif_= arrayfun(@(r)derr_dil(s, index), ratio);
+disp(" 信 品 比 : "snorm(dift -ana )norm(dift ));
+plot(ratio, 直人 -ana 小
+hold on
+
+and
+
+£=@(X)constr_test_c(X, constraints);
+
+fori= 110
+index =randinumeldatay4*3)
+ratio = linspace(0.1, 10.0, 20);
+ana_= arrayfun(@(derr_ana(r, index), ratio);
+GT_~ arrayfun(@(r)ders diff(r index), ratio):
+disp(" 信 噪 比 : "fnormtdiff -ana )mormtdiff 六
+plot(ratio, dif -ana );
+hold on
+
+end
+
+function dSSE = derr_diff(ratio, index)
+assen(isscalar(ratio));
+ASSE = (f(set(index, ratio e-4))-fiset(index, ratio-1e-4). 2e-4;
+
+end
+
+26

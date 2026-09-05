@@ -1,0 +1,74 @@
+：
+科
+
+流
+交
+
+研
+
+#include<iostream>
+#include<cmath>
+#define inf 5000//无穷大
+using namespace std;
+int ons = 18, tws = 32, ths = 46;
+int pro[2] = {455,182};//加工时间,CNC1=455,CNC2=182
+int rep[9] = {0,27,32,27,32,27,32,27,32};
+bool type[9]; //= {0, 0,0,0, 1,0,1,0,1 }; //{0, 1,1,1, 2,1,2,1,2 };
+int put_down = 25;
+int L[2][9][9] = {0};
+int full = 0,t_full;//0 表示当前为空车
+int S[9] = {10000,0,0,0,0,0,0,0,0};//加工剩余时间
+bool B[9] = {0,0,0,0,0,0,0,0,0};//是否有孰料
+int num = 0;//成品数量
+int T[9] = {10000,0} ;//当前状态到达其他 CNC 加工台的代价
+void init();
+void print();
+/*就近原则；*/
+int min_index(int *T){
+int i=1,num=9;
+int min_ind = i;
+
+众
+
+return min_ind;
+
+号
+
+for(; i<num; i++ ){
+if(T[i] < T[min_ind]) min_ind = i;
+}
+
+微
+
+信
+
+公
+
+}
+//等待优先原则
+//int min_index(int *T){
+// int i=1,num=9;
+// int min_T_ind = 0;
+// int min_S_ind = 0;
+// bool temp = 0; //temp = 1，表示可以作为下一次选择
+// for(; i<num; i++ ){
+//
+if(T[i] < T[min_T_ind]) min_T_ind = i;
+//
+temp = 0;
+//
+if(full == 1 && type[i]==1)
+//
+temp = 1;
+//
+else if(full == 0){
+//
+if(type[i]&&B[i] || not(type[i]))
+//
+temp = 1;
+//
+}
+//
+26
+
+

@@ -1,0 +1,271 @@
+﻿sample_order,paper_id,check_id,status,expected,actual,evidence
+1,CUMCM-2020-B-005,source_exists,PASS,1,1,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020B：穿越沙漠游戏最佳策略模型的研究与构建.pdf
+1,CUMCM-2020-B-005,source_sha_match,PASS,40E583E4703CA3203D3D7DF7EC81BF0F38255507BB59F5D05BFB1B17D2313D2C,40E583E4703CA3203D3D7DF7EC81BF0F38255507BB59F5D05BFB1B17D2313D2C,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020B：穿越沙漠游戏最佳策略模型的研究与构建.pdf
+1,CUMCM-2020-B-005,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+1,CUMCM-2020-B-005,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+1,CUMCM-2020-B-005,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+1,CUMCM-2020-B-005,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+1,CUMCM-2020-B-005,sample_pages_valid,PASS,1..50,"1,25,50",catalog/scale/g8_q3_batch_repair/CUMCM-2020-B-005/manifest.json
+1,CUMCM-2020-B-005,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/01_CUMCM-2020-B-005
+1,CUMCM-2020-B-005,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/01_CUMCM-2020-B-005
+2,CUMCM-2020-B-002,source_exists,PASS,1,1,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020B：基于动态规划、统计分析、静态博弈的穿越沙漠游戏策咯设计.pdf
+2,CUMCM-2020-B-002,source_sha_match,PASS,26781A9C92E48A6FD495960C27AEB6E66B1C0A2A89DB7F07BD6C0362A68E6A9E,26781A9C92E48A6FD495960C27AEB6E66B1C0A2A89DB7F07BD6C0362A68E6A9E,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020B：基于动态规划、统计分析、静态博弈的穿越沙漠游戏策咯设计.pdf
+2,CUMCM-2020-B-002,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+2,CUMCM-2020-B-002,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+2,CUMCM-2020-B-002,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+2,CUMCM-2020-B-002,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+2,CUMCM-2020-B-002,sample_pages_valid,PASS,1..104,"1,52,104",catalog/scale/g8_q3_batch_repair/CUMCM-2020-B-002/manifest.json
+2,CUMCM-2020-B-002,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/02_CUMCM-2020-B-002
+2,CUMCM-2020-B-002,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/02_CUMCM-2020-B-002
+3,CUMCM-2010-A-006,source_exists,PASS,1,1,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010A：基于数学建模的储油罐变形监测研究.pdf
+3,CUMCM-2010-A-006,source_sha_match,PASS,0D7703872C94FE411CC0B15C5419C315668235DD5F98A89B1208DF173837C754,0D7703872C94FE411CC0B15C5419C315668235DD5F98A89B1208DF173837C754,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010A：基于数学建模的储油罐变形监测研究.pdf
+3,CUMCM-2010-A-006,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+3,CUMCM-2010-A-006,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+3,CUMCM-2010-A-006,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+3,CUMCM-2010-A-006,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+3,CUMCM-2010-A-006,sample_pages_valid,PASS,1..100,"1,74,73",catalog/scale/g8_q3_batch_repair/CUMCM-2010-A-006/manifest.json
+3,CUMCM-2010-A-006,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/03_CUMCM-2010-A-006
+3,CUMCM-2010-A-006,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/03_CUMCM-2010-A-006
+4,CUMCM-2010-B-001,source_exists,PASS,1,1,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010B：上海世博会影响力的定量评估.pdf
+4,CUMCM-2010-B-001,source_sha_match,PASS,EA8FA7E23CEEED8B511B42AAFAFBCFB776DD898B94D5F72A96847DF72C9F640F,EA8FA7E23CEEED8B511B42AAFAFBCFB776DD898B94D5F72A96847DF72C9F640F,2010年数学建模国赛真题+优秀论文/2010年优秀论文/2010B：上海世博会影响力的定量评估.pdf
+4,CUMCM-2010-B-001,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+4,CUMCM-2010-B-001,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+4,CUMCM-2010-B-001,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+4,CUMCM-2010-B-001,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+4,CUMCM-2010-B-001,sample_pages_valid,PASS,1..29,"2,1,28",catalog/scale/g8_q3_batch_repair/CUMCM-2010-B-001/manifest.json
+4,CUMCM-2010-B-001,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/04_CUMCM-2010-B-001
+4,CUMCM-2010-B-001,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/04_CUMCM-2010-B-001
+5,CUMCM-2020-D-003,source_exists,PASS,1,1,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020D：接触式轮廓仪的自动标注数学模型研究.pdf
+5,CUMCM-2020-D-003,source_sha_match,PASS,F8167387022E46E54EA04C371F75ADCF587FFD4E72C300BEB3798588C3E826A9,F8167387022E46E54EA04C371F75ADCF587FFD4E72C300BEB3798588C3E826A9,2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020D：接触式轮廓仪的自动标注数学模型研究.pdf
+5,CUMCM-2020-D-003,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+5,CUMCM-2020-D-003,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+5,CUMCM-2020-D-003,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+5,CUMCM-2020-D-003,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+5,CUMCM-2020-D-003,sample_pages_valid,PASS,1..135,"1,68,135",catalog/scale/g8_q3_batch_repair/CUMCM-2020-D-003/manifest.json
+5,CUMCM-2020-D-003,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/05_CUMCM-2020-D-003
+5,CUMCM-2020-D-003,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/05_CUMCM-2020-D-003
+6,CUMCM-1992-A-004,source_exists,PASS,1,1,1992年数学建模国赛优秀论文/1992年A题优秀论文① 关于施肥效果分析问题的评注.pdf
+6,CUMCM-1992-A-004,source_sha_match,PASS,0ED09084F2E15BB17CED39971CC8B3C20F72F789C1B0AD2F4A99DF9642D0B48D,0ED09084F2E15BB17CED39971CC8B3C20F72F789C1B0AD2F4A99DF9642D0B48D,1992年数学建模国赛优秀论文/1992年A题优秀论文① 关于施肥效果分析问题的评注.pdf
+6,CUMCM-1992-A-004,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+6,CUMCM-1992-A-004,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+6,CUMCM-1992-A-004,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+6,CUMCM-1992-A-004,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+6,CUMCM-1992-A-004,sample_pages_valid,PASS,1..3,"1,2,3",catalog/scale/g8_q3_batch_repair/CUMCM-1992-A-004/manifest.json
+6,CUMCM-1992-A-004,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/06_CUMCM-1992-A-004
+6,CUMCM-1992-A-004,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/06_CUMCM-1992-A-004
+7,CUMCM-1993-B-002,source_exists,PASS,1,1,1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年B题优秀论文③ 一个给足球队排名次的方法.pdf
+7,CUMCM-1993-B-002,source_sha_match,PASS,40101857F2F092F6E6201646011ADE6153A7FA43E79188F8EF73E786A14963CF,40101857F2F092F6E6201646011ADE6153A7FA43E79188F8EF73E786A14963CF,1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年B题优秀论文③ 一个给足球队排名次的方法.pdf
+7,CUMCM-1993-B-002,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+7,CUMCM-1993-B-002,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+7,CUMCM-1993-B-002,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+7,CUMCM-1993-B-002,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+7,CUMCM-1993-B-002,sample_pages_valid,PASS,1..9,"1,5,9",catalog/scale/g8_q3_batch_repair/CUMCM-1993-B-002/manifest.json
+7,CUMCM-1993-B-002,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/07_CUMCM-1993-B-002
+7,CUMCM-1993-B-002,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/07_CUMCM-1993-B-002
+8,CUMCM-1995-B-004,source_exists,PASS,1,1,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车冶炼炉作业调度的活动网络模型.pdf
+8,CUMCM-1995-B-004,source_sha_match,PASS,2D121E84DE317B356CF918B5F3B5B33ABF3B89A7C648A2F340795E6DF1AD00DC,2D121E84DE317B356CF918B5F3B5B33ABF3B89A7C648A2F340795E6DF1AD00DC,1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车冶炼炉作业调度的活动网络模型.pdf
+8,CUMCM-1995-B-004,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+8,CUMCM-1995-B-004,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+8,CUMCM-1995-B-004,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+8,CUMCM-1995-B-004,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+8,CUMCM-1995-B-004,sample_pages_valid,PASS,1..3,"1,2,3",catalog/scale/g8_q3_batch_repair/CUMCM-1995-B-004/manifest.json
+8,CUMCM-1995-B-004,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/08_CUMCM-1995-B-004
+8,CUMCM-1995-B-004,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/08_CUMCM-1995-B-004
+9,CUMCM-1996-B-002,source_exists,PASS,1,1,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996B：关于洗衣机节水的数学模型.pdf
+9,CUMCM-1996-B-002,source_sha_match,PASS,A37A5C69FF767B96A459EC678E826B750297662ACC5A3AB52C224A711AEE0BA3,A37A5C69FF767B96A459EC678E826B750297662ACC5A3AB52C224A711AEE0BA3,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996B：关于洗衣机节水的数学模型.pdf
+9,CUMCM-1996-B-002,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+9,CUMCM-1996-B-002,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+9,CUMCM-1996-B-002,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+9,CUMCM-1996-B-002,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+9,CUMCM-1996-B-002,sample_pages_valid,PASS,1..5,"1,3,5",catalog/scale/g8_q3_batch_repair/CUMCM-1996-B-002/manifest.json
+9,CUMCM-1996-B-002,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/09_CUMCM-1996-B-002
+9,CUMCM-1996-B-002,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/09_CUMCM-1996-B-002
+10,CUMCM-1997-B-001,source_exists,PASS,1,1,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：截断切割中的最优排列问题.pdf
+10,CUMCM-1997-B-001,source_sha_match,PASS,2793EE6AB8C7BCB22E969586CDFA8FA3F859F1B96775092C90372077188DA7F3,2793EE6AB8C7BCB22E969586CDFA8FA3F859F1B96775092C90372077188DA7F3,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：截断切割中的最优排列问题.pdf
+10,CUMCM-1997-B-001,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+10,CUMCM-1997-B-001,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+10,CUMCM-1997-B-001,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+10,CUMCM-1997-B-001,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+10,CUMCM-1997-B-001,sample_pages_valid,PASS,1..3,"1,2,3",catalog/scale/g8_q3_batch_repair/CUMCM-1997-B-001/manifest.json
+10,CUMCM-1997-B-001,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/10_CUMCM-1997-B-001
+10,CUMCM-1997-B-001,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/10_CUMCM-1997-B-001
+11,CUMCM-1998-A-004,source_exists,PASS,1,1,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：资产投资收益与风险模型.pdf
+11,CUMCM-1998-A-004,source_sha_match,PASS,A2BA24A7F0415E57FBEC4C627742E09DD4A40BE2944B9A50ECE16405F2176FB3,A2BA24A7F0415E57FBEC4C627742E09DD4A40BE2944B9A50ECE16405F2176FB3,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：资产投资收益与风险模型.pdf
+11,CUMCM-1998-A-004,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+11,CUMCM-1998-A-004,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+11,CUMCM-1998-A-004,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+11,CUMCM-1998-A-004,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+11,CUMCM-1998-A-004,sample_pages_valid,PASS,1..6,"1,3,6",catalog/scale/g8_q3_batch_repair/CUMCM-1998-A-004/manifest.json
+11,CUMCM-1998-A-004,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/11_CUMCM-1998-A-004
+11,CUMCM-1998-A-004,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/11_CUMCM-1998-A-004
+12,CUMCM-2002-A-014,source_exists,PASS,1,1,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计问题 (2).pdf
+12,CUMCM-2002-A-014,source_sha_match,PASS,65B3EF4D427C379FCE2F7D42D2F97E14C8C98F05F7567511ACB4B47E89884DC7,65B3EF4D427C379FCE2F7D42D2F97E14C8C98F05F7567511ACB4B47E89884DC7,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002A：车灯线光源的优化设计问题 (2).pdf
+12,CUMCM-2002-A-014,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+12,CUMCM-2002-A-014,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+12,CUMCM-2002-A-014,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+12,CUMCM-2002-A-014,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+12,CUMCM-2002-A-014,sample_pages_valid,PASS,1..9,"1,5,9",catalog/scale/g8_q3_batch_repair/CUMCM-2002-A-014/manifest.json
+12,CUMCM-2002-A-014,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/12_CUMCM-2002-A-014
+12,CUMCM-2002-A-014,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/12_CUMCM-2002-A-014
+13,CUMCM-2011-D-001,source_exists,PASS,1,1,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011D：天然肠衣搭配问题(1)/一类肠衣搭配优化问题.doc
+13,CUMCM-2011-D-001,source_sha_match,PASS,A54963631C73100E2A26B41E91070384F60C7AE57B13789F2212145149EE6D2D,A54963631C73100E2A26B41E91070384F60C7AE57B13789F2212145149EE6D2D,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011D：天然肠衣搭配问题(1)/一类肠衣搭配优化问题.doc
+13,CUMCM-2011-D-001,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+13,CUMCM-2011-D-001,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+13,CUMCM-2011-D-001,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+13,CUMCM-2011-D-001,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+13,CUMCM-2011-D-001,sample_pages_valid,PASS,1..22,"1,11,22",catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2011-D-001/manifest.json
+13,CUMCM-2011-D-001,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/13_CUMCM-2011-D-001
+13,CUMCM-2011-D-001,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/13_CUMCM-2011-D-001
+14,CUMCM-2012-D-001,source_exists,PASS,1,1,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (2).doc
+14,CUMCM-2012-D-001,source_sha_match,PASS,D93A9A6A9DE012927F8A5D4B36E1768CA3F6AFFB6952673F40FE2740D4032766,D93A9A6A9DE012927F8A5D4B36E1768CA3F6AFFB6952673F40FE2740D4032766,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012D：机器人避障问题 (2).doc
+14,CUMCM-2012-D-001,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+14,CUMCM-2012-D-001,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+14,CUMCM-2012-D-001,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+14,CUMCM-2012-D-001,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+14,CUMCM-2012-D-001,sample_pages_valid,PASS,1..24,"1,12,24",catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2012-D-001/manifest.json
+14,CUMCM-2012-D-001,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/14_CUMCM-2012-D-001
+14,CUMCM-2012-D-001,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/14_CUMCM-2012-D-001
+15,CUMCM-2013-D-001,source_exists,PASS,1,1,2013年数学建模国赛真题+优秀论文/2013D：城市公共自行车服务系统运行状况和效率分析/论文.doc
+15,CUMCM-2013-D-001,source_sha_match,PASS,955CC7179247EDA8AD6EBB74CFD1233D514D9F80A809B0C2EB244BEACABAFDEA,955CC7179247EDA8AD6EBB74CFD1233D514D9F80A809B0C2EB244BEACABAFDEA,2013年数学建模国赛真题+优秀论文/2013D：城市公共自行车服务系统运行状况和效率分析/论文.doc
+15,CUMCM-2013-D-001,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+15,CUMCM-2013-D-001,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+15,CUMCM-2013-D-001,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+15,CUMCM-2013-D-001,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+15,CUMCM-2013-D-001,sample_pages_valid,PASS,1..81,"1,41,81",catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2013-D-001/manifest.json
+15,CUMCM-2013-D-001,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/15_CUMCM-2013-D-001
+15,CUMCM-2013-D-001,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/15_CUMCM-2013-D-001
+16,CUMCM-2014-D-003,source_exists,PASS,1,1,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014D：储药槽的设计/D-储药槽的设计.doc
+16,CUMCM-2014-D-003,source_sha_match,PASS,2C45B7888C43355B39D0BC01726D842D4744C55DC1E2F8AF829B7DB9D8D4AA35,2C45B7888C43355B39D0BC01726D842D4744C55DC1E2F8AF829B7DB9D8D4AA35,2014年数学建模国赛真题+优秀论文/2014优秀论文/2014D：储药槽的设计/D-储药槽的设计.doc
+16,CUMCM-2014-D-003,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+16,CUMCM-2014-D-003,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+16,CUMCM-2014-D-003,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+16,CUMCM-2014-D-003,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+16,CUMCM-2014-D-003,sample_pages_valid,PASS,1..33,"1,17,33",catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2014-D-003/manifest.json
+16,CUMCM-2014-D-003,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/16_CUMCM-2014-D-003
+16,CUMCM-2014-D-003,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/16_CUMCM-2014-D-003
+17,CUMCM-2011-A-003,source_exists,PASS,1,1,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（6）.doc
+17,CUMCM-2011-A-003,source_sha_match,PASS,FDA40E0C371BD0C91806B4CB581162EC0F1C3B51A7CAEF492EDD71D6E602E038,FDA40E0C371BD0C91806B4CB581162EC0F1C3B51A7CAEF492EDD71D6E602E038,2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011A：城市表层土壤重金属污染分析（6）.doc
+17,CUMCM-2011-A-003,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+17,CUMCM-2011-A-003,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+17,CUMCM-2011-A-003,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+17,CUMCM-2011-A-003,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+17,CUMCM-2011-A-003,sample_pages_valid,PASS,1..16,"1,8,16",catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2011-A-003/manifest.json
+17,CUMCM-2011-A-003,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/17_CUMCM-2011-A-003
+17,CUMCM-2011-A-003,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/17_CUMCM-2011-A-003
+18,CUMCM-2012-B-007,source_exists,PASS,1,1,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/10121505.doc
+18,CUMCM-2012-B-007,source_sha_match,PASS,F34850D4339E358C6A8C548224CEC919AFAA1B0F4ADB660A81114C20D717015F,F34850D4339E358C6A8C548224CEC919AFAA1B0F4ADB660A81114C20D717015F,2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (2)/10121505.doc
+18,CUMCM-2012-B-007,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+18,CUMCM-2012-B-007,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+18,CUMCM-2012-B-007,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+18,CUMCM-2012-B-007,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+18,CUMCM-2012-B-007,sample_pages_valid,PASS,1..33,"1,17,33",catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2012-B-007/manifest.json
+18,CUMCM-2012-B-007,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/18_CUMCM-2012-B-007
+18,CUMCM-2012-B-007,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/18_CUMCM-2012-B-007
+19,CUMCM-1999-B-003,source_exists,PASS,1,1,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999B：钻井布局.pdf
+19,CUMCM-1999-B-003,source_sha_match,PASS,E837A050E1F8C8FBACEF5C9614A37002858951C7AD98B2E2F051456B010AC568,E837A050E1F8C8FBACEF5C9614A37002858951C7AD98B2E2F051456B010AC568,1999年数学建模国赛真题+优秀论文/1999年国赛优秀论文/1999B：钻井布局.pdf
+19,CUMCM-1999-B-003,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+19,CUMCM-1999-B-003,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+19,CUMCM-1999-B-003,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+19,CUMCM-1999-B-003,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+19,CUMCM-1999-B-003,sample_pages_valid,PASS,1..6,"1,3,6",catalog/scale/g9_paper_index.csv
+19,CUMCM-1999-B-003,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/19_CUMCM-1999-B-003
+19,CUMCM-1999-B-003,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/19_CUMCM-1999-B-003
+20,CUMCM-2008-C-004,source_exists,PASS,1,1,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008C：《地面搜索的优化模型》.pdf
+20,CUMCM-2008-C-004,source_sha_match,PASS,73FEE41DA723C0FA080D0E3050B8585405510151FB6AEF69FEE292972D29F045,73FEE41DA723C0FA080D0E3050B8585405510151FB6AEF69FEE292972D29F045,2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008C：《地面搜索的优化模型》.pdf
+20,CUMCM-2008-C-004,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+20,CUMCM-2008-C-004,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+20,CUMCM-2008-C-004,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+20,CUMCM-2008-C-004,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+20,CUMCM-2008-C-004,sample_pages_valid,PASS,1..14,"1,7,14",catalog/scale/g9_paper_index.csv
+20,CUMCM-2008-C-004,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/20_CUMCM-2008-C-004
+20,CUMCM-2008-C-004,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/20_CUMCM-2008-C-004
+21,CUMCM-2022-E-E014,source_exists,PASS,1,1,2022年数学建模国赛真题+优秀论文/2022年国赛优秀论文E题E014/8122239.jpg
+21,CUMCM-2022-E-E014,source_sha_match,PASS,DFA068914E29070A744E23D89E0A2AF25027025A945BF5B8F9C04756FB00EAA8,DFA068914E29070A744E23D89E0A2AF25027025A945BF5B8F9C04756FB00EAA8,2022年数学建模国赛真题+优秀论文/2022年国赛优秀论文E题E014/8122239.jpg
+21,CUMCM-2022-E-E014,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+21,CUMCM-2022-E-E014,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+21,CUMCM-2022-E-E014,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+21,CUMCM-2022-E-E014,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+21,CUMCM-2022-E-E014,sample_pages_valid,PASS,1..24,"1,12,24",catalog/scale/g9_paper_index.csv
+21,CUMCM-2022-E-E014,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/21_CUMCM-2022-E-E014
+21,CUMCM-2022-E-E014,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/21_CUMCM-2022-E-E014
+22,CUMCM-2021-C-C085,source_exists,PASS,1,1,2021年数学建模国赛真题+优秀论文/2021年国赛优秀论文C题-C085/C1.jpg
+22,CUMCM-2021-C-C085,source_sha_match,PASS,24D7E77815731CDAD56457C691FB63EFD8A1ABD70A15FF6E9519549B6C008449,24D7E77815731CDAD56457C691FB63EFD8A1ABD70A15FF6E9519549B6C008449,2021年数学建模国赛真题+优秀论文/2021年国赛优秀论文C题-C085/C1.jpg
+22,CUMCM-2021-C-C085,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+22,CUMCM-2021-C-C085,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+22,CUMCM-2021-C-C085,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+22,CUMCM-2021-C-C085,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+22,CUMCM-2021-C-C085,sample_pages_valid,PASS,1..56,"1,28,56",catalog/scale/g9_paper_index.csv
+22,CUMCM-2021-C-C085,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/22_CUMCM-2021-C-C085
+22,CUMCM-2021-C-C085,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/22_CUMCM-2021-C-C085
+23,CUMCM-1992-A-003,source_exists,PASS,1,1,1992年数学建模国赛优秀论文/1992年A题优秀论文③ 关于非线性交调的频率设计的评注.pdf
+23,CUMCM-1992-A-003,source_sha_match,PASS,F24E48AE1113A02C6ADCF3339392D8B2C9A1449BE1A64FB2DE3D8543A8066E12,F24E48AE1113A02C6ADCF3339392D8B2C9A1449BE1A64FB2DE3D8543A8066E12,1992年数学建模国赛优秀论文/1992年A题优秀论文③ 关于非线性交调的频率设计的评注.pdf
+23,CUMCM-1992-A-003,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+23,CUMCM-1992-A-003,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+23,CUMCM-1992-A-003,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+23,CUMCM-1992-A-003,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+23,CUMCM-1992-A-003,sample_pages_valid,PASS,1..5,"1,3,5",catalog/scale/g9_paper_index.csv
+23,CUMCM-1992-A-003,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/23_CUMCM-1992-A-003
+23,CUMCM-1992-A-003,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/23_CUMCM-1992-A-003
+24,CUMCM-1993-B-001,source_exists,PASS,1,1,1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年B题优秀论文② 足球排名次问题.pdf
+24,CUMCM-1993-B-001,source_sha_match,PASS,9754E4494E59EC79D460387BED3D9B8D8E2B915DCF9E192E7E1DD363F0086EDA,9754E4494E59EC79D460387BED3D9B8D8E2B915DCF9E192E7E1DD363F0086EDA,1993年数学建模国赛真题+优秀论文/1993年国赛优秀论文/1993年B题优秀论文② 足球排名次问题.pdf
+24,CUMCM-1993-B-001,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+24,CUMCM-1993-B-001,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+24,CUMCM-1993-B-001,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+24,CUMCM-1993-B-001,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+24,CUMCM-1993-B-001,sample_pages_valid,PASS,1..2,"1,1,2",catalog/scale/g9_paper_index.csv
+24,CUMCM-1993-B-001,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/24_CUMCM-1993-B-001
+24,CUMCM-1993-B-001,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/24_CUMCM-1993-B-001
+25,CUMCM-1996-B-001,source_exists,PASS,1,1,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996B：节水洗衣机问题数学建模及若干评注.pdf
+25,CUMCM-1996-B-001,source_sha_match,PASS,6EF9201798BF3E216638A2B044038F05712CE4507B9E00192554895DC96D4278,6EF9201798BF3E216638A2B044038F05712CE4507B9E00192554895DC96D4278,1996年数学建模国赛真题+优秀论文/1996年国赛优秀论文/1996B：节水洗衣机问题数学建模及若干评注.pdf
+25,CUMCM-1996-B-001,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+25,CUMCM-1996-B-001,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+25,CUMCM-1996-B-001,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+25,CUMCM-1996-B-001,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+25,CUMCM-1996-B-001,sample_pages_valid,PASS,1..5,"1,3,5",catalog/scale/g9_paper_index.csv
+25,CUMCM-1996-B-001,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/25_CUMCM-1996-B-001
+25,CUMCM-1996-B-001,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/25_CUMCM-1996-B-001
+26,CUMCM-1997-A-008,source_exists,PASS,1,1,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件的参数设计(1).pdf
+26,CUMCM-1997-A-008,source_sha_match,PASS,7CE89B136265005FB597C7886D441E66504DB71F07101F0F67BC3B94C4543948,7CE89B136265005FB597C7886D441E66504DB71F07101F0F67BC3B94C4543948,1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997A：零件的参数设计(1).pdf
+26,CUMCM-1997-A-008,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+26,CUMCM-1997-A-008,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+26,CUMCM-1997-A-008,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+26,CUMCM-1997-A-008,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+26,CUMCM-1997-A-008,sample_pages_valid,PASS,1..5,"1,3,5",catalog/scale/g9_paper_index.csv
+26,CUMCM-1997-A-008,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/26_CUMCM-1997-A-008
+26,CUMCM-1997-A-008,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/26_CUMCM-1997-A-008
+27,CUMCM-1998-A-007,source_exists,PASS,1,1,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：投资组合与模糊规划模型.pdf
+27,CUMCM-1998-A-007,source_sha_match,PASS,9916DF219AE450DE559416FC928BC4DF0EE7FCB63B13887739C487F561D04B30,9916DF219AE450DE559416FC928BC4DF0EE7FCB63B13887739C487F561D04B30,1998年数学建模国赛真题+优秀论文/1998年国赛优秀论文/1998A：投资组合与模糊规划模型.pdf
+27,CUMCM-1998-A-007,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+27,CUMCM-1998-A-007,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+27,CUMCM-1998-A-007,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+27,CUMCM-1998-A-007,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+27,CUMCM-1998-A-007,sample_pages_valid,PASS,1..5,"1,3,5",catalog/scale/g9_paper_index.csv
+27,CUMCM-1998-A-007,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/27_CUMCM-1998-A-007
+27,CUMCM-1998-A-007,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/27_CUMCM-1998-A-007
+28,CUMCM-2000-A-005,source_exists,PASS,1,1,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA分类模型.pdf
+28,CUMCM-2000-A-005,source_sha_match,PASS,FB22E1231902AA036AE4EA61EA9948CA636F2B780A29A5AD487B092251B25EA0,FB22E1231902AA036AE4EA61EA9948CA636F2B780A29A5AD487B092251B25EA0,2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA分类模型.pdf
+28,CUMCM-2000-A-005,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+28,CUMCM-2000-A-005,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+28,CUMCM-2000-A-005,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+28,CUMCM-2000-A-005,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+28,CUMCM-2000-A-005,sample_pages_valid,PASS,1..9,"1,5,9",catalog/scale/g9_paper_index.csv
+28,CUMCM-2000-A-005,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/28_CUMCM-2000-A-005
+28,CUMCM-2000-A-005,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/28_CUMCM-2000-A-005
+29,CUMCM-2001-A-001,source_exists,PASS,1,1,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管切片的三维重建.pdf
+29,CUMCM-2001-A-001,source_sha_match,PASS,1B2A5BE4A875E37494661432EA4FB9B0945500C9AF8D24CA374CDDE1C211AADB,1B2A5BE4A875E37494661432EA4FB9B0945500C9AF8D24CA374CDDE1C211AADB,2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管切片的三维重建.pdf
+29,CUMCM-2001-A-001,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+29,CUMCM-2001-A-001,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+29,CUMCM-2001-A-001,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+29,CUMCM-2001-A-001,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+29,CUMCM-2001-A-001,sample_pages_valid,PASS,1..6,"1,3,6",catalog/scale/g9_paper_index.csv
+29,CUMCM-2001-A-001,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/29_CUMCM-2001-A-001
+29,CUMCM-2001-A-001,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/29_CUMCM-2001-A-001
+30,CUMCM-2002-B-005,source_exists,PASS,1,1,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002B：彩票中的数学.pdf
+30,CUMCM-2002-B-005,source_sha_match,PASS,FA279E682B35EA23D320073F6818B6DA538A4AE5BC86B6D86A0D384FE8E6A06F,FA279E682B35EA23D320073F6818B6DA538A4AE5BC86B6D86A0D384FE8E6A06F,2002年数学建模国赛真题+优秀论文/2002年优秀论文/2002B：彩票中的数学.pdf
+30,CUMCM-2002-B-005,artifact_set_exists,PASS,all 3 files,missing=,catalog/scale/g8_artifact_manifest.csv
+30,CUMCM-2002-B-005,artifact_hashes_match,PASS,all 3 SHA256 match,mismatch=,catalog/scale/g8_artifact_manifest.csv
+30,CUMCM-2002-B-005,index_record_exists,PASS,1,1,catalog/scale/g9_paper_index.csv
+30,CUMCM-2002-B-005,identity_binding_correct,PASS,paper_id/year/problem/eligible match,1,catalog/scale/g9_paper_index.csv
+30,CUMCM-2002-B-005,sample_pages_valid,PASS,1..7,"1,4,7",catalog/scale/g9_paper_index.csv
+30,CUMCM-2002-B-005,review_render_generated,PASS,3 non-empty PNG,3,reports/scale/g11_manual_sample_review/30_CUMCM-2002-B-005
+30,CUMCM-2002-B-005,review_packet_complete,PASS,7 expected files,7,reports/scale/g11_manual_sample_review/30_CUMCM-2002-B-005

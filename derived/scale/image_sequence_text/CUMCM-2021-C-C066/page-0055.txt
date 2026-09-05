@@ -1,0 +1,47 @@
+tran =-
+arr - 中
+or 1 an range(39):
+if new[' 订 音量"][1]  ©:
+arr .append(8)
+ase
+new[ 订单 量 '][i] > c000:
+re = new[ "订单 量 "][1]-6889
+Countl = countl +1
+tran = 日
+arr.append(ten[ ' 序 生 '] .tolist()[count1])
+re ?6888;
+re = re -68e8
+Countl = countl +1
+1 re >c00:
+Countl = countl +1
+ase
+tran -tran + neu[' 订 音量 '][]
+4 tran < 5588:
+arr.append (tea[ 序号"] .tolist()[count1])
+aaf tran 》68ee:
+Countl = countl +1
+tran = nevf" 订 音量 '] [1
+arr.append(tea[ 序号 '] .tolist()[count1]
+else:
+tran -
+arr.append (tent 7-5] tolist ( Lcount1])
+count. = counti. +1
+new[ "转运 ']sarr
+时
+人
+Pesult - pd.merge(result, new,ons"B¥")
+print(result)
+问题 四 订货 方案 模型
+alusr/binyeny python
+fron matplotlib import pyplor as plt
+import numpy as nmp
+import pandas as pd
+Select_info - pd.read_excel('p2-1 人 做 结 时 -xlsx'
+5elect_ALID = select_infofselect_info[ "材料 分 类 '] == 'A'][EEHIO]
+Select_B_ID - select_infofselect_info[ ,材料 分 类 '] -= 'B'][' 供 应 商 10']
+select_C_I0 = select_infofselect_info[ ,材料 分 类 '] == 'C'] [供应 1
+select_suppliens = pd unique(selsct_infof "供应 调 1D'])
+mum_of_a = select_A_ID.shapefe]
+num_of_b = select_B_ID-shapefe]
+mam_of_c = select_C_ID.shape[]
+outrput_list， output_list = [), []

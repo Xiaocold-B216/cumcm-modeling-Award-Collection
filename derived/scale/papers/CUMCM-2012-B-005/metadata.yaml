@@ -1,0 +1,14 @@
+paper_id: CUMCM-2012-B-005
+year: 2012
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (5)/基于递归算法的建筑外表面光伏电池布局优化分析与设计.doc
+source_sha256: 4357F1EB1DA91D0C65923D25AB6218F234C9F123A221DED8EE6318ECEC53CC05
+effective_pdf_path: derived/scale/doc_batch/CUMCM-2012-B-005/source_converted.pdf
+effective_pdf_sha256: F9F59407B33E60976DD4B86A6A897C0F1B0A8F0DA166337EBE76992CC2241465
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2012-B-005/normalized_body.txt
+authoritative_text_sha256: F03824B665A5CE3EB577397F9D430E622ABED796697666C0DC1759D4CB879997
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

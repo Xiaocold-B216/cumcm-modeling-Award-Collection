@@ -1,0 +1,33 @@
+EriAE
+村
+对 疗法 4 的 数据 不 分 年 龄 ， 按 照 时 间 进 行 排序 ， 对 各 个 时 间 点 对 应 的 CD4
+的 数据 求 平均 值 ， 如 果 该 时 间 点 所 对 应 的 数据 较 多 ， 把 该 时 间 点 和 所 对 应 的 CD4
+的 值 取出 来 得 到 下 表 及 所 对 应 的 图 形 :
+-从 >
+表 11 (疗法 4 中 Log(CD4 counttl) 的 均值 ) 这 一 \)
+二
+ET xi
+EN
+EN
+ET
+EREEEEIONN 汪汪
+0
+EN
+一 2 seo LA 9
+EU 人 和
+ES 人 站
+ET FRe
+EECEIS 和 全
+ET
+ER 全
+NA
+yNA
+让 着 着 和
+如 下
+表 12
+CT
+COiGeom | 9  [ IO
+mEREY@© | 9 | m | m [ w
+ET |9  | m | w | w ]
+根据 表 12, FHIXO ={9,17,24,32} ， 计 算得 到 累加 生成 数列
+13

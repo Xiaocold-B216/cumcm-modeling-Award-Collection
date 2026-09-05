@@ -1,0 +1,39 @@
+回 成 革 动 国
+后
+0
+BRLLT]
+=E Sakn
+int A_1 = FeasibleSolve[i][0];
+int A = FeasibleSolve[i][1];
+int A 2 = FeasibleSolve[i][2];
+float Time A = 3.0%(A 2 - A 1);
+int B 1 = FeasibleSolve[i][3];
+int B = FeasibleSolve[i] [4] H
+int B 2 = FeasibleSolve[i][5];
+float Time B = 0.0; “
+Hoo
+int C_1 = FeasibleSolve[i][6]; 一 \
+int C = FeasibleSolve[i] [7] H 全
+int C 2 = FeasibleSolve[i][8];
+float Time C = 3.0x(C 2 - C 1); A
+全
+float fTime B C = 0; 人
+float fTime A B = 0;
+if (B > 1040) ee】
+{ Ve, 外
+fTime A B = 6.0;
+fTime BC = 7.0;
+Time B = B 2-B 1);
+fCosteB__73.0;
+}
+y/A ) y
+下 人 =5.0;
+ime B C = 5.0;
+1 // Time B =3.0%(B 2-B 1);
+fCost_B = BusPrice(B, B 2-B 1, FeasibleSolve, AllLines);
+}
+if (Al1!=A2)
+fCost_A = BusPrice(A, A 2-A 1, FeasibleSolve, AllLines);
+else
+fCost_A = 0;
+43

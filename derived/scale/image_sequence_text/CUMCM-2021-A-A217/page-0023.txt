@@ -1,0 +1,33 @@
+motor_ unit = motor himotor lo;
+motor_ unit = motor_unit./sqri(sum(motor_unit.*motor_unit.2));
+motor_distSQ = main_ XYZ-motor hi;
+motor_distSQ = sum(motor_distSQ.*motor_distSQ, 2):
+objeetive = @(X)obj_SSECX, W N_nodes):
+nonlcon = @(X)onstraints(X, edge， edge_distSQ， motor hi， motor unit,
+motor_distSQ. N_nodes);
+ testhit(..
+pack(main_XYZ, rand(N_nodes, 1)).
+objective,..
+nonleon.
+天
+opts = optimoptions(fimincon, Display’, iter-detailed);
+opts. FunValCheck = ‘on';
+opts.SpecifyObjectiveGradient = rue;
+opts.SpecifyConstraintGradient ~ true;
+opts. MaxFunctionE valuations = inf;
+opts. Maslterations 二 inf
+opts. HonorBounds = false;
+% opts SubproblemAlgorithm = cg'
+opts. Hessian Approximation = Ibfes’
+saved ~ load(prob2);
+iftrue,
+opLX = saved.opt_X;
+else
+opt_X = fimincon(objective, pack(main XYZ, zeros(N_nodes, D) 中 [1 [1. [1...
+pack(-inf{size(main_XYZ)). repmat(-0.6, N_nodes, 1))... %Ib
+pack( inf{size(main_XYZ)), repmat( 0.6,N_nodes, 1)... % ub
+‘nonlcon, opts): %#ok<UNRCH>
+end
+val = obj_SSE(opt_X, W, N_nodes);
+[opt XYZ, opt_Lz] = unpack(opt_X, N_nodes).
+23

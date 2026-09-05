@@ -1,0 +1,41 @@
+中
+216 plt.plot(range(1，25),(Pal/Pel) 1:] ,labelc* 油 整 后 产能 &/C 比 例 *)
+317 ple.plot(range(s, 26),(Pa2/Pe2) [1:] ,lsbelo* 凋 整 前 产能 h/C 比 钢 )
+215 Pt -legendtlocr0，acolri)
+219 plt.title(' 前 后 A/C 比 例 比 加 ')》
+20 Phtrahos0)
+G 问题 四 代码
+文件 : Problem4.py
+[p———
+ssport aatplorlib-pyplot as Pht
+s
+4 pit.xcParsssl font sans-aertt = ['SizHos’) “2
+5 。 对 条 二 义 与 名和 A5
+6
+7 # 供应 商 1-50 对 应 的 代号 ， 排 序 顺 序 为 第 一 问 中 评分 高 佐 SN 称 2
+SGongyingNase = 中] ¢ 字符 市 ， 从 1 开始 ， 下 癌 于 S
+9 二 HERISNBARE, REMEARARE 吕 %
+10 zhaanyualsse = 品 p)
+n Z -
+12 提供 应 商 类 别 ，0 为 平 为
+rpse 人 人、
+14 Gabel 七 -一 *
+15 Gs ] 转化
+:人
+17 Geesns 人
+18 供应 商 的 入 关 下 、 方
+19p=0
+0 pte = 吕
+321 8 网 其 了
+2 enesz = np. xandos rand (177)
+»
+2
+和 5 eeeskaark 。 品
+26 Grorkseskeark = [1
+和 7
+28 二 转运 商 的 损耗 率
+2 1=0
+30 lten 吕
+3
+32 ¢ 第 x 周 约 剩余 库存
+33 w = np.zeros([25]) # 0-24, 未 油 去 当前 一 周 消耗

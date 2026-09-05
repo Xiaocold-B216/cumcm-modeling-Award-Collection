@@ -1,0 +1,46 @@
+TbjLisFeasable)
+ifalobj cost <= objlcost) 8& anytobjcost< objlcost)
+d=true;
+else
+d=faise;
+end
+ee
+dtruey
+end
+elsef al(objisFeasable)
+d=faise;
+elsef sum(obsFeasable}>=sum(obj1 isFeasable)
+d=true;
+else
+a=faise;
+end
+end
+function obj=updateGridindex(ob,Grd)
+nObjelength(obi.cost);
+nGrid=length(Grid(1)8);
+Gridsublndex-zeros(1,nObi);
+forjFlnobj
+ridSubindex(}=find{obi cost()<Grid() UB,, frs);
+end
+objGridindex=Gridsublndex(1);
+for<2:n0bj
+‘obiGridindex=obj Gridindex1;
+objGridindex=nGridvobjGridindex
+0b]Gridindex=obj.GridindexsGridsubindex(j;
+end
+end
+end
+methods (static)
+function swarm = updateDomination(swarm)
+for index = Length{swarm)
+swarm(index).sDominated = alse;
+fori = Llength(swarm)
+ifi==index
+continue
+end
+if swarm(i) dominates{swarm(index))
+swarm(index).sDominated = true;
+break
+end
+end
+6

@@ -1,0 +1,38 @@
+回味
+E
+1 期 仲 银 花 等 : “飞越 北极 ”的 数学 模型 7 mm
+x= OP'cosu= acosu
+y= OP 'sinu= DSsinz
+代入 * 和 5tang 得 : tanu= 人 一 全 tang， 所 以 归 化 纬度 与 大 地 纬度 的 关系 为
+tanu = 全 tanB (3)
+(2) 计算 公式 的 导出
+长 距离 大 地 主题 解 算 的 贝 赛 尔 方法 中 , 椭 球面 上 两 点 PIC az) 与 PC zz 吸 间 的 大 地
+线 $ 与 其 辅助 球面 上 大 圆 弧 r 的 微分 关系 式 为 49S= of 1- ecoswd -从 >
+由 于 地 球 的 遍 率 or 生 - 包 ;0.003, 则 计算 中 略 去 of 项 , 于 是 “AN
+a =
+ds = ad 1- 20cos’udo= a(l- o+ osin’u 了 (4)
+球面 直角 极 三 角形 的 球面 三 角 公 式 为 snv= sinuacoso; 将 其 代 入 (4) 得 :
+ds = {r- x+ osin’u, 二 8, NS (5)
+对 (5) 式 两 端 积分 得 : X
+S = vd o+ Sa 十 3 in20 - sin200) (6)
+由 于 w, 0 6 未 知 , 将 此 用 ww MAGHER, 其 中 人 广 6- 0 由 球面 三 角 公 式 有
+sinu1 =) snxwcosai
+&n §thuacosa ™
+令 U= (sinu1+ sinz2) 2， V= (sinu1- Si 是 可 得
+2 ~ 天
+0 = S 0 2(1- cosAO ®
+siv (sn20: 和 -sn Ta g)
+和 Ao 是 辅助 球面 世 孚 的 大 圆 弧 长 , 有 如 下 近似 公式 :
+二 ©0 sAC= sinuisinuz + cosurcosurcosl 1- L2).
+根据 对 2 xmttommaoat
+SN 人/ S= aAO- 人 osinzw + “sin’u, (sin2G - sin20i)
+隔
+AS _ 1 Ag-_sin/Ag Ada+ snAg
+§= alo- | 1+ oosAoC + 1 ET 40)
+若 令 刀 = 4 4 4 +cosAr'N 1 cosAa， 则
+S= uaAo- HMU- NV) (11)
+对 于 飞机 航线 相 邻 两 站 点 4,B，,ZD),4nrBxebZrnD 之 间 的 航程 有 如 下 近似 计算 公式 :
+Si=- a0- HMU + NV),
+cosO= sinu;sinuw1+ cosucosus1008EL 1- cosL),
+U = (sinu:+ sinui1)?, V = (sinu- sinui1)’,
+9  ©1994-2008 China Academic Journal Electronic Publishing House. All reserved.  http:/www.cnki.net

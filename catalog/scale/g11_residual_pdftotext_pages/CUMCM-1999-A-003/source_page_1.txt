@@ -1,0 +1,89 @@
+第 30 卷第 1 期
+数学的实践与认识
+V o l130 N o 11
+2000 年 1 月
+J an. 2000
+M A TH EM A T ICS IN PRA CT ICE AND TH EO R Y
+Abstract:
+
+In the a rticle, the op tim um tactics of the regu la r check to w o rk ing p rocedu res and the
+
+rep lacem en t of cu tting too ls in the cou rse of con tin iou s com ponen t p rocessing by au tom a tic la thes
+ha s been d isscu ssed.
+Fo r question one, the op tim um m odel of average m anagem en t co st u sed fo r regu la r check and
+ad ju stm en t of com ponen t ha s been m ade ou t by app lying the theo ry of m anagem en t co st and
+m ethod of p robab ility sta tistics, the best designed in terva l of check and cu tting too ls′
+rep lacem en t
+in the w o rk ing p rocedu re ha s been ob ta ined.
+Fo r question tw o , ba sed on question one, the ob jective function s ha s been estab lished, and the
+
+流
+
+op tim um tactics of the best designed in terva l of check and thd rep lacem en t of cu tting too ls ha s
+been ob ta ined con sidering the average lo ss b rough t abou t by unqua lified. p roducts a t the in terva l
+of check and the average lo ss of m ach ine stop fo r being m isrega rded a s ex isting b reakdow n.
+
+交
+
+T he au tom a tic check ing and ad ju sting system the b reakdow n of w o rk ing p rocedu res ha s been
+designed by u sing au tom a tic devices, and the a lgo rithm flow cha rt ha s been g iven too T hu s the
+
+：
+科
+
+efit of w o rk ing p rocedu re w ou ld be increa sed.
+
+研
+
+lo ss of m ach ine stop fo r being m isrega rded a s ex isting b reakdow n w ou ld be avo ided, and the ben 2
+
+自 动 化 车 床 管 理
+
+号
+
+石 敏, 林超友, 方 斌
+指导教师: 数模组
+430033)
+
+公
+众
+
+( 海军工程大学, 武汉
+
+编者按:
+
+该文思路正确, 考虑较全面, 对问题一给出了正确的模型和结果, 并对检查方式、灵敏度分析、误
+
+差分析进行了详细讨论. 本文另一特色是进行了计算机模拟, 这对许多类似的问题都行之有效. 本文缺点是
+对问题二的模型有欠缺.
+
+摘要:
+
+本文对自动化车床管理问题进行了讨论, 将检查间隔和刀具更换策略的确定归结为单个零件期望
+
+损失最小的一个优化问题, 并提供了有效算法. 对问题一, 得到检查间隔Σ0 = 18, 定期换刀间隔 Σ1 = 342, 相应
+
+信
+
+的单个零件期望损失费用 C = 4175 元的最优解, 并用蒙特卡罗法对结果进行了模拟检验. 对问题二, 得到检
+查间隔 Σ0 = 11, 定期换刀间隔 Σ1 = 242, 单个零件期望损失费用 C = 7122 元. 对问题三, 我们采用新的改进方
+
+微
+
+案使单个零件期望损失费用降为 5134 元. 本文还对变检查间隔、参数灵敏性、误差分析等进行了讨论.
+
+1
+
+问题的重述 ( 略)
+
+2
+
+问题的分析
+由于刀具损坏等原因会使工序出现故障, 工序出现故障是完全随机的. 工作人员通过检
+
+查零件来确定工序是否出现故障, 并且计划在刀具加工一定件数的零件后定期更新刀具.
+因此, 给定检查间隔, 对零件作检查, 当发现零件不合格时则认为工序发生了故障并立
+即进行停机检查, 若实际存在故障则进行修理, 无故障则继续生产; 当检查发现零件合格则
+不干涉设备的工作. 当到了定期更换刀具时刻, 即使设备未出现故障, 也进行刀具更新.
+
+

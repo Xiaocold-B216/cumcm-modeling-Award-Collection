@@ -1,0 +1,41 @@
+马 :二
+了
+AllLines[1042].LineInfo[i] = temp_1[i];
+All1Lines[1042].LineInfo[nLSize+ 订 = temp 1[i];
+AllLines[1043]. LineInfo[nLSize-1-i] = temp_1[il;
+AllLines[1043]. LineInfo[nLSize+nLSize-1-i] = temp 1[il;
+】
+}
+10. 3. 3 (文件 名 :ShortPathCalculate. cpp)
+[LU
+%
+//。 此 程序 计算 最 小 公交 线路 =“
+[/ z “AN
+// 有 关 要 求 : 用 户 输 六 起 始 站 点 和 终点 ， 在 满足 换 乘 次 数 不 超 过 某 一 自 度 的 情 闸 下
+// 程序 输出 所 有 可 能 的 行车 路 线 ]
+// /人
+[LUIANNMAAAAAAAAAL 和 [AAA 全 JI1111117117
+#pragma warning(disable: 4786) JR
+#include “map>
+#include <iostream» @
+#include 《fstream> 4 |
+#include <strstream> 多
+#include <string>
+#include <queue> S
+#include <vector> )
+//#include “Utility ¥
+#include “DataPr h”
+#include “Ca 中
+KE h”
+Us Danes e std;
+1 J/ \=
+No
+{
+// 经 过 事先 的 计算 ， 总 共有 520 条 公 汽 线路 , 3957 个 公 汽 站 点
+// 2 条 地 铁 线路 ，39 个 地 铁 站 点
+//
+// 将 同一 路 线 的 上 、 下 行路 线 看 成 两 个 不 同 的 路 线
+// 将 环形 路 线 换算 成 两 个 与 之 等 价 的 单行 路 线
+// 将 地 铁 线 等 同 于 公 汽 站
+vector<LoadMessage> AllLines (1040+4) ;
+58

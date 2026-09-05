@@ -1,0 +1,47 @@
+paper_id: CUMCM-2000-A-006
+year: 2000
+problem: A
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA序列的分类模型.pdf
+  sha256: 5528D87476102142BB539FCAF2866194D573E2F569EDEE683AE1EA25131824CA
+authority_sha256: 5528D87476102142BB539FCAF2866194D573E2F569EDEE683AE1EA25131824CA
+paper_file_memberships:
+- path: 2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA序列的分类模型.pdf
+  role: primary
+  canonical: true
+primary_file: 2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA序列的分类模型.pdf
+extraction_inputs:
+- path: 2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA序列的分类模型.pdf
+  sha256: 5528D87476102142BB539FCAF2866194D573E2F569EDEE683AE1EA25131824CA
+  kind: original
+extraction_input_sha256: 5528D87476102142BB539FCAF2866194D573E2F569EDEE683AE1EA25131824CA
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 9
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2000-A-006/source_page_1.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2000-A-006/source_page_2.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2000-A-006/source_page_3.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2000-A-006/source_page_4.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2000-A-006/source_page_5.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2000-A-006/source_page_6.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2000-A-006/source_page_7.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2000-A-006/source_page_8.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2000-A-006/source_page_9.txt"]
+  source_sha256: 5528D87476102142BB539FCAF2866194D573E2F569EDEE683AE1EA25131824CA
+  current_body_sha256: E6A45981DE3276A928072CEA64BEF94914BA36020D85576555B7B8FDF3DD325F
+  candidate_body_sha256: 9BBBD27D700622E6EDEAE52A1DE2401A1A1C5132A418EB9FDAD5470690B3463C
+  source_page_count: 9
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

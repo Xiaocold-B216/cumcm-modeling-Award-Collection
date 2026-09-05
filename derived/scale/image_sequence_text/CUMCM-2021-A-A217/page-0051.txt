@@ -1,0 +1,62 @@
+myquiver(20,[-250 250], [-450 -4501:K', LineWidth', 2);
+plot([-250 p_spher(1)], [-460 p_spher_end(2)},"K', LineWiddh', 2);
+plot([ 250 p_spher_end(1)]. [-460 p_spher_end(2)},"K', 'LineWidih', 2);
+1ext(0, ~440, "boldmathSD=500 mathrm {m}S, font_optsf:});
+
+end
+
+function myquiver(r.x.y; varargin)
+rad = atan2(y(1)-y(2), X(1)XQ)):
+rad = [rad+deg2rad(30) rad-deg2rad 30)J;
+plot(x.yvarargin{:});
+L = sqrt((x(DX@)HX@)HD5@)F F(Dy@)e:
+PIO(S(1)-[0.L}*cos(rad(1)).y(1)-[0.L}#sin(rad(1)).varargin{:}):
+PIO(S(1)-[0.L]*cos(rad(2)).y(1)-[0.L]#sin(rad(2)).varargin{:}):
+PIOI(XQ)*[0.L]*cos(rad(1)).y(2)[O.LI*sinrad(1)) vararging:):
+PIO(X(2)+{0.L]cos(rad(2)).y(2) HO.LI*sin(rad(2)) varargin{:});
+
+end
+
+illuz.m: 剖面 极 坐标 示意 图
+
+% 本 文件 原名 ilu2m
+
+% 剖面 示意 图
+
+font_opts = {"Vertical Alignment’, ‘middle’, Horizontal Alignment, ‘center’, 'FontSize', 18,
+
+Interpreter’, latex'}:
+
+clase all
+
+[spher_rad, focal rad, angle] = Constant.get_rad_angle();
+
+PS=Ipi2inup_ SC 站
+
+P_P= [pil2 focal rad];
+
+P_Q= [-pi/2 spher rad-20]:
+
+P_T= [pi2 P_P(C2)+2*(P_Q(C2)-p_PC2)
+
+% 基准 圆 弧
+
+polarplotlangle+piangle *0+spher rad, LineWidth', 2);
+
+holdcony
+
+% MREEN
+
+polarplot(angle-+pi.angle *0+focal rad, 'K', ‘LineWidtl, 2);
+
+% 标记 定点
+
+polarplot(p_S(1), p_S(2),*K, MarkerSize’, 14, ‘LineWidth', 2);
+
+polarplot(p_P(1), p_P(2)."K 'MarkerSize’, 22, 'LineWidth' 2);
+
+polarplot(p_Q(1), p_Q(2),K, MarkerSize', 22, LineWidth', 2);
+
+polarplot(p_T(1), p_T(2),'K, MarkerSize’, 22, ‘LineWidth', 2);
+
+51

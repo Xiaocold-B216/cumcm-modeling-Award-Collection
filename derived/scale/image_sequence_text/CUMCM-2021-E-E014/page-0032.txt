@@ -1,0 +1,43 @@
+15. evalt[strly [strly sppoint(,)1; 1);
+0. ed
+21.
+2. foris1k
+:> strl [Center ynum2strG];
+多 eval(["center_New(",num2str(i), ,) = mean( strl 155
+5 ed
+25.
+27. 1f syn(sun((center_ New - center)."2)) =- 0
+25. break
+9. ase
+加 center = center_New;
+3 ed
+:>
+5. comt -count
+ed .
+55. for 4 - 1:k
+6 T= unestr(; < \
+. dise(URT, EEARANS: C];
+s5. disp(eval([ Center,11)) :
+35. end EIAMRRAAT R
+Me had on J
+和 or
+人 str = [iCenter nimastr(1));
+43.  plot(eval([3trt, (5,1) Deval(lstrd, '(:,2)°1),  Markersize,15, "colo
+To 人 nan;
+各 = bawndary( strl (osstrl (5,2),0.003° 1;
+senpty(kn)
+阳 eval(['Plot( ostrl  (:,0), ,strt, (:,2)); D3
+7. else
+ee. eval(['plot( ustrl tkns1)，sstrl rtkns2))5)
+ed
+5  plot(center(:,1),center(:,2), ie
+atle( 's6 台 据 区 村 分 类 )3
+end
+1 acaer
+2. 10d(pcap.mat’, F4)
+3. ppoint - F4; * SASHLE
+[人
+count 。 100;
+= size(ppoint);
+7. center - ppotat(iik, ); X HHHT KAAAIE
+3

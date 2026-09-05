@@ -1,0 +1,35 @@
+function plot_ 3d_lz(data_ opt_ XYZ, opt_Lz,index) % 三 维 促 动 器 提升 量 (FlaD)
+raw_XYZ = data.main_node_coordinate;
+raw_XYZ(index.:) = opt XYZ:
+X = raw_XYZ(:1); Y = raw_XYZ(:2); Z = raw_XYZ(.3);
+Lz = NaN(size(index):
+Lzindex) = opt_Lz;
+trisurf(data.triangle, X,Y,Z, 12);
+colorbar();
+view(2),
+axisCequal);
+style(fontsize’, fontname’);
+colormap(‘gray’).
+ee caxis();
+w(2)=06:
+caxis(ee);
+boxCon');
+fastprint( 图 片 /prob2. 结 果 .3D 促 动 器 提升 量 叶
+end
+function errplot_3d(data, opt XYZ, opt_ABR, index) % 三 维 拟 合 误差 (interp)
+raw_XYZ = datamain_node_coordinate;
+raw XYZ(index,) = opt XYZ:
+Xo= raw_XYZ(,1); Y = raw_XYZ(:2); Z = raw_XYZ(.3);
+err= NaN(size(index)).
+er(index) = abs(Polar para(Constant L, opt_ABR(:2)) - opt_ABR(3)):
+trisurf{data.triangle, X,Y,Z, er "FaceColor’ interp');
+colorbar():
+view(2),
+axis(equal);
+styleCfontsize! fontname’),
+colommap('gray’).
+boxCon');
+fastprint(' 图 片 /prob2. 结 果 .3D 理想 曲面 拟 合 误差 7)
+end
+10. 1. 2 常数 定义 与 数据 处 理
+40

@@ -1,0 +1,52 @@
+outpat_df = pd.concat([output_df,
+pd-DataFrame([[e]]*df_A_all.shapere] ，
+index = df_A_allindex，
+coluans = [index]).1])
+output_df. to_excel ('P3-1RER xlsx)
+问题 三 转运 模型
+impork numpy as np
+import pandas as pd
+nmpork matplotlb.pyplot as pit
+import re
+import math
+from scipy.stats import exponnera
+from fitter import Fitter
+4 各 转运 商 的 损失 率 进行 也 人
+data-pd.oatakrane(pd. read_excel("2.xlsx"))
+anp_array(data)
+a-np.delete(a, , axis-1)
+Toss = []
+er 3 in range(8):
+# = Hitter(p.array(afj] tol1st()) distributions="expomorn’)
+不
+Ha/(f .fitted_paran['exponnera'][e]"f.fitted_paran[jsxpoiporg' 了 [六
+count =
+te = [)
+hile count « 22:
+= expomnorm.rvs (k, sizest)
+if ye and Pei
+ten.append(float (r))
+count - counte1.
+ase;
+pass”
+ass append (tem)
+nloss<np.array(10ss).T. toldst()
+4 水 骨 转 运 方案
+rdataa-pd.atakrane(pd. read_excel ('P3-1A%K2.x15x"))
+Pdatab-pd.DataFrase(pd. read_excel ("P2-28.x15x"))
+Pdatac-pd DataFrase(pd. read_excel ("93-1CiK2.x15x"))
+sa = rdatas. colums. tolist()
+sb = rdatab. colums. tolise()
+sc = rdatac.colums. tolist()
+for 3 in range(24):
+4s CFT01,2,3,8,5,6,7,8], Hk inloss(3])
+em-pd.DataFrame (d) .sort_values (by="Hi%")
+d1 = pd ,Dataframe({ "商家 "75a， 订 音量 *:np.array(rdataa)[j])) .sort_values(by=' 订 单 重 ，ascendinB
+[False])
+42 = pd.Dataframe(f 商家 ':sb[12:24]，' 订 音量 ':np-array(rdatab)[j][12:24])).sort_valuestby=' 订
+音量 ,ascending = (False])
+03 = pd .Dataframe({ "商家 ':sc， 订 音量 ':np.arraytrdatac)[j]).sort_values(by=' 订 音量 ,ascending
+= False])
+new = dl.append(d2)
+new = new.append(d3) .reset_indextdrop-True)
+countl = 日

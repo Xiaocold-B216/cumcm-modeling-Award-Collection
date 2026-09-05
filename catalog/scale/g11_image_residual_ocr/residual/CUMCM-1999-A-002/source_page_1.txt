@@ -1,0 +1,39 @@
+回 虽 过
+p
+数学 的 裤 认识
+第 30 郑 第 1 期 数学 的 实践 与 认识 von30 Nu BERAGE
+2000 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan_ 2000
+The M anagem en t of AutomaticLathe
+YU Jie, JANGAimin, LIRong-bing
+(Nanjing U niversity of A eronautics and A stronautics, Nanjing 210016)
+= _
+Abstract Optmalmaintenance policy problem in a system is discussed and analysed Sb 为
+paper Due to the random variable concerned, one objective mathematicalmodel ofe W
+value is developed By using enumerative searchmethod, weobtain op timal po licy 1 cess
+is checked once every producing 18 parts W hen the process is checked ines, the'’knife has
+to be changed According to this policy, the average mininal cost for I5 cing a part is
+4.62¥. 7
+Finally, we point out some factors not to be considered in the'n odel, “and analyse the influ-
+ence of these factors Moveover, somemodification is X
+全 人 r 划
+车 床 管 理 优化 模 型
+8/ .°
+张 继 信 全 方 华 顾 利 龙
+指导 栽 谢 。 夏 亚 几
+j ee 兰州 730050)
+编者 按 : aa
+查 周 期 所 满足 的 乔 各 中 人 得 特别 细致 地 注意 到 由 检查 滞后 而 引起 的 成 本 部 分 , 继而 在 定期 更 换 刀 有 具 及 考虑 到
+2 章 情况 下 对 成 本 公式 作 了 修正 , 并 用 搜索 法 求 得 了 最 优 解
+摘 %: Ha 过 论 了 自动 化 车 床 连续 加 工 零件 工序 定期 检查 和 刀具 更 换 的 最 优 策略
+铺 对 问 古方 应 用 管理 成 本 理论 结合 概率 统计 方法 , 建立 定期 检查 调节 零件 的 平均 管理 成 本 的 优化 设计
+NN 异型 , 通过 计算 机 求解 、 模拟 , 得 到 工序 设计 效益 最 好 的 检查 间隔 和 刀具 更 换 间隔 针对 问题 二 , 在 问题 一 的
+1 也 利用 概率 知识 调整 了 检查 间隔 中 的 不 合格 品 数 带 来 的 平均 损失 , 同时 加 上 了 因 工 序 正常 而 误 认为 有
+电 戟 隆 停 机 产生 的 平均 损失 , 然后 建立 起 目标 函数 , 得 到 工序 设计 效益 最 好 的 检查 间隔 和 刀具 更 换 策略 对 于
+工序 故障 采用 自动 检查 装置 , 设计 出 了 自动 检查 调节 系统 , 并 给 出 了 算法 框图 , 有 效 地 避免 工序 正常 而 误 认
+为 有 故障 停机 损失 , 提高 工序 效益
+1 问题 的 重 述 ( 咯 )
+2 模型 的 假设
+1. 工序 出 现 故 障 是 完全 随机 的 , 生产 任 一 零件 时 出 现 故 障 的 机 会 相同 ;
+2. 累积 的 100 次 刀具 故障 记录 中 每 一 个 记录 是 刀具 完成 的 零件 数 , 其 中 有 一 个 不 合格
+5)
+© 1994-2008 China Academic Jou ectronic Publish e. All rights reserved.  http://www.cnki.net

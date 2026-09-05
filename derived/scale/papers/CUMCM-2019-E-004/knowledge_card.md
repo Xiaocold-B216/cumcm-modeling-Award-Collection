@@ -1,0 +1,26 @@
+# Knowledge Card
+
+## Basic Information
+
+- Paper ID: CUMCM-2019-E-004
+- Year: 2019
+- Problem: E
+
+## Evidence-based Content
+
+The following excerpt is copied deterministically from the generated paper body; no method or conclusion is inferred beyond this source evidence.
+
+> 版 权 归 全 国 大 学 生 数学 建 模 竞赛 所 有 ， 如 有 侵权 请 联系 删除 转载 自 中 国 大 学 生 站 如 “ 浒 利多 销 ” 分 析 摘要 在 销售 行业 中 * 东 利多
+>  销 "是 一 种 常见 的 营销 手段 。 本 题 中 利用 所 给 的 商场 数据 ， 分 析 了 商场 两 年 多 时 间 内 每 天 的 营业 额 与 利润 率 ,， 建立 了 衡量 商场 打
+> 折 力度 的 折扣 率 模型 ， 并 通过 分 析 商 场 打 折 力 度 与 商品 销售 额 以 及 利润 率 的 关系 , 确定 了 商场 采取 “薄利 多 销 ” 经 营 策略 的 合理 性 。
+>  问题 一 : 利用 附件 1 和 附件 2 所 给 出 的 销售 流水 记录 ， 先 进行 了 数据 清洗 ， 去 除 其 中 的 无 效 数据 ， 然 后 根据 设 定 商场 非 打 折 商 品 
+> 的 利润 率 >， 通 过 北 据 表 中 的 商品 原价 补 齐 非 打折 商品 的 成 本 价 。 建 立 商品 销售 额 及 利润 率 的 数学 横 yn 营业 额 和 利润 率 。 《& 每 
+> - 问题 二 : 以 商场 每 天 的 折扣 率 来 衡量 商场 的 折扣 率 越 大 它 的 打折 力度 就 越 大 。 ni i 根据 销售 流水 记 录 所 给 的 商品 原价 和 销售 价 ，
+>  计算 出 商场 每 天 的 折扣 率 。 问题 三 : 根据 问题 一 、 证 EEE 建立 回归 模 型 。 为 了 更 清楚 的 分 析 它 们 的 关系 ”我们 还 对 其 分 阶段 进行 了
+>  回归 拟 合 ， 总 体 来 看 销售 ilita ,4 - \ iy —apl 同样 ， 利 用 Mathe atlp| 杜 件 对 商场 折扣 率 与 利润 率 进行 回归 拟 合 处 理 ， 
+
+## Evidence
+
+- Evidence granularity: page
+- Source pages represented: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+- Authoritative normalized text SHA-256: DBC138B88B0ADE21930201B8B36BF6A1F08EB11ED83E3C30037BAEE3C7BD0D84

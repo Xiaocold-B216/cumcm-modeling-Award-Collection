@@ -1,0 +1,42 @@
+附录 :
+程序 1 〈 算 任务 密度 、 会 员 密度 等 ):
+#include<iostream>
+#include<cstdio>
+#include<cstdlib>
+#include<cmath>
+using namespace std;
+int i, j, t,distn[837], num[837];
+double
+x[837], y[837], a[1879], b[1879], dist[837], c, d[837]1[1879], p[837], r, sum[837];
+int main()
+{
+freopen( data. txt”, “r”, stdin) ;
+freopen( “最短 距离 2. out”, “w”, stdout) ;
+for (i=1;i<=835;i++)
+scanf ("%1f%1 f%d%11”, &x[i], &y[i], &t, &pl[i]);
+for (i=1;i<=1877;i++)
+scanf ("%11%1f%d”, &ali], &b[i], &t);
+for (i=1;i<=835;i++)
+{
+sum[i]=0;
+}
+for (r=0. 01;r<0. 06;r+=0. 00001)
+{
+for(i=1;i<=835;i++)
+{
+num[i]=0;
+dist[i]=100;
+for (j=1; j<=1877; j++)
+{
+d[i][j]=sqrt (0. 16*(x[i]-alj])* (x[i]-a[j]) +1. 2769* (y[i]-b[j]) * (y [i]-b[]]
+)) ;
+// c=acos (cos (x[i])*cos(alj])*cos (y[i]-b[j]) -sin(x[i]) *sin(alj]));
+if(dli][j]<dist[i])
+{
+distlil=d[i][j];
+distn[i]=j;
+}
+if(d[i][jj<r)num[i]++;
+}
+sum[i]+=(double) num[i]/ (r*r) ;
+18

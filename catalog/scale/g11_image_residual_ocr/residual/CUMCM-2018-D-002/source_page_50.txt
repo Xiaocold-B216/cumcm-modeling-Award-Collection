@@ -1,0 +1,47 @@
+回 8 昌国
+EE
+1
+EEELER
+if (a2. ys[1]==0)
+{
+for (;bb!=0&&a2. ys[3]!=0;bb—, a2. ys[3]—)
+Z [z1++] =3 了
+}
+else if (a2. ys [3] ==0)
+{
+for (;bb!=0&&a2. ys[1]!=0;bb—, a2. ys[1]—)
+z [z1++] =1 了
+}
+AN
+FhkkkkkkkkkkkkkkkkkkkRkokokkokkokkokokok / 二 SS
+) 2
+/水 水 冰冰 水 阔 腹 下 沙沙 六 六 六 六 人 p H
+for (int i=0;i<hez[2];i++) XS
+z[z1++]=0; As \
+al. ys[0]-=hcz[2]; 会
+aw — hcz [2] 了 一
+for (;al. ys[2] 1=0;)
+{
+if (z1%2==0) 9
+人 AT-
+z[z1++]=2;aw—; YI-，
+if (aw==0) break; | )
+2lz1++]=13e w——;al. ys[1]—;
+if (aw==0) bre ak;
+} —~— ]
+else
+cz |] 人
+[AR ;aw—;al. ys[1]—;
+Ts aw==0) break;
+W- [z1++]=2;aw—;al. ys[2]—;
+] // if (aw==0) break;
+wy
+}
+[FkrkrdrkkRkkkkrkrkif TK) Alsrkkkkkkikkkokokokkokkokkokkkokok /
+alhcsl;
+if (a2. ys[0]>=bw)
+{
+alhcsl = hez [3]- bw;
+}
+else
+50

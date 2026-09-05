@@ -1,0 +1,42 @@
+Ta
+w
+ee
+wo;
+end
+ru
+end
+end
+ore
+人 % 计 算 目标 甬 数 值 Q
+sr
+| TS TIE
+subfnetonofRAGA_PPC
+function y=Feasibility(a)
+bssumtaw2h; ~
+ifabs(b-1)<=0.00001 3Z AAA
+We P 人 人 _
+ee (NA
+0; 和。 VW、
+end A 人“
+FS ，
+是 =， JSNS4N 7
+; | ER TITT
+dearglosesl
+( SmmP——
+data2=xlsread( 前 50 家 供应 商 数据 提 限 .se,2.C2:IH51;
+和 %foric150
+% WEEK(sum(smemberldatal()0)
+% ratioi;:)=data2(i,:)./data1(i,);
+% ‘sum_ratiofi}=sumiratiofi, "isnan(ratiofi,:)));
+% aver_ratio=sum_ratio  WEEK;
+shend
+forie150
+forje1240
+ratio2(i,j)=data2(i)./data1(i);
+end
+end
+\WEEK2=7er05(50,24);
+sum_atic2=zercs(5024)
+ora50
+ArFa24
+四

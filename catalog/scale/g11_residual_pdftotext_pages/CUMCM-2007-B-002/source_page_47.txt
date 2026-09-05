@@ -1,0 +1,96 @@
+}
+if (IsDirectTo_1 && Line[i] == NSECOND)
+{
+pos_2 = i;
+bHaveFound = true;
+break;
+}
+}
+if ( !bHaveFound )
+
+流
+
+{
+pos_1 = pos_2 = -1;
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+}
+
+return bHaveFound;
+
+研
+
+ww
+
+}
+
+// 如果有，则返回所有可能的连线
+
+：
+科
+
+// 找出两点间是否有连线直接连接
+
+bool Direct_or_not(const int NSTART, const int NEND,
+点
+
+vector<vector<int> > &FeasibleSolve,
+
+号
+
+决方案，是返回值
+
+vector<LoadMessage> & AllLines,
+
+众
+
+信息
+
+vector<vector<int> > & AllBuses,
+
+// 可行的解
+// 所有路线
+// 所有公汽
+
+公
+
+站信息
+
+// 起始点和目标
+
+vector<vector<vector<long> > > &RoadCrossInfo) // 任意两路线的
+
+{
+
+信
+
+交叉信息
+
+int i, j ;
+
+微
+
+i = j = 0;
+
+bool bHaveFound = false;
+return bHaveFound;
+
+}
+
+// 一次换乘的情况
+bool OnceBusChange(const int NSTART, const int NEND,
+点
+
+47
+
+// 起始点和目标
+
+

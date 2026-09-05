@@ -1,0 +1,46 @@
+回味
+本 辣
+Re
+int full = 0,t_full;/0 表示 当前 为 空 车
+int S[9] = {10000.0.0.0.0.0.0.0.0}:/ 加 工 剩 余 时 间
+bool B[9] = {0.0.0.0,0.0.0.0.0};// 是 否 有 就 料
+int num = 0;// 成 品 数量
+int T[9] = {10000,0} /当前 状态 到 达 其 他 CNC 加 工 台 的 代价
+/频数 统计 和 矩阵
+int P[9][9]={0};
+int max_P[9][9]={/ 频 数 矩 阵
+0,0,1,0,0,0,0,0,0,
+0,0,14,15,16,0,13,14,1, #7
+0,15,0,14,1,15,0,0,0, 二 NY
+0,0,14,0,14,15,16,14,14, 2 \)
+0,14,0,15,0,14,1,0,0,
+0,1,15,0,14,0,14,15,28,
+0,14,0,14,0,15,0,1,0,
+0,15,0,14,0,14,0,0,1, As
+0,14,1,15,0,14,0,0,0}; SN
+int max_num = 210/ 储 存 之 前 最 高 的 成 品 数量 和
+int max_endtimel[9][100]={0}, max_endtime2[9][200}4 {0%;
+int max_numm1[9]={0}, max_numm2[9]={0};
+void init10;/ 初 始 化 工 矩 阵 o
+void init20;/ 还 原 各 个 数据 4 O
+void print(); YA
+void out(inb:/ 储 存
+/优先 原则 放
+double randuni(){ 一
+return rand()* wagym Ykx 1.0);
+: 小
+int min_index(int *T, js
+int ta w 四
+区
+pi J 7 BATEL
+| i rand, K=0;
+人 AS i=1;i<9; i++){
+ifT[] < inD/ 确 保 S<0,3 H. T RH aee
+{
+if(max_P[pos][i] <0) max_P[pos][i] = 0;
+templi] = max_P[pos] 吕 /等 待 时 间 越 长 ， 优 先 级 越 高 ， ”代价 越 小 ， 优 先 级 越
+高 。
+if(max_P[pos][i] == 0) templ[i]+=5;
+n+=templi];
+}
+31

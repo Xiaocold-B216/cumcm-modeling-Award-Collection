@@ -1,0 +1,32 @@
+回避
+Cpcs
+
+u(2:m+1,k)=x";
+end
+让 um+1l,1800)<=47&u(m+1,1501D)<=44% 控 制 条 件
+
+optimum1=[optimum1 12*1000];
+
+optimum2=[optimum2 14*1000];
+end
+
+end
+end
+q=optimum1+optimum2; 四
+[p e]=min(optimum1); > 和 从 >》
+fprintf('12 最 小 成 本 最 低 时 介质 I、 介 质 IV、 总 厚度 : mm) “外
+fprintf(  12=%.1f\n',optimum1(e)) 2
+fprintf(  14=%.1f\n',optimum?2(e)) 了
+fprintf(" 12+14=%.1fnm',q(e)) 所
+fprintf('12+14 最 小 厚度 最 小 时 介质 I、 介 质 TV、 人 )
+fprintf("  12=%.1f  %.1f\n',optimum1(1),optimum1(2))
+fprintf("  14=%.1f %.1f\n’,optimum?2(1),optimium2(2)
+fprintf(  12+14=%.1f %.1f\n',q(1),q(2))
+
+Le
+% °
+~ 一
+AL
+AZ
+e-
+43

@@ -1,0 +1,44 @@
+加
+多 二 是
+%% 绘制 不 同时 刻 不 同 厚度 温度 分 布 图
+x=1:1:m+1;
+=11tH;
+surf(t,x,u)
+shading interp
+xlabel('t')
+ylabel('x")
+zlabel('u")
+u=round(u,2); y
+xlswrite( 不 同时 间 不 同 厚度 下 的 温度 分 布 .xlsx,u)% 生 丰 度 分 布 的 家
+%% 四 个 临界 面 下 的 部 分 温度 分 布 表 2XG \)
+U=zeros(5401,4); H
+UG,D=u(ml+1,));
+UG2)=u(ml+m2+1,:)); As
+U(,3)=u(ml+m2+m3+1,:);
+UG4)=u(m1+m2+m3+m4-+1,:); JR
+Xlswrite(problem1.xlsx',U)% 存储 生成 四 个 临界 面 下 的 部 分 远 度 分 布 表 于
+problem1l @
+锥
+
+figure
+subplot(2,2,1)
+plot(U(;,1),'r') 放
+xlabel('t");ylabel('u'); Y
+title('" 临 界面 ID) 全 =
+axis([0 5400 30 下
+subplot(2,2; ) 多
+Plot(UG2)'r)
+RN
+二
+
+并 400 30 80])
+subplot(2,2,3)
+plot(U(:,3),'r")
+title(\ 临 界面 IT)
+axis([0 5400 30 80])
+xlabel('t");ylabel('u');
+subplot(2,2,4)
+plot(U(:,4),'r')
+title(\ 临 界面 ITV))
+
+36

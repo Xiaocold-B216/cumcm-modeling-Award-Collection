@@ -1,0 +1,249 @@
+﻿scope,component,metric,eligible_papers,observed_papers,dominant_value,dominant_count,dominant_ratio,second_value,second_count,exceptions,count,min,q1,median,q3,max,mean,standard_deviation,confidence,source_type,notes
+paper,title,normalized_font_name,412,190,SimSun/Song,155,0.8158,Times New Roman,27,SimSun/Song:155; Times New Roman:27; KaiTi:5; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,title,closest_chinese_size,412,188,小四,83,0.4415,三号,81,小四:83; 三号:81; 四号:8; 小三:7; 小二:4; 二号:3; 五号:2,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,title,bold,412,191,False,182,0.9529,True,9,False:182; True:9,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,title,italic,412,191,False,191,1.0,,0,False:191,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,title,alignment,412,191,CENTER,159,0.8325,JUSTIFIED_OR_FULL,32,CENTER:159; JUSTIFIED_OR_FULL:32,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,title,numbering_style,412,191,none,189,0.9895,decimal,2,none:189; decimal:2,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_label,normalized_font_name,412,115,SimSun/Song,80,0.6957,Times New Roman,29,SimSun/Song:80; Times New Roman:29; KaiTi:3; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_label,closest_chinese_size,412,114,四号,93,0.8158,小四,10,四号:93; 小四:10; 三号:8; 小二:2; 小三:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_label,bold,412,115,False,110,0.9565,True,5,False:110; True:5,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_label,italic,412,115,False,115,1.0,,0,False:115,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_label,alignment,412,115,CENTER,106,0.9217,JUSTIFIED_OR_FULL,9,CENTER:106; JUSTIFIED_OR_FULL:9,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_label,numbering_style,412,115,none,115,1.0,,0,none:115,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_body,normalized_font_name,412,112,SimSun/Song,78,0.6964,Times New Roman,28,SimSun/Song:78; Times New Roman:28; KaiTi:3; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_body,closest_chinese_size,412,111,小四,102,0.9189,五号,8,小四:102; 五号:8; 四号:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_body,bold,412,112,False,112,1.0,,0,False:112,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_body,italic,412,112,False,112,1.0,,0,False:112,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_body,alignment,412,112,JUSTIFIED_OR_FULL,93,0.8304,LEFT,8,JUSTIFIED_OR_FULL:93; LEFT:8; CENTER:5; LEFT_OR_MIXED:3; RIGHT:3,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,abstract_body,numbering_style,412,112,none,112,1.0,,0,none:112,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_label,normalized_font_name,412,144,SimSun/Song,106,0.7361,Times New Roman,30,SimSun/Song:106; Times New Roman:30; KaiTi:5; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_label,closest_chinese_size,412,142,小四,120,0.8451,四号,15,小四:120; 四号:15; 五号:5; 小五:1; 小三:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_label,bold,412,144,False,138,0.9583,True,6,False:138; True:6,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_label,italic,412,144,False,144,1.0,,0,False:144,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_label,alignment,412,144,JUSTIFIED_OR_FULL,126,0.875,CENTER,18,JUSTIFIED_OR_FULL:126; CENTER:18,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_label,numbering_style,412,144,none,144,1.0,,0,none:144,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_body,normalized_font_name,412,144,SimSun/Song,106,0.7361,Times New Roman,30,SimSun/Song:106; Times New Roman:30; KaiTi:5; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_body,closest_chinese_size,412,142,小四,120,0.8451,四号,15,小四:120; 四号:15; 五号:5; 小五:1; 小三:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_body,bold,412,144,False,138,0.9583,True,6,False:138; True:6,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_body,italic,412,144,False,144,1.0,,0,False:144,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_body,alignment,412,144,JUSTIFIED_OR_FULL,126,0.875,CENTER,18,JUSTIFIED_OR_FULL:126; CENTER:18,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,keywords_body,numbering_style,412,144,none,144,1.0,,0,none:144,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_1,normalized_font_name,412,199,SimSun/Song,161,0.809,Times New Roman,30,SimSun/Song:161; Times New Roman:30; KaiTi:5; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_1,closest_chinese_size,412,198,小四,73,0.3687,四号,51,小四:73; 四号:51; 五号:47; 小五:17; 六号:5; 小六:2; 三号:2; 小三:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_1,bold,412,200,False,194,0.97,True,6,False:194; True:6,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_1,italic,412,200,False,200,1.0,,0,False:200,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_1,alignment,412,200,CENTER,91,0.455,LEFT,46,CENTER:91; LEFT:46; LEFT_OR_MIXED:34; JUSTIFIED_OR_FULL:25; RIGHT:4,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_1,numbering_style,412,200,decimal,113,0.565,none,67,decimal:113; none:67; bracket:20,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_2,normalized_font_name,412,138,SimSun/Song,104,0.7536,Times New Roman,26,SimSun/Song:104; Times New Roman:26; KaiTi:5; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_2,closest_chinese_size,412,136,小四,103,0.7574,五号,18,小四:103; 五号:18; 四号:9; 六号:3; 小五:3,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_2,bold,412,138,False,134,0.971,True,4,False:134; True:4,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_2,italic,412,138,False,138,1.0,,0,False:138,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_2,alignment,412,138,LEFT,70,0.5072,JUSTIFIED_OR_FULL,53,LEFT:70; JUSTIFIED_OR_FULL:53; LEFT_OR_MIXED:9; CENTER:5; RIGHT:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_2,numbering_style,412,138,bracket,135,0.9783,decimal,3,bracket:135; decimal:3,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_3,normalized_font_name,412,100,SimSun/Song,69,0.69,Times New Roman,26,SimSun/Song:69; Times New Roman:26; KaiTi:3; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_3,closest_chinese_size,412,98,小四,86,0.8776,五号,6,小四:86; 五号:6; 四号:4; 小五:1; 六号:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_3,bold,412,100,False,95,0.95,True,5,False:95; True:5,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_3,italic,412,100,False,100,1.0,,0,False:100,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_3,alignment,412,100,LEFT,59,0.59,JUSTIFIED_OR_FULL,36,LEFT:59; JUSTIFIED_OR_FULL:36; CENTER:4; LEFT_OR_MIXED:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_3,numbering_style,412,100,bracket,98,0.98,decimal,2,bracket:98; decimal:2,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_4,normalized_font_name,412,26,SimSun/Song,18,0.6923,Times New Roman,7,SimSun/Song:18; Times New Roman:7; KaiTi:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_4,closest_chinese_size,412,25,小四,19,0.76,六号,4,小四:19; 六号:4; 五号:1; 小五:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_4,bold,412,26,False,21,0.8077,True,5,False:21; True:5,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_4,italic,412,26,False,26,1.0,,0,False:26,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_4,alignment,412,26,JUSTIFIED_OR_FULL,12,0.4615,LEFT,12,JUSTIFIED_OR_FULL:12; LEFT:12; CENTER:2,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,heading_4,numbering_style,412,26,bracket,26,1.0,,0,bracket:26,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,body,normalized_font_name,412,201,SimSun/Song,162,0.806,Times New Roman,30,SimSun/Song:162; Times New Roman:30; KaiTi:6; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,body,closest_chinese_size,412,200,小四,130,0.65,五号,43,小四:130; 五号:43; 小五:15; 六号:10; 小六:2,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,body,bold,412,202,False,202,1.0,,0,False:202,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,body,italic,412,202,False,197,0.9752,True,5,False:197; True:5,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,body,alignment,412,202,LEFT_OR_MIXED,76,0.3762,LEFT,66,LEFT_OR_MIXED:76; LEFT:66; JUSTIFIED_OR_FULL:37; CENTER:17; RIGHT:6,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,body,numbering_style,412,202,none,199,0.9851,bracket,2,none:199; bracket:2; decimal:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,figure_caption,normalized_font_name,412,127,SimSun/Song,92,0.7244,Times New Roman,28,SimSun/Song:92; Times New Roman:28; KaiTi:4; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,figure_caption,closest_chinese_size,412,125,小四,68,0.544,五号,50,小四:68; 五号:50; 小五:6; 六号:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,figure_caption,bold,412,127,False,126,0.9921,True,1,False:126; True:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,figure_caption,italic,412,127,False,127,1.0,,0,False:127,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,figure_caption,alignment,412,127,CENTER,110,0.8661,JUSTIFIED_OR_FULL,9,CENTER:110; JUSTIFIED_OR_FULL:9; LEFT_OR_MIXED:6; LEFT:2,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,figure_caption,numbering_style,412,127,caption,113,0.8898,none,14,caption:113; none:14,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_caption,normalized_font_name,412,129,SimSun/Song,92,0.7132,Times New Roman,29,SimSun/Song:92; Times New Roman:29; KaiTi:5; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_caption,closest_chinese_size,412,128,小四,70,0.5469,五号,56,小四:70; 五号:56; 小五:2,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_caption,bold,412,129,False,128,0.9922,True,1,False:128; True:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_caption,italic,412,129,False,129,1.0,,0,False:129,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_caption,alignment,412,129,CENTER,107,0.8295,JUSTIFIED_OR_FULL,18,CENTER:107; JUSTIFIED_OR_FULL:18; LEFT:3; LEFT_OR_MIXED:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_caption,numbering_style,412,129,caption,108,0.8372,none,21,caption:108; none:21,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_body,normalized_font_name,412,0,UNKNOWN,0,0,,0,,,,,,,,,,UNKNOWN,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_body,closest_chinese_size,412,0,UNKNOWN,0,0,,0,,,,,,,,,,UNKNOWN,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_body,bold,412,0,UNKNOWN,0,0,,0,,,,,,,,,,UNKNOWN,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_body,italic,412,0,UNKNOWN,0,0,,0,,,,,,,,,,UNKNOWN,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_body,alignment,412,0,UNKNOWN,0,0,,0,,,,,,,,,,UNKNOWN,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,table_body,numbering_style,412,0,UNKNOWN,0,0,,0,,,,,,,,,,UNKNOWN,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation,normalized_font_name,412,196,SimSun/Song,158,0.8061,Times New Roman,30,SimSun/Song:158; Times New Roman:30; KaiTi:5; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation,closest_chinese_size,412,195,小四,126,0.6462,五号,46,小四:126; 五号:46; 小五:21; 四号:1; 六号:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation,bold,412,197,False,197,1.0,,0,False:197,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation,italic,412,197,False,184,0.934,True,13,False:184; True:13,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation,alignment,412,197,LEFT_OR_MIXED,104,0.5279,LEFT,56,LEFT_OR_MIXED:104; LEFT:56; CENTER:17; RIGHT:11; JUSTIFIED_OR_FULL:9,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation,numbering_style,412,197,none,196,0.9949,decimal,1,none:196; decimal:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation_number,normalized_font_name,412,104,SimSun/Song,86,0.8269,Times New Roman,13,SimSun/Song:86; Times New Roman:13; KaiTi:2; Arial:1; Calibri:1; SimHei:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation_number,closest_chinese_size,412,104,小四,59,0.5673,五号,22,小四:59; 五号:22; 小五:10; 六号:5; 小六:5; 四号:2; 三号:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation_number,bold,412,104,False,104,1.0,,0,False:104,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation_number,italic,412,104,False,92,0.8846,True,12,False:92; True:12,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation_number,alignment,412,104,RIGHT,38,0.3654,JUSTIFIED_OR_FULL,33,RIGHT:38; JUSTIFIED_OR_FULL:33; LEFT_OR_MIXED:18; CENTER:14; LEFT:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,equation_number,numbering_style,412,104,none,104,1.0,,0,none:104,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_label,normalized_font_name,412,47,SimSun/Song,36,0.766,Times New Roman,8,SimSun/Song:36; Times New Roman:8; KaiTi:2; Calibri:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_label,closest_chinese_size,412,47,四号,33,0.7021,小四,9,四号:33; 小四:9; 三号:3; 小三:1; 五号:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_label,bold,412,47,False,45,0.9574,True,2,False:45; True:2,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_label,italic,412,47,False,47,1.0,,0,False:47,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_label,alignment,412,47,CENTER,30,0.6383,JUSTIFIED_OR_FULL,17,CENTER:30; JUSTIFIED_OR_FULL:17,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_label,numbering_style,412,47,none,47,1.0,,0,none:47,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_body,normalized_font_name,412,47,SimSun/Song,36,0.766,Times New Roman,8,SimSun/Song:36; Times New Roman:8; KaiTi:2; Calibri:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_body,closest_chinese_size,412,47,小四,26,0.5532,五号,16,小四:26; 五号:16; 小五:3; 六号:1; 小六:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_body,bold,412,47,False,47,1.0,,0,False:47,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_body,italic,412,47,False,47,1.0,,0,False:47,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_body,alignment,412,47,LEFT,22,0.4681,LEFT_OR_MIXED,15,LEFT:22; LEFT_OR_MIXED:15; CENTER:5; JUSTIFIED_OR_FULL:4; RIGHT:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,reference_body,numbering_style,412,47,none,33,0.7021,bracket,9,none:33; bracket:9; decimal:4; caption:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_title,normalized_font_name,412,77,SimSun/Song,48,0.6234,Times New Roman,23,SimSun/Song:48; Times New Roman:23; KaiTi:4; Arial:1; Calibri:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_title,closest_chinese_size,412,76,小四,37,0.4868,四号,28,小四:37; 四号:28; 三号:5; 五号:4; 小三:2,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_title,bold,412,77,False,74,0.961,True,3,False:74; True:3,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_title,italic,412,77,False,77,1.0,,0,False:77,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_title,alignment,412,77,JUSTIFIED_OR_FULL,31,0.4026,CENTER,28,JUSTIFIED_OR_FULL:31; CENTER:28; LEFT:17; LEFT_OR_MIXED:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_title,numbering_style,412,77,none,77,1.0,,0,none:77,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_heading,normalized_font_name,412,51,SimSun/Song,30,0.5882,Times New Roman,15,SimSun/Song:30; Times New Roman:15; KaiTi:4; Arial:1; Calibri:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_heading,closest_chinese_size,412,50,四号,36,0.72,三号,6,四号:36; 三号:6; 小四:5; 小三:2; 五号:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_heading,bold,412,51,False,51,1.0,,0,False:51,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_heading,italic,412,51,False,51,1.0,,0,False:51,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_heading,alignment,412,51,CENTER,31,0.6078,JUSTIFIED_OR_FULL,20,CENTER:31; JUSTIFIED_OR_FULL:20,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_heading,numbering_style,412,51,none,51,1.0,,0,none:51,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_body,normalized_font_name,412,77,SimSun/Song,48,0.6234,Times New Roman,23,SimSun/Song:48; Times New Roman:23; KaiTi:4; Arial:1; Calibri:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_body,closest_chinese_size,412,76,小四,41,0.5395,五号,28,小四:41; 五号:28; 小五:4; 六号:3,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_body,bold,412,77,False,77,1.0,,0,False:77,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_body,italic,412,77,False,77,1.0,,0,False:77,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_body,alignment,412,77,LEFT_OR_MIXED,34,0.4416,LEFT,31,LEFT_OR_MIXED:34; LEFT:31; CENTER:8; RIGHT:2; JUSTIFIED_OR_FULL:2,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,appendix_body,numbering_style,412,77,none,70,0.9091,decimal,6,none:70; decimal:6; caption:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,code,normalized_font_name,412,61,SimSun/Song,35,0.5738,Times New Roman,21,SimSun/Song:35; Times New Roman:21; KaiTi:3; Arial:1; Calibri:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,code,closest_chinese_size,412,61,小四,35,0.5738,五号,21,小四:35; 五号:21; 小五:4; 六号:1,,,,,,,,,MEDIUM,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,code,bold,412,61,False,61,1.0,,0,False:61,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,code,italic,412,61,False,61,1.0,,0,False:61,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,code,alignment,412,61,LEFT,38,0.623,LEFT_OR_MIXED,22,LEFT:38; LEFT_OR_MIXED:22; JUSTIFIED_OR_FULL:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,code,numbering_style,412,61,none,60,0.9836,decimal,1,none:60; decimal:1,,,,,,,,,HIGH,OBSERVED,Per-paper mode; UNKNOWN values omitted from denominator.
+paper,title,font_size_pt,412,188,,,,,,,188,10.0,11.775,15.0,16.0,22.2,14.052,2.374,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,title,line_spacing_pt,412,34,,,,,,,34,11.377,31.2,43.985,53.16,59.66,40.892,14.103,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,title,line_spacing_multiple,412,34,,,,,,,34,0.929,2.601,2.948,3.411,4.807,2.98,1.074,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,title,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,title,paragraph_spacing_after_pt,412,34,,,,,,,34,0.0,0.0,0.0,0.0,0.0,0.0,0.0,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,abstract_label,font_size_pt,412,114,,,,,,,114,11.3,14.0,14.0,14.1,18.0,14.046,0.981,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,abstract_label,line_spacing_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,abstract_label,line_spacing_multiple,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,abstract_label,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,abstract_label,paragraph_spacing_after_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,abstract_body,font_size_pt,412,111,,,,,,,111,10.0,12.0,12.0,12.0,13.8,11.895,0.432,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,abstract_body,line_spacing_pt,412,111,,,,,,,111,11.5,15.6,15.6,15.677,28.08,16.501,2.481,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,abstract_body,line_spacing_multiple,412,111,,,,,,,111,1.008,1.3,1.3,1.314,2.34,1.385,0.207,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,abstract_body,first_line_indent_mm,412,110,,,,,,,110,3.726,8.465,8.467,8.475,86.487,12.124,13.284,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,abstract_body,paragraph_spacing_after_pt,412,111,,,,,,,111,0.0,0.0,0.0,22.236,59.327,8.848,14.125,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,keywords_label,font_size_pt,412,142,,,,,,,142,9.0,12.0,12.0,12.0,15.0,12.154,0.777,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,keywords_label,line_spacing_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,keywords_label,line_spacing_multiple,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,keywords_label,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,keywords_label,paragraph_spacing_after_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,keywords_body,font_size_pt,412,142,,,,,,,142,9.0,12.0,12.0,12.0,15.0,12.154,0.777,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,keywords_body,line_spacing_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,keywords_body,line_spacing_multiple,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,keywords_body,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,keywords_body,paragraph_spacing_after_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_1,font_size_pt,412,198,,,,,,,198,5.4,10.0,12.0,13.3,16.2,11.665,1.923,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_1,line_spacing_pt,412,127,,,,,,,127,9.388,16.08,23.34,31.2,57.86,24.819,10.031,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_1,line_spacing_multiple,412,127,,,,,,,127,0.912,1.48,1.95,2.6,5.138,2.227,0.981,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_1,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_1,paragraph_spacing_after_pt,412,127,,,,,,,127,0.0,0.0,0.0,34.462,59.6,17.538,20.877,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_2,font_size_pt,412,136,,,,,,,136,7.6,12.0,12.0,12.0,14.3,11.731,1.106,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_2,line_spacing_pt,412,41,,,,,,,41,11.925,15.6,23.4,32.22,56.66,26.518,12.192,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_2,line_spacing_multiple,412,41,,,,,,,41,1.15,1.5,1.95,3.069,5.621,2.383,1.111,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_2,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_2,paragraph_spacing_after_pt,412,41,,,,,,,41,0.0,0.0,0.0,34.5,48.3,14.696,20.271,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_3,font_size_pt,412,98,,,,,,,98,7.6,12.0,12.0,12.0,14.1,11.916,0.772,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_3,line_spacing_pt,412,13,,,,,,,13,12.66,15.84,46.799,46.8,46.82,33.447,15.403,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_3,line_spacing_multiple,412,13,,,,,,,13,1.147,1.486,3.884,3.9,3.941,2.811,1.257,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_3,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_3,paragraph_spacing_after_pt,412,13,,,,,,,13,0.0,0.0,0.0,30.96,41.4,10.814,17.071,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_4,font_size_pt,412,25,,,,,,,25,7.6,11.9,12.0,12.0,12.0,11.092,1.716,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_4,line_spacing_pt,412,4,,,,,,,4,8.52,11.055,12.225,13.388,15.9,12.218,3.025,LOW,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_4,line_spacing_multiple,412,4,,,,,,,4,1.127,1.456,1.609,1.761,2.092,1.609,0.395,LOW,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_4,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,heading_4,paragraph_spacing_after_pt,412,4,,,,,,,4,0.0,0.0,0.0,9.588,38.35,9.588,19.175,LOW,OBSERVED,Continuous statistic across per-paper observations.
+paper,body,font_size_pt,412,200,,,,,,,200,5.2,10.0,12.0,12.0,12.0,11.097,1.4,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,body,line_spacing_pt,412,200,,,,,,,200,11.1,15.6,15.837,17.62,29.52,16.878,2.823,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,body,line_spacing_multiple,412,200,,,,,,,200,1.143,1.312,1.497,1.695,2.605,1.545,0.257,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,body,first_line_indent_mm,412,202,,,,,,,202,0.72,8.455,11.197,19.536,66.71,14.653,10.032,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,body,paragraph_spacing_after_pt,412,200,,,,,,,200,0.0,30.563,31.2,32.351,53.7,31.9,5.629,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,figure_caption,font_size_pt,412,125,,,,,,,125,8.0,10.5,12.0,12.0,12.0,11.17,0.971,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,figure_caption,line_spacing_pt,412,27,,,,,,,27,10.58,18.145,23.235,33.43,59.16,26.628,11.975,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,figure_caption,line_spacing_multiple,412,27,,,,,,,27,0.97,1.548,1.95,3.048,6.573,2.453,1.274,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,figure_caption,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,figure_caption,paragraph_spacing_after_pt,412,27,,,,,,,27,0.0,0.0,0.0,15.6,59.793,11.499,20.52,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,table_caption,font_size_pt,412,128,,,,,,,128,9.0,10.5,12.0,12.0,12.0,11.251,0.849,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,table_caption,line_spacing_pt,412,20,,,,,,,20,15.0,15.6,23.22,47.76,57.48,30.351,16.455,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,table_caption,line_spacing_multiple,412,20,,,,,,,20,1.25,1.433,1.935,3.98,5.443,2.593,1.414,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,table_caption,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,table_caption,paragraph_spacing_after_pt,412,20,,,,,,,20,0.0,0.0,0.0,0.0,0.0,0.0,0.0,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,table_body,font_size_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,table_body,line_spacing_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,table_body,line_spacing_multiple,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,table_body,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,table_body,paragraph_spacing_after_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,equation,font_size_pt,412,195,,,,,,,195,7.6,10.0,11.9,12.0,14.0,11.267,1.068,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,equation,line_spacing_pt,412,193,,,,,,,193,8.64,15.6,19.56,30.36,45.27,21.89,7.322,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,equation,line_spacing_multiple,412,193,,,,,,,193,0.865,1.486,1.921,2.577,4.482,2.014,0.636,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,equation,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,equation,paragraph_spacing_after_pt,412,193,,,,,,,193,0.0,31.202,37.968,46.8,59.3,37.937,11.728,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,equation_number,font_size_pt,412,104,,,,,,,104,5.7,10.0,11.9,12.0,15.9,10.921,1.772,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,equation_number,line_spacing_pt,412,74,,,,,,,74,7.875,30.706,37.257,46.685,57.619,37.063,11.809,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,equation_number,line_spacing_multiple,412,74,,,,,,,74,0.656,2.755,3.652,4.232,5.674,3.473,1.08,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,equation_number,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,equation_number,paragraph_spacing_after_pt,412,74,,,,,,,74,0.0,0.0,0.0,46.535,60.0,15.405,24.022,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,reference_label,font_size_pt,412,47,,,,,,,47,10.6,13.95,14.0,14.0,16.0,13.687,1.132,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,reference_label,line_spacing_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,reference_label,line_spacing_multiple,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,reference_label,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,reference_label,paragraph_spacing_after_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,reference_body,font_size_pt,412,47,,,,,,,47,6.5,10.5,12.0,12.0,12.0,11.07,1.251,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,reference_body,line_spacing_pt,412,47,,,,,,,47,9.06,15.6,15.6,16.26,39.6,16.415,4.136,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,reference_body,line_spacing_multiple,412,47,,,,,,,47,0.996,1.3,1.3,1.544,3.3,1.476,0.37,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,reference_body,first_line_indent_mm,412,47,,,,,,,47,1.101,7.408,14.817,34.649,78.401,24.619,24.415,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,reference_body,paragraph_spacing_after_pt,412,47,,,,,,,47,0.0,18.474,31.2,32.571,55.321,24.74,15.246,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_title,font_size_pt,412,76,,,,,,,76,10.4,12.0,12.0,14.0,16.0,12.983,1.383,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_title,line_spacing_pt,412,22,,,,,,,22,15.6,16.204,22.56,27.3,40.08,23.557,7.272,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_title,line_spacing_multiple,412,22,,,,,,,22,1.105,1.303,1.607,2.006,2.855,1.738,0.48,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_title,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_title,paragraph_spacing_after_pt,412,22,,,,,,,22,0.0,0.0,0.0,0.0,41.43,3.239,10.634,MEDIUM,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_heading,font_size_pt,412,50,,,,,,,50,10.6,14.0,14.0,14.075,16.2,13.982,1.122,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_heading,line_spacing_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_heading,line_spacing_multiple,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_heading,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_heading,paragraph_spacing_after_pt,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_body,font_size_pt,412,76,,,,,,,76,7.9,10.5,11.6,12.0,12.0,11.114,1.083,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_body,line_spacing_pt,412,74,,,,,,,74,7.92,15.6,15.6,15.824,29.28,16.086,3.155,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_body,line_spacing_multiple,412,74,,,,,,,74,0.75,1.3,1.329,1.552,2.44,1.457,0.293,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_body,first_line_indent_mm,412,77,,,,,,,77,0.931,8.424,13.039,22.585,78.401,17.253,14.777,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,appendix_body,paragraph_spacing_after_pt,412,74,,,,,,,74,0.0,27.607,31.2,31.469,59.3,30.136,8.225,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,code,font_size_pt,412,61,,,,,,,61,8.0,10.4,12.0,12.0,12.0,11.161,1.069,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,code,line_spacing_pt,412,60,,,,,,,60,10.197,15.6,15.6,16.524,35.23,17.663,5.567,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,code,line_spacing_multiple,412,60,,,,,,,60,1.119,1.3,1.397,1.627,3.467,1.602,0.54,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+paper,code,first_line_indent_mm,412,0,,,,,,,,,,,,,,,UNKNOWN,OBSERVED,Continuous statistic across per-paper observations.
+paper,code,paragraph_spacing_after_pt,412,60,,,,,,,60,0.0,31.2,31.2,39.248,59.3,33.469,9.823,HIGH,OBSERVED,Continuous statistic across per-paper observations.
+inventory,paper,pdf_type,677,412,text_based,273,0.6626,image_based,128,text_based:273; image_based:128; mixed:11,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,orientation,677,412,PORTRAIT,412,1.0,,0,PORTRAIT:412,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,is_A4,677,412,True,225,0.5461,False,187,True:225; False:187,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,header_present,677,412,0,273,0.6626,1,139,0:273; 1:139,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,footer_present,677,412,0,246,0.5971,1,166,0:246; 1:166,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,page_number_present,677,412,0,228,0.5534,1,184,0:228; 1:184,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,abstract_present,677,412,0,271,0.6578,1,141,0:271; 1:141,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,keywords_present,677,412,0,265,0.6432,1,147,0:265; 1:147,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,reference_present,677,412,0,271,0.6578,1,141,0:271; 1:141,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,appendix_present,677,412,0,294,0.7136,1,118,0:294; 1:118,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,mixed_page_size,677,412,False,412,1.0,,0,False:412,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,eligible_for_typography_analysis,677,672,0,390,0.5804,1,282,0:390; 1:282,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,paper,eligible_for_layout_analysis,677,672,1,412,0.6131,0,260,1:412; 0:260,,,,,,,,,HIGH,OBSERVED,Inventory-level statistic.
+inventory,page,top_margin_mm,677,225,,,,,,,225,14.146,25.019,25.421,27.016,126.838,32.484,27.265,HIGH,OBSERVED,Per-paper median estimated from text bounding boxes on non-cover pages.
+inventory,page,bottom_margin_mm,677,225,,,,,,,225,16.087,18.221,19.526,22.253,70.73,26.247,16.69,HIGH,OBSERVED,Per-paper median estimated from text bounding boxes on non-cover pages.
+inventory,page,left_margin_mm,677,225,,,,,,,225,12.347,25.0,25.027,31.75,39.37,25.919,8.072,HIGH,OBSERVED,Per-paper median estimated from text bounding boxes on non-cover pages.
+inventory,page,right_margin_mm,677,225,,,,,,,225,-66.431,-3.308,13.953,25.036,74.912,3.083,34.454,HIGH,OBSERVED,Per-paper median estimated from text bounding boxes on non-cover pages.

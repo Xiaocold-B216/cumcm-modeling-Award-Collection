@@ -1,0 +1,47 @@
+下
+总
+加 只 RN
+if Time<=Error(i,3) && Time+Expect(2,MinNumber)>=Error(i,3) && Error(i,5)==0 &&
+MinNumber==Error(j2)% 等 待 中 原 目标 发 生 了 故障
+Error(j5)=1;% 标 记 为 已 处 理
+Situation(Error(j2))=0;% 修 复 完 成 后 取 走 故障 工件
+for j=1:8%CNC 的 时 间 推 进
+if Left(j)-(Error(i,3)-Time)<0
+Left(j)=0;
+else
+Left(j)=Left(j)-(Error(i,3)-Time);
+end
+end
+fror 2)-Error(  ror AHIRAER T B EE5 ST MA
+完成 时 间 一 SS
+Time=Error(;3);% 时 间 调 整 至 故障 发 生 时 一 \)
+flag=1; 2XG
+end ood
+end X
+iflag% 由 于 原 目 标 CNC 发 生 故 障 ， 重 启 循环 As
+continue; 会
+s X
+Time=Time+Expect(2,MinNumber);% 正 常 等 待
+放 Now==1% 当 前 目标 是 工序 1 的 CNC
+flag=0; @
+for eielRec 1: LIKERAH 作 时 章
+if Rec(k,1)==MinNumb oemastnm
+flag=1; JY )
+Rec(k,3)= ;
+Rec(end+1;1)=MinNumber;
+Sectnd21 Tme
+区
+二 pie
+%
+位 L
+| N Rec(end+1,1)=MinNumber;
+N Rec(end,2)=Time;
+Rec(end,3:6)=NaN;
+end
+if Situation(MinNumbenr)j==1% 换 料 时 取 下 了 一 个 已 经 完成 工序 1 的 工件
+Now=2;% 下 一 道 目 标 工序 发 生变 化
+NEXT=k;% 记 录 此 工件 的 序号
+end
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber);% 完 成 换 料
+54

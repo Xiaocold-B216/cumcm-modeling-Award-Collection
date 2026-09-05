@@ -1,0 +1,1 @@
+ER a EiEE for j=1:1024 if(12(i, j)==1) x=x+1; end if (11(i, j)==0) y=y+l; end end end X=x/2-1000; re=x/y; X E re imshow (12) ; 3 figure; imshow (13) ; figure; imshow (11) ; -' 炎 《 YA | @ d WWW 10. net 一 = , WV Yo ! 34

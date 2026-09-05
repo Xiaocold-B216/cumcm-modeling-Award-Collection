@@ -1,0 +1,36 @@
+0.00812537388975942 0.00809493844001929 0.00811284919748417 0.00812982625291347
+0.00811444175548698 0.00812948462742588 0.00812471872392731 0.00809515370106578
+0.00810070201885477 0.00809154975241786 0.00809924616852124 0.00808220053817524
+0.00812402217146259 0.00811192024738402 0.00806217864697205 0.00809729197336589
+0.00814243000329029 0.00814908482651054 0.00805549860700152 0.00812911963465325
+0.00809820772628644 0.0080799192180059 0.00812099010446983 0.00811185636211377
+0.00810677088931511 0.00812457458272667 0.00811715912091946 0.00810254234380183
+0.00812512633851956];
+subplot(2,1.1);
+hold on
+plot([1:100:1:100) [repmat(mean(rec_ratio_work),size(ree_ratio_work))irec_ratio_work]
+MLineWidth 2);
+plot(1:100,rec_ratio_work,ko' LineWidth'2);
+boxon
+grid on
+style(fontmame' ‘fontsize’),
+%y1im([0.01033, 0.01045]);
+subplot(2,1,2);
+hold on
+plot([1:100:1:100} [repmat(mean(ree_ratio_base).size(rec_ratio_base))rec_ratio_base]k
+-LineWidth' 2);
+plot(1:100,rec._ratio_base Ko, LineWidth' 2);
+boxon
+gridon
+styleCfontname’, fontsize’),
+fastprint(, 图 片 /prob3. 检 验 .多 次 蒙特 卡 洛 积分 的 数值 波动 量 让
+function [data, XYZ, tri, tri_area] = get_data( WORKING)
+% 提取 工作 态 或 者 非 工作 态 下 需要 使 用 的 所 有 数据
+data = Data();
+lobalopt XYZindex W
+XYZ = data.main_node_coordinate; 9% 产生 一 个 对 齐 到 光线 入 射 角度 的 坐标 格式
+if WORKING
+XYZGindex,?) = opt XYZ; % 主 索 网 调整 到 工作 抛物 面
+end
+XYZ =-XYZeW;
+29

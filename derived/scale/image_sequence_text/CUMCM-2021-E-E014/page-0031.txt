@@ -1,0 +1,41 @@
+35. end
+s6. for 1.- 1
+> mastrt
+38. disp(['®',T, BEAGANA: '1);
+39. disp(eval([ 'Center’,I]))
+je * EARRARERR
+全
+人 on
+和 er
+和 caneermumastr(D
+和 peteveatfstry (Deatstm Ganeerstzecasircola
+rand rand rand]);
+46. eval(['kn = boundary( "strl (:,1),",5tr1,°(:,2),8.1);°]);
+47. 评 isempty(kn)
+4. eval([plot(’,str1," (:,1),",5tr1," (:,2));°1)5
+as
+sa. eval(['plot(…strl (kn,1),",str1,"(kn,2));"1);
+ma
+加
+55 plot(center(s,1) centere,2), te
+s4. title( "snv 据 药 材 分 类 )7
+s5. ena
+1. agawr
+间 po
+ea - £3; xx SAanERL
+合生
+5 count -leg 大 义 最 大 多 环 次 到
+| 1 - stze(ppotn;
+cneer = ppointtlskos; 全 闪 个 上 国光 中 心
+stace sqoare = zerostwuvai
+ne coune-e
+ho. tor 1= 1:k
+站 distance_square:4) = sun((point -apert nu) se
+12. strl = ['Center’,num2str(i), =[1;'];
+四 valtstra;
+5。。 end 计算 到 每 个 上 天 委 个 类 中 心 的 中
+15
+人
+17. minposition = find(distance_square(i,:)==min(distance_square(i,:)));
+四 strt = ['Center’,mmzste(ninpostion)];
+H

@@ -1,0 +1,96 @@
+AllLines[1042].LineInfo[i] = temp_1[i];
+AllLines[1042].LineInfo[nLSize+i] = temp_1[i];
+AllLines[1043].LineInfo[nLSize-1-i] = temp_1[i];
+AllLines[1043].LineInfo[nLSize+nLSize-1-i] = temp_1[i];
+}
+}
+
+10.3.3(文件名：ShortPathCalculate.cpp)
+//////////////////////////////////////////////////////////////////////////
+此程序计算最小公交线路
+
+有关要求：用户输入起始站点和终点，在满足换乘次数不超过某一限度的情况下
+
+//
+
+交
+
+//
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+//
+
+程序输出所有可能的行车路线
+
+ww
+
+//
+
+研
+
+//
+
+流
+
+//
+
+#pragma warning(disable: 4786)
+#include <map>
+
+#include <iostream>
+
+#include <strstream>
+#include <queue>
+
+#include <vector>
+
+众
+
+#include <string>
+
+号
+
+#include <fstream>
+
+：
+科
+
+//////////////////////////////////////////////////////////////////////////
+
+公
+
+//#include "Utility.h"
+
+#include "DataPreProcess.h"
+
+#include "CalculateStandars.h"
+
+信
+
+//#include "CalulateWays.h"
+
+微
+
+using namespace std;
+void main()
+{
+
+// 经过事先的计算，总共有 520 条公汽线路,3957 个公汽站点
+// 2 条地铁线路，39 个地铁站点
+//
+// 将同一路线的上、下行路线看成两个不同的路线
+// 将环形路线换算成两个与之等价的单行路线
+// 将地铁线等同于公汽站
+vector<LoadMessage>
+
+AllLines(1040+4);
+
+58
+
+

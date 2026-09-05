@@ -1,0 +1,41 @@
+pe |
+elc%e 问 题 三 程序 一
+clear
+Toad('di.mat)
+loadCFJ4mat)
+ToadCEJ111.mat)
+load(rl.mat)
+af-pi*36.795/180;
+btrpi*78.1691180;
+0:
+forM=LIength(FJ4)
+让 FJ4CM.D>5 && FJ4(ML2)>5 && FJ4CM.3)>5
+[A3.B3] = find(FIJIN1G:4) 一 FJ4GMCD
+[ALBI] = find(FIIC.4)=-FI4M2));
+[A2,B2] = find(FJINN(4) 一 FJ4CM.3J
+lenl(M.Drsqrt( (ICA3.4)rIAL4))2frICA3,5)TIALS))2 +
+(FI(A36)T1(ALE)2 %
+lenl(M.2)-sqrt( 。 (FI(ABA}rI(A24)2¢ (ICA3.5)-rl(A2.5)72 +
+(FI(A3.6)11(A2.6))2 %
+Ienl(M3)-sqrt(  (I(ALAFrI(A24)2+ (ICALS)rl(A2.5)72 +
+CrIALG)rICA2.6)) 2
+Ten(M, 1)=5art( (FJN(A3.D-FEJINNI(ALD)'2+ (FI11(A3,2)-
+FIIAL2Y2  + GEJTTICA3.3)-FJINIKAL3))72 %
+Ten(M.2)-sqrt( (FINI(A3.D-FJII(A2.D)2+ (FI1(A3 2)-
+FIA22)2 + (FJINIICA3.3)-FJIII(A2.3))72 )
+len(M.3)=sqrt( (CEINICALD-EJIII(A2.Dy2+ (FIN1AL2)-
+FJINICA2.2)72 + (FJINICAL3)FJIIICA2.3))72 )3
+PIOD=(lenl (M1)+lenl(M.2)Hlen1(M.3))2:
+SICM,D=sqrt(p1(M)*(pIGMD- Len1(VL1DY*(P10M)- TenT (M,2)) *(p1(M)-
+Tenl(M.3)) x
+ax(M)-rl(A24)r1(AL4);
+ay(M)-r1(A2,5)r1(ALS);
+az(MJrTI(A2.6)rIALGN
+bx(MDJ=rI(A3.4)rIAL4);
+by(M)-r1(A3,S)-I(ALS);
+bz(MJ)-rIA3.G)rICAL6):
+sital(MLD=acos( (〈 (ay(M)*bz(M)-az(M)*by(M))*cos(bt)*cos(af) +
+(@z(M)*bx(M)-ax(M)*bz(M))* cos(b)*sin(af) +(as(M)*by(M)-ay(M)*bx(M)*sin(bt) )
+/sqrt (ay(M)*b(M)-az(M)*by(M)) 2+@z(M)*bX(M)-ax(M)*bz(M)) 2+ (ax(M)*by(M)-
+ay(NMDJ*bx(MD)'2
+31

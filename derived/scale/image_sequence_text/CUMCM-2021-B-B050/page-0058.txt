@@ -1,0 +1,18 @@
+B_1(i-74,4);
+本 下
+B_2(F79.4);
+必 |
+B_3(-84,4);
+名 \ "Lo ~LA
+B_4(i-90,4);
+uk |
+B_5(i-96,4);
+lm |
+B_6(i-102,4);
+md wwe pge- |
+
+data_return(i,6) = B_7(i-108,1);data_return(i,7) = B_7(i-108,2);data_return(i,8) =
+
+p
+ELods
+SK MEASEES

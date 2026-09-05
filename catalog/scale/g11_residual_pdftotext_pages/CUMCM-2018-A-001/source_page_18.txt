@@ -1,0 +1,43 @@
+9 参考文献
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+[1] 姚端正、梁家宝.《数学物理方法》[M].P105 科学出版社.2010 年 3 月第三版：Ⅳ.O411.1
+[2] 潘斌.热防护服装热传递数学建模及参数决定反问题[D].浙江理工大学.2016.12.28
+[3] 卢琳珍、徐定华、徐映红. 纺织学报[N]. 应用三层热防护服热传递改进模型的皮肤烧伤度预测
+2018 年 1 月
+[4] 赖军、张梦莹、张华、李俊 纺织学报[N].消防服衣下空气层的作用与测定方法研究进展 2017
+年6月
+[5] 彭芳麟.《计算物理基础》[M].P330 高等教育出版社·北京.2010 年 1 月第 1 版.2013.12
+[6] 史策.咸阳师范学院学报[N]. 热传导方程有限差分法的 MATLAB 实现.1672-2914（2009）040027-03
+[7] 余跃.纺织材料热湿传递数学建模及其设计反问题[D]. 浙江理工大学.2015.11.20
+th
+[8] E.ONOFRE 、 S.PETRUSIC 、 G.BEDEK 、 D.DUPONT, and D.SOULAT.13 AUTEX Word Textile
+Conference[N].“STUDY OF HEAT TRANSFER THROUGH MULTILAYER TEXTILE STRUCTURE USED IN
+th
+th
+FIREFIGHTER PROTECTIVE CLOTHING”.May22 to24 2013
+[9] Crank-Nicolson 方法
+https://zh.wikipedia.org/wiki/%E5%85%8B%E5%85%B0%E5%85%8B%EF%BC%8D%E5%B0%BC%E7%A7%91%E
+5%B0%94%E6%A3%AE%E6%96%B9%E6%B3%95
+
+18
+
+

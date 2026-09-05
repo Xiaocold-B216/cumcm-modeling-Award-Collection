@@ -1,0 +1,78 @@
+0
+
+00)
+
+© ZhuanyunNase = np.append([' '). Zhuanyunaze)
+
+6  1= mp.array([float(x.value) for x in sheet.col(l, start_rowx=1, end_roux=9)e
+»
+
+6 1=np.append((0], 1)
+
+@  1fe = np.array([float(x.value) for x in shest.col(2, start_rovs=l, end_rovxe
+90)
+
+@ 1Lte "ap.append([o] ，1_fc)
+
+67
+
+的 book = open_sorkbook (naze)
+
+的 aheer = book sheets()[o]
+
+70 GongyingNase = np.array([r.value for x in sheet.col(0, start_rowrel, end_rovre
+51)])
+
+TL GongyingNase = np.append((' '1, Gongyinglaze)
+
+n
+
+了 p= mp.array([flostCx.value) for x in sheot.col(S, start_rows=1, end xowr<51)c
+»
+
+7 p= np.append((0], p)
+
+T p.fe = np.array([float(x.value) for x in shest.col(6, start rovs=i, end_rovx:
+-507
+
+了 Ptce = ap.append([o] ，P-fc)
+
+77
+
+78 Gelass = np.array([int(xivalue) 6 了 in ‘shest.col(il, start_rowxe1, end_rovxc
+-50)
+
+介 eelass = aapplnatte'] Gelase)
+
+0
+
+1 Gscore = aprarray([float(r.value) tor x in sheet.col(12, start_rowsel, «
+nd_roux=51)1)
+
+52Gecors = ap.append([0] Gscore)
+
+四
+
+列 Gaber = ap.array([float (z.value) for x in sheet.col(3，atart_rosxze1，end_roszt-
+-50)
+
+8  Gaber = np.appena([o] Gabel)
+
+8 Gabe2 = mp.array([float(x.value) for x in sheet.col(d, start_rowx=1, end_rovre:
+-507
+
+8 Gabea = np.append([1], Gabe2)
+
+80 Gueskzark = np.array([float(x.value) for x in sheet-col(7，start_rowzc1， 全
+end_rouze51)1)
+
+0  Gueskzark = np.append([0), Gueskzark)
+
+on
+
+9  Guorkwesksark = np.array([float(x.value) for x in sheet.col(9, start_rowx=l, 人
+nd_rosxn51)])
+
+的 gworkweeskaark = np.append([0), Guorkueekzark)
+
+o

@@ -1,0 +1,139 @@
+{
+  "attempt_id": "20260902T162528503373_425d96bb",
+  "batch_attempt_id": "20260902T162528503373_425d96bb",
+  "paper_id": "CUMCM-2003-A-009",
+  "source_path": "2003年数学建模国赛真题+优秀论文/2003年优秀论文/2003A：考虑自愈的SARS的传播模型 (2).pdf",
+  "source_sha256": "97B376ECFC098C8AC764B55366A4885C15613AC5550F774D84390466AE4D5F89",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 10,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 10,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "EiigAE E 二 第 20 卷 第 7 其 工 程 数 学 学 报 Vol.20 No.7 2003 年 2 月 JOURNAL OF ENGINEERING MATHEMATICS De 2003 文章 编号 :1005-3085(2003)07-0020-09 考虑 自 愈 的 SARS 的 传播 模型 7 ) 李 贝 ， 徐 海 温 BeEE -从 > (大 连理 工大 学 ， 大 连 116024) 2 编者 按 : 本 文 根 据 SARS 的 传播 规律 ,将 人 群 分 成 易 感 染 者 潜伏期 疙 人 世 和风 CEsaonAa 治 仿 (或 死亡 ) 而 具有 免疫 力 的 人 五 类 。 考 虑 自信 和 控制 (用 效 数 当 示 ) 建 间 了 和 分 方 得 区 型 和 入 抽检 ,研究 了 下 情史 各 参数 (包括 自 守 化 的 夫 和 , 为 抽 述 扣 代 了 只 有 一 定 参 考 价值 的 意见 ,作者 如 能 通过 对 前 期 数据 的 分 析 去 确定 参数 , 则 得 型 运 月 发 挥 一 定 的 后 期 预测 功能 。 本 乔 EREXEMTERA 7.=X WOERSCRE SARS 传 洛 的 分 析 , 把 入 群 分 为 5 类 : 易 感 妆 、 潜 多 期 类 、 患 病 未 被 发 现 类 、 患 病 已 被 发 届 关 和 治 例 及 死亡 组 成 的 免疫 类 ,并 考虑 自 念 因素 , 提 周 宁 两 个 模型 ,微分 方程 模型 和 基于 Small- Wond Network 的 模拟 模型 。 对 微分 方程 模型 ,以 香港 为 例 讨 论 了 自 僵 的 影响 ,在 一 定 意 义 下 说 明 自 念 现象 在 SARS 传播 中 是 普遍 存在 的 。 售 拟 模型 利用 Smal- World Network 上 模拟 现实 中 人 们 之 间 的 接触 ; 借 监 Sonaid 模 开罗 播 的 夺 本 思想 \"考察 区 域内 每 个 成 员 如 何 影响 与 其 有 联系 的 其 他 成 员 \", 用 影响 英 比 传染 二 去 传染 与 其 有 接触 的 健康 人 的 角度 ,模拟 SARS 的 传播 过 程 ;然后 吸收 元 胞 自动 机 模 基 1 同 步 更 新 的 思想 ,最 终 建立 了 一 个 患 病 者 传染 邻居 , 且 -一 个 成 员 同时 受 所 有 邻居 9 al WorldNerwork 的 模拟 模型 。 对 此 模型 ,我 们 讨论 了 一 些 主要 参数 及 配种 疫 雷 的 最后 扫 合 北京 效 所 ,讨论 了 提前 或 推 坟 天 采取 氏 记 的 影响 关键 词 : SARS; 自 您 ;微分 方程 ;Small-World Networks Sensid 模型 ;元 胞 自动 机 模型 ; 模拟 分 类 号 ; 中 认 中 图 分 类 号 ; 0241.81 文献 标识 码 : A 2 1 1OEEIBR S LEREE » Nye SARS 的 传播 方式 为 接触 性 传播 ,不 与 患 病 者 接触 就 不 会 被 感染 ; 攻 口 全 H ] / 人 很 设 人 们 被 感染 后 需 先进 入 潜伏 期 ,在 潜伏 期 内 不 具备 传染 性 (3) 假设 SARS 患者 被 发 现 后 就 立即 被 隔离 ,被 隔离 者 不 具备 传染 性 ,SARS 患者 只 在 被 发 现 前 可 以 传染 他 人 :; (4) 假设 SARS 康复 者 不 会 被 再 次 感染 ,并 且 不 具备 传染 性 ; (5) 不 考虑 在 SARS 传播 期 间 人 口 的 自然 出 生 和 自然 死亡 ; (6) 所 研究 地 区 的 人 口 总 量 一 定 , 不 考虑 该 段 时 间 内 人 口 的 迁 入 迁 出 ; 1.2 符号 说 明 bi 口 | - 第 7 期 考虑 自 愈 的 SARS 的 传播 模型 21 . N-- 一 我 们 所 研究 区 域 的 人 口 总 数 ; S-- 一 易 感 类 ,该 类 成 员 没有 染 上 SARS, 也 没有 免疫 能 力 ,可 以 被 传染 上 SARS; 一 潜 伏 期 类 ,该 类 成 员 已 经 感染 了 SARS 病毒 ,但 尚 处 于 潜伏 期 ,还 不 是 SARS 串 者 ,不 能 把 病毒 传染 给 S 类 成 员 ; 了 一 一 患 病 未 被 发 现 类 ,该 类 成 员 已 经 成 为 真正 的 SARS 患者 ,能 够 把 病毒 传染 给 S 类 成 员 ; 了 一 一 患 病 已 被 发 现 类 ,该 类 成 员 虽然 是 SARS 患者 ,但 由 于 发 现 后 立即 被 严格 隔离， 不 能 传染 给 S 类 成 员 ; R 一 一 免疫 类 ,该 类 成 员 为 SARS 康复 者 或 因 患 RS 有 免疫 力 ,不 再 对 其 它 成 员 产生 任何 影响 ; =Lk2 五 一 潜伏 期 天 数 ， 。。 工 一 一 传染 期 天 数 ; Up“ P——SWN 模型 中 每 条 连接 边 * 断 键 重 连 \"的 概率 ; 仅 J 一 一 SWN 模型 中 每 个 节点 被 选中 进行 再 次 “ 断 键 重 座 \" 的 ; 7 Q——S 类 成 员 接触 类 成 员 后 被 感染 oem 信 2 ”微分 方程 模型 > 2.1 BEE he” 我 们 把 一 个 封闭 cohnaaaaasses 类 人 类 \\ 尖 类 和 及 类 , 设 第 天 时 五 类 成 员 的 人 数 分 别 为 S(z)、 忆 (DCD ECD、R(t) ,该 地 区 总 人 口 自 s 为 N。 Te eso | Le 的 流动 情况 如 下 图 所 示 : AN 亲 其 中 :e 是 患 病人 群 每 天 接触 并 传染 [so ] 易 感 人 群 的 比例 系数 ; & 是 SARS 感染 者 的 和 发 病 素 ,/ 是 An BAE RAR: ) Lo HL = 是 患 病人 性 每 天 被 隔离 的 比率 , c 是 免疫 率 2 7 \\a oo ooooror SARS 传播 的 YA SEILR B/YFiBsn . -es S+E+I,+I,+R=N TAN， 全 js E=0, 1,20, I,=0, R=0 I'y=gE —zl, 其 中 ， 1 I'i=zl,~cl; 人 R'=cl,+ uE 0<g, =, <1 2.2 模型 求解 及 结果 分 析 2.2.1 参数 意义 及 确定 (1) o 是 患 病人 群 每 天 接触 并 传染 易 感人 群 的 比例 系数 多 © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net EisE 22 工 程 数 学 学 报 第 20 卷 易 知 \"= 1q。 其 中 , 》 为 一 天 内 一 个 患 病 者 与 他 人 的 接触 率 , - 堡 人 每 天 了 风 楼 触 人数 ，4 为 一 个 易 感 者 接触 一 个 串 病 者 后 被 感 康 的 概率 (2) g 是 SARS 感染 者 的 日 发 病 率 ,/ 是 SARS 感染 者 的 日 自 盒 率 假定 每 个 SARS 感染 者 的 实际 潜伏 期 天 数 服 从 区 间 [1, 瑟 ] 上 的 均匀 分 布 。 也 就 是 说 ,SARS 感染 者 以 均等 的 概率 在 这 甩 天 之 中 的 任何 一 天 发 病 或 者 自 剑 。( 为 潜伏 期 天 数 上 限 ) 容 易 得 到 :5+p= 直 (3) - EERARSREMAWLK RATHenTRERRSARIGE (4) “是 免疫 率 ,也 就 是 患 病人 群 每 天 病死 率 和 治愈 率 之 和 。 卫 k> -每 天 治愈 和 病死 的 人 数 可 有 Cs Riwn， 吻 知 ;c = SELERRLE 避税 了 得 到 7 生 天 计算 天 。 值 ,其 平均 值 即 为 所 求 ) 7 2.2.2 模型 求解 及 结果 分 析 人 我 们 先 做 出 公布 的 实际 数据 与 时 间 的 函数 饼 象 ,然后 调 周 叶 ialah 软件 中 的 oqe45 函数 得 到 方程 的 解 。 对 比 这 两 组 图 -可 以 发 现实 际 和 理论 在 在 若 | 证 的 差异 。 所 以 ,我 们 必须 通 过 不 断 调整 非 确定 性 全 闭 (。.g ,=) 来 使 实际 辑 脓 各 失 图 象 克 于 一 致 。 需 要 注意 的 是 ， 公布 的 SARS 有 内 计 患 病人 数 是 L(c) + R(1) - 4 人 8) 的 伟 , 不 包括 未 被 发 现 的 SARS 虽 病 者 1 的 值 。 、 《0) 与 公布 数据 的 比较 我 们 以 香港 数 据 为 例 。 查 得 香 沾 总 人 加 为 670 万 ,把 N= 6.7x 10° 代 人 微分 方程 组 约 束 条 件 , 并 取 初 值 (0) =1,5(0)= N= 1,E(0) = 1,(0) = R(0) = 0( 即 认为 起 初 有 一 个 人 突然 得 病 )。 根 据 实际 数据 计算 < 地 010 六 。 根 据 相 关 资 料 取 刀 = 19。 在 香港 这 样 一 个 大 都 市 中 ,平均 每 人 每 天 接触 组 几 再 人 ,而 总 人 口 为 670 万 , 且 根 据 概率 的 定义 9 值 应 该 在 0 到 1 之 间 , 故 o 的 数量 级 应 人 — 一 2 2] AT 站 四 7 AT . : : i | SN 站 CR 图 1 对 香港 疫情 的 分 析 ( 实 际 数据 从 4 月 25 日 开始 ) 图 2 假设 不 存在 自 念 对 结果 的 影响 可 以 看 出 方程 的 解 较 好 的 符合 了 实际 数据 。 此 时 各 参数 的 值 为 :jz= 0.0000382,g = 0， 0001,K=0.0999,==0.4,c= 0.014。v 值 基本 符合 我 们 的 估计 ,结果 是 合理 的 。 同 时 得 到 &<A, 也 就 是 说 绝 大 多 数 SARS 感染 者 是 自 全 的 ,只 有 一 小 部 分 SARS 感染 者 病 发 成 为 真 正 的 SARS 患者 ,这 与 钟南山 院士 最 新 的 研究 成 果 也 是 一 致 的 (2) 自 合 现象 对 结果 的 影响 bi 口 | 更 第 7 期 考虑 自 愈 的 SARS 的 传播 模型 23 如 果 不 考虑 自 愈 的 情况 , 即 上 = 0( 此 时 5= 0.1) , 仍 以 香港 为 例 (c= 0.014)。 我 们 采取 极其 严厉 的 措施 , 取 = = 100% (此 时 基本 上 每 个 SARS 感染 者 一 旦 发 病 就 立即 被 隔离 ) 。 在 这 种 最 不 利于 SARS 传播 的 情况 下 调整 o 值 , 在 0 的 意义 多 许 的 范围 内 ,即使 将 其 调 到 非 党 小 (= 0.0000002) ,仍然 得 到 如 图 2 所 示 结 果 。 即 :如 果 不 存在 自 愈 , 则 SARS 流行 时 间 的 跨度 成 倍增 加 ,起 初 疫情 发 展 缓慢 ,后 来 突然 爆发 , 患 病人 数 激增 至 2. 1 x 105 ,也 就 是 说 ,在 如 此 严厉 的 隔离 措施 作用 下 ,最终 仍然 有 三 分 之 一 的 成 员 都 染 上 了 SARS。 这 一 结果 显然 ”是 与 实际 不 符 的 ,这 正 说 明了 自 愈 现象 是 确实 存在 的 ,而 且 对 结果 影响 相当 大 。 (3) 对 其 他 地 区 数据 的 拟 合 < 我 们 利用 对 香港 的 分 析 方法 对 其 他 城市 的 SARS 传播 进行 分 析 。 oa 口 为 2270 万 ) ,得 到 以 下 结果 ,此 时 参数 取 值 为 vc = 0. 000001128, g = oo zw = 0， 09999,z=0.4,c=0.045。( 图 略 ) 旗 从 图 中 可 以 看 出 我 们 的 模型 不 仅 适合 香港 的 情况 也 可 以 很 好 和 Ar ON 3 基于 Small-World Network 的 模拟 贷 错 鉴于 微分 方 各 区 区 只 能 得 到 一 个 总 量 上 的 安 项 揪 壕 我 们 考虑 人 群 内 部 的 具体 接触 铺 况 . 只 阁 私 SAPS 只 体 传播 避 程 的 角度 出 发 ,提出 了 AS 咎 新 的 模型 : 即 基于 Small- World Net- work, 郑 豚 收 Sancjd 和 元 胞 自动 机 (cellular automatich) 模 型 思想 的 的 模拟 模型 。 3.1 模型 建立 及 算法 设计 ° 3.1.1 “人群 接 角 情况 的 措 述 同 , 。 O Re 点 ,把 人 们 之 间 的 接触 关系 表示 为 项 乓 间 的 连接 边 , 在 流行 病 预测 、 及 防范 控制 策略 等 的 研 SA 名 我 们 从 一 个 含 N 个 和风, 人间 个 人 出 条 边 。 对 于 每 一 个 节点 ,都 使 它 与 沿 顺 时 针 方向 的 K/2 个 邻居 节点 以 概率 PURRE 表征 人 首开 保有 重复 的 边 出 现 。 近 是 难 人 群 接触 的 静态 描述 。 全 0 SWN 网 络 基础 上 ,每 陋 一 段 时 间 后 ,使 所 有 节点 都 以 概率 ] 被 选中 ， 让 OO 注意 不 能 与 处 于 隔离 期 和 免疫 期 (死亡 者 二 涛 镁 ,而 病 全 者 人 们 则 会 自动 更 远 ) 的 节点 相连 。 这 是 对 人 群 接触 的 动态 撒 述 ,] 度量 这 网 多 机 部 节点 癌 的 流动 程度 。 站 3.1.2 模型 建立 设 潜伏 期 上 限 为 且 天 ,假定 SARS 感染 者 等 可 能 的 在 这 九天 中 的 任 一 天 发 病 或 自 念 ， 根据 概率 知识 计算 得 到 ,处 于 潜伏 期 第 T 天 的 SARS 感染 者 转变 的 概率 为 万 -+ , 设 每 天 转变 的 SARS 感染 者 中 自 傅 的 概率 为 ,自然 的 ,发 病 的 概率 为 1- V。 设 第 ; 天 时 五 类 成 员 的 人 数 分 别 为 S(i)\\E(t)、 志 (Ti(t)、R(z) ,该 地 区 总 人 口 为 N。 一 个 易 感 者 接触 一 个 患 病 者 后 被 感染 的 概率 为 Q ,SARS 患者 从 发 病 到 被 发 现 所 经 历 的 平均 时 间 ,也 就 是 传染 期 天 数 为 上 ,SARS 患者 从 被 发 现 到 最 终 治愈 或 死亡 所 需要 的 平均 已 二 24 工 程 数 学 学 报 第 20 卷 天 数 为 M , 则 各 类 成 员 之 辣 的 流动 情况 如 右 图 所 示 ; DT ] 3.1.3 算法 本 和 根据 对 SARS 传播 的 具体 分 析 , 我 们 按照 到 Er 以 下 步 又 建立 SARS 传播 的 模拟 模型， [| 第 一 步 ,构建 一 个 益 节 点 数 为 N ,每 个 节 :和 点 的 度 为 K ,节点 断 键 重 连 的 概率 为 已 ,流动 [，|- 一 ] 程度 为 ] 的 SWN 网 络 ; ep 大 -人 有 STATEETT R B 和 闫 ,其 他 节点 区 为 3 美 XSTATE 为 节点 的 状态 EPTVIETVTRT 分 别 为 济 估 s 传 氏 河 疗 时 间 , 即 为 节点 变 成 瑟 ,区 \\ 天 类 后 经 历 的 时 间 ) 2 第 三 步 ,在 当前 时 刻 + 下 饥 历 所 有 节点 ， 】 1) 如 果 节 点 为 .类 ,出 4a) 遍历 该 1. 类 节点 所 有 的 邻居 节点 , 若 邻居 节点 为 8 并 尘 j 这 个 S 类 节点 以 概率 Q@ 转变 成 已 类 ,同时 BFT 变 为 1， i\\ b) IFT 变 威 IFT+ 1 AUH IET> 工 , 则 该 第 sm TRT 变 为 1i 2) 如 果 节 点 为 巨 类 , 则 外 «) 读 贡 点 以 概率 百 -EETETT 被 选中 ,选中 的 节点 成 概率 V 转变 成 R 类 ,否则 转变 成 1, 类 (同时 IFT 变 为 1); @ b) EFT 变 成 EFT+1; ?, 4 ° 3) 如 果 节 点 为 二 类 , 刚 TRT SAIRT « 1 , 知 此 时 TRT> M ,区 该 季 点 转变 成 类 ， 4) 在 此 巡 历 过 程 中 , S、 忆 [关节 点 均 以 概率 ] 被 选中 ,选中 的 节点 以 概率 忆 断 键 重 过 5) 当前 时 刻 ; 变 成 二 襄 _ 6) 回 到 第 三 步 ,或 结束 程 记 ; 3.2 结果 及 分 析 - 了 3.2.1 2 人 one 力 - S AT 利于 TS 人 3 全 Ey 本 3 人 并 Ciie & 'S 00 @ ee 4 7 ee (1) 工 = 10 (2) Q=0.1 图 3 SARS 的 实际 传播 率 Q 传染 期 天 数 L 对 疫情 的 影响 (1) Q\\L 对 结果 的 影响 0 oaoccnn aaa aa ma 攻 习 EisE 天 第 7 期 考虑 自 愈 的 SARS 的 传播 模型 25 根据 [中 对 构建 SWN 网 络 的 要 求 :N 六 K 六 In(N) 福 1, 我 们 取 N=105,K=20。 取 己 =0.02,M=30,H=10,# SARS 的 实际 传染 率 Q 传染 期 天 数 上 、 区 域内 人 们 的 流动 程度 JSARS 感染 者 的 自 合 率 V 作为 可 调 参数 。 用 当前 实际 患 病人 数 1 (1) + (1) 来 表示 SARS 传播 的 实际 情况 。 取 J= 0,V=0( 即 暂 不 考虑 人 员 流 动 性 及 自 傅 ) , 轿 定 Q.L 中 的 一 个 ,讨论 另 一 个 取 不 同 值 时 对 结果 的 影响 。 图 4(1) (2) 为 分 别 改 变 Q.L 的 情形 。 从 图 3(1) 可 以 看 出 , 当 工 一 定 的 时 候 , 随 着 Q 的 增加 , 患 病 高 峰 期 逐渐 提前 , 患 病人 数 的 峰值 逐渐 增 大 。 也 就 是 说 ,如 果 病 毒 实际 传播 性 较 强 , Q 值 较 大 ,该 区 域内 忆 旦 有 人 串 病 ,病毒 很 快 地 就 传播 开 来 。 值 得 注意 的 是 , Q 有 一 个 阅 值 Q., 只 有 Q > Q MEIENA 会 在 该 区 域内 开始 流行 ,否则 该 传染 病 就 不 能 流行 。 如 图 ,在 工 = 2 Q.=0. 04。 《一 从 图 3(2) 可 以 看 出 , 当 Q 一 定 的 时 候 , 随 着 L 的 增加 , 患 病 2 也 就 是 说 ,SARS 患者 传染 期 工 的 增 加 将 加 剧 SARS 的 传播 。 我 个 发现 让 也 有 一 个 涪 值 工 。， 如 果 上 > L。, 则 SARS 将 大 规模 流行 ,否则 就 不 能 流行 。 a An.1 对 ,=7。 综 上 可 得 : ) . © MRARSRATE Q 的 增 大 而 迅速 增 观 击 随 着 的 增 大 , 患 病人 数 峰 值 并 没有 非常 明显 的 改变 。 也 就 是 说 , 患 病人 数 峰值 对 :让 的 改变 更 加 敏感 ; D Q 的 碱 小 将 使 高 峰 期 推迟 ,而 L 对 高 峰 期 影响 不 大 ; ® Q 都 存在 一 个 交 值 , 当 其 值 小 于 阅 值 时 ,SARS 不 会 大 范围 传播 , 当 大 于 问 值 时 将 大 规模 流行 ; UK ee (2) 在 选 代 过 程 中 Q.L & Oo 机 ATY 】》 . Loh EE TTTE TE LfhEE | 有 | SEU 站 | 呈 AN- 7, * As 2 Wo Q¥EL 不 变 (2) 工 改变 Q 不 变 \\/ 图 4 一 段 时 间 后 采取 措施 对 疫情 的 影响 疙 人 SARS 并 没有 任何 防范 , Q 和 工 的 值 都 很 大 ,一 段 时 间 后 采取 措施 使 得 Q 和 沽 小 。Q 和 的 值 减 小 的 赵 多 ,代表 相应 的 措施 力度 越 大 。 我 们 仍 取 J= 0,V= 0: 取 艺人 12，, 分 别 取 0.09.0.11、0.13、0.15, 保 留 = 0.2 的 曲线 作为 对 比 ,不 同 的 对 应 的 曲线 见 图 4(1); 取 Q= 0.2，, 分 别 取 3.6.7.8\\10, 保 留 = 12 的 曲线 作为 对 比 ,不 同 的 对 应 的 曲线 见 图 4(2); 从 图 4(1) 中 可 以 看 出 , 不 变 Q 减 小 时 ,在 Q' = 0.1 附近 出 现 突变 :Q\" <0.1 时 患 病人 数 在 采取 相应 措施 后 立刻 减少 ,并 很 快 减 到 0; 而 Q \"> 0.1 时 患 病人 数 在 采取 措施 后 仍然 继续 增加 ,只 是 上 升 的 速度 有 所 减缓 , 患 病人 数 峰值 有 所 减 小 , 且 高 峰 期 推迟 出 现 。 从 图 4(2) 中 可 以 看 出 ,Q FEL 减 小 时 ,在 工 * = 5 附近 出 现 突变 , 工 * >5 时 采取 相应 措施 能 使 串 病 人 数 峰值 有 所 减 小 ,但 对 高 峰 期 影响 不 大 。 bi 口 | 26 I 程 数学 学 报 第 20 卷 3.2.2 对 参数 ] 的 讨论 (1 参数 J 对 结果 的 影响 取 Q=0.1, 上 =12,Y=0, 改 变 J 的 值 ,得 到 如 图 5 结果。 可 以 看 出 ,区 域内 人 口 流动 性 越 强 ,病毒 蔓延 得 越 快 ,传染 的 人 越 多 ,疫情 越 严重 。 《2) 在 选 代 过 程 中 改变 ] 对 结果 的 影响 ( | 可 — 和 wild mm Rey . 1 人 国人 oa 3 4 到 二 ”| 时 oa (天 字 12 =- 一 -. - 图 5 区 域内 人 们 的 流动 程度 J 对 疫情 的 影响 2 取 Q=0.1, 工 =12,V=0,z=18 前 了 =0.2, 因 为 申 间 原 义 里 仅 给 出 :=18 后 J=0. 2 和 J=0.1 的 患 病人 北峰 值 :Max[ 于 (t+ 1;(2)]J Wo Max[1,(¢) + I,(¢)1J =0.1=4.8i04 A NSNNINNRDR S 3.2.3 对 参数 Y 的 讨论 取 Q=-0.2, 工 = 10,J= 0, 改 变 自 念 率 贸 的 值 ,得 到 如 图 6 结果 。 从 图 中 可 以 看 出 , 当 各 人 时 -SARS wAme p o oe V 的 增 大 , 患 病人 数 减少 ,高 峰 期 推迟 ，V 超过 一 个 值 了 后 ,SARS 不 能 传播 弄 Wf 山 几 得 V,=0.78, 3.2.4 接种 疫苗 的 人 2 w. 这 些 已 接种 疫苗 的 成 员 既 不 能 被 别人 传染 ,更 不 能 传染 别人 ,实际 上 是 R 类 成 员 。 按 照 与 我 们 原 模型 相同 的 闫 则 只 是 在 初始 化 时 贱 以 R 类 成 员 初 值 WN 即 可 。 取 Q=0.1,L = 70 人 am W 对 SARS 传播 情况 的 影响 。 如 图 7 也 示 ,在 不 同 的 疫苗 接种 率 W 下 ,SARS 传播 的 规模 相差 很 大 ,疫苗 接种 率 W 每 提高 引 企 吾 谷 操 ,相应 的 患 病人 数 峰 值 就 有 大 幅度 的 下 降 ,高 峰 期 也 延迟 相当 一 段 时 间 。 值得 注意 的 时, 当 W 为 20% 时 , 患 病人 数 非 常 少 ,SARS 病毒 根本 不 能 够 大 范围 的 传播 开 Re Bs 果 说 明 接 种 疫苗 不 仅仅 是 使 单个 成 员 免 于 病毒 的 感染 ,更 是 切断 了 病毒 进一步 DO SARS 病毒 从 一 开始 就 不 能 传播 开 的 情况 。 所 以 说 接种 疫苗 能 够 的 根本 上 杜绝 SARS 的 大 范围 传播 从 图 7 我 们 观察 到 多 有 一 个 临界 值 , 当 超过 该 值 时 , 患 病人 数 基本 为 零 。 下 面 我 们 讨 论 不 同 流动 性 的 区 域 对 这 一 临界 W 值 的 要 求 。 仍 取 Q = 0.1, 上 = 10,7= 0, 仅 改变 ,对 于 每 组 参数 组 合 , 都 有 相应 的 临界 W 值 , 当 大 于 该 值 时 患 病人 数 非常 少 (我 们 取 患 病人 数 峰值 小 于 50 为 标准 )。 结 果 如 图 8 所 示 。 也 就 是 说 ,要 想 完全 杜绝 病毒 的 传播 ,流动 性 越 强 的 区 域 所 要 求人 群 的 疫苗 接种 率 越 高 。 越 是 经 济 发 达 的 大 城市 , 越 是 需要 大 范围 接种 疫苗 。 3.3 对 北京 疫情 的 分 析 © 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http:/W/www.cnki.net bi 口 | 再 第 7 期 考虑 自 食 的 SARS 的 传播 模型 27 2 四 汪汪 人 可 上 本 人 1 一] 网 站 TAN ee 四 4 网 ， EEC 0 0.10 020 § 0.30 0.40 0.50 图 7 引入 接种 疫苗 人 群 对 疫情 的 影响 图 8 区 域 成 员 间 流 动 性 / 与 疫苗 接种 率 见 的 关系 3.3.1 对 实际 数据 的 拟 合 2 综合 以 上 提 到 的 所 有 因素 ,下 面 拟 合 北京 的 疫情 发 展 情况 。 取 N=107K No 02,M=30, 开 =10。 北 京 市 第 一 例 SARS 出 现在 3 月 1 日 ,以 此 为 坐标 起 点 。 获 衣 自 4 月 25 日 起 公布 数据 ,近似 认为 从 此 时 (+ = 56) 开 始 采取 措施 ,用 < (从 采取 措施 起 参数 发 生变 化 ,未 取 采 措施 前 采用 L() + LOBHENSEERT), WE 参数 拟 合 实际 数据 ,我 们 取 J= 0.1,V= 0.6,, 得 到 图 9 结果 k 人 AAS 1 大 一 一 一 本 | epi 天 有 生生 一 和 过 2 和 1 AN 了 人 3- 2500] Ke 全 Ce 四 一 于 一 人 ® wol 下 2 四 | ° - ee © saR) ® 4 4 © E B B wril] 天) 的 机 图 9 对 北京 疫情 的 分 析 ( 实 际 数据 从 4 月 弥 LaN 图 10 提前 或 延迟 采取 措施 的 影响 3.3.2 提前 和 推迟 采取 措施 对 结果 的 影响 TO 退 )5 天 采取 措施 的 结果 (如 图 J)。 可 以 看 出 ,仅仅 推迟 5 天 采取 措施 ,就 会 使 患 病人 数 峰 值 从 2523 增加 到 3642, 疫 情 最 终 得 以 控制 的 时 间 ( 即 曲 线 开始 趋 于 水 平 的 时 间 ) 往 后 推迟 。 全 人 人 和 全 人 本 和 全 全 人 也 就 是 说 ,采取 措施 的 及 时 条 度 对 SARS 疫情 的 影响 很 大 ,政府 部 门 能 否 尽早 认识 到 问题 的 严重 性 ,尽早 条 到 时 果 洁 施 对 SARS 疫情 的 发 展 起 到 了 至 关 重 要 的 作用 。 3.4 人 模型 评价 及 改进 94 .1 模型 评价 AD 条 俩 型 首先 采用 SWN 模型 构建 区 域 结构 , 较 好 的 模拟 了 现实 中 人 们 之 间接 触 情 则 注 问 题 的 进一步 的 解决 建立 了 较为 合理 的 基础 ; (2) 本 模型 在 模拟 SARS 的 实际 传播 过 程 时 ,同时 吸收 了 Sznajd 和 元 胞 自动 机 模型 中 的 合理 之 处 , 按 弃 了 其 中 不 符合 本 题 实际 问题 的 成 分 。 做 到 了 既 从 每 个 成 员 影响 他 人 的 角 度 考虑 问题 ,又 能 实现 同步 更 新 ,认为 一 个 成 员 下 一 时 刻 的 状态 是 受到 当前 与 其 接触 的 多 个 成 员 影响 累加 的 结果 ,这些 都 是 非常 符合 现实 情况 的 ; 3.4.2 模型 改进 (1) 可 以 采用 Scale-free Network 模型 n] , 它 更 能 反映 现实 中 人 们 之 间 联 系 的 先 取 连 接 EisE - p Se 28 I 程 数学 学报 第 20 卷 性 (Preferential Connectivity) ,也 就 是 说 ,实际 中 每 个 节点 的 度 并 不 都 是 相同 的 ,而 是 存在 一 些 关 键 节点 ,和 它们 相连 的 节点 数 比 其 他 节点 多 。 可 以 对 这 些 关 键 节点 进行 研究 ,比如 ,这 些 关键 节点 如 果 患 病 或 者 接种 疫苗 会 对 结果 产生 什么 影响 ; (2) 在 运用 SWN 模型 时 ,对 于 和 一 个 节点 相连 的 2K 个 节点 ,到 该 节点 的 路 径 权 值 应 该 是 不 相同 的 , 即 和 某 成 员 有 联系 的 2K 个 成 员 有 亲密 朴 远 的 差别 ,他 们 被 传染 上 SARS 的 概率 是 不 同 的 。 我 们 可 以 使 节点 与 其 原 邻 居 节 点 之 间 的 路 径 权 值 取 do ,与 非 原 邻 居 节 点 之 闻 的 路 径 权 值 取 d ,自然 的 ,do>de; 参考 文献 : 国 天 > =\\SS [1] Watts, D.J. and Strogatz，S.H，Collective dynamics of \"small-world” yil NolireB53(1968), 440-442 [2] Dietrich Stauffer, Sociophysics: the Sznajd model and its applicaticns(J1, AAA- Communica- tions 146(2002) , 93-98 A [3] G. Ch. Sirakoulis, I. Karafyllidis, A. Thanailakis. A celular adfomation'odel fo. the effects of popula- tion movement and vaccination on epidenie propagationl 1d, Ercle 中 二 Modeling, 133(2000) , 209-223 [4] FESCC RBME, BEEEEIE 第 二 版 iTM] ,北京 Re 2001 [5] 姜 启 沽 数 漂 模型 (第 二 版 )[M2 , 北京 :高 等 教育 出 版 社 e 和 9 [61 Jan Medlock，Mazk Kot, Spreading disease: ee equations old and new[J]，Marhematical Bioscieaces, 184(2003), 201-222 [7] hutp: //news. sina. com. cn/0/2003-09-14/1200748765s. sheml [EB/OL) [8] Francesc Comellas, Michacl st JEtermiritic smalLworld networks[J]，Physica A 309(2002) ， 231-235 2002 [9] Barrat and Weigt, On the propefies of small-world network models[]], Europhysics Journal B, 13 (2000), 547-560, [10] L. A. N. Amaral, A ali;M. Barthe le'my, and H. E. Stanley Classes of small-world networks [J], PNAS, vol. 97 mo. 环 2000), 11149-11152 [11) M. E. J. Newian and D. J. Watts, Scaling and percolation in the small-world network model[J] ， Phys. Rev. >， 7332-7342 [l2] Jonathin M. Read.Matt J. Keeling, Disease evolution on networks: the role of contact structre[j]， Re Ca . Lond. B, 270(2003), 699-708 [13) H.'a o T. Britton, Epidemics: Stochastic models and their statistical analysis(J], Springer Lec- \\ 人 ture Notes in Statistics, Vol. 151(2000) , Springer, New York RANS ian H. Zanctte * , Marcelo Kuperman, Effects of immunization in small-world epidemics[J]，Physi- N ca A 309(2002), 445-452 [15) Octavio Miramontes, Bartolo Luque, Dynamical small-world behavior in an epidemical model of mobile in- dividuals(}], Physica D, 168-169(2002) : 379-385 [16] Romualdo Pastor-Setorras and Alessandro Vespignani, Epidemic Spreading in Scale-Free Networks(J], Physical Review E, 86(2001), 3200-3203 (下 转 44 页 ) 2 EisE 后 狂 二 加 只 Re 44 工 程 数学 学报 第 20 卷 人 全 和 参考 文献 : [1] 姜 启 源 . 数学 模型 [M]. 北京 :高 等 教育 出 版 社 ,1993 [2] 赵 达 网 , 朱 迎 善 . 应 用 随机 过 程 [M]. 北京 :机械 工 业 出 版 社 ,1993 [3] 闻 新 等 .Matlab 神经 网 络 应 用 设计 [M] , 北京 :科学 出 版 社 ,2000 [4] Shi Yaolin. Stochastic dynamic model of SARS spreading[j] .www science.com,2003;9 The Study of the Spread of SARS 多 > P =VNN XIAO Hongjiang， WU Tong， LI Mingke _ \\ Advisor: HE Zu-guo = (Beijing University of Posts and Telecommunications , Beiji Abstract: This article compares the model in the attachment 1,and cxapis its/methcd called \"Had- Imitation ~ Circulation - Calculation” . The advantage of the mode! is itsease ,ts high fiteciticn in che aspect of imitation, and its reasonable change of the value of \"K” .At :he same time, wEgin u Shat ie main drawback is tht i de pends on the data excessivciy and is nol able to predict :he sifbation for longer time. In the second question, we bring up four :nodels whicn are Lased cn four different core metheds: ( I)the model based on differential and dif- ference cquation; (2) :he controling - model based on filter; (3) theumodel of neural network; (4)the simulation model hased on Branching Process. In Model 2 ,we conclude that SARS will last 99 days in Beijingithe earlier it is controlled the better if will becomesand SARS wil no break out preodically. In the third question, we are en- lighted by the \"consequense function’ in spqnomjcs, 吕 we bring in three different influential functions to draw ou \"an influential model of the foreign wsidy, en we draw a conclusion that the city of Beijing will lose 1,382, 110 foreign visitors due to SARS.Finaly yy 有 a short composition to be printed on the local newspapers. Keywords: filter; neural network; branching proce { 上 接 28 页 ) j Mode 由 SARS Epidemic Considering Self-cure 2 LI Bei, XU Haixuan, GUO Jiajia 罗 ( Dalian University of Technology, Dalian 116024，China ) sw a SELuliR (susceptible，exposed，unisolated infectious，isolated infectious, recovered) na 1 with self-cure is built to model the SARS cpidemic. The problem is solved with two methods: one is ordi- 1 lfieséntial cquation which we then come to a conclusion that self-cure indecd exists in the SARS transmis- 除 the other is computer simulation based on the small-work network which we also absorb the basic ideas of the Sznajd and the cellular automation model，and then we discuss some parameters and the effects of vaccina- tion. At last we analyze the epidemic situation in Beijing and estimate the results if control measures are taken 5 days later or calier. Keywords: SARS; Sclf-cure; ordinary differential equation; Small-World Network; the Sznajd model; the cellu- lar automation model; simulation 1 1",
+  "normalized_text_chars": 17650,
+  "normalized_text_sha256": "3970B7E617169FB95B45F42A6CD3EB661F4B667965D9598DBFB3034AD4451EC4",
+  "page_provenance_summary": {
+    "OCR": 10
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "BFB27B543FE6019E684B0BF07683123EFEE504E664F4BBC8B4177CDA12369170",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "617734107A79C4DBAB21D11CCC7491E1486255F5E9DF4DBE72CAC6F87B7B52C9"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "A2066647FEA2B792DC592DA526887B66A24FAEC70D12EEAAAF71AE50F44139D8",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "8C54CE8EC70C8EC3E5C60E96F211F7F3819054A4F3B3AC6D643CC4D8DDBEC694"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "8AFC54B0C0D7233853CDFB14057CD3A2CA422187980237DD14A088B1727DD33B",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "6138C837ED211159BCAD582924011B719BB1F5E5F610659E46121C12F98D1C16"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "B1B418924DF84E2300CCEBD2D79B694570BEBE4150BB6C96181619FB2F8870D7",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "8BBE65ED56523C2C199E8F9D89628C44EB8A6F82827500BC9090CA131569FF20"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "7CAE5321A9F405F2F9F21B8867DCD4EC1AF8926B6A546EBB5B13A3D11E749843",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "E847F49314CFACDF67CEEE47062C4B923CE9E157E22C8EF4BF15DCBEB2B18B69"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "6836B90811AC2F757C2D3AB6C2A045B1EC131D31D427DAE6022172A4252BBA6A",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "9E08C1508871236E8053720AC065CF04927DCA45831599A0A9DB26AE2404A4F2"
+    },
+    {
+      "page_number": 7,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "ED192CCC70E1D5A42D00B7D393B55C2E282AD787F0964AFCF19525F0069CE780",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 7,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "9D76E324E8FDE6A787D9A22F4970309E2CB355850C551FEB5261BF6E36AA522D"
+    },
+    {
+      "page_number": 8,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "83959CD79986F35AB8D16CAFE4F36A77F27D3ECEF93C3CA7D49DF3D55B7C1E19",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 8,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "150182207EC18DD4084D057C3A4630F6F3872B4B4E80DC485BEEC980C119F5AF"
+    },
+    {
+      "page_number": 9,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "39F39A818018AD0B2FC84D2247BBD555A6F120BCFAE9E7D4060FDE414ED72DE0",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 9,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "F6EE0CD86FC5FE53814B0188952A67C719864416E5B73762B58B3BCD6BC9FBCA"
+    },
+    {
+      "page_number": 10,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "EF2E26AA3AA430AD48A410F161B37FD399F4B8845B64EF6677D550FBB204930E",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 10,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "57C09ADDBBA4CC1C5F75B975AB79971418466D5ED7768AA41406200D9A04C4BE"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

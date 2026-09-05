@@ -1,0 +1,91 @@
+回味
+本 辣
+3 四 =
+
+/ if( S[i] < S[min_S_ind] && temp) {
+
+/ /iftfnll==1&&type[l==1 1foll==0 V 若 车 上 有 半熟 料 , 则 必须 去 CNC2，
+
+空 车 则 去 等 的 最 久 的 CNC1 或 满 CNC2
+
+I if(type[i]&&B[i] | not(type[i]))
+
+I min_S_ind = i;
+
+/ if(full == 1 && typel[i]==1)
+
+/ min S_ind =i;
+
+/ else if(full == 0){
+
+/ iftypeil&&B[ notttype[i))
+
+/ min_S_ind = i;
+
+/1
+
+/ #7
+
+1/ } 二 NY
+
+/ \)
+
+1/ 2
+
+/这 Srmin_S_ind] < 0) return min_S_ind;
+
+// returnmin_T_ind;
+
+1/ As
+
+| X
+
+/优先 原则 K
+
+JWint min_index(int *T){
+
+// int temp[9]; ®
+
+// intmax_ind=1; 人 O
+
+/intnum = 9; YA
+
+/1 cout<<"S: ";
+
+/for(int i=1; i<num; “TX
+
+I cout<<S[i]<<""; 一
+
+MMh } mt ¥
+
+JW/ cout<<endl<<"T: !
+
+/M for(int i=1z RN，
+
+I QUtEST i]<<" ";
+
+I
+
+MA 人 <<"temp: ";
+
+有 for(inti=1; i<num; i++ ){
+
+A :
+
+/ ifT[] < inDV/ 确 保 S<0, 并 且 T 是 时 间 代 价
+
+1/ temp[ = (-S[i] + TD /TO: 等 待 时 间 越 长 ， 优 先 级 越 高 ， “代价 越 小 ， 优 先
+
+级 越 高 。
+
+1/ else temp[i = -1;
+
+JM/ cout<<temp[i]<<"";
+
+/  }
+
+1/
+
+外 for(int i=1; i<num; i++ ){
+
+27

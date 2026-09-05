@@ -1,0 +1,49 @@
+Da 口 |
+二
+本
+end
+if Situation(MinNumbenj==1% 换 料 时 取 下 了 一 个 已 经 完成 工序 1 的 工件
+Now=2;% 下 一 道 目 标 工序 发 生变 化
+NEXT=k;% 记 录 此 工件 的 序号
+end
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber);% 完 成 换 料
+for k=1:8
+if Left(k)-Expect(4,MinNumber)<0
+Left(k)=0;
+else
+Left(k)=Left(k)-Expect(4,MinNumber); A7
+end 一 NY
+o
+end 2XG \)
+Left(MinNumber)=Work(1);
+if unifrnd(0,100)>=99% 生 成 故障 信息 p e ped
+StartTime=Time-+unifrnd(0,Work(L));%BHL2& Fi HesJELE fi 〈 发 生 在 加 工时 )
+ProcessTime=unifrnd(600,1200);% 随 机 生成 人 修 旨 2o. 间
+Error=[Error;size(Rec,1),MinNumber,StartTime, StartTime+ProcessTime,0];% 记 录
+故障 信息 =K
+end K
+else% 当 前 目标 是 工序 2 的 CNC
+flag=0; @
+for eelRec 1: LIKERAYH 作 时 侧
+if eAns
+flag=1; /V)
+en
+1 Nr
+Rec(NEXT/4)=MinNumber;
+ReclNEXTS) Time;
+上
+-下 广
+eatnaatah
+SN ec(NEXT,4)=MinNumber;
+VY/, Rec(NEXT,5)=Time;
+SA， end
+Now=1;% 此 时 目标 工序 重新 变 为 工序 1
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumberj+Wash;% 完 成 换 料
+for k=1:8
+if Left(k)-Expect(4,MinNumber)-Wash<0
+Left(k)=0;
+else
+Left(k)=Left(k)-Expect(4,MinNumber)-Wash;
+50

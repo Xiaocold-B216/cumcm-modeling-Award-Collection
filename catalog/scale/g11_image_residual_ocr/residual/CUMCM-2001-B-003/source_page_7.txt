@@ -1,0 +1,31 @@
+口 | ] 口
+和
+100 工 程 数学 学 # 第 19 郑 EER
+————————————————————————————————————————
+-| 科研 交流
+of buses “fle in and out”during aperation period while we have mainly doue the research on the uneven vatiation of the passen
+flow in ume and space, the research on the laws of how to dispatch buses and we have established atarget planning model whuch has
+realized the dispatching Plan of "some carly and some late”and when there are more ,when there are fewer . Under the circum-
+stances of ensuring certain banefits and the satisfaction of passengers, the overall operating time of the buses in operation has beea
+made the shortest, the dispatching rimetable has been got ,while the nnmber for rhe least buses is 42 and the ratio of satisfaction be-
+tween passengers and bus companies is 0.48:0 46
+Key words:Bus Dispatching; Passenger Flow; Target-Planning
+(上 接 94 页
+P
+Optimization of Dispatching Buses _ sv》
+o\\
+FU Chang-jian Yang Cai-xia Qin Min 一 \
+Advisor:  CHEN Jip-min : (一
+(SiChuan Universtty，Chengdu 610064) of
+A/
+Abstract :it to find out the best way to dispatch buses. We set a optumized mod | whose target function is the profit of bus com-
+pany. At the same time, 1t guarantee the proportion that the passengers waiting - Ni more than 10 min [or S min)in the
+toral la Jess than a given before First, every station’s nonparameter fisl nn funetion about the number of passengers js fitted by
+method of least squares. We use a simple method to estimate that at least 4; SC are needed, and then, we use Maple to get the
+optimal solution refer to it。 It shows the best plans for dispatching b Loss conditions of the number of hassengers，Ir can
+help bus companny to get the top profic, meanwhile the passengers mm 二 wait for their bus for along time. In the end, we evalu-
+ate and populsrize the model, and point out the effective way to smprove 1t
+Key words: dispatching buses: optimized model; mathod of 有 squares
+%A |
+_— )
+-一

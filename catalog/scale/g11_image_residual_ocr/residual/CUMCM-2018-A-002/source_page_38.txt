@@ -1,0 +1,42 @@
+回 员 讨 汉 回
+和
+回 只 RN
+u=zeros(tm+ln+l);% 定 义 四 层 耦 合 介质 温度 分 布 矩 阵
+%% 初始 条 件 和 边界 条 件
+uC,D=37;% 初 始 条 件
+u(l:)-=65;% 边 界 条 件
+%% 差分 格式 的 系数 矩阵
+A=zeros(ml+m2+m3+m4,m1+m2+m3+m4);
+for i=1:m1-1
+A(Li)=1+2%r1;
+A(Lit1)=-rl; 加
+if i>=2 > 从
+A(i-D=-rl; 一 SS
+end 2XG
+end ood
+A(ml,ml)=(lam_1/derta_x1+lam_2/derta_x2);
+A(ml,ml-1)=-lam_1/derta_x1; 任
+A(ml,ml+1)=-lam_2/derta_x2; X
+for i=m1+1:mI+m2-1 K
+ALi)=1+2%12;
+A(Lit1)=-12; o
+A(Li-D=-r2; 人 O
+end /a)
+A(ml+m2,ml+m2)=(lam_2/derta_x2+lam_3/derta_x3);
+A(m1+m2,m1+m2-1)=-lam_2/derta_x2;
+二 derta_x3;
+p—
+for i=m1+m2+1 Afpes
+A(i,1)=1+2%13; 和
+Ar
+A( 这 D=135
+ks
+(m1+m2+m3,m1+m2+m3)=(lam_3/derta_x3+lam_4/derta_x4);
+A m2+m3,ml+m2+m3-1)=-lam_3/derta_x3;
+A(ml+m2+m3,ml+m2+m3+1)=-lam_4/derta_x4;
+for i=m1+m2+m3+1:m1+m2+m3+m4-1
+A(Li)=1+2%r4;
+A(ii-1)=-r4;
+A(lLi+1)=-r4;
+end
+38

@@ -1,0 +1,41 @@
+附录 2 问题 一 沉 底 修补 程序
+function [r,minh,minbeta,minthita2,minH] = tuodir (n,mq)
+SUNTITLED3 Summary of this function goes here
+% Detailed explanation goes here
+min=inf;
+minh=0;
+minH=0;
+minbeta=0;
+minthital=zeros(1,4);
+minthita2=zeros(1,n)+pi/2;
+mini=0;
+for h=0.6:0.0001:0.72
+Ft=zeros(1,5);%,0'0U?; .Oh +A-A|
+alpha=zeros(1,5);%.0'0%; -0, +A-A|pA .TO
+thital=zeros(1,4);% + 0'UpA TO
+beta=0;% OL°pd 2Io
+Ft2=zeros (1,n+1);%$A*A"?; Oh +A-A|
+gama=zeros (1,n+1);$A*A"?; -O +A-A|pA TO
+thita2=zeros(1l,n)+pi/2;% +A%A DA ETO
+%,it8%2:0
+v=12;% cEU
+S=2*(2-h);
+m=1000;%, ; +&0EAs
+rou=1025;%°£EQAUIE
+g=9.8; $0gA | LOEUIE
+V=pi*172%h;%?0E®la»y
+Ffeng=0.625*S*v*2;% ‘¢A|
+Ffu=rou*g*v;%, {A]
+Gfu=m*qg;$%, it+teOCAI|
+if Ffu-Gfu<0
+continue;
+end
+alpha (1)=atan (Ffeng/ (Ffu-Gfu)) ;
+Ft (1)=sqrt (Ffeng”2+ (Ffu-Gfu) "2);
+%,010%; 0
+Vg=1*pi*0.025%2;% 0'Ula»y
+Ggang=10*g;%, O'UOGA|
+Fgfu=rou*g*vg;
+for i=1:4
+alpha(i+l)=atan ((Ft(i)*sin(alpha(i)))/(Ft(i)*cos (alpha(i))+Fgfu-Ggang));
+27

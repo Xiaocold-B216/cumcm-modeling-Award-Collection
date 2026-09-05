@@ -1,0 +1,71 @@
+%
+%
+
+triangular matrix of integral approximations.
+
+% SEE ALSO:
+%
+TRAPZ, QUAD, QUADL.
+% NOTE: all indices adjusted for MATLAB's one-based indexing scheme.
+% Pre-allocate the Romberg table. Avoids subsequent re-allocation which
+
+% Initial approximation. Single interval trapezoidal rule.
+R(0+1, 0+1) = (b - a) / 2 * (feval(f, a) + feval(f, b));
+
+交
+
+Increasingly accurate trapezoidal
+
+研
+
+% First column of Romberg table.
+% approximations.
+for i = 1 : n,
+
+流
+
+% is often very costly.
+R = zeros([n + 1, n + 1]);
+
+h = (b - a) / 2^i;
+
+：
+科
+
+s = 0;
+
+号
+
+for k = 1 : 2^(i-1),
+s = s + feval(f, a + (2*k - 1)*h);
+end
+
+众
+
+R(i+1, 0+1) = R(i-1+1, 0+1)/2 + h*s;
+End
+
+公
+
+附录二：参数估计的 C++程序
+#include <iostream>
+#include <cmath>
+
+微
+
+信
+
+#define PI 3.1415926
+using namespace std;
+double r = 1.625;
+double p1, p2;
+double R = 1.5;
+double f(double x)
+{
+double ans = PI*r*r*x/2-PI*x*x*x/6+2*x*sqrt(2.25-x*x)/3
+-2*x*r*sqrt(2.25-x*x)/3
+-(1-3*r+2*r*r*r)*atan(x/sqrt(2.25-x*x))/3
++(x*x*x-3*x*r*r)*atan(0.625/sqrt(2.25-x*x))/3
+- 18 -
+
+

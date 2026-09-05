@@ -1,0 +1,58 @@
+[5 佚名， 第 一 章 青岛 的 自然 环境 ，
+
+http://wenku. baidu. com/link?ur1=Rc9YjlgS2w
+
+—~A-xJZcwpHXZx9_-MhkdPyrRwhpG6vhgp6PzwPooNb7Su04sQnRtREoct9YiTJOuOWsh7
+
+PEpEIrswWB_Kzy7fE1fYaCzkU5Iu, 2016 4£9 H 11 H
+
+[6] 代 俊 林 ， 青 岛 港 水 域 通航 安全 及 效率 的 研究 ， 大 连 : 大 连 海事 大 学 ，2009
+附录
+
+程序 1:
+
+£2016.9.11 系 泊 系 统 设计
+
+$ r,H,v,V,beta, rou,L
+
+s 上 是 钢 球 质 量 比 〈 以 1200kg 为 基 闭 )， 即 钢 球 质 量 El200kd 区 rc， 调 整 * 即 可 调整 钢 球 质量 。8 为 水 深 ，v 为 风速 ，
+
+Y 为 水 速 ，beta 为 风速 水 速 之 间 的 卖 角 , rou 是 镭 链 密度 ，L 是 锚 链 的 长 度
+
+$phi0,phil,phi2, phi3, phid, h, theta,%
+
+sphi0 EMAEIAA, phid Bphis 为 从 下 至 上 各 节 钢 管 的 倾斜 角 ，h 为 吃水 深度 ，theta 为 锚 链 末 端 与 锚 的 连接
+
+点 处 切线 方向 与 海 床 志 角 ，x 为 游 动 的 最 大 范围 。
+
+r=1;
+
+H=18;
+
+v=12;
+
+v=0;
+
+beta=0;
+
+rou=7;
+
+1=22.05;
+
+$ 考 虑 到 锚 链 可 能 并 不 是 全 部 悬 室 ， 有 可 能 部 分 堆放 在 海 床上 ， 因 此 先 求解 不 堆放 情形 ， 至 于 堆放 情形 ， 在 下 面 if 中 考
+
+虑 。
+
+f=fzero(e(h)
+
+(h+1./sqrt(l+sqrt((2.5.xv.^2-1.25.xv.^2.xh) .^2+(374.*2.xh.x*V.^2) .^2+2.x(2.5.xv.^2-1.25.
+
+xv.^2.xh) .x(374.x2.xh.xV.^2) .*cos (beta)).^2.1...
+
+(-10248.12+31649.66.xh) .^2)+1./sqrt(1+sqrt((2.5.xv.^2-1.25.xv.^2.xh) .^2+(374.x2.xh.xV。
+
+^2) .^2+2.*(2.5.xv.^2-1.25.xv.^2.xh) .x(374.x2.xh.xV.^2) .xcos (beta)).^2./...
+
+(-10073.98+31649.66.xh) .^2)+1./sqrt(1+sqrt((2.5.xv.^2-1.25.xv.^2.xh) .^2+(374.x2.xh.xV。
+
+19

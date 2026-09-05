@@ -1,0 +1,46 @@
+回味
+多 二 是
+. )
+clear aa
+end
+Ll=start(15,:);
+[a,a2,0] = £204( a,L1,t0,dT,T );
+aa(5,7)=0;
+% 设 置 T1,T2,T3
+[m,n]=size(aa);
+for i=1:8
+for j=m-4:m
+if i==aa(j,5)
+T2(1,1)=aa(j,7); #7
+elseif aa(j,5)==0 = NY
+. o
+T2(i,1)=0; N 由
+end -
+end
+end X
+for i=l:m & j
+for j=1:8 “
+if j==aa(i,4)
+TI10,D=aa(i,3);
+1 end O
+en O
+end %%
+T3=a;
+[ T6,VTTI,VTT2,TT4,TT5 ] 205(T1 ,T2,T3,t0,dT,T );
+t0=T6; —~
+T3=ceil(TT5(3)/2);
+AL
+7
+Kg
+[m.njesizg(an):
+for fi=13 +
+人 5
+if TT4(ii)==aa(m-5+jj,4)
+aa(m-5+jj,3)=VTTI(ii);
+aa(m-5+jj,4)=TT4(i);
+aa(m-5+jj,5)=TT5(i);
+aa(m-5+jj,6)=VTT2(ii);
+aa(m-5+jj,7)=aa(m-5+jj,6)+T(5)+T(7-mod(aa(m-5+jj,5),2));
+end
+end
+57

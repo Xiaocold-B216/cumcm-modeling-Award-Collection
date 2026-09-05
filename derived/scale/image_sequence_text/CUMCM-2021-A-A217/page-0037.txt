@@ -1,0 +1,34 @@
+elf reset
+plot_2d_main_node_dist(opt XYZ. edge edge_distSQ):
+elf reset
+plot_2d.fiterr(opt_ABR);
+function xlsx_output(opt XYZ, opt_Lz, index Winv)
+if existCresult xls¥, file')
+delete(result xlsx');
+end
+copyfileCHcHE/4. TEMAHI 93:5 15 f.xlsx, result xlsx);
+% 理想 抛物 面 顶点 坐标
+XYZ = Polarabr2xyz([0 pi/2 Polar para(Constant Lf, pi2)]):
+XYZ =XYZ*Winv;
+1= able(XYZ(1), XYZ(2), XYZ(3)):
+disp(" 理 想 抛物 面 项 点 坐标 ")
+disp(head(t1));
+writetable(t1, ‘resultxls’, ‘Sheet'; * 32 2 fft # [ T1 4% % #7', ‘Range!, 'A2C2,
+"WriteVariablsNames' false);
+46 调整 局 主 索 节 点 编号 及 其 坐标
+data s FEadtable(' 数 据 /1， 主 索 节 点 坐标 和 编号 .csv;
+12= table(data.x___(index), opt XYZ(:1), opt XYZ(:2), opt XYZ(.3):
+disp(" 调 整 后 主 索 节点 编号 及 坐标 "
+disp(head(12));
+writetable(t2, 'result xlsx、'Sheet，' 调 整 后 主 过 节点 编号 及 举 标 Range，[A2:D'
+mum2str(height(12)+1)), "WriteVariableNames' false);
+% 促 动 器 顶端 伸缩 量
+13~ table(data.x___(index), opt_1.2):
+disp(" 促 动 器 顶端 伸缩 量 "):
+disp(head(13));
+writetablet3，'esultxlsx，'Sheet:“， 促 动 器 顶端 伸缩 量 ，'Range，[A2:B'
+mum2str(height(t3)+1D) WriteVariableNames' false):
+xlsx_check():
+end
+function xlsx_check()
+37

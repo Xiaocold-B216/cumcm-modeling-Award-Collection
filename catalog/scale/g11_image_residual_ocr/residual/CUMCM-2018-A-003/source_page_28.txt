@@ -1,0 +1,46 @@
+回味
+本 辣
+Re
+/ if(temp[max_ind] < templ[i]) max_ind = i;
+/让 }
+W// cout<<"so chose: "<<max_ind<<endl;
+M/ iKS[min S_ind] < 0) return min S_ind;
+/returm max_ind;
+1/
+I1y
+int main(){
+num=0;
+for(int i1=03i1<2;i1++)
+for(int i2=0;i2<2;i2++) #7
+for(int i3=0;i3<2;i3++) 二 NY
+for(int i4=0;i4<2;i4-++) _ 由
+for(int 15=0;i5<2;i5++) 2XG
+for(int i6=0;i6<2;i6++)
+for(int i7=0:i7<2:i7++)
+for(int oo 人
+type[1] = il type[2] = 2; type[3] = i3; typeld] = i4; type[5] = i5;
+type[6]=i6;  type[7)=i7;  type[8] = ig; 所
+init();
+int time = 0;
+int pos = 0,next_pos = 0;// 小 车 起 始 位 置 O
+bool begin = 0; $O, |
+while(time<3600%8) { 和 ARA
+JkskoR L 人 j 过 舟 时 村 水 六 来 末 玉 来 /
+for(int j=1 so i
+TI]= L{full]] De +B[j]stype[j]sput_down ;
+YA iD>0){
+il+=inf;
+和
+1==0&& B[j]==0 && type[j]) {
+nr += inf
+以 /移动 T+ 上 下 料 T+ 清洗 T+ 假设 不 会 提前 过 去 等 待 + 假设 不 会 空 着 手 去
+下 No 中
+}
+JRdkkkckokokok  JEI] FELHsdddokkok
+next_pos = min_index(T);/ 选 择 代价 最 小 的
+if(T[next_pos] <inf) / 若 过 去 无 需 等 待 ， 并 且 当 前 小 车 状态 允许 过 去 ， 则 选择
+{
+for(int i=13i<9;i++) {
+S[i] -= TInext pos];// 选 择 后 ， 在 这 一 过 程 中 ,RGYV 无 法 做 其 他 工作 ， 所 以
+下 一 次 选择 经 过 T[next _pos] 时 间
+28

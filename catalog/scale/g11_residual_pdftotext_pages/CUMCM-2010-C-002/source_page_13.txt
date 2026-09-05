@@ -1,0 +1,66 @@
+附件
+1. 附件一
+
+程序：
+
+：
+科
+
+研
+
+交
+
+流
+
+model:
+min=7.2*(((13-2*h-m)^2+225)^0.5+h)+28.7*(m^2+25)^0.5;
+h<5;
+m<8;
+end
+
+结果：
+
+号
+
+Local optimal solution found at iteration:
+53
+Objective value:
+282.6973
+
+微
+
+信
+
+公
+
+众
+
+Variable
+H
+M
+Row
+1
+2
+3
+
+Value
+1.853787
+0.6321706
+
+Reduced Cost
+-0.6132680E-07
+0.000000
+
+Slack or Surplus
+282.6973
+3.146213
+7.367829
+
+Dual Price
+-1.000000
+0.000000
+0.000000
+
+1
+
+

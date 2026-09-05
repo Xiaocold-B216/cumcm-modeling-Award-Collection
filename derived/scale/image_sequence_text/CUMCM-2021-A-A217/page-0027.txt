@@ -1,0 +1,35 @@
+function dSSE = derr_ ana(ratio index)
+asset(isscalar(ratio));
+[~ dSSE] ~ fsettindex ratio)):
+dSSE = dSSE(index)* dataindex);
+end
+function newdata = set(index, ratio)
+newdata = data;
+newdata(index) = newdata(index)*ratio;
+end
+end
+function X = pack(XYZ, 1.2)
+X= [XYZ(): IT
+end
+function [XYZ, Lz] = unpack(X, N_nodes)
+assert(numel(X) 一 4*N_nodes);
+XYZ = reshape(X(1:3*N_nodes), [J, 3);
+12= XG*N_nodes* Liend);
+End
+prob3_cale.m: 问题 3 的 求解 核心 算法 〈 含 画图 输出 ， 检 验 等 )
+9
+aear0)
+‘mg(defaule);
+close(all),
+clear global
+lobal opt XYZ index W
+[~ 0ptXYZ, ~~ index, W, ~] = prob2_calc(lfireset);
+% 画图
+elfreset);
+“% plot_working illu_3d(true);
+elfreset);
+2% plot_2d.texture(true);
+elfCreset’;
+9% plot_2d_texture(false);
+rec_ratio_work = [0.011020300922443 0.0110003218576217 0.0110518782939506
+27

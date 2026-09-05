@@ -1,0 +1,33 @@
+print(opt_clf.best_params )
+final clf= SVC(C=0.01, kernel=linear, gamma=0.001, decision function shape= ovT)
+SVC merge20 pre = cross_Val score(final clf, X, Y, cv=5,scoring=precision_macro').mean()
+SVC_merge20_rec = cross_val_score(final_clf, X, Y, cv=5,scoring=recall macro).mean0
+SVC merge20 fl = cross_val score(final_clf, X, Y, cv=5,scoring=1{1 macro').mean()
+SVC merge20 acc = cross_val score(final_clf, X, Y, cv=5,scoring="accuracy').mean()
+final clf .fit(X, Y)
+pred = final clf .predict(dataa)
+#XGBOOST
+xgbc = xgb.XGBClassifier()
+XGB_merge20_pre = cross_val_score(xgbc, X, Y, cv=5,scoring=precision_macro').mean()
+XGB_merge20_rec = cross_val_score(xgbc, X, Y, cv=5,scoring=Tecall_macro’).mean()
+XGB_merge20_f1 =cross_val_score(xgbc, X, Y, cv=5,scoring=f1_macro').mean()
+XGB_merge20_acc = cross_val_score(xgbe, X, Y, cv=5,scoring=accuracy’).mean()
+xgbe .fit(X, Y)
+pred = xgbc .predict(dataa)
+#GBDT
+GBDT = ensemble.GradientBoostingClassifier()
+GBDT _merge20_pre = cross_val score(GBDT, X, Y, cv=>5,scoring=precision_macro').mean()
+GBDT_merge20_rec = cross_val_score(GBDT, X, Y, cv=5,scoring=recall macro').mean()
+GBDT_ merge20 fl =cross_val_score(GBDT, X, Y, cv=5,scoring='f1 macro').mean()
+GBDT _merge20_acc = cross_val_score(GBDT, X, Y, cv=>5,scoring=accuracy').mean()
+GBDT .fit(X, Y)
+pred = GBDT .predict(dataa)
+#LGB
+def woagbm (fitness, noclus, max_iterations, noposs, min_values = [0,5], max_values = [1,500]):
+noclus = 维度
+max_iterations = E{RIR%L
+noposs = ”种群 数
+poss_sols = np.zeros((noposs, noclus)) # 鲸鱼 位 置
+gbest =np.zeros((noclus,)) # 全 局 最 佳 鲸鱼 位 置
+b = 1.0# 定 义 对 数 螺旋 形状 的 常数
+32

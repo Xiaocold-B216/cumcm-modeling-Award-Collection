@@ -1,0 +1,45 @@
+13. for i=6:16
+14. yi= Y(1:5,i)";
+15. pl = [pl,spline(x3,yi,new_x)'];
+16. end
+17. for i=17:21
+18. yi= Y(:,1i)';
+19. pl = [pl,spline(x4,yi,new_x)'];
+20. end
+21. “4 烯烃 选择 性 三 次 样 条 插值 :
+22. xl =[256,275,366,325,356];x2=[256,275,366,325,356,466];
+23.  x3=[250,275,3060,350,400] ;x4=[250,275,360, 325,350,460] ;
+24.  yl = X(1:5,1)"; y2=X(1:5,2)";
+25. ”new_x =250:25:460;
+26.  p2=[];
+27. p2 = [p2,spline(x1,yl,new_x)'];
+28. p2 = [p2,spline(x1l,y2,new_x) "]3;% 三 次 样 条 插值
+29. for i=3:5
+30. yi=x(:,i)";
+31. p2 = [p2,spline(x2,yi,new_x)'];
+32. end
+33.  for i=6:16
+34. yi= X(1:5,i)";
+35. p2 = [p2,spline(x3,yi,new _x)'];
+36. end
+37.  for i=17:21
+38. yi= X(:,1)";
+39. p2 = [p2,spline(x4,yi,new_x)'];
+40. ‘end
+附录 6
+1. % 数 据 可 视 化
+2. data=xlsread('C:\Users\HD\Desktop\C\Fff#f 1.x1sx");
+3.  subplot(7,3,1)
+4.  yli=data(1:5,2);
+5.  yl2=data(1:5,4);
+6.  xl=data(1:5,1);
+7.  plot(xi,yll)
+8. hold on;scatter(x1,yl11,'b")
+9. hold on;plot(x1,y12)
+10. hold on;scatter(xl,yl12,'r")
+11.  title('A1 催化 剂 组 合 ' )
+12. subplot(7,3,2)
+13. y21=data(6:10,2);
+14. y22=data(6:10,4);
+15. x2=data(6:10,1);
+23

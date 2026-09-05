@@ -1,0 +1,85 @@
+1期
+
+邹建光等: 空洞探测
+
+121
+
+4) = 28. 3 ( 米)
+h 1 = 40×sin ( Πg
+h 2 = 40×sin ∠Q 7 P 2 P 3
+h 3 = 40×sin ∠Q 7 P 3 P 4
+
+Π
+, 所以 h 3 > h 2 > h 1 >
+4
+h 3 > h 4 > h 5 > 28 ( 米) , 即在波源
+
+因∠Q 7 P 3 P 4 > ∠Q 7 P 2 P 3 >
+28 ( 米). 同理有
+
+附近存在直径大于 28 米的空间区域, 这些空间区
+
+交
+
+流
+
+域是仪器的精度可以探测到但却因减少波源和接
+受器的个数而使波束线无法达到的死区, 如在这
+些区域中有空洞存在, 则将被漏测.
+由对称性分析, 在接受器附近也存在类似的
+情况.
+
+7
+
+：
+科
+
+研
+
+在 P lQ l 直线和 P 7Q 7 直线中点附近 20 米的地方, 也是仪器测量的死区, 如果存在空洞,
+也无法探测到, 所以仅靠纵向探测装置是不行的.
+要想保证确定空洞的位置, 可分别在 R 1R 2 的中点, R 4 点和 R 6R 7 的中点各设置 1 个波
+源, CD 边对等地安放了 3 个接受器, 由作图法可知, 如此既可解决理由 1 中提出的困难, 又
+能消除 A B 边和 CD 边附近的死区, 按此设置使波源和接受器减少 4 对.
+
+对模型的评价和改进
+
+公
+众
+
+号
+
+本文的方案 1 采用连线方法, 将空洞可能存在的区域用图标示出来, 然后通过简单计算
+确定空洞的位置及近似的洞径, 模型直观, 计算简单.
+方案 2 先将任一波束线上测得的空洞总长平均分配给所经过的各方格区域, 而后对每
+一方格区域所分配的诸平均洞长再求几何平均值, 作为空洞存在与否的判据, 所依赖的假设
+少, 结果合理可信.
+
+微
+
+信
+
+但两方案均依赖于平板的分区, 若空洞的分布跨越多个方格区域, 则应寻求更为普遍的
+模型与算法.
+
+Explor ing Cav ity
+ZOU J ian 2guang,
+
+L IU D an 2juan,
+
+(Yueyang N o rm a l U n iversity,
+
+Abstract:
+
+Yueyang
+
+ZEN G D e 2gang
+414006)
+
+Tw o schem es w ere p ropo sed in th is p ap er. T he m ethod of connecting tw o po in ts
+
+w ith stra igh t line w a s adop ted in thd first schem e ba sed on da ta ana lysis, the po sition of cavities
+being found w ith sm a ller ca lcu la tion am oun t. B y ca lcu la ting geom etrica l average va lue of cavity
+size, the po sition of cavities w a s found in the second schem e.
+
+

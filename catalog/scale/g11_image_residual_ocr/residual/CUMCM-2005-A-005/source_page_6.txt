@@ -1,0 +1,30 @@
+: : FE bups ww equipcom]
+1 46 本 程 数 学 学 报 第 22 卷 5
+[7] 刘 圣 勇 . 一 维 水 质 模型 对 河流 污染 物 扩 散 的 简单 模拟 回 , 水 运 管理 ，2005,27(4):33-35
+i The Model of Evaluation and Forecast for :
+{ Yangtse River’s Water Quality :
+3 QIAO Cheng-jun, ZHANG Dong-hui, ZHANG Min ;
+Instructor: Instructor Group
+. (Science of Earth Institute, Chengdu University of Technology, Sichuan 610059 ) :
+站 Abstract: This issue focuses on making synthetical evaluation. calculation and controlling to Yangtse River's H
+i water quality. Firstly, disposing of all data into one category, then establishing changeable value function, and :
+: defining the pollution value of four items water quality indexes. We carry on dynamic additional power and ‘
+: putting the water quality each month in oder which about Yangtse River's seventeen observatories according to E
+H the indexes of water quality pollution. While calculating the development trend to twenty-eight months water
+
+i pollution through Borda method of decision-analysis methodology, making analyze to the proportion change 1
+between drinking water ( [ IIlllcategory) and sewage (IV Vcategory) and establishing the weather calculation 1
+pattern of discharge sewage volume and time, to get the discharge sewage volume of the future ten years, also we 5
+， build the secondary gender regression calculation pattern about drinking water and sewage with total volume :
+H and discharge sewage volume. The results showed that, the drinking water’s proportion decreased year after
+了 year and water pollution became more and more serious. Concerning the sewage treatment volume in the ten 3
+| years future, we can get the limited sewage volume of Yangtse River on the basis of the questoin Three and
+
+i subtract calculation sewage volume to defin. §
+和 Keywords: Borda method; ashy calculation; secondary gender regression calculation; primary dimensional ;
+; water quality pattern i
+F ;
+|
+
+1
+站

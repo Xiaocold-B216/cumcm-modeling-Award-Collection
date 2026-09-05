@@ -1,0 +1,36 @@
+updatedx =D * math.exp(b*1) * math.cos(2.0* math.cos(2* math.pi* ])) + _x
+if updatedx <min_values[j] or updatedx > max_values[j]:
+updatedx = (max_values[j]-min_values[j]) *np.random.rand()+min_values[j]
+poss_sols[i] []] =updatedx
+poss_sols=poss_sols.astype(object)
+poss_sols[:, 1]=poss_sols[:, 1].astype(np.int)
+#poss_sols[:, 2]=poss_sols[:, 2].astype(np.int)
+fitnessi = fitness(poss_sols[i])
+if fitnessi < global fitness :
+global_fitness = fitnessi
+gbest =poss_sols[i]
+trace.append(global_fitness)
+print ("iteration”,it," f(x) =",global_fitness)
+return gbest, global_fitness,trace
+def fitness(parameter):
+gbm = 1gb.LGBMClassifier(learning_rate=parameter[0], n_estimators=parameter[1])
+fitness = cross_val_score(gbm, X, Y, cv=S)mean() # 五 折 交 叉 验 证 并 取 均 值
+fitness = 1 - fitness
+return fitness
+gbest, fitness,trace=woagbm (fitness,2,100,50)
+print( 最 优 解 为 fitness)
+print( 最 优 位 置 为 ， ,gbesb
+gbm =1gb.LGBMClassifier(earning rate=0.24725041153210095,n_estimators=37)
+gbm imerge20 pre =cross_val_score(gbm, X, Y, cv=5,scoring=precision_macro').mean()
+gbm_merge20_rec = cross_val_score(gbm, X, Y, cv=>5,scoring=Tecall macro’).mean()
+gbm_ imerge20 fl =cross_val_score(gbm, X, Y, cv=5,scoring='{]1 _macro').mean()
+gbm_merge20_acc = cross_val_score(gbm, X, Y, cv=5,scoring=accuracy').mean()
+gbm .fit(X, Y)
+pred = gbm .predict(dataa)
+#MLP
+MLP = MLPClassifier(solver='1bfgs', alpha=le-5,hidden _layer_sizes=(50, 50), random_state=1)
+MLP_merge20_pre = cross_val_score(MLP, X, Y, cv=5,scoring=precision_macro').mean()
+MLP merge20 rec = cross_val_score(MLP, X, Y, cv=5,scoring="recall_macro').mean()
+MLP_merge20_f1 = cross_val_score(MLP, X, Y, cv=5,scoring=1{l_macro').mean()
+MLP_merge20_acc = cross_val_score(MLP, X, Y, cv=5,scoring="accuracy').mean()
+34

@@ -1,0 +1,31 @@
+paper_id: CUMCM-2014-C-C1951
+year: 2014
+problem: C
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014C：生猪养殖场经营管理的研究 (2)/C19510015_杨金洪_洪嘉远_谢思霞.pdf
+  sha256: 19BFFCC3BF0D53CB1C0F3F1BBF76A433CB2398A20D85D2E7B030924B54DF36B6
+authority_sha256: 19BFFCC3BF0D53CB1C0F3F1BBF76A433CB2398A20D85D2E7B030924B54DF36B6
+paper_file_memberships:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014C：生猪养殖场经营管理的研究 (2)/C19510015_杨金洪_洪嘉远_谢思霞.pdf
+  role: primary
+  canonical: true
+primary_file: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014C：生猪养殖场经营管理的研究 (2)/C19510015_杨金洪_洪嘉远_谢思霞.pdf
+extraction_inputs:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014C：生猪养殖场经营管理的研究 (2)/C19510015_杨金洪_洪嘉远_谢思霞.pdf
+  sha256: 19BFFCC3BF0D53CB1C0F3F1BBF76A433CB2398A20D85D2E7B030924B54DF36B6
+  kind: original
+extraction_input_sha256: 19BFFCC3BF0D53CB1C0F3F1BBF76A433CB2398A20D85D2E7B030924B54DF36B6
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 17
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true

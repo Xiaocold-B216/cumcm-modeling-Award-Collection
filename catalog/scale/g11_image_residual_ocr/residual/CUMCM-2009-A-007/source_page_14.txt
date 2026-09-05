@@ -1,0 +1,40 @@
+加 3
+区
+附录
+1. 求 一 个 圆 环 柱 体 的 的 转动 惯量 的 程序 fun1. m
+function y=funl(rl,r2, d, p)
+s=pi*(rl 2-r2°2);
+v=s*d; #7
+m=vkp; 一 S2
+gl1=mk(r1 2+r2 2)7/2; 二 \)
+y=gl; 2XG
+7
+2. 对 附 表 中 的 数据 进行 处 理 的 程序 fun2. m X )
+clear;clc; 4s
+J=35;tt=0. 01; p.
+k=13 人
+A=xlsread ( F:\Documents and Settings\Administrator\ 桌面
+\shumo\A2009data. xls ) ;
+a=h(:, 1) ;9 各 和 矩 9
+b=A(:,， 2) ;% 转 速 9
+e=hA (:5:3) 沿 时 间 4 维
+d=b 关 2#piV60% 角 速度
+e=a. *d; PR
+for i=1:467 \
+TEIINARA 1 i+1)-d(i)/t0);
+end
+cc=c db] 认
+fig T 7,
+<
+Sie (和 量 分 布 图 ) ;
+] LeJF0.01
+np :% 能 量 综合
+figure
+plot(c,a);
+title C 扭矩 变化 函数 ) ;
+figure
+plot(c,d);
+title( 角速度 变化 函数 ) ;
+figure
+plot (cc, IT) ;
+14

@@ -1,0 +1,44 @@
+EEEE
+10=t0+T(5);
+b2*(lj(i)-1)+D=1;
+c*(lj(i)-1)+1)=t0+T(4);
+%RGV 为 单个 偶数 CNC 上 料
+t0=tO0+T(O);
+b(C*(jGD)-D+2)=1;
+c*(lj(i)-1)+2)=t0+T(4);
+end
+[e,f,g,h] = oneStep( a,dT,Tt0,c );%a,t0,c 改变 为 f,g,h.
+el=[];f1=];g1=[;h1=(]; 二
+for i=1:4 一 从 >
+[zel,zfl,zgl,zh1] = oneStep( f(i),dT,T,g(i),h(i,:) ); 一 \)
+el=[el;zel];f1=[f1;zf1];g1=[gl;zg1];h1=[h1;zh1]; 2XG
+clear zel zfl zgl zhl p ood
+end Q
+e2=[];£2=(];g2=(];h2=(]; As NS
+for i=1:4 &
+for j=1:4
+[zel,2f1,2g1,zh1] = oneStep( £1(i).dT,T.gl(ijh1 (4*(-1)+,) );
+e2=[e2;ze1];f2=[f2;zf1];g2=[g2;zg1];h2=[h2:zh1];
+clear zel zfl zgl zhl o
+end [e]
+end %%
+e3=[];£3=(];g3=([};h3=(];
+fori=1:16
+for j=1:4 NN-
+[zel,2f1,zgl,zh1] = "站 tep(PGj),dTLTg2Gj),h2(4*(-DHj,) );
+Ce 攻 和 和 ee
+5 zfluz Zh1l
+end //
+end No
+ed=[J; shd=(];
+for i=1264  =
+forj=1:4
+[zel,zf1,2g1,zh1] = oneStep( £3(i),dT, T.g3(i.,j),h3(4*(i-1)+,:) );
+e4=[e4;zel]; 创 =[ 创 ;zfl]:g4=[g4;zgl];h4=[h4;zhl];
+clear zel zfl zgl zhl
+end
+end
+e5=[];£5=(];g5=[;h5=(];
+for i=1:256
+for j=1:4
+31

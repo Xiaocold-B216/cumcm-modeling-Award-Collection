@@ -1,0 +1,47 @@
+回 8 昌国
+Bdn
+省 二
+men(k.j,i+ 1=(M(i,k+3*(k-1))/100)*total(k)*(1-(M(i,k+3*(k-1)+1)/1000))-(1-t) *q*bili(i);%q*f1 *bili(1);
+elseif k==1
+women(k,j,i+1)=(M(i,k+3*(k-1)+2)/100)*total (k)*(1-(M(i,k+3*(k-1)+3)/1000))+r*(total(1)/(total(1)+total(
+2)))*q*bili(i);%q*f1*bili(1);
+men(k,j,i+1)=(M(i,k+3*(k-1))/100)*total(k)*(1-(M(i,k+3*(k-1)+1)/1000))+(1-)*(total(1)/(total(1 }+total(2
+N)*q*bili(i);%q*£1*bili(1)
+else
+women(k,j,i+1)=(M(i,k+3*(k-1)+2)/100)*total (k)*(1-(M(i,k+3*(k-1)+3)/1000))+r*(total(2)/(total(1)+total(
+2)))*q*bili(i);%q*f1*bili(1);
+men(k,j,i+1)=(M(i,k+3*(k-1))/100)*total(k)*(1-(M(i,k+3*(k-1)+1)/1000))+(1-)*(total(2)/(total(1 +total(2
+N*q*bili(i);
+end A7
+x1(kj,i)=women(k.j,i+1)+men(k,j,i+1); 全 NY
+end & 由
+else 2XG
+for i=1:90 ， ood
+ifk==3 SS
+oneuiiIMOaacDWogonethoou 帮 NS
+men(kj,itD=(L-MGTHEH3x(kcTD))1000)*men(kj-LDi-(1-D*dRbiliG);
+elseifk==1 3K
+women(k,j,i+1)=(1-M(i,3+k+3*(k-1))/1000)*women(k j-1i)*+(total(1)/(total(1)+total (2))) **q*bili(i);
+men(kj,i+1)=(1-M(i, 1-+k+3%(k-1))/1000)*men(k.j-1,i)+(fotal(1)/(total(1)+total(2)))*(1-r)*q*bili(i);
+else O
+women(k,j,i+1)=(1-M(i,3+k+3*(k-1))1000)*wonien(k j-1,i)+(total(2)/(total(1)+total(2))) **q*bili(i);
+MO 人 reapoaeapooang
+end
+xldcjD=women(kj,iHD+Hmendis 林
+end
+oa ~ 下
+hi=b(:,k)/sum(b(:,k));
+em ”2 \V
+for i=1:35 7
+Fowonekiraxoonatinaotgnmnonaturaym
+1 人 cj, 过 4:
+endl 了 /AT 瑚
+womeo -s°
+men(k,j,1)=(1-s(k))*f:
+total(k)=sum(x1(k,j,))*+f:
+end
+j
+total
+sum(total)
+end
+18

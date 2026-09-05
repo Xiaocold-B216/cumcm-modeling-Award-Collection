@@ -1,0 +1,68 @@
+aa(jj,4)=TT4(ii);
+aa(jj,1)=(aa(jj,4)+1)/2;
+aa(jj,5)=TT5(ii)/2;
+aa(jj,6)=VTT2(ii);
+aa(jj,7)=aa(jj,6)+T(5)+T(7-mod(aa(jj,5),2));
+break;
+
+：
+科
+
+研
+
+交
+
+end
+end
+aa(m+1:m+3,4)=TT4';
+aa(m+1:m+3,2)=VTT1;
+for i=m+1:m+3
+aa(i,3)=VTT1(i-m)+T(4)+T(7-mod(aa(i,4),2));
+aa(i,1)=(aa(i,4)+1)/2;
+end
+[m,n]=size(aa);
+for i=1:m
+if abs(aa(i,7)-aa(GZN,6))<100
+aa(GZN,5:7)=aa(i,5:7);
+end
+end
+
+流
+
+end
+
+end
+else
+
+微
+
+信
+
+公
+
+众
+
+号
+
+clear T1 T2 TZ2 TZ1 TT4 TT5 VTT1 VTT2
+[m,n]=size(aa);
+for i=1:8
+for j=1:m
+if i==aa(j,5)*2
+TZ2(i,1)=aa(j,7);
+end
+end
+end
+for i=1:m
+for j=1:8
+if j==aa(i,4)
+%aa(i,3)=aa(i,2)+T(6)+T(4);
+TZ1(j,1)=aa(i,3);
+end
+end
+end
+T1=TZ1(find(TZ1~=0));
+T2=TZ2(find(TZ2~=0));
+72
+
+

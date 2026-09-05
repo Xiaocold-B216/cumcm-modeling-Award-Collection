@@ -1,0 +1,45 @@
+EiiEaE
+fEe
+回 只 RN
+P=8*T(4)/(T(4)+T(5));
+%lf E TJH
+D=[1,2,1,2,1,2,1,2];
+%RGV 当前 时 间
+t0=0;
+%RGV 当前 位 置 [1,2,3,4]
+a=1;
+%CNC 预计 加 工 完成 时 间
+b=zeros(1,8);
+% 初 始 路 径 选择 “ 从 >
+start=[ones(6,1),perms([2,3,4])]; - 一 \)
+=
+% 初 始 路 径 ood
+newstart=start';
+newstart=newstart(:); As
+for i=1:24 Q
+if newstart(i,1)==1 X
+newstart(i,2)=0;
+newstart(i,3)=newstart(i,2)+T(6)+T(4);
+newstart(i,4)=2*(newstart(i,1)-1)+1;,
+else AZ o
+iron );
+newstart(i,2)=newstart(i-1,2)+T(6)+d;
+newstart(i,3)=newsta 区 2)+T(O+T(4);
+newstart(i,4)=2*(newstart(i,1)-1)+1;
+end _—~ )
+end
+N=4;i=6;  _ ) V
+aa=newstart 3 Yi);
+oa L
+ssA
+aa=[a asde ms-
+QQ=pemms([1.2.3.4]);
+for i=1:24
+d=dT(abs(aa(4,1)-QQ(,1))+1);
+tQ(i)=t0+d;
+for j=1:4
+if QQ(i,1)==aa(j,1)
+if tQ(i)<aa(j,3)
+tQ(i)=aa(j,3)+T(6)+T(7);
+else
+92

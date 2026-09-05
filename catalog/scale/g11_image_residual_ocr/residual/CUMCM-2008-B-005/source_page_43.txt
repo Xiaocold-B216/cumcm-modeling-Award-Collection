@@ -1,0 +1,16 @@
+加
+凡生 和
+disp(pl1)
+disp( 拟 全 方程 如 下 ， )
+pl2=sprintft 国家 补助 一 (%d)X 学 费 义 家 庭 收 入 十 (6d)X 学 费 十 6d)X 家 庭 收入
+(69
+disp(pl2)
+全
+各
+数学 中 加
+ee
+WWW, 区 di 0. net
+—_—
+4 \V
+四
+40

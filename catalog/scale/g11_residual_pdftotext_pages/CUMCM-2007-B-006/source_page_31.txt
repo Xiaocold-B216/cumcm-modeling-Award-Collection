@@ -1,0 +1,162 @@
+else
+temp(n,2)=1;
+end
+else
+temp(n,2)=1;
+end
+temp(n,3)=k-j;
+else
+
+end
+elseif Lt1{i,2}==1
+temp(n,2)=1;
+else
+temp(n,2)=3;
+end
+temp(n,3)=k-j;
+else
+temp(n+1,1)=i;
+if Lt1{i,2}==2
+if (k-j)>40
+temp(n+1,2)=3;
+elseif (k-j)>20
+temp(n+1,2)=2;
+else
+temp(n+1,2)=1;
+end
+elseif Lt1{i,2}==1
+temp(n+1,2)=1;
+else
+temp(n+1,2)=3;
+end
+temp(n+1,3)=k-j;
+end
+S{t(j),t(k)}=temp;
+
+end
+
+end
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+ww
+
+流
+
+temp(n+1,1)=str2double(str(2:end));
+if L{i,2}==2
+if (k-j)>40
+temp(n+1,2)=3;
+elseif (k-j)>20
+temp(n+1,2)=2;
+else
+temp(n+1,2)=1;
+end
+else
+temp(n+1,2)=1;
+end
+temp(n+1,3)=k-j;
+end
+S{t(j),t(k)}=temp;
+end
+end
+end
+
+end
+for i=1:3996
+for j=1:3996
+if length(S{i,j})~=1
+temp=double(S{i,j});
+for k=1:size(temp,1)
+if temp(k,1)>1040
+temp(k,3)=temp(k,3)*2.5;
+else
+temp(k,3)=temp(k,3)*3;
+end
+end
+temp=T_SORT(temp',3,1)';
+for k=1:size(temp,1)
+if temp(k,1)>1040
+temp(k,3)=temp(k,3)/2.5;
+else
+temp(k,3)=temp(k,3)/3;
+end
+end
+S{i,j}=uint16(temp);
+end
+end
+end
+Time=zeros(3996,3996,'uint16');
+for i=1:3996
+for j=1:3996
+if length(S{i,j})~=1
+Time(i,j)=size(S{i,j},1);
+end
+end
+end
+TT=zeros(3996,3996,'uint8');
+for i=1:3996
+for j=1:3996
+temp=S{i,j};
+if temp(1,1)~=0
+for k=1:size(temp,1)
+if temp(k,1)>1040
+temp(k,3)=temp(k,3)*2.5;
+else
+temp(k,3)=temp(k,3)*3;
+end
+end
+TT(i,j)=min(temp(:,3));
+end
+end
+end
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+for i=1:3957
+for j=1:3957
+if length(S{i,j})~=1
+S{i,j}=T_SORT(S{i,j}',3,1)';
+end
+end
+end
+Time=zeros(3957,3957,'uint8');
+for i=1:3957
+for j=1:3957
+if length(S{i,j})~=1
+Time(i,j)=size(S{i,j},1);
+end
+end
+end
+TT=zeros(3957,3957,'uint8');
+for i=1:3957
+for j=1:3957
+temp=S{i,j};
+if temp(1,1)~=0
+TT(i,j)=temp(1,3);
+end
+end
+end
+
+29
+
+

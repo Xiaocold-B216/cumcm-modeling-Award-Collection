@@ -1,0 +1,45 @@
+下
+mEEER
+%best=[143  285 539 240 177 685 537 613];
+zb0=[best(2) best(1);best(4) best(3);best(6) best(5);best(8) best(7)];
+zb_x=[];
+for i=1:length(zb0(:,1))
+zb_x=[zb_x;wl2xj(xs2wl(zb0(i,:)))];
+end
+save c.txt zb_x -ascii
+clear zb0;
+%fu.m
+function f=fu(l)
+load -ascii c.txt; A7
+oa=I(1)*c(1,:); 全 NY
+ob=1(2)*c(2,:); 一 \)
+oc=1(3)*c(3,:); 2XG
+0d=1(4)*#c(4,); ood
+ab=ob-oa;
+ac=0c-0a; As
+cd=od-oc; 和
+bd=od-ob; X
+f(1)=dot(absc);
+f(2)=dot(ac,cd);
+f(3)=dot(cd,bd); @
+f(4)=dot(ab,bd); 人 9
+f(5)=norm(ab)-468.72; 从
+£(6)=norm(ac)-468.72;
+£(7)=norm(cd)-468.72; PR¢
+f(8)=norm(bd)-468.72; A nd
+return; ~ ¥
+Y%sa.m o ) V
+reT )
+Pass 人 asareaaa
+zb_y=| zb lbound{1};zb_bound {2};zb_bound{3};zb_bound{4};zb_bound{5}];
+TAO
+和
+Tn=1;% 有 最 低温 度
+E=[];% 能 量
+dE=[];% 能 量 差
+k=0;% 和 迭代 次 数
+]=length(D);
+L0=3:L1=1;% 随 机 扰动 范围 随 温 度 变化 ， 最 大 和 最 小 范围
+best=r;zx=mbFunction(r);
+while T>=Tn
+36

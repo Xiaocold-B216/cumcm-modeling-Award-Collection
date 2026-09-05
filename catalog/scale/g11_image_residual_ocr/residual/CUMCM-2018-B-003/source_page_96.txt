@@ -1,0 +1,44 @@
+回味
+多 二 是
+T2=sortrows(T2,1);
+TI1(C,D)=[];
+T2(,1)=[];
+[Tmin,T3]=max(T2);% 当 前 位 置 ;
+[ T6,VTTI,VTT2,TT4,TT5 ] = P01(T1,T2,T3,t0,dTT );
+t0=T6;% 当 前 时 间
+for ii=1:4
+forjj=1:4
+if TT4(ii)==aa(m-4+jj,1)
+aa(m-4+jj,3)=VTT1(ii);
+aa(m-4+jj,5)=TT5(i); -
+aa(m-4+jj,6)=VTT2(ii); 全 从 >
+aa(m-4-+jj,7)=aa(m-4+jj,6)+T(5)+T(7); 一 \)
+end 2XG
+if TT5(ii)==aa(m-8+jj,5) ood
+aa(m-8+jj,7)=VTT2(ii);
+end As
+end &
+oa 六 人
+aa(m+l:m+4,D)=TT4':
+aa(m+1:m+4,2)=VTT1;
+aa(m+l:m+4,.3)=aa(m+1:m+4,2)+T(4)+HT(G);
+aa(m+1:m+4,4)=aa(m+1:m+4, Pe) [e]
+end 和
+[m,n]=size(aa); 放
+aa(m-3:m,:)=[]; A nd
+[m,n]=size(aa); = ¥
+for i=m:- 1:m-15
+or ) 有 移动
+if RE
+\ aa(i,7)=
+end /A
+end 险
+bb=[];
+for i=l:m
+if aa(i,7)==0;
+bb=[bb,i];
+end
+end
+aa(bb,:)=[];
+[m,n]=size(aa);
+96

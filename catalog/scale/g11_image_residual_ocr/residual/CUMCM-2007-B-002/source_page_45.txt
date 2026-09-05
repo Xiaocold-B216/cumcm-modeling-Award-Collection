@@ -1,0 +1,41 @@
+回 成 革 动 国
+后
+0
+BRLLT]
+四
+{
+int a = i+l;
+cout << a << endl;
+}
+fout << endl;
+}
+}
+// 综合 处 理 时 间 ， 人 花费 ， 转 乘 次 数 。 并 将 结果 分 别 存 入 文件 中 。
+void Time Cost_BusChangeTimes_Pro 二
+-从 >
+int nStart, int nEnd, // E-" 和 目标
+/一
+点
+vector<LoadMessage> & AllLines, 人行 所 有 路 线
+信息
+vector<vector<int> > & AllBuses, // 所 有 公 汽
+站 信息 S
+vector<vector<vector<long> dCrossInfo // 任意 两 路 线 的
+交叉 信息
+)
+{ [o]
+char char_1[20]; 2 ee
+char char 2[20] ; 从
+itoa( nStart, char I, ;
+itoa( nEnd ，char 2, ;
+一 一
+string * pStril.=.new string(char 1);
+We string(char 2);
+cs ="("+ * pStr_1+"="+ % pStr 2+")";
+P fout ( (strPartName+“ 用 时 _ 费用. txt”).c_str() );
+vector<vector<int> > FeasibleSolve 2; // 二 次 转 乘
+TwiceBusChange (nStart，nEnd，FeasibleSolve 2, AllLines, AllBuses, RoadCrossInfo);
+vector<vector<float> > A
+= Time Cost Calculate (FeasibleSolve 2, AllLines);
+OutPutTime Cost Cal (fout, A);
+45

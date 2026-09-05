@@ -1,0 +1,43 @@
+end
+ifryshu<0
+yshu=0:
+end
+yshu
+ou
+3、 问题 3 MATLAB 程序 〈 物 料 编码 6004010256)
+leelear
+Toad flal txt
+Yeah;
+n=length(yt);
+yi-fulul;
+nesize(st1),
+alpha=0.5;
+stl_0-mean(y1(1:3));
+S2_0=501_0;s3_0%st1_0;
+stl(1)-alpha*s(1)+(1-alpha)st]_0;
+St2(1)=alphatstl (1)+ (1-alpha)*st2_0;
+SB()-alpha*si2(1)+ (1-lpha)*st3_0;
+fori=2n
+stl)=alpha*yt(+(1-alpha)*stlG-1;
+S12()=alpha*st] )+(1-alpha)*st2(i-1;
+St3G)-alpha*si26i)(1-alpha) st3Gi-1;
+end
+lswrteCuluatst1'522.583)
+EtL_Osi
+eaD-ED_OsD]
+-st3_0sG]
+st1-3491D+sl3;
+b=0,5¥alpha/(1-alpha) 2#((6-S*alpha)st1 -2%(5-4¥alpha) t2+ (4-3¥alpha)¥st3);
+=0.5%lpha’2/(1-lpha) 2(st1-2%02+53),
+yusatbic,
+fori=101:140
+ifryuGD>0
+yaGDryaGDe.15;
+end
+end
+forirlm
+ifyu(D<179
+yaGDryaDe1.25;
+end
+end
+四

@@ -1,0 +1,34 @@
+% 计算 三 角形 的 面积
+triangle = data.triangle:
+X = reshape(XYZ(triangle, 1)sizetriangle));
+Y = reshape(XY Z(triangle 2).size(triangle)):
+%7 = reshape(XY Z(triangle.3) size(triangle)):
+triangls area = 0.52abs(X(DAYC2RYCI) + XGAEIHNE) +
+PEOR(BIR(ENT
+%6 Jik th BTA A AESRESP T SUH RARH =FE
+tri ~ triangle(any(index(triangle).2).-y.
+tri_area = triangle_area(any(index(triangle).2));
+end
+function [rec._ratio, xyz, uvw data, XYZ] = me_integral(WORKING)
+% 提取 出 当前 有 效 工 作 界 面 《 由 有 效 三 角形 定义 ) 中 竟
+% 所 有 xyz 映射 到 uvw 的 射线 关系
+% (蒙特 卡 洛 法 ， 顺 便 就 完成 了 积分 )
+[data, XYZ. tristri_areal = get_data(WORKING);
+area =zeros(size(tr, 1),1);
+xyz = cell(size(tri)):
+vv = cell(size(iri);
+N=10000;
+fori = Lisize(tri,1)
+X=XYZ(riG2)D;
+Y=XYZ(rili32
+Z=XYZ(rii).3):
+1123 = rand(N.2);
+1123(t123(.Dttl23(:2)1.3) = [1, 1] - 123E123G,1)1236.2)°1,);
+tl123(send+ 1D) = 1-t123(.1)-t123(:.2 %#ok=AGROW>
+[syz_avw_vnatiol = cale tfastttl232XYZ
+xyzdi} = xyz_(-isnan(ratio),);
+uvw i} ~ uvw_(-isnanratio)..):
+area(i) = mean(-isnan(ratio));
+end
+assert(-any(isnan(area))):
+30

@@ -1,0 +1,34 @@
+vz=mm1/7085;
+f11=-1025%vz*g+mml*g;
+fy (6)=fy (5) ~zhunzhonglil (5) -f11;
+fx(6)=fx(5) ;
+phy (j)=atan (((2#fy (j=1)) -zhunzhonglil (j)) / (fx (j-1)%2)) ;
+else
+fy (§) =fy (j=1) ~zhunzhongli1 (§) ;% 准 重力 的 编号 从 浮标 开始 为 1
+fx(j)=fx(j-l) ;
+phy (j)=atan (((2#fy (j=1)) -zhunzhonglil (j)) / (fx (j-1)*2)) ;
+end
+if fy(j)《0
+break
+end
+end
+£111 {k}=fy;
+phyl {k}=phy;
+h1=sin(phy). *1
+H(k) =sum (h1) +h;
+k=k+1;
+phy=[];
+end
+[h min, u]=min(abs (18-H(:)))
+cshd=0. 3+u*0. 0001;
+jd=phyl fu] ;
+yy=0;
+xx=0;
+xx1=[1;
+yyl=[1;
+yfx=sin(phyl{u}).*1;
+xfx=cos (phyl {u}). *1;
+for i=length(yfx):-1:6
+yy=yy+yfx(i) ;
+yyl=[yyl, yy];
+XX=XX+Xfx(i) ;

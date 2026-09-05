@@ -1,0 +1,73 @@
+Ehis
+EeE
+wsn
+
+// 读 入 计 费 标准
+
+do {
+
+getline (fin，strCurrLine，ANm ) ;
+
+} while(strCurrLine == "");
+
+strPrice = strCurrLine;
+
+// 读 入 上 行路 线
+
+do {
+
+getline (fin，strCurrLine，ANm ) ;
+
+} while(strCurrLine == ""); 从
+=iK2
+=\SS
+
+string temp(strCurrLine, 0, 6); \
+
+2/ 一
+
+// 环形 线路 3
+
+if ( temp ==“ 环 行 : ”) 任
+
+{
+
+strUpLoad = 人; 全
+
+strDownLoad = ""; |
+
+strRoundLoad = string(strCurrLine, trCurrLine. length()) ;
+IsRoundWay 一 = true;
+
+} [o]
+
+// 开行 全 放下 二 区 (ej
+
+else if( temp == 2
+
+{
+
+strUpLoad ring(strCurrLine, 6, strCurrLine.length());
+strRoundLoad
+一 一
+LA] 征 路 线
+一 A)Y
+% getline(fin, strCurrLine,’ \n');
+下 Green ="");
+1 // strDownLoad = string(strCurrLine, 6, strCurrLine.length());
+
+}
+
+// 下 行 线路 是 上 行 线路 的 逆 方 向
+
+else
+
+{
+
+strUpLoad = strCurrLine;
+strDownLoad = "";
+strRoundLoad = ””;
+
+}
+
+55

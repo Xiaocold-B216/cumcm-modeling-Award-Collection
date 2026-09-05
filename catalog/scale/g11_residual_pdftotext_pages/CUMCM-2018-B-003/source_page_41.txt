@@ -1,0 +1,68 @@
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+for k=2:3
+d=dT(abs(ceil(T5(k-1)/2)-ceil(T4(k)/2))+1);%移动
+QT=QT+d;%移动到 T4k
+QT=max(QT,T1(T4(k)));%T4k 开始下料
+VT1(k,1)=QT;
+QT=QT+T(7-mod(T4(k),2));%T4k 下料完毕
+d=dT(abs(ceil(T4(k)/2)-ceil(T5(k)/2))+1);%移动
+QT=QT+d;%移动到 T5k
+QT=max(QT,T2(T5(k)));%T5k 开始下料
+VT2(k,1)=QT;
+QT=QT+T(7-mod(T5(k),2));%T5k 下料完毕
+if T2(T5(k))==0
+QT=QT;
+else
+QT=QT+T(8);%T51 清洗完毕
+end
+end
+if QT < T6
+T6=QT;
+VTT1=VT1;
+VTT2=VT2;
+TT4=T4;
+TT5=T5;
+end
+clear QT VT1 VT2
+
+流
+
+QT=QT+T(7-mod(T5(1),2));%T51 下料完毕
+if T2(T5(1))==0
+QT=QT;
+else
+QT=QT+T(8);%T51 清洗完毕
+end
+
+end
+
+微
+
+end
+end
+
+附录九：f204.m
+function [a,aa,t0] = f204( a,LJ,t0,dT,T )
+%初始路径获取
+for i=1:4
+if LJ(i)==3
+break;
+end
+end
+41
+
+

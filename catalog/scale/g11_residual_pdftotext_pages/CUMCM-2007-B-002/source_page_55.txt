@@ -1,0 +1,97 @@
+// 读入计费标准
+do {
+getline(fin, strCurrLine,'\n');
+} while(strCurrLine == "");
+strPrice = strCurrLine;
+// 读入上行路线
+do {
+getline(fin, strCurrLine,'\n');
+
+流
+
+} while(strCurrLine == "");
+
+交
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+string temp(strCurrLine, 0, 6);
+// 环形线路
+
+strUpLoad
+
+= "";
+
+strDownLoad
+
+= "";
+
+研
+
+{
+
+：
+科
+
+ww
+
+if ( temp == "环行：" )
+
+strRoundLoad = string(strCurrLine, 6, strCurrLine.length());
+IsRoundWay
+}
+
+= true;
+
+// 下行线路不是上行线路的逆方向
+{
+
+= string(strCurrLine, 6, strCurrLine.length());
+
+众
+
+strUpLoad
+
+号
+
+else if( temp == "上行：" )
+
+公
+
+strRoundLoad = "";
+// 读入下行路线
+
+信
+
+do {
+
+getline(fin, strCurrLine,'\n');
+
+微
+
+} while(strCurrLine == "");
+
+strDownLoad = string(strCurrLine, 6, strCurrLine.length());
+}
+// 下行线路是上行线路的逆方向
+else
+{
+strUpLoad
+
+= strCurrLine;
+
+strDownLoad
+
+= "";
+
+strRoundLoad = "";
+}
+
+55
+
+

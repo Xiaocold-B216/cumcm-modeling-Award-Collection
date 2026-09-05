@@ -1,0 +1,38 @@
+large = x.mean() + 3 * x.std{)
+
+return (x < small) | (x> large)
+yczhi = data0.agg({lambda x: box(x))
+yczhi_index = dataO[{yczhi.sum({axis = 1) > 100)].index
+yczhi_index
+data0.drop(yczhi_index, axis = 0, inplace = True)
+data0.shape
+PlotSpectrum(data0，' 附 件 一 光谱 数据 曲线 图 ')
+data_corr = data0.corr()
+data_corr
+data_std = data0.std()
+print{data_std.min(), data_std.max())
+(data_std<0.05).sum()
+max_min = data0.agg(lambda x: x.max() - x.min())
+print{max_min.describe())
+datal = data0.loc[:,max_min > max_min.mean() + 0 * max_min.std()]
+datal.shape
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler().fit(datal)
+data2 = scaler.transform(datal)
+data2 = pd.DataFrame(datal, index = datal.index)
+PlotSpectrum(data1，' 附 件 一 光谱 标准 化 处 理 后 数据 曲线 图 '
+from sklearn.manifold import lsomap
+isomap = lsomap(n_components = 3).fit(datal)
+data2 = isomap.transform{datal)
+print{data2.shape)
+plt.figure()
+plt.scatter(data2[:,0], data2[;,1])
+plt.show()
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+scores= []
+forn_clusters in range(2, 8):
+
+cluster= KMeans(n_clusters = n_clusters, random_state = 0).fit{datal)
+
+23

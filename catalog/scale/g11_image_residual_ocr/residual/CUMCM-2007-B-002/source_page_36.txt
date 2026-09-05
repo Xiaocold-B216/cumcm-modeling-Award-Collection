@@ -1,0 +1,44 @@
+回 成 革 动 国
+后
+0
+BRLLT]
+四
+if ( IsConnected )
+{
+int m = temp[0][0];
+int n = temp[0][1];
+int d = AllLines[n-1].LineInfo[m];
+for (k=0; k<temp.size(); ++k)
+{
+FeasibleLine[0] = nStart pos; FeasibleLine[1] = nCurLineName;
+FeasibleLine[2] = j ; FeasibleLine[3] = temp[k][0];
+FeasibleLine[4] = temp[k][1]; FeasibleLine[5] = te [2] ;
+FeasibleLine[6] = temp[k][3]; FeasibleLine[7] = ，
+FeasibleLine[8] = temp[k][5]; \
+2/ 一
+FeasibleSolve. push_back( FeasibleLiney) ;
+}
+}
+| 外
+} 全
+cout << FeasibleSolve.size() << endl;
+[o]
+if ( !FeasibleSolve. 2 (ee
+bHaveFound = true; 从
+return bHaveFound;
+}
+一 一”
+10.2.3 (文件 名 : ge.h)
+#ifndef _ROADMESSAGE H
+#define W&™
+#ie 人 string>
+& iclude<vector>
+using namespace std;
+// 线路 信息
+class LoadMessage
+{
+public:
+LoadVessage ()
+{
+nLineName = -1;
+36

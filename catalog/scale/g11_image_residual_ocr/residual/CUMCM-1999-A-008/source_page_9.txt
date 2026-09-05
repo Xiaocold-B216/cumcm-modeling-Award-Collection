@@ -1,0 +1,58 @@
+说
+24 数学 的 实践 与 认识 0 times
+S 对 模型 的 评价 和 改进
+
+本 文 所 阐述 的 模型 是 以 单位 期 望 效益 为 目标 的 更 新 报酬 定理 ”的 改进 与 推广 它 广泛
+适用 于 自动 化 车 床 的 管理 系统 , 但 只 能 是 单 道 工序 加 工 单一 零件 的 情况 , 却 对 扩展 到 多 道 工
+序 和 多 种 零件 的 复杂 车 床 管理 系统 产生 指导 意义 本 文 还 应 用 等 概率 法 对 等 册 隔 检查 方式
+进行 了 改进 , 利用 失效 概率 密度 函数 使 检查 间隔 符合 等 概率 分 布 , 使 模型 更 优 本 模型 对 可
+能 发 生 的 故障 损失 逐一 进行 了 细致 的 分 析 求 解 , 但 多 目 款 的 模型 方 召 比较 繁琐 , 于 是 本 模型
+、 汪 管 若 :站 全 e y 4 全
+选择 了 用 计算 机 进行 了 给 定 范围 的 穷 举 比较 法 琳 进 行 求解 £.
+
+N ea、 = 人 局 3 oa 昌 人 语 你
+
+在 假设 中 我 们 假设 检查 零件 时 如 检查 到 不 合格 零件 , 立即 停止 生产 ( 即 不 再 庆生 和 卫 合 格
+产品 ) , 而 实际 中 由 于 检查 时 间 不 容 忽视 ， 必然 会 多 产生 一 些 不 合格 产品 8 本 模 现 四 没有 考
+JE, 会 造成 一 些 误 回 兄 外 本 模型 没有 对 故障 及 维修 时 间 提 出 具体 要 相 平 鱼
+何 尽量 提高 生产 效率 问题 上 留 下 了 遗憾
+参考 文献 As
+[1] Sfiveks, 周 纪 世 ”概率 论 与 数理 统计 中 国 统计 出 版 社 &
+
+[2] % 俊 可 靠 性 工程 学 黑龙 江 科学 技术 出 版 社 vv 和
+[3] 沈 玉 波 , 冯 敬 海 可 修 系统 的 最 优 检测 更 新 模型 数学 的 实 洁 民 9 3
+O 〇
+The Optin um Che King and Replacing M odel for the
+SS
+Cutting Tool of thié, Automatic Machine Tool
+ol Pei REN Yi SIYong
+oj of Technology, Dalian 116024)
+
+Abstract 站 Ru analysis ofmore than 100 tmes breakdown of cutting tools on
+
+th over tool, the checking and replacingmodelhas been studied for cutting tool
+
+to maghi < one part continuously In this paper, by using of theD inspection method for
+
+\ he largesscale sample situation in the probability theory, it has been proved that the occurring
+
+law, o cutting tool's breakdown accords with the nomal distribution After figuring out the
+B/
+
+Ts span distribution function of the system process, the multiobjective function equation has
+
+een obtained in which the unit expected loss of the qualified part is taken as objective and the
+
+checking interval as well as the regular replacement interval for cutting tool are variables By
+means of enumeration and comparison methods to look for the solution on the m icrocomputer,
+
+the optm um checking interval and the op tinum rep lacing strategy for the cutting tool have been
+
+given w hich could bring out the op tinal econom ic profit in the system process Since the occur-
+
+ring law of cutting tool's breakdow n accords the nomal distribution, the mproved model has
+
+been presented by adop ting the regular unequal interval checking method and the better results
+
+than these of equal interval checking method are obtained
+> 1994-2008 C a Aca ic Journal Electronic Publishin; use. A hts reserve: tp://ww nki.net

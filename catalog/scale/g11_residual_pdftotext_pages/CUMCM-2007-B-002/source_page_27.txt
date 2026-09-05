@@ -1,0 +1,98 @@
+char
+
+char_2[20];
+
+itoa( nStart, char_1, 10 );
+itoa( nEnd
+
+, char_2, 10 );
+
+string * pStr_1 = new string(char_1);
+string * pStr_2 = new string(char_2);
+string strPartName = "("+ * pStr_1+"-"+ * pStr_2+")";
+(strPartName+"费用.txt").c_str() );
+
+ofstream fout_Time(
+
+(strPartName+"用时.txt").c_str() );
+// 直达
+
+vector<vector<int> > FeasibleSolve_1;
+
+// 一次转乘
+
+vector<vector<int> > FeasibleSolve_2;
+
+// 二次转乘
+
+交
+
+研
+
+ww
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+vector<vector<int> > FeasibleSolve_0;
+
+流
+
+ofstream fout_Cost(
+
+Direct_or_not( nStart, nEnd, FeasibleSolve_0, AllLines, AllBuses, RoadCrossInfo);
+OnceBusChange( nStart, nEnd, FeasibleSolve_1, AllLines, AllBuses, RoadCrossInfo);
+
+：
+科
+
+TwiceBusChange(nStart, nEnd, FeasibleSolve_2, AllLines, AllBuses, RoadCrossInfo);
+multimap<float, vector<int> > Cost_0 = CostCalculate( FeasibleSolve_0, AllLines );
+multimap<float, vector<int> > Cost_1 = CostCalculate( FeasibleSolve_1, AllLines );
+multimap<float, vector<int> > Cost_2 = CostCalculate( FeasibleSolve_2, AllLines );
+
+号
+
+multimap<float, vector<int> > Time_0 = TimeCalculate( FeasibleSolve_0, AllLines );
+multimap<float, vector<int> > Time_1 = TimeCalculate( FeasibleSolve_1, AllLines );
+
+众
+
+multimap<float, vector<int> > Time_2 = TimeCalculate( FeasibleSolve_2, AllLines );
+
+公
+
+fout_Cost << "起始点：" << nStart << endl;
+fout_Cost << "目标点：" << nEnd
+
+<< endl;
+
+fout_Cost << "###############################################" << endl;
+
+信
+
+fout_Cost << "直达情况下: " << endl;
+
+fout_Cost << "总共有：" << FeasibleSolve_0.size() << " 种" << endl;
+
+微
+
+OutPutCostCal(fout_Cost, Cost_0);
+
+fout_Cost << "###############################################" << endl;
+fout_Cost << "一次换乘下：" << endl;
+fout_Cost << "总共有：" << FeasibleSolve_1.size() << " 种" << endl;
+OutPutCostCal(fout_Cost, Cost_1);
+fout_Cost << "###############################################" << endl;
+fout_Cost << "二次换乘下：" << endl;
+fout_Cost << "总共有：" << FeasibleSolve_2.size() << " 种" << endl;
+
+OutPutCostCal(fout_Cost, Cost_2);
+
+27
+
+

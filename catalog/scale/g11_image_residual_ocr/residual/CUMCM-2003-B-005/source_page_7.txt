@@ -1,0 +1,28 @@
+口 | 到 口
+二 ”这
+第 7 期 露天 矿 生产 的 车 辆 安排 75 aa
+确定 较 优 的 铲 位 ,此 时 需要 进行 线性 规划 的 铲 车 安排 方案 数 会 大 大 增加 ,求解 的 时 间 会 较
+长 。 在 解 线性 规划 时 ,需要 考虑 多 解 的 情况 , 即 多 种 方案 均 可 取得 最 优 解 ,此 时 需要 根据 题
+目 要求 ( 兰 石 产量 优先 .总 运 量 最 小 .卡车 数 最 少 ) 取 得 相应 的 最 优 解 。
+模型 优点
+使 用 贪心 法 ,迅速 确定 铲 车 的 可 能 位 置 ;
+采用 线性 规划 的 思想 ,化 整 为 零 ,使 模型 简化 ,大 大 减少 了 计算 的 复杂 度 ;
+模型 缺点 :
+对 于 一 些 情况 ,可 能 存在 很 多 较 优点 ,使 用 贪心 法 后 不 能 有 效 的 减少 铲 车 的 安排 方式 ;
+解 线性 规划 过 程 中 存在 误差 ,导致 最 后 结果 会 有 细小 偏差 。
+参考 文献 : -多
+yAT
+[1] 施 光 燕 , 昔 加 礼 .最 优化 方法 [M]. 北京 :高 等 教育 出 版 杜 ,1999 H
+[2] 陈 挺 .决策 分 析 [M]. 北京 :科学 出 版 社 ，1987 ， SA
+[3] Churchman W. Introduction to Operations Research[M]. John 本 Son Inc,1985
+[4] Thomas H Cormen etc. The Introduction to 六 T Press, 2001
+The Arrangement of Vehicles 条 Exploitation
+YU Jun-bo, 外。 Xiao， CHU Yu-qiang
+io HAN Tie- min
+An University)
+Abstract : The main problem to 省 this paper is how to use the minimum amount of resource consumption.
+First Process，according to-the requirement of distance, production and content, select the best expl. Second Pro-
+cess, do linear res A combinations. Third Process, make concrete arrangement by the number of
+trucks on 0 greedy method.
+Keywords: Ko linear programming; times of transportation; arrangement of vehicles
+e

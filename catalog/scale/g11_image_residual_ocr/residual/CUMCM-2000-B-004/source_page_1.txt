@@ -1,0 +1,39 @@
+回 大 车 油 国
+本
+第 31 卷 第 1 期 数学 的 实践 与 认识 Vol31 N
+2001 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan_2001
+have the mathematicalmodel——amodel of indefinite output
+After designing themodel firstly we use the method of inproved mininal factors and the
+method of mproved algorithm to get an initial solution; Secondlywe use themethod of iteration
+and themethod of trial to adjust and modify it; Lastly we draw a conclusion
+钢管 订购 和 运输 策 咯 # >》
+一
+BUET, 会 昌盛 ， 吴 建 德 = 蛋
+指导 老 岳 。 张 用 党。 2
+(西北 工业 大 学 ， 西 安 710072) H
+编者 按 : N, -. N—
+小 运 购 费 , 建立 了 问题 求解 的 OCS 问 的 模型 具有 较 强 的 一
+般 性 , 适用 于 树 形 结构 的 通常 情形 值得 注意 的 是 , 模型 中 有 关 铺 设 贵 的 假设 和 表达 式 与 常见 情形 略 有 不 同
+摘要 : ”在 铺设 管道 为 一 条 线 的 情况 IT 由 于 变
+量 较 少 , 约束 条 件 大 都 为 线性 的 , 目标 函数 为 二 次 函数 , 所 以 利用 L ingo 软件 , 可 以 很 快 求 得 比较 满意 的 订购
+和 运输 方案 我 们 利用 M atlab 软件 , 对 所 得 到 的 数据 进行 拟 合 , 得 到 相应 的 反映 销 价 变化 对 总 费用 影响 的
+曲线 , 然后 比较 各 个 钢 厂 钢管 销 价 变化 对 总 费用 影 全 的 大 小 对 于 钢 厂 钢管 产量 上 限 变 化 对 总 费用 和 购 运
+计划 的 影响 ， 2 我 们 对 树 形 图 的 每 条 边 定向 , 建立 了 与
+铺设 管道 为 一 条 线 时 类 似 的 数学 模型 , 拓 列 丰 天 拓 广 了 模型 的 使 用 范围 在 论文 中 , 我 们 还 对 所 建立 的 模型
+的 优 缺 点 和 需要 改进 的 方向 进行 了 讨 放 “ )
+1 符号 说 明 和
+“5 钢 厂 en 钢管 的 最 大 产量 ;
+“ww 4 到 下 ,这 俩 铺设 管道 的 里 程 数 :
+cr owhle 运 到 4 ， 所 需 最 小 订购 和 运输 费用 ;
+. 0
+-Y ; 运 抵 4， 点 的 钢管 数量 , 不 含 路 过 4 的 部 分 ;
+六 六 运 到 4， 的 所 有 钢管 沿 4， 一 4 产 : 铺设 的 数量 ;
+] ~ 运 抵 4 的 所 有 钢管 沿 4 ,一 4 铺设 的 数量 :
+N 44 ): 树 中 4 的 度数 :
+“4 dd): 树 中 4 的 入 度 ;
+“4 dd): 树 中 4 的 出 度 ;
+“上 单位 钢管 1 公里 的 公路 运输 费用
+2 ”基本 假设
+根据 题目 的 要 求 , 并 为 达到 简化 问题 的 目的 , 我 们 有 以 下 假设 :
+1 假设 运 到 4， 的 钢管 , 只 能 在 4 六 :到 4 广 :之 间 包 含 4， 的 某 个 区 段 内 铺设 并 且 到 达
+2 © 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http:/Wwww.cnki.net

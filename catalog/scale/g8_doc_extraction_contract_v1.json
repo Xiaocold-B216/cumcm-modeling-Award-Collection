@@ -53,6 +53,13 @@
   ],
   "source_format": "legacy_binary_doc",
   "converter_version": "16.0.20228.20190",
+  "baseline_converter_version": "16.0.20228.20190",
+  "validated_converter_versions": [
+    "16.0.20228.20190",
+    "16.0.20326.20112"
+  ],
+  "active_converter_version": "16.0.20326.20112",
+  "converter_version_validation_evidence": "catalog/scale/g8_doc_converter_version_drift_semantic_review.json",
   "execution_context": "interactive_windows_desktop",
   "interactive_desktop_session_required": true,
   "headless_compatible": false,

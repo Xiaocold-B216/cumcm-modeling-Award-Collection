@@ -1,0 +1,71 @@
+T=skinT(113,8.344);
+%绘制稳态时的温度分布截面图，
+T=T(end,:);
+plot(x,T,'LineWidth',1.5),hold on;
+plot([0.0006,0.0006],[37,75],'r:','LineWidth',1.5),hold on;
+plot([0.0066,0.0066],[37,75],'r:','LineWidth',1.5),hold on;
+plot([0.0102,0.0102],[37,75],'r:','LineWidth',1.5),hold on;
+
+问题二程序：
+T2-1
+
+文件名称
+
+Que2.m 说明
+
+研
+
+clear, clc
+for d2 = 10:0.5:25
+
+：
+科
+
+T = skinT02(d2);
+if T(end) >= 47
+continue
+elseif T(55*60)>= 44
+continue
+
+号
+
+else
+
+disp(['d2 = ',num2str(d2),' is ok.']);
+
+众
+
+end
+
+figure
+hold on
+
+公
+
+end
+
+求解约束条件临界值
+
+交
+
+程序编号
+
+流
+
+axis([0,0.0152,37,75])
+
+信
+
+plot(skinT02(17.5),'m','LineWidth',2)
+plot([0,3600],[44 44],'k:','LineWidth',2)
+
+微
+
+plot([0,3600],[47 47],'k:','LineWidth',2)
+plot([55*60 55*60],[36.5 49],'k:','LineWidth',2)
+axis([0 3600 36.5 47.5])
+hold off
+
+28
+
+

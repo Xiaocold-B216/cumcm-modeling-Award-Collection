@@ -1,0 +1,38 @@
+forv= varargin
+switch lower(char(v))
+case fontsize
+set(gea), fontsize’, 22);
+case fontmame
+set(gea(), fontname’, imes new roman');
+end
+end
+end
+fastprint.m: 简易 绘图 输出
+% 本 文件 原名 fastprintm
+fanetionr = fastprintfilename)
+assert(isequal(elasstfilenamej'ehar) 。 |。 (isequal(class(filenamej'stringj 二 &&
+isscalartfilename))
+ifisstring(filename)
+filename = char(filename);
+end
+if numel(filename) >~ 4 && isequal(filename(end-3:end), png)
+filename ~filename(1:end-4);
+end
+filename = [filename,’ "datestr(now(), yyyy.mm.dd. HH_MM),"png’}:
+print(-dpng. 300" ilename);
+dispfilename);
+= @Qsystem(['open filename]);
+end
+10.2 附件 resultxlsx 数据
+Te xa vaa xz x2  Ya  zz x3 xs vs _z3
+M omw wom owe © @Gl 030 Zme OB 2T 7
+B ems  ew 3018 ED mzs nom -235 DO Wes mTs mes
+|
+pl -oo :1041 -30030 2 1BXS 。 209 WOT 86。 -和 9963 -19174 -294394
+日 (osa| an \owam A ei faie Ta e7 ssis 7e0s -天 三
+人 -62  eW -0029 Ad 一 600” 4207 -207175 El sis 3974 2610
+两 ”-oom tws om AE WE 205 -0 6 -9 15602 -2626
+@ Lm eme -向 o4 ell。 30365 4 -23056009 ED -4320327198 205913
+os B2 MXT IT mee @1 A0IT 6S 500
+7 es aWes WI 区 120 190 207154 AIG S6H 500  -25E2
+53

@@ -1,0 +1,45 @@
+回味
+多 二 是
+clear UTT SI ijk
+T3=aa(nmi,5);
+[ T6,VTTI,VTT2,TT4,TTS ] = f301( T1,T2,T3,10,dT,T,GZBH );
+t0=T6;% 当 前 时 间
+[m,n]=size(aa);
+for ii=1:3
+for jj=m:-1:1
+if TT4(ii)==aa(jj,4)
+aa(jj,3)=VTTI(ii);
+aa(jj,4)=TT4(i);
+aa(jj,1)=(aa(jj,4)+1)/2; 全
+aajj,5)-TT5(iD/2; = 从 >
+aa(jj,6)=VTT2(ii); 7 由
+adi7Faadi9OrTG)HTO-modeadi52) 忆 全
+break; ood
+end
+end As
+end &
+aa(m+1:m+3,4)=TT4"; X
+aa(m+1:m+3,2)=VTTI;
+for i=m+1:m+3
+aa(i,3)=VTT1(i-m)+T(4)+T(7-mod(aa(i4),2));
+aa(i,1)=(aa(i,4)+1)/2; O
+end %%
+ift0>GZZZ&&AAA=1
+clear T2 T1 人 VTT2
+[m,n]=size(aa), \ -
+fori=L8__ ¥
+for j=1;
+~ 3 Visr
+, T23i,1)=aa(j,7);
+X% w
+1 end
+N end
+for i=l:m
+for j=1:8
+if j==aa(i,4)
+T1(,1)=aa(i,3);
+end
+end
+end
+UTT=aa(:,6);
+84

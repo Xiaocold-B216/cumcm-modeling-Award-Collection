@@ -1,0 +1,58 @@
+print(len(varrypes),lentranges),lentborders),lentprecistons),lentcodes)slentscales))
+aeldb = ea.crtfld(Encoding, varlypes, ranges, borders, precisions, codes, scales) & WFI
+数 创建 译 码 和 矩阵
+vecennennnnnvcnnnnnnnrr 昌 人 和 法 参数 时 -cnnnennnccnnnnnnn
+NaND -1698; # BRERE
+axGeN = 366; 最 大 过 传代
+axeradns = [1] 列表 元 素 为 : 则 表示 对 应 的 目标 男 数 是 最 修 化 。 元 素 为-1 则 表示 对 应 的 目标 了 是 地 大 化
+ayormdns = mp.arraytnaxorains) 转化 junpy array 和 向量
+electstyle - “rus， 4 采用 多 和 过 和
+recstyle = "yovdp， # RAFAEL
+utstyle = mutbin。 。 EREASERRT
+Lind *。 nenp.sum(FieldDfe，:]))》 二 HRREIE
+pe = 9.5 交 驻 三
+四 = 1 1 Lind * 交 蜡 和
+bj_trace = np.zeros( (NAxGEN，2)) # ELHRAEAT
+artrace = mp-zeros((NAXGEN，Lind)) & 并 他 休 记 录 器 ， 记 录 而 人 总 人 个 休 的 中 公休
+vcennennnnnnnnvrnnennnnr 开 好 瑟 算法 进化 ceenenennnneennnennnr
+start_tine - tine.tine() 开始 计 时
+Chron 。 ea.crtpe (Encoding, NIND, Fieldd) + LAEHAEEH
+variable - ea.bezrd (Chrom, FieldD) & 1ELAE
+CV = np.zeros((NIND, 1)) # Wif—TCVIER (AMERERETEATRRORRS. BANBLTRY
+o BURAMERT70145)
+ea va list[- < 本 和
+Ve = voeasse(-1] De 人 AU
+print(V_a.shape[e]，V_c.shape[e]) < 720 DW
+sqw co wanew V_c_new = atnfuncleartable va veicV Ia 全 se 人 的 有
+数 信 AN\N)\ 7
+Fatnv < ea.ranking(Ob3V, CV, maxornins), & AUEIEACEA AE E
+本
+全 开始 进化 网 让
+for gen in tqdatrerietwle、 ©
+va pa ai
+1 Seat 一 本 -reconbtitretstyle，selch，PC) 于 组
+100 Se1ch ~es nutate utstyle, Encoding, Selch, mm) 。 将 中
+外 2 把 划 仙 有 菇 个 体 与 子 代 的 染色 体 进行 合并 ， 得 到 新 一 代 种 群
+Avatar anay
+phen 。 es.bs2r1(chrom，FieldD) # 对 各 了 行 胃 (二进制 轩 十进制)
+objw， cw VaneuL，Vc_nev_ = almfunctphen， \_a, V_c, C, NIND) & 水 入 个 休 的 目 要
+计 pmeantcv > 8:
+prtntt'cy ，8)
+四 Vanewo V_c_ew = V_av.c
+break
+Ratny - earankingtobjv，CV，maxorains) *# MAEHBIKAPEALAN
+vin
+best_ind - np.angmaxtFitnv) 计算 当代 最 人 个体 的
+bj _Eracefgen，9] = np-sum(obJy) / 0bJv-shape[e] ¢ 泥 于 当代 队友 的 有 和 孙 交 人
+bj _trace[gen， 1] = objv[best_ind] 。 这 录 当 代 将 好 做 个 休 目 本 人
+var_trace(gen, ©] = chroa[best_ind，:] & ERAHIRL HEDREK
+o isn
+end_tine < time.time() & 结 计 对
+ea.trcplot(obj_trace，[[ "种 群 个 体 平均 目标 函数 值 "，" 种 群 最 贷 个 体 惠 标 函 致 值 "]] ) # 绘制 图 像
+vaeaeenennnnnneeeennnnnenne 输 出 结果 ceoeeeeeennnnsnneeennnnns
+best_gen = mp-angmaxtobj_trace[:，[1])
+和 ao -= x A pred_Tiativesk -1 sum() + x.C_pred listrveek di - 1, 3 sum)
+Cost_previous =- C_trans * sum + C_store 。(VLa2_previous + VE2_previous)Tbest_gen]
+print( "调整 前 转运 、 仓 储 成 本 ，"，cost_previous)》
+print( "调整 后 转运 、 仓 储 成本，"，obj_trace[best_Ben，1])
+cost_pre .append(cost_previous)

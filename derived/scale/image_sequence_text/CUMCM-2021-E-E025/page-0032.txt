@@ -1,0 +1,37 @@
+rfitness4 = cross_val_score(clf, X, Y, cv=5,scoring=Tecall Imacro).mean0
+ffitness4 = cross_val_score(clf, X, Y, cv=>5,scoring=f1 macro').mean()
+afitness4 = cross_val score(clf, X, Y, cv=5,scoring=accuracy').mean()
+clf.fit(X, Y)
+pred = clf.predict(dataa)
+gbm =lgb.LGBMClassifier(learning_rate=0.19681498709141632,
+n_estimators=225)
+gbm_merge20_pre =cross_val_score(gbm, X, Y, cv=5,scoring=precision_macro').mean()
+gbm_merge20_rec = cross_val_score(gbm, X, Y, cv=5,scoring=Tecall macro’).mean()
+gbm_ merge20 fl =cross_val_score(gbm, X, Y, cv=5,scoring="{]_macro').mean()
+gbm_merge20_acc = cross_val_score(gbm, X, Y, cv=5,scoring=accuracy').mean()
+gbm.fit(X, Y)
+pred = gbm.predict(dataa)
+HHHHHHHHHHRH FR 3, SEFME 2
+dataa = pdread_excel(Q3 1 20 填 袁 xlsx)
+# 合 并 特征
+data 3 1 1 =pdread excel(Q3 1_feature 20:xIsx')
+data 3 1 20= data 3_1 I[~data 3_1 _1[OP].isna()] # 正则 方式 除去 空 标签 值 《sheetl )
+X=data 3 1 20.loc[:,:-1] :并 特征
+Y =data 3 1 20.iloc[s,-1]  # 预测 目标
+# 数据 集 划 分
+X_train, X_test, y_train, y_test =train_test_split(X, Y,test_size=0.25, random_state=0) # 数据 集 划 分
+# RF 五 折 交 叉 验 证
+cf =RandomForestClassifier(n_estimators=100, max_depth=None,
+min_samples_split=2, random _state=0)
+RF_merge20_pre = cross_val_score(clf, X, Y, cv=5,scoring="precision_macro').mean()
+RF_merge20_rec =cross_val_score(clf, X, Y, cv=>5,scoring=Tecall macro').mean()
+RF_merge20_f1 =cross_val score(clf, X, Y, cv=5,scoring=f1 macro').mean()
+RF_merge20_acc =cross_val_score(clf, X, Y, cv=5,scoring='accuracy’).mean()
+clf.fit(X, Y)
+pred = clf.predict(dataa)
+#SVC
+tuned_parameters = [{'kernel': (linear, 'tbf!, 'sigmoid’), 'C": np.logspace(
+-3, 3, 13), 'gamma’: np.logspace(-3, 3, 13)}] # 备 选 参数 列表
+opt_clf = GridSearchCV(SVC(), tuned_parameters)
+opt_clf.fit(x_train, y_train)
+31

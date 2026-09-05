@@ -1,0 +1,47 @@
+paper_id: CUMCM-2017-B-006
+year: 2017
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (5).pdf
+  sha256: 61CDA5C0DD3460DD96D182A5EC8DB098E61A79DF1DED0569A95FDECF6C354209
+authority_sha256: 61CDA5C0DD3460DD96D182A5EC8DB098E61A79DF1DED0569A95FDECF6C354209
+paper_file_memberships:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (5).pdf
+  role: primary
+  canonical: true
+primary_file: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (5).pdf
+extraction_inputs:
+- path: 2017年数学建模国赛真题+优秀论文/2017年优秀论文/2017B：“拍照赚钱”的任务定价 (5).pdf
+  sha256: 61CDA5C0DD3460DD96D182A5EC8DB098E61A79DF1DED0569A95FDECF6C354209
+  kind: original
+extraction_input_sha256: 61CDA5C0DD3460DD96D182A5EC8DB098E61A79DF1DED0569A95FDECF6C354209
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 45
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["33", "36", "38", "39", "43"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-B-006/source_page_33.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-B-006/source_page_36.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-B-006/source_page_38.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-B-006/source_page_39.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2017-B-006/source_page_43.txt"]
+  source_sha256: 61CDA5C0DD3460DD96D182A5EC8DB098E61A79DF1DED0569A95FDECF6C354209
+  current_body_sha256: 979A70C1E9453DA376F40658BEF5DD13B74946DE4E7821B40F7BF0E6AAC78708
+  candidate_body_sha256: 86823A24C555358151351AD2FF144E44AD8B71CC3FC0019FD16EC32F79BA75E9
+  source_page_count: 45
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

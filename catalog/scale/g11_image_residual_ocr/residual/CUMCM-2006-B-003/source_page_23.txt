@@ -1,0 +1,85 @@
+ERE
+号 CEM,
+1
+
+X=[ones (size(xl), 1), x1, x2] ;
+
+%stepwise(x, y) ;
+
+[bl, bintl, r1, rintl, sl1]=regress(y,X) ;%regress of cd4 after sort
+
+xx=-10:80;
+
+yy=b1(1)+b1 (2)*xx+b1(3)*xx. "2;yyn=max (yy) ;
+
+xxn=(sqrt (b1(2) "2-4%b1 (3)*(b1 (1)-yyn))-b1(2))/(2%b1(3)) ;
+
+plot (xx, yy)
+
+max (yy)
+
+%plot (data2(:, 2), data2(:,3),”.");
+
+hold on
+
+x3=data2(:,4); “
+
+x4=data2(:,4).2; 二 <
+
+y2=data2(:,5)#50; %enlarge y2 to “50*#y2” so it 全 \
+
+%will be clearer when ploted with yy; 全
+
+xs=[x3, x4] ; 从 一
+
+Xs=[ones (size (x3), 1), x3, x4] ;
+
+%stepwise(x,y);
+
+[b2, bint2, r2, rint2, s2]=regress(y2, Xs) ;%regress o av T Sort
+
+xx=-10:80; 7
+
+yy=b2(1) +b2 (2) *xx+b2 (3) *xx. "2;yyn=min (yy) ;
+
+xxn2=(sqrt (b2 (2) "2-4%b2 (3) * (b2 (1) ~yyn) ) -b2(2)) / (2%b2 (3) ) ;
+
+plot (xx, yy) 和 @
+
+min(yy) 4 (ej
+
+grid 和 和 A
+
+text (60, 320，\leftarrow HIV ) ;
+
+text (60, 105," \leftarrow ;
+
+title CHIV and CD4 ) ;
+
+xlabel( date (weelgs 7
+
+ylabel( HIV#*50 o ’ ai
+
+hold off “%, A'a
+
+Ko “2;xt3=1./(xtl+l) ;yt=data2(:,5) ;
+
+xt=lxtd, xt2];
+
+AS ze(xtl), 1), xtl, xt2, xt3] ;
+
+%s h 1se(xt, yt) ;
+
+[b3, bint3, r3, rint3, s3]=regress(yt, Xt) ;
+
+xx=0. 0000001:300;
+
+yyt=b3 (1) +b3 (2) #xx+b3 (3) *xx. "2+b3 (4). / (xx+1) ;
+
+figure(2);
+
+plot (xx, yyt)
+
+hold on
+
+21

@@ -1,0 +1,74 @@
+工
+
+100
+
+程
+
+数
+
+学
+
+学
+
+报
+
+第 19 卷
+
+of buses ”
+file in and out ”
+during aperation period while we have mainly doue t he research on t he uneven variation of t he passenger
+flow in time and space ,t he research on t he laws of how to dispatch buses and we have established a target planning model which has
+realized t he dispatching plan of ”
+some early and some late ”and when t here are more ,when t here are fewer . Under t he circum2
+stances of ensuring certain banefits and t he satisfaction of passengers ,t he overall operating time of t he buses in operation has been
+made t he shortest ,t he dispatching timetable has been got ,while t he number for t he least buses is 42 and t he ratio of satisfaction be2
+tween passengers and bus companies is 0. 48 :0. 46
+Key words :Bus Dispatching ; Passenger Flow ; Target2Planning
+
+流
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+交
+
+( 上接 94 页)
+
+FU Chang2jian
+Advisor :
+
+研
+
+Optimization of Dispatching Buses
+Yang Cai2xia
+
+Qin Min
+
+CHEN Jin2min
+
+：
+科
+
+( SiChuan University , Chengdu 610064)
+
+Abstract :It is to find out t he best way to dispatch buses. We set a optimized model whose target function is t he profit of bus com2
+pany. At t he same time , it guarantee t he proportion t hat t he passengers waiting for t heir buses more t han 10 min (or 5 min) in t he
+total is less t hanα given before. First , every station’
+s nonparameter distribution function about t he number of passengers is fitted by
+met hod of least squares. We use a simple met hod to estimate t hat at least 43 buses are needed , and t hen , we use Maple to get t he
+
+号
+
+optimal solution refer to it . It shows t he best plans for dispatching buses in different conditions of t he number of passengers. It can
+help bus companny to get t he top profit , meanwhile t he passengers may not wait for t heir bus for a long time. In t he end , we evalu2
+ate and popularize t he model , and point out t he effective way to improve it .
+
+微
+
+信
+
+公
+众
+
+Key words : dispatching buses ; optimized model ; mat hod of least squares
+
+

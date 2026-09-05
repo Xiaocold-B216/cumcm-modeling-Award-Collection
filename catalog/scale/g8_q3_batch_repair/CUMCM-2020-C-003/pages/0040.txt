@@ -1,0 +1,1 @@
+人 总 o 37. [m,~]=find(data(:,1)==class5(i,1)); 38. result(j,:)=data(m,:); 39. J=+1; 40. end 41. xlswrite( "第 三 题 分 类 结果 ',result，A2:L211')? 7 全 < > -你 & 和 自 %° 一 一 AL Xe

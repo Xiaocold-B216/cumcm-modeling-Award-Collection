@@ -1,0 +1,99 @@
+7. 参考文献
+
+附录一：龙贝格积分 matlab 程序
+
+：
+科
+
+%=================
+
+研
+
+8. 附录
+
+交
+
+流
+
+[1] 付昶林.倾斜油罐容量的计算[J].黑龙江八一农垦大学学报，1981：43-52
+[2] 刘玉娟，陈应祖，卢克功.龙贝格积分法及其应用编程[J].重庆科技学院学报，
+2007（3）:97-100
+[3] 高恩强，丰培云.卧式倾斜安装圆柱体油罐不同液面高度时贮油量的计算[J].
+山东冶金，1998（2）：26-28
+[4] 管冀年，赵海.卧式储油罐内油品体积标定的实用方法[J].计量与测试技术，
+2004（2）：36
+[5] 姜启源. 数学模型（第三版）[M].北京：高等教育出版社，2003，59-121
+[6] 施光燕，董加礼.最优化方法[M].北京：高等教育出版社，1999,63-107
+
+%
+% SYNOPSIS:
+%
+R = romberg(f, a, b, n)
+
+号
+
+function R = romberg(f, a, b, n)
+format long
+% ROMBERG -- Compute Romberg table integral approximation.
+
+/b
+
+I=|
+
+信
+
+%
+%
+%
+
+公
+
+众
+
+%
+% DESCRIPTION:
+%
+Computes the complete Romberg table approximation to the integral
+
+f(x) dx
+
+微
+
+%
+/
+a
+%
+% PARAMETERS:
+%
+%
+%
+
+f
+
+- The integrand. Assumed to be a function callable as
+y = f(x)
+with `x' in [a, b].
+
+%
+%
+%
+
+a
+b
+n
+
+- Left integration interval endpoint.
+- Right integration interval endpoint.
+- Maximum level in Romberg table.
+
+%
+% RETURNS:
+%
+R
+- Romberg table.
+
+Represented as an (n+1)-by-(n+1) lower
+
+- 17 -
+
+

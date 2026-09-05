@@ -1,0 +1,37 @@
+data0.iloc[:,0].isnull().sum()
+data0.iloc[:,0].value_counts().sort_index()
+data_X = data0.iloc[:,1:]
+print{data_X.shape)
+data_X = pd.DataFrame(data_X.iloc[:,1:].values - data_X.iloc[:,:-1].values, index = data0.index)
+print{data_X.shape)
+print{data_X)
+data_y = data0.iloc[:,0]
+print{data_X.shape, data_y.shape)
+printff 缺失 值 个 数 : {data_y.isnull().sum()}1~")
+data_y.fillna(0, inplace = True)  # 暂时 用 0 填充 缺失 值
+print(f 缺 失 值 个 数 : {(data_y == 0).sum()} 个 ))
+# 转换 为 整数
+data_y = data_y.astype('int')
+# 保留 缺失 值 的 索引 号
+gsz_index = data_y[data_y == 0].index
+gsz_index
+def my_plot(x):
+plt.plot{x.index, x.values, linewidth = 0.5)
+def PlotSpectrum(data, str0):
+fontsize = 5
+pltfigure(stro, figsize = (5, 3) dpi = 300)
+plt.xticks(range(0, 4001, 500), rotation = 45, fontsize = 5)
+plt.yticks(fontsize = fontsize)
+plt.xlabel( 波 段 , fontsize = 6)
+plt.ylabel(' 吸 光度 ,fontsize = 6)
+plt.grid{True)
+data.agg({lambda x: my_plot(x), axis = 1)
+plt.show()
+Plotspectrum(data0.iloc[:,1:]，' 附 件 二 光谱 数据 曲线 图 ')
+PlotSpectrum(data_X, ' 附 件 二 一 阶 平滑 后 数据 曲线 图 '
+max_min = data_X.agg(lambda x: x.max() - x.min())
+print{max_min.describe())
+datal = data_X.loc[:,max_min > max_min.mean() + 0 * max_min.std({)]
+# datal = data_X
+print{data_X.shape, datal.shape)
+25

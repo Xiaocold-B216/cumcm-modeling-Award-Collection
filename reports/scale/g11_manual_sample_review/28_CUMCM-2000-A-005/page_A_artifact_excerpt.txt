@@ -1,0 +1,52 @@
+paper_id=CUMCM-2000-A-005
+page_number=1
+page_classification=FIRST_PAGE_FROM_FROZEN_PAGE_COUNT
+source_path=2000年数学建模国赛真题+优秀论文/2000年国赛优秀论文/2000A：DNA分类模型.pdf
+source_sha256=FB22E1231902AA036AE4EA61EA9948CA636F2B780A29A5AD487B092251B25EA0
+persisted_page_text_path=NOT_AVAILABLE_FOR_THIS_STRATUM
+
+=== PERSISTED PAGE TEXT (READ-ONLY EXISTING EVIDENCE) ===
+[No page-local persisted text is available; no new extraction was run.]
+
+=== FORMAL ARTIFACT CONTEXT WINDOW ===
+# Extracted Paper
+
+<!-- source_page: 1 -->
+
+
+
+<!-- source_page: 2 -->
+
+
+
+<!-- source_page: 3 -->
+
+
+
+<!-- source_page: 4 -->
+
+
+
+<!-- source_page: 5 -->
+
+
+
+<!-- source_page: 6 -->
+
+
+
+<!-- source_page: 7 -->
+
+
+
+<!-- source_page: 8 -->
+
+
+
+<!-- source_page: 9 -->
+
+
+
+
+=== HUMAN REVIEW NOTE ===
+This file prepares evidence only. It is not a human review decision.

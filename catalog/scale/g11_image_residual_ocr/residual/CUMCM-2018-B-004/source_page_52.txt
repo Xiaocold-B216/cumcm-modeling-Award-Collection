@@ -1,0 +1,47 @@
+EiiEaE
+Ja ¥ . = i1
+EIEEHER
+title(' 情 况 1 下 各 方法 成 料 数 条 形 图 );
+%% 情况 2 下 的 作 图
+Work=[400+378,280+500,455+182];
+Way1=[253,211,243];
+Way2=[235,202,240];
+Switch=[28+31,30+35,27+32];
+Ideal=28800./(Work+Switch)*8;
+y=[Way1' Way2',Ideal’];
+b=bar(y);
+for k = 1:size(y,2)
+b(k).CData = k;
+end A7
+legend( 方 法 一 "方法 二 "理想 情况 =
+xlabel(' 组 别 J) 一 \)
+yiabel( 成 料 数 2G
+title(' 情 况 2 下 各 方法 最 优 方 案 成 料 数 条 形 图 ); ood
+模型 的 检验 的 代码 任
+ModelTest.m &
+% 模 型 检验 的 代码 AR
+clear;clc;
+%% 计时
+tic @
+%% 输入 不 同 组 别 参数 $O, ©
+Move=[0,20,41,46];
+Work=[455,500]; A
+ions 人吉
+Wash=25; A nd
+%96 预 设 系统 情况 ~
+Re  , mi 是 情况 2 下 的 最 优 方案
+Position=1;% 记 录 RGV 揭 位 置 ， 取 值 为 1~4
+Left=zer y 录 8 台 CNC 当前 工作 剩余 完成 时 间 ， 等 待 时 为 0
+oonedas6 ac sn 人 0 为 无 ，1 为 有
+Timesgkx 条 统 运行 时 间
+ECEDiE(4.8);% 预 计时 间 ， 第 一 行为 预计 运动 时 间 ， 第 二 行为 预计 等 待 时 间 ， 第 三 行为 预
+计 几 让 凋 时 间 ， 第 四 行为 前 三 项 之 和
+Now=1;% 当 前 RGV 目标 工序 ， 取 值 仅 为 1 或 2
+Error=[];% 记 录 故 障 信息
+Rec=[];% 记 录 每 个 工件 的 上 下 料 信 息
+%% 遍历 所 有 刀具 分 布 情况
+while Time<=28800
+fori=1:size(Errop1)% 检 查 错误 信息
+if Time>=Error(i,3) && Time<=Error(i,4) && Errorl;5)==0% 故 障 已 发 生
+Errorlj5)=1;% 标 记 为 已 处 理
+52

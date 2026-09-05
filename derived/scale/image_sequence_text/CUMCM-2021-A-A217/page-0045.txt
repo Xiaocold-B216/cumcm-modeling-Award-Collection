@@ -1,0 +1,33 @@
+adL_dLfindes) = 1/2.*sin_angle(index)):
+ddelta_dangle = 2.*RF*LF*2.*cos_angle ysin_angler
+dL_dangle = -Lf/cos2_angle.*cos_angle - L/cos2_angle.*2.¥cos_angle.*-
+sin_angle;
+dL dangle = dL_dangle+l.eos2_angle.*0.5.sqrttdelta) ,rddelta_dangle:
+dL_dangle(index) = -L(index). sin_angle(index) *cos_angle(index);
+end
+function [abr dalpha, dbeta, dr] = xyz2abr(XYZ)
+% 和 卡尔 坐标 转 极 坐标
+% 给 出
+% abr  : [alphabetar]
+% dalpha dalpha}/d{[X Y Z]}
+%  dbeta: d{betab/d{[X Y Z]}
+% dr dmAXY Z))
+X =XYZ(: 1);
+¥ =XYZ(:2);
+Z=XYZG3%
+nomm2 sq = X.AX+YAY;
+iom3 -二 三 norm2 sq+Z.47;
+Tomm2 = sqrtnorm2_sq);
+norm3 = sqri(norm3_sq);
+nom3;
+beta = asin(-Z_D;
+alpha = acos(-X./norm2);
+alpha(Y>=0) = 2*pi-alpha(¥>=0);
+alpha(-nom2) = 0;
+abr = [alpha, beta, 下
+ifnargout =- 1
+retum
+end
+ZEROS = zeros(size(Z)).
+dnorm2_sq = 2.*[X Y ZEROS];
+45

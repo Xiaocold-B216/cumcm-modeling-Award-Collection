@@ -1,0 +1,80 @@
+生的平均拨款
+double shehui[] = {1010504.37,991895.28,983120.54,1035431.7}; //四年社会
+对平均每所学校捐款
+double feixue[] = {11401658.5,12464827.26,14265520.64,18629153.18}; //学
+校非学费事业收入
+double feiyong[] = {82564836.9,97231012.7,111615689.17,143001384.57}; //
+学校每年总费用
+public double studuan(double f1,double w){
+double v = 0.0;
+double temp = 0.0;
+
+//学生短期目标函数
+
+交
+
+流
+
+if(f1==4000){
+f1 = 4001;
+}
+v=1-f1/w;
+
+：
+科
+
+数学中国
+www.madio.net
+号
+
+return v;
+
+}
+
+研
+
+temp = (max-f1)/(max-min);
+System.out.println(temp);
+temp = temp/0.63;
+v = (v+temp)/2;
+if(v>=1){
+v = 0.99;
+}
+
+//学校短期目标函数
+
+公
+
+众
+
+public double xueduan(double f){
+double v = 0.0;
+double max = 10000.0;
+double min = 4000.0;
+
+信
+
+v = (f-min)/(max-min);
+return v;
+
+微
+
+}
+
+public double zhengduan(double f,double f2){
+double v = 0.0;
+
+//政府短期目标函数
+
+v = 1-f/f2;
+v = (0.63+v)/2;
+return v;
+}
+public double dongtai(double f){
+double v = 0.0;
+
+//动态加权函数
+
+33
+
+

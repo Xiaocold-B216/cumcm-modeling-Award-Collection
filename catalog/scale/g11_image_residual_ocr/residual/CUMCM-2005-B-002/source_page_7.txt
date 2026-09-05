@@ -1,0 +1,55 @@
+医 ERLhtpywwwcqvipcom
+第 7 期 F%5%%: DVD 在 线 租赁 系统 的 优化 设计 91
+员 消 费 ， 从 而 影响 网 站 的 经 济 利益 。 一 次 租赁 3 张 的 方式 对 于 网 方 来 说 具有 更 高 的 风险 性 ， 也
+对 会 员 的 信誉 担 出 了 要 求 。
+
+会 员 信誉 : 对 于 历史 记录 上 信誉 高 的 会 员 〈 无 欠 费 和 人 迟 还 纪录 ) ， 可 以 允许 他 一 次 租借 更
+多 的 DVD， 这 就 在 本 题 中 引入 了 相应 的 租借 数量 限制 矩阵 作为 约束 ， 模 型 适用 性 更 广 ， 不 过
+模型 的 求解 时 间 (或 者 说 程序 的 运行 时 间 ) 也 将 更 长 。
+
+统计 方法 : 对 于 现实 中 会 员 人 数 的 数量 级 更 高 时 ， 对 所 有 会 员 整体 上 一 次 规划 用 软件 求解
+是 不 可 能 的 。 在 这 种 情况 下 ， 我 们 仍 可 以 抽取 足够 多 的 会 员 作为 样本 ， 从 而 缩小 软件 求解 规
+模 ， 多 次 抽取 样本 ， 以 样本 特征 估计 整体 。
+
+3 ”模型 评价
+
+优点 :
+
+1， 确定 规划 和 随机 模拟 相 结合 。 本 模型 着 眼 于 更 贴近 实际 地 解决 问题 ， 兼 顾 求 解 的 复杂
+程度 ， 将 确定 性 与 随机 性 因素 统一 考虑 ， 二 者 互 为 补充 ， 互 相 印 证 。
+
+2， 可 拓展 性 强 。 由 于 本 模型 充分 考虑 了 租赁 规则 、 商 家 目标 以 及 会 员 感受 ， 任 一 条 件 的
+改动 都 会 灵敏 地 反映 在 模型 中 ， 从 而 影响 规划 结果 ， 为 商家 决策 提供 指南 。
+
+缺点 ， 转 于 商业 运作 知识 的 缺乏 ， 对 一 些 因素 〈 比 如 满意 度 ) 的 把 握 可 能 从 妥当 。
+参考 文献 :
+
+征 李 德 ， 钱 颁 迪 , 运筹 学 [M]. 北京 : 清华 大 学 出 版 社 ，1982
+
+[2] 盛 雍 等 . 概率 论 与 数理 统计 [M]. 北京 :高 等 教育 出 版 社 ，2001
+
+[3] 张 志 涌 等 . 精通 MATLAB 6.5 版 教程 [M]. 北京 ,北京 航 空 航天 大 学 出 版 社 ，2003
+
+[4] 吴 赠 ， 吴 孟 达 等 , 数学 建 模 的 理论 与 实践 [M], 长 沙 : 国防 科技 大 学 出 版 柱 ，1999
+
+回 胡 运 权 . 运筹 学 教程 [M], 北京 : 清华 大 学 出 版 社 ，1982
+
+[6] 徐 玖 平 ， 胡 知 能 等 . 运筹 学 [M]. 北京 ， 科 学 出 版 社 ，2004
+
+[7] 姚 庭 宝 .语言 及 编程 技巧 [M]. 长 沙 ， 国 防 科技 大 学 出 版 福 ，2003
+
+Optimal Design for Online DVD Tenancy System
+LI Peng-peng, ZHU Xiao-man, XIE Wei
+Advisor: Instructor Group .
+( National University of Defense Technology, Changsha 410073 )
+
+Abstract: We've done some research about the tenancy and restitute of DVD. First, we come up with the
+reasonable definition about the absolute satisfaction degree index and relative satisfaction index to measure the
+member’s satisfaction. During the process on solving the model, we use Poisson procedure to simulate DVD’s
+restitute process and successfully make prediction about the market requirement on the basis of the limited
+tenancy times. Then we construct a binary integer programming (BIP) model to make answer about the one-off
+DVD distribution, and apply LINDO in our model. Next we treat the quantity of DVD as object function and
+satisfaction as constrains to find the optimal solution to this multiple goal programming. Finally, we introduce
+the VIP mechanism, We construct a weighted programming model, assuming that VIP’s weight is higher than
+common members. And we also develop a hierarchical programming model, assuming that VIP has priority.
+Keywords: BIP; multiple goal programming; VIP mechanism

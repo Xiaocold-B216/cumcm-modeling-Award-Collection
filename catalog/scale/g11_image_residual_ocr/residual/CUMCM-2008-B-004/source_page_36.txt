@@ -1,0 +1,43 @@
+回 员 蒜 治 回
+下 辣
+二
+EEER
+if(£<0]|£>1.0){
+}else if(F>=0&&f<=0.3){
+v="f
+Jelse{
+v=Math.sqrt(f);
+}
+return v;
+}
+public double shechang(double f){ /社会 利益 目标 “全
+double v = 0.0; 一 从
+double temp = 0.0; P Si
+doubler= 0.0; 2XG \
+double shenghuo[] = {6029.88,6510.94,7182.1,860: s51~
+double rate[] = {0.0198,0.0198,0.0225,0.0252};
+for(int i=0;i<size;i++){ As
+temp = Math.pow(1+rate[i], size-i); X
+temp =(shenghuo[i]+f)/temp;
+V/= vitemp;
+¥
+r=(124328.25-v)/(111219.11+v)y
+return r; 9
+%,
+public double peopleghang(double f) { 7 个 大 利益 目标
+double v = 0.0; 站
+double temp=10.0;
+doubler ] og
+EU
+otble shenghuo[] = {6029.88,6510.94,7182.1,8606.55};
+ble.rate[] = {0.0198,0.0198,0.0225,0.0252};
+全 See i=0;i<size;i++){
+NA， temp = Math.pow(1+rate[i], size-i);
+temp = (shenghuol[i]+f)/temp;
+v = vttemp;
+}
+r=(235547.36-v)/(v+53985.68);
+r=2%/5;
+return r;
+}
+34

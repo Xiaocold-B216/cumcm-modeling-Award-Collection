@@ -1,0 +1,16 @@
+paper_id=CUMCM-1995-B-004
+page_number=3
+page_classification=LAST_SUBSTANTIVE_PERSISTED_PAGE
+source_path=1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995B：天车冶炼炉作业调度的活动网络模型.pdf
+source_sha256=2D121E84DE317B356CF918B5F3B5B33ABF3B89A7C648A2F340795E6DF1AD00DC
+persisted_page_text_path=catalog/scale/g8_q3_batch_repair/CUMCM-1995-B-004/pages/0003.txt
+
+=== PERSISTED PAGE TEXT (READ-ONLY EXISTING EVIDENCE) ===
+EgaE rer Sietd 回 呈 RN 第 26 卷 (1996) 第 1 期 “67 za 四 18.42 AD 18.2 | 18.42:325 | & | 时 ° ol, Em BEy my nb my -从 > ] 、 2 0-05 3 023 4 5 .025-035 6 1 用 只 -| 国 中 rS n nyay TFD>amy sn m—=>30 nMled_ T | 0 ¥ h BC X | 230-18.42 K | 思 早 .， 五 人 a0 5 TeQ T 时 @ < 由 。 3 B2 NM > MRPAP 9 rE=- 3 17] 2 D3 ems-o05 18 2 15 3 16 025~05 MY》 \ = B(1) 站 一 ====7 i8.42 EN | 2 初 态 ， 终 态 : Hibe T1: 在 P 上 , 空 TCD 上 ,请 T2: 在 A(C2) 上 ，, 满 T3: 在 日 (1) 上 , 满 T3: 在 B(2) 上 , 满 A(1): 刚 生 产 好 A(2): 刚 生产 好 A(2),A(3): 生产 中 A(3),A(1) :生产 中 B(1): 刚 生产 好 B(2): 刚 生产 好 B(2): 生产 中 BG) :生产 中
+
+=== FORMAL ARTIFACT CONTEXT WINDOW ===
+ 为 虑 零 拒 ), 见 下 图 ,这 笠 攻 从 如其 分 地 表示 了 一 个 周期 的 沉 各 注 : 虚 零 弧 在 图 中 用 虚线 表示 。 吓人 人 (所 有 时 间 才 证 的 全 7 _ 我 们 旨 在 寻找 和 调整 图 中 的 刍 路 经 (critical path] ,使 其 权 和 不 超过 工 ,这 样 就 与 原 先 的 期 望 一 致 了 。 ee 香 序 ,并 且 利 用 数学 软件 对 其 进行 CPM 分 析 . 通过 RAEERETAE WApsR. 在 周期 一 18. 4 的 情 ; 关键 路 径 和 根据 GPM 分 类 乓 各 项 活动 完成 最 早 时 间 和 最 蜡 时 间 ,我们 发 现 依据 这 一 方案 恰好 可 以 在 js 人 必 昌 中 完 总 各 项 工 作 , 并 且 从 一 个 周期 到 下 一 个 周期 过 渡 平 稳 自 然 ,其 中 有 些 任务 完 肝 记 有 各 时 间 ,也 就 是 说 3 辆 车 已 达到 最 优 的 情况 ， \ 3 EgaE rer Sietd 回 呈 RN 第 26 卷 (1996) 第 1 期 “67 za 四 18.42 AD 18.2 | 18.42:325 | & | 时 ° ol, Em BEy my nb my -从 > ] 、 2 0-05 3 023 4 5 .025-035 6 1 用 只 -| 国 中 rS n nyay TFD>amy sn m—=>30 nMled_ T | 0 ¥ h BC X | 230-18.42 K | 思 早 .， 五 人 a0 5 TeQ T 时 @ < 由 。 3 B2 NM > MRPAP 9 rE=- 3 17] 2 D3 ems-o05 18 2 15 3 16 025~05 MY》 \ = B(1) 站 一 ====7 i8.42 EN | 2 初 态 ， 终 态 : Hibe T1: 在 P 上 , 空 TCD 上 ,请 T2: 在 A(C2) 上 ，, 满 T3: 在 日 (1) 上 , 满 T3: 在 B(2) 上 , 满 A(1): 刚 生 产 好 A(2): 刚 生产 好 A(2),A(3): 生产 中 A(3),A(1) :生产 中 B(1): 刚 生产 好 B(2): 刚 生产 好 B(2): 生产 中 BG) :生产 中
+
+
+=== HUMAN REVIEW NOTE ===
+This file prepares evidence only. It is not a human review decision.

@@ -1,0 +1,49 @@
+df A = pd.Dataframetdict(zip(select_A_ID，variable[e，: num_of_a]))，index-
+[frweekfweek_i)7])
+46.C 。pd.Datafrane(dict(zip(select_C_ID，vardablefe，num_of_a:]))，tndexc[frweekfweek_i) 7])
+af_A_all 。 pd.concat(df_A_all，df_A])
+fc_all -= pdconcat([df_C_all，df-c])
+return ef_ALall，df_c_all
+NIND -= 1986; # 种 妍 个 体 数目
+V_a_int = np.tile(np.array(1.88 * lea)，NIND) / 0.6
+V_c_init = np.tile(np.array(1.88 * led), NIND) / 8.72
+V_a2_previous_list, V_c2_previous list « [V_a_intt], [v_c_tnit]
+for 1 in range(24):
+V_32_ = np. tile(np. sun(x_A_pred_list(1, :]), NIND)
+V_c2_ = np.tile(np. sun(x_C_pred_list(1, :1), NIND)
+V_a2_previous_list. append(v_a2_)
+V_ca_previous_1ist. append(v_ca)
+V_a2_previous_List = np.array(V_a2_previous ist)[1:]
+V_c2_previous_List = np.array(Vv_c2_previous 1ist)(1:]
+4F_A_all = pd.Dataframe([[]] * len(select_A_I0), index-select A_I0).1
+df_c_all = pd.oatafrane([[]] * len(select_C_I0), index-select C_10).1
+for veek 4 in range(1,25)
+vardable, V_a_list, V_c_list 。 run_algoritha(v_a_list, V_c_list, week 1)
+df_A_all, dF_C_all - plot_ple(eek 3, varisble, df ai af coal)
+df_A_all .to_excel("p3-1A 结 果 2. 基 SS and jalse)
+df_C_all .to_excel('p3j1 结 果 2 交 Sindex 三 False)
+result = pd-DataFranet 人 4 订单 提 ( 泪 方 米 ): np.array(pre_A)，
+1A 襄 昌 最 (立方 米 ) :nparray now_A)，
+二 提 订单 量 (立方 米 ) xpre_c，
+MC 后 订单 量 (立方 米 ) snowLC，
+“ 调 玫 转运 、 仓 负 成 本 (元 ) inp.array(cost_pre)*ie3,
+CMEEHE. GHRACT) : mp.array (cost_now)*1e3)，
+index = df_A_all index)
+result to_excel('P3-1 阴 加 信息 .xlsx
+df_aa1 。 pd.cencatt[df_Aall， df_C_al]，axts 。 2.T
+af-all - df_all .sort_index()
+output_df = pd.DataFrane([[]]j*df_A_all.shape[e]，index = df_A_all .index)
+x_8_pred_1ist = pd .read_excel("P2-28 结 时 .xlsx'， Sndex = False).T
+ALB_pred list columns = output_df .colums
+df_a1 = pd.concat([df_ALall， df_C_all]，axis = 2).T
+fa = df_al1.sort_index()
+output_df = pd.DataFrane([[]]j*df_A_all.shape[e]，index = df_A_all index)T
+x_8_pred_11st = pdread_excel("P2-28 结 果 .x1sx'， andex -False)
+ALB_pred list columns = output_df.colums
+for i in rangel,463):
+index = '5'470" (3-Ten(str(1)))sser(1)
+if andex in df al.index
+ourpat_df = pd.concat([output_df,pd.Dataframe(df_a11 locindex,]).1)
+af index in x_8_pred llst,index
+output_df 。pd.concat([output_df，pd.Dataframe(x_B_pred_list.locfindex,:]).T)
+elze:

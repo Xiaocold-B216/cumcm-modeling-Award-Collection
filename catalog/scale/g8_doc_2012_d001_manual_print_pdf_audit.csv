@@ -1,0 +1,2 @@
+paper_id,candidate_path,candidate_size,candidate_sha256,pdf_signature_valid,pdf_readable,pdf_encrypted,pdf_inspector_pdf_class,pdf_inspector_page_count,poppler_page_count,page_count_tools_match,page_size,page_rotation,producer
+CUMCM-2012-D-001,tmp/g8_doc_2012_d001_manual_print_to_pdf/CUMCM-2012-D-001/manual_print_candidate.pdf,1152505,CBE28049A80C0B900CF82A0BE06492A906D56B39F27819D6F94C67C6FF349399,1,1,0,text_based,24,24,1,595.32 x 841.92 pts (A4),0,Microsoft: Print To PDF

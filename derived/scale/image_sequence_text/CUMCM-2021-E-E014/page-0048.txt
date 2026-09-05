@@ -1,0 +1,43 @@
+25. legend( 真实 值 '， 检 验 预 测 全 )% 检 验 集 可 杭 化
+je sea = sgr1’;
+31. sin - sgFI((94 169 140 278 308 330 347],2)5
+32. yfiel = trainedhodel3.predictFcn(sim);
+1 x 将 附件 图 class 数据 〈A、B、(C 分 别 转换 成 1，2，3)
+2. clciclear
+3. a= xisread(CHlfF 4.x1sx');
+4. data_opandcl = a(2:end, 2:end);
+5. data_opandci (isnan(data_opandci(:,1),)=(1;
+6. data_opande1 (1snan(data_opandci(:,2)),)=(1;
+7. stind1 - Find(data_opandel(:,1) -05
+5. class_1 = (data_opandcl(date_opandci(:,1)=-1,2));
+5. 1-dato_opande1(st_ind_1,3:end);
+10. order - 5;
+11. franelen = 11;
+12. sgf = sgolayAlt(L',order, franelen);  XS
+13. k_deriva = difftsgf1)5 xs6 SRA—FTRE
+10. Class_1_all =(class_1,k_derivi’l;
+15. 11 + a((51,108,140)1,a:end); XF
+16. sefl - sgoloyF1E(1L orders framelen);  %56
+17. k derdval - diFF(sE01,1); ysG 数据 的 一 阶 求 导
+15. load trainedhodels
+15. yFIEL = tratnediodels.predictFen(k_derivil);
+20.
+21..5t 4nd_2 = find(data_opandei(:,1) =-2);
+22. class 2 - (data_opandcl (data_opandel(:,1)+2,2));
+23. 12-data_opandci(st_ind_2, 3:end);
+24. order - 5;
+25. franelen = 11;
+26. seff - sgoloyF1E(12",order, franelen);  %SG
+27. k deriva = diff(sgff,2) xsG SBH—FIRG
+.class 2 all -[class 2,k _deriv2’];
+25.122 =- a([347]94:end);  XFE
+30. sef2 。 sgolayfilt(112 jorder, franelen);  %SG
+31. k derdval - diff(sgf251 SG 数据 的 一 阶 求 导
+32. load trainedhodel7
+33. yFit2 - trainediiodel? predictFen(k derivil);
+四
+35. st_ind_a - Find(data_opandel(:,1) --3)5
+35. class 3 。(data_opandcldata_opandcl(:1)wr3,2))
+37. 13-data_opandci(st_ind_3,3:end);
+aa order - 5;
+人

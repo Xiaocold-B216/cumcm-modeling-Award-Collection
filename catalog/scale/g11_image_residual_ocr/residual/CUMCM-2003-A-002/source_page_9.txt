@@ -1,0 +1,58 @@
+是 刘
+第 7 期 SARS 传播 预测 的 数学 模型 61 —
+May 2003
+
+[4] 和 孟 继 鸿 , 邱 海流， SARS 基础 与 临床 .南京 ;东南 大 学 出 版 社 ,2003
+
+[5] C A Donnelly er al. ，Epidemiological determinats of spread of causal agent of severe acute respiratory syn-
+drome in Hong Kong, The Lancent, Pubilsh online May 7,2003, http://image. thelacent. com/extras/
+03arr4453web. pdf
+
+[6] M Lipsitch, er al. ,Transmission dynamics and control of severe acute respiratory syndrome, Published on-
+line May 23,2003;10. 1126/science. 1086616 (Science Express Reports)
+
+[7] SRiley,er al., Transmission dynamics of the etiological agent of SARS in Hong Kong:impact of public health inter-
+ventions, Published online May 23,2003;10. 1126/science. 1086478 (Science Express Reports)
+
+[8] G Chowell, P W Fenimore, M A Castillo Carsow, and C Castillo Chavez, SARS out break in Ontario,
+Hong Kong ,and Singapore: the role of diagnosis and isolation as a control monim as 现 网 Togpreiol
+Biology,2003(224) ,1-8， 二 SS
+
+[9] 杨 方 廷 , 候 立 华 , 韩 军 等 ,北京 SARS 疫情 过 程 的 仿真 分 析 , 系 统 仿真 学 报 了
+
+[10] 陈 吉 荣 , 杨 方 廷 , 战 守 义 .北京 veovosass sotn
+995 - 998 /
+
+[11] 方 光 本 , 李 红 星 , 杨 建 症 .基于 公开 数据 的 SARS 流行 规律 的 建 模 及 狐 报 \ 数 理 统计 与 管理 ,2003(22
+5),48-57
+
+112] Zhou Yicang, Ma Zhien, Fred Brauer. A Discrete pa SARS Transmission and Conrrol in
+China, Mathematical and Computer Modeling,2003
+
+{13] Wang Wendi, Shigui Ruan. Simulating SARS outbreak in Beijing with limited data, Journal of Theoreti-
+cal Biology,2004 O
+
+[14] Ministry of Health P R China. ht wi. moh gov. cn/was0/outline? page = 4&channelid = 3485
+
+[15] NTJ Bailey. The Mathemarical re disease, 2nd ed, ，Hafner，New York,1975
+
+[16] 0 学 的 数学 建 模 与 研究 .北京 :科学 出 版 社 ,2004
+
+The Mathematical JE and Prediction of SARS Transmission
+/ ) \4 ZHOU Yi-cang', TANG Yun®
+rn Universiry，Xi an 710049;2 - Tsinghua University, Beijing 100084)
+
+Abstra SARS transmission is one of the contest problems for CUMCM - 2003，Ir is an open problem investi-
+
+= Several mathematical models to predict SARS transmission were established in the arti-
+
+cles an by the student teams. A brief summary of the contest results is presented in this paper.
+
+附录 :短文 (作者 为 中 山大 学 REBR,EFE XF)
+
+SARS 与 数学 模型
+九 月 的 北京 , 秋 高 气 更 ,大 街 上 人 来 人 往 ,热闹 非凡 。 人 们 对 于 那 段 谈 “ 非 " 色 变 的 日 子
+似乎 已 渐渐 淡忘 ,只 是 偶尔 在 大 街 上 看 到 一 两 个 人 戴 着 口 畦 ,回想 起 那 段 日 子 , 还 会 为 自己
+当时 莫名 的 丽 慌 而 自嘲 。
+人 们 恺 慌 的 心理 , 才 是 传染 病 最 可 怕 的 影响 。
+当 流 言 满天飞 ,大 家 盲目 抢购 的 时 候 , 是 因为 我 们 不 了 解 疫情 的 情况 ,所 以 恺 慌 。

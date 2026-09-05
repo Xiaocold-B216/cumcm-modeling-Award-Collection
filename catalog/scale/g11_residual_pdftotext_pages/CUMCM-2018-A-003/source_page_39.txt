@@ -1,0 +1,66 @@
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+int time = 0;
+int pos = 0,next_pos = 0;//小车起始位置
+bool begin = 0;
+while(time<3600*8){
+/**********评估过程***********/
+for(int j=1;j<9;j++){
+T[j] = L[pos][j] + rep[j] + B[j]*put_down ;
+if((S[j]-L[pos][j]) > 0)
+T[j] += (S[j]-L[pos][j])*inf;
+//移动 T + 上下料 T + 清洗 T + 假设不会提前过去等待
+}
+/**********选择过程***********/
+next_pos = min_index(T);//选择代价最小的
+if(T[next_pos] < inf) //若过去无需等待，则选择。
+{
+for(int i=1;i<9;i++){
+S[i] -= T[next_pos];//选择后，在这一过程中,RGV 无法做其他工作，所以
+下一次选择经过 T[next_pos]时间
+//此时若 S 为正，则说明 CNC 机器经过 S[i]秒后可以加工下一任务;
+//若 S 为负，则说明 CNC 机器已经加工完毕，等待|S[i]|秒
+}
+S[next_pos] = pro - B[next_pos]*put_down;
+time+=T[next_pos];//时间需要延长这个过程的时间
+endtime[next_pos][numm[next_pos]]=time-B[next_pos]*put_down-rep[next_pos];
+numm[next_pos]++;
+cout<<time-B[next_pos]*put_down<<" : "<<pos<<"->"<<next_pos<<endl;
+cout<<"now:"<<time<<" S : " ;
+for(int j=1;j<9;j++) cout<<S[j] <<" ";
+cout<<endl;
+num+= B[next_pos];
+pos = next_pos;
+B[next_pos] = 1;
+ifbreak(next_pos);
+if(B[next_pos] == 0){
+error[next_pos][numm[next_pos]] = 1;
+breakBeT[numBR] = time;
+breakEnT[numBR] = time+breaktime;
+breakPos[numBR] = next_pos;
+numBR++;
+}
+}
+else{
+time++;
+for(int i=1;i<9;i++){
+39
+
+

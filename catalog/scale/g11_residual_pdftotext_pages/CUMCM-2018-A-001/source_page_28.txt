@@ -1,0 +1,61 @@
+if U_3(ZZ_2,1501) <= 44
+if U_3(ZZ_2,t_3) <= 47
+temp = 1;
+SIGN(p-5,w-5) = 1;
+break
+end
+end
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+ZZ_2 = ZZ_2+1;
+IV = IV+1;
+U_3 = zeros(ZZ_2,t_3);
+U_3(:,1) = 37;
+U_3(1,:) = 80;%与外界接触层
+a4 = ones(IV-1,1)*(-r4);
+b4 = ones(IV-1,1)*(1+2*r4);
+c4 = a4;
+end
+II = II+1;
+IV = 6;
+ZZ_2 =1 + 6 + II + 36 + IV;
+U_3 = zeros(ZZ_2,t_3);
+U_3(:,1) = 37;
+U_3(1,:) = 80;%与外界接触层
+a2 = ones(II-1,1)*(-r2);
+b2 = ones(II-1,1)*(1+2*r2);
+c2 = a2;
+a4 = ones(IV-1,1)*(-r4);
+b4 = ones(IV-1,1)*(1+2*r4);
+c4 = a4;
+end
+
+微
+
+for qq = 1:245
+for l = 1:59
+if SIGN(qq,l) == 1
+disp([qq+5 l+5])
+end
+end
+end
+
+28
+
+

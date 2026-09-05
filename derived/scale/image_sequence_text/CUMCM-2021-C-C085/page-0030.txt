@@ -1,0 +1,37 @@
+importxid
+import xlsxwriter
+importnumpy as np
+excel = xlrdopen_workbook(" 附 件 1 近 5 年 402 家 供应 商 的 相关 数据 ,xlsx', rb)
+sheet = excelsheet_ by_name(' 供 应 商 的 供 货 量 (my ) *)
+ID-[
+FL-[
+DH-]
+GH-]
+forrin range(1 sheet nrows):
+ID.append(sheet cell value(s, 0))
+FLappend(sheet.cell value(r, 1)
+forrin range(1, sheetnrows)
+val-[]
+fore in range(2, sheet.ncols):
+val.append(sheet.cell value(r, ¢))
+GH.append(ple(val))
+sheet = excelsheet_ by_name(' 企 业 的 订货 量 (m?) ")
+DH=[
+forrin range(1, sheetnrows):
+va
+for ¢ in range(2, sheetncols)
+val.append(sheet.cell value(r, 9)
+DH.append(ple(val))
+GH_T-]]
+forrin range(sheetnrows-1)
+s.GH=[]
+s DH=[]
+foriin range(10)10 个 周期
+vall-[
+val2-[
+forj in range(24)# 一 个 周期 24 周
+kri*24 订
+#print(r)
+valLappend(DH[r][k])
+val2.append(GHIr][k)
+加

@@ -1,0 +1,40 @@
+22. test(end,) = 0
+23. % classificationtearner 开外 调用 分 类 器 工具 箱
+4 % save('data22.mat' trainedhodel')
+25. load data22
+26. yuce = troinediodel.predictFen(test);
+27. yucel = [1,8,4,8,7,8,7,11,4,10,13,3, ...XKRFMIAHNTR op
+5. 15,8,15,6,1,8,14,3,7,9,14,9,6,2,5, ..
+5. 17,8,1,15,17,10,10,12,4,10,12,7,7,16,2,17,11,6]
+30. plot(1:45,yuce, o')
+31. old on
+有 paotGlsssim 三 出 检验 胃 显 然 正确 率 很 商
+1 cyclear
+asread( 前 件 3.xlsx'， 和 近 红外 ')
+2 = asread( "用 售 3.xasx'， 中 红外 "5
+ed
+5 aaa;
+tend1) 沙 = aQ2iend,2:end);
+7。 xAmEEEEY
+tiqu_colum - [4 15 22 30 34.45,74 114 170 269];
+py
+1e. op(:  tiqu_cotumm) < [1;
+11.8 = y(2iend, );
+12. dnders 5;
+13. frometen - 11;
+14. 55F  sgolayFilE(s,onder, fromelen);  %56
+15. k_derivi = diff(sgf,1); xsG 数据 的 一 阶 求 导
+16. sn -erivl
+了 sepa - mapsta(sgr); 下 据 标准 化
+15. y_tiqu = sl(:vtiqu_columnyj
+19. sgF1(:, tiqu_column) = Di
+20. sgf1 。 [sefliop];
+21. % classificationtearner XWRARBTRE
+1 acer
+2. al = xdsread(CAf 3.x1sx, 过 红外 ,5
+aa = xlsread(" 附 售 3.xlsx'y 中 红外 "3
+eg)
+aa;
+6. a= a'ix = a(3end,1)iy = a(2:endy2aend)
+7。 xamEmEEH
+“

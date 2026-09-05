@@ -1,0 +1,41 @@
+回 8 昌国
+能 在 可 以 忍受 的 时 间 范 围 内 得 不 出 有 效 结果 。
+
+经 过 参考 相关 资料 ， 我 们 发 现 用 蚂蚁 算法 可 能 比较 有 效 。 该 算法 利用 了 蚂蚁
+寻 食 出 行路 径 选 择 的 行为 特点 ,通过 线路 激素 强度 的 更 新 机 制 ， 实现 了 以 换 乘 次
+数 最 少 和 公交 出 行 站 点 最 少 的 公交 出 行路 径 选择 优化 目标 。
+
+八 参考 文献
+
+[1] 344000 温 小 文 臧 德 庆 ， 城 市 公交 信息 查询 系统 设计 初探 ， 江 西 测绘 ， 第
+65 期 ，2006
+
+[2] Z&f) 图 论 与 网 络 最 优化 算法 重庆 大 学 出 版 社 ，2000
+
+[3] 1671-4512(2003)S1-0313 张 帅 彭 玉 青 赵 镇 李志强 ， 蚂 蚁 算法 在 公交 查
+询 最 短路 径 求 法 中 的 应 用 ， 华 中 科技 大 学 学 报 〈 自 然 科 学 报 ) ， 和 3 大 2003
+
+E\
+九 附件 人行-
+转 乘 0 次 的 情况 AX
+人 oa 和 mv
+点 站 点 站 点 ANY 几 站 点 耗 时 /min 转 乘 次 数
+E C C2 ." N B HE C
+转 乘 工 次 的 情况
+[二
+[|
+[|
+人 as |
+[二 | 本 由 | | 8 和 | we |
+-7 |
+转 乘 2 关 的 逢 咒
+ECOECSCOEGEGSCOIEOCOECEEI
+F¥ [co [wme [oo [12 [o [som [owwwn|  |  | +
+有 CCC 生生 国
+EECIEIICIEGEECCOCIRECINRECIIE
+EN E E C Ca K E NT
+ws[vr | son [sr[co [sar[sos [ww [won | w | 3| @
+ECOEGEICOIEIECSCOIESCIIECEIEG
+EECIEEGEIEIEZIRRECINEEIIEDI
+[“owr[n [sown [oz [12 [wo [swrs [wr [wo| m5 | 5 | 2|
+19

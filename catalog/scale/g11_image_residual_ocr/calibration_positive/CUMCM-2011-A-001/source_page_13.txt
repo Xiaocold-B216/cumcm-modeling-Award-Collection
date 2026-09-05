@@ -1,0 +1,31 @@
+[Iceeyzran-clerznrs [[-ndodi=[*[[[ oa
+根据 曲面 积分 Gauss 公 式 得 :|T7juc= [fanzor  (13)
+则 式 子 (12) 可 以 转换 成
+C(x,y,2,t +A1)=C(x,y,2,1) HA ~ Ar
+[ 用 SEC w 广大 Ja 六 JJmawae
+则 于 8C_ in CComat+Aj-CCopa im 上 Ateedc)d 5
+Bf At-30 At Al->0 At
+、 6C 一
+故 式 子 (14) 妈 可 转换 成 | 咱 写 | AsJJaaor -JaarA (16)
+化 简 得 ，[ 咱 2 fo+ [favaar = an
+I ar 六 "
+根据 A. Fick 扩 散 微 分 方程 式 中
+SoCioeC CEI9F TS (18)
+ot oX oY ozZ oX oY’ 6Z
+其 中 ，C 为 气体 浓度 ，t 为 时 间 ; -大 os 为 xy z 方 向 风速 大, k, J9%, yz
+方向 上 的 扩散 系数 。
+假设 重 您 属 污染 物 在 无 风 条 件 下 扩散 ， 此 时 有 ，
+8C -EST 2 (19)
+a 0 87 2
+结合 式 子 (18) 可 解 出 〈17)》 的 结果 为 :
+cooc0- en| -证 Go )
+(471) (k k k)' 457 46f 4
+由 此 得 到 地 面 土壤 表层 的 浓度 ;
+C'(x,y,2,t)=(v,—w, —p)C(x,y,z,1) (F+y"+2 =57) 21)
+由 〈21) 式 可 知 ， 土 壤 表层 的 浓度 是 一 个 向 四 周 逐 渐 减 少 的 函数 。
+2) 重金 属 污染 物 在 土壤 中 的 扩散 模型
+记 污 染 物 开始 扩散 的 时 刻 为 != 0 , 并 且 以 污染 源 作为 扩散 中 心 , 则 可 将 t 时
+刻 无 穷 平面 中 任 一 点 (x, y) 的 污染 物 浓度 记 为 C(x, y, t) 。 假 设 单位 时 间 内 通过
+单位 路 程 的 流量 与 浓度 梯度 成 正比 ， 则 有
+q=—k -gradC
+11

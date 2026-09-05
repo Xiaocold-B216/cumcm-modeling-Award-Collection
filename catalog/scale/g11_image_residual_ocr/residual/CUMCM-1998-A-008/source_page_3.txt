@@ -1,0 +1,52 @@
+回避 营 汉 加
+机 |
+国友
+1 期 邓 刚 灯 等 :风险 投资 组 台 的 线性 规划 模型 人 4
+其 中 wlb, bab 分 别 是 上 下 界 ， AN 为 初始 值 ， N 表示 约束 条 件 中 前 N 个 约束 为 等 式 约束 ,
+(二 ) 计算 步 又
+1 输入 娄 据 ， 选 取 权 因子 》;
+2， 生 成 矩阵 (4
+3. 根据 需要 取 olb, vub, Nu, N (本 问题 cl 取 堆 向 基 ， Y 取 1，oul 和 X, 无 特殊 要 求 ， 秆
+为 空 全);
+4， 使 用 MATLAB 函数 必 求 解 ;
+(三 ) 计算 结 当 及 分 析
+1 投资 问题 一 ( 略 ) 国
+使 用 上 述 方法 分 别 求解 当 = 0.1, 0.2 1.0 时 的 最 优 决 策 及 风险 和 收益 如 下 ; A >
+一
+TD = 蛋
+So | uno | uro ouuog 2
+区 | uouoo | o6l5o | UL3SHMU 0.UUUU
+| odwo | oo | oosn H
+so  u s [adwr
+存 银行 | UnUU eose | Go0 后
+人 人 N\
+TRE AH TS 帮 LO0O
+SNSANI RvsAA
+2 投 赛 问题 二 ( 略 ) Xe
+合用 上述 方 其 分 别 求解 和 = 0.1 02,，… ，1.0 的 最 多 决 第 及 风险 和 收益 如 下
+一 TIERCOTTET TAN203 让 ET
+9 | uooou | oooou | 0.0000 ET 0,0000 | wos74 | 1.0000
+so| oo | Un | oo | won | uasso |o.0000
+5|osust |ooost [@ms [oreoy | worl | oon2 | wooo
+si| ua | ooJ 曾 | wo | 5 | was oo
+Swarm | un | Un | ouo0| om
+0 Raowm | wu | ww | wo | unoo
+oa Foss oo | 00945 | 00s40 | ooobg
+四 [vas | wpo | aa
+5 - 3 50u00
+TIEIRETIINRIIEIICTI ETID
+写 卫 | Wo | oo | oo | un | wan | oo |
+LA | oo | oo | ooom | wo | oa | wo | wa
+EECEE aa
+WA 划 ，| oo | wo [omom wo ou
+NRECIIRIIITRERITTITEI ETTIT
+] 4 FRAT | wo | wu un ww |] nu | ooow on
+N 净 收 益 | ulool | 03093 | 03352 | ET U.3050 | o2aso | Uo5o0
+风险 | us66o | 0 | ooos | 0701 06.3 0.0000
+3 投资 方案 分 析
+(1) 从 上 面 结果 得 到 问题 一 的 四 个 典型 节 优 组 合 ， 问 题 二 有 7 个 典型 地 优 组 合 ， 对 于 不 同 风险 承
+受 能 力 , 移 择 该 风险 水 平 下 的 最 优 投资 组 合 . 例如 , 对 问题 -， 若 风险 承受 水 平 是 0.02， 那么 取 入 = 0.2
+时 的 决策 方案
+(2) 净 收 益 和 风险 都 是 \ 的 单调 下 降 函 数 (图 ,时 1 竞 昌 遵 慎 程度 越 强 ， 风 险 越 小 但 受益 也 越
+小 具有 明确 的 实际 意义 ，
+9 0 Ci ou S Hous 1righ htt k

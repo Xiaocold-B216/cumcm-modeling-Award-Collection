@@ -1,0 +1,40 @@
+Eiis:
+ee
+第 31 卷 第 1 其 数学 的 实践 与 认识 vol3l No BERAE
+2001 年 ! 月 MATHEMATICS N PRACTICE AND THEORY Jan_2001
+sequences The second is the periodic property of the DNA sequences The third is that amount
+of information of the sequences By using this method, we classify the nature sequences and
+artifical sequences At last, we analyze the characteristic in this model and consider the
+generalization of this model
+关于 DNA 序列 分 类 问题 的 模型 % >》
+一
+冯 涛 ， 康 鞋 要， 韩 小 军 “\ 蛋
+指导 老师 锅 明 峰 3 ，
+(大 连理 工大 学 ， 大 连 116024) L
+编者 按 : 本文 以 统计 方法 提取 样本 特征 , 以 之 作为 BP :N 中 相应 算法 进行 训
+练 然后 用 于 解决 本 分 类 问题, 得 到 了 较 准确 的 结果 “本 文 提取 稚 征 时 江 虑 较为 全 面 , 在 此 基础 上 正确 地 运
+ER 思路 清楚 , 文字 简练
+摘要 : ”本文 提出 了 一 种 将 人 工 神经 元 网 络 用 于 DNA 分 类 前者 走 作者 首先 应 用 概率 统计 的 方法 对 20 个
+已 知 类 别 的 人 工 DNA 序列 进行 特征 提取 , 形成 DNA 序列 的 特征 向 量 , 并 将 之 作为 样本 输入 BP 神经 网 络 进
+行 学 习 作者 应 用 了 MATLAB 软件 包 中 的 NeuralN etwork Toolbox (神经 网 络 工具 箱 ) 中 的 反 向 传播 Back
+propagation BP) 算法 来 训练 神经 网 络 在 本 文中 , 从 沽 构造 了 两 个 三 层 BP 神经 网 络 , 将 提取 的 DNA 特征 向
+人 Smstinds, 将 20 个 未 分 类 的 人 工序 列 样本 和 182 个 自然 序
+列 样本 提取 特征 形成 特征 向 量 并 输入 上 lt 行 分 类 结果 表明 : 本 文中 提出 的 分 类 方法 能 够 以 很 高 的
+正确 率 和 精度 对 DNA 序列 进行 分 类 , 将 人 工 神经 元 网 络 用 于 DNA 序列 分 类 是 完全 可 行 的
+1 ， 问题 重 述 ( 略 ) JS-
+DNA 区 由 mg 伪证 基 律 抽 而 上 已 知 所 给 人 工序 列 1- 10 属
+于 A 类 , 11- 0 本 题 中 , 我 们 的 主要 工作 有 两 个 :
+1) 提取 穴 、B 两 类 特征 ;
+2)L o DH 两 类 特征 为 依据 , 把 20 个 人 工序 列 及 182 个 自然 序列 分 为 A、B 两 类
+人 能 存 过 上 时 未 具有 A、B 两 类 特征 , 不 能 归 为 A`B 中 任 一 类 的 序列 ).
+S 将 本 是 审 , 先 以 序列 1- 20 为 依据 , 提取 出 A、B 两 类 序列 的 统计 特征 , 然后 运用 神经 网
+VRARET 网 络 对 未 知 序列 进行 了 分 类 识 别
+\
+2 ”模型 建立 的 理论 依据
+神经 网 络 是 近年 来 发 展 的 一 种 大 规模 并 行 分 布 处 理 的 非 线 性 系统 '…, 其 主要 特点 有 :
+1) 能 以 任意 精度 逼近 任意 给 定 连续 的 非 线性 函数 ;
+2) 对 复杂 不 确定 问题 具有 自 适 应 和 自学 习 能 力 ;
+3) 具有 较 强 的 容错 能 力 和 信息 综合 能 力 , 能 同时 处 理 定量 和 定性 的 信息 , 能 很 好 地 协
+调 多 种 输入 信息 的 关系
+传统 的 分 类 识别 方法 , 对 于 一 般 非 线性 系统 的 识别 很 困难 , 而 神经 网 络 却 为 此 提供 了 一
+2 1994-2008 China demic Journal Electronic Publishing House. All rights reserved. ht WWW.

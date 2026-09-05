@@ -1,0 +1,58 @@
+paper_id: CUMCM-2020-D-003
+year: 2020
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q3
+authority_sources:
+- path: 2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020D：接触式轮廓仪的自动标注数学模型研究.pdf
+  sha256: F8167387022E46E54EA04C371F75ADCF587FFD4E72C300BEB3798588C3E826A9
+authority_sha256: F8167387022E46E54EA04C371F75ADCF587FFD4E72C300BEB3798588C3E826A9
+paper_file_memberships:
+- path: 2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020D：接触式轮廓仪的自动标注数学模型研究.pdf
+  role: primary
+  canonical: true
+primary_file: 2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020D：接触式轮廓仪的自动标注数学模型研究.pdf
+extraction_inputs:
+- path: catalog/scale/g8_q3_batch_repair/CUMCM-2020-D-003/normalized_body.txt
+  sha256: AA186B3D3923A7F3D370D56810AEF354DE52B563E1E3011C39CD37365EA726D8
+  kind: final_q3_batch_persistence
+extraction_input_sha256: AA186B3D3923A7F3D370D56810AEF354DE52B563E1E3011C39CD37365EA726D8
+extraction_contract:
+  schema_version: 1
+  contract_name: G8 Q3 Extraction Contract
+  source_page_numbering: 1-based
+  stage: G8-Q3-FORMAL-ARTIFACT-GENERATION
+primary_extraction_backend: final Q3 batch persistence
+page_extraction_backend: final Q3 batch persistence
+page_count: 135
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_final_q3_batch_persistence
+generated_from_frozen_sources: true
+source_pdf_path: 2020年数学建模国赛真题+优秀论文/2020年优秀论文/2020D：接触式轮廓仪的自动标注数学模型研究.pdf
+source_pdf_sha256: F8167387022E46E54EA04C371F75ADCF587FFD4E72C300BEB3798588C3E826A9
+final_batch_persistence_path: catalog/scale/g8_q3_batch_repair/CUMCM-2020-D-003/manifest.json
+final_body_path: catalog/scale/g8_q3_batch_repair/CUMCM-2020-D-003/normalized_body.txt
+source_body_sha256: AA186B3D3923A7F3D370D56810AEF354DE52B563E1E3011C39CD37365EA726D8
+refinement_version: g8-q3-refinement-v1
+refinement_contract_sha256: 7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7
+refinement_evidence_fingerprint: 8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99
+q3_extraction_contract_sha256: 4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F
+revalidation_attempt_id: 20260903T063950668735_29d8de39
+formal_generation_attempt_id: 20260903T071531890631_0e2ef355
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["Q3_SELECTIVE_PAGE_OCR_REPAIR"]
+  repaired_source_pages: ["1", "68", "135"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g8_q3_batch_repair/CUMCM-2020-D-003/pages/0001.txt", "catalog/scale/g8_q3_batch_repair/CUMCM-2020-D-003/pages/0068.txt", "catalog/scale/g8_q3_batch_repair/CUMCM-2020-D-003/pages/0135.txt"]
+  source_sha256: F8167387022E46E54EA04C371F75ADCF587FFD4E72C300BEB3798588C3E826A9
+  current_body_sha256: 90CA9CFE4E538A72291F2133FDF3A1B289BC8F88EC983F7DA9BB458BB1D7F559
+  candidate_body_sha256: 90CA9CFE4E538A72291F2133FDF3A1B289BC8F88EC983F7DA9BB458BB1D7F559
+  source_page_count: 135
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

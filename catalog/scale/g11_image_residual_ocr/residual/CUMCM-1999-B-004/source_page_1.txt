@@ -1,0 +1,44 @@
+回 虽 过
+同和
+. " o pi
+第 30 卷 第 1 期 数学 的 实践 与 认识 voL30 N BERAEE
+2000 年 ! 月 MATHEMATICS N PRACTICE AND THEORY. Jan 2000 7
+problem, the objective functiom is built Wepresent themappingprincple,tomap the locationsof
+the originalw ells into aunique unit block of themesh, so as to smplify the solution of the model
+U sing themapping algorithm and the ergodic algorithm ,we solve the problem under the direction
+constraint Then we generalize the algorithm s to the solution without the direction constraint We
+studied the sufficient conditions and give some criteria of the availability on threeparticular condi-
+tions Themethod of bisection on perpendicular atm idpoint is presented
+4
+= 人 Se
+米 六 ma 时
+钻井 布局 的 数学 模型 “外
+yAT
+胡 海 洋 ， 陈 建 ， 陆 春  ud
+指导 教师 陈  PR
+(南京 大 学 ， 南 京 210093) As
+摘要 : 。 本文 对 钻井 布局 问题 的 研究 , 是 从 全 局 搜索 入 手 ， i# D A—
+杂 性 , 得 到 不 同 条 件 下 求 最 多 可 利用 旧 井 数 的 较 好 算法 J\ SN
+对 问题 1, 我 们 给 出 了 全 局 搜索 模型 、 局 部 精 化 模型 与 图 论 模型 , 讨论 了 各 种 算法 的 可 行 性 和 复杂 度 得
+到 的 答案 为 : 最 多 可 使 用 4 口 旧 井 , 井 号 为 2, 4. 5, 10 对 问题 2, 我 们 给 出 了 全 局 搜索 , 局 部 精 化 和 旋转 矢量
+等 模型, 并 对 局 部 精 化 模型 给 出 了 理论 证 明 , 答案 关 ) 最 多 可 使 用 6 口 旧 间 , 并 号 为 1. 6. 7 8, 9 11, 此 时 的 网
+格 逆 时 针 旋 转 44 37 度 , 网 格 原点 坐 杨 5 47.0 所 加
+对 问题 3, 给 出 判断 an 口 间 是 否 均 富 % 久生 各 用
+J
+1 ai 和
+2 问 有 Saues 扩
+如果 个 吕 二 二 其 人 后 结 点 < 下 让 起 过 给 定 误 郑 el0.09) 单位 , 则 认为 P，
+人 用 因此 , 在 棋盘 ( 欧 氏 ) 距离 定义 下 , 可 以 以 忆 , 为 中 心 , 2e 单 位 为 边 长
+作 一 个 1 和 cp 加 若 网 络 在 平移 过 程 中 , 网 络 中 的 某 个 结 点 站 落 在 以 忆 , 为 中
+心 的 正 5 圆 ; 内 或 边 上 , 可 认为 YX 可 利用 旧 井 已, 的 相应 资料 同样 可 以 以 站 为 中 心 , 2e
+意 机 为 边 长 作 一 个 正方 形 ( 圆 ) 若 网 络 在 平移 过 程 中 ,P, 落 在 以 为 中 心 的 正方 形 ( 圆 ) 内
+VSRABETTTUON x, 可 利用 旧 并 忆 的 相应 资料 这 两 种 方法 分 别 对 应 于 网 格 移动 和 坐标 平
+移 , 温 然 它们 是 等 价 的 以 下 的 讨论 将 不 明显 区 别 这 两 种 方法 为 了 简化 讨论 , 引入 以 下 法
+则
+映射 法 则 :
+将 点 守 映射 至 以 (o,,，(o+ 1,5+ 1) 为 对 角 顶 点 的 正方 形 内 的 点 六 站 = i- [i]+ a
+六 = [+ 也 其 中 [x] 为 x 的 整数 部 分
+覆盖 法 则 :
+将 所 有 旧 井 映射 至 (- 1 - D, (0,0); (- 1,0), (0, D; (0- 1), (1,0); (0,0), (1, 1) 为
+对 角 顶 点 的 四 个 正方 形 上 以 2e 为 边 长 作 小 正方 形 , 该 正方 形 形 心 在 以 (- 0.5, - 0.5)，
+了?

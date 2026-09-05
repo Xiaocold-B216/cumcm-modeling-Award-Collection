@@ -1,0 +1,43 @@
+回 虽 过
+和 o
+四
+30 数学 的 实践 与 认识 1 tien
+6 模型 的 优 缺 点 及 改进 方向
+优点 :
+© 基因 特征 这 种 非 线 性 系统 很 难 用 数学 方程 表达 出 来 , 而 且 可 利用 的 样本 有 限 , 以 至
+于 传统 的 分 类 识别 方法 显得 无 效 , 神经 网 络 从 其 良好 的 学 习 功能 和 很 强 的 非 线 性 计算 能 力 ，
+为 分 类 提供 了 一 种 新 方法 ;
+@ 传统 的 分 类 方法 是 一 种 模型 驱动 方法 , 大 部 分 统计 模型 基于 线性 回归 , 而 神经 网 络
+用 数据 驱动 方式 来 解决 分 类 问题 , 它 通过 样本 学 习 逼 近 实际 系统 模型 的 能 力 很 强 ;
+® 由 于 BP 网 络 的 信息 分 布 性 , 各 输入 变量 对 输 迪 变量 的 影响 在 对 祥 本 澡 罗 时 已 自动
+记 下 , 并 由 整个 网 络 的 内 部 表达 而 表现 出 来 , 从 而 省 路 了 融 管 建 模 前 所 需 的 完 名 变 旺 的 相关
+分 析 AN
+@BP 网 络 有 更 多 的 可 调 变量 (各 权 值 、 闪 值 ), 故 网 络 可 以 以 更 复 的 方 盟 近 系统 的
+外 部 特征 BP 模型 的 不 足 之 处 在 于 存储 于 各 权 上 的 知识 人 们 无 法 理解 ,所 建立 的 模型 难以
+用 解析 方式 表达 出 来
+改进 方向 : As
+O 样本 集 如 何 处 理 , 55 fESH 26 °5 2) IOR, 提 识别 精度 ;
+@ 研究 网 络 的 结构 及 诸 参 数 与 分 类 效果 的 关 网
+图 如 何 根据 样本 集 的 选择 网 络 学 习 参 数 , 以 提 疯 网 络 的 收敛 速度 :
+@ 研究 适用 于 分 类 识别 问题 的 神经 网 络 的 闭环 结构 , 利用 反馈 信息 , 提高 网 络 预测 的
+精度 O
+参考 文献 $, mA ©
+[1] 王 永 又 , 徐 建 . 神经 网 络 控制 . 机 械 并 册 it. 1998.
+[2] FunahashiK J. the Approninate Realization of ContinuousM apping by N eural N etworks.N eutralN etworks, 1989,
+(2). ]
+[3] RumelhartD E, Moclell J L. oo Processing: Exploration in theM icrostructure of cognition M IT
+Press, London, 1996 下
+[4] 豆 曾 任 . 人 工 神色 网 络 到 我 应 用 .清华 大 学 出 版 社 , 1999.
+[5] 陈 明 . 神经 网 多 司 竹 区 发 连 理工 大 学 出 版 社 , 1995、
+[6] 楼 顺 天 , 施 阳 . 5 ATLAB 的 系统 分 析 与 设计 一 一 神经 网 络 . 西安 电子 科技 大 学 出 版 社 , 1999.
+[7] ELF, 内 . 问题 求解 的 人 工 智能 神经 网 络 方法 . 气象 出 版 社 , 1995.
+[8] 胡 守 入 . ena 国防 科技 大 学 出 版 社 , 1993.
+SEE
+NA， AModel for DNA Sequence Clustering Problem
+FENG Tao, KANG Zhe-wen, HAN Xiao-jun
+(Dalian U niversity of Technology, Dalian 116024)
+Abstract  This paper presents a method applying artificial neural network (NN) to DNA
+clustering problem. Firstwe use the probability statisticsmethod to extract the characters from
+the 20 artificial DNA sequences w hose categories are known Thus we can get the character
+vectors of the DNA sequences and input them as samples into BP neuron NN for learning We
+o4 © 1994-2008 Chin ic Journal Electronic Publishing House. All rights reserved WwW n

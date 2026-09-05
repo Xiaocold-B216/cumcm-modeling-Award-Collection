@@ -1,0 +1,25 @@
+回避
+o 人
+四
+double temp = 0.0;
+doubler= 0.0;
+double shenghuo[] = {6029.88,6510.94,7182.1,8606.55};
+double rate[] = {0.0198,0.0198,0.0225,0.0252};
+for(int i=0;i<4;i++){
+temp = Math.pow(1+rate[i], 4-i);
+temp = (shenghuol[i]+f)/temp;
+v = vt+temp;
+}
+r=(124328.25-v)/(111219.11+v); 局
+return T; e4Is )
+0
+B
+-
+» | YA |
+ee
+d |
+WWW 10. Pet
+一 一
+AL
+X&
+39

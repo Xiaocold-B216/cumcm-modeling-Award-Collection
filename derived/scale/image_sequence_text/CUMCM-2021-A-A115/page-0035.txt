@@ -1,0 +1,44 @@
+[ALBI] = find(FI11(:4)—FI(M2));
+
+[A2,B2] = find(FI11:.4)—FJ4M3)):
+
+Ten(M. 1)=sqrt( (CEJINCALD-EJHICALD)2+ (FITA2)-
+FIIAL2)Y2 +(FIJINNI(A3)-FJIINIAL3)772 入
+
+en(M.2)=sqrt( (FJUN(A.ID-FJII(A2.D)72+ (FJINII(A.2)-
+FJIINMKA2.2)72 + (FIJINII(A3)-FJIINIA2.3)72 %
+
+Ien(M.3)-sqrt( (FINALD-EJIN(A2.D)2+ (FI1AL2)-
+FJIINI(A2.2)2 + (FJII(AL3)FIJIIIA2.3))72 站
+
+lenl(MLDr-sqr( (FIA4-TIAL)2+ CICALS)rIAL5)72 十
+CHMAGJrIALGJ2
+
+lenl(ML2)-sqrt( CICAL4)-rICA2.4)72+ (ICALS)rHCA2.5)72 十
+CrICA.GJrIA2.6)72 大
+
+lenl(M.3)=sqrt( CrIAL4)-r1A2.9))72+ (rIALS)rI(A2.5)72 +
+CHMALG)rICA2.6)772 5
+det(M.1)-abs(len 1(M, 1)-len(M. 1)) len(M. 1);
+det(M.2)-abs(len 1(M.2)-len(M.2)) len(M.2);
+det(M.3)-abs(len1(M.3)-len(M.3)) len(M3);
+
+end
+end
+dete(i)-max(max(det)):
+Iv()-abs(sum(len)-sum(lent)) sum(len):
+这 dete(i)<=w
+wedete(i):
+eWi;
+o=dF(i) R:
+olrl;
+00-0.534*R-ddF(e):.
+o000-det;
+0000-IV(i):
+dirtz2;
+diirdet
+end
+end
+end
+plotdFW)
+35

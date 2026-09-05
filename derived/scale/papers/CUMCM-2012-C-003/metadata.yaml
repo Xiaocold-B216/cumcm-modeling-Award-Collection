@@ -1,0 +1,14 @@
+paper_id: CUMCM-2012-C-003
+year: 2012
+problem: C
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012C：脑卒中发病环境因素分析及干预 (2).doc
+source_sha256: D3FCC8E0989C76486CBB665FBAC51F584EE1D8442012EFB49D6A50E3B45F2212
+effective_pdf_path: derived/scale/doc_batch/CUMCM-2012-C-003/source_converted.pdf
+effective_pdf_sha256: 1AF31EA4FE7E106AA9306E894B3471753F6077BF19A8A1F648A1E752E4CBC2E1
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2012-C-003/normalized_body.txt
+authoritative_text_sha256: 2DD0824E0E1A666010CDD0CCC48C0FBD75592D2F44B7EE3A7DFA2672010F6971
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

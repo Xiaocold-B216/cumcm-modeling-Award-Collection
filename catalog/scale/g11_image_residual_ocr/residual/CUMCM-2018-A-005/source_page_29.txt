@@ -1,0 +1,42 @@
+回味
+复婚
+问题 三 程序 :
+[条 珊 可 TST 文件 S 称 Wentiai | 说 遇 | 第 民 1 层 作 用 碘 史 |
+tt=120; % 总 时 间
+figure % 寻 找 d2 与 d4 之 间 的 关系
+hold on
+ford2 = 10
+for d4 = 1:1:6
+T= skinTplus4(d2,d4);
+plot(T, LineWidih',1.2);
+end #7
+end 二 N
+axis([0 tt*60 36 60]) 2 由
+hold off 7 ¥~
+figure X
+hold on As
+for d2 = 15:2:25 DA
+ford4=3 K
+T = skinTplus4(d2,d4);
+plot(T, LineWidih',1.2);
+end @ 8
+end $O,
+axis([0 tt*60 36 55]) YA
+hold off <
+function T = skinTplus4(d2.d4) Y
+tt= 120*60;
+ahl=113;  _ v
+ah2 = 8.344; V/
+d2 = d2*le-3; <
+d4 =d4 ANNA
+A
+tho—300.86274.2,1.18];
+ee
+lam=[0.082,0.37,0.045,0.028];
+x=[0.0006,d2,0.0036,d4]; 。 % 每 层 的 宽度
+dx=[0.0001,0.001,0.0006,0.001]; 。 % 室 间 步 长
+dt=0.005; 。。 % 时 间 步 长
+Tout=80;Tin=37; % 初 始 温度
+LEN1=int8(x(1)/dx(D)+1;
+LEN2=LEN 1+x(2)/dx(2);
+29

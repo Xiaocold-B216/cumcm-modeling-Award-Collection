@@ -1,0 +1,91 @@
+问题三程序：
+程序编号
+
+T3-1
+
+文件名称
+
+wenti3.m
+
+说明
+
+第 2、4 层作用研究
+
+tt = 120; %总时间
+figure %寻找 d2 与 d4 之间的关系
+hold on
+for d2 = 10
+for d4 = 1:1:6
+T = skinTplus4(d2,d4);
+plot(T,'LineWidth',1.2);
+
+流
+
+end
+end
+
+交
+
+axis([0 tt*60 36 60])
+hold off
+
+研
+
+figure
+hold on
+
+：
+科
+
+for d2 = 15:2:25
+for d4 = 3
+T = skinTplus4(d2,d4);
+plot(T,'LineWidth',1.2);
+end
+
+号
+
+end
+axis([0 tt*60 36 55])
+
+众
+
+hold off
+
+tt = 120*60;
+ah1 = 113;
+
+信
+
+ah2 = 8.344;
+
+公
+
+function T = skinTplus4(d2,d4)
+
+d2 = d2*1e-3;
+
+微
+
+d4 = d4*1e-3;
+
+rho=[300,862,74.2,1.18];
+c=[1377,2100,1726,1005];
+lam=[0.082,0.37,0.045,0.028];
+x=[0.0006,d2,0.0036,d4];
+
+%每层的宽度
+
+dx=[0.0001,0.001,0.0006,0.001];
+dt=0.005;
+
+%空间步长
+
+%时间步长
+
+Tout=80;Tin=37; %初始温度
+LEN1=int8(x(1)/dx(1))+1;
+LEN2=LEN1+x(2)/dx(2);
+29
+
+

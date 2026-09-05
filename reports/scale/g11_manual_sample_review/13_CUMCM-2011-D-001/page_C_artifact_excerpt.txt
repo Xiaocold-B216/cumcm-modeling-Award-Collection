@@ -1,0 +1,16 @@
+paper_id=CUMCM-2011-D-001
+page_number=22
+page_classification=LAST_SUBSTANTIVE_PERSISTED_PAGE
+source_path=2011年数学建模国赛真题+优秀论文/2011年优秀论文/2011D：天然肠衣搭配问题(1)/一类肠衣搭配优化问题.doc
+source_sha256=A54963631C73100E2A26B41E91070384F60C7AE57B13789F2212145149EE6D2D
+persisted_page_text_path=catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2011-D-001/pages/0022.txt
+
+=== PERSISTED PAGE TEXT (READ-ONLY EXISTING EVIDENCE) ===
+%a=7:0.5:13.5; %a=14:0.5:25.5; [m1 n1]=size(Y); kk=1; for i=1:n1 sx=Yx(:,i); ss=Ys(:,i); t=find(sx>0); p=[sx(t) ss(t)];p=reshape(p',1,2*length(t)); pp=combntns(p,length(t)); for j=1:length(pp) z=zeros(m1,1); z(t)=pp(j,:); if ismember(sum(z(t)),[19 20])&&ismember(a*z,[88.5 89 89.5]) a*z Z(:,kk)=z'; kk=kk+1; end end end dlmwrite('f:/z.txt',Z); size(Z) x=dlmread('f:/x.txt'); xlswrite('f:/x.xls',x) xlswrite('f:/z.xls',Z) 22 [Image: Image6]
+
+=== FORMAL ARTIFACT CONTEXT WINDOW ===
+ max=m; @sum(a(i):x(i))=5; @sum(a(i):t(i)*x(i))=89; @for(a(i):m*x(i)<=y(i)); @gin(m); @for(a(i):@gin(x(i))); !剩余原料; @for(a(i):f(i)=y(i)-x(i)*m); @for(a(i):@gin(f(i))); @abs(@sum(a(i):x(i)-x0(i)))>0.5; endsubmodel calc: n=1;aa=2; !或aa=4,2; @while(aa#ge#0: @solve(zh); @for(a(i):x0(i)=x(i)); aa=aa-0.1; ); endcalc end %改进的领域整点搜索算法 clear clc Y=dlmread('f:/shuju.txt'); Y=reshape(Y,14,8);Y=Y' Yx=floor(Y); Ys=ceil(Y); a=3:0.5:6.5; 21 [Image: Image6] %a=7:0.5:13.5; %a=14:0.5:25.5; [m1 n1]=size(Y); kk=1; for i=1:n1 sx=Yx(:,i); ss=Ys(:,i); t=find(sx>0); p=[sx(t) ss(t)];p=reshape(p',1,2*length(t)); pp=combntns(p,length(t)); for j=1:length(pp) z=zeros(m1,1); z(t)=pp(j,:); if ismember(sum(z(t)),[19 20])&&ismember(a*z,[88.5 89 89.5]) a*z Z(:,kk)=z'; kk=kk+1; end end end dlmwrite('f:/z.txt',Z); size(Z) x=dlmread('f:/x.txt'); xlswrite('f:/x.xls',x) xlswrite('f:/z.xls',Z) 22 [Image: Image6]
+
+
+=== HUMAN REVIEW NOTE ===
+This file prepares evidence only. It is not a human review decision.

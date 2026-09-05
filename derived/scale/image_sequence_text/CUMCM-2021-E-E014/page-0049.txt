@@ -1,0 +1,42 @@
+35. franelen = 11;
+4e. sgff3 。 seolayfilt(13 order, franelen); xs6
+deriva = GiFF(sgfF3,1); 56 数据 的 一 阶 求 导
+2 class 3 all -[class aik_deriv3
+43.103 - a([278 368 338]+1,4:end);  XEH
+44. sgf3 = sgolayfilt(113 order, franelen);  %5G
+5 derivl = diff(sgf3,1); ysG 数据 的 一 阶 求 导
+45. load trainedhodels
+47. yfita = trainedhodel8.predictFcn(k_deriv13 5
+1。 x 将 附件 四 class 数据 (A、B、 上 分 别 转换 成 1，2，37
+clcielear
+asread(' 附 什 4xasx')5
+4 = a(2iend,2);y = a(2:endy4:end);
+s. x 提 取 而 要 坚 别 药材
+5。 tiqu_column - Find(isnan(x));
+17， tiqu_columnl =- find(~snan(x));
+ep-
+op (tiqu_cotum)=(1;
+10. order - 5;
+11. ranelen = 11;
+12. 5gF = sgolayfilt(y!,order, franelen);  56
+13. k deriva = difF(sgf,1); XSG 数据 的 一 阶 求 导
+1 3g1 < K_derivzs
+15. 671 + mapstd(sef)); 数据 标准 化
+16..y_t1au = sgF1(: , tiau_coluant);
+17. y_tiqu = y_tiqu';
+了. sgf2 = [op,y_tiqul;
+15. xclassificationLearner 此 处 滑 用 分 类 器 工具 条
+20. % save('trainedhodel .mat' trainedhodel )
+21. train 。 sefz(1:221 :5 % WiEE
+22. load trainedhodel
+23. test = sgf2(2223end,:)3 。 % 抱 验 集
+4 testl = test(:,1);test2 = test(:,2:en0);
+25. ye 。 tratnedodel predictren(test2);
+26. xx ~1:1ength(testn);
+27. plot(ux, test1, 'o 05 hold on
+25. ploteyfit, 1)
+25. legend( RAE(" , KSFR YREBATIIE
+0. sen =- sf
+31. sim -sgfI([94 169 148 278 308 330 347]，:);
+32. ytl 。trainedhodel.predictFcn(sim)
+人

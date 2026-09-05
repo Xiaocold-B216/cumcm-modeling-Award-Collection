@@ -1,0 +1,85 @@
+Eliis
+5 u 出
+EeE
+
+A(L,i)=1+2%r4;
+
+A(Li-1)=-r4;
+
+ALi+])=-14;
+
+end
+
+A(m,m)=h+lam_4/derta_x4;
+
+A(m,m-1)=-lam_4/derta_x4;
+
+%%% 构造 右 端 项
+
+for k=2:n+1
+
+b=zeros(m,1);
+
+for i=2:m-1 全
+
+b(i,1)=u(i+1,k-1); _ 多
+
+end 一 SS
+
+b(1,1)=u(2,k-1)+r1*u(1,k); 2XG
+
+bml,D=0; 了
+
+b(m1+m2,1)=0;
+
+b(m1+m2+m3,1)=0; As
+
+b(m,1)=37*h; X
+
+%% 追赶 法 求解 K
+
+bb=diag(A)"
+
+aa=[0,diag(A,-1)']; °
+
+c=diag(A,1); o
+
+N=length(bb); %%
+
+L=zeros(N);
+
+uu0=0;y0=0;aa(1)=0; 放
+
+L(1)=bb(1)-aa(1)*uu0; 于
+
+y(1)=(b(1)-y0*aa(1))A(1);
+
+wu(1)=c(1)/L(1); )
+
+for ON \'a
+
+L(i)=bb(i) 人 oo
+
+yGsCbGIYGsDJSaaG))LG):
+
+宫 人 人;
+
+jd
+
+L(N)=bb(N)-aa(N)*uu(N-1);
+
+y(N)=(b(N)-y(N-1)*aa(N))/L(N);
+
+x(N)=y(N);
+
+for i=(N-1):-1:1
+
+x(D=y()-uu(D)*x(i+1);
+
+end
+
+u(2:m+1,k)=x";
+
+end
+
+35

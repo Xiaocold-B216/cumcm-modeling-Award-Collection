@@ -1,0 +1,89 @@
+order by 1
+;
+--创建该商场会员消费金额临时表
+if object_id('tempdb..#vip_total_je') is not null
+Begin
+drop table #vip_total_je
+End
+select CONVERT(char(10),t.dtime,120) as 日期,SUM(je) as 会员消费总金额 into #vip_total_je
+from total t
+where
+t.vsd_kh is not null and t.vi_kh is not null --限定会员
+
+流
+
+group by CONVERT(char(10),dtime,120)
+order by 1
+;
+
+交
+
+--提取该商场会员、非会员消费总金额
+
+select * from #notvip_total_je a left join #vip_total_je b on a.date=b.日期;
+select SUM(je) as 会员消费总金额
+
+研
+
+--提取会员、非会员消费总金额
+
+from mall_vip_sale_detail;
+
+--会员
+
+--会员、非会员的总购买数量
+
+：
+科
+
+select SUM(je) as 非会员消费总金额 from mall_notvip_sale_detail;
+select SUM(sl) as 会员总购买数量 from mall_vip_sale_detail;
+
+--会员
+
+select SUM(sl) as 非会员总购买数量 from mall_notvip_sale_detail;
+-----------------------------第二问-----------------------
+
+号
+
+-------------------------查询 RFM 模型中所需数据--------------创建最后一次购买日期临时表
+
+众
+
+if object_id('tempdb..#last_date') is not null
+Begin
+
+;
+
+信
+
+select
+
+公
+
+drop table #last_date
+End
+
+vi_kh,MAX(dtime) as last_date into #last_date
+
+微
+
+from vtime_mall_vip_sale_detail
+group by vi_kh
+;
+
+--创建 RFMT 模型临时表
+if object_id('tempdb..#RFMT') is not null
+Begin
+drop table #RFMT
+End
+;
+select
+distinct vmvsd.vi_kh as 会员卡号,
+25
+
+--非会员
+
+--非会员
+
+

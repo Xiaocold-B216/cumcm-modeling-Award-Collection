@@ -1,0 +1,78 @@
+X_yuce <- readtable("C:NUsersN86182NDesktopWdatatxt"header = TskipNul = T)
+
+X_pred <- predici(resLx_yuce)
+
+write.csv(x._pred.file = "C:/Users/86182/Desktop/data.csv")
+
+附录 二 决策 树 代码 CRIEH)
+
+TibraryGrparD
+
+Tibrary(tibble)
+
+Tibrary(bitops)
+
+Tibrary(rattle)
+
+Tibrary(mpartplot
+
+Tibrary(RColorBrewer)
+
+mydata<-read table("clipboard" header=T)
+
+sub<-sample(1:67.47)
+
+train<-mydatafsub.]
+
+test<-mydata[-sub.|
+
+model <- mpart( 类 型 -data = train)
+
+fancyRpartPlot(model)
+
+x<-subset(testselect—-)
+
+pred<-predict(modelx type="class")
+
+k<-test[" 类 型 "
+
+table(pred k)
+
+附录 三 RASHTRT 〈R 语言 )
+
+library(NbClust)
+
+library (factoextra)
+
+library(ggplot2)
+
+mydata<-read table("clipboard” header=T)
+
+head(mydata)
+
+dim(mydata)
+
+fviz_nbelust(mydata, kmeans, method = "wss")
+
+kmeansO<-kmeans(mydatal,-14].centers=4)
+
+print(kmeansO)
+
+fitkm <- kmeans(mydata, 4, nstart-25)
+
+fitkmssize
+
+fitkmScenters
+
+aggregate(mydatal-1], by-list(cluster=fit kmScluster), mean)
+
+library(eluster)
+
+setseed(1234)
+
+fit.pam <- pam(mydatal-1], k-3, stand-TRUE)
+
+fit. pamSmedoids
+
+clusplot(fit pam, main~"Bivariate Cluster Plot")
+TY

@@ -1,0 +1,84 @@
+ep yb
+
+op(:tiqu_colum) = [1;
+
+o. 8 - y(2iend, );
+
+10. order = 5;
+
+11. fromelen = 11;
+
+12. sgf = sgolayFile(s,order, fromelen);  %56
+
+15. k_deriva = diff(sgf,2); 56 数据 的 一 阶 求 导
+
+14. sg1 deriv2
+
+15. sl = mapsta(sgF); prre
+
+16. y_tiqu = sgFA(:, tiau_column);
+
+17. 3871(:, tiqu_column) = [1;
+
+15. se [sgfliop];
+
+19. % classi ficationtearner 此 处 调用 分 类 加 工具 条
+问题 四 ， 将 附件 四 class 数据 (A、B、C 分 别 转换 成 1，2，3》
+
+1. SHHH class 数据 (A、B、( 分 别 转换 成 1，2，3)
+
+2 acaer
+
+asread(' 痢 人 4xasx
+
+arend,3)5y = al2xendv4iend)
+
+s. x 规 到 而 要 枚 药材
+
+5 tiqu_column = find(isnan(x));
+
+7， tao_columl - Find(-isnan();
+
+op 3
+
+to
+
+10. order = 5;
+
+11. fronelen - 11;
+
+二 的
+
+15. k_deriva = iff(sgf,1); 56 数据 的 一 阶 求 导
+
+eriv2
+
+15. sg = mapstd(sgf1)5 下 据 标准 化
+
+16. y_tiqu = sEFI(:, tiau_coluant);
+
+17. y_tiqu + y_tiqu';
+
+15. sf2 = (op,y_tiaul;
+
+15. %classi ficationtearner 处 调用 分 类 器 工 具 条
+
+20. % save('trainedhodela .mat' trainednodel3 )
+
+2 train = sgf2(l:314 25 和 NEA
+
+22. load trainedhodel3
+
+2 test sef2(314:end,:)1 。 X BRA
+
+21. test1 = test(:,1jtest? = test(:,2:end);
+
+25. yfit = trotnedodel3.predictFen(test2);
+
+26. xx +1:1ength(testi);
+
+27. plot(x,test1, 'o yi hold on
+
+25. plot(unyfit, +')
+
+人 6

@@ -1,0 +1,84 @@
+{
+  "attempt_id": "20260902T154312483513_34beff4e",
+  "batch_attempt_id": "20260902T154312483513_34beff4e",
+  "paper_id": "CUMCM-1995-A-006",
+  "source_path": "1995年数学建模国赛真题+优秀论文/1995年国赛优秀论文/1995A：飞行管理模型的能量梯度求解法.pdf",
+  "source_sha256": "17F52641182DCB02A799F969FE7374B339BEC2933894F05438DDB76A9380160D",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 5,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 5,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "EiEE t 第 26 卷 (1996) 第 1 期 \"25 其 中 /CA 为 目标 轴 数 方向 角 改 变量 的 绝对 值 和 《或 平方 和 ).DIST(4 ,局 ) 为 飞机 4 和 人 之 间 的 距离 。 方法 一 (基本 思路 )， 首先 在 0 中 以 较 大 跨度 均匀 地 取 N 个 点 ,通过 遍历 计算 找到 其 中 使 FCAow 取 最 小 值 的 点 .然后 以 该 点 为 中 心 , 找 一 个 较 小 的 区 域 ,在 其 中 再 取 N 个 点 ,在 这 N 个 点 中 找到 使 FCAa) 取 最 小 值 的 点 。 如 此 适 代 下 去 , 当 区 域 足够 小 ,或 者 连续 两 次 找到 的 点 非常 接近 时 ( 即 如 果 连 续 两 次 选 代 所 得 结果 位 置 相 邻 且 目 标 函 数 之 差 小 于 0. 1*) ,我 们 就 认为 找到 了 较 优 的 解 ,此 时 停止 过 代 。 此 方法 的 优点 在 于 ; 它 是 一 个 注重 侈 室 间 的 算法 。 较 其 它 方法 ,如 逐次 调整 法 等 , 它 比 较 有 效 地 入 免 了 局 部 行为 ( 即 选 代 过 程 中 结果 收 敏 到 一 个 局 部 极 小 信 而 非 全 局 最 小 颌 本 现象 ) 。 当 点 数 N 选取 适当 时 ,时 间 消 耗 很 少 ,但 它 仍 有 一 些 不 足 ,主要 局 是 是 :生息 八 S 小 时 ,样本 点 在 空间 中 的 分 布 过 于 稀 杖 ,仍然 有 可 能 出 现 局 部 行为 ,为 此 ,我 们 参 方 法 -的 基础 上 做 了 改进 ,得 到 方法 二 。 多 方法 二 (改进 思路 )， 内 首先 在 Q, 中 均匀 地 到 N 个 点 , 台 过 明 历 计算 找到 其 中 使 RC 人 的 误 服 小 的 M 个 点 。 以 这 M 个 点 为 审 心 和 订 个 小 区 域 ,在 每 -个 小 区 域 中 均匀 地 取 人 中 刘 浏 算出 这 MAN 个 点 中 使 FCAa 取 景 个 值 的 M/ 个 点 ,如 此 适 代 下 去 ,直到 我 到 较 优 的 解 (关于 较 优 的 解 的 判别 方法 同方 法 一 ) 关 于 方法 二 的 细节 问题 参见 算法 描 趾 g 序 潜 二 所 用 时 间 约 为 方法 一 的 M 倍 (实际 上 略 少 于 M 倍 ), 而 在 M 值 与 小 区 域 的 选 蒋 只 法 较 好 时 ,可 有 效 地 避 锡 局 部 行为 。 这 个 优点 在 算法 描述 一 节 中 得 到 了 很 好 的 体现 。 全 锥 hj 飞行 管理 模型 的 能 量 梯度 求解 法 有 分 ( 清华 大 学 , 北京 100084 ) SN \\: 指导 教师 :高 策 理 基 | :本 问题 建 模 后 构成 一 个 非 线性 规划 , 求 最 优 年 有 相当 难度 ,针对 本 问题 本 文 用 一 个 才 和 看 途 局 性 质 的 能 量 来 表达 飞机 位 置 , 当 达到 最 佳 位 置 时 能 重 取 最 小 ,从 而 构成 能 量 梯度 调 整 模 型 , 校 此 模型 获得 了 本 问题 最 优 解 。 本 文 为 作者 原 论文 中 部 分 内 容 。 关键 词 :能 量 梯度 ,同步 算法 ,异步 算法 针对 以 上 问题 ,我 们 考虑 利用 一 个 能 够 表征 全 局 性 质 的 量 来 辅助 调节 每 架 飞机 的 位 壮 。 由 于 最 优 解 对 应 于 一 个 函数 的 极 值 ,我 们 设想 用 能 量 来 表达 飞机 的 位 置 , 当 达到 最 侍 9 1 回味 Sigudd 26， 数学 的 实践 与 认识 站 位 置 时 ,能 量 最 小 ， 由 此 我 们 可 以 设想 ,每 架 飞机 的 方向 角 在 其 调整 方向 上 的 能 量 棉 度 表 达 了 这 扣 飞 机 的 调整 趋势 。 通 过 比较 这 些 趋 势 并 在 趋势 上 逐步 搜索 。 我 们 有 理由 相信 其 调整 过 程 将 向 一 个 较 优 的 结果 运动 。 为 此 ,我 们 定义 [Ab ,Ab，…vAb] 空 间 的 能 量 函 数 如 下 ， 有 = 对 六 忆 其 中 瓦 ) 一 0， do == 8 本 一 8 一 drop do <8 全 当 妆 7 两 架 飞 机 之 间 的 最 小 距离 dns>8 oh 起 HrERN》 Leo<8 时 ,定义 太一 8 一 dwr 这 反映 了 帮 擅 的 严重 程度 .很 明 号 ,此 能 基 郴 牙 友 到 示 记 ] 在 Ag.AA ,AN 的 调节 和 作用 下 ,当前 飞 角 向 人 起 的 共生 和 后。 我 们 在 [Ab ,Ab,…,Ab] 室 间 上 ,只 到 找到 下 的 从 点 ,全 可 符合 是 肠 时 -和 我 们 提出 了 能 量 梯度 法 。 Q AEF BIEAT HE 4s \\ 和 4 LAR | \\ 3 已 oE,; 5 2a00 个 2 4 而 5 六 太 二 0， E,=0; MA BE ad 证 p Ab 十 AU、 工 区 和 一 Spt = |APIMeh, — pap + 各 二 人 4) 二 术 关 0: 当 SP 内 一 纪 十 人 0 时 ,上 式 中 的 士 1 取 十 1; 反 之 , 取 一 1。 k KT = E l 为 能 量 下 降 的 期 望 信 ， 全 3AU —30°<A0< H 一 太一 广 g 一 二 (十 rz 十 9038 >0 取 二 10 二 几 取 一 TS N 一 \\ 同 步调 整 在 此 我 们 首先 采用 同步 调节 的 方法 。 在 此 方法 中 ,每 次 对 六 架 飞机 均 做 调整 ,如 算法 (3,4) 所 示 《 参 见 后 文 )。 在 调节 过 程 中 ,如 果 有 两 架 飞机 之 间距 离 较 小 , 则 此 两 架 飞机 在 梯度 方向 上 的 调整 由 度 应 加 大 。 我 们 建立 如 下 的 函数 以 说 明 这 种 思想 ， 2 « 回味 隧 汪 第 26 卷 (1996) 第 1 期 .27 ， 二 .异步 顺序 调整 同步 调节 不 可 避免 地 带 来 一 种 局 限 性 , 即 当 一 架 飞机 调节 后 ,再 调整 另 一 架 飞机 时 ， 是 按 前 一 飞机 坟 调 整 之 前 的 参数 计算 的 ,因此 同步 调节 时 ,总 体 性 质 的 体现 不 很 好 ,不 能 多 架 飞 宙 相互 兼 原 。 为 此 ,我 们 认为 ,在 谓 节 一 架 飞 机 后 ,就 更 新 所 有 参数 ,再 利用 梯度 调 节 下 一 架 飞机 的 方法 更 为 合理 。 由 此 我 们 提出 了 异步 硕 序 梯度 调节 方法 。 三 .异步 优化 顺序 调整 二 旧居. 不 本 的 和 不 四 ,有 的 人 内 对 最 后 能 量 的 减 小 起 着 明显 的 作用 ,因此 我 们 没有 理由 不 先 考 志 这 些 飞 总 .区 们 或 进 业 庆 模型 为 异步 优化 顺序 模型 , 即 每 次 调节 后 更 新 参数 并 计算 每 个 飞机 调 节 的 税 谋 ,找到 度 绝对 值 最 大 的 飞机 优先 进行 调整 四 、 同 步 梯度 算法 4s 、 1 计算 当前 总 能 量 , 若 已 一 0, 则 已 符合 要 求 , 转 DC 2 对 于 41,2，… 6, 分别 计算 5 , 即 能 最 正在 从 从 放 向 上 的 刚度 ,( 计 算 方法 参 见 2.5 节 )。 3) 根据 ;5 决定 Ab 的 变化 量 2 见 ? 呈 区 ) 4) 令 Ap = Ap + stepy; 7A 5) 转 1i 6) Fe0 在 起 逐 ,Ab.) 即 为 所 求 的 各 架 飞机 航向 角度 的 偏 移 量 。 ) - N— 0) k=0 o ) \\/ 0.1) & Yi £>6 W4% k=1; D rhucen 下 , 若 E=0 MEREER.5 6; 六 生计 算 ;5 , 即 能 量 忆 在 Ag 方向 上 的 梯度 ;( 计 算 方法 参见 2.5 节 ) 3 此 32 决定 Ag 的 变化 量 stepli( 兄 2.5 节 ) 汪 5AR 4) 令 人 和 一 Ab 二 step 5) 转 0.1; 6) 算法 结束 ,此 时 (Ab ,Ab.,…,Ab 即 为 所 求 的 各 架 飞机 航向 角度 的 偏 移 量 。 2 994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net 回味 呈 记 ，28 数学 的 实践 与 认识 当 汪 人 六 、 异 步 优 化 顺序 梯度 算法 1) 计算 当前 总 能 量 已 , 若 . 匹 =0, 则 已 符 台 要 求 , 转 6; 2) 对 于 4 1,2,…6, 分 别 计算 ;25 , 即 能 量 忆 在 AU 方向 上 的 梯度 ; (计算 方法 参 见 2.5 节 )。 2.1) 从 5 人 5 16: 中 选 出 梯度 的 最 大 值 ,及 其 对 应 的 天 3) 根据 5 决定 Ag 的 变化 量 wepui( 见 2.5 节 ) 次 4) 令 A0=Agl 十 step 人 SD 5) 转 1; of I\\) 6) Rnansnonsomssherriin ] 七 ` 间 步 梯度 模型 代 我 们 选取 疯 值 为 0. 1 ,用 同步 梯度 模型 对 三 组 数据 计算 多 : TAR CI O EN EE ET EDITIIEE 可 工 ETIIETIIEIXRIOIEETREEIEETT ^ 放 mrewwa 我 们 选取 阔 值 为 0. js 肝 蜡 步 顺 序 梯度 模型 对 三 组 数据 计算 结果 如 下 ， 11» TAR 和 司 本 而 EECIET3IEEC ETIERIREEIIEEIRCCNIDZG ET NETOEZOEEIEEIETEIEISEE AN N 九 . 异 步 优化 顺序 梯度 模型 我 们 选取 阔 值 为 0. 1, 用 异步 优化 顺序 梯度 模型 对 三 组 数据 计算 结果 如 下 ， 3 994-2008 China Academic Journal Electronic Publishing House. All rights reserved. http:/Awww.cnki.net mi id 站 区 各 第 26 卷 (1996) 第 1 期 “29 1 maes | 飞 册 1 | -2 | -3 [wd [wns | 飞机 6 | 总 i | 0 2 922 0 1.541 [—2.51 | 3.610 8.61 飞行 管理 问题 约束 条 件 的 线性 化 #4 EN 徐 元 军 。 曾 九 林 HEH 2 5 中 南 林 学 院 . BRIN 412000 》 了 簿 导 教 师 : 活 冬 光 多 编者 按 : 本 文 从 相对 运动 出 发 ,给 出 了 两 架 飞机 不 碰撞 条 件 的 从 Js 掩 的 方向 角 范 围 , 并 对 有 关 条 件 作 了 线性 化 处 理 , 从 而 使 原来 的 莫 线 % 孚 来 化 为 线性 约束 ,其 特点 在 于 :对 约 来 条 件 的 向 化 ,注意 了 保留 在 区 域内 不 , 在 区 虑 三 撞 的 渔 度 范围 ,考虑 较 为 全 面 。 当 然 ,对 这 一 条 件 还 可 有 其 他 处 理 方式 。 此 处 发 表 的 是 该 过 有 尖 部 分 的 摘录 ,编者 只 增添 了 极 少 的 语句 ,使 文 意 联 舱 。 关键 词 :碰撞 条 件 ,约束 条 件 。 4 。 x; = vtCos(0’; + N 0<<x; <160 yi = utSin(8\"; 本 时 Da 0<y, < 160 则 飞机 ; 与 了 间距 离 ”一 Y CC d=(xi—jd2+ (u: — y)2 CrvaD 表 示 第 NS 时 刻 的 坐标 (可 证 示 第 : 架 飞 机 在 := 一 0 时 的 坐标 (一 1,2,3,4.5; j=i—+1,i+2w+6) 新 进入 飞 柄 编号 为 6。 考虑 利用 两 架 飞 机 在 区 域内 的 相对 速度 来 判断 飞机 的 碰撞 条 件 。 乡 表 示 两 点 的 连 线 为 始 边 , 为 圆心 着 时 针 旋转 到 w 的 角 ( 在 两 点 连 线 的 左 端 反 向 为 负 ) 。 销 表 示 以 两 点 的 连 线 为 始 边 ,) 为 圆心 顺 时 针 旋 转 到 w 的 角 ( 在 两 点 连 线 的 右 端 ) , 反 向 为 负 。 3",
+  "normalized_text_chars": 5508,
+  "normalized_text_sha256": "27960C633F1669F293E8291837CA054017ECA333C994DB65283E207E7E634D11",
+  "page_provenance_summary": {
+    "OCR": 5
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "D9DFC0822E14A1DF16E9D601DA3AC97859EF45062DB467B4BEF3D31FA06EBE06",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B71E208445C99CBCAD498168146F2FEAB2A938D9472F89E797FBD550EB7CD1C4"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "5E78E2F3D501468CE655153B65137C47735E1CB8FC6730A251E03039DEDCB0B9",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "0D18064DA52FFBCBCD5385D46C3D70FF8E7FF895BB691021B010F52DB567BCF0"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "E64E80664FC4372803039FEECAB4A0FB218D671A43025DC032CDE7B996DC2544",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "ABE4400518106A7D7129AB6C4EE3EFED79266A0F8E27A3E9A871E2AD3A885FDC"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "951D780CF5766E50AD276DC1CD60ED63FD2908F57920B2C19BE4AF98D8569E8D",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "E8BD19AC1D7B7DF720EE1482722CFEAC2F22606F59A4375560068F63D1DF8763"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "AE27CEDBA3B4FF26F5C8C978DF0287921A3C6D98F127A95F0A97712863113F92",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "BD7B977C20339FA685383ED412E30B89A60F382F1AD941E41787C992368CA3E9"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}

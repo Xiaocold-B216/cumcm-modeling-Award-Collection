@@ -1,0 +1,97 @@
+return Respond;
+}
+
+// 文件输出费用
+void OutPutCostCal(ofstream & fout,
+multimap<float, vector<int> > & FeasibleSolve)
+{
+multimap<float, vector<int> >::iterator iter;
+
+流
+
+iter = FeasibleSolve.begin();
+while ( iter != FeasibleSolve.end() )
+
+t
+ne
+国 o.
+中 di
+学 ma
+数 w.
+
+{
+
+交
+
+fout << "费用：" << setw(4) << setfill(' ') << iter->first << " 元 : ";
+
+研
+
+ww
+
+fout << " S" << setw(4) << setfill('0') << iter->second[0];
+
+{
+
+：
+科
+
+for (int i=1; i<iter->second.size(); i+=2)
+
+fout << " L" << setw(4) << setfill('0') << iter->second[i];
+}
+
+iter ++;
+}
+
+公
+
+}
+
+众
+
+fout << endl;
+
+号
+
+fout << " S" << setw(4) << iter->second[i+1];
+
+// 综合处理时间，花费，转乘次数。并将结果分别存入文件中。
+(
+
+int nStart, int nEnd,
+
+微
+
+信
+
+void Time_Cost_BusChangeTimes_Pro
+
+// 起始点和目标
+
+点
+
+vector<LoadMessage> & AllLines,
+
+// 所有路线
+
+vector<vector<int> > & AllBuses,
+
+// 所有公汽
+
+信息
+
+站信息
+vector<vector<vector<int> > > &RoadCrossInfo
+交叉信息
+)
+{
+char
+
+char_1[20];
+
+26
+
+// 任意两路线的
+
+

@@ -1,0 +1,20 @@
+paper_id=CUMCM-2008-C-004
+page_number=14
+page_classification=LAST_PAGE_FROM_FROZEN_PAGE_COUNT
+source_path=2008年数学建模国赛真题+优秀论文/2008年优秀论文/2008C：《地面搜索的优化模型》.pdf
+source_sha256=73FEE41DA723C0FA080D0E3050B8585405510151FB6AEF69FEE292972D29F045
+persisted_page_text_path=NOT_AVAILABLE_FOR_THIS_STRATUM
+
+=== PERSISTED PAGE TEXT (READ-ONLY EXISTING EVIDENCE) ===
+[No page-local persisted text is available; no new extraction was run.]
+
+=== FORMAL ARTIFACT CONTEXT WINDOW ===
+
+
+<!-- source_page: 14 -->
+
+
+
+
+=== HUMAN REVIEW NOTE ===
+This file prepares evidence only. It is not a human review decision.

@@ -1,0 +1,40 @@
+ES
+口 [RE ] 口
+ppe
+半生 各
+130 工 程 数 学 学 报 第 20 卷
+RINGIRieeerggeeeeegnaeeee
+给 出 了 # 必须 满足 的 条 件 。 如 果 媚 ,xu 给 定 , 则
+一 一 一 一 -
+/PC2P TD NUDoy
+Ly=H, N & 元 ) G ) 1 Hiyf ( 2nu ) 1 (29)
+L, 必须 满足 的 条 件 - 代 人 (26) 可 得
+T, =
+2h’+ L)n
+VC- 2i = 1Pe)(R7 + LY) = 22i - D*307 +2(2i = Dol, /4(R7 + La%u? - BQ2i - 1)o
+问题 化 为 求 了 (Lo ,Li …,L) = To + 的 极 小 值 的 问题 。
+工人
+如 果 靖 = 2, 则 户 = 100 m ,Po = 760,1000 = Lo+ L; + Las 设 在 [200 Josn] 下 这
+/)
+的 距离 为 L，， 则 可 以 从 L, > v/343 ~ 21.072, L, > /11996 ~ 109.5 :求生 让
+Ly~—43.74m, L. ~ 76.949m , Ly ~ 933.582m AL
+L;+ Ly=L,=1000m g , H
+T=2T,+2T, + T, = 884.698
+Ti = 92.676s,T, = 74.8495, T, = 549.6 |
+bs 134…0: 117: ,0 113， p
+， w A08 人
+Li s- 43.74m 意 即 先 从 武昌 汉阳 门 的 正 对 岸 处 往 上 上 游 43.74 彤 ， 再 往 下 游 。
+游泳 路 线 图 ( 略 )。
+可 以 令 = 3 4 0 和 随 y 变化 的 规律。
+Modeling and Analysis of the Problem “Speedily
+9 the Yangtze River”
+一 -一
+) )’ YE Qi xiao
+fr t of Mathematics，Bcijing Institute of Technologv，Beijing 100081)
+仿
+Abstract | n this paper. source. design and formulation of the contest problem "Speedily Crossing the Yangtze
+Ri 车 sased. Reviews for outstanding papers are given. Recommendations for encouraging students from
+AN three - vear colleges and tertiary vocational and technical education schools ro participate in rhe
+MCM teachers training and the relarion between Mathematical Contest in Modeling (MCM) and mathematies
+teaching reform are discussed. One solution of this problem is also given in the appendix.
+Keywords: MCM; speedily erossing the yangtze river; mathematics teaching reform

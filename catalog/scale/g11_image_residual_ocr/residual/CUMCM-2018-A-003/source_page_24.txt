@@ -1,0 +1,46 @@
+回味
+本 辣
+3 四 =
+int min ind = i;
+for(; i<num; i++ H
+if(T[i] < T[min_ind]) min_ind = i;
+}
+return min_ind;
+}
+/FIFO 原则
+/int min_index(int *T){
+// inti=1,num=9;
+// intmin T ind=i;
+// intmin S ind=1i; #7
+/ 二 NY
+// for(; i<num; i++){ 一 \)
+/ if(T[i] < T[min_T_ind]) min T_ind =i; 2
+/ if(S[i] < S[min_S_ind]) min S_ind =1i;
+/让 }
+/ As
+// if(S[min_S_ind] <0) return min S_ind;
+/ returnmin_T_ind; X
+从
+/HRRN 原则
+/fint min_index(int *T){ ®
+// int temp[9]; 人 O
+/int max ind = 1; YA
+/intnum=9;
+/for(int i=1; i<num; i++
+/ iTI] < inpDV 确 保 汉 T 是 时 间 代价
+/ temp 国 三 CS 四 十 TD) /TI 等 待 时 间 越 长 ， 优 先 级 越 高 ， ”代价 越 小 ， 优 先
+级 越 高 。
+/ else o0) JI
+]/ ,
+/fortin < 全 iH+){
+人 ANs RN <temp[i]) max_ ind =i;
+// NY max_ind;
+从
+int main(){
+int time = 0;
+int pos = 0,next_pos = 0;/ 小 车 起 始 位 置
+bool begin = 0;
+while(time<3600%8) {
+Jkssiskkkk 平 人 Ja fsek ddkok /
+for(int j=1;j<95++) {
+24

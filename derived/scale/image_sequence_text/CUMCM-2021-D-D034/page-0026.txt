@@ -1,0 +1,45 @@
+double r1= Cmin;
+double r2 = S-Cmin;
+printff" 首 次 线 切 将 钢坯 切割 为 1 段 长 度 为 %If 的 和 1 段 长 度 为 %if 的 钢坯 ,并 全 部 报废 wm"
+r1,r2);
+】
+Imax = Imin = S;
+F=0;
+printf(" 首 次 线 切 后 长 度 为 合格 的 钢坯 有 : %d B\n", F);
+printf(" 最 优 方案 切割 后 所 有 尾 坯 切割 损失 最 小 值 : %fn"lmin);
+}
+}
+if(Imin<0){
+printf(" 切 害 次 数 : 1 (无 需 进行 离线 二 次 切割 )\n'");
+printf(" 切 割 后 长 度 为 合格 的 钢坯 有 : %d 段 \n"， F);
+double 位 = -Imin/e;
+intFI = 0;
+F1 = (intjfl1;
+printf(" 首 次 线 切 后 长 度 为 : 9%hf 的 钢坯 有 %d B\n"N,F1);
+double r2 = Nmax+fmodlImin,e),F2 =1;
+printf(" 首 次 线 切 后 长 度 为 : %ff 的 钢坯 有 : 1 B\n", r2);
+int F3 = F-F1-F2;
+printff" 首 次 线 切 后 长 度 为 : %lff 的 钢坯 有 : %d B\n",Nmax,F3);
+Imin = -{S-F1*N-r2-F3*Nmax);
+printf(" 最 优 方案 切割 后 所 有 尾 坯 切割 损失 最 小 值 : %fn"lImin);
+printf(" 即 该 长 度 钢 坯 切割 后 无 用 料 损失 \n");
+}
+if(Imin==0){
+printf(" 切 割 次 数 : 24n");
+if(L>e)
+double r1 = Nmax-e;
+double f1 = L/e;
+int F1=0;
+F1 = (int)f1;
+F =F-F1;
+printf(" 首 次 切割 后 长 度 为 : %lf 的 钢坯 有 %d B\n"riFl);
+double r2 = Nmax-fmodiL,e};
+F =F-1;
+Imin = S-F1*r1-r2-F*Nmax;
+printf(" 首 次 切割 后 长 度 为 : %lf 的 钢坯 有 1 &\n"r2);
+printf(" 首 次 切割 后 长 度 为 : %lf 的 钢坯 有 %d B\n",NmaxF);
+}
+if(L<=e){
+double r= Nmax-L;
+F =F-1;
+printf(" 首 次 切割 后 长 度 为 : %lf 的 钢坯 有 1 Bn'r);

@@ -1,0 +1,40 @@
+paper_id=CUMCM-2001-A-001
+page_number=1
+page_classification=FIRST_PAGE_FROM_FROZEN_PAGE_COUNT
+source_path=2001年数学建模国赛真题+优秀论文/2001年国赛优秀论文/2001A：血管切片的三维重建.pdf
+source_sha256=1B2A5BE4A875E37494661432EA4FB9B0945500C9AF8D24CA374CDDE1C211AADB
+persisted_page_text_path=NOT_AVAILABLE_FOR_THIS_STRATUM
+
+=== PERSISTED PAGE TEXT (READ-ONLY EXISTING EVIDENCE) ===
+[No page-local persisted text is available; no new extraction was run.]
+
+=== FORMAL ARTIFACT CONTEXT WINDOW ===
+# Extracted Paper
+
+<!-- source_page: 1 -->
+
+
+
+<!-- source_page: 2 -->
+
+
+
+<!-- source_page: 3 -->
+
+
+
+<!-- source_page: 4 -->
+
+
+
+<!-- source_page: 5 -->
+
+
+
+<!-- source_page: 6 -->
+
+
+
+
+=== HUMAN REVIEW NOTE ===
+This file prepares evidence only. It is not a human review decision.

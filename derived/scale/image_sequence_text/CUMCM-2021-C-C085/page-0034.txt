@@ -1,0 +1,38 @@
+def GetObj(name)
+ObiL = np.zeros(w)
+now_Obj-0
+forj in name:
+forz in range(w):
+ObjL{z] += GHLIj][z]
+"forzin range(l,w):# 往 前 看 一 周
+证 ObjLIz]>0 and ObiLz-1]<0
+ObjL{z]-=ObjL{z1]
+ObjL{z] “max(ObiL[z],0)"
+forz in range(w-1, 1-1):
+证 ObjLIz]-C<0:# 第 一 周
+x=C-ObiLI
+if ObjL{z-1]-C>0:
+if X<ObLz-1]-C:
+ObjLIz- 1]-=x
+ObjLIz}+=x
+else:
+Y-ObjLIz-11-¢.
+ObjLz=1}-=y
+ObjLiz) =y
+if ObjLz}-C0#30 =
+x-C-ObjL[z]
+if ObjlL{2-2]-C>0:
+if X<ObjLz-2]-C:
+ObjL{z-2]--x
+ObjL[z]+=x
+else:
+Y-ObjL[z-2]-C
+oObiL -21-=y
+ObiLD +=y
+21
+ifObjLIZ]-C <0:
+x=C-ObjLB]
+if ObjL{z-1]-C>0.
+ifx <ObjLfz- 1]- C:
+ObjL[z-1]-=x
+ObiLz] +=x

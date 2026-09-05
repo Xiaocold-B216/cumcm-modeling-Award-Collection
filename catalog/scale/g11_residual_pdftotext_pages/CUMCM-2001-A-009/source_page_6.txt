@@ -1,0 +1,114 @@
+工
+
+46
+
+程
+
+数
+
+学
+
+学
+
+报
+
+第 19 卷
+
+参考文献 :
+[1]
+
+杨 钰 ,何旭洪 ,赵昊彤等编著 . Mat hematica 应用指南 [ M ] . 人民邮电出版社 ,1999 年 10 月第一版
+
+[2]
+
+苏步青等编著 . 实用微分几何引论 [ M ] . 北京 : 科学出版社 ,1986 年 11 月版
+
+[3]
+
+谭浩强编著 . C 程序设计 [ M ] . 北京 : 清华大学出版社 ,1991 年 7 月版
+
+[4]
+
+姜启源 . 数学模型 [ M ] . 高等教育出版社 ,2001 年 1 月版
+
+[5]
+
+白其峥主编 . 数学建模案例分析 [ M ] . 2001 年 1 月版
+
+[6]
+
+雷功炎编著 . 数学模型讲义 [ M ] . 1999 年 4 月版
+
+L IU Hai2dong ,
+
+CHEN L u , J IAN G Hao
+
+交
+
+The tutor : L U Qin2he
+
+流
+
+Re2construction of Vessel in Three Dimension
+
+( Suzhou University , Suzhou 215006 , P. R. China)
+
+研
+
+Abstract : The re - construction of vessel in t hree dimension will be discussed in t his essay. We first show t he following proposition.
+Let C be a curve along which t he center of a ball moves , ω( i) a section sliced from t he original vessel by t he plane Z
+
+Proposition
+= i , and 5ω
+
+( i)
+
+t he boundary of ω( i) ( 0 ≤i ≤99) . Let C ( i) be t he intersection point of C wit h t he plane Z = i ( 0 ≤i ≤99 ) , t hen
+
+：
+科
+
+t here are a line segment wit h two end points P1( i) , P2( i) , ( P (j i) ∈5ω( i) , 0 ≤i ≤99 , 1 ≤j ≤2) such t hat C ( i) is t he middle point of
+t he line segment
+
+P1 i) P2 i) and two parallel tangent lines which touch 5ω i) only at P1 i) , P2 i) respectively ( 0 ≤i ≤99 ) .
+(
+
+(
+
+(
+
+(
+
+(
+
+On t he basis of t he proposition shown above , C ( i) ( 0 ≤i ≤99) and t he diameter of t he vessel D = 59. 1238 pixel have been found.
+The equation of C is simulated by coordinate data of 100 intersection points :
+
+x ( t) = - 0 . 207806 - 0 . 610303 t + 0 . 206455 t 2 - 0 . 0144935 t 3
+
+号
+
++ 0 . 000517774 t 4 - 8 . 394241977754047 ×10 - 6 t 5
+
++ 6 . 133353112035975 ×10 - 8 t 6 - 1 . 6673218267444805 ×10 - 10 t 7
+y ( t) = 158 . 211 + 1 . 86595 t - 0 . 266798 t 2 + 0 . 0141407 t 3
+
+公
+众
+
+- 0 . 000325412 t 4 + 3 . 043275597680807 ×10 - 6 t 5
+- 9 . 899171274615063 ×10 - 9 t 6
+
+z ( t) = t
+
+On t he ground of t hat equation , t he simulated vessel in t hree dimension is figured out , and at t he same time , t he 40 sections sliced
+from t he simulated vessel are also made out , matching t he original vessel at t he average rate as much as 96. 8024 %.
+
+微
+
+信
+
+Key words : tangent lines ; polynomial fit
+
+

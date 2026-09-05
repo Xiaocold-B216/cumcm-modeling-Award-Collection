@@ -1,0 +1,61 @@
+1期
+
+孙山泽: 自动化车床管理建模分析
+
+45
+
+这三种修正办法, 1) 似乎比较合理, 2) 和 3) 则较为粗糙.
+51 第二问和第三问的考虑与解法一差不多, 需要对目标函数中的某些费用作适当调
+整, 发表的参赛论文中有较详细的考虑, 这里不再赘述.
+以上是关于基本模型和基本解法的分析. 另外在具体的数值计算上, 有些参赛队在选
+用适宜的数学软件和编程上也存在一些问题. 在模型基本正确的情况下, 解出的最优解与
+正确答案相去甚远.
+
+田口玄一著 1 线上质量管理 1 日本标准协会, 1979 ( 日文) 1
+
+[2]
+
+现代质量管理统计方法编写组编 1 现代质量管理统计方法 1 学术期刊出版社, 19881
+
+交
+
+[1]
+
+流
+
+参考文献:
+
+研
+
+Som e Ana lysis on M a in tenance Stra teg ies
+of the Automa tic La the
+
+：
+科
+
+SU N Shan 2ze
+
+(Pek ing U n iversity, B eijing
+
+Abstract:
+
+100871)
+
+T h is p ap er ana lysed the p rob lem A of CM CM in 1999. Tw o k ind s of an sw ers and
+
+微
+
+信
+
+公
+众
+
+号
+
+som e ca ses in the subm ited p ap ers from p rovinces a re p resen ted.
+
+© 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved.
+
+http://www.cnki.net
+
+

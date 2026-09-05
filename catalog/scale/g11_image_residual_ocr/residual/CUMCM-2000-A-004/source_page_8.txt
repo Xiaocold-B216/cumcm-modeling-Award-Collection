@@ -1,0 +1,40 @@
+加 ;如
+人
+1 期 韩 轶 平等 :DNA 序列 的 分 类 5 mm
+5. 反复 学 习 样本 , 到 权重 值 稳定 收敛
+6. 代入 竺 分 类 样本 , 分 类
+用 上 述 算法 所 得 到 的 结果 与 普通 的 分 类 模型 没有 区 别 事实 上 当权 值 稳定 收敛 后 ,S=
+ar na+ b* ntt c* ng 就 是 特征 空间 的 一 张 ( 超 ) 平 面 , 从 这 一 点 来 说 , 人 工 神经 网 络 模型 与
+一 般 的 距离 分 类 模型 得 到 的 结果 没有 两 样 考虑 到 人 工 神经 网 络 模型 还 存在 结果 对 初 值 有
+较 强 敏感 性 , 缺乏 选择 理想 步 长 的 准则 和 收 和 剑 性 等 问题 , 在 一 定 的 时 间 内 , 我 们 无 法 较 好 的
+解决 这 些 问 题 , 所 以 我 们 也 没有 作 进一步 讨论
+6 ”算法 的 稳定 性 -从 >
+前 面 比 较 算 法 的 时 候 , 兽 多 次 提 到 分 类 算法 的 稳定 性 问题 分 类 钴 夫 的 篇 虽 竹 是 除了
+算法 的 成 功率 之 外 的 习 一 较 重 要 的 指标 人
+轻微 变化 时 作出 正确 判别 的 能 力 对 于 本 题 , 是 指 算法 在 样本 席 列 发 生 卫 轻微 的 碱 基 缺 失 ，
+错位 , 错 排 情况 时 作出 正确 判别 的 能 力 5 A 序列 粗 粒 化 和 模
+型 化 的 问题 , 所 以 分 类 时 是 对 序列 的 整体 特征 进行 区 分 局 部 碱 基 揭 组 成 变化 应 该 对 算法
+的 分 类 结果 没有 影响 我 们 所 提出 的 几 个 模型 均 较 2
+参考 文献: 3
+[1] 和 孙 刀 恩 , 孙 东 旭 , 朱德 隐 《分 子 遗 传 学 》 南京 大 学 出 版 社 , 1996.
+[2] 白 其 峰 .《 数 学 建 模 案例 分 析 》 海洋 出 版 社 , 2000. @
+[3] 潘 德 惠 《数学 模型 的 统计 方法 》 辽宁 和 党 技术 出 版 入 986-
+[4] 净 平 凡 , 黄 端 旭 《人 工 神经 网 络 》 安放 社 , 1991.
+[5] 李 振 刚 《分 子 遗传 学 概论 》 中 国 科学 按 采 县 19%.
+[6] DuaneHanseiman.BruceL ittlefield (M asteringMATLAB: a comprehensive tutorial and reference》 Prentice Hall,
+1996. JS
+~ 一 上
+) ssitication of DNA Sequences
+一
+Y HAN Yiping， YU Hang， LIU Wei
+他 (ZhejiangUniv ，Hangzhou 310027)
+以 >
+SN This paper proposes severalmethods for the classification of DNA sequences We
+noticed that different sequences have different alkali radicals and therefore set up models using
+Euclidean distance, M ahalanobis distance and Fisher princple We also noticed that different
+sequences have different pemutations of alkali radicals and an algorithm using relativity
+analysis is proposed Further we discussed a relativity analysis algorithm w ith feed-back
+mechanism. As to the naturaland artificial data given our algorithm swork welland fine results
+are given At last several other common algorithm s are compared, especially on their
+stabilities
+23 © 1994-2008 China Academic Journal Electronic Publishing House. All rights reserved. — http://www.cnki.net

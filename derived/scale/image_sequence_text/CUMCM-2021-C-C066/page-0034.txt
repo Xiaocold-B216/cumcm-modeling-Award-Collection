@@ -1,0 +1,53 @@
+-np-array(data_c)
+conp.delete(c, [0,1], axis-1)
+atea.tolise)
+bLob.tolise()
+e1-c.totise()
+ef count(an)
+tent-(]
+for j in rangetlenfal)
+ten-D]
+az
+for i in rangeClen(ai(3)))
+[93
+ten. append(z)
+=0
+ase
+2.append(a1(4)(4)
+ist 。 fx for x in ten if xl- (1]
+tenl.append(listl)
+return tenl
+def our2(tema):
+ten = ()
+for i in rangetlenttena)):
+if lenttenl0i]) -= 8
+en.append(e)
+ase:
+8
+for j in range(ten(temi{11))¢
+aarlen(tenl[igi])
+ten.append(a/den(tens (11))
+retun tem
+def outi (rent):
+[ten  [1
+for'4 in range(len(ten))
+if len(eem1)) -= 8
+tea.append(9)
+ase
+ten.append(len(eni(i]))
+return te
+temt - count(a1)
+te - outi(temt)
+prine (tem)
+te =- out2(tent)
+prine (tem)
+eml 。 count(b1)
+ten - outt(tena)
+prine (tem)
+ten - outa(tent)
+prine (tem
+enl - count(e1)
+tem = outa (cent)
+rint(rem)
+em -out2(tena)
+print(tem)

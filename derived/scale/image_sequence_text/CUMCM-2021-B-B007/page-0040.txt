@@ -1,0 +1,34 @@
+yY3=p3(1)+p3(2)*x1+P3(3)*x2+P3(4)#x3+P3(5)#x4+p3(6)#x5;
+yA=pA(1)+p4(2)*x1+pA(3)*x2+ pA(4) ¥x3+ pA(5) *xd + pA(6) x5;
+Y2+y3+y4i=100;
+@bnd(10,x1,200);
+bnd(0.5x2.5);
+@bnd(10,x3,200);
+@bnd(0.3,x4,2.1);
+@bnd(250,x5,350);
+2， 第 二 问 偏 最 小 二 乘 代码 mm
+cle,clear
+ab0= xlsread(pzxlsh % 原始 数据 存放 在 纯 文 本 文件 pztxt 中 。 ， 耻 -
+mu = mean( abO)sig=std(abO); % 求 均值 和 标准 差 2 L
+re= corrcoef(abO)%RHIF AEERE T 人 人
+ab= zscore(ab0); % 数 据 标准 化 es\ JJ “
+a=ab(,[1:5])sb=ab( [Gend]); 2 提出 标准 化 后 的 自 变 量 和 因 变量 数据
+[XL.YLXS,YS,BETA,PCTVAR, MSE stats] =plsregress(a,b)
+xw=nXS YioR ERRALRA FHAFFIAT—FUA K  o 等 于
+atatawl22 1
+[站 VS y 丘 因 变量 提出 成 分 的 系数
+Taaamp =inputfncomp = 小
+[XL2YL2,XS2.YS2,BETA2,PCTVAR2,MSE2,stats2]
+一 Plsregress(abncomp)
+n=size(a,2hm=sizeb,2);%n 是 自 变量 的 个 数 ,m 是 因 变 量 的 个 数
+betad(1,:) = mu(n +l:end)-
+mu(l:n)./sig(l:nj*BETA2([2:endj:) .xsigCn 十 lend);% 原 始 数据 回归 方程 的 常数
+项
+betad((2n+1],) =(L./sig(lnj)rssig(n 十 lend).*BEIDA2([2:endj:)%% 计 算 原
+始 变量 x1…; xn 的 系数 ,每 一 列 是 一 个 回归 方程
+hold on;
+%x3str=-' 乙 醇 转化 率 '"C4 燃 烃 转 化 率 '" 乙 醛 选 择 性 "脂肪 醇 * 甲 醛 甲 醛 "”
+其 他 生成 物 乙 烯 选 择 性 '"“ 锡 新 坐标 的 值
+Y%el1 = categorical();
+bar(BETA2'k "企画 直方 图
+第 40 页

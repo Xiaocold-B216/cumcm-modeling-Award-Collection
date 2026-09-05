@@ -1,0 +1,67 @@
+微
+
+信
+
+else
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+交
+
+流
+
+aaa=a;
+a=col;
+N=N+1;
+i=a;
+if t0>c(2*(i-1)+1)&&t0>c(2*(i-1)+2)
+%[cmin,cind]=min([c(2*(i-1)+1),c(2*(i-1)+2)]);
+cmin=t0;cind=1;
+elseif t0<c(2*(i-1)+1)&&t0<c(2*(i-1)+2)
+[cmin,cind]=min([c(2*(i-1)+1)+T(5),c(2*(i-1)+2)+T(6)]);
+cmin=cmin-T(4+cind);
+else
+[cmin,cind]=min([c(2*(i-1)+1),c(2*(i-1)+2)]);
+cmin=t0;
+end
+GZN=N-8;
+GZBH=M(GZN,2);
+GZSJ=M(GZN,1)+T(6-mod(GZBH,2))+randi(T(4));
+%GZZZ=GZSJ+600+randi(600);**********************************
+GZZZ=GZSJ+1200;
+GZ=[GZ;GZN,GZBH,GZSJ,GZZZ] ;
+t0=t0-d;
+a=aaa;
+if t0 <GZSJ
+t0=t0+d;
+a=col;
+end
+M(GZN,1)=999999;
+M(GZN,3)=GZZZ;
+c(2*(i-1)+cind)=GZZZ;
+N=N-1;
+BXYQX=2*(i-1)+cind;
+[e,f,g,h,] = oneStep( a,dT,T,t0,c );%a,t0,c 改变为 f,g,h.
+e3 = fStep( f,dT,T,g,h,e )';
+e3 = reshape(e3,64,4);
+[minValue,row] = min(e3);
+[minValue,col] = min(minValue);%由 col 知当前该移动到哪一位
+d=dT(abs(a-col)+1);
+t0=t0+d;
+t0
+a=col;
+N=N+1;
+i=a;
+if t0>c(2*(i-1)+1)&&t0>c(2*(i-1)+2)
+76
+
+

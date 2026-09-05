@@ -1,0 +1,52 @@
+人
+回 呈 RN
+
+Tl=derta_t/derta xl^2*al;% 第 工 层 介质 痢 分 的 步 长 比
+r2=derta_t/derta_x2"2*a2;% 第 I 层 介质 训 分 的 步 长 比
+r3=derta_t/derta_x3"2*a3;% 第 II 层 介 质 剖 分 的 步 长 比
+I4=derta_t/derta_x4^2*a4;% 第 IV 层 介质 剖 分 的 步 长 比
+u=zeros(m+1,n+1);% 定义 四 层 耦 合 介质 温度 分 布 矩 阵
+%% 初始 条 件 和 边界 条 件
+u(C,D=37;% 初 始 条 件
+u(1:)-=75;% 边 界 条 件
+%% 差分 格式 的 系数 矩阵 的 构造 °
+A=zeros(m,m); e 从
+for i=1:m1-1 AS
+
+A(Li)=1+2%r1; 2XG
+
+AU Li+l)=-rl; ood
+if i>=2
+A(ii-1)=-rl; 任
+end
+end X
+A(ml,ml)=(lam_1/derta_x1+lam_2/derta_x2); K
+A(ml,ml-l)=-lam_1/derta_x1;
+A(ml,ml+1)=-lam_2/derta_x2; o
+
+O 〇
+
+for i=ml+l:ml+m2-1 %%
+A(Li)=142%r2;
+
+A(Lit1)=-12; 放
+A(ii-1)=-12; 站
+end 一 一
+Amlrm2umrm lam_2/derta_x2+lam_3/derta_x3);
+A(ml+m2;mi+m! 和
+As
+
+站
+for, Di 2+1:m1+m2+m3-1
+
+2
+
+AG3i+l)=-I3;
+A(i,i-1)=-13;
+end
+A(ml+m2+m3,ml+m2+m3)=(lam_3/derta_x3+lam_4/derta_x4);
+A(ml+m2+m3,ml+m2+m3-1)=-lam_3/derta_x3;
+A(ml+m2+m3,ml+m2+m3+1)=-lam_4/derta_x4;
+for i=m1+m2+m3+1:m1+m2+m3+m4-1
+
+34

@@ -1,0 +1,121 @@
+只有一个输出 y，任意节点 i 的输出为 O i ,并设有 N 个样本（
+
+x k ， y k ）(k=1,2,3…N ),
+
+对某一输入 x k ,网络输出为 Oik 的节点 i 的输出为 j ,节点 j 的输入为
+
+net jk = ∑ Wij Oik
+
+（式 5-11）
+
+i
+
+并将误差函数定义为
+N
+
+E=
+
+1
+⌢
+( yk − yk ) 2
+∑
+2
+
+（式 5-12）
+
+且 O jk = f (net jk )
+
+于是
+
+, δ jk =
+
+∂E k
+∂net jk
+
+交
+
+⌢
+为网络实际输出, 定义 Ek = ( yk − yk ) 2
+
+研
+
+⌢
+其中 yk
+
+：
+科
+
+∂E k
+∂Ek ∂net jk
+∂Ek
+=
+=
+O jk = δ jk O jk
+∂W jk ∂net jk ∂W jk
+∂net jk
+⌢
+O jk = yk
+
+∂Ek ∂yˆ k
+= −( y k − yˆ k ) f ′( net j k )
+∂yˆ k ∂net jk
+
+（式 5-13）
+
+（式 5-14）
+
+众
+
+δ jk =
+
+号
+
+当 j 为输出节点时
+
+流
+
+k =1
+
+公
+
+当 j 不是输出节点，则有
+
+微
+
+信
+
+δ jk =
+
+∂Ek
+E O jk
+E
+= k
+= k f ′( net jk )
+∂net jk O jk net jk O jk
+
+∂Ek
+∂Ek ∂netmk
+=∑
+∂O jk
+m ∂netmk ∂ O jk
+∂Ek
+∂
+∑Wmi Oik
+m ∂netmk ∂ O jk i
+
+=∑
+
+∂Ek
+∑Wmj = ∑m δ mkWmj
+m ∂netmk i
+
+=∑
+因此
+
+14
+
+（式 5-15）
+
+（式 5-16）
+
+

@@ -1,0 +1,32 @@
+四 本 pvpeonl
+对 于 两 种 方法 对 污水 处 理 量 的 预测 ， 结 合 已 知 的 原始 数据 进行 分 析 : 对 于 方法 一 ，
+有 Ho = min{ 订 1(20), 订 1(0)} = 0.0197， 然 而 对 于 1997 年 和 1999 年 来 讲 ， 虽 然 相对 排污 量
+大 于 0.0197， 但 是 TY、YVY 类 百分比 小 于 20， 劣 V 类 百分比 为 0， 不 需要 进行 污水 处 理 ， 对 于 1
+方法 二 ， 思 = 0.0227， 观 察 已 知 数据 ， 当 相对 排污 量 大 于 0.0227 时 ，TV、YVY 类 百分比 均 1
+大 于 20， 当 相对 排污 量 小 于 0.0227 时 ，7TY、YVY 类 百分比 均 小 于 20， 对 于 劣 V 类 百分比 ， 临 界 ，
+值 Ho = 0.0227 恰好 出 现在 百分比 不 为 0 的 前 面 附近 ， 这 是 符合 实际 情况 的 。 因 此 认为 用 二 元 ，
+线性 回归 对 污水 处 理 量 的 预测 结果 更 优 ， 最 终 预 测 结果 如 表 2 作 示 。
+参考 文献 : :
+i [1] 傅 硼 ， 刘 琼 茶 ， 何 中 市 . 数学 实验 [M], 北京 ;科学 出 版 社 ，2003
+; (2) 梁 之 群 ， 邓 集 贤 ， 杨 维权 ， 司 徒 荣 ， 邓 永 录 , 概率 论 与 数理 统计 [M]. 北京 : 高等 教育 出 版 社 ，2003
+[3] 徐 祖 信 ， 雇 振 良 ， 张 锦 平 . 基于 数学 模型 的 苏州 河上 游 和 支流 水 质 对 干流 水 质 的 影响 分 析 [], 水 动力 学 研究 与 发
+: 展 ，A 辑 ，2004,19(6):738
+: The Estimation and Forecast of the Yangtze !
+River’s Water Quality
+LI Yun-feng, WANG Yong, YANG Lin ，
+Advisor: SHEN Jin-ren
+: ( The PLA University of Science and Technology, 210007 ) ，
+， Abstract: In this paper we integrate the original data and get a new estimate function f(z,t). After predigesting ;
+: the positions of all the observation stations along the Yangtze River, we obtain the estimate function f(,t), ‘
+‘ and find that the water quality is good, and the mostly contamination is ammonia and nitrogen.
+， By establishing a reactive diffusion equation on the concentration of the pollute, we deduce the function
+of polluting source in three ways, then analyse its value and find the arcas where potassium permanganate and
+ammonia and nitrogen distribute. 1
+For forecasting the tendency of the water quality，we establish a regress model and do F-test on the :
+coefficients in the regress model, then conclude that if we don't adopt any methods to control comtaminations, ，
+the quantity of drinking water would decline year by year, and the gross quantity of Yangtze River's drinking 1
+。 water will be half of it ten years later. So we can use bi-element linear regress model to consider all kinds of water :
+which is not able to drink and make following conclusion: in ten years if we make the proportion of nondrinking :
+| water to be less than 20, then the quantity of sewage must be treated with more than 75.195 hundred million :
+， tons per year.
+H Keywords: normalization; evaluation function of wator quality; rection difision equation; Regression analysis :

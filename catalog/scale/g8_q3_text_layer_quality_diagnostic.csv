@@ -1,0 +1,7 @@
+paper_id,page_number,pdf_inspector_text_chars,pdf_inspector_replacement_char_count,pdf_inspector_image_placeholder_count,pdf_inspector_quality_status,poppler_text_chars,poppler_replacement_char_count,poppler_image_placeholder_count,poppler_quality_status,visual_text_present,ocr_diagnostic_run,ocr_quality,recommended_authoritative_route
+CUMCM-1993-B-003,1,49,10,3,CORRUPT_ENCODING,19,0,0,LOW_INFORMATION,1,0,NOT_RUN,OCR_REQUIRED_ON_NEXT_PILOT
+CUMCM-1993-B-003,2,49,10,3,CORRUPT_ENCODING,19,0,0,LOW_INFORMATION,1,0,NOT_RUN,OCR_REQUIRED_ON_NEXT_PILOT
+CUMCM-1995-A-004,1,49,10,3,CORRUPT_ENCODING,19,0,0,LOW_INFORMATION,1,0,NOT_RUN,OCR_REQUIRED_ON_NEXT_PILOT
+CUMCM-1995-A-004,2,49,10,3,CORRUPT_ENCODING,19,0,0,LOW_INFORMATION,1,0,NOT_RUN,OCR_REQUIRED_ON_NEXT_PILOT
+CUMCM-1995-A-007,1,49,10,3,CORRUPT_ENCODING,19,0,0,LOW_INFORMATION,1,0,NOT_RUN,OCR_REQUIRED_ON_NEXT_PILOT
+CUMCM-1995-A-007,2,49,10,3,CORRUPT_ENCODING,19,0,0,LOW_INFORMATION,1,0,NOT_RUN,OCR_REQUIRED_ON_NEXT_PILOT

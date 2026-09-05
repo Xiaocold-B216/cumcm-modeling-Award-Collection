@@ -1,0 +1,38 @@
+CB=(igt0)/(1/zh) # 单 位 产能 对 应 成 本 希望 低 后 续 还 需要 存
+储 成 本 +0.5*jg 和 稳定 率 成 本 /8(kcGHLIIID)
+CB-CBIwdd
+PXappend([CBjizh])
+PXsortkeyrtakeCB)
+tag-0
+k0
+while tag<C:
+tag+=IPXINIB]
+=1
+PX_now=PX[0:K].copy()
+PX-PX[k:].copy()
+DOIT(PX_now)
+workbook = xlsxwriter Workbook( 订 单 量规 划 结果 .xlsx) # 建立 文件
+worksheet = workbookadd worksheet)  # 建 立 sheet ， < 可 也
+work add_worksheet(employee" 来 指定 sheet 名 ,但 中 文 名 会 报 ni 可
+的 错误 id ™ S—
+forrin range(n): 入
+worksheetwriter+ 1, 0.IDI)
+forrin range(n): 陈 .
+for ¢ in range( Z
+J ,erLJIEGUOEcD)
+orkbookc
+prinEGUO)
+人 AR
+A%6Solve setABCmy |
+介绍 ; 辆 入 ;订单 量 观 SSK 和 期 醒 供 太 量 A 和
+此 时 规划 每 周 ABC 各 买 多 少 , 经 过 其 他 处 理 变 为 纵向 表 testT2.xlsx |
+import random
+import numpy as np
+import xlrd
+import xlsxwriter
+excel = xlrdopen_workbook(" 期 望 供 货 量 xlsx" mb
+sheet = excelsheet_ by_name('Sheetl)
+num=402
+=24
+CC-28488
+四

@@ -1,0 +1,39 @@
+回 叶 这
+人
+40 工程 数学 学 报 第 19 T
+有 效 数 据 。 我 们 用 误差 分 析 方法 二 ,对 调整 后 的 轴线 对 第 30,40,50,60,70 层 分 析 ,与 调整 前
+比较 的 如 下 :
+表 1 模型 修正 前 后 误差 比较 表
+| sao | sn | so | so | Aro
+调整 前 | 57% | 65% | 741% | 68% | 65%
+调整 语 | 32% | 25% | ?7% | 30% | 32%
+模型 的 优 缺 点 分 析
+1) HBURARERRAEALHORIT BUTAT, JR PRYFRATT LI ARR AL 45  T730 0 JLT
+特性 。 AA)
+2) 错开 的 优点 是 对 得 线 扯 击 比较 大 的 情况 通过 这 轩 前方 向 ,可以 避 枯 和 pia
+进行 求解 。 = )
+3) ”通过 向 切片 所 在 面 投影 ,由 轴线 计算 截面 ,不仅 能 计算 误差 g; ~ atd
+的 途径 。 &， )
+4) 误差 分 析 的 方法 (一 ) 虽 不 能 够 测 出 误差 的 绝对 值 ,1 dns 单 ，
+速度 快 ,适用 于 比较 几 条 轴 心 线 的 优 劣 。 从 ]
+参考 文献 : 也
+[1] 张 韵 华 . Mathematica 符号 计算 系统 实用 教程 [M] .合肥 :中国 科 学 ,1998
+[2] 李 尚 志 . 数学 实验 [M]. 北京 :高 等 教育 出 版 社 ,1996
+[3] 关 履 泰 . 计算 机 辅助 几何 图 形 设计 [M]. 北京 :高 等 教育 出 版 社 ,1999
+[4] 本 天 本
+[5] Barhill R E ,Riesenfeld R F. Computer Aidéd Geoh etric Design[M]. Academic Press New York ,1974
+[6] FRaty , 骆 岩 林 - CE 13 Ser A Suppl. 1998 .87 - 90
+| 到 Rebniding of Vessel
+3 ，LIU Xuefeng, BAI Rong gang
+一 一 Adviser: DOU Dou
+PP of Science and Technology of China ，Hefei 230026)
+r=4
+Abstract : Mg blem of 3D rebuilding of vessel ,we consider vessel with constant radius and have built a model to calculate
+the axis and Te .In this model we deal with each slice and get the inscribed circle with maximum radium , whose center
+is justoh the axis of vessel and if s radium just vessel s radium.
+] 1 ia nodél ,we have introduced two efficient way to analyse the error . We find that error increases when the angle between
+the axis and the slice decreases. To handle this problem ,we cut the vessel in different direction，The result is good.
+“IN :vessel; 3D rebuilding; constant radius
+) 也 于
+-2006 hi A 8 Journ | Ele 'on1 ubli h ng H Si A 1 gh TeSeTVe tt WA 2
+) 模 大

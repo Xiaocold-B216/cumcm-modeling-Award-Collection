@@ -1,0 +1,37 @@
+AT
+Am0
+for xin A:
+ix[H] in A_used:
+continue
+ifx{0]=-0:
+continue
+A_wappend(nt(x[0])
+A_rappend(int(x{1]))
+n-len(A_w)
+res-bag(nxx.A WA W).copy()
+used2-show(n, xx A_w, res, A_1, ¢, k)
+ATIK]#~(res{n][xx])
+#print(used2)
+A_used=(A_used+used2).copy()
+i=k
+t=0
+forkkin range(num + 1)
+ti=YSIkkfc - D) * 84i]
+xx= int(min(FP1][K]xx-resnl[x]: 6000 -9)
+Bw-[]
+Br
+TerRin B:
+if5{1]in B_used:
+continue
+ifx[0] — 0:
+continue
+B_w.append(int(s[0]))
+B_rappend(int(x[1]))
+n=len(B_w)
+res = bag(n, xx B_w. B_w).copy()
+used2 = show(n, xx B_w, res, B_r, ¢,k)
+BTK]~(resfn][xx])
+# print(used2)
+B_used = (B_used + used2).copy()
+i=k
+1=0

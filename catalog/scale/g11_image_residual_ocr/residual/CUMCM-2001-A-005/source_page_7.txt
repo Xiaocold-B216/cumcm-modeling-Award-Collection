@@ -1,0 +1,36 @@
+口 | ] 口
+和
+PrEs p
+28 工程 数学 学 报 第 19 放生 多
+—————————————————————————————————————————
+”Up 科研 交流
+6 模型 的 推广
+如 果 考 虑 中 轴线 与 切片 的 交点 不 止 一 个 ,比如 有 两 个 交点 ,仍然 可 以 利用 我 们 的 离散 模型
+去 求解 ,因为 不 含 轴 心 的 切片 中 一 定 不 含有 最 大 图 。
+我 们 对 于 离散 问题 讨论 较 才 ,但 对 于 轴 心 坐标 及 半径 是 实数 的 情况 ,没有 过 多 的 涉及 。 癌
+题 本身 是 连续 的 ,用 离散 方法 去 模 氢 ,不 可 避 先 地 会 出 现 误 善 。 如 果 知 道 象 索 圆 的 生成 算法 ，
+我 们 就 可 以 运用 本 模型 的 思想 ,将 模型 推广 到 实数 领域 ,从 而 使 模型 的 精度 提高 。
+参考 文献 :
+[1] 管 伟 光 . 体 视 化 技术 及 其 应 用 [M: 北京 : 电 于 工业 出 版 社 ,1998
+[2] 孙 家 广 ,扬长 扯 . 计 算 机 图 形 学 [M] .北京 :清华 大 学 出 版 社 .1995
+[3] Kenneth.R Costleman 数字 柄 象 处 理 [M] 北京 :电子 工业 出 版 社 ,1981
+P
+3D Reconstruction of Pipeline Slice 一 人
+LIAO Wupeog， DENG Jun-ye， WANG sil
+Advisor: Mathematical Modeling Tutor fr 可
+4
+( Hohai University, Naming 210098, }
+AAS
+Abstract; This srtcle Proves that there emsts the biggest eele on cach slice shose centex ss en the pipeline center curve. By con-
+strucring the cuntinuous medel and the discrete one. we are able to detggrume ¢ Je biggest ctrele on 0.bmp shee, of which radius is
+30 and center enordmate 1» (0,160).. Ustng the predstermined conchgion-that the bggest circle shauld be contained mm each shee, we
+find nut all possible coordinates of the pipeline canter curve on correspd AS lices For each slice, basing on the principle that a
+sliee which Lies on over 29~ under 29 layers of the slice must oa ne sponding section of the sphere of raduus 30 we fltrate
+the coordinates nf the pipeline center curve and determine rhe more precise one However，there are still some coordinates of the
+pipejine center curve left to be filtrated, such as slices frm 71 mm 99. due to the information is not enough. Purther, we use the
+pomted end property to determine the coordimates of the pipeline center curve cn other slices. The prajecting Tigures on each coordi-
+mate plane are smooth and fluent. [In the end. ] the cootdimates to reconstruct all the slices and comparing the slices with the
+onginal ones. we found that the error of different pifels is Jess than 3%. The result is sarisfied.
+Key words: contiruous model; discrete modeld p 4 全) nd property
+—d )
+_ LA -一 一 一

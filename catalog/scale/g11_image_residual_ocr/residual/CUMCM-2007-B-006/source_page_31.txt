@@ -1,0 +1,79 @@
+回 成 革 动 国
+ME 辣
+本
+Fa ie，
+回 共 Sakn
+和
+else end
+temp (ny 2) =17 elseif Ltl{i,2}==1
+end temp (n,2)=1;
+else else
+temp (n,2)=1; temp (n,2)=3;
+end end
+temp (n, 3) =k-j; temp (n, 3)=k-3;
+else else
+temp (n+1,1)=i;
+temp (n+1,1) =str2double (str(2:end)) ; if Ltl{i,2}==2
+if L{i,2}==2 if (k-j) >40
+if (k-j)>40 temp (n+1,2)=3;
+temp (n+1,2)=3; elseif (k-j)>20
+elseif (k-j)>20 temp (n+1,2)=2;
+temp (n+1,2)=2; else
+else temp (n+1,2)=1;
+temp (n+1,2)=1; end
+end elseif Ltl{i,2}==1
+else temp (n+1,2)=1;
+temp (n+1,2)=1; else 全
+end temp (n+1,2)=3
+temp (n+1,3) =k=j; end 全 <sJ》
+end temp (n+1, 3) =k-j@ SS
+S{t(j),t(k)}=temp; end TIA 由
+end S{t(3),t(K)y}Feemp;
+end end
+end end 了
+end
+for i=1:3957 fox 本 本 :全
+for j-1:3959 人 和 本 人 ai))--1
+if length (Sha ) ~=1 tenESCoiststi ;
+S{i,9)=T_SORT(S{i,j}',3,1)"; 全 ck=l:size(tetpy1)
+本 全 if temp(k,1)>1040
+aa temp (k, 3) =temp (k, 3) *2.5;
+Time=zeros (3957,3957， 'uintg"); elee = 3y%3;
+for i=1:3957 Le (5 ) em (3
+for j=-1:3957 na
+if length(S{i,3})~=1 = 口 temp=T_SORT (temp',3,1)';
+Time(1,3)=size(S{1,3},1)7 2 O for k=T:size(temp,1)
+本 ZAA if temp(k,1)>1040
+aa temp (k, 3) =temp (k,3) /2.5;
+else
+1T-ze£08 (3957,3957, nine ) 1 emp vareenp 1,3)/3;
+for j=1:3957 放 na
+temp=S{i,j}; \t To .
+if temp(l,1)~=0 ¥ _ StE,J)muint1s (tenp) ;
+TT(i,§)=temp(l,3);
+_ BlL3)i ea
+a ) 让 Time=zeros(3996,3996, 'uintl6');
+for i=1:3996
+全 for j=1:3996
+从 if length(S{i,j))~=1
+< Time (i,)=size(S{i,j},1);
+end
+end
+p) end
+] /, TT=zeros (3996,3996, 'uint8');
+AN for i=1:3996
+for j=1:3996
+temp=5{i,J};
+if temp(1,1)~=0
+for k=l:size (temp,1)
+if temp(k,1)>1040
+temp (k, 3) =temp (k, 3) *2.5;
+else
+temp (k, 3) =temp (k, 3) *3;
+end
+end
+TT(i,j)=min(temp(:,3));
+end
+end
+end
+29

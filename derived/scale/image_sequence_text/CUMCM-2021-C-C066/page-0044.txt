@@ -1,0 +1,53 @@
+二 把 父 代 玉 英 个 体 与 子 代 的 关公 体 进行 合并 。 得 到 新 一 代 科 妊
+Chrom = np-vstack([chron[best_ind，:]，Selch])
+phen 。 es.bs2rt(Chrom，FieldD) # 4F4I138{TAHI(=815-81)
+objw cw va new, vb new V_c_new, x.3, x_b, xc = sinfunc(Phen, V_a, V_b, V_c, cy
+hp) * 求 种 群 个 体 的 目标 阴 数 人
+， 4f lentcv[cwye])/lentcw) » 0.2:
+四 prtnt('cy >
+四 Vanew Vbnew V_c_new -va vb ve
+四 reak
+Fatmv -= eavrankingtobjv，cv，maxeradns) 4 视 交 目标 卫 政大 小 分 本 活 应 人
+二 记录
+best_ind 。np.argmax(FitnV) # 计算 当代 最 做 个 体 的 全
+bj _Erace[gen，6] = np.sumobJy) / 0bjy.shapefe] # 记 革 当代 种 了 的 有 村 玖 人
+bj trace[geny 1] = objvbest_ind] & 记录 当代 疹 寻 最 做 个 休 目 生 画 数 人
+ar_trace[Beny，:] -= chronfbest_ind，:] # 记录 当代 往 嫩 最 做 个体 的 染 凶 做
+二 进化 完 咸
+end_tine - time time() 4 结束 计时
+es.treplortobj_trace，[[ "各 个 体 平均 目标 了 数值 '， "HURLTEABRIE]) # 给 扣 图 像
+vecnnnnnnnnnrnnnnnnnnrnnnn- 铀 出 针 时-=nnnnnnnnnnnnnnnnnnnnnnnnnnr
+best_gen - np.aremaxtobj_tracef:，[]])
+pranc(*RIHE HITBK *, obi_teace[best_gen, 11)
+variable = ea.bsard (var_trace([best_gen], :], Fieldo) & WITIERE (WHEHALERI
+人。 print(RENORREREA, )
+or in range(variable.shape[1]):
+. pranE('z sstr(1)+"=", vardatle(o, 1])
+V_t01 - (va new + V_b_new + V_c_new)(best gen];
+V_to1_145t. append(v_tol)
+oprepare - (va ney / 0.6 + V_b_new / 0.66 + V_c_new / 0.72)(best_gen];
+ prepare_11st.append(0_prepare)
+wa_pred  x_afbest_gen]
+xCb_pred  x_bloest_gen]
+xc_pred = x_cloest gen]
+oa_pred_ltstvappend(x a_prea)
+3_b_pred_11st.append(x_o_pred)
+xLc_pred_11s€.append(x_<_pred)
+Jan ve
+RECG 各 产能 ，，， 0_prepare)
+print( 该 则 产能 ，'，Output_lst[-1][best_gen])
+output_ldst append(output list[-i][best_Ben])
+print( 有 时， *, end_tine - stare_tine, .站
+xxA 。pd.DataFrametdict(zip(select_A_1D，xX_a_pred)，indexc[frheekfweek 1)'1))
+MB = pd.Datarrame(dict(zip(select_8_10, x b_pred), indexs[¢ eck(veck 1)'1))
+3C 。 pd.Datarrame(dict (2ip(select_C_10, x c_pred), indexs[¢ hack{veek_1)']))
+ALaal 。 pd,concat([x_A_all，x_A])
+Le_all = pd.concat([x_B_all，x_B])
+Call = pd.concat ((x_Call, x])
+4 update V_list
+V_a_list. append(v_a_new)
+V_b_list. append(V_b_new)
+V_e_list. append(v_c_new)
+return vartable
+seessese EERMTEAN betats
+def pred_Nweeks(h-2a:

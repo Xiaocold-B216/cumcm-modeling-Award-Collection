@@ -1,0 +1,41 @@
+Ei
+1
+竖 = 虹
+E n
+mEEsER
+pey
+k=a.*(mt');
+e=S;
+Kl=sum(k.*e);
+Sum=0;
+for i=1:3
+Sum=Sum+xuefei/ (((xuefei+Cl(i)))*p(i));
+end
+全
+f=Sum;
+<
+2.4、xuefeidqiujie.m “外
+x0=0; <
+x=fminsearch('fun',x0)
+el=funll (x)
+e2=fun22 (x) 全
+Y[^ YA
+了
+3. H
+x=[3550,3600,3650,3700,3750 3800, 5850,3900,3950,4000] ;
+LJ
+y=[0.3070,0.3113 0.3155, 0%atdh 0.3236,0.3238,0.3179,0.3122,0.30 0.3
+-WWW. IFERA 1O. TDE
+: CA .
+p=polyfit(x,y,6) 相
+Xi=3350:10:41007
+_—
+yi=polyval “v
+as ak i
+<
+1 1( 满意 度 ') 7
+xi,0.3241,'-0");
+hold on
+plot(x,y,":*", xi,yi, '=d");
+hold off
+23

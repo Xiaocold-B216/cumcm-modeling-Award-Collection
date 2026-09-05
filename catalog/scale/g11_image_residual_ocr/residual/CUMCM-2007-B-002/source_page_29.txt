@@ -1,0 +1,40 @@
+回 成 革 动 国
+后
+0
+BRiE]
+半生 二
+for (int j=0; j<200; ++j)
+{
+vector<vector<int> > FeasibleLine;
+cout 《《“ 请 输入 起 始 站 点 和 目标 站 点 : ”;
+cin >> nStart >> nEnd;
+fout 《《 "HHHBHHEEHERIHHERTHIBEHERHRUBEREERERIEIE” 《< end];
+fout 《《“ 起 始 站 点 : ” << nStart 《< endl;
+fout 《《“ 目 标 站 点 : ”《< nEnd 《< endl;
+全
+// Direct or not(nStart, nEnd, FeasibleSolve, AllLines, Al1BuseS, <
+RoadCrossInfo) ; \
+2/ 一
+OnceBusChange (nStart, nEnd, FeasibleSolve, AllLings, Al s,
+RoadCrossInfo) ; AX
+// TwiceBusChange (nStart, nEnd, FeasibleSolve, 1Lines, AllBuses,
+RoadCrossInfo) ; 人
+multimap<{float, vector<int> > SolveList = CostCalculate( FeasibleLine,
+AllLines ); 人 @
+(ej
+OutPutCostCal (foutl, So ist) ;
+fout 《《“ 连 线 情 ; << FeasibleLine. size() ”种 : ” << end];
+]/ 输出 线路 -了
+for (int 访 ” size(); ++i)
+{e
+下 和 - k=0; k<{FeasibleLine[il.size(); +tk)
+fout << FeasibleLine[i][k] << ” ”;
+Wa-
+fout << endl;
+}
+}
+*/
+}
+10.2.2 (文件 名 : CalulateWays. h)
+#include <map>
+29

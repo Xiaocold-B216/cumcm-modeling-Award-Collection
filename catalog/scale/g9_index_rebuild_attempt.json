@@ -1,0 +1,10 @@
+{
+  "attempt_id": "20260903T160128144016_9197919c",
+  "stage": "G9-INDEX-REBUILD",
+  "phase": "PHASE_8_FINAL_GATE",
+  "status": "PASS",
+  "started_at": "2026-09-03T08:01:28.144073Z",
+  "updated_at": "2026-09-03T08:02:06.424230Z",
+  "formal_index_path": "catalog/scale/g9_paper_index.csv",
+  "formal_index_sha256": "86A9E164D6F313441F415EE853522732F07FF7881943D89F38C7877C1B8E727D"
+}

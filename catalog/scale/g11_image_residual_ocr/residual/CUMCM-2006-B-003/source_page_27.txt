@@ -1,0 +1,45 @@
+回味
+和
+ES
+clear data2l;
+k=1;
+for i=1:n2 ()
+if data20(i,2)==3
+data21(k, :)=data20(i, :) ;
+k=k+1;
+end
+end
+X3=data2l;
+clear data2l;
+k=1; y
+for i=1:n2(1) Ho
+if data20(i, 2)==4 一 \
+data21(k, :)=data20(i, :) ; 气
+k=k+1; 人行-
+end
+end
+X4=data21; 全
+-
+n3=size (data21)
+%s (j)=
+sum(data21 (:, 5))/n3(1) [o]
+人 时时 本 人 @
+group=[ones (140, 1) ; %A
+ones (155, 1) *2;
+ones (140, 1) *3;
+ones (151, 1) *4] H
+一 一
+anoval (X, group)
+% \\a
+8.1.3 问 代码
+FAsa 2)) ;
+a NI J，
+fo N :4
+j( =0;
+for i=1:5036
+if D(i, D==k
+j(oO=jdo)+li;
+end
+end
+end
+25

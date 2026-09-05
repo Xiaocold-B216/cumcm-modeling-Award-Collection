@@ -1,0 +1,30 @@
+dmain node code = I:numel(d.main_node_code);
+dmain node code = d.main_node_code(:);
+dtriangle =indexed:
+end
+function length = get_pull_length(d)
+main = d.main_node_coordinate;
+higher = d.motor_higher_base;
+length = sqrt(((main-higher). *(main-higher)) * [11 1]);
+end
+end
+end
+Polar.m: 极 坐标 与 直角 坐标 相互 转换 ， 抛 物 面 径 向 距离
+% 本 文件 原名 Polarm
+classdef Polar
+‘methods(Static)
+function [L, dL._dL, dI._dangle] = para(LE angle)
+% BEAHR T, BEMPRMIE, £45EH omega(angle) F
+9 输出 入 应 的 距离 坐标 工
+cos_angle = cos(angle); % diff(cos) 一 -sin
+sin_angle = sin(angle); % diff(sin) 一 cos
+cos2_angle = cos_angle.*cos_angle;
+RF =(1-Constant FR_ratio)*Constant.sphere_radius;
+index = cos angle == 0 | abs(angle - pi/2) < eps:
+delta = LEXLE + 2#REXLE¥cos2_angle;
+L= (-L:*sin_angle-+sqri(delta)). /cos2_angle;
+L(index) = (L£/2+RF) /sin_angle(index):
+ddelta_dLf =2.*Lf + 2.*RE.*cos2_angle;
+dL_dLE = -sin_angle./cos2_angle;
+adL_dLF= dL_dLF+1/cos2_angle *0.5./sqri(delta)* ddelta_dLE;
+44

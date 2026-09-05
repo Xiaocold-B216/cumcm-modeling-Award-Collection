@@ -1,0 +1,41 @@
+回味
+多
+.
+附录
+附录 一 :
+问题 一 程序 :
+| 程序 编号 “| TI-1 | 文件 名 称 | skinT.m | 说 明 |  ， 传 热 模型 离散 求解
+function [T] = skinT( ahlah2 )
+%skinT 已 知 hlh2 求 皮 肤 表面 的 温度
+%  hl 是 外 界 与 衣服 最 外 层 的 对 流传 热 系数
+%  h2 是 空气 层 与 皮肤 的 对 流传 热 系 数 #7
+% 。 工 是 皮肤 的 温度 =
+tho=[300,862,74.2,1.18]; % 人 常数 的 设置 = \)
+¢=[1377,2100,1726,1005]; %
+lam=[0.082,0.37,0.045,0.028];
+x=[0.0006,0.006,0.0036,0.005]; ” % 每 层 的 宽度
+dx=[0.0001,0.001,0.0006,0.001]; 。 % 空 间 步 长 As
+dt=0.002; % 时 间 步 长 X
+Tout=75;Tin=37; % 初 始 温度 K
+LEN1=int8(x(1)/dx(1)+1; % 记 录 每 段 接触 点 的 位 置
+LEN2=LEN1+x(2)/dx(2); @ 0
+LEN3=LEN2+x(3)/dx(3); $O,
+LEN4=LEN3+x(4)/dx(4); YA
+T=zeros(5400/dLLEN4); K =
+T(L)=37; 。 % 第 0 IETE efThIER 37
+hi=ahlsh2=ahd; % 设 置 对 泡 交 换 系 数
+for n=1:5400/dt-1 V
+unkno t-T(n,1))-lam(1)*(T(n,1)-T(n,2))/dx(1))*dt/(0.5*dx(1)*rho(1)*c(1))+T(n,1);
+re
+fari=2:LEN1
+2
+N unknow=lam(1)*(T(n,i+1)-2*T(n,i)+T(n,i-1))/dx(1)*dt/(dx(1)*rho(1)*c(1))}+T(n,i);
+T(n+1,i)=unknow;
+elseif i==LEN1
+unknow=(lam(2)*(T(n,i+1)-T(n,i))/dx(2)+lam(1y*(T(n,i-1)-T(n,i))/dx(1))*...
+dt/(0.5%(dx(1)*rho(1)*c(1)+dx(2)*tho(2)*c(2)))+ T(n,i);
+T(n+1,i)=unknow;
+end
+end
+for i=LEN1+1:LEN2
+25

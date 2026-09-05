@@ -1,0 +1,45 @@
+% 从 起 点 18 出 发 ， 终 点 为 11，
+clc,clear all
+%% 构造 权重 矩阵
+w(1,2)=2;w(2,3)=1;w(2,4)=3;W(2,19)=5;w(3,5)=1;w(3,6)=1;w(4,17)=11;w(4,21)=1;
+W(5,7)=2;w(6,8)=2;w(6,10)=5;w(6,14)=1;w(8,17)=1;
+w(10,11)=2;w(10,12)=6;w(11,13)=2;w(11,18)=9;w(12,18)=4;w(13,16)=2;
+w(16,18)=3;w(17,18)=12;w(17,20)=10;
+w(17,21)=10;w(19,20)=2;w(20,21)=4;
+w=w'  % MATLAB 工具 箱 要求 数 据 是 下 三 角 和 矩阵
+[jl=find(w)
+b=sparse(i,j,k,26,26) % 构造 稀 疏 矩阵
+%% 画图
+h = view(biograph(b,[],ShowArrows',off,,ShowWeights',,on ));
+% ShowArrows=off, 表示 无 向 图 ， on 表示 有 向 图
+% ShowWeights=offt, 表 示 无 权 图 ，on 表示 赋 权 图
+
+%% 求 最 短路
+kl=18; % 起 点
+k2=11; % 终点
+[dist,path,pred]=graphshortestpath(b,k1,k2,'directed',0)
+
+% directed 是 有 向 图 或 无 向 图 的 标志 ，
+
+% directed=0 表示 无 向 图， directed=1 表示 有 向 图
+
+% dis 二 最 短路 长 度
+
+% path= 最 短路 径
+
+% Tied- 包 含 前 任 顶点
+%% “将 最 短路 径 染 色 :
+set(h.Nodes(path),'Color',[1 0.4 0.4])
+fowEdges = getedgesbynodeid(h,get(h.Nodes(path),ID));
+revEdges = getedgesbynodeid(h,get(h.Nodes(fliplr(path)),'ID"));
+edges = [fowEdges;revEdges];
+set(edges, LineColor',[1 0 0]); % 给 最 短路 径 设置 颜色
+set(edges, LineWidth',1.5); % 给 最 短路 径 设 置 宽度
+path =
+
+18 16 13 1
+pred =
+1 至 19 列
+2 3 6 2 3 10 5 17 NaN 1 13 18
+16 6 NaN 18 18 0 2
+42

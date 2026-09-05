@@ -1,0 +1,46 @@
+忌 顽
+EU
+党
+[ohde
+74 工程 数学 学 报 第 19 T
+参考 文献 :
+[1] 徐 光 辉 . 随机 服务 系统 (第 二 版 )[M]. 北京 :科学 出 版 社 ,1986
+[2] 周 义 仓 , 赫 孝 良 . 数学 建 模 实验 [M]. 西安 :西安 交通 大 学 出 版 社 ,1999
+[3] 李 涛 , 贺 勇 军 , 刘 志 俭 .Matlab 工具 箱 应 用 指南 一 应 用 数学 篇 [M]. 北京 :电子 工业 出 版 社 .2000
+The Optimum Mathematical Model on the Bus Dispatch
+BO Lijun ， YAO Werpeng， WANG Yarhui
+Adviser: LiU Hong wei 全
+(XiDian University , Xi"an ?10071) 全 <s 功
+A\)
+Abstract :This paper prasents an optimal method of peak curve according to the Fisher oem specimen clustering. We
+conclude 5 uphill passenger-flow peak ranges: 5:00-6 :00 , 6:00-9:00, 9:00-16:00 , 16:00-18 : b 0 , and 5 downhill
+passengerflow peak ranges: 5:007:00,7:009:00.9:0016:00,16:0019:00,19:00 So
+Then , under the peak ranges , two algorithm models ， IT and II, are established NS Rue 人 alculated resultsof the fore-
+going models, we conclude: model [ is applied to two interval high peaks and Illis applied to three others，With the
+smooth method between every two time-sections , we make the bus time schédu wy Starting stations , and get 47 needed buses
+全
+at least，In this scheme , passengers”satisfaction rate is 98. 2 % , and the bus-ceg Pany sis 76. 23 %.
+By the end , we set a random optimum model by the theory of randony séfvice system , and give the probability sensitivity and
+error analysis. Further , we get a better scheme for collecting operation data) 司
+Key words : serial specimen culstering ; passenger-flow ; peak ; bus number ; smooth method ; random service
+o
+AAA
+(上 接 53 页 )
+1 bl anlh of three dimensional blood vessel
+-7 |
+7 DING Fengping, ZHOU Lifeng, LI Xiao-peng
+4 Adviser: Mathematical Modeling Tutor Group
+\/ Zhejiang University of Technology , Zhejiang Hangzhou 310032 , China)
+A
+IyA-
+Abstract : The reestablishment of the three dimensional blood vessel is presented in the article. According to the information given
+by the problem , 100 pieces of sliced sheet of blood vessel are inputted into the program and transformed into data matrixes. Then
+three steps are given to reestablish the blood vessel，Firstly , the radius of the blood vessel is obtained by searching the biggest in-
+scribed circle of the sliced sheet and here two solutions are given by using tangent method and the biggest overlay，Secondly , the
+track of the centre of the scrolling ball is hunted by grid method , Monte Carlo method and non - linear optimization method respec-
+tively. Thirdly, the projection of the central axes is positioned precisely on three planes，At last verifying of the reestablished blood
+Vessel and error analysis are carried out to test the precision of the model.
+Key words : reestablishment of three dimensional image ; track; overlay
+4 ( J E 下 H # 2
+© 1994-2006 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki z
+模 大

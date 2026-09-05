@@ -1,0 +1,49 @@
+加
+1 期 汤 诗 杰 等 :DNA 序列 的 分 类 模型 5 wn 和
+
+由 以 上 数据 可 以 看 出 , 我 们 构造 的 目标 函数 具有 较 好 的 区 分 度 对 于 A 组 , 目标 函数 值
+都 大 于 零 ; 而 对 B 组 , 目标 函数 值 都 小 于 零 也 就 是 说 ,用 这 种 方法 , 对 A、B 组 样本 的 区 分
+率 已 达到 了 100%， 正 如 前 面 所 说 , 这 种 方法 综合 了 序列 中 的 许多 信息 因此, 我 们 完全 可
+以 采用 这 个 标准 来 区 分 C 组 表 5 是 对 C 组 区 分 的 结果
+对 20 个 未 标明 分 类 的 人 工序 列 的 分 类 结果 为 :
+
+A 2£22,23,25,27,29,30,34,35,36,37.39  B 类 : 21.24.26,28,31,32,33,38,.40
+同样 的 , 我 们 利用 这 种 方法 对 所 给 的 182 个 自然 序列 进行 了 分 类 , 结果 如 下 所 示 ( 略 ).
+5 ”模型 的 评价 及 推广 -从 >
+
+在 我 们 的 模型 基础 上 提出 的 分 类 方法 可 以 很 好 的 验证 已 知 的 20: 区 向 好 的 完
+成 了 对 未 知 类 型 序列 的 分 类 5
+列 的 全 局 性 质 , 具有 相当 的 实际 背景 当 我 们 知道 分 类 标准 的 更 多 信息 时 , 我 们 可 以 很 方便
+的 调整 模型 中 的 参数 , 使 之 符合 新 的 情况 , 具有 很 好 的 自学 Heix 个 模型 比较 复杂 , 在
+实际 计算 中 参数 选择 需要 花费 大 量 计算 时 间 进 行 搜索 JS \
+
+我 们 在 模型 中 使 用 的 基于 信息 流 的 方法 中 , 如 果 iEhL EIE IH R , 一 定 可 以 使 它
+更 加 符合 实际 情况 ; 在 三 种 方法 综合 的 时 候 , 所 取 的 收 值 池 是 可 以 采用 更 为 有 效 的 方法 选
+取 , 如 应 用 层次 分 析 法 ; 还 可 以 选取 其 他 分 类 方法 加 入 SS 这 些 都 是 本 模型 可 以 改进 的 地 方
+参考 文献:
+
+O 〇
+[1] 姜 启 源 数学 模型 (第 二 版 ). 0 O 〇
+[2] 刘邦 强 等 . 序列 空间 方法 . 广东 科技 红 版 桂 / 同 996.
+[3] 刘 祖 洞 . 遗传 学 (第 二 版 高 等 教育 出 版 站 分
+[4] 姜 ” 丹 ， 钱 玉 美 . 不 中 国 科学 技术 大 学 出 版 社 , 1992，
+[5] 王 玲 玲 等 .常用 统计 方法 . 到 ee 1994.
+[6] 陆 璇 . 应 用 统计 . 清华 大 芝 社 , 1999.
+2
+
+me inssifed M odel for DNA Sequences
+
+下 人 Shi-jie, ZHOU Liang， WANG Xiao-ling
+e (U niversity of Science and Technology of China, Hefei 230026)
+
+\N Classifying the DNA sequences is a practice problem in biology Im this paper, a
+mathematics model is established for the classifying of DNA sequences Since there are both
+locality and globality in the DNA sequences, we discuss the criteron about whether the
+classified method is good or not That is whether the method bases on all properties that the
+DNA sequences have
+
+So a classified method with a single standard is not enough for the problem. Here is a
+synthesis method on three different classified ways The three ways base on varied property
+thatDNA sequences have The first is the frequency of occurrences of the element in the DNA
+
+了?

@@ -1,0 +1,47 @@
+paper_id: CUMCM-2014-D-D2202
+year: 2014
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+authority_sources:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014D：储药槽的设计 (3)/D22022011_阎发静_周靖_杨峰.pdf
+  sha256: 9E3E34F7E3E8DAFA6A6043EACF081E942E3A7576F47E2D238016403F904E4388
+authority_sha256: 9E3E34F7E3E8DAFA6A6043EACF081E942E3A7576F47E2D238016403F904E4388
+paper_file_memberships:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014D：储药槽的设计 (3)/D22022011_阎发静_周靖_杨峰.pdf
+  role: primary
+  canonical: true
+primary_file: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014D：储药槽的设计 (3)/D22022011_阎发静_周靖_杨峰.pdf
+extraction_inputs:
+- path: 2014年数学建模国赛真题+优秀论文/2014优秀论文/2014D：储药槽的设计 (3)/D22022011_阎发静_周靖_杨峰.pdf
+  sha256: 9E3E34F7E3E8DAFA6A6043EACF081E942E3A7576F47E2D238016403F904E4388
+  kind: original
+extraction_input_sha256: 9E3E34F7E3E8DAFA6A6043EACF081E942E3A7576F47E2D238016403F904E4388
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+  stage: G8-SCALE
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: pdf-inspector/native-markdown
+page_count: 23
+evidence_granularity: page
+artifact_generation_mode: one_paper_level_artifact_set_from_memberships
+generated_from_frozen_sources: true
+
+g11_multi_route_formal_repair:
+  stage: G8-TARGETED-MULTI-ROUTE-FORMAL-ARTIFACT-REPAIR
+  attempt_id: 20260905T045418589698Z_557724fba657
+  route_categories: ["MARKER_ONLY_DIAGNOSTIC_OCR_REUSE"]
+  repaired_source_pages: ["20", "21"]
+  preserved_legitimate_noncontent_pages: []
+  evidence_paths: ["catalog/scale/g11_image_residual_ocr/residual/CUMCM-2014-D-D2202/source_page_20.txt", "catalog/scale/g11_image_residual_ocr/residual/CUMCM-2014-D-D2202/source_page_21.txt"]
+  source_sha256: 9E3E34F7E3E8DAFA6A6043EACF081E942E3A7576F47E2D238016403F904E4388
+  current_body_sha256: BBB95090C45158701CCBA0BE843975F72D86BC976EDF81EF6FB51985F586081D
+  candidate_body_sha256: 32D512709967447ED90D27F1BC2764985407D5DF0833AA84443C1B00D026754B
+  source_page_count: 23
+  source_binding_valid: true
+  page_local_minimal_repair: true
+  g9_index_refresh_required: true
+  g10_revalidation_required: true

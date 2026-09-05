@@ -1,0 +1,66 @@
+马尔科夫转移状态概率矩阵求解 matlab 代码
+
+交
+
+流
+
+clc,clear,format rat
+a=xlsread('C:\Users\yang\Desktop\C 题\活跃状态矩阵.xlsx');
+[r,c]=size(a);
+a=a';a=a(:)'; %把矩阵 a 逐行展开成一个行向量
+for i=1:2
+for j=1:2
+f(i,j)=length(findstr([i,j],a)); %统计子字符串'ij'的个数
+end
+end
+ni=sum(f,2); %计算矩阵 f 的行和
+phat=f./repmat(ni,1,size(f,2)); %求状态转移的频率
+format %恢复到短小数的显示格式
+
+微
+
+信
+
+公
+
+众
+
+号
+
+：
+科
+
+研
+
+fpgrowth 主函数代码
+import fp_growth_py3 as fpg
+import pandas as pd
+import datetime
+itemName='商品名称'
+start=datetime.datetime.now()
+data=pd.read_excel('C:/Users/yang/Desktop/C 题/fpgrowth 建模数
+据.xlsx')
+dataSet,itemSet=[],[]
+itemSet.append(data[itemName][0])
+for i in range(1,len(data)):
+if data['会员消费编码'][i]==data['会员消费编码'][i-1]:
+itemSet.append(data[itemName][i])
+if i==len(data)-1:
+dataSet.append(itemSet)
+else:
+dataSet.append(itemSet)
+itemSet=[]
+itemSet.append(data[itemName][i])
+if i==len(data)-1:
+dataSet.append(itemSet)
+end=datetime.datetime.now()
+readDataTs=(end-start).seconds
+if __name__ == '__main__':
+start=datetime.datetime.now()
+'''
+调用 find_frequent_itemsets()生成频繁项
+@:param minimum_support 表示设置的最小支持度，即若支持度大于等于
+inimum_support，保存此频繁项，否则删除
+13
+
+

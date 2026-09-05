@@ -1,0 +1,36 @@
+附录
+1， 问 题 1 主 程序
+2， 问题 1 图 像 生 成 程序
+3， 问题 2 程序 一
+4， 问 题 2 程序 二
+5 问题 3 程序 一
+6， 问题 3 程序 二
+7， 灵敏 度 分 析 程序
+8， 问题 一 主 过 节点 之 间距 离 变化 幅度 符合 要 求 的 情况
+9， 程序 运行 所 需 数据 文件 Cmag
+ele%6 问 题 一 主 程序 =5%
+olear 达 涉
+loadCFJILmat) N 从
+loadCFJ3mat 从
+loadCFJI2.mat) |
+R=300.4; 3 hd
+onoogoa 下
+for e=1:length(ddF) >
+0.466*R +ddF(e);
+Rs
+Vi0600000000:
+fori=lilength(dF)
+fdFCD+F;
+cy(R+dFGD
+nl
+forj=Llength(FJID
+£2G.1)-sart( FIGDY2+ENG)2 )
+if12G,1)<=150
+FJINIO.D=FIHG.D;
+FI0.2)-FI1G.2);
+FI@3)FIG3):
+EI(0.4)-FI12G.1);
+nn
+end
+end
+2

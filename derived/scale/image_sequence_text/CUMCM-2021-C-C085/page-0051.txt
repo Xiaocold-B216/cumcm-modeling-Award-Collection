@@ -1,0 +1,40 @@
+mow_GHEIGHLUTD)
+#now_GH= 一 定 范围 超出
+forkinrangetnow_GH):
+al=0
+ifFLI--A'
+4h-0.6
+jg-12
+让 FLI--B'
+h-0.66
+jg=11
+if FL[j|—C"
+4-0.72
+js-1
+ifK>GHL]i
+wdd=0.001
+else:
+wdd-1
+CB-zh #A<B<C
+CB-=CBIwdd
+PX.append([CB4izh])
+PX sort(key-takeCB)
+tag-0
+LO
+while tag<C:
+tag+=UPX[KI3]
+=1
+PX_now=PX[0:K].copy()
+PX-PX[k:].copy()
+DOITOPX now)
+workbook = xlsxwriter Workbook(' 订 单 量规 划 结果 .xlsx) # 建立 文件
+worksheet = workbookadd worksheet)  # 建立 sheet ， 可 以
+workadd_worksheet(employee") 来 指定 sheet 名 ,但 中 文 名 会 报 UnicodeDecodeErro
+的 错误
+forrin mangem
+worksheet write(r + 1 0 ID[r])
+forrin range(n)
+for ¢ in range(w)
+worksheet write(r+1, ¢+1, JIEGUO[r][c])
+workbook close()
+站

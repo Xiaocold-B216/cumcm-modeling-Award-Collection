@@ -1,0 +1,48 @@
+回味
+本 辣
+3 四 =
+for(int jj=03jj<10003j++){
+if(endtimel[ii][jj]!=0){
+cout<<ii<<"  "<<endtime[ii][jj]<<"  "<<endtime[ii][jj+1]<<"  error?
+n<<errorii][jj];
+cout<<endl;
+}
+}
+}
+cout<<" 当 前 错误 有 :， "<<endl;
+for(int =0;i<numBR;iHH{V 开 始 时 间 ， 结 束 时 间 ， 机 床 编号
+cout<<breakBeT[i]<<" "<<breakEnT[i] <<" "<<breakPos[i] <<endl;
+人
+} 一 NY
+/就 近 原则 2 由
+int min_index(int *T){
+int i=1,num=9;
+int min ind = i;
+for(; i<num; i++ ){ As
+if(T[i] < T[min_ind]) min ind = i;
+mK
+return min_ind;
+}
+double randuni(){ ®
+retum rand(*1O(RAND_MAXS))p O
+人
+double randnum , breaktime, runti fic; : BER. 维护 时 间 、 距离 机 器 工作 的 时 间
+void ifbreak(int next_pos){ 放
+randnum = randuni(); \d
+breaktime = outdoynjRlu
+runtime = randuni();
+/发 生 故 障 ] \'a
+if(ran 人 .01){
+CO = breaktime + runtime;/ 加 工 剩 余 时 间
+SA Blnext_pos] = 0;/ 是 否 有 熟 料
+| // ut<<next_pos<<" break!!"<<endl;
+SA， cout<<"now:"<<time<<":";
+for(int j=15j<9;j++) cout<<S[j] <<" ";
+cout<<endl<<"B:";
+for(int j=1;j<9;j++) cout<<B[j] <<"";
+cout<<endl;
+}
+}
+int main(){
+srand(time(NULL));
+38

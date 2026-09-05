@@ -1,0 +1,80 @@
+回 成 革 动 国
+全
+本
+Fa ie，
+半生 二
+和
+@ifc(x(i,7)#eq#l:
+Qwrite(i,"',"',J,"';"',C@newline(1));
+)i
+)i
+endcalc
+END
+1.9 LINGO 程序 ,数据 创建 程序 2
+数据 文件 创建 〈 运 行 顺序 : 附录 1.1~1.4)
+和 Wite txt
+£idl =fopen ('Time2.txt', 'w');
+£id2 =fopen ('roads2.txt','w');
+£id3 =fopen('Z.txt', 'w');
+YYy=(0,0,0;0,4,7;0,6,5;1;
+for i=1:3996
+for j=1:3996
+if TT(i,9)~=0 && i~=j
+fprintf (£id2, '2d, %d\n",i,3); 一
+temp=zeros (2,Time (i,3));
+for kl=1:Time(i,3) -从 >
+if S{i,3)(k1,1)>1040 SS
+temp(1,k1)=2.5*double (S{i,7} (k1,3)); “由
+temp (2,K 林 =275 地 铁 一
+.: 2
+temp (1,kT)=3xSti, jj (k1,3); 了
+temp (2,k1)=378 公 交
+end
+end
+temp=T_SORT(temp,1,1);
+fprintf(fidl, '25.16\n", temp(1,1))%
+fprintf (£Fid3,"%d\n', temp(2,1)) ; 全
+end 局
+end
+end
+fclose (£idl) ;
+fclose (£id2) ;
+fclose (£id3) ;
+£idl =fopen('dd.txt','w'); O
+YYy=[0,0,0;0,4,7;0,6,5;1; 7 O
+for i=3958:3996 ZAA
+for j=3958:3996
+if j==396911j==3975
+if TT(i,9)~=0 && i~=j
+temp=zeros (2, Time (i§}j)i7
+for kl=1:Time(i,3) \
+if S{i,3)(k1,1)> AT
+temp (1,k1)=2.5*deuble (S{i,3} (k1,3));
+temp (Gases 二 钦
+else
+temp ( ) S{i,3}(k1,3);
+Re
+如
+er 2
+tempsT er， 1v1)7
+for [k%3958:3996
+1f W<=3980&6k>=3981) 11(i>=3981&&k<=3980)
+p) if TT(§,k)~=0 && k~=j && k~=i
+] /) temp2=zeros (2, Time (3,%)) ;
+AN for kl=1:Time (j,k)
+if S{j,k}(k1,1)>1040
+temp2 (1,k1)=2.5*double (S{j,k} (k1,3));
+temp2 (2,k1) =27s 地 铁
+else
+temp2 (1,k1)=3*S{j,k} (k1,3);
+temp2 (2,k1) =378 公 交
+end
+end
+temp2=T_SORT (temp2,1,1);
+if YYY(temp(2,1),temp2(2,1))==4
+fprintf (£idl, '2d, 2d, 2d\n',i,3,k);
+end
+end
+end
+end
+38

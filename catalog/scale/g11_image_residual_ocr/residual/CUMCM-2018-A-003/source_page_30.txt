@@ -1,0 +1,44 @@
+回味
+.
+if(k=—=1 && type[il==type[i])  LIk][i][j]=inf;
+}
+}
+}
+full = 0,t_full=0;//0 表示 当前 为 空 车
+for(int i=13i<9;i++){
+S[i] = 0 加 工 剩余 时 间
+B[i] = 0 是否 有 识 料
+TD = 0/ 当 前 状态 到 达 其 他 CNC 加 工 台 的 代价
+}
+num = 0;/ 成 品 数量
+本
+void print(){ 二 从 >
+for(int k=0;k<2:k++){ _ 由
+for(int i=13i<9;i++){ 2XG
+forintj=1j<9j+H){
+cout<<L[K][i][jl<<"";
+和
+cout<<endl; 人
+RK
+cout<<endl<<endl;
+}
+57A
+TH 试 试 机 器 能 不 能 找到 更 优 的
+解 。 0
+#include<iostream> JS
+#include<cmath> _— ¥
+#include<ctime>
+#include<stdlibh> ) V
+#define Re
+Using namt d;
+iaN As 32, ths = 46;
+ihipfe[ZjE 455,182};/ 加 工时 间 ,CNC1=455.CNC2=182
+intrep[9] = 0,27,32,27,32,27,32,27,32};
+bool type[9] = {0,1,0, 1,0,1,0,0,0 }; /{0, 1,1,1,2,1,2,1.2 };
+int put_down =25;
+int LI2][9][9] = {0}:
+int endtimel[9][100]={0}; /记录 时 间
+int endtime2[9][200]={0};
+int numm1[9]={0};
+int numm2[9]={0};
+30

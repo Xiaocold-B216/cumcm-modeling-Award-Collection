@@ -1,0 +1,29 @@
+Constant. m: 程序 用 到 的 所 有 常量 数值 定义
+% 本 文件 原名 Constantm
+classdef Constant
+Properties(Constant)
+FR_ratio = 0.466: % 焦 径 比
+sphere_radius = 300.4; % 基准 态 球面 半径 ， 单 位 是 米
+sphere_half_caliber = 500/2; % 基准 态 球面 的 口径 的 一 半
+paraboloid_half caliber = 300/2; % 工作 态 球面 的 口径 的 一 半
+L£=280.85417567168855; % 第 一 问 算出 的 最 优 焦距 ， 用 作 求解 完 的 粒 查
+alpha = deg2rad(36.795): 96 第 二 问 平面 角
+beta = deg2rad(78.169): % 第 二 问 仰角
+end
+‘methods(Static)
+function [spher_rad. focal rad angle] = get_rad_angle0)
+spher_rad ~ Constant sphere_radius;
+spher_cli = Constant sphere_half caliber:
+focal rad = (1-Constant FR_ratio) * spher rad:
+angle = pi/2-asin(spher_cli/spher.rad), % 使 用 半径 和 半 口 径 计算 出 依 角 ，
+依 角 变 成 仰角
+angle = linspace(angle. pi-angle. 100):
+end
+end
+end
+Data.m: 将 题目 附件 123 映射 到 程序 内 数组
+% 本 文件 原名 Datam
+classdef Data
+properties
+main_node_code % 主 索 节点 的 编号 ，strings 转 序数
+a

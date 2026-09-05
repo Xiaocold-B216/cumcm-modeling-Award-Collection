@@ -1,0 +1,37 @@
+end
+Ftx (1)=Fshui+Ffeng*cos (alpha) ;
+Fty(l)=Ffeng*sin(alpha);
+Ftz (1)=Ffu-Gfu;
+gs 0102¢ 6
+Vg=1*pi*0.025%2;% O1UTa»y
+Ggang=10*g;%, O'UOGA|
+Fgfu=rou*g*vg;
+Fshui2=[374* (vshui/gdH"2* (gdH-h-0.5)~2) ~2*1%0.05, 374* (vshui/gdH"2* (gdH-h-1.
+5)^2)^2x*lx0.05,374x (vshui/gdH 2* (gdH-h-2.5) 2) *2*1%0.05, 374* (vshui/gdH 2* (g
+dH-h-3.5)"2)"2*1%0.05] ; SE+EUEGA | pA»a0E
+for i=1:4
+gama2 (i)=atan (Fty(i)/ (Fshui2 (i)/2+Ftx(i)));
+Ftp=Ftx (i) *cos (gama2 (i))+Fty (i) *sin (gama2 (i)) ;
+thital (i)=atan ((Ftp+Fshui2 (i)*cos(gama2(i)))/ ((Fgfu-Ggang) /2+Ftz (i)));
+Ftx (i+1)=Fshui2 (i)+Ftx (i);
+Fty (i+1)=Fty (i);
+Ftz (i+1)=Fgfu-Ggang+Ftz (i);
+end
+gs .6fe2 2 36
+Vt=1*pi*0.15%2;% 0T°Ta»y
+Va=mq/7800; 5001iCota»y
+Gt=100%g;3%,01°%; -00gA!
+Gg=mq*g; $00T1Co0TA |
+Ftfu=rou*g*Vt;$ Of° A;
+Fgfu=rou*g*Vq; 300A|Co, jA|
+Fshui3=0+374* (vshui/gdH"2* (gdH-h-4.5)"2) ~2*1%0.3; SE+EURGA|
+HAO 下
+gama3=atan (Fty(5)/ (Fshui3/2+Ftx (5)));
+Ftp=Ftx (5) *cos (gama3) +Fty (5) *sin (gama3) ;
+beta=atan ( (Ftp+Fshui3/2*cos (gama3))/ ((Ftfu-Gt) /2+Ftz(5)));
+Ft2x (1)=Fshui3+Ftx(5);
+Ft2y(1)=Fty(5);
+Ft2z (1) =Ftfu-Gt+Ftz (5) +Fqfu-Ggq;
+Sa 六 2。 -0
+roum=6450; $A%A AUIE
+43

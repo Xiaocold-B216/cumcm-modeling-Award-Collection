@@ -1,0 +1,44 @@
+paper_id: CUMCM-2012-B-B077
+year: 2012
+problem: B
+subject_type: PAPER
+artifact_eligible: true
+quality: Q2
+authority_sources:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/B077.pdf
+  sha256: CEC3C5E0DA82C5228E8A4E967BCAF7D437596EA07E33FCCAB2239036F519F5AC
+authority_sha256: CEC3C5E0DA82C5228E8A4E967BCAF7D437596EA07E33FCCAB2239036F519F5AC
+paper_file_memberships:
+- path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/B077.pdf
+  role: primary
+  canonical: true
+primary_file: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/B077.pdf
+extraction_inputs:
+- path: derived/scale/pdf_ocr/CUMCM-2012-B-B077.readable.pdf
+  sha256: 3F29815A9328C737E49D8BFFB7508A3EC8EF6B3B83E25FF26F354A768F82D304
+  kind: g8_q2_ocr_derivative
+extraction_input_sha256: 3F29815A9328C737E49D8BFFB7508A3EC8EF6B3B83E25FF26F354A768F82D304
+extraction_contract:
+  schema_version: 1
+  contract_name: Q2 Hybrid Page Extraction Fallback Contract
+  source_page_numbering: 1-based
+primary_extraction_backend: pdf-inspector
+page_extraction_backend: poppler-pdftotext
+page_count: 34
+evidence_granularity: page
+artifact_generation_mode: incremental_deferred_closure
+generated_from_frozen_sources: true
+repair_provenance:
+  stage: G8-Q2-R
+  paper_id: CUMCM-2012-B-B077
+  source_file_path: 2012年数学建模国赛真题+优秀论文/2012年优秀论文/2012B：太阳能小屋的设计 (1)/B077.pdf
+  source_sha256: CEC3C5E0DA82C5228E8A4E967BCAF7D437596EA07E33FCCAB2239036F519F5AC
+  derived_file_path: derived/scale/pdf_ocr/CUMCM-2012-B-B077.readable.pdf
+  derived_sha256: 3F29815A9328C737E49D8BFFB7508A3EC8EF6B3B83E25FF26F354A768F82D304
+  page_count: 34
+  ocr_engine: tesseract.js
+  ocr_engine_version: 7.0.0
+  ocr_languages: chi_sim+eng
+  page_audit_rows: 34
+  unexplained_pages: 0
+  status: PASS

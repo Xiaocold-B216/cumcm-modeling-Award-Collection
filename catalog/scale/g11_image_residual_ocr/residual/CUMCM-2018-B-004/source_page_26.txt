@@ -1,0 +1,46 @@
+区
+加 只 RN
+Wash=25;% 第 一 组 25 第 二 组 30 第 三 组 25
+%% 预 设 系统 情况
+Position=1;% 记 录 RGV 的 位 置 ， 取 值 为 1~4
+Left=zeros(18);% 记 录 8 台 CNC 当前 工作 剩余 完成 时 间 ， 等 待 时 为 0
+Situation=zeros(18);% 记 录 8 台 CNC 当前 是 否 拥有 工件 ，0 为 无 ，1 为 有
+Time=0;% 系 统 已 运行 时 间
+Expect=ones(4,8);% 预 计时 间 ， 第 一 行为 预计 运动 时 间 ， 第 二 行为 预计 等 待 时 间 ， 第 三 行为 预
+计 上 下 料 时 间 ， 第 四 行为 前 三 项 之 和
+Rec=[];% 记 录 每 个 工件 的 上 下 料 信息
+%% 系统 开始 运行
+while Time<=28800
+fori=1:8% 计 算 预 计时 间 A7
+Expect(1,i)=Move(1+abs(Position-ceil(i/2))); 一 NY
+if Left(i)<=Expect(1,i) 加 \)
+Expect(2,i)=0; 2XG
+else ood
+Expect(2,i)=Left(i)-Expect(1,i);
+end As
+Expect(3,i)=Switch(i);
+Expect(4,i)=sum(Expect(1:3,i)); X
+end
+[MinNumber]=min(Expect(4,:));% 找 出 下 一 个 目标
+Time=Time+Expect(1,MinNumber)+Expect(2, MinNumber);%RGV 移动 至 下 一 个 目标 位 置 并
+等 待 AAA O
+flag=0;% 目 标 CNC 是 否 已 有 工 Ye 1 为 有
+fori=size(Rec1):-1:1% 记 录 本 次 操作 的 里 刻
+if Rec(i,1)==MinNu && isnan(Rec(i3))% 同 时 发 生 上 料 和 下 料
+flag=1;
+Rao 二 下 料 开 始 时 间
+Rec= 人 限 eciMinNumberTime,NaN];% 记 录 上 料 开始 时 间
+ed V
+//
+mv
+SS 发 生 上 料
+To
+if Situation(MinNumber)==0% 不 用 清洗 的 情况
+Situation(MinNumber)=1;
+Time=Time+Expect(3,MinNumber);% 完 成 换 料
+fori=1:8%CNC 的 时 间 推 进
+if Left(i)-Expect(4,MinNumber)<0
+Left(i)=0;
+else
+Left(i)=Left(i)-Expect(4,MinNumber);
+26

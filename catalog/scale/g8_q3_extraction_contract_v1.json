@@ -1,0 +1,278 @@
+{
+  "contract_version": "g8-q3-v1",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "q3_definition": "PARTIAL_SCAN + artifact_eligible logical identities",
+  "primary_page_classes": [
+    "IMAGE_ONLY_CONTENT_PAGE",
+    "TEXT_PAGE",
+    "UNEXPLAINED",
+    "VERIFIED_BLANK"
+  ],
+  "repair_overlays": [
+    "NO_REPAIR_REQUIRED",
+    "TEXT_LAYER_COMPLETE",
+    "TEXT_LAYER_INCOMPLETE_SUSPECT",
+    "TEXT_LAYER_VISUAL_MISMATCH",
+    "TEXT_LAYER_CORRUPT_ENCODING"
+  ],
+  "pdf_inspector_version": "1.15.0",
+  "poppler_baseline_version": "25.02.0",
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_engine": "tesseract.js",
+  "ocr_engine_version": "7.0.0",
+  "tesseract_js_core_version": "7.0.0",
+  "ocr_languages": "chi_sim+eng",
+  "tessdata_flavor": "4.0.0_best_int",
+  "chi_sim_sha256": "B8A23F10C7DE500891EB458A8ADC9CC58AB7F242F08B7D149F5E9AEA4AD5DB7C",
+  "eng_sha256": "45B4CB346724AC1774F1C36F42F182B887BCDB28EBE63E6FFF90AC41F3FCFF91",
+  "gzip": true,
+  "render_dpi": 150,
+  "blank_verification_rules": {
+    "ink_coverage_lt": 0.0005,
+    "pixel_variation_lt": 0.002
+  },
+  "partial_text_layer_rules": "sparse text plus material visual ink is diagnostic only",
+  "page_provenance_rules": [
+    "OCR",
+    "PDF_TEXT_LAYER",
+    "PDF_TEXT_LAYER_PLUS_VALIDATED_OCR_SUPPLEMENT",
+    "VERIFIED_BLANK"
+  ],
+  "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+  "tesseract_ocr_page_number_required": true,
+  "multi_page_tesseract_child_forbidden": true,
+  "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+  "tesseract_ocr_timeout_scope": "PER_PAGE_CHILD",
+  "tesseract_ocr_timeout_seconds": 180,
+  "auto_retry_after_timeout": false,
+  "ocr_sanity_rules": {
+    "replacement_ratio_max": 0.02,
+    "control_ratio_max": 0.02,
+    "plausible_ratio_min": 0.15
+  },
+  "binary_matrix_sanity_rule": {
+    "rule_id": "OCR-SANITY-BINARY-MATRIX-V1",
+    "trigger": "long 0/1 digit runs occur in OCR text",
+    "positive_criteria": [
+      "at least 4 binary tokens, each at least 18 digits",
+      "modal binary-token length is at least 18 and modal-length regularity is at least 0.75",
+      "binary-token character ratio is at least 0.45",
+      "candidate tokens contain both 0 and 1",
+      "at least 2 deterministic source-code or matrix context markers are present",
+      "candidate tokens are not all single-symbol runs and not all alternating runs"
+    ],
+    "negative_criteria": [
+      "a single-symbol run of at least 18 digits without positive matrix evidence",
+      "an alternating 0/1 run of at least 18 digits without positive matrix evidence",
+      "fewer than 4 regular binary tokens, insufficient binary-token ratio, missing 0/1 diversity, or insufficient context"
+    ],
+    "false_positive_protection": "Numeric runs are accepted only when the complete deterministic matrix evidence predicate passes; repeated-symbol and alternating-noise fixtures remain rejected.",
+    "evidence_references": [
+      "catalog/scale/g8_q3_batch_repair/CUMCM-2020-B-005/pages/0023.txt",
+      "catalog/scale/g8_q3_batch_page_audit.csv",
+      "catalog/scale/g8_q3_batch_ocr_audit.csv",
+      "catalog/scale/g8_q3_binary_matrix_sanity_validation.csv"
+    ]
+  },
+  "normalization_contract": "Stage 66 whitespace collapse after NUL removal",
+  "page_joining_contract": "Stage 66 ordered space join then normalization",
+  "content_sanity_rules": "local structural continuity only",
+  "alternate_source_gate": "only same identity, readable, SHA-verified membership with fuller text evidence",
+  "atomic_persistence_rules": "same-volume temporary directory rename; unknown destinations blocked",
+  "failure_escalation_rules": {
+    "partial_text": "PARTIAL",
+    "runtime_or_source_or_ocr": "BLOCKED"
+  },
+  "child_process_contract": {
+    "wrapped_tools": [
+      "PDF_INSPECTOR",
+      "PDFINFO",
+      "PDFTOTEXT",
+      "PDFTOPPM",
+      "TESSERACT_OCR"
+    ],
+    "production_heavy_child_call_count": 5,
+    "production_unwrapped_heavy_child_call_count": 0,
+    "transport_encoding": "UTF-8",
+    "timeout_policy": {
+      "auto_retry": false,
+      "timeout_blocker": "CHILD_PROCESS_TIMEOUT",
+      "per_tool_timeouts": {
+        "PDF_INSPECTOR": 180,
+        "PDFINFO": 180,
+        "PDFTOTEXT": 180,
+        "PDFTOPPM": 180,
+        "TESSERACT_OCR": 180
+      }
+    },
+    "ocr_logical_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+    "ocr_invocation_scope": "one child invocation per target page",
+    "stderr_tail_max_bytes": 8192,
+    "owned_process_cleanup_rule": "exact wrapper-owned child only",
+    "global_kill_forbidden": true,
+    "audit_path": "catalog/scale/g8_q3_pilot_child_process_audit.csv",
+    "audit_schema": [
+      "attempt_id",
+      "sequence_number",
+      "tool_kind",
+      "phase",
+      "paper_id",
+      "page_number",
+      "started_at",
+      "finished_at",
+      "duration_ms",
+      "timeout_seconds",
+      "exit_code",
+      "timed_out",
+      "status",
+      "stdout_bytes",
+      "stderr_bytes",
+      "stderr_tail",
+      "child_pid",
+      "cleanup_attempted",
+      "cleanup_success",
+      "descendant_cleanup_count"
+    ],
+    "audit_persistence_mode": "atomic whole-file rewrite",
+    "audit_write_before_return": true,
+    "audit_state_validation_rule": "exact required schema and global monotonic sequence",
+    "audit_write_failure_blocker": "CHILD_PROCESS_AUDIT_PERSISTENCE_FAILURE",
+    "timeout_blocker": "CHILD_PROCESS_TIMEOUT",
+    "sequence_number_semantics": "global_monotonic_per_audit_file"
+  },
+  "pilot_paper_ids": [
+    "CUMCM-1993-B-003",
+    "CUMCM-1995-A-004",
+    "CUMCM-2020-D-003",
+    "CUMCM-1995-A-007",
+    "CUMCM-2020-B-002",
+    "CUMCM-1992-A-004"
+  ],
+  "pilot_status": "PASS",
+  "pilot_attempt_id": "20260902T134704174291_30625ec2",
+  "pilot_target_count": 6,
+  "pilot_result_validated": true,
+  "pilot_result": [
+    {
+      "paper_id": "CUMCM-1993-B-003",
+      "status": "PASS",
+      "counters": {
+        "source_sha_mismatch": 0,
+        "page_count_mismatch": 0,
+        "unexplained_page": 0,
+        "ocr_required": 2,
+        "ocr_completed": 2,
+        "ocr_failed": 0,
+        "whole_document_ocr": 0,
+        "non_routed_ocr": 0,
+        "reconstructed_body": 1,
+        "content_sanity_pass": 1,
+        "provenance_complete": 1,
+        "eligibility_review_required": 0,
+        "unhandled_failure_mode": 0,
+        "contract_gap": 0
+      }
+    },
+    {
+      "paper_id": "CUMCM-1995-A-004",
+      "status": "PASS",
+      "counters": {
+        "source_sha_mismatch": 0,
+        "page_count_mismatch": 0,
+        "unexplained_page": 0,
+        "ocr_required": 2,
+        "ocr_completed": 2,
+        "ocr_failed": 0,
+        "whole_document_ocr": 0,
+        "non_routed_ocr": 0,
+        "reconstructed_body": 1,
+        "content_sanity_pass": 1,
+        "provenance_complete": 1,
+        "eligibility_review_required": 0,
+        "unhandled_failure_mode": 0,
+        "contract_gap": 0
+      }
+    },
+    {
+      "paper_id": "CUMCM-2020-D-003",
+      "status": "PASS",
+      "counters": {
+        "source_sha_mismatch": 0,
+        "page_count_mismatch": 0,
+        "unexplained_page": 0,
+        "ocr_required": 135,
+        "ocr_completed": 135,
+        "ocr_failed": 0,
+        "whole_document_ocr": 0,
+        "non_routed_ocr": 0,
+        "reconstructed_body": 1,
+        "content_sanity_pass": 1,
+        "provenance_complete": 1,
+        "eligibility_review_required": 0,
+        "unhandled_failure_mode": 0,
+        "contract_gap": 0
+      }
+    },
+    {
+      "paper_id": "CUMCM-1995-A-007",
+      "status": "PASS",
+      "counters": {
+        "source_sha_mismatch": 0,
+        "page_count_mismatch": 0,
+        "unexplained_page": 0,
+        "ocr_required": 2,
+        "ocr_completed": 2,
+        "ocr_failed": 0,
+        "whole_document_ocr": 0,
+        "non_routed_ocr": 0,
+        "reconstructed_body": 1,
+        "content_sanity_pass": 1,
+        "provenance_complete": 1,
+        "eligibility_review_required": 0,
+        "unhandled_failure_mode": 0,
+        "contract_gap": 0
+      }
+    },
+    {
+      "paper_id": "CUMCM-2020-B-002",
+      "status": "PASS",
+      "counters": {
+        "source_sha_mismatch": 0,
+        "page_count_mismatch": 0,
+        "unexplained_page": 0,
+        "ocr_required": 104,
+        "ocr_completed": 104,
+        "ocr_failed": 0,
+        "whole_document_ocr": 0,
+        "non_routed_ocr": 0,
+        "reconstructed_body": 1,
+        "content_sanity_pass": 1,
+        "provenance_complete": 1,
+        "eligibility_review_required": 0,
+        "unhandled_failure_mode": 0,
+        "contract_gap": 0
+      }
+    },
+    {
+      "paper_id": "CUMCM-1992-A-004",
+      "status": "PASS",
+      "counters": {
+        "source_sha_mismatch": 0,
+        "page_count_mismatch": 0,
+        "unexplained_page": 0,
+        "ocr_required": 3,
+        "ocr_completed": 3,
+        "ocr_failed": 0,
+        "whole_document_ocr": 0,
+        "non_routed_ocr": 0,
+        "reconstructed_body": 1,
+        "content_sanity_pass": 1,
+        "provenance_complete": 1,
+        "eligibility_review_required": 0,
+        "unhandled_failure_mode": 0,
+        "contract_gap": 0
+      }
+    }
+  ]
+}

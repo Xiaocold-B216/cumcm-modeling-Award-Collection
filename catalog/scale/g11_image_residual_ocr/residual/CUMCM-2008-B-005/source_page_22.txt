@@ -1,0 +1,38 @@
+回 8 昌国
+生 奋 发 图 强 的 贫困 生 奖 学 金 ;
+由 实际 情况 有 b,20
+综 上 所 述 ， 分 配 原则 可 用 数学 模型 的 约束 条 件 表示 为 ;
+hx, <b, <x+ f,
+St 0<b, <d,
+2.2.myb; <n0,
+所 以 建立 的 贫困 生生 活 改变 优化 规划 模型 为
+max G= > > myb, <n0,
+hx, <b, <x+ f,
+St 0<b, <d, 加
+了 mm <n0, - 伏 >
+Lp“ 让
+(3) 模型 的 求解 1a
+利用 数学 软件 MATLAB 线性 规划 LINPROG 命令 进行 求解 ， fi
+四 美 不 同 家 庭 收入 的 贫困 生 应 该 获得 的 国家 补 由 如 WAXSA
+这
+
+1. 家 庭 年 均 收入 为 5000 元 以 下 的 各 专业 学 生 SR 区 得 国家 补贴 如 下 : 〈 单 位 :
+
+元 ) 2
+EAISEOIIEEESUEEIIIIEECEREI
+[| urn o| io | rt |
+| TYTMWT TY 36sDCH atalag TICssoia5 |
+[Tanae5 | xi602 | so |
+[keonel | ao | zz |
+ENETI ERIEEIEEI
+人 TU 20 | 6 15025
+
+NA
+2. 家 庭 年 均 收入 为 5000 元 一 10000 元 的 各 专业 学 生 应 该 获得 的 国家 补贴 如 下 :
+(单位 ; 元 )
+[Ce T 有 区 | 第 | 9 入 |
+[xieori org | uro |
+[Tiewi ll ww | on |
+[ay ar | to | ao |
+[oo ll ao | at |
+19

@@ -1,0 +1,26 @@
+# Knowledge Card
+
+## Basic Information
+
+- Paper ID: CUMCM-1995-A-007
+- Year: 1995
+- Problem: A
+
+## Evidence-based Content
+
+The following excerpt is copied deterministically from the generated paper body; no method or conclusion is inferred beyond this source evidence.
+
+> 回味 让 5 的 六 .8， 数学 的 实践 与 认识 = 飞行 管理 问题 答卷 评述 谭 永 基 (复旦 大 学 ,上 海 200433) 本 题 是 以 空域 飞行 管理 为 背景 ,经 简化 
+> 和 整理 而 成 的 一 个 赛 题 .该 问题 主要 可 以 归 针 为 非 线性 规划 模型 或 经 一 定 简化 ,建立 线性 规划 模型 由 了 实际 的 震 要 ,提出 的 算法 诺 (ES
+>  计算 机 上 快速 地 实现 。 “让 yAT — ARLRERRAE RoK R & H 设 六 架 飞 机 在 调整 时 的 方向 角 为 作词 整 后 的 方向 角 为 六 一 多 这 tr1
+> .2， 6)， 设 任意 两 架 飞机 在 区 诚 叫 的 最 拓 蝶 离 为 ui(0,0,,) ,那么 问题 的 非 线性 出 旭 模 型 为 二 X minS) 1Ab /\ \ 使 得 e C
+> A “ d,,(0, + N0,.0, + 区 人 1 入 67 天 J 2 去 30 绝 大 多 数 答卷 能 正确 建立 人 有 seemsr assehnaTaaamto 求 ,如 要 求 在 
+> 调整 后 的 0qP -过 小 时 内 不 发 生 磁 擅 或 永远 不 允许 发 生 碰 撞 ， 从 而 简化 了 4 的 表述 。 一 1 求解 此 模 0 隐 式 枚 举 \ 枚 举 儿 志 妥
+>  深 相 结 合 等 技巧 , 方 能 在 较 短 时 间 内 求 得 符合 精度 的 最 优 调整 方 案 . 参 守 答 败 中 采 肝 许多 提高 要 举 效率 的 措施 。 有 的 答 估 在
+>  枚 举 时 采用 了 Monte—Car- 让 K A0 人 0 可 这 种 方法 可 显著 提高 计 算 速度 ,让 - 定 新 意 。 另 一 种 解法 是 引进 惩罚 函数 ,将 间 题 化 
+
+## Evidence
+
+- Evidence granularity: page
+- Source pages represented: 1, 2
+- Authoritative normalized text SHA-256: D48591242A443C43885174A55416A43BB3EF82B6FCDE1A43F309618ABA59973F

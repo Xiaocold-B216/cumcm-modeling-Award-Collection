@@ -1,0 +1,46 @@
+回味
+多 二 是
+end
+这 t0<GZZZ
+clearT2 T1 TT4 TT5 VTTI VTT2
+[m,n]=size(aa);
+for i=1:8
+for j=1:m
+if i==aa(j,5)*2
+T2(i,1)=aa(j,7);
+end
+end
+end
+o
+for i=l:m 一 从 >
+for j=1:8 一 \)
+if j==aa(i,4) 2XG
+T10,D=aa(i,3);
+end
+end As
+end &
+UTT=aa(:,6); X
+SI=length(UTT);
+for ijk=1:SI
+if UTT(ijk)>100000 ®
+UTT(jk)=0; O
+end %%
+end
+room 下 区
+clear UTT ST ijk 一
+T3=aanmi,3): 7 ¥
+[T6,V rarerr ] = f01(T1.T2,.T3,t0,dTTGZBH );
+0 区
+Pi aa);
+HKe>
+| // for jj=m:-1:1
+SA， if TT4(ii)==aa(jj,4)
+aa(jj,3)=VTTI(ii);
+aa(jj,4)=TT4(i);
+aa(jj,1)=(aa(jj,4)+1)/2;
+aa(jj,5)=TT5(i)2;
+aa(jj,6)=VTT2(ii);
+aa(jj,7)=aa(jj,6)+T(5)+T(7-mod(aa(jj,5),2));
+break;
+end
+70

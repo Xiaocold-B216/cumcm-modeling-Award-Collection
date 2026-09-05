@@ -1,0 +1,44 @@
+回 叶 这
+了
+四
+建 模 专辑 公交 车 调度 0
+候 时 间 超 过 忍耐 时 间 的 人 数 为 (忍耐 时 间 在 早 高 峰 期 为 5 分钟 ,其余 为 10 分 钟 ) : 若 第 7 时段 不
+处 在 早 高 峰 期 ,PAY = maxfpEx (Am - 10) ,0 ; 若 第 7 时 段 处 在 早 高 峰 期 ,Ph = maxf pH
+“Ai - 9) ,0 同样 可 以 计算 出 :
+32
+2 = 一 笃 一 (3/
+100 Yn, =
+通过 以 上 分 析 ,建立 如 下 三 目标 优化 模型 ， 全 人，
+> 2 让
+maxZ=- .—, min W = 全 min C 拓 |
+总 | Py
+100 Yn, /
+n > 0 _ _ AR
+s. t. 下 <120° j=1, SN TD
+1 和
+引入 三 个 非 负 加 权 因 子 X ,>a, 3 ,将 此 三 目标 优化 模 型 转化 为 单 目标 优化 模型 :
+max XNZ - XC 六 普
+nj > 0 _， _
+s.t. VBNA 机 1 (*)
+据 此 进行 求解 与 分 析 , T LASK Hi 香 段 的 耻 车 数量 妃 ,进而 可 求 出 其 余 各 量 。
+下 面 来 求 按 最 优 方 案 所 需 最 小 革 策 数 褒 : :加 上 标 ″“ ”的 量 为 下 行 段 各 对 应 量 ) :
+ro 1
+本 1 - 了
+oj
+LI 加
+2(0 = 一 ”入 Treoal - Treo 9 (二 0
+91
+o NT 一 1， Fitg =t <t+a
+%, ， 加 Tirorl- To
+(有 -1 1
+p 下 Go(t) + p ns + Tici-8p+1 - Tici-p) "it-®
+人 SA_， (0 -1 ， LT 加
+Pe - ) PILIE Tvoal - To 若 : 关 +B
+1 0-1
+Ge (to) - 人 n'yey - 六 1 ， Fitg =t <to+B
+其 中 ,4 为 下 行 线 车 辆 运行 时 间 ,8 为 上 行 线 车 辆 运行 时 间 , to = 5. 00 。
+令 Gg(t) =0, 可 求 出 min Gecftu 即 为 B 车 场 初始 车 辆 数 , 同时 所 求 最 小 车 辆 数 为
+maxAGy(1) 。
+5 ”模型 的 求解
+通过 对 本 题 所 给 数据 的 分 析 , 取 m = 5, 即 将 全 天 的 行车 时 间 分 为 5 段 , 划 分 表 如 下 :
+2 4-2006 China Academic Journal Electronic Publishing House. Allrights reserved.  http:/www.c

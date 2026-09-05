@@ -1,0 +1,44 @@
+EEE
+[z 放  |  ea[ 8  o0s5] -3 12o7|
+[mm 藏 | -3552 -56 -238| -1679| -36.2|
+[BE 本 | 129 4 1 55 -28|
+[85307102| 1898|  58.23]
+[#a  | 2 3436| 08| 2229  -7.39]
+[下 | 25| 1836|  03[  s561] 4027|
+la [  220] 28 29| 164| 46.62
+PROC PRINT DATA=A;
+RUN;
+PROC CLUSTER DATA=A METHOD=AVE STD PSEUDO CCC OUTTREE=B; 次
+VAR X1-X5;
+ID CITY; 二 SS
+PROC TREE DATA=B HORIZONTAL GRAPHICS; 2XG
+RUN; ¥
+〈 因 子 分 析 程 序 ) 信
+PROC FACTOR M=PRINCIPAL ROTATE=V NFACTOR=4 EV SCORE OUT=B;
+VAR X1-X5; X
+RUN;  4
+PROC PRINT DATA=B;
+RUN;
+PROC PLOT; ©
+PLOT FACTOR2*FACTOR1=CITY; 人 ?
+RUN;
+风
+聚 类 分 析 的 主要 结果 : 工 SF
+[站 chusteruistor
+一
+让 全 Norm
+Clu 二 Vd RMS
+全 Dist
+NT
+| |
+| 到 4 汪 两 | 新疆 | 2|0.0006|0.999| .| .loa8] .|01313|
+SU
+|BWILT | 重庆 | 2|0.0007|099| .| .[749] .|01479|
+| 27 | 浙江 | 广东 | 2 00010997| | .|6L3| .|0.1751
+| 26| 淹 南 | 贵州 | 2|10.0011|0.996| .| .155.9| .|o.1784]
+| 中 |cL30 | 天 津 | 3|0.0014|0.995| .| .[50.2] 78| 0.181]
+| 24|cL25 | 山东 | 4 0.002|0.993| .| .|43.6| 2.5|0.2175|
+| 23| 吉 林 | 云南 | 2|10.0019|0991| .[ .|40.6| .|02417|
+| 22| 江 苏 |CL26 | 3|0.0022|0.989| .| .|38.1| 2.1]0.2418]
+| 21|cL24 | cl28 | 6|0.0049|0.984| .[ .[30.7] 4.6]0.2714]
+30

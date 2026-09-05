@@ -1,0 +1,14 @@
+paper_id: CUMCM-2013-D-004
+year: 2013
+problem: D
+subject_type: PAPER
+artifact_eligible: true
+quality: Q0
+primary_file: 2013年数学建模国赛真题+优秀论文/2013D：城市公共自行车服务系统运行状况和效率分析 (2)/赣南师范学院科技学院 D 赖铖、袁彦、舒敏.doc
+source_sha256: 6BEC1C814F4638020F3DA17E90DC9EA483CAB5311CC4CA040F131629F9103ACE
+effective_pdf_path: derived/scale/doc_batch/CUMCM-2013-D-004/source_converted.pdf
+effective_pdf_sha256: ED6EF7DC8A23661F14C36F463E549079FC28CC6DDBF69205B8F346EDDF85E8C4
+authoritative_text_path: catalog/scale/g8_doc_authoritative_extraction_text/CUMCM-2013-D-004/normalized_body.txt
+authoritative_text_sha256: C7D21E6234680FB132E0C44537943799662C2C58BAACE7C14AFEF17FFD69F18A
+extraction_contract: g8-doc-authoritative-extraction-text-v1
+artifact_generation_mode: G8-DOC-FORMAL-ARTIFACT-GENERATION-RESUME

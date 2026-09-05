@@ -1,0 +1,88 @@
+Ed
+
+116 Pp = mp.randon morzal (pl4], pfclil. 1)
+
+ur 0 = pp * di， 问
+
+11s az
+
+119 for ] in ranget, 9):
+
+120 aa carly] * ac] <= 6000
+
+121 3
+
+122 carly) += sa]
+
+LOSTE3, K) + s[4] 。ap.randos .aoraal(10lft， ¥11, 1te30s, #1), ©
+
+n
+
+break
+
+125 区
+
+126 1
+
+127 aa
+
+ls broak
+
+120 11 = np. randos noraaltl[J[i， K1]. 1teC3le, ¥1). 1)
+
+130 0 = Ga0) 。s0
+
+131
+
+12 9 te 0 / Gabe2s)
+
+183 oseer tm 1
+
+134 Everyweer_got(] = sus(t / Gabe2)
+
+135 Cla) = suxs » GabeD)
+
+136 L0E) = sus(Cs - b / Gabed)
+
+137 Cost_accusulated [0] (x]=sia(a(np. whore (Gabe1m=1 2)101.2)
+
+188 Cost_accumulatod [1] [xzeasta[ap vhore (Gabei==i. 1)]o1.1)
+
+1a9 Cost_accusulated [2] TB = 4u=(snp. shore(Gabci == D + 1)
+
+10 e cleas
+
+141 OERRERERR Rkx
+
+uz Ja np.zeres ((177), dtypemiat)
+
+143 “jp zerosklz7] ，aeyperint)
+
+144 。。 插 EEERRER
+
+145 car =” np.zeros((s), dtypesint)
+
+6
+
+17 axl = plt.geal)
+
+148 waxi_ser_ylss(15000, 62000)
+
+149 ax2 axl.tstnx()
+
+150 axi.plot(rango(1, 25), CL1:), ，labelc， 每 周记 本
+
+151 ax1.plot(range(l，25)，s[l:] labele'& A 8 &K #1)
+
+152 axi.plot(range(1, 25), Everyveek_got(1:], labele' H3t &')
+
+158 ax2.bar(range(1，25)，LOSTLI，1:] label=' H # &W14 &". alpha=0.3, bottoz=0)
+
+154 ax2 bar(range(1, 26). LOST[2, 1:], label='&# # 5 W2H &", alphas0.3. bottomec:
+105TOL 1:0)
+
+155 ax2.bar(range(1, 25), LOST(Z, 1:], label='# A#ER3H", alpha=0.3. bottommer
+L0STOL 1:) + L0STE2, 1:))
+
+156 ax2.bar(range(1, 25). LOSTLA, 1:], label='# A# 5R4H &', alpha=0.3, bottosmcr
+LOSTOL, 1:] + 10STE2, 1:] + LOSTES, 1:1)

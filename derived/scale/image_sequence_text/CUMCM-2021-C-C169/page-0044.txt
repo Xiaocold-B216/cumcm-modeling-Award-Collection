@@ -1,0 +1,45 @@
+cost
+isFeasable
+pBest
+pestCost
+Gridindex
+sDominated
+end
+methods
+function obj = Particletlowerupperobjective constraint)
+fnargin>0
+obi Gridindex =0;
+obj.sDominated = fase;
+objx= unifrnd(lowerupper);
+objl=lower
+obju = upper;
+objv= zeros(L,max{length(lower) ength(upper));
+obj.sFeasable = constraint{objx);
+ifallfobjisFeasable)
+bjcost = objectve(obix);
+objpBestCost = objcost;
+objpest = objx;
+else
+obi.cost=Na;
+objpBestCost = Na
+obipBest = RN;
+end
+end
+end
+function obj = update{objwic,pm gBest objectiv, constraint)
+obj= objupdateV{wcgBest);
+obj= objupdateX();
+objisFeasable = constraint(obi);
+aobjisfeasable)
+obi.cost = bjective(objx);
+else
+obj.cost = NaN;
+end
+obj= abj.applyMutatation(pmobjective);
+obj= obj.updatePbest();
+end
+function obj = updateV(objwicgBest)
+objv=wrobjv+ c(1).*rand.*(obj pBest-objx) + c(2)."rand. *(gBest xobi.x);
+end
+function obj = updateX(obi)
+“

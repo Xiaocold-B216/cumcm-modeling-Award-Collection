@@ -1,0 +1,37 @@
+﻿[2026-08-18T23:49:35+08:00] [INFO] G3-02R2 Final Relation Delta & Duplicate-Candidate Reconciliation started
+[2026-08-18T23:49:35+08:00] [INFO] Repository root: D:\cumcm-modeling-Award-Collection
+[2026-08-18T23:49:35+08:00] [INFO] Step 1: Reading machine facts...
+[2026-08-18T23:49:35+08:00] [INFO] Papers: 670
+[2026-08-18T23:49:35+08:00] [INFO] Paper Files: 2372
+[2026-08-18T23:49:35+08:00] [INFO] Duplicate Relations: 110
+[2026-08-18T23:49:35+08:00] [INFO] Current Review: 29
+[2026-08-18T23:49:35+08:00] [INFO] Step 2: Fixing version review rows...
+[2026-08-18T23:49:35+08:00] [INFO] Near review rows: 27
+[2026-08-18T23:49:35+08:00] [INFO] Version review rows: 2
+[2026-08-18T23:49:48+08:00] [INFO] Fixed version review rows: 2
+[2026-08-18T23:49:48+08:00] [INFO] Step 3: Merging review rows...
+[2026-08-18T23:49:48+08:00] [INFO] Total fixed review rows: 29
+[2026-08-18T23:49:48+08:00] [INFO] Step 4: Writing fixed review.csv...
+[2026-08-18T23:49:48+08:00] [INFO] Written 29 records to D:\cumcm-modeling-Award-Collection\catalog\relation_review.csv
+[2026-08-18T23:49:48+08:00] [INFO] Step 5: Analyzing duplicate candidate pairs...
+[2026-08-18T23:49:48+08:00] [INFO] Exact Relation Unique Keys: 110
+[2026-08-18T23:49:48+08:00] [INFO] Exact Relation Duplicate Keys: 0
+[2026-08-18T23:49:48+08:00] [INFO] Total Relation Candidate Pairs: 30
+[2026-08-18T23:49:48+08:00] [INFO] Duplicate Candidate Pairs: 0
+[2026-08-18T23:49:48+08:00] [INFO] Step 6: Analyzing review delta...
+[2026-08-18T23:49:48+08:00] [INFO] Previous Relation Review Rows: 2
+[2026-08-18T23:49:48+08:00] [INFO] Current Relation Review Rows: 29
+[2026-08-18T23:49:48+08:00] [INFO] Preserved Relation Review Rows: 2
+[2026-08-18T23:49:48+08:00] [INFO] Review Rows Added: 27
+[2026-08-18T23:49:48+08:00] [INFO] Review Rows Removed: 0
+[2026-08-18T23:49:48+08:00] [INFO] Relation Review Delta Unexplained: 0
+[2026-08-18T23:49:48+08:00] [INFO] Step 7: Checking for duplicate review keys...
+[2026-08-18T23:49:48+08:00] [INFO] Duplicate Review Keys: 0
+[2026-08-18T23:49:48+08:00] [INFO] Duplicate Review Rows: 0
+[2026-08-18T23:49:48+08:00] [INFO] Step 8: Verifying integrity...
+[2026-08-18T23:49:48+08:00] [INFO] Self Relations: 0
+[2026-08-18T23:49:48+08:00] [INFO] Duplicate Relation Rows: 0
+[2026-08-18T23:49:48+08:00] [INFO] Formal Papers After: 670
+[2026-08-18T23:49:48+08:00] [INFO] Step 9: Generating reports...
+[2026-08-18T23:49:48+08:00] [INFO] Written G3-02R2 report to D:\cumcm-modeling-Award-Collection\reports\G3_02R2_final_reconciliation.md
+[2026-08-18T23:49:48+08:00] [INFO] Written updated G3-02 report to D:\cumcm-modeling-Award-Collection\reports\G3_02_relations.md

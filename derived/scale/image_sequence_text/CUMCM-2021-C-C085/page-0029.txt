@@ -1,0 +1,38 @@
+seel -xd open_workbook("Fi 1 近 S 年 402 家 供应 商 的 相关 数据 xlsc， nb
+sheet -exeelshest by_name( 供 应 商 的 供 全 量 my ) )
+ID
+EL
+for in range(shectnrows):
+ID.append(sheet.cell_value(r, 0))
+FLappend(shectell value(, 1)
+Aw-[
+BW-]
+cw-
+for ¢ in range(2,sheet ncols):
+ANr0
+BN-0
+CNro
+forrin range(1, sheet nrows):
+ifFLI 一 A' “
+AN+=sheet cell_value(r, ¢) -~!
+ifFLO 一 B: 这 IN
+aaa / 记
+机 入
+CNhrsheetealLvalaett
+AW append(AN) 2 °
+区 号 ，
+CWappendt
+wa orkbookCf Hkxi) 4 建立 文件
+se kbook add Worksheet() # 建立 sheet， 可 以 work add_worksheettemployee) 来 指
+tt £5, 三 中 文 名 会 报 UnicodeDecodeEmro 的 错误
+orkshectwrit(1,0, "A")
+‘worksheet write(2, 0, "B")
+wodshestwrieG ourC
+foriin range(len(AW)):
+werksheet write(0, i+1, i+1)
+workshectwrite(,i¢1, AW[)
+‘worksheet write(2, i+1, BWi])
+‘worksheet write(3, i+1, CWID)
+workbook close)
+人 f
+»

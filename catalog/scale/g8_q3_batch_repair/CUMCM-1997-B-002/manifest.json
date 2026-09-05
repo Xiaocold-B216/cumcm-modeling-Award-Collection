@@ -1,0 +1,95 @@
+{
+  "attempt_id": "20260902T155430733534_bbc50661",
+  "batch_attempt_id": "20260902T155430733534_bbc50661",
+  "paper_id": "CUMCM-1997-B-002",
+  "source_path": "1997年数学建模国赛真题+优秀论文/1997年国赛优秀论文/1997B：最小费用切割策略.pdf",
+  "source_sha256": "985A50D88845F35657775DBB7EAF5C68228D9A897EB136E8C73E010DAFE67062",
+  "refinement_contract_sha256": "7E43620CE1A7A22EB08B48D4552E2751E13BE00EB9F71681CDBB76F8A00624A7",
+  "refinement_evidence_fingerprint": "8DED4A5815D9A5D6644E0194282E07AF6FBC02CE68B6AEE6568601131ADC2E99",
+  "page_count": 6,
+  "pdf_text_page_count": 0,
+  "ocr_page_count": 6,
+  "verified_blank_page_count": 0,
+  "partial_text_page_count": 0,
+  "reconciled_page_count": 0,
+  "normalized_body": "回 央 凌志 回 牛 | 四 第 28 卷 第 1 期 数学 的 实践 与 认识 Vol 28 No. 1 1998 年 1 月 MATHEMATICS IN PRACTICE AND THEORY Jan., 1998 最 小 费用 切割 策略 崔 龙 RE® E R® 指导 教师 : 王 开 华 (二 通信 工 各 学院， 南京 210016) 编者 按 ”本文 在 目标 函数 表达 式 、 优 化 准则 、 启 发 式 算法 等 方面 都 有 清晰 的 氢 述 和 讨论 ， 富 / 一 摘要 。 本 文 对 于 寻求 费用 最 小 的 切割 方式 这 一 有 限 状 态 的 离散 问题 , 建立 了 优化 模型 ， 通 过 c 的 力 讨论 与 求解 ， 解 决 了 问题 一 至 五 . 一 qs 首先 ， 对 于 问题 一 ， 运 用 给 出 的 平行 相 邻 等 效 定理 ， ye 426. 其 次 ， 本 文 建立 了 寻求 费用 最 小 切割 方式 的 优化 模型 ， 在 该 模型 的 求解 中 :4 (0 用 穷 举 法 得 到 了 所 有 资 用 最 小 的 切 宙 方 式 ， ”了 (2) 给 出 并 证 明了 平行 切 撮 者 优先 定理 ， 缩 了 机 索 四 (3) 引入 并 改进 了 人 工 智能 领域 的 算法 , oo 二 中 不 同 的 启发 函数 进 行 了 讨论 、 比 较 然 外 鸡 e=0 的 靖 况 下 中 出 下 等 效 度 订 者 优先 切割 闪 风 、 同 也 区 还 过 沦 该 区 在 zo 时 的 用 性、 = 冯 此 外 , aasaatepimromosT 后 cs 直 了 问题 五 所 要 求 的 费用 最 小 的 所 有 切割 方式 . 最 后 ， 通 过 变换 ， 将 结论 的 应 用 范围 推广 到 一 般 平 行 六 面体 的 切 抽 问题 全 志 基本 假设 A (Ha) 每 切 制 一 刀 后 ， 将 待 加 工 的 部 妈 留 在 工作 台 上 ， 各 个 面 的 位 置 关系 保持 不 变 ， 而 将 被 切 抽 下 的 部 分 取 走 ， 不 于 考虑 ， 。 加 em 其 它 的 间 用 (如 刀具 磨损 站 等) 本文 不 作 讨 (H3) 刀具 在 水 平 切 久 于 制 之 间 进 行 转换 时 ， 刀 具 的 调整 不 需要 额外 费用 ;但 当先 后 两 次 垂直 切割 的 平面 不 平行 时 ”不 管 它们 之 问 是 否 穿插 水 平 切 制 ， 调 玫 刀 具 均 需 要 额外 费用 ， 以 下 讨论 的 调 玫 刀 具 符 指 和 直 太 号 z 题 沪 澄 v 已 (9 “性 水 平 工作 台 接触 的 长 方 体 底面 AM 1 是 事先 指定 的 :其 信义 尼 事 先 国定 长 方 体 纤 水 平 工作 从 上 的 放置 方式， 相应 地 确定 | 放生 切 抽 硬 和 季 直 切 制 而 ! 137 seE— EARRR Iy 由 测 长 方 体 和 成 品 长 方 体 各 个 面 的 空间 位 o 图 中 07(0,0,0),L (a1,01,01) 为 待 加 工 长 o'l A 方 体 的 体 对 角 线 的 两 顶点 坐标 ， 图 1 待 切 拓 长 方 体 和 成 品 长 方 体位 置 图 osssea) Liaabncn) 为 成 品 长 方 体 的 体 对 角 线 的 两 顶点 坐标. 为 了 才 述 方便 ,我 们 将 待 加 工 的 长 方 体 和 成 品 长 方 体 各 个 面 进行 编号 其 对 应 关系 如 下 ; aa2/)， ao0te) stg')ete') 分 别 表示 待 加 工 的 长 方 体 和 成 品 长 方 体 的 右 侧面 背面, 上 底面 、 左 侧面 、 正 面 、 下 底面. 符号 说 明 是 种 72 数学 的 实战 与 认 识 28 着 1，8 : 表示 切割 方式 ， 8=(izia inisie). (其 中 心 表示 第 上 次 切割 的 面 的 编号 ), 它 反映 了 切割 的 先后 顺序 ， 2. 4 : 所 有 的 2 组 成 的 集合 ， 141 表示 4 中 元 素 的 个 数 ， 在 本 文中 4|= P5; 3，P(9) : 切割 方式 为 8 时 的 切割 费用 ， T(2) : 切 制 方式 为 8 时 的 刀具 调整 的 次 数 ， c(8) : 切割 方式 为 上 时 的 加 工 竟 用 ， c(B)=P(UH)+T(UH)e; 4 :成品 长 方 体 7 面 的 等 效 订 度 ， 本 { 切 ，。 第 7 为 水 平 本 7 7 右 ， 第 7 为 垂直 面 ; 其 中 三 表示 成 品 长 方 体 第 ; 面 到 待 切割 长 方 体 第 7 EARERT, 全 人 > 二 、 问题 一 的 解答 _ \\) . = 问题 一 要 求 计算 需 考 虑 的 不 同 切 割 方式 ( 即 各 面 的 加 工 次 序 ) 的 总 数 ， 本 起 央 用 , 在 所 有 的 切割 方式 中 ， 有 些 切 割 方式 ， 例 如 切割 方式 (4.1.5..5.5) 和 切割 方 : 起 46 2.5 于 , 对 任意 及 十 和 位 置 的 待 加 工 长 方 体 和 成 品 长 方 体 ， 其 加 工 费 昼 者 福 等 。 那 么 秘 从 只 村 红 基 中 的 种 切割 方式 就 行 了 这样， 我 们 需要 考虑 的 不 网 的 切入 方式 的 总 数 就 是 所 有 六 工 将 用 本 能 辐 揭 切 割 方式 的 总 数 ， 记 为 w 则 考 碟 过 R 种 切 扰 方 式 的 如 上 和 费用 后 ， 一 定 不 僚 漏 掉 任 何 一 种 加 工 费 用 不 同 的 切割 方式 . 10 F={2(3) |peAy, 风 :=maxli、 CE 定理 1 (平行 相 邻 等 价 定理 ) : 在 w= 人 ads+acia = 人 ai 和 是 汪 ia) 中 B lie=ing]=3, 则 c(w= <c(9). 证 明 略 ， 记 : P={alp 中 4 与 1 相 邻 旧 4 在 1 前 面 上 4 中 5 与 2 相 邻 量 5 在 2 前 面 }j; R={ala 中 6 与 3 相 邻 上 且 6 在 3 前面 } 则 pi=|Qi=|RI=P; ro 则 N <|A|-PUQUE| : =PS —|P|- |Q| 2 lenRl+IPnal-IPnonRl=426 这 样 得 到 了 w 的 上 界 为 426. 下 在 给 定 的 一 组 初 值 丽 稍 况 下 ， 求 出 了 aze 种 各 不 相同 的 加 工 哄 用 值 说 明 至 少 要 考虑 426 种 切割 方式 ， 即 w 的 下 界 也 , 末 \" N>426. 所 以 N=az6. ENG 一 三 、 模 型 建立 与 求解 wo 我 人 的 问题 是 在 A 中 选取 合适 的 24, 使 c(8) 最 小 目标 函数 为 ， SS . SA， min CU = rinjSntiia io) 十 TB).e wo stim €41,2,3,4,5,6),m=1,2,--+,6 i, 两 两 互 不 相等 ， 7 三 mi 二 36 r(im)=1, im HHE. 其 中 sonviarvin) 为 在 前 m -1 次 切割 顺序 为 fiz…:aw- 5) 时 第 m 次 切割 待 加 工 长 方 体 第 ;。 面 所 形成 的 截断 面 的 面积 . 为 了 求解 模型 ， 我 们 先 引 入 代价 树 T 来 描述 切割 的 过 程 略 ). 相交 四 1 其 裕 。 龙 等 :最 小费 用 切割 策略 73 注 so 为 结 点 : 表示 初始 状态 ， 即 待 加 工 的 长 方 体 ，s5(lsisi1<jsP) 为 结 点 ， 表示 中 间 状 态 ， 即 已 切割 挤 一 些 面 的 待 加 工 长 方 体 ，; 为 代价 树 的 层 数 ，/ 为 同一 层 中 结 点 的 序号 ， sex(1cxsp3) 为 时 结 点 ， 它 表示 已 经 切 抽 成 成 蝇 长 方 体 . 从 结 点 50,0<i<6,18i<p5) 转移 到 结 点 Si+DJx(SkKSPeT ) 的 边 赋 上 一 定 的 权 值 (SiS 表示 这 一 转移 所 付出 的 代价 ， 好 从 状态 5. 到 st+u*) 切割 一 次 所 需 的 并 用 ， 如 果 前 后 切 制 需要 刀具 调整 ， 则 它 还 包括 调整 刀具 的 由 用. 从 根 结 点 ss 到 每 一 个 第 6 级 时 结 点 ssx(ik<Py) 的 路 对 应 了 一 个 切 制 方式 ， 那 么 从 s。 到 sev 的 代价 之 和 即 为 该 切 拓 方 式 的 加 工装 用 ， 原 问题 即 转化 为 求 此 代价 树 的 最 小 代价 路 径 . 求 此 最 小 代价 路 径 有 如 下 的 几 个 方向 : Cn 穷 举 出 所 有 路 径 的 代价 ，(2) 寻求 一 些 必要 条 件 来 减少 搜索 的 路 径 ，(a) 引入 并 改进 启发 式 搜 本 一 、 穷 举 法 及 其 改进 = “ks 欠 寻 求 有 限 代价 树 的 最 小 代价 路 径 ， 采 用 穷 举 法 一 定 能 够 找到 最 优 角 . ny 束 条 件 ， 一 般 的 穷 举 法 需 壳 历 所 有 的 路 径 ， 即 搜索 改 =720 条 路 径 和 入 光 我 们 对 穷 举 法 进行 改进 如 下 : A 1 平行 相 邻 切 制 改进 法 由 定理 1, 对 于 一 种 切割 方式 ,如果 其 中 有 导 俩 的 两 次 切 色 本 平生 交 弥 这 两 居 切 制 次 序 ， 则 加 工 费用 一 定 相等 ， 由 前 面 的 六 解 可 向 只 需 搜 索 26 条 路 径 ， 3， 平行 阳 混 优 污 改进 法 sN SUB 姑 果 4 ， 副 切 方式 -pw -astivi 辣 3 油 需 的 加 工 虎 用 不 大 于 4=(nizin-ad 和 ay 质 需 的 加 工 哄 用 ， 即 ctoJscte) N\\ 定理 2 (平行 切割 原 者 优先 定理 ) 如 果 ;>0., 且 1- 出 切 割 方式 se- -isn im 5ieIISn<ISG) 所 需 的 加 工 费用 不 大 于 B=liveyinsnkybngrrs dmadiimarssie) 所 需 的 加 工 费用 ， 即 cte)<c(8). 证 明 不 妨 设 j=4,k=1. 个 可 以 分 以 下 两 种 情况 讨论 ， Vs) Hp © LousaB, B FB WHIRL 由 中 ; 是 第 : 次 切 币 ， 刚 根据 引 理 ， ctojsct) 2 ny1 时 ， 显 然 ， 两 种 情况 下 in ， 济 工 烛 用 是 相同 的 ， 设 加 工 哟 用 为 c,- 人 ieui- 切 制 后 成 为 长 方 体 \\ 考虑 对 长 方 体 v 的 两 种 切割 硕 序 ， 及 和 和 将 两 种 切割 方 法 补 壳 让 王 隐 虞 切割 站 ii=av ii=n- 碟 切 制 呈 与 与 U=lrm-D) 切 制 的 位 置 相同， 0 o, 代价 也 为 0), 则 补充 后 的 切割 方法 也 是 一 个 完整 的 切 制 方式 ,根据 引 理 可 得 :> ofwscloj 癌 再 可 系 y -sx=2 或 )=ok=3 时 间 样 有 cto)sctp)，， 证 毕 根据 : 到 就 可 以 将 搜索 的 路 径 减少 到 rg/(2-p7-P2). 大 大 缩小 了 搜索 空间 、 BIN s AN 了 提高 搜索 效率 我们 引入 启发 式 搜索 法 启发 式 搜索 法 在 人 工 智能 领域 中 的 应 用 已 经 形成 了 生生 总 站 的 理论 ， 其 中 有 著名 的 4\" 算法 ， 它 具有 较 强 的 启发 能 力 ， 可 以 大 大 地 所 高 搜索 效率 V. 和 算法 的 引入 如 图 二 所 示 上 为 起 始 结 点 se 到 目标 结 点 5 的 一 条 可 行路 径 ， 为 该 路 径 上 的 某 一 结 点 . 。 一 一 4 算法 定义 估计 诅 数 。 7Cs)=y(a)+Hn， 其 中 fn) 为 起 始 结 点 5, 经 过 n 结 点 到 达 目 标 结 点 sy 的 最 小 代价 路 径 代价 的 估计 值 ， vtw) 是 从 图 ” + 算法 的 估计 本 歼 宦 义 示 图 初始 结 点 so 到 结 点 ”的 实际 代价 ， htw) 是 从 结 点 ， 到 目标 结 点 5， 的 最 小 代价 路 径 的 估计 值 ， 它 体现 了 搜索 的 启发 信息 ， 称 启发 式 函数 ， 4\" 算法 的 核心 是 要 寻求 合适 的 xw) 以 提高 搜索 效率 - 回 共 RN 74 数学 的 实 虐 与 认识 28% HRIISE AERTAYRA BT E £(Si) = 9(5i5) + h(Sis) 其 中 f(st) 为 根 结 点 5 经 过 结 点 si 到 达 叶 结 点 sey 的 最 小 费用 路 径 的 装 用 估计 人 stn) 是 从 根 结 点 so 经 过 结 点 5,; 的 实际 费用 ， hsrj) 是 从 结 点 si; 到 达 时 结 点 sex 的 最 小 费用 路 径 的 估计 费 用 ， 它 同样 体现 了 揽 索 的 启发 信息 ， 也 称 启发 式 函 数 ， 记 (5,) 为 从 结 点 5., 到 达 时 结 点 sex 的 最 小 费用 . 当 hs,) 满足 许可 性 条 件 时 (), 4 算法 一 定 能 提 过 到 从 结 点 50 到达 时 结 点 se 的 最 小 费用 2 . 启发 式 函 孝 h (5,,) 的 选择 _ 下 面 我 们 具体 构造 出 三 种 xsrs) 的 表达 式 ， 全 GD ma(st)s0, 这 种 特殊 的 情况 完全 缺乏 有 关 的 启发 信息 ， 算 法 退化 为 宽度 优先 搜索 沽 /SS 思 (2) ha(Stjj=oa-oui 式 中 ws 二 入 SIRAEALLI ERARSITTS, 下 汪 . 成 品 发 方 体 与 该 要 浙 面 重生 部 分 的 面积 ， 人 \\ (3) ha(Sin)mon-ortess 式 中 m。 为 第 ; 次 切 制 前 成 品 长 方 体 尚未 被 切 制 到 的 各 让 面 ! 共 ?一 ;个 ) 面积 之 和 . 了 此 时 有 Ba(S65)Sha(S15)Sho(S5,1)SA\"(S5,5)- ¢ 针对 原 间 题 我们 应 用 4 算法， 引入 OPEI 家 及 CLOSE AREH) GLARILRU). 当 搜索 结束 后 CLOSE 开 结 启 数 人 就 具 午 法 执行 生得 中搜 过 过 区 各 点 数 邮 ;) 是 算法 效率 的 体现 ， 我 们 将 三 圳 不 同 多 启发 式 画 芝 Met5) 代入 4\" 算法 ， 并 尾 u(3,ja(55s)ha(5u5) 时 的 4- 算法 分 别 这 An 计算 帮 由 后 CLOSE 表 中 结 吉 数列 于 戈 -一 尖 、 # 1 三 和 搜索 和 法 续 束 时 CLOSB HAANER - [acsio [4 [cosP 表 的 结 点 数 ] [ac ae | Lau 一 5 | 由 表 可 见 上 述 三 种 启发 式 函数 h(S,0) BRBIET 1°(s.,), 也 即 含有 的 启发 信息 依次 增加 ， 从 而 使得 搜索 结 来 后 om AiRy 供 次 减 4 搜索 的 效率 越 来 越 高 ， 此 结果 与 算法 的 性 质 十 分 易 合 . AURITRUREAR NSCoroto, ARTERRIIRIAIR, 全 改进 型 4 算法 ”六 1 改进 方案 “一 《4- 算法 的 效率 车 热 很 高 但 它 还 存在 以 下 两 点 明显 的 不 尼 之 处 ， @ 还 可 以 进一步 的 压缩 ， (2) 4” 算法 只 能 得 到 一 个 最 优 解 ， 不 能 得 到 全 部 的 最 优 解 . 我 们 区 tr， 首先 ， 将 平行 切 抽 厚度 优先 原则 应 用 于 4\" 算法 ， 其次， 在 关 断 法 结束 时 | 间 不 是 找到 OPEN 玫 中 第 一 个 最 优 解 (对 应 的 最 优 信 为 j-(si)) 就 结束 搜索 ， 而 是 继续 对 那些 色 s,) 信 与 六 553) 相同 的 结 点 ， 再 进 和 扩展、 判断 ， 直 到 达到 最 低层 ， 这 样 就 搜索 到 了 全 部 1 或 语 的 &。 位 法 条 为 改进 型 4。 算法 改进 弄 4， 算法 的 检验 图 定点 (abuves), 变动 点 (azbaiea) (esbsie) 中 的 一 个 ， 且 仅 滑 三 维 代 标 四 的 一 个 变动 ， 分 别 用 改进 型 AtA3,a; 算法 计算 ， 从 而 可 以 评价 和 检验 算法 的 效率 、 稳定 性 并 讨论 当成 品 长 方 体 的 边 长 变 化 邑 成 品 长 广 体 越 来 越 接近 于 待 加 工 的 长 方 体 时 ) 对 45,43,4; 的 效率 的 影响 、 初 始 条 件 分 别 取 ， (1) r=1,6=0,(a1,01,¢1)=(10,14.5,19),(a3,bs,c3)=(2,7,9) (2) r=1,e=0,(a1,b1,c1)=(10,14.5,19),(az,b2,c2)=(7,10,15) 具体 表格 、 数 据 及 分 析 结论 咯 。 7 回 共 RN 1 其 裤 。 龙 等 ， 最 小 费用 切 拓 策 略 75 四 、 厚 者 优先 准则 一 、 准则 的 提出 对 于 本 文中 有 限 状态 的 搜索 问题 ， 其 最 优 的 切割 方式 一 定 存在 (用 穷 举 法 即 可 找到 ). 不 妨 设 加 工 竟 用 最 小 的 切 抽 方 式 为 ， or = (if,i5,8,i1yi5,43), 由 贝尔 要 最 优化 原理 ， o\" 具有 ， 在 原 长 方 体 第 KGSksg) 次 切 制 第 区 面 后 ，Gz: 区 + “3) 是 切割 和 人 长 方 体 的 最 优 方式 ， 基 于 此 性 质 ， 从 最 后 一 刀 疝 前 着 推 ， 并 结合 平行 切割 原 者 优先 定理 可 得 到 *=1e=0 如 下 击 明 的 优化 准 (具体 讨论 略 ) : 等 效 厚 度 厅 者 优先 准则 (以 下 简称 原 者 优先 准则 ) : 每 次 选择 一 个 等 效 夯 庶 最 大 的 待 切割 面 进行 切 制 ， 当 几 个 面 的 等 效 厚 度 相同 时 ， 可 在 其 中 任 选 一 个 面 进行 切 制 _ 二 , 厚 者 优先 准则 的 应 用 准 为 了 检验 此 准则 的 实用 性 ， 我 们 给 出 一 组 初 值 ， 用 政 进 型 4- 算法 求 出 最 小 费用 之 二 HE0R HEEHTRI c 定义 催 度 65 《830 f RTIRNAHIBR RAMAIRS 优化 效果 趟 佳 一 具体 方案 为 2 L =ov=l.5. 男 定 待 加 工 长 广 体 的 大 小 ， 在 其 内 部 ， 任 取 王 点 诈 So 这 样 到 1000 组 初始 数据 ， 分 别 用 厚 者 优先 准则 和 BUATHOUCHALCR c，、 雪 虽 方式 s 与 ,并 比较 与 w 的 异同 , PAN WAL25,5,5 0 15 TRT MORESEL SORREERIHEBHEN MTI c 与 最 线 角 过 训 的 加 工程 用 “的 油 对 全部 5= 55- OFSIE RIBAISSE=. 表 模 相 纺 果 和 人 [ . [olilzTashsSSa[iTn [CFEaxtRE &0 | 0 | 0.05 02 | 1.05 | 2.30 | 532 | 6.81 | 1129 | 由 以 上 结果 我 们 得 出 厚 者 优先 准则 具有 两 个 明显 的 特点 ， 1 该 准则 简明 易 行 ， HR 和 音 的 巧 法 计算 和 六 个 数 的 大 小 比较 ， 就 可 以 迅速 确定 一 个 最 优 的 切 制 方式, A 2 该 准则 对 c=o 的 情况 得 到 加 工效 角 最小 的 切 宙 方式 ; 对 。zo 的 情况 , 虽然 不 一 定 总 能 得 到 加 工 绒 用 最 小 的 切割 方 式 ， 但 用 该 准则 得 到 的 加 工 帮 用 与 最 小 加 工交 用 的 绝对 信 郑 。-c* 不 会 超过 ?, 因 此 在 没有 计算 机 用 穷 举 法 和 算法 避 行 计算 时 ， 该 准则 仍 不 失 为 一 各 好 的 并 五 、 问题 三 的 解答 间 题 三 所 给 准则 是 每 次 遂 择 一 个 加 工 并 用 最 少 的 竺 切 抽 面 进行 切 制 .对 于 该 准则 ， 我 们 从 两 个 广西 来 进行 评价 , | o 全 工 用 特 | 并 没有 使 如 工 燃 用 最 少 ， 31 相应 的 数据 如 图 3 所 示 (阴影 实体 为 成 品 长 方 体 ), 即 只 入 进行 两 次 相互 亚 直 的 切 抽 即 可 切 量 成 晤 和 坟 休 NAN 全 7 RA wd) NS N 人 AL 人 SR SSESSSN SS > SS 渗 4 ' * 图 3 特例 的 示意 图 按 研 题目 问题 (9) 所 给 准则 切割， 应 先 季 直 切割， 其 加 工 焕 用 (单位 , 元 ) 为 ，[(2 十 2) x 2 十 4x 2)x 1 = 16. 如 不 按 该 准则 ， 革 交换 这 两 次 切割 的 次 序 ， 先 水 平 切 措 ， 其 加 工 费 用 为 ， [(4 十 D) x 2 十 2 x 人 x 1 = 14 < 16. 此 例 中 按 原 题目 问题 (3) 所 给 准则 进行 切割， 不 能 使 加 工 次 用 最 小 5 ee 76 数学 的 实 威 与 认识 28 郑 开 用 模 执 结 果 来 评价 该 准则 ， 在 图 一 的 坐标 系 中 ， 令 (01.01,62)=(10,14.5,19), (az,b2,c2)=(9,9,13), (osbscs)=(6,79). 首先 我 们 利用 改进 型 4\" 算法 得 到 最 小 加 工 烛 用 c…; 然后 再 利用 问题 (三 ) 所 给 准则 进行 切 制 的 加 工 费 用 与 利用 改进 型 4 算法 所 得 的 最 小 加 工资 用 进行 比较 ,在 此 我 们 采用 偏离 度 *= 252- , 来 稀 量 该 准则 合理 的 程度 . 具体 的 模 扫 方案 是 (1) 取 定 *=or=l, 固定 vbe 中 的 两 个 ， 让 男 一 个 按 一 定 的 比率 增加 (2) 取 定 r=1.5, 让 。 以 步 长 + 从 ? 增加 到 15 时 ， 团 定 sb,et 中 的 两 个 ， 让 另 一 个 变动 ; 通过 比较 模拟 结果 可 得 :不同 的 sbi,e, 很 多 种 情况 中 除 个 别 情况 外 ， 偏 高 度 。 者 是 较 大 ， 说 明 该 准则 对 于 普通 的 情形 是 不 合理 的 . 六 、 问 题 五 的 解答 一 、 问 是 的 解答 = BEULLEIE § —oNRANBUTNIS BOTURENE SAnpREn) 算法 , 改进 型 4 算法 以 及 厚 者 优先 准则 均 得 到 相同 的 结果 ,当时 *z SRUREIRSORIFBARS 最 优 解 很 相近 ， 而 4 算法、 改进 型 4 算法 均 能 得 到 最 优 的 切 审 方式 一 下 对 于 题 中 的 wbe 三 组 数据 ， 我 们 用 上 述 所 有 的 方法 均 可 得 到 如 下 的 最 优 解 竹林 所 T， 情况 a 最 优 的 切 制 方式 为 (6 5, 3，4, 2, 1 及 (8 5 4 3 2 0) 加 工 费 用 为 ofa 5 ” 情况 b 最 优 的 切割 方 式 为 65， 4 6 2 3, 1) 及 (5,e, 3. 2 5 1) 加 工 竟 盾 鸭 4375 7 情况 。 最 优 的 切割 方式 为 (5 4. 2 5, 1 3) 加 工 民 用 为 wo 元 AAS ( 注 ， 1 为 右 侧面 、? 为 尘 而 2 为 上 底面 、4 AENE. yER, © 为 下 底面) 情况 q 做 他 兄 表 三 . 表 3 r=1.52<e<15 uC [C<% 二 二 5 7 人 也 CR | (5,4,6,2,3,1) 四 (5,， 6, 4，2,，3,，1) 网 Zr (5,6,4,2,3,1) < 一-eezeaa | [Les 二 | wesve L 1 | Gea43D | 二 ,结果 分 析 及 讨论 。 可- 用 7 的 物理 意义 为 水 平 切 抽 单位 面积 并 用 与 秋 直 切割 单位 面积 的 炎 用 之 比 ，* 的 取信 对 切割 方式 是 有 一 定 影响 的 ， “= 时 产 根 据 厚 者 优先 准则 ， * 增 大 ， 即 使 实际 厚度 较 小 也 有 可 能 使 得 等 效 厚度 为 最 大 ， 应 子 以 先行 切 制 二 这 样 有 利于 减少 加 工 筑 用 ， 由 结果 中 ， 从 1 变 到 1.5 再 变 到 s 时 加 工 吕 用 最 个 方 式 拉 化 可 /区 着 . 的 增 大 ，s 和 s 的 位 置 必 逐 次 革 后 的 ， 符 别 是 当 ,显然 第 3， o ELKRISPIAN, -0, 第 3 6 面 应 首先 切 抽 2，*e 对 切 制 方式 的 影响 图 和 者 中 的 数据 实际 上 反 瑞 了 调整 刀具 对 切 制 方式 ,加 工 虎 用 的 影响 ， 调 整 刀具 的 次 数 只 可 能 为 1 次 ,- 汉 次 或 3 次 。 当 “=0 时 ， 调 整 刀 具 的 次 数 不 会 影响 最 优 的 切 制 顺序 ， 当 。 充分 大 时 ， 显 然 应 该 让 调 站 的 次 用 尽量 少 ， 最 好 为 1 次 ， 在 本 例 中 ， 由 于 原 冶 数据 的 配合， 调整 的 次 数 由 3 次 直接 时 为 1 次 到 为 呈 般 的 情况 c~。 是 的 曲线 分 成 三 本 \\ 七 、 模 型 的 推广 略 ) 参考 文献 [] 何 华 灿 等 编著 ， 人 工 智 能 导论 ， 西 北 工业 大 学 出 版 社 ， 西 安 1988. 全 于 于 容 闭 ， 组 全 数学， 同济 大 学 出 版 村 ， 上 海 1991. 国 李 建 优等 编 首 ， 动 态 横 划 及 其 应 用 ， 国 防 工业 出 版 社 ， 1994. [4] Mathematica 手册 ， 沈 风 吧 等 编 主 海洋 出 版 社 北京 ， 1992-",
+  "normalized_text_chars": 11650,
+  "normalized_text_sha256": "04D9D5755302688D8B3235278CE96D8E6D1C6DD93A8BFDA9BC2D3924E6F77FBD",
+  "page_provenance_summary": {
+    "OCR": 6
+  },
+  "page_provenance": [
+    {
+      "page_number": 1,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "7AC673F1B9579176EB9529CDF1D443BA70A5724C66FB5B69314398F6FEF18E3F",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 1,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "60F671D535A85CAA228B136161FCC1533AF312BBFB3629F68EB7BD74340DAE79"
+    },
+    {
+      "page_number": 2,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "C04676DD6E968A504EA5BA8AAC284E7FC74F065EC4A7626313A3A8A85F153744",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 2,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "B96BA3848EC61F786AB3DBDF3C3F4743160D5FEBE3C64E3D218F24A3D4FFDAD6"
+    },
+    {
+      "page_number": 3,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "FD3492DB6C608D58687F44F493F486131E98CF3B6B70332BB4D5F47D96F41E7C",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 3,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "ECC895ACD583D48DAD5BE40483565AD581DAB5D136A8830A9D09CE5E3700824E"
+    },
+    {
+      "page_number": 4,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "0D8B285077E8EC653CD1F406298F6095B8F0541D4F86196DEA5EC3F85FE95162",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 4,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "1F747F50AC4961D0436E7E8F04685DB661D4433C67B536ED457C32F505DA6504"
+    },
+    {
+      "page_number": 5,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "FA98E7650C4FCEB881B4DE746A42B56119EA0E4C0CB9D86C918FDD881BD7936B",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 5,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "0A37F3722E362BBC2CD8BF98138834BD34E0C90125400E9DEAAD3B1395D3DB66"
+    },
+    {
+      "page_number": 6,
+      "provenance": "OCR",
+      "authoritative_text_extractor": "NONE",
+      "authoritative_page_text_sha256": "7DADE423C9EAB15CD3C403E29DD6DC89C628E9D6BBE248B1B1EDEB20FE5C4FFB",
+      "tesseract_ocr_child_granularity": "ONE_ROUTED_PAGE_PER_CHILD",
+      "tesseract_ocr_page_number": 6,
+      "tesseract_ocr_phase": "PHASE_6_SELECTIVE_PAGE_OCR",
+      "tesseract_ocr_timeout_seconds": 180,
+      "render_sha256": "F50AC92D98348C8DD1AE2103344C7B949017A4E9546571504E96E39C97415B65"
+    }
+  ],
+  "poppler_runtime_binding_reference": "catalog/scale/g8_q3_poppler_runtime_binding.json",
+  "ocr_runtime_binding": "local tesseract.js 7.0.0 chi_sim+eng",
+  "contract_version": "g8-q3-v1",
+  "reconstruction_status": "COMPLETE_VALID",
+  "q3_extraction_contract_sha256": "4E372E0BFF1D5395C46CFFA583636190AEDB3389FDFFCF354559626757AC3A6F",
+  "revalidation_attempt_id": "20260903T063950668735_29d8de39"
+}
